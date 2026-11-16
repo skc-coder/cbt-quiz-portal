@@ -797,31 +797,8 @@
     </div>
   </div>
 
-  <!-- Controlled Popunder from Adsterra (Social Bar notification ad disabled per user preference) -->
-  <script>
-    // Rate-limit Popunder: Only trigger outside of live CBT examination, max once per 10 minutes
-    (function () {
-      function loadControlledPopunder() {
-        if (document.body.classList.contains('in-cbt-exam') || document.getElementById('examView')?.classList.contains('active')) {
-          return; // Strictly never trigger during live exam
-        }
-        const lastPop = localStorage.getItem('last_popunder_trigger_v1');
-        const now = Date.now();
-        const TEN_MINUTES = 10 * 60 * 1000;
-        if (!lastPop || (now - parseInt(lastPop, 10)) > TEN_MINUTES) {
-          localStorage.setItem('last_popunder_trigger_v1', now.toString());
-          const s = document.createElement('script');
-          s.setAttribute('data-cfasync', 'false');
-          s.src = 'https://abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70';
-          document.body.appendChild(s);
-        }
-      }
-      // Wait for candidate's first click on non-exam pages
-      window.addEventListener('click', function onFirstClick() {
-        loadControlledPopunder();
-      }, { once: true });
-    })();
-  </script>
+  <!-- Popunder from Adsterra -->
+  <script data-cfasync="false" src="https://abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70"></script>
   <script src="src/app.js"></script>
   <div id="toastContainer" class="toast-container"></div>
 </body>

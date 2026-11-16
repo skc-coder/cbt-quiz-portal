@@ -1,5 +1,14 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: Revert Popunder Throttling to Original Direct Script Tag (Update 6)
+- **GitHub Issue**: skc-coder/cbt-quiz-portal#3
+- **User Request**:
+  - Revert popunder changes and restore popunder ad script exactly as it was originally configured.
+- **Implementations**:
+  - Removed client-side rate-limiting and localStorage throttling script wrapper from `index.html`.
+  - Restored raw, direct Adsterra popunder script tag (`<script data-cfasync="false" src="https://abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70"></script>`) as defined in `ad links.txt`.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: Disable Social Bar Ad, Retain Ad Boxes, & Android Mobile Responsiveness (Update 5)
 - **GitHub Issue**: skc-coder/cbt-quiz-portal#2
 - **User Request**:
