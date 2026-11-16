@@ -440,6 +440,16 @@ Please provide:
 
     // Fullscreen Toggle
     document.getElementById('btnToggleFullscreen')?.addEventListener('click', toggleFullscreen);
+
+    // Re-render catalog table on orientation change or window resize across the mobile boundary
+    let lastWidth = window.innerWidth;
+    window.addEventListener('resize', () => {
+      const curWidth = window.innerWidth;
+      if ((lastWidth <= 768 && curWidth > 768) || (lastWidth > 768 && curWidth <= 768)) {
+        renderCatalogTable();
+      }
+      lastWidth = curWidth;
+    });
   }
 
   function toggleFullscreen() {
@@ -472,6 +482,11 @@ Please provide:
       if (supportBanner) supportBanner.style.display = 'none';
       if (noticeBar) noticeBar.style.display = 'none';
       document.body.classList.add('in-cbt-exam');
+      // Remove any injected popunder or ad frames when entering CBT exam
+      document.getElementById('adsterraPopunderScript')?.remove();
+      document.querySelectorAll('iframe[src*="bauval"], iframe[src*="abscloud"]').forEach((f) => {
+        if (f.closest('#examView')) f.remove();
+      });
     } else {
       if (header) header.style.display = 'flex';
       if (tabsNav) tabsNav.style.display = 'flex';
@@ -771,6 +786,24 @@ Please provide:
 
     const fragment = document.createDocumentFragment();
 
+    const isMobileViewport = window.innerWidth <= 768;
+
+    // Synchronize the thead column order according to viewport
+    const theadRow = document.getElementById('catalogHeaderRow');
+    if (theadRow) {
+      const actionTh = theadRow.querySelector('.col-action');
+      const numTh = theadRow.querySelector('.col-num');
+      if (isMobileViewport) {
+        if (actionTh && numTh && theadRow.firstElementChild !== actionTh) {
+          theadRow.insertBefore(actionTh, theadRow.firstElementChild);
+        }
+      } else {
+        if (actionTh && theadRow.lastElementChild !== actionTh) {
+          theadRow.appendChild(actionTh);
+        }
+      }
+    }
+
     pageItems.forEach((item, pageLocalIndex) => {
       const index = startIdx + pageLocalIndex;
       const tr = document.createElement('tr');
@@ -808,24 +841,33 @@ Please provide:
         `;
       }
 
-      tr.innerHTML = `
-        <td style="text-align: center; color: var(--text-muted);">${index + 1}</td>
-        <td>${statusBadge}</td>
-        <td><strong>${escapeHtml(item.provider)}</strong></td>
-        <td>${escapeHtml(item.year || '-')}</td>
-        <td title="${escapeHtml(item.subject)}">${escapeHtml(item.subject)}</td>
-        <td><span style="font-size: 0.75rem; background: var(--bg-surface-elevated); padding: 2px 6px; border-radius: 4px;">${escapeHtml(item.category)}</span></td>
-        <td title="${escapeHtml(item.name)}" style="max-width: 450px; overflow: hidden; text-overflow: ellipsis; font-weight: 500;">
-          ${escapeHtml(item.name)}
-        </td>
-        <td style="text-align: right;">${item.total_qs}</td>
-        <td style="text-align: right;">${item.total_marks}</td>
-        <td style="text-align: right;">${item.duration}m</td>
-        <td style="text-align: right;">${scoreDisplay}</td>
-        <td class="sticky-action-col">
+      const actionTdHtml = `
+        <td class="sticky-action-col col-action">
           ${actionButtons}
         </td>
       `;
+
+      const dataCellsHtml = `
+        <td class="col-num" style="text-align: center; color: var(--text-muted);">${index + 1}</td>
+        <td class="col-status">${statusBadge}</td>
+        <td class="col-provider"><strong>${escapeHtml(item.provider)}</strong></td>
+        <td class="col-year">${escapeHtml(item.year || '-')}</td>
+        <td class="col-subject" title="${escapeHtml(item.subject)}">${escapeHtml(item.subject)}</td>
+        <td class="col-category"><span style="font-size: 0.75rem; background: var(--bg-surface-elevated); padding: 2px 6px; border-radius: 4px;">${escapeHtml(item.category)}</span></td>
+        <td class="col-title" title="${escapeHtml(item.name)}" style="max-width: 450px; overflow: hidden; text-overflow: ellipsis; font-weight: 500;">
+          ${escapeHtml(item.name)}
+        </td>
+        <td class="col-qs" style="text-align: right;">${item.total_qs}</td>
+        <td class="col-marks" style="text-align: right;">${item.total_marks}</td>
+        <td class="col-duration" style="text-align: right;">${item.duration}m</td>
+        <td class="col-score" style="text-align: right;">${scoreDisplay}</td>
+      `;
+
+      if (isMobileViewport) {
+        tr.innerHTML = actionTdHtml + dataCellsHtml;
+      } else {
+        tr.innerHTML = dataCellsHtml + actionTdHtml;
+      }
 
       fragment.appendChild(tr);
 

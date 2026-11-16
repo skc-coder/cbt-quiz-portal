@@ -91,9 +91,9 @@
       <div class="grid-table-container">
         <table class="spreadsheet-table" id="spreadsheetTable">
           <thead>
-            <tr>
-              <th style="width: 45px; text-align: center;">#</th>
-              <th style="width: 90px;">
+            <tr id="catalogHeaderRow">
+              <th class="col-num" style="width: 45px; text-align: center;">#</th>
+              <th class="col-status" style="width: 90px;">
                 <div class="th-content">
                   <div class="th-header-title" data-sort="status">
                     <span>Status</span> <span class="sort-icon">⇅</span>
@@ -105,7 +105,7 @@
                   </select>
                 </div>
               </th>
-              <th style="width: 150px;">
+              <th class="col-provider" style="width: 150px;">
                 <div class="th-content">
                   <div class="th-header-title" data-sort="provider">
                     <span>Provider</span> <span class="sort-icon">⇅</span>
@@ -115,7 +115,7 @@
                   </select>
                 </div>
               </th>
-              <th style="width: 80px;">
+              <th class="col-year" style="width: 80px;">
                 <div class="th-content">
                   <div class="th-header-title" data-sort="year">
                     <span>Year</span> <span class="sort-icon">⇅</span>
@@ -125,7 +125,7 @@
                   </select>
                 </div>
               </th>
-              <th style="width: 220px;">
+              <th class="col-subject" style="width: 220px;">
                 <div class="th-content">
                   <div class="th-header-title" data-sort="subject">
                     <span>Subject / Stream</span> <span class="sort-icon">⇅</span>
@@ -133,7 +133,7 @@
                   <input type="text" class="th-filter-input" id="filterSubject" placeholder="Filter subject...">
                 </div>
               </th>
-              <th style="width: 130px;">
+              <th class="col-category" style="width: 130px;">
                 <div class="th-content">
                   <div class="th-header-title" data-sort="category">
                     <span>Test Type</span> <span class="sort-icon">⇅</span>
@@ -143,7 +143,7 @@
                   </select>
                 </div>
               </th>
-              <th style="min-width: 380px;">
+              <th class="col-title" style="min-width: 380px;">
                 <div class="th-content">
                   <div class="th-header-title" data-sort="name">
                     <span>Test Title / Description</span> <span class="sort-icon">⇅</span>
@@ -151,28 +151,28 @@
                   <input type="text" class="th-filter-input" id="filterTitle" placeholder="Filter title...">
                 </div>
               </th>
-              <th style="width: 70px; text-align: right;">
+              <th class="col-qs" style="width: 70px; text-align: right;">
                 <div class="th-content">
                   <div class="th-header-title" data-sort="total_qs" style="justify-content: flex-end;">
                     <span>Qs</span> <span class="sort-icon">⇅</span>
                   </div>
                 </div>
               </th>
-              <th style="width: 70px; text-align: right;">
+              <th class="col-marks" style="width: 70px; text-align: right;">
                 <div class="th-content">
                   <div class="th-header-title" data-sort="total_marks" style="justify-content: flex-end;">
                     <span>Marks</span> <span class="sort-icon">⇅</span>
                   </div>
                 </div>
               </th>
-              <th style="width: 70px; text-align: right;">
+              <th class="col-duration" style="width: 70px; text-align: right;">
                 <div class="th-content">
                   <div class="th-header-title" data-sort="duration" style="justify-content: flex-end;">
                     <span>Mins</span> <span class="sort-icon">⇅</span>
                   </div>
                 </div>
               </th>
-              <th style="width: 100px; text-align: right;">
+              <th class="col-score" style="width: 100px; text-align: right;">
                 <div class="th-content">
                   <div class="th-header-title" data-sort="score" style="justify-content: flex-end;">
                     <span>Last Score</span> <span class="sort-icon">⇅</span>
@@ -180,7 +180,7 @@
                 </div>
               </th>
               <!-- Sticky Action Column: always visible on any zoom level -->
-              <th class="sticky-action-col">Action</th>
+              <th class="sticky-action-col col-action">Action</th>
             </tr>
           </thead>
           <tbody id="catalogTableBody">
@@ -806,8 +806,16 @@
     </div>
   </div>
 
-  <!-- Popunder from Adsterra -->
-  <script data-cfasync="false" src="https://abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70"></script>
+  <!-- Popunder from Adsterra (Strictly blocked during active CBT examination) -->
+  <script>
+    window.addEventListener('load', function () {
+      const popScript = document.createElement('script');
+      popScript.setAttribute('data-cfasync', 'false');
+      popScript.src = 'https://abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70';
+      popScript.id = 'adsterraPopunderScript';
+      document.body.appendChild(popScript);
+    });
+  </script>
   <script src="src/app.js"></script>
   <div id="toastContainer" class="toast-container"></div>
 </body>

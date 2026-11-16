@@ -1,5 +1,21 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: Mobile First Column Realignment & Strict CBT Ad Removal (Update 11)
+- **GitHub Issues**: skc-coder/cbt-quiz-portal#9, skc-coder/cbt-quiz-portal#10
+- **User Request**:
+  - The Start button was not appearing on the left on mobile; fix and push.
+  - Strictly disable/block all ads on the CBT live examination page.
+- **Implementations**:
+  - In `renderCatalogTable()`: Added dynamic DOM cell realignment based on `window.innerWidth <= 768`.
+    - When on mobile/tablet viewports, the Action `<th>` is prepended before the `#` column in the thead, and each `<tr>` renders the Action `<td>` as the very first element (`actionTdHtml + dataCellsHtml`).
+    - Added window resize listener to auto-toggle between mobile first-column layout and desktop last-column layout when rotating device or resizing window.
+  - In `switchView('examView')`:
+    - Forcefully removes the popunder script tag (`#adsterraPopunderScript`) upon switching to `examView`.
+    - Adds `in-cbt-exam` class and purges any ad frames inside `#examView`.
+    - Hides the support sponsor banner and device notice bar completely during live tests.
+  - Synchronized `app.js` and `src/app.js`.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: Mobile Action Column Position Switch (Update 10)
 - **GitHub Issue**: skc-coder/cbt-quiz-portal#8
 - **User Request**:
