@@ -1,5 +1,17 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: Popunder Rate-Limiting & CBT Ad Shield (Update 4)
+- **User Request**:
+  - Stop ad popups from firing during CBT exams.
+  - Remove the cross button from the top support banner.
+  - Rate-limit / throttle the aggressive popunder behavior.
+- **Implementations**:
+  - Removed close/cross button from `#supportBanner`.
+  - Added strict exam view hide in `switchView` so `#supportBanner` and all ad hooks are forcefully hidden when entering `examView`.
+  - Added `in-cbt-exam` state class to `document.body` during live examination.
+  - Wrapped Adsterra popunder in a rate-limiting throttle (10-minute cooldown in `localStorage`) and added an active exam check to block popup triggers while taking a test.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: UI Refinement & Comprehensive Setup Guide Details (Update 3)
 - **User Request**:
   - Remove the intrusive ad container below the tabs/buttons and the ad slot at the very bottom of the catalog.

@@ -452,14 +452,19 @@ Please provide:
     state.activeTab = viewId;
     const header = document.getElementById('mainAppHeader');
     const tabsNav = document.getElementById('viewTabsNav');
+    const supportBanner = document.getElementById('supportBanner');
 
-    // While in examination view: hide main header and navigation tabs for pure distraction-free focus
+    // While in examination view: hide main header, tabs, and support banner for pure distraction-free focus
     if (viewId === 'examView') {
-      header.style.display = 'none';
-      tabsNav.style.display = 'none';
+      if (header) header.style.display = 'none';
+      if (tabsNav) tabsNav.style.display = 'none';
+      if (supportBanner) supportBanner.style.display = 'none';
+      document.body.classList.add('in-cbt-exam');
     } else {
-      header.style.display = 'flex';
-      tabsNav.style.display = 'flex';
+      if (header) header.style.display = 'flex';
+      if (tabsNav) tabsNav.style.display = 'flex';
+      if (supportBanner) supportBanner.style.display = 'flex';
+      document.body.classList.remove('in-cbt-exam');
     }
 
     document.querySelectorAll('.view-section').forEach((sec) => sec.classList.remove('active'));
@@ -2411,13 +2416,6 @@ Please provide:
         syncBtn.textContent = originalText;
         syncBtn.disabled = false;
       }
-    });
-
-    // Support banner dismiss logic
-    const supportBanner = document.getElementById('supportBanner');
-    const closeSupportBtn = document.getElementById('closeSupportBannerBtn');
-    closeSupportBtn?.addEventListener('click', () => {
-      if (supportBanner) supportBanner.style.display = 'none';
     });
   }
 
