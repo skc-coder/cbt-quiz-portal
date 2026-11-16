@@ -1,5 +1,22 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: Ad Policy Audit & Enforcement - Only Banners & Support Link Active (Update 13)
+- **GitHub Issue**: skc-coder/cbt-quiz-portal#13
+- **User Request**:
+  - Ensure that only banner ads and the support link ad are enabled.
+- **Audit & Implementation Details**:
+  - Verified that all popunder scripts (`abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70`) are completely absent from `index.html` and script bundles.
+  - Verified that Social Bar notification scripts (`bauval.org/14/3a33496a1c21bccf192883f2ecbb2dda`) remain disabled.
+  - Confirmed active ad configuration strictly consists of:
+    1. **Top Support / Sponsor Link**: `#supportBanner` with button pointing to Smartlink (`https://asiafilm.org/4/8e7a72df55209eb75d77dbd9698ccf19`).
+    2. **Banner Ad Slots**:
+       - Catalog table intermittent rows (468x60 iframe banner).
+       - Dashboard attempt history header (468x60 iframe banner).
+       - Post-exam analysis overview top slot (728x90 iframe banner).
+       - Post-exam solution question review card separators (468x60 iframe banner).
+    3. **Zero Ads during Live CBT Mock**: Full suppression of all banners and support bars remains active during active exam view.
+- **Status**: Verified, documented, and synchronized.
+
 ## 2026-11-16: Remove Popunder Script Completely (Update 12)
 - **GitHub Issue**: skc-coder/cbt-quiz-portal#12
 - **User Request**:
