@@ -1,5 +1,25 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: Disable Social Bar Ad, Retain Ad Boxes, & Android Mobile Responsiveness (Update 5)
+- **GitHub Issue**: skc-coder/cbt-quiz-portal#2
+- **User Request**:
+  - Disable the floating notification-like ad (Social Bar) so it no longer appears.
+  - Ensure all ad placeholder containers remain visible on screen even if ads don't load or are ad-blocked.
+  - Keep all other ad formats (banners, support link, post-exam banners, review banners, controlled popunder) active.
+  - Implement thorough responsive design optimized for Android mobile devices.
+- **Implementations**:
+  - Removed Social Bar notification script (`https://bauval.org/14/3a33496a1c21bccf192883f2ecbb2dda`) from `index.html`.
+  - Added proper mobile viewport meta tag (`<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">`) to enable native Android scaling.
+  - Preserved `.ad-slot-container` and `.table-ad-row` structure and styling with dashed ash-gray borders so containers remain intact as requested even when blocked by browser ad-blockers or DNS filters.
+  - Added comprehensive mobile CSS rules across `src/styles.css` and `style.css` for viewports under 768px and 480px:
+    - View tabs now horizontally scroll with touch momentum and hidden scrollbars.
+    - Full-width search bar on mobile with clean touch targets.
+    - Responsive Excel catalog table with horizontal scrollable wrapper.
+    - Single/dual-column responsive grid layout for performance metrics and heatmaps.
+    - Optimized TCS iON exam layout for mobile with centered toolbar, stacked hotbar action buttons with touch-friendly paddings, and responsive sliding question palette overlay (up to 85vw width).
+    - Mobile-friendly modals and floating calculator positioning.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: Popunder Rate-Limiting & CBT Ad Shield (Update 4)
 - **User Request**:
   - Stop ad popups from firing during CBT exams.
