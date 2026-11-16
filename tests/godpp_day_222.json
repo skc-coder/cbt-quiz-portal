@@ -1,0 +1,70 @@
+{
+  "name": "Day 213 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524319",
+          "text": "<p>Let $w, g$ and $n$ be propositions where $w$ is \"I walk to work\", $g$ is \"I work in Gurugram\", and $n$ is \"I work at night\". The sentence \"When I work at night and I work in Gurugram, I don't walk to work\" could be equivalently written using propositions and logical connectives as:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(n \\wedge g) \\Rightarrow&nbsp;\\neg w$</li><li>$(n \\vee g) \\Leftrightarrow n$</li><li>$n \\Rightarrow \\neg(w \\wedge g)$</li><li>$\\neg(w \\wedge g) \\vee n$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 213"
+        },
+        {
+          "post_id": "524315",
+          "text": "<ul><li>p = \"All the world is apple pie\"</li><li>q = \"All the seas are ink\"</li><li>r = \"All the trees are bread and cheese\"</li><li>s = \"There is nothing to drink\"</li><li>t = \"Socrates was a man\"</li><li>u = \"All men are mortal\"</li><li>v = \"Socrates was mortal\"</li></ul><div><p>Consider the proposition: (( p ∨ t) ∧ (q ∨ u)) ↔ (s ∧ v)</p><p>Using the given truth values from the <strong>Socrates syllogism</strong> where:</p><ul><li>t = T (Socrates was a man)</li><li>u = T (All men are mortal)</li><li>v = T (Socrates was mortal)</li><li>p = F, q = F, s = F</li></ul><p>What is the truth value of the entire proposition? Enter 1 for TRUE, 0 for FALSE.</p></div>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 213"
+        },
+        {
+          "post_id": "524312",
+          "text": "<ul><li>p = \"All the world is apple pie\"</li><li>q = \"All the seas are ink\"</li><li>r = \"All the trees are bread and cheese\"</li><li>s = \"There is nothing to drink\"</li><li>t = \"Socrates was a man\"</li><li>u = \"All men are mortal\"</li><li>v = \"Socrates was mortal\"</li></ul><div><p>Consider the proposition (t ∧ u) → v. Which of the following statements are TRUE about this proposition? <em>(Select all that apply)</em></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>This proposition encodes a valid logical argument — v is always true</li><li>The proposition is TRUE when t = T, u = T, v = T</li><li>The proposition can be FALSE only when both t and u are TRUE and v is FALSE</li><li>This proposition is logically equivalent to ¬v → (¬t ∨ ¬u)</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 213"
+        },
+        {
+          "post_id": "524306",
+          "text": "<ul><li>p = \"All the world is apple pie\"</li><li>q = \"All the seas are ink\"</li><li>r = \"All the trees are bread and cheese\"</li><li>s = \"There is nothing to drink\"</li><li>t = \"Socrates was a man\"</li><li>u = \"All men are mortal\"</li><li>v = \"Socrates was mortal\"</li></ul><div><p>What is the correct English translation of ¬s → ¬v ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If there is nothing to drink, then Socrates was not mortal</li><li>If Socrates was not mortal, then there is nothing to drink</li><li>If there is something to drink, then Socrates was not mortal</li><li>There is nothing to drink and Socrates was not mortal</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 213"
+        },
+        {
+          "post_id": "524298",
+          "text": "<ul><li>p = \"All the world is apple pie\"</li><li>q = \"All the seas are ink\"</li><li>r = \"All the trees are bread and cheese\"</li><li>s = \"There is nothing to drink\"</li><li>t = \"Socrates was a man\"</li><li>u = \"All men are mortal\"</li><li>v = \"Socrates was mortal\"</li></ul><div><p>Which of the following is the correct English translation of $(t\\wedge u)\\to v$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Socrates was mortal if and only if he was a man and all men are mortal</li><li>If Socrates was a man and all men are mortal, then Socrates was mortal</li><li>If Socrates was mortal, then he was a man and all men are mortal</li><li>Socrates was a man, all men are mortal, and Socrates was mortal</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 213"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 71 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "483374",
+          "text": "<p>Consider the following statements:<br><br>S1: There exists an array of size $n$ such that optimized Bubblesort outperforms mergesort on this array</p><p>S2: Consider a modification of insertion sort: while finding the correct position of the current element in the previously sorted array, you apply binary search instead of linear search.<br>This algorithm takes $\\mathrm{O}(n \\log n)$ time in the worst case, where O represents big-oh<br><br>S3: $\\log (n!)=o(n \\log n)$ where o represents small-oh<br><br>Which of the following statements is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>S1 is true<br>&nbsp;</li><li>S2 is true and S1,S3 are false<br>&nbsp;</li><li>S1,S3 are true and S2 Is false<br>&nbsp;</li><li>S1,S2 are true and S3 is false</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 71"
+        },
+        {
+          "post_id": "483376",
+          "text": "<p>Consider the following statements about sorting algorithms:<br><br>S1: There exists an input of size $n$ where standard 2 way quick Sort runs asymptotically faster than Merge Sort.</p><p>S2: There exists an input of size n for which Merge Sort runs in $\\Theta(\\mathrm{n} \\cdot \\sqrt{n})$ time.<br><br>S3: Quick Sort is in-place but unstable, whereas Merge Sort is stable but not in-place in its standard form.</p><p>S4: Insertion Sort is asymptotically faster than Merge Sort when the input is nearly sorted.</p><p>Which of the above statement(s) is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>S1, S3, and S4 only<br>&nbsp;</li><li>S1 and S3 only<br>&nbsp;</li><li>S3 and S4 only<br>&nbsp;</li><li>S1, S2, and S3 only</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 71"
+        },
+        {
+          "post_id": "483372",
+          "text": "<p>Consider An array of $n$ Comparable objects that is sorted except for $k$ randomly located pairs of adjacent elements that have been swapped (each element is part of at most one pair).</p><p>You want to sort this array.<br>Which of the following statements is/are correct regarding the tightest upper bound of doing this task?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Optimized Bubblesort can sort this array in O(n) time in worst case<br>&nbsp;</li><li>Optimized Bubblesort can sort this array in $\\mathrm{O}\\left(\\mathrm{n}^2\\right)$ time in worst case<br>&nbsp;</li><li>Insertion sort can sort this array in $O(n)$ time in worst case<br>&nbsp;</li><li>Insertions sort can sort this array in $\\mathrm{O}\\left(\\mathrm{n}^2\\right)$ time in worst case</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 71"
+        },
+        {
+          "post_id": "483370",
+          "text": "Suppose you apply Bubble Sort to sort the following array in ascending order<br>\n<br>\n$$<br>\n50,32,35,46,3,4,1,8<br>\n$$<br>\n<br>\nThe element at the $2^{\\text {nd }}$ last position after 3 passes will be ____________ .",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 71"
+        },
+        {
+          "post_id": "483367",
+          "text": "<p>You are running a library catalogue. You know that the books in your collection are almost in sorted ascending order by title, with the exception of one book which is in the wrong place. You want the catalogue to be completely sorted in ascending order.</p><p>Which of the following algorithms is best suited in this setting?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Insertion Sort<br>&nbsp;</li><li>Merge Sort<br>&nbsp;</li><li>Bubblesort<br>&nbsp;</li><li>Quicksort</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 71"
+        }
+      ]
+    }
+  ]
+}

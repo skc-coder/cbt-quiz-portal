@@ -1,0 +1,352 @@
+{
+  "name": "TIFR CSE 2017",
+  "duration": "180",
+  "total_qs": "30",
+  "total_qs_one": 0,
+  "total_qs_two": 30,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 60,
+  "total_marks": 60,
+  "num_options": "5",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 60,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "94931",
+          "text": "<p>A suitcase weighs one kilogram plus half of its weight. How much does the suitcase weigh?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1.3333$... kilograms</li>\n    <li>$1.5$ kilograms</li>\n    <li>$1.666$... kilograms</li>\n    <li>$2$ kilograms</li>\n    <li>cannot be determined from the given data</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,quantitative-aptitude,fractions,normal",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "94938",
+          "text": "<p>For vectors $x, \\: y$ in $\\mathbb{R}^n$, define the inner product $\\langle x, y \\rangle = \\Sigma^n_{i=1} x_iy_i$, and the length of $x$ to be $\\| x \\| = \\sqrt{\\langle x, x \\rangle}$. Let $a, \\: b$ be two vectors in $\\mathbb{R} ^n$ so that $\\| b \\| =1$. Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type: lower-roman;\">\n    <li>$\\langle a, b \\rangle \\leq \\| b \\|$</li>\n    <li>$\\langle a, b \\rangle \\leq \\| a \\|$</li>\n    <li>$\\langle a, b \\rangle = \\| a \\| \\| b \\|$</li>\n    <li>$\\langle a, b \\rangle \\geq \\| b \\|$</li>\n    <li>$\\langle a, b \\rangle \\geq \\| a \\|$</li>\n</ol>\n\n<p><br>\nWhich of the above statements must be TRUE of $a, \\: b$? Choose from the following options.</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>ii only</li>\n    <li>i and ii</li>\n    <li>iii only</li>\n    <li>iv only</li>\n    <li>iv and v</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,linear-algebra,vector-space",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "94941",
+          "text": "<p>On planet TIFR, the acceleration of an object due to gravity is half that on planet earth. An object on planet earth dropped from a height $h$ takes time $t$ to reach the ground. On planet TIFR, how much time would an object dropped from height $h$ take to reach the ground?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\left(\\dfrac{t}{\\sqrt{2}}\\right)$</li>\n    <li>&nbsp;$\\sqrt {2}t$</li>\n    <li>&nbsp; $2t$</li>\n    <li>$\\left(\\dfrac{h}{t}\\right)$</li>\n    <li>$\\left(\\dfrac{h}{2t}\\right)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,quantitative-aptitude,speed-time-distance",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "94943",
+          "text": "<p>Which of the following functions asymptotically grows the fastest as $n$ goes to infinity?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$(\\log \\: \\log \\: n)!$</li>\n    <li>$(\\log \\: \\log \\: n)^ {\\log \\: n}$</li>\n    <li>$(\\log \\: \\log \\: n)^{\\log \\: \\log \\: \\log \\: n}$</li>\n    <li>$(\\log \\: n)^{\\log \\: \\log \\: n}$</li>\n    <li>$2^{\\sqrt{\\log \\: \\log \\: n}}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,algorithms,asymptotic-notations",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "94953",
+          "text": "<p>How many distinct ways are there to split $50$ identical coins among three people so that each person gets at least $5$ coins?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3^{35}$</li>\n    <li>$3^{50}-2^{50}$</li>\n    <li>$\\binom{35}{2}$</li>\n    <li>$\\binom{50}{15} \\cdot 3^{35}$</li>\n    <li>$\\binom{37}{2}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "e",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,combinatory,discrete-mathematics,normal,balls-in-bins",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "95033",
+          "text": "<p>How many distinct words can be formed by permuting the letters of the word $\\text{ABRACADABRA}?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\frac{11!}{5! \\: 2! \\: 2!}$</li>\n    <li>$\\frac{11!}{5! \\: 4! }$</li>\n    <li>$11! \\: 5! \\: 2! \\: 2!\\:$</li>\n    <li>$11! \\: 5! \\: 4!$</li>\n    <li>$11! $</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,combinatory,counting,easy",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "95037",
+          "text": "<p>Consider the sequence $S_0, S_1, S_2, \\dots$ defined as follows: $S_0=0, \\: S_1=1 \\: $ and $S_n=2S_{n-1} + S_{n-2}$ for $n \\geq 2$. Which of the following statements is FALSE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>for every $n \\geq 1$, $S_{2n}$ is even</li>\n    <li>for every $n \\geq 1$, $S_{2n+1}$ is odd</li>\n    <li>for every $n \\geq 1$, $S_{3n}$ is multiple of $3$</li>\n    <li>for every $n \\geq 1$, $S_{4n}$ is multiple of $6$</li>\n    <li>none of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,recurrence-relation",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "95039",
+          "text": "<p>In a tutorial on geometrical constructions, the teacher asks a student to construct a right-angled triangle ABC where the hypotenuse BC is 8 inches and the length of the perpendicular dropped from A onto the hypotenuse is $h$ inches, and offers various choices for teh value of $h$. For which value of $h$ can such a triangle NOT exist?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>3.90 inches</li>\n    <li>$2 \\sqrt{2}$&nbsp;inches</li>\n    <li>$2 \\sqrt{3}$&nbsp;inches</li>\n    <li>4.1 inches</li>\n    <li>none of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,quantitative-aptitude,geometry",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "95042",
+          "text": "<p>Consider the $majority$ function on three bits, $\\textbf{maj}: \\{0, 1\\}^3 \\rightarrow \\{0, 1\\}$ where $\\textbf{maj}(x_1, x_2, x_3)=1$ if and only if $x_1+x_2+x_3 \\geq 2$. Let $p(\\alpha)$ be the probability that the output is $1$ when each input is set to $1$ independently with probability $\\alpha$. What is $p'(\\alpha) = \\frac{d}{d\\alpha} p (\\alpha)$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3 \\alpha$</li>\n    <li>$\\alpha^2$</li>\n    <li>$6\\alpha(1-\\alpha)$</li>\n    <li>$3\\alpha^2 (1-\\alpha)$</li>\n    <li>$6\\alpha(1-\\alpha)+\\alpha^2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,probability,independent-events,differentiation",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "95272",
+          "text": "<p>For a set $A$ define $P(A)$ to be the set of all subsets of $A$. For example, if $A&nbsp;= \\{1, 2\\}$ then $P(A) = \\{ \\emptyset, \\{1, 2\\}, \\{1\\}, \\{ 2 \\} \\}$. Let $A \\rightarrow P(A)$ be a function and $A$ is not empty. Which of the following must be TRUE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$f$ cannot be one-to-one (injective)</li>\n    <li>$f$ cannot be onto (surjective)</li>\n    <li>$f$ is both one-to-one and onto (bijective)</li>\n    <li>there is no such $f$ possible</li>\n    <li>if such a function $f$ exists, then $A$ is infinite</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,set-theory&algebra,functions,easy",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "95289",
+          "text": "<p>Let $f \\: \\circ \\: g$ denote function composition such that $(f \\circ g)(x) = f(g(x))$. Let $f: A \\rightarrow B$ such that for all $g \\: : \\: B \\rightarrow A$ and $h \\: : \\: B \\rightarrow A$ we have $f \\: \\circ \\: g = f \\: \\circ \\: h \\: \\Rightarrow g = h$. Which of the following must be true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$f$ is onto (surjective)</li>\n    <li>$f$ is one-to-one (injective)</li>\n    <li>$f$ is both one-to-one and onto (bijective)</li>\n    <li>the range of $f$ is finite</li>\n    <li>the domain of $f$ is finite</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,set-theory&algebra,functions",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "95299",
+          "text": "<p>Consider the following program modifying an $n \\times n$ square matrix $A$:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nfor i=1 to n:\n    for j=1 to n:\n        temp=A[i][j]+10\n        A[i][j]=A[j][i]\n        A[j][i]=temp-10\n    end for\nend for</pre>\n\n<p>Which of the following statements about the contents of matrix $A$ at the end of this program must be TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>the new $A$ is the transpose of the old $A$</li>\n    <li>all elements above the diagonal have their values increased by $10$ and all the values below have their values decreased by $10$</li>\n    <li>all elements above the diagonal have their values decreased by $10$ and all the values below have their values increased by $10$</li>\n    <li>the new matrix $A$ is symmetric, that is, $A[i][j]=A[j][i]$ for all $1 \\leq i, j \\leq n$</li>\n    <li>$A$ remains unchanged</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "e",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,algorithms,identify-function",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "95307",
+          "text": "<p>A set of points $S \\subseteq \\mathbb{R}^2$ is convex if for any points $x, \\: y \\: \\in S$, every point on the straight line joining $x$ and $y$ is also in $S$. For two sets of points $S, T \\subset \\mathbb{R}^2$, define the sum $S+T$ as the set of points obtained by adding a point in $S$ to a point $T$. That is, $S+T := \\{(x_1, x_2) \\in \\mathbb{R}^2 : x_1=y_1+z_1, \\: x_2 = y_2 + z_2, \\quad (y_1, y_2) \\in S, (z_1, z_2) \\in T\\}$. Similarly, $S-T:=\\{(x_1, x_2) \\in \\mathbb{R}^2 : x_1 = y_1-z_1, \\: x_2=y_2-z_2, \\quad (y_1, y_2) \\in S, (z_1, z_2) \\in&nbsp;T \\}$ is the set of points obtained by subtracting a point in $T$ from a point in $S$. Which of the following statements is TRUE for all convex sets $S, \\: T$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$S+T$ is convex but not $S-T$</li>\n    <li>$S-T$ is convex but not $S+T$</li>\n    <li>exactle one of&nbsp;$S+T$ and&nbsp;$S-T$ is convex, but it depends on $S$ and $T$ which one</li>\n    <li>neither&nbsp;$S+T$ nor&nbsp;$S-T$ is convex</li>\n    <li>both&nbsp;$S+T$ and&nbsp;$S-T$ are convex</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "e",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,quantitative-aptitude,geometry",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "95657",
+          "text": "<p>Consider the following game with two players, Aditi and Bharat. There are $n$ tokens in a bag. The two players know $n$, and take turns removing tokens from the bag. In each turn, a player can either remove one token or two tokens. The player that removes the last token from the bag loses. Assume that Aditi always goes first. Further, we say that a player has a winning strategy if she or he can win the game, no matter what other player does. Which of the following statements is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>For $n=3$, Bharath has a winning strategy. For&nbsp;$n=4$,&nbsp;Aditi has a winning strategy.</li>\n    <li>For $n=7$, Bharath has a winning strategy. For&nbsp;$n=8$,&nbsp;Aditi has a winning strategy.</li>\n    <li>For both $n=3$ and $n=4$, Aditi has a winning strategy.</li>\n    <li>For both $n=7$ and $n=8$, Bharat has a winning strategy.</li>\n    <li>Bharat never&nbsp;has a winning strategy.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,analytical-aptitude,logical-reasoning",
+          "category": "Analytical Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "95664",
+          "text": "<p>Let $T(a, b)$ be the function with two arguments (both nonnegative integral powers of 2) defined by the following recurrence:</p>\n\n<ul>\n    <li>$ T(a, b) = T \\left( \\frac{a}{2}, b \\right) +T\\left( a, \\frac{b}{2}&nbsp;\\right)\\quad&nbsp;\\quad \\quad \\text{if } a, b \\geq 2$;</li>\n    <li>$ T(a, 1) = T \\left( \\frac{a}{2}, 1&nbsp;\\right) \\quad \\quad \\quad\\quad\\quad \\quad&nbsp;\\quad \\:\\:\\:\\text{if } a&nbsp;\\geq 2$;</li>\n    <li>$ T(1, b) = T \\left( 1, \\frac{b}{2} \\right) \\quad \\quad \\quad\\quad \\quad\\quad\\quad \\quad \\text{if } b&nbsp;\\geq 2$;</li>\n    <li>$T(1, 1)=1$.</li>\n</ul>\n\n<p>What is $T(2^r, 2^s)$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$rs$</li>\n    <li>$r+s$</li>\n    <li>$\\begin{pmatrix} 2^r+2^s \\\\ 2^r \\end{pmatrix}$</li>\n    <li>$\\begin{pmatrix} r+s&nbsp;\\\\ r \\end{pmatrix}$</li>\n    <li>$2^{r-s}$ if $r \\geq s$, otherwise $2^{s-r}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,algorithms,recurrence-relation",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "95669",
+          "text": "<p>A vertex colouring with three colours of a graph $G=(V, E)$ is a mapping $c: V \\rightarrow \\{R, G, B\\}$ so that adjacent vertices receive distinct colours. Consider the following undirected graph.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"data:image/png;base64,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\" width=\"420\"></p>\n\n<p>How many vertex colouring with three colours does this graph have?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3^9$</li>\n    <li>$6^3$</li>\n    <li>$3 \\times 2^8$</li>\n    <li>$27$</li>\n    <li>$24$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "e",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,graph-theory,graph-coloring",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "95673",
+          "text": "<p>Consider the following statements:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n    <li>Checking if a given $undirected$ graph has a cycle is in $\\mathsf{P}$</li>\n    <li>Checking if a given $undirected$ graph has a cycle is in $\\mathsf{NP}$</li>\n    <li>Checking if a given $directed$ graph has a cycle is in $\\mathsf{P}$</li>\n    <li>Checking if a given $directed$ graph has a cycle is in $\\mathsf{NP}$</li>\n</ol>\n\n<p>Which of the above statements is/are TRUE? Choose from the following options.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only i and ii</li>\n    <li>Only ii and iv</li>\n    <li>Only ii, iii, and iv</li>\n    <li>Only i, ii and iv</li>\n    <li>All of them</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "e",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,algorithms,graph-algorithms,p-np-npc-nph",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "95679",
+          "text": "<p>We have an implementation that supports the following operations on a stack (in the instructions below, $\\mathsf{s}$ is the name of the stack).</p>\n\n<ul>\n    <li>$\\mathsf{isempty(s)}$ : returns $\\mathsf{True}$ if $\\mathsf{s}$ is empty, and $\\mathsf{False}$ otherwise.</li>\n    <li>$\\mathsf{top(s)}$ : returns the top element of the stack, but does not pop the stack; returns&nbsp;$\\mathsf{null}$ if&nbsp;the stack is empty.</li>\n    <li>$\\mathsf{push(s,x)}$ : places&nbsp;$\\mathsf{x}$ on top of the stack.</li>\n    <li>$\\mathsf{pop(s)}$ : pops the stack; does nothing if&nbsp;$\\mathsf{s}$ is empty.</li>\n</ul>\n\n<p>Consider the following code:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\npop_ray_pop(x):\n    s=empty\n    for i=1 to length(x):\n        if (x[i] == '('):\n            push(s, x[i])\n        else:\n            while (top(s)=='('):\n                pop(s)\n            end while\n            push(s, ')')\n        end if\n    end for\n    while not isempty(s):\n        print top(s)\n        pop(s)\n    end while</pre>\n\n<p>What is the output of this program when</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\npop_ray_pop(\"(((()((())((((\")</pre>\n\n<p>is executed?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$(((($</li>\n    <li>$))) \\ (((($</li>\n    <li>$)))$</li>\n    <li>$(((()))$</li>\n    <li>$()()$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,data-structures,stack",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "95680",
+          "text": "<p>Let $L$ be the language over the alphabet $\\{1, 2, 3, (, )\\}$ generated by the following grammar (with start symbol $S$, and non-terminals $\\{A, B, C\\}$):</p>\n\n<p>$ S \\rightarrow A \\: B \\: C \\\\ A&nbsp;\\rightarrow ( \\\\ B&nbsp;\\rightarrow 1 \\: B \\mid 2 \\: B \\mid 3 \\: B \\\\ B&nbsp;\\rightarrow 1 \\mid 2 \\mid 3 \\\\ C&nbsp;\\rightarrow )$</p>\n\n<p>Then, which of the following is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$L$ is finite</li>\n    <li>$L$ is not recursively enumerable</li>\n    <li>$L$ is regular</li>\n    <li>$L$ contains only strings of even length</li>\n    <li>$L$ is context-free but not regular</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,theory-of-computation,identify-class-language",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "95683",
+          "text": "<p>Consider&nbsp;the following psuedocode fragment, where $y$ is an integer that has been initialized.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nint i=1\nint j=1\nwhile (i&lt;10):\n    j=j*i\n    i=i+1\n    if (i==y):\n        break\n    end if\nend while</pre>\n\n<p>Consider the following statements:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n    <li>$(i==10)$ or $(i==y)$</li>\n    <li>If $y &gt; 10$, then $i==10$</li>\n    <li>If $j=6$, then $y==4$</li>\n</ol>\n\n<p>Which of the above statements&nbsp;is/are TRUE at the end of the while loop? Choose from the following options.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>i only</li>\n    <li>iii only</li>\n    <li>ii and iii only</li>\n    <li>i, ii, and iii</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,programming,loop-invariants",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "95689",
+          "text": "<p>Consider the First Order Logic (FOL) with equality and suitable function and relation symbols. Which of the following is FALSE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Partial orders cannot be axiomatized in FOL</li>\n    <li>FOL has a complete proof system</li>\n    <li>Natural numbers cannot be axiomatized in FOL</li>\n    <li>Real numbers cannot be axiomatized in FOL</li>\n    <li>Relational numbers cannot be axiomatized in FOL</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,first-order-logic,normal",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "95699",
+          "text": "<p>An array of $n$ distinct elements is said to be un-sorted if for every index $i$ such that $ 2 \\leq i \\leq n-1$, either $A[i] &gt; \\text{max} \\{A [i-1], A[i+1]\\}$, or $A[i] &lt; \\text{min} \\{A[i-1], A[i+1]\\}$. What is the time-complexity of the fastest algorithm that takes as input a sorted array $A$ with $n$ distinct elements, and un-sorts $A$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$O(n \\: \\log \\: n)$ but not $O(n)$</li>\n    <li>$O(n)$ but not $O(\\sqrt{n})$</li>\n    <li>$O(\\sqrt{n})$ but not $O(\\log n)$</li>\n    <li>$O(\\log n)$ but not $O(1)$</li>\n    <li>$O(1)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,algorithms,sorting,time-complexity",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "95703",
+          "text": "<p>For any natural number $n$, an ordering of all binary strings of length $n$ is a Gray code if it starts with $0^n$, and any successive strings in the ordering differ in exactly one bit (the first and last string must also differ by one bit). Thus, for $n=3$, the ordering $(000, 100, 101, 111, 110, 010, 011, 001)$ is a Gray code. Which of the following must be TRUE for all Gray codes over strings of length $n$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>the number of possible Gray codes is even</li>\n    <li>the number of possible Gray codes is odd</li>\n    <li>In any Gray code, if two strings are separated by $k$ other strings in the ordering, then they must differ in exactly $k+1$ bits</li>\n    <li>In any Gray code, if two strings are separated by $k$ other strings in the ordering, then they must differ in exactly $k$ bits</li>\n    <li>none of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,digital-logic,boolean-algebra",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "95705",
+          "text": "<p>Which of the following regular expressions correctly accepts the set of all $0/1$-strings with an even (possibly zero) number of $1$s?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$(10^*10^*)^*$</li>\n    <li>$(0^*10^*1)^*$</li>\n    <li>$0^*1(10^*1)^*10^*$</li>\n    <li>$0^*1(0^*10^*10^*)^*10^*$</li>\n    <li>$(0^*10^*1)^*0^*$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "e",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,theory-of-computation,regular-expression",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "95817",
+          "text": "<p>A vertex colouring of a graph $G=(V, E)$ with $k$ coulours is a mapping $c: V \\rightarrow \\{1, \\dots , k\\}$ such that $c(u) \\neq c(v)$ for every $(u, v) \\in E$. Consider the following statements:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n    <li>If every vertex in $G$ has degree at most $d$ then $G$ admits a vertex coulouring using $d+1$ colours.</li>\n    <li>Every cycle admits a vertex colouring using $2$&nbsp;colours</li>\n    <li>Every tree admits a vertex colouring using $2$&nbsp;colours</li>\n</ol>\n\n<p>Which of the above statements is/are TRUE? Choose from the following options:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>only i</li>\n    <li>only i and ii</li>\n    <li>only i and iii</li>\n    <li>only ii and iii</li>\n    <li>i, ii, and iii</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,graph-theory,graph-coloring",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "95818",
+          "text": "<p>Given that</p>\n\n<ul>\n    <li>$B(x)$ means \"$x$ is a bat\",</li>\n    <li>$F(x)$ means \"$x$ is a fly\", and</li>\n    <li>$E(x, y)$ means \"$x$ eats $y$\",</li>\n</ul>\n\n<p>what is the best English translation of $$ \\forall x(F(x) \\rightarrow \\forall y (E(y, x) \\rightarrow B(y)))?$$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>all flies eat bats</li>\n    <li>every fly is eaten by some bat</li>\n    <li>bats eat only flies</li>\n    <li>every bat eats flies</li>\n    <li>only bats eat flies</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "e",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,first-order-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "95819",
+          "text": "<p>An undirected graph is complete if there is an edge between every pair of vertices. Given a complete undirected graph on $n$ vertices, in how many ways can you choose a direction for the edges so that there are no directed cycles?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$n$</li>\n    <li>$\\frac{n(n-1)}{2}$</li>\n    <li>$n!$</li>\n    <li>$2^n$</li>\n    <li>$2^m, \\: \\text{ where } m=\\frac{n(n-1)}{2}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,graph-theory,graph-connectivity",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "95821",
+          "text": "<p>For an undirected graph $G=(V, E)$, the line graph $G'=(V', E')$ is obtained by replacing each edge in $E$ by a vertex, and adding an edge between two vertices in $V'$ if the corresponding edges in $G$ are incident on the same vertex. Which of the following is TRUE of line graphs?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>the line graph for a complete graph is complete</li>\n    <li>the line graph for a connected graph is connected</li>\n    <li>the line graph for a bipartite graph is bipartite&nbsp;</li>\n    <li>the maximum degree of any vertex in the line graph is at most the maximum degree in the original graph</li>\n    <li>each vertex in the line graph has degree one or two</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,graph-theory,bipartite-graph",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "95825",
+          "text": "<p>Consider the following grammar $G$ with terminals &nbsp;$\\{[, ]\\}$, start symbol $S$, and non-terminals $\\{A, B, C\\}$:</p>\n\n<p>$$S \\rightarrow AC \\mid SS \\mid AB$$</p>\n\n<p>$$C&nbsp;\\rightarrow SB$$</p>\n\n<p>$$A&nbsp;\\rightarrow [$$</p>\n\n<p>$$B \\rightarrow ]$$</p>\n\n<p>A language $L$ is called prefix-closed if for every $x \\in L$, every prefix of $x$ is also in $L$. Which of the following is FALSE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$L(G)$ is context free</li>\n    <li>$L(G)$ is infinite</li>\n    <li>$L(G)$ can be recognized by a deterministic push down automaton</li>\n    <li>$L(G)$ is prefix-closed</li>\n    <li>$L(G)$ is recursive</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,theory-of-computation,identify-class-language",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "95828",
+          "text": "<p>A multivariate polynomial in $n$ variables with integer coefficients has a binary root if it is possible to assign each variable either 0 or 1, so that the polynomial evaluates to 0. For example, the multivariate polynomial $-2x_1^3 -x_1x_2+2$ has the binary root $(x_1=1, x_2=0)$. Then determining whether a multivariate polynomial, given as the sum of monimials, has a binary root:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>is trivial: every polynomial has a binary root</li>\n    <li>can be done in polynomial time</li>\n    <li>is NP-hard, but not in NP</li>\n    <li>is in NP, but not in P and not NP-hard</li>\n    <li>is both in NP and NP-hard</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "e",
+          "award": 2,
+          "penalty": "0.5000",
+          "tags": "tifr2017,algorithms,p-np-npc-nph",
+          "category": "Algorithms"
+        }
+      ]
+    }
+  ]
+}

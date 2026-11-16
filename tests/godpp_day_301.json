@@ -1,0 +1,70 @@
+{
+  "name": "Day 241 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528150",
+          "text": "<p>If $R=\\left\\{(x, y): x, y \\in Z, x^2+3 y^2 \\leq 8\\right\\}$ is a relation on the set of integers $Z$, then the domain of $R^{-1}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\{-1,0,1\\}$</li><li>$\\{-2,-1,1,2\\}$</li><li>$\\{-2,-1,0,1,2\\}$</li><li>$\\{0,1\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "528174",
+          "text": "<p>Let $R$ be the set of real numbers.<br><strong>Statement I </strong>$A=\\{(x, y) \\in R \\times R: y-x$ is an integer$\\}$ is an equivalence relation on $R$.<br><strong>Statement II</strong> $B=\\{(x, y) \\in R \\times R: x=\\alpha y$ for some rational number $\\alpha$ $\\} $ is an equivalence relation on $R$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Statement I is true, Statement II is true; Statement II is not a correct explanation of Statement I</li><li>Statement I is true, Statement II is false</li><li>Statement I is false, Statement II is true</li><li>Statement I is true, Statement II is true; Statement II is a correct explanation of Statement I Condition for equivalence relation A relation which is symmetric, reflexive and&nbsp;transitive is equivalence relation.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "528156",
+          "text": "<p>Let $R_1$ and $R_2$ be two relations defined as follows and $R_2=\\left\\{(a, b) \\in R^2: a^2+b^2 \\notin Q\\right\\}$, where $Q$ is the set of all rational numbers. Then</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$R_1$ and $R_2$ are both transitive.</li><li>Neither $R_1$ nor $R_2$ is transitive.</li><li>$R_1$ is transitive but $R_2$ is not transitive.</li><li>$R_2$ is transitive but $R_1$ is not transitive.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "528171",
+          "text": "<p>Let $X=\\{1,2,3,4,5\\}$. The number of different ordered pairs $(Y, Z)$ that can formed such that $Y \\subseteq X, Z \\subseteq X$ and $Y \\cap Z$ is empty, is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5^2$</li><li>$3^5$</li><li>$2^5$</li><li>$5^3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "528148",
+          "text": "<p>Let $R=\\{(P, Q) \\mid, P$ and $Q$ are at the same distance from the origin$\\} $be a relation, then the equivalence class of $(1,-1)$ is the set</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$S=\\left\\{(x, y) \\mid x^2+y^2=4\\right\\}$</li><li>$S=\\left\\{(x, y) \\mid x^2+y^2=1\\right\\}$</li><li>$S=\\left\\{(x, y) \\mid x^2+y^2=\\sqrt{2}\\right\\}$</li><li>$S=\\left\\{(x, y) \\mid x^2+y^2=2\\right\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 241"
+        }
+      ]
+    }
+  ]
+}

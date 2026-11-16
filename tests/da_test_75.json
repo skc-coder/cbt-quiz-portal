@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes GATE DA | Orthogonal Projections and Projection Matrix | Weekly Quiz 7",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "426328",
+          "text": "Let $S$ be the subspace of $\\mathbb{R}^{4}$ spanned by the following vectors.<br />$$<br />v_{1}=\\left[\\begin{array}{c}<br />1 \\\\<br />0 \\\\<br />-1 \\\\<br />-2<br />\\end{array}\\right], v_{2}=\\left[\\begin{array}{c}<br />2 \\\\<br />-1 \\\\<br />0 \\\\<br />1<br />\\end{array}\\right]<br />$$<br />Find the orthogonal projection of the vector $w=\\left[\\begin{array}{c}1 \\\\ 2 \\\\ 0 \\\\ -1\\end{array}\\right]$ onto $S$.<br />A: $\\frac{1}{6}\\left[\\begin{array}{c}1 \\\\ 1 \\\\ -3 \\\\ -8\\end{array}\\right]$<br /><br />B: $\\frac{1}{6}\\left[\\begin{array}{c}1 \\\\ 1 \\\\ -3 \\\\ -9\\end{array}\\right]$<br /><br />C: $\\frac{1}{6}\\left[\\begin{array}{c}1 \\\\ 1 \\\\ -3 \\\\ -7\\end{array}\\right]$<br /><br />D: $\\frac{1}{6}\\left[\\begin{array}{c}1 \\\\ 1 \\\\ -3 \\\\ -6\\end{array}\\right]$",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,vector-space,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426324",
+          "text": "Let $W$ be a subspace of $\\mathbb{R}^{n}$ with basis $\\beta=\\left\\{w_{1}, \\ldots, w_{k}\\right\\}$ and let $A$ be the matrix whose columns are the vectors in $\\beta$.<br />Let $v \\in \\mathbb{R}^{n}$ and denote by $\\operatorname{proj}_{W}(v)$ the orthogonal projection of $v$ on $W$.<br />What is the value of $A^{T}(v-A x)$ ?",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,one-mark,numerical-answers",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426322",
+          "text": "The linear system $A x=b$ is consistent if and only if $b$ is orthogonal to<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\operatorname{Row}\\left(A^{\\top}\\right)$</li><li> $\\operatorname{Null}\\left(\\mathrm{A}^{\\top}\\right)$</li> <li>$\\operatorname{Col}\\left(A^{\\top}\\right)$</li>  <li>$\\operatorname{Null}(\\mathrm{A})$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426313",
+          "text": ". Consider the orthogonal vectors $\\vec{v}_{1}=\\left[\\begin{array}{l}1 \\\\ 2 \\\\ 2\\end{array}\\right], \\vec{v}_{2}=\\left[\\begin{array}{c}-2 \\\\ 2 \\\\ -1\\end{array}\\right]$ and let $V=\\operatorname{Span}\\left\\{\\vec{v}_{1}, \\vec{v}_{2}\\right\\}$. The matrix of the projection onto $V$ is<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left[\\begin{array}{ll}9 & 0 \\\\ 0 & 9\\end{array}\\right]$</li><li> $\\left[\\begin{array}{ccc}1 / 9 & -2 / 9 & 0 \\\\ 2 / 9 & 2 / 9 & 0 \\\\ 2 / 9 & -1 / 9 & 1\\end{array}\\right]$</li> <li>$\\left[\\begin{array}{cc}1 & -2 \\\\ 2 & 2 \\\\ 2 & -1\\end{array}\\right]$</li>  <li>$\\left[\\begin{array}{ccc}5 / 9 & -2 / 9 & 4 / 9 \\\\ -2 / 9 & 8 / 9 & 2 / 9 \\\\ 4 / 9 & 2 / 9 & 5 / 9\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426308",
+          "text": "Let $W=\\operatorname{span}\\left\\{\\left[\\begin{array}{l}0 \\\\ 0 \\\\ 1\\end{array}\\right],\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 1\\end{array}\\right]\\right\\}$ and $\\boldsymbol{v}_{1}=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right], \\boldsymbol{v}_{2}=\\left[\\begin{array}{l}0 \\\\ 1 \\\\ 0\\end{array}\\right]$. Let $\\boldsymbol{w}_{1}$ be the orthogonal projection of $\\boldsymbol{v}_{1}$ onto $W$, and let $\\boldsymbol{w}_{2}$ be the orthogonal projection of $\\boldsymbol{v}_{2}$ onto $W$. Then:<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\boldsymbol{w}_{1}=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right], \\boldsymbol{w}_{2}=\\left[\\begin{array}{l}0 \\\\ 1 \\\\ 0\\end{array}\\right]$</li><li> $\\boldsymbol{w}_{1}=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 1\\end{array}\\right], \\boldsymbol{w}_{2}=\\left[\\begin{array}{l}0 \\\\ 1 \\\\ 0\\end{array}\\right]$,</li> <li>$\\boldsymbol{w}_{1}=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right], \\boldsymbol{w}_{2}=\\left[\\begin{array}{l}0 \\\\ 0 \\\\ 0\\end{array}\\right]$</li>  <li>$\\boldsymbol{w}_{1}=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 1\\end{array}\\right], \\boldsymbol{w}_{2}=\\left[\\begin{array}{l}0 \\\\ 0 \\\\ 0\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426326",
+          "text": "Which of the following is/are CORRECT?<br /><ol style=\"list-style-type:upper-alpha\"><li> If $\\hat{\\mathbf{x}}$ is the orthogonal projection of $\\mathbf{x}$ on $W$, then $\\hat{\\mathbf{x}}$ is orthogonal to $\\mathbf{x}$.</li><li> If $\\hat{\\mathbf{u}}$ is the orthogonal projection of $\\mathbf{u}$ on $\\operatorname{Span}\\{\\mathbf{v}\\}$, then:<br />$$<br />\\hat{\\mathbf{u}}=\\left(\\frac{\\mathbf{u} \\cdot \\mathbf{v}}{\\mathbf{v} \\cdot \\mathbf{v}}\\right) \\mathbf{u}<br />$$</li> <li>If $W$ is a subspace, and $P \\mathbf{y}$ is the orthogonal projection of $\\mathbf{y}$ onto $W$, then $P^{2} \\mathbf{y}=P \\mathbf{y}$</li>  <li>Let $W$ be a subspace of $\\mathbb{R}^{n}$ with basis $\\beta=\\left\\{w_{1}, \\ldots, w_{k}\\right\\}$ and let $A$ be the matrix whose columns are the vectors in $\\beta$.<br />Let $v \\in \\mathbb{R}^{n}$ and denote by $\\operatorname{proj}_{W}(v)$ the orthogonal projection of $v$ on $W$. Then there exists some $x \\in \\mathbb{R}^{k}$ such that $\\operatorname{proj}_{W}(v)=A x$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426323",
+          "text": "Let<br />$$<br />A=\\left[\\begin{array}{cc}<br />2 & 1 \\\\<br />-2 & 0 \\\\<br />2 & 3<br />\\end{array}\\right] \\quad b=\\left[\\begin{array}{c}<br />-5 \\\\<br />8 \\\\<br />1<br />\\end{array}\\right]<br />$$<br />Find the orthogonal projection $\\hat{b}$ of $b$ onto the column space of $A$, i.e., $\\hat{b}=\\operatorname{Proj}_{\\operatorname{Col}(A)}(b)$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\hat{b}=\\left[\\begin{array}{r}3 \\\\ -2 \\\\ 4\\end{array}\\right]$</li><li> $\\hat{b}=\\left[\\begin{array}{r}-1 \\\\ 6 \\\\ 2\\end{array}\\right]$</li> <li>$\\hat{b}=\\left[\\begin{array}{r}-5 \\\\ 8 \\\\ 1\\end{array}\\right]$</li>  <li>$\\hat{b}=\\left[\\begin{array}{r}-\\frac{5}{13} \\\\ \\frac{16}{13} \\\\ \\frac{19}{13}\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,vector-space,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426320",
+          "text": "Consider the line $L$ spanned by the vector $\\vec{v}=\\left[\\begin{array}{c}-2 \\\\ 1\\end{array}\\right]$. The distance from the vector $\\vec{x}=\\left[\\begin{array}{c}-7 \\\\ 1\\end{array}\\right]$ to the line $L$ is<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\sqrt{5}$</li><li> $\\sqrt{45}$</li> <li>$2 \\sqrt{3}$</li>  <li>5</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426319",
+          "text": "Consider the matrices<br />$$<br />A=\\left[\\begin{array}{ccccc}<br />2 & 4 & -2 & 1 & 11 \\\\<br />3 & 6 & -3 & 1 & 15 \\\\<br />-1 & -2 & 1 & 2 & 2 \\\\<br />4 & 8 & -4 & 4 & 28<br />\\end{array}\\right] \\quad \\text { and } \\quad B=\\left[\\begin{array}{ccccc}<br />1 & 2 & -1 & 0 & 4 \\\\<br />0 & 0 & 0 & 1 & 3 \\\\<br />0 & 0 & 0 & 0 & 0 \\\\<br />0 & 0 & 0 & 0 & 0<br />\\end{array}\\right]<br />$$<br />where $B$ is the reduced row echelon form of $A$. A basis for the orthogonal complement of the row space of $A$ is given by<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left\\{\\left[\\begin{array}{c}2 \\\\ 3 \\\\ -1 \\\\ 4\\end{array}\\right],\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 2 \\\\ 4\\end{array}\\right]\\right\\}$</li><li> $\\left\\{\\left[\\begin{array}{c}-2 \\\\ 1 \\\\ 0 \\\\ 0 \\\\ 0\\end{array}\\right],\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 1 \\\\ 0 \\\\ 0\\end{array}\\right],\\left[\\begin{array}{c}-4 \\\\ 0 \\\\ 0 \\\\ -3 \\\\ 1\\end{array}\\right]\\right\\}$</li> <li>$\\left\\{\\left[\\begin{array}{c}-1 \\\\ -2 \\\\ 1 \\\\ 0 \\\\ -4\\end{array}\\right],\\left[\\begin{array}{c}0 \\\\ 0 \\\\ 0 \\\\ -1 \\\\ -3\\end{array}\\right]\\right\\}$</li>  <li>$\\left\\{\\left[\\begin{array}{c}4 \\\\ 6 \\\\ -2 \\\\ 8\\end{array}\\right],\\left[\\begin{array}{c}-2 \\\\ -3 \\\\ 1 \\\\ -4\\end{array}\\right],\\left[\\begin{array}{c}11 \\\\ 15 \\\\ 2 \\\\ 28\\end{array}\\right]\\right\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426317",
+          "text": "Consider the line $L$ spanned by the unit vector $\\vec{u}=\\left[\\begin{array}{c}3 / 5 \\\\ -4 / 5\\end{array}\\right]$, and let $\\operatorname{proj}_{L}: \\mathbb{R}^{2} \\rightarrow \\mathbb{R}^{2}$ denote the linear transformation that sends a vector to its orthogonal projection onto the line $L$. The standard matrix of the transformation $\\operatorname{proj}_{L}$ is<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left[\\begin{array}{cc}3 & 0 \\\\ 0 & -4\\end{array}\\right]$</li><li> $\\frac{1}{5}\\left[\\begin{array}{cc}3 & 5 \\\\ 5 & -4\\end{array}\\right]$</li> <li>$\\frac{1}{25}\\left[\\begin{array}{cc}9 & -12 \\\\ -12 & 16\\end{array}\\right]$</li>  <li>$\\frac{1}{5}\\left[\\begin{array}{cc}3 & 0 \\\\ 0 & -4\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426316",
+          "text": "Consider the following statements:<br />S1: If a $(2 \\times 2)$-matrix $A$ has determinant 5 , then $A$ cannot be a matrix for orthogonal projection onto a line $L$.<br />S2: Let $V$ be a subspace of $\\mathbf{R}^{n}$. If the orthogonal projection map<br />$\\operatorname{proj}_{V}: \\mathbf{R}^{n} \\rightarrow \\mathbf{R}^{n}$ is invertible, then $V=\\mathbf{R}^{n}$<br />Which of the following options is correct?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\mathrm{S} 1$ is true, $\\mathrm{S} 2$ is false</li><li> $\\mathrm{S} 1$ is false, $\\mathrm{S} 2$ is true</li> <li>Both $\\mathrm{S} 1$ and $\\mathrm{S} 2$ are true</li>  <li>Both $\\mathrm{S} 1$ and $\\mathrm{S} 2$ are false</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426315",
+          "text": "Which of the following statemen(s) is/are CORRECT?<br /><ol style=\"list-style-type:upper-alpha\"><li> If $P^{2}=P$ and $P=P^{T}$ then $P$ is a projection matrix.</li><li> If $P$ is a projection matrix and $P$ is invertible then $P=I$.</li> <li>if $\\left\\{q_{1}, q_{2}\\right\\}$ is an orthonormal set then $q_{1} q_{1}^{T}+q_{2} q_{2}^{T}$ is a projection matrix.</li>  <li>If $P$ is a projection matrix then $I-P^{T}$ is also a projection matrix</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,two-marks,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426311",
+          "text": ". Let $A$ be an $m \\times n$ matrix with linearly independent columns and let $\\vec{b}$ in $\\mathbb{R}^{m}$ be a vector which is not in $\\operatorname{Col}(A)$. Which of the following statements may be false?<br /><ol style=\"list-style-type:upper-alpha\"><li> There exists a vector $\\vec{x}$ in $\\mathbb{R}^{n}$ with $A \\vec{x}-\\vec{b}$ perpendicular to $\\operatorname{Col}(A)$.</li><li> $\\operatorname{det}\\left(A^{T} A\\right) \\neq 0$.</li> <li>The vector $\\vec{b}$ is not the zero vector.</li>  <li>$\\operatorname{det}\\left(A A^{T}\\right) \\neq 0$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426309",
+          "text": "You have a $4 \\times 3$ matrix $A=\\left(\\begin{array}{ccc}q_{1} & 2 q_{2} & 3 q_{1}+4 q_{2}\\end{array}\\right)$, where we have expressed the three columns of $A$ in terms of the orthonormal vectors<br />$$<br />q_{1}=\\frac{1}{2}\\left(\\begin{array}{c}<br />1 \\\\<br />1 \\\\<br />-1 \\\\<br />-1<br />\\end{array}\\right), \\quad q_{2}=\\frac{1}{2}\\left(\\begin{array}{c}<br />1 \\\\<br />-1 \\\\<br />-1 \\\\<br />1<br />\\end{array}\\right)<br />$$<br />Find the closest vector to $x=\\left(\\begin{array}{l}2 \\\\ 0 \\\\ 0 \\\\ 0\\end{array}\\right)$ in $N\\left(A^{T}\\right)$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left(\\begin{array}{l}2 \\\\ 0 \\\\ 0 \\\\ 0\\end{array}\\right)$</li><li> $\\left(\\begin{array}{l}1 \\\\ 2 \\\\-1\\\\ -1\\end{array}\\right)$</li> <li>$\\left(\\begin{array}{l}1 \\\\ 0 \\\\ 1 \\\\ 0\\end{array}\\right)$</li>  <li>$\\left(\\begin{array}{l}1 \\\\ -1 \\\\ -1 \\\\ 1\\end{array}\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426307",
+          "text": "Which of the following statement is/are CORRECT ?<br /><ol style=\"list-style-type:upper-alpha\"><li> If $A$ is a symmetric matrix that any vector $x \\in R^{n}$ decomposes uniquely as $x=x_{1}+x_{2}$, where $x_{1} \\in N(A), x_{2} \\in C(A)$.</li><li> If $Q$ is an orthogonal matrix then $\\operatorname{det}\\left(Q^{2}\\right)=1$.</li> <li>If $Q$ has orthonormal columns then $Q$ preserves length of vectors.</li>  <li>If $B$ is a projection matrix (as well as invertible), then $A B=B$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq8,goclasses,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        }
+      ]
+    }
+  ]
+}

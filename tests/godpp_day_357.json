@@ -1,0 +1,70 @@
+{
+  "name": "Day 264 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530877",
+          "text": "<p data-start=\"0\" data-end=\"148\">Consider the function $f:\\mathbb{N}\\to\\mathbb{N}$ given recursively by $f(0)=2$ and $f(n+1)=2f(n)+n+1$ for every $n\\ge0$. Find $f(5)$.</p>",
+          "type": "Numerical",
+          "answer": "121",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 264"
+        },
+        {
+          "post_id": "530880",
+          "text": "<p data-start=\"0\" data-end=\"203\">Let $X,Y,Z$ be finite sets with $|X|=6$, $|Y|=8$, and $|Z|=6$. Suppose $f:X\\to Y$ and $g:Y\\to Z$ are functions such that $g\\circ f:X\\to Z$ is bijective. Which of the following must be true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"205\" data-end=\"246\">$f$ is injective and $g$ is surjective<br>&nbsp;</li><li data-start=\"248\" data-end=\"289\">$f$ is surjective and $g$ is injective<br>&nbsp;</li><li data-start=\"291\" data-end=\"324\">Both $f$ and $g$ are bijective<br>&nbsp;</li><li data-start=\"326\" data-end=\"375\">$f$ is not injective and $g$ is not surjective</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 264"
+        },
+        {
+          "post_id": "530874",
+          "text": "<p data-start=\"0\" data-end=\"147\">Let $S=\\{0,1,2,3,4,5,6\\}$. Each of the following defines a function from $S$ to $S$. Which function is both injective and surjective?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"149\" data-end=\"172\">$f(x)=(2x+1)\\bmod 7$<br>&nbsp;</li><li data-start=\"174\" data-end=\"194\">$f(x)=x^2\\bmod 7$<br>&nbsp;</li><li data-start=\"196\" data-end=\"211\">$f(x)=|x-3|$<br>&nbsp;</li><li data-start=\"213\" data-end=\"256\">$f(x)=x+1$ if $0\\le x\\le5$, and $f(6)=1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 264"
+        },
+        {
+          "post_id": "530879",
+          "text": "<p data-start=\"0\" data-end=\"157\">Let $f,g,h:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=x^2+1$, $g(x)=2x-1$, and $h(x)=x^2-4$. Find $h\\circ(g\\circ f)$ and $(h\\circ g)\\circ f$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"159\" data-end=\"193\">$4x^4+4x^2-3$ and $4x^4+4x^2-3$<br>&nbsp;</li><li data-start=\"195\" data-end=\"229\">$4x^4-4x^2-3$ and $4x^4+4x^2-3$<br>&nbsp;</li><li data-start=\"231\" data-end=\"265\">$4x^4+4x^2+3$ and $4x^4+4x^2+3$<br>&nbsp;</li><li data-start=\"267\" data-end=\"301\">$2x^4+4x^2-3$ and $4x^4+4x^2-3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 264"
+        },
+        {
+          "post_id": "530871",
+          "text": "<p data-start=\"0\" data-end=\"202\">Let $f$ and $g$ be functions from the set of integers to the set of integers defined by $f(x)=2x+1$ and $g(x)=x^2-2$. Find the integer value of $x$ for which $(f\\circ g)(x)=(g\\circ f)(x)$.</p>",
+          "type": "Numerical",
+          "answer": "-1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 264"
+        }
+      ]
+    }
+  ]
+}

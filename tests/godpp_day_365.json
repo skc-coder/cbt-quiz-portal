@@ -1,0 +1,70 @@
+{
+  "name": "Day 268 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "531447",
+          "text": "<p data-start=\"31\" data-end=\"191\">Let $A$ be a finite set with $m$ elements and let $B$ be a finite set with $n$ elements, where $m\\ge n$. How many functions $f:A\\to B$ are onto?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"193\" data-end=\"201\">$n^m$<br>&nbsp;</li><li data-start=\"203\" data-end=\"211\">$m^n$<br>&nbsp;</li><li data-start=\"213\" data-end=\"296\">$n^m-\\binom{n}{1}(n-1)^m+\\binom{n}{2}(n-2)^m-\\cdots+(-1)^{n-1}\\binom{n}{n-1}1^m$<br>&nbsp;</li><li data-start=\"298\" data-end=\"320\">$\\frac{m!}{(m-n)!}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 268"
+        },
+        {
+          "post_id": "531449",
+          "text": "<p data-start=\"30\" data-end=\"197\">Let $f:\\mathbb{R}\\to\\mathbb{R}$ and $g:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=x^3-2x+1$ and $g(x)=\\sqrt[3]{x-1}$. Which of the following is TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"364\" data-end=\"431\">$f$ and $g$ are inverses because $g$ reverses the cubing in $f$.<br>&nbsp;</li><li data-start=\"433\" data-end=\"506\">$f$ and $g$ are inverses because $f(g(x))=x$ for all $x\\in\\mathbb{R}$.<br>&nbsp;</li><li data-start=\"508\" data-end=\"588\">$f$ and $g$ are not inverses because $g(f(x))\\ne x$ for all $x\\in\\mathbb{R}$.<br>&nbsp;</li><li data-start=\"590\" data-end=\"645\">$f$ and $g$ are not inverses because $g(f(2))\\ne 2$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 268"
+        },
+        {
+          "post_id": "531451",
+          "text": "<p data-start=\"33\" data-end=\"245\">Let $A=\\mathbb{R}-\\{1\\}$ and $B=\\mathbb{R}-\\{2\\}$.&nbsp;</p><p data-start=\"33\" data-end=\"245\">Define $f:A\\to B$ by $f(x)=\\frac{2x+1}{x-1}$ and $g:B\\to A$ by $g(x)=\\frac{x+1}{x-2}$.&nbsp;</p><p data-start=\"33\" data-end=\"245\">Which of the following statements is <strong>TRUE</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"247\" data-end=\"313\">$f\\circ g=I_A$ and $g\\circ f=I_B$, so $f$ and $g$ are inverses.<br>&nbsp;</li><li data-start=\"315\" data-end=\"381\">$f\\circ g=I_B$ and $g\\circ f=I_A$, so $f$ and $g$ are inverses.<br>&nbsp;</li><li data-start=\"383\" data-end=\"491\">$f\\circ g=I_{\\mathbb{R}}$ and $g\\circ f=I_{\\mathbb{R}}$, so $f$ and $g$ are inverses on all real numbers.<br>&nbsp;</li><li data-start=\"493\" data-end=\"544\">$f$ and $g$ cannot be inverses because $A\\ne B$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 268"
+        },
+        {
+          "post_id": "531453",
+          "text": "<p data-start=\"33\" data-end=\"211\">Let $f:A\\to B$ and $g:B\\to C$ be functions, and let $g\\circ f:A\\to C$ be defined by $(g\\circ f)(x)=g(f(x))$. Which of the following statements is/are always TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"213\" data-end=\"268\">If $g\\circ f$ is one-to-one, then $f$ is one-to-one.<br>&nbsp;</li><li data-start=\"270\" data-end=\"325\">If $g\\circ f$ is one-to-one, then $g$ is one-to-one.<br>&nbsp;</li><li data-start=\"327\" data-end=\"370\">If $g\\circ f$ is onto, then $g$ is onto.<br>&nbsp;</li><li data-start=\"372\" data-end=\"415\">If $g\\circ f$ is onto, then $f$ is onto.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 268"
+        },
+        {
+          "post_id": "531445",
+          "text": "<p data-start=\"30\" data-end=\"122\">Let $f:A\\to B$ be a function. Which of the following statements is/are TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"124\" data-end=\"177\">If $f$ is one-to-one, then $f$ must be invertible.<br>&nbsp;</li><li data-start=\"179\" data-end=\"226\">If $f$ is onto, then $f$ must be invertible.<br>&nbsp;</li><li data-start=\"228\" data-end=\"348\">If $f$ has an inverse function $f^{-1}:B\\to A$, then every element of $B$ is the image of exactly one element of $A$.<br>&nbsp;</li><li data-start=\"350\" data-end=\"433\">If $f$ is not onto, then $f$ can still have an inverse function $f^{-1}:B\\to A$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 268"
+        }
+      ]
+    }
+  ]
+}

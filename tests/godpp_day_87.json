@@ -1,0 +1,70 @@
+{
+  "name": "Day 84 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "486762",
+          "text": "<p>A five-stage instruction pipeline has the stage delays of $150, 120, 160, 140$ and $130$ nanoseconds respectively. Registers that are used between the stages have a delay of 5 nanoseconds each. What is the approximate speedup of the pipeline in the steady state under ideal conditions as compared to the non-pipelined execution?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4.0$<br>&nbsp;</li><li>$4.2$<br>&nbsp;</li><li>$4.5$<br>&nbsp;</li><li>$5.0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 84"
+        },
+        {
+          "post_id": "486761",
+          "text": "<p>A 16-bit processor uses instructions with the following format:</p><pre>Opcode (4 bits) | Dst Register (3 bits) | Base Register (3 bits) | Offset (6 bits)</pre><p><br>The opcode $0 \\times 9$ specifies a LOAD operation that uses indexed addressing. The effective memory address is calculated as:</p><pre>Effective Address = (Contents of Base Register) + Offset</pre><p><br>Consider the instruction word $0 \\times 959 \\mathrm{~A}$. Before the instruction is executed, the system state is as follows:</p><p>&nbsp;</p><ul><li>Register R6 contains the value $80$.</li><li>Memory at address $106$ contains the value $250$ .</li></ul><p>What is the value loaded into the destination register after this instruction is executed?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$250$<br>&nbsp;</li><li>$106$<br>&nbsp;</li><li>$80$<br>&nbsp;</li><li>$26$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 84"
+        },
+        {
+          "post_id": "486760",
+          "text": "<p>An instruction's execution is divided into $5$ stages with the following individual stage delays:</p><ul><li>Instruction Fetch (IF): $10$ ns</li><li>Instruction Decode (ID): $8$ ns</li><li>Execute (EX): $10$ ns</li><li>Memory Access (MEM): $12$ ns</li><li>Write Back (WB): $7$ ns</li></ul><p>This process is implemented in a pipelined processor. Assume a latch delay (buffer overhead) of $1$ ns between each pipeline stage. For a program with $1000$ instructions, $20\\%$ of the instructions are found to cause $2$ stall cycles each due to data dependencies.</p><p>What is the speedup of this pipelined processor compared to a non-pipelined processor that executes the same instructions?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3.60$<br>&nbsp;</li><li>$2.58$<br>&nbsp;</li><li>$2.79$<br>&nbsp;</li><li>$5.00$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 84"
+        },
+        {
+          "post_id": "486763",
+          "text": "<p>A direct-mapped cache memory of $1$ MB has a block size of $256$ bytes. The cache has an access time of $3$ ns and a hit rate of $94 \\%$. During a cache miss, a $256$-byte block is fetched from the main memory, which has an access time of $40$ ns. What is the effective memory access time?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4.94$ ns<br>&nbsp;</li><li>$5.22$ ns<br>&nbsp;</li><li>$5.40$ ns<br>&nbsp;</li><li>$7.44$ ns</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 84"
+        },
+        {
+          "post_id": "486759",
+          "text": "<p>Consider a system with a $2$-level cache. The access times of Level $1$ cache, Level $2$ cache, and main memory are $2 \\mathrm{~ns}, 20 \\mathrm{~ns}$, and $450$ ns , respectively. The hit rate of the Level $1$ cache is 0.9 . If the average memory access time of the system is $6.25$ ns , what is the hit rate of the Level $2$ cache?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.90$<br>&nbsp;</li><li>$0.92$<br>&nbsp;</li><li>$0.95$<br>&nbsp;</li><li>$0.98$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 84"
+        }
+      ]
+    }
+  ]
+}

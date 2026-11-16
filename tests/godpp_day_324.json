@@ -1,0 +1,70 @@
+{
+  "name": "Day 249 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543906",
+          "text": "<p data-start=\"931\" data-end=\"1002\">Let $G=(V,E)$ be a graph where its BFS tree contains at least 3 layers.</p><p data-start=\"1004\" data-end=\"1117\">Consider the cut $(L_0 \\cup L_1,L_2)$, i.e., all nodes that are $2$ edges away from $s$ form one side of the cut.</p><p data-start=\"1119\" data-end=\"1164\">All edges which cross the cut are tree edges.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1166\" data-end=\"1184\">True<br>&nbsp;</li><li data-start=\"1166\" data-end=\"1184\">False</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 249"
+        },
+        {
+          "post_id": "543910",
+          "text": "<p data-start=\"4209\" data-end=\"4338\">Given any directed graph, there is always a shortest-paths tree (SPT) containing every vertex reachable from a source vertex $s$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4340\" data-end=\"4358\">True<br>&nbsp;</li><li data-start=\"4340\" data-end=\"4358\">False</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 249"
+        },
+        {
+          "post_id": "543908",
+          "text": "<p data-start=\"2483\" data-end=\"2558\">You can detect whether a graph $G=(V,E)$ is bipartite in $O(|V|+|E|)$ time.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2560\" data-end=\"2578\">True<br>&nbsp;</li><li data-start=\"2560\" data-end=\"2578\">False</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 249"
+        },
+        {
+          "post_id": "543895",
+          "text": "<p data-start=\"2538\" data-end=\"2687\">If you perform a breadth-first search (BFS) on the given graph, starting from node $6$, which of the edges of the graph will be part of the BFS tree?</p><p data-start=\"2689\" data-end=\"2750\">Assume that ties are broken in favor of lower-numbered nodes.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2752\" data-end=\"2853\">$(6,4)$<br>&nbsp;</li><li data-start=\"2752\" data-end=\"2853\">$(6,5)$<br>&nbsp;</li><li data-start=\"2752\" data-end=\"2853\">$(4,3)$<br>&nbsp;</li><li data-start=\"2752\" data-end=\"2853\">$(4,2)$<br>&nbsp;</li><li data-start=\"2752\" data-end=\"2853\">$(5,4)$<br>&nbsp;</li><li data-start=\"2752\" data-end=\"2853\">$(5,2)$<br>&nbsp;</li><li data-start=\"2752\" data-end=\"2853\">$(5,1)$<br>&nbsp;</li><li data-start=\"2752\" data-end=\"2853\">$(2,1)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D;G",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 249"
+        },
+        {
+          "post_id": "543893",
+          "text": "<p data-start=\"734\" data-end=\"901\">Consider two vertices $x$ and $y$ that are simultaneously on the FIFO queue at some point during the execution of breadth-first search from $s$ in an undirected graph.</p><p data-start=\"903\" data-end=\"935\">Which of the following are true?</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li data-start=\"937\" data-end=\"1087\">The number of edges on the shortest path between $s$ and $x$ is at most one more than the number of edges on the shortest path between $s$ and $y$.<br>&nbsp;</li><li data-start=\"1089\" data-end=\"1241\">The number of edges on the shortest path between $s$ and $x$ is at least one less than the number of edges on the shortest path between $s$ and $y$.<br>&nbsp;</li><li data-start=\"1243\" data-end=\"1284\">There is a path between $x$ and $y$.</li></ol><p data-start=\"1243\" data-end=\"1284\">&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1286\" data-end=\"1363\">I only<br>&nbsp;</li><li data-start=\"1286\" data-end=\"1363\">I and II only<br>&nbsp;</li><li data-start=\"1286\" data-end=\"1363\">I and III only<br>&nbsp;</li><li data-start=\"1286\" data-end=\"1363\">I, II and III</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 249"
+        }
+      ]
+    }
+  ]
+}

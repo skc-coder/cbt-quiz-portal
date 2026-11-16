@@ -1,0 +1,70 @@
+{
+  "name": "Day 56 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "478603",
+          "text": "<pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nstruct Point {\n    int x, y;\n};\nint main() {\n    struct Point p1 = {10, 20};\n    struct Point *ptr = &p1;\n    ptr-&gt;x += 5;\n    (*ptr).y -= 10;\n    printf(\"%d %d\\n\", p1.x, p1.y);\n    return 0;\n}</pre><p>What is the output?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1510$<br>&nbsp;</li><li>$1010$<br>&nbsp;</li><li>$530$<br>&nbsp;</li><li>$1520$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 56"
+        },
+        {
+          "post_id": "478601",
+          "text": "<pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nvoid fun() {\n    static int count = 0;\n    count++;\n    printf(\"%d \", count);\n}\nint main() {\n    for (int i = 0; i &lt; 3; i++)\n        fun();\n    return 0;\n}\n</pre><p>What is the output of the above C program?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$111$<br>&nbsp;</li><li>$012$<br>&nbsp;</li><li>$123$<br>&nbsp;</li><li>$321$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 56"
+        },
+        {
+          "post_id": "478599",
+          "text": "<p>Consider the following psuedocode fragment, where $y$ is an integer that has been initialized.</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int i=1\nint j=1\nwhile (i&lt;10):\n    j=j*i\n    i=i+1\n    if (i==y):\n        break\n    end if\nend while</pre><p>Consider the following statements:<br>i. $(i==10)$ or $(i==y)$<br>ii. If $y&gt;10$, then $i==10$<br>iii. If $j=6$, then $y==4$</p><p>Which of the above statements is/are TRUE at the end of the while loop? Choose from the following options.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>i only<br>&nbsp;</li><li>iii only<br>&nbsp;</li><li>ii and iii only<br>&nbsp;</li><li>i, ii, and iii</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 56"
+        },
+        {
+          "post_id": "478597",
+          "text": "<p>Given the pseudocode below for the function remains(), which of the following statements is true about the output, if we pass it a positive integer $n&gt;2$ ?<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int remains(int n)\n{\n        int x = n;\n        for (i=(n-1);i&gt;1;i-) {\n            x = x % i ;\n    }\n        return x i\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Output is always $0$</li><li>Output is always $1$</li><li>Output is $0$ only if $n$ is NOT a prime number</li><li>Output is $1$ only if $n$ is a prime number</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 56"
+        },
+        {
+          "post_id": "478595",
+          "text": "<p>Which of the following expressions is NOT equivalent to ${ }^*(\\operatorname{arr}+3)$ where arr is an integer array?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\operatorname{arr}[3]$<br>&nbsp;</li><li>*(&arr $[0]+3)$<br>&nbsp;</li><li>$* a r r+3$<br>&nbsp;</li><li>$*(3+a r r)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 56"
+        }
+      ]
+    }
+  ]
+}

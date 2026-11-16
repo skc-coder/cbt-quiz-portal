@@ -1,0 +1,70 @@
+{
+  "name": "Day 103 [Theory of Computation]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "490715",
+          "text": "<p>If the regular set $\\mathbf{A}$ is represented by $A=(b+a b)^*(a+\\epsilon)$ and the regular set $\\mathbf{B}$ is represented by $B=\\left(b^* a b^*\\right)^*(a+\\epsilon)$, which of the following is true? ( $\\epsilon$ is the empty string).</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A \\subseteq B$<br>&nbsp;</li><li>$B \\subseteq A$<br>&nbsp;</li><li>$A$ and $B$ are incomparable<br>&nbsp;</li><li>$A=B$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Theory of Computation",
+          "day": "Day 103"
+        },
+        {
+          "post_id": "490714",
+          "text": "<p>The string 'babaa' does not belong to the set represented by</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\left(a^* b\\right)^*(a+b)$<br>&nbsp;</li><li>$b\\left(a^* b^*\\right)^* a$<br>&nbsp;</li><li>$b\\left(a+b^* a\\right)^*$<br>&nbsp;</li><li>$\\left(b^* a\\right)^*\\left(a b^*\\right)^*$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Theory of Computation",
+          "day": "Day 103"
+        },
+        {
+          "post_id": "490711",
+          "text": "<p>Which two of the following four regular expressions are equivalent over the alphabet $\\{a, b\\}$ ? ( $\\epsilon$ is the empty string).<br><br>i. $(a+b)^*$<br><br>ii. $a^*\\left(b a^*\\right)^*$<br><br>iii. $a^* b^*+b^* a^*$<br><br>iv. $(a b+b a)^*$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>(i) and (iv)<br>&nbsp;</li><li>(i) and (ii)<br>&nbsp;</li><li>(ii) and (iii)<br>&nbsp;</li><li>(iii) and (iv)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Theory of Computation",
+          "day": "Day 103"
+        },
+        {
+          "post_id": "490709",
+          "text": "<p>A finite state machine is represented by the diagram below. It has two states, $Q_{\\text {even }}$ (the start state) and $Q_{\\text {odd }}$. The machine takes a binary string as input, processing it from left to right. For each input bit, it produces a single output bit.</p><p>The transitions are labeled with the format input/output.</p><p>Machine Description:</p><ul><li>Start State: $Q_{\\text {even }}$<br>&nbsp;</li><li>Transitions from $Q_{\\text {even }}$ :<br>&nbsp;</li><li>A self-loop on input $\\theta$ which outputs 1 . (Notation: $0 / 1$ )<br>&nbsp;</li><li>A transition to state $Q_{\\text {odd }}$ on input 1 which outputs 0 . (Notation: $1 / 0$ )<br>&nbsp;</li><li>Transitions from $Q_{\\text {odd }}$ :<br>&nbsp;</li><li>A self-loop on input $\\theta$ which outputs $\\theta$. (Notation: $0 / 0$ )<br>&nbsp;</li><li>A transition to state $Q_{\\text {even }}$ on input 1 which outputs 1. (Notation: $1 / 1$ )</li></ul><p>For an input string $w=w_1 w_2 \\ldots w_n$, the machine produces an output string $z=z_1 z_2 \\ldots z_n$.<br><br>Which of the following is TRUE about the output bit $z_i$ (the $i$-th bit of the output)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$z_i=1$ if and only if the number of $1$s in the input prefix $w_1 \\ldots w_i$ is even.<br>&nbsp;</li><li>$z_i=1$ if and only if the number of $1$s in the input prefix $w_1 \\ldots w_i$ is odd.<br>&nbsp;</li><li>$z_i=1$ if and only if the input bit $w_i$ is $0$.<br>&nbsp;</li><li>$z_i=1$ if and only if the number of $0$s in the input prefix $w_1 \\ldots w_i$ is even.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Theory of Computation",
+          "day": "Day 103"
+        },
+        {
+          "post_id": "490708",
+          "text": "<p>Consider a Deterministic Finite Automaton (DFA) defined as follows:</p><ul><li>States $(Q):\\left\\{q_0, q_1, q_2, q_3, q_4\\right\\}$<br>&nbsp;</li><li>Alphabet ( $\\Sigma$ ): $\\{a, b\\}$<br>&nbsp;</li><li>Start State: $q_0$<br>&nbsp;</li><li>Final States $(F):\\left\\{q_1, q_2\\right\\}$<br>&nbsp;</li><li>Transition Function ( $\\delta$ ):</li></ul><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Current State | Input 'a' | Input 'b' |</p><p>$$<br>\\begin{aligned}<br>& |:--|:--|:---| \\\\<br>& \\left|\\rightarrow q_0\\right| q_1\\left|q_2\\right| \\\\<br>& \\left|* q_1\\right| q_1\\left|q_3\\right| \\\\<br>& \\left|* q_2\\right| q_4\\left|q_2\\right| \\\\<br>& \\left|q_3\\right| q_1\\left|q_3\\right| \\\\<br>& \\left|q_4\\right| q_4\\left|q_2\\right|<br>\\end{aligned}<br>$$</p><p>(The arrow $\\rightarrow$ indicates the start state, and the asterisk indicates a final state.)<br>The language recognized by this machine is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The set of all non-empty strings that start and end with the same symbol.<br>&nbsp;</li><li>The set of all non-empty strings that start and end with different symbols.<br>&nbsp;</li><li>The set of all strings that contain the substring aa or bb .<br>&nbsp;</li><li>The set of all strings where the total number of symbols is odd.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Theory of Computation",
+          "day": "Day 103"
+        }
+      ]
+    }
+  ]
+}

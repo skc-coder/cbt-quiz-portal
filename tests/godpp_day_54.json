@@ -1,0 +1,70 @@
+{
+  "name": "Day 51 [Databases]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "477586",
+          "text": "<p>Calculate the order of leaf ( $P_{\\text {leaf }}$ ) and non leaf (P) nodes of a $B^{+}$tree based on the information given below.<br>Search key field = $12$ field<br>Record pointer = $10$ bytes<br>Block pointer $=8$ bytes<br>Block size $=1 \\mathrm{~KB}$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P_{\\text {leaf }}=51 \\& \\mathrm{p}=46$<br>&nbsp;</li><li>$P_{\\text {leaf }}=47 \\& \\mathrm{p}=52$<br>&nbsp;</li><li>$P_{\\text {leaf }}=46 \\& \\mathrm{p}=51$<br>&nbsp;</li><li>$P_{\\text {leaf }}=52 \\& \\mathrm{p}=47$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Databases",
+          "day": "Day 51"
+        },
+        {
+          "post_id": "477559",
+          "text": "Consider a relation R(A, B, C, D, E, F, G, H, I, J) with functional dependencies:<br>\n<br>\n$$<br>\n\\mathrm{AB} \\rightarrow \\mathrm{C}, \\mathrm{BD} \\rightarrow \\mathrm{EF}, \\mathrm{AD} \\rightarrow \\mathrm{GH}, \\mathrm{~A} \\rightarrow \\mathrm{I}, \\mathrm{H} \\rightarrow \\mathrm{~J} .<br>\n$$<br>\n<br>\nWhich of the following is a candidate key for R ?<br>\nA) $A B D$<br>\nB) $A B D H$<br>\nC) $A D$<br>\nD) $A B D I$",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Databases",
+          "day": "Day 51"
+        },
+        {
+          "post_id": "477615",
+          "text": "<p>If a node has $K$ children in $B$ tree, then the node contains exactly_______keys.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$K^2$<br>&nbsp;</li><li>$K-1$<br>&nbsp;</li><li>$K+1$<br>&nbsp;</li><li>$\\sqrt{K}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Databases",
+          "day": "Day 51"
+        },
+        {
+          "post_id": "477557",
+          "text": "<p>Consider the join of a relation $R$ with a relation $S$. If $R$ has $m$ tuples and $S$ has $n$ tuples then the maximum and minimum sizes of the join respectively are</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$m+n$ and $0$<br>&nbsp;</li><li>$m n$ and $0$<br>&nbsp;</li><li>$m+n$ and $|m-n|$<br>&nbsp;</li><li>$m n$ and $m+n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Databases",
+          "day": "Day 51"
+        },
+        {
+          "post_id": "477561",
+          "text": "<p>Which functional dependency holds in given relation $\\mathrm{R}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})$ and why?&nbsp;&nbsp;<br>$$<br>\\begin{array}{|c|c|c|}<br>\\hline \\mathbf{A} & \\mathbf{B} & \\mathbf{C} \\\\<br>\\hline 7 & 1 & 8 \\\\<br>\\hline 7 & 2 & 5 \\\\<br>\\hline 7 & 3 & 5 \\\\<br>\\hline 5 & 8 & 8 \\\\<br>\\hline<br>\\end{array}<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{AB} \\rightarrow \\mathrm{C}$&nbsp; &nbsp; $\\&\\&$&nbsp; &nbsp; $\\mathrm{C} \\rightarrow \\mathrm{B}$<br>&nbsp;</li><li>$\\mathrm{BC} \\rightarrow \\mathrm{A}$&nbsp; &nbsp; $\\&\\&$&nbsp; &nbsp; $\\mathrm{B} \\rightarrow \\mathrm{C}$<br>&nbsp;</li><li>$\\mathrm{BC} \\rightarrow \\mathrm{A}$&nbsp; &nbsp; $\\&\\&$&nbsp; &nbsp; $\\mathrm{A} \\rightarrow \\mathrm{C}$<br>&nbsp;</li><li>$\\mathrm{AC} \\rightarrow \\mathrm{B}$&nbsp; &nbsp; $\\&\\&$&nbsp; &nbsp; $\\mathrm{B} \\rightarrow \\mathrm{C}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Databases",
+          "day": "Day 51"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Day 239 [Algorithms]",
+  "duration": 12,
+  "total_qs": 4,
+  "total_qs_one": 4,
+  "total_qs_two": 0,
+  "total_marks": 4,
+  "apti_num_qs": 0,
+  "technical_num_qs": 4,
+  "technical_marks": 4,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 4,
+      "marks": 4,
+      "question": [
+        {
+          "post_id": "542136",
+          "text": "<p data-start=\"5437\" data-end=\"5458\">Solve the recurrence:</p><p data-start=\"5460\" data-end=\"5482\">$T(n) = 4T(n/2) + n^2$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5484\" data-end=\"5572\">$\\Theta(n^2)$<br>&nbsp;</li><li data-start=\"5484\" data-end=\"5572\">$\\Theta(n^2\\log n)$<br>&nbsp;</li><li data-start=\"5484\" data-end=\"5572\">$\\Theta(n^{\\log_2 4})$<br>&nbsp;</li><li data-start=\"5484\" data-end=\"5572\">$\\Theta(n^3)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 239"
+        },
+        {
+          "post_id": "542134",
+          "text": "<p data-start=\"4942\" data-end=\"4963\">Solve the recurrence:</p><p data-start=\"4965\" data-end=\"4987\">$T(n) = 7T(n/2) + n^3$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4989\" data-end=\"5077\">$\\Theta(n^{\\log_2 7})$<br>&nbsp;</li><li data-start=\"4989\" data-end=\"5077\">$\\Theta(n^3)$<br>&nbsp;</li><li data-start=\"4989\" data-end=\"5077\">$\\Theta(n^3\\log n)$<br>&nbsp;</li><li data-start=\"4989\" data-end=\"5077\">$\\Theta(n^2)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 239"
+        },
+        {
+          "post_id": "542132",
+          "text": "<p data-start=\"4449\" data-end=\"4470\">Solve the recurrence:</p><p data-start=\"4472\" data-end=\"4501\">$T(n) = 10T(n/3) + 17n^{1.2}$<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4503\" data-end=\"4600\">$O(n^{1.2})$<br>&nbsp;</li><li data-start=\"4503\" data-end=\"4600\">$O(n^{\\log_3 10})$<br>&nbsp;</li><li data-start=\"4503\" data-end=\"4600\">$O(n^{1.2}\\log n)$<br>&nbsp;</li><li data-start=\"4503\" data-end=\"4600\">$O(n^3)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 239"
+        },
+        {
+          "post_id": "542128",
+          "text": "<p data-start=\"3928\" data-end=\"3949\">Solve the recurrence:</p><p data-start=\"3951\" data-end=\"3979\">$T(n) = 3T(n/5) + (\\log n)^2$<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3981\" data-end=\"4071\">$O((\\log n)^2)$<br>&nbsp;</li><li data-start=\"3981\" data-end=\"4071\">$O(n^{\\log_5 3})$<br>&nbsp;</li><li data-start=\"3981\" data-end=\"4071\">$O(n)$<br>&nbsp;</li><li data-start=\"3981\" data-end=\"4071\">$O(n\\log n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 239"
+        }
+      ]
+    }
+  ]
+}

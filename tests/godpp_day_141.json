@@ -1,0 +1,70 @@
+{
+  "name": "Day 138 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "498938",
+          "text": "<p>$\\text { Consider a network running a link-state routing protocol with the following topology: }$</p><p style=\"text-align:center\"><img width=\"205\" height=\"269\" alt=\"\" src=\"data:image/png;base64,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\"></p><p><br>The numbers represent link costs. Router A needs to compute the shortest path to all other routers using Dijkstra's algorithm.<br>&nbsp;</p><p><strong>After completing the algorithm, what is the total cost of the shortest path from $\\textbf{A}$ to $\\textbf{D}$ ?</strong><br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4$<br>&nbsp;</li><li>$5$<br>&nbsp;</li><li>$6$<br>&nbsp;</li><li>$7$</li></ol><p>&nbsp;</p>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 138"
+        },
+        {
+          "post_id": "498935",
+          "text": "<p>Consider a TCP connection where the congestion window varies between $\\mathrm{W}$ and $\\mathrm{W} / 2$ due to periodic packet losses caused by congestion. The round-trip time (RTT) is $100 ~\\text{ms}$ , and the maximum segment size $\\text{(MSS)}$ is $1460 ~\\text{bytes}$.</p><p><strong>If the average congestion window size is $\\mathbf{12 ~MSS}$ , what is the approximate average throughput of this connection in </strong>$\\textbf{Mbps}$<strong>?</strong><br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1.4 ~\\text{Mbps}$<br>&nbsp;</li><li>$2.8 ~\\text{Mbps}$<br>&nbsp;</li><li>$5.6 ~\\text{Mbps}$<br>&nbsp;</li><li>$11.2 ~\\text{Mbps}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 138"
+        },
+        {
+          "post_id": "498931",
+          "text": "<p>Consider a TCP connection using AIMD (Additive Increase Multiplicative Decrease) congestion control. The current congestion window size is $\\mathbf{2 4 ~MSS}$. A timeout occurs, followed by three successful RTTs of transmission.</p><p><strong>What is the congestion window size after these three RTTs?</strong></p>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 138"
+        },
+        {
+          "post_id": "498929",
+          "text": "<p>An IP datagram of size $\\mathbf{2400} ~\\textbf{bytes}$ (including IP header) passes through two networks with different MTUs:</p><ol><li><strong>Network A:</strong> MTU $= 1500 ~\\textbf{bytes}$<br>&nbsp;</li><li><strong>Network B:</strong> MTU $= 620 ~\\textbf{bytes}$<br>&nbsp;</li></ol><p>The IP header size is $\\mathbf{20} ~\\textbf{bytes}$. Assume all fragments are further fragmented if they exceed the MTU of the next network.</p><p><strong>What is the total number of fragments that eventually arrive at the destination?</strong><br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4$<br>&nbsp;</li><li>$5$<br>&nbsp;</li><li>$6$<br>&nbsp;</li><li>$7$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 138"
+        },
+        {
+          "post_id": "498925",
+          "text": "<p>Consider an IP datagram of $\\mathbf{1500 ~bytes}$ (including the IP header) that must be sent over a network with an MTU of $\\mathbf{576 ~bytes}$. The IP header size is $\\mathbf{20 ~bytes}$.</p><p>The datagram needs to be fragmented to traverse this network.<br><br><strong>What is the total overhead (in $\\textbf{bytes}$) introduced due to fragmentation?</strong><br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{40 ~bytes}$<br>&nbsp;</li><li>$\\mathrm{60&nbsp;~bytes}$<br>&nbsp;</li><li>$\\mathrm{80 ~bytes}$<br>&nbsp;</li><li>$\\mathrm{100 ~bytes}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 138"
+        }
+      ]
+    }
+  ]
+}

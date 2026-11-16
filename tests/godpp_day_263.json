@@ -1,0 +1,70 @@
+{
+  "name": "Day 229 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "526214",
+          "text": "Let $M = \\begin{bmatrix} a & b &c \\\\ b &d & e\\\\ c & e & f \\end{bmatrix}$ be a real matrix with eigenvalues $1, 0$ and $3$. If the eigenvectors corresponding to $1$ and $0$ are $\\left ( 1,1,1 \\right )^T$ and &nbsp;$\\left ( 1,-1, 0 \\right )^T$ respectively, then the value of $3f$ is equal to $\\_\\_\\_\\_\\_\\_\\_.$",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 229"
+        },
+        {
+          "post_id": "526216",
+          "text": "Let $A$ is a diagonal matrix of order $100$ and $d_i$ is diagonal element of $A$. Given that<br>\n$$<br>\nd_i=\\left\\{\\begin{array}{ll}<br>\n2 i+1 ; & \\text { if } i \\bmod 3=0 \\\\<br>\ni+3 ; & \\text { if } i \\bmod 3=1 \\\\<br>\n0 ; & \\text { if } i \\bmod 3=2<br>\n\\end{array}\\right\\} \\text { where } 1 \\leq \\mathrm{i} \\leq 100<br>\n$$<br>\nThen what is the value of trace of $A$ ?",
+          "type": "Numerical",
+          "answer": "5218",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 229"
+        },
+        {
+          "post_id": "526209",
+          "text": "<p>The number of ordered pairs $(X, Y)$, where $X$ and $Y$ are $n \\times n$ real, matrices such that $XY-YX=I$ is</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$0$<br>&nbsp;</li><li>$1$<br>&nbsp;</li><li>$n$<br>&nbsp;</li><li>infinite</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 229"
+        },
+        {
+          "post_id": "526219",
+          "text": "<p>If $A$ is a skew-symmetric matrix of order $n$, then number of linearly independent eigen vectors of $(A + A^T) = $</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$<br>&nbsp;</li><li>$1$<br>&nbsp;</li><li>$n -1$<br>&nbsp;</li><li>$n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 229"
+        },
+        {
+          "post_id": "526211",
+          "text": "<p>The $a, b, c$ and $d$ satisfy the equations$$\\begin{matrix} a & + & 7b & + & 3c & + & 5d & = &16 \\\\ 8a & + & 4b & + & 6c & + & 2d & = &-16 \\\\ 2a & + & 6b & + & 4c & + & 8d & = &16 \\\\&nbsp; 5a & + & 7b & + & 3c & + & 5d & = &-16 &nbsp;\\end{matrix}$$Then $(a+d)(b+c)$ equals</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$-64$<br>&nbsp;</li><li>$0$<br>&nbsp;</li><li>$16$<br>&nbsp;</li><li>$-16$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 229"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 188 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "518817",
+          "text": "<p>Consider a system with three processes $P_1, P_2, P_3$ and three resource types $R_1, R_2, R_3$. Each resource type has <strong>one instance</strong>. The current allocation state is as follows:</p><ul><li>$P_1$ is holding $R_1$ and requesting $R_2$.<br>&nbsp;</li><li>$P_2$ is holding $R_2$ and requesting $R_3$.<br>&nbsp;</li><li>$P_3$ is holding $R_3$.</li></ul><p>A new request arrives: $P_3$ <strong>requests</strong> $R_1$. Which of the following statements is <strong>TRUE</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The system is in a safe state, and no deadlock occurs.&nbsp;<br>&nbsp;</li><li>The system is in a deadlock state involving $P_1, P_2$, and $P_3$.&nbsp;<br>&nbsp;</li><li>Only $P_1$ and $P_2$ are in a deadlock.&nbsp;<br>&nbsp;</li><li>The system is in an unsafe state, but deadlock can be avoided if $P_3$ releases $R_3$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 188"
+        },
+        {
+          "post_id": "518815",
+          "text": "<p>Consider the Producer-Consumer problem with a shared buffer of size $N=5$. The system uses three semaphores$: \\verb|empty|$ $($initialized to $5 )$, $\\verb|full|$ $($initialized to $0 )$, and $\\verb|mutex|$ $($initialized to $1)$.</p><p>The Producer process executes the following code:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">while(true) {\n&nbsp; &nbsp; // Produce item\n&nbsp; &nbsp; Wait(empty);\n&nbsp; &nbsp; Wait(mutex);\n&nbsp; &nbsp; // Add to buffer\n&nbsp; &nbsp; Signal(mutex);\n&nbsp; &nbsp; Signal(full);\n}</pre><p>The Consumer process executes the following code:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">while(true) {\n&nbsp; &nbsp; Wait(full);\n&nbsp; &nbsp; Wait(mutex);\n&nbsp; &nbsp; // Remove from buffer\n&nbsp; &nbsp; Signal(mutex);\n&nbsp; &nbsp; Signal(empty);\n&nbsp; &nbsp; // Consume item\n}</pre><p>Suppose the Producer has already added $\\mathbf{3}$<strong> items</strong> to the buffer. If $\\mathbf{2}$<strong> Consumer instances</strong> and&nbsp;$\\mathbf{1}$&nbsp;<strong>Producer instance</strong> now attempt to access the buffer simultaneously, what is the <strong>maximum</strong> possible value the semaphore $\\verb|empty|$ can reach during their execution?</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 188"
+        },
+        {
+          "post_id": "518810",
+          "text": "<p>Consider a system with two priority queues for CPU scheduling: <strong>Queue $\\mathbf{1}$ (High Priority)</strong> uses Round Robin (RR) with a time quantum of $\\mathbf{2 ~ms}$, and <strong>Queue $\\mathbf{2}$ (Low Priority)</strong> uses First-Come-First-Serve (FCFS).</p><ul><li>A process from Queue $2$ can only run if Queue $1$ is empty.<br>&nbsp;</li><li>If a process arrives in Queue $1$ while a process from Queue $2$ is running, the Queue $2$ process is preempted immediately.<br>&nbsp;</li><li>The context switching overhead is $\\mathbf{0 . 5 ~ m s}$ whenever the CPU switches from one process to another (including switching between processes in the same queue).</li></ul><p>Two processes, $P_1$ and $P_2$, arrive in Queue $1$ at time $t=0$ and $t=1$ respectively, with burst times of $\\mathbf{4} \\mathbf{~ m s}$ each. One process $P_3$ arrives in Queue $2$ at $t=0$ with a burst time of $\\mathbf{2} \\mathbf{~ m s}$. What is the completion time of process $P_3$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$11.5 ~\\mathrm{ms}$<br>&nbsp;</li><li>$12.0 ~\\mathrm{ms}$<br>&nbsp;</li><li>$13.5 ~\\mathrm{ms}$<br>&nbsp;</li><li>$14.0 ~\\mathrm{ms}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 188"
+        },
+        {
+          "post_id": "518808",
+          "text": "<p>A system uses a $\\mathbf{2}$<strong>-level paging</strong> scheme with a $32$-bit logical address space and a page size of $\\mathbf{4}$ <strong>KB.</strong> Each page table entry (PTE) at both levels is $\\mathbf{4}$ <strong>bytes</strong>. The system also uses a Translation Lookaside Buffer (TLB) with a hit ratio of $\\mathbf{90 \\%}$.</p><ul><li>TLB access time is $\\mathbf{10 ~ n s}$.<br>&nbsp;</li><li>Main memory access time is $\\mathbf{1 0 0 ~ n s}$.<br>&nbsp;</li><li>The first-level page table is always stored in the TLB (effectively $0&nbsp;~\\mathrm{ns}$&nbsp;overhead for the first level if the TLB hits).</li></ul><p>What is the <strong>Effective Memory Access Time (EMAT)</strong> for this system, assuming the secondlevel page table entry is NOT in the TLB?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$121&nbsp;~\\mathrm{ns}$<br>&nbsp;</li><li>$131&nbsp;~\\mathrm{ns}$<br>&nbsp;</li><li>$141&nbsp;~\\mathrm{ns}$<br>&nbsp;</li><li>$151&nbsp;~\\mathrm{ns}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 188"
+        },
+        {
+          "post_id": "518811",
+          "text": "<p>Three processes $(P_1, P_2, P_3)$ share a common counting semaphore $S$ , which is initialized to $2$. Each process executes the following sequence of operations exactly once:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">Wait(S);\n// Critical Section\nSignal(S);\nWait(S);\n// Critical Section\nSignal(S);</pre><p>If no other processes or operations interfere with $S$, what is the maximum possible value the semaphore $S$ can reach at any point during the execution of these three processes?</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 188"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 37 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "475223",
+          "text": "<p>The value of the following improper integral is $\\int_0^1 x \\ln x$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1 / 4$<br>&nbsp;</li><li>$0$<br>&nbsp;</li><li>$-1 / 4$<br>&nbsp;</li><li>$1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 37"
+        },
+        {
+          "post_id": "475217",
+          "text": "<p>The $\\lim _{x \\rightarrow 0} \\frac{\\sin \\left[\\frac{2}{3} x\\right]}{x}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{2}{3}$<br>&nbsp;</li><li>$1$<br>&nbsp;</li><li>$\\frac{3}{2}$<br>&nbsp;</li><li>$\\infty$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 37"
+        },
+        {
+          "post_id": "475225",
+          "text": "The integral $\\int_0^1 \\frac{d x}{\\sqrt{(1-x)}}$ is equal to",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 37"
+        },
+        {
+          "post_id": "475219",
+          "text": "<p>The value of the function $f(x)=\\lim _{x \\rightarrow 0} \\frac{x^3+x^2}{2 x^3-7 x^2}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$<br>&nbsp;</li><li>$-\\frac{1}{7}$<br>&nbsp;</li><li>$\\frac{1}{7}$<br>&nbsp;</li><li>$\\infty$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 37"
+        },
+        {
+          "post_id": "475221",
+          "text": "<p>The following function has a local minima at which value of $x$ ? $f(x)=x \\sqrt{5-x^2}$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$-\\frac{\\sqrt{5}}{2}$<br>&nbsp;</li><li>$\\sqrt{5}$<br>&nbsp;</li><li>$\\sqrt{\\frac{5}{2}}$<br>&nbsp;</li><li>$-\\sqrt{\\frac{5}{2}}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 37"
+        }
+      ]
+    }
+  ]
+}

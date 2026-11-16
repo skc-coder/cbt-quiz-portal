@@ -1,0 +1,70 @@
+{
+  "name": "Day 236 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "527359",
+          "text": "<p>Let $$ A = \\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 2&nbsp; \\\\ 1 & 2 & 3 \\end{pmatrix} \\text{ and } B=\\begin{pmatrix} 1 & 0 & 0 \\\\ 1 & 1 & 0 \\\\ 1 & 1 & 1 \\end{pmatrix}.$$ Then</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>there exists a matrix $C$ such that $A=BC=CB$<br>&nbsp;</li><li>there is no matrix $C$ such that $A=BC$<br>&nbsp;</li><li>there exists a matrix $C$ such that $A=BC$, but $A \\neq CB$<br>&nbsp;</li><li>there is no matrix $C$ such that $A=CB$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "527353",
+          "text": "<p>Let $\\lambda_1,&nbsp;\\lambda_2,&nbsp;\\lambda_3$ denote the eigenvalues of the matrix</p><p>$$A=&nbsp; \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & \\cos t & \\sin t \\\\ 0 & –&nbsp;\\sin t & \\cos t \\end{bmatrix}.$$ If $\\lambda_1+\\lambda_2+\\lambda_3 = \\sqrt{2}+1$, then the set of possible values of $t, \\: –&nbsp;\\pi \\leq t &lt; \\pi$, is</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>Empty set<br>&nbsp;</li><li>$\\{ \\frac{\\pi}{4} \\}$<br>&nbsp;</li><li>$\\{ –&nbsp;\\frac{\\pi}{4},&nbsp;\\frac{\\pi}{4} \\}$<br>&nbsp;</li><li>$\\{ –&nbsp;\\frac{\\pi}{3},&nbsp;\\frac{\\pi}{3} \\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "527357",
+          "text": "<p>Let $P_1$, $P_2$ and $P_3$ denote, respectively, the planes defined by</p><p>$$\\begin{array} {} a_1x +b_1y+c_1z=\\alpha _1 \\\\&nbsp;a_2x +b_2y+c_2z=\\alpha _2 \\\\&nbsp;a_3x +b_3y+c_3z=\\alpha _3 \\end{array}$$</p><p>It is given that $P_1$, $P_2$ and $P_3$ intersect exactly at one point when $\\alpha _1 =&nbsp;\\alpha _2 =\\alpha _3=1$. If now $\\alpha _1 =2, \\:&nbsp;\\alpha _2=3, \\:&nbsp;\\alpha _3 = 4$ then the planes</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>do not have any common point of intersection<br>&nbsp;</li><li>intersect at a unique point<br>&nbsp;</li><li>intersect along a straight line<br>&nbsp;</li><li>intersect along a plane</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "527355",
+          "text": "<p>The values of $a$ for which the following system of equations</p><p>$$\\begin{array} {} x & + & y & + & z & = & 1 \\\\ x & + & 2y & + & 4z & = & a \\\\ x & + & 4y & + & 10z & = & a ^2 \\end{array}$$ has a solution are</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$a&nbsp;= 1, -2$<br>&nbsp;</li><li>$a = -1, -2$<br>&nbsp;</li><li>$a = 3, -3$<br>&nbsp;</li><li>$a = 1, 2$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "527351",
+          "text": "<p>Let $A_{ij}$ denote the minors of an $n \\times n$ matrix $A$. What is the relationship between $\\mid A_{ij} \\mid $ and $\\mid A_{ji} \\mid $?</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>They are always equal<br>&nbsp;</li><li>$\\mid A_{ij} \\mid = –\\mid A _{ji} \\mid \\text{ if } i \\neq j$<br>&nbsp;</li><li>They are equal if $A$ is a symmetric matrix<br>&nbsp;</li><li>If $\\mid A_{ij} \\mid =0$ then $\\mid A_{ji} \\mid =0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 236"
+        }
+      ]
+    }
+  ]
+}

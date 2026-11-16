@@ -1,0 +1,70 @@
+{
+  "name": "Day 318 [Data Structures]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "539307",
+          "text": "<div style=\"line-height:1.9; font-size:16px;\"><p>Consider the following postfix expression:</p><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{1 2 3 + 4 5 * * +}$</p><p><b>Which of the following fully parenthesized infix expressions is equivalent to it?</b></p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{( 1 + ( ( 2 + 3 ) * ( 4 * 5 ) ) )}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{( ( 1 + 2 ) * ( ( 3 + 4 ) * 5 ) )}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{( 1 * ( ( 2 + 3 ) + ( 4 * 5 ) ) )}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{( ( 1 + 2 ) + ( 3 * ( 4 + 5 ) ) )}$</p></li></ol></div>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 318"
+        },
+        {
+          "post_id": "539302",
+          "text": "<div style=\"line-height:1.9; font-size:16px;\"><p>Consider the following prefix expression:</p><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{+ * 2 3 / 8 4}$</p><p><b>Which of the following is its correct postfix form?</b></p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 3 * 8 4 / +}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{+ * 2 3 / 8 4}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 * 3 + 8 / 4}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 3 8 4 * / +}$</p></li></ol></div>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 318"
+        },
+        {
+          "post_id": "539293",
+          "text": "<div style=\"line-height:1.9; font-size:16px;\"><p>Evaluate the following postfix expression:</p><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{3 4 5 + *}$</p><p><b>Enter the numerical value.</b></p></div>",
+          "type": "Numerical",
+          "answer": "27",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 318"
+        },
+        {
+          "post_id": "539298",
+          "text": "<div style=\"line-height:1.9; font-size:16px;\"><p>For the expression:</p><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 * 3 + 8 / 4}$</p><p>Assume the expression tree has $\\texttt{+}$ as the root, $\\texttt{*}$ as the left subtree root, and $\\texttt{/}$ as the right subtree root.</p><p><b>Which of the following is the correct prefix expression?</b></p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{+ * 2 3 / 8 4}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 3 * 8 4 / +}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 * 3 + 8 / 4}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{+ 2 * 3 / 8 4}$</p></li></ol></div>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 318"
+        },
+        {
+          "post_id": "539291",
+          "text": "<div style=\"line-height:1.9; font-size:16px;\"><p>Convert the following fully parenthesized infix expression into postfix form:</p><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{( 2 + ( ( 3 + 4 ) * ( 5 * 6 ) ) )}$</p><p><b>Which of the following is the correct postfix expression?</b></p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 3 4 + 5 6 * * +}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 3 + 4 5 * 6 * +}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 3 4 5 6 + * * +}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 3 4 + * 5 6 * +}$</p></li></ol></div>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 318"
+        }
+      ]
+    }
+  ]
+}

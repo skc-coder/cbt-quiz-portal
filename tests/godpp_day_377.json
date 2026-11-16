@@ -1,0 +1,70 @@
+{
+  "name": "Day 273 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "531991",
+          "text": "<p>Let $A$ be the set of all finite binary strings, including the empty string $\\epsilon$.&nbsp;</p><p>Define $F:A\\to A$ as follows: $F(w)$ is obtained by writing $0$ before the string $w$. Then $F$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"323\" data-end=\"345\">one-one and onto<br>&nbsp;</li><li data-start=\"347\" data-end=\"373\">one-one but not onto<br>&nbsp;</li><li data-start=\"375\" data-end=\"398\">many-one and onto<br>&nbsp;</li><li data-start=\"400\" data-end=\"427\">many-one but not onto</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 273"
+        },
+        {
+          "post_id": "531982",
+          "text": "<p data-start=\"32\" data-end=\"153\">Find the domain of the function $F(x)=\\sqrt{\\ln(x-1)}+\\ln\\left(\\dfrac{\\sqrt{x+1}-2}{x^2-5x+6}\\right)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"155\" data-end=\"173\">$[2,\\infty)$<br>&nbsp;</li><li data-start=\"175\" data-end=\"193\">$(2,\\infty)$<br>&nbsp;</li><li data-start=\"195\" data-end=\"222\">$(2,3)\\cup(3,\\infty)$<br>&nbsp;</li><li data-start=\"224\" data-end=\"251\">$[2,3)\\cup(3,\\infty)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 273"
+        },
+        {
+          "post_id": "531989",
+          "text": "<p data-start=\"37\" data-end=\"265\">Let $A$ and $B$ be non-empty sets and let $f:A\\to B$ be a function.&nbsp;</p><p data-start=\"37\" data-end=\"265\">For $S\\subseteq A$, define $S^c=A-S$.&nbsp;</p><p data-start=\"37\" data-end=\"265\">For $Y\\subseteq B$, define $Y^c=B-Y$.&nbsp;</p><p data-start=\"37\" data-end=\"265\">Which of the following statements is/are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"267\" data-end=\"352\">If $f$ is injective, then $f(S)\\cap f(S^c)=\\varnothing$ for every $S\\subseteq A$.<br>&nbsp;</li><li data-start=\"354\" data-end=\"434\">If $f(S^c)=B-f(S)$ for every $S\\subseteq A$, then $f$ is bijective.<br>&nbsp;</li><li data-start=\"436\" data-end=\"501\">For every $Y\\subseteq B$, $f^{-1}(Y^c)=A\\setminus f^{-1}(Y)$.<br>&nbsp;</li><li data-start=\"503\" data-end=\"611\">If $f^{-1}(Y_1)=f^{-1}(Y_2)$ implies $Y_1=Y_2$ for all $Y_1,Y_2\\subseteq B$, then $f$ must be injective.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 273"
+        },
+        {
+          "post_id": "531980",
+          "text": "<p data-start=\"32\" data-end=\"204\">Let $A=\\{1,2,3,4,5,6\\}$. Find the number of bijections $f:A\\to A$ such that $f(1)\\neq1$, $f(2)\\neq2$, $f(3)\\neq3$, and $f(4)=5$ if and only if $f(5)=4$.</p>",
+          "type": "Numerical",
+          "answer": "320",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 273"
+        },
+        {
+          "post_id": "531978",
+          "text": "<p data-start=\"31\" data-end=\"241\">Let $A$ be the set of all non-constant linear functions from $\\mathbb R$ to $\\mathbb R$.&nbsp;</p><p data-start=\"31\" data-end=\"241\">Define $T:A\\to\\mathbb R$ by $T(\\phi)=$ the unique real number $x$ for which $\\phi(x)=0$.&nbsp;</p><p data-start=\"31\" data-end=\"241\">Then $T$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"243\" data-end=\"265\">one-one and onto<br>&nbsp;</li><li data-start=\"267\" data-end=\"293\">one-one but not onto<br>&nbsp;</li><li data-start=\"295\" data-end=\"318\">many-one and onto<br>&nbsp;</li><li data-start=\"320\" data-end=\"347\">many-one but not onto</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 273"
+        }
+      ]
+    }
+  ]
+}

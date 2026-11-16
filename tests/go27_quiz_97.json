@@ -1,0 +1,134 @@
+{
+  "id": "go27_quiz_97",
+  "name": "GO Classes GATE CS/DA | DBMS | SQL | Weekly Quiz 10",
+  "duration": "27",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "430949",
+          "text": "<p>Consider the following relational schema:</p><p>$\\text{Suppliers}(\\underline{\\text{sid:integer}},\\text{ sname:string, city:string, street:string})$&nbsp;</p><p>$\\text{Parts}(\\underline{\\text{pid:integer}}, \\text{ pname:string, color:string})$&nbsp;</p><p>$\\text{Catalog}(\\underline {\\text{sid:integer, pid:integer}}, \\text{cost:real})$</p><p>Consider the following relational query on the above database:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT\tS.sname\nFROM    Suppliers S\nWHERE S.sid NOT IN (SELECT C.sid \n                    FROM Catalog C \n                    WHERE C.pid NOT IN (SELECT P.pid \n                                        FROM Parts P \n                                        WHERE P.color&lt;&gt;'blue'))</pre><p>Assume that relations corresponding to the above schema are not empty. Which one of the following is the correct interpretation of the above query?</p><ol style=\"list-style-type:upper-alpha\"><li><p>Find the names of all suppliers who have supplied a non-blue part.</p></li><li><p>Find the names of all suppliers who have not supplied a non-blue part.</p></li><li><p>Find the names of all suppliers who have supplied only non-blue part.</p></li><li><p>Find the names of all suppliers who have not supplied only blue parts.</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq17,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "430956",
+          "text": "<p>Consider the following table named $\\text{Student}$ in a relational database. The primary key of this table is $\\text{rollNum}.$</p><p>$\\text{Student}$<br>$\\begin{array}{|c|l|c|c|}<br>\\hline&nbsp;\\underline{\\text{rollNum}} &amp; \\text{name} &amp; \\text{gender} &amp; \\text{marks} \\\\<br>\\hline \\hline 1 &amp; \\text{Naman} &amp; \\mathrm{M}&nbsp;&amp; 62 \\\\<br>\\hline 2 &amp; \\text{Aliya} &amp; \\mathrm{F}&nbsp;&amp; 70 \\\\<br>\\hline 3 &amp; \\text{Aliya} &amp; \\mathrm{F}&nbsp;&amp; 80 \\\\<br>\\hline 4 &amp; \\text{James} &amp; \\mathrm{M}&nbsp;&amp; 82 \\\\<br>\\hline 5 &amp; \\text{Swati} &amp; \\mathrm{F}&nbsp;&amp; 65 \\\\<br>\\hline<br>\\end{array}$</p><p>The $\\text{SQL}$ query below is executed on this database.</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT *\nFROM Student\nWHERE gender = 'F' AND\n    marks  &gt; 65;</pre><p>The number of rows returned by the query is ___________.</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq17,goclasses,databases,two-marks,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "430963",
+          "text": "<p>Consider the following relation:</p><p>$$<br>\\overset{\\text{Student}}{<br>\\begin{array}{|c|c|}<br>\\hline<br>\\rule{0pt}{2.4ex}\\underline{\\smash{\\textbf{Roll\\_No}}} &amp; \\textbf{Student\\_Name} \\\\<br>\\hline<br>1 &amp; \\text{Raj} \\\\<br>\\hline<br>2 &amp; \\text{Rohit} \\\\<br>\\hline<br>3 &amp; \\text{Raj} \\\\<br>\\hline<br>\\end{array}<br>}<br>\\qquad<br>\\overset{\\text{Performance}}{<br>\\begin{array}{|c|c|c|}<br>\\hline<br>\\rule{0pt}{2.4ex}\\underline{\\smash{\\textbf{Roll\\_No}}} &amp;<br>\\underline{\\smash{\\textbf{Course}}} &amp;<br>\\textbf{Marks} \\\\<br>\\hline<br>1 &amp; \\text{Math} &amp; 80 \\\\<br>\\hline<br>1 &amp; \\text{English} &amp; 70 \\\\<br>\\hline<br>2 &amp; \\text{Math} &amp; 75 \\\\<br>\\hline<br>3 &amp; \\text{English} &amp; 80 \\\\<br>\\hline<br>2 &amp; \\text{Physics} &amp; 65 \\\\<br>\\hline<br>3 &amp; \\text{Math} &amp; 80 \\\\<br>\\hline<br>\\end{array}<br>}<br>$$</p><p>Consider the following SQL query.</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT S.Student_Name, Sum(P. Marks) \nFROM Student S, Performance P\nWHERE S.Roll_No= P.Roll_No\nGROUP BY S.STUDENT_Name</pre><p>The numbers of rows that will be returned by the SQL query is_________________.</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq17,goclasses,databases,one-mark,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "430961",
+          "text": "<p>A relational database contains two tables Student and Performance as shown below:</p><p>$$\\overset{\\text{Table: student}}{\\begin{array}{|l|l|} \\hline \\text{Roll_no} &amp; \\text{Student_name}\\\\\\hline 1 &amp; \\text{Amit} \\\\\\hline 2&nbsp;&amp; \\text{Priya} \\\\\\hline 3&nbsp;&amp; \\text{Vinit} \\\\\\hline&nbsp;4&nbsp;&amp; \\text{Rohan} \\\\\\hline 5&nbsp;&amp; \\text{Smita} \\\\\\hline \\end{array}} \\qquad\\overset{\\text{Table: Performance}}{\\begin{array}{|l|l|l|} \\hline \\text{Roll_no} &amp; \\text{Subject_code} &amp; \\text{Marks}\\\\\\hline 1 &amp; \\text{A} &amp; 86 \\\\\\hline 1 &amp; \\text{B} &amp; 95&nbsp;\\\\\\hline 1 &amp; \\text{C} &amp; 90&nbsp;\\\\\\hline 2&nbsp;&amp; \\text{A} &amp; 89&nbsp;\\\\\\hline&nbsp;2&nbsp;&amp; \\text{C} &amp; 92&nbsp;\\\\\\hline&nbsp;3&nbsp;&amp; \\text{C} &amp; 80&nbsp;\\\\\\hline \\end{array}}$$</p><p>The primary key of the Student table is Roll_no. For the performance table, the columns Roll_no. and Subject_code together form the primary key. Consider the SQL query given below:</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT S.Student_name, sum(P.Marks) \nFROM Student S, Performance P \nWHERE P.Marks &gt;84 \nGROUP BY S.Student_name;</pre><p>The number of rows returned by the above SQL query is ________</p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq17,goclasses,databases,one-mark,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "430953",
+          "text": "<p>In SQL, relations can contain null values, and comparisons with null values are treated as unknown. Suppose all comparisons with a null value are treated as false. Which of the following pairs is/are not equivalent?</p><ol style=\"list-style-type:upper-alpha\"><li>$x = 5 \\quad not (not (x = 5))$</li><li>$x = 5 \\quad x&nbsp;&gt; 4$ and $x&nbsp;&lt; 6,$ where $x$ is an integer</li><li>$x&nbsp;≠ 5 \\quad not (x = 5)$</li><li>none of the above</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq17,goclasses,databases,two-marks,multiple-selects",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "430959",
+          "text": "<p>A relational schema for a train reservation database is given below.</p><ul><li><strong>passenger(pid, pname, age)</strong></li><li><strong>reservation(pid, class, tid)</strong></li></ul><p>$$<br>\\overset{\\text{Passenger}}{<br>\\begin{array}{|c|c|c|}<br>\\hline<br>\\textbf{pid} &amp; \\textbf{pname} &amp; \\textbf{Age} \\\\<br>\\hline<br>0 &amp; \\text{Sachine} &amp; 65 \\\\<br>\\hline<br>1 &amp; \\text{Rahul} &amp; 66 \\\\<br>\\hline<br>2 &amp; \\text{Sourav} &amp; 67 \\\\<br>\\hline<br>3 &amp; \\text{Anil} &amp; 69 \\\\<br>\\hline<br>\\end{array}<br>}<br>\\qquad<br>\\overset{\\text{Reservation}}{<br>\\begin{array}{|c|c|c|}<br>\\hline<br>\\textbf{pid} &amp; \\textbf{class} &amp; \\textbf{tid} \\\\<br>\\hline<br>0 &amp; \\text{AC} &amp; 8200 \\\\<br>\\hline<br>1 &amp; \\text{AC} &amp; 8201 \\\\<br>\\hline<br>2 &amp; \\text{SC} &amp; 8201 \\\\<br>\\hline<br>5 &amp; \\text{AC} &amp; 8203 \\\\<br>\\hline<br>1 &amp; \\text{SC} &amp; 8204 \\\\<br>\\hline<br>3 &amp; \\text{AC} &amp; 8202 \\\\<br>\\hline<br>\\end{array}<br>}<br>$$<br>What <strong>pids</strong> are returned by the following SQL query for the above instance of the tables?</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT pid\nFROM Reservation\nWHERE class='AC' AND\n    EXISTS (SELECT * \n            FROM Passenger \n            WHERE age&gt;65 AND \n            Passenger.pid=Reservation.pid)</pre><ol style=\"list-style-type:upper-alpha\"><li>$1, 0$</li><li>$1, 2$</li><li>$1, 3$</li><li>$1, 5$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq17,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "430955",
+          "text": "<p>Consider the following two tables named Raider and Team in a relational database maintained by a Kabaddi league. The attribute ID in table Team references the primary key of the Raider table, ID.</p><table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\"><tbody><tr><td colspan=\"5\" style=\"text-align:center\"><strong>Raider</strong></td></tr><tr><td>ID&nbsp;</td><td>Name</td><td>Raids</td><td colspan=\"2\">RaidPoints&nbsp;</td></tr><tr><td>$1$</td><td>Arjun</td><td>$200$</td><td colspan=\"2\">$250$</td></tr><tr><td>$2$</td><td>Ankush</td><td>$190$</td><td colspan=\"2\">$219$</td></tr><tr><td>$3$</td><td>Sunil</td><td>$150$</td><td colspan=\"2\">$200$</td></tr><tr><td>$4$</td><td>Reza</td><td>$150$</td><td colspan=\"2\">$190$</td></tr><tr><td>$5$</td><td>Pratham</td><td>$175$</td><td colspan=\"2\">$220$</td></tr><tr><td>$6$</td><td>Gopal&nbsp;</td><td>$193$</td><td colspan=\"2\">$215$</td></tr></tbody></table><p> </p><table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\"><tbody><tr><td colspan=\"3\" style=\"text-align:center\"><strong>Team</strong></td></tr><tr><td>City&nbsp;</td><td>ID</td><td>&nbsp;BidPoints&nbsp;</td></tr><tr><td>Jaipur</td><td>$2$</td><td>$200$</td></tr><tr><td>Patna</td><td>$3$</td><td>$195$</td></tr><tr><td>Hyderabad</td><td>$5$</td><td>$175$</td></tr><tr><td>Jaipur</td><td>$1$</td><td>$250$</td></tr><tr><td>Patna&nbsp;</td><td>$4$</td><td>$200$</td></tr><tr><td>Jaipur&nbsp;</td><td>$6$</td><td>$200$</td></tr></tbody></table><p><br>The SQL query described below is executed on this database:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT *\nFROM Raider, Team\nWHERE Raider.ID=Team.ID AND City=\"Jaipur\" AND\nRaidPoints &gt; 200;</pre><p><br>The number of rows returned by this query is $\\_\\_\\_\\_\\_\\_\\_\\_$.</p><p> </p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq17,goclasses,databases,two-marks,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "472939",
+          "text": "<p>Suppose we have a relation $R(A, B)$ with one tuple, both of whose components are NULL:</p><p><img alt=\"\" width=\"225\" height=\"79\" src=\"data:image/png;base64,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\"></p><p>The result of:&nbsp;</p><p><img alt=\"\" src=\"data:image/png;base64,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\"></p><p> </p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>(NULL,NULL)</li><li>(NULL,0)</li><li>(NULL, 1)</li><li>Empty Table</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq17,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "430951",
+          "text": "<p>The employee information in a company is stored in the relation</p><ul><li>Employee (name, sex, salary, deptName)</li></ul><p>Consider the following SQL query</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">Select deptName\n    From Employee\n    Where sex = ‘M’\n    Group by deptName\n    Having avg(salary) &gt;\n        (select avg (salary) from Employee)</pre><p>It returns the names of the department in which</p><ol style=\"list-style-type:upper-alpha\"><li><p>the average salary is more than the average salary in the company</p></li><li><p>the average salary of male employees is more than the average salary of all male employees in the company</p></li><li><p>the average salary of male employees is more than the average salary of&nbsp;employees in same the department</p></li><li><p>the average salary of male employees is more than the average salary in the company</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq17,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "430965",
+          "text": "<p>A relational database contains two tables student and department in which student table has columns roll_no, name and dept_id and department table has columns dept_id and dept_name. The following insert statements were executed successfully to populate the empty tables:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">Insert into department values (1, 'Mathematics')\nInsert into department values (2, 'Physics')\nInsert into student values (l, 'Navin', 1)\nInsert into student values (2, 'Mukesh', 2)\nInsert into student values (3, 'Gita', 1)</pre><p>How many rows and columns will be retrieved by the following SQL statement?</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">Select * from student, department</pre><ol style=\"list-style-type:upper-alpha\"><li>0 row and 4 columns</li><li>3 rows and 4 columns</li><li>3 rows and 5 columns</li><li>6 rows and 5 columns</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq17,goclasses,databases,one-mark",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

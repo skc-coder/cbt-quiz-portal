@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 COA2: Addressing Modes",
+  "duration": "60",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "258176",
+          "text": "<p>A hypothetical machine has a machine-instruction as,<br>\nAdd $R1, \\: 2019$<br>\nWhich of the following is best description of this instruction in general?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Loads the value $2019$ to the content of $R1$</li>\n    <li>Adds $2019$ to the content of $R1$ and brings the memory word from this location to $R1$.</li>\n    <li>Add the content of memory location $2019$ to that of $R1$ and store the result of addition to location $[R1+2019]$.</li>\n    <li>Add the content of memory location $2019$ to that of $R1$ and store the result in $R1$.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258174",
+          "text": "<p>The addressing mode which makes use of two in-direction pointers is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Index addressing mode</li>\n    <li>Doubly indirect addressing mode</li>\n    <li>Direct addressing mode</li>\n    <li>Indirect addressing mode</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258172",
+          "text": "<p>Consider an instruction for a hypothetical machine which supports all types of addressing modes, as shown below, with a blank space which might be filled to complete the instruction:<br>\n$ADD\\: -\\: \\#2019$<br>\nAssuming the machine always seeks for the smallest possible instruction, which of the following statements about the instruction above is true in order to make it complete:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>A register-name must be placed to complete the instruction</li>\n    <li>The instruction is complete and adds zero to $2019$ and store it in accumulator.</li>\n    <li>The instruction is complete and conforms zero address mode and the value $2019$ is added to the value at top of the stack and the result is pushed onto the stack.</li>\n    <li>The instruction is complete and conforms one address mode and the value $2019$ is added to the value inside accumulator and the result is stored back in accumulator.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258170",
+          "text": "<p>Consider following statements about autoincrement/autodecrement addressing modes:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>In autoincrement addressing mode address of the operand is computed first followed by increment of the content of the register</li>\n    <li>In autodecrement addressing mode address of the operand is computed first followed by decrement of the content of the register.</li>\n    <li>In autoincrement addressing mode address of the operand is computed after the increment of the content of the register</li>\n    <li>In autodecrement addressing mode address of the operand is computed after the decrement of the content of the register.</li>\n</ol>\n\n<p>Which of the above statements is/are TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(i) and (ii) only</li>\n    <li>(i) and (iii) only</li>\n    <li>(i) and (iv) only</li>\n    <li>(ii) and (iii) only</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258168",
+          "text": "<p>In the following based scaled indexed addressing mode with displacement instruction,$ADD\\:\\:EAX\\:\\: [(10[R_{IDX}])], [R_{BASE}]20$,<br>\nthe effective address is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$EA = (10+R_{IDX})+(20+R_{BASE})$</li>\n    <li>$EA = (10+R_{IDX})+(20*R_{BASE})$</li>\n    <li>$EA = (10*R_{IDX})+(20+R_{BASE})$</li>\n    <li>$EA = (10*R_{IDX})+(20*R_{BASE})$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258166",
+          "text": "Which of the following can be used to implement Inherent addressing modes:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Stack only<br /> </li><li>  Accumulator only<br /> </li> <li> Both stack and Accumulator<br /> </li>  <li> None of stack and Accumulator  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258164",
+          "text": "Which of the following addressing modes is most suitable to change the normal sequence of execution of instructions?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Relative addressing mode<br /> </li><li>  Indirect addressing mode<br /> </li> <li> Index with Offset addressing mode<br /> </li>  <li> Immediate addressing mode  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258162",
+          "text": "<p>Consider a database server which handles search queries&nbsp;with double indirect pointers, $88\\%$ of its total active query handling time. An improvement is made and the indirection is removed with direct pointers which caused the search query handling time to be enhanced by $2000\\%$. The overall speedup is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$4.33$</li>\n    <li>$6.1$</li>\n    <li>$9.5$</li>\n    <li>$12.6$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258160",
+          "text": "After completing current instruction at location $1000$ the PC of a $16$-bit processor points to next instruction which is $JUMP \\:\\: 29$. If position independent addressing scheme is employed and all numbers shown are in hexadecimal format, the content  of PC (in octal) after executing this instruction is _________",
+          "type": "Numerical",
+          "answer": "10055",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-coa2,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258158",
+          "text": "<p>The most appropriate matching for the following pairs:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n    <tbody>\n        <tr>\n            <td>X</td>\n            <td>Auto increment addressing</td>\n            <td>1</td>\n            <td>Pointers</td>\n        </tr>\n        <tr>\n            <td>Y</td>\n            <td>Absolute addressing</td>\n            <td>2</td>\n            <td>Arrays</td>\n        </tr>\n        <tr>\n            <td>Z</td>\n            <td>Immediate addressing</td>\n            <td>3</td>\n            <td>Constants</td>\n        </tr>\n    </tbody>\n</table>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>X - 3, Y - 2, Z - 1</li>\n    <li>X - 1, Y - 3, Z - 2</li>\n    <li>X - 2, Y - 1, Z - 3</li>\n    <li>X - 3, Y - 1, Z - 2</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258156",
+          "text": "<p>A CPU has $64$-bit instructions. A program starts at address $0x10FEB2019$. Which one of the following is a legal program counter (all values in hexadecimal)?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0x11011415B$</li>\n    <li>$0x11011415D$</li>\n    <li>$0x110114142$</li>\n    <li>$0x110114153$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258154",
+          "text": "<p>Consider a $32$-bit system with an instruction of size of four words. The first half of the instruction contains the OPCODE and second half contains an address-field. The instruction is stored in memory with base-address B. The address-field contains a value A. The operand is stored at memory location P. The addressing mode employed is Relative-addressing mode. What is the relation between P and B?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>P=(B+1)+M[A]</li>\n    <li>P=(B+2)+M[A]</li>\n    <li>P=(B+3)+M[A]</li>\n    <li>P=(B+4)+M[A]</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258152",
+          "text": "<p>The memory locations $100, \\: 200, \\:300$ and $400$ have data values $200,\\: 400,\\: 100$ and $300$ respectively before the following program is executed.<br>\nNote that instructions with an $I$ in the end of an operation use immediate values of operands. The structure of instructions is as follows:<br>\n$OPCODE\\:\\: RESULT, \\:\\: OPERAND1,\\:\\:OPERAND2\\:\\:OPERAND3...$<br>\nwhere $RESULT$ is the register which stores the result of the operation $OPCODE$ performed on $OPERAND1 $, $OPERAND2$, $OPERAND3$ and so on. Number of operands may vary based on type of instruction.<br>\n<br>\n$\\text{MOVI }&nbsp;R_1, \\: 400$<br>\n$\\text{MOV&nbsp;} R_2, \\:300$<br>\n$\\text{ADDI&nbsp;} R_2, \\:R_2, \\:200$<br>\n$\\text{SUB }R_2, \\:R_2, \\:300$<br>\n$\\text{SUB }R_1, \\:R_1, \\:R_2$<br>\n$\\text{STORE } 100(R_1), \\:R_2$</p>\n\n<p>Which of the statements below is not TRUE after the program is executed ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Memory location $100$ has value $200$</li>\n    <li>Memory location $200$ has value $200$</li>\n    <li>Memory location $300$ has value $200$</li>\n    <li>Memory location $400$ has value $300$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258150",
+          "text": "A machine has a $32$-bit architecture, with two-word long instructions. It has $4200$ General Purpose Registers and $1048$ Special Purpose Registers, each of which is $32$ bits long. It needs to support $1880$ instructions, which have an immediate operand in addition to two General Purpose Register operands and one Special Purpose Register operand. Assuming that the immediate operand is represented in $2$'s complement integer format, the maximum positive value of the immediate operand is _________",
+          "type": "Numerical",
+          "answer": "32767",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-coa2,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258148",
+          "text": "<p>Consider following statements about relative addressing mode as follows:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>It enables increased instruction size</li>\n    <li>It enables easy relocation of data</li>\n    <li>It enables faster address calculations than absolute addressing</li>\n    <li>It allows indexing of array elements with same instruction</li>\n</ol>\n\n<p>Which of the above statements is/are not FALSE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>(i) only</li>\n    <li>(i) and (iii) only</li>\n    <li>(ii) and (iv) only</li>\n    <li>(ii), (iii) and (iv) only</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258146",
+          "text": "<p>Assume that $EA = (X)+$ is the effective address equal to the contents of location $X$, with $X$ incremented by one word length after the effective address is calculated; $EA = +(X)$ is the effective address equal to the contents of location $X$, with $X$ incremented by one word length before the effective address is calculated; $EA = -(X)$ is the effective address equal to the contents of location $X$, with $X$ decremented by one word length before the effective address is calculated; ${EA = (X)-}$ is the effective address equal to the contents of location $X$, with $X$ decremented by one word length after the effective address is calculated. The format of the instruction is $(\\text{opcode, } \\text{destination, } \\text{source})$, which means $(\\text{destination }&nbsp;\\leftarrow \\text{&nbsp;source }&nbsp;\\: \\text{ op }&nbsp;\\text{destination})$ with address of source operand being evaluated before the address of destination operand. Using $X$ as a stack pointer, which of the following instructions can pop the top two elements from the stack, perform the addition operation and push the result back to the stack.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$ADD \\: (X)-, (X)$</li>\n    <li>$ADD \\: (X), (X)-$</li>\n    <li>$ADD \\: -(X), (X)+$</li>\n    <li>$ADD \\: -(X), (X)+$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258144",
+          "text": "A processor has $70$ distinct instructions and $46$ general purpose registers. A $32$-bit instruction word has an opcode, two register operands and an immediate operand. The number of bits available for the immediate operand field is $Z$. Compute the smallest positive value of the difference $2^p - Z$, where p is some non-negative integer _________",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-coa2,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258142",
+          "text": "<p>Consider a processor with $150$ registers and having $76$ different types of operations. Each instruction has five distinct fields, namely, opcode, two source register identifiers, one destination register identifier, and a thirteen-bit immediate value. Each instruction must be stored in memory in a byte-aligned fashion. If a program has $200$ instructions, the amount of memory (in bytes) consumed by the program text is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1000$</li>\n    <li>$1100$</li>\n    <li>$1200$</li>\n    <li>$1300$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258140",
+          "text": "<p>Consider following assembly language program for a hypothetical processor with $32$ bit accumulator register.<br>\nNote that $\\text{xchg}$ is a swap operation and $\\text{arr}$ is an array.<br>\n<br>\n$\\text{arr}:[1,2,3,4]$<br>\n$\\text{mov } \\text{eax,arr}$<br>\n$\\text{xchg eax},[\\text{arr}+4]$<br>\n$\\text{xchg eax},[\\text{arr}+8]$<br>\n$\\text{xchg eax},[\\text{arr}+8]$<br>\n$\\text{xchg eax},[\\text{arr}+12]$<br>\n$\\text{xchg arr, eax}$<br>\n<br>\nWhat is the value of array $\\text{arr}$ after the completion of above code?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$4,3,2,1$</li>\n    <li>$1,1,3,2$</li>\n    <li>$1,1,2,3$</li>\n    <li>$4,1,3,2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa2",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "258138",
+          "text": "In a $32$-bit computer instruction format, the size of address field is $9$-bits. The computer uses expanding opcode technique and has $28$ three-address instructions, $2040$ two-address instructions, $4040$ one-address instructions. The number of zero-address instructions it can support is ________",
+          "type": "Numerical",
+          "answer": "28672",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-coa2,numerical-answers",
+          "category": "CO & Architecture"
+        }
+      ]
+    }
+  ]
+}

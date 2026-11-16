@@ -1,0 +1,70 @@
+{
+  "name": "Day 278 [Graph Theory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "532635",
+          "text": "<p>Every graph has - - number of odd degree vertices.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Even</li><li>Zero</li><li>Odd</li><li>Cannot say</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 278"
+        },
+        {
+          "post_id": "532634",
+          "text": "<p>Let e be the number of edges, v be the number of nodes and r be the number of regions of a planar graph. Then which of the following inequalities hold true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3 e&lt;2 r$</li><li>$3 \\mathrm{r} \\leq 2 \\mathrm{e}$</li><li>$3 \\mathrm{r}&lt;2 \\mathrm{v}$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 278"
+        },
+        {
+          "post_id": "532637",
+          "text": "<p>If G is a 3-regular, connected, simple, planar graph with 18 vertices, then, the number of regions in G are -- ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>10</li><li>38</li><li>20</li><li>11</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 278"
+        },
+        {
+          "post_id": "532633",
+          "text": "<p>Which of the following graphs is NOT Hamiltonian?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$K_n$</li><li>$C_n$, cycle on $n$ vertices.</li><li>$\\mathrm{K}_{10,9}$.</li><li>None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 278"
+        },
+        {
+          "post_id": "532636",
+          "text": "<p>Which of the following graphs is self-complementary?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{C}_6$</li><li>$\\mathrm{P}_4$</li><li>$\\mathrm{P}_5$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 278"
+        }
+      ]
+    }
+  ]
+}

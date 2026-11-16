@@ -1,0 +1,70 @@
+{
+  "name": "Day 312 [Theory of Computation]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "538207",
+          "text": "<p data-start=\"3789\" data-end=\"3849\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3851\" data-end=\"4055\">$\\emptyset^* = \\{\\epsilon\\}$<br>&nbsp;</li><li data-start=\"3851\" data-end=\"4055\">For every language $L$, $\\epsilon \\in L^*$<br>&nbsp;</li><li data-start=\"3851\" data-end=\"4055\">If $L = \\{a\\}$, then $aaa \\in L^*$<br>&nbsp;</li><li data-start=\"3851\" data-end=\"4055\">If $L = \\{ab\\}$, then $aba \\in L^*$<br>&nbsp;</li><li data-start=\"3851\" data-end=\"4055\">If $L = \\emptyset$, then $a \\in L^*$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 312"
+        },
+        {
+          "post_id": "538203",
+          "text": "Let $L = \\{a,bb\\}$. Find the number of distinct strings in $L^2$.",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 312"
+        },
+        {
+          "post_id": "538201",
+          "text": "<p data-start=\"1386\" data-end=\"1446\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1448\" data-end=\"1696\">There exists a language $L$ such that $\\epsilon \\in L$<br>&nbsp;</li><li data-start=\"1448\" data-end=\"1696\">There exists a language $L$ such that $\\epsilon \\notin L$<br>&nbsp;</li><li data-start=\"1448\" data-end=\"1696\">$\\emptyset = \\epsilon$<br>&nbsp;</li><li data-start=\"1448\" data-end=\"1696\">$\\emptyset = \\{\\epsilon\\}$<br>&nbsp;</li><li data-start=\"1448\" data-end=\"1696\">There exists a language $L$ such that $\\epsilon \\subseteq L$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 312"
+        },
+        {
+          "post_id": "538199",
+          "text": "<p data-start=\"551\" data-end=\"656\">Let $\\Sigma$ be an alphabet. Which of the following best describes $\\mathrm{P}(\\Sigma^*)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"658\" data-end=\"807\">Set of all strings over $\\Sigma$<br>&nbsp;</li><li data-start=\"658\" data-end=\"807\">Set of all languages over $\\Sigma$<br>&nbsp;</li><li data-start=\"658\" data-end=\"807\">Set containing only $\\epsilon$<br>&nbsp;</li><li data-start=\"658\" data-end=\"807\">Set of all symbols in $\\Sigma$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 312"
+        },
+        {
+          "post_id": "538205",
+          "text": "<p data-start=\"468\" data-end=\"617\">Let $\\Sigma = \\{a,b,c\\}$ and $L = \\{w \\in \\Sigma^* \\mid w$ ends in $a$, $bb$, or $ccc\\}$. Which of the following strings belong to $L$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"619\" data-end=\"679\">$ba$<br>&nbsp;</li><li data-start=\"619\" data-end=\"679\">$abb$<br>&nbsp;</li><li data-start=\"619\" data-end=\"679\">$abccc$<br>&nbsp;</li><li data-start=\"619\" data-end=\"679\">$abc$<br>&nbsp;</li><li data-start=\"619\" data-end=\"679\">$\\epsilon$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 312"
+        }
+      ]
+    }
+  ]
+}

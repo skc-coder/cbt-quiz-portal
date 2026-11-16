@@ -1,0 +1,70 @@
+{
+  "name": "Day 266 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "531026",
+          "text": "<p data-start=\"14\" data-end=\"202\">Let $g:A\\to B$ and $f:B\\to C$, where $A$, $B$, and $C$ are finite sets with $|A|=|C|=6$ and $|B|=8$. Suppose $f\\circ g:A\\to C$ is bijective. Which of the following statements must be true?</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li data-start=\"204\" data-end=\"226\">$g$ is one-to-one<br>&nbsp;</li><li data-start=\"228\" data-end=\"245\">$f$ is onto<br>&nbsp;</li><li data-start=\"247\" data-end=\"265\">$g$ is onto<br>&nbsp;</li><li data-start=\"267\" data-end=\"290\">$f$ is one-to-one<br>&nbsp;</li><li data-start=\"292\" data-end=\"328\">$g(A)$ has exactly $6$ elements<br>&nbsp;</li><li data-start=\"330\" data-end=\"392\">$f$ restricted to $g(A)$ is a bijection from $g(A)$ to $C$</li></ol><div>&nbsp;</div><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"394\" data-end=\"507\">I, II, V, and VI&nbsp;only<br>&nbsp;</li><li data-start=\"394\" data-end=\"507\">I, II, III, and V&nbsp;only<br>&nbsp;</li><li data-start=\"394\" data-end=\"507\">I, II, IV, and VI&nbsp;only<br>&nbsp;</li><li data-start=\"394\" data-end=\"507\">I, II, III, IV, V, and VI</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 266"
+        },
+        {
+          "post_id": "531017",
+          "text": "<p data-start=\"14\" data-end=\"227\">The functions mapping $\\mathbb{R}$ into $\\mathbb{R}$ are defined as $f(x)=x^2-3x+1$, $g(x)=2x-1$, and $h(x)=\\frac{(x+1)^2}{x^2+1}$. Find the value of the composite functions $h\\circ g(x)$ and $h\\circ g\\circ f(x)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"229\" data-end=\"530\">$\\frac{4x^2}{(2x-1)^2+1}$ and $\\frac{4(x^2-3x+1)^2}{(2x^2-6x+1)^2+1}$<br>&nbsp;</li><li data-start=\"229\" data-end=\"530\">$\\frac{(2x-1)^2}{4x^2+1}$ and $\\frac{(x^2-3x+1)^2}{(2x^2-6x+1)^2+1}$<br>&nbsp;</li><li data-start=\"229\" data-end=\"530\">$\\frac{4x^2}{(2x-1)^2+1}$ and $\\frac{(2x^2-6x+2)^2}{(x^2-3x+1)^2+1}$<br>&nbsp;</li><li data-start=\"229\" data-end=\"530\">$\\frac{(2x+1)^2}{(2x-1)^2+1}$ and $\\frac{4(x^2-3x+1)^2}{(2x^2-6x+1)^2+1}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 266"
+        },
+        {
+          "post_id": "531020",
+          "text": "<p data-start=\"14\" data-end=\"162\">Define $f(n)=\\left\\lfloor\\frac{3n+1}{2}\\right\\rfloor$ for all $n\\in\\mathbb{Z}$. Thus $f:\\mathbb{Z}\\to\\mathbb{Z}$. Which of the following is <strong>correct</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"164\" data-end=\"441\">$f$ is not a function from $\\mathbb{Z}$ to $\\mathbb{Z}$ because $\\frac{3n+1}{2}$ is not always an integer.<br>&nbsp;</li><li data-start=\"164\" data-end=\"441\">$f$ is a function and is one-to-one but not onto.<br>&nbsp;</li><li data-start=\"164\" data-end=\"441\">$f$ is a function and is onto but not one-to-one.<br>&nbsp;</li><li data-start=\"164\" data-end=\"441\">$f$ is a function and is both one-to-one and onto.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 266"
+        },
+        {
+          "post_id": "531022",
+          "text": "<p data-start=\"14\" data-end=\"222\">Let $X,Y,Z$ be finite sets with $|X|=|Z|=5$ and $|Y|=7$. Let $f:X\\to Y$ and $g:Y\\to Z$, and define $h=g\\circ f:X\\to Z$. Suppose $h$ is both one-to-one and onto. Which of the following statement(s) must be <strong>true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"224\" data-end=\"246\">$f$ is one-to-one<br>&nbsp;</li><li data-start=\"248\" data-end=\"265\">$g$ is onto<br>&nbsp;</li><li data-start=\"267\" data-end=\"285\">$f$ is onto<br>&nbsp;</li><li data-start=\"287\" data-end=\"310\">$g$ is one-to-one</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 266"
+        },
+        {
+          "post_id": "531015",
+          "text": "<p data-start=\"14\" data-end=\"205\">Let $X$ be a finite set with $|X|\\ge 2$, and let $f:X\\to X$ be a function such that $f(f(x))=f(x)$ for every $x\\in X$. If $f$ is not the identity function, which of the following is possible?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"207\" data-end=\"245\">$f$ is injective but not surjective<br>&nbsp;</li><li data-start=\"247\" data-end=\"286\">$f$ is surjective but not injective<br>&nbsp;</li><li data-start=\"288\" data-end=\"329\">$f$ is both injective and surjective<br>&nbsp;</li><li data-start=\"331\" data-end=\"374\">$f$ is neither injective nor surjective</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 266"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 279 [Graph Theory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "532712",
+          "text": "<p>What is the determinant of the adjacency matrix of $C_4$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>1</li><li>-1</li><li>0</li><li>None of the graph</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 279"
+        },
+        {
+          "post_id": "532709",
+          "text": "<p>What is the number of edges present in complete graph $K_n$ having $n$ vertices.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{n(n+1)}{2}$</li><li>$\\frac{n(n-1)}{2}$</li><li>$n^2$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 279"
+        },
+        {
+          "post_id": "532711",
+          "text": "<p>What is the maximum number of edges in a bipartite graph having 12 vertices.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>24</li><li>38</li><li>36</li><li>32</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 279"
+        },
+        {
+          "post_id": "532713",
+          "text": "<p>What is the regularity of $K_n$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$n$</li><li>$n-1$</li><li>0</li><li>1</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 279"
+        },
+        {
+          "post_id": "532706",
+          "text": "<p>Which of the following statements for a simple graph is correct.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Every trail is a path</li><li>Every path is a trail</li><li>path</li><li>Path and trail have no relation</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 279"
+        }
+      ]
+    }
+  ]
+}

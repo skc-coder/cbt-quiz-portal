@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 COA4: Pipelining",
+  "duration": "54",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "270839",
+          "text": "The performance of a pipelined processor suffers if:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  the pipeline stages have different delays<br /> </li><li>  consecutive instructions are dependent on each other<br /> </li> <li> &nbsp;the pipeline stages share hardware resources<br /> </li>  <li> All of the above  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa4",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270837",
+          "text": "<p>Which of the following statements about a superscalar processor is always TRUE?</p>\n\n<ol style=\"list-style-type:lower-roman\" type=\"i\">\n    <li>It can execute&nbsp;more than one instruction per clock cycle.</li>\n    <li>It executes two instructions in one clock cycle.</li>\n    <li>It consists of more than one pipeline.</li>\n    <li>It allows instructions without dependencies on one another to proceed in parallel through separate pipelines.</li>\n</ol>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(i) and (ii)</li>\n    <li>(i) and (iii)</li>\n    <li>(ii) and (iii)</li>\n    <li>(i), (iii) and (iv)</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa4,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270835",
+          "text": "<p>A $5$-stage pipeline has the stage delays as $155, 162, 143, 168$ and $130$ nanoseconds respectively. Registers that are used between the stages have a delay of $5,8, 3$ and $7$ nanoseconds respectively. Assuming constant clocking rate, the total time taken to process $1000$ data items on this pipeline will be:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$180.4$ microseconds</li>\n    <li>$171.6$ microseconds</li>\n    <li>$165.5$ microseconds</li>\n    <li>$176.7$ microseconds</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa4,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270833",
+          "text": "<p>Which of the following statements about branch history table is not TRUE:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>It is a&nbsp;table which gives a better guess on whether or not a&nbsp;conditional branch will be taken.</li>\n    <li>It stores first $K$ previously taken branch-targets with a taken/not taken bit for a smaller program, where $K$ denotes the number of possible entries in the table.</li>\n    <li>It stores last $K$ previously taken branch-targets with a taken/not taken bit, where $K$ denotes the number of possible entries in the table.</li>\n    <li>Both (A) and (C).</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa4,branch-conditional-instructions",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270831",
+          "text": "<p>A processor takes $20$ cycles to complete an instruction. The corresponding pipelined processor uses $8$ stages with the execution times of $1,2, 3, 4, 5, 4, 5$ and $3$ cycles respectively with an inter-stage register delay of $1$ cycle. What is the asymptotic speedup assuming that a very large number of instructions are to be executed?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3.33$</li>\n    <li>$2$</li>\n    <li>$3$</li>\n    <li>$4$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa4",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270829",
+          "text": "<p>Consider an instruction pipeline with four stages with the stage delays $15$ nsec, $60$ nsec, $31$ nsec, and $78$ nsec respectively. The delay of an inter-stage register stage of the pipeline is $2$ nsec. What is the approximate speedup of the pipeline in the steady state under ideal conditions as compared to the corresponding non-pipelined implementation?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1.75$</li>\n    <li>$2.5$</li>\n    <li>$1.9$</li>\n    <li>$2.3$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa4",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270827",
+          "text": "Which of the following dependencies can be eliminated by register renaming?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Shared resources<br /> </li><li>  Data dependency<br /> </li> <li> Anti-dependency<br /> </li>  <li> Structural dependency  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa4",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270825",
+          "text": "<p>For the 1-bit branch prediction scheme, which of the following statements is&nbsp;FALSE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>There will be two mispredictions even when a branch is taken for all except the last one as in a loop</li>\n    <li>An entry in the Branch prediction Buffer (BPB) uniquely identifies a branch instruction</li>\n    <li>It does not give any advantage for the MIPS32 pipeline.</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa4,branch-prediction",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270823",
+          "text": "<p>The stage delays in a five stage pipeline are $950,500,1150,600$ and $790$ picoseconds respectively. The third stage (with delay $1150$ picoseconds) is replaced with an equivalent split design involving two stages with respective delays of $800$ and $550$ picoseconds. The throughput increase of the pipeline is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$21\\%$</li>\n    <li>$27\\%$</li>\n    <li>$33\\%$</li>\n    <li>$43.75\\%$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa4,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270821",
+          "text": "<p>Consider an instruction pipeline for the MIPS32 processor where data references constitute $42\\%$ of the instructions, and the ideal CPI ignoring memory structural hazards (which cause a single stall) is $1.25.$ How much faster is the ideal machine without the memory structural hazard versus the machine with the hazard?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1.34$</li>\n    <li>$1.26$</li>\n    <li>$1.38$</li>\n    <li>$1.45$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa4,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270819",
+          "text": "<p>Consider two pipelined processors $A$ and $B$.</p>\n\n<ul>\n    <li>$A$ contains $6$ stages with delays as: $2$ ns , $4$ ns, $7$ ns, $6$ ns, $1$ ns, $3$ ns and&nbsp;intermediate register delay as $1$ ns.</li>\n    <li>$B$ contains $8$ stages with delays as: $1.5$ ns , $3.5$ ns, $4$ ns, $2$ ns, $2.5$ ns, $3$ ns, $3$ ns, $4$ ns and intermediate register delay as $2$ ns.</li>\n</ul>\n\n<p>At steady state which of the following statements about these pipelines is true:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$A$ is $33.3\\%$ slower than $B$</li>\n    <li>$B$ is $25\\%$ faster than $A$</li>\n    <li>$B$ is $33.3\\%$ faster than $A$</li>\n    <li>$A$ is $25\\%$ faster than $B$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa4,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270817",
+          "text": "<p>A machine has the following six pipeline stages, with their respective time requirements in nanoseconds (ns):</p>\n\n<ol>\n    <li>IF-stage - instruction fetch ($9$ ns),</li>\n    <li>ID1-stage - instruction decode stage ($6$ ns),</li>\n    <li>ID2-stage - register fetch ($3$ ns),</li>\n    <li>EX-stage - execute/address calculation ($7$ ns),</li>\n    <li>MM-stage - memory access ($11$ ns),</li>\n    <li>WB-stage - write back to a register ($5$ ns).</li>\n</ol>\n\n<p>Assume that for each stage, the pipeline overhead is $1$ ns.&nbsp;A program having $1252$ machine instructions runs on, where every fifth instruction needs a$2$-cycle stall before the next stage. The CPU time in micro seconds for completing this sequence of instructions is ______.</p>",
+          "type": "Numerical",
+          "answer": "21 : 22",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-coa4,numerical-answers,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270815",
+          "text": "<p>An instruction pipeline has six stages where each stage takes $3$ nanoseconds and all instructions use all six stages. If Branch instructions are not overlapped&nbsp;&nbsp;(i.e., the instruction after the branch is not fetched till the branch instruction is&nbsp;completed) and there are only $36\\%$ branch instructions then which of the following represents the average instruction execution time (in ns), (ignoring any conditional branch instructions)?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3.6$</li>\n    <li>$4.4$</li>\n    <li>$6.4$</li>\n    <li>$8.4$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa4,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270813",
+          "text": "<p>Consider the following four organizations of pipelined processors.</p>\n\n<ul>\n    <li>$P_1$: Four-stage pipeline with stage latencies $1$ ns, $2$ ns, $2$ ns, $1$ ns with inter-stage-register-latency as $2$ ns.</li>\n    <li>$P_2$: Four-stage pipeline with stage latencies $1$ ns, $1.5$ ns, $1.5$ ns, $1.5$ ns with inter-stage-register-latency as $1$ ns.</li>\n    <li>$P_3$: Five-stage pipeline with stage latencies $0.5$ ns, $1$ ns, $1$ ns, $0.6$ ns with inter-stage-register-latency as $1$ ns.</li>\n    <li>$P_4$: Five-stage pipeline with stage latencies $0.5$ ns, $0.5$ ns, $1$ ns, $1$ ns with inter-stage-register-latency as $1.5$ ns.</li>\n</ul>\n\n<p>Arrange these processors as a tuple $(a,b,c,d)$ where ordering is opposite to the NON-INCREASING order of their peak clock frequency (in case of equal frequencies select a processor organization with smaller subscript)?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$P_1,P_2,P_4,P_3$</li>\n    <li>$P_1,P_2,P_3,P_4$</li>\n    <li>$P_3,P_4,P_2,P_1$</li>\n    <li>$P_3,P_2,P_4,P_1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa4,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270811",
+          "text": "<p>In an MIPS32 pipeline,consider following measures that can be taken to reduce the impact of data hazards:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>Splitting the memory into separate Instruction and Data memories.</li>\n    <li>Implement data forwarding in the datapath.</li>\n    <li>Allow split register write and read during the two halves of the same clock cycle.</li>\n    <li>Replicate the register bank.</li>\n</ol>\n\n<p>Which of the following correctly solves the problem?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(i) and (ii) only</li>\n    <li>(i) and (iii) only</li>\n    <li>(ii) and (iv) only</li>\n    <li>(ii) and (iii) only</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa4,pipelining,data-hazards",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270809",
+          "text": "<p>Consider a pipeline processor with four stages $S_1$ to $S_4$. We want to execute the following loop:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nfor (i = 0; i &lt; 2; i++);</pre>\n\n<p>${I_1, I_2, I_3, I_4, I_5}$</p>\n\n<p>where the time taken (in ns) by instructions $I_1$ to $I_5$ for stages $S_1$ to $S_4$ are given below:<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>\n$<br>\n&nbsp;&nbsp;&nbsp;&nbsp;\\begin{array}{|c|c|c|c|c|} \\hline<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\textbf{Instruction No.} &amp; \\textbf{S1} &amp; \\textbf{S2} &nbsp;&amp; \\textbf{S3} &amp; \\textbf{S4}\\\\<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\hline<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I1 &amp; 1 &amp; 2 &amp; 1 &amp; 2\\\\<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I2 &amp; 1 &amp; 2 &amp; 2 &amp; 1\\\\<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I3 &amp; 2 &amp; 3 &amp; 2 &amp; 1\\\\<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I4 &amp; 1 &amp; 3 &amp; 3 &amp; 1\\\\<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I5 &amp; 2 &amp; 1 &amp; 2 &amp; 1\\\\<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\hline &nbsp;&nbsp;<br>\n&nbsp;&nbsp;&nbsp;&nbsp;\\end{array}$</p>\n\n<p>If any iteration of loop does not wait for the previous iteration to be completely executed before starting current one, the time (in ns) required to execute above code segment is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$30$</li>\n    <li>$33$</li>\n    <li>$34$</li>\n    <li>$37$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa4,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270807",
+          "text": "<p>Instruction execution in a processor is divided into $5$ stages, Instruction Fetch (IF), Instruction Decode (ID), Operand fetch (OF), Execute (EX), and Write Back (WB). These stages take $5, 4, 25, 19$ and $13$ nanoseconds (ns) respectively. A pipelined implementation of the processor requires buffering between each pair of consecutive stages with a delay of $2$ ns. Two pipelined implementation of the processor are shown below:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>a naive pipeline implementation (NP) with $5$ stages and</li>\n    <li>an efficient pipeline (EP) where the OF stage is divided into stages OF1, OF2 and OF3 with execution times of $10\\;ns, 6 \\;ns$ and $8\\;ns$ respectively and Execution stage is divided into EX1 and EX2 with execution times of $11\\;ns$ and $9\\;ns$ respectively with advanced inter-stage-registers having delay of $1\\;ns.$&nbsp;</li>\n</ol>\n\n<p>The speedup (correct to two decimal places) achieved by EP over NP in executing $100$ independent instructions if there are $30\\%$ stalls of $2$ cycles and $20\\%$ stalls of $3$ cycles in (i) and $40\\%$ stalls of $2$ cycles and $10\\%$ stalls of $3$ cycles in (ii), is: ______</p>",
+          "type": "Numerical",
+          "answer": "1.99 : 2.00",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-coa4,numerical-answers,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270805",
+          "text": "<p>Consider a $5$-stage pipeline:</p>\n\n<p>IF (Instruction Fetch), ID (Instruction Decode and register read), EX (Execute), MEM (memory), and WB (Write Back). All (memory or register) reads take place in the second phase of a clock cycle and all writes occur in the first phase. Consider the execution of the following instruction sequence:</p>\n\n<ul>\n    <li>I1: sub r2, r3, r4; /*r2 $\\leftarrow$ r3 - r4 */</li>\n    <li>I2: sub r4, r2, r3;&nbsp; /*r4 &nbsp;$\\leftarrow$ &nbsp;r2 - r3 */</li>\n    <li>I3: sw r2, 100(r1); /*M[r1 + 100] &nbsp;$\\leftarrow$ &nbsp;r2 */</li>\n    <li>I4: sub r3, r4, r2;&nbsp; /*r3 &nbsp;$\\leftarrow$ &nbsp;r4 - r2 */</li>\n</ul>\n\n<p>If number of true-data dependency is denoted by $T,$ number of anti-data dependency is denoted by $A$ and number of output-data dependency is denoted by $P,$ which of the followings represents the value of the expression: $T+A*2-2*P$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$18$</li>\n    <li>$34$</li>\n    <li>$6$</li>\n    <li>$10$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa4,data-dependences",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270803",
+          "text": "<p>An instruction pipeline has six stages where each stage takes $3$ nanoseconds and all instruction use all six stages. &nbsp;Branch instructions, which are $36\\%$ of total instructions, are not overlapped. If a branch instruction is a conditional branch instruction, the branch need not be taken. If the branch is not taken the following instructions can be overlapped. Note that $75\\%$ of all branch instructions are conditional branch instructions, and (approximately) $60\\%$ of the conditional branch instructions are such that the branch is not taken.<br>\nWhich of the following represents the average instruction execution time for $100$ instructions (in nanoseconds).(Choose the value closest to the right answer)</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$360$</li>\n    <li>$400$</li>\n    <li>$560$</li>\n    <li>$600$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa4,pipelining",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270801",
+          "text": "<p>A CPU has a eight-stage pipeline and runs at $4$ GHz frequency. Instruction fetch happens in the first stage of the pipeline. A conditional branch instruction computes the target address and evaluates the condition in the sixth stage of the pipeline. The processor stops fetching new instructions following a conditional branch until the branch outcome is known. A program executes $10^8$ instructions out of which $45\\%$ are conditional branches. If each instruction takes two clock cycles to complete on an average without any delay and the total execution time of the program is $T$ seconds, the value of $400*T$ is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$5.7$</li>\n    <li>$100$</li>\n    <li>$22.8$</li>\n    <li>$65$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa4,pipelining",
+          "category": "CO & Architecture"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 CN3: Transport Layer",
+  "duration": "72",
+  "total_qs": "20",
+  "total_qs_one": 0,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "272316",
+          "text": "<p>Assume an IP packet carrying an HTTP request is going from a local (i.e. home) area network onto the wider Internet through a NAT router. The&nbsp;header fields that the NAT router needs to change in the given packet are?</p>\n\n<ul>\n    <li>P. Source IP address</li>\n    <li>Q. Source TCP port number</li>\n    <li>R. IP checksum</li>\n    <li>S. TCP checksum</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only P</li>\n    <li>Only P and Q</li>\n    <li>Only P,Q and R</li>\n    <li>P,Q,R and S</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3,routing",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272315",
+          "text": "Suppose host A is sending a large file to host B over a TCP connection. The two end hosts are $10$msec apart ($20$msec RTT) connected by a $1$Gbps link. Assume that they are using a packet size of $1000$ bytes to transmit the file. Also assume for simplicity that ACK packets are extremely small and can be ignored.\n\nAt least how big would the window size (in packets) has to be for the channel utilization to be greater than $80\\%$?",
+          "type": "Numerical",
+          "answer": "2000",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cn3,numerical-answers,sliding-window",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272314",
+          "text": "<p>Consider a misbehaving TCP receiver. The receiver modifies its TCP&nbsp;such that upon receiving a data segment containing N bytes, the receiver divides the resulting acknowledgment into M, where $M \\leq N$ separate acknowledgements each covering one of M distinct pieces of the received data segment. For e.g. if it receives data acknowledging bytes $1$ to $1000$, then the receiver, for $M=2$ , will send $2$&nbsp;ACKs for $501$ and $1001$.</p>\n\n<p>Assuming no losses and negligible packet transmission, an expression for the sender window size in unit of Sender Maximum Segment Size $(SMSS)$&nbsp;during the slow start phase, in terms of $n$ (number of RTTs) and $M$ is _____ (Assume Threshold is not reached)&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$M^n$</li>\n    <li>$(M+1)^n$</li>\n    <li>$M(M+1)^{n-1}$</li>\n    <li>$n^M$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3,tcp",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272313",
+          "text": "<p>When a TCP packet arrives at a host, in order to direct the segment to the appropriate socket, the operating system’s network stack uses which of the following fields:</p>\n\n<ul>\n    <li>P. Transport protocol number</li>\n    <li>Q. Destination IP address</li>\n    <li>R. Source port number</li>\n    <li>S. Destination port number</li>\n    <li>T. Destination MAC address</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only P,Q</li>\n    <li>Only P, S</li>\n    <li>Only P,Q,R,S</li>\n    <li>All of P,Q,R,S,T</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3,tcp",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272312",
+          "text": "<p>Which&nbsp;transport layer protocol (TCP or UDP) we would use if application needed the following properties:</p>\n\n<ul>\n    <li>$\\text{(P) Speed}$&nbsp;</li>\n    <li>$\\text{(Q) Long messages}$&nbsp;</li>\n    <li>$\\text{(R) Short-duration interactions}$&nbsp;</li>\n    <li>$\\text{(S) Fairness between competing flows}$&nbsp;</li>\n    <li>$\\text{(T) Flooding}$</li>\n</ul>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$P-UDP, Q - UDP, R- UDP, S - TCP, T-TCP$</li>\n    <li>$P-UDP, Q-TCP, R-UDP, S-UDP, T-UDP$</li>\n    <li>$P-UDP. Q-UDP, R-UDP, S-TCP, T-UDP$</li>\n    <li>$P-UDP, Q-UDP, R-UDP, S-TCP, T-TCP$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3,tcp",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272311",
+          "text": "<p>When a UDP segment arrives at a host, in order to direct the segment to the appropriate socket, the operating system’s network stack uses the following fields: (P) the source IP address. (Q) the destination IP address (R) the source port number (S) the destination port number</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only P,R</li>\n    <li>Only Q,S</li>\n    <li>Only R,S</li>\n    <li>All of P,Q,R,S</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272310",
+          "text": "<p>When a TCP segment belonging to an existing connection arrives at a host, in order to direct the segment to the appropriate socket the operating system's network stack uses the following fields (P) the source IP address. (Q) the destination IP address (R) the source port number (S) the destination port number</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only P,R</li>\n    <li>Only P,Q,R</li>\n    <li>Only P,Q,S</li>\n    <li>All of the P,Q,R,S</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272309",
+          "text": "<p>Consider sending a large file of $F$ bits from host&nbsp;A&nbsp;to Host&nbsp;B.&nbsp;A&nbsp;and&nbsp;B&nbsp;are connected by a path of $l$ links which are uncongested (that is, no queuing delays). Host A cuts the file into segments of $S$ bits each (we assume here that $F$ is a multiple of $S$ and adds $h$ bits of header to each segment, forming packets of $S+h$ bits. Each link has a transmission rate of $R$ bps. The value of $S$ that minimizes the delay of moving the file from host&nbsp;A&nbsp;to host&nbsp;B. Neglect propagation delay.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\sqrt{\\frac{Fh}{l-1}}$</li>\n    <li>$\\sqrt{\\frac{F}{h(l-1)}}$</li>\n    <li>$\\sqrt{\\frac{Fh-1}{(l-1)}}$</li>\n    <li>$\\sqrt{\\frac{Fh}{l}}$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272308",
+          "text": "<p>Consider an unreliable channel that guarantees a propagation delay of at most d for every packet that gets through, but a packet is only successful with probability p. Furthermore, consider a transport layer protocol that works according to the stop and wait principle.</p>\n\n<p>Given that the transmission delay of a packet is t and apart from the propagation delay all other delays are negligible. Time out interval would be the smallest possible for the transport layer to ensure that only packets get re transmitted for which either the packet itself or its acknowledgement got lost.</p>\n\n<p>The average time needed for the sender to be sure that it successfully transmitted a packet to the receiver is ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\frac{(2d+t)}{1-p}$</li>\n    <li>$\\frac{(2d+p)(1-p)}{p}$</li>\n    <li>$\\frac{(2d+p)(p)}{1-p}$</li>\n    <li>$\\frac{(2d+t)}{p}$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272307",
+          "text": "<p>Two $16$-bit words $1011 \\: 0101 \\: 1010 \\: 1000$ and $0101 \\: 1001 \\: 0000 \\: 0101$&nbsp; are received, along with another $16$-bit word, $1101 \\: 0001 \\: 0101 \\: 0001$, which is the UDP checksum of the first two words. Which of the following statements is FALSE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>The $1$’s complement sum of the first two words is $0000 \\: 1110 \\: 1010 \\: 1110$</li>\n    <li>The UDP checksum should be $1111 \\: 0001 \\: 0101 \\: 0001$</li>\n    <li>The receiver will detect and correct an error</li>\n    <li>The receiver will detect an error but can not correct.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3,udp",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272306",
+          "text": "Consider the following chain topology:\n\nA ---- B ----- C ---- D ---- E\n\nA is sending packets to E using a reliable transport protocol. Each link above can transmit one packet per second. There are no queues or other sources of delays at the nodes (except the transmission delay of course). Consider a sliding window protocol running at the optimum window size. Suppose nodes in the network get infected by a virus that causes them to drop packets when odd sequence numbers. The sliding window protocol starts numbering packets from sequence number $1$. Assume that the sender uses a timeout of $40$ seconds. The receiver buffers out-of-order packets until it can deliver them in order to the application. The number of packets in this buffer $35$ seconds after the sender starts sending the first packet?",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cn3,numerical-answers",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272305",
+          "text": "<p>A process on host $1$ has been assigned port p, and a process on host $2$ has been assigned port q. The maximum no of TCP connections between these $2$ ports at the same time is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1$</li>\n    <li>$2$</li>\n    <li>$3$</li>\n    <li>$4$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272304",
+          "text": "<p>Consider the effect of using slow start on a line with a $10$-msec round-trip time and no congestion. The receive window is $24$ KB and the maximum segment size is $2$ KB. How long does it take before the first full window can be sent?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{30 msec}$</li>\n    <li>$\\text{20 msec}$</li>\n    <li>$\\text{40 msec}$</li>\n    <li>$\\text{50 msec}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272303",
+          "text": "If the TCP round-trip time, RTT, is currently $30$ msec and the following acknowledgements come in after $26$, $32$, and $24$ msec, respectively, what is the new RTT estimate using the Jacobson algorithm? Use $\\alpha = 0.9$",
+          "type": "Numerical",
+          "answer": "29.24 : 29.26",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cn3,numerical-answers",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272302",
+          "text": "<p>A TCP machine is sending full windows of $65,535$ bytes over a $1$-Gbps channel that has a $10$-msec one-way delay.&nbsp;What is the line efficiency?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3.6\\%$</li>\n    <li>$1.6\\%$</li>\n    <li>$2.6\\%$</li>\n    <li>$4.6\\%$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3,tcp",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272301",
+          "text": "<p>What is the fastest line speed at which a host can blast out $1500$-byte TCP payloads with a $120$-sec maximum packet lifetime without having the sequence numbers wrap around? Assume TCP,IP,Ethenet over head as $20,20,26 $ bytes respectively. Take TCP, IP, and Ethernet overhead into consideration. Assume that Ethernet frames may be sent continuously.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{299 Mbps}$</li>\n    <li>$\\text{400&nbsp;Mbps}$</li>\n    <li>$\\text{309 Mbps}$</li>\n    <li>$\\text{199 Mbps}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272300",
+          "text": "<p>Which of the following statements is true ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Host A is sending Host B a large filer over a TCP connection. Assume Host B has no data to send Host A. Host B will not send acknowledgements to Host A because Host B cannot piggyback the acknowledgements on data</li>\n    <li>The size of the TCP RcvWindow never changes throughout the duration of the TCP connection.</li>\n    <li>Suppose Host A is sending Host B a large file over a TCP connection. The number of unacknowledged bytes that A sends cannot exceed the size of the receive buffer.</li>\n    <li>Suppose Host A is sending a large file to Host B over a TCP connection. If the sequence number for a segment of this connection is m, then the sequence number of the subsequent segment will necessarily be $m+1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272299",
+          "text": "<p>When the re transmission timer expires at the sender, the value of ssthreshold is set to</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Half of the prev ssthreshold value</li>\n    <li>Quarter of the prev ssthreshold value</li>\n    <li>Half of the current cwnd</li>\n    <li>Quarter of the cwnd</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272298",
+          "text": "<p>In a connection, the value of cwnd is $3000$ and the value of rwnd is $5000$. The host has sent $2000$ bytes, which have not been acknowledged. How many more bytes can be sent?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3000$</li>\n    <li>$6000$</li>\n    <li>$1000$</li>\n    <li>$0$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272297",
+          "text": "<p>The picture below shows the behavior of a TCP Reno:</p>\n\n<p><img alt=\"\" height=\"309\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=10030501676099625723\" width=\"400\"></p>\n\n<p>Which of the following statements is FALSE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>TCP slow start is operating in the intervals $[1,6]$ and $[23,26]$</li>\n    <li>TCP congestion avoidance is operating in the intervals $[6,16]$ and $[17,22]$</li>\n    <li>After the $16$th transmission round, segment&nbsp;loss is recognized by a triple duplicate ACK.</li>\n    <li>After the $22$nd transmission round, segment loss is detected by a triple duplicate ACK</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn3,tcp,congestion-control",
+          "category": "Computer Networks"
+        }
+      ]
+    }
+  ]
+}

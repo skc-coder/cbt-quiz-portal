@@ -1,0 +1,70 @@
+{
+  "name": "Day 205 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "523430",
+          "text": "<p>An $8: 1$ Multiplexer is used to implement a specific Boolean function $f(A, B, C, D)$. The input lines $I_0$ through $I_7$ are connected as follows:</p><ul><li>$I_0=I_2=I_4=I_6=0$<br>&nbsp;</li><li>$I_1=I_5=D$<br>&nbsp;</li><li>$I_3=I_7=\\bar{D}$</li></ul><p>The selection lines $S_2, S_1, S_0$ are connected to variables $A, B, C$ respectively.<br><br><strong>Identify the simplified sum-of-products (SOP) expression for</strong> $f(A, B, C, D)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A \\cdot(B \\oplus D)$<br>&nbsp;</li><li>$C \\cdot(B \\oplus D)$<br>&nbsp;</li><li>$B \\cdot(C \\oplus D)$<br>&nbsp;</li><li>$D \\cdot(A \\oplus C)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 205"
+        },
+        {
+          "post_id": "523439",
+          "text": "<p>A Mealy Machine is designed to detect the overlapping sequence $\\mathbf{1010}$. For every detected sequence, the output $Z$ becomes $1$. If the input string is $\\mathbf{10101010}$, how many times will the output $Z$ be $1$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2$<br>&nbsp;</li><li>$3$<br>&nbsp;</li><li>$4$<br>&nbsp;</li><li>$5$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 205"
+        },
+        {
+          "post_id": "523436",
+          "text": "<p>Consider a hypothetical 8-bit floating-point representation:</p><ul><li>$1$ bit for Sign<br>&nbsp;</li><li>$4$ bits for Exponent (Excess-$7$ bias)<br>&nbsp;</li><li>$3$ bits for Mantissa (Normalized, hidden bit $1$)</li></ul><p>What is the decimal equivalent of the bit pattern $11010 ~110$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$-12$<br>&nbsp;</li><li>$-14$<br>&nbsp;</li><li>$-28$<br>&nbsp;</li><li>$-7$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 205"
+        },
+        {
+          "post_id": "523434",
+          "text": "<p>A Boolean function $g(W, X, Y, Z)$ is defined by the Maxterm list:</p><p>$$<br>g(W, X, Y, Z)=\\prod M(0,1,2,4,5,8,9,10,12,13)<br>$$Which of the following represents the most minimized POS (Product of Sums) form?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$Y(X+Z)$<br>&nbsp;</li><li>$X(Y+Z)$<br>&nbsp;</li><li>$Z(X+Y)$<br>&nbsp;</li><li>$X \\cdot Y$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 205"
+        },
+        {
+          "post_id": "523432",
+          "text": "<p>Consider a $3$-bit synchronous counter using $T$ flip-flops $\\left(T_2 T_1 T_0\\right)$. The flip-flop inputs are defined by the following excitation equations:</p><ul><li>$T_0=1$<br>&nbsp;</li><li>$T_1=Q_0$<br>&nbsp;</li><li>$T_2=Q_1 \\cdot Q_0$</li></ul><p>If the counter starts at the state $\\left(Q_2 Q_1 Q_0\\right)=000$, what will be the state after $\\mathbf{3 7}$ <strong>clock pulses?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$101$<br>&nbsp;</li><li>$110$<br>&nbsp;</li><li>$001$<br>&nbsp;</li><li>$111$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 205"
+        }
+      ]
+    }
+  ]
+}

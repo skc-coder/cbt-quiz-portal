@@ -1,0 +1,70 @@
+{
+  "name": "Day 309 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "537888",
+          "text": "A clock signal of frequency $16$ kHz is applied to a chain of T flip-flops. Each T flip-flop divides the frequency by $2$. How many T flip-flops are required to obtain an output frequency of $2$ kHz?",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 309"
+        },
+        {
+          "post_id": "537886",
+          "text": "<p>How many states are present in a $5$-bit binary counter, and what is the maximum decimal count value?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$16$ states, maximum count $15$<br>&nbsp;</li><li>$32$ states, maximum count $31$<br>&nbsp;</li><li>$32$ states, maximum count $32$<br>&nbsp;</li><li>$64$ states, maximum count $63$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 309"
+        },
+        {
+          "post_id": "537880",
+          "text": "<p>Which statement correctly defines a register?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A register is a group of flip-flops used to store binary information<br>&nbsp;</li><li>A register is a combinational circuit used only for arithmetic addition<br>&nbsp;</li><li>A register is a single logic gate used to generate clock pulses<br>&nbsp;</li><li>A register is a decoder used to select one output line</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 309"
+        },
+        {
+          "post_id": "537882",
+          "text": "<p>How many flip-flops are required to construct a $12$-bit register?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$6$<br>&nbsp;</li><li>$8$<br>&nbsp;</li><li>$12$<br>&nbsp;</li><li>$24$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 309"
+        },
+        {
+          "post_id": "537884",
+          "text": "<p>A $4$-bit right shift register initially contains $1011$. Serial input enters from the left side. The serial input values applied in two consecutive clock pulses are $0$ and $1$. What will be the final content of the register after two clock pulses?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0101$<br>&nbsp;</li><li>$1010$<br>&nbsp;</li><li>$1101$<br>&nbsp;</li><li>$0110$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 309"
+        }
+      ]
+    }
+  ]
+}

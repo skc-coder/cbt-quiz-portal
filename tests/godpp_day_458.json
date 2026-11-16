@@ -1,0 +1,70 @@
+{
+  "name": "Day 314 [Data Structures]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "538537",
+          "text": "<p data-start=\"5233\" data-end=\"5291\">Consider the following singly linked list:</p><p data-start=\"5293\" data-end=\"5337\">$\\texttt{'B' -&gt; 'A' -&gt; 'S' -&gt; 'E' -&gt; NULL}$</p><p data-start=\"5339\" data-end=\"5400\">The pointer $\\texttt{head}$ points to the first node containing $\\texttt{'B'}$.</p><p data-start=\"5402\" data-end=\"5478\">What character is stored in the node pointed to by the following expression?</p><p data-start=\"5480\" data-end=\"5505\">$\\texttt{head-&gt;next-&gt;next}$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5480\" data-end=\"5505\">$\\texttt{NULL}$<br>&nbsp;</li><li data-start=\"5480\" data-end=\"5505\">$\\texttt{A}$<br>&nbsp;</li><li data-start=\"5480\" data-end=\"5505\">$\\texttt{S}$<br>&nbsp;</li><li data-start=\"5480\" data-end=\"5505\">$\\texttt{E}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 314"
+        },
+        {
+          "post_id": "538534",
+          "text": "<p data-start=\"4309\" data-end=\"4369\">A singly linked list maintains two pointers:</p><pre data-start=\"4371\" data-end=\"4468\" data-rawcode=\"struct Node *front;  // points to first node struct Node *rear;   // points to last node\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">struct Node *front;  // points to first node\n\nstruct Node *rear;   // points to last node</pre><p data-start=\"4764\" data-end=\"4845\">Which operation would be inefficient when the linked list contains many elements?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4847\" data-end=\"5040\">Insertion at the end referred to by $\\texttt{front}$<br>&nbsp;</li><li data-start=\"4847\" data-end=\"5040\">Insertion at the end referred to by $\\texttt{rear}$<br>&nbsp;</li><li data-start=\"4847\" data-end=\"5040\">Deletion from the end referred to by&nbsp;$\\texttt{front}$<br>&nbsp;</li><li data-start=\"4847\" data-end=\"5040\">Deletion from the end referred to by&nbsp;$\\texttt{rear}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 314"
+        },
+        {
+          "post_id": "538523",
+          "text": "<p data-start=\"2339\" data-end=\"2446\">Consider the following C function intended to delete the last node of a singly linked list:</p><pre data-start=\"2448\" data-end=\"2659\" data-rawcode=\"void removeLast(struct Node *head) {     struct Node *p = head;     struct Node *q = p-&gt;next;      while (q-&gt;next != NULL) {         p = q;         q = q-&gt;next;     }      p-&gt;next = NULL;     free(q); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">void removeLast(struct Node *head) {\n    struct Node *p = head;\n    struct Node *q = p-&gt;next;\n\n    while (q-&gt;next != NULL) {\n        p = q;\n        q = q-&gt;next;\n    }\n\n    p-&gt;next = NULL;\n    free(q);\n}</pre><p data-start=\"2661\" data-end=\"2718\">For which linked lists does this function work correctly?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2720\" data-end=\"2901\">No linked lists<br>&nbsp;</li><li data-start=\"2720\" data-end=\"2901\">All non-empty linked lists<br>&nbsp;</li><li data-start=\"2720\" data-end=\"2901\">All linked lists with more than one node<br>&nbsp;</li><li data-start=\"2720\" data-end=\"2901\">Empty list and all linked lists with more than one node<br>&nbsp;</li><li data-start=\"2720\" data-end=\"2901\">All linked lists</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 314"
+        },
+        {
+          "post_id": "538521",
+          "text": "<p data-start=\"844\" data-end=\"893\">Consider the following structure:</p><pre data-start=\"895\" data-end=\"957\" data-rawcode=\"struct Node {     int data;     struct Node *next; };\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">struct Node {\n    int data;\n    struct Node *next;\n};</pre><p data-start=\"959\" data-end=\"1081\">A function should insert a new node containing value $\\texttt{x}$ at the beginning of a singly linked list and return the new head.</p><p data-start=\"1083\" data-end=\"1109\">Which function is correct?</p><p data-start=\"1111\" data-end=\"1123\"><strong data-start=\"1111\" data-end=\"1123\">Option I</strong></p><pre data-start=\"1125\" data-end=\"1288\" data-rawcode=\"struct Node* insertFront(struct Node *head, int x) {     head = malloc(sizeof(struct Node));     head-&gt;data = x;     head-&gt;next = head;     return head; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">struct Node* insertFront(struct Node *head, int x) {\n    head = malloc(sizeof(struct Node));\n    head-&gt;data = x;\n    head-&gt;next = head;\n    return head;\n}</pre><p data-start=\"1290\" data-end=\"1303\"><strong data-start=\"1290\" data-end=\"1303\">Option II</strong></p><pre data-start=\"1305\" data-end=\"1493\" data-rawcode=\"struct Node* insertFront(struct Node *head, int x) {     struct Node *newNode = malloc(sizeof(struct Node));     newNode-&gt;data = x;     newNode-&gt;next = head;     return newNode; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">struct Node* insertFront(struct Node *head, int x) {\n    struct Node *newNode = malloc(sizeof(struct Node));\n    newNode-&gt;data = x;\n    newNode-&gt;next = head;\n    return newNode;\n}</pre><p data-start=\"1495\" data-end=\"1509\"><strong data-start=\"1495\" data-end=\"1509\">Option III</strong></p><pre data-start=\"1511\" data-end=\"1716\" data-rawcode=\"struct Node* insertFront(struct Node *head, int x) {     struct Node *newNode = malloc(sizeof(struct Node));     head = newNode;     newNode-&gt;data = x;     newNode-&gt;next = head;     return head; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">struct Node* insertFront(struct Node *head, int x) {\n    struct Node *newNode = malloc(sizeof(struct Node));\n    head = newNode;\n    newNode-&gt;data = x;\n    newNode-&gt;next = head;\n    return head;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1718\" data-end=\"1796\">Only I<br>&nbsp;</li><li data-start=\"1718\" data-end=\"1796\">Only II<br>&nbsp;</li><li data-start=\"1718\" data-end=\"1796\">Only III<br>&nbsp;</li><li data-start=\"1718\" data-end=\"1796\">I and II only<br>&nbsp;</li><li data-start=\"1718\" data-end=\"1796\">II and III only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 314"
+        },
+        {
+          "post_id": "538526",
+          "text": "<p data-start=\"3518\" data-end=\"3662\">Consider the problem of finding the middle node in a list $l$ of size $n$, given that $n$ is odd. Count the number of accesses to positions of list $l$ needed to find the middle node using the most time-efficient algorithm, and only&nbsp;$\\text{O(1)}$ space. If the same position is accessed several times, count each of those accesses separately. Let $x/y$ denote integer division. How many accesses to positions of list $l$ does the most efficient algorithm perform to find the middle node when $l$ is implemented by a <strong>singly-linked list</strong> without a size field?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3815\" data-end=\"3873\">$1$<br>&nbsp;</li><li data-start=\"3815\" data-end=\"3873\">$n + 1$<br>&nbsp;</li><li data-start=\"3815\" data-end=\"3873\">$(n + 2) / 2$<br>&nbsp;</li><li data-start=\"3815\" data-end=\"3873\">$(3n + 2) / 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 314"
+        }
+      ]
+    }
+  ]
+}

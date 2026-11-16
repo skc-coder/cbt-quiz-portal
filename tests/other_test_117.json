@@ -1,0 +1,352 @@
+{
+  "name": "GATEBOOK-2019 Grand Test 6: CO & Architecture",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "291433",
+          "text": "The Direct memory access based transfer is initiated by which of the following:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Processor<br /> </li><li>  Kernel/library routine<br /> </li> <li> Device controller<br /> </li>  <li> Running process  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291431",
+          "text": "A control unit of a processor can generate a maximum of $102$ control signals. It is known that to perform any instruction it needs at least 4 microinstructions on an average and any microinstruction needs at most three active control signals. What should be the width of control words in this control unit which can check a dozen of conditions :---",
+          "type": "Numerical",
+          "answer": "25",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291429",
+          "text": "To use the input and/or output of commands from/to files or join multiple commands together using pipes is known as:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Pipelining<br /> </li><li>  Interfacing<br /> </li> <li> I/O redirection<br /> </li>  <li> I/O chaining  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291426",
+          "text": "There are exactly M blocks in main memory which can be mapped to same cache sets. The cache is 4-associative and number of blocks in cache is 2L. The size of cache line is B words and word contains 16 bytes in it.<br />\nThe size of main memory in number of blocks, is:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $2L*2^M$ <br /> </li><li>  $2^{\\frac{M*L}{2}}$<br /> </li> <li> $\\frac{M*L}{2}$<br /> </li>  <li> $\\frac{M*2*L}{4*16*B}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291424",
+          "text": "Assume that for a certain processor, a read request takes 50 nanoseconds on a cache miss and 5 nanoseconds on a cache hit. Suppose while running a program, it was observed that 80\\% of the processor's read requests result in a cache hit. The average read access time in nanoseconds is:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  12<br /> </li><li>  14<br /> </li> <li> 18<br /> </li>  <li> 22  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291422",
+          "text": "In a memory system the memory size is M bytes, a 4-way set associative cache size is C bytes and block size is B bytes. The number of set index bits is:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\log\\frac{M-4B}{C}-2$ <br /> </li><li>  $\\frac{\\log C}{4B}+2$<br /> </li> <li> $\\log{\\frac{C}{4B}}-2$<br /> </li>  <li> $\\log{\\frac{C}{B}}-2$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291420",
+          "text": "A processor needs to transfer a file of 36 MBytes from disk to main memory. The memory is byte addressable. The size of the data count register of a DMA controller is 12 bits. The minimum number of times the DMA controller needs to get the control of the system bus from the processor to transfer the file from the disk to main memory if it works in cycle stealing mode is $T_C$ while the same for Burst mode is $T_B$. Then the minimum number of bits required to represent the value of the ratio $\\frac{T_C}{T_B}$ is _____",
+          "type": "Numerical",
+          "answer": "13",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291418",
+          "text": "A CPU has 32-bit instructions. A program starts at address $2055_{10}$. Which one of the following (all in decimal) is a legal program counter: <br />\n<ol style=\"list-style-type:upper-alpha\"><li>  3515<br /> </li><li>  3516<br /> </li> <li> 3517<br /> </li>  <li> 3518  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291416",
+          "text": "How many 8K X 4 ROM chips are needed in order to build a bigger chip whose size is 2 MBytes.<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  64<br /> </li><li>  128<br /> </li> <li> 256<br /> </li>  <li> 512  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291414",
+          "text": "<p>A processor, that has sign, overflow and carry flag bits as most significant three bits (in that order) of its 8 bit program status word (PSW), performs addition of the following two 2's complement 8 bit numbers 01101011 and 00110110. If after the addition operation is performed, the least 5 bits have a octal equivalent as 16, the decimal representation of the PSW is::</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>206</li>\n    <li>28</li>\n    <li>56</li>\n    <li>78</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291412",
+          "text": "There are two organizations of caches with same values of memory size 64Mbytes, cache size 16Kbytes and block size 64bytes, as follows:<br />\n(i) A 4-way set associative<br />\n(ii) A full associative cache<br />\nThe number of Tag-comparators used in (i) is $C_1$ with input size of $T_1$ and number of Tag-comparators used in (ii) is $C_2$ &nbsp;with input size of $T_2$ . <br />\nLet $D=|T_2-T_1|$ and $R=\\frac{C_2}{C_1}$.<br />\nThe value of $D*R$ is: ____",
+          "type": "Numerical",
+          "answer": "384",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291410",
+          "text": "<p>The two different organizations a and b of 5 stage processor having following latencies (in ps):<br>\n$$<br>\n&nbsp;&nbsp;&nbsp;&nbsp;\\begin{array}{l|c|c|c|c|r}<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\textbf{TYPE} &amp; \\textbf{IF} &amp; \\textbf{ID} &nbsp;&amp; \\textbf{EX} &amp; \\textbf{MM} &amp; \\textbf{WB}\\\\<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\hline<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a &amp; 300 &amp; 400 &amp; 350 &amp; 550 &amp; 100 \\\\<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b &amp; 200 &amp; 150 &amp; 100 &amp; 190 &amp; 140\\\\<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\hline &nbsp;&nbsp;<br>\n&nbsp;&nbsp;&nbsp;&nbsp;\\end{array}<br>\n&nbsp;&nbsp;&nbsp;$$<br>\nAssume that each pipeline stage costs 20ps extra due to the registers between pipeline stages.<br>\nWhich of the following pairs of tuples represents the cycle time, the latency of one instruction and the throughput for a pipelined processor for both the types a and b mentioned above?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(570, 570, 1/570) (220, 220, 1/220)</li>\n    <li>(570, 1700, 1/1700), (220, 220, 1/780)</li>\n    <li>(570, 570 ,1/1700) , (220, 780, 1/780)</li>\n    <li>(570, 2850, 1/570), (220, 1100, 1/220)</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291408",
+          "text": "A computer has a 512 kBytes, 16-way set associative, write back data cache with block size of 64 bytes. The processor sends 64 bit addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, 2 valid bits, a modified bit and a replacement bit and 2 more control bits. The size of the cache tag directory in KBytes is: ____",
+          "type": "Numerical",
+          "answer": "55",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291406",
+          "text": "Consider a two-level cache hierarchy with $L_1$, $L_2$ and $L_3$ caches. An application incurs 2.5 memory accesses per instruction on average. For this application, the miss rate of $L_1$ cache is 0.15; the $L_2$ cache experiences, on average, 345 misses per 4000 instructions while the $L_3$ cache experiences, on average, 20 misses per 1000 instructions. What is the percentage of total references which needs to access main memory?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  0.6875<br /> </li><li>  0.4667<br /> </li> <li> 0.8000<br /> </li>  <li> 1.375  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291403",
+          "text": "Consider a machine with a byte addressable main memory of 16 Mbytes. Assume that a direct mapped data cache of 64 blocks &nbsp;with block size of 256 bytes is used in the system. A 150 x 150 two-dimensional array with element size of 1 byte is stored in the main memory starting from memory location 100D00H. Assume that the data cache is initially empty. After accessing the array once it is accessed two more times. Assume that the contents of the data cache do not change in between the two accesses. How many data misses will occur in total?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  280<br /> </li><li>  240<br /> </li> <li> 148<br /> </li>  <li> 184  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291401",
+          "text": "A machine has a 32-bit architecture, with three-word long instructions. It has 6400 General Purpose Registers and 810 Special Purpose Registers, each of which is 32-bits long. It needs to support 1670 different instructions, which have an immediate operand in addition to four General Purpose Register operands and two Special Purpose Register operand. Assuming that the immediate operand is represented in 2's complement integer format, the maximum positive value of the immediate operand is: _____",
+          "type": "Numerical",
+          "answer": "4095",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291399",
+          "text": "Consider the following one address instructions for a hypothetical processor implementing a function denoted by $f$:<br />\nMove x<br />\nMult x<br />\nStore z<br />\nMove x<br />\nMult 2<br />\nAdd z<br />\nAdd 3<br />\nStore y<br />\n<br />\nWhich of the following values represents the value of the function for input value = $(17)_{10}$?",
+          "type": "Numerical",
+          "answer": "326",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291397",
+          "text": "Consider two different designs of ALU as follows:<br />\n(i) A part of a bigger task is improved twenty times than it was before. The other part of the same task constitutes $60\\%$ of the overall task time and it remains unchanged.<br />\n(ii) The designer can make changes to improve $20\\%$ of the task $100\\%$ faster, $35\\%$ of the task 4 times faster and $10 \\%$ of the task 100 times faster, but it causes the remaining part of the task to perform as bad as $50\\%$ slower than before.<br />\nWhich of the following value is the best approximate difference between the two speedups achieved in those two improvements:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  0.3567<br /> </li><li>  0.2667<br /> </li> <li> 0.4875<br /> </li>  <li> 0.4325  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291395",
+          "text": "Arrange the following configuration for CPU in decreasing order of operating speeds:<br />\nHard wired control, Vertical microprogramming, Horizontal microprogramming.<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Hard wired control, Vertical microprogramming, Horizontal microprogramming.<br /> </li><li>  Hard wired control, Horizontal microprogramming, Vertical microprogramming.<br /> </li> <li> Horizontal microprogramming, Vertical microprogramming, Hard wired control.<br /> </li>  <li> Vertical microprogramming, Horizontal microprogramming, Hard wired control.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291393",
+          "text": "<p>A pipelined processor uses a 4-stage instruction pipeline with the following stages: Instruction fetch (IF), Instruction decode (ID), Execute (EX) and Writeback (WB). The arithmetic operations as well as the load and store operations are carried out in the EX stage.<br>\nThe sequence of instructions corresponding to the statement:<br>\n$X = ((R-S)*(P + Q*S))/T $<br>\n,is given below. The values of variables P, Q, R, S and T are available in the registers R0, R1, R2, R3 and R4 respectively, before the execution of the instruction sequence.</p>\n\n<ul>\n    <li>$I_1:$ $MUL\\: \\: R_1, \\:R_1, \\:R_3 \\: \\: \\: ;\\: \\: R_1 \\leftarrow R_1 * R_3$</li>\n    <li>$I_2:$ $ADD \\: \\:R_0,\\: R_0,\\: R_1 \\: \\: \\:;\\: \\: R_0 \\leftarrow R_0 + R_1$</li>\n    <li>$I_3:$ $SUB\\: \\: R_2,\\: R_2,\\: R_3 \\: \\: \\: \\:;\\: \\: R_2 \\leftarrow R_2 - R_3$</li>\n    <li>$I_4:$ $MUL\\: \\: R_0, \\:R_0, \\:R_2 \\: \\: \\: ;\\: \\: R_0 \\leftarrow R_0 * R_2$</li>\n    <li>$I_5:$ $DIV \\: \\:R_0,\\: R_0,\\: R_4 \\: \\: \\: \\: \\:;\\: \\: R_0 \\leftarrow R_0/R_4$</li>\n    <li>$I_6:$ $STORE \\: \\: \\: R_0,\\: \\: X \\: \\: \\: \\: \\: \\:; \\: \\:X \\leftarrow R_0$</li>\n</ul>\n\n<p><br>\nThe number of Read-After-Write (RAW) dependencies, Write-After-Read( WAR) dependencies, and Write-After-Write (WAW) dependencies in the sequence of instructions are, respectively,</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$5, 3, 3$</li>\n    <li>$4, 2, 2$</li>\n    <li>$6, 3, 3$</li>\n    <li>$8, 8, 3$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-coa,pipelining,data-hazards",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291391",
+          "text": "Consider a 32-bit processor with 150 registers and having 76 different types of instructions. Each instruction has five distinct fields, namely, opcode, two source register identifiers, one destination register identifier, and a thirteen-bit immediate value. Each instruction must be stored in memory in a word-aligned fashion. If a program has 1000 instructions, the amount of memory (in bytes) consumed by the program text is: _____",
+          "type": "Numerical",
+          "answer": "8000",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291389",
+          "text": "A hard disk with a transfer rate of 500 Mbits per second is constantly transferring data to memory using DMA. The processor is running effectively at half of its maximum frequency of 1GHz. To initiate a DMA transfer it takes 70 CPU cycles and for taking back the control of the bus it takes 125 CPU cycles. The transfer takes place in a chunk of 1KBytes of data and then the DMA relinquishes the bus. The average time between a successful DMA termination and start of next DMA initiation is 2 microseconds. If the size of the file being transferred is 500KBytes, what is the time to &nbsp;transfer the whole file starting from initiating the DMA for the first time to the last time control of the BUS is revoked from DMA controller:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  7.4500 ms<br /> </li><li>  9.3850 ms<br /> </li> <li> 11.6745 ms<br /> </li>  <li> None of the above  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291387",
+          "text": "Consider an instruction pipeline with five stages: Fetch Instruction (FI), Decode Instruction (DI), Fetch Operand (FO), Execute Instruction (EI) and Write Operand (WO). The stage delays for FI, DI, FO, EI and WO are 5 ns, 7 ns, 10 ns, 8 ns and 6 ns, respectively. There are intermediate storage buffers after each stage and the delay of each buffer is 1 ns. The pipeline uses a $1-bit$ branch predictor which basically predicts what happened just previously.\nA program consisting of 10 instructions $I1, I2, I3, …, I10$ is executed in this pipelined processor. Instruction I4 is a branch instruction and its branch target is I8 and the branch is always taken during the execution of this program. I10 is also a branch instruction and it's branch target is I1 when taken or else program ends. Assume that the initial branch prediction is NOT TAKEN for all the branches and   I10 branch is taken $2$ times and there's an extra penalty of 1 cycle for pipeline flush. \nThe time (in ns) needed to complete the program (till last instruction is executed)  is : _____",
+          "type": "Numerical",
+          "answer": "363",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291385",
+          "text": "<p>Consider a CPU that executes the following mix of instructions:<br>\n$43\\%$ are ALU operations that take 1 Cycle<br>\n$21\\%$ are Load instructions that take 1 Cycle<br>\n$12\\%$ are Store instructions that take 2 Cycles<br>\n$24\\%$ are Jump instructions that take 2 Cycles<br>\nA modification is introduced in order to improve the store instruction to consume only 1 Cycle instead of 2 Cycles but this modification causes the cpu clock to become slower by $15\\%$.<br>\nWhich of the following correctly shows the effect caused by this modification?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>CPU takes $5\\%$ less time with changes.</li>\n    <li>CPU takes $10\\%$ less time with changes.</li>\n    <li>CPU takes $5\\%$ more time with changes.</li>\n    <li>CPU takes $7\\%$ more time with changes.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291383",
+          "text": "A system has following type of operations shown with their percentages and cycles needed to be executed: <br />\nThere are $60\\%$ non-comparison type operations which are shown with their proportion as:<br />\n(Add,20,1), (Subtract,10,1), (Multiplication,40,3), (Division,30,5).<br />\nRemaining operations are comparisons type each of which takes 1 cycle while there are on an average two statements following each such comparison operation and these two statements take effectively 6 cycles on an average.<br />\nIf a program in such a system contains 500 lines of instructions then the amount of time (in ns) needed to execute such a program completely, given that the system clock operates at 2 GHz, is:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  1010<br /> </li><li>  2019<br /> </li> <li> 1150<br /> </li>  <li> 2020  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-coa",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291381",
+          "text": "In an 48-bit computer instruction format, CPU can generate 16000 addresses. The computer uses expanding opcode technique and has 60 three-address instructions, 65530 two-address instructions, 98300 one-address instructions. The number of zero-address instructions it can support is: _____",
+          "type": "Numerical",
+          "answer": "65536",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers,expanding-opcode",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291379",
+          "text": "Consider a hard disk drive with specification given below:<br />\n36 platters with 2 surfaces per platter, 1024 tracks/surface, 512 sectors/track, 4 KB/sector, rotation speed 9000 rpm. The disk is operated in cycle stealing mode which means, whenever one word is ready for read/write, it is sent to memory/disk-interface in next memory cycle. Note that only disk interface reads/writes the word from/to disk and on completion of operation it triggers to DMA. <br />\nThe allowed operating frequency of memory is 50MHz. If the word size is 16 bytes, the maximum percentage of time that the CPU gets blocked during DMA operation is:",
+          "type": "Numerical",
+          "answer": "33.33 : 33.35",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291377",
+          "text": "A RAM chip has a capacity of 512 words of 16 bits each. The number of 3 x 8 decoders with enable line needed to construct a 2M x 32 bits RAM from 512 x 16 bits RAM is ____",
+          "type": "Numerical",
+          "answer": "585",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291375",
+          "text": "Consider a control unit built by combinational circuits. The operation decoder has two levels and each level has a delay of 35 ns, Control signal generator has a delay of 50 ns per signal and the next control state generator has delay of 10 ns. A program contains four lines of instructions. First two instructions generate ten microinstructions and each microinstruction contains three active control signals in it. Last two instructions generates thirteen microinstructions and each generates eight active control signals. In all sequence of &nbsp;microinstructions (for given four instructions) after executing first five microinstructions there is a jump instruction which brings the control to microinstruction 8 after which the remaining microinstructions are executed linearly without any jump.<br />\nIf the jump operation consumes negligible amount of time and all instructions are executed one by one in sequence, what is the total time required to run this program in nanoseconds?",
+          "type": "Numerical",
+          "answer": "11720",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "291373",
+          "text": "Consider the following program segment for a hypothetical CPU having three user registers $R_1$, $R_2$ and $R_3$.<br />\n$$\\begin{array}{l|l|c}<br />\n\\text{Instruction} &amp;    \\text{Operation} &amp; \\text{Instruction Size (in words)} \\\\\\hline<br />\nMOV \\: R_1, \\: 17500&amp;    R_1 \\leftarrow  Memory[17500] &amp;    2 \\\\<br />\nMOV \\: R_2, \\: (23840)    &amp;    R_2  \\leftarrow  Memory[(23840)]&amp;    2 \\\\<br />\nMUL \\: R_2,R_3&amp;     R_2  \\leftarrow  R_2*R_3&amp; 3 \\\\<br />\nADD \\: R_1,R_2&amp;    R_1  \\leftarrow  R_1+R_2&amp;    1 \\\\<br />\nMOV \\: 14000,R_1 &amp;    Memory[14000]  \\leftarrow  R_1&amp;    2\\\\<br />\nHALT &amp;        \\text{Machine  halts}&amp;    1\\\\<br />\n\\end{array}$$<br />\n<br />\nConsider that the memory is byte addressable with size 64 bits, and the program has been loaded starting from memory location 2511 (decimal). If an interrupt occurs while the CPU has been halted after executing the HALT instruction, the return address (in decimal) saved in the stack will be ______",
+          "type": "Numerical",
+          "answer": "2599",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-coa,numerical-answers",
+          "category": "CO & Architecture"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 234 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "526995",
+          "text": "<p>Let $H(x)$ : \" $x$ is a happy person\", where the universe is the set of all people. Which of the following correctly expresses \"There exists at least one happy person\"?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\forall x H(x)$</li><li>$\\exists x \\forall y(H(x) \\wedge H(y))$</li><li>$\\exists x H(x)$</li><li>$\\neg \\forall x \\neg H(x)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "526977",
+          "text": "<p>Consider the following two logical equivalences that express 'logical laws':<br>- $\\neg \\exists x \\in D f \\equiv \\forall x \\in D \\neg f$<br>- $\\neg(f \\rightarrow g) \\equiv \\neg g \\rightarrow \\neg f$</p><p>Which of these hold?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>both</li><li>only the first</li><li>only the second</li><li>none</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "526984",
+          "text": "<p>Consider the model (men, women, parent_of), and an interpretation in this model:<br>$M$ domain of men<br>$W$ domain of women<br>$P(x, y) \\quad y$ is a parent of $x$</p><p>You may assume that both parents of all people in $(M \\cup W)$ are also in $(M \\cup W)$.<br>Which of the following formulas is not true in this model?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\forall x \\in(M \\cup W) \\exists y_1 \\in M \\exists y_2 \\in W\\left[P\\left(y_1, x\\right) \\wedge P\\left(y_2, x\\right)\\right]$</li><li>$\\forall x \\in W \\exists x^{\\prime}, x^{\\prime \\prime} \\in W\\left[P\\left(x, x^{\\prime}\\right) \\wedge P\\left(x, x^{\\prime \\prime}\\right)\\right]$</li><li>$\\forall x \\in W \\exists x^{\\prime}, x^{\\prime \\prime} \\in W\\left[P\\left(x, x^{\\prime}\\right) \\wedge P\\left(x^{\\prime}, x^{\\prime \\prime}\\right)\\right]$</li><li>$\\forall x \\in(M \\cup W) \\exists y \\in(M \\cup W)[P(x, y) \\vee P(y, x)]$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "527002",
+          "text": "<p>Let $H(x)$ : \" $x$ is a happy person\", where the universe is the set of all people. Which of the following correctly expresses \"There exists exactly one happy person\"?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\exists x(H(x) \\wedge \\forall y(H(y) \\rightarrow x=y))$</li><li>$\\exists x \\exists y(H(x) \\wedge H(y) \\wedge x \\neq y)$</li><li>$\\forall x \\forall y(H(x) \\wedge H(y) \\rightarrow x=y)$</li><li>$&nbsp;\\exists x H(x) \\wedge \\exists y H(y) \\wedge x \\neq y$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "526986",
+          "text": "<p>Consider the model (men, women, parent_of), and an interpretation in this model:</p><p>$M$ domain of men<br>$W$ domain of women<br>$P(x, y) \\quad y$ is a parent of $x$</p><p>You may assume that both parents of all people in ( $M \\cup W$ ) are also in $(M \\cup W)$.<br>Which of the following formulas is not true in this model?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\forall x \\in(M \\cup W) \\exists y_1 \\in M \\exists y_2 \\in W\\left[P\\left(x, y_1\\right) \\wedge P\\left(x, y_2\\right)\\right]$</li><li>$\\forall x \\in M \\exists x^{\\prime}, x^{\\prime \\prime} \\in M\\left[P\\left(x, x^{\\prime}\\right) \\wedge P\\left(x^{\\prime \\prime}, x\\right)\\right]$</li><li>$\\forall x \\in M \\exists x^{\\prime}, x^{\\prime \\prime} \\in M\\left[P\\left(x, x^{\\prime}\\right) \\wedge P\\left(x^{\\prime \\prime}, x^{\\prime}\\right)\\right]$</li><li>$\\forall x \\in(M \\cup W) \\exists y \\in(M \\cup W)[P(x, y) \\leftrightarrow P(y, x)]$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 234"
+        }
+      ]
+    }
+  ]
+}

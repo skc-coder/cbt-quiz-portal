@@ -1,0 +1,70 @@
+{
+  "name": "Day 61 [Artificial Intelligence]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "479274",
+          "text": "<p>Given that</p><ul><li>$B(x)$ means \" $x$ is a bat\",</li><li>$F(x)$ means \" $x$ is a fly\", and</li><li>$E(x, y)$ means \" $x$ eats $y$ \",</li></ul><p>what is the best English translation of</p><p>$$<br>\\forall x(F(x) \\rightarrow \\forall y(E(y, x) \\rightarrow B(y))) ?<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>all flies eat bats<br>&nbsp;</li><li>only bats eat flies<br>&nbsp;</li><li>bats eat only flies<br>&nbsp;</li><li>every bat eats flies</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Artificial Intelligence",
+          "day": "Day 61"
+        },
+        {
+          "post_id": "479272",
+          "text": "<p>Give a compound proposition involving propositions $p, q$ and $r$ that is true when exactly two of $p, q$ and $r$ are true and is false otherwise</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(p \\vee q \\wedge \\neg r) \\wedge(p \\wedge \\neg q \\wedge r) \\wedge(\\neg p \\wedge q \\wedge r)$<br>&nbsp;</li><li>$(p \\wedge q \\wedge \\neg r) \\wedge(p \\vee q \\wedge \\neg r) \\wedge(\\neg p \\wedge q \\wedge r)$<br>&nbsp;</li><li>$(p \\wedge q \\wedge \\neg r) \\vee(p \\wedge \\neg q \\wedge r) \\wedge(\\neg p \\wedge q \\wedge r)$<br>&nbsp;</li><li>$(p \\wedge q \\wedge \\neg r) \\vee(p \\wedge \\neg q \\wedge r) \\vee(\\neg p \\wedge q \\wedge r)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Artificial Intelligence",
+          "day": "Day 61"
+        },
+        {
+          "post_id": "479269",
+          "text": "<p>In propositional logic, given $P$ and $P \\rightarrow Q$, we can infer $\\qquad$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\sim Q$<br>&nbsp;</li><li>$Q$<br>&nbsp;</li><li>$P \\wedge Q$<br>&nbsp;</li><li>$\\sim P \\wedge Q$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Artificial Intelligence",
+          "day": "Day 61"
+        },
+        {
+          "post_id": "479265",
+          "text": "<p>The converse of $((\\sim p) \\wedge q) \\Rightarrow r$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$((\\sim p) \\vee q) \\Rightarrow r$<br>&nbsp;</li><li>$(\\sim \\mathrm{r}) \\Rightarrow \\mathrm{p} \\wedge \\mathrm{q}$<br>&nbsp;</li><li>$(\\mathrm{p} \\vee(\\sim \\mathrm{q})) \\Rightarrow(\\sim \\mathrm{r})$<br>&nbsp;</li><li>$(\\sim r) \\Rightarrow((\\sim p) \\wedge q)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Artificial Intelligence",
+          "day": "Day 61"
+        },
+        {
+          "post_id": "479267",
+          "text": "<p>The statement $\\sim[p \\vee(\\sim(p \\wedge q))]$ is equivalent to :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(\\sim(p \\wedge q)) \\wedge q$<br>&nbsp;</li><li>$\\sim(p \\vee q)$<br>&nbsp;</li><li>$(p \\wedge q) \\wedge(\\sim p)$<br>&nbsp;</li><li>$\\sim(p \\wedge q)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Artificial Intelligence",
+          "day": "Day 61"
+        }
+      ]
+    }
+  ]
+}

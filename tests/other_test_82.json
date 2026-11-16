@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 CN1: Flow and Error Control",
+  "duration": "75",
+  "total_qs": "20",
+  "total_qs_one": 0,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "258392",
+          "text": "<p>Which of the following CRC generators guarantee the detection of a single bit error?</p>\n\n<p>P.&nbsp;$x^4+x^2$</p>\n\n<p>Q. $x^3+x+1$</p>\n\n<p>R. $x^2+1$</p>\n\n<p>S. $1$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $P$</li>\n    <li>Only $P,Q$</li>\n    <li>Only $P,Q,R$</li>\n    <li>All of $P,Q,R,S$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,error-detection,crc",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258391",
+          "text": "<p>Consider the CRC polynomial $x^8+x^7+x^6 +x^4 +x^2+1$. Which of the following is FALSE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>It detects a single bit error</li>\n    <li>It detects a burst error of size $6$</li>\n    <li>The probability of detecting a burst error of size $9$ is&nbsp;$1-\\frac{1}{2^7}$&nbsp;</li>\n    <li>The probability of detecting a burst error of size $15$ is $1-\\frac{1}{2^{15}}$&nbsp;\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,crc-polynomial",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258390",
+          "text": "<p>What is the maximum effect (Length of the burst) of a $2$-ms burst of noise on data transmitted at $300$ Mbps ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$600$&nbsp;Kbits</li>\n    <li>$300$&nbsp;Kbits</li>\n    <li>$150$&nbsp;Kbits</li>\n    <li>$800$&nbsp;Kbits</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,error-control",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258389",
+          "text": "<p>Given the data word $1010011010$ and the divisor $10111$ what is the codeword to be&nbsp;sent to receiver?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>$10100110100000$</li>\n    <li>$10100110100001$</li>\n    <li>$1010011011$</li>\n    <li>$10100110110111$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,error-detection,data-link-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258388",
+          "text": "<p>Minimum hamming distance for detection of $3$ errors or correction of $2$ errors.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$5$</li>\n    <li>$4$</li>\n    <li>$6$</li>\n    <li>$3$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,hamming-code,error-detection",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258387",
+          "text": "<p>Using $5$ bit sequence numbers what is the maximum size of the send and receive windows for each of the following protocols ?</p>\n\n<p>P. Stop-and-Wait ARQ<br>\nQ. Go-Back-N ARQ<br>\nR. Selective-Repeat ARQ</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$P – 1,1; \\:&nbsp;&nbsp;Q –&nbsp;&nbsp;31;1 \\;&nbsp;&nbsp;R –&nbsp;&nbsp;16,16;$</li>\n    <li>$P –&nbsp; 31,1; &nbsp;\\; Q –&nbsp;&nbsp;31,31 \\; R –&nbsp; 16,32;$</li>\n    <li>$P –&nbsp;&nbsp;1,0; \\;&nbsp;Q –&nbsp; 31,1; \\;&nbsp;R –&nbsp;&nbsp;32,16;$</li>\n    <li>$P –&nbsp;&nbsp;1,1; \\;&nbsp;&nbsp;Q – 5,1; \\; &nbsp;R –&nbsp;&nbsp;16,16;$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,sliding-window",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258386",
+          "text": "Stations in a pure Aloha network send frames of size $1000$ bits at the rate of $1$ Mbps. Vulnerable time for this network is ______ milliseconds ?",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cn1,numerical-answers,computer-networks,multiple-access-protocol,data-link-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258385",
+          "text": "<p>Assume the propagation delay in a broadcast network is $5 \\: \\mu s$ and the frame transmission time is $10 \\: \\mu s$. How long does it take for the last bit to reach the destination after the first bit has arrived?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$10 \\: \\mu s$</li>\n    <li>$5 \\: \\mu s$</li>\n    <li>$15 \\: \\mu s$</li>\n    <li>$50 \\: \\mu s$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,ethernet",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258384",
+          "text": "<p>A multiple access network with a large number of stations can be analyzed using the Poisson distribution. When there is a limited number of stations in a network, we need to use another approach for this analysis. In a network with N stations, we assume that each station has a frame to send during the frame transmission time&nbsp;($T_{fr}$)&nbsp;with probability p. In such a network, a station is successful in sending its frame if the station has a frame to send during the vulnerable time and no other station has a frame to send during this period of time.</p>\n\n<p>The probability that a station in a pure Aloha network can successfully send a frame during the vulnerable time.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$p(1-p)^{2(n-1)}$</li>\n    <li>$(1-p^{2(n-1)}$</li>\n    <li>$p(1-p)^{(n-1)}$</li>\n    <li>$(1-p)^{(n-1)}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,multiple-access-protocol,data-link-layer,pure-aloha",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258383",
+          "text": "<p>There are only three active stations in a slotted Aloha network: $A$, $B$, and $C$. Each station generates a frame in a time slot with the corresponding probabilities&nbsp;$P_A=0.2, \\: P_B=0.3, \\text{ and } P_C=0.4$ respectively. What is the throughput of the network?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0.452&nbsp; \\text{ frames/sec}$</li>\n    <li>$0.542 \\text{ frames/sec}$</li>\n    <li>$0.854 \\text{ frames/sec}$</li>\n    <li>$0.548 \\text{ frames/sec}$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,slotted-aloha,data-link-layer,mac-protocol",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258382",
+          "text": "<p>A system uses the Stop-and-Wait ARQ protocol. If each packet carries $1000 \\text{ bits}$ of data, how long does it take to send $1$ million bits of data if the distance between the sender and receiver is $5000 \\text{ km}$ and the propagation speed is&nbsp;$2 \\times 10^8$? Ignore transmission,waiting, and processing delays. We assume no data or control frame is lost or damaged ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$51 \\text{ sec}$</li>\n    <li>$26 \\text{ sec}$</li>\n    <li>$50 \\text{ sec}$</li>\n    <li>$25 \\text{ sec}$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,data-link-layer,stop-and-wait",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258381",
+          "text": "An Ethernet MAC sublayer receives $42$ bytes of data from the upper layer. -______ bytes of padding must be added to the data?",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cn1,numerical-answers,computer-networks,ethernet,data-link-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258380",
+          "text": "<p>Suppose the length of a 10Base5 cable is $2500$ m. If the speed of propagation in a thick coaxial cable is $200,000,000$ m/s, how long does it take for a bit to travel from the beginning to the end of the network? Assume that there is a $10$ μs delay in the equipment due to repeaters and there is a repeater for every $500$ meters?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$26.5$ micro seconds</li>\n    <li>$52.5$ microseconds</li>\n    <li>$47.5$ micro seconds</li>\n    <li>$37.5$ micro seconds</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,ethernet,data-link-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258379",
+          "text": "<p>An upper-layer packet is split into $5$ frames, each of which has an $90$% chance of arriving undamaged. If no error control is done by the data link protocol, How many times must the message be sent on average to get the entire thing through?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2.1$</li>\n    <li>$1.9$</li>\n    <li>$1.7$</li>\n    <li>$2.4$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,data-link-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258378",
+          "text": "Sixteen-bit messages are transmitted using a Hamming code. Check bits needed (minimum) to ensure that the receiver can detect and correct single-bit errors is _____?",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cn1,numerical-answers,computer-networks,hamming-code,error-detection,data-link-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258377",
+          "text": "<p>What is the remainder obtained by dividing&nbsp;$x^7+x^5+1$&nbsp;by the generator polynomial $x^3+1$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$x+1$</li>\n    <li>$x^2+1$</li>\n    <li>$x^2+x+1$</li>\n    <li>&nbsp;$1$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,error-detection,crc-polynomial,error-correction",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258376",
+          "text": "<p>A channel has a bit rate of $4$ kbps and a propagation delay of $20$ msec. For what range of frame sizes does stop-and-wait give an efficiency of at least $50%$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Frame sizes above $160$ bits</li>\n    <li>Frames sizes above $80$ bits</li>\n    <li>Frames sizes above $40$ bits</li>\n    <li>Frames sizes above $20$ bits</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258375",
+          "text": "<p>A $3000$-km-long T1 trunk with $1.536$ Mbps is used to transmit $64$-byte frames using Go-Back-N ARQ. The propagation speed is $6$ μsec/km. To operate efficiently the minimum number of bits the sequence numbers should have is ______</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$5$</li>\n    <li>$6$</li>\n    <li>$7$</li>\n    <li>$8$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,go-back-n,data-link-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258374",
+          "text": "<p>An x-bit message is sent over a k-hop path in</p>\n\n<ol start=\"1\" style=\"list-style-type: lower-roman;\">\n    <li>a cicuit-switched network and</li>\n    <li>in a packet-switched network (assume lightly loaded).</li>\n</ol>\n\n<p>The circuit setup time is s sec, the propagation delay is d sec per hop, the packet size is p bits, and the data rate is b bps. Under what condition the packet network will be faster?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$s&gt;(k−1)p/b$</li>\n    <li>$s&gt;kp/b$</li>\n    <li>$s&gt;(k+1)p/b$</li>\n    <li>$s&gt;(k+1)b/p$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,data-link-layer,network-switching",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258373",
+          "text": "<p>What is the fraction of the bandwidth that is wasted on overhead (headers and retransmissions)&nbsp;for selective-repeat on a heavily loaded $50$-kbps satellite channel with data frames consisting of $40$ header and $3960$ data bits?&nbsp;Assume that the signal propagation time from the earth to the satellite is $270$ msec. ACK frames never occur. NAK frames are $40$ bits. The error rate for data frames is $1$%, and the error rate for NAK frames is negligible. The sequence numbers are $8$ bits.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2.99$%</li>\n    <li>$1.99$%</li>\n    <li>$3.99$%</li>\n    <li>$4.99$%</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn1,computer-networks,selective-repeat,data-link-layer",
+          "category": "Computer Networks"
+        }
+      ]
+    }
+  ]
+}

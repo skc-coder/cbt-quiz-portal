@@ -1,0 +1,70 @@
+{
+  "name": "Day 234 [Data Structures]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "541696",
+          "text": "<p data-start=\"631\" data-end=\"705\">Given a stack $S$ with $5$ elements from top to bottom as:</p><p data-start=\"707\" data-end=\"723\">$2, 4, 6, 8, 10$</p><p data-start=\"725\" data-end=\"748\">and an empty queue $Q$.</p><p data-start=\"750\" data-end=\"822\">First, remove the elements one by one from $S$ and insert them into $Q$.</p><p data-start=\"824\" data-end=\"898\">Then, remove the elements one by one from $Q$ and re-insert them into $S$.</p><p data-start=\"900\" data-end=\"949\">What does stack $S$ look like from top to bottom?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"951\" data-end=\"1037\">$2, 4, 6, 8, 10$<br>&nbsp;</li><li data-start=\"951\" data-end=\"1037\">$10, 2, 4, 6, 8$<br>&nbsp;</li><li data-start=\"951\" data-end=\"1037\">$10, 8, 6, 4, 2$<br>&nbsp;</li><li data-start=\"951\" data-end=\"1037\">None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "541694",
+          "text": "<p data-start=\"3067\" data-end=\"3126\">Insert the following keys into an initially empty AVL tree:</p><p data-start=\"3128\" data-end=\"3146\">$1, 2, 3, 4, 5, 6$</p><p data-start=\"3148\" data-end=\"3187\">What is the root of the final AVL tree?</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "541692",
+          "text": "<p data-start=\"1211\" data-end=\"1314\">Suppose numbers between $1$ and $1000$ are stored in a binary search tree. We search for the key $363$.</p><p data-start=\"1316\" data-end=\"1397\">Which of the following sequences could <strong data-start=\"1355\" data-end=\"1362\">not</strong> be the sequence of nodes examined?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1399\" data-end=\"1440\">$2, 252, 401, 398, 330, 344, 397, 363$<br>&nbsp;</li><li data-start=\"1442\" data-end=\"1485\">$924, 220, 911, 244, 898, 258, 362, 363$<br>&nbsp;</li><li data-start=\"1487\" data-end=\"1525\">$925, 202, 911, 240, 912, 245, 363$<br>&nbsp;</li><li data-start=\"1527\" data-end=\"1560\">All of the above are possible.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "541693",
+          "text": "<p data-start=\"1797\" data-end=\"1812\">Insert the keys</p><p data-start=\"1814\" data-end=\"1842\">$47, 61, 36, 52, 56, 33, 92$</p><p data-start=\"1844\" data-end=\"1889\">in order into a hash table of size $7$ using:</p><p data-start=\"1891\" data-end=\"1917\">$h(k) = (10k + 4) \\bmod 7$</p><p data-start=\"1919\" data-end=\"1996\">Each slot stores a linked list, and later insertions are appended at the end.</p><p data-start=\"1998\" data-end=\"2028\">Which is the final hash table?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2030\" data-end=\"2117\">$0: 36 \\rightarrow 92$<br>$4: 56$<br>$5: 47 \\rightarrow 61 \\rightarrow 33$<br>$6: 52$<br>&nbsp;</li><li data-start=\"2119\" data-end=\"2206\">$0: 92 \\rightarrow 36$<br>$4: 56$<br>$5: 33 \\rightarrow 61 \\rightarrow 47$<br>$6: 52$<br>&nbsp;</li><li data-start=\"2208\" data-end=\"2290\">$0: 36$<br>$1: 92$<br>$4: 56$<br>$5: 47 \\rightarrow 61 \\rightarrow 33$<br>$6: 52$<br>&nbsp;</li><li data-start=\"2292\" data-end=\"2379\">$0: 36 \\rightarrow 92$<br>$3: 56$<br>$5: 47 \\rightarrow 61$<br>$6: 52 \\rightarrow 33$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "541691",
+          "text": "<p data-start=\"484\" data-end=\"527\">Which of the following statements are true?</p><p data-start=\"529\" data-end=\"637\">$\\text{S1.}$ Stack operations $\\texttt{push}$, $\\texttt{pop}$, and $\\texttt{isEmpty}$ can be worst-case $O(1)$ for a linked-list implementation.</p><p data-start=\"639\" data-end=\"771\">$\\text{S2.}$&nbsp;Stack operations $\\texttt{push}$, $\\texttt{pop}$, and $\\texttt{isEmpty}$ can be worst-case $O(1)$ for an array-list implementation using a circular buffer.</p><p data-start=\"773\" data-end=\"947\">$\\text{S3.}$&nbsp;Enqueueing and dequeueing operations are more expensive in the worst case for a priority queue backed by a balanced heap than for a regular queue backed by a linked list.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"949\" data-end=\"1018\">$\\text{S1}$ only<br>&nbsp;</li><li data-start=\"949\" data-end=\"1018\">$\\text{S1}$&nbsp;and $\\text{S2}$ only<br>&nbsp;</li><li data-start=\"949\" data-end=\"1018\">$\\text{S1}$&nbsp;and $\\text{S3}$ only<br>&nbsp;</li><li data-start=\"949\" data-end=\"1018\">$\\text{S1, S2}$ and $\\text{S3}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 234"
+        }
+      ]
+    }
+  ]
+}

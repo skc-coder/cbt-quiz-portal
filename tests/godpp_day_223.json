@@ -1,0 +1,70 @@
+{
+  "name": "Day 214 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524486",
+          "text": "<p>Let $A$ be an $n \\times n$ matrix. Which of the following is <strong>NOT</strong> equivalent to the statement: $A$ is not invertible?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$ is an eigenvalue of $A$.<br>&nbsp;</li><li>$1$ is an eigenvalue of $I_n-A$.<br>&nbsp;</li><li>$0$ is a solution of $\\operatorname{det}\\left(A-\\lambda I_n\\right)=0$.<br>&nbsp;</li><li>$\\operatorname{det}\\left(A-\\lambda I_n\\right)=(1-\\lambda)^n$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 214"
+        },
+        {
+          "post_id": "524484",
+          "text": "<p>Let</p><p>$$<br>A=\\left[\\begin{array}{lll}<br>1 & 1 & 1 \\\\<br>2 & 2 & 3 \\\\<br>x & y & z<br>\\end{array}\\right]<br>$$</p><p>It is given that the set of row vectors of $A$ is linearly dependent.<br><br>Let $V$ be the set of all vectors $(x, y, z) \\in \\mathbb{R}^3$ that satisfy this condition.<br><br>What is the maximum number of linearly independent vectors that can be chosen from the set $V$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$<br>&nbsp;</li><li>$1$<br>&nbsp;</li><li>$2$<br>&nbsp;</li><li>$3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 214"
+        },
+        {
+          "post_id": "524479",
+          "text": "<p>Which of the following is <strong>TRUE</strong> ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If a system $A x=b$ has more than one solution, then so does the system $A x=0$.<br>&nbsp;</li><li>If $B C=B D$, then $C=D$.<br>&nbsp;</li><li>If $A$ and $B$ are $n \\times n$ matrices, then $(A+B)(A-B)=A^{2}-B^{2}$.<br>&nbsp;</li><li>If $A$ is invertible and $r \\neq 0$, then $(r A)^{-1}=r A^{-1}$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 214"
+        },
+        {
+          "post_id": "524476",
+          "text": "<p>Consider the system of equations</p><p>$$<br>\\left\\{\\begin{array}{l}<br>x+k y=1 \\\\<br>k x+y=1<br>\\end{array}\\right.<br>$$</p><p>For what value(s) of $k$ does this system become inconsistent, i.e., the two equations represent lines that do not intersect, so the system has no solution?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$k&nbsp;\\neq-1$<br>&nbsp;</li><li>$k=-1$<br>&nbsp;</li><li>$k=1$<br>&nbsp;</li><li>$k \\neq 1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 214"
+        },
+        {
+          "post_id": "524482",
+          "text": "<p>Let \\(N\\) be the matrix<br>\\[<br>N=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}.<br>\\]<br>Which of the following matrix equations does \\(N\\) satisfy?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>\\(N^{2}-5N-2I=0\\)<br>&nbsp;</li><li>\\(N^{2}+5N-2I=0\\)<br>&nbsp;</li><li>\\(N^{2}-5N+2I=0\\)<br>&nbsp;</li><li>\\(N^{2}+5N+2I=0\\)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 214"
+        }
+      ]
+    }
+  ]
+}

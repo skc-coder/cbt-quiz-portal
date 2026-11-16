@@ -1,0 +1,70 @@
+{
+  "name": "Day 35 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "475137",
+          "text": "<p>If the Most Significant Byte (MSB) is stored first while ordering byte values for storing data in memory, it is called as</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Big-endian<br>&nbsp;</li><li>Little-endian<br>&nbsp;</li><li>Big- and Little-endian<br>&nbsp;</li><li>None of them</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 35"
+        },
+        {
+          "post_id": "475143",
+          "text": "<p>Consider the following statements about pipeline hazards in a typical 5 -stage instruction pipeline (IF, ID, EX, MEM, WB):</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Data hazards can sometimes be resolved using forwarding (bypassing)</li><li>Structural hazards occur when two instructions require the same hardware resource at the same time</li><li>Control hazards are completely eliminated by instruction pipelining</li><li>Read After Write (RAW), Write After Read (WAR), and Write After Write (WAW) are all types of data hazards</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A,B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 35"
+        },
+        {
+          "post_id": "475139",
+          "text": "Registers $R$$4$ and $R5$ contain the decimal numbers $2000$ and $3000$, respectively. If the addressing mode used is $\\mathbf{2 8 ( R 4 , ~ R 5 )}$, what is the Effective Address (EA)?",
+          "type": "Numerical",
+          "answer": "5028",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 35"
+        },
+        {
+          "post_id": "475141",
+          "text": "Registers $R4$ contains the decimal number $2000$. If the addressing mode used is $12$($R4$) (Base plus Displacement addressing mode), what is the Effective Address ($EA$)?",
+          "type": "Numerical",
+          "answer": "2012",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 35"
+        },
+        {
+          "post_id": "475135",
+          "text": "<p>Fixed instruction length is a feature of one of the following architecture.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>CISC</li><li>RISC</li><li>X $86$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 35"
+        }
+      ]
+    }
+  ]
+}

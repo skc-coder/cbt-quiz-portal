@@ -1,0 +1,242 @@
+{
+  "name": "GO Classes Test Series 2023 | Probability | Test",
+  "duration": "60",
+  "total_qs": "20",
+  "total_qs_one": 5,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 35,
+  "total_marks": 35,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 35,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "381053",
+          "text": "<p>Suppose that we toss a coin having a probability $p$ of coming up heads, until the first head appears. Letting $N$ denote the number of flips required, then assuming that the outcome of successive flips are independent, $N$ is a random variable taking on one of the values $1,2,3, \\ldots,$<br>\nWhich of the following is correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$P\\{N=n\\}=(1-p)^{n-1} p ; n \\geq 1$</li>\n\t<li>$P\\{N=n\\}=(1-p)^{n} p ; n \\geq 1$</li>\n\t<li>$P\\{N=n\\}=p^{n-1}(1-p) ; n \\geq 1$</li>\n\t<li>$P\\{N=n\\}=p^{n}(1-p) ; n \\geq 1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,random-variable,binomial-distribution,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381031",
+          "text": "<p>Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Disjoint events are independent.</li>\n\t<li>If events $A$ and $B$ are independent, then conditioned on any other event $C, A$ and $B$ are still independent.</li>\n\t<li>$P\\left(A^{c} \\cup B\\right) \\leq 1-P(A)+P(B)$ for any $A$ and any $B$.</li>\n\t<li>If $A$ and $B$ are independent, and $B$ and $C$ are independent, then $A$ and $C$ are also independent.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,independent-events,multiple-selects,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381047",
+          "text": "<p>Consider a coin with probability $p$ to be heads. Determine the probability that the first heads will appear on the even-numbered tosses.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\frac{2-p}{1-p}$</li>\n\t<li>$\\frac{1-p}{2-p}$</li>\n\t<li>$\\frac{p}{2-p}$</li>\n\t<li>$\\frac{1}{2-p}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,conditional-probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381040",
+          "text": "<p>Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>If $P(A \\mid B)=0.5$ and $P(B)=0.5$, then the events $A$ and $B$ are necessarily independent.</li>\n\t<li>If two events $A$ and $B$ are independent then both $P(A \\mid B)=P(A)$ and $P(B \\mid A)=P(A)$.</li>\n\t<li>If $P(A \\cap B) \\geq 0.10$ then $P(A) \\geq 0.10$.</li>\n\t<li>If $P(A)&gt;P(B)$, and $P(C \\mid A)&gt;P(C \\mid B)$, then $P(A \\mid C)&gt;P(B \\mid C)$.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,independent-events,conditional-probability,multiple-selects,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381027",
+          "text": "<p>The probability of the closing of the $i^{\\text{th}}$ relay in the circuit below is $p_{i}, i=1,2,3$. Assume that all relays function independently. Given that a current flows from $A$ to $B,$ what is the probability that the relay $2$ is closed?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"134\" src=\"data:image/png;base64,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\" width=\"389\"></p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\frac{p_{2}}{p_{2}+p_{1}-p_{2} p_{1}}$</li>\n\t<li>$\\frac{p_{2}}{p_{2}+p_{3}-p_{2} p_{3}}$</li>\n\t<li>$\\frac{p_{2}}{p_{1}+p_{3}-p_{1} p_{3}}$</li>\n\t<li>$\\frac{p_{3}}{p_{2}+p_{3}-p_{2} p_{3}}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-probability,goclasses,probability,conditional-probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381043",
+          "text": "<p>Roll a die.</p>\n\n<ul>\n\t<li>Let $\\text{A}$ be the event that the outcome on the die is an even number.</li>\n\t<li>Let $\\text{B}$ be the event that the outcome on the die is $4$ or smaller.</li>\n\t<li>Let $\\text{C}$ be the event that the outcome on the die is $3$ or larger.</li>\n</ul>\n\n<p>Choose the correct option(s)?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{A}$ and $\\mathrm{B}$ are dependent events</li>\n\t<li>$\\text{A}$ and $\\text{B}$ are independent events</li>\n\t<li>$\\text{B}$ and $\\mathrm{C}$ are dependent events</li>\n\t<li>$\\text{B}$ and $\\text{C}$ are independent events</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,independent-events,multiple-selects,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381038",
+          "text": "<p>Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>The formula for the variance $\\operatorname{Var}(X+Y)=\\operatorname{Var}(X)+\\operatorname{Var}(Y)$ works regardless of whether the RV's $X$ and $Y$ are independent or not.</li>\n\t<li>$E(X-Y)=E(X)-E(Y)$ for any R.V.s $X$ and $Y$, regardless of whether they are independent or not.</li>\n\t<li>$\\operatorname{Var}(X-Y)=\\operatorname{Var}(X)-\\operatorname{Var}(Y)$ for any independent R.V.s $X$ and $Y$.</li>\n\t<li>For any R.V $X$, we have $\\operatorname{Var}(a X)=a^{2} \\operatorname{Var}(X)$.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,random-variable,expectation,multiple-selects,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381033",
+          "text": "<p>For each of the following relations, determine which is TRUE for arbitrary events $A, B$, and $C$. (Note: to be true \"for arbitrary events\", it must be true for any such event. Use a Venn diagram if it is helpful.)&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$(A \\cup B \\cup C)^{c}=A^{c} \\cup B^{c} \\cup C^{c}$</li>\n\t<li>$(A \\cup B) \\cap\\left(A^{c} \\cup B^{c}\\right)=\\left(A \\cap B^{c}\\right)\\cup\\left(A^{c} \\cap B\\right) \\cup\\left(A^{c} \\cap B \\cap C^{c}\\right)$</li>\n\t<li>$(A \\cap B) \\cup\\left(A \\cap B^{c}\\right) \\cup\\left(A^{c} \\cap B\\right)=\\left(A^{c} \\cap B^{c}\\right)^{c}$</li>\n\t<li>$(A-B)-C=A-(B-C)$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,multiple-selects,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381057",
+          "text": "<p>Among $35$ students in a class, $17$ earned \"$\\text{A}$\" on the midterm, $14$ earned \"$\\text{A}$\" on final exam, and $11$ did not earn \"$\\text{A}$\" on either exam. What is the probability that a randomly selected student from this class earned \"$\\text{A}$\" on both exams?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$7 / 35$</li>\n\t<li>$24 / 35$</li>\n\t<li>$17 / 35$</li>\n\t<li>$14 / 35$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381032",
+          "text": "<p>Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>If two events $A$ and $B$ are disjoint, they must also be independent.</li>\n\t<li>If two events $A$ and $B$ are collectively exhaustive then $P(A)+P(B)=1$.</li>\n\t<li>If two events $A$ and $B$ are collectively exhaustive then $P(A \\cup B)=1$.</li>\n\t<li>If two evens $A$ and $B$ are independent, then $A^{c}$ and $B^{c}$ are also independent.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,independent-events,multiple-selects,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381029",
+          "text": "<p>A coin is tossed until a head appears two times in a row. Given that we are using a fair coin, what is the probability that we toss the coin exactly $4$ times such that the two consecutive heads are the 3rd and $4^{\\text{th}}$ trials?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\frac{1}{4}$</li>\n\t<li>$\\frac{1}{8}$</li>\n\t<li>$\\frac{1}{2}$</li>\n\t<li>$\\frac{1}{6}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,conditional-probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381025",
+          "text": "<p>Suppose $X$ is a random variable taking values in $\\{-2,-1,0,1,2,3,4,5\\}$, each with probability $\\frac{1}{8}$. Let $Y=X^{2}$. Find $E[Y]$.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$12 / 8$</li>\n\t<li>$60 / 8$</li>\n\t<li>$0$</li>\n\t<li>$1 / 8$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,random-variable,expectation,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381051",
+          "text": "<p>Suppose, two events $\\text{A}$ and $\\text{B}$ are independent then which of the following is/are correct?<br>\n$P(.)$ stands for probability</p>\n\n<ol start=\"1\" style=\"list-style-type:decimal\">\n\t<li>$P(A \\cap B)=P(A) P(B)$</li>\n\t<li>$P(A \\cup B)=P(A)+P(B)-P(A) P(B)$</li>\n\t<li>$P(A \\mid B)=0$</li>\n\t<li>$P(A \\mid \\neg B)=P(A)$</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$1,2$</li>\n\t<li>$1,2,3$</li>\n\t<li>$1,2,4$</li>\n\t<li>$1,2,3,4$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,independent-events,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381041",
+          "text": "<p>It is estimated that $50 \\%$ of emails are spam emails. Some software has been applied to filter these spam emails before they reach your inbox. A certain brand of software claims that it can detect $99 \\%$ of spam emails, and the probability for a false positive (a non-spam email detected as spam) is $5 \\%$.</p>\n\n<p>Now if an email is detected as spam, then what is the probability that it is in fact a non-spam email?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>$1 / 104$</li>\n\t<li>$95 / 104$</li>\n\t<li>$5 / 104$</li>\n\t<li>$99 / 104$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,conditional-probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381045",
+          "text": "<p>Suppose, two events $\\text{A}$ and $\\text{B}$ are mutually exclusive then which of the following is/are correct?<br>\n$P(.)$ stands for probability.</p>\n\n<ol start=\"1\" style=\"list-style-type:decimal\">\n\t<li>$P(A \\cap B)=0$</li>\n\t<li>$P(A \\cup B)=P(A)+P(B)$</li>\n\t<li>$P(A \\mid B)=0$</li>\n\t<li>$P(A \\mid \\neg B)=\\frac{P(A)}{1-P(B)}$</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$1, 2$</li>\n\t<li>$1,2,3$</li>\n\t<li>$1,3,4$</li>\n\t<li>$1,2,3,4$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,independent-events,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381036",
+          "text": "<p>Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>It is always true that the standard deviation is less than the variance</li>\n\t<li>For any two independent random variables $X, Y$ on the same probability space, if $\\mathrm{E}(X)&gt;\\mathrm{E}(Y)$ then $\\operatorname{Pr}[X&gt;Y]&gt;0$</li>\n\t<li>Let $A$ and $B$ be events in the same sample space. If $p(A \\mid B)=1 / 2$, then $p\\left(A \\mid B^{c}\\right)=1 / 2$.</li>\n\t<li>For every random variable $X, E\\left(X^{2}\\right) \\geq E(X)^{2}$.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,random-variable,expectation,multiple-selects,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381055",
+          "text": "Let $X$ be a random variable with probability density:\n$$f(x)= \\begin{cases} c\\left(1-x^{2}\\right), & -1\\lt x\\lt 1 \\\\ 0, & \\text { otherwise }\\end{cases}$$\nThe value of $c$ is _______",
+          "type": "Numerical",
+          "answer": "0.75",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,numerical-answers,goclasses,probability,random-variable,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381039",
+          "text": "$A$ and $B$ are two events. If $P(A, B)$ decreases while $P(A)$ increases, what must be true:<br /><ol style=\"list-style-type:upper-alpha\"><li> $P(A \\mid B)$ decreases</li><li> $P(B \\mid A)$ decreases</li> <li>$P(B)$ decreases</li>  <li>All of above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-probability,goclasses,probability,conditional-probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381049",
+          "text": "An unbiased coin is tossed twice. You can assume that the second toss is independent of the first toss.<br />What is the probability that the second toss is a tail given that the first toss is a head?<br /><ol style=\"list-style-type:upper-alpha\"><li> $1 / 2$</li><li> $1 / 3$</li> <li>$1 / 4$</li>  <li>$2 / 3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024-probability,goclasses,probability,independent-events,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "381034",
+          "text": "<p>Suppose that $X$ is a random variable where: $P(X=1)=1 / 2 \\quad P(X=2)=1 / 4 \\quad P(X=4)=1 / 4.$<br>\nWhat is the value of $P\\left(X^{2}-3 X+2=0\\right)?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$3 / 4$</li>\n\t<li>$1 / 4$</li>\n\t<li>$1 / 2$</li>\n\t<li>$1 / 3$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_probability_tw_3,goclasses-testseries-2026,goclasses,probability,random-variable,two-marks",
+          "category": "Probability"
+        }
+      ]
+    }
+  ]
+}

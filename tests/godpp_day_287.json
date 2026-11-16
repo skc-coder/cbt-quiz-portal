@@ -1,0 +1,50 @@
+{
+  "name": "Day 237 [Algorithms]",
+  "duration": 9,
+  "total_qs": 3,
+  "total_qs_one": 3,
+  "total_qs_two": 0,
+  "total_marks": 3,
+  "apti_num_qs": 0,
+  "technical_num_qs": 3,
+  "technical_marks": 3,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 3,
+      "marks": 3,
+      "question": [
+        {
+          "post_id": "542012",
+          "text": "<p>Suppose $f(n) \\in \\Omega(n^2)$.</p><p>Classify the following statements:</p><ul><li>$\\text{S1}$. $f(n) \\in \\Omega(n^3)$<br>&nbsp;</li><li>$\\text{S2}$. $f(n) \\in \\Omega(n)$<br>&nbsp;</li><li>$\\text{S3}$. $f(n) \\in O(n)$<br>&nbsp;</li><li>$\\text{S4}$. $f(n)$ has a Big-Theta bound.<br>&nbsp;</li></ul><p>Which option is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\text{S1}$: Always, $\\text{S2}$: Always, $\\text{S3}$: Never, $\\text{S4}$: Always<br>&nbsp;</li><li>$\\text{S1}$: Sometimes, $\\text{S2}$: Always, $\\text{S3}$: Never, $\\text{S4}$: Sometimes<br>&nbsp;</li><li>$\\text{S1}$: Never, $\\text{S2}$: Always, $\\text{S3}$: Sometimes, $\\text{S4}$: Sometimes<br>&nbsp;</li><li>$\\text{S1}$: Sometimes, $\\text{S2}$: Sometimes, $\\text{S3}$: Never, $\\text{S4}$: Never</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 237"
+        },
+        {
+          "post_id": "542009",
+          "text": "<p data-start=\"1244\" data-end=\"1317\">Arrange the following functions in increasing order of asymptotic growth:</p><p data-start=\"1319\" data-end=\"1341\">$f_1(n) = n^{\\sqrt n}$</p><p data-start=\"1343\" data-end=\"1357\">$f_2(n) = 2^n$</p><p data-start=\"1359\" data-end=\"1389\">$f_3(n) = n^{10}\\cdot 2^{n/2}$</p><p data-start=\"1391\" data-end=\"1421\">$f_4(n) = \\sum_{i=1}^{n}(i+1)$<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1423\" data-end=\"1572\">$f_4(n) &lt; f_1(n) &lt; f_3(n) &lt; f_2(n)$<br>&nbsp;</li><li data-start=\"1423\" data-end=\"1572\">$f_4(n) &lt; f_3(n) &lt; f_1(n) &lt; f_2(n)$<br>&nbsp;</li><li data-start=\"1423\" data-end=\"1572\">$f_1(n) &lt; f_4(n) &lt; f_3(n) &lt; f_2(n)$<br>&nbsp;</li><li data-start=\"1423\" data-end=\"1572\">$f_4(n) &lt; f_1(n) &lt; f_2(n) &lt; f_3(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 237"
+        },
+        {
+          "post_id": "542007",
+          "text": "<p data-start=\"497\" data-end=\"570\">Arrange the following functions in increasing order of asymptotic growth:</p><p data-start=\"572\" data-end=\"598\">$f_1(n) = 2^{2^{1000000}}$</p><p data-start=\"600\" data-end=\"622\">$f_2(n) = 2^{100000n}$</p><p data-start=\"624\" data-end=\"647\">$f_3(n) = {}^{n}C_{2}$</p><p data-start=\"649\" data-end=\"668\">$f_4(n) = n\\sqrt n$<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"670\" data-end=\"819\">$f_1(n) &lt; f_4(n) &lt; f_3(n) &lt; f_2(n)$<br>&nbsp;</li><li data-start=\"670\" data-end=\"819\">$f_1(n) &lt; f_3(n) &lt; f_4(n) &lt; f_2(n)$<br>&nbsp;</li><li data-start=\"670\" data-end=\"819\">$f_4(n) &lt; f_1(n) &lt; f_3(n) &lt; f_2(n)$<br>&nbsp;</li><li data-start=\"670\" data-end=\"819\">$f_1(n) &lt; f_4(n) &lt; f_2(n) &lt; f_3(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 237"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "go27_test_75",
+  "name": "GO Classes CS Test Series | Theory of Computation | Topic Wise Test 6",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "531868",
+          "text": "<p>Let $A, B, C$, and $D$ be sets, where $|X|$ denotes the cardinality of set $X$ and $P(X)$ denotes its power set. Which of the following statements is/are $\\textbf{TRUE}$? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>If $|A|&lt;|B|$ and $B \\subseteq C$, then $|A|&lt;|C|$.<br> </li><li>If $|A|=|B|$, then $|P(A)|=|P(B)|$.<br> </li><li>If $S$ is an infinite set and $A=\\left\\{a_{1}, \\ldots, a_{n}\\right\\}$ is a finite set, then there exists a bijection from $S \\cup A$ to $S$.<br> </li><li>If $|A|=|B|$ and $|C|=|D|$, then the Cartesian products satisfy $|A \\times C|= |B \\times D|$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses,goclasses-testseries,theory-of-computation,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531878",
+          "text": "<p>Consider the following two statements:<br><br>$\\mathbf{S_1}$: If $A$ is a proper subset of $B$, then $|A|&lt;|B|$.<br><br>$\\mathbf{S_2}$: If $C=A \\cup B$, and $A$ is infinitely countable but $C$ is uncountable, then $B$ is uncountable.<br><br>Which of the following options is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>Both $\\mathbf{S_1}$ and $\\mathbf{S_2}$ are true.<br> </li><li>Both $\\mathbf{S_1}$ and $\\mathbf{S_2}$ are false.<br> </li><li>$\\mathbf{S_1}$ is true, but $\\mathbf{S_2}$is false.<br> </li><li>$\\mathbf{S_1}$ is false, but $\\mathbf{S_2}$ is true.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_toc_tw_6,goclasses,goclasses-testseries,theory-of-computation,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531870",
+          "text": "<p>Which of the following is/are countable?</p><ol style=\"list-style-type:upper-alpha\"><li>The set of all polynomials with rational coefficients.<br> </li><li>$\\{\\emptyset, \\mathbb{N}, \\mathbb{Q}, \\mathbb{R}\\}$<br> </li><li>$\\mathbb{N} \\times \\mathbb{Z} \\times \\mathbb{Q}$<br> </li><li>The set of all $5 \\times 5$ matrices over the rationals</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses,goclasses-testseries,theory-of-computation,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "379534",
+          "text": "<p>Let set $\\mathrm{S}$ have an infinite number of elements, and set $A$ have a finite number of elements then which of the following statements is/are False?</p><ol style=\"list-style-type:upper-alpha\"><li>If $f$ is a one-one mapping from set $\\text{S}$ to set $\\text{S}$, then $f$ is onto.<br> </li><li>If $f$ is an onto mapping from set $\\text{S}$ to set $\\text{S}$, then $f$ is one-one.<br> </li><li>If $f$ is a one-one mapping from set $\\text{A}$ to set $\\text{A}$, then $f$ is onto.<br> </li><li>If $f$ is an onto mapping from set $\\mathrm{A}$ to set $\\mathrm{A}$, then $f$ is one-one.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses-testseries,goclasses,theory-of-computation,countable-uncountable-set,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531867",
+          "text": "<p>Which of the following statements is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>Let $S$ be an uncountable set and $T$ be any set. Then $S \\times T$ must be uncountable.<br> </li><li>Let $S$ be any set. The power set $\\mathcal{P}(S)$ is infinite if and only if $\\mathcal{P}(S)$ is uncountable.<br> </li><li>For every infinite context-free language $L$, there are an uncountable number of subsets of $L$ which are not recursively enumerable.<br> </li><li>Let $L$ be a language for which every subset is decidable. Then $L$ must be a regular language.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses,goclasses-testseries,theory-of-computation,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531873",
+          "text": "<p>Consider the following two sets:<br><br>$\\mathbf{S_1}$ : The set of all functions from $\\{0,1\\}$ to $\\mathbb{N}$.<br><br>$\\mathbf{S_2}$ : The set of all functions from $\\mathbb{N}$ to $\\{0,1\\}$.<br><br>Which of these sets is uncountable?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\mathbf{S_1}$<br> </li><li>Only $\\mathbf{S_2}$<br> </li><li>Both $\\mathbf{S_1}$ and $\\mathbf{S_2}$<br> </li><li>Neither $\\mathbf{S_1}$ nor $\\mathbf{S_2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_toc_tw_6,goclasses,goclasses-testseries,theory-of-computation,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531865",
+          "text": "<p>Let $S$ be the set of all real numbers in the interval $(0,1)$ whose decimal expansions consist only of the digits 0 and 1. To prove $S$ is uncountable, we assume for contradiction that $S$ is countable and its elements can be listed as a sequence $r_{1}, r_{2}, r_{3}, \\ldots$, where each $r_{i}$ is represented as:<br>$$<br>r_{i}=0 . b_{i 1} b_{i 2} b_{i 3} \\ldots \\quad\\left(b_{i j} \\in\\{0,1\\}\\right)<br>$$<br>We construct a number $d=0 . b_{1} b_{2} b_{3} \\ldots$ by setting the $i$-th digit $b_{i}=1-b_{i i}$ for every $i \\in \\mathbb{Z}^{+}$.<br><br>Based on the construction above, which of the following statements is/are TRUE? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>The number $d$ is a member of the set $S$ because its decimal expansion consists only of the digits 0 and 1.<br> </li><li>For any index $k$, the number $d$ is guaranteed to differ from the $k$-th number in the sequence $\\left(r_{k}\\right)$ in at least the $k$-th decimal place.<br> </li><li>The construction of $d$ proves that the mapping $f: \\mathbb{Z}^{+} \\rightarrow S$ is a bijection, confirming that $S$ and the set of natural numbers have the same cardinality.<br> </li><li>The existence of $d$ leads to a contradiction because $d$ is a valid element of $S$ that is not included in the supposedly exhaustive list $r_{1}, r_{2}, r_{3}, \\ldots$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses,goclasses-testseries,theory-of-computation,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "379540",
+          "text": "<p>Which of the following statements are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If every subset of a language $\\text{L}$ is $\\text{CFL}$, then $\\text{L}$ must be $\\text{CFL}.$<br> </li><li>If every subset of a language $\\text{L}$ is $\\text{CFL}$, then $\\text{L}$ must be regular.<br> </li><li>If every subset of a language $\\text{L}$ is decidable, then $\\text{L}$ must be decidable.<br> </li><li>If every subset of a language $\\text{L}$ is decidable, then $\\text{L}$ must be finite.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses-testseries,goclasses,theory-of-computation,regular-language,context-free-language,decidability,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "379522",
+          "text": "<p>Which of the following statements are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If $\\text{A}$ is a subset of $\\text{B}$ and $\\text{A}$ is uncountable, then so is $\\text{B}$.<br> </li><li>If $\\text{A}$ is uncountable and $\\text{B}$ is any set, then the union $\\text{A} \\cup \\text{B}$ is also uncountable.<br> </li><li>If $\\text{A}$ is uncountable and $\\text{B}$ is any set, then the Cartesian product $\\text{A} \\times \\text{B}$ is also uncountable.<br> </li><li>If $\\text{A}$ is infinite (even countably infinite) then the power set of $\\text{A}$ is uncountable.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses-testseries,goclasses,theory-of-computation,countable-uncountable-set,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531872",
+          "text": "<p>Let $A$ be a nonempty set. Which of the following statements are equivalent to the assertion that $A$ is a $\\textbf{countable}$ set? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>There exists a bijection $h: A \\rightarrow S$, where $S$ is either a finite set of the form $\\{1,2, \\ldots, n\\}$ for some $n \\in \\mathbb{N}$ or the set of all natural numbers $\\mathbb{N}$.<br> </li><li>There exists a surjective function $f: \\mathbb{N} \\rightarrow A$.<br> </li><li>There exists an injective function $g: A \\rightarrow \\mathbb{N}$.<br> </li><li>There exists a bijection between the set $A$ and the set of natural numbers $\\mathbb{N}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses,goclasses-testseries,theory-of-computation,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531875",
+          "text": "<p>Which of the following options is/are false?</p><ol style=\"list-style-type:upper-alpha\"><li>Every subset of a countable set is countable.<br> </li><li>Every superset of a countable set is countable.<br> </li><li>Every subset of an uncountable set is uncountable.<br> </li><li>Every superset of an uncountable set is uncountable.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses,goclasses-testseries,theory-of-computation,multiple-selects,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531880",
+          "text": "<p>Let $S$ be the set of all functions $f: \\mathbb{N} \\rightarrow\\{0,1,2\\}$ such that $f(n)=0$ for all but finitely many $n$.<br>Which of the following statements about $S$ is $\\textbf{true}$?</p><ol style=\"list-style-type:upper-alpha\"><li>$S$ is finite<br> </li><li>$S$ is countably infinite<br> </li><li>$S$ is uncountable<br> </li><li>$S$ has the same cardinality as $\\mathcal{P}(\\mathbb{N})$ (where $\\mathcal{P}(\\mathbb{N})$ denotes the power set of natural numbers</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_toc_tw_6,goclasses,goclasses-testseries,theory-of-computation,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531876",
+          "text": "<p>Consider the following two sets:<br><br>$\\mathbf{S_1}$: The set of all real numbers containing a finite number of $1s$ in their decimal representation. (Note: These real numbers can contain an infinite number of other digits, such as $2s$ or $3s$ ).<br><br>$\\mathbf{S_2}$: The set of all real numbers containing only $1s$ in their decimal representation.<br>Which of the following options is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\mathbf{S_1}$&nbsp;is countable.<br> </li><li>Only $\\mathbf{S_2}$&nbsp;is countable.<br> </li><li>Both $\\mathbf{S_1}$ and $\\mathbf{S_2}$ are countable.<br> </li><li>Neither $\\mathbf{S_1}$ nor $\\mathbf{S_2}$ is countable.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_toc_tw_6,goclasses,goclasses-testseries,theory-of-computation,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "379530",
+          "text": "<p>If $\\mathrm{A}$ is a set, let $|\\mathrm{A}|$ denotes the cardinality of set $\\mathrm{A}$. We say $|\\mathrm{B}| \\leq|\\mathrm{A}|$ if and only if there exists an injection from $\\mathrm{B}$ to $\\mathrm{A}$. We say $|\\mathrm{B}|&lt;|\\mathrm{A}|$ if and only if there exists an injection from $\\mathrm{B}$ to $\\mathrm{A}$ but there is no surjection from $\\mathrm{B}$ to $\\mathrm{A}$.</p><p>Which of the following is/are false?</p><ol style=\"list-style-type:upper-alpha\"><li>Let $\\text{A}$ be an uncountable set. There is no uncountable set $\\text{B}$&nbsp;with $|\\mathrm{B}|&lt;|\\mathrm{A}|$.<br> </li><li>Let $\\text{A}$ be a countable set. There is no infinite set $\\text{B}$ with $|\\text{B}|&lt;|\\text{A}|$.<br> </li><li>Every subset of an uncountable set is either finite or countably infinite.<br> </li><li>Let $\\mathrm{L}$ be some Non-recursive enumerable language, then $\\mathrm{L}$ is countable.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses-testseries,goclasses,theory-of-computation,countable-uncountable-set,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "379542",
+          "text": "<p>Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>Every infinite context free language $\\text{L}$ has a subset $\\mathrm{S}$ which is undecidable.<br> </li><li>Every infinite context free language $\\text{L}$ has a subset $\\mathrm{S}$ which is unrecognizable.<br> </li><li>Every infinite context free language $\\text{L}$ has an infinite subset $\\mathrm{S}$ which is non-regular.<br> </li><li>Every infinite context free language $\\text{L}$ has an infinite subset $\\text{S}$ which is regular.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_toc_tw_6,goclasses-testseries,goclasses,theory-of-computation,regular-language,context-free-language,decidability,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        }
+      ]
+    }
+  ]
+}

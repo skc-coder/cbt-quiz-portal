@@ -1,0 +1,70 @@
+{
+  "name": "Day 182 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "516262",
+          "text": "<p>A system has $3$ resource types $(R1, R2,$ and $R3)$ with $10, 5,$ and $7$ instances respectively. The following table shows the current allocation and maximum requirements for four processes $(P 0$ through $P 3):$</p><p>\\[<br>\\begin{array}{|l|l|l|}<br>\\hline<br>\\textbf{Process} & \\textbf{Allocation (R1, R2, R3)} & \\textbf{Max Demand (R1, R2, R3)} \\\\<br>\\hline<br>P0 & (0,1,0) & (7,5,3) \\\\<br>\\hline<br>P1 & (2,0,0) & (3,2,2) \\\\<br>\\hline<br>P2 & (3,0,2) & (9,0,2) \\\\<br>\\hline<br>P3 & (2,1,1) & (2,2,2) \\\\<br>\\hline<br>\\end{array}<br>\\]<br><br><strong>Which of the following statement(s) is/are TRUE?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The current <strong>Available</strong> resource vector is $(3,3,4)$.<br>&nbsp;</li><li>The <strong>Need</strong> matrix for process $P 0$ is $(7,4,3)$.<br>&nbsp;</li><li>The system is currently in a <strong>Safe State</strong>, and $P 1$ can be the first process in a safe sequence.<br>&nbsp;</li><li>If a request from $P 1$ arrives for $(1,0,2)$, the request can be granted immediately without leaving the safe state.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B:C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 182"
+        },
+        {
+          "post_id": "516258",
+          "text": "<p>A disk drive has $\\mathbf{200}$&nbsp;<strong>cylinders</strong>&nbsp;$($numbered $0$ to $199)$. The disk head is currently positioned at <strong>cylinder</strong>&nbsp;$\\mathbf{50}$, and the previous request serviced was at cylinder 40. The queue of pending requests in FIFO order is$: \\mathbf{80, 140, 25, 170, 35.}$</p><p><strong>Which of the following statement(s) is/are TRUE?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Using the <strong>SSTF</strong> (Shortest Seek Time First) algorithm, the total head movement is $185$ cylinders.<br>&nbsp;</li><li>Using the <strong>SCAN</strong> algorithm (moving toward higher cylinders first), the total head movement is $220$ cylinders.<br>&nbsp;</li><li>Using the <strong>LOOK</strong> algorithm, the disk head will not travel to cylinder $199$ if no request exists there.<br>&nbsp;</li><li>The <strong>C-SCAN</strong> algorithm starts from beginning after reaching end.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 182"
+        },
+        {
+          "post_id": "516255",
+          "text": "<p>A system uses a <strong>Segmentation</strong> scheme with the following segment table:</p><p>\\[<br>\\begin{array}{|l|l|l|}<br>\\hline<br>\\textbf{Segment ID} & \\textbf{Base Address} & \\textbf{Limit (Length)} \\\\<br>\\hline<br>0 & 1200 & 400 \\\\<br>\\hline<br>1 & 3500 & 800 \\\\<br>\\hline<br>2 & 2000 & 300 \\\\<br>\\hline<br>\\end{array}<br>\\]<br><strong>Which of the following statement(s) is/are TRUE?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The logical address $(1,500)$ translates to a physical address of $4000$.<br>&nbsp;</li><li>The logical address $(2,350)$ will result in a <strong>segmentation fault</strong> (trap) because the offset exceeds the limit.<br>&nbsp;</li><li>The physical address $1500$ corresponds to segment $0$ at an offset of $300$.<br>&nbsp;</li><li>Unlike paging, segmentation can lead to <strong>external fragmentation</strong> in physical memory.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 182"
+        },
+        {
+          "post_id": "516249",
+          "text": "<p>Consider three processes $P_1, P_2,$ and $P_3$ arriving at time $t=0$ with CPU burst times of $10,6,$ and $4$ milliseconds, respectively. The system uses a <strong>Non-Preemptive Priority Scheduling</strong> algorithm.</p><p>The priority of a process is calculated dynamically every time the CPU becomes free, using the formula:</p><p>$$<br>\\text { Priority }=\\frac{\\text { Waiting Time }+ \\text { Burst Time }}{\\text { Burst Time }}<br>$$</p><p><em>(A higher value indicates a higher priority. If priorities are equal, the process with the lower ID takes precedence)</em>.</p><p><strong>Calculate the average turnaround time (in milliseconds) for these processes.</strong></p>",
+          "type": "Numerical",
+          "answer": "14.67",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 182"
+        },
+        {
+          "post_id": "516252",
+          "text": "<p>A system uses a $\\mathbf{2}$<strong>-level hierarchical paging</strong> scheme. The logical address is $\\mathbf{3 5}$ <strong>bits</strong>, the page size is $\\mathbf{1 6}$ <strong>KB</strong>, and each page table entry (PTE) is $\\mathbf{8}$<strong> bytes</strong>. The top-level page table (Outer Page Table) is required to fit exactly within one page frame.</p><p><strong>Which of the following statement(s) is/are TRUE?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The number of entries in the Outer Page Table is $2^{10}$.<br>&nbsp;</li><li>The number of bits used for the \"Offset\" in the logical address is $14$.<br>&nbsp;</li><li>The number of bits used for the inner-level page table index is $11$.<br>&nbsp;</li><li>The maximum physical memory that can be addressed, assuming the physical address is also $35&nbsp;~\\mathrm{bits}$, is $32&nbsp;~\\mathrm{GB}$ .</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 182"
+        }
+      ]
+    }
+  ]
+}

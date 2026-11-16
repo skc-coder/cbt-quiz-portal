@@ -1,0 +1,70 @@
+{
+  "name": "Day 262 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530743",
+          "text": "<p data-start=\"0\" data-end=\"152\">A binary string has length $12$. How many such strings start and end with $1$, contain at least eight $1$s, and have no two $0$s adjacent?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"154\" data-end=\"162\">$138$<br>&nbsp;</li><li data-start=\"164\" data-end=\"172\">$314$<br>&nbsp;</li><li data-start=\"174\" data-end=\"182\">$126$<br>&nbsp;</li><li data-start=\"184\" data-end=\"192\">$150$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 262"
+        },
+        {
+          "post_id": "530745",
+          "text": "<p data-start=\"0\" data-end=\"225\">A delivery drone must make a route of $14$ moves: exactly $6$ moves north and exactly $8$ moves east. For safety, the drone is not allowed to make $3$ east moves in a row. How many different routes are possible?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"227\" data-end=\"235\">$357$<br>&nbsp;</li><li data-start=\"237\" data-end=\"245\">$420$<br>&nbsp;</li><li data-start=\"247\" data-end=\"256\">$3003$<br>&nbsp;</li><li data-start=\"258\" data-end=\"266\">$588$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 262"
+        },
+        {
+          "post_id": "530739",
+          "text": "<p data-start=\"0\" data-end=\"504\">In <em data-start=\"19\" data-end=\"29\">Haikyu!!</em>&nbsp;for the Karasuno&nbsp;High School volleyball club, the coach must choose a $6$-player lineup from $14$ players. There are $3$ setters, $5$ wing spikers, $4$ middle blockers, and $2$ liberos. The lineup must have exactly $1$ setter, at least $2$ wing spikers, at least $1$ middle blocker, and at most $1$ libero. One setter, Kageyama, has a special quick attack with one middle blocker, Hinata, so if Kageyama is chosen, Hinata must also be chosen. How many valid lineups can the coach choose?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"506\" data-end=\"514\">$785$<br>&nbsp;</li><li data-start=\"516\" data-end=\"524\">$960$<br>&nbsp;</li><li data-start=\"526\" data-end=\"534\">$175$<br>&nbsp;</li><li data-start=\"536\" data-end=\"544\">$640$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 262"
+        },
+        {
+          "post_id": "530741",
+          "text": "<p data-start=\"97\" data-end=\"376\">A club has $6$ seniors, $5$ juniors, and $4$ sophomores. A $7$-student committee must have at least $2$ seniors, at least $2$ juniors, and at least $1$ sophomore. Two particular seniors, Maya and Noor, cannot both be chosen. How many valid committees can be formed?</p>",
+          "type": "Numerical",
+          "answer": "3640",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 262"
+        },
+        {
+          "post_id": "530748",
+          "text": "<p data-start=\"123\" data-end=\"480\">A bracelet has $20$ slots. Each slot can either be left empty or filled with one bead, and each bead can be chosen in $2$ colors. Let $M$ be the number of bracelets with exactly $10$ filled slots. A second bracelet has $19$ slots, with the same rules. Let $N$ be the number of second bracelets with either $9$ or $10$ filled slots. Find $M/N$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"482\" data-end=\"490\">$4/3$<br>&nbsp;</li><li data-start=\"492\" data-end=\"500\">$2/3$<br>&nbsp;</li><li data-start=\"502\" data-end=\"510\">$3/4$<br>&nbsp;</li><li data-start=\"512\" data-end=\"518\">$2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 262"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 228 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "526089",
+          "text": "<p>Over the universe $\\mathbb{N}$, which of the following statements is TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\exists x((x-3=1) \\wedge(x&lt;3))$&nbsp;</li><li>$\\exists x((x-3=1) \\wedge(x&gt;5))$&nbsp;</li><li>$\\exists x((x- 3=1) \\wedge(x \\geq 4))$&nbsp;</li><li>$\\exists x((x-3=1) \\wedge(x=3))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 228"
+        },
+        {
+          "post_id": "526079",
+          "text": "<p>Let $q(x)$ : \" $x+1$ is odd\", where the universe is the set of all integers. What is the truth value of $q(1)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>FALSE, because $1+1=2$ which is even&nbsp;</li><li>TRUE, because 1 is odd&nbsp;</li><li>TRUE, because $1+1=2$ which is odd&nbsp;</li><li>FALSE, because 1 is not greater than 3</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 228"
+        },
+        {
+          "post_id": "526081",
+          "text": "<p>Let $p(x)$ : \" $x \\leq 3$ \" and $q(x)$ : \" $x+1$ is odd\", where the universe is the set of all integers. What is the truth value of $p(7) \\vee q(7)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>TRUE, because $p(7)$ is TRUE&nbsp;</li><li>FALSE, because both $p(7)$ and $q(7)$ are FALSE&nbsp;</li><li>TRUE, because $q(7)$ is TRUE&nbsp;</li><li>TRUE, because 7 is odd</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 228"
+        },
+        {
+          "post_id": "526077",
+          "text": "<p>Let $p(x)$ : \" $x \\leq 3$ \", where the universe is the set of all integers. What is the truth value of $p(1)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>TRUE, because $1 \\leq 3$&nbsp;</li><li>FALSE, because $1&lt;3$ is strict inequality&nbsp;</li><li>FALSE, because 1 is odd&nbsp;</li><li>TRUE, because 1 is a positive integer</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 228"
+        },
+        {
+          "post_id": "526087",
+          "text": "Over the universe $\\mathbb{N}$ (natural numbers), is the following statement TRUE or FALSE? (put $0$ for FALSE & $1$ for TRUE)<br>\n<br>\n$$<br>\n\\exists x((x-3=1) \\wedge(x&gt;3))<br>\n$$",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 228"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 199 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "522227",
+          "text": "<p>A $4$-to-$1$ Multiplexer is used to implement a Boolean function $F(A, B, C)$. The select lines $S_1$ and $S_0$ are connected to variables $A$ and $B$, respectively. The inputs to the MUX are:</p><ul><li>$I_0=C$<br>&nbsp;</li><li>$I_1=\\bar{C}$<br>&nbsp;</li><li>$I_2=0$<br>&nbsp;</li><li>$I_3=1$</li></ul><p>Which of the following statements is/are <strong>CORRECT</strong> regarding the function $F$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The simplified SOP form of the function is $F=\\bar{A} \\bar{B} C+\\bar{A} B \\bar{C}+A B$.<br>&nbsp;</li><li>The function $F$ can be implemented using a single 2-input XNOR gate by setting $C=1$.<br>&nbsp;</li><li>The function $F$ evaluates to 1 when the input $(A, B, C)=(1,1,0)$.<br>&nbsp;</li><li>The function $F$ is independent of the variable $C$ when $A=1$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 199"
+        },
+        {
+          "post_id": "522225",
+          "text": "<p>Consider a $3$-bit synchronous counter designed using <strong>J-K Flip-Flops</strong>. The state of the counter is represented as $Q_2 Q_1 Q_0$. The flip-flop inputs are configured as follows:</p><ul><li>$J_0=1, K_0=1$<br>&nbsp;</li><li>$J_1=Q_0, K_1=Q_0$<br>&nbsp;</li><li>$J_2=Q_1 Q_0, K_2=Q_1 Q_0$</li></ul><p>If the current state of the counter is $\\mathbf{1 0 1}$, what will be the decimal equivalent of the state after $\\mathbf{3}$ <strong>clock pulses</strong>?</p>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 199"
+        },
+        {
+          "post_id": "522229",
+          "text": "<p>Consider a Boolean function $F(A, B, C, D)$ defined by the following minterms and don't care conditions: $F(A, B, C, D)=\\sum m(0,2,5,7,8,10)+\\sum d(13,15)$ Which of the following represents the most minimized Product-of-Sums (POS) expression?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(B+\\bar{D})(\\bar{B}+D)$<br>&nbsp;</li><li>$(B+D)(\\bar{B}+\\bar{D})$<br>&nbsp;</li><li>$(\\bar{A}+B+D)(A+\\bar{B}+\\bar{D})$<br>&nbsp;</li><li>$(\\bar{B}+D)(B+\\bar{D})(A+C)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 199"
+        },
+        {
+          "post_id": "522231",
+          "text": "<p>An 8-bit register stores the number $(D 5)_{16}$. If this number is treated as a $\\mathbf2$<strong>'s</strong> <strong>complement signed integer,</strong> what is its decimal equivalent?</p>",
+          "type": "Numerical",
+          "answer": "-43",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 199"
+        },
+        {
+          "post_id": "522232",
+          "text": "<p>A $4$-bit <strong>Left Shift Register </strong>is initialized with the value $1011$ (where the leftmost bit is the MSB). The serial input to the register is provided by the XOR sum of the two most significant bits ( $Q_3 \\oplus Q_2$ ). After <strong>two clock pulses,</strong> what will be the content of the register?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1111$<br>&nbsp;</li><li>$1110$<br>&nbsp;</li><li>$1011$<br>&nbsp;</li><li>$0111$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 199"
+        }
+      ]
+    }
+  ]
+}

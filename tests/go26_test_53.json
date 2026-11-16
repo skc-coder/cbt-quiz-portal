@@ -1,0 +1,352 @@
+{
+  "name": "GO Classes CS Test Series 2026 | C programming | Subject Wise Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "374730",
+          "text": "<p>What will be printed by the following program?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nint func(int n, int * fg) {\n    int t, f;\n    if (n &lt;= 1) {\n        *fg = 1;\n        return 1;\n    }\n    t = func(n - 1, fg);\n    f = t + *fg;\n    *fg = t;\n    return f;\n}\nint main() {\n    int x = 15;\n    printf(\"%d\\n\", func(5, &amp;x));\n}</pre>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,numerical-answers,goclasses,programming,programming-in-c,functions,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "387837",
+          "text": "<p>Consider the following function.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int f()\n{\n    int k, result;\n    result = 0;\n    for ( k = 0; k &lt; 5; k++ )\n    {\n        if ( ( k % 3 ) == 1 )\n            result = result + k;\n        else\n            result = result + 1;\n    }\n    return result;\n}</pre><p>What value is returned as a result of the call $\\textsf{f()?}$</p><ol style=\"list-style-type:upper-alpha\"><li>$5$</li><li>$6$</li><li>$7$</li><li>$8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,functions,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "373489",
+          "text": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nint bar(int data[], int i, int a, int x) {\n    if (x&lt;0) return 0;\n    x--;\n    int b = a + data[i];\n    if(data[i] &gt;0) return bar(data, i+1, b, x);\n    if(data[i] == 0 || i ==x-1) return a;\n    return -a;\n}\nint main()\n{\n    int data[5] = {1,2,3, -1};\n    int x = (int *)(&amp;data+1)-data;\n    printf(\"%d\", bar(data, 0, 0, x) );\n}</pre><p>What will be the output of a given program?</p><ol style=\"list-style-type:upper-alpha\"><li>$6$</li><li>$-6$</li><li>$0$</li><li>$5$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,array,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "393024",
+          "text": "<p>Consider the following recursive function -</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">mystery(a,b){\n    if (a &lt; 0 or b &lt; 0) return 0;\n    else if (a == 0) return b+1;\n    else if (b == 0) return mystery(a-1,1);\n    else return mystery(a-1, mystery(a,b-1));\n}\n</pre><p><br>What will be the value of $\\textsf{mystery(3,3)}?$</p>",
+          "type": "Numerical",
+          "answer": "61",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,numerical-answers,goclasses,programming,programming-in-c,recursion,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374138",
+          "text": "<p>What is the output of the following code? Assume that int is $32$ bits, short is $16$ bits, and the representation is two’s complement.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">unsigned int x = 0xDEADBEEF;\nunsigned short y = 0xFFFF;\nsigned int z = -1;\nif (x &gt; (signed short) y)\n    printf(\"Hello\");\nif (x &gt; z)\n    printf(\"World\");\n</pre><ol style=\"list-style-type:upper-alpha\"><li>Prints nothing</li><li>Prints ”Hello”</li><li>Prints ”World”</li><li>Prints ”HelloWorld”</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,output,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374464",
+          "text": "<p>Consider two files given below.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"> \n//file1.c\n#include&lt;stdio.h&gt;\nmain ()\n{\n  extern int i;\n  printf(\"file1\");\n}\n</pre><p> </p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"> \n//file2.c\n#include&lt;stdio.h&gt;\nmain ()\n{\n  int i =1;\n  printf(\"file2\");\n}\n</pre><p>We compile both files independently. And link them in case compilation is successful.</p><p>Which of the following is/are TRUE&nbsp;?</p><ol style=\"list-style-type:upper-alpha\"><li>file$1$.c and file$2$.c can be compiled independently and linked together</li><li>file$1$.c has a compilation error since extern is a local variable</li><li>file$1$.c and file$2$.c can be compiled independently but can not be linked together</li><li>file$1$.c can be compiled and linked independently of file$2$.c.</li></ol><p> </p>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,storage-classes-in-c,multiple-selects,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "387843",
+          "text": "<p>Consider the following $\\text{C-program:}$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void Demo(int n)\n{ \n    if (n&lt;=1)\n    { \n        printf(“%d”, n); \n    } \n    else \n    {\n        Demo(n/2); \n        printf(“%d”, n%2); \n    } \n} \n</pre><p>Number of $\\textsf{1’s}$ in the output if the function is invoked as $\\textsf{Demo(220)}$ is _______</p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,numerical-answers,goclasses,programming,programming-in-c,functions,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "387792",
+          "text": "<p>Consider the following C program.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;  \nint g(int i){ \n&nbsp;&nbsp;&nbsp;&nbsp;static int Y = 0; \n&nbsp;&nbsp;&nbsp;&nbsp;Y = Y + i; \n&nbsp;&nbsp;&nbsp;&nbsp;return Y; \n}\nint f(int i){ \n&nbsp;&nbsp;&nbsp;&nbsp;static int X = 0; \n&nbsp;&nbsp;&nbsp;&nbsp;X = X + i;\n&nbsp;&nbsp;&nbsp;&nbsp;X = g(X); \n&nbsp;&nbsp;&nbsp;&nbsp;return X; \n} \nint main(){ \n&nbsp;&nbsp;&nbsp;&nbsp;int i, j; \n&nbsp;&nbsp;&nbsp;&nbsp;for (i = 0; i &lt;= 6; i++) \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;j = f(i); \n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", j); \n&nbsp;&nbsp;&nbsp;&nbsp;return 0; \n}\n</pre><p>The value printed by the above program is ______</p>",
+          "type": "Numerical",
+          "answer": "120",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,numerical-answers,goclasses,programming,programming-in-c,functions,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "373081",
+          "text": "<p>Consider the following recursive function. What is $f(0)?$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int f(int x) {\n    if (x &gt; 1000) return x - 4;\n    else return f(f(x+5));\n}\n</pre>",
+          "type": "Numerical",
+          "answer": "997",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,recursion,numerical-answers,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "390870",
+          "text": "<p>What is the content of array A after executing the following code snippet?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int A[3] = {1, 2, 3};\nint *p;\nint **q;\np = A;\np++;\nq = &amp;p;\np++;\n(*p) = (**q)*2;\n\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$1\\;2\\;3$</li><li>$1\\;2\\;4$</li><li>$1\\;2\\;6$</li><li>$1\\;4\\;3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,pointers,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "388633",
+          "text": "<p>What will be output if the following function is executed with $\\textsf{x}$ equal to $3 ?$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void mystery (x)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;if (x !=0)\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mystery (x-1);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mystery (x-1);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\", x);\n&nbsp;&nbsp;&nbsp;&nbsp;}\n}\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$112211223$</li><li>$3211211$</li><li>$1121123$</li><li>$1121132$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,recursion,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "387790",
+          "text": "<p>Consider the following C-program.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nint Count(int x, int y)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;if(x &lt; y) return 0;\n&nbsp;&nbsp;&nbsp;&nbsp;else if(x==y) return x + Count(x-1,y);\n&nbsp;&nbsp;&nbsp;&nbsp;else return y + Count(x-2,y-1);\n}\nint main()\n{\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\" , Count(9,6));\n&nbsp;&nbsp;&nbsp;&nbsp;return 0;\n}</pre><p>The output of the program is _______</p>",
+          "type": "Numerical",
+          "answer": "18",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,numerical-answers,goclasses,programming,programming-in-c,functions,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374716",
+          "text": "<p>Mark all options which are likely to create problems with memory, i.e., run time error or have a memory leak. Assume malloc is always successful, and sizes are as follows -</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">sizeof(int *) = 8 bytes\nsizeof(double) = 8 bytes\nsizeof(char) = 1 byte\nsizeof(int) = 4 byte\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 1\nint **p;\np = (int **)malloc( 4 * sizeof(int) );\nfor (int i = 0; i &lt; 4; i++) {\n    p[i] = (int *)malloc( sizeof(int) );\n}\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 2\nint *p = malloc(sizeof(double));\n*p = 0;\nfree(p);\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 3\nstruct p { double x; double y; };\nstruct p *array = malloc(n * sizeof(struct p *));\nfor (int i=0; i&lt;n; i+=1) array[i].x=2.3\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 4\nint *p = malloc(sizeof(char));\n*p = 0;\n</pre><ol style=\"list-style-type:upper-alpha\"><li>Program $1$</li><li>Program $2$</li><li>Program $3$</li><li>Program $4$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,pointers,multiple-selects,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "390800",
+          "text": "<p>Consider the mutually recursive $\\mathrm{C}$ functions.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int f(int x){\n&nbsp;&nbsp;&nbsp;&nbsp;if (x==0) return 1 ;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return f(x-1)+g(x-1);\n}\nint g(int x){\n&nbsp;&nbsp;&nbsp;&nbsp;if (x==0) return 2;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return g(x-1)+f(x-1);\n}\n</pre><p>What does $\\textsf{f(g(2))}$ evaluate to?</p>",
+          "type": "Numerical",
+          "answer": "96",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,numerical-answers,goclasses,programming,programming-in-c,recursion,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374724",
+          "text": "<p>What does the following program print?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\n#include&lt;string.h&gt;\nstruct MdbRec {\n    char name[16];\n    char msg[24];\n};\nint main()\n{\n    struct MdbRec m[1];\n    strcpy(m[0].name, \"dude\");\n    strcpy(m[0].msg, \"0\");\n\n    if(m == m-&gt;name)\n        printf(\"%d\", m-&gt;msg - (char *)m );\n}\n</pre><ol style=\"list-style-type:upper-alpha\"><li>Prints nothing</li><li>Prints $17$</li><li>Prints $24$</li><li>Prints $16$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,structure,array,multiple-selects,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "392962",
+          "text": "<p>We declare the following variables of different types:</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int *A1[3][5]\nint (*A2)[3][5]\nint *(A3[3][5])\nint (*A4[3])[5]\n</pre><p>Let the integer size be $4$ bytes and the pointer size is $8$ bytes.</p><p>Which of the following option(s) is/are CORRECT?</p><ol style=\"list-style-type:upper-alpha\"><li><p>$\\textsf{sizeof(*A1) = 40}$</p></li><li><p>$\\textsf{sizeof(*A2) = 60}$</p></li><li><p>$\\textsf{sizeof(*A3) = 40}$</p></li><li><p>$\\textsf{sizeof(*A4) = 8}$</p></li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,array-of-pointers,multiple-selects,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "388697",
+          "text": "<p>Let $S$ be the statement:</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">for i:=1 to N do V[i]:=V[i]+1 </pre><p>Which of the following perform(s) the same changes to $\\textsf{V}$ as $\\textsf{S}?$</p><ol style=\"list-style-type:upper-roman\"><li><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">i:=0;\nwhile i&lt;=N do\nbegin i:=i+1 ; V[i]:=V[i]+1 end</pre></li><li><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">i:=1;\nwhile i&lt;N do\nbegin V[i]:=V[i]+1 ; i:=i+1 end</pre></li><li><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"> i:=0;\nwhile i&lt;N do\nbegin V[i+1]:=V[i+1]+1 ; i:=i+1 end</pre></li></ol><p> </p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>I only</li><li>II only</li><li>III only</li><li>II and III only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,loop,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "373102",
+          "text": "<p>Which of the following expressions will evaluate to true?<br>INT_MIN is the minimum signed integer in the system which is using $2's$ complement representation for signed integers and variables are defined as follows:</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int x = 5, i = -7;</pre><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>((x &gt;&gt; 2) &lt;&lt; 2) &lt;= x</li><li>~ 1&amp;&amp; 1</li><li>INT_MIN == -INT_MIN</li><li>-10 &lt; i &lt;-1</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,number-representation,multiple-selects,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374122",
+          "text": "<p>What will be the output of the following C program?</p><p>Assume that negative numbers are represented using $2’s$ complement.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nvoid main()\n{\n    int a = 2;\n    a = ~a+2 &lt;&lt; 1;\n    printf(\"%d\",a);\n}\n</pre>",
+          "type": "Numerical",
+          "answer": "-2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,numerical-answers,goclasses,programming,programming-in-c,output,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374456",
+          "text": "<p>What will be the output of running file main.c?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">write.c\n***********************\nextern int count;\n\nvoid write_extern()\n{\n    count +=2;\n}</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">main.c\n***********************\n#include \"write.c\"\n#include&lt;stdio.h&gt;\nint count = 5;\n\nmain()\n{\n    write_extern();\n    write_extern();\n    printf(\"%d\", count);\n}\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$0$</li><li>$5$</li><li>$9$</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,storage-classes-in-c,output,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374140",
+          "text": "<p>Consider the $k$ bit binary pattern on $2’s$ complement system.</p><ul><li>$\\text{T}_{\\max}$ and $\\text{T}_{\\min}$ are maximum and minimum signed numbers we can represent using $k$ bits.</li><li>$\\text{U}_{\\max}$ and $\\text{U}_{\\min}$ are maximum and minimum unsigned numbers we can represent using $k$ bits.</li></ul><p>Which of the following(s) is/are true for $k=32$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{T}_{\\min} = 1&lt;&lt;31$</li><li>$\\text{T}_{\\max} = \\;\\sim(1&gt;&gt;31)$</li><li>$\\text{U}_{\\min} = !(1&gt;&gt;31)$</li><li>$\\text{U}_{\\max} = \\;\\sim(1&gt;&gt;31)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,number-representation,multiple-selects,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "388699",
+          "text": "<p>Consider the following lines of $\\mathrm{C}$ code</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int a[10]={9,8,7,6,5,4,3,2,1,0};\nint i=*(a+4);\nint j=&amp;a[3]-&amp;a[1];\nint k=*(a+*(a+6));\nint m=(&amp;a[5]-a);\n</pre><p>Which of the following is/are true on the execution of the above lines?</p><ol style=\"list-style-type:upper-alpha\"><li>Value of $\\textsf{i}$ is $5.$</li><li>Value of $\\textsf{j}$ is $2.$</li><li>Value of $\\textsf{k}$ is $6.$</li><li>Value of $\\textsf{m}$ is $5.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,array-of-pointers,multiple-selects,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374441",
+          "text": "<p>What will be the output of the following program?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt; \nint rec(int x, int y) {\nstatic int count = 0;\nif (x == 0)\n  return count;\ncount++;\nif (x &gt; y)\n  rec(x - y, y);\nelse\n  rec(x, y - x);\nreturn count;\n}\nmain() {\n    int i = 10, j = 2, n;\n    n = rec(i, j);\n    printf(\"%d\", n);\n}\n\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$4$</li><li>$5$</li><li>$6$</li><li>Infinite loop</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,recursion,output,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374725",
+          "text": "<p>Consider the following C code where main shows the intended use of the functions relating to struct foo.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct foo {\n    int x;\n    int y;\n    int * p;\n};\n\nstruct foo* make_foo() {\n    struct foo *foo = malloc(sizeof(struct foo ));\n    foo-&gt;y = 2;\n    foo-&gt;x = foo-&gt;y*2;\n    foo-&gt;p = malloc(sizeof(int));\n    *(foo-&gt;p) = 42;\n    return foo;\n}\n\nvoid update_foo(struct foo *foo) {\n    int num = *(foo-&gt;p);\n    foo-&gt;p = malloc(sizeof(int));\n    *(foo-&gt;p) = num + 1;\n}\n\nvoid free_foo(struct foo *foo) {\n    free(foo);\n    free(foo-&gt;p);\n}\n\nint main() {\n    struct foo *f = make_foo();\n    update_foo(f);\n    free_foo(f);\n}\n</pre><p><br>Which of the following is true about the given program?</p><ol style=\"list-style-type:upper-alpha\"><li>Given program has a memory leak</li><li>Given program has a dangling pointer</li><li>Given program may result in run time error</li><li>Given program will result in a compile-time error</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,structure,pointers,multiple-selects,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374439",
+          "text": "<p>What will be the output of the program below-</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int i = 1;\nvoid my_extern1(void);\nvoid my_extern2(void);\n\nint main() {\n    int count = 0;\n    \n    while (i++&lt;5) {\n        static int i = 3;\n        i++;\n        count +=i;\n        my_extern1();\n    }\n    printf(\"%d\", count);\n}\n\nvoid my_extern1(){\n    extern int i;\n    if(i++ &gt; 0) my_extern2();\n}\n\nvoid my_extern2(){\n    extern int i;\n    if (i++ &lt; 3) my_extern1();\n}</pre><ol style=\"list-style-type:upper-alpha\"><li>Infinite recursion</li><li>$9$</li><li>$4$</li><li>$5$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,recursion,output,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "373083",
+          "text": "<p>What will be the output printed by $\\text{mystery}3(6)$?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void mystery3(int n) {\n    if (n == 0 || n == 1) return;\n    mystery3(n-2);\n    printf(\"%d\", n);\n    mystery3(n-1);\n}</pre><p> </p>",
+          "type": "Numerical",
+          "answer": "243263252432",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,recursion,numerical-answers,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "373511",
+          "text": "<p>What will be the output of the following program?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nmain()\n{\n    int a[2][3][4];\n    printf(\"%d\", a[1][0]-a[0][2]);\n}</pre>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,array,output,numerical-answers,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "373084",
+          "text": "<p>What will be output printed by $\\text{mystery}2(6)$?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void mystery2(int n) {\n    if (n &gt; 0) {\n        printf(\"%d\", n);\n        mystery2(n-2);\n        mystery2(n-3);\n        printf(\"%d\", n);\n    }\n}\n</pre>",
+          "type": "Numerical",
+          "answer": "642211431136",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,recursion,numerical-answers,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "390869",
+          "text": "<p>What will be printed by following the $\\text{C}$ program?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nstruct Point\n{\n    int x ;\n    int y ;\n};\n \nstruct Point foo ( struct Point p1 , struct Point * p2 )\n{\n    p1.x += p2→ x ;\n    p2→ y += p1.y;\n    return p1 ;\n}\n \nint main (){\n    struct Point a = {1 , 3};\n    struct Point b = {5 , 4};\n    struct Point c = foo (a , &amp;b );\n    printf ( \"%d %d\" , c.x , c.y );\n \n}\n</pre><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$1\\; 3$</li><li>$5 \\;7$</li><li>$6 \\;3$</li><li>$6\\; 6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,goclasses,programming,programming-in-c,structure,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "373087",
+          "text": "<p>How many times is foo activated (called), including the first \"$\\text{foo}(3,12)$\"</p><p>$\\text{max()}$ and $\\text{min()}$ are functions that return maximum and minimum respectively.<br> </p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int foo(int a, int b) {\n    if (a==b) {\n        return b;\n    }\n    int mn =min(a,b), mx =max(a,b);\n        return foo(mn,mn) + foo( mx - mn , mn);\n}\n</pre>",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_1,goclasses-testseries-2026,numerical-answers,goclasses,programming,programming-in-c,recursion,two-marks",
+          "category": "Programming in C"
+        }
+      ]
+    }
+  ]
+}

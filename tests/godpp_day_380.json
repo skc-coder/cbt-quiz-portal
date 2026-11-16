@@ -1,0 +1,70 @@
+{
+  "name": "Day 275 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "532435",
+          "text": "<p data-start=\"15\" data-end=\"237\">Let $T(x,y)=\\dfrac{a x^2+b y^2}{x+y}$, where $a$ and $b$ are constants. If the directional derivative of $T$ at $(1,2)$ in the direction of the vector $(1,-1)$ is $0$, then the relation between $a$ and $b$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"239\" data-end=\"257\">$a=\\dfrac{b}{2}$<br>&nbsp;</li><li data-start=\"259\" data-end=\"267\">$a=b$<br>&nbsp;</li><li data-start=\"269\" data-end=\"278\">$a=2b$<br>&nbsp;</li><li data-start=\"280\" data-end=\"289\">$a=4b$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 275"
+        },
+        {
+          "post_id": "532437",
+          "text": "<p data-start=\"15\" data-end=\"158\">Consider the function $F(x,y)=x^3+y^3-3xy$.</p><p data-start=\"15\" data-end=\"158\">Which of the following statements is correct about the critical point(s) of $F(x,y)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"160\" data-end=\"222\">$F$ has only one critical point, and it is a local minimum.<br>&nbsp;</li><li data-start=\"224\" data-end=\"332\">$F$ has critical points at $(0,0)$ and $(1,1)$; $(0,0)$ is a saddle point and $(1,1)$ is a local minimum.<br>&nbsp;</li><li data-start=\"334\" data-end=\"407\">$F$ has critical points at $(0,0)$ and $(1,1)$; both are local minima.<br>&nbsp;</li><li data-start=\"409\" data-end=\"439\">$F$ has no critical points.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 275"
+        },
+        {
+          "post_id": "532439",
+          "text": "<p data-start=\"15\" data-end=\"135\">Let $q(t)=\\ln(t^2+2t+5)$. Which of the following is the definition of $q'(2)$ using the limit as $t\\to 2$?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"137\" data-end=\"191\">$q'(2)=\\lim_{t\\to2}\\dfrac{\\ln(t^2+2t+5)-\\ln13}{t-2}$<br><br>&nbsp;</li><li data-start=\"193\" data-end=\"247\">$q'(2)=\\lim_{t\\to0}\\dfrac{\\ln(t^2+2t+5)-\\ln13}{t-2}$<br><br>&nbsp;</li><li data-start=\"249\" data-end=\"302\">$q'(2)=\\lim_{t\\to2}\\dfrac{\\ln(t^2+2t+5)-\\ln5}{t-2}$<br><br>&nbsp;</li><li data-start=\"304\" data-end=\"358\">$q'(2)=\\lim_{t\\to2}\\dfrac{\\ln(t^2+2t+5)-\\ln13}{t+2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 275"
+        },
+        {
+          "post_id": "532441",
+          "text": "<p data-start=\"15\" data-end=\"225\">Let $g$ be defined on the closed interval $[0,6]$ such that $g(0)=g(3)=g(6)=10$. On the open interval $(0,6)$, $g$ is continuous and strictly increasing. Which of the following statements is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"227\" data-end=\"305\">$g$ attains neither an absolute minimum nor an absolute maximum on $[0,6]$.<br>&nbsp;</li><li data-start=\"307\" data-end=\"381\">$g$ attains an absolute minimum but not an absolute maximum on $[0,6]$.<br>&nbsp;</li><li data-start=\"383\" data-end=\"457\">$g$ attains an absolute maximum but not an absolute minimum on $[0,6]$.<br>&nbsp;</li><li data-start=\"459\" data-end=\"534\">$g$ attains both an absolute minimum and an absolute maximum on $[0,6]$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 275"
+        },
+        {
+          "post_id": "532299",
+          "text": "<p data-start=\"15\" data-end=\"150\">The value of $\\lim_{n\\to\\infty}\\dfrac{1}{n}\\left(\\dfrac{n}{n+1}+\\dfrac{n}{n+2}+\\dfrac{n}{n+3}+\\cdots+\\dfrac{n}{2n}\\right)$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"152\" data-end=\"158\">$0$<br>&nbsp;</li><li data-start=\"160\" data-end=\"170\">$\\ln 2$<br>&nbsp;</li><li data-start=\"172\" data-end=\"178\">$1$<br>&nbsp;</li><li data-start=\"180\" data-end=\"191\">$2\\ln 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 275"
+        }
+      ]
+    }
+  ]
+}

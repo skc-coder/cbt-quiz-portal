@@ -1,0 +1,70 @@
+{
+  "name": "Day 20 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "473324",
+          "text": "<p>Which of the following best expresses the statement \"Nobody loves everybody\" in predicate logic?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\neg \\exists x \\forall y L(x, y)$</li><li>$\\neg \\forall x \\exists y L(x, y)$</li><li>$\\forall x \\exists y \\neg L(x, y)$</li><li>Both A and C</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 20"
+        },
+        {
+          "post_id": "473322",
+          "text": "<p>Which of the following represents the statement \"There is exactly one person whom everybody loves\"?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\exists x \\forall y L(y, x)$</li><li>$\\exists x[\\forall y L(y, x) \\wedge \\forall z(\\forall y L(y, z) \\rightarrow z=x)]$</li><li>$\\forall x \\exists y L(y, x)$</li><li>$\\exists x \\forall y L(x, y)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 20"
+        },
+        {
+          "post_id": "473320",
+          "text": "<p>Which of the following expressions is a tautology?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(P \\rightarrow Q) \\vee(Q \\rightarrow P)$<br>&nbsp;</li><li>$(P \\vee Q) \\rightarrow(P \\rightarrow Q)$<br>&nbsp;</li><li>$((P \\rightarrow Q) \\wedge P) \\rightarrow Q$<br>&nbsp;</li><li>$(P \\leftrightarrow Q) \\vee(P \\leftrightarrow \\neg Q)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A,C,D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 20"
+        },
+        {
+          "post_id": "473318",
+          "text": "<p>Statement: A sufficient condition for the warranty to be good is that you bought the computer less than a year ago.</p><p>Let:<br>P: You bought the computer less than a year ago.<br>Q: The warranty is good.<br>Which of the following propositional formulas expresses the above statement?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P \\rightarrow Q$<br>&nbsp;</li><li>$Q \\rightarrow P$<br>&nbsp;</li><li>$\\neg Q \\rightarrow \\neg P$<br>&nbsp;</li><li>$\\neg P \\rightarrow \\neg Q$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A,C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 20"
+        },
+        {
+          "post_id": "473316",
+          "text": "<p>Statement: It is necessary to wash the boss's car to get promoted.<br>Let:<br>P: You wash the boss's car.<br>Q: You get promoted.<br>Which of the following propositional formulas expresses the above statement?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P \\rightarrow Q$<br>&nbsp;</li><li>$Q \\rightarrow P$<br>&nbsp;</li><li>$\\neg Q \\rightarrow \\neg P$<br>&nbsp;</li><li>$\\neg P \\rightarrow \\neg Q$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B,D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 20"
+        }
+      ]
+    }
+  ]
+}

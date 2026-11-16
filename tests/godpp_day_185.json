@@ -1,0 +1,70 @@
+{
+  "name": "Day 181 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "515988",
+          "text": "<p>Consider the following basic block consisting of three-address code instructions. Assume that only the variable $\\verb|x|$ is \"live\" at the exit of this basic block.</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">1. a = 10\n2. b = a + 5\n3. c = a * b\n4. d = c + a\n5. x = b + 1</pre><p>Which of the following variables are <strong>DEAD</strong> immediately after the execution of instruction $3$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\verb|a|$, $\\verb|c|$,&nbsp;$\\verb|d|$<br>&nbsp;</li><li>$\\verb|c|$, $\\verb|d|$<br>&nbsp;</li><li>$\\verb|d|$<br>&nbsp;</li><li>$\\verb|b|$, $\\verb|c|$,&nbsp;$\\verb|d|$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 181"
+        },
+        {
+          "post_id": "515983",
+          "text": "<p>Consider the following C-style code segment:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">while (a &lt; b) {\n&nbsp; &nbsp; if (c &lt; d) x = y + z;\n&nbsp; &nbsp; else x = y - z;\n}</pre><p><br>Assume this code is translated into <strong>Three-Address Code (TAC)</strong> using the minimum number of labels required to ensure:</p><ol><li>The $\\verb|while|$&nbsp;condition is evaluated at the start of every iteration.<br>&nbsp;</li><li>The $\\verb|if-else|$ control flow correctly branches to either the $\\verb|if|$&nbsp;block or the $\\verb|else|$ block.<br>&nbsp;</li><li>Control returns to the $\\verb|while|$ condition check after the $\\verb|if-else|$ statement finishes.<br>&nbsp;</li><li>There is a single exit label immediately following the loop.<br>&nbsp;</li></ol><p>What is the <strong>minimum</strong> number of labels required to represent this control flow?</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 181"
+        },
+        {
+          "post_id": "515931",
+          "text": "<p>Consider the following S-attributed SDT scheme used to calculate the value of an expression. The grammar generates simple arithmetic additions and is suitable for an LR parser.</p><p>\\[<br>\\begin{array}{ll}<br>\\text{Production} & \\text{Semantic Rules} \\\\<br>E \\rightarrow E_1 + T & E.\\text{val} = E_1.\\text{val} + T.\\text{val} \\\\<br>E \\rightarrow T & E.\\text{val} = T.\\text{val} \\\\<br>T \\rightarrow \\mathbf{id} & T.\\text{val} = \\mathbf{id}.\\text{lexval}<br>\\end{array}<br>\\]</p><p>If the input string is $3+5+2$, what is the sequence of values stored on the semantic stack for the attribute val immediately after each reduction of the type $E \\rightarrow E_1+T$ occurs?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$8,10$<br>&nbsp;</li><li>$3, 5, 2$<br>&nbsp;</li><li>$3, 8, 10$<br>&nbsp;</li><li>$5,2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 181"
+        },
+        {
+          "post_id": "515929",
+          "text": "<p>Consider the following regular expression over the alphabet $\\Sigma=\\{a, b\\}$ that represents a specific class of tokens in a new programming language:<br>$$<br>r=(a+b)^* a b b<br>$$<br>A lexical analyzer uses a Minimal Deterministic Finite Automaton (DFA) to recognize this pattern. If the DFA is constructed using the standard powerset construction from an NFA, how many states will the <strong>Minimal DFA </strong>contain?</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 181"
+        },
+        {
+          "post_id": "515980",
+          "text": "<p>In a compiler's optimization phase, a Directed Acyclic Graph (DAG) is constructed for the following basic block:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">1. t1 = a + b\n2. t2 = c * d\n3. t3 = t1 + t2\n4. t4 = a + b\n5. t5 = t4 + t2\n</pre><p>Assuming that $\\verb|t1|$, $\\verb|t2|$, $\\verb|t3|$, $\\verb|t4|$, and&nbsp;$\\verb|t5|$ are all local temporary variables and $\\verb|a|$, $\\verb|b|$, $\\verb|c|$, $\\verb|d|$ are the only initial values, how many <strong>nodes</strong>(including leaf nodes and operator nodes) will be in the final optimized DAG representation of this basic block?</p>",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 181"
+        }
+      ]
+    }
+  ]
+}

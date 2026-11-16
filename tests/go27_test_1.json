@@ -1,0 +1,189 @@
+{
+  "id": "go27_test_1",
+  "name": "GO Classes CS Test Series | Discrete Mathematics | Topic Wise Test 2",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "374255",
+          "text": "<p>Let $\\text{R}$ be a relation from a set $\\text{A}$ to a set $\\text{B}.$ The inverse relation from $\\text{B}$ to $\\text{A},$ denoted by $\\text{R}^{-1},$&nbsp;is the set of ordered pairs $\\{(b,a) \\mid (a,b) \\in \\text{R}\\}$.</p><ul><li>$\\text{S1: R}$ is reflexive relation iff $\\text{R}^{-1} = \\text{R}$</li><li>$\\text{S2: R}$ is a symmetric relation iff $\\text{R}^{-1} = \\text{R}$</li></ul><p>Which one of the following statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\text{S1}$</li><li>Only $\\text{S2}$</li><li>Both $\\text{S1}$ and $\\text{S2}$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,goclasses,set-theory&algebra,relations,easy,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374276",
+          "text": "Given a set of values $\\text{R} = \\{1,2,3,4,5,6,7\\}.$ The number of relations on this set which are both partial-order and equivalence relation is?",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,goclasses,set-theory&algebra,relations,partial-order,numerical-answers,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374277",
+          "text": "<p>For any set $\\text{X},$ let $|\\text{X}|$ be the cardinality of set $\\text{X}.$ Let $\\text{A}$ and $\\text{B}$ be two finite sets such that $|\\text{A}| = |\\text{B}|$. There is a one to one function $f$ from $\\text{A}$ to $\\text{B}.$</p><p>Which of the following must be true for $f?$</p><ul><li>$\\text{S1:}\\; f$ is onto function</li><li>$\\text{S2:}\\;f$ has an inverse</li></ul><ol style=\"list-style-type:upper-alpha\"><li>Only $\\text{S1}$</li><li>Only $\\text{S2}$</li><li>Both $\\text{S1}$ and $\\text{S2}$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,goclasses,set-theory&algebra,functions,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "466669",
+          "text": "<p>Let $<br>R_{1} \\text { and } R_{2} \\text { be relations on a set } A \\text {. }<br>$</p><p>Consider the following statements:</p><p>M: if $R_{1}$ and $R_{2}$ are both reflexive, then so is $R_{1} \\cup R_{2}$.</p><p>N: if $R_{1}$ and $R_{2}$ are both symmetric, then so is $R_{1} \\cup R_{2}$.</p><p>Which of the above statements is/are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Only M&nbsp;</li><li>Only N&nbsp;</li><li>Both&nbsp;</li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses,goclasses_cs_dm_tw_2,goclasses-testseries,set-theory&algebra,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374264",
+          "text": "<p>A binary relation $\\text{R}$ on a set $\\text{A}$ is called connected iff for all elements $x$ and $y$ of $\\text{A},$ either $x \\text{R} y$ or $y \\text{R} x$ or both. i.e. $\\text{R}$ is connected iff $\\forall x,y \\in \\text{A} ((x \\text{R} y)$ $\\vee$&nbsp;&nbsp;$(y \\text{R} x))$</p><p>Which of the following is/are true ?</p><ol style=\"list-style-type:upper-alpha\"><li>Every connected relation is reflexive.</li><li>Every connected relation is partial order.</li><li>Every connected relation is symmetric.&nbsp;&nbsp;</li><li>Every connected relation is transitive.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,goclasses,set-theory&algebra,relations,partial-order,multiple-selects,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "466665",
+          "text": "<p>$\\{2,4\\}$ is an element of the following sets:</p><p> </p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>&nbsp;$\\{\\{\\{2,4\\}\\}\\}$</li><li>&nbsp;$\\{1,2,3,4,\\{2,4\\}\\}$</li><li>&nbsp;$\\{\\{1\\},\\{4\\},\\{2,4\\}\\}$</li><li>&nbsp;$\\left\\{\\left(x, x^{2}\\right) \\mid x \\in \\mathbb{Z}\\right\\}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses,goclasses_cs_dm_tw_2,goclasses-testseries,set-theory&algebra,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "403069",
+          "text": "<p>Let $f$ be a function from a set $X$ to a set $Y$. Consider the following statements.</p><ul><li>$P$ : For each $x \\in X$, there exists $y \\in Y$ such that $f(x)=y$.</li><li>$Q$ : For each $y \\in Y$, there exists $x \\in X$ such that $f(x)=y$.</li><li>$R$ : There exist $x_1, x_2 \\in X$ such that $x_1 \\neq x_2$ and $f\\left(x_1\\right)=f\\left(x_2\\right)$.</li></ul><p>The negation of the statement \" $f$ is one-to-one and onto $Y$ \" is</p><ol style=\"list-style-type:upper-alpha\"><li>$P$ or not $R$</li><li>$R$ or not $P$</li><li>$R$ or not $Q$</li><li>$P$ and not $R$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,goclasses,set-theory&algebra,functions,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "403072",
+          "text": "Let $A=\\{1,2,3,4,5\\}$ and $B=\\{2,3,4\\}$. How many sets $C$ have the property that $C \\subseteq A$ and $B \\subseteq C?$",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,numerical-answers,goclasses,set-theory&algebra,set-theory,easy,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "466667",
+          "text": "<p>For each of the given (input, output) relationships in Tables One and Two; answer the following:</p><p><img alt=\"\" width=\"349\" height=\"211\" src=\"data:image/png;base64,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\"></p><p>Which of the following is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A a function of $B$</li><li>B a function of $A$</li><li>C a function of D</li><li>D a function of C</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses,goclasses_cs_dm_tw_2,goclasses-testseries,set-theory&algebra,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374284",
+          "text": "Let $\\text{A, B}$ be two non-empty sets, with cardinality $3,4$ respectively. Let $\\text{R}$ be a relation defined on the power set of $\\text{A} \\times \\text{B}.$ Relation $\\text{R}$ is reflexive, symmetric, transitive, and antisymmetric. Hence,  Relation $ \\text{R}$ is also equivalence relation.\n\nThe cardinality of the largest equivalence class of relation $\\text{R}$ is?",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,numerical-answers,goclasses,set-theory&algebra,relations,equivalence-class,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "403073",
+          "text": "<p>Let $A$ and $B$ be arbitrary sets and consider the set $S$ defined below:<br>$$<br>S=\\{x \\mid \\neg(x \\in A \\rightarrow x \\in B)\\}<br>$$<br>What is the correct expression for $S$ in terms of $A$ and $B$ using the standard set operators?</p><ol style=\"list-style-type:upper-alpha\"><li>$A \\cup B$</li><li>$A \\cap B$</li><li>$A \\backslash B$</li><li>$B \\backslash A$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,goclasses,set-theory&algebra,set-theory,easy,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "403068",
+          "text": "<p>Let's suppose that we have a function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$. We'll say that $f$ is an odd function if the following is true:<br>$$<br>\\forall x \\in \\mathbb{R} . f(-x)=-f(x)<br>$$<br>We can define even functions as follows. A function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is called even if the following is true:<br>$$<br>\\forall x \\in \\mathbb{R} . f(-x)=f(x)<br>$$<br>Which of the following statements is/are correct?</p><ol style=\"list-style-type:upper-alpha\"><li>If $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ are odd, then $g \\circ f$ is also odd.</li><li>If $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is odd and is a bijection, then $f^{-1}$ is also odd.</li><li>If $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is an even function, then $f$ is not a bijection.</li><li>Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be any function. Then $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined as $g(x)=f(x)-f(-x)$ is odd.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,goclasses,set-theory&algebra,functions,multiple-selects,difficult,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "403071",
+          "text": "<p>Suppose that $S$ and $T$ are sets. Which of the following first-order logic statements are translations of the statement \" $S$ is not a subset of $T$ ?\" Check all that apply.</p><ol style=\"list-style-type:upper-alpha\"><li>$\\forall x .(x \\in S \\rightarrow x \\notin T)$</li><li>$\\forall x .(x \\in S \\wedge x \\notin T)$</li><li>$\\exists x .(x \\in S \\rightarrow x \\notin T)$</li><li>$\\exists x .(x \\in S \\wedge x \\notin T)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,goclasses,set-theory&algebra,set-theory,multiple-selects,easy,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "466671",
+          "text": "Let $\\mathrm{A}=\\{\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\}$. How many different binary relations are there over $\\mathrm{A}$ that are partial orders?",
+          "type": "Numerical",
+          "answer": "19",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses,goclasses_cs_dm_tw_2,goclasses-testseries,set-theory&algebra,numerical-answers,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374290",
+          "text": "<p>Let $\\text{R}$ be an equivalence relation on a non-empty set $\\text{A}.$ Let $a,b \\in \\text{A}.$</p><p>For any $x \\in A,$ let $[x]$ denote the equivalence class of $\\text{R}$ containing $x.$</p><p>Which of the following is/are correct statements?</p><ol style=\"list-style-type:upper-alpha\"><li>$a\\text{R}b$ iff $[a] = [b]$</li><li>$a\\text{R}b$ iff $[a] \\cap&nbsp;[b] \\neq&nbsp;\\phi$</li><li>If $\\text{A}$ is non-empty finite set then $\\text{R}$ can never have more than $|\\text{A}|$ equivalence classes, where $|\\text{A}|$ is the cardinality of $\\text{A}.$</li><li>$\\text{R} = \\text{A} \\times \\text{A}$ iff $R$ has only one equivalence class.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_2,goclasses-testseries,goclasses,set-theory&algebra,relations,equivalence-class,multiple-selects,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        }
+      ]
+    }
+  ]
+}

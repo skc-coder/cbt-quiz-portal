@@ -1,0 +1,70 @@
+{
+  "name": "Day 290 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534206",
+          "text": "<p data-start=\"680\" data-end=\"751\">Simplify $F=(A+B+\\overline{C})(A+B+C)(A+\\overline{B})$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"753\" data-end=\"802\">$A$<br>&nbsp;</li><li data-start=\"753\" data-end=\"802\">$A+B$<br>&nbsp;</li><li data-start=\"753\" data-end=\"802\">$A+C$<br>&nbsp;</li><li data-start=\"753\" data-end=\"802\">$B\\overline{C}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 290"
+        },
+        {
+          "post_id": "534202",
+          "text": "<p data-start=\"29\" data-end=\"118\">Simplify the Boolean expression $F=(A+B)(A+\\overline{B})(\\overline{A}+C)+AC$.</p><p data-start=\"120\" data-end=\"166\">Which of the following is the simplified form?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"168\" data-end=\"219\">$A$<br>&nbsp;</li><li data-start=\"168\" data-end=\"219\">$AC$<br>&nbsp;</li><li data-start=\"168\" data-end=\"219\">$A+C$<br>&nbsp;</li><li data-start=\"168\" data-end=\"219\">$A\\overline{B}+AC$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 290"
+        },
+        {
+          "post_id": "534204",
+          "text": "<p data-start=\"118\" data-end=\"184\">Simplify $F=(A+B)(A+\\overline{C})+\\overline{A}BC$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"186\" data-end=\"239\">$A+B$<br>&nbsp;</li><li data-start=\"186\" data-end=\"239\">$A+\\overline{C}$<br>&nbsp;</li><li data-start=\"186\" data-end=\"239\">$AB+C$<br>&nbsp;</li><li data-start=\"186\" data-end=\"239\">$B+C$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 290"
+        },
+        {
+          "post_id": "534210",
+          "text": "<p data-start=\"29\" data-end=\"112\">Simplify $F=(A+B+\\overline{C})(A+\\overline{B}+C)(A+B+C)+A\\overline{C}$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"114\" data-end=\"171\">$A+BC$<br>&nbsp;</li><li data-start=\"114\" data-end=\"171\">$A+B+C$<br>&nbsp;</li><li data-start=\"114\" data-end=\"171\">$AB+C$<br>&nbsp;</li><li data-start=\"114\" data-end=\"171\">$A+\\overline{B}C$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 290"
+        },
+        {
+          "post_id": "534208",
+          "text": "<p data-start=\"1248\" data-end=\"1297\">Simplify $F=AB+\\overline{A}C+BC$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1299\" data-end=\"1370\">$AB+\\overline{A}C$<br>&nbsp;</li><li data-start=\"1299\" data-end=\"1370\">$AB+BC$<br>&nbsp;</li><li data-start=\"1299\" data-end=\"1370\">$\\overline{A}C+BC$<br>&nbsp;</li><li data-start=\"1299\" data-end=\"1370\">$A+B+C$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 290"
+        }
+      ]
+    }
+  ]
+}

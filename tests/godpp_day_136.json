@@ -1,0 +1,70 @@
+{
+  "name": "Day 133 [Theory of Computation]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "497800",
+          "text": "<p>WHICH OF THE FOLLOWING SETS IS/ARE <strong>COUNTABLE</strong>?</p><ul><li>I. THE SET OF ALL CONTEXT-SENSITIVE LANGUAGES (CSLS) OVER THE ALPHABET $\\{a, b\\}$.<br>&nbsp;</li><li>II. THE SET OF ALL FINITE SUBSETS OF $\\mathbb{R}$ (THE SET OF REAL NUMBERS).<br>&nbsp;</li><li>III. THE SET OF ALL POSSIBLE JAVA PROGRAMS.<br>&nbsp;</li></ul><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>I AND II<br>&nbsp;</li><li>I AND III<br>&nbsp;</li><li>III ONLY<br>&nbsp;</li><li>I, II, AND III</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Theory of Computation",
+          "day": "Day 133"
+        },
+        {
+          "post_id": "497790",
+          "text": "<p>CONSIDER THE LANGUAGE<br>\\[<br>L = \\{\\langle M \\rangle \\mid M \\text{ IS A TURING MACHINE AND } L(M) \\text{ CONTAINS ONLY PALINDROMES}\\}.<br>\\]<br>WHICH OF THE FOLLOWING STATEMENTS IS <strong>TRUE</strong>?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$L$ IS DECIDABLE.<br>&nbsp;</li><li>$L$ IS UNDECIDABLE BUT RECURSIVELY ENUMERABLE.<br>&nbsp;</li><li>$L$ IS RECURSIVELY ENUMERABLE, BUT ITS COMPLEMENT $\\bar{L}$ IS NOT.<br>&nbsp;</li><li>$L$ IS NOT RECURSIVELY ENUMERABLE.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Theory of Computation",
+          "day": "Day 133"
+        },
+        {
+          "post_id": "497802",
+          "text": "<p>Let $S$ be the set of all functions $f: \\mathbb{N} \\rightarrow\\{0,1,2\\}$ such that $f(n)=0$ for all but finitely many $n$.<br><br>Which of the following statements about <strong>$S$ is true</strong>?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$S$ is finite<br>&nbsp;</li><li>$S$ is countably infinite<br>&nbsp;</li><li>$S$ is uncountable<br>&nbsp;</li><li>$S$ has the same cardinality as $\\mathcal{P}(\\mathbb{N})$ (where $\\mathcal{P}(\\mathbb{N})$ denotes the <em>power set of natural numbers</em></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Theory of Computation",
+          "day": "Day 133"
+        },
+        {
+          "post_id": "497786",
+          "text": "<p>CONSIDER THE FOLLOWING DECISION PROBLEMS:</p><ul><li>I. GIVEN A TURING MACHINE $M$, DOES $M$ HALT ON ALL INPUTS?<br>&nbsp;</li><li>II. GIVEN A CONTEXT-FREE GRAMMAR $G$, IS THE LANGUAGE $L(G)$ FINITE?<br>&nbsp;</li><li>III. GIVEN A TURING MACHINE $M$, DOES $L(M)$ CONTAIN AT LEAST 5 STRINGS?<br>&nbsp;</li><li>IV. GIVEN TWO DFAS $A$ AND $B$, IS $L(A) \\subseteq L(B)$ ?<br>&nbsp;</li></ul><p>WHICH OF THE FOLLOWING PROBLEMS ARE <strong>DECIDABLE</strong>?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>I AND III<br>&nbsp;</li><li>II AND IV<br>&nbsp;</li><li>I, II, AND IV<br>&nbsp;</li><li>II, III, AND IV</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Theory of Computation",
+          "day": "Day 133"
+        },
+        {
+          "post_id": "497796",
+          "text": "<p>WHICH OF THE FOLLOWING DECISION PROBLEMS IS/ARE <strong>UNDECIDABLE</strong>?</p><ul><li>I. GIVEN A PUSHDOWN AUTOMATON (PDA) $P$, DOES $P$ ACCEPT ANY STRING $w$ WHERE $w=w^R$ (I.E., $w$ IS A PALINDROME)?<br>&nbsp;</li><li>II. GIVEN A DETERMINISTIC FINITE AUTOMATON (DFA) $A$, DOES $A$ ACCEPT ALL STRINGS $w$ WHERE $w=w^R$ ?<br>&nbsp;</li><li>III. GIVEN A TURING MACHINE $M$, DOES $M$ ACCEPT ANY STRING $w$ WHERE $w=w^R$ ?<br>&nbsp;</li></ul><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>I ONLY<br>&nbsp;</li><li>III ONLY<br>&nbsp;</li><li>I AND III<br>&nbsp;</li><li>I, II, AND III</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Theory of Computation",
+          "day": "Day 133"
+        }
+      ]
+    }
+  ]
+}

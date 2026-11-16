@@ -1,0 +1,70 @@
+{
+  "name": "Day 87 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "487281",
+          "text": "<p>A recursive function is defined by the following recurrence relation, where $T(1)=1$:</p><p>$$<br>T(n)=T(n-1)+\\log n^5<br>$$</p><p><br>What is the tightest asymptotic upper bound for $\\mathrm{T}(\\mathrm{n})$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$O(\\log n)$<br>&nbsp;</li><li>$O(n)$<br>&nbsp;</li><li>$O(n \\log n)$<br>&nbsp;</li><li>$O\\left(n^2\\right)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 87"
+        },
+        {
+          "post_id": "487280",
+          "text": "<p>Let $G=(V, E)$ be an undirected graph where every edge has a distinct positive weight.<br>Consider any cycle, $C$, within the graph $G$. Let $e$ be the edge with the maximum weight in this cycle $C$.</p><p>Which of the following statements about the edge $e$ must be true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE EDGE $e$ IS GUARANTEED TO BE PART OF THE SHORTEST PATH BETWEEN ITS TWO ENDPOINTS.<br>&nbsp;</li><li>THE EDGE $e$ CANNOT BE PART OF THE UNIQUE MINIMUM SPANNING TREE (MST) OF $G$.<br>&nbsp;</li><li>REMOVING THE EDGE $e$ FROM THE GRAPH WILL ALWAYS DISCONNECT THE GRAPH.<br>&nbsp;</li><li>THE EDGE $e$ MUST BE PART OF THE LONGEST PATH IN THE GRAPH $G$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 87"
+        },
+        {
+          "post_id": "487282",
+          "text": "<p>You are given a weighted directed acyclic graph (DAG) $G=(V, E)$ with a designated source vertex $s$ and a sink vertex $t$. All edge weights are positive. We define the \"path value\" of a path from $s$ to $t$ as the product of the weights of all edges along the path. You need to find the path from $s$ to $t$ with the maximum possible path value.</p><p>Which of the following algorithmic paradigms is most suitable for solving this problem efficiently?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Dijkstra's algorithm on the original graph.<br>&nbsp;</li><li>A greedy approach that always picks the edge with the maximum weight from the current vertex.<br>&nbsp;</li><li>Dijkstra's algorithm is applied after transforming edge weights $w$ to $\\log (w)$.<br>&nbsp;</li><li>Dijkstra's algorithm applied after transforming edge weights $w$ to $-\\log (w)$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 87"
+        },
+        {
+          "post_id": "487283",
+          "text": "<p>The Floyd-Warshall algorithm is used on a directed graph with 4 vertices (labelled 1, 2, 3, 4). The initial shortest distances are given by an adjacency matrix where <strong>\"inf\" means infinity (no direct path).</strong></p><p>The initial distances are:</p><ul><li>From 1 to 1 is 0, to 2 is 8, to 3 is inf, and to 4 is 1.<br>&nbsp;</li><li>From 2 to 1 is inf, to 2 is 0, to 3 is 1, and to 4 is inf.<br>&nbsp;</li><li>From 3 to 1 is 4, to 2 is inf, to 3 is 0, and to 4 is inf.<br>&nbsp;</li><li>From 4 to 1 is inf, to 2 is 2, to 3 is 9, and to 4 is 0.</li></ul><p>The algorithm calculates the shortest paths by adding intermediate vertices one by one. What is the length of the shortest path from vertex 4 to vertex 1 after the algorithm has considered using vertices $\\{1,2,3\\}$ as intermediate points?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$7$<br>&nbsp;</li><li>$9$<br>&nbsp;</li><li>$11$<br>&nbsp;</li><li>inf (infinity)</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 87"
+        },
+        {
+          "post_id": "487284",
+          "text": "<p>Imagine you have a list of jobs you can do. For each job, you know its start time, finish time, and the profit you'll earn. You cannot do two jobs if their times overlap. Your goal is to choose a set of non-overlapping jobs to make the maximum possible total profit.</p><p>Which of the following statement(s) is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>greedy algorithm can solve this problem efficiently<br>&nbsp;</li><li>the most efficient algorithm takes O (nlogn) time in worst case (assume tightest upper bound)<br>&nbsp;</li><li>the most efficient algorithm takes $\\mathrm{O}(\\mathrm{n})$ time in worst case (assume tightest upper bound)<br>&nbsp;</li><li>dynamic programming can solve this problem efficiently</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 87"
+        }
+      ]
+    }
+  ]
+}

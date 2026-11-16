@@ -1,0 +1,70 @@
+{
+  "name": "Day 196 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "521157",
+          "text": "<p>Consider a Unix-style Inode-based file system. A specific Inode contains:</p><ul><li>$12$ Direct Block Pointers<br>&nbsp;</li><li>$1$ Single Indirect Pointer<br>&nbsp;</li><li>$1$ Double Indirect Pointer<br>&nbsp;</li><li>$1$ Triple Indirect Pointer<br>&nbsp;</li></ul><p>The block size is $\\mathbf{4}$ <strong>KB</strong> and each disk block pointer is $\\mathbf{3 2}$ <strong>bits</strong>. A user creates a file and performs the following operations in sequence:</p><ol><li>Writes $\\mathbf{5 0}$ <strong>KB</strong> starting from the beginning of the file.<br>&nbsp;</li><li>Performs a $\\verb|lseek|$ to the $\\mathbf{1 0 }$&nbsp;<strong>MB</strong> mark and writes $\\mathbf{4}$ <strong>KB</strong> of data.</li></ol><p><strong>Which of the following statements is/are TRUE?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE FILE SYSTEM WILL ALLOCATE DISK BLOCKS FOR ALL THE \"HOLES\" BETWEEN $50$ KB AND $10$ MB.<br>&nbsp;</li><li>ACCESSING THE DATA AT THE $10$ MB MARK REQUIRES ACCESSING THE DOUBLE INDIRECT POINTER.<br>&nbsp;</li><li>THE TOTAL NUMBER OF DISK DATA BLOCKS PHYSICALLY OCCUPIED BY THIS FILE (EXCLUDING METADATA BLOCKS) IS $14$.<br>&nbsp;</li><li>IF THE DISK POINTER SIZE IS INCREASED TO $64$ BITS WHILE KEEPING THE BLOCK SIZE THE SAME, THE MAXIMUM POSSIBLE FILE SIZE DECREASES.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 196"
+        },
+        {
+          "post_id": "521155",
+          "text": "<p>A system uses a $\\mathbf{2-}$<strong>level hierarchical page table</strong> for a $32-$bit virtual address space. The page size is $\\mathbf{4&nbsp;~KB}$. Each Page Table Entry (PTE) at both levels is $\\mathbf{4~bytes}$. The system uses a <strong>Translation Lookahead Buffer (TLB)</strong> with a hit ratio of $\\mathbf{9 5 \\%}$.</p><p>A process is currently executing a loop where it accesses a specific data array. Due to a unique hardware constraint, the first-level page table (Page Directory) is <strong>not cacheable</strong> in the TLBonly the second-level PTEs are cached.</p><p>If a TLB hit takes $\\mathbf{2 ~ n s}$ and a single main memory access takes $\\mathbf{100 ~ns}$, what is the <strong>Effective Memory Access Time (EMAT)</strong> in nanoseconds for a memory reference? (Assume the secondlevel page table is always in memory and ignore page faults).</p>",
+          "type": "Numerical",
+          "answer": "207",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 196"
+        },
+        {
+          "post_id": "521162",
+          "text": "<p>Consider a system with a $\\mathbf{48}$<strong>-bit virtual address,</strong> $\\mathbf{36}$<strong>-bit physical address,</strong> and a page size of $\\mathbf{16}$ <strong>KB</strong>. The system implements an <strong>Inverted Page Table</strong> to save space.</p><p>Each entry in the Inverted Page Table contains:</p><ul><li>The Process ID $(16$ bits$)$<br>&nbsp;</li><li>The Virtual Page Number<br>&nbsp;</li><li>Control bits (Valid, Dirty, Read/Write) totaling $12$ bits<br>&nbsp;</li></ul><p>The Inverted Page Table is stored in main memory. To speed up the search, a <strong>Hash Table</strong> is used. The Hash Table has the same number of entries as the Inverted Page Table, and each Hash Table entry is $\\mathbf{8}$ <strong>bytes.</strong></p><p><strong>Calculate the total size (in MB) of the Inverted Page Table (including the Hash Table metadata)?</strong></p>",
+          "type": "Numerical",
+          "answer": "64",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 196"
+        },
+        {
+          "post_id": "521160",
+          "text": "<p>Consider a system with $3$ processes $P_1, P_2, P_3$ and two resource types $R_1$ and $R_2$.</p><ul><li>$R_1$ has $\\mathbf{2}$<strong> instances.</strong><br>&nbsp;</li><li>$R_2$ has $\\mathbf{2}$<strong> instances.</strong></li></ul><p>The current allocation and request state is as follows:</p><ul><li>$P_1$ holds one instance of $R_1$ and requests one instance of $R_2$.<br>&nbsp;</li><li>$P_2$ holds one instance of $R_2$ and requests one instance of $R_1$.<br>&nbsp;</li><li>$P_3$ holds one instance of $R_1$ and one instance of $R_2$.<br>&nbsp;</li><li>$P_3$ now requests one instance of $R_1$.<br>&nbsp;</li></ul><p><strong>Which of the following statements is/are TRUE?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE SYSTEM IS IN A DEADLOCK STATE.<br>&nbsp;</li><li>THERE IS A CYCLE IN THE RESOURCE ALLOCATION GRAPH.<br>&nbsp;</li><li>$P_3$ IS THE ONLY PROCESS PREVENTING A DEADLOCK.<br>&nbsp;</li><li>IF $P_3$ RELEASES ALL ITS RESOURCES, THE REMAINING PROCESSES CAN FINISH.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 196"
+        },
+        {
+          "post_id": "521153",
+          "text": "<p>Consider a uniprocessor system with three processes $P_1, P_2$, and $P_3$ arriving at time $t=0$. Each process has a total execution time of $20$ units. The execution profile of each process is as follows:</p><ul><li>First $20 \\%$ of time: <strong>I/O BURST</strong><br>&nbsp;</li><li>Next $60 \\%$ of time: <strong>CPU BURST</strong><br>&nbsp;</li><li>Last $20 \\%$ of time:<strong> I/O BURST</strong></li></ul><p>The OS uses a <strong>Shortest Remaining CPU Time First (SRTF)</strong> scheduling algorithm. A new process is scheduled whenever the current process finishes its CPU burst or becomes blocked on I/O. Assume all I/O operations can be overlapped perfectly and the CPU never remains idle if a process is ready.</p><p><strong>What is the total time (in units) at which all processes complete their execution?</strong></p>",
+          "type": "Numerical",
+          "answer": "44",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 196"
+        }
+      ]
+    }
+  ]
+}

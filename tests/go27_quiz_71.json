@@ -1,0 +1,134 @@
+{
+  "id": "go27_quiz_71",
+  "name": "GO Classes CS | Compiler Design | Lexical Analysis | Weekly Quiz 1",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "498963",
+          "text": "The number of tokens in the following C statement is:\n\n$$\\verb|printf(\"Total = %d \\n\", score);|$$",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq61,numerical-answers,goclasses,compiler-design,lexical-analysis,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "498965",
+          "text": "<p>The number of tokens in the following C code segment is</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">switch(inputvalue)\n{\n    case 1 : b =c*d; break;\n    default : b =b++; break;\n}</pre><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$27$<br> </li><li>$29$<br> </li><li>$26$<br> </li><li>$24$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq61,goclasses,compiler-design,lexical-analysis,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "498961",
+          "text": "<p>The number of tokens in the following C code segment is:<br><br><strong>Input text</strong></p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">// this statement does very little\nif (x &gt;= y) y = 42;</pre><p><br>&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+          "type": "Numerical",
+          "answer": "10",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq61,numerical-answers,goclasses,compiler-design,lexical-analysis,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "498969",
+          "text": "<p>Which of the following statements is/are true ?</p><ol style=\"list-style-type:upper-alpha\"><li>Lexical analysis is recursive in order to handle nested parentheses.<br> </li><li>Scanners don't know anything about the grammar of a language.<br> </li><li>A regular expression is a type of pattern used to classify lexemes.<br> </li><li>You can change state in a DFA without reading any input character.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq61,goclasses,compiler-design,lexical-analysis,multiple-selects,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "498959",
+          "text": "In Ada, an identifier must begin with a letter and can be followed by zero or more letters, digits, or underscore symbols. However, two underscore symbols may not appear in a row and the last character in an identifier may not be an underscore.\nThe minimum number of states required for a DFA to accept all valid ADA identifiers ?",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq61,numerical-answers,goclasses,compiler-design,lexical-analysis,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "498977",
+          "text": "<p>Which data structure in a compiler is used for managing information about variables and their attributes?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>Abstract syntax tree<br> </li><li>Symbol table<br> </li><li>Semantic stack<br> </li><li>Parse table</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq61,goclasses,compiler-design,lexical-analysis,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "498975",
+          "text": "<p>In a compiler, keywords of a language are recognized during<br> </p><ol style=\"list-style-type: upper-alpha;\"><li>parsing of the program<br> </li><li>the code generation<br> </li><li>the lexical analysis of the program<br> </li><li>dataflow analysis</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq61,goclasses,compiler-design,lexical-analysis,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "498967",
+          "text": "<p>The number of tokens in the following C statement is</p><pre class=\"prettyprint lang-c_cpp\">printf(\"i=%d, &amp;i=%x\", i, &amp;i);</pre><ol style=\"list-style-type:upper-alpha\"><li>$3$<br> </li><li>$26$<br> </li><li>$10$<br> </li><li>$21$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq61,goclasses,compiler-design,lexical-analysis,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "498971",
+          "text": "<p>Consider the following statements related to the errors detected during lexical analysis:<br><br>$\\text{S1}$ : A character sequence that cannot be scanned into any valid token is a lexical error.<br><br>$\\text{S2}$ : Misspellings of identifiers, keywords, or operators are considered as lexical errors.<br><br>Which of the above statements is/are CORRECT ?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\text{S1}$<br> </li><li>Only $\\text{S2}$<br> </li><li>Both $\\text{S1}$ and $\\text{S2}$<br> </li><li>Neither $\\text{S1}$ or $\\text{S2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq61,goclasses,compiler-design,lexical-analysis,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "498973",
+          "text": "<p>In a compiler the module that checks every character of the source text is called:</p><ol style=\"list-style-type:upper-alpha\"><li>The code generator.<br> </li><li>The code optimiser.<br> </li><li>The lexical analyser.<br> </li><li>The syntax analyser.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq61,goclasses,compiler-design,lexical-analysis,one-mark",
+          "category": "Compiler Design"
+        }
+      ]
+    }
+  ]
+}

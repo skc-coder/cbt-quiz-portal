@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2025 | Linear Algebra | Topic Wise Test 4",
+  "duration": "75",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "426671",
+          "text": "Consider the vector $\\vec{w}=\\left[\\begin{array}{c}1 \\\\ -3\\end{array}\\right]$ and the line $W=\\operatorname{Span}\\{\\vec{w}\\}$ spanned by $\\vec{w} . A \\vec{x}$ computes the projection of a vector $\\vec{x}$ onto $W$ if<br />    <br /><ol style=\"list-style-type:upper-alpha\"><li> $A=\\left[\\begin{array}{cc}1 / 10 & -3 \\\\ -3 / 10 & 9\\end{array}\\right]$</li><li> $A=\\left[\\begin{array}{cc}9 / 10 & -3 / 10 \\\\ -3 / 10 & 1 / 10\\end{array}\\right]$</li> <li>$A=\\left[\\begin{array}{cc}1 / 10 & -3 / 10 \\\\ -3 / 10 & 1 / 10\\end{array}\\right]$</li>  <li>$A=\\left[\\begin{array}{cc}1 / 10 & -3 / 10 \\\\ -3 / 10 & 9 / 10\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426661",
+          "text": "If $\\boldsymbol{q}_{1}, \\boldsymbol{q}_{2}, \\boldsymbol{q}_{3}$ form an orthonormal basis for $\\mathbb{R}^{3}$, and $T$ is the transformation that projects every vector $\\boldsymbol{v}$ onto the plane of $\\boldsymbol{q}_{1}$ and $\\boldsymbol{q}_{2}$, what is the matrix for $T$ in this basis?<br />    <br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 0\\end{array}\\right]$</li><li> $\\left[\\begin{array}{lll}0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 1 & 1 & 0\\end{array}\\right]$</li> <li>$\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$</li>  <li>$\\left[\\begin{array}{lll}0 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426657",
+          "text": "Consider a $10 \\times 3$ matrix $A$ with an SVD $A=U \\Sigma V^{T}$, where $\\Sigma=\\left(\\begin{array}{ccc}100 & 0 & 0 \\\\ 0 & 10 & 0 \\\\ 0 & 0 & 1\\end{array}\\right)$.<br />Which of the following statements are true regarding the projection matrices?<br /><ol style=\"list-style-type:upper-alpha\"><li> The projection matrix onto the column space $C(A)$ is $U U^{T}$.</li><li> The projection matrix onto the column space $C\\left(A^{T}\\right)$ is $V V^{T}$.</li> <li>The projection matrix onto the column space $C(A)$ is $I$ (the identity matrix).</li>  <li>The projection matrix onto the column space $C\\left(A^{T}\\right)$ is $I$ (the identity matrix).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426647",
+          "text": "Consider the subspace $W$ of $\\mathbf{R}^{3}$ defined by $W=\\left\\{\\left.\\left(\\begin{array}{l}x_{1} \\\\ x_{2} \\\\ x_{3}\\end{array}\\right) \\in \\mathbf{R}^{3} \\right\\rvert\\, x_{1}-x_{2}-2 x_{3}=0\\right\\}$.<br />Let $B$ be the matrix representing the orthogonal projection onto $W$.<br />Which of the following statements are true?<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> The eigenvalues of $B$ are $\\lambda=0$ and $\\lambda=1$.</li><li> $B\\left(\\begin{array}{l}1 \\\\ 1 \\\\ 0\\end{array}\\right)=\\left(\\begin{array}{l}1 \\\\ 1 \\\\ 0\\end{array}\\right)$.</li> <li>The null space of $B$ is 1 -dimensional.</li>  <li>The eigenvalues of $B$ are $\\lambda=0$ and $\\lambda=-1$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426655",
+          "text": "Let $Q$ be a $5 \\times 3$ matrix with orthonormal columns.<br />Which of the following statements must be true?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\|Q x\\|=\\|x\\|$ for all $x \\in \\mathbb{R}^{3}$</li><li> $\\left\\|Q^{T} y\\right\\|=\\|y\\|$ for all $y \\in \\mathbb{R}^{5}$</li> <li>Both $A$ and $B$ are true.</li>  <li>Neither A nor B is true.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426663",
+          "text": "Which of the following conditions must be satisfied by the vectors $\\mathbf{a}_{1}, \\mathbf{a}_{2} \\in \\mathbb{R}^{m}$ for the matrix<br />$$<br />\\frac{\\mathbf{a}_{1} \\mathbf{a}_{1}^{T}}{\\mathbf{a}_{1}^{T} \\mathbf{a}_{1}}+\\frac{\\mathbf{a}_{2} \\mathbf{a}_{2}^{T}}{\\mathbf{a}_{2}^{T} \\mathbf{a}_{2}}<br />$$<br />to be the projection matrix onto the span of $\\mathbf{a}_{1}$ and $\\mathbf{a}_{2}$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\mathbf{a}_{1}$ and $\\mathbf{a}_{2}$ are independent.</li><li> $\\mathbf{a}_{1}$ and $\\mathbf{a}_{2}$ are orthogonal.</li> <li>$\\mathbf{a}_{1}$ and $\\mathbf{a}_{2}$ are parallel.</li>  <li>$\\mathbf{a}_{1}$ and $\\mathbf{a}_{2}$ are orthonormal.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426669",
+          "text": "Let $W=\\operatorname{Span}\\left\\{\\left[\\begin{array}{r}1 \\\\ -1 \\\\ 1 \\\\ -1\\end{array}\\right],\\left[\\begin{array}{r}1 \\\\ -1 \\\\ -1 \\\\ 1\\end{array}\\right],\\left[\\begin{array}{r}1 \\\\ 1 \\\\ -1 \\\\ -1\\end{array}\\right]\\right\\}$. Compute $\\operatorname{proj}_W\\left[\\begin{array}{l}1 \\\\ 2 \\\\ 3 \\\\ 4\\end{array}\\right]$<br />    A. $\\cfrac{1}{2}\\left[\\begin{array}{l}-1 \\\\ 1 \\\\ -1 \\\\ 1\\end{array}\\right]$<br />    B. $\\left[\\begin{array}{l}2 \\\\ 0 \\\\ 0 \\\\ -2\\end{array}\\right]$<br />    C. $\\cfrac{1}{2}\\left[\\begin{array}{l}-3 \\\\ -1 \\\\ 1 \\\\ 3\\end{array}\\right]$<br />    D. $\\left[\\begin{array}{l}-1 \\\\ -1 \\\\ 1 \\\\ 1\\end{array}\\right]$",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426651",
+          "text": "<p>Given that $A$ is a symmetric matrix and $P$ is the projection matrix onto $N(A)$, what is $P A$ ?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$A$</li><li>$P$</li><li>$I$ (the identity matrix)</li><li>0 (the zero matrix)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426649",
+          "text": "Suppose that $\\mathbf{x}, \\mathbf{y}$, and $\\mathbf{z}$ are independent vectors in $\\mathbf{R}^{3}$. Moreover, assume that $\\mathbf{x}$ and $\\mathbf{y}$ are orthonormal (i.e., $\\|\\mathbf{x}\\|=1,\\|\\mathbf{y}\\|=1$, and $\\mathbf{x} \\cdot \\mathbf{y}=0$ ).<br />What is the linear combination of $\\mathbf{x}$ and $\\mathbf{y}$ that is closest to $\\mathbf{z}$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $(\\mathbf{z} \\cdot \\mathbf{x}) \\mathbf{x}+(\\mathbf{z} \\cdot \\mathbf{y}) \\mathbf{y}$</li><li> $(\\mathbf{z} \\cdot \\mathbf{x}) \\mathbf{y}+(\\mathbf{z} \\cdot \\mathbf{y}) \\mathbf{x}$</li> <li>$\\|\\mathbf{z}\\| \\mathbf{x}+\\|\\mathbf{z}\\| \\mathbf{y}$</li>  <li>$(\\mathbf{z} \\cdot \\mathbf{x}) \\mathbf{x}-(\\mathbf{z} \\cdot \\mathbf{y}) \\mathbf{y}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426665",
+          "text": "Consider the matrices<br />$$<br />A=\\left[\\begin{array}{ccccc}<br />2 & 4 & -2 & 1 & 11 \\\\<br />3 & 6 & -3 & 1 & 15 \\\\<br />-1 & -2 & 1 & 2 & 2 \\\\<br />4 & 8 & -4 & 4 & 28<br />\\end{array}\\right] \\quad \\text { and } \\quad B=\\left[\\begin{array}{ccccc}<br />1 & 2 & -1 & 0 & 4 \\\\<br />0 & 0 & 0 & 1 & 3 \\\\<br />0 & 0 & 0 & 0 & 0 \\\\<br />0 & 0 & 0 & 0 & 0<br />\\end{array}\\right]<br />$$<br />where $B$ is the reduced echelon form of $A$. A basis for the orthogonal complement of the row space of $A$ is given by<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left\\{\\left[\\begin{array}{c}2 \\\\ 3 \\\\ -1 \\\\ 4\\end{array}\\right],\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 2 \\\\ 4\\end{array}\\right]\\right\\}$</li><li> $\\left\\{\\left[\\begin{array}{c}-2 \\\\ 1 \\\\ 0 \\\\ 0 \\\\ 0\\end{array}\\right],\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 1 \\\\ 0 \\\\ 0\\end{array}\\right],\\left[\\begin{array}{c}-4 \\\\ 0 \\\\ 0 \\\\ -3 \\\\ 1\\end{array}\\right]\\right\\}$</li> <li>$\\left\\{\\left[\\begin{array}{c}-1 \\\\ -2 \\\\ 1 \\\\ 0 \\\\ -4\\end{array}\\right],\\left[\\begin{array}{c}0 \\\\ 0 \\\\ 0 \\\\ -1 \\\\ -3\\end{array}\\right]\\right\\}$</li>  <li>$\\left\\{\\left[\\begin{array}{c}-1 \\\\ -2 \\\\ 1 \\\\ 2 \\\\ 2\\end{array}\\right],\\left[\\begin{array}{c}4 \\\\ 8 \\\\ -4 \\\\ 4 \\\\ 28\\end{array}\\right]\\right\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426646",
+          "text": "Which of the following methods correctly determines the matrix $P_{V}$ for orthogonal projection onto the plane $V$ defined by the equation $x+2 y-z=0$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> Method A: Find a basis for $V$, put your basis vectors into a matrix $A$, and use the formula $P_{V}=$ $A\\left(A^{T} A\\right)^{-1} A^{T}$.</li><li> Method B: Compute the matrix for orthogonal projection $P_{V^{\\perp}}$ onto the line $V^{\\perp}$ using the formula $\\frac{v v^{T}}{v \\cdot v}$, where $v=(1,2,-1)$, and subtract: $P_{V}=I_{3}-P_{V^{\\perp}}$.</li> <li>Method $\\mathrm{C}$ : Find an orthonormal basis for $V$, put your basis vectors into a matrix $Q$, and use the formula $P_{V}=Q Q^{T}$.</li>  <li>None of the above methods.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426653",
+          "text": "Find the projection of the vector $(1,-1,0)^{T}$ onto the plane $x+y+z=0$ in $\\mathbb{R}^{3}$.<br />    <br /><ol style=\"list-style-type:upper-alpha\"><li> $(1,-1,2)^{T}$</li><li> $(2,1,-3)^{T}$</li> <li>$(1,-1,0)^{T}$</li>  <li>$(2,-2,0)^{T}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426673",
+          "text": "The closest point to $\\left[\\begin{array}{c}3 \\\\ -1 \\\\ 5\\end{array}\\right]$ in the subspace of $\\mathbb{R}^{3}$ spanned by $\\left[\\begin{array}{c}1 \\\\ -1 \\\\ 1\\end{array}\\right]$ and $\\left[\\begin{array}{l}2 \\\\ 4 \\\\ 2\\end{array}\\right]$ is<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left[\\begin{array}{c}3 \\\\ -1 \\\\ 4\\end{array}\\right]$</li><li> $\\left[\\begin{array}{c}3 \\\\ 1 / 2 \\\\ 0\\end{array}\\right]$</li> <li>$\\left[\\begin{array}{l}3 \\\\ 0 \\\\ 5\\end{array}\\right]$</li>  <li>$\\left[\\begin{array}{c}4 \\\\ -1 \\\\ 4\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426659",
+          "text": "If $P$ projects onto $C\\left(A^{T}\\right)$, the row space of some $m \\times n$ matrix $A$, then $(I-P)^{2} x$ for any $x \\in \\mathbb{R}^{n}$ gives a vector in which fundamental subspace?<br />    <br /><ol style=\"list-style-type:upper-alpha\"><li> $C\\left(A^{T}\\right)$</li><li> $N(A)$</li> <li>$C(A)$</li>  <li>$N\\left(A^{T}\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426667",
+          "text": "Consider the orthogonal vectors $\\vec{w}_{1}=\\left[\\begin{array}{c}1 \\\\ 0 \\\\ -1\\end{array}\\right]$ and $\\vec{w}_{2}=\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right]$. The distance from the vector $\\vec{x}=\\left[\\begin{array}{c}1 \\\\ 3 \\\\ -1\\end{array}\\right]$ to $W=\\operatorname{Span}\\left\\{\\vec{w}_{1}, \\vec{w}_{2}\\right\\}$ is:<br />    <br /><ol style=\"list-style-type:upper-alpha\"><li> $\\sqrt{6}$</li><li> 1</li> <li>$\\sqrt{2}$</li>  <li>$\\sqrt{3}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_4,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        }
+      ]
+    }
+  ]
+}

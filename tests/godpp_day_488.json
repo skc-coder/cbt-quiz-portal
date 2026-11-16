@@ -1,0 +1,70 @@
+{
+  "name": "Day 335 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "542151",
+          "text": "<p data-start=\"0\" data-end=\"46\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"48\" data-end=\"130\">Semaphore $\\texttt{wait()}$ and $\\texttt{signal()}$ operations must be atomic.<br>&nbsp;</li><li data-start=\"132\" data-end=\"219\">A counting semaphore can represent the number of available instances of a resource.<br>&nbsp;</li><li data-start=\"221\" data-end=\"313\">In a blocking semaphore implementation, $\\texttt{wait()}$ may block the calling process.<br>&nbsp;</li><li data-start=\"315\" data-end=\"396\" data-is-last-node=\"\" data-is-only-node=\"\">The $\\texttt{signal()}$ operation always blocks the process that executes it.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 335"
+        },
+        {
+          "post_id": "542150",
+          "text": "<p data-start=\"0\" data-end=\"38\">A semaphore $S$ is initialized to $1$.</p><p data-start=\"40\" data-end=\"80\">The following operations occur in order:</p><p data-start=\"82\" data-end=\"100\">$\\texttt{wait(S)}$</p><p data-start=\"102\" data-end=\"120\">$\\texttt{wait(S)}$</p><p data-start=\"122\" data-end=\"142\">$\\texttt{signal(S)}$</p><p data-start=\"144\" data-end=\"162\">$\\texttt{wait(S)}$</p><p data-start=\"164\" data-end=\"184\">$\\texttt{signal(S)}$</p><p data-start=\"186\" data-end=\"206\">$\\texttt{signal(S)}$</p><p data-start=\"208\" data-end=\"324\">Assume the blocking implementation where $\\texttt{wait(S)}$ decrements $S$, and $\\texttt{signal(S)}$ increments $S$.</p><p data-start=\"326\" data-end=\"394\">What are the final value of $S$ and the number of blocked processes?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"396\" data-end=\"432\">$S = 1$, blocked processes $= 0$<br>&nbsp;</li><li data-start=\"434\" data-end=\"470\">$S = 0$, blocked processes $= 1$<br>&nbsp;</li><li data-start=\"472\" data-end=\"509\">$S = -1$, blocked processes $= 1$<br>&nbsp;</li><li data-start=\"511\" data-end=\"547\" data-is-last-node=\"\" data-is-only-node=\"\">$S = 2$, blocked processes $= 0$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 335"
+        },
+        {
+          "post_id": "542149",
+          "text": "<p data-start=\"0\" data-end=\"34\">Two semaphores are initialized as:</p><p data-start=\"36\" data-end=\"43\">$S = 1$</p><p data-start=\"45\" data-end=\"52\">$T = 0$</p><p data-start=\"54\" data-end=\"87\">Two processes execute repeatedly:</p><p data-start=\"89\" data-end=\"102\"><strong data-start=\"89\" data-end=\"102\">Process P</strong></p><p data-start=\"104\" data-end=\"123\">$\\texttt{wait(S);}$</p><p data-start=\"127\" data-end=\"149\">$\\texttt{print(\"A\");}$</p><p data-start=\"153\" data-end=\"174\">$\\texttt{signal(T);}$</p><p data-start=\"178\" data-end=\"191\"><strong data-start=\"178\" data-end=\"191\">Process Q</strong></p><p data-start=\"193\" data-end=\"212\">$\\texttt{wait(T);}$</p><p data-start=\"216\" data-end=\"238\">$\\texttt{print(\"B\");}$</p><p data-start=\"242\" data-end=\"263\" data-is-last-node=\"\" data-is-only-node=\"\">$\\texttt{signal(S);}$</p><p data-start=\"4772\" data-end=\"4835\">Which of the following can be the first six characters printed?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4837\" data-end=\"4849\">$\\texttt{AAABBB}$<br>&nbsp;</li><li data-start=\"4851\" data-end=\"4863\">$\\texttt{ABABAB}$<br>&nbsp;</li><li data-start=\"4865\" data-end=\"4877\">$\\texttt{BABABA}$<br>&nbsp;</li><li data-start=\"4879\" data-end=\"4891\">$\\texttt{AABBAB}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 335"
+        },
+        {
+          "post_id": "542147",
+          "text": "<section dir=\"auto\" data-turn-id=\"request-WEB:7f62bf49-98bf-43e8-9b83-41f14fde5617-0\" data-turn-id-container=\"request-WEB:7f62bf49-98bf-43e8-9b83-41f14fde5617-0\" data-testid=\"conversation-turn-2\" data-turn=\"assistant\"><p data-start=\"0\" data-end=\"47\">A counting semaphore $S$ is initialized to $2$.</p><p data-start=\"49\" data-end=\"169\">Three processes execute $\\texttt{wait(S)}$ one after another. No process executes $\\texttt{signal(S)}$ during this time.</p><p data-start=\"171\" data-end=\"281\">Assume that $\\texttt{wait(S)}$ first decrements $S$ and blocks the process if the resulting value is negative.</p><p data-start=\"283\" data-end=\"372\">What are the value of $S$ and the number of blocked processes after the three operations?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"374\" data-end=\"410\">$S = 0$, blocked processes $= 1$<br>&nbsp;</li><li data-start=\"412\" data-end=\"449\">$S = -1$, blocked processes $= 1$<br>&nbsp;</li><li data-start=\"451\" data-end=\"488\">$S = -1$, blocked processes $= 2$<br>&nbsp;</li><li data-start=\"490\" data-end=\"526\" data-is-last-node=\"\" data-is-only-node=\"\">$S = 0$, blocked processes $= 0$</li></ol></section>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 335"
+        },
+        {
+          "post_id": "542148",
+          "text": "<p data-start=\"3987\" data-end=\"4020\">Two concurrent processes execute:</p><p data-start=\"4022\" data-end=\"4035\"><strong data-start=\"4022\" data-end=\"4035\">Process A</strong></p><p data-start=\"4037\" data-end=\"4042\">$A_1$</p><p data-start=\"4044\" data-end=\"4049\">$A_2$</p><p data-start=\"4051\" data-end=\"4056\">$A_3$</p><p data-start=\"4058\" data-end=\"4063\">$A_4$</p><p data-start=\"4065\" data-end=\"4078\"><strong data-start=\"4065\" data-end=\"4078\">Process B</strong></p><p data-start=\"4080\" data-end=\"4085\">$B_1$</p><p data-start=\"4087\" data-end=\"4092\">$B_2$</p><p data-start=\"4094\" data-end=\"4099\">$B_3$</p><p data-start=\"4101\" data-end=\"4106\">$B_4$</p><p data-start=\"4108\" data-end=\"4146\">A semaphore $S$ is initialized to $0$.</p><p data-start=\"4148\" data-end=\"4212\">The requirement is that $A_2$ must complete before $B_4$ begins.</p><p data-start=\"4214\" data-end=\"4262\">Where should the semaphore operations be placed?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4264\" data-end=\"4318\">$\\texttt{wait(S)}$ after $A_2$ and $\\texttt{signal(S)}$ before $B_4$<br>&nbsp;</li><li data-start=\"4320\" data-end=\"4374\">$\\texttt{signal(S)}$ after $A_2$ and $\\texttt{wait(S)}$&nbsp;before $B_4$<br>&nbsp;</li><li data-start=\"4376\" data-end=\"4430\">$\\texttt{wait(S)}$ before $A_2$ and $\\texttt{signal(S)}$ after $B_4$<br>&nbsp;</li><li data-start=\"4432\" data-end=\"4486\">$\\texttt{signal(S)}$ before $A_2$ and $\\texttt{wait(S)}$ after $B_4$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 335"
+        }
+      ]
+    }
+  ]
+}

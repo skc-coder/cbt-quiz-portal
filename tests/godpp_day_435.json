@@ -1,0 +1,70 @@
+{
+  "name": "Day 303 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "536227",
+          "text": "<p>A Boolean operator $\\odot$ is defined by the following truth table:</p><p>\\[<br>\\begin{array}{|c|c|c|}<br>\\hline<br>A & B & A \\odot B \\\\<br>\\hline<br>0 & 0 & 1 \\\\<br>0 & 1 & 0 \\\\<br>1 & 0 & 0 \\\\<br>1 & 1 & 0\\\\<br>\\hline<br>\\end{array}<br>\\]</p><p>Which statement is correct about the set {$\\odot$}?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It is functionally complete because $\\odot$ is equivalent to NOR<br>&nbsp;</li><li>It is not functionally complete because it cannot generate NOT<br>&nbsp;</li><li>It is not functionally complete because it behaves like XOR<br>&nbsp;</li><li>It is functionally complete only if OR is also given</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 303"
+        },
+        {
+          "post_id": "536218",
+          "text": "<p>For a Boolean function $f(A,B,C)=\\Sigma m(1,2,5,7)$, which expression correctly represents the standard SOP form?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$f=A'B'C+A'BC'+AB'C+ABC$<br>&nbsp;</li><li>$f=A'B'C'+A'BC+AB'C'+ABC'$<br>&nbsp;</li><li>$f=A'B'C+A'BC+AB'C+ABC'$<br>&nbsp;</li><li>$f=A'B'C'+A'BC'+AB'C+ABC$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 303"
+        },
+        {
+          "post_id": "536225",
+          "text": "<p>Which of the following statements is correct about the set {XOR, NOT}?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It is functionally complete because it contains NOT<br>&nbsp;</li><li>It is functionally complete because XOR can produce AND<br>&nbsp;</li><li>It is not functionally complete because it cannot produce non-linear functions like AND<br>&nbsp;</li><li>It is functionally complete only for three-variable functions</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 303"
+        },
+        {
+          "post_id": "536222",
+          "text": "<p>Let $A \\uparrow B$ denote the NAND operation, where:</p><p>$A \\uparrow B=(AB)'$</p><p>Which set of expressions correctly proves that NAND alone is functionally complete?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A'=A\\uparrow A$, $\\quad AB=(A\\uparrow B)\\uparrow(A\\uparrow B)$, $\\quad A+B=(A\\uparrow A)\\uparrow(B\\uparrow B)$<br>&nbsp;</li><li>$A'=A\\uparrow B$, $\\quad AB=A\\uparrow A$, $\\quad A+B=B\\uparrow B$<br>&nbsp;</li><li>$A'=A\\uparrow A$, $\\quad AB=A\\uparrow B$, $\\quad A+B=A\\uparrow B$<br>&nbsp;</li><li>$A'=A\\uparrow B$, $\\quad AB=(A\\uparrow A)\\uparrow B$, $\\quad A+B=A\\uparrow A$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 303"
+        },
+        {
+          "post_id": "536216",
+          "text": "<p>A set of Boolean operations is called functionally complete if:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It contains only AND and OR gates<br>&nbsp;</li><li>It can be used to express every Boolean function<br>&nbsp;</li><li>It contains XOR operation<br>&nbsp;</li><li>It can express only SOP expressions</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 303"
+        }
+      ]
+    }
+  ]
+}

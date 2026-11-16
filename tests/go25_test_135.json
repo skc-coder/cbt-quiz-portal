@@ -1,0 +1,352 @@
+{
+  "name": "GATE Overflow CS Test Series 2025 | Calculus | Shallow Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "441815",
+          "text": "When trying to identify the maximum of a continuous function $ f(x) $, the necessary and sufficient conditions that must hold at a point $ x_0 $ for it to be a local maximum are:<br /><ol style=\"list-style-type:upper-alpha\"><li> $ f'(x_0) > 0 \\text{ and } f''(x_0) = 0 $</li><li> $ f'(x_0) < 0 \\text{ and } f''(x_0) = 0 $</li> <li>$ f'(x_0) = 0 \\text{ and } f''(x_0) < 0 $</li>  <li>$ f'(x_0) = 0 \\text{ and } f''(x_0) > 0 $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441845",
+          "text": "<p>Determine the value of the following expression:<br>$$<br>\\lim_{x \\to 0} \\frac{x^2 + 2x - 2}{x^3 + x}<br>$$<br>Which of the following options is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>$ 1 $</li><li>$ 0 $</li><li>$ \\frac{1}{2} $</li><li>The limit does not exist</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-calculus-shallow-1,limits,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441835",
+          "text": "Determine the value of the following limit:<br />$$<br />\\lim_{x \\to \\infty} a^x \\sin\\left(\\frac{2b}{a^x}\\right), \\quad \\text{where} \\, a, b > 1.<br />$$<br /><ol style=\"list-style-type:upper-alpha\"><li> $ \\log a $</li><li> $ b $</li> <li>$ 2b $</li>  <li>$ a \\log_e b $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,limits,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441801",
+          "text": "<p>Evaluation of the following integral<br>$$<br>I = \\int_1^3 \\frac{\\cos(\\log x)}{x} \\, dx<br>$$<br>gives___.</p><ol style=\"list-style-type:upper-alpha\"><li>$ \\sin(\\log 3) $</li><li>$ \\cos(\\log 3) $</li><li>$ \\sin(\\log 2) $</li><li>$ \\cos(\\log 2) $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,integration,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441813",
+          "text": "Consider the function\n$$\nf(x) = \\frac{x^2 - 4}{x^2 + 4}\n$$\nFind the value of $ x $ in the interval $-20 \\leq \\ x \\leq 20$ where $ f(x) $ attains its minimum.",
+          "type": "Numerical",
+          "answer": "0:0",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-calculus-shallow-1,numerical-answers,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441853",
+          "text": "Consider the function $ f(x) = \\sin x $ on the interval $ [0, \\pi] $ for which value of $ c $ does $Lagrange's$ Mean Value Theorem apply to $f(x)$?\n\nA. $ \\dfrac{\\pi}{4} $\n\nB. $ \\dfrac{\\pi}{2} $\n\nC. $ \\dfrac{2}{\\pi} $\n\nD. $ \\pi - 1 $",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-calculus-shallow-1,mean-value-theorem,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441807",
+          "text": "Compute the value of<br />$$<br />\\int_{0}^{\\frac{\\pi}{2}} \\frac{\\sin^6 x}{\\cos^6 x + \\sin^6 x} \\, dx<br />$$<br /><ol style=\"list-style-type:upper-alpha\"><li> $ \\pi $</li><li> $ \\frac{\\pi}{4} $</li> <li>$ 1 $</li>  <li>$ \\frac{\\pi}{2} $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,integration,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441837",
+          "text": "<p>Determine the value of the limit as $x$ approaches 4 for the expression:<br>$$<br>\\lim_{x \\to 4} \\frac{x - 4}{\\left| 4 - x \\right|}<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>1</li><li>Limit does not exist</li><li>-1</li><li>0</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-calculus-shallow-1,limits,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441809",
+          "text": "For the function $ f(x) = x^2 - 4x + 3 $, determine the value of $ c $ in the interval $ [1, 3] $ that satisfies the conditions of $Rolle's Theorem.$<br /><ol style=\"list-style-type:upper-alpha\"><li> $ c = \\frac{1}{2} $</li><li> $ c = 1 $</li> <li>$ c = 2 $</li>  <li>$ c = -1 $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,mean-value-theorem,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441803",
+          "text": "Evaluate the integral\n$$\nI = \\int_0^1 \\frac{\\sqrt{\\tan^{-1}(x)}}{1 + x^2} \\, dx\n$$\nA. $ \\dfrac{\\pi^{3/2}}{12} $\n\nB. $ \\dfrac{\\pi^{2}}{8} $\n\nC. $ \\dfrac{\\pi}{4} $\n\nD. $ \\dfrac{\\pi}{6} $",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,integration,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441833",
+          "text": "<p>Let $g(x)$ be the function defined as<br>$$<br>g(x) =<br>\\begin{cases}<br>\\frac{m \\sin x}{x - \\pi}, &amp; x \\neq \\pi, \\\\<br>2, &amp; x = \\pi.<br>\\end{cases}<br>$$<br>If $\\lim_{x \\to \\pi} g(x) = g(\\pi)$, the value of m is</p><ol style=\"list-style-type:upper-alpha\"><li>2</li><li>$ 2\\sqrt{2} $</li><li>$ \\sqrt{2} $</li><li>-2</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,limits,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441823",
+          "text": "If $ f(x) = \\dfrac{1}{3x^2 + 5x + 2} $, then its maximum value is:\n\nA. $ 0.5 $\n\nB. $ -12 $\n\nC. $ 12 $\n\nD. It does not have a maximum value",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441841",
+          "text": "<p>Evaluate the limit as $ x \\to \\frac{\\pi}{2} $ for the expression:<br>$$<br>\\lim_{x \\to \\frac{\\pi}{2}} \\frac{\\sqrt{1 - \\cos(4x)}}{\\sqrt{2} \\cdot ({\\frac{\\pi}{2} - x})}<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>1</li><li>2</li><li>-2</li><li>Limit does not exist.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-calculus-shallow-1,limits,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441797",
+          "text": "<p>Evaluate the integral<br>$$<br>I = \\int_0^1 \\frac{1 - x}{1 + x} \\, dx<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>$ \\log(2) - 1 $</li><li>$ 2\\log(2) - 1 $</li><li>$ \\log(2) $</li><li>$ 2\\log(2) $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,integration,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441855",
+          "text": "<p>If $ p(x) = x^{200} - x^{199} + x^{198} - x^{197} + \\dots&nbsp; -x + 1 $, then $ p'(1) $ is equal to:</p><ol style=\"list-style-type:upper-alpha\"><li>201</li><li>199</li><li>100</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-calculus-shallow-1,differentiation,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441851",
+          "text": "Consider the function $ f: \\mathbb{R} \\to \\mathbb{R} $ defined by $ f(x) = x^2 + \\sin x $. Which of the following statements about the behavior of $ f(x) $ is correct?<br /><ol style=\"list-style-type:upper-alpha\"><li> $ f(x) $ is a decreasing function for all $ x \\in \\mathbb{R} $.</li><li> $ f(x) $ is not monotonic for small values of $ x > 0 $.</li> <li>$ f(x) $ attains a local maximum at $ x = 0 $. </li>  <li>$ f(x) $ does not attain a local minimum at $ x = 0 $.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-calculus-shallow-1,maxima-minima,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441831",
+          "text": "Find $ k $ such that,  $\n\\lim_{x \\to 2} f(x)  $ exists,$ \\text{ where } f(x) =\n\\begin{cases}\n4x + 3, & \\text{if } x \\leq 2 \\\\\nx + k, & \\text{if } x > 2\n\\end{cases}\n$\n\nA. $2$\n\nB. $-2$\n\nC. $5$\n\nD. $9$",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,limits,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441849",
+          "text": "<p>For the following function $f(x) = \\sec x \\left( 4 \\sin 2x - 6 \\cos^2 x \\right)$ determine its least value.</p><ol style=\"list-style-type:upper-alpha\"><li>$-10$<br>&nbsp;&nbsp;</li><li>$10$<br>&nbsp;&nbsp;</li><li>$ 2\\sqrt{5} $<br>&nbsp;&nbsp;</li><li>$ -5\\sqrt{2} $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-calculus-shallow-1,maxima-minima,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441843",
+          "text": "Evaluate the following limit involving the difference of tangents:<br />$$<br />\\lim_{x \\to 0} \\frac{\\tan(4 + x) - \\tan(4 - x)}{x}<br />$$<br />What is the value of this limit?<br /><ol style=\"list-style-type:upper-alpha\"><li> $ 2 \\sec^2 4 $</li><li> $ 4 \\sec^2 4 $</li> <li>$ 4 \\sin 4 $</li>  <li>Does not exist</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-calculus-shallow-1,limits,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441811",
+          "text": "Which of the following functions is strictly increasing for $ x \\in \\mathbb{R} $?<br /><ol style=\"list-style-type:upper-alpha\"><li> $ f(x) = x^3 - 3x + 1 $</li><li> $ f(x) = e^x $</li> <li>$ f(x) = \\dfrac{x^2}{x - 1} $</li>  <li>$ f(x) = -x^2 + 4x - 5 $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441817",
+          "text": "The maximum value of the function<br />$$<br />f(x) = x^3 - 6x^2 + 9x + 4<br />$$<br />in the interval $ 0 \\leq x \\leq 4 $ is _________.",
+          "type": "Numerical",
+          "answer": "8:8",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-calculus-shallow-1,numerical-answers,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441847",
+          "text": "<p>For which positive integer $ n $ does the following equation hold?<br>$$<br>\\lim_{x \\to 1} \\frac{\\ln(x^n + 1) - \\ln(2)}{x - 1} = 3<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>2</li><li>4</li><li>6</li><li>8</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-calculus-shallow-1,limits,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441805",
+          "text": "<p>Which of the following function(s) is/are not continous at $x = 0?$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Mark all the appropriate choices)</p><ol style=\"list-style-type:upper-alpha\"><li>$f(x) = \\left\\{<br>\\begin{matrix}<br>\\frac{\\sin 3x}{x};&amp; \\text{when } x \\neq 0 \\\\<br>3;&amp; \\text{when } x = 0<br>\\end{matrix}\\right.$</li><li>$f(x) = \\left\\{<br>\\begin{matrix}<br>e^\\frac{1}{x};&amp; \\text{when } x \\neq 0 \\\\<br>1;&amp; \\text{when } x = 0<br>\\end{matrix}\\right.$</li><li>$f(x) = \\left\\{<br>\\begin{matrix}<br>\\frac{1 - \\cos x}{x^2};&amp; \\text{when } x \\neq 0 \\\\<br>1;&amp; \\text{when } x = 0<br>\\end{matrix}\\right.$</li><li>$f(x) = \\left\\{<br>\\begin{matrix}<br>\\frac{x - |x|}{2};&amp; \\text{when } x \\neq 0 \\\\<br>2;&amp; \\text{when } x = 0<br>\\end{matrix}\\right.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-calculus-shallow-1,continuity,multiple-selects,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441827",
+          "text": "<p>Given that $ f(x) = \\dfrac{4 - 8x}{3x + 4} $, let:<br>$$<br>l = \\lim_{x \\to 2} f(x) \\quad \\text{and} \\quad m = \\lim_{x \\to 0} f(x)<br>$$<br>Find the equation whose roots are $ \\dfrac{1}{l} $ and $ \\dfrac{1}{m} $.</p><ol style=\"list-style-type:upper-alpha\"><li>$ 6x^2 - x - 5 = 0 $</li><li>$ 6x^2 + x - 5 = 0 $</li><li>$ 6x^2 - x + 5 = 0 $</li><li>$ 6x^2 + x + 5 = 0 $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,limits,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441825",
+          "text": "If\n$$\n\\lim_{x \\to 0^+} kx \\cdot \\frac{1}{\\sqrt{\\sin^2 x}} = \\lim_{x \\to 0^+} x \\cdot \\text{cosec}(kx),\n$$\nwhat is the absolute value of $k $ ?",
+          "type": "Numerical",
+          "answer": "1:1",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-calculus-shallow-1,numerical-answers,limits,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441819",
+          "text": "Let $f(x)$ be the function defined as <br />$$<br />f(x) = \\frac{x}{\\log_e x} \\quad \\left\\{<br />\\begin{array}{ll}<br />\\text{for} \\quad x > 0, \\, x \\neq 1.<br />\\end{array}<br />\\right.<br />$$<br />f has:<br /><ol style=\"list-style-type:upper-alpha\"><li> local maximum</li><li> local minimum</li> <li>no local maximum</li>  <li>no extremum</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441821",
+          "text": "The minimum value of the function $$f(x) = \\frac{2x^2}{5} + \\frac{1}{x} + 6$$ occurs at:<br /><ol style=\"list-style-type:upper-alpha\"><li> $ x = 1 $</li><li> $ x = \\sqrt[3]{\\frac{5}{4}} $</li> <li>$ x = 2 $</li>  <li>$ x = -1 $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441799",
+          "text": "The Value of the following integral\n$$\nI = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\left( 2 \\sin |x| + \\cos |x| \\right) \\, dx\n$$\nis______.",
+          "type": "Numerical",
+          "answer": "6:6",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-calculus-shallow-1,numerical-answers,integration,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441829",
+          "text": "<p>Evaluate the following limit, where&nbsp;$\\left\\lfloor&nbsp; x\\right\\rfloor$ represents the floor function:<br>$$<br>\\lim_{x \\to 2} \\frac{\\log\\left(\\left\\lfloor x - 1 \\right\\rfloor\\right)}{\\left\\lfloor x - 2 \\right\\rfloor}<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>1</li><li>0</li><li>-1</li><li>Limit does not Exist.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-calculus-shallow-1,limits,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "441839",
+          "text": "<p>Determine the value of the limit:<br>$$<br>\\lim_{x \\to 1} \\dfrac{1 - \\dfrac{1}{x}}{\\sin{2\\pi (x - 1)}}<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>$2\\pi$</li><li>1</li><li>$\\dfrac{1}{2\\pi}$</li><li>-1</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-calculus-shallow-1,limits,one-mark",
+          "category": "Calculus"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 255 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "529976",
+          "text": "<p data-start=\"0\" data-end=\"1122\">A login attempt is either genuine or fraudulent. The probability that an attempt is genuine is $0.96$, so the probability that it is fraudulent is $0.04$. If the attempt is genuine, the password is correct with probability $0.98$; if it is fraudulent, the password is correct with probability $0.20$. After the password step, a device check is performed. If the attempt is genuine and the password is correct, the device check passes with probability $0.90$. If the attempt is fraudulent and the password is correct, the device check passes with probability $0.25$. If the password is incorrect, the device check passes with probability $0.40$ for a genuine attempt and $0.05$ for a fraudulent attempt. The system grants access if the password is correct and the device check passes. Also, if the password is incorrect but the device check passes, the system grants access only if a backup code is accepted. The backup code is accepted with probability $0.50$ for a genuine attempt and $0.02$ for a fraudulent attempt. Given that access was granted, what is the probability that the attempt was fraudulent?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1124\" data-end=\"1181\">$0.00237$<br>&nbsp;</li><li data-start=\"1124\" data-end=\"1181\">$0.04000$<br>&nbsp;</li><li data-start=\"1124\" data-end=\"1181\">$0.05080$<br>&nbsp;</li><li data-start=\"1124\" data-end=\"1181\">$0.14560$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 255"
+        },
+        {
+          "post_id": "529943",
+          "text": "<p data-start=\"0\" data-end=\"389\">Four events $A$, $B$, $C$, and $D$ are mutually independent. Suppose</p><ul><li data-start=\"0\" data-end=\"389\">$P(A\\cap B\\cap C\\cap D)=\\frac{9}{80}$&nbsp;<br>&nbsp;</li><li data-start=\"0\" data-end=\"389\">$P(A^c\\cap B\\cap C\\cap D)=\\frac{27}{160}$&nbsp;<br>&nbsp;</li><li data-start=\"0\" data-end=\"389\">$P(A\\cap B^c\\cap C\\cap D)=\\frac{3}{40}$<br>&nbsp;</li><li data-start=\"0\" data-end=\"389\">$P(A\\cap B\\cap C^c\\cap D)=\\frac{3}{80}$<br>&nbsp;</li><li data-start=\"0\" data-end=\"389\">$P(A\\cap B\\cap C\\cap D^c)=\\frac{27}{400}$<br>&nbsp;</li></ul><p>If $x=P(A^c\\cap B^c\\cap C\\cap D^c)$ and $y=P(A\\cap B^c\\cap C^c\\cap D^c)$, then what is $x+y$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"391\" data-end=\"474\">$\\frac{3}{40}$<br>&nbsp;</li><li data-start=\"391\" data-end=\"474\">$\\frac{33}{400}$<br>&nbsp;</li><li data-start=\"391\" data-end=\"474\">$\\frac{9}{80}$<br>&nbsp;</li><li data-start=\"391\" data-end=\"474\">$\\frac{57}{400}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 255"
+        },
+        {
+          "post_id": "529938",
+          "text": "<p data-start=\"0\" data-end=\"238\">Suppose we want to compute $P(H|E_1,E_2,E_3)$, where no conditional independence assumptions are allowed. Assume all probabilities needed are defined and $0&lt;P(H)&lt;1$. Which of the following set(s) of numbers are sufficient?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"240\" data-end=\"291\">$P(H)$, $P(E_1,E_2,E_3|H)$, $P(E_1,E_2,E_3|H^c)$<br>&nbsp;</li><li data-start=\"293\" data-end=\"368\">$P(E_1,E_2,E_3)$, $P(H)$, $P(E_1|H)$, $P(E_2|E_1,H)$, $P(E_3|E_1,E_2,H)$<br>&nbsp;</li><li data-start=\"370\" data-end=\"433\">$P(E_1,E_2,E_3)$, $P(H)$, $P(E_1|H)$, $P(E_2|H)$, $P(E_3|H)$<br>&nbsp;</li><li data-start=\"435\" data-end=\"494\">$P(H)$, $P(E_1,E_2|H)$, $P(E_3|H)$, $P(E_1,E_2,E_3|H^c)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 255"
+        },
+        {
+          "post_id": "529955",
+          "text": "<p data-start=\"0\" data-end=\"149\">Let $A$, $B$, and $C$ be events, and assume all conditional probabilities below are defined. Which statement is <strong>NOT</strong> necessarily true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"151\" data-end=\"224\">If $P(A|B)=P(A|B^c)$ and $0&lt;P(B)&lt;1$, then $A$ and $B$ are independent.<br>&nbsp;</li><li data-start=\"226\" data-end=\"266\">If $P(A|B)&gt;P(A)$, then $P(B|A)&gt;P(B)$.<br>&nbsp;</li><li data-start=\"268\" data-end=\"332\">If $P(A|B)&gt;P(A)$ and $P(A|C)&gt;P(A)$, then $P(A|B\\cap C)&gt;P(A)$.<br>&nbsp;</li><li data-start=\"334\" data-end=\"377\">$P(A\\cap B\\cap C)\\geq P(A)+P(B)+P(C)-2$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 255"
+        },
+        {
+          "post_id": "529972",
+          "text": "<p data-start=\"0\" data-end=\"220\">A binary code $(X,Y,Z)$ is chosen at random from ${0,1}^3$, with all $8$ codes equally likely. Define the events $A={X=Y}$, $B={Y=Z}$, and $C={X=Z}$. Which of the following statements is/are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"222\" data-end=\"253\">$A$ and $B$ are independent.<br>&nbsp;</li><li data-start=\"255\" data-end=\"310\">$A$ and $B$ are conditionally independent given $C$.<br>&nbsp;</li><li data-start=\"312\" data-end=\"358\">$A$, $B$, and $C$ are mutually independent.<br>&nbsp;</li><li data-start=\"360\" data-end=\"382\">$P(A\\cup B|C^c)=1$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 255"
+        }
+      ]
+    }
+  ]
+}

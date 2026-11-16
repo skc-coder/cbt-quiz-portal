@@ -1,0 +1,40 @@
+{
+  "name": "Day 335 [Algorithms]",
+  "duration": 6,
+  "total_qs": 2,
+  "total_qs_one": 2,
+  "total_qs_two": 0,
+  "total_marks": 2,
+  "apti_num_qs": 0,
+  "technical_num_qs": 2,
+  "technical_marks": 2,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 2,
+      "marks": 2,
+      "question": [
+        {
+          "post_id": "542017",
+          "text": "<p data-start=\"3470\" data-end=\"3514\">Consider the following recursive C function:</p><pre data-start=\"3516\" data-end=\"3638\" data-rawcode=\"int fun(int n) {     if (n &lt;= 1) {         return n;     } else {         return fun(n - 1) + fun(n - 2);     } }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int fun(int n) {\n    if (n &lt;= 1) {\n        return n;\n    } else {\n        return fun(n - 1) + fun(n - 2);\n    }\n}</pre><p data-start=\"3640\" data-end=\"3680\">What is the time complexity of $\\texttt{fun(n)}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3682\" data-end=\"3736\">$O(n)$<br>&nbsp;</li><li data-start=\"3682\" data-end=\"3736\">$O(\\log n)$<br>&nbsp;</li><li data-start=\"3682\" data-end=\"3736\">$O(n^2)$<br>&nbsp;</li><li data-start=\"3682\" data-end=\"3736\">$O(2^n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 335"
+        },
+        {
+          "post_id": "542015",
+          "text": "<p data-start=\"2774\" data-end=\"2804\">Consider the following C code:</p><pre data-start=\"2806\" data-end=\"2982\" data-rawcode=\"int total = 0;  for (int i = 0; i &lt; n; i++) {     for (int j = 0; j &lt; n; j++) {         for (int k = 0; k &lt; n; k++) {             total += i * j * k;         }     } }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int total = 0;\n\nfor (int i = 0; i &lt; n; i++) {\n    for (int j = 0; j &lt; n; j++) {\n        for (int k = 0; k &lt; n; k++) {\n            total += i * j * k;\n        }\n    }\n}</pre><p data-start=\"2984\" data-end=\"3012\">What is the time complexity?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3014\" data-end=\"3068\">$O(n)$<br>&nbsp;</li><li data-start=\"3014\" data-end=\"3068\">$O(n^2)$<br>&nbsp;</li><li data-start=\"3014\" data-end=\"3068\">$O(n^3)$<br>&nbsp;</li><li data-start=\"3014\" data-end=\"3068\">$O(\\log n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 335"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2025 | Python Programming | Topic Wise Test 2",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "433093",
+          "text": "<p>Consider the function:</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">def foo(X=\"a\", Y=[]):\n    X = X + X\n    Y.append(X)\n    print(X, Y)\n</pre><p><br>When called in a loop:</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">for i in range(4): foo()</pre><p><br>Output is:</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">aa ['aa']\naa ['aa', 'aa']\naa ['aa', 'aa', 'aa']\naa ['aa', 'aa', 'aa', 'aa']\n</pre><p><br>Why is the list ' $Y$ ' growing with each call?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>The string ' $X$ ' is immutable, but the list ' $Y$ ' is mutable and retains its state between function calls.</li><li>Both ' $X$ ' and ' $Y$ ` are mutable, causing the function to append values repeatedly.</li><li>The list ' $Y$ ' is reset to an empty list with each function call, causing the unexpected output.</li><li>The function is using recursion, which causes the repeated output.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,two-marks",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433104",
+          "text": "<p>Consider the following Python code:<br> </p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">number = 8\n\n\ndef adder(integer):\n    print(number)\n    number = 10\n    print(number + integer)\nadder(5)\n</pre><p><br>What will be the output of the code when the function `adder(5)` is called?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>8&nbsp;&nbsp; 15</li><li>8 &nbsp;&nbsp;13</li><li>UnboundLocalError: local variable 'number' referenced before assignment</li><li>10 15</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,one-mark",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433092",
+          "text": "<p><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\" id=\"docs-internal-guid-3b624bf7-7fff-0ddb-cef9-99a5f52dd85f\">Consider the following Python code:</span></p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">my_list = []\nmy_list += \"Python\"\nprint(my_list)\n\n<span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\" id=\"docs-internal-guid-3b5bf96b-7fff-5809-57d9-d5231f39b7c2\">What will be the output of running this code?</span>\n</pre><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">['Python']</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">['P', 'y', 't', 'h', 'o', 'n']</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">['P', 'y', 't', 'h', 'o', 'n', 'Python']</pre></li><li>&nbsp;An error will ocuur.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,two-marks",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433095",
+          "text": "<p>Consider the list:</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">l = ['a', 'b', 'c', 'd', 'e', 'f']</pre><p>What will be the output of the following expression?</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">l[-2:-6:-1]</pre><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">['e', 'd', 'c', 'b']</pre></li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">['e', 'd', 'c']</pre></li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">['f', 'e', 'd']\n</pre></li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">['e', 'd']</pre></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,two-marks",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433097",
+          "text": "<p>What will be the output of the following Python code?</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">lst1 = [[1, 5], [5, 10]]\nlst2 = [[1, 5], [999, 999]]\nprint(lst1 &gt; lst2)</pre><ol style=\"list-style-type:upper-alpha\"><li>True</li><li>False</li><li>It will print a random boolean value since the comparison of lists is not deterministic</li><li>SyntaxError, because list comparison with nested lists is not syntactically valid in Python.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,one-mark",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433105",
+          "text": "<p>Given the list:</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">l = ['a', 'b', 'c', 'd', 'e', 'f']</pre><p>What will be the output for the below expression ?</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">l[::2]</pre><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">['a', 'c', 'e']</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">['b', 'd', 'f']</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">['a', 'b', 'c', 'd', 'e', 'f']</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">['c', 'e', 'f']</pre><p> </p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,one-mark",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433101",
+          "text": "<p>Consider the following Python code:</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">my_tuple = (\"Python\", \"cobra\")\nmy_tuple += (\"boa\", \"anaconda\")\n\nprint(my_tuple)\n</pre><p><br>What will be the output of running this code?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>An error will occur.</li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"2\" class=\"prettyprint linenums lang-c_cpp\">('Python', 'cobra', 'boa', 'anaconda')</pre></li><li>SyntaxError</li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\"> ('Python', 'cobraboa', 'anaconda')</pre><p> </p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,one-mark",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433100",
+          "text": "<p>What will be the output of the following Python code?<br> </p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">numbers = [1, 2, 3]\nintegers = numbers\nnumbers = numbers + [4, 5, 6]\nprint(integers)\n</pre><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">[1, 2, 3]</pre></li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">[4, 5, 6]</pre></li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">[1, 2, 3, 4, 5, 6]</pre></li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">[ ] </pre><p> </p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,one-mark",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433090",
+          "text": "<pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">inputNums = [13, 17, 25, 28, 10, 30, 21]\nmyLst = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]\n\n\nfor num in inputNums:\n    result1 = num % 3\n    result2 = (num // 10) % 3\n    myLst[result1][result2] += 1\nprint(myLst)\n</pre><p><br>What will be the output of running this code?</p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[[0, 0, 0], [0, 0, 0], [0, 0, 0]]</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[[1, 1, 1], [1, 1, 1], [1, 1, 1]]\n</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[[1, 0, 1], [0, 2, 2], [0, 1, 0]]\n</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[[2, 2, 2], [0, 0, 0], [1, 1, 1]]</pre></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,two-marks",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433102",
+          "text": "<p>Consider the following Python code:</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">silly_tuple = ([\"one\", \"two\"], [\"three\"])\nsilly_tuple[1] += [\"four\"]\n\nprint(silly_tuple)\n</pre><p><br>What will be the result of running this code?</p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">(['one', 'two'], ['four'])</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">(['one', 'two', 'three'], ['four'])</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">(['one', 'two'], ['three', 'four'])</pre></li><li>An error will occur.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,one-mark",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433091",
+          "text": "<p>Which of the following code snippets will print the output $(20,30,40) ?$<br> </p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">a, b, c = [20, 30, 40]\nprint((a, b, c))</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">a, *rest = [20, 30, 40]\nprint(rest)</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">def fun(*numbers):\n    print(numbers)\nfun(20, 30, 40)</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">def fun(a, *numbers):\n    print(numbers)\nfun(10, 20, 30, 40)</pre><p> </p></li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,multiple-selects,two-marks",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433099",
+          "text": "<p>What will be the output of the following Python code?<br> </p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">numbers = [1, 2, 3]\nintegers = numbers\nnumbers[:] = numbers + [4, 5, 6]\nprint(integers)\n</pre><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">[1, 2, 3]</pre></li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">[4, 5, 6]</pre></li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">[1, 2, 3, 4, 5, 6]</pre></li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">[ ]</pre><p> </p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,one-mark",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433098",
+          "text": "<p>Which of the following list comprehensions in Python will produce a list of numbers from 11 to 49 ?<br> </p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[i for i in range(100) if i &gt; 10 if i &lt; 50]</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[i if i &gt; 11 for i in range(0, 100) if i &lt; 50]\n</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[i for i in range(100) if i &gt; 10 and i &lt; 50]</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[i if i &gt; 10 else 0 for i in range(100)]\n</pre><p> </p></li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,multiple-selects,one-mark",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433106",
+          "text": "<p>Consider the following Python code:</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">b = [[9,6],[4,5],[7,7]]\n\nx = b[:2]\n\nx[1].append(10)\n</pre><p><br>What will be the contents of the list `b` after executing the code?</p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[[9,6],[4,5],[7,7]]</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[[9,6],[4,5,10]]</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[[9,6],[4,5,10],[7,7]]\n</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[[9,6],[4,10],[7,7]]</pre></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,one-mark",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "433096",
+          "text": "<p>Consider the expression $\\mathrm{x}&gt;=0$ or $\\mathrm{y}&lt;10$. If we assume x is equal to 10 , and y is equal to 5 , then... (hint: think of short-circuit evaluation)</p><ol style=\"list-style-type:upper-alpha\"><li>Python will evaluate both conditions in left-right order to determine whether the expression is True.</li><li>Python will evaluate both conditions in right-left order to determine whether the expression is True.</li><li>Python will evaluate only the second condition, $y&lt;10$.</li><li>Python will evaluate only the first condition, $x&gt;=0$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-2,goclasses,python-programming,programming,one-mark",
+          "category": "Programming in Python"
+        }
+      ]
+    }
+  ]
+}

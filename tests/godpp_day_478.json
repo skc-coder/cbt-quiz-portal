@@ -1,0 +1,70 @@
+{
+  "name": "Day 327 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "540613",
+          "text": "<p>The actual CPU bursts of a process begin as: $$6, 4, 6, 4, 13, \\ldots$$</p><p>The initial predicted CPU burst is: $\\tau_0 = 10$&nbsp;</p><p>Using exponential averaging with:&nbsp;</p><p>$$\\alpha = 0.7$$</p><p>What is the predicted CPU burst length after incorporating the first three actual CPU bursts?&nbsp;</p><p>Use: $$\\tau_{n+1} = \\alpha t_n + (1-\\alpha)\\tau_n$$&nbsp;<em>(Round the answer to two decimal places.)</em></p>",
+          "type": "Numerical",
+          "answer": "5.69",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 327"
+        },
+        {
+          "post_id": "540604",
+          "text": "<p>Consider the following processes:&nbsp;</p><p>$$<br>\\begin{array}{|c|c|c|}<br>\\hline<br>\\text{Job} & \\text{Arrival Time} & \\text{CPU Burst Time}&nbsp;\\\\ \\hline A & 0 & 8 \\\\ B & 2 & 4 \\\\ C & 5 & 7 \\\\&nbsp;\\hline \\end{array} $$</p><p>Given an FCFS scheduler, what is the average turnaround time of the three jobs?&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10$ seconds&nbsp;<br>&nbsp;</li><li>$10\\frac{1}{3}$ seconds&nbsp;<br>&nbsp;</li><li>$10\\frac{2}{3}$ seconds&nbsp;<br>&nbsp;</li><li>$13$ seconds&nbsp;</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 327"
+        },
+        {
+          "post_id": "540611",
+          "text": "<p>Three jobs arrive at approximately the same time, with $A$ arriving slightly before $B$, and $B$ slightly before $C$.&nbsp;</p><p>Their CPU burst times are: $A = 2$ seconds $B = 8$ seconds $C = 7$ seconds&nbsp;</p><p>Given an SJF scheduler, what is the average response time of the three jobs?&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2$ seconds&nbsp;<br>&nbsp;</li><li>$3.67$ seconds&nbsp;<br>&nbsp;</li><li>$9$ seconds&nbsp;<br>&nbsp;</li><li>$9.33$ seconds</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 327"
+        },
+        {
+          "post_id": "540601",
+          "text": "<p data-start=\"901\" data-end=\"1017\">Which of the following are standard performance criteria used to evaluate CPU-scheduling algorithms?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1019\" data-end=\"1032\">Waiting time<br>&nbsp;</li><li data-start=\"1019\" data-end=\"1032\">Response time<br>&nbsp;</li><li data-start=\"1019\" data-end=\"1032\">Throughput<br>&nbsp;</li><li data-start=\"1019\" data-end=\"1032\">Page-fault rate</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 327"
+        },
+        {
+          "post_id": "540608",
+          "text": "<p>Which of the following statements are correct?&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A FIFO scheduler has lower average turnaround time when long jobs arrive after short jobs, compared with when short jobs arrive after long jobs.&nbsp;<br>&nbsp;</li><li>An SJF scheduler may preempt the currently running job.&nbsp;<br>&nbsp;</li><li>An SJF scheduler can suffer from the convoy effect.&nbsp;<br>&nbsp;</li><li>If all jobs arrive at the same point in time, SJF and Shortest-Time-to-Completion-First behave the same.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 327"
+        }
+      ]
+    }
+  ]
+}

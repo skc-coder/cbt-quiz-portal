@@ -1,0 +1,138 @@
+[
+  {
+    "id": "go2022_test_0",
+    "name": "GO 2022 Quantitative Aptitude 1"
+  },
+  {
+    "id": "go2022_test_1",
+    "name": "GO 2022 Verbal Ability 1"
+  },
+  {
+    "id": "go2022_test_2",
+    "name": "GO 2022 Discrete Mathematics 1"
+  },
+  {
+    "id": "go2022_test_3",
+    "name": "GO 2022 Discrete Mathematics 2"
+  },
+  {
+    "id": "go2022_test_4",
+    "name": "GO 2022 Mix Subjects 1"
+  },
+  {
+    "id": "go2022_test_5",
+    "name": "GO 2022 Discrete Mathematics 3"
+  },
+  {
+    "id": "go2022_test_6",
+    "name": "GO 2022 Digital Logic 1"
+  },
+  {
+    "id": "go2022_test_7",
+    "name": "GO 2022 Computer Organization and Architecture 1"
+  },
+  {
+    "id": "go2022_test_8",
+    "name": "GO 2022 Programming 1"
+  },
+  {
+    "id": "go2022_test_9",
+    "name": "GO 2022 Algorithms 1"
+  },
+  {
+    "id": "go2022_test_10",
+    "name": "GO 2022 Mix Subjects 2"
+  },
+  {
+    "id": "go2022_test_11",
+    "name": "GO 2022 Data Structures 1"
+  },
+  {
+    "id": "go2022_test_12",
+    "name": "GO 2022 Algorithms 2"
+  },
+  {
+    "id": "go2022_test_13",
+    "name": "GO 2022 Probability 1"
+  },
+  {
+    "id": "go2022_test_14",
+    "name": "GO 2022 Discrete Mathematics 4"
+  },
+  {
+    "id": "go2022_test_15",
+    "name": "GO 2022 Theory of Computation 1"
+  },
+  {
+    "id": "go2022_test_16",
+    "name": "GO 2022 Databases 1"
+  },
+  {
+    "id": "go2022_test_17",
+    "name": "GO 2022 Mix Subjects 3"
+  },
+  {
+    "id": "go2022_test_18",
+    "name": "GO 2022 Analytical and Spatial Aptitude 1"
+  },
+  {
+    "id": "go2022_test_19",
+    "name": "GO 2022 Computer Networks 1"
+  },
+  {
+    "id": "go2022_test_20",
+    "name": "GO 2022 Mix Subjects 4"
+  },
+  {
+    "id": "go2022_test_21",
+    "name": "GO 2022 Operating Systems 2"
+  },
+  {
+    "id": "go2022_test_22",
+    "name": "GO 2022 Operating Systems 1"
+  },
+  {
+    "id": "go2022_test_23",
+    "name": "GO 2022 Linear Algebra 1"
+  },
+  {
+    "id": "go2022_test_24",
+    "name": "GO 2022 Compiler Design 1"
+  },
+  {
+    "id": "go2022_test_25",
+    "name": "GO 2022 Calculus 1"
+  },
+  {
+    "id": "go2022_test_26",
+    "name": "GO 2022 Mock GATE 3"
+  },
+  {
+    "id": "go2022_test_27",
+    "name": "GO 2022 Mock GATE 1"
+  },
+  {
+    "id": "go2022_test_28",
+    "name": "GO 2022 Mock GATE 2"
+  },
+  {
+    "id": "go2022_test_29",
+    "name": "GO 2022 Mock GATE 4"
+  },
+  {
+    "id": "go2022_test_30",
+    "name": "GO 2022 Mock GATE 5"
+  },
+  {
+    "id": "go2022_test_31",
+    "name": "GO 2022 Mock GATE 6"
+  },
+  {
+    "id": "go2022_test_32",
+    "name": "GATE CSE 2022 | Original Paper"
+  },
+  {
+    "id": "go2022_test_33",
+    "name": "TIFR CSE 2022"
+  }
+]

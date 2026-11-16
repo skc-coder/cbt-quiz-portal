@@ -1,0 +1,70 @@
+{
+  "name": "Day 299 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "535663",
+          "text": "<p data-start=\"6282\" data-end=\"6626\">The Boolean function $\\mathrm{F}(\\mathrm{A},\\mathrm{B},\\mathrm{C},\\mathrm{D})=\\Sigma _m(2,3,4,6,9,10,12,13,14,15)$ is to be implemented using a $4:1$ MUX with select lines $\\mathrm{S}_1=\\mathrm{A}$ and $\\mathrm{S}_0=\\mathrm{B}$. What should be connected to $\\mathrm{I}_0,\\mathrm{I}_1,\\mathrm{I}_2,\\mathrm{I}_3$ respectively?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"6628\" data-end=\"6872\">$\\mathrm{C}+\\mathrm{D},\\mathrm{D}',\\mathrm{C}\\oplus\\mathrm{D},1$<br>&nbsp;</li><li data-start=\"6628\" data-end=\"6872\">$\\mathrm{C},\\mathrm{D},\\mathrm{C}\\oplus\\mathrm{D},0$<br>&nbsp;</li><li data-start=\"6628\" data-end=\"6872\">$\\mathrm{C}',\\mathrm{D}',\\mathrm{C}\\oplus\\mathrm{D},1$<br>&nbsp;</li><li data-start=\"6628\" data-end=\"6872\">$\\mathrm{C},\\mathrm{D}',\\mathrm{C}\\oplus\\mathrm{D},1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 299"
+        },
+        {
+          "post_id": "535655",
+          "text": "<p data-start=\"1925\" data-end=\"2264\">The function $\\mathrm{F}(\\mathrm{A},\\mathrm{B})=\\mathrm{A}\\oplus\\mathrm{B}$ is implemented using an $8:1$ MUX. The select lines are connected as $\\mathrm{S}_2=0$, $\\mathrm{S}_1=\\mathrm{A}$, and $\\mathrm{S}_0=\\mathrm{B}$. If unused inputs are marked as $\\mathrm{d}$, what should be connected to $\\mathrm{I}_0$ to $\\mathrm{I}_7$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2266\" data-end=\"2499\">$1,0,0,1,\\mathrm{d},\\mathrm{d},\\mathrm{d},\\mathrm{d}$<br>&nbsp;</li><li data-start=\"2266\" data-end=\"2499\">$0,1,0,1,\\mathrm{d},\\mathrm{d},\\mathrm{d},\\mathrm{d}$<br>&nbsp;</li><li data-start=\"2266\" data-end=\"2499\">$0,1,1,0,\\mathrm{d},\\mathrm{d},\\mathrm{d},\\mathrm{d}$<br>&nbsp;</li><li data-start=\"2266\" data-end=\"2499\">$1,1,0,0,\\mathrm{d},\\mathrm{d},\\mathrm{d},\\mathrm{d}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 299"
+        },
+        {
+          "post_id": "535660",
+          "text": "<p data-start=\"3337\" data-end=\"3652\">A $4:1$ MUX has select lines $\\mathrm{S}_1=\\mathrm{R}$ and $\\mathrm{S}_0=\\mathrm{S}$, where $\\mathrm{R}$ is MSB and $\\mathrm{S}$ is LSB. The data inputs are $\\mathrm{I}_0=\\mathrm{P}$, $\\mathrm{I}_1=\\mathrm{Q}$, $\\mathrm{I}_2=\\mathrm{P}'$, and $\\mathrm{I}_3=\\mathrm{Q}'$.<br>What is the output $\\mathrm{Z}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3654\" data-end=\"4243\">$\\mathrm{Z}=\\mathrm{R}'\\mathrm{S}'\\mathrm{P}+\\mathrm{R}'\\mathrm{S}\\mathrm{Q}'+\\mathrm{R}\\mathrm{S}'\\mathrm{P}'+\\mathrm{R}\\mathrm{S}\\mathrm{Q}$<br>&nbsp;</li><li data-start=\"3654\" data-end=\"4243\">$\\mathrm{Z}=\\mathrm{R}'\\mathrm{S}\\mathrm{P}+\\mathrm{R}'\\mathrm{S}'\\mathrm{Q}+\\mathrm{R}\\mathrm{S}'\\mathrm{P}'+\\mathrm{R}\\mathrm{S}\\mathrm{Q}'$<br>&nbsp;</li><li data-start=\"3654\" data-end=\"4243\">$\\mathrm{Z}=\\mathrm{R}'\\mathrm{S}'\\mathrm{P}'+\\mathrm{R}'\\mathrm{S}\\mathrm{Q}+\\mathrm{R}\\mathrm{S}'\\mathrm{P}+\\mathrm{R}\\mathrm{S}\\mathrm{Q}'$<br>&nbsp;</li><li data-start=\"3654\" data-end=\"4243\">$\\mathrm{Z}=\\mathrm{R}'\\mathrm{S}'\\mathrm{P}+\\mathrm{R}'\\mathrm{S}\\mathrm{Q}+\\mathrm{R}\\mathrm{S}'\\mathrm{P}'+\\mathrm{R}\\mathrm{S}\\mathrm{Q}'$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 299"
+        },
+        {
+          "post_id": "535662",
+          "text": "<p data-start=\"4801\" data-end=\"4854\">Two $2:1$ MUXes are connected as follows :</p><ul><li data-start=\"4856\" data-end=\"4990\">The first MUX has select line $\\mathrm{A}$, input $\\mathrm{I}_0=\\mathrm{B}$, input $\\mathrm{I}_1=\\mathrm{C}$, and output $\\mathrm{X}$.<br>&nbsp;</li><li data-start=\"4992\" data-end=\"5128\">The second MUX has select line $\\mathrm{D}$, input $\\mathrm{I}_0=\\mathrm{X}$, input $\\mathrm{I}_1=\\mathrm{B}'$, and output $\\mathrm{F}$.</li></ul><p data-start=\"5130\" data-end=\"5178\">What is the Boolean expression for $\\mathrm{F}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5180\" data-end=\"5561\">$\\mathrm{F}=\\mathrm{D}'(\\mathrm{A}'\\mathrm{B}+\\mathrm{A}\\mathrm{C})+\\mathrm{D}\\mathrm{B}$<br>&nbsp;</li><li data-start=\"5180\" data-end=\"5561\">$\\mathrm{F}=\\mathrm{D}'(\\mathrm{A}'\\mathrm{B}+\\mathrm{A}\\mathrm{C})+\\mathrm{D}\\mathrm{B}'$<br>&nbsp;</li><li data-start=\"5180\" data-end=\"5561\">$\\mathrm{F}=\\mathrm{D}(\\mathrm{A}'\\mathrm{B}+\\mathrm{A}\\mathrm{C})+\\mathrm{D}'\\mathrm{B}'$<br>&nbsp;</li><li data-start=\"5180\" data-end=\"5561\">$\\mathrm{F}=\\mathrm{D}'(\\mathrm{A}\\mathrm{B}'+\\mathrm{A}'\\mathrm{C})+\\mathrm{D}\\mathrm{B}'$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 299"
+        },
+        {
+          "post_id": "535651",
+          "text": "<p data-start=\"367\" data-end=\"617\">The Boolean function $\\mathrm{F}(\\mathrm{A},\\mathrm{B},\\mathrm{C})=\\Sigma _m(1,2,4,7)$ is to be implemented using a $2:1$ MUX with select line $\\mathrm{S}=\\mathrm{A}$.&nbsp;</p><p data-start=\"367\" data-end=\"617\">What should be connected to $\\mathrm{I}_0$ and $\\mathrm{I}_1$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"619\" data-end=\"1004\">$\\mathrm{I}_0=\\mathrm{B}'\\mathrm{C}'+\\mathrm{B}\\mathrm{C}$, $\\quad\\mathrm{I}_1=\\mathrm{B}'\\mathrm{C}+\\mathrm{B}\\mathrm{C}'$<br>&nbsp;</li><li data-start=\"619\" data-end=\"1004\">$\\mathrm{I}_0=\\mathrm{B}'\\mathrm{C}+\\mathrm{B}\\mathrm{C}'$, $\\quad\\mathrm{I}_1=\\mathrm{B}'\\mathrm{C}'+\\mathrm{B}\\mathrm{C}$<br>&nbsp;</li><li data-start=\"619\" data-end=\"1004\">$\\mathrm{I}_0=\\mathrm{B}+\\mathrm{C}$, $\\quad\\mathrm{I}_1=\\mathrm{B}'\\mathrm{C}'$<br>&nbsp;</li><li data-start=\"619\" data-end=\"1004\">$\\mathrm{I}_0=\\mathrm{C}$, $\\quad\\mathrm{I}_1=\\mathrm{C}'$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 299"
+        }
+      ]
+    }
+  ]
+}

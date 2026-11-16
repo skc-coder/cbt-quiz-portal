@@ -1,0 +1,70 @@
+{
+  "name": "Day 265 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530965",
+          "text": "<p data-start=\"14\" data-end=\"160\">Consider a differentiable function $f$ whose derivative is given by $f'(x)=e^{-x}(x+2)^2(x-1)(x-3)^3$. Which of the following statements are <strong>true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"162\" data-end=\"199\">There is a local maximum at $x=-2$<br>&nbsp;</li><li data-start=\"201\" data-end=\"238\">There is a local maximum at $x=1$<br>&nbsp;</li><li data-start=\"240\" data-end=\"278\">There is a local minimum at $x=3$<br>&nbsp;</li><li data-start=\"280\" data-end=\"366\">There is a stationary point at $x=-2$, but no local maximum or local minimum there</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 265"
+        },
+        {
+          "post_id": "530969",
+          "text": "<p data-start=\"14\" data-end=\"155\">The value of the given integral is : $$I=\\int_0^{\\pi/2}\\left(\\frac{4\\sqrt{\\sin x}+7\\sqrt{\\cos x}}{\\sqrt{\\sin x}+\\sqrt{\\cos x}}+\\sin x\\cos x\\right)dx$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"157\" data-end=\"283\">$\\frac{11\\pi}{4}+\\frac{1}{2}$<br>&nbsp;</li><li data-start=\"157\" data-end=\"283\">$\\frac{11\\pi}{4}$<br>&nbsp;</li><li data-start=\"157\" data-end=\"283\">$\\frac{9\\pi}{4}+\\frac{1}{2}$<br>&nbsp;</li><li data-start=\"157\" data-end=\"283\">$\\frac{11\\pi}{2}+\\frac{1}{2}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 265"
+        },
+        {
+          "post_id": "530967",
+          "text": "<p data-start=\"14\" data-end=\"75\">Evaluate the limit $\\lim_{x\\to-\\infty}(\\sqrt{9x^2+6x+5}+3x)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"77\" data-end=\"130\">$-1$<br>&nbsp;</li><li data-start=\"77\" data-end=\"130\">$0$<br>&nbsp;</li><li data-start=\"77\" data-end=\"130\">$1$<br>&nbsp;</li><li data-start=\"77\" data-end=\"130\">Limit does not exist</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 265"
+        },
+        {
+          "post_id": "530961",
+          "text": "<p data-start=\"14\" data-end=\"221\">Let $f$ be not defined at $x=2$. For $x\\ne 2$, suppose $f(x)=\\frac{x^2+ax+b}{x-2}$. Which condition on $a$ and $b$ makes $\\lim_{x\\to 2}f(x)$ exist as a finite real number, and what is the value of the limit?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"223\" data-end=\"391\">$b=-2a-4$, and the limit is $a+4$<br>&nbsp;</li><li data-start=\"223\" data-end=\"391\">$b=2a+4$, and the limit is $a-4$<br>&nbsp;</li><li data-start=\"223\" data-end=\"391\">$b=-2a-4$, and the limit is $2a+b$<br>&nbsp;</li><li data-start=\"223\" data-end=\"391\">No values of $a$ and $b$ make the limit finite</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 265"
+        },
+        {
+          "post_id": "530953",
+          "text": "<p data-start=\"14\" data-end=\"139\">Let $f:\\mathbb{R}\\to\\mathbb{R}$ be differentiable at $x=x^*$<em data-start=\"72\" data-end=\"86\">. </em>If $f'(x^*)=0$, which of the following statements must be <strong>true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"141\" data-end=\"172\">$f$ is continuous at $x=x^*$<br>&nbsp;</li><li data-start=\"174\" data-end=\"239\">The tangent line to the graph of $f$ at $x=x^*$ is horizontal<br>&nbsp;</li><li data-start=\"241\" data-end=\"297\">$f$ has a local maximum or local minimum at $x=x^*$<br>&nbsp;</li><li data-start=\"299\" data-end=\"355\">$f$ is constant in some open interval around $x=x^*$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 265"
+        }
+      ]
+    }
+  ]
+}

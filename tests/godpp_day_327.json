@@ -1,0 +1,70 @@
+{
+  "name": "Day 250 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "529162",
+          "text": "<p>The 600 students at King Middle School are divided into three groups of equal size for lunch. Each group has lunch at a different time. A computer randomly assigns each student to one of three lunch groups. The probability that three friends, Al , Bob, and Carol, will be assigned to the same lunch group is approximately</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{1}{27}$</li><li>$\\frac{1}{9}$</li><li>$\\frac{1}{8}$</li><li>$\\frac{1}{6}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "529160",
+          "text": "<p>The 120 permutations of $A H S M E$ are arranged in dictionary order as if each were an ordinary five-letter word. The last letter of the 86 th word in this list is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A</li><li>H</li><li>S</li><li>E</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "529158",
+          "text": "<p>Assume every 7-digit whole number is a possible telephone number except those that begin with 0 or 1 . What fraction of telephone numbers begin with 9 and end with 0 ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{1}{63}$</li><li>$\\frac{1}{80}$</li><li>$\\frac{1}{81}$</li><li>$\\frac{1}{90}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "529154",
+          "text": "<p>How many whole numbers between 100 and 400 contain the digit 2 ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>100</li><li>120</li><li>138</li><li>140</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "529152",
+          "text": "<p>A box contains 2 pennies, 4 nickels, and 6 dimes. Six coins are drawn without replacement, with each coin having an equal probability of being chosen. What is the probability that the value of coins drawn is at least 50 cents?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{37}{924}$</li><li>$\\frac{91}{924}$</li><li>$\\frac{127}{924}$</li><li>$\\frac{132}{924}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 250"
+        }
+      ]
+    }
+  ]
+}

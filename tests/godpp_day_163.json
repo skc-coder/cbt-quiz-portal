@@ -1,0 +1,70 @@
+{
+  "name": "Day 159 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "503837",
+          "text": "<p>Consider the intermediate code given below:<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">(1) x = 1\n(2) L0: y = 2\n(3) if x &lt; 5 goto L1\n(4) x = x + 1\n(5) goto L0\n(6) L1: z = 0\n(7) if y &gt; 0 goto L2\n(8) y = y - 1\n(9) L2: z = z + y\n(10) return z</pre><p><br>The number of <strong>nodes</strong> and <strong>edges</strong> in the control-flow-graph constructed for the above code, respectively, are:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$6$ and $8$<br>&nbsp;</li><li>$8$ and $10$<br>&nbsp;</li><li>$8$ and $9$<br>&nbsp;</li><li>$6$ and $7$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 159"
+        },
+        {
+          "post_id": "503836",
+          "text": "<p>The number of tokens in the following C statement is:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">for (i = 0; i != 10; i++) { sum += i; }</pre><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$18$<br>&nbsp;</li><li>$21$<br>&nbsp;</li><li>$16$<br>&nbsp;</li><li>$19$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 159"
+        },
+        {
+          "post_id": "503834",
+          "text": "<p>Consider the intermediate code given below:<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">(1) i = 0\n(2) t1 = 2 * i\n(3) j = 10\n(4) L1: t2 = t1 + j\n(5) a[t2] = 5\n(6) j = j - 1\n(7) if j &gt; 0 goto L1\n(8) t3 = 1\n(9) L2: i = i + t3\n(10) t3 = 0\n(11) if i &lt; 5 goto L2\n(12) return t3</pre><p>&nbsp;</p><p>The number of <strong>nodes</strong> and <strong>edges</strong> in the control-flow-graph constructed for the above code, respectively, are:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5$ and $6$<br>&nbsp;</li><li>$6$ and $7$<br>&nbsp;</li><li>$4$ and $5$<br>&nbsp;</li><li>$7$ and $8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 159"
+        },
+        {
+          "post_id": "503830",
+          "text": "<p>The program below uses six temporary variables $a, b, c, d, e, f$.</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">a = 5\nb = 1\nc = a - b\nd = a + c\ne = b + d\nf = c + e\na = 2 * d\ne = 10\nreturn a + e + f</pre><p><br>Assuming that all operations take their operands from registers, what is the <strong>minimum number of registers</strong> needed to execute this program without spilling?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2$<br>&nbsp;</li><li>$3$<br>&nbsp;</li><li>$4$<br>&nbsp;</li><li>$6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 159"
+        },
+        {
+          "post_id": "503833",
+          "text": "The number of tokens in the following C statement is<br>\n<br>\n$\\verb|if(a &gt; b && c &lt;= 10) { result = a + b; }|$",
+          "type": "Numerical",
+          "answer": "18",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 159"
+        }
+      ]
+    }
+  ]
+}

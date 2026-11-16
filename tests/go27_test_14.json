@@ -1,0 +1,244 @@
+{
+  "id": "go27_test_14",
+  "name": "GO Classes CS Test Series | Calculus | Topic Wise Test 5",
+  "duration": "60",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "381688",
+          "text": "<p>Suppose $g(x)$ is a polynomial function such that $g(-1)=4$ and $g(2)=7$. Then there is a number $c$ between $-1$ and $2$ such that</p><ol style=\"list-style-type:upper-alpha\"><li>$g(c)=1$</li><li>$g^{\\prime}(c)=1$</li><li>$g(c)=0$</li><li>$g^{\\prime}(c)=0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381693",
+          "text": "<p>Consider the following statements:</p><ol style=\"list-style-type:upper-roman\"><li>$f(x)$ is continuous on $[a, b]$</li><li>$f(x)$ is differentiable on $(a, b)$</li><li>$f(a)=f(b)$</li></ol><p>Which of the above statements are required in order to guarantee a $c \\in(a, b)$ such that $f^{\\prime}(c)(b-a)=f(b)-f(a) ?$</p><ol style=\"list-style-type:upper-alpha\"><li>I only</li><li>I and II only</li><li>I, II, and III</li><li>I and III only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,continuity-and-differentiability,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381692",
+          "text": "<p>Let $I=(a, b)$ be an open interval and let $f$ be a function which is differentiable on $I$. Which of the followings is/are true statements -</p><ol style=\"list-style-type:upper-alpha\"><li>If $f^{\\prime}(x)=0$ for all $x \\in I$, then there is a constant $r$ such that $f(x)=r$ for all $x \\in I$.</li><li>If $f^{\\prime}(x)&gt;0$ for all $x \\in I$, then $f(x)$ is strictly increasing on $I$.</li><li>If $f^{\\prime}(x)&lt;0$ for all $x \\in I$, then $f(x)$ is strictly decreasing on $I$.</li><li>If $f^{\\prime}(x)&gt;0$ for all $x \\in I$, then $f(x)$ is strictly decreasing on $I$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,maxima-minima,multiple-selects,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381680",
+          "text": "<p>If $f(x)=e^{x} g(x), g(0)=2$ and $g^{\\prime}(0)=1$, then $f^{\\prime}(0)$ is</p><ol style=\"list-style-type:upper-alpha\"><li>$1$</li><li>$3$</li><li>$2$</li><li>$0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381701",
+          "text": "<p>Which of the following functions satisfy the conditions of Rolle's Theorem on the interval $[-1,1]?$&nbsp;<br>$$<br>\\begin{aligned}<br>&amp;f(x)=1-x^{2 / 3}\\\\<br>&amp;g(x)=x^{3}-2 x^{2}-x+2\\\\<br>&amp;h(x)=\\cos \\left(\\frac{\\pi}{4}(x+1)\\right)<br>\\end{aligned}<br>$$<br>Rolle's Theorem applies to:</p><ol style=\"list-style-type:upper-alpha\"><li>both $f$ and $g$</li><li>both $g$ and $h$</li><li>$g$ only</li><li>$h$ only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,maxima-minima,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381694",
+          "text": "<p>Evaluate $y^{\\prime \\prime}(1)$ where $y=e^{x}+x^{e}$.</p><ol style=\"list-style-type:upper-alpha\"><li>$0$</li><li>$1$</li><li>$e^{2}$</li><li>$e$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381674",
+          "text": "<p>Which of the following expression evaluates to given integral<br>$$<br>\\int \\frac{\\ln (\\ln x)}{x \\ln x} d x<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\dfrac{\\ln x}{x}+C$<br> </li><li>$\\frac{1}{2}(\\ln \\ln x)^{2}+C$<br> </li><li>$(\\ln x)^{2}+C$<br> </li><li>$(\\ln \\ln x)+C$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,integration,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381709",
+          "text": "<p>Evaluate the limit<br>$$<br>\\lim _{x \\rightarrow 0} \\frac{1-\\cos x}{\\sin ^{2} x}<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>$1$</li><li>$\\frac{1}{2}$</li><li>$2$</li><li>$0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,limits,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381698",
+          "text": "<p>Let $q(x)$ be a continuous function which is defined for all real numbers. A portion of the graph of $q^{\\prime}(x)$, the derivative of $q(x)$, is shown below.</p><p style=\"text-align:center\"><img alt=\"\" src=\"data:image/png;base64,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\"></p><p><br>On which of the following interval(s) is $q(x)$ increasing?</p><ol style=\"list-style-type:upper-alpha\"><li>$(0,2)$</li><li>$(2,4)$</li><li>$(7,9)$</li><li>None of these</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,multiple-selects,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381676",
+          "text": "<p>The equation $x^{5}+x+1=0$ has a solution in the interval</p><ol style=\"list-style-type:upper-alpha\"><li>$[0,1]$</li><li>$[-1,0]$</li><li>$[-2,-1]$</li><li>$[1,2]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381703",
+          "text": "<p>The function $f(x)=\\cos x-x$</p><ol style=\"list-style-type:upper-alpha\"><li>is an even function</li><li>is an odd function</li><li>is neither an even nor an odd function</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,functions,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381682",
+          "text": "<p>The sum of three positive numbers is $12$ and two of them are equal. Find the largest possible product.</p><ol style=\"list-style-type:upper-alpha\"><li>$86$</li><li>$64$</li><li>$48$</li><li>$72$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381705",
+          "text": "<p>The function $f(x)=x^{4}-6 x^{2}$ is increasing on the intervals</p><ol style=\"list-style-type:upper-alpha\"><li>$(0, \\sqrt{3})$ only</li><li>$(\\sqrt{3}, \\infty)$ only</li><li>$(-\\infty,-\\sqrt{3})$ and $(0, \\sqrt{3})$ only</li><li>$(-\\sqrt{3}, 0)$ and $(\\sqrt{3}, \\infty)$ only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,maxima-minima,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381707",
+          "text": "<p>Determine the value of following limit<br>$$<br>\\lim _{x \\rightarrow \\infty}\\left(\\sqrt{x^{2}+4 x+1}-x\\right)<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>$2$</li><li>$4$</li><li>$\\frac{1}{2}$</li><li>$3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,limits,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381696",
+          "text": "<p>Choose the CORRECT statement -</p><ol style=\"list-style-type:upper-alpha\"><li>The function $f(x)=\\exp \\left(-x^{2}\\right)-1$ has the root $x=0$.</li><li>If a function $f$ is differentiable on $[-1,1]$, then there is a point $x$ in that interval where $f^{\\prime}(x)=0$.</li><li>If $1$ is a root of $f$, then $f^{\\prime}(x)$ changes sign at $1 .$</li><li>If $f^{\\prime \\prime}(0)&lt;0$ and $f^{\\prime \\prime}(1)&gt;0$ then there is a point in $(0,1)$, where $f$ has an inflection point.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,multiple-selects,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381699",
+          "text": "<p>Suppose that the derivative of a function $h$ is given by:<br>$$<br>h^{\\prime}(x)=x(x-1)^{2}(x-2)<br>$$<br>On what interval(s) is $h$ increasing?</p><ol style=\"list-style-type:upper-alpha\"><li>$(-\\infty, 0)$</li><li>$(-\\infty, 0)$ and $(2, \\infty)$</li><li>$(0,2)$</li><li>$(0,1)$ and $(2, \\infty)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381686",
+          "text": "<p>Which of the following limit is/are correct?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\displaystyle{}\\lim _{x \\rightarrow \\infty} \\sqrt[x]{x}=1$</li><li>$\\displaystyle{}\\lim _{x \\rightarrow \\infty} \\sqrt[x]{x}=e$</li><li>$\\displaystyle{}\\lim _{x \\rightarrow \\infty}\\left(1+\\frac{2}{x}\\right)^{x}=e^{2}$</li><li>$\\displaystyle{}\\lim _{x \\rightarrow \\infty}\\left(1+\\frac{2}{x}\\right)^{x}=e$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,limits,multiple-selects,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381690",
+          "text": "<p>Which of the following is/are FALSE?</p><ol style=\"list-style-type:upper-alpha\"><li>The absolute maximum value of $f(x)=\\dfrac{1}{x}$ on the interval $[2,4]$ is $2.$</li><li>If $f(x)$ is a continuous function and $f(3)=2$ and $f(5)=-1$, then $f(x)$ has a root between $3$ and $5 .$</li><li>The function $g(x)=2 x^{3}-12 x+5$ has $5$ real roots.</li><li>If $h(x)$ is a continuous function and $h(1)=4$ and $h(2)=5$, then $h(x)$ has no roots between $1$ and $2.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,maxima-minima,multiple-selects,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381678",
+          "text": "<p>Let $f$ be differentiable for all $x$. If $f(1)=-2$ and $f^{\\prime}(x) \\geq 2$ for $x \\in[1,6]$, then</p><ol style=\"list-style-type:upper-alpha\"><li>$f(6) \\geq 8$</li><li>$f(6)&lt;8$</li><li>$f(6)&lt;5$</li><li>$f(6)=5$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,maxima-minima,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "381684",
+          "text": "<p>Suppose $f$ is twice differentiable with<br>$$<br>f^{\\prime \\prime}(x)=7 x-2, \\quad f^{\\prime}(-2)=0, \\quad \\text { and } \\quad f(-2)=-2 .<br>$$<br>Find $f(0)$.</p><ol style=\"list-style-type:upper-alpha\"><li>$-337 / 6$</li><li>$-74 / 3$</li><li>$23 / 9$</li><li>$37 / 4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_em_tw_5,goclasses-testseries,goclasses,calculus,differentiation,two-marks",
+          "category": "Calculus"
+        }
+      ]
+    }
+  ]
+}

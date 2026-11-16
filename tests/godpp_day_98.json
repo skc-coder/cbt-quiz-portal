@@ -1,0 +1,70 @@
+{
+  "name": "Day 95 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "489091",
+          "text": "In a $12$ -bit computer instruction format, the size of the address field is $3$ bits. The computer uses an expanding OP code technique and has $12$ two-address instructions and 40 one-address instructions. The maximum number of zero-address instructions it can support is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "3008",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 95"
+        },
+        {
+          "post_id": "489089",
+          "text": "The baseline execution time of a program on a single-core machine is $200$ nanoseconds (ns). The code corresponding to $90\\%$ of the execution time can be fully parallelised. The overhead for using each additional core is $5$ ns when running on a multicore system. Assume that all cores in the multicore system run their share of the parallelised code for an equal amount of time.<br>\n<br>\nThe number of cores that minimise the execution time of the program is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 95"
+        },
+        {
+          "post_id": "489088",
+          "text": "An $8$-way set-associative cache memory unit with a capacity of $64$ KB is built using a block size of $16$ words. The word length is $32$ bits. The size of the physical address space is $16$ GB . The number of bits for the TAG field is $\\_\\_\\_\\_$",
+          "type": "Numerical",
+          "answer": "21",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 95"
+        },
+        {
+          "post_id": "489085",
+          "text": "<p>A computer system has an L1 cache, an L2 cache, and a main memory unit. The block size in L2 cache is 16 words. The data bus between the L2 cache and main memory is 4 words wide. The memory access times are 2 nanoseconds, 20 nanoseconds, and 200 nanoseconds for L1 cache, L2 cache, and the main memory unit, respectively.</p><p>When there is a miss in both L1 and L2 cache, a block is transferred from main memory to L2 cache. What is the total time taken for this transfer, assuming the bus cycle time is the same as the L2 cache access time?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$80$ nanoseconds<br>&nbsp;</li><li>$200$ nanoseconds<br>&nbsp;</li><li>$220$ nanoseconds<br>&nbsp;</li><li>$280$ nanoseconds</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 95"
+        },
+        {
+          "post_id": "489084",
+          "text": "<p>Consider a $2$-way set associative cache (initially empty) with a total of 16 cache blocks. The main memory consists of 256 blocks and the requests for memory blocks are in the following order:<br>$$0,255,1,4,3,8,133,159,216,129,63,8,48,32,73,92,155$$<br>Which one of the following memory blocks WILL be in the cache if an LRU replacement policy is used?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$<br>&nbsp;</li><li>$8$<br>&nbsp;</li><li>$129$<br>&nbsp;</li><li>$216$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 95"
+        }
+      ]
+    }
+  ]
+}

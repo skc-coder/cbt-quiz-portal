@@ -1,0 +1,70 @@
+{
+  "name": "Day 329 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "540876",
+          "text": "<p data-start=\"8248\" data-end=\"8320\">Which of the following statements about priority scheduling are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"8322\" data-end=\"8335\">Priority scheduling can behave like SJF if the predicted CPU burst time is used as the priority.<br>&nbsp;</li><li data-start=\"8439\" data-end=\"8542\">A low-priority process can suffer starvation if higher-priority processes continue to be preferred.<br>&nbsp;</li><li data-start=\"8544\" data-end=\"8618\">Aging gradually improves the priority of a process as it waits longer.<br>&nbsp;</li><li data-start=\"8620\" data-end=\"8709\">Aging solves starvation by continuously decreasing the priority of waiting processes.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 329"
+        },
+        {
+          "post_id": "540874",
+          "text": "<p data-start=\"6319\" data-end=\"6365\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"6367\" data-end=\"6380\">LJF is a non-preemptive scheduling policy that selects the ready job with the largest original CPU burst.<br>&nbsp;</li><li data-start=\"6493\" data-end=\"6606\">LRTF is a preemptive scheduling policy that selects the process having the largest remaining processing time.<br>&nbsp;</li><li data-start=\"6608\" data-end=\"6725\">In LJF, if a new process with a larger burst time arrives, it immediately preempts the currently running process.<br>&nbsp;</li><li data-start=\"6727\" data-end=\"6801\">LRTF always selects the process with the smallest remaining CPU burst.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 329"
+        },
+        {
+          "post_id": "540871",
+          "text": "<p data-start=\"4431\" data-end=\"4518\">Five CPU-bound jobs $A,B,C,D,E$ arrive at approximately the same time with burst times:</p><p>\\[<br>\\begin{array}{c|c}<br>\\text{Job} & \\text{Burst Time} \\\\<br>\\hline<br>A & 10 \\\\<br>B & 6 \\\\<br>C & 2 \\\\<br>D & 4 \\\\<br>E & 8<br>\\end{array}<br>\\]</p><p data-start=\"4614\" data-end=\"4744\">The system uses <strong data-start=\"4630\" data-end=\"4656\">Round Robin scheduling</strong> with a time quantum much smaller than the shortest job. Ignore context-switch overhead.</p><p data-start=\"4746\" data-end=\"4841\">Treating the small-quantum behavior as processor sharing, what is the <strong data-start=\"4816\" data-end=\"4840\">mean turnaround time</strong>?</p>",
+          "type": "Numerical",
+          "answer": "22",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 329"
+        },
+        {
+          "post_id": "540870",
+          "text": "<p data-start=\"2842\" data-end=\"2893\">Three processes have the following CPU burst times:</p><p data-start=\"2895\" data-end=\"2902\">$P_1=7$</p><p data-start=\"2904\" data-end=\"2911\">$P_2=1$</p><p data-start=\"2913\" data-end=\"2921\">$P_3=16$</p><p data-start=\"2923\" data-end=\"3008\">At time $0$, only $P_1$ and $P_3$ are ready. Process $P_2$ becomes ready at time $2$.</p><p data-start=\"3010\" data-end=\"3107\">If <strong data-start=\"3013\" data-end=\"3046\">Shortest Remaining Time First</strong> scheduling is used, what is the <strong data-start=\"3079\" data-end=\"3106\">average turnaround time</strong>?</p>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 329"
+        },
+        {
+          "post_id": "540869",
+          "text": "<p data-start=\"967\" data-end=\"1039\">Consider the following processes. All processes arrive at the same time.</p><p data-start=\"967\" data-end=\"1039\">\\[<br>\\begin{array}{c|c|c}<br>\\text{Process} & \\text{Burst Time} & \\text{Priority} \\\\<br>\\hline<br>P_1 & 10 & 3 \\\\<br>P_2 & 1 &nbsp;& 1 \\\\<br>P_3 & 2 &nbsp;& 4 \\\\<br>P_4 & 1 &nbsp;& 5 \\\\<br>P_5 & 5 &nbsp;& 2<br>\\end{array}<br>\\]</p><p data-start=\"1185\" data-end=\"1292\">A smaller priority number represents a higher priority. For FCFS, a lower process number is selected first.</p><p data-start=\"1294\" data-end=\"1358\">Which tuple correctly gives the <strong data-start=\"1326\" data-end=\"1351\">average waiting times</strong> under:</p><p data-start=\"1360\" data-end=\"1385\">$\\text{(FCFS,\\ SJF,\\ Priority)}$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1387\" data-end=\"1410\">$(9.6,\\ 3.2,\\ 8.2)$<br>&nbsp;</li><li data-start=\"1412\" data-end=\"1435\">$(8.2,\\ 3.2,\\ 9.6)$<br>&nbsp;</li><li data-start=\"1437\" data-end=\"1460\">$(9.6,\\ 8.2,\\ 3.2)$<br>&nbsp;</li><li data-start=\"1462\" data-end=\"1485\">$(8.2,\\ 9.6,\\ 3.2)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 329"
+        }
+      ]
+    }
+  ]
+}

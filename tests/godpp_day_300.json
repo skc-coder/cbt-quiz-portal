@@ -1,0 +1,70 @@
+{
+  "name": "Day 241 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528162",
+          "text": "<p><strong>True/False Question :</strong></p><p>Let&nbsp;$A,B$ are $3 \\times 3$ real matrices. Then</p><p>$$det\\left ( AB -BA \\right )=\\frac{tr\\left [ \\left ( AB -BA \\right )^{3} \\right ]}{3}.$$</p><p><em>(Note : Mark $\\emph{0}$ for False and $\\emph{1}$ for True.)</em></p>",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "528160",
+          "text": "<p>Suppose $A$ is any square matrix of size $n \\times n$ with complex entries. Form the larger matrix $\\begin{bmatrix}<br>A & A \\\\<br>0 & A<br>\\end{bmatrix}.<br>$</p><p>For which matrices $A$ is this larger matrix diagonalizable?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A=0$<br>&nbsp;</li><li>$A=I$<br>&nbsp;</li><li>$n=2$<br>&nbsp;</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "528154",
+          "text": "<p><strong>True/False Question :</strong><br><br>There exist an integer&nbsp;$r\\geq 1$ and a symmetric matrix $A \\in M_{r}\\left ( \\mathbb{R} \\right )$ such that for all&nbsp;$n \\in \\mathbb{N}$, we have: $$2^{\\sqrt{n}}\\leq \\left | tr\\left ( A^{n} \\right )\\leq \\right |2020 . 2^{\\sqrt{n}}.$$<br><em>(Note : Mark $\\emph{0}$ for False and $\\emph{1}$ for True.)</em></p>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "528166",
+          "text": "<p>Consider two matrices $M_1$ and $M_2$ with $M_1M_2=0$ and $M_1$ is non singular. Then which of the following is true?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$M_2$ is non singular<br>&nbsp;</li><li>$M_2$ is null matrix<br>&nbsp;</li><li>$M_2$ is the identity matrix<br>&nbsp;</li><li>$M_2$ is transpose of&nbsp;$M_1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "528168",
+          "text": "<p>Let $P$, $Q$, and $R$ be $n \\times n$ matrices, each with non-zero determinant. If $PQR = I,$ then $Q^{-1}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$RP$<br>&nbsp;</li><li>$R^{-1}P^{-1}$<br>&nbsp;</li><li>$PR$<br>&nbsp;</li><li>$P^{-1}R^{-1}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 241"
+        }
+      ]
+    }
+  ]
+}

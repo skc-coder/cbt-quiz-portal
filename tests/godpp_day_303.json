@@ -1,0 +1,70 @@
+{
+  "name": "Day 242 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528272",
+          "text": "<p>Let $A,B,C,D$ be $n\\times&nbsp;n$ matrices, each with non-zero determinant. If $ABCD=1$, then $B^{-1}$&nbsp;is:</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$D^{-1}C^{-1}A^{-1}$<br>&nbsp;</li><li>$CDA$<br>&nbsp;</li><li>$ADC$<br>&nbsp;</li><li>Does not necessarily exist.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 242"
+        },
+        {
+          "post_id": "528278",
+          "text": "<p>Let&nbsp; $$S=\\left \\{ x \\in\\mathbb{R} \\mid x=\\operatorname{Trace}(A) \\text{ for some } A \\in M_{4} (\\mathbb{R}) \\text{ such that }A^{2}=A \\right\\}.$$</p><p>Then which of the following describes $S$?</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$S=\\left \\{ 0,2,4 \\right \\}$<br>&nbsp;</li><li>$S=\\left \\{ 0,1/2,1,3/2,2,5/2,3,7/2,4 \\right \\}$<br>&nbsp;</li><li>$S=\\left \\{ 0,1,2,3,4 \\right \\}$<br>&nbsp;</li><li>$S=\\left \\{ 0,4 \\right \\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 242"
+        },
+        {
+          "post_id": "528276",
+          "text": "<p>Let $A$ be an $n \\times n$ matrix with rank $k$. Consider the following statements:</p><ol style=\"list-style-type: upper-roman;\" type=\"i\" start=\"1\"><li>If $A$ has real entries, then $AA^{t}$ necessarily has rank $k$</li><li>If $A$ has complex entries, then $AA^{t}$ necessarily has rank $k$.</li></ol><p>Then</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>(I) and (II) are true<br>&nbsp;</li><li>(I) and (II) are false<br>&nbsp;</li><li>(I)&nbsp;is true and (II) is false<br>&nbsp;</li><li>(I) is false and (II) is true</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 242"
+        },
+        {
+          "post_id": "528280",
+          "text": "<p>Let $Ax = b$ be a system of linear equations where $A$ is an $m \\times n$ matrix and $b$ is a $m \\times 1$ column vector and $X$ is an $n \\times1$ column vector of unknowns. Which of the following is(are) <strong>True&nbsp;</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li><p>The system has a solution if and only if, both $A$ and the augmented matrix $[Ab]$ have the same rank.</p></li><li><p>If $m &lt; n$ and $b$ is the zero vector, then the system has infinitely many solutions.</p></li><li><p>If $m=n$ and $b$ is a non-zero vector, then the system has a unique solution.</p></li><li><p>The system will have only a trivial solution when $m=n$, $b$ is the zero vector and $\\text{rank}(A) =n$.</p></li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 242"
+        },
+        {
+          "post_id": "528283",
+          "text": "<p data-start=\"15\" data-end=\"57\">For which vector(s) $b$ below does the system $ \\begin{bmatrix}<br>1 & 2 \\\\<br>3 & 5 \\\\<br>2 & 3<br>\\end{bmatrix} x = b $ have a solution?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"142\" data-end=\"190\">$ \\begin{bmatrix} 1 \\\\ 2 \\\\ 1 \\end{bmatrix} $<br>&nbsp;</li><li data-start=\"192\" data-end=\"240\">$ \\begin{bmatrix} 2 \\\\ 4 \\\\ 3 \\end{bmatrix} $<br>&nbsp;</li><li data-start=\"242\" data-end=\"290\">$ \\begin{bmatrix} 3 \\\\ 8 \\\\ 5 \\end{bmatrix} $<br>&nbsp;</li><li data-start=\"292\" data-end=\"340\">$ \\begin{bmatrix} 1 \\\\ 3 \\\\ 2 \\end{bmatrix} $</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 242"
+        }
+      ]
+    }
+  ]
+}

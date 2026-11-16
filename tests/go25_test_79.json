@@ -1,0 +1,132 @@
+{
+  "name": "GO Classes CS 2025 | Weekly Quiz 36 | Relational Algebra | DBMS",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "432193",
+          "text": "<p>Consider the following two relations, $R(A, B)$ and $S(A, C)$:</p><table border=\"1\" cellpadding=\"1\" style=\"width:500px\"><tbody><tr><td colspan=\"2\" style=\"text-align:center\">$R$</td></tr><tr><td style=\"text-align:center\">$A$</td><td style=\"text-align:center\">$B$</td></tr><tr><td>$10$</td><td>$20$</td></tr><tr><td>$20$</td><td>$30$</td></tr><tr><td>$30$</td><td>$40$</td></tr><tr><td>$30$</td><td>$50$</td></tr><tr><td>$50$</td><td>$95$</td></tr></tbody></table><p> </p><table border=\"1\" cellpadding=\"1\" style=\"width:500px\"><tbody><tr><td colspan=\"2\" style=\"text-align:center\">$S$</td></tr><tr><td style=\"text-align:center\">$A$</td><td style=\"text-align:center\">$C$</td></tr><tr><td>$10$</td><td>$90$</td></tr><tr><td>$30$</td><td>$45$</td></tr><tr><td>$40$</td><td>$80$</td></tr></tbody></table><p> </p><p>The total number of tuples obtained by evaluating the following expression</p><p>$\\sigma_{B&lt;C}\\left(R \\bowtie_{R . A=S . A} S\\right)$ is ___________.</p><p> </p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq19,goclasses,databases,one-mark,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432191",
+          "text": "<p>What is the optimized version of the relation algebra expression $\\pi_{A1}(\\pi_{A2}(\\sigma_{F1}(\\sigma_{F2}(r))))$, where $A1, A2$ are sets of attributes in $r$ with &nbsp;$A1 \\subset A2$ and $F1,F2$ are Boolean expressions based on the attributes in $r$?</p><ol style=\"list-style-type: upper-alpha;\"><li>$\\pi_{A1}(\\sigma_{(F1 \\wedge F2)}(r))$</li><li>$\\pi_{A1}(\\sigma_{(F1 \\vee F2)}(r))$</li><li>$\\pi_{A2}(\\sigma_{(F1 \\wedge F2)}(r))$</li><li>$\\pi_{A2}(\\sigma_{(F1 \\vee F2)}(r))$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025_cs_da_wq19,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432194",
+          "text": "<p>​​​​​The relation schema, Person (pid, city), describes the city of residence for every person uniquely identified by pid. The following relational algebra operators are available: selection, projection, cross product, and rename.</p><p>To find the list of cities where at least $3$ persons reside, using the above operators, the minimum number of cross product operations that must be used is</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$1$</li><li>$2$</li><li>$3$</li><li>$4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025_cs_da_wq19,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432195",
+          "text": "<p>Consider the join of a relation $R$ with a relation $S$. If $R$ has $m$ tuples and $S$ has $n$ tuples then the maximum and minimum sizes of the join respectively are</p><ol style=\"list-style-type:upper-alpha\" class=\"noshrink-inline-options\"><li>$m+n$ and $0$</li><li>$mn$ and $0$</li><li>$m+n$ and $|m-n|$</li><li>$mn$ and $m+n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025_cs_da_wq19,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432188",
+          "text": "<p>​​​​​Consider a database that includes the following relations:</p><p>Defender(name, rating, side, goals)<br>Forward(name, rating, assists, goals)<br>Team(name, club, price)</p><p>Which ONE of the following relational algebra expressions checks that every name occurring in Team appears in either Defender or Forward, where $\\phi$ denotes the empty set?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$\\Pi_{\\text {name }}($ Team $) \\backslash\\left(\\Pi_{\\text {name }}(\\right.$ Defender $) \\cap \\Pi_{\\text {name }}($ Forward $\\left.)\\right)=\\phi$</li><li>$\\left(\\Pi_{\\text {name }}(\\right.$ Defender $) \\cap \\Pi_{\\text {name }}($ Forward $\\left.)\\right) \\backslash \\Pi_{\\text {name }}($ Team $)=\\phi$</li><li>$\\Pi_{\\text {name }}($ Team $) \\backslash\\left(\\Pi_{\\text {name }}(\\right.$ Defender $) \\cup \\Pi_{\\text {name }}($ Forward $\\left.)\\right)=\\phi$</li><li>$\\left(\\Pi_{\\text {name }}(\\right.$ Defender $) \\cup \\Pi_{\\text {name }}($ Forward $\\left.)\\right) \\backslash \\Pi_{\\text {name }}($ Team $)=\\phi$</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025_cs_da_wq19,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432187",
+          "text": "<p>In a relational database there are three relations:</p><ul><li>$Customers = C\\textsf{(CName)}$,</li><li>$Shops = S \\textsf{(SName)}$,</li><li>$Buys = B\\textsf{(CName, SName)}$.</li></ul><p>Which of the following relational algebra expressions returns the names of shops that have no customers at&nbsp;all? [Here $\\Pi$ is the projection operator.]</p><ol style=\"list-style-type:upper-alpha\"><li>$\\Pi _{\\textsf{SName}}B$</li><li>$S - B$</li><li>$S -&nbsp;\\Pi _{\\textsf{SName}}B$</li><li>$S -&nbsp;\\Pi _{\\textsf{SName}}((C \\times S) - B)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025_cs_da_wq19,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432190",
+          "text": "Consider the following relations $P(X,Y,Z), Q(X,Y,T)$ and $R(Y,V)$.\n$$\\overset{\\textbf{Table: P}}{\\begin{array}{|l|l|l|} \\hline \\textbf{X} & \\textbf{Y} & \\textbf{Z} \\\\\\hline \\text{X1} & \\text{Y1} & \\text{Z1} \\\\\\hline \\text{X1} & \\text{Y1} & \\text{Z2} \\\\\\hline \\text{X2} & \\text{Y2} & \\text{Z2} \\\\\\hline \\text{X2} & \\text{Y4} & \\text{Z4} \\\\\\hline  \\end{array}} \\qquad \\overset{\\textbf{Table: Q}}{\\begin{array}{|l|l|l|} \\hline  \\textbf{X} & \\textbf{Y} & \\textbf{T} \\\\\\hline \\text{X2} & \\text{Y1} & 2 \\\\\\hline \\text{X1} & \\text{Y2} & 5 \\\\\\hline \\text{X1} & \\text{Y1} & 6 \\\\\\hline \\text{X3} & \\text{Y3} & 1 \\\\\\hline  \\end{array}} \\qquad \\overset{\\textbf{Table: R}}{\\begin{array}{|l|l|} \\hline \\textbf{Y} & \\textbf{V}  \\\\\\hline \\text{Y1} & \\text{V1} \\\\\\hline \\text{Y3} & \\text{V2} \\\\\\hline \\text{Y2} & \\text{V3} \\\\\\hline \\text{Y2} & \\text{V2} \\\\\\hline  \\end{array}}$$\nHow many tuples will be returned by the following relational algebra query?\n\n$\\Pi_x (\\sigma_{(P.Y=R.Y \\wedge R.V=V2))} (P \\times R)) – \\Pi_x (\\sigma_{(Q.Y = R.Y \\wedge Q.T>2))} (Q \\times R))$\n\nAnswer: ________",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq19,goclasses,databases,two-marks,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432189",
+          "text": "<p>The following relation records the age of $500$ employees of a company, where $empNo$ (indicating the employee number) is the key:</p><p>$$empAge(\\underline{empNo},age)$$</p><p>Consider the following relational algebra expression:</p><p>$$\\Pi_{empNo}(empAge&nbsp;\\Join_{(age&gt;age1)} \\rho_{empNo1,age1}(empAge))$$</p><p>What does the above expression generate?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>Employee numbers of only those employees whose age is the maximum</li><li>Employee numbers of only those employees whose age is more than the age of exactly one other employee</li><li>Employee numbers of all employees whose age is not the minimum</li><li>Employee numbers of all employees whose age is the minimum</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025_cs_da_wq19,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432186",
+          "text": "<p>In a relational database there are three relations:</p><ul><li>$Customers&nbsp;= C \\textsf{(CName)}$</li><li>$Shops = S \\textsf{(SName)}$</li><li>$Buys = B \\textsf{(CName, SName)}$</li></ul><p>Then the Relational Algebra expression ( $\\Pi $ is the projection operator).</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$C-\\Pi _\\textsf{CName}((C \\times S)-B)$</p><p>returns the names of&nbsp;</p><ol style=\"list-style-type:upper-alpha\"><li>Customers who buy from at least one shop.</li><li>Customers who buy from at least two shops.</li><li>Customers who buy from all shops.</li><li>Customers who do not buy buy anything at all.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025_cs_da_wq19,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432192",
+          "text": "<p>Given two union compatible relations $R_1(A, B)$ and $R_2 (C, D)$, what is the result of the operation $R_1 \\Join_{ A = C \\wedge B = D} R_2$?</p><ol style=\"list-style-type:upper-alpha\"><li><p>$R_1 \\cup R_2$</p></li><li><p>$R_1 \\times R_2$</p></li><li><p>$R_1 – R_2$</p></li><li><p>$R_1 \\cap R_2$</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025_cs_da_wq19,goclasses,databases,one-mark",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

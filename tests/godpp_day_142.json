@@ -1,0 +1,70 @@
+{
+  "name": "Day 139 [Theory of Computation]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "499115",
+          "text": "<p>Define the language:<br><br>$L=\\{\\langle M\\rangle \\mid M \\text{ is a TM and there exists an input } w \\text{ of length at most 100 such that} ~M \\text{ halts on } w\\}$.<br><br>Which of the following is true?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$L$ is undecidable but recognizable.<br>&nbsp;</li><li>$L$ is decidable.<br>&nbsp;</li><li>$L$ is not recognizable.<br>&nbsp;</li><li>$L$ is co-recognizable but not recognizable.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 139"
+        },
+        {
+          "post_id": "499110",
+          "text": "<p>Consider a sequential circuit that detects the input sequence $\\mathbf{101}$ on a serial input line $x$ (one bit per clock cycle) and produces an output $z$ as follows:</p><ul><li>In a <strong>Moore machine</strong> implementation, $z=1$ when the circuit is in a state indicating that the previous three bits were $\\mathbf{101}$.<br>&nbsp;</li><li>In a <strong>Mealy machine</strong> implementation, $z=1$ when the current input completes the sequence $\\mathbf{101}$.<br>&nbsp;</li></ul><p>If the input stream is:</p><p>$$<br>x: 0~1~0~1~0~1~0~1<br>$$<br>(clocks $t_0$ to $t_7$ ), which of the following is true about the output $z$ in the same clock cycles $t_0$ to $t_7$ ?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The Mealy machine output has exactly the same sequence as the Moore machine.<br>&nbsp;</li><li>The Mealy machine output is the Moore machine output shifted left by $1$ cycle.<br>&nbsp;</li><li>The Mealy machine output leads the Moore machine output by $1$ cycle.<br>&nbsp;</li><li>The Moore machine output leads the Mealy machine output by $1$&nbsp;cycle.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 139"
+        },
+        {
+          "post_id": "499109",
+          "text": "Let $L$ be the language over $\\Sigma=\\{0,1\\}$ defined by:<br>\n<br>\n$$<br>\nL=\\{w \\mid \\text { the binary number represented by } w \\text { is divisible by } 11\\} .<br>\n$$<br>\n(Interpret $w$ as a binary number, most significant bit first, with leading zeros allowed. The empty string is treated as $0$.)<br>\n&nbsp;<br>\n<br>\nWhat is the minimum number of states in a DFA that accepts $L$ ?",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 139"
+        },
+        {
+          "post_id": "499108",
+          "text": "<p>Let $G=(\\{S, A, B\\},\\{a, b\\}, R, S)$ be a context-free grammar, where the rules $R$ are:</p><p>$$<br>S \\rightarrow a B|b A, \\quad A \\rightarrow a| a S|b A A, \\quad B \\rightarrow b| b S \\mid a B B .<br>$$</p><p><br>Which of the following is true about $L(G)$ ?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$L(G)$ consists of all strings over $\\{a, b\\}$ with an equal number of $a$ 's and $b$ 's.<br>&nbsp;</li><li>$L(G)$ consists of all non-empty strings over $\\{a, b\\}$ with an unequal number of $a$ 's and $b$ 's.<br>&nbsp;</li><li>$L(G)$ consists of all strings over $\\{a, b\\}$ where the number of $a$ 's is greater than the number of $b$ 's.<br>&nbsp;</li><li>$L(G)$ is regular.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 139"
+        },
+        {
+          "post_id": "499106",
+          "text": "<p>Let $G=(\\{S\\},\\{(,)\\}, R, S)$ be a context-free grammar, where the set of rules $R$ is</p><p>$$<br>S \\rightarrow(S) S \\mid \\epsilon<br>$$</p><p><br>Which of the following statements is true?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$G$ is ambiguous.<br>&nbsp;</li><li>$L(G)$ is not closed under concatenation.<br>&nbsp;</li><li>There exists a deterministic pushdown automaton that recognizes $L(G)$.<br>&nbsp;</li><li>$L(G)$ can be recognized by a deterministic finite automaton.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 139"
+        }
+      ]
+    }
+  ]
+}

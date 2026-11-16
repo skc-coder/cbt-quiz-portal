@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes CS Test Series 2026 | Discrete Mathematics | Topic Wise Test 4",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "374954",
+          "text": "Consider the set of $4$-digit positive integers. How many of them have their digits in strictly increasing order? (i.e. $1234, 2578$ etc)",
+          "type": "Numerical",
+          "answer": "126",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374952",
+          "text": "How many ways are there to arrange the $12$ letters of $\\text{AAABBBBCCCCC}$ without having two $\\text{Cs}$ together?",
+          "type": "Numerical",
+          "answer": "1960",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "376771",
+          "text": "How many words can be formed by re-arranging the letters of the word $\\text{“PROBLEMS”}$ such that $\\text{P}$ and $\\text{S}$ occupy the first and last position respectively? (Note: The words thus formed need not be meaningful)",
+          "type": "Numerical",
+          "answer": "720",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,counting,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374924",
+          "text": "There are five people of different heights. In how many ways can they stand in a line, so there are no $3$ consecutive people with increasing height(from left to right)? (Hint: May Try Inclusion-Exclusion Principle)",
+          "type": "Numerical",
+          "answer": "70",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,goclasses,combinatory,numerical-answers,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374926",
+          "text": "<p>Let $0 \\leq \\text{S(0)} \\leq \\text{T(0)},$ and suppose we have the recurrences</p><ul><li>$\\text{S}(n + 1) = a\\text{S}(n) + f(n)$</li><li>$\\text{T}(n + 1) = b\\text{T}(n) + g(n),$</li></ul><p>where $0 \\leq a \\leq b$ and $0 \\leq f(n) \\leq g(n)$ for all $n \\in \\mathbf{N}.$</p><p>Which of the following is/are necessarily true ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{S}(n) \\leq \\text{T}(n)$ for all $n \\in \\mathbf{N}.$</li><li>$\\text{T}(n) \\leq \\text{S}(n)$ for all $n \\in \\mathbf{N}.$</li><li>$\\text{T}(n) &lt; \\text{S}(n)$ for some $n \\in \\mathbf{N}.$</li><li>$0 \\leq \\text{S}(n) \\leq \\text{T}(n)$ for all $n \\in \\mathbf{N}.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,goclasses,combinatory,recurrence-relation,multiple-selects,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374912",
+          "text": "Let $\\text{S}$ be a set consisting of $10$ elements. We want to count all the ways to form an unordered pair $\\{\\text{A, B}\\}$ of disjoint subsets of $\\text{S i.e. A} \\subseteq \\text{S, B} \\subseteq \\text{S},$ and $\\text{A, B}$ are disjoint sets. How many ways are there?\n\nNote that we will consider $\\{\\text{X, X}\\}$ also as an unordered pair. Also, $\\{\\text{X, Y}\\} = \\{\\text{Y, X}\\}.$",
+          "type": "Numerical",
+          "answer": "29525",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,counting,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "376755",
+          "text": "A student is given an exam consisting of $8$ essay questions divided into $4$ groups of $2$ questions each. The student is required to select a set of $6$ questions to answer, including at least $1$ question from each of the $4$ groups. How many sets of questions satisfy this requirement?",
+          "type": "Numerical",
+          "answer": "24",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,counting,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374950",
+          "text": "<p>Count the number of ways to place the numbers $1, 2, \\dots, 10$ (all of them) on the left and bottom side of the square below (below gray squares), such that for each gray box, the number on its left is smaller than the number below it.</p><p style=\"text-align:center\"><img alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT0AAAEOCAYAAAD7dcCeAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAA6SSURBVHic7dx9aJX1/8fx17Wdu92d3bRpah3NUBuNzLuYrqkERTfIIiIII0QIDaU/hKhECsGCUiMyKISIbpBUaASh/5RRSiGzkkl3Roorj26zTbdz2Dk723X9/vjijx/kzvGHlx+/4/18wPXX3nC9P9u5njtngl4QBIEAwIiyG70AALhE9ACYQvQAmEL0AJhC9ACYQvQAmEL0AJhC9ACYQvQAmEL0AJhC9ACYQvQAmEL0AJhC9ACYEnF1o7GxMVe3um7KysrkeZ48z5twJggCjY+PO9zq+igvLy96TknyfV++7zva6Pq5mrOOj49rsv8vbJ7n/e9reCImXr+BA7lcLpg7d24gaVJfTz75ZJBOp4uedc+ePcG0adNu+K7Xen344YdBJpMpetZ169YF1dXVN3zXa7nq6+uD48ePl3wNL126NPA874bvey3X/fffH/zxxx9Fz/nll18Gc+bMueG7Xuv12muvBRcuXLjiGZ2807tc3Kefflp33XWXYrGYi9uGat++faqrqyv5jiAejyuZTGr79u2aOXOmo+3CMzQ0pA0bNigSiVzVWZcvX661a9dq6tSpjjYMz7fffqtPP/205Dml/7yGN27cqIceekg1NTUOtgvXrl27VF5errKy4n/RisVi8jxP7733nu68805H24XH931t2LBBsVhswrM6+3grSalUSi0tLYrH4y5vG4qvvvpKtbW1Ki8vLzpXVVWlWCymhQsXqrm52dF24RkYGFBlZaUSiUTJB6SqqkpTpkzRkiVLlEqlHG0Ynv7+ftXU1JQ8p/Sfj0uzZ8/W0qVLVVdX52C7cH322WfK5XIlX78VFRWKRCKaP3++WltbHW0XHt/3lUwmi75++YcMAKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0ApkRc3KRQKEiS3njjDe3YsUOe57m4bagKhYJOnz6tZ555Rk1NTRPOHT58WGfPntWqVasUj8cdbhieU6dO6ZdfftHKlSuVSCQmnOvq6tKRI0e0b98+lZVNvt+fhUJBQRBodHS05Gwul9MLL7ygLVu2TMrXbz6f14wZM7Ru3TrNnDlzwrljx47p0qVLuu+++1ReXu5ww/CMjIyoublZq1atUm1t7b++7iR6lx+IuXPnasqUKZPym3nixAk1NTUpEin+LWtsbFQsFtP8+fNVX1/vaLvw5PN5pdNp1dbWljxrMplUU1OTZs6cqYqKCkcbhqe3t1c9PT1XFTHP8zRr1ixNnz5d0WjUwXbh+v3339XY2Fhy94aGBkUiEbW0tKiurs7RduEJgkBdXV2qr69XLBa74oyT6F2O3ObNm9XR0aHKykoXtw3V6tWrlUqlSj7czc3NampqUkdHh1KplKPtwjM0NKQjR45oxowZE75oLps3b56SyaS2bt06Kc/a2dmpHTt2XFXE4vG4nn32Wa1Zs2ZSxmDTpk3K5XKqqqoqOjd79mxVVVXp7bffVmtrq6PtwuP7vtrb2zVr1qwJn9XJ95kEAK4B0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYErExU0KhYKCINCWLVu0c+dOlZVNvtb++eefamlp0fr164vOnThxQn19fXrllVcUj8cdbRee8fFxpdNpnTlzRvl8XolEYsLZn3/+WUePHtWPP/44Kc86ODio3t5ejY6OlpzN5XJ688039dFHHykScfLYhKqnp0c333yzMplM0bmTJ08qk8lo7dq1qq6udrRduH799Vfdc889ymazqq2t/dfXnf30PM9TX1+fLl26JM/zXN02NNlsVsPDw/J9v+jc8PCwCoWC8vn8pHw4fN+X7/vK5XIlz5rP55XJZNTU1ORou3B5nqcgCK56dmBgQNlsdlL+0s5ms6qurtb4+HjJOd/3lU6nFY1GHW0Xrnw+r2w2O+FZnTyVl795u3fvVkdHhyorK13cNlSrV69WKpUq+dtv2bJl6uzs1N69e9Xc3Oxou/AMDAyovb1d8+bNU0VFRdHZhQsXatq0aVq1apUaGhocbRiew4cP6/PPP1csFis5G4/HtW3bNq1Zs0Z1dXUOtgvXpk2blMvlrvjO5/9asGCBksmk9u/fr9bWVkfbhcf3fbW3t2v+/PlKJpNXnJl8v7IA4BoQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0AphA9AKYQPQCmED0ApkRc3CQIAknS/v371d3drWg06uK2oeru7lahUNDo6GjRuXQ6raGhIe3atUuNjY2OtgvPyMiI+vv7NTg4qLGxsaKz6XRa3d3dymazqqiocLRheM6cOaNz586VPKckjY6O6uDBg0qn00okEg62C9d3332nZDKpfD5fdK6vr0/5fF67d+/WgQMHHG0XniAI1NPTo/7+/gmfVSfRGx0dVRAE6uzsdHG762ZkZEQjIyNFZ44fP66BgQG9++67jra6Pk6fPq1cLqfq6uoJZ06dOqXu7m799NNPDjcLl+d5Gh8fLzk3NjamQ4cO6ZtvvpHneQ42C1c+n1djY6Oy2WzRud9++03ZbFYffPCBo82uj5MnTyqTyaipqelfX3MSvXg8Ls/ztGfPHnV0dKiystLFbUO1evVqpVIp1dbWFp17+OGH9fXXX2vv3r1qbm52tF14BgYG1N7eroULFxYNniTde++9uv3227V161alUilHG4ans7NTO3bsUDweLzlbWVmpdevW6cEHHyz5fflv9MknnygWi6mhoaHo3PLly/X++++rs7NTra2tjrYLj+/7am9vV1tb24Rn5W96AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATCF6AEwhegBMIXoATIm4vFl/f796enpUUVHh8rahyGQyyuVyCoKg6Fw+n9fY2JjS6bQqKysdbReeixcvqlAoaGxsrORZR0dHlclk9Pfff5ec/W/U19enfD5/Vbv7vq+hoSH19vYqk8k42C5cw8PDqqqqku/7RecKhYJ839f58+d15swZR9uFx/d95fN5FQqFiX+ugQMXL14M5syZE0ia1Ndtt90WnDx5suhZN27cGNTU1NzwXa/1evHFF4P+/v6iZ21rawvKyspu+K7Xeh07dqzka3jRokU3fM9rvW666abghx9+KHrO119/PZgyZcoN3/VaryeeeCI4derUFc/o5J1eIpGQ53nauHGjFi9erFgs5uK2oXrnnXc0b948VVdXF51ra2vTwYMH9fLLL2vGjBmOtgtPJpPR1q1b1dzcXPIdeUtLi6LRqB577DE1NjY62jA8XV1dOnDggCKR0o9BLBbTU089pRUrVqiqqsrBduH6+OOPFY/HlUwmi84tXrxYtbW1Wrt2rWbPnu1ou/D4vq/t27drwYIFE57VSfQ8z5MkLVu2TB0dHZPyY98XX3yhqVOnlnxA6uvrVVlZqUceeUTNzc2OtgvPwMCA3nrrLVVXV6u8vLzobENDg2bNmqWOjg6lUilHG4YnkUjo6NGjJc8pSZFIRIsWLdLjjz+uuro6B9uFq6urS7lcTtFotOhcMplUNBrVrbfeqjlz5jjaLjy+7yuRSKimpmbCZ5V/yABgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2AK0QNgCtEDYArRA2BKxMVNgiBQPB7XSy+9pG3btqmsbPK19vz581q+fLlGR0eLzv31118aHh7Wo48+qlgs5mi78IyPj+vs2bMaHBzU2NhY0dmzZ8/q0KFD+v777xWNRh1tGJ5MJqORkRGNj4+XnPU8Tzt37tTu3btVXl7uYLtwXbhwQXfccYdyuVzRud7eXgVBoFdffXVSvn4l6Z9//tGFCxcmfFadRC8ajer555/XxYsXXdzuurn77rvV0NBQdOaBBx5QeXm5MpmMo62uj5UrVyqRSBSdWb9+vdra2pTP5x1tFb7q6mrdcsstJeeee+45nTt3TkEQONjq+pg7d66mT59edGbJkiXavHmzBgcHHW11faxYsUK1tbVX/JoXTOafIgD8P02+z5kAcA2IHgBTiB4AU4geAFOIHgBTiB4AU4geAFOIHgBTiB4AU4geAFP+BwuqR/UnFyGOAAAAAElFTkSuQmCC\"></p>",
+          "type": "Numerical",
+          "answer": "151200",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,counting,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374940",
+          "text": "Consider the set $\\text{X} = \\{2, 3, 4, 5, 6, 7, 8, 9\\},$ which contains $8$ elements. How many subsets of $\\text{X}$ have at least one prime number?",
+          "type": "Numerical",
+          "answer": "240",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,counting,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374944",
+          "text": "<p>Let $a_0, a_1, a_2, \\ldots$ be a sequence with generating function $G(x)=\\sum_{n=0}^{\\infty} a_n x^n$, and let $b_0, b_1, b_2, \\ldots$ be the sequence whose generating function is $F(x) = G(3x^{2}).$</p><ul><li>Let $b_{11} = m.a_{11}$</li><li>Let $b_{20} = p.a_{10}$</li></ul><p>What is $m+p?$</p>",
+          "type": "Numerical",
+          "answer": "59049",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,generating-functions,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374928",
+          "text": "How many integer solutions does the equation\n\n$$\nx_1+x_2+x_3+x_4=15\n$$\nhave, if we require that $x_1 \\geq 2, x_2 \\geq 3, x_3 \\geq 10$ and $x_4 \\geq-3?$",
+          "type": "Numerical",
+          "answer": "20",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374922",
+          "text": "<p>Let $n \\in \\mathbf{N}$ be a natural number and let $\\text{X} \\subseteq \\mathbf{N}$ be a subset with $n + 1$ elements.</p><p>Then which of the following is/are necessarily true ?</p><ol style=\"list-style-type:upper-alpha\"><li>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that $x-y$ is divisible by $n.$</li><li>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that both $x, y$ are divisible by $n.$</li><li>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that $x + y$ is divisible by $n.$</li><li>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that $xy$ is divisible by $n.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,goclasses,combinatory,pigeonhole-principle,multiple-selects,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374914",
+          "text": "What is the coefficient of $x^{5}$ in the power series expansion of the following function?\n\n$$\\frac{1+7x}{(1-x)(1-5x)}$$",
+          "type": "Numerical",
+          "answer": "9373",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,generating-functions,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374930",
+          "text": "Consider the set $\\text{X} = \\{1, 2, 3, 4\\}$ and $\\text{Y} = \\{a, b, c, d, e, f\\}.$ How many one-to-one functions $\\text{F}$ are there from $\\text{X}$ to $\\text{Y}$ so that $\\text{F(1)}$ is not a vowel?",
+          "type": "Numerical",
+          "answer": "240",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,functions,combinatory,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374946",
+          "text": "Let the recurrence for the number of sequences of length $n$ containing digits from $\\{0, 1, \\dots, 6 \\},$ which do not have consecutive even digits be $\\text{T}(n).$\n\nFor instance$, 05565301$ is a sequence of length 8 containing digits from $\\{0, 1, \\dots, 6 \\},$ which do not have consecutive even digits.\n\nWe can see that $\\text{T}_{1} = 7, \\text{T}_{2} = 33,$ which are the initial conditions of the recurrence $\\text{T}(n).$\n\nFor $n \\geq 3, \\text{T}(n) = x\\text{T}_{n-1} + y\\text{T}_{n-2}$\n\nThen what is $x+y?$",
+          "type": "Numerical",
+          "answer": "15",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_tw_4,goclasses-testseries-2026,numerical-answers,goclasses,combinatory,recurrence-relation,two-marks",
+          "category": "Combinatory"
+        }
+      ]
+    }
+  ]
+}

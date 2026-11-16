@@ -1,0 +1,242 @@
+{
+  "name": "GO Classes DA 2025 | Weekly Quiz 2 | Singular Value Decomposition (SVD)",
+  "duration": "60",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "425647",
+          "text": "Let $X$ be a matrix with singular value decomposition $X=U \\Sigma V^{\\top}$. Which of the following are true for all $X$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\operatorname{rank}(X)=\\operatorname{rank}(\\Sigma)$</li><li> If all the singular values are unique, then the SVD is unique.</li> <li>The first column of $V$ is an eigenvector of $X^{\\top} X$.</li>  <li>The singular values and the eigenvalues of $X^{\\top} X$ are the same.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425645",
+          "text": "Select the true statements about the singular value decomposition (SVD) and the eigendecomposition.<br /><ol style=\"list-style-type:upper-alpha\"><li> The SVD applies only to square matrices.</li><li> The eigendecomposition applies only to square matrices.</li> <li>The right singular vectors of a matrix $X \\in \\mathbb{R}^{n \\times d}$ are eigenvectors of $X^{\\top} X$.</li>  <li>The left singular vectors of a matrix $X \\in \\mathbb{R}^{n \\times d}$ are eigenvectors of $X^{\\top} X$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425644",
+          "text": "Write the SVD of an $n \\times d$ design matrix $X$ (with $n \\geq d$ ) as $X=U D V^{T}$. Which of the following are true?<br /><ol style=\"list-style-type:upper-alpha\"><li> The components of $D$ are all nonnegative.</li><li> If $X$ is a real, symmetric matrix, the SVD is always the same as the eigendecomposition</li> <li>The columns of $V$ all have unit length and are orthogonal to each other</li>  <li>The columns of $D$ are orthogonal to each other</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425641",
+          "text": "Let $A$ be a symmetric matrix. Eigenvectors of $A$ which correspond to distinct eigenvalues are always<br /><ol style=\"list-style-type:upper-alpha\"><li> Linearly Independent</li><li> Orthogonal</li> <li>Nonzero</li>  <li>zero</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425640",
+          "text": "Consider the SVD of the matrix $A$ :<br />$$<br />A=U \\Sigma V^{T}<br />$$<br />The columns of the matrix $U$ are called the left singular vectors of $A$. Which of the following is a property of these vectors?<br /><ol style=\"list-style-type:upper-alpha\"><li> The left singular vectors are eigenvectors of $A A^{T}$.</li><li> The left singular vectors are eigenvectors of $A^{T} A$.</li> <li>Each column of $U$ is a scalar multiple of one of the standard basis vectors.</li>  <li>Each column of $U$ has norm equal to its corresponding singular value.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425634",
+          "text": "Given a matrix $P$ and its Singular Value Decomposition as:<br />$P=\\underbrace{\\left[\\begin{array}{cc}\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}} & \\frac{-1}{\\sqrt{2}}\\end{array}\\right]}_{\\mathrm{U}} \\underbrace{\\left[\\begin{array}{ccc}5 & 0 & 0 \\\\ 0 & 3 & 0\\end{array}\\right]}_{\\Sigma} \\underbrace{\\left[\\begin{array}{ccc}\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}} & 0 \\\\ \\frac{1}{\\sqrt{18}} & \\frac{-1}{\\sqrt{18}} & \\frac{4}{\\sqrt{18}} \\\\ \\frac{2}{3} & \\frac{-2}{3} & \\frac{-1}{3}\\end{array}\\right]}_{\\mathrm{V}^{\\top}}$<br />What is the dimension of the null-space of $P$ ?",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,numerical-answers,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425631",
+          "text": "Let $V \\in \\mathbb{R}^{n \\times n}$ be a square orthonormal matrix, i.e., its columns are orthogonal and have norm 1 :<br />$$<br />V=\\left[\\begin{array}{ccccc}<br />\\uparrow & \\uparrow & \\ldots & \\uparrow & \\uparrow \\\\<br />\\vec{v}_{1} & \\vec{v}_{2} & \\ldots & \\vec{v}_{n-1} & \\vec{v}_{n} \\\\<br />\\downarrow & \\downarrow & \\ldots & \\downarrow & \\downarrow<br />\\end{array}\\right]<br />$$<br />Now, we define the shifted matrix $W \\in \\mathbb{R}^{n \\times n}$, which is composed of the columns of $V$ shifted to the left by 1 index and padded by a zero vector:<br />$$<br />W=\\left[\\begin{array}{ccccc}<br />\\uparrow & \\uparrow & \\ldots & \\uparrow & \\uparrow \\\\<br />\\vec{v}_{2} & \\vec{v}_{3} & \\ldots & \\vec{v}_{n} & \\overrightarrow{0} \\\\<br />\\downarrow & \\downarrow & \\ldots & \\downarrow & \\downarrow<br />\\end{array}\\right]<br />$$<br />What is $\\operatorname{rank}(W)$ ?<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> 1</li><li> 0</li> <li>$\\mathrm{n}$</li>  <li>$\\mathrm{n}-1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425626",
+          "text": "If $A$ is a $4 \\times 4$ matrix decomposed into $A=P S$, where $P$ is an orthogonal matrix and $S$ is a symmetric matrix, and given $A=U \\Sigma V^{T}$ as the full singular value decomposition (SVD) of $A$, what are the matrices $P$ and $S$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $P=U V^{T}, S=V \\Sigma V^{T}$</li><li> $P=I$ (Identity matrix), $S=V \\Sigma V^{T}$</li> <li>$P=U U^{T}, S=U \\Sigma V^{T}$</li>  <li>It is not possible to decompose $A$ into an orthogonal matrix and a symmetric matrix.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425625",
+          "text": "Consider the below $2 \\times 1$ matrix:<br />$$<br />\\left(\\begin{array}{c}<br />-3 \\\\<br />-4<br />\\end{array}\\right)<br />$$<br />What is the value of the largest singular value?",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,numerical-answers,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425623",
+          "text": "Consider the symmetric matrix<br />$$<br />A=\\left[\\begin{array}{cc}<br />2 & -1 \\\\<br />-1 & 2<br />\\end{array}\\right]<br />$$<br />which has an eigen decomposition $A=W D W^{-1}$ where<br />$$<br />W=\\left[\\begin{array}{cc}<br />\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}} \\\\<br />-\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}}<br />\\end{array}\\right], \\quad D=\\left[\\begin{array}{ll}<br />3 & 0 \\\\<br />0 & 1<br />\\end{array}\\right]<br />$$<br />Let the Singular Value Decomposition (SVD) of $A=U \\Sigma V$.<br />What are the values of $U, \\Sigma$, and $V$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $U=W, \\Sigma=D, V=W^{T}$.</li><li> $U=W^{T}, \\Sigma=D, V=W$.</li> <li>$U=W, \\Sigma=D, V=W$.</li>  <li>$U=W, \\Sigma=D^{2}, V=W$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425649",
+          "text": "<p>Let $A$ be an $m \\times n$ real matrix with SVD in standard outer product form<br>$A=\\sigma_{1} \\vec{u}_{1} \\vec{v}_{1}^{\\top}+\\sigma_{2} \\vec{u}_{2} \\vec{v}_{2}^{\\top}+\\sigma_{3} \\vec{u}_{3} \\vec{v}_{3}^{\\top}$ with $\\sigma_{1} \\geq \\sigma_{2} \\geq \\sigma_{3}&gt;0$.<br>Which of the following is NOT true:</p><ol style=\"list-style-type:upper-alpha\"><li>$\\boldsymbol{A}^{\\top} \\boldsymbol{A} \\vec{v}_{2}=\\sigma_{2}^{2} \\vec{v}_{2}$</li><li>$\\operatorname{rank}\\left(A^{\\top}\\right)=3$</li><li>$\\vec{v}_{1} \\vec{v}_{1}^{\\top}=1$</li><li>${\\left[\\begin{array}{lll}<br>\\vec{u}_{1} &amp; \\vec{u}_{2} &amp; \\vec{u}_{3}<br>\\end{array}\\right]^{\\top}\\left[\\begin{array}{lll}<br>\\vec{u}_{1} &amp; \\vec{u}_{2} &amp; \\vec{u}_{3}<br>\\end{array}\\right]=\\left[\\begin{array}{lll}<br>1 &amp; 0 &amp; 0 \\\\<br>0 &amp; 1 &amp; 0 \\\\<br>0 &amp; 0 &amp; 1<br>\\end{array}\\right]}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425643",
+          "text": "With the SVD, we write $X=U D V^{\\top}$. For which of the following matrices are the eigenvectors the columns of $U$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $X^{\\top} X$</li><li> $X^{\\top} X X^{\\top} X$</li> <li>$X X^{\\top}$</li>  <li>$X X^{\\top} X X^{\\top}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425642",
+          "text": "Consider the matrix $\\mathbf{H}$ given below<br />$$<br />\\mathbf{H}=\\left[\\begin{array}{cc}<br />1 & 1 \\\\<br />1 & -1 \\\\<br />1 & -1 \\\\<br />1 & 1<br />\\end{array}\\right]\\left[\\begin{array}{ll}<br />4 & 0 \\\\<br />0 & 8<br />\\end{array}\\right]\\left[\\begin{array}{cc}<br />2 & -2 \\\\<br />2 & 2<br />\\end{array}\\right]<br />$$<br />Its largest singular value $\\sigma_1$ is given as: <br /><ol style=\"list-style-type:upper-alpha\"><li> $4 \\sqrt{2}$</li><li> $8 \\sqrt{2}$</li> <li>$16 \\sqrt{2}$</li>  <li>$32 \\sqrt{2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425638",
+          "text": "<p>Consider the following matrix and its singular value decomposition $A=U \\Sigma V^{T}$ :<br>$$<br>A=\\left(\\begin{array}{rrrr}<br>1 / \\sqrt{10} &amp; 1 / \\sqrt{15} &amp; 1 / \\sqrt{2} &amp; -1 / \\sqrt{3} \\\\<br>-2 / \\sqrt{10} &amp; 3 / \\sqrt{15} &amp; 0 &amp; 0 \\\\<br>2 / \\sqrt{10} &amp; 2 / \\sqrt{15} &amp; 0 &amp; 1 / \\sqrt{3} \\\\<br>-1 / \\sqrt{10} &amp; -1 / \\sqrt{15} &amp; 1 / \\sqrt{2} &amp; 1 / \\sqrt{3}<br>\\end{array}\\right)\\left(\\begin{array}{rrr}<br>3 &amp; 0 &amp; 0 \\\\<br>0 &amp; 2 &amp; 0 \\\\<br>0 &amp; 0 &amp; 0 \\\\<br>0 &amp; 0 &amp; 0<br>\\end{array}\\right)\\left(\\begin{array}{rrr}<br>1 / \\sqrt{3} &amp; -1 / \\sqrt{3} &amp; 1 / \\sqrt{3} \\\\<br>-1 / \\sqrt{6} &amp; -2 / \\sqrt{6} &amp; -1 / \\sqrt{6} \\\\<br>-1 / \\sqrt{2} &amp; 0 &amp; 1 / \\sqrt{2}<br>\\end{array}\\right)<br>$$<br>Let $x=\\left[\\begin{array}{l}a \\\\ b \\\\ c\\end{array}\\right]$ in $\\mathbb{R}^{3}$ be a unit vector such that $\\|A x \\|$ is maximized. Then, what will be the value of $a+b$ ?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>1</li><li>0</li><li>2</li><li>-1</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425636",
+          "text": "A certain $2 \\times 2$ matrix $A$ has the singular value decomposition<br />$$<br />A=\\left(\\begin{array}{cc}<br />\\mid & \\mid \\\\<br />\\mathbf{u}_{1} & \\mathbf{u}_{2} \\\\<br />\\mid & \\mid<br />\\end{array}\\right)\\left(\\begin{array}{ll}<br />2 & 0 \\\\<br />0 & 0<br />\\end{array}\\right)\\left(\\begin{array}{cc}<br />\\mid & \\mid \\\\<br />\\mathbf{v}_{1} & \\mathbf{v}_{2} \\\\<br />\\mid & \\mid<br />\\end{array}\\right)^{T}<br />$$<br />Consider a vector $x=\\mathbf{v}_{1}+3 \\mathbf{v}_{2}$. What will be the length of the vector $A x$ ?",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,numerical-answers,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425632",
+          "text": "Which of the following statements is/are TRUE?<br /><ol style=\"list-style-type:upper-alpha\"><li> If $A$ and $B$ are similar square matrices, then every singular value of $A$ is also a singular value of $B$.</li><li> If $A$ is invertible and $\\sigma$ is a singular value of $A$, then $\\frac{1}{\\sigma}$ is a singular value of $A^{-1}$.</li> <li>The non-zero singular values of $A B$ and $B A$ are the same.</li>  <li>The non-zero eigenvalues of $A B$ and $B A$ are the same.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425629",
+          "text": "Consider the $2 \\times 2$ matrix<br />$$<br />P=\\frac{1}{5}\\left(\\begin{array}{l}<br />8 \\\\<br />6<br />\\end{array}\\right)\\left(\\begin{array}{ll}<br />1 & 0<br />\\end{array}\\right)+\\frac{2}{5}\\left(\\begin{array}{c}<br />-6 \\\\<br />8<br />\\end{array}\\right)\\left(\\begin{array}{ll}<br />0 & 1<br />\\end{array}\\right)<br />$$<br />Let $\\sigma_{1}$ and $\\sigma_{2}$ be the two singular values of matrix $P$.<br />What is the value of $\\sigma_{1}+\\sigma_{2}$ ?",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,numerical-answers,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425627",
+          "text": "Consider the $4 \\times 3$ matrix<br />$$<br />A=\\left[\\begin{array}{lll}<br />a_{1} & a_{2} & a_{3}<br />\\end{array}\\right]<br />$$<br />where $a_{i}$ for $i \\in\\{1,2,3\\}$ form a set of orthogonal vectors satisfying $\\left\\|a_{1}\\right\\|_{2}=3,\\left\\|a_{2}\\right\\|_{2}=2,\\left\\|a_{3}\\right\\|_{2}=1$.<br />Let $\\sigma_{1}, \\sigma_{2}$, and $\\sigma_{3}$ are the singular values of matrix $\\mathrm{A}$.<br />What is the value of $\\sigma_{1}+\\sigma_{2}+\\sigma_{3}$ ?",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,goclasses,linear-algebra,numerical-answers,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425624",
+          "text": "Given matrices $A \\in \\mathbf{R}^{6 \\times 3}$ with singular values $7,5,3$, and $B \\in \\mathbf{R}^{6 \\times 3}$ with singular values $2,2,1$, let $C=[A B] \\in \\mathbf{R}^{6 \\times 6}$. Suppose $C$ has a full Singular Value Decomposition (SVD) $C=U \\Sigma V^{T}$, where $\\Sigma=\\operatorname{diag}\\left(\\sigma_{1}, \\ldots, \\sigma_{6}\\right)$ (We allow the possibility that some of these singular values are zero).<br />How small can $\\sigma_{1}$ be?",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,numerical-answers,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425622",
+          "text": "If $A$ is a $3 \\times 3$ matrix, with singular values 5,4 , and 2 , then how many distinct singular value decompositions (SVDs) of $A$ are possible?",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_wq6,numerical-answers,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        }
+      ]
+    }
+  ]
+}

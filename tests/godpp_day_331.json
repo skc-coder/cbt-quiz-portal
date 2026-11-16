@@ -1,0 +1,70 @@
+{
+  "name": "Day 252 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "529474",
+          "text": "<p>There are 120 seats in a row. What is the fewest number of seats that must be occupied so the next person to be seated must sit next to someone?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>30</li><li>40</li><li>41</li><li>60</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 252"
+        },
+        {
+          "post_id": "529470",
+          "text": "<p>There are twenty-four 4 -digit numbers that use each of the four digits $2,4,5$, and 7 exactly once. Listed in numerical order from smallest to largest, the number in the 17th position in the list is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>4527</li><li>5724</li><li>5742</li><li>7245</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 252"
+        },
+        {
+          "post_id": "529468",
+          "text": "<p>Each edge of a cube is colored either red or black. Every face of the cube has at least one black edge. The smallest number possible of black edges is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>2</li><li>3</li><li>4</li><li>5</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 252"
+        },
+        {
+          "post_id": "529465",
+          "text": "<p>At one of George Washington's parties, each man shook hands with everyone except his potato, and no handshakes took place between women. If 13 married couples attended, how many handshakes were there among these 26 people?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>78</li><li>185</li><li>234</li><li>312</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 252"
+        },
+        {
+          "post_id": "529463",
+          "text": "<p>A palindrome is a whole number that reads the same forwards and backwards. If one neglects the colon, certain times displayed on a digital watch are palindromes. Three examples are: □ 1:01 □ 4:44 and □ 12:21 . How many times during a 12 -hour period will be palindromes?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>57</li><li>60</li><li>63</li><li>90</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 252"
+        }
+      ]
+    }
+  ]
+}

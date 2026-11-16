@@ -1,0 +1,165 @@
+{
+  "name": "GO 2023 Topic Wise Free Test 2 | First Order Logic",
+  "duration": "40",
+  "total_qs": "13",
+  "total_qs_one": 6,
+  "total_qs_two": 7,
+  "apti_num_qs": 0,
+  "technical_num_qs": 13,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 13,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "391198",
+          "text": "<p>If $Mr.M$ is guilty, then no witness is lying unless he is afraid. There is a witness who is afraid. Which of the following statements is true?<br>\n<br>\n(Hint: Formulate the problem using the following predicates</p>\n\n<ul>\n\t<li>$G - Mr.M$ is guilty</li>\n\t<li>$W(x) - x$ is a witness</li>\n\t<li>$L(x) - x$ is lying</li>\n\t<li>$A(x) - x$ is afraid )</li>\n</ul>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>$Mr.M$ is guilty.</li>\n\t<li>$Mr.M$ is not guilty.</li>\n\t<li>From these facts one cannot conclude that $Mr.M$ is guilty.</li>\n\t<li>There is a witness who is lying.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-topictest-2,mathematical-logic,first-order-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391201",
+          "text": "<p>Consider the following argument with premise $\\forall _x (\\text{P}(x) \\vee&nbsp;\\text{Q}(x))$ and conclusion $(\\forall _x \\text{P}(x)) \\wedge (\\forall _x \\text{Q}(x))$</p>\n\n<p>$$\\begin{array}{|ll|l|} \\hline \\text{(A)} &amp; \\forall _x (\\text{P}(x) \\vee \\text{Q}(x)) &amp; \\text{Premise} \\\\ \\hline \\text{(B)} &amp; \\text{P}(c) \\vee \\text{Q}(c) &amp; \\text{Universal instantiation from (A)} \\\\ \\hline \\text{(C)} &amp; \\text{P}(c) &amp; \\text{Simplification from (B)} \\\\ \\hline \\text{(D)} &amp; \\forall _x \\text{P}(x) &amp; \\text{Universal Generalization of (C)} \\\\ \\hline \\text{(E)} &amp; \\text{Q}(c) &amp; \\text{Simplification from (B)} \\\\ \\hline \\text{(F}) &amp; \\forall _x&nbsp;\\text{Q}(x) &amp; \\text{Universal Generalization of (E)} \\\\ \\hline \\text{(G}) &amp; (\\forall _x \\text{P}(x)) \\wedge (\\forall _x\\text{Q}(x)) &amp; \\text{Conjuction of (D) and (F)} \\\\ \\hline \\end{array}$$</p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>This is a valid argument</li>\n\t<li>Steps $\\text{(C)}$ and $\\text{(E)}$ are not correct inferences</li>\n\t<li>Steps $\\text{(D)}$ and $\\text{(F)}$ are not correct inferences</li>\n\t<li>Step $\\text{(G)}$ is not a correct inference</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-topictest-2,mathematical-logic,first-order-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391209",
+          "text": "Which of the following propositional formulas is a tautology?<br /><ol style=\"list-style-type:upper-alpha\"><li> $p \\rightarrow(q \\rightarrow p).$</li><li> $p.$</li> <li>$p \\vee p.$</li>  <li>$(p \\rightarrow q) \\wedge(q \\rightarrow p).$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024-topictest-2,goclasses,mathematical-logic,first-order-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391205",
+          "text": "<p>Consider the following predicates:</p>\n\n<ul>\n\t<li>$\\operatorname{bird}(x): x$ is a bird.</li>\n\t<li>$\\text{penguin} (x): x$ is a penguin.</li>\n\t<li>$\\text{fly} (x)&nbsp;: x$ can fly.</li>\n</ul>\n\n<p>Consider the following predicate logic expressions:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>$\\forall x .[(\\operatorname{bird}(x) \\wedge \\neg$ penguin $(x)) \\rightarrow$ fly $(x)]$</li>\n\t<li>bird(Tweety) $\\wedge \\neg$ fly(Tweety)</li>\n</ol>\n\n<p>Which of the following is implied by $\\mathrm{A}, \\mathrm{B}?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>penguin(Tweety)</li>\n\t<li>$\\neg$ penguin(Tweety)</li>\n\t<li>Tweety is a penguin or not, can not be determined.</li>\n\t<li>fly(Tweety)</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024-topictest-2,goclasses,mathematical-logic,first-order-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391194",
+          "text": "<p>Which of the following formulas does not express that there is exactly one element of $\\text{D}$ that has property $\\text{P}(x)?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\exists x \\in \\text{D} \\forall y \\in \\text{D}[\\text{P}(y) \\leftrightarrow y=x]$</li>\n\t<li>$\\exists x \\in \\text{D}[\\text{P}(x) \\wedge \\forall y \\in \\text{D}[y \\neq x \\rightarrow \\neg \\text{P}(y)]]$</li>\n\t<li>$\\exists x \\in \\text{D} \\text{P}(x) \\wedge \\forall x_1, x_2 \\in \\text{D}\\left[\\text{P}\\left(x_1\\right) \\wedge \\text{P}\\left(x_2\\right) \\rightarrow x_1=x_2\\right]$</li>\n\t<li>$\\exists x \\in \\text{D} \\forall y \\in \\text{D}[\\text{P}(y) \\rightarrow y=x]$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-topictest-2,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391199",
+          "text": "<p>For a person $p$, let $w(p)$, $A(p, y)$, $L(p)$ and $J(p)$ denote that $p$ is a woman, $p$ admires $y$, $p$ is a lawyer and $p$ is a judge respectively. Which of the following is the correct translation in first order logic of the sentence: \"All woman who are lawyers admire some judge\"?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>$\\forall x: \\left[\\left(w\\left(x\\right)\\Lambda L \\left(x\\right)\\right)\\Rightarrow \\left(\\exists y:\\left(J \\left(y\\right)\\Lambda w\\left(y\\right) \\Lambda A\\left(x, y\\right)\\right)\\right)\\right]$</li>\n\t<li>$\\forall x: \\left[\\left(w\\left(x\\right)\\Rightarrow L \\left(x\\right)\\right)\\Rightarrow \\left(\\exists y:\\left(J \\left(y\\right) \\Lambda A\\left(x, y\\right)\\right)\\right)\\right]$</li>\n\t<li>$\\exists y \\forall x: \\left[\\left(w\\left(x\\right) \\Lambda L\\left(x\\right)\\right) \\Rightarrow \\left(J\\left(y\\right) \\Lambda A\\left(x, y\\right)\\right)\\right]$</li>\n\t<li>$\\forall x: \\left[\\left(w\\left(x\\right) \\Lambda L\\left(x\\right)\\right) \\Rightarrow \\left(\\exists y: \\left(J\\left(y\\right) \\Lambda A\\left(x, y\\right)\\right)\\right)\\right]$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-topictest-2,mathematical-logic,first-order-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391202",
+          "text": "<p>Consider the following English sentence:</p><p>$\\text{“Agra and Gwalior are both in India\"}.$</p><p>A student has written a logical sentence for the above English sentence in First-Order Logic using predicate $\\text{IN}(x, y),$ which means $x$ is in $y,$ as follows.</p><p>$\\text{In(Agra, India)} \\vee&nbsp;\\text{In(Gwalior, India)}$</p><p>Which one of the following is correct with respect to the above logical sentence?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>It is syntactically valid but does not express the meaning of the English sentence</li><li>It is syntactically valid and expresses the meaning of the English sentence also</li><li>It is syntactically invalid but expresses the meaning of the English sentence</li><li>It is syntactically invalid and does not express the meaning of the English sentence</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq6,goclasses,mathematical-logic,first-order-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391207",
+          "text": "<p>Consider the following predicates:</p><ul><li>$\\operatorname{bird}(x): x$ is a bird.</li><li>$\\text{penguin}(x): x$ is a penguin.</li><li>$\\text{fly} (x): x$ can fly.</li></ul><p>Consider the following sentence:</p><p>All birds except penguins' fly. (Note that Penguins may or may not fly)</p><p>Which of the following is/are a formula in first-order logic expressing the given fact?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\forall x.[(\\operatorname{bird}(x) \\wedge \\neg$ penguin $(x)) \\rightarrow \\mathrm{fly}(x)]$</li><li>$\\forall x.[\\neg \\operatorname{bird}(x) \\vee \\neg$ penguin $(x) \\vee$ fly $(x)]$</li><li>$\\forall x. [\\neg$ bird $(x) \\vee$ penguin $(x) \\vee$ fly $(x)]$</li><li>$\\forall x. [\\operatorname{bird}(x) \\vee$ penguin $(x) \\vee$ fly $(x)]$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq6,goclasses,mathematical-logic,first-order-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391203",
+          "text": "<p>Which of the following is a valid inference of $\\mathrm{X, Y}$ in first-order logic?<br>\n$$<br>\n\\begin{aligned}<br>\n&amp; \\text{X}: \\forall x .(\\mathrm{P}(x) \\rightarrow \\mathrm{Q}(x)) \\\\<br>\n&amp; \\text {Y}: \\forall x .(\\neg \\mathrm{R}(x) \\rightarrow \\neg \\mathrm{Q}(x))<br>\n\\end{aligned}<br>\n$$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\forall x .(\\neg \\text{R}(x) \\rightarrow \\neg \\text{P}(x))$</li>\n\t<li>$\\forall x .(\\mathrm{P}(x) \\rightarrow \\mathrm{R}(x))$</li>\n\t<li>$\\forall x .(\\mathrm{R}(x) \\rightarrow \\mathrm{P}(x))$</li>\n\t<li>$\\forall x .(\\mathrm{Q}(x) \\rightarrow \\mathrm{R}(x))$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-topictest-2,goclasses,mathematical-logic,first-order-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391200",
+          "text": "<p>Which of the following is NOT necessarily true? { Notation: The symbol ''$\\neg$''notes negation; $\\text{P} (x, y)$ means that for given $x$ and $y$, the property $\\text{P}(x, y)$ is true }.</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>$(\\forall x\\forall y \\text{P}(x, y)) \\Rightarrow (\\forall y\\forall x \\text{P}(x, y))$</li>\n\t<li>$(\\exists x\\exists y \\text{P}(x, y)) \\Rightarrow &nbsp;(\\exists y\\exists x \\text{P}(x, y))$</li>\n\t<li>$(\\exists x\\forall y \\text{P}(x, y)) \\Rightarrow &nbsp;(\\forall y\\exists x \\text{P}(x, y))$</li>\n\t<li>$(\\forall x\\exists y \\text{P}(x, y)) \\Rightarrow &nbsp;(\\exists y\\forall x \\text{P}(x, y))$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-topictest-2,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391211",
+          "text": "In first-order logic, how would you express that \"something likes something\"?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\exists x \\exists y \\operatorname{Likes}(x, y)$</li><li> $\\exists x \\forall y \\operatorname{Likes}(x, \\mathrm{y})$</li> <li>$\\forall x \\exists y \\text{Likes}(x, y)$</li>  <li>$\\forall x \\forall y \\operatorname{Likes}(x, \\mathrm{y})$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024-topictest-2,goclasses,mathematical-logic,first-order-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391196",
+          "text": "<p>Let $\\varphi$ be a propositional formula on a set of variables&nbsp; $A$ and&nbsp; $\\psi$ be a propositional&nbsp; formula on a set of&nbsp; variables $B$ , such that $\\varphi$ $\\Rightarrow$ $\\psi$ . A $\\textit{Craig interpolant}$ of $\\varphi$ and $\\psi$ is a propositional formula $\\mu$ on variables $A \\cap B$ such that $\\varphi$ $\\Rightarrow$ $\\mu$ and $\\mu$ $\\Rightarrow$ $\\psi$. Given propositional formula $\\varphi = q \\vee (r \\wedge s)$ on the set of variables $A = \\{q,r,s\\}$ and propositional formula $\\psi = \\neg q \\rightarrow (s \\vee t)$ on the set of variables $B =\\{q,s,t\\}$, which of the following is a Craig interpolant for $\\varphi$ and $\\psi?$&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>$\\varphi$ itself</li>\n\t<li>$q \\vee s$</li>\n\t<li>$q \\vee r$</li>\n\t<li>$\\neg q \\wedge s$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-topictest-2,mathematical-logic,first-order-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "391197",
+          "text": "<p>Given that</p>\n\n<ul>\n\t<li>$B(x)$ means \"$x$ is a bat\",</li>\n\t<li>$F(x)$ means \"$x$ is a fly\", and</li>\n\t<li>$E(x, y)$ means \"$x$ eats $y$\",</li>\n</ul>\n\n<p>what is the best English translation of $$ \\forall x(F(x) \\rightarrow \\forall y (E(y, x) \\rightarrow B(y)))?$$</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>all flies eat bats</li>\n\t<li>bats eat only flies</li>\n\t<li>every bat eats flies</li>\n\t<li>only bats eat flies</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-topictest-2,mathematical-logic,first-order-logic,two-marks",
+          "category": "Mathematical Logic"
+        }
+      ]
+    }
+  ]
+}

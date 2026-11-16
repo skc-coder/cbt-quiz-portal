@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 Digital1: Boolean Algebra",
+  "duration": "60",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "257900",
+          "text": "<p>When a $2$-input NOR gate has all its input lines and output line inverted, it becomes:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>NAND gate</li>\n    <li>EXNOR gate</li>\n    <li>EXOR gate</li>\n    <li>OR gate</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dl1,digital-logic,digital-circuits",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257893",
+          "text": "<p>The number of minterms in an expression for $n$-input Ex-NOR gate can be given by:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2^{\\frac{n^2}{2}}$</li>\n    <li>$\\frac{2^{n}}{2}$</li>\n    <li>$\\frac{n^2}{2}$</li>\n    <li>$n$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257891",
+          "text": "<p>Which of the following statements is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>AND gate resembles switches in parallel while OR gate resembles switches in series connection.</li>\n    <li>AND gate resembles switches in series while OR gate resembles switches in parallel connection.</li>\n    <li>AND gate resembles switches in series while NOR gate resembles switches in parallel connection.</li>\n    <li>AND gate resembles switches in parallel while NOR gate resembles switches in series connection.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257889",
+          "text": "The minimum number of at most 2-input gates (AND, OR and NOT gates) required to realize following expression is________\n\n$\\overline{a}.  \\overline{(\\overline{a}\\overline{b}+\\overline{(a+c)})}$",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-dl1,numerical-answers",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257887",
+          "text": "<p>Which of the following expression represents the Boolean function shown in k-map below:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:300px\">\n    <tbody>\n        <tr>\n            <td>$A$</td>\n            <td>$B$</td>\n            <td>$f(A, B)$</td>\n        </tr>\n        <tr>\n            <td>$0$</td>\n            <td>$0$</td>\n            <td>$1$</td>\n        </tr>\n        <tr>\n            <td>$0$</td>\n            <td>$1$</td>\n            <td>$D$</td>\n        </tr>\n        <tr>\n            <td>$1$</td>\n            <td>$0$</td>\n            <td>$1$</td>\n        </tr>\n        <tr>\n            <td>$1$</td>\n            <td>$1$</td>\n            <td>$D$</td>\n        </tr>\n    </tbody>\n</table>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{OR gate}$</li>\n    <li>$\\text{AND gate}$</li>\n    <li>$\\overline{B}$</li>\n    <li>$1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257885",
+          "text": "<p>A three variable Boolean function is defined as $f(A,B,C)=\\sum \\{0,1,6,7\\}$. If $\\overline{f(A,B,C)}$ is defined as complement of $f(A,B,C)$ then the simplified expression for $\\overline{f(A,B,C)}$ can be given by:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$B \\oplus C$</li>\n    <li>$1$</li>\n    <li>$A\\odot B$</li>\n    <li>$A\\oplus B$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257883",
+          "text": "<p>The Gray code representation of $117_{10}$ is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1111001$</li>\n    <li>$1001111$</li>\n    <li>$1110110$</li>\n    <li>$1110101$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257881",
+          "text": "When all inputs to a logic circuit are high, still the output is low, then the gate can be:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  either Ex-OR or NAND but not NOR<br /> </li><li>  either Ex-NOR or NAND but not NOR<br /> </li> <li> either Ex-OR or NOR but not NAND<br /> </li>  <li> none of the above  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257879",
+          "text": "<p>Consider the K-map shown below with four variables where, “D” denotes don’t care states.</p>\n\n<p><img alt=\"GATEBOOK-2019-DL1-9\" src=\"data:image/png;base64,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\"></p>\n\n<p>The number of Essential Prime implicants in the K-map shown above is______</p>",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-dl1,numerical-answers",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257877",
+          "text": "<p>What happens when a bit-string of length $m-bit$ is Ex-NORed with itself n-times as shown: $[(B \\odot (B \\odot (B \\odot (B....\\text{n times}]$&nbsp;&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>complements when n is even</li>\n    <li>complements when n is odd</li>\n    <li>produces $2^m-1$ when n is even</li>\n    <li>remains unchanged when n is even</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257875",
+          "text": "Logical Ex-NOR operation (of two variables A and B) is equivalent to which of the following set expressions?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $(A \\cup B)-(A \\cap B)$<br /> </li><li>  $(1- (A \\cap B) )$<br /> </li> <li> $(1-(A \\cup B)- (A \\cap B))$<br /> </li>  <li> $(1-(A \\cup B)) \\cup (A \\cap B)$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257873",
+          "text": "<p>Which of the following is equivalent to following Boolean expression:<br>\n$\\overline{D} + (\\overline{A}B\\overline{C} + A\\overline{B}.\\overline{C})D + AC\\overline{D} + \\overline{(\\overline{A}\\oplus 0).A}$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$D$</li>\n    <li>$\\overline{D}$</li>\n    <li>$0$</li>\n    <li>$(B+\\overline{B}D+\\overline{B}\\overline{D})$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257871",
+          "text": "<p>Minimum number of NOR gates required to realize following Boolean function is:<br>\n$f(A,B,C) = AB + \\overline{C}$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3$</li>\n    <li>$4$</li>\n    <li>$5$</li>\n    <li>$6$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257869",
+          "text": "<p>Consider the K-map shown below with four variables.<br>\n<img alt=\"GATEBOOK-2019-DL1-14\" src=\"data:image/png;base64,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\"></p>\n\n<p>The value of multiplication of the number of prime implicants and number of Essential Prime implicants in the K-map shown above is________</p>",
+          "type": "Numerical",
+          "answer": "15",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dl1,numerical-answers",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257867",
+          "text": "<p>The output $Y$ in the circuit shown below, is always $1$ when:<br>\n<img alt=\"GATEBOOK-2019-DL1-15\" src=\"data:image/png;base64,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\"></p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Odd number of inputs are $1$</li>\n    <li>Even number of inputs are $0$</li>\n    <li>At least $2$ of the inputs are $1$</li>\n    <li>At least $1$ of the inputs are $1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257865",
+          "text": "<p>The gray code for a decimal number $N$ is $11111111_2$. This number $N$ is converted into $P$ which belongs to $8$ &nbsp;$4$ &nbsp;$-2$ &nbsp;$-1$ code system. What is the Hexadecimal representation for P?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$ABC$</li>\n    <li>$F55$</li>\n    <li>$170$</li>\n    <li>$790$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257863",
+          "text": "<p>The four variable function f is given as collection of sum-of-product terms as follows:<br>\n$f(A,B,C,D) = \\{2,3,8,10,11,12,14,15\\}$<br>\nWhich of the following correctly represents the pair (P,Q) where P represents the minimized expression for this function and Q stands for minimum number of two input NAND gates required to realize this function, considering variables are available only in their nonprime form:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$A\\overline{D}+AC+\\overline{B}C, \\: 6$</li>\n    <li>$A\\overline{C}+AD+\\overline{B}C, \\: 8$</li>\n    <li>$A\\overline{D}+AC+\\overline{B}C, \\: 8$</li>\n    <li>$A\\overline{C}+AD+\\overline{B}C, \\: 6$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257861",
+          "text": "<p>Given function $f_1$, $f_2$ and $f_3$ as follows:<br>\n$f_1 = \\sum m \\{2,3,4,5\\}$<br>\n$f_2 = \\sum m \\{1,2,3,4,6\\}$<br>\n$f_3 = \\sum m \\{1,3,5,6\\}$</p>\n\n<p>and the logic circuit shown below:<br>\n<img alt=\"GATEBOOK-2019-DL1-18\" src=\"data:image/png;base64,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\">Which of the following collection of minterms best represents the function $f$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\sum m\\{1,2,3,4,5,6\\}$</li>\n    <li>$\\sum m\\{2,3,4,5,6\\}$</li>\n    <li>$\\sum m\\{1,3,4,5,6\\}$</li>\n    <li>$\\sum m\\{1,2,3,4,6\\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257859",
+          "text": "<p>If decimal value of $(402)_y$ is $7_{10}$ less than that of &nbsp;$(173)_x$ then possible values of $x$ and $y$ in octal number system respectively are:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$11,16$</li>\n    <li>$15,9$</li>\n    <li>$9,12$</li>\n    <li>$17,11$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dl1",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "257857",
+          "text": "<p>Consider the $16$-bit floating-point format which has $9$ rightmost bits for the mantissa and $6$ bits for the excess-$31$ exponent (base $2$) in the middle and most significant bit stands for sign of the float number. Which of the following represents the difference between the smallest and third smallest normalized positive float value (using implicit leading 1) in this system?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2^{-39}$</li>\n    <li>$2^{-35}$</li>\n    <li>$2^{-38}$</li>\n    <li>$2^{-32}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dl1,floating-point-representation",
+          "category": "Digital Logic"
+        }
+      ]
+    }
+  ]
+}

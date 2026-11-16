@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes GATE CS/DA |Combinatorics | Weekly Quiz 1",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "468494",
+          "text": "How many committees of 5 students can be selected from a class of 25?",
+          "type": "Numerical",
+          "answer": "53130",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468476",
+          "text": "In how many ways can a cricket eleven be chosen out of a batch of 15 players if a particular player is always chosen?",
+          "type": "Numerical",
+          "answer": "1001",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468474",
+          "text": "In how many ways can a cricket eleven be chosen out of a batch of 15 players if a particular player is never chosen?",
+          "type": "Numerical",
+          "answer": "364",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468488",
+          "text": "In a race with 15 runners where 6 trophies will be given to the top 6 runners (the trophies are distinct: first place, second place, etc), how many ways can this be done?",
+          "type": "Numerical",
+          "answer": "3603600",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468482",
+          "text": "How many ways can you pair up 8 boys and 8 girls? (i.e. How many pairs having one girl & one boy are possible?)",
+          "type": "Numerical",
+          "answer": "64",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "468469",
+          "text": "How many ways can you choose 4 groups of 4 people from 16 people, assuming the groups are distinct (i.e. group A, group B, group C, group D)?",
+          "type": "Numerical",
+          "answer": "63063000",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468478",
+          "text": "Out of 2 Women and 5 Men, a committee of 3 is to be formed. In how many ways can it be formed if at least one woman is to be included?",
+          "type": "Numerical",
+          "answer": "25",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468484",
+          "text": "Three hardcover books and 5 paperbacks are placed on a shelf. How many ways can the books be arranged if all the hardcover books must be together and all the paperbacks must be together?",
+          "type": "Numerical",
+          "answer": "1440",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468486",
+          "text": "8 students on a student council are assigned 8 seats around a U-shaped table. How many ways can a president and a vice-president be elected from the 8 students?",
+          "type": "Numerical",
+          "answer": "56",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468492",
+          "text": "A Club consists of 20 members, of which 9 are male and 11 are female. Seven members will be selected to form an event-planning committee. How many committees of 4 females and 3 males can be formed?",
+          "type": "Numerical",
+          "answer": "27720",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468465",
+          "text": "Suppose we have 4 Americans and 6 Canadians. How many ways can we arrange them in a line if not all the Americans are together ?",
+          "type": "Numerical",
+          "answer": "3507840",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468467",
+          "text": "Suppose we have 4 Americans and 6 Canadians. How many ways can we arrange them in a line if all the Americans have to stand together?",
+          "type": "Numerical",
+          "answer": "120960",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468480",
+          "text": "How many ways can you arrange 9 people into 3 rows of 3 desks each?",
+          "type": "Numerical",
+          "answer": "362880",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468471",
+          "text": "In a race with 15 runners where 6 trophies will be given to the top 6 runners (the trophies are distinct: first place, second place, etc), how many ways can this be done, if a certain person, Ram, must be one of the top 3 winners?",
+          "type": "Numerical",
+          "answer": "720720",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468490",
+          "text": "How many 7-digit telephone numbers can be formed if the first digit cannot be 0 or 1 ?",
+          "type": "Numerical",
+          "answer": "8000000",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq5,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Discrete Mathematics"
+        }
+      ]
+    }
+  ]
+}

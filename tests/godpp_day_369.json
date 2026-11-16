@@ -1,0 +1,70 @@
+{
+  "name": "Day 270 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "531658",
+          "text": "<p>Two differentiable functions $u$ and $v$ are combined to form $w(x)=\\dfrac{u(x)}{v(x)}$. At $x=2$, the following information is known: $$w(2)=5, \\qquad v(2)=4, \\qquad u'(2)=18, \\qquad \\text{and} \\qquad w'(2)=\\frac{1}{2}$$&nbsp;Find $v'(2)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{12}{5}$<br>&nbsp;</li><li>$\\frac{14}{5}$<br>&nbsp;</li><li>$\\frac{16}{5}$<br>&nbsp;</li><li>$\\frac{18}{5}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 270"
+        },
+        {
+          "post_id": "531656",
+          "text": "Let $g$ be continuous at $x=0$, but not differentiable at $x=0$, and suppose $g(0)=5$. Define $f(x)=x^2g(x)+3x$. Find $f'(0)$.",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 270"
+        },
+        {
+          "post_id": "531662",
+          "text": "A variable rate $r(t)$ is given by $$r(t)=\\begin{cases}3t^2-4,&0\\leq t&lt;1\\\\ 5-2t,&1\\leq t\\leq 3\\\\ t-4,&3&lt;t\\leq 5\\end{cases}$$ Find the net accumulated change from $t=0$ to $t=5$, that is, find $\\int_0^5 r(t),dt$.",
+          "type": "Numerical",
+          "answer": "-1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 270"
+        },
+        {
+          "post_id": "531660",
+          "text": "<p data-start=\"0\" data-end=\"186\">A differentiable function $F$ on $\\mathbb{R}$ has the property that $-2\\leq F'(x)\\leq 5$ for every real number $x$. Which of the following statements must always be true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"188\" data-end=\"281\">$F(7)\\leq F(2)+25$<br>&nbsp;</li><li data-start=\"188\" data-end=\"281\">$F(7)\\geq F(2)-10$<br>&nbsp;</li><li data-start=\"188\" data-end=\"281\">$F(7)\\leq F(2)+10$<br>&nbsp;</li><li data-start=\"188\" data-end=\"281\">$F(7)\\geq F(2)-25$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 270"
+        },
+        {
+          "post_id": "531654",
+          "text": "<p data-start=\"0\" data-end=\"154\">A function $p$ is defined near $0$ and satisfies $\\lim_{x\\to 0}p(x)=7$. Another function is defined by $F(x)=x^2p(x)-4x$. What is $F'(0)$?</p>",
+          "type": "Numerical",
+          "answer": "-4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 270"
+        }
+      ]
+    }
+  ]
+}

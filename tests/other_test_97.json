@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 DM3: Set Theory & Algebra",
+  "duration": "54",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "259213",
+          "text": "<p>Below function is defined from positive integers to all integers</p>\n\n<p>$f(n) = \\begin{cases} (n-1)/2 &amp; \\text{if n is odd} \\\\ -n/2 &amp; \\text{if n is even} \\end{cases}$</p>\n\n<p>Which of the following statements regarding $f$&nbsp;is TRUE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n<li>It is one to one but not onto</li>\n<li>It is onto but not one to one</li>\n<li>It is bijection</li>\n<li>It is neither one-one nor&nbsp;onto</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm3,functions",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259212",
+          "text": "<p><img alt=\"\" height=\"143\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=259845039847183625\" width=\"600\"></p>\n\n<p>Let $A, C \\subseteq R^2$ where $A=\\{(x, y)/y=2x+1\\}$, and $C=\\{(x,y)/x-y=7 \\}$. The number of elements in $\\overline{\\bar{A} \\cup \\bar{C}}$ is</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$1$</li>\n    <li>$2$</li>\n    <li>$\\text{Infinitely many}$</li>\n    <li>$\\text{Uncountably&nbsp;many}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259211",
+          "text": "<p><img alt=\"\" height=\"44\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=18242536141443663885\" width=\"594\"></p>\n\n<p>If $A=\\{1, 2, 3, 4, 5\\}$ and there are $6720$ Injective functions $f: A \\rightarrow B$ then $\\mid B \\mid =$ ______?</p>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm3,numerical-answers,functions",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259207",
+          "text": "<p><img alt=\"\" height=\"141\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=12433427477059005196\" width=\"545\"></p>\n\n<p>How many functions from $A=\\{1, 2, 3, 4, 5\\}$ to $B=\\{1, 2, 3, 4, 5\\}$ are invertible? Note: A function is invertible if it has an inverse function</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$120$</li>\n    <li>$3125$</li>\n    <li>$125$</li>\n    <li>$25$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259204",
+          "text": "<p><img alt=\"\" height=\"145\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=2204912884091534917\" width=\"497\"></p>\n\n<p>Let $A = \\{1, 2, 3, 4\\}$. Consider the following statements about relations on set$A$. Which of the following statements is false?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>every relation $R$ on $A$ with $15$ ordered pair members is not transitive</li>\n    <li>Intersection of any two transitive relations is transitive</li>\n    <li>Union if any two symmetric relations is symmetric</li>\n    <li>Complement of a symmetric relation might not be symmetric</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259203",
+          "text": "<p><img alt=\"\" height=\"154\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=3094561461803892441\" width=\"600\"></p>\n\n<p>Given a simple undirected graph $G$. Define the relation $R(u, v)$ between nodes $u$ and $v$ of $G$ as follows:</p>\n\n<p>$R(u, v) = \\text{ there is a path from u to v in G}$</p>\n\n<p>Which one of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$R$ is reflexive but not symmetric</li>\n    <li>$R$ is symmetric but not reflexive</li>\n    <li>$R$ is an Equivalence relation</li>\n    <li>$R$ is Partial order relation</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259200",
+          "text": "The number of equivalence relations on a set of $3$ elements is _______",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm3,numerical-answers,relations",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259198",
+          "text": "<p><img alt=\"\" height=\"109\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=9504082444874852098\" width=\"600\"></p>\n\n<p>Which of the following statements is true about posets which are defined on infinte elements?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>There cannot be maximal element</li>\n    <li>There cannot be minimal element</li>\n    <li>Always there is a minimal element</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259196",
+          "text": "<p><img alt=\"\" height=\"368\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=3417115558680941406\" width=\"359\"></p>\n\n<p><img alt=\"\" src=\"data:image/png;base64,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\"></p>\n\n<p>Which of the following is true about above diagram?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>It is lattice but not complemented</li>\n    <li>It is not lattice</li>\n    <li>It is complemented lattice</li>\n    <li>It is not meet semilattice</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259195",
+          "text": "<p><img alt=\"\" height=\"127\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=18166398709778790197\" width=\"534\"></p>\n\n<p>Given that $A=\\{1, 2, 3, 4\\}$ and $R$ is the relation efined by $(x,y) \\in R$ if $3x+2y \\leq 11$. Which of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>It is reflexive</li>\n    <li>It is symmetric</li>\n    <li>It is trasnitive</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259210",
+          "text": "For $n \\in Z^+$ define $X_n=\\{1, 2, 3, 4, \\dots , n\\}$. Given $m, n \\in Z^+, \\: f:X_m \\rightarrow X_n$ is called monotonically increasing if for all $i, j \\in X_m \\: 1 \\leq i < j \\leq m \\Rightarrow f(i) \\leq f(j)$. How many monotonically increasing functions are there with domain $X_7$ and co domain $X_5$?",
+          "type": "Numerical",
+          "answer": "330",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm3,functions,numerical-answers",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259209",
+          "text": "<p><img alt=\"\" height=\"130\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=15335130819311682504\" width=\"574\"></p>\n\n<p>&nbsp;</p>\n\n<p>For $A=\\{1, 2, 3, 4, \\dots 7\\}$. How many bijective functions $f: A \\rightarrow A$ satisfy $f(1) \\neq 1$?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$7! -6!$</li>\n    <li>$6!$</li>\n    <li>$7.6!$</li>\n    <li>$\\text{none}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259208",
+          "text": "<p><img alt=\"\" height=\"59\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=2424431598375747702\" width=\"439\"></p>\n\n<p>Let $f, g: R \\rightarrow R$ where $g(x)=1-x+x^2$ and $f(x)=ax+b$ . If $(g \\: o \\: f)(x)=9x^2-9x+3$ then determine $a=$__________</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm3,numerical-answers,functions",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259206",
+          "text": "<p><img alt=\"\" height=\"118\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=12625683445026679852\" width=\"529\"></p>\n\n<p>Number of onto functions from set of $n$ elements $(n&gt;2)$ to set of $3$ elements?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$3^n-3$</li>\n    <li>$3^n-3\\times2^n-3$</li>\n    <li>$3^n-3\\times2^n+3$</li>\n    <li>$3^n-2^n-13$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259205",
+          "text": "<p><img alt=\"\" height=\"216\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=7192795496020457981\" width=\"594\"></p>\n\n<p>Let $A$ and $B$ be two&nbsp;sets such that $\\mid A \\mid =\\mid B \\mid$ and there is a one to one function, $f$, from $A$ to $B$. Which of the following must be true about $f$?</p>\n\n<p>S1: $f$ is onto function</p>\n\n<p>S2: $f$ has an inverse</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n<li>Only S1</li>\n<li>Only S2</li>\n<li>Both S1 and S2</li>\n<li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm3,functions",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259201",
+          "text": "Let $A$ be a set with $\\mid A \\mid =5$. How many antisymmetric relations are possible on set $A$ whose size is maximum?",
+          "type": "Numerical",
+          "answer": "1024",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm3,numerical-answers,relations",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259199",
+          "text": "Let $A = \\{1,2,3,4,5,6,7\\}.$ The number of symmetric relations on $A$ which contains exactly $4$ elements is _______",
+          "type": "Numerical",
+          "answer": "686",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm3,relations,numerical-answers",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259197",
+          "text": "<p><img alt=\"\" height=\"126\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=8213420132804972284\" width=\"600\"></p>\n\n<p>Let $R$ denote a relation on the set of all ordered pairs of positive integers by $(x,y)R(u,v)$ if and only if $xv=yu$. Which of the following is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$R$ is a partial order relation</li>\n    <li>$R$ is an&nbsp; equivalence relation</li>\n    <li>$R$ is neither partial order relation nor equivalence&nbsp;relation</li>\n    <li>$R$ is an antishymmetric&nbsp;relation</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259194",
+          "text": "<p><img alt=\"\" height=\"293\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=12146589967783456560\" width=\"600\"></p>\n\n<p>A partition P1 is called a refinement of the partition P2 if every set in P1 is a subset of one of the sets in P2.</p>\n\n<p>S1: The partition of te set of bit strings of length $16$ formed by equivalence classes of bit strings that agree on the last eight bits is a refinement of the partition formed from the equivalence classes of bit strings that agree on the last four bits.</p>\n\n<p>S2: The partition formed from congruence classes modulo $6$ is a refinement of the partition formed from congruence classes modulo $3$.</p>\n\n<p>Which of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only S1</li>\n    <li>Only S2</li>\n    <li>Both S1 and S2</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "259193",
+          "text": "<p><img alt=\"\" height=\"226\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=14765340273690963995\" width=\"600\"></p>\n\n<p>Suppose that $R!$ and $R2$ are two equivalence relations on non empty domain $A$ then which of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>$R1 \\cup R2$ is an equivalence relation</li>\n    <li>$R1 \\cap R2$ is an equivalence relation</li>\n    <li>$R1 \\oplus&nbsp;R2$ is an equivalence relation</li>\n</ol>\n\n<p>Which of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only I</li>\n    <li>Only&nbsp;II</li>\n    <li>Only Ii and III</li>\n    <li>Only III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm3",
+          "category": "Set Theory & Algebra"
+        }
+      ]
+    }
+  ]
+}

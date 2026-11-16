@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes Weekly Quiz 11 | Data Structures | Asymptotic Notation and Loop Time Complexity",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "375593",
+          "text": "<p>Consider two statements $\\text{S1}$ and $\\text{S2}$ below.</p><ul><li>$\\text{S1}: $ If $f_{1}(n)=O\\left(g_{1}(n)\\right)$ and $f_{2}(n)=O\\left(g_{2}(n)\\right)$, then $f_{1}(n)+f_{2}(n)=O\\left(\\max \\left\\{g_{1}(n), g_{2}(n)\\right\\}\\right)$.</li><li>$\\text{S2}:$ If $f_{1}(n)=\\Omega\\left(g_{1}(n)\\right)$ and $f_{2}(n)=\\Omega\\left(g_{2}(n)\\right)$, then $f_{1}(n)+f_{2}(n)=\\Omega\\left(\\min \\left\\{g_{1}(n), g_{2}(n)\\right\\}\\right)$.</li></ul><p>Which of the following is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{S1}$ is true but $\\mathrm{S} 2$ is false</li><li>$\\text{S}1$ is false but $\\text{S}2$ is true</li><li>Both statements are true</li><li>Both statements are false</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024_wq21,algorithms,asymptotic-notations,time-complexity,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375596",
+          "text": "<p>What is the time complexity of the code given?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">for(i=1;i&lt;=n;i++)\n    for(j=1;j&lt;=n;j=j+i)\n        printf(\"GO Classes\");\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$\\Theta\\left(n^{2}\\right)$</li><li>$\\Theta(&nbsp;n \\log n&nbsp;)$</li><li>$\\Theta&nbsp;(n \\log \\log n)$</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ds-sw-1,goclasses,algorithms,asymptotic-notations,time-complexity,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375600",
+          "text": "<p>Which of the following(s) is/are correct?</p><ol style=\"list-style-type:upper-alpha\"><li>$n^{\\log n}=O\\left((\\log n)^{n}\\right)$</li><li>$n^{\\log n}=\\Omega\\left((\\log n)^{n}\\right)$</li><li>$n^{\\log \\log \\log n}=O((\\log n) !)$</li><li>$ n^{\\log \\log \\log n}=\\Omega((\\log n) !)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-mockgate-14,goclasses,algorithms,asymptotic-notations,time-complexity,multiple-selects,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375588",
+          "text": "<p>Consider functions $f()$ and $g()$ which are positive increasing functions.</p><p>Which of the following(s) is/are correct?</p><ol style=\"list-style-type:upper-alpha\"><li>If $f(n)=o(g(n))$ then $\\log (f(n))=o(\\log (g(n))$, here $o$ is small-oh</li><li>If $f(n)=\\mathrm{O}(g(n))$ then $e^{f(n)}=\\mathrm{O}\\left(e^{g(n)}\\right)$, here $\\mathrm{O}$ is big-oh</li><li>If $f(n)=O(g(n))$ then $\\log (f(n))=O(\\log (g(n))$, here $O$ is big-oh</li><li>If $f(n)=o(g(n))$ then $e^{f(n)}=o\\left(e^{g(n)}\\right)$, here $o$ is small-oh</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024_wq23,algorithms,asymptotic-notations,time-complexity,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375598",
+          "text": "<p>Consider $\\text{Iterated logarithm}$ of $n,$ written $\\log^\\ast n$ (usually read \"$\\log$ star $n$\"), is the number of times the logarithm (base $2$) function must be iteratively applied before the result is less than or equal to $1.$<br>Mathematically,<br>$$\\lg ^{*} N=\\min \\{k \\mid \\underbrace{\\lg \\lg \\cdots \\lg }_{k} N \\leq 1\\}$$<br>For example-<br>$\\begin{aligned} \\lg ^{*} 2 &amp;=1,\\\\<br>\\lg ^{*} 4 &amp;=2,\\\\<br>\\lg ^{*} 16 &amp;=3,\\\\<br>\\lg ^{*} 65536 &amp;=4,\\\\<br>\\lg ^{*}\\left(2^{65536}\\right) &amp;=5 \\end{aligned}$</p><p>Which of the following is/are correct about the implementation of $\\log \\ast n?$</p><p>In all options, $\\log()$ is a function which calculates $\\log$ base $2$ of a given number.</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li> <pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int iteratedLog(double n)\n{\n    if (n &gt; 1.0) {\n        return 1 + iteratedLog( log(n));\n    }\n    else return 0;\n}\n</pre></li><li> <pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int iteratedLog(double n)\n{\n    int count=0;\n    while (n &gt; 1.0) {\n        n = log(n);\n        count++;\n    }\n    return count;\n}\n\n</pre></li><li>$\\log \\ast n=\\left\\{\\begin{array}{clc}0 &amp; \\text { if } &amp; n \\leq 1\\\\<br>1+\\log \\ast(\\log n) &amp; \\text { if } &amp; n&gt;1\\end{array}\\right.$<br><br> </li><li>$\\log ^{*} 2^{m}=1+\\log ^{*} m$ for $m&gt;1$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ds-sw-1,goclasses,algorithms,asymptotic-notations,time-complexity,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375592",
+          "text": "<p>What will be the time complexity of following pseudo code?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">s=1\nwhile s &lt;= (log n)*(log n)\n    s=3*s;\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$\\Theta\\left((\\log n)^{2}\\right)$</li><li>$\\Theta(\\log n)$</li><li>$\\Theta (\\log \\log n)$</li><li>$\\Theta (\\log \\log \\log n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ds-sw-1,goclasses,algorithms,asymptotic-notations,time-complexity,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375599",
+          "text": "<p>Rank the following functions by increasing order of growth; that is, find an arrangement $g_{1}, g_{2}, g_{3}, g_{4}$ of the functions satisfying $g_{1}=O\\left(g_{2}\\right), g_{2}=O\\left(g_{3}\\right), g_{3}=O\\left(g_{4}\\right). ($For example, the correct ordering of $n^{2}, n^{4}, n, n^{3}$ is $n, n^{2}, n^{3}, n^{4})$<br>$$<br>f_{1}=(n !)^{1 / n} \\quad f_{2}=\\log n^{n} \\quad f_{3}=n^{n^{1 / 2}} \\quad f_{4}=n \\log n \\log \\log n<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>$f 1, f 2, f 3, f 4$</li><li>$f 3, f 2, f 4, f 1$</li><li>$f 1, f 2, f 4, f 3$</li><li>$f 2, f 4, f 1, f 3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ds-sw-1,goclasses,algorithms,asymptotic-notations,time-complexity,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375587",
+          "text": "<p>Which of the following(s) is/are correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>If $f(n)=n \\log n, g(n)=\\displaystyle{}\\sum_{i=1}^{n} \\frac{n}{i}$ then $f(n)=\\Theta(g(n))$</li>\n    <li>If $f(n)=1.01^{n}, g(n)=n^{1000}$ then $f(n)=\\Omega(g(n))$</li>\n    <li>If $f(n)=\\displaystyle{}\\sum_{i=1}^{n} i^{2}, g(n)=n^{3}+\\sum_{i=1}^{n} i$ then $f(n)=\\Theta(g(n))$</li>\n    <li>If $f(n)=n !, g(n)=3^{n} \\times 5^{n}$ then $f(n)=\\Omega(g(n))$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024_wq23,goclasses,algorithms,asymptotic-notations,time-complexity,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375601",
+          "text": "<p>Rank the following functions by increasing order of growth. That is, find any arrangement $g 1, g 2, g 3, g 4$ of the functions satisfying $g 1=O(g 2), g 2=O(g 3), g 3=$ $\\mathrm{O}(\\mathrm{g} 4)$.<br>\n$$<br>\n\\begin{aligned}<br>\n&amp;f_{1}(n)=2^{(\\log n)^{4}}<br>\n&amp;f_{2}(n)=\\pi^{n}<br>\n&amp;f_{3}(n)=n^{5(\\log n)^{2}}<br>\n&amp;f_{4}(n)=\\sqrt{2^{\\sqrt{n}}}<br>\n\\end{aligned}<br>\n$$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$f 1, f 3, f 4, f 2$</li>\n    <li>$f 3, f 1, f 4, f 2$</li>\n    <li>$f 1, f 3, f 2, f 4$</li>\n    <li>$f 1, f 3, f 4, f 2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024_wq21,goclasses,algorithms,asymptotic-notations,time-complexity,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375590",
+          "text": "<p>What will be the time complexity of $\\text{function()}?$</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nfunction(int n) {\n    for (int i = 0; i &lt; n; i++) {\n        for (int j = i; j &lt; i * i; j++) {\n            if (j % i == 0) {\n                for (int k = 0; k &lt; j; k++) {\n                    printf(\"*\");\n                }\n            }\n        }\n    }\n}    \n</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\Theta \\left(n^{3}\\right)$</li>\n    <li>$\\Theta\\left(n^{4}\\right)$</li>\n    <li>$\\Theta\\left(n^{5}\\right)$</li>\n    <li>$\\Theta\\left(n^{2} \\log n\\right)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024_wq23,goclasses,algorithms,asymptotic-notations,time-complexity,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375597",
+          "text": "<p>Suppose</p><ul><li>$\\text{A}=(\\log\\ n)^{k}$</li><li>$\\text{B}=n^{\\epsilon}$</li></ul><p>Assume that $k \\geq 1$ and $\\epsilon&gt;0$</p><p>What is the relation $\\text{between}$ the asymptotic time complexities of $\\text{A}$ and $\\text{B}?$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{A}=\\mathrm{O}(\\mathrm{B})$</li><li>$\\mathrm{A}=\\mathrm{o}(\\mathrm{B})$</li><li>$\\mathrm{A}=\\Omega(B)$</li><li>$\\mathrm{A}=\\omega(B)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ds-sw-1,goclasses,algorithms,asymptotic-notations,time-complexity,multiple-selects,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375594",
+          "text": "<p>What is the time complexity of the code given?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int i = 1, j = 2;\nwhile (i &lt;= n) {\n    sum += 1;\n    i = i * j;\n    j = j * 2;\n}\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$\\Theta(n)$</li><li>$\\Theta(\\sqrt{\\log n})$</li><li>$\\Theta\\left(n^{2}\\right)$</li><li>$\\Theta\\left((\\log n)^{2}\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-cs-mockgate-14,goclasses,algorithms,asymptotic-notations,time-complexity,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375595",
+          "text": "<p>What will be the time complexity of $\\text{fun()}?$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int fun(int n) {\n    int count = 0;\n    for (int i = n; i &gt; 0; i /= 2)\n        for (int j = 0; j &lt; i; j++)\n            count += 1;\n    return count;\n}\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$\\Theta(n)$</li><li>$\\Theta(n \\log n)$</li><li>$\\Theta\\left(n^{2}\\right)$</li><li>$\\Theta\\left((\\log n)^{2}\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ds-sw-1,goclasses,algorithms,asymptotic-notations,time-complexity,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375591",
+          "text": "<p>What is the time complexity of the code given?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">for (i = n; i &gt; 0; i--) {\n    for (j = 1; j &lt; n; j = j * 2) {\n        for (k = 0; k &lt; j; k++) {\n            printf(\"hi\");\n        }\n    }\n}\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$\\Theta(n)$</li><li>$\\Theta\\left(n^{2}\\right)$</li><li>$\\Theta\\left(n^{3}\\right)$</li><li>$\\Theta\\left(n^{2} \\log n\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ds-sw-1,goclasses,algorithms,asymptotic-notations,time-complexity,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375589",
+          "text": "<p>Determine the complexity of the following code, using “$\\Theta$” as indicated.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint sum = 0;\nfor (int i = 1; i &lt;= n; i *= 2)\n    for (int j = 1; j &lt;= i; j++)\n        sum++;\n        print(sum);\n</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\Theta \\left(n^{2}\\right)$</li>\n    <li>$\\Theta\\left(n^{2} \\log n\\right)$</li>\n    <li>$\\Theta(n)$</li>\n    <li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024_wq23,goclasses,algorithms,asymptotic-notations,time-complexity,two-marks",
+          "category": "Algorithms"
+        }
+      ]
+    }
+  ]
+}

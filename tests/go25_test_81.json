@@ -1,0 +1,132 @@
+{
+  "name": "GO Classes CS 2025 | Weekly Quiz 37 | Relational Algebra | DBMS",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "432205",
+          "text": "<p>Consider the following schemas:</p><p>Branch=(Branch-name, Assets, Branch-city)</p><p>Customer = (Customer-name, Bank name, Customer-city)</p><p>Borrow = (Branch-name, Loan number, Customer account-number)</p><p>Deposit = (Branch-name, Account-number, Customer-name, Balance)</p><p>Using relational Algebra, the Query that finds customers who have balance more than 10,000 is _____</p><ol style=\"list-style-type:upper-alpha\"><li>$\\pi_{customer-name} (\\sigma_{balance &gt; 10000^{(Deposit)}}$)</li><li>$\\sigma_{customer-name} (\\sigma_{balance &gt; 10000^{(Deposit)}}$)</li><li>$\\pi_{customer-name} (\\sigma_{balance &gt; 10000^{(Borrow)}}$)</li><li>$\\sigma_{customer-name} (\\pi_{balance &gt; 10000^{(Borrow)}}$)</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025_cs_da_wq20,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432199",
+          "text": "<p>Let R and S be two relations with the following schema</p><p>$R(\\underline{P,Q}, R1, R2, R3)$</p><p>$S(\\underline{P,Q}, S1, S2)$</p><p>where $\\left\\{P, Q\\right\\}$ is the key for both schemas. Which of the following queries are equivalent?</p><ol style=\"list-style-type:upper-roman\"><li><p>$\\Pi_P \\left(R \\bowtie S\\right)$</p></li><li><p>$\\Pi_P \\left(R\\right) \\bowtie \\Pi_P\\left(S\\right)$</p></li><li><p>$\\Pi_P \\left(\\Pi_{P, Q} \\left(R\\right) \\cap \\Pi_{P,Q} \\left(S\\right) \\right)$</p></li><li><p>$\\Pi_P \\left(\\Pi_{P, Q} \\left(R\\right) - \\left(\\Pi_{P,Q} \\left(R\\right) - \\Pi_{P,Q} \\left(S\\right)\\right)\\right)$</p></li></ol><ol style=\"list-style-type:upper-alpha\"><li>Only I and II</li><li>Only I and III</li><li>Only I, II and III</li><li>Only I, III and IV</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025_cs_da_wq20,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432200",
+          "text": "<p>Consider the relations $R(A, B)$ and $S(B, C)$ and the following four relational algebra queries over R ans S</p><ol style=\"list-style-type:upper-roman\"><li>$\\pi_{A, B} (R \\bowtie S)$</li><li>$R \\bowtie \\pi_B(S)$</li><li>$R \\cap (\\pi_A(R) \\times \\pi_B (S))$</li><li>$\\Pi_{A.&nbsp;R. B} (R \\times S)$ where $R.B$ refers to the column B in table R</li></ol><p>One can determine that:</p><ol style=\"list-style-type:upper-alpha\"><li>I, III and IV are the same query</li><li>II, III and IV are the same query</li><li>I, II&nbsp;and IV are the same query</li><li>I, II and III&nbsp;are the same query</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025_cs_da_wq20,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432203",
+          "text": "<p>Given the relations</p><ul><li>employee (name, salary, dept-no), and</li><li>department (dept-no, dept-name,address),</li></ul><p>Which of the following queries cannot be expressed using the basic relational algebra operations $\\left(\\sigma, \\pi,\\times ,\\Join, \\cup, \\cap,-\\right)$?</p><ol style=\"list-style-type:upper-alpha\"><li>Department address of every employee</li><li>Employees whose name is the same as their department name</li><li>The sum of all employees' salaries</li><li>All employees of a given department</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025_cs_da_wq20,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432204",
+          "text": "<p>With respect to relational algebra, which of the following operations are included from mathematical set theory?</p><ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\"><li>Join</li><li>Intersection</li><li>Cartisian product</li><li>Project<ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>i and iv</li><li>ii and iii</li><li>iii and iv</li><li>ii and iv</li></ol></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025_cs_da_wq20,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432202",
+          "text": "<p>Which operation is used to extract specified columns from a table?</p><ol style=\"list-style-type: upper-alpha;\"><li>Project</li><li>Join</li><li>Extract</li><li>Substitute</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025_cs_da_wq20,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432196",
+          "text": "<p>Consider the following instances:</p><p><br><img alt=\"\" width=\"301\" height=\"139\" src=\"data:image/png;base64,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\"></p><p>Which of the following relational operations will produce the following tuple only?<br><img alt=\"\" width=\"220\" height=\"65\" src=\"data:image/png;base64,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\"></p><ol style=\"list-style-type:upper-alpha\"><li>$($ QB1 $\\cup \\mathrm{QB} 2) \\times(\\mathrm{QB} 2 \\cup \\mathrm{QB} 1)$</li><li>$(Q B 1-Q B 2) \\cap(Q B 2-Q B 1)$</li><li>$($ QB1 $-\\mathrm{QB} 2) \\times(\\mathrm{QB} 2-\\mathrm{QB} 1)$</li><li>&nbsp;$(Q B 1 \\cap Q B 2)-(Q B 2 \\cap Q B 1)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025_cs_da_wq20,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432198",
+          "text": "<p>Consider the following relation schemas:<br>$R(A, B), S(B, C), T(C, D)$.<br>Check equivalences that are correct under set semantics.<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$ R \\bowtie R \\equiv R $</li><li>$R \\cup(S-R) \\equiv S \\cup R$</li><li>$(R \\cup S)-T \\equiv R \\cup(S-T)$</li><li>$<br>\\pi_{A}(R$&nbsp;⟕&nbsp;$ S) \\equiv \\pi_{A}(S$ ⟖ $R)<br>$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq20,goclasses,databases,two-marks,multiple-selects",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432197",
+          "text": "Suppose that two relations $R(A, B)$ and $S(A, B)$ have exactly the same schema. Consider the following equalities in relational algebra?<br /><ol style=\"list-style-type:upper-roman\"><li> $\\quad R \\cap S=R-(R-S)$</li><li> $R \\cap S=S-(S-R)$</li> <li>$R \\cap S=R$ NATURAL-JOIN $S$</li>  <li>$\\mathrm{R} \\cap \\mathrm{S}=\\mathrm{R} \\times \\mathrm{S}$</li></ol><br />Which of the equalities hold in relational algebra?<br /><ol style=\"list-style-type:upper-alpha\"><li> I only</li><li> I and II only</li> <li>I, II and III</li>  <li>I, II, III and IV</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025_cs_da_wq20,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "432201",
+          "text": "<p>The join operation can be defined as</p><ol style=\"list-style-type: upper-alpha;\"><li>a cartesian product of two relations followed by a selection</li><li>a cartesian product of two relations</li><li>a union of two relations followed by cartesian product of the two relations</li><li>a union of two relations</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025_cs_da_wq20,goclasses,databases,one-mark",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

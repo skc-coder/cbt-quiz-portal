@@ -1,0 +1,70 @@
+{
+  "name": "Day 50 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "477408",
+          "text": "<pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int arr[ ]={1, 2, 3, 4}\nint count;\nincr( ) {return ++count;}\nmain( )\n{\narr[count++]=incr( );\nprintf(\"arr[count]=%d\\n\", arr[count]);\n}\n\n</pre><p>The value printed by the above program is :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1$<br>&nbsp;</li><li>$2$<br>&nbsp;</li><li>$3$<br>&nbsp;</li><li>$4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 50"
+        },
+        {
+          "post_id": "477400",
+          "text": "<p><b id=\"docs-internal-guid-6511b545-7fff-de04-5b24-5c935f9b04b3\">Consider the following C code:</b></p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int arr[] = {10, 20, 30, 40, 50};\nint *p = arr + 2;\nprintf(\"%d\", *(p - 1));\n</pre><p>What is the output of this code?&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10$&nbsp;<br>&nbsp;</li><li>$20$&nbsp;<br>&nbsp;</li><li>$30$&nbsp;<br>&nbsp;</li><li>$40$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 50"
+        },
+        {
+          "post_id": "477402",
+          "text": "<p>Consider the following structure on a $32$ -bit machine ( $4$ -byte alignment for int, char alignment is $1$ byte):</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">struct test {\n    char a;\n    int b;\n    char c;\n};\n</pre><p>What is the size (in bytes) of this structure?&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$6$&nbsp;<br>&nbsp;</li><li>$8$&nbsp;<br>&nbsp;</li><li>$9$&nbsp;<br>&nbsp;</li><li>$12$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 50"
+        },
+        {
+          "post_id": "477406",
+          "text": "<p>What is the output of the following program: (Assume that the appropriate preprocessor directives are included and there is not syntax error)<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">main( )\n    { char S[]=\"ABCDEFGH\";\n        printf(\"%C\", *(&S[3]));\n        printf(\"%s\", S+4);\n        printf(\"%u\", S);\n    /*Base address of S is 1000 */\n    }\n\n</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$ABCDEFGH1000$&nbsp;<br>&nbsp;</li><li>$CDEFGH1000$&nbsp;<br>&nbsp;</li><li>$DDEFGHH1000$&nbsp;<br>&nbsp;</li><li>$DEFGH1000$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 50"
+        },
+        {
+          "post_id": "477404",
+          "text": "<p>What is the value returned by the function $f$ given below when $n=100$ ?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">let f(int n)\n{ if (n==0) then return n;\nelse\nreturn n+f(n-2);\n}\n\n</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2550$<br>&nbsp;</li><li>$2556$<br>&nbsp;</li><li>$5220$<br>&nbsp;</li><li>$5520$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 50"
+        }
+      ]
+    }
+  ]
+}

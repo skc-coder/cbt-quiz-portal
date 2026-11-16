@@ -1,0 +1,352 @@
+{
+  "name": "GATE Overflow CS Test Series 2025 | Algorithms | Shallow Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "449266",
+          "text": "We are tasked with implementing a hash table with $ 500 $ slots using universal hashing. The table will store a set of student records, and you need to perform a lookup for a specific student's ID. There are already $3000$ student records in the table, and the student IDs are assumed to be uniformly distributed.\nIf we randomly select a student ID $ x $ for lookup, what is the expected number of collisions between $ x $ and the other student records already stored in the hash table, assuming the hash function is chosen randomly from a universal family of hash functions?",
+          "type": "Numerical",
+          "answer": "6:6",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,numerical-answers,hashing,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449248",
+          "text": "<p>What is the time complexity of the following code if $bar(n)$ takes $O(\\log n)$ time to execute?<br> </p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int i, j;\nfor (i = 1; i * i &lt;= n; i++)\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (j = 1; j &lt;= n; j = j * 2)\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bar(j);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;}</pre><ol style=\"list-style-type:upper-alpha\"><li>$O(n)$</li><li>$O(\\sqrt{n} (\\log n)^2)$</li><li>$O(\\sqrt{n} \\log n)$</li><li>$O(n^2 \\log n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-algorithms-shallow-1,time-complexity,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449224",
+          "text": "<p>Consider the following C function to compute the $n$-th term of a sequence:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int sequence(int n) \n{\n&nbsp;&nbsp;&nbsp;&nbsp;if (n &lt;= 1)\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return n;\n&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;int prev2 = 0;\n&nbsp;&nbsp;&nbsp;&nbsp;int prev1 = 1;\n&nbsp;&nbsp;&nbsp;&nbsp;int current = 0;\n&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 2; i &lt;= n; i++) \n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;current = prev1 + prev2;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prev2 = prev1;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prev1 = current;\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;return current;\n}</pre><p>sequence is defined as<strong>:</strong><br>$$<br>\\text{sequence}(n) =<br>\\begin{cases}<br>0 &amp; \\text{if } n = 0, \\\\<br>1 &amp; \\text{if } n = 1, \\\\<br>\\text{sequence}(n-1) + \\text{sequence}(n-2) &amp; \\text{if } n &gt; 1.<br>\\end{cases}<br>$$</p><p>Which of the following statements is/are TRUE about the above function? (Mark all correct choices)</p><ol style=\"list-style-type:upper-alpha\"><li>The function correctly computes the $n$-th term of the sequence for $n \\geq 0$.</li><li>The time complexity of the function is $O(n)$.</li><li>The function uses a recursive approach to calculate the sequence values.</li><li>The space complexity of the function is $O(1)$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,identify-function,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449229",
+          "text": "You are given an array $ A $ of $ n $ elements. The best possible algorithm to find two numbers in $ A $ whose difference is equal to a given threshold $ T $ will run in (assuming comparison-based sorting):<br /> <br />Which of the following options are correct for above question:                                                                         <br /><ol style=\"list-style-type:upper-alpha\"><li> $O(n \\log n)$</li><li> $\\Omega(n \\log n)$</li> <li>$\\Omega( n^2\\log n)$</li>  <li>$O(n^2)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,algorithm-design,time-complexity,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449238",
+          "text": "<p>You are given an empty hash table of size $ 11 $ that uses open addressing with quadratic probing. The following sequence of keys is to be inserted:<br>$$ 34, 13, 91, 46, 68, 21 $$<br>The hash function used is $ h_1(x) = x \\% 11 $,and assume the value of constants equal to $2.$<br>Which of the inserted elements causes a collision? (Mark all the appropriate choices)</p><ol style=\"list-style-type:upper-alpha\"><li>$ 89 $</li><li>$ 46 $</li><li>$ 68 $</li><li>$ 21 $</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,hashing,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449242",
+          "text": "<p>Which of the following statements about searching algorithms are TRUE? (Mark all correct choices)</p><ol style=\"list-style-type:upper-alpha\"><li>The worst-case runtime of binary search is $ O(\\log n) $</li><li>A linear search can be used on unsorted arrays, while binary search requires the array to be sorted.</li><li>The time complexity of linear search is the same as that of a binary search for large inputs.</li><li>Binary search can be used on sorted arrays only, and it achieves $O(1)$ complexity in the best case when the target element is located at the middle.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,searching,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449272",
+          "text": "Consider a min-heap implemented as an array, where the elements of the heap are inserted in the order $ 5, 12, 3, 19, 6, 15, 8, 7, 10, 4 $. The heap property is maintained after each insertion. The heap is implemented using zero-based indexing. Consider leaves height as $0$.\nWhat is the height of element $ 7 $ in this heap?",
+          "type": "Numerical",
+          "answer": "1:1",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,numerical-answers,min-heap,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449234",
+          "text": "<p>You are given three matrices $ M_1, M_2, M_3 $ with dimensions as follows:</p><ul><li>$ M_1 $ is $ 10 \\times 20 $</li><li>$ M_2 $ is $ 20 \\times 30 $</li><li>$ M_3 $ is $ 30 \\times 40 $</li></ul><p>What is the minimum number of scalar multiplications needed to multiply these three matrices together?</p>",
+          "type": "Numerical",
+          "answer": "18000:18000",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,numerical-answers,matrix-chain-ordering,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449278",
+          "text": "Consider an array of $ 9 $ integers that is being sorted using the heapsort algorithm. After the initial phase of the algorithm, which involves constructing the heap, which of the following arrangements could represent the array? (Select all that apply)<br /><ol style=\"list-style-type:upper-alpha\"><li> $98\\;67\\;52\\;25\\;17\\;48\\;15\\;3\\;7$</li><li> $3\\;15\\;7\\;25\\;17\\;52\\;48\\;98\\;67$</li> <li>$98\\;52\\;67\\;17\\;48\\;15\\;3\\;25\\;7$</li>  <li>$3\\;7\\;17\\;25\\;52\\;15\\;48\\;67\\;98$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,heap-sort,multiple-selects,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449268",
+          "text": "<p>Consider a binary tree that is almost a min-heap, with one node violating the min-heap property. Specifically, the node $20$ is violating the min-heap property. After applying the heapify procedure to restore the min-heap property, where will the node $20$ be located?</p><p><img alt=\"\" width=\"458\" height=\"232\" src=\"data:image/png;base64,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\"></p>",
+          "type": "Numerical",
+          "answer": "5:5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,numerical-answers,binary-heap,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449274",
+          "text": "Consider the following functions:<br />$$<br />n \\log n, n^2, \\log n, n^{3/2}, \\log^2 n<br />$$<br />Which of the following is/are TRUE? (Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> $ n \\log n = O(n^2) $  </li><li> $ n^{3/2} = O(n \\log n) $ </li> <li>$ \\log n = O(\\log^2 n) $ </li>  <li>$ n^2 = \\Omega(n \\log n) $</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,asymptotic-notations,multiple-selects,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449226",
+          "text": "<p>Consider the code given below, which runs selection sort:<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">void selectionSort(int arr[], int size)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int i, j, minIndex, temp;\n&nbsp;&nbsp;&nbsp;&nbsp;for (i = 0; i &lt; size - 1; i++)\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minIndex = i;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (j = i + 1; j &lt; size; j++)\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (________ )\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minIndex = j;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;temp = arr[i];\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arr[i] = arr[minIndex];\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arr[minIndex] = temp;\n&nbsp;&nbsp;&nbsp;&nbsp;}\n}</pre><p><br>Which condition is sufficient and will correctly implement the if statement to find the minimum element in the unsorted portion of the array?</p><ol style=\"list-style-type:upper-alpha\"><li>$ \\text{arr}[j] &lt; \\text{arr}[minIndex] $</li><li>$ \\text{arr}[j] &gt; \\text{arr}[minIndex] $</li><li>$ \\text{arr}[j] == \\text{arr}[minIndex] $</li><li>$ \\text{arr}[j] \\leq \\text{arr}[minIndex] $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-algorithms-shallow-1,insertion-sort,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449246",
+          "text": "<p>The return value, time complexity, and space complexity of the following code are:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int bar(int n)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int a = 0;\n&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 1; i &lt;= n; i++)\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a += i * i;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;return a;\n}</pre><ol style=\"list-style-type:upper-alpha\"><li>$ \\Theta(n^3), \\Theta(n), O(1) $</li><li>$ \\Theta(n), \\Theta(\\log n), O(1) $</li><li>$ \\Theta(n), \\Theta(n), O(n) $</li><li>$ \\Theta(n^2), O(n), O(1) $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-algorithms-shallow-1,time-complexity,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449264",
+          "text": "Consider the following array that is being sorted using the Quick Sort algorithm, where the last element is chosen as the pivot during each partitioning step. <br />Initial array:  <br />$$ 15, 7, 25, 12, 20, 10 $$<br />Which of the following is/are the possible array contents after the second pass of partitioning (using the last element as the pivot)?<br /><ol style=\"list-style-type:upper-alpha\"><li> $ 7, 10, 12, 15, 20, 25 $</li><li> $ 7, 10, 12, 15, 25, 20 $</li> <li>$ 7, 10, 12, 20, 15, 25 $</li>  <li>$ 7, 15, 10, 25, 12, 20 $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-algorithms-shallow-1,quick-sort,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449254",
+          "text": "<p>You are given an empty hash table of size $ 7 $ that uses open addressing with quadratic probing. The following sequence of keys is to be inserted: &nbsp;<br>$$<br>34, 20, 15, 8, 25<br>$$ &nbsp;<br>The hash function is defined as: $h(x) = x \\% 7$<br>Considering the value of constants equal to $1,$ which keys will cause a collision during insertion?. (Mark all the correct choices)</p><ol style=\"list-style-type:upper-alpha\"><li>$ 8 $<br>&nbsp;&nbsp;</li><li>$ 15 $<br>&nbsp;&nbsp;</li><li>$ 20 $<br>&nbsp;&nbsp;</li><li>$ 34 $</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,hashing,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449276",
+          "text": "<p>Which of the following is/are correct about huffman coding?(Mark all the appropriate choices)</p><ol style=\"list-style-type:upper-alpha\"><li>Huffman coding generates the optimal prefix code for a set of symbols based on their frequencies.</li><li>The result of the huffman coding algorithm is a binary tree.</li><li>Huffman coding assigns shorter codes to symbols that appear more frequently and longer codes to symbols that appear less frequently.</li><li>If input array is sorted based on frequencies, then Time complexity of standard huffman coding is linear.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,huffman-coding,multiple-selects,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449280",
+          "text": "<p>Suppose you are given the following set of keys to insert into a hash table that holds exactly $12$ values: $22, 39, 56, 71, 18, 91, 44, 83.$ Which of the following best demonstrates the contents of the hash table after all the keys have been inserted using linear probing and the multiplication method with $ h(k) = \\lfloor 12 \\times (k \\times 0.5 \\mod 1) \\rfloor $ as the hash function?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$ 22\\; 56\\; 18\\; 44\\; -\\; -\\; 39\\; 71\\; 91\\; 83\\; -\\; -$</li><li>$ 56\\; -\\; 39\\; 22\\; 71\\; 18\\; 91\\; 44\\; 83\\; -\\; -\\; -$</li><li>$ 22\\; 56\\; 18\\; 44\\; -\\; 39\\; 71\\; 91\\; 83\\; -\\; -\\; -$</li><li>$ 56\\; 39\\; -\\; 22\\; 71\\; -\\; 44\\; 91\\; 18\\; 83\\; -\\; -$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-algorithms-shallow-1,hashing,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449262",
+          "text": "<p>Given an array of $ n $ elements, you are tasked with designing an algorithm to find the median element in the given unsorted array. What is the worst case time complexity of the best such algorithm?</p><ol style=\"list-style-type:upper-alpha\"><li>$ O(n \\log n) $</li><li>$ O(n) $</li><li>$ O(\\log n) $</li><li>$ O(n^2) $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-algorithms-shallow-1,time-complexity,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449282",
+          "text": "<p>Consider two algorithms, $A$ and $B.$ Algorithm $A$ has a better space complexity (uses less memory) but takes more time, while algorithm $B$ has a better time complexity (is faster) but consumes more memory. Which of the following statements is/are TRUE? (Mark all that apply)<br>&nbsp;</p><ol style=\"list-style-type:upper-alpha\"><li>For very large input sizes, algorithm $A$ may outperform algorithm $B$ due to its better space efficiency, despite being slower.</li><li>Algorithm $A's$ lower memory usage could make it more practical for applications with limited memory, even though it is slower.</li><li>Algorithm $B$ will always be faster than algorithm $A$ for any input size.</li><li>If memory usage is not a concern, algorithm $B$ will likely be the better choice for most input sizes due to its faster execution.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,asymptotic-notations,multiple-selects,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449236",
+          "text": "<p>Which of the following statements is/are TRUE? (Mark all the appropriate choices)</p><ol style=\"list-style-type:upper-alpha\"><li>The time complexity for inserting an element into a balanced binary search tree is $O(\\log n)$ in the worst case.</li><li>The minimum number of comparisons required to sort a list of $8$ elements using merge sort is $O(n \\log n)$.</li><li>A complete binary tree of height $h$ can have at most $2^h - 1$ nodes(where height of root node $= 0$).</li><li>The time complexity for deleting the root element from a max-heap of $n$ elements is $O(\\log n)$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449244",
+          "text": "<p>You are tasked with purchasing items from a vending machine. The vending machine has $5$ different items available for sale where each item is sufficiently available, with the following prices:</p><ul><li>Item $A:$ $Rs. 500$</li><li>Item $B:$ $Rs. 200$</li><li>Item $C:$ $Rs. 150$</li><li>Item $D:$ $Rs. 100$</li><li>Item $E:$ $Rs. 50$</li></ul><p>Each time you choose an item to purchase, you are charged an additional service fee of $Rs. 10,$ which is the same for each item, regardless of its price. You are required to buy exactly $Rs. 1000$ worth of items.<br>What is the minimum service fee you would have to pay to purchase items worth exactly $Rs. 1000?$</p>",
+          "type": "Numerical",
+          "answer": "20:20",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,numerical-answers,dynamic-programming,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449258",
+          "text": "Imagine you have a hash table with $ 15 $ slots, and you store $ 8 $ records in it using open addressing with linear probing. Assume that the hash function distributes keys uniformly, so the probability of any key being hashed into a particular slot is $ \\dfrac{1}{15} $. What is the probability that a specific slot contains at least one of the $ 8 $ keys (rounded to $2$ decimal places)?",
+          "type": "Numerical",
+          "answer": "0.53:0.54",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,numerical-answers,hashing,open-addressing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449256",
+          "text": "<p>Consider the following C function and an input array to it as $ [2, 5, 8, 11] $ and $ \\text{len} $ as $ 4 $. The return value of the function will be:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int bar(int arr[], int len) \n{\n    int result = 1;\n    for (int i = 0; i &lt; len; i++) \n    {\n        result *= (arr[i] + i%2 + 1);\n    }\n    return result;\n}</pre><p> </p>",
+          "type": "Numerical",
+          "answer": "2457:2457",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,numerical-answers,identify-function,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449231",
+          "text": "<p>You are given the following array $ A = \\{12, -5, 3, -1, 8, -2, 9, -6, 4, 5, -8, 2, 6, -7, 7\\} $, and the maximum subarray sum of this array is $ 27 $.<br>Which of the following subarrays from the given options has the same maximum sum of $ 27 $?</p><ol style=\"list-style-type:upper-alpha\"><li>$ \\{12, -5, 3, -1, 8, -2, 9, -6, 4, 5\\} $</li><li>$ \\{-5, 3, -1, 8, -2, 5, 7\\} $</li><li>$ \\{12, -5, 3, -1, 8, -2, 9, -6, 4, 5, -8, 2, 6\\} $</li><li>$ \\{8, -2, 5, 7, -4\\} $</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,algorithm-design,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449270",
+          "text": "We are tasked with sorting a large set of product records based on their product prices. The records are already sorted by product categories in ascending order, but the sorting of records by category is not important for this particular task. The requirement is to sort the records by price, without worrying about maintaining the order of records within the same category.  <br />Which of the following sorting algorithms is/are most appropriate for this task?                                                       <br /><ol style=\"list-style-type:upper-alpha\"><li> Merge Sort </li><li> Counting Sort </li> <li>Quick Sort </li>  <li>Insertion Sort</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-algorithms-shallow-1,sorting,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449222",
+          "text": "Which of the following statements are TRUE regarding sorting algorithms and their efficiencies? (Mark all correct choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> If an array is nearly sorted with $O(n)$ inversions, insertion sort will perform fewer comparisons than bubble sort.</li><li> In the worst case, quicksort performs fewer comparisons than merge sort for a nearly sorted array.</li> <li>If the number of inversions in an array is $O(n)$, merge sort will always outperform insertion sort in terms of comparisons.</li>  <li>For a reversed array with $O(n^2)$ inversions, bubble sort will perform more comparisons than quicksort in the worst case.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,sorting,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449260",
+          "text": "Suppose that you store $ 10 $ records in a hash table of size $ 12 $ using chaining, and you have a good hash function so that the probability of a key being hashed into any of the $ 12 $ slots is $ \\dfrac{1}{12} $. For a particular slot in the hash table, what is the probability that this slot is not empty, that is, at least one of the $ 10 $ keys hashes into this slot?(Mark the closest approximate value)\n\nA. $0.591$\n\nB. $0.561$\n\nC. $0.581$\n\nD. $0.521$",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-algorithms-shallow-1,hashing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449240",
+          "text": "Suppose the letters $ e, f, g, h, i, j $ have the following probabilities of occurrence:\n\n$ P(e) = \\dfrac{1}{4} ,$ $ P(f) = \\dfrac{1}{6} ,$ $ P(g) = \\dfrac{1}{8} ,$ $ P(h) = \\dfrac{1}{10} ,$ $ P(i) = \\dfrac{1}{5} ,$ $ P(j) = \\dfrac{1}{20} $\n\nWhat is the average length of the Huffman codes (correct to $1$ decimal point)?",
+          "type": "Numerical",
+          "answer": "2.2:2.2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,numerical-answers,huffman-coding,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449250",
+          "text": "In Quicksort when sorting of $n$ numbers happens, the $(n/10)^{th}$ largest element is selected as pivot using an algorithm having $\\text{O(log n)}$ as time complexity. Which of the following is/are TRUE for Quicksort Implementation. (Mark all correct choices.)\n\nA. In best case it can run in $O(n)$ time\n\nB. In worst case it will take $\\Theta(\\log n)$ time\n\nC. In worst case it will take $\\Theta(n \\log n)$ time\n\nD. In best case, it will run in $\\Omega(n \\log n)$ time",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,quick-sort,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "449252",
+          "text": "<p>Consider the following C function:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int mystery(int n) \n{\n&nbsp;&nbsp;&nbsp;&nbsp;if (n &lt;= 1) return n + 1;\n&nbsp;&nbsp;&nbsp;&nbsp;if (n % 2 == 0) return mystery(n / 2) + n;\n&nbsp;&nbsp;&nbsp;&nbsp;return mystery(n - 1) * 2;\n}</pre><p><br>What will be the output if the above function is called with the argument $ n = 6 $?</p>",
+          "type": "Numerical",
+          "answer": "14:14",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-algorithms-shallow-1,numerical-answers,recursion,two-marks",
+          "category": "Algorithms"
+        }
+      ]
+    }
+  ]
+}

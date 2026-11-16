@@ -1,0 +1,70 @@
+{
+  "name": "Day 190 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "520262",
+          "text": "<p>Consider a system with three processes $P_1, P_2$, and $P_3$ arriving at time $t=0$. Their burst times are $\\mathbf{1 0 ~ m s}, \\mathbf{2 0 ~ m s}$, and $\\mathbf{3 0 ~ m s}$ respectively. The system uses a <strong>Round Robin</strong> scheduling algorithm with a time quantum of $\\mathbf{8 0 ~ m s}$. Assuming there is no overhead for context switching, what is the <strong>Average Waiting Time</strong>&nbsp;$($in $\\mathrm{ms})$ for these processes?</p>",
+          "type": "Numerical",
+          "answer": "24",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 190"
+        },
+        {
+          "post_id": "520260",
+          "text": "<p>A disk drive has $200$ cylinders $($numbered $0-199)$. The disk arm is currently at cylinder $50$ and was previously at cylinder $40$. The queue of pending requests in FIFO order is: $80,150,30, 120, 10.$</p><p>The total head movement using the <strong>SSTF</strong> (Shortest Seek Time First) algorithm is $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "180",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 190"
+        },
+        {
+          "post_id": "520253",
+          "text": "<p>Consider a disk with a sector size of $\\mathbf{512}$ <strong>bytes</strong>, a block size of $\\mathbf{2}$ <strong>KB</strong> , and a total disk capacity of $\\mathbf{1 2 8 ~ G B}$. The file system uses <strong>Linked Allocation</strong> to manage files. If a specific file has a size of $\\mathbf{1 8 ~ K B}$, how many bytes of the disk's total capacity are used solely for <strong>pointers</strong> to manage this file? (Assume each pointer requires $\\mathbf{4}$&nbsp;<strong>bytes</strong> and is stored within the data block).</p><p>Note: The pointer to the first block of the file is stored in the directory entry and should NOT be counted.</p>",
+          "type": "Numerical",
+          "answer": "36",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 190"
+        },
+        {
+          "post_id": "520250",
+          "text": "<p>Two processes, $P_0$ and $P_1$, share a counting semaphore $\\verb|S|$ initialized to $2$ and a binary semaphore $\\verb|mutex|$ initialized to $1$. They execute the following code concurrently:</p><p><strong>Process $P_0$ :</strong></p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">wait(S);\nwait(mutex);\n// Critical Section\nsignal(mutex);\nsignal(S);</pre><p><br><strong>Process $P_1$ :</strong></p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">wait(S);\nwait(mutex);\n// Critical Section\nsignal(nutex);\nsignal(S):</pre><p><br>Which of the following statements is/are TRUE regarding the execution of these processes?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Mutual exclusion is preserved for the Critical Section.<br>&nbsp;</li><li>Deadlock is possible if both processes execute $\\verb|wait(S)|$ simultaneously.<br>&nbsp;</li><li>At most two processes can be in the Critical Section at any given time.<br>&nbsp;</li><li>If the initial value of $\\verb|S|$ is changed to $1$, the behavior of the system remains functionally identical to using only the $\\verb|mutex|$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 190"
+        },
+        {
+          "post_id": "520220",
+          "text": "<p>Consider a computer system using a $3$-level paging scheme. The <strong>Virtual Address</strong> is $46$ bits, and the <strong>Physical Address</strong> is $32$ bits. The page size is $\\mathbf{8 ~ K B}$. The page table base register (PTBR) stores the base address of the first-level table $(T_1)$, which occupies exactly one page. Each entry in $T_1$ points to a second-level table $\\left(T_2\\right)$, and each entry in $T_2$ points to a third-level table ( $T_3$ ). Each entry in $T_3$ is a Page Table Entry (PTE). If the size of each PTE is $\\mathbf{3 2}$ <strong>bits</strong>, what is the maximum number of entries possible in a single $T_3$ table?</p>",
+          "type": "Numerical",
+          "answer": "2048",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 190"
+        }
+      ]
+    }
+  ]
+}

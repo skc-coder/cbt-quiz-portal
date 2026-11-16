@@ -1,0 +1,70 @@
+{
+  "name": "Day 282 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "533098",
+          "text": "<p data-start=\"26\" data-end=\"357\">A $20\\text{ ft}$ ladder leans against a vertical wall. The base of the ladder is sliding away from the wall at $2\\text{ ft/s}$. A point $P$ on the ladder is $6\\text{ ft}$ from the top of the ladder. At the instant when the base is $12\\text{ ft}$ from the wall, at what rate is the height of $P$ above the ground changing?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"359\" data-end=\"490\">$-\\frac{3}{2}\\text{ ft/s}$<br>&nbsp;</li><li data-start=\"359\" data-end=\"490\">$-\\frac{21}{20}\\text{ ft/s}$<br>&nbsp;</li><li data-start=\"359\" data-end=\"490\">$-\\frac{9}{10}\\text{ ft/s}$<br>&nbsp;</li><li data-start=\"359\" data-end=\"490\">$\\frac{21}{20}\\text{ ft/s}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 282"
+        },
+        {
+          "post_id": "533100",
+          "text": "Let $f(x)=\\left|x-\\lfloor x\\rfloor-\\frac{1}{2}\\right|$, where $\\lfloor x\\rfloor$ denotes the greatest integer less than or equal to $x$. The value of $\\int_{0.2}^{2.75} f(x)dx$ is ______, up to $2$ decimal places.",
+          "type": "Numerical",
+          "answer": "0.58",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 282"
+        },
+        {
+          "post_id": "533096",
+          "text": "<p data-start=\"40\" data-end=\"191\">Let $f:[0,1]\\to\\mathbb{R}$ be continuous and satisfy $f(x)=x^2+\\int_0^1 (x+t)f(t)dt$ for every $x\\in[0,1]$. Which of the following is $f(x)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"193\" data-end=\"308\">$x^2-5x-\\frac{17}{6}$<br>&nbsp;</li><li data-start=\"193\" data-end=\"308\">$x^2+5x+\\frac{17}{6}$<br>&nbsp;</li><li data-start=\"193\" data-end=\"308\">$x^2-\\frac{5}{2}x-\\frac{17}{6}$<br>&nbsp;</li><li data-start=\"193\" data-end=\"308\">$x^2-5x+\\frac{17}{6}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 282"
+        },
+        {
+          "post_id": "533106",
+          "text": "<p data-start=\"31\" data-end=\"91\">Evaluate $$I=\\int_0^1 \\frac{x^2}{(1-x^2)^{3/2}}dx$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"93\" data-end=\"158\">$\\frac{\\pi}{4}$<br>&nbsp;</li><li data-start=\"93\" data-end=\"158\">$1$<br>&nbsp;</li><li data-start=\"93\" data-end=\"158\">$2$<br>&nbsp;</li><li data-start=\"93\" data-end=\"158\">The integral diverges</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 282"
+        },
+        {
+          "post_id": "533094",
+          "text": "<p data-start=\"40\" data-end=\"129\">Which of the following is the derivative of $f(x)=(x^2+1)^{x\\ln x}$ when $x&gt;0$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"131\" data-end=\"398\">$(x^2+1)^{x\\ln x}\\left((\\ln x+1)\\ln(x^2+1)+\\dfrac{2x^2\\ln x}{x^2+1}\\right)$<br>&nbsp;</li><li data-start=\"131\" data-end=\"398\">$(x^2+1)^{x\\ln x}\\left(\\ln(x^2+1)+\\dfrac{2x\\ln x}{x^2+1}\\right)$<br>&nbsp;</li><li data-start=\"131\" data-end=\"398\">$(x^2+1)^{x\\ln x}\\left(x\\ln x+\\dfrac{2x}{x^2+1}\\right)$<br>&nbsp;</li><li data-start=\"131\" data-end=\"398\">$(x^2+1)^{x\\ln x}\\left((\\ln x+1)(x^2+1)+2x\\ln x\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 282"
+        }
+      ]
+    }
+  ]
+}

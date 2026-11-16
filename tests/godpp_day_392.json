@@ -1,0 +1,70 @@
+{
+  "name": "Day 281 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "532914",
+          "text": "<p data-start=\"27\" data-end=\"140\">The function $f(x)=3x^5-45x^4+230x^3-450x^2+6x+11$ is concave down on which of the following intervals?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"142\" data-end=\"242\">$(1,3)\\cup(5,\\infty)$<br>&nbsp;</li><li data-start=\"142\" data-end=\"242\">$(-\\infty,1)\\cup(3,5)$<br>&nbsp;</li><li data-start=\"142\" data-end=\"242\">$(-\\infty,3)\\cup(5,\\infty)$<br>&nbsp;</li><li data-start=\"142\" data-end=\"242\">$(1,5)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 281"
+        },
+        {
+          "post_id": "533001",
+          "text": "<p data-start=\"39\" data-end=\"253\">Suppose $f:[0,\\infty)\\to[0,\\infty)$ is continuous, strictly increasing, and onto, and let $g=f^{-1}$. For $a,b&gt;0$, define $$I=\\int_0^a f(x)dx+\\int_0^b g(y)dy-ab$$ Which of the following is always<strong> true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"255\" data-end=\"410\">$I&lt;0$ whenever $b\\neq f(a)$<br>&nbsp;</li><li data-start=\"255\" data-end=\"410\">$I=0$ for all $a,b&gt;0$<br>&nbsp;</li><li data-start=\"255\" data-end=\"410\">$I\\geq0$, with equality only when $b=f(a)$<br>&nbsp;</li><li data-start=\"255\" data-end=\"410\">$I\\leq0$, with equality only when $b=f(a)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 281"
+        },
+        {
+          "post_id": "532997",
+          "text": "<p data-start=\"31\" data-end=\"128\">Evaluate the limit $L=\\lim_{x\\to\\infty}x\\left(\\sqrt{x^2+6x+10}-\\sqrt{x^2+6x+5}\\right)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"130\" data-end=\"178\">$0$<br>&nbsp;</li><li data-start=\"130\" data-end=\"178\">$\\dfrac{5}{2}$<br>&nbsp;</li><li data-start=\"130\" data-end=\"178\">$5$<br>&nbsp;</li><li data-start=\"130\" data-end=\"178\">$\\infty$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 281"
+        },
+        {
+          "post_id": "533005",
+          "text": "<p data-start=\"40\" data-end=\"124\">For a function $f:[-1,1]\\to\\mathbb{R}$, consider the following statements:</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li data-start=\"126\" data-end=\"231\">There exists $\\epsilon&gt;0$ such that for all $x,y\\in(-\\epsilon,\\epsilon)$, if $x&lt;y$, then $f(x)&lt;f(y)$.<br>&nbsp;</li><li data-start=\"233\" data-end=\"267\">$f'(0)$ exists and $f'(0)&gt;0$.<br>&nbsp;</li><li data-start=\"269\" data-end=\"361\">There exists $\\epsilon&gt;0$ such that for all $0&lt;|x|&lt;\\epsilon$, $\\frac{f(x)-f(0)}{x}&gt;0$.</li></ol><p data-start=\"363\" data-end=\"394\">Which of the following is <strong>true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"396\" data-end=\"625\">(I) and (II) are equivalent.<br>&nbsp;</li><li data-start=\"396\" data-end=\"625\">(I) implies (III), and (II) implies (III), but neither (I) nor (II) implies the other.<br>&nbsp;</li><li data-start=\"396\" data-end=\"625\">(III) implies (I), but (I) does not imply (III).<br>&nbsp;</li><li data-start=\"396\" data-end=\"625\">(II) implies (I), but (I) does not imply (II).</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 281"
+        },
+        {
+          "post_id": "533003",
+          "text": "<p data-start=\"34\" data-end=\"174\">Define $F,G:\\mathbb{R}\\to\\mathbb{R}$ by $$F(x)=\\int_0^x |t(t-2)|dt \\qquad\\text{ and }\\qquad G(x)=\\int_0^x F(t)dt$$ Which of the following is<strong> true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"176\" data-end=\"472\">$G$ is not differentiable at $x=0$ and $x=2$.<br>&nbsp;</li><li data-start=\"176\" data-end=\"472\">$G$ is differentiable for every $x$, but not twice differentiable at $x=0$ and $x=2$.<br>&nbsp;</li><li data-start=\"176\" data-end=\"472\">$G$ is twice differentiable for every $x$, but not three times differentiable at $x=0$ and $x=2$.<br>&nbsp;</li><li data-start=\"176\" data-end=\"472\">$G$ is three times differentiable for every $x$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 281"
+        }
+      ]
+    }
+  ]
+}

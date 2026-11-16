@@ -1,0 +1,70 @@
+{
+  "name": "Day 224 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525573",
+          "text": "<p>A government installation has an intruder alarm system. The alarm sounds only when the master switch is ON. When ON, the alarm triggers if either the restricted access door is disturbed, or the main gates are opened without the special switch being closed.<br>Let: $M=$ Master switch is ON, $D=$ Door is disturbed, $G=$ Main gates are opened, $S=$ Special switch is closed, $A=A l a r m$ sounds</p><p>Which of the following correctly models $A$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A \\Leftrightarrow M \\wedge(D \\wedge(G \\vee \\neg S))$&nbsp;</li><li>$A \\Leftrightarrow M \\wedge(D \\vee(G \\wedge \\neg S))$&nbsp;</li><li>$A \\Leftrightarrow M \\vee (D \\wedge(G \\wedge \\neg S))&nbsp;$</li><li>$A⇔¬M∧(D∨(G∧¬S))A$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "525577",
+          "text": "<p>A government installation has an alarm system modelled as:</p><p>$$<br>A \\Leftrightarrow M \\wedge(D \\vee(G \\wedge \\neg S))<br>$$</p><p>where $M=$ Master switch is $\\mathrm{ON}, D=$ Door is disturbed, $G=$ Main gates are opened, $S=$ Special switch is closed.</p><p>During a particular moment: the master switch is $\\mathrm{ON}$, the main gates are open, the special switch is open , and the restricted-access door is NOT disturbed. What is the state of the alarm?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Alarm does NOT sound, because the door was not disturbed</li><li>Alarm does NOT sound, because the special switch is open</li><li>Alarm SOUNDS, because the gates are open and special switch is not closed</li><li>Alarm SOUNDS, because the master switch is ON</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "525574",
+          "text": "<p>A government installation requires an automatic recording instrument to log every entry into the restricted-access area under specific conditions. Recording happens when the main gates are open (to allow public entry during daytime), the master switch is OFF (turned off to allow authorized personnel), and the restricted-access door is opened.<br>Let:<br>$M=$ Master switch is ON, $D=$ Door to restricted area is opened, $G=$ Main gates are opened, $R=$ Recording instrument makes an entry<br><br>Which of the following correctly models $R$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$R \\Leftrightarrow G \\wedge M \\wedge D$</li><li>$R \\Leftrightarrow \\neg G \\wedge \\neg M \\wedge D$</li><li>$R \\Leftrightarrow G \\wedge \\neg M \\wedge D$</li><li>$R \\Leftrightarrow G \\wedge \\neg M \\wedge \\neg D$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "525567",
+          "text": "How many rows of the truth table of $(P \\vee Q) \\wedge(\\neg P \\wedge(\\neg P \\wedge Q))$ evaluate to TRUE?",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "525562",
+          "text": "<p>Which of the following is logically equivalent to $\\neg(P \\wedge Q) \\rightarrow(\\neg P \\vee(\\neg P \\vee Q))$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\neg P \\wedge Q$&nbsp;</li><li>$\\neg P \\vee Q$&nbsp;</li><li>$P \\wedge \\neg Q$&nbsp;</li><li>$P \\vee \\neg Q$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 224"
+        }
+      ]
+    }
+  ]
+}

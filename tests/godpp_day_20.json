@@ -1,0 +1,70 @@
+{
+  "name": "Day 19 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "473198",
+          "text": "<p>Of the members of three athletic teams in a school 21 are in the cricket team, 26 are in the hockey team and 29 are in the football team. Among them, 14 play hockey and cricket, 15 play hockey and football, and 12 play football and cricket. Eight play all the three games. The total number of members in the three athletic teams is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>43</li><li>76</li><li>49</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 19"
+        },
+        {
+          "post_id": "473196",
+          "text": "<p>Let $n(A)=3, n(B)=6$, and $A \\subseteq B$. Then the number of elements in $A \\cup B$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>3</li><li>9</li><li>6</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 19"
+        },
+        {
+          "post_id": "473194",
+          "text": "<p>Let $E=\\{1,2,3,4\\}$ and $F=\\{1,2\\}$.<br>How many onto functions (surjective functions) exist from $E$ to $F$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>14</li><li>16</li><li>12</li><li>8</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 19"
+        },
+        {
+          "post_id": "473188",
+          "text": "<p>Let $R=\\{(3,3),(6,6),(9,9),(12,12),(6,12),(3,9),(3,12),(3,6)\\}$ be a relation on the set $A=$ $\\{3,6,9,12\\}$. The relation $R$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Reflexive and transitive</li><li>Reflexive only</li><li>An equivalence relation</li><li>Reflexive and symmetric only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 19"
+        },
+        {
+          "post_id": "473191",
+          "text": "<p>Let $X$ and $Y$ be two sets. Then the expression</p><p>$$<br>X \\cap(X \\cup Y)^c<br>$$</p><p>is equal to:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>&nbsp;$X$</li><li>&nbsp;$Y$</li><li>&nbsp;$\\emptyset$</li><li>&nbsp;None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 19"
+        }
+      ]
+    }
+  ]
+}

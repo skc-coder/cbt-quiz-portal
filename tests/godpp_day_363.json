@@ -1,0 +1,70 @@
+{
+  "name": "Day 267 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "531258",
+          "text": "<p data-start=\"0\" data-end=\"136\">Let $f$ be a one-to-one function from $[0,1]$ into $[0,1]$. No continuity is assumed. Which of the following must be <strong>true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"138\" data-end=\"332\">$f$ must be onto $[0,1]$<br>&nbsp;</li><li data-start=\"138\" data-end=\"332\">The range of $f$ must contain a rational number<br>&nbsp;</li><li data-start=\"138\" data-end=\"332\">The range of $f$ must contain infinitely many irrational numbers<br>&nbsp;</li><li data-start=\"138\" data-end=\"332\">The range of $f$ must be an interval</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 267"
+        },
+        {
+          "post_id": "531264",
+          "text": "<p data-start=\"268\" data-end=\"386\">Let $f:X\\to Y$ be a one-to-one function, and let $A,B\\subseteq X$. Then $f(A\\cap B)$ is always equal to:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"388\" data-end=\"461\">$f(A)\\cap f(B)$<br>&nbsp;</li><li data-start=\"388\" data-end=\"461\">$f(A)\\cup f(B)$<br>&nbsp;</li><li data-start=\"388\" data-end=\"461\">$f(A)-f(B)$<br>&nbsp;</li><li data-start=\"388\" data-end=\"461\">$f(B)-f(A)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 267"
+        },
+        {
+          "post_id": "531261",
+          "text": "<p data-start=\"0\" data-end=\"160\">Let $f:\\mathbb{R}\\to\\mathbb{R}$ be a bounded uniformly continuous function, and let $g:\\mathbb{R}\\to\\mathbb{R}$ be continuous. Then $g\\circ f$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"162\" data-end=\"317\">Uniformly continuous<br>&nbsp;</li><li data-start=\"162\" data-end=\"317\">Continuous but not necessarily uniformly continuous<br>&nbsp;</li><li data-start=\"162\" data-end=\"317\">Bounded but not necessarily continuous<br>&nbsp;</li><li data-start=\"162\" data-end=\"317\">Not necessarily bounded</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 267"
+        },
+        {
+          "post_id": "531262",
+          "text": "<p data-start=\"19\" data-end=\"157\">Let $A$ be a set with $n$ elements, where $n\\ge 1$. How many functions $f:A\\to A$ satisfy $f(f(x))=f(x)$ for every $x\\in A$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"159\" data-end=\"231\">$n^n$<br>&nbsp;</li><li data-start=\"159\" data-end=\"231\">$\\sum_{k=1}^{n}\\binom{n}{k}k^{n-k}$<br>&nbsp;</li><li data-start=\"159\" data-end=\"231\">$n!$<br>&nbsp;</li><li data-start=\"159\" data-end=\"231\">$2^n-1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 267"
+        },
+        {
+          "post_id": "531257",
+          "text": "<p data-start=\"60\" data-end=\"174\">If $f(x)=\\frac{1}{x}$ and $g(x)=\\frac{x-1}{x+1}$, then $\\frac{f(g(x))+g(f(x))}{f(g(x))-g(f(x))}$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"176\" data-end=\"271\">$\\frac{2}{x+f(x)}$<br>&nbsp;</li><li data-start=\"176\" data-end=\"271\">$\\frac{x+f(x)}{2}$<br>&nbsp;</li><li data-start=\"176\" data-end=\"271\">$\\frac{g(x)}{f(x)}$<br>&nbsp;</li><li data-start=\"176\" data-end=\"271\">$\\frac{f(x)}{g(x)}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 267"
+        }
+      ]
+    }
+  ]
+}

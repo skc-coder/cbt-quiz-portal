@@ -1,0 +1,70 @@
+{
+  "name": "Day 238 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "527730",
+          "text": "<p>Let $A$ be a $n\\times n$ invertible matrix with real entries whose column sums are all equal to $1$. Consider the following statements:</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>Every column in the matrix $A^{2}$ sums to $2$<br>&nbsp;</li><li>Every column in the matrix $A^{3}$ sums to $3$<br>&nbsp;</li><li>Every column in the matrix $A^{-1}$ sums to $1$<br>&nbsp;</li></ol><p>Which of the following is TRUE?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>none of the statements I, II, III&nbsp;is correct<br>&nbsp;</li><li>statement I is correct but not statements II or III<br>&nbsp;</li><li>statement II&nbsp;is correct but not statements I&nbsp;or III<br>&nbsp;</li><li>statement III&nbsp;is correct but not statements I&nbsp;or II</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 238"
+        },
+        {
+          "post_id": "527735",
+          "text": "<p>If $M$ is a $3\\times 3$ matrix such that $[\\,1\\;\\;2\\;\\;1\\,]M=[\\,2\\;\\;1\\;\\;0\\,]$ and $[\\,2\\;\\;3\\;\\;4\\,]M=[\\,1\\;\\;0\\;\\;3\\,]$, then $[\\,5\\;\\;8\\;\\;9\\,]M$ is equal to</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$[\\,4\\;\\;1\\;\\;6\\,]$<br>&nbsp;</li><li>$[\\,3\\;\\;2\\;\\;6\\,]$<br>&nbsp;</li><li>$[\\,5\\;\\;1\\;\\;6\\,]$<br>&nbsp;</li><li>$[\\,4\\;\\;2\\;\\;3\\,]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 238"
+        },
+        {
+          "post_id": "527728",
+          "text": "<p>Let $\\theta=\\dfrac{2\\pi}{1013}$. Now consider the matrix $A=<br>\\begin{bmatrix}<br>\\cos\\theta & \\sin\\theta\\\\<br>-\\sin\\theta & \\cos\\theta<br>\\end{bmatrix}$.<br><br>Then the matrix $A^{2026}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\begin{bmatrix}<br>\\cos\\theta & \\sin\\theta\\\\<br>-\\sin\\theta & \\cos\\theta<br>\\end{bmatrix}$<br>&nbsp;</li><li>$\\begin{bmatrix}<br>1 & 0\\\\<br>0 & 1<br>\\end{bmatrix}$<br>&nbsp;</li><li>$\\begin{bmatrix}<br>\\cos^{2}\\theta & \\sin^{2}\\theta\\\\<br>-\\sin^{2}\\theta & \\cos^{2}\\theta<br>\\end{bmatrix}$<br>&nbsp;</li><li>$\\begin{bmatrix}<br>0 & 1\\\\<br>-1 & 0<br>\\end{bmatrix}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 238"
+        },
+        {
+          "post_id": "527725",
+          "text": "<p>Let<br>$$<br>A=<br>\\begin{bmatrix}<br>3 & 1 & 0\\\\<br>3 & 3 & 1\\\\<br>3 & 3 & 3<br>\\end{bmatrix}<br>\\qquad \\text{and} \\qquad<br>B=<br>\\begin{bmatrix}<br>1 & 0 & 0\\\\<br>2 & 1 & 0\\\\<br>1 & 2 & 1<br>\\end{bmatrix}.<br>$$</p><div><p>Then</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>There exists a unique matrix $C$ such that $A=BC=CB$<br>&nbsp;</li><li>There exists a unique matrix $C$ such that $A=BC$, but $A\\ne CB$<br>&nbsp;</li><li>There exist infinitely many matrices $C$ such that $A=BC$<br>&nbsp;</li><li>There is no matrix $C$ such that $A=BC$</li></ol></div>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 238"
+        },
+        {
+          "post_id": "527732",
+          "text": "<p>Let $M$ be a real $n\\times n$ matrix such that for <strong><em>every</em></strong>&nbsp;non-zero vector $x\\in \\mathbb{R}^{n},$ we have $x^{T}M x&gt; 0.$&nbsp;Then</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>Such an $M$ cannot exist<br>&nbsp;</li><li>Such $M$s exist and their rank is always $n$<br>&nbsp;</li><li>Such $M$s exist, but their eigenvalues are always real<br>&nbsp;</li><li>No eigenvalue of any such $M$ can be real</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 238"
+        }
+      ]
+    }
+  ]
+}

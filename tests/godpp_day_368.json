@@ -1,0 +1,60 @@
+{
+  "name": "Day 269 [Set Theory & Algebra]",
+  "duration": 12,
+  "total_qs": 4,
+  "total_qs_one": 4,
+  "total_qs_two": 0,
+  "total_marks": 4,
+  "apti_num_qs": 0,
+  "technical_num_qs": 4,
+  "technical_marks": 4,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 4,
+      "marks": 4,
+      "question": [
+        {
+          "post_id": "531533",
+          "text": "A $4$-ary boolean function is a function $f:\\{0,1\\}^4\\to\\{0,1\\}$. Let $h$ be a fixed $4$-ary boolean function. We say that another $4$-ary boolean function $g$ is strongly separated from $h$ if $g$ agrees with $h$ on exactly $6$ inputs and disagrees with $h$ on exactly $10$ inputs. How many $4$-ary boolean functions are strongly separated from $h$?",
+          "type": "Numerical",
+          "answer": "8008",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 269"
+        },
+        {
+          "post_id": "531535",
+          "text": "<p data-start=\"0\" data-end=\"281\">Let $F$ and $G$ be Boolean functions of degree $n$, where the order relation is defined by $F\\leq G$ if and only if $F(x)\\leq G(x)$ for every $x\\in{0,1}^n$. Also define $(F+G)(x)=F(x)\\vee G(x)$ and $(FG)(x)=F(x)\\wedge G(x)$. Which of the following is always<strong> true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"283\" data-end=\"376\">$FG\\leq F\\leq F+G$<br>&nbsp;</li><li data-start=\"283\" data-end=\"376\">$F+G\\leq F\\leq FG$<br>&nbsp;</li><li data-start=\"283\" data-end=\"376\">$F\\leq FG\\leq F+G$<br>&nbsp;</li><li data-start=\"283\" data-end=\"376\">$FG\\leq F+G\\leq F$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 269"
+        },
+        {
+          "post_id": "531528",
+          "text": "<p data-start=\"0\" data-end=\"187\">Let $F:\\mathbb{Z}_{\\geq 0}\\times \\mathbb{Z}_{\\geq 0}\\to \\mathbb{Z}_{\\geq 0}$&nbsp;be defined by $F(m,n)=\\frac{(m+n)(m+n+1)}{2}+n$. Which of the following statements is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"189\" data-end=\"327\">$F$ is one-one but not onto.<br>&nbsp;</li><li data-start=\"189\" data-end=\"327\">$F$ is onto but not one-one.<br>&nbsp;</li><li data-start=\"189\" data-end=\"327\">$F$ is both one-one and onto.<br>&nbsp;</li><li data-start=\"189\" data-end=\"327\">$F$ is neither one-one nor onto.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 269"
+        },
+        {
+          "post_id": "531530",
+          "text": "<p data-start=\"0\" data-end=\"273\">Let $a_n$ denote the number of strictly increasing sequences of positive integers whose first term is $1$, whose last term is $n$, and in which no two consecutive terms differ by more than $2$. For $n\\geq 3$, which recurrence relation is satisfied by $a_n$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"275\" data-end=\"439\">$a_n=a_{n-1}+a_{n-2}$, with $a_1=1,a_2=1$<br>&nbsp;</li><li data-start=\"275\" data-end=\"439\">$a_n=2a_{n-1}$, with $a_1=1$<br>&nbsp;</li><li data-start=\"275\" data-end=\"439\">$a_n=a_{n-1}+n-2$, with $a_1=1$<br>&nbsp;</li><li data-start=\"275\" data-end=\"439\">$a_n=a_{n-1}+a_{n-2}+1$, with $a_1=1,a_2=1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 269"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 294 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534831",
+          "text": "<p data-start=\"959\" data-end=\"1039\">What will happen when the following code is compiled and linked?</p><pre data-start=\"1041\" data-end=\"1139\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     extern int a;      printf(&quot;%d&quot;, a);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    extern int a;\n\n    printf(\"%d\", a);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1141\" data-end=\"1216\">$\\texttt{0}$<br>&nbsp;</li><li data-start=\"1141\" data-end=\"1216\">Garbage value<br>&nbsp;</li><li data-start=\"1141\" data-end=\"1216\">Compilation error<br>&nbsp;</li><li data-start=\"1141\" data-end=\"1216\">Linker error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 294"
+        },
+        {
+          "post_id": "534826",
+          "text": "<p data-start=\"140\" data-end=\"249\">In which stage is the following code</p><pre data-rawcode=\"#include &lt;stdio.h&gt;\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;</pre><p data-start=\"251\" data-end=\"278\" data-rawcode=\"#include &lt;stdio.h&gt;\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">is replaced by the contents of the file $\\texttt{stdio.h}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"280\" data-end=\"365\">During editing<br>&nbsp;</li><li data-start=\"280\" data-end=\"365\">During linking<br>&nbsp;</li><li data-start=\"280\" data-end=\"365\">During execution<br>&nbsp;</li><li data-start=\"280\" data-end=\"365\">During preprocessing</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 294"
+        },
+        {
+          "post_id": "534828",
+          "text": "<p data-start=\"1863\" data-end=\"1920\">What is the output of the following code?</p><pre data-start=\"1922\" data-end=\"2034\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     extern int i;      printf(&quot;%d&quot;, i);      return 0; }  int i = 100;\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    extern int i;\n\n    printf(\"%d\", i);\n\n    return 0;\n}\n\nint i = 100;</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2036\" data-end=\"2113\">Garbage value<br>&nbsp;</li><li data-start=\"2036\" data-end=\"2113\">$\\texttt{0}$<br>&nbsp;</li><li data-start=\"2036\" data-end=\"2113\">$\\texttt{100}$<br>&nbsp;</li><li data-start=\"2036\" data-end=\"2113\">Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 294"
+        },
+        {
+          "post_id": "534833",
+          "text": "<p data-start=\"2800\" data-end=\"2907\">Given the following two files, what will happen when they are compiled and linked together?</p><p data-start=\"2909\" data-end=\"2920\"><strong>file1.c</strong></p><pre data-start=\"2922\" data-end=\"2994\" data-rawcode=\"static int count = 3;  void update() {     count = count + 1; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">static int count = 3;\n\nvoid update() {\n    count = count + 1;\n}</pre><p data-start=\"2996\" data-end=\"3006\"><strong>main.c</strong></p><pre data-start=\"3008\" data-end=\"3140\" data-rawcode=\"#include &lt;stdio.h&gt;  extern int count; void update();  int main() {     update();      printf(&quot;%d&quot;, count);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nextern int count;\nvoid update();\n\nint main() {\n    update();\n\n    printf(\"%d\", count);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3142\" data-end=\"3216\">$\\texttt{3}$<br>&nbsp;</li><li data-start=\"3142\" data-end=\"3216\">$\\texttt{4}$<br>&nbsp;</li><li data-start=\"3142\" data-end=\"3216\">Compilation error<br>&nbsp;</li><li data-start=\"3142\" data-end=\"3216\">Linker error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 294"
+        },
+        {
+          "post_id": "534823",
+          "text": "<p data-start=\"263\" data-end=\"338\">Is there any difference between the following declarations?</p><pre data-start=\"340\" data-end=\"377\" data-rawcode=\"extern int fun(); int fun();\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">extern int fun();\nint fun();</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"379\" data-end=\"578\">Both are identical<br>&nbsp;</li><li data-start=\"379\" data-end=\"578\">No difference, except $\\texttt{extern int fun();}$ is probably in another file<br>&nbsp;</li><li data-start=\"379\" data-end=\"578\">$\\texttt{int fun();}$ is overridden with $\\texttt{extern int fun();}$<br>&nbsp;</li><li data-start=\"379\" data-end=\"578\">None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 294"
+        }
+      ]
+    }
+  ]
+}

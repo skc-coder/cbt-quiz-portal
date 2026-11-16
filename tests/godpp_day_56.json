@@ -1,0 +1,70 @@
+{
+  "name": "Day 53 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "477921",
+          "text": "<p>The number of non-empty equivalence relations on the set $\\{1,2,3\\}$ is :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$7$<br>&nbsp;</li><li>$4$<br>&nbsp;</li><li>$5$<br>&nbsp;</li><li>$6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 53"
+        },
+        {
+          "post_id": "477926",
+          "text": "<p>Considering an experiment of tossing two fair dice, one black and one red. What is the probability that the number on the black die divides the number on red die?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{22}{36}$<br>&nbsp;</li><li>$\\frac{12}{36}$<br>&nbsp;</li><li>$\\frac{14}{36}$<br>&nbsp;</li><li>$\\frac{6}{36}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 53"
+        },
+        {
+          "post_id": "477919",
+          "text": "<p>A relation $R$ in $\\{1,2,3,4,5,6\\}$ is given by $\\{(1,2),(2,3),(3,4),(4,4),(4,5)\\}$. This relation is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>reflexive</li><li>symmetric</li><li>transitive</li><li>not reflexive, not symmetric and not transitive</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 53"
+        },
+        {
+          "post_id": "477915",
+          "text": "<p>The functions mapping $R$ into $R$ are defined as : $f(x)=x^3-4 x, g(x)=\\frac{1}{x^2+1}$ and $h(x)=x^4$.</p><p>Then find the value of the following composite functions: $h_o g(x)$ and $h_o g_o f(x)$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\left(x^2+1\\right)^4$ and $\\left[\\left(x^3-4 x\\right)^2+1\\right]^4$<br>&nbsp;</li><li>$\\left(x^2+1\\right)^4$ and $\\left[\\left(x^3-4 x\\right)^2+1\\right]^{-4}$<br>&nbsp;</li><li>$\\left(x^2+1\\right)^{-4}$ and $\\left[\\left(x^2-4 x\\right)^2+1\\right]^4$<br>&nbsp;</li><li>$\\left(x^2+1\\right)^{-4}$ and $\\left[\\left(x^3-4 x\\right)^2+1\\right]^{-4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 53"
+        },
+        {
+          "post_id": "477923",
+          "text": "<p>Let $A=\\{n \\in[100,700] \\cap \\mathrm{N}: n$ is neither a multiple of $3$ nor a multiple of 4$\\}$. Then the number of elements in $A$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$300$</li><li>$310$</li><li>$290$</li><li>$280$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 53"
+        }
+      ]
+    }
+  ]
+}

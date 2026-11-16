@@ -1,0 +1,70 @@
+{
+  "name": "Day 208 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "523670",
+          "text": "<p>Consider a uniprocessor system with three processes $\\mathrm{P1, P2,}$ and $\\mathrm{P3}$ arriving at time $\\mathrm{t}=0$. Their burst times are $10,20 ,$ and $30$ units, respectively. The system uses a <strong>Round Robin</strong> scheduling algorithm with a time quantum of $5$ units. If the context switching overhead is $1$ unit per switch (assume context switch overhead is applied every time a process is preempted or finishes it's quantum), what is the completion time (in units) for process $\\mathrm{P3}$?</p>",
+          "type": "Numerical",
+          "answer": "72",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 208"
+        },
+        {
+          "post_id": "523672",
+          "text": "<p>Two processes, $A$ and $B$, share a counting semaphore $\\verb|S|$ initialized to $2$. Each process executes the following code segment exactly once:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">wait(S);\n/* Critical Section */\nsignal(S);</pre><p><br>Which of the following statements is/are <strong>TRUE</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The maximum number of processes that can be in the critical section simultaneously is $2$.<br>&nbsp;</li><li>If the initial value of $\\verb|S|$ was $0$, a deadlock would occur if both processes attempted to enter.<br>&nbsp;</li><li>A binary semaphore would yield the same synchronization behavior as this counting semaphore.<br>&nbsp;</li><li>The $\\verb|wait|$ operation on a counting semaphore always decrements the value, even if it is already $0$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 208"
+        },
+        {
+          "post_id": "523678",
+          "text": "<p>Consider a system employing demand paging. The system's performance is being analyzed under heavy load, and it is observed that the CPU utilization is very low while the disk utilization for the paging device is very high. Which of the following statements is/are<strong> CORRECT</strong> regarding this scenario?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>This phenomenon is known as thrashing, and it occurs when the sum of the working sets of all active processes exceeds the total physical memory available.<br>&nbsp;</li><li>Increasing the degree of multiprogramming by adding more processes will likely increase CPU utilization.<br>&nbsp;</li><li>Replacing the local page replacement policy with a global page replacement policy will always resolve this issue.<br>&nbsp;</li><li>Decreasing the degree of multiprogramming is a valid strategy to bring the system back to a stable state.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 208"
+        },
+        {
+          "post_id": "523676",
+          "text": "<p>A computer system uses $46$-bit virtual addresses and $32$-bit physical addresses with a page size of $8\\mathrm{~KB}$. If the system employs a <strong>$\\mathbf{3}$-level hierarchical paging</strong> scheme where each page table entry (PTE) is $4\\mathrm{~bytes}$, what is the size of the page table (in bytes) for the first level if it must fit exactly within one page?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2 \\mathrm{~KB}$<br>&nbsp;</li><li>$4 \\mathrm{~KB}$<br>&nbsp;</li><li>$8 \\mathrm{~KB}$<br>&nbsp;</li><li>$16 \\mathrm{~KB}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 208"
+        },
+        {
+          "post_id": "523674",
+          "text": "<p>A system has $4$ processes $(P_1$ to $P_4)$ and $10$ instances of a single resource type $R$. Each process requires a maximum of $m$ instances to complete. What is the <strong>MAXIMUM</strong> value of $m$ such that the system is guaranteed to be deadlock-free, regardless of the order in which processes request and release resources?</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 208"
+        }
+      ]
+    }
+  ]
+}

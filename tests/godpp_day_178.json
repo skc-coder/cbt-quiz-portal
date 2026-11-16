@@ -1,0 +1,70 @@
+{
+  "name": "Day 174 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "510808",
+          "text": "<p>The index node (inode) of a Unix-like file system contains $\\mathbf{10}$ <strong>direct pointers, one singleindirect pointer, </strong>and <strong>one triple-indirect pointer.</strong> The disk block size is $\\mathbf{8 ~kB}$, and each disk block address is $\\mathbf{64-}$<strong>bits</strong> long.</p><p><strong>The maximum possible file size is (rounded off to $\\mathbf{2}$ decimal places) $\\_\\_\\_\\_&nbsp; ~\\mathbf{TB}$.</strong></p>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 174"
+        },
+        {
+          "post_id": "510811",
+          "text": "<p>Consider the following set of processes to be scheduled on a single CPU using the <strong>Shortest Remaining Time First (SRTF)</strong> algorithm.</p><p>\\[<br>\\begin{array}{ccc}<br>\\text{Process} & \\text{Arrival (ms)} & \\text{Execution (ms)}\\\\<br>P1 & 0 & 8\\\\<br>P2 & 2 & 4\\\\<br>P3 & 4 & 2\\\\<br>P4 & 5 & 1\\\\<br>P5 & 8 & 3<br>\\end{array}<br>\\]<br>&nbsp;</p><p>The average process turnaround time (in msec) is $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "6.6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 174"
+        },
+        {
+          "post_id": "510800",
+          "text": "<p>In a multi-processing operating system, deadlock prevention is implemented using a prioritybased timestamping scheme. Every process is assigned a unique timestamp when it enters the system. If a process is killed and restarted, it retains its <strong>original</strong> timestamp.</p><p>Let $P_{\\text {req }}$ be a process requesting a resource $R$, and $P_{\\text {hold }}$ be the process currently holding resource $R$. Let $T\\left(P_{r c q}\\right)$ and $T\\left(P_{\\text {hold }}\\right)$ represent their respective timestamps (where a smaller timestamp indicates an older process).</p><p>The system uses the following algorithm to decide whether a process should wait or be killed:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">if T(Preq) &gt; T(Phold) then\n&nbsp; &nbsp; kill Preq\nelse\n&nbsp; &nbsp; wait</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE SCHEME IS DEADLOCK-FREE, BUT NOT STARVATION-FREE<br>&nbsp;</li><li>THE SCHEME IS NOT DEADLOCK-FREE, BUT STARVATION-FREE<br>&nbsp;</li><li>THE SCHEME IS NEITHER DEADLOCK-FREE NOR STARVATION-FREE<br>&nbsp;</li><li>THE SCHEME IS BOTH DEADLOCK-FREE AND STARVATION-FREE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 174"
+        },
+        {
+          "post_id": "510799",
+          "text": "<p>In a system, there are three types of resources$: \\mathbf{R1}$, $\\mathbf{R2}$, and $\\mathbf{R3}$. Four processes $\\mathbf{P0}$, $\\mathbf{P1}$, $\\mathbf{P2}$, and $\\mathbf{P3}$ execute concurrently. The processes have declared their maximum resource requirements and their current allocations as shown in the tables below.</p><p>Consider a state of the system where the currently available resources are: <strong>Available</strong>$\\mathbf{: [R1: 2, R2: 1, R3: 0]}$<br>&nbsp;</p><p><strong>Resource Matrices</strong></p><p>\\begin{array}{ccc}<br>\\text { Process } & \\text { Allocation (R1 R2 R3) } & \\text { Max (R1 R2 R3) } \\\\<br>\\textbf{ P0 } & 0~1~0 & 7~5~3 \\\\<br>\\textbf { P1 } & 2~0~0 & 3~2~2 \\\\<br>\\textbf { P2 } & 3~0~2 & 9~0~2 \\\\<br>\\textbf { P3 } & 2~1~1 & 2~2~2<br>\\end{array}</p><p>From the perspective of deadlock avoidance, which one of the following is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE SYSTEM IS IN A SAFE STATE<br>&nbsp;</li><li>THE SYSTEM IS NOT IN A SAFE STATE, BUT WOULD BE SAFE IF ONE MORE INSTANCE OF $\\mathrm{R1}$ WERE AVAILABLE<br>&nbsp;</li><li>THE SYSTEM IS NOT IN A SAFE STATE, BUT WOULD BE SAFE IF ONE MORE INSTANCE OF $\\mathrm{R3}$ WERE AVAILABLE<br>&nbsp;</li><li>THE SYSTEM IS NOT IN A SAFE STATE, BUT WOULD BE SAFE IF TWO MORE INSTANCE OF $\\mathrm{R2}$ AND ONE INSTANCE OF $\\mathrm{R3}$ WERE AVAILABLE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 174"
+        },
+        {
+          "post_id": "510805",
+          "text": "<p>Consider a uniprogrammed operating system where <strong>only one user process executes at a time</strong>, and the process performs disk I/O requests sequentially. The disk scheduling policy initially used is <strong>SCAN.</strong></p><p>Suppose the disk scheduling algorithm is replaced with <strong>Shortest Seek Time First (SSTF)</strong>, and the system vendor claims that this change results in a $\\mathbf{40 \\%}$ <strong>reduction in average disk head movement </strong>during benchmarking.</p><p>What is the <strong>expected improvement in the overall I/O performance perceived by the user process</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$40 \\%$<br>&nbsp;</li><li>$20 \\%$<br>&nbsp;</li><li>$0\\%$<br>&nbsp;</li><li>Depends on the disk queue length</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 174"
+        }
+      ]
+    }
+  ]
+}

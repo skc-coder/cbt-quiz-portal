@@ -1,0 +1,352 @@
+{
+  "name": "GO Classes CS Test Series 2026 | Discrete Mathematics | Subject Wise Test 2",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "467892",
+          "text": "<p>Consider the following two statements.</p><ol><li>There are infinitely many interesting whole numbers.</li><li>There are finitely many uninteresting whole numbers.</li></ol><p>Which of the following is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Statements $1$ and $2$ are equivalent.</li><li>Statement $1$ implies statement $2$.</li><li>Statement $2$ implies statement $1$.</li><li>None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,mathematical-logic,logical-reasoning",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467915",
+          "text": "<p>In the passing out batch, $54$ students know Java, $39$ know Python&nbsp;and $43$ know C++. Of these, $15$ know both Java and Python, $17$ know both Python and C++ and $23$ know both Java and C++ and $11$ know all three languages. If there are $100$ students in the class, how many know none of these three languages?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3$</li><li>$8$</li><li>$17$</li><li>$19$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,one-mark,set-theory,combinatory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467876",
+          "text": "<p>Let $\\mathrm{f}:(0,1) \\rightarrow[0,1]$ be defined by $f(x)=x$. Which of the following is true? (Choose the most complete correct answer.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>f is a surjective function</li><li>$f$ is an injective function</li><li>f is a bijective function</li><li>f is not a function</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,functions",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467878",
+          "text": "<p>\"Every cat loves its mother or father\" can be translated as:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\forall x . \\neg \\operatorname{Cat}(x) \\vee \\operatorname{Loves}(x$, mother $(x)) \\vee \\operatorname{Loves}(x$, father $(x))$</li><li>&nbsp;$\\forall x . C a t(x) \\rightarrow \\operatorname{Loves}(x$, mother $(x) \\vee$ father $(x))$</li><li>$\\forall x . \\operatorname{Cat}(x) \\wedge(\\operatorname{Loves}(x$, mother $(x)) \\vee \\operatorname{Loves}(x$, father $(x)))$</li><li>$\\forall \\mathrm{x} . \\operatorname{Cat}(\\mathrm{x}) \\vee(\\operatorname{Loves}(\\mathrm{x}$, mother(x)) $\\vee \\operatorname{Loves}(\\mathrm{x}, \\mathrm{f}$ ather(x)))</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,first-order-logic",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467888",
+          "text": "<p>The school athletics coach has to choose $4$ students for the relay team. He calculates that there are $3876$ ways of choosing the team if the order in which the runners are placed is not considered. How many ways are there of choosing the team if the order of the runners is to be taken into account?</p><ol type=\"A\"><li>Between $12,000$ and $25,000$</li><li>Between $75,000$ and $99,999$</li><li>Between $30,000$ and $60,000$</li><li>More than $100,000$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,combinatory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467889",
+          "text": "<p>A binary relation $R ⊆ (S ×S)$ is said to be Euclidean if for every $a, b, c ∈ S, (a, b) ∈ R$ and $(a, c) ∈ R$ implies $(b, c) ∈ R$. Which of the following statements is valid?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If $R$ is Euclidean, $(b, a) ∈ R$ and $(c, a) ∈ R$, then $(b, c) ∈ R$, for every $a, b, c ∈ S$</li><li>If $R$ is reflexive and Euclidean, $(a, b) ∈ R$ implies $(b, a) ∈ R$, for every $a, b ∈ S$</li><li>If $R$ is Euclidean, $(a, b) ∈ R$ and $(b, c) ∈ R$, then $(a, c) ∈ R$, for every $a, b, c ∈ S$</li><li>None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,relations,set-theory&algebra",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467896",
+          "text": "<p>Let $G=(V, E)$ be a graph. Define $\\overline{G}$ to be $(V, \\overline{E})$, where for all $u, \\: v \\: \\in V \\: , (u, v) \\in \\overline{E}$ if and only if $(u, v) \\notin E$. Then which of the following is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\overline{G}$ is always connected.</li><li>$\\overline{G}$ is connected if $G$ is&nbsp;connected.</li><li>At least one of $G$ and $\\overline{G}$ connected.</li><li>$G$ is not connected or $\\overline{G}$ is not connected</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,graph-theory,graph-connectivity",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467877",
+          "text": "<p>Which of the following statements is/are False ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Let $f: A \\rightarrow B$ be an injective function and let $C \\subseteq A$. Let $g: C \\rightarrow B$ be the restriction of $f$ to $C$. Then $g$ is injective.</li><li>If $|A|=4$ and $|B|=5$, then there can not be a surjective function from A to B.</li><li>Let A be a nonempty set. If a function $\\mathrm{f}: \\mathrm{A} \\rightarrow \\mathrm{A}$ is surjective, then it is injective.</li><li>Let $A=\\{-1,0,1\\}$. Define $f: A \\rightarrow \\mathbb{Z}$ by the rule $f(a)=a^{4}$, and define $g: A \\rightarrow \\mathbb{Z}$ by the rule $g(a)=a^{2}$. Then $f$ is equal to $g$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,functions",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467895",
+          "text": "<p>Let $T$ be a tree on 100 vertices. Let $n_i$ be the number of vertices in $T$ which have exactly $i$ neighbors. Let $s= \\Sigma_{i=1}^{100} i . n_i$ Which of the following is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$s=99$</li><li>$s=198$</li><li>$99 \\: &lt; \\: s \\: &lt; \\: 198$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,graph-theory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467909",
+          "text": "<p>If the binary operation * is defined on a set of ordered pairs of real numbers as $(a, b) *(c, d)=(a d+b c, b d)$ and is associative, then $(1,2) *(3,5) *(3,4)$ equals</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(74,40)$</li><li>$(32,40)$</li><li>$(23,11)$</li><li>$(7,11)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,one-mark,group-theory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467901",
+          "text": "<p>Let $A=\\{1,2,3,4,5\\}$, and let<br>$R=\\{(1,1),(1,3),(1,4),(2,2),(2,5),(3,1),(3,3),(3,4),(4,1),(4,3),(4,4),(5,2),(5,5)\\}$<br>be an equivalence relation on $A$. Which of the following is an equivalence class?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\{1,2,3\\}$</li><li>$\\{2,3,5\\}$</li><li>$\\{1,3,4\\}$</li><li>$\\{1,2\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,one-mark,relations",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467908",
+          "text": "<p>Consider the following logical arguments.<br><br>$M$) Hypotheses: If there is gas in the car, then I will go to the store. If I go to the store, then I will get a soda. There is gas in the car. Conclusion: I will get a soda.<br><br>$N$) Hypotheses: When Prof. P. gets angry, he fails his entire class. When the entire class fails, the Chancellor gets complaints. When the Chancellor gets complaints, she will either fire Prof. P., cut his salary, or do both. Prof. P. got angry, and he was not fired. Conclusion: Prof. P.'s salary was cut.</p><p><br>Which of the following is TRUE?</p><ol style=\"list-style-type:upper-alpha\"><li>Both $M$ and $N$ are valid arguments.</li><li>$M$ is correct but $N$ is not a valid argument.</li><li>$M$ is not correct but $N$ is a valid argument.</li><li>Both $M$ and $N$ are not valid arguments.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,one-mark,propositional-logic",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467894",
+          "text": "<p>A basket of fruit is being arranged out of apples, bananas, and oranges. What is the smallest number of pieces of fruit that should be put in the basket in order to guarantee that either there are at least $8$ apples or at least $6$ bananas or at least $9$ oranges?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$9$</li><li>$10$</li><li>$20$</li><li>$21$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,pigeonhole-principle",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467904",
+          "text": "<p>Consider the following two formulas in propositional logic:<br>$$<br>\\phi=p \\wedge q, \\quad \\psi=r \\rightarrow(p \\wedge q)<br>$$<br>Which of the following statement is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If a truth assignment makes $\\phi$ true, it also makes $\\psi$ true.</li><li>If a truth assignment makes $\\psi$ true, it also makes $\\phi$ true.</li><li>If a truth assignment makes $\\phi$ false, it also makes $\\psi$ false.</li><li>None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,one-mark,propositional-logic",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467897",
+          "text": "<p>Let $m$ and $n$ range over natural numbers and let $\\text{Prime}(n)$ be true if $n$ is a prime number. Which of the following formulas expresses the fact that the set of prime numbers is infinite?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(\\forall m) (\\exists n) (n &gt; m) \\text{ implies Prime}(n)$</li><li>$(\\exists n) (\\forall m) (n &gt; m) \\text{ implies&nbsp;Prime}(n)$</li><li>$(\\forall m) (\\exists n) (n &gt; m) \\wedge \\text{Prime}(n)$</li><li>$(\\exists n) (\\forall m) (n &gt; m) \\wedge \\text{Prime}(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,first-order-logic",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467914",
+          "text": "<p>An undirected graph has $10$ vertices labelled $1, 2,\\dots , 10$&nbsp;and $37$ edges. Vertices $1, 3, 5, 7, 9$ have degree $8$ and vertices $2, 4, 6, 8$ have degree $7.$ What is the degree of vertex $10$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5$</li><li>$6$&nbsp;</li><li>$7$&nbsp;</li><li>$8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,one-mark,graph-theory,degree-of-graph",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467899",
+          "text": "<p>We need to choose a team of $11$ from a pool of $15$ players and also select a captain. The number of different ways this can be done is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$ \\begin{pmatrix} 15 \\\\ 11 \\end{pmatrix}$</li><li>$11$ .&nbsp;$ \\begin{pmatrix} 15 \\\\ 11 \\end{pmatrix}$</li><li>$15 . 14 . 13 . 12 . 11 .10 . 9 . 8 . 7 . 6 . 5$</li><li>$(15 . 14 . 13 . 12 . 11 .10 . 9 . 8 . 7 . 6 . 5) . 11$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,combinatory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467887",
+          "text": "<p>The set of all rational numbers of the form $3^{m} .6^{n} ; \\mathrm{m}, \\mathrm{n}$ are integers,</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>forms a group under multiplication</li><li>forms a group under addition</li><li>forms a group under division</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,group-theory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467906",
+          "text": "<p>The shortest formula in propositional logic is<br>$$<br>p<br>$$<br>where $p$ is a propositional atom. Which one of the following statements is true?</p><p> </p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The formula $p$ is valid and satisfiable.</li><li>The formula $p$ is invalid and unsatisfiable.</li><li>The formula $p$ is invalid and satisfiable.</li><li>The formula $p$ is valid and unsatisfiable.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,one-mark,propositional-logic",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467910",
+          "text": "<p>Group of order .... has not a proper non-trivial subgroup?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>46</li><li>47</li><li>48</li><li>50</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,one-mark,group-theory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467912",
+          "text": "<p>The $\\{1,3,5,7\\}$ is group under ......</p><p> </p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Addition</li><li>Multiplication</li><li>Addition modulo 8</li><li>Multiplication modulo 8</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,one-mark,group-theory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467885",
+          "text": "<p>A group contains two elements $a$ and $b$ such that $|a|=4,|b|=2$, and $a^{3} \\cdot b=b a$. Then $|a b|=$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>2</li><li>4</li><li>6</li><li>8</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,group-theory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467884",
+          "text": "<p>Consider the following statements</p><ol style=\"list-style-type:upper-roman\"><li>Every cyclic group is abelian.</li><li>Every abelian group is cyclic.</li><li>Every group of order less than 4 is cyclic.</li></ol><div> </div><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Only I is correct</li><li>I and II are correct</li><li>I and III are correct</li><li>II and III are correct</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,group-theory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467893",
+          "text": "<p>A simple graph is one in which there are no self-loops and each pair of distinct vertices is connected by at most one edge. Let $G$ be a simple graph on $8$ vertices such that there is a vertex of degree $1$, a vertex of degree $2$, a vertex of degree $3$, a vertex of degree $4$, a vertex of degree $5$, a vertex of degree $6$ and a vertex of degree $7$. Which of the following can be the degree of the last vertex?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3$</li><li>$0$</li><li>$5$</li><li>$4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,graph-theory,degree-of-graph",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467882",
+          "text": "<p>Consider the following statements on formulas in propositional logic:<br>1. If $\\phi$ and $\\psi$ are both valid, then $\\phi \\rightarrow \\psi$ is valid.<br>2. If $\\phi$ and $\\psi$ are both satisfiable, then $\\phi \\rightarrow \\psi$ is satisfiable.<br>3. If $\\phi$ and $\\psi$ are both unsatisfiable, then $\\phi \\rightarrow \\psi$ is unsatisfiable.</p><p><br>Which of these statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>none of Statement 1 through 3</li><li>Statement 1 and Statement 3 only</li><li>Statement 1 only</li><li>Statement 1 and Statement 2 only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,propositional-logic",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467875",
+          "text": "<p>Let $X$ be a nonempty set and let $\\mathcal{P}(X)$&nbsp;denote the collection of all subsets of $X.$ Define $\\textit{f}:\\textit{X$\\times$ $\\mathcal{P}$(X)}\\rightarrow \\mathbb{R}$ by</p><p>$f(x,A) = \\begin{cases}&nbsp; 1 \\text{ if } x&nbsp; \\in&nbsp;A &amp; \\\\ 0 \\text{ if } x \\notin&nbsp; A &amp; \\end{cases}$</p><p>Then $f\\left ( x,A\\cup B \\right )$ equals</p><ol type=\"A\"><li>$f(x,A)+f(x,B)$</li><li>$f(x,A)+f(x,B)-1$</li><li>$f(x,A)+f(x,B) - f(x,A) \\cdot f(x,B)$</li><li>$f(x,A)+ \\mid f(x,A) – f(x,B) \\mid$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,functions",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467890",
+          "text": "<p>For the inter-hostel six-a-side football tournament, a team of $6$ players is to be chosen from $11$ players consisting of $5$ forwards, $4$ defenders and $2$ goalkeepers. The team must include at least $2$ forwards, at least $2$ defenders and at least $1$ goalkeeper. Find the number of different ways in which the team can be chosen.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$260$</li><li>$340$</li><li>$720$</li><li>$440$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,combinatory",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467903",
+          "text": "<p>Which variables occur free in the following formula?<br>$$<br>P(x) \\wedge \\exists y Q(y, z) \\vee \\forall x P(x, w)<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$z, w$</li><li>$w$</li><li>$x, z, w$</li><li>$y, x$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,one-mark,first-order-logic",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467880",
+          "text": "<p>Recall that we require the domain for predicate logic to be non-empty. Assume that the domain is allowed to be empty. Given this possibility, consider the following formula in predicate logic:<br>$$<br>\\neg \\exists x(P(x)) \\wedge \\forall x P(x)<br>$$<br>Classify this formula:</p><ol style=\"list-style-type:upper-alpha\"><li>Valid if models can be empty, valid if models must be nonempty.</li><li>Satisfiable-but-invalid if models can be empty; unsatisfiable if models must be nonempty.</li><li>Satisfiable-but-invalid if models can be empty; satisfiable-but-invalid if models must be nonempty.</li><li>Satisfiable-but-invalid if models can be empty; valid if models must be nonempty.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,first-order-logic",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "467891",
+          "text": "A complete graph on $n$ vertices is an undirected graph in which every pair of distinct vertices is connected by an edge. A simple path in a graph is one in which no vertex is repeated. Let $G$ be a complete graph on $10$ vertices. Let $u$, $v$, $ w$ be three distinct vertices in $G$. How many simple paths are there from $u$ to $v$ going through $w$?",
+          "type": "Numerical",
+          "answer": "95901",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dm_sw_2,goclasses,goclasses-testseries-2026,discrete-mathematics,two-marks,numerical-answers,graph-theory",
+          "category": "Others"
+        }
+      ]
+    }
+  ]
+}

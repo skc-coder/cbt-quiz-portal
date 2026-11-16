@@ -1,0 +1,70 @@
+{
+  "name": "Day 172 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "510158",
+          "text": "<p>The following C program is executed on a Unix/Linux system:<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;unistd.h&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\n&nbsp; &nbsp; int i;\n&nbsp; &nbsp; for(i = 0; i &lt; 6; i++)\n&nbsp; &nbsp; {\n&nbsp; &nbsp; &nbsp; &nbsp; if(i % 3 == 0)\n&nbsp; &nbsp; &nbsp; &nbsp; {\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fork();\n&nbsp; &nbsp; &nbsp; &nbsp; }\n&nbsp; &nbsp; }\n&nbsp; &nbsp; return 0;\n}</pre><p><br>The total number of child processes created is $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 172"
+        },
+        {
+          "post_id": "510153",
+          "text": "<p>A Unix-like file system uses an <strong>inode</strong> structure to manage files. The system is stored on a disk with a total capacity of $256 \\times 10^9$ <strong>bytes.</strong></p><p>The specifications are as follows:</p><ul><li><strong>Disk Block Size:</strong>&nbsp;$8$ KB $(2^{13}$ bytes$)$.<br>&nbsp;</li><li><strong>Disk Block Address: </strong>$64$-bits long.<br>&nbsp;</li><li><strong>Inode Structure:</strong> Each inode contains $10$ direct pointers, $1$ single-indirect pointer, and $1$ double-indirect pointer.<br>&nbsp;</li></ul><p>Calculate the maximum size of a single file (in $\\mathrm{MB}$, where $1 ~\\mathrm{MB}=10^6$ bytes) that can be supported by this inode structure.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{8600.3 ~MB}$<br>&nbsp;</li><li>$\\mathrm{4200.5 ~MB}$<br>&nbsp;</li><li>$\\mathrm{9100.0 ~MB}$<br>&nbsp;</li><li>$\\mathrm{1048.6 ~MB}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 172"
+        },
+        {
+          "post_id": "510150",
+          "text": "<p>A <strong>FAT (File Allocation Table)</strong> based file system is being used on a disk with a total capacity of $512 \\times 10^6$ <strong>bytes</strong>.</p><p>The system specifications are as follows:</p><ul><li><strong>Data Block Size:</strong> $2 \\times 10^3$ bytes.<br>&nbsp;</li><li><strong>FAT Entry Size:</strong>&nbsp;$8$ bytes per entry.</li></ul><p>the maximum size of a file that can be stored on this disk in units of $10^6$ bytes is $\\_\\_\\_\\_$ .</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$510.00$<br>&nbsp;</li><li>$509.96$<br>&nbsp;</li><li>$511.99$<br>&nbsp;</li><li>$508.42$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 172"
+        },
+        {
+          "post_id": "510146",
+          "text": "<p>A hard disk has $\\mathbf{50}$ <strong>sectors per track,</strong>&nbsp;$\\mathbf{10}$ <strong>surfaces,</strong> and $\\mathbf{800}$ <strong>cylinders.</strong><br><br>The disk uses a <strong>Surface-First</strong> addressing scheme. In this scheme, sectors are numbered sequentially starting from Surface $0$. All tracks and cylinders on Surface $0$ are numbered first (from Cylinder $0$ to $799$), followed by all tracks and cylinders on Surface $1$, and so on.<br><br>The address is given as $\\langle s, c, t\\rangle$, where:</p><ul><li>$s$ is the surface number $(0-9)$<br>&nbsp;</li><li>$c$ is the cylinder number $(0-799)$<br>&nbsp;</li><li>$t$ is the sector number $(0-49)$<br>&nbsp;</li></ul><p><strong>The address $\\mathbf{\\langle 4,200,15\\rangle}$ corresponds to which linear sector number?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$170015$<br>&nbsp;</li><li>$160215$<br>&nbsp;</li><li>$170065$<br>&nbsp;</li><li>$180015$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 172"
+        },
+        {
+          "post_id": "510140",
+          "text": "<p>A hard disk is configured with $\\mathbf{80}$ <strong>sectors per track,</strong>&nbsp;$\\mathbf{8}$ <strong>platters</strong> (each with $\\mathbf{2}$ <strong>recording surfaces</strong>), and $\\mathbf{2000}$ <strong>cylinders.</strong> The address of a sector is represented as a triple $\\langle c, h, s\\rangle$, where $c$ is the cylinder number, $h$ is the surface number, and $s$ is the sector number.</p><p>The addressing starts at $\\langle 0,0,0\\rangle$ for the $0^{\\text {th }}$ sector, $\\langle 0,0,1\\rangle$ for the $1^{\\text {st }}$ sector, and so on.<br><br><strong>The address</strong> $\\langle 600,12,45\\rangle$ <strong>corresponds to which sector number?</strong></p>",
+          "type": "Numerical",
+          "answer": "769005",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 172"
+        }
+      ]
+    }
+  ]
+}

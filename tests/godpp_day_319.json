@@ -1,0 +1,70 @@
+{
+  "name": "Day 247 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528995",
+          "text": "<p>Consider three non-zero matrices $A, ~B$ and $C$ such that $ABB^T = CBB^T$ where $B^T$ is the transpose of $B$. Which of the following statements is necessarily true?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li><p>$r(A) =r(C)$</p></li><li><p>non-zero eigenvalues of $A$ and $C$ are identical.</p></li><li><p>$AB = CB$</p></li><li><p>None of the above.</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "528992",
+          "text": "<p data-start=\"121\" data-end=\"331\">Consider non-zero matrices $A\\in M_{m\\times n}$, $B\\in M_{n\\times p}$, and $C\\in M_{p\\times m}$. Then $ABC$, $BCA$, and $CAB$ are all square matrices. Which of the following is necessarily true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"333\" data-end=\"358\">$r(ABC)=r(BCA)=r(CAB)$<br>&nbsp;</li><li data-start=\"360\" data-end=\"464\">The non-zero eigenvalues of $ABC$, $BCA$, and $CAB$ are identical, counting algebraic multiplicities.<br>&nbsp;</li><li data-start=\"466\" data-end=\"512\">$ABC$, $BCA$, and $CAB$ are always similar.<br>&nbsp;</li><li data-start=\"514\" data-end=\"542\">If $ABC=0$, then $BCA=0$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "528964",
+          "text": "<p>Let $$ A=\\left[\\begin{array}{lll} a & 1 & 1 \\\\ b & a & 1 \\\\ 1 & 1 & 1 \\end{array}\\right] . $$ The number of elements in the set $$ \\left\\{(a, b) \\in \\mathbb{Z}^{2}: 0 \\leq a, b \\leq 2026, \\operatorname{rank}(A)=2\\right\\} $$ is</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$2026$<br>&nbsp;</li><li>$2025$<br>&nbsp;</li><li>$2026^{2}-1$<br>&nbsp;</li><li>$2025&nbsp;\\times 2026$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "528962",
+          "text": "<p data-start=\"83\" data-end=\"144\">Suppose that a $4 \\times 4$ matrix $A$ has eigenvalue $3$. If</p><p data-start=\"146\" data-end=\"254\">$A - 3I = \\begin{pmatrix} 1 & -2 & 0 & 4 \\\\ 0 & 0 & 1 & -3 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\end{pmatrix},$</p><p data-start=\"256\" data-end=\"337\">then the eigenvectors of $A$ corresponding to the eigenvalue $3$ are of the form:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2223\" data-end=\"2304\">$\\begin{pmatrix} 2s - 4t \\\\ s \\\\ 3t \\\\ t \\end{pmatrix}&nbsp;; s,t \\in \\mathbb{R}$<br><br>&nbsp;</li><li data-start=\"2306\" data-end=\"2387\">$\\begin{pmatrix} 2s + 4t \\\\ s \\\\ 3t \\\\ t \\end{pmatrix}&nbsp;; s,t \\in \\mathbb{R}$<br><br>&nbsp;</li><li data-start=\"2389\" data-end=\"2470\">$\\begin{pmatrix} 2s - 4t \\\\ s \\\\ t \\\\ 3t \\end{pmatrix}&nbsp;; s,t \\in \\mathbb{R}$<br><br>&nbsp;</li><li data-start=\"2472\" data-end=\"2553\">$\\begin{pmatrix} 2s - 4t \\\\ 3t \\\\ s \\\\ t \\end{pmatrix}&nbsp;; s,t \\in \\mathbb{R}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "528960",
+          "text": "<p data-start=\"89\" data-end=\"209\">Let $A$ be an $n \\times n$ matrix such that $\\det(A)=0$ and $\\text{adj}(A) \\neq 0$. Which of the following must be true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"211\" data-end=\"318\">$\\text{rank}(A)=n-1$<br>&nbsp;</li><li data-start=\"211\" data-end=\"318\">$\\text{rank}(A)=n-2$<br>&nbsp;</li><li data-start=\"211\" data-end=\"318\">$\\text{rank}(\\text{adj}(A))=1$<br>&nbsp;</li><li data-start=\"211\" data-end=\"318\">Both A&nbsp;and C</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 247"
+        }
+      ]
+    }
+  ]
+}

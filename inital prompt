@@ -1,0 +1,18 @@
+create an addon for firefox that allows me to give tests.
+the interface of the test is of tcs ion typical one.
+it is intened for my gate prep.
+the json files of the test are stored in the subfolder test. the adddon should get the data from here.
+it should rember my progress through the tests if possible. possibly store it in online.
+the basic features it should support are:
+test interface, for various kinds of test with various times marking scheme questions nat msq mcq etc.
+sections in tests technical aptitude.
+show me my progress, like the total test i gave, correct, wrong accruacy.
+
+the interface should not be sloppy. add a gray good contrast bad dark mode as well.
+the test files should not be modifed.
+
+please look into sample of test jsons to see the strutures. esp see the go classes mock test series and gateoverflow ones.
+20 should be fine.
+
+i have also inclued some sample code files and stuff. use that as insipariation.
+after giving the test there should be a exam result or summary page as well. see the files for that.

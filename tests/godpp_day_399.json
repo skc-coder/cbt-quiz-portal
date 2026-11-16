@@ -1,0 +1,70 @@
+{
+  "name": "Day 284 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "533212",
+          "text": "<p>Which of the following Twos Complement binary numbers is equivalent to $\\mathbf{- 7 5}{ }_{10}$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>11001011</li><li>01001100</li><li>11001100</li><li>10110101</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 284"
+        },
+        {
+          "post_id": "533211",
+          "text": "<p>Which of the following 4 bit Excess 3 numbers is equivalent to $5_{10}$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1101_{b c d x s} 3$</li><li>$0010_{b c d x s 3}$</li><li>$1000_{b c d x s} 3$</li><li>$1010_{b c d x s 3}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 284"
+        },
+        {
+          "post_id": "533208",
+          "text": "<p>What is the widest range of decimal numbers that can be written in 8 bit signed binary notation?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>-127 to +127</li><li>-0 to +256</li><li>-128 to +128</li><li>-256 to -1</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 284"
+        },
+        {
+          "post_id": "533207",
+          "text": "<p>What is the result of adding $\\mathbf{7}_{10}$ and $\\mathbf{- 4}_{10}$ using 8 bit signed binary notation?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10000011_2$</li><li>$00001011_2$</li><li>$10001011_2$</li><li>$00000011_2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 284"
+        },
+        {
+          "post_id": "533209",
+          "text": "<p>End around carry is used to correct the result of additions in which of the following number systems?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>8 bit Signed Binary.</li><li>8 bit Ones Complement.</li><li>8 bit Twos Complement.</li><li>Excess $3_{\\mathrm{BCD}}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 284"
+        }
+      ]
+    }
+  ]
+}

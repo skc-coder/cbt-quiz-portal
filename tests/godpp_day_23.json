@@ -1,0 +1,70 @@
+{
+  "name": "Day 22 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "473502",
+          "text": "<p>A box contains 4 white and 6 black balls. Two balls are drawn one after another without replacement. What is the probability that the first ball is white given that the second ball is black?</p><p>Options:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{4}{10}$<br>&nbsp;</li><li>$\\frac{4}{9}$<br>&nbsp;</li><li>$\\frac{3}{7}$<br>&nbsp;</li><li>$\\frac{6}{9}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 22"
+        },
+        {
+          "post_id": "473498",
+          "text": "<p>You have a fair five-sided die. The sides of the die are numbered from 1 to 5. Each die roll is independent of all others, and all faces are equally likely to come out on top when the die is rolled. Suppose you roll the die twice.</p><p>Let event $A$ be \"the total of two rolls is 10\", event $B$ be \"at least one roll resulted in 5\", and event $C$ be \"at least one roll resulted in $1^{\\prime \\prime}$.</p><p>Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Events $A$ and $B$ are independent.</li><li>Events $A$ and $C$ are independent.</li><li>Events $A$ and $B$ are not independent.</li><li>Events $A$ and $C$ are not independent.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C,D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 22"
+        },
+        {
+          "post_id": "473496",
+          "text": "<p>The probability of Victor missing the morning forecast is equal to 0.2 on any day in the year. If he misses the forecast, Victor will flip a fair coin to decide whether to carry an umbrella. On any day of a given season he sees the forecast, if it says \"rain\" he will always carry an umbrella, and if it says \"no rain,\" he will not carry an umbrella. Are the events \"Victor is carrying an umbrella,\" and \"The forecast is no rain\" independent?&nbsp;</p><p dir=\"ltr\"><b id=\"docs-internal-guid-f14cad16-7fff-122f-0640-e7d7306de615\">Give answer as 1 if independent else give 0 as answer..</b></p><p dir=\"ltr\">&nbsp;</p>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 22"
+        },
+        {
+          "post_id": "473494",
+          "text": "<p>Most mornings, Victor checks the weather report before deciding whether to carry an umbrella.<br>If the forecast is \"rain,\" the probability of actually having rain that day is 80%. On the other hand, if the forecast is \"no rain,\" the probability of it actually raining is equal to 10%. During fall and winter the forecast is \"rain\" 70% of the time and during summer and spring it is 20%.</p><p>One day, Victor missed the forecast and it rained. What is the probability that the forecast was \"rain\" if it was during the winter?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>0.28</li><li>0.61</li><li>0.85</li><li>0.95</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 22"
+        },
+        {
+          "post_id": "473492",
+          "text": "Bob has a peculiar pair of four-sided dice. When he rolls the dice, the probability of any particular outcome is proportional to the sum of the results of each die. All outcomes that result in a particular sum are equally likely.<br>\n<br>\nWhat is the probability of the sum being even?",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 22"
+        }
+      ]
+    }
+  ]
+}

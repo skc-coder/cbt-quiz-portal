@@ -1,0 +1,70 @@
+{
+  "name": "Day 247 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543576",
+          "text": "<p data-start=\"3554\" data-end=\"3728\">Suppose that a selectionsort of $100$ items has completed $42$ iterations of the main loop. How many items are now guaranteed to be in their final spot (never to be moved again)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3730\" data-end=\"3759\">$21$<br>&nbsp;</li><li data-start=\"3730\" data-end=\"3759\">$41$<br>&nbsp;</li><li data-start=\"3730\" data-end=\"3759\">$42$<br>&nbsp;</li><li data-start=\"3730\" data-end=\"3759\">$43$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "543570",
+          "text": "<p data-start=\"914\" data-end=\"1051\">The nontrivial operation involved in the bubble sort is comparing two numbers, i.e., checking the $\\texttt{if}$ condition in the inner $\\texttt{for}$ loop.</p><p data-start=\"1053\" data-end=\"1136\">How many comparisons need to be done if the input finite sequence is of length $n$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1053\" data-end=\"1136\">$n-1$<br>&nbsp;</li><li data-start=\"1053\" data-end=\"1136\">$\\dfrac{n(n-1)}{2}$<br>&nbsp;</li><li data-start=\"1053\" data-end=\"1136\">$n^2$<br>&nbsp;</li><li data-start=\"1053\" data-end=\"1136\">$n\\log n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "543582",
+          "text": "<p data-start=\"6485\" data-end=\"6537\">Problem: Sort a file of huge records with tiny keys.</p><p data-start=\"6539\" data-end=\"6587\">Example application: Reorganize your MP-$3$ files.</p><p data-start=\"6589\" data-end=\"6617\">Which sorting method to use?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"6619\" data-end=\"6785\">a system sort, guaranteed to run in time $\\sim N\\log N$<br>&nbsp;</li><li data-start=\"6619\" data-end=\"6785\">selection sort<br>&nbsp;</li><li data-start=\"6619\" data-end=\"6785\">bubble sort<br>&nbsp;</li><li data-start=\"6619\" data-end=\"6785\">a custom algorithm for huge records/tiny keys<br>&nbsp;</li><li data-start=\"6619\" data-end=\"6785\">insertion sort</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "543573",
+          "text": "<p data-start=\"2151\" data-end=\"2271\">In a selectionsort of n elements, how many times is the swap function called in the complete execution of the algorithm?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2273\" data-end=\"2316\">$1$<br>&nbsp;</li><li data-start=\"2273\" data-end=\"2316\">$n-1$<br>&nbsp;</li><li data-start=\"2273\" data-end=\"2316\">$n\\log n$<br>&nbsp;</li><li data-start=\"2273\" data-end=\"2316\">$n^2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "543579",
+          "text": "<p data-start=\"4905\" data-end=\"4962\">When is insertionsort a good choice for sorting an array?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4964\" data-end=\"5181\">Each component of the array requires a large amount of memory.<br>&nbsp;</li><li data-start=\"4964\" data-end=\"5181\">Each component of the array requires a small amount of memory.<br>&nbsp;</li><li data-start=\"4964\" data-end=\"5181\">The array has only a few items out of place.<br>&nbsp;</li><li data-start=\"4964\" data-end=\"5181\">The processor speed is fast.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 247"
+        }
+      ]
+    }
+  ]
+}

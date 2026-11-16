@@ -1,0 +1,70 @@
+{
+  "name": "Day 313 [Theory of Computation]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "538390",
+          "text": "<p data-start=\"2498\" data-end=\"2600\">Let $A = \\{a, ab, aba, b, ba\\}$ and $\\operatorname{NOPREFIX}(A) = \\{w \\in A \\mid$ no proper prefix of $w$ is a member of $A\\}$. Which of the following strings belong to $\\operatorname{NOPREFIX}(A)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2602\" data-end=\"2650\">$a$<br>&nbsp;</li><li data-start=\"2602\" data-end=\"2650\">$ab$<br>&nbsp;</li><li data-start=\"2602\" data-end=\"2650\">$aba$<br>&nbsp;</li><li data-start=\"2602\" data-end=\"2650\">$b$<br>&nbsp;</li><li data-start=\"2602\" data-end=\"2650\">$ba$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 313"
+        },
+        {
+          "post_id": "538383",
+          "text": "Let $\\Sigma = \\{0,1\\}$ and $L = \\{w \\in \\Sigma^* \\mid |w| \\le 5\\}$. Find the number of strings in $L$.",
+          "type": "Numerical",
+          "answer": "63",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 313"
+        },
+        {
+          "post_id": "538388",
+          "text": "Let $L = \\{a, aa, aaa\\}$. Find the number of distinct strings in $L^2$.",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 313"
+        },
+        {
+          "post_id": "538386",
+          "text": "<p data-start=\"4195\" data-end=\"4324\">Let $\\Sigma = \\{a,b\\}$ and $L = \\Sigma^*a\\Sigma^*b\\Sigma^*a\\Sigma^*$. Which of the following strings belong to $L$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4326\" data-end=\"4414\">$aba$</li><li data-start=\"4326\" data-end=\"4414\">$aaba$</li><li data-start=\"4326\" data-end=\"4414\">$aaab$</li><li data-start=\"4326\" data-end=\"4414\">$baba$</li><li data-start=\"4326\" data-end=\"4414\">$baab$</li><li data-start=\"4326\" data-end=\"4414\">$\\epsilon$</li><li data-start=\"4326\" data-end=\"4414\">$aabbaa$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D;G",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 313"
+        },
+        {
+          "post_id": "538381",
+          "text": "<p data-start=\"640\" data-end=\"724\">Let $\\Sigma = \\{0,1\\}$. Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"726\" data-end=\"895\">$\\Sigma^* = \\{\\epsilon\\} \\cup \\Sigma^+$<br>&nbsp;</li><li data-start=\"726\" data-end=\"895\">$\\epsilon \\in \\Sigma^+$<br>&nbsp;</li><li data-start=\"726\" data-end=\"895\">$101 \\in \\Sigma^+$<br>&nbsp;</li><li data-start=\"726\" data-end=\"895\">$\\Sigma^+ = \\Sigma^* - \\{\\epsilon\\}$<br>&nbsp;</li><li data-start=\"726\" data-end=\"895\">$\\emptyset \\in \\Sigma^*$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 313"
+        }
+      ]
+    }
+  ]
+}

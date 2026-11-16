@@ -1,0 +1,187 @@
+{
+  "name": "GATEBOOK-2019 DBMS3: Indexing",
+  "duration": "54",
+  "total_qs": "15",
+  "total_qs_one": 0,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "271794",
+          "text": "A file has $r = 20,000$ STUDENT records of fixed length. Each record has the following fields: $\\text{NAME (30 bytes), SSN (9 bytes), ADDRESS ($40$ bytes), BIRTHDATE ($8$ bytes)}$. If the block size is $512$ bytes, the number of file blocks required for the file assuming an unspanned organization is ______",
+          "type": "Numerical",
+          "answer": "4000",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dbms3,numerical-answers,indexing",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271793",
+          "text": "<p>Consider a disk with block size $B = 512$ bytes. A block pointer is $P= 6$ bytes long, and a record pointer is $PR = 7$ bytes long. A file has $r = 30,000$ EMPLOYEE records of fixed length. Each record has the following fields: NAME ($30$ bytes), SSN ($9$ bytes), DEPARTMENTCODE ($9$ bytes), ADDRESS ($40$ bytes), PHONE ($9$ bytes), BIRTHDATE ($8$ bytes), SEX ($1$ byte), JOBCODE ($4$ bytes), SALARY ($4$ bytes, real number). An additional byte is used as a deletion marker.<br>\nSuppose that the file is ordered by the key field SSN and we want to construct a primary index on SSN. The number of first-level index entries and the number of first-level index blocks will be</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\text{7500 entries and 221 blocks}$</li>\n    <li>$\\text{6500 entries and 121 blocks}$</li>\n    <li>$\\text{6500 entries and 221 blocks}$</li>\n    <li>$\\text{7500 entries and 121 blocks}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271792",
+          "text": "<p>Consider a disk with block size $B = 512$ bytes. A block pointer is $P= 6$ bytes long, and a record pointer is $PR = 7$ bytes long. A file has $r = 30,000$ EMPLOYEE records of fixed length. Each record has the following fields: NAME ($30$ bytes), SSN ($9$ bytes), DEPARTMENTCODE ($9$ bytes), ADDRESS ($40$ bytes), PHONE ($9$ bytes), BIRTHDATE ($8$ bytes), SEX ($1$ byte), JOBCODE ($4$ bytes), SALARY ($4$ bytes, real number). An additional byte is used as a deletion marker.<br>\nSuppose the file is not ordered by the key field SSN and we want to construct a secondary index on SSN. The number of first-level index entries and the number of first level index blocks will be</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\text{ 30,000 entries and 883 blocks}$</li>\n    <li>$\\text{ 7500 entries and 883 blocks}$</li>\n    <li>$\\text{ 30,000 entries and 26 blocks}$</li>\n    <li>$\\text{ 7,500 entries and 26 blocks}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271791",
+          "text": "<p>Consider a disk with block size $B = 512$ bytes. A block pointer is $P= 6$ bytes long, and a record pointer is $PR = 7$ bytes long. A file has $r = 30,000$ EMPLOYEE records of fixed length. Each record has the following fields: NAME ($30$ bytes), SSN ($9$ bytes), DEPARTMENTCODE ($9$ bytes), ADDRESS ($40$ bytes), PHONE ($9$ bytes), BIRTHDATE ($8$ bytes), SEX ($1$ byte), JOBCODE ($4$ bytes), SALARY ($4$ bytes, real number). An additional byte is used as a deletion marker.<br>\nSuppose that the file is not ordered by the key field Ssn and we want to construct a B±tree access structure (index) on SSN. The order of internal node is?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$33$</li>\n    <li>$32$</li>\n    <li>$31$</li>\n    <li>$34$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271790",
+          "text": "<p>Consider a disk with block size $B = 512$ bytes. A block pointer is $P= 6$ bytes long, and a record pointer is $PR = 7$ bytes long. A file has $r = 30,000$ EMPLOYEE records of fixed length. Each record has the following fields: NAME ($30$ bytes), SSN ($9$ bytes), DEPARTMENTCODE ($9$ bytes), ADDRESS ($40$ bytes), PHONE ($9$ bytes), BIRTHDATE ($8$ bytes), SEX ($1$ byte), JOBCODE ($4$ bytes), SALARY ($4$ bytes, real number). An additional byte is used as a deletion marker.<br>\nSuppose that the file is not ordered by the key field SSN and we want to construct a B±tree access structure (index) on SSN.<br>\nThe order of leaf node is ___</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$33$</li>\n    <li>$32$</li>\n    <li>$31$</li>\n    <li>$34$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271789",
+          "text": "<p>Consider a disk with block size $B = 512$ bytes. A block pointer is $P= 6$ bytes long, and a record pointer is $PR = 7$ bytes long. A file has $r = 30,000$ EMPLOYEE records of fixed length. Each record has the following fields: NAME ($30$ bytes), SSN ($9$ bytes), DEPARTMENTCODE ($9$ bytes), ADDRESS ($40$ bytes), PHONE ($9$ bytes), BIRTHDATE ($8$ bytes), SEX ($1$ byte), JOBCODE ($4$ bytes), SALARY ($4$ bytes, real number). An additional byte is used as a deletion marker.<br>\nSuppose that the file is not ordered by the key field SSN and we want to construct a B±tree access structure (index) on SSN. What is the number of leaf-level blocks needed if blocks are about $69\\%$ full?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\text{1075 blocks}$</li>\n    <li>$\\text{1076 blocks}$</li>\n    <li>$\\text{1363 blocks}$&nbsp;</li>\n    <li>$\\text{1364 blocks}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271787",
+          "text": "<p>Consider a disk with block size B = $512$ bytes. A block pointer is P= $6$ bytes long, and a record pointer is PR = $7$ bytes long. A file has r = $30,000$ EMPLOYEE records of fixed length. Each record has the following fields: NAME ($30$ bytes), SSN ($9$ bytes), DEPARTMENTCODE ($9$ bytes), ADDRESS ($40$ bytes), PHONE ($9$ bytes), BIRTHDATE ($8$ bytes), SEX ($1$ byte), JOBCODE ($4$ bytes), SALARY ($4$ bytes, real number). An additional byte is used as a deletion marker.<br>\nSuppose that the file is not ordered by the key field SSN and we want to construct a B+ tree access structure (index) on SSN. the number of levels needed by the tree, if branch nodes are also $69\\%$ full?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>3</li>\n    <li>4</li>\n    <li>5</li>\n    <li>6</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3,indexing",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271786",
+          "text": "<p>What is&nbsp;the maximum number of keys that can be stored in a B-tree of height two (the root plus two additional levels) with a minimum branching factor of $t=500?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$101,001,001$</li>\n    <li>$999,999,999$</li>\n    <li>$101,010,010$</li>\n    <li>$998,998,998$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3,b-tree",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271785",
+          "text": "<p>The following key values are inserted into a&nbsp;B+ tree in which order of the internal nodes is $3$, and that of the leaf nodes is $2$, in the sequence given below. The order of internal nodes is the maximum number of tree pointers in each node, and the order of leaf nodes is the maximum number of data items that can be stored in it. The B+ tree is initially empty.<br>\n$$1,10,2,9,7,8,5,6$$</p>\n\n<p>The maximum number of times leaf nodes would get split up as a result of these insertions is _____</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>4</li>\n    <li>5</li>\n    <li>6</li>\n    <li>7</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3,b-tree",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271784",
+          "text": "<p>A&nbsp;B-tree of order $d$ is a tree in which each node has between $d$ and $2d$ key values. The root (if it is an internal node) has between $1$ and $2d$ key values. What is the maximum file size (in records) $F$ which can be indexed by this&nbsp;B−tree if there are $k$ levels in the tree?&nbsp; &nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>&nbsp;$(2d+1)^k$</li>\n    <li>&nbsp;$(2d+1)^{k}−1$</li>\n    <li>&nbsp;$2d\\frac{(2d+1)^{k}-1}{k-1}$</li>\n    <li>&nbsp;$2d((2d+1)^{k}−1)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3,b-tree",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271783",
+          "text": "<p>A&nbsp;B+tree of order $d$ is a tree in which each node has between $d$ and $2d$ key values. The root (if it is an internal node) has between $1$ and $2d$ key values. What is the maximum file size (in records) $F$ which can be indexed by this&nbsp;B+tree if there are $k$ levels in the tree?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>&nbsp;$(2d+1)^k$</li>\n    <li>&nbsp;$(2d+1)^{k−1}$</li>\n    <li>&nbsp;$(2d)^k$</li>\n    <li>&nbsp;$2d(2d+1)^{k−1}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3,b-tree",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271782",
+          "text": "<p>The order of a leaf node in a&nbsp;B+&nbsp;tree is the maximum number of (value, data record pointer) pairs it can hold. Given that the block size is $4K$ bytes, data record pointer is $7$ bytes long, the value field is $25$ bytes long and a block printer is $6$ bytes long, what is the order of the leaf node if the leaf node must fit in a file block?&nbsp; &nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$127$</li>\n    <li>$125$</li>\n    <li>$124$</li>\n    <li>$123$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3,b-tree",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271780",
+          "text": "<p>Which one of the following statements is false about B-tree?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Every path from the root to a leaf has the same length</li>\n    <li>If a node has n children, it contains n−1 keys.</li>\n    <li>The root has at least two children if it is not a leaf.</li>\n    <li>Every node is at least half full</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271779",
+          "text": "<p>Consider a DBMS that has the following characteristics:</p>\n\n<ul>\n    <li>$2KB$ fixed-size blocks</li>\n    <li>$12$-byte pointers</li>\n</ul>\n\n<p>An order $p$&nbsp; B+&nbsp;tree node has at most $p−1$ keys. We want to build an index on a search key that is $8$ bytes long. The maximum number of records we can index with a $3$-level B+ tree (2 levels plus the root) is ____</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1050800$&nbsp;</li>\n    <li>$1050802$</li>\n    <li>$9999000$</li>\n    <li>$1050804$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3,b-tree",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271778",
+          "text": "<p>Which of the following is true about&nbsp;B&nbsp;trees and&nbsp;B+&nbsp;trees ?&nbsp; &nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Range queries are efficient in&nbsp;B&nbsp;trees than&nbsp;B+&nbsp;trees.</li>\n    <li>Because&nbsp;B&nbsp;trees don’t have data associated with interior nodes, more keys can fit on a page of memory</li>\n    <li>The leaf nodes of&nbsp;B&nbsp;trees are linked, so doing a full scan of all objects in a tree requires just one linear pass through all the leaf nodes.</li>\n    <li>&nbsp;B&nbsp;trees and&nbsp;B+&nbsp;trees have more cache advantage than binary search trees.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms3,b-tree",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

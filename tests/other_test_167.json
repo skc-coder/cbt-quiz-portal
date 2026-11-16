@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes Weekly Quiz 12 | Discrete Mathematics | Group Theory, Functions",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 6,
+  "total_qs_two": 9,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 24,
+  "total_marks": 24,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 24,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "376079",
+          "text": "<p>Consider the standard groups $Z_{\\mathrm{n}}, \\mathrm{R}^{*}, \\mathrm{C}^{*}$ under their standard group operation. Here, $\\mathrm{R}^{*}, \\mathrm{C}^{*}$ are set of non-zero real numbers, set of non-zero complex numbers, respectively.</p>\n\n<p>Which of the following elements have finite order in their respective groups?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$5 \\in \\mathrm{Z}_{12}$</li>\n    <li>$\\sqrt{3} \\in \\mathrm{R}^{*}$</li>\n    <li>$\\sqrt{3} \\in \\mathrm{R}^{*}$</li>\n    <li>$-\\mathrm{i} \\in \\mathrm{C}^{*}$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_wq12,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376081",
+          "text": "The set $Z_{\\mathrm{n}}^{*}$ consists of the elements $\\{1,2, \\ldots, \\mathrm{n}-1\\}$ with multiplication $\\bmod n$ as the operation.<br />The group $Z_{n}$ consists of the elements $\\{0,1,2, \\ldots, n-1\\}$ with addition $\\bmod n$ as the operation.<br />Which of the following is/are true?<br /><ol style=\"list-style-type:upper-alpha\"><li> $Z_{8}^{*}$ is a cyclic group.</li><li> All of the generators of $Z_{60}$ are prime.</li> <li>If every proper subgroup of a group $G$ is cyclic, then $\\mathrm{G}$ is a cyclic group.</li>  <li>The number of elements in $Z_{8}^{*}$ which have an inverse is $4.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_wq12,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376083",
+          "text": "<p>Let $Z$ be the set of all integers. Let $n \\in Z$ and $nZ = \\{nk : k \\in Z \\}.$ We know that $Z$ is a group under addition operation.<br>\nWhich of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$nZ$ is a subgroup of $Z$ (under addition operation) for all $n \\in Z.$</li>\n    <li>Every subgroup of $(Z,+)$ is isomorphic to $nZ$ for some $n.$</li>\n    <li>$3Z$ is the smallest subgroup of $(Z,+)$ containing $3.$</li>\n    <li>$nZ$ is a cyclic subgroup of $Z.$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_wq12,goclasses,set-theory&algebra,group-theory,group-isomorphism,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376101",
+          "text": "What is the order of smallest non-cyclic group?",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,numerical-answers,goclasses,set-theory&algebra,group-theory,group-isomorphism,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376075",
+          "text": "Let $\\mathrm{f}: \\mathrm{A} \\rightarrow \\mathrm{B}$ and $\\mathrm{g}: \\mathrm{B} \\rightarrow \\mathrm{C}$ be maps.<br />Which of the following is/are true?<br /><ol style=\"list-style-type:upper-alpha\"><li> If $f$ and $g$ are both one-to-one functions, then $gof$ is one-to-one.</li><li> If $g \\circ f$ is onto, then $g$ is onto.</li> <li>If $g \\circ f$ is one-to-one, then $f$ is one-to-one.</li>  <li>If $g \\circ f$ is one-to-one and $f$ is onto, then $g$ is one-to-one.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_wq12,goclasses,set-theory&algebra,functions,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376093",
+          "text": "Consider the group $0,1,2,3,4,+{ }_{5}$. What will be the value of $2^{-3}$ and $3^{-2}$ for the given group?<br /><ol style=\"list-style-type:upper-alpha\"><li> $1$ and $1$</li><li> $2$ and $3$</li> <li>$4$ and $4$</li>  <li>$3$ and $2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_wq12,goclasses,set-theory&algebra,group-theory,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376073",
+          "text": "<p>Let $G$ be a group under binary operation $\\ast.$ Let $g \\in G$.</p><p>We define $\\langle g\\rangle$ as follows :<br>$$\\langle g\\rangle=\\left\\{g^{n} \\mid n \\in \\mathbb{Z}\\right\\}$$</p><p>Which of the following is /are true about $\\langle g\\rangle$ under binary operation $\\ast ?$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\langle g\\rangle$ is also a group.</li><li>$\\langle g\\rangle$ is a cyclic subgroup of $G$.</li><li>$\\langle g\\rangle$ is abelian.</li><li>If $H \\leq G$ and $g \\in H$, then $\\langle &nbsp;g\\rangle \\leq H$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,abelian-group,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376077",
+          "text": "<p>Which of the following functions are one-to-one but not onto.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x)=e^{x}$</li>\n    <li>$f: \\mathbb{Z} \\rightarrow \\mathbb{Z}$ defined by $f(n)=n^{2}+3$</li>\n    <li>$f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x)=\\sin x$</li>\n    <li>$f: \\mathbb{Z} \\rightarrow \\mathbb{Z}$ defined by $f(x)=x^{2}$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_mix_1,goclasses-testseries-2026,goclasses,set-theory&algebra,functions,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376091",
+          "text": "<p>Let $f$ be a function from a set $X$ to a set $Y$. Consider the following statements.</p>\n\n<ul>\n    <li>$P:$ For each $x \\in X$, there exists $y \\in Y$ such that $f(x)=y$.</li>\n    <li>$Q$ : For each $y \\in Y$, there exists $x \\in X$ such that $f(x)=y$.</li>\n    <li>$R$ : There exist $x_{1}, x_{2} \\in X$ such that $x_{1} \\neq x_{2}$ and $f\\left(x_{1}\\right)=f\\left(x_{2}\\right)$.</li>\n</ul>\n\n<p>The negation of the statement \" $f$ is one-to-one and onto $Y$ \" is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$P$ or not $R$</li>\n    <li>$R$ or not $P$</li>\n    <li>$R$ or not&nbsp;$Q$</li>\n    <li>$P$ and not $R$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_wq12,goclasses,set-theory&algebra,functions,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376085",
+          "text": "The group $Z_{n}$ consists of the elements $\\{0,1,2, \\ldots, n-1\\}$ with addition $\\bmod n$ as the operation.<br />How many subgroups of $Z_{9}$ are there?",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_wq12,numerical-answers,goclasses,set-theory&algebra,group-theory,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376097",
+          "text": "<p>In a group $\\text{G},$ every element other than the identity element has order $2$ then $\\mathrm{G}$ is?</p><ol style=\"list-style-type:upper-alpha\"><li>Abelian group</li><li>Cyclic group</li><li>Non-abelian group</li><li>Non-cyclic group</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,abelian-group,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376099",
+          "text": "Let $\\text{G}$ be a cyclic group with generator ‘$a$’. Order of ‘$a$’ is $29.$ The number of subgroups $\\text{G}$ has ________",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,numerical-answers,goclasses,set-theory&algebra,group-theory,cyclic-group,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376095",
+          "text": "The set $\\{1, 2, 3, \\dots , n - 1\\}$ is a group under multiplication modulo $n.$ Then the smallest value of $n$ between $20$ and $30$ is $(20, 30$ included $)\\;$ _______",
+          "type": "Numerical",
+          "answer": "23",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_mix_1,goclasses-testseries-2026,numerical-answers,goclasses,set-theory&algebra,group-theory,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376087",
+          "text": "<p>Which of the following&nbsp;multiplication tables defined on the set $G = \\{a, b, c, d\\}$ form a group?<br> </p><p><strong><img alt=\"\" height=\"275\" width=\"707\" src=\"https://lh4.googleusercontent.com/ScXb1m0GsM41_MFV3YTLbc-VqSOUZ_QJ6R97J86rq0bVVhYH3UdsPkMCRLpnJlaSX7lfOkhRlMLjVr8PeAx1S-zzbJApr6f-5V84_loTYuTksjTwQYsg9gsHErdSf-qX26_xJ1z9CjwW9enRzQ\"></strong></p>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376089",
+          "text": "<p>Let $\\text{R}$ be the set of all real numbers.</p><p>Let $\\text{S = R} \\backslash\\{-1\\}$ and define a binary operation on $\\text{S}$ by $a \\ast b=a+b+a b$.</p><p>Which of the following is true?</p><ol style=\"list-style-type:upper-alpha\"><li>$(\\mathrm{S}, \\ast)$ is a not a group.</li><li>$(\\mathrm{S}, \\ast)$ is a group but not abelian.</li><li>$(\\mathrm{S}, \\ast)$ is a cyclic group.</li><li>$(\\mathrm{S}, \\ast)$ is an abelian group but not cyclic.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,abelian-group,two-marks",
+          "category": "Set Theory & Algebra"
+        }
+      ]
+    }
+  ]
+}

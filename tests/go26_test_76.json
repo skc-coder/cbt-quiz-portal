@@ -1,0 +1,297 @@
+{
+  "name": "GO Classes CS Test Series 2026 | CO and Architecture | Subject Wise Test 3",
+  "duration": "75",
+  "total_qs": "25",
+  "total_qs_one": 5,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 25,
+  "apti_marks": 0,
+  "technical_marks": 45,
+  "total_marks": 45,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 25,
+      "marks": 45,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "508175",
+          "text": "<p>Non pipelined system takes $130 ~\\text{ns}$ to process an instruction . A program of $1000$ instructions is executed in non pipelined system. Then same program is processed with processor with $5$ segment pipeline with clock cycle of $30 ~\\text{ns/stage}$.<br><br>Determine speed up ratio of pipeline&nbsp;<em>(upto two decimal points).</em></p>",
+          "type": "Numerical",
+          "answer": "4.32",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-sw3,numerical-answers,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508180",
+          "text": "<p>Using your knowledge about the RISC architecture, analyze the statements below:</p><ol><li>RISC architecture supports arbitrary data alignment for load/store operations.<br> </li><li>No indirect addressing that requires a memory access to obtain the address of an operand in memory is considered typical in a classic RISC.<br> </li><li>In RISC architecture, the number of bits for integer register specifiers is four or more. This means that at least $16$ integer registers can be explicitly referenced at a time.<br> </li><li>A smaller number of addressing modes, normally fewer than five. This parameter is difficult to determine in RISC architecture.<br> </li><li>RISC architecture supports operations that combine load/store with arithmetic (for example, add from memory, add to memory).<br> </li><li>No more than one memory-addressed operand per instruction is specific to RISC architecture.<br> </li><li>In RISC architecture, instruction size is normally $4$ bytes.<br> </li></ol><p>The result of summing the numbers corresponding to the correct option is:</p><ol style=\"list-style-type:upper-alpha\"><li>$17$<br> </li><li>$10$<br> </li><li>$18$<br> </li><li>$12$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508197",
+          "text": "<p>The performance of a pipelined processor suffers if:</p><ol style=\"list-style-type:upper-alpha\"><li>The pipeline stages have different delays.<br> </li><li>Consecutive instructions are dependent on each other.<br> </li><li>The pipeline stages share hardware resources.<br> </li><li>All of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508196",
+          "text": "<p>Analyze the following C code fragment:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">A[12] = h + a[8]</pre><p><br>In MIPS, which assembly code corresponds to it?</p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">lw $t1, 12($s3)\nadd $t0, $s2, $t0\nsw $t0, 24($s3)</pre><p> </p></li><li><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">lw $t0, 32($s3)\nadd $t0, $s2, $t0\nsw $t0, 48($s3)</pre><p> </p></li><li><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">lw $t0, 6($s3)\nadd $t0, $s2, $t0\nsw $t1, 12($s3)</pre><p> </p></li><li><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">lw $t1, 32($s3)\nadd $t0, $s2, $t0\nsw $t1, 48($s1)</pre><p> </p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508174",
+          "text": "<p>The range of representable normalized numbers in IEEE-754 floating-point binary fractional representation but with <strong>bias$\\mathbf{= 128}$&nbsp;</strong>using a $32$-bit word is $$2^a to \\left(2-2^b\\right) \\times 2^c$$</p><p>The value of $a+b+c$ is ______________ .</p>",
+          "type": "Numerical",
+          "answer": "-24",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-sw3,numerical-answers,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508192",
+          "text": "<p>The interposition of a cache memory circuit between the processor and the main memory (RAM)<br> </p><ol style=\"list-style-type:upper-alpha\"><li>increases the traffic of instructions and/or data on the memory bus<br> </li><li>decreases the traffic of instructions and/or data between memory and disk<br> </li><li>decreases the traffic of instructions and/or data on the memory bus<br> </li><li>decreases the traffic of instructions and/or data between memory and disk</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508178",
+          "text": "<p>Hit ratio of the cache memory read request is $\\mathbf{8 5 \\%}$ and the cache memory is $\\mathbf{5}$ <strong>times faster</strong> than main memory. Block size in memory organization is <strong>words.</strong> The access time of the main memory is $\\mathbf{72 ~ns}$ <strong>per word. Write-through</strong> protocol is used in the system. CPU generates $\\mathbf{6 0 \\%}$ of the requests as <strong>read</strong> requests to read the data and the remaining as <strong>write</strong> operations.<br><br>What is the <strong>average access time</strong> of the memory considering both <strong>read and write</strong> operations?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$89.28&nbsp;\\mathrm{~ns}$<br> </li><li>$62.2&nbsp;\\mathrm{~ns}$<br> </li><li>$42.624&nbsp;\\mathrm{~ns}$<br> </li><li>$72&nbsp;\\mathrm{~ns}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508190",
+          "text": "<p>Regarding the following statements about cache memory, which are true?</p><ol style=\"list-style-type:upper-roman\"><li>In a fully associative structure, a memory block can be mapped to any cache slot.<br> </li><li>The tag field of the address is used to identify a valid block in the cache, together with the index field.<br> </li><li>A $\\text{level 2}$ cache serves to reduce the penalty in case of a miss at $\\text{level 1}$.<br> </li><li>The LRU replacement scheme is the most used for the direct-mapped structure<ol style=\"list-style-type:upper-alpha\"></ol></li></ol><div><br> </div><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Only statements I, III&nbsp;and IV.<br> </li><li>Only statements II, III&nbsp;and IV.<br> </li><li>Only statements I&nbsp;and II.<br> </li><li>Only statements I, II&nbsp;and III.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508189",
+          "text": "<p>Assume a program has an execution profile in which $\\mathbf{85 \\%}$ of the instructions are simple $($such as <strong>AND, XOR, ADD,</strong>&nbsp;<strong>and</strong>&nbsp;<strong>BRANCH</strong>$)$ and the remaining $\\mathbf{1 5 \\%}$ are complex instructions $($such as<strong> MUL and</strong> <strong>DIV</strong>$)$. Also assume that simple instructions require $\\mathbf{2}$ <strong>machine cycles</strong> and complex instructions require $\\mathbf{1 2}$ <strong>cycles</strong> on a <strong>CISC</strong> machine (each cycle $=\\mathbf{1 0 ~ n s}$ ). On a <strong>RISC</strong> machine, simple instructions are executed in $\\mathbf{1}$ <strong>cycle</strong>, while complex instructions must be simulated by software, requiring on average $\\mathbf{2 0}$ <strong>cycles per instruction.</strong> Because of its simplicity, the cycle time on a RISC machine is $\\mathbf{8} \\mathbf{~ n s}$. Also consider that the program required $\\mathbf{1 0 0 , 0 0 0 , 0 0 0}$ <strong>instructions</strong> to complete.<br><br>What is the time spent (in seconds) to execute this program, respectively, on the <strong>CISC </strong>and <strong>RISC </strong>machines?</p><ol style=\"list-style-type:upper-alpha\"><li>$1$ and $0.8$<br> </li><li>$3.5$ and $3.08$<br> </li><li>$10$ and $12.8$<br> </li><li>$8.5$ and $1.5$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508177",
+          "text": "<p>Consider the program segment consists of $16$ instructions $\\text{(I1, I2, ... I16)}$ used to execute on pipelines $\\text{A}$ and $\\text{B}$. In the program segment all instructions consume same amount of time to execute.<br><br>Pipeline&nbsp;$\\text{A}$ has $6$ stages $(\\mathrm{S} 1, \\mathrm{~S} 2, \\mathrm{~S} 3, \\mathrm{~S} 4, \\mathrm{~S} 5, \\mathrm{~S} 6$ ) with the respective stage delays of $2 \\mathrm{~ns}, 6 \\mathrm{~ns}, 5 \\mathrm{~ns}, 2 \\mathrm{~ns}, 8 \\mathrm{~ns}$ and $1 \\mathrm{~ns}$ . Pipeline&nbsp;$\\text{B}$ is designed with same number of stages but stage $5$ will be divided into $4$ sub stages using the equal delay i.e. $(8 \\mathrm{ns} / 4)$. If the program execution time of pipeline&nbsp;$\\text{A}$ is $\\mathrm{x}$ and the program execution time of pipeline&nbsp;$\\text{B}$ is $\\mathrm{y}$. What is the value of $(\\mathrm{x} / \\mathrm{y})$ <em>(upto two decimal place)</em>?</p>",
+          "type": "Numerical",
+          "answer": "1.17",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-sw3,numerical-answers,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508173",
+          "text": "<p>Consider a $\\text{2-way}$ set associative cache (initially empty) with a total of $16$ cache blocks. The main memory consists of $256$ blocks and the requests for memory blocks are in the following order:<br>$$0,255,1,4,3,8,133,159,216,129,63,8,48,32,73,92,155$$<br>Which one of the following memory blocks <strong>WILL</strong> be in the cache if an LRU replacement policy is used?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$<br> </li><li>$8$<br> </li><li>$129$<br> </li><li>$216$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508176",
+          "text": "A computer uses $\\mathbf{8}$ digit mantissa and $\\mathbf{2}$ digit exponent. If $\\mathbf{a}=\\mathbf{0 . 0 5 2}$ and $\\mathbf{b}= \\mathbf{2 8 E} \\boldsymbol{+} \\mathbf{1 1}$ then $\\mathbf{b} \\boldsymbol{+} \\mathbf{a}-\\mathbf{b}$ will be :",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-sw3,numerical-answers,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508195",
+          "text": "<p>About cache memory, consider the following statements.</p><ol style=\"list-style-type:upper-roman\"><li>In associative mapping, each main memory block can be loaded into any cache line.<br> </li><li>In direct mapping, each main memory block is mapped to only one cache line.<br> </li><li>In direct mapping, repeated access to different memory blocks mapped to the same cache line will result in a high hit rate.<br> </li><li>The associative mapping technique is simple and inexpensive to implement.</li></ol><p><br>Mark the correct option.</p><ol style=\"list-style-type:upper-alpha\"><li>Only statements I and II are correct.<br> </li><li>Only statements I and IV are correct.<br> </li><li>Only statements III and IV are correct.<br> </li><li>Only statements I, II and III are correct.</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508191",
+          "text": "Consider a CPU using a $5-$stage pipeline structure (IF, ID, EX, MEM, WB), with separate data and instruction memories, no data forwarding mechanism, writing to the register file on the rising edge of the clock and reading on the falling edge of the clock, and the following set of instructions:\n\n\\[\n\\begin{array}{lll}\n\\text{I1:} & \\text{lw}  & \\$2,  ~100 (\\$5) \\\\\n\\text{I2:} & \\text{add} & \\$1, ~\\$2, ~\\$3 \\\\\n\\text{I3:} & \\text{sub} & \\$3, ~\\$2, ~\\$1 \\\\\n\\text{I4:} & \\text{sw}  & \\$2, ~50(\\$1) & \\\\\n\\text{I5:} & \\text{add} & \\$2, ~\\$3, ~\\$3 \\\\\n\\text{I6:} & \\text{sub} & \\$2, ~\\$2, ~\\$4\n\\end{array}\n\\]\nHow many clock cycles are spent executing this code?",
+          "type": "Numerical",
+          "answer": "17",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-sw3,numerical-answers,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508179",
+          "text": "<p>Instruction-level parallelism exists when the instructions in a sequence are independent and, therefore, can be executed in parallel or overlapped. As an example of the concept of parallelism, consider the two code fragments ($\\text{A}$ and $\\text{B}$) below :<br>\\[<br>\\begin{array}{|c|c|}<br>\\hline<br>\\textbf{Code A} &amp; \\textbf{Code B} \\\\<br>\\hline<br>\\text{Load } R1 \\leftarrow R2 &amp; \\text{Add } R3 \\leftarrow R3,\\ \\text{\"1\"} \\\\<br>\\hline<br>\\text{Add } R3 \\leftarrow R3,\\ \\text{\"1\"} &amp; \\text{Add } R4 \\leftarrow R3,\\ R2 \\\\<br>\\hline<br>\\text{Add } R4 \\leftarrow R4,\\ R2 &amp; \\text{Store } [\\mathrm{R4}] \\leftarrow \\mathrm{R0} \\\\<br>\\hline<br>\\end{array}<br>\\]<br><br>Mark the <strong>INCORRECT</strong> alternative about parallelism.</p><ol style=\"list-style-type:upper-alpha\"><li>The degree of instruction-level parallelism is determined by the frequency of true data dependencies and procedural dependencies in the code.<br> </li><li>The three instructions in $\\text{Code A}$ are independent and, in theory, all could be executed in parallel.<br> </li><li>The three instructions in $\\text{Code B}$&nbsp;cannot be executed in parallel, because the second instruction uses the result of the first and the third uses the result of the second.<br> </li><li>Machine parallelism is a performance measure, determined by the number of instructions that can be issued and executed at the same time in a sequential manner.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508185",
+          "text": "<p>A computer system has a $\\mathbf{4}$ <strong>Gbyte</strong> memory map, using <strong>byte addressing</strong>, and a cache memory with a <strong>direct-mapped </strong>organization. The cache can store up to $\\textbf{1,024}$ <strong>words of </strong>$\\mathbf{3 2}$ <strong>bits</strong> from the memory map. Assume the cache is always written <strong>atomically with four bytes</strong> coming from a memory address aligned on a $\\textbf{32}-$<strong>bit word boundary</strong>, and that it uses $\\mathbf{1}$ <strong>valid bit per cache line.</strong><br><br>In this case, the sizes of the cache <strong>tag, index,</strong> and the <strong>cache size</strong>, respectively, are:</p><ol style=\"list-style-type:upper-alpha\"><li>$12$ bits, $18$ bits and $54,272$ bits.<br> </li><li>$14$ bits, $18$ bits and $56,320$ bits.<br> </li><li>$20$ bits, $10$ bits and $54,272$ bits.<br> </li><li>$20$ bits, $12$ bits and $54,272$ bits.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508183",
+          "text": "<p>Regarding <strong>instruction sets</strong>, mark <strong>T (true)</strong> or <strong>F (false)</strong> for the statements below.</p><ul><li>The opcode specifies the operation to be performed.<br> </li><li>Operand references specify a register or memory.<br> </li><li>The little-endian style stores the most significant byte at the lowest address.<br> </li><li>Stacks may or may not be visible to the programmer.<br> </li><li>Stacks grow from lower addresses to higher addresses.</li></ul><p><br>Choose the option that contains, from<strong> top to bottom</strong>, the correct sequence.</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{T, T, F, T, F.}$<br> </li><li>$\\text{T, F, T, F, F.}$<br> </li><li>$\\text{F, T, T, T, F.}$<br> </li><li>$\\text{F, T, F, F, T.}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508181",
+          "text": "<p>A computer has a two-level cache. Suppose that $\\mathbf{80} \\boldsymbol{\\%}$ of the references to information are serviced by the $\\textbf{level-1 cache}$, $\\textbf{15%}$ by the $\\textbf{level-2 cache}$, and $\\textbf{5%}$ by <strong>main memory.</strong> The access times are $\\mathbf{5 ~ n s}, \\mathbf{1 5 ~ n s}$, and $\\mathbf{6 0 ~ n s}$, respectively. What is the<strong> average access time </strong>of the system $($in $\\mathrm{ns})$?</p>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-sw3,numerical-answers,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508188",
+          "text": "<p>Analyze the following statements.</p><ol style=\"list-style-type:upper-roman\"><li>The processor that presents the best performance is always the one that has the highest clock frequency.<br> </li><li>The pipelining technique is used to increase performance in processors. In this way, the pipeline reduces the instruction latency time.<br> </li><li>The simplest way to increase the hit rate in cache memory is to increase its capacity.<br> </li><li>In superscalar architectures, the effects of data dependencies and anti-dependencies are reduced in the register renaming stage.</li></ol><p><br><br>From the analysis, it can be concluded that:</p><ol style=\"list-style-type:upper-alpha\"><li>all statements are true.<br> </li><li>only statements II and III are true.<br> </li><li>only statements III and IV are true.<br> </li><li>none of the statements is true.</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508186",
+          "text": "<p>A RISC processor is implemented in two synchronous organization versions: a <strong>single-cycle </strong>one, in which each instruction executes in exactly one clock cycle, and a $\\mathbf{5}-$<strong>stage pipeline</strong> version. The stages of the pipeline version are:</p><ol><li>Instruction fetch,<br> </li><li>Operand fetch,<br> </li><li>Operation execution,<br> </li><li>Memory access, and<br> </li><li>Register file update.</li></ol><p><br>The maximum operating frequency of the organizations is calculated as $\\mathbf{100 ~MHz}$ for the single-cycle version and $\\mathbf{400 ~MHz}$ for the pipeline version. A program $\\mathbf{X}$ that executes $\\mathbf{200}$ instructions is used to compare the performance of the organizations. Of the $\\textbf{200}$ <strong>instructions</strong>, only $\\mathbf{40\\%}$ access memory, while the others operate only on internal registers of the organization. Assume the program presents <strong>no data or control conflicts</strong> between instructions that may be simultaneously inside the pipeline of the second organization. Thus, the execution time of program $\\text{X}$ in the single-cycle and pipeline organizations is, respectively:</p><ol style=\"list-style-type:upper-alpha\"><li>$2000$ nanoseconds and $510$ nanoseconds.<br> </li><li>$2000$ nanoseconds and $500$ nanoseconds.<br> </li><li>$2000$ nanoseconds and $2300$ nanoseconds.<br> </li><li>$2300$ nanoseconds and $500$ nanoseconds.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508182",
+          "text": "<p>Consider the following MIPS Assembly program fragment:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">.data 0x10010000  # data segment\npalavra1: .word 13\npalavra2: .word 0x15</pre><p><br>In hexadecimal, the addresses of $\\verb|palavra1|$ and $\\verb|palavra2|$ are, respectively:</p><ol style=\"list-style-type:upper-alpha\"><li>$\\verb|0x10010002|$ and $\\verb|0x10010002|$<br> </li><li>$\\verb|0x10010000|$ and $\\verb|0x10010004|$<br> </li><li>$\\verb|0x10010002|$ and $\\verb|0x10010006|$<br> </li><li>$\\verb|0x10010000|$ and $\\verb|0x10010008|$<br> </li></ol><div>(Here, $\\verb|.word|$ allocates $4$ bytes for each variable.)</div>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508194",
+          "text": "<p>Most relevant addressing mode to write position independent code is</p><ol style=\"list-style-type:upper-alpha\"><li>Direct<br> </li><li>Indirect<br> </li><li>Relative<br> </li><li>Indexed Mode</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508198",
+          "text": "<p>What is the <strong>minimum number of registers</strong> needed to perform register allocation for the code shown below:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">t1 := a - mem[...]\nt2 := d / mem[...]\nt3 := t2 + mem[...]\nt4 := t1 + t3\n</pre>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-sw3,numerical-answers,goclasses,co-and-architecture,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508187",
+          "text": "<p>A computer has a memory system organized into four levels: $\\text{level 1}$ and $\\text{level 2}$ &nbsp;cache memories, main RAM memory, and secondary memory. Programs ready for execution are brought from secondary memory and transformed into processes in main memory. The instruction used to access data in memory provides the <strong>real memory address</strong> where the desired information is located. The information is then searched in $\\text{level 1}$ &nbsp;cache. If it is not found, it is searched in $\\text{level 2}$ &nbsp;cache. If still not found, the information is finally fetched from main memory.<br>What addressing mode is used?</p><ol style=\"list-style-type:upper-alpha\"><li>Immediate<br> </li><li>Indirect<br> </li><li>Direct<br> </li><li>Implicit</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-sw3,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "508184",
+          "text": "<p>A program $\\mathbf{P}$ is executed on a computer $\\mathbf{C}$, which has a clock speed of $\\mathbf{2} \\mathbf{~G H z}$, in $\\mathbf{5}$<strong> seconds.</strong> It is desired to design a computer $\\mathbf{C 2}$ such that the same program $\\mathbf{P}$ is executed in $\\mathbf{3}$ <strong>seconds </strong>on $\\mathbf{C 2}$. In the design, it was found that to achieve this goal, program $\\mathbf{P}$ will spend $\\mathbf{5 0} \\boldsymbol{\\%}$ more clock cycles on $\\mathbf{C 2}$ than on $\\mathbf{C 1}$.<br><br>The <strong>frequency</strong>$($in $\\text{GHz})$ that $\\mathbf{C 2}$ must have so that $\\mathbf{P}$ is executed in $\\mathbf{3}$ <strong>seconds</strong>?</p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-sw3,numerical-answers,goclasses,co-and-architecture,two-marks",
+          "category": "CO & Architecture"
+        }
+      ]
+    }
+  ]
+}

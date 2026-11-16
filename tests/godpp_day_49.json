@@ -1,0 +1,70 @@
+{
+  "name": "Day 46 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "476498",
+          "text": "<p>If all the words with or without meaning made using all the letters of the word \"KANPUR\" are arranged as in a dictionary, then the word at $440{ }^{\\text {th }}$ position in this arrangement is :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>PRNAKU</li><li>PRKAUN</li><li>PRKANU</li><li>PRNAUK</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 46"
+        },
+        {
+          "post_id": "476502",
+          "text": "What is the minimum number of elements that must be selected from the set $\\{1,2,3, \\ldots, 50\\}$ to ensure that at least two of them are consecutive?",
+          "type": "Numerical",
+          "answer": "26",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 46"
+        },
+        {
+          "post_id": "476496",
+          "text": "How many permutations of the set $T_{10}=\\{1,2, \\ldots, 10\\}$ are there which begin with an odd number?",
+          "type": "Numerical",
+          "answer": "1814400",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 46"
+        },
+        {
+          "post_id": "476500",
+          "text": "How many arrangements of the digits $0,1, \\ldots, 9$ are there that do not end with a $1$ and do not begin with a $9$ ?",
+          "type": "Numerical",
+          "answer": "2943360",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 46"
+        },
+        {
+          "post_id": "476494",
+          "text": "<p>Let $A=\\{1,2,3, \\ldots, 18\\}$. Four mutually distinct elements $x_1, x_2, x_3, x_4 \\in A$ are selected.<br>Determine the <strong>minimum positive integer</strong> $y$ such that <strong>no matter which 4 distinct elements</strong> are chosen from $A$, there will <strong>always exist</strong> two elements $x_i, x_j$ (with $i \\neq j$ ) satisfying:</p><p>$$<br>\\left|x_i-x_j\\right| \\leq y<br>$$</p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 46"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 54 [Graph Theory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "478089",
+          "text": "<p>The minimum number of edges in a connected graph with ${ }^{\\prime} n^{\\prime}$ vertices is equal to</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$n(n-1)$<br>&nbsp;</li><li>$\\frac{n(n-1)}{2}$<br>&nbsp;</li><li>$n^2$<br>&nbsp;</li><li>$n-1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 54"
+        },
+        {
+          "post_id": "478087",
+          "text": "<p>The number of edges in a complete graph of $n$ vertices is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$n$<br>&nbsp;</li><li>$n(n-1) / 2$<br>&nbsp;</li><li>$n(n+1) / 2$<br>&nbsp;</li><li>$\\left(n^{\\wedge} 2\\right) / 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 54"
+        },
+        {
+          "post_id": "478085",
+          "text": "<p>A graph is $d$ - regular if every vertex has degree $d$. For a $d$ - regular graph on $n$ vertices, which of the following must be TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$d$ divides $n$</li><li>At least one of $d$ and $n$ is even</li><li>Both $d$ and $n$ are odd</li><li>At least one of $d$ and $n$ is odd<br>&nbsp;</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 54"
+        },
+        {
+          "post_id": "478083",
+          "text": "<p>An undirected graph possesses an eulerian circuit if and only if it is connected and its vertices are</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>All of even degree</li><li>All of odd degree</li><li>Of any degree</li><li>Even in number</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 54"
+        },
+        {
+          "post_id": "478081",
+          "text": "<p>Let $G=(V, E)$ be an undirected simple graph. A subset $M \\subseteq E$ is a matching in $G$ if distinct edges in $M$ do not share a vertex. A matching is maximal if no strict superset of $M$ is a matching. How many maximal matchings does the following graph have?</p><p><img alt=\"\" src=\"data:image/png;base64,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\"></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1$<br>&nbsp;</li><li>$2$<br>&nbsp;</li><li>$3$<br>&nbsp;</li><li>$4$</li></ol>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 54"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 166 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "507293",
+          "text": "<p>A system uses a <strong>Buddy System</strong> memory allocator to manage a $\\mathbf{1 0 2 4}$ <strong>KB</strong> physical memory space. The system currently has three active processes allocated as follows:</p><ul><li><strong>Process A:</strong>&nbsp;$110$ KB<br>&nbsp;</li><li><strong>Process B:</strong>&nbsp;$240$ KB<br>&nbsp;</li><li><strong>Process C:</strong>&nbsp;$60$ KB<br>&nbsp;</li></ul><p>Assume the memory was initially one contiguous block and processes were allocated in the order A, then B, then C. No memory compaction is performed.</p><p>What is the <strong>SMALLEST</strong> allocation request (in KB) that could be <strong>DENIED</strong> due to external fragmentation, even though the total sum of all free memory holes is larger than the request?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$129$ KB<br>&nbsp;</li><li>$257$ KB<br>&nbsp;</li><li>$513$ KB<br>&nbsp;</li><li>$65$ KB</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 166"
+        },
+        {
+          "post_id": "507328",
+          "text": "<p>A system uses a modified <strong>Counting Semaphore</strong> $S$ to manage access to a pool of 3 identical resources. The semaphore is initialized to $S=3$. The $\\verb|Wait (S)|$ and $\\verb|Signal(S)|$ operations are redefined to prioritize processes based on their <strong>Priority Level</strong> $(L)$, where a higher $L$ means higher priority.</p><ul><li>$\\verb|WAIT(S, L)|:$ If $S&gt;0, S=S-1$. If $S=0$, the process enters a Priority Queue $Q$ sorted by $L$.<br>&nbsp;</li><li>$\\verb|SIGNAL(S)|:$ If $Q$ is empty, $S=S+1$. If $Q$ is not empty, the process with the <strong>highest priority</strong> $L$ in $Q$ is woken up and immediately consumes the resource $(S$ remains $0)$.</li></ul><p>Consider five processes $\\left\\{P_1, P_2, P_3, P_4, P_5\\right\\}$ with Priority Levels $\\{10,20,30,40,50\\}$ respectively. They arrive in the following order:<br><br>1. $P_1, P_2, P_3$ arrive and successfully execute $\\verb|Wait|$.<br><br>2. $P_4$ and $P_5$ arrive and execute $\\verb|Wait|$, entering queue $Q$.<br><br>3. $P_1$ executes $\\verb|Signal|$.<br><br>4. A new process $P_6$ with Priority Level $L=100$ arrives and executes $\\verb|Wait|$.<br>&nbsp;</p><p>Which one of the following is TRUE regarding this scenario?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P_4$ WILL ACQUIRE THE RESOURCE AFTER $P_1$ SIGNALS, REGARDLESS OF $P_6$.<br>&nbsp;</li><li>$P_5$ WILL ACQUIRE THE RESOURCE AFTER $P_1$ SIGNALS, BUT $P_6$ MAY CAUSE $P_4$ TO STARVE.<br>&nbsp;</li><li>$P_6$ WILL ACQUIRE THE RESOURCE IMMEDIATELY AFTER $P_1$ SIGNALS, BYPASSING $P_4$ AND $P_5$.<br>&nbsp;</li><li>THE SYSTEM IS GUARANTEED TO BE STARVATION-FREE BECAUSE THE QUEUE IS SORTED.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 166"
+        },
+        {
+          "post_id": "507289",
+          "text": "<p>A storage server uses a <strong>Single-Level Indexed Allocation</strong> scheme. The disk parameters and file requirements are as follows:</p><ul><li>Disk Capacity $: \\mathbf{128&nbsp;~ GB}$.<br>&nbsp;</li><li>Block Size $: \\mathbf{16&nbsp;~ KB}$.<br>&nbsp;</li><li>Pointer Size $: \\mathbf{8&nbsp;~ Bytes}$. (required to address any block on the disk).<br>&nbsp;</li><li>File Size $ : \\mathbf{4 0 0 ~ K B}$.<br>&nbsp;</li></ul><p>In this Indexed Allocation scheme:</p><ol><li>Each file has an Index Block that contains pointers to its data blocks.<br>&nbsp;</li><li>The index block itself is the size of one standard disk block $(\\mathbf{1 6 ~ K B})$.<br>&nbsp;</li><li>If the file data requires more pointers than one index block can hold, the file cannot be stored (assume for this problem that the file fits within one index block's capacity).<br>&nbsp;</li></ol><p><strong>WHICH VALUE REPRESENTS THE TOTAL BYTES WASTED DUE TO INTERNAL FRAGMENTATION?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$8,192 ~\\mathrm{BYTES}$<br>&nbsp;</li><li>$24,192 ~\\mathrm{BYTES}$<br>&nbsp;</li><li>$16,184 ~\\mathrm{BYTES}$<br>&nbsp;</li><li>$32,768 ~\\mathrm{BYTES}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 166"
+        },
+        {
+          "post_id": "507287",
+          "text": "<p>A system manages resources that can be held in two modes: <strong>EXCLUSIVE</strong> (only one process) or <strong>SHARED</strong> (multiple processes, but they can only read, not write).</p><p>When a process $P_r$ requests <strong>Exclusive</strong> access to a resource held by $P_h$, the system uses the following logic based on the process's <strong>Accumulated CPU Time</strong> ( $A_i$ ):</p><ol><li><strong>THE RULE:</strong> * If $A\\left(P_r\\right)&lt;A\\left(P_h\\right)$, then $P_h$ is <strong>Downgraded</strong> to Shared mode (losing its Exclusive lock), and $P_r$ must <strong>Wait</strong> in a queue.<br>&nbsp;<ul><li>If $A\\left(P_r\\right) \\geq A\\left(P_h\\right)$, then $P_r$ is <strong>Suspended </strong>and placed at the back of the queue; its accumulated time $A\\left(P_r\\right)$ is reset to $0$.<br>&nbsp;</li></ul></li><li><strong>THE CAVEAT:</strong> A Downgraded process $\\left(P_h\\right)$ keeps its current accumulated time and continues running in Shared mode until the resource is free.<br>&nbsp;</li></ol><p><strong>Which one of the following is TRUE regarding this scheme?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE SCHEME IS DEADLOCK-FREE AND STARVATION-FREE.<br>&nbsp;</li><li>THE SCHEME IS DEADLOCK-FREE, BUT NOT STARVATION-FREE.<br>&nbsp;</li><li>THE SCHEME IS NOT DEADLOCK-FREE, BUT STARVATION-FREE.<br>&nbsp;</li><li>THE SCHEME IS NEITHER DEADLOCK-FREE NOR STARVATION-FREE.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 166"
+        },
+        {
+          "post_id": "507283",
+          "text": "<p>A new OS uses a hybrid prevention scheme to manage a single non-preemptable resource. Each process $P_i$ has a <strong>Fixed Priority</strong> $\\operatorname{Pri}\\left(P_i\\right)$ and a <strong>Unique Timestamp</strong> $T\\left(P_i\\right)$ (where a smaller value means the process is older).</p><p>When $P_r$ requests a resource held by $P_h$, the following rules are applied:</p><ol><li>If $\\operatorname{Pri}\\left(P_r\\right)&gt;\\operatorname{Pri}\\left(P_h\\right), P_r$ is allowed to <strong>Wait.</strong><br>&nbsp;</li><li>If $\\operatorname{Pri}\\left(P_r\\right)&lt;\\operatorname{Pri}\\left(P_h\\right)$, the system checks timestamps:<br>&nbsp;<ul><li>If $T\\left(P_r\\right)&lt;T\\left(P_h\\right), P_h$ is <strong>Killed</strong> (Preempted).<br>&nbsp;</li><li>If $T\\left(P_r\\right)&gt;T\\left(P_h\\right), P_r$ is <strong>Killed.</strong><br>&nbsp;</li></ul></li><li>Restarted processes keep their original timestamp but have their Priority <strong>incremented</strong> by $1$.<br>&nbsp;</li></ol><p><strong>Which one of the following is TRUE regarding this scheme?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE SCHEME GUARANTEES DEADLOCK-FREE OPERATION BUT MAY LEAD TO STARVATION.<br>&nbsp;</li><li>THE SCHEME GUARANTEES STARVATION-FREE OPERATION BUT MAY LEAD TO DEADLOCK.<br>&nbsp;</li><li>THE SCHEME IS BOTH DEADLOCK-FREE AND STARVATION-FREE.<br>&nbsp;</li><li>THE SCHEME IS NEITHER DEADLOCK-FREE NOR STARVATION-FREE.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 166"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "go27_quiz_25",
+  "name": "GO Classes CS | DS | Asymptotic Notation & Loop Time Complexity | Weekly Quiz 1",
+  "duration": "36",
+  "total_qs": "10",
+  "total_qs_one": 0,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "375824",
+          "text": "<p>Consider a problem: Given an array, check whether the array is in sorted order or not. Suppose both iterative and recursive approaches are used to solve this problem.</p><p>Which of the following statements is/are correct?</p><ol style=\"list-style-type:upper-alpha\"><li>Recursive approach gives space complexity as $O(n)$ for recursive stack space.</li><li>Iterative approach gives Auxiliary space as $\\Theta(n).$</li><li>Time Complexity for recursive approach is $O(n).$</li><li>Time Complexity for iterative approach is $\\Theta(n \\log n).$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses,algorithms,time-complexity,space-complexity,multiple-selects,two-marks,goclasses_cs_wq42,goclasses_da_wq14",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "375601",
+          "text": "<p>Rank the following functions by increasing order of growth. That is, find any arrangement $g 1, g 2, g 3, g 4$ of the functions satisfying $g 1=O(g 2), g 2=O(g 3), g 3=$ $\\mathrm{O}(\\mathrm{g} 4)$.<br>$$<br>\\begin{aligned}<br>&amp;f_{1}(n)=2^{(\\log n)^{4}}<br>&amp;f_{2}(n)=\\pi^{n}<br>&amp;f_{3}(n)=n^{5(\\log n)^{2}}<br>&amp;f_{4}(n)=\\sqrt{2^{\\sqrt{n}}}<br>\\end{aligned}<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>$f 1, f 3, f 4, f 2$</li><li>$f 3, f 1, f 4, f 2$</li><li>$f 1, f 3, f 2, f 4$</li><li>$f 1, f 3, f 4, f 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses,algorithms,asymptotic-notations,time-complexity,two-marks,goclasses_cs_wq42,goclasses_da_wq14",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375449",
+          "text": "<p>Let $\\text{S}_{1}= \\displaystyle{}\\sum_{r=0}^{\\log n-1} \\frac{n r}{2^{r}}$, and $\\text{S}_{2} = \\displaystyle{} \\sum_{r=0}^{\\log n-1} r 2^{r}$.<br>Which of the following is true?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{S}_{1}=\\Theta(n \\log n), \\text{S}_{2}=\\Theta(n \\log n)$</li><li>$\\text{S}_{1}=\\Theta(n), \\text{S}_{2}=\\Theta(n \\log n)$</li><li>$\\text{S}_{1}=\\Theta(n \\log n), \\text{S}_{2}=\\Theta(n)$</li><li>$\\text{S}_{1}=\\Theta(n), \\text{S}_{2}=\\Theta(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses,algorithms,asymptotic-notations,time-complexity,two-marks,goclasses_cs_wq42,goclasses_da_wq14",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375587",
+          "text": "<p>Which of the following(s) is/are correct?</p><ol style=\"list-style-type:upper-alpha\"><li>If $f(n)=n \\log n, g(n)=\\displaystyle{}\\sum_{i=1}^{n} \\frac{n}{i}$ then $f(n)=\\Theta(g(n))$</li><li>If $f(n)=1.01^{n}, g(n)=n^{1000}$ then $f(n)=\\Omega(g(n))$</li><li>If $f(n)=\\displaystyle{}\\sum_{i=1}^{n} i^{2}, g(n)=n^{3}+\\sum_{i=1}^{n} i$ then $f(n)=\\Theta(g(n))$</li><li>If $f(n)=n !, g(n)=3^{n} \\times 5^{n}$ then $f(n)=\\Omega(g(n))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses,algorithms,asymptotic-notations,time-complexity,multiple-selects,two-marks,goclasses_cs_wq42,goclasses_da_wq14",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375450",
+          "text": "<p>Assume you have two positive functions $f$ and $g$ such that $f(n)$ is in $O(g(n))$. For each of the following statements, decide which one(s) is/are always TRUE.</p><ol style=\"list-style-type:upper-alpha\"><li>$2^{f(n)}$ is $O\\left(2^{g(n)}\\right)$</li><li>$f(n)^{2}$ is $O\\left(g(n)^{2}\\right)$</li><li>$f(n)=O\\left((f(n))^{2}\\right)$</li><li>$g(n)=\\Omega(g(n))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses,algorithms,asymptotic-notations,time-complexity,multiple-selects,two-marks,goclasses_cs_wq42,goclasses_da_wq14",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375457",
+          "text": "<p>Which of the following statement is FALSE?</p><ol style=\"list-style-type:upper-alpha\"><li>If $f(n)=\\mathcal{O}(g(n))$ and $f(n)=\\Omega(g(n))$, then we have $(f(n))^{2}=&nbsp;\\Theta\\left((g(n))^{2}\\right)$</li><li>If $f(n)=\\mathcal{O}(g(n))$ and $f(n)=\\Omega(g(n))$, then we have $f(n)=g(n)$</li><li>$2^{n}+n^{2}=\\mathcal{O}\\left(3^{n}\\right)$</li><li>$2^{n}+n^{2}=\\mathcal{O}\\left(2^{n}\\right)$&nbsp;</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses,algorithms,asymptotic-notations,time-complexity,two-marks,goclasses_cs_wq42,goclasses_da_wq14",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375588",
+          "text": "<p>Consider functions $f()$ and $g()$ which are positive increasing functions.</p><p>Which of the following(s) is/are correct?</p><ol style=\"list-style-type:upper-alpha\"><li>If $f(n)=o(g(n))$ then $\\log (f(n))=o(\\log (g(n))$, here $o$ is small-oh</li><li>If $f(n)=\\mathrm{O}(g(n))$ then $e^{f(n)}=\\mathrm{O}\\left(e^{g(n)}\\right)$, here $\\mathrm{O}$ is big-oh</li><li>If $f(n)=O(g(n))$ then $\\log (f(n))=O(\\log (g(n))$, here $O$ is big-oh</li><li>If $f(n)=o(g(n))$ then $e^{f(n)}=o\\left(e^{g(n)}\\right)$, here $o$ is small-oh</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "algorithms,asymptotic-notations,time-complexity,multiple-selects,two-marks,goclasses_cs_wq42,goclasses_da_wq14",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375589",
+          "text": "<p>Determine the complexity of the following code, using “$\\Theta$” as indicated.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int sum = 0;\nfor (int i = 1; i &lt;= n; i *= 2)\n    for (int j = 1; j &lt;= i; j++)\n        sum++;\n        print(sum);\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$\\Theta \\left(n^{2}\\right)$</li><li>$\\Theta\\left(n^{2} \\log n\\right)$</li><li>$\\Theta(n)$</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses,algorithms,asymptotic-notations,time-complexity,two-marks,goclasses_cs_wq42",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375590",
+          "text": "<p>What will be the time complexity of $\\text{function()}?$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">function(int n) {\n    for (int i = 0; i &lt; n; i++) {\n        for (int j = i; j &lt; i * i; j++) {\n            if (j % i == 0) {\n                for (int k = 0; k &lt; j; k++) {\n                    printf(\"*\");\n                }\n            }\n        }\n    }\n}    \n</pre><ol style=\"list-style-type:upper-alpha\"><li>$\\Theta \\left(n^{3}\\right)$</li><li>$\\Theta\\left(n^{4}\\right)$</li><li>$\\Theta\\left(n^{5}\\right)$</li><li>$\\Theta\\left(n^{2} \\log n\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses,algorithms,asymptotic-notations,time-complexity,two-marks,goclasses_cs_wq42",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "375443",
+          "text": "<p>Match Column A with Column B. Column B represents asymptotic time complexity of loops in Column A<br>$$\\begin{array}{|l|l|}<br>\\hline \\qquad&nbsp;\\quad \\textbf {Column A} &amp; \\textbf {Column B} \\\\<br>\\hline a) \\quad&nbsp;{\\color{Purple} {\\textbf{for} }}&nbsp;\\left(\\mathrm{i}={\\color{Blue} {1}} ; \\mathrm{i}^{*} \\mathrm{i}&lt;=\\mathrm{N} ; \\mathrm{i}={\\color{Green} {2}}^{*} \\mathrm{i}\\right) ; &amp; &nbsp;\\mathrm{i}) \\quad \\Theta(\\log N) \\\\<br>\\hline &nbsp;b) \\quad {\\color{Purple} {\\textbf{for} }} \\left(\\mathrm{i}={\\color{Blue} {1}} ; \\mathrm{i}&lt;=\\mathrm{N} ; \\mathrm{i}={\\color{Green} {2}}^{*} \\mathrm{i}\\right) &nbsp;&amp; &nbsp;\\mathrm{ii}) \\quad \\Theta(\\mathrm{N}) \\\\<br>\\quad \\qquad {\\color{Teal} {\\textbf{for} }} (\\mathrm{j}={\\color{Blue} {1}} ; \\mathrm{j}&lt;=\\mathrm{i} ; \\mathrm{j}=\\mathrm{j}+{\\color{Blue} {1}}) ; &amp; \\\\<br>\\hline c) \\quad {\\color{Purple} {\\textbf{for} }} \\left(\\mathrm{i}={\\color{Blue} {1}} ; \\mathrm{i}{ }^{*} \\mathrm{i}&lt;=\\mathrm{N} ; \\mathrm{i}=\\mathrm{i}+{\\color{Blue} {1}}\\right) &nbsp;&amp; \\mathrm{iii}) \\quad \\Theta(\\sqrt{N} \\log N) \\\\<br>\\qquad \\quad {\\color{Teal} {\\textbf{for} }} (\\mathrm{j}={\\color{Blue} {1}} ; \\mathrm{j}&lt;=\\mathrm{i} ; \\mathrm{j}=\\mathrm{j}+{\\color{Blue} {1}}) ; &amp; \\\\<br>\\hline d) \\quad {\\color{Purple} {\\textbf{for} }} \\left(\\mathrm{i}={\\color{Blue} {1}} ; \\mathrm{i}{ }^{*} \\mathrm{i}&lt;=\\mathrm{N} ; \\mathrm{i}=\\mathrm{i}+{\\color{Blue} {1}}\\right)&nbsp;&amp; iv) \\quad \\Theta(N \\log \\mathrm{N}) \\\\<br>\\qquad \\quad {\\color{Teal} {\\textbf{for} }} \\left(\\mathrm{j}={\\color{Blue} {1}} ; \\mathrm{j}&lt;=\\mathrm{i} ; \\mathrm{j}={\\color{Green} {2}}^{*} \\mathrm{j}\\right) ; &amp; \\\\<br>\\hline<br>\\end{array}$$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{a-i, b-ii, c-iii, d-iv}$</li><li>$\\text{a-i, b-iv, c-ii, d-iii}$</li><li>$\\text{a-i, b-ii, c-ii, d-iii}$</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses,algorithms,asymptotic-notations,time-complexity,two-marks,goclasses_cs_wq42",
+          "category": "Algorithms"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 250 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "544079",
+          "text": "<p data-start=\"1857\" data-end=\"2029\">Let $T$ be a breadth-first search tree of a undirected graph. Let $(x, y)$ be an edge of $G$ that is not an edge of $T$, then one of $x$ or $y$ is an ancestor of the other.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2031\" data-end=\"2049\">True<br>&nbsp;</li><li data-start=\"2031\" data-end=\"2049\">False</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "544072",
+          "text": "<p data-start=\"646\" data-end=\"711\">Consider the standard BFS algorithm, except for one modification:</p><p data-start=\"713\" data-end=\"839\">A vertex is marked as visited <strong data-start=\"743\" data-end=\"785\">only when it is removed from the queue</strong>, instead of when it is first inserted into the queue.</p><p data-start=\"841\" data-end=\"874\">Which of the following can occur?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"876\" data-end=\"941\">The same vertex may be inserted into the queue multiple times.<br>&nbsp;</li><li data-start=\"943\" data-end=\"1030\">The number of queue insertions can become exponentially larger than in standard BFS.<br>&nbsp;</li><li data-start=\"1032\" data-end=\"1164\">If predecessor/distance information is updated whenever a vertex is inserted, the shortest-path information may become incorrect.<br>&nbsp;</li><li data-start=\"1166\" data-end=\"1228\">Every vertex is still inserted into the queue exactly once.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "544074",
+          "text": "<p data-start=\"3030\" data-end=\"3141\">Breadth-first search (BFS) will visit every vertex in a directed graph, in nondecreasing order from the source.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3143\" data-end=\"3161\">True<br>&nbsp;</li><li data-start=\"3143\" data-end=\"3161\">False</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "544077",
+          "text": "<p data-start=\"4695\" data-end=\"4767\">BFS is performed from the root of a binary tree containing $n$ vertices.</p><p data-start=\"4769\" data-end=\"4857\">For which type of binary tree can BFS require $\\Theta(n)$ extra space in the worst case?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4859\" data-end=\"4893\">A completely skewed binary tree<br>&nbsp;</li><li data-start=\"4895\" data-end=\"4929\">A complete balanced binary tree<br>&nbsp;</li><li data-start=\"4931\" data-end=\"4981\">A tree having exactly one vertex at every level<br>&nbsp;</li><li data-start=\"4983\" data-end=\"5020\">A path containing all $n$ vertices</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "544081",
+          "text": "<p data-start=\"477\" data-end=\"576\">Suppose BFS is run on a cycle graph $C_n$. For which values of $n$ will no coloring conflict occur?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"578\" data-end=\"635\">All $n$<br>&nbsp;</li><li data-start=\"578\" data-end=\"635\">Odd $n$<br>&nbsp;</li><li data-start=\"578\" data-end=\"635\">Even $n$<br>&nbsp;</li><li data-start=\"578\" data-end=\"635\">Only prime $n$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 250"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2025 | Python Programming | Topic Wise Test 1",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "432598",
+          "text": "<p>If the following is executed, then what is the output?<br> </p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">x = [10,20,30]\nfor k in range(1000):\n    x.append(x[0])\n    x = x[1:4]\nprint(x)\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$[10,10,10]$</li><li>$[20,30,10]$</li><li>$[30,10,10]$</li><li>$[20,30,20]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,one-mark",
+          "category": "Programming in Python"
+        },
+        {
+          "contents": "",
+          "post_id": "432600",
+          "text": "<p>Which of the following create a list containing 1,3 and 5 ?<br>Assume values is the list:<br>$$<br>\\text { values }=[1,2,3,4,5,6]<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[values.index(1), values.index(3), values.index(5)]</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">values[:5:2]</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[values[0]] + [values[2]] + [values [4]]</pre><p> </p></li><li><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">[values[i] for i in range(len(values), 2)]</pre><p> </p></li></ol><p> </p>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,one-mark,multiple-selects",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432596",
+          "text": "What's the value of the expression \"Honey\" + \"Boo\" * 2<br /><ol style=\"list-style-type:upper-alpha\"><li> 'HoneyBooHoneyBoo'</li><li> 'HoneyBooBoo'</li> <li>'HoneyBoo2'</li>  <li>'HoneyBoo*2'</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,one-mark",
+          "category": "Programming and DS"
+        },
+        {
+          "contents": "",
+          "post_id": "432585",
+          "text": "<p>L1 = [\"Yahoo\", \"Reddit\", 11, 7]<br>Which line of code does NOT do exactly the same things as the other three?<br>Circle one answer.</p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">L2 = L1[-4:4]</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">L2 = L1[:]</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">L2 = list(L1)</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">L2 = L1[0] + L1[1] + L1[2] + L1[3]</pre><p> </p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432597",
+          "text": "<p>What is the value of \"abcdefg\"[:-1]&nbsp; in Python?</p><ol style=\"list-style-type:upper-alpha\"><li>'abcdef'</li><li>'gfedcba'</li><li>'gabcdef'</li><li>'gfedcb'</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432595",
+          "text": "<p>Examine the following code:</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">xList = [10, 20, 30, 40, 50, 60]\nyList = []\nzList = []\n\n\nfor j in range(1, 7, 2):\n    xList[j] = j\n    yList.append(j)\n    zList.append(yList)\n</pre><p><br>After the code executes, what does $\\text{'zList'}$ point at?</p><ol style=\"list-style-type:upper-alpha\"><li>zList $=[[1],[1,3],[1,3,5]]$</li><li>zList $=[[1,3,5],[1,3,5],[1,3,5]]$</li><li>zList $=[[1,3,5]]$</li><li>zList $=[[1],[3],[5]]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432590",
+          "text": "<p>How do you check if the string \"mew\" is present in the following nested list?</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">myTeam = [[\"eevee\", \"togepi\"], [\"mew\", \"mewtwo\"], [\"dragonite\", \"gengar\"]]</pre><p><br>Which of the following expressions will evaluate to True?</p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\"> “mew” in [item for sublist in myTeam for item in sublist]</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">“mew” in [myTeam[1][0]]</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">“mew” in [sublist[0] for sublist in myTeam]</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">“mew” in [pokemon for sublist in myTeam for pokemon in myTeam]</pre><p> </p></li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,one-mark,multiple-selects",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432592",
+          "text": "mystery $=[[8], 4,[1,5,3,[2,6]],[9,7], 7]$<br />Which of the following(s) evaluates to TRUE?<br /><ol style=\"list-style-type:upper-alpha\"><li> [8] in mystery</li><li> 8 in mystery</li> <li>mystery[2][3][1] $==6$</li>  <li>$[1,5,3]$ in mystery</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,one-mark,multiple-selects",
+          "category": "Programming and DS"
+        },
+        {
+          "contents": "",
+          "post_id": "432594",
+          "text": "<p>What is printed by the following lines of code?<br> </p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">myWords = [\"What\", \"Is\", \"Your\", \"Name\"]\nnewWords = myWords[0] + myWords[-1]\nprint(newWords)\n</pre><ol style=\"list-style-type:upper-alpha\"><li>['What', 'Your']</li><li>['What', 'Name']</li><li>WhatName</li><li>What'Your</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432587",
+          "text": "<p>How many stars $(*)$ will the following snippet send to the console?<br> </p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">lst = [[c for c in range(r)] for r in range(3)]\nfor x in lst:\n    for y in x:\n        if y &lt; 2:\n            print('*')\n</pre><p> </p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-python-1,numerical-answers,goclasses,python-programming,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432589",
+          "text": "<p>What are the contents of the list combined_phrases after the following code is executed?<br> </p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">combined_phrases = [x + y for x in ['a', 'the', 'one']\n                    for y in [' car', ' fish']]</pre><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\"> ['a car', 'the car', 'one car', 'a fish', 'the fish', 'one fish']</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">['a car', 'a fish', 'the car', 'the fish', 'one car', 'one fish']</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[['a car', 'a fish'], ['the car', 'the fish'], ['one car', 'one fish']]</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\"> ['a car fish', 'the car fish', 'one car fish']</pre><p> </p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432593",
+          "text": "<p>Which of the following code fragments correctly prints the sentence contained in the list below WITHOUT commas or brackets on a single line?<br>aList = ['GO', \"Yellowjackets\", '!']</p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">print(str(aList))</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">aStr = \"\"\nfor word in aList:\n    aStr = aStr + word\nprint(aStr)\n</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">for word in aList:\n    print(word)\n</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">print(aList[:])</pre><p> </p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432586",
+          "text": "<p>Consider the dictionary d = $\\{\\text{'a'}: 1, \\text{'b'}: 2,\\text{ 'c'}: 3, \\text{'d'}: 4\\}$.<br>A new dictionary `y` is created using the following:</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">y = {x: d[x] + len(x) for x in d if d[x] % 2 == 0 and x &lt; 'd'}\n</pre><p><br>What is the value of $\\text{y}$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\{$ 'a': 2, 'b': 3$\\}$</li><li>$\\{$ 'b': 3$\\}$</li><li>$\\{$ 'b': 4, 'd': 5$\\}$</li><li>$\\{\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432588",
+          "text": "<p>What does the following list comprehension evaluate to?</p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">[x+y for x in range(1,4) for y in range(2,6) if x &lt; y]</pre><p></p><ol style=\"list-style-type:upper-alpha\"><li>$[3,4,5,5,6,7,6,7,8]$</li><li>$[3,4,5,6,5,6,7,7,8]$</li><li>$[3,4,5,6,7,5,6,7,8,7,8,9,9,10]$</li><li>$[3,4,5,5,6,7,6,7,8,9,7,8,9,10]$</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "432601",
+          "text": "<p>One of these code fragments is not like the others. Identify the fragment with behavior different from the others.<br>Mark the odd one out.</p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">for I in range(0,10,1):\n    print(I)</pre><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">for I in range(9,-1,-1):\n    print(9-I)</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">I = 1\nwhile (I &lt;= 10):\n    print(I-1)\n    I = I + 1\n</pre><p> </p></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">I = 0\nwhile (I &lt; 9):\n    print(I)\n    I = I + 1\n</pre><p> </p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-python-1,goclasses,python-programming,one-mark,programming",
+          "category": "Programming in Python"
+        }
+      ]
+    }
+  ]
+}

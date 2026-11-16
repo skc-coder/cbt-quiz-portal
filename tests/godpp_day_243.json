@@ -1,0 +1,70 @@
+{
+  "name": "Day 222 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525351",
+          "text": "<p>Smartphone A has 256 MB RAM and 32 GB ROM with an 8 MP camera. Smartphone B has 288 MB RAM and 64 GB ROM with a 4 MP camera. Smartphone C has 128 MB RAM and 32 GB ROM with a 5 MP camera.</p><p>What is the truth value of the proposition: \"Smartphone A has more RAM than Smartphone B if and only if Smartphone B has more RAM than Smartphone A\"?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>TRUE, because both sides of the biconditional are FALSE.</li><li>TRUE, because both sides of the biconditional are TRUE.</li><li>FALSE, because the left side is FALSE and the right side is TRUE.</li><li>FALSE, because both sides of the biconditional are FALSE.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 222"
+        },
+        {
+          "post_id": "525353",
+          "text": "<p>During the most recent fiscal year, Acme Computer had an annual revenue of \\$138 billion and a net profit of \\$8 billion, Nadir Software had an annual revenue of \\$87 billion and a net profit of \\$5 billion, and Quixote Media had an annual revenue of \\$111 billion and a net profit of \\$13 billion.</p><p>What is the truth value of the proposition: \"Nadir Software had the smallest net profit if and only if Acme Computer had the largest annual revenue\"?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>FALSE, because Nadir Software did not have the smallest net profit.</li><li>FALSE, because both sides of the biconditional are FALSE.</li><li>TRUE, because both sides of the biconditional are TRUE.</li><li>TRUE, because both sides of the biconditional are FALSE.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 222"
+        },
+        {
+          "post_id": "525349",
+          "text": "<p>Given: Smartphone A (256 MB RAM, 32 GB ROM, 8 MP), Smartphone B (288 MB RAM, 64 GB ROM, 4 MP ), Smartphone C ( 128 MB RAM, 32 GB ROM, 5 MP ). Which of the following propositions are TRUE? Select all that apply.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Smartphone B has the most RAM of the three smartphones.</li><li>Smartphone C has more ROM or a higher resolution camera than Smartphone B .</li><li>Smartphone B has more RAM, more ROM, and a higher resolution camera than Smartphone A.</li><li>If Smartphone B has more RAM and more ROM than Smartphone C, then it also has a higher resolution camera than Smartphone C.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 222"
+        },
+        {
+          "post_id": "525352",
+          "text": "<p>Given: Acme Computer (revenue \\$138B, profit \\$8B), Nadir Software (revenue \\$87B, profit \\$5B), Quixote Media (revenue \\$111B, profit \\$13B). Which of the following propositions are TRUE? Select all that apply.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Quixote Media had the largest annual revenue.</li><li>Nadir Software had the lowest net profit and Acme Computer had the largest annual revenue.</li><li>Acme Computer had the largest net profit or Quixote Media had the largest net profit.</li><li>If Quixote Media had the smallest net profit, then Acme Computer had the largest annual revenue.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 222"
+        },
+        {
+          "post_id": "525347",
+          "text": "<p>Let $\\mathrm{S}=$ \"I study for this exam\", $\\mathrm{A}=$ \"I attend class\", $\\mathrm{P}=$ \"I pass the class.\" The statement \"If I study for this exam and attend class, then I will pass the class\" is expressed as $(\\mathrm{S} \\wedge \\mathrm{A}) \\rightarrow \\mathrm{P}$. Which of the following are logically equivalent to this statement? Select all that apply.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If I pass the class, then I studied for this exam and attended class.</li><li>If I do not pass the class, then I did not study for this exam and did not attend class.</li><li>If I do not pass the class, then I did not study for this exam or did not attend class.</li><li>$\\neg \\mathrm{S} \\vee \\neg \\mathrm{A} \\vee \\mathrm{P}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 222"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 295 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534953",
+          "text": "<p data-start=\"140\" data-end=\"338\">For the Boolean function $\\mathrm{F}(\\mathrm{A},\\mathrm{B},\\mathrm{C},\\mathrm{D})=\\Sigma _m(0,1,2,4,5,7,11,15)$, which of the following is a correct minimal SOP form using K-map?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"298\" data-end=\"432\">$\\mathrm{F}=\\mathrm{A}\\mathrm{C}\\mathrm{D}+\\mathrm{A}'\\mathrm{C}'+\\mathrm{A}'\\mathrm{B}'\\mathrm{D}'+\\mathrm{B}\\mathrm{C}\\mathrm{D}$<br>&nbsp;</li><li data-start=\"434\" data-end=\"569\">$\\mathrm{F}=\\mathrm{A}\\mathrm{C}\\mathrm{D}+\\mathrm{A}'\\mathrm{C}'+\\mathrm{A}'\\mathrm{B}'\\mathrm{D}'+\\mathrm{A}'\\mathrm{B}\\mathrm{D}$<br>&nbsp;</li><li data-start=\"571\" data-end=\"674\">$\\mathrm{F}=\\mathrm{A}'\\mathrm{C}'+\\mathrm{A}'\\mathrm{B}'\\mathrm{D}'+\\mathrm{A}\\mathrm{C}\\mathrm{D}$<br>&nbsp;</li><li data-start=\"676\" data-end=\"777\">$\\mathrm{F}=\\mathrm{A}'\\mathrm{C}'+\\mathrm{A}'\\mathrm{B}\\mathrm{D}+\\mathrm{B}\\mathrm{C}\\mathrm{D}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 295"
+        },
+        {
+          "post_id": "534974",
+          "text": "<p data-start=\"102\" data-end=\"287\">For the Boolean function $\\mathrm{F}(\\mathrm{A},\\mathrm{B},\\mathrm{C},\\mathrm{D})=\\Sigma _m(0,2,4,5,6,7,8,10,13,15)$, which of the following is the minimal SOP form using K-map?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"289\" data-end=\"370\">$\\mathrm{F}=\\mathrm{B}'\\mathrm{D}'+\\mathrm{A}'\\mathrm{B}+\\mathrm{B}\\mathrm{D}$<br>&nbsp;</li><li data-start=\"372\" data-end=\"453\">$\\mathrm{F}=\\mathrm{B}'\\mathrm{C}'+\\mathrm{A}'\\mathrm{B}+\\mathrm{C}\\mathrm{D}$<br>&nbsp;</li><li data-start=\"455\" data-end=\"536\">$\\mathrm{F}=\\mathrm{A}'\\mathrm{D}'+\\mathrm{A}'\\mathrm{B}+\\mathrm{B}\\mathrm{D}$<br>&nbsp;</li><li data-start=\"538\" data-end=\"618\">$\\mathrm{F}=\\mathrm{B}'\\mathrm{D}'+\\mathrm{A}\\mathrm{B}+\\mathrm{B}\\mathrm{D}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 295"
+        },
+        {
+          "post_id": "534945",
+          "text": "<p data-start=\"46\" data-end=\"207\">For the Boolean function $\\mathrm{F}(\\mathrm{A},\\mathrm{B},\\mathrm{C})=\\Sigma _m(1,3,4,5,7)$, which of the following is the minimal SOP form?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"209\" data-end=\"408\">$\\mathrm{F}=\\mathrm{A}+\\mathrm{C}$<br>&nbsp;</li><li data-start=\"209\" data-end=\"408\">$\\mathrm{F}=\\mathrm{A}\\mathrm{B}'+\\mathrm{C}$<br>&nbsp;</li><li data-start=\"209\" data-end=\"408\">$\\mathrm{F}=\\mathrm{A}\\mathrm{C}+\\mathrm{B}'\\mathrm{C}$<br>&nbsp;</li><li data-start=\"209\" data-end=\"408\">$\\mathrm{F}=\\mathrm{A}+\\mathrm{B}\\mathrm{C}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 295"
+        },
+        {
+          "post_id": "534950",
+          "text": "<p data-start=\"46\" data-end=\"244\">For the Boolean function $\\mathrm{F}(\\mathrm{A},\\mathrm{B},\\mathrm{C},\\mathrm{D})=\\Sigma _m(0,1,2,3,8,9,10,11,14,15)$, which of the following is the minimal SOP form using K-map?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"246\" data-end=\"459\">$\\mathrm{F}=\\mathrm{B}'+\\mathrm{A}\\mathrm{C}$<br>&nbsp;</li><li data-start=\"246\" data-end=\"459\">$\\mathrm{F}=\\mathrm{A}+\\mathrm{B}'\\mathrm{C}$<br>&nbsp;</li><li data-start=\"246\" data-end=\"459\">$\\mathrm{F}=\\mathrm{B}'+\\mathrm{A}\\mathrm{D}$<br>&nbsp;</li><li data-start=\"246\" data-end=\"459\">$\\mathrm{F}=\\mathrm{A}'\\mathrm{C}+\\mathrm{B}'\\mathrm{D}'$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 295"
+        },
+        {
+          "post_id": "534943",
+          "text": "<p data-start=\"231\" data-end=\"336\">Simplify the Boolean expression $\\mathrm{Z=AB+(C'+A'B')'+A'(AB+AC'D')}$ and identify its minterm form.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"338\" data-end=\"511\">$\\mathrm{Z=AB+AC+BC},\\ \\quad\\Sigma _m(6,7,10,11,12,13,14,15)$<br>&nbsp;</li><li data-start=\"338\" data-end=\"511\">$\\mathrm{Z=AB+A'C+BC},\\ \\quad\\Sigma _m(3,5,7,9,11,13,15)$<br>&nbsp;</li><li data-start=\"338\" data-end=\"511\">$\\mathrm{Z=AB+C'D},\\ \\quad\\Sigma _m(4,5,12,13)$<br>&nbsp;</li><li data-start=\"338\" data-end=\"511\">$\\mathrm{Z=AC+B'C},\\ \\quad\\Sigma _m(2,3,10,11)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 295"
+        }
+      ]
+    }
+  ]
+}

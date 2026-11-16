@@ -1,0 +1,70 @@
+{
+  "name": "Day 241 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "542787",
+          "text": "<p data-start=\"2598\" data-end=\"2642\">Initially, there are three sorted sequences:</p><p data-start=\"2644\" data-end=\"2663\">$(3,5), (7,9), (6)$</p><p data-start=\"2665\" data-end=\"2755\">They are merged by choosing sorted sequences from <strong data-start=\"2715\" data-end=\"2732\">left to right</strong> using two-way merging.</p><p data-start=\"2757\" data-end=\"2801\">How many total key comparisons are required?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2803\" data-end=\"2836\">$3$<br>&nbsp;</li><li data-start=\"2803\" data-end=\"2836\">$4$<br>&nbsp;</li><li data-start=\"2803\" data-end=\"2836\">$5$<br>&nbsp;</li><li data-start=\"2803\" data-end=\"2836\">$6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "542795",
+          "text": "<p>Assume that a merge sort algorithm in the worst case takes $30$ seconds for an input of size $64$.&nbsp;</p><p>Which of the following most closely approximates the maximum input size of a problem that can be solved in $6$ minutes?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$256$<br>&nbsp;</li><li>$512$<br>&nbsp;</li><li>$1024$<br>&nbsp;</li><li>$2048$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "542789",
+          "text": "<p data-start=\"3321\" data-end=\"3477\">There are $n$ cities, and exactly $k$ of them are contaminated. A test on any subset tells whether at least one contaminated city is present in that subset.</p><p data-start=\"3479\" data-end=\"3618\">A divide-and-conquer algorithm splits the cities into two equal groups, tests each group, and recurses only into groups that test positive.</p><p data-start=\"3620\" data-end=\"3671\">What is the number of tests used by this algorithm?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3673\" data-end=\"3735\">$O(\\log n)$<br>&nbsp;</li><li data-start=\"3673\" data-end=\"3735\">$O(k\\log n)$<br>&nbsp;</li><li data-start=\"3673\" data-end=\"3735\">$O(n)$<br>&nbsp;</li><li data-start=\"3673\" data-end=\"3735\">$O(n\\log k)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "542785",
+          "text": "<p data-start=\"569\" data-end=\"787\">Suppose instead of dividing the input into two parts, a modified merge sort divides the input into <strong data-start=\"668\" data-end=\"688\">four equal parts</strong>, sorts each one-fourth recursively, and finally combines the four parts using an $O(n)$ procedure.</p><p data-start=\"789\" data-end=\"833\">Which recurrence describes the running time?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"835\" data-end=\"978\">$T(n) = 4T(n/4) + O(n)$<br>&nbsp;</li><li data-start=\"835\" data-end=\"978\">$T(n) = 4T(n/2) + 2O(n)$<br>&nbsp;</li><li data-start=\"835\" data-end=\"978\">$T(n) = T(n/4) + 4O(n)$<br>&nbsp;</li><li data-start=\"835\" data-end=\"978\">$T(n) = 4T(n/4) + 4O(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 241"
+        },
+        {
+          "post_id": "542786",
+          "text": "<p data-start=\"1957\" data-end=\"2120\">A sorted table contains $2000$ distinct elements in increasing order. A key is searched using binary search, and it is guaranteed that the key exists in the table.</p><p data-start=\"2122\" data-end=\"2168\">What is the maximum number of key comparisons?</p>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 241"
+        }
+      ]
+    }
+  ]
+}

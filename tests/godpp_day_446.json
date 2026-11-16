@@ -1,0 +1,70 @@
+{
+  "name": "Day 308 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "537085",
+          "text": "<p>What is the main issue in the following code? Assume both $\\texttt{malloc()}$ calls succeed.</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt; #include &lt;stdlib.h&gt;  int main() {     int *p = (int *)malloc(sizeof(int));     *p = 5;      p = (int *)malloc(sizeof(int));     *p = 10;      printf(&quot;%d&quot;, *p);      free(p);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n#include &lt;stdlib.h&gt;\n\nint main() {\n    int *p = (int *)malloc(sizeof(int));\n    *p = 5;\n\n    p = (int *)malloc(sizeof(int));\n    *p = 10;\n\n    printf(\"%d\", *p);\n\n    free(p);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It gives compilation error<br>&nbsp;</li><li>It prints $\\texttt{10}$, but the first allocated memory block is leaked<br>&nbsp;</li><li>It prints $\\texttt{5}$, and no memory leak occurs<br>&nbsp;</li><li>It gives undefined behavior because $\\texttt{p}$ is reassigned</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 308"
+        },
+        {
+          "post_id": "537075",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int x = 25;     void *p = &x;      printf(&quot;%d&quot;, *(int *)p);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int x = 25;\n    void *p = &x;\n\n    printf(\"%d\", *(int *)p);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{25}$<br>&nbsp;</li><li>Address of $\\texttt{x}$<br>&nbsp;</li><li>Compilation error<br>&nbsp;</li><li>Undefined behavior</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 308"
+        },
+        {
+          "post_id": "537083",
+          "text": "<p>What will happen in the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt; #include &lt;stdlib.h&gt;  int main() {     int *p = (int *)malloc(sizeof(int));      *p = 10;     free(p);      printf(&quot;%d&quot;, *p);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n#include &lt;stdlib.h&gt;\n\nint main() {\n    int *p = (int *)malloc(sizeof(int));\n\n    *p = 10;\n    free(p);\n\n    printf(\"%d\", *p);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It always prints $\\texttt{10}$<br>&nbsp;</li><li>It always prints $\\texttt{0}$<br>&nbsp;</li><li>Compilation error<br>&nbsp;</li><li>Undefined behavior due to dangling pointer</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 308"
+        },
+        {
+          "post_id": "537077",
+          "text": "<p>What is the output of the following code? Assume $\\texttt{malloc()}$ succeeds.</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt; #include &lt;stdlib.h&gt;  int main() {     int *p = (int *)malloc(3 * sizeof(int));      p[0] = 4;     p[1] = 7;     p[2] = p[0] + p[1];      printf(&quot;%d&quot;, *(p + 2));      free(p);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n#include &lt;stdlib.h&gt;\n\nint main() {\n    int *p = (int *)malloc(3 * sizeof(int));\n\n    p[0] = 4;\n    p[1] = 7;\n    p[2] = p[0] + p[1];\n\n    printf(\"%d\", *(p + 2));\n\n    free(p);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{4}$<br>&nbsp;</li><li>$\\texttt{7}$<br>&nbsp;</li><li>$\\texttt{11}$<br>&nbsp;</li><li>Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 308"
+        },
+        {
+          "post_id": "537071",
+          "text": "<p>Which of the following correctly describes the declarations?</p><pre dir=\"ltr\" data-rawcode=\"int *a[10]; int (*p)[5];\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int *a[10];\n\nint (*p)[5];</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{a}$ is a pointer to an array of $10$ integers, and $\\texttt{p}$ is an array of $5$ integer pointers<br>&nbsp;</li><li>$\\texttt{a}$ is an array of $10$ pointers to integers, and $\\texttt{p}$ is a pointer to an array of $5$ integers<br>&nbsp;</li><li>$\\texttt{a}$ is an array of $10$ integers, and $\\texttt{p}$ is a pointer to an integer<br>&nbsp;</li><li>Both $\\texttt{a}$ and $\\texttt{p}$ are arrays of integer pointers</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 308"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 162 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "504522",
+          "text": "<p>A CPU generates $\\mathbf{4 8}-$<strong>bit</strong> virtual addresses. The page size is $\\mathbf{8 ~ K B}$. The processor has a Translation Lookaside Buffer (TLB) which can hold a total of $\\mathbf{256}$ page table entries and is $\\mathbf{2}-$<strong>way</strong> set associative.</p><p>The minimum size of the TLB tag is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$27$ bits&nbsp;<br>&nbsp;</li><li>$28$ bits&nbsp;<br>&nbsp;</li><li>$29$ bits&nbsp;<br>&nbsp;</li><li>$30$ bits</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 162"
+        },
+        {
+          "post_id": "504512",
+          "text": "The following two functions, $\\mathrm{G1}$ and $\\mathrm{G2}$, that share a variable $\\mathrm{Y}$ with an initial value of $10$, execute concurrently.<br>\n<br>\n$$<br>\n\\begin{array}{lccl}<br>\n\\mathrm{G} 1() & & & \\mathrm{G} 2() \\\\<br>\n\\mathrm{Y}=\\mathrm{Y}+4 ;(1) & & & \\mathrm{Q}=\\mathrm{Y}+5 ;(3) \\\\<br>\n\\mathrm{P}=\\mathrm{Y} / 2 ;(2) & & & \\mathrm{Y}=\\mathrm{Q}-1 ;(4) \\\\<br>\n\\} & & & \\}<br>\n\\end{array}<br>\n$$<br>\n<br>\nThe number of distinct values that $\\mathrm{Y}$ can possibly take after the execution is $\\_\\_\\_\\_$.",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 162"
+        },
+        {
+          "post_id": "504519",
+          "text": "<p>Consider the following two threads R1 and R2 that update two shared variables x and y . Assume that initially $\\mathbf{x}=\\mathbf{5}$ and $\\mathbf{y = 1 0}$. Though context switching between threads can happen at any time, each statement of R1 or R2 is executed atomically without interruption.</p><p>$$<br>\\begin{array}{lccl}<br>\\mathrm{R} 1 & & & \\mathrm{R} 2 \\\\<br>\\mathrm{x}=\\mathrm{y}+1 ; & & & \\mathrm{y}=\\mathrm{x} \\times 2 ; \\\\<br>\\mathrm{y}=\\mathrm{x}+2 ; & & & \\mathrm{x}=\\mathrm{y}-3 ;<br>\\end{array}<br>$$</p><p><br>Which one of the following options lists all the possible combinations of values of x and y after both R1 and R2 finish execution?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\{(\\mathrm{x}=11, \\mathrm{y}=13) ;(\\mathrm{x}=19, \\mathrm{y}=22) ;(\\mathrm{x}=19, \\mathrm{y}=21) ;(\\mathrm{x}=10, \\mathrm{y}=13)\\}$&nbsp;<br>&nbsp;</li><li>$\\{(\\mathrm{x}=&nbsp;11, \\mathrm{y}=13) ;(\\mathrm{x}=19, \\mathrm{y}=22) ;(\\mathrm{x}=10, \\mathrm{y}=13) ;(\\mathrm{x}=7, \\mathrm{y}=9)\\}$&nbsp;<br>&nbsp;</li><li>$\\{(\\mathrm{x}=19, \\mathrm{y}=&nbsp;21) ;(\\mathrm{x}=11, \\mathrm{y}=13) ;(\\mathrm{x}=19, \\mathrm{y}=22) ;(\\mathrm{x}=10, \\mathrm{y}=13) ;(\\mathrm{x}=7, \\mathrm{y}=9)\\}$&nbsp;<br>&nbsp;</li><li>$\\{(\\mathrm{x}=&nbsp;12, \\mathrm{y}=14) ;(\\mathrm{x}=17, \\mathrm{y}=13) ;(\\mathrm{x}=17, \\mathrm{y}=19) ;(\\mathrm{x}=12, \\mathrm{y}=12)\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 162"
+        },
+        {
+          "post_id": "504510",
+          "text": "The following two functions, $\\mathrm{F1}$ and $\\mathrm{F2}$ , that share a variable $\\mathrm{X}$ with an initial value of $5$, execute concurrently.<br>\n<br>\n$$<br>\n\\begin{array}{lccl}<br>\n\\mathrm{F} 1() & & & \\mathrm{F} 2() \\\\<br>\n\\mathrm{A}=\\mathrm{X}+3 ; & & & \\mathrm{E}=3 * \\mathrm{X} \\\\<br>\n\\mathrm{X}=\\mathrm{A}-1 ; & & & \\mathrm{X}=\\mathrm{E}+2 \\\\<br>\n\\} & & & \\}<br>\n\\end{array}<br>\n$$<br>\n<br>\nThe number of distinct values that $\\mathrm{X}$ can possibly take after the execution is $\\_\\_\\_\\_$.",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 162"
+        },
+        {
+          "post_id": "504516",
+          "text": "<p>Let the page fault service time be $\\mathbf{8}$ <strong>milliseconds</strong>&nbsp;$(\\mathbf{m s})$ in a computer with average memory access time being&nbsp;$\\mathbf{50}$ <strong>nanoseconds</strong>&nbsp;$(\\mathbf{ns})$. If one page fault is generated every $\\mathbf{2} \\times \\mathbf{1 0}^{\\mathbf{6}}$ memory accesses, what is the effective access time for memory?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$52&nbsp;~\\mathrm{ns}$&nbsp;<br>&nbsp;</li><li>$90&nbsp;~\\mathrm{ns}$&nbsp;<br>&nbsp;</li><li>$54&nbsp;~\\mathrm{ns}$&nbsp;<br>&nbsp;</li><li>$70&nbsp;~\\mathrm{ns}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 162"
+        }
+      ]
+    }
+  ]
+}

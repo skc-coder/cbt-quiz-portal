@@ -1,0 +1,70 @@
+{
+  "name": "Day 248 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "529071",
+          "text": "<p>If ( G ) is a group and ( H ) is a subset of ( G ) such that ( H ) is closed under the group operation and every element in ( H ) has an inverse in ( H ), which statement about ( H ) is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>( H ) is necessarily a subgroup of ( G ).</li><li>( H ) must contain the identity element of ( G ).</li><li>( H ) is a cyclic group.</li><li>( H ) is necessarily the entire group ( G ).</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 248"
+        },
+        {
+          "post_id": "529066",
+          "text": "<p>Every group of order 4 is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Cyclic</li><li>Abelian</li><li>Non abelian</li><li>None of the Above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 248"
+        },
+        {
+          "post_id": "529062",
+          "text": "<p>The inverse of -1 in the multiplicative group, $\\{1,-1, i,-i\\}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>1</li><li>-1</li><li>&nbsp;i</li><li>-i</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 248"
+        },
+        {
+          "post_id": "529051",
+          "text": "<p>$\\{1, i,-i,-1\\}$ is......</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Semigroup</li><li>Subgroup</li><li>Cyclic group</li><li>Abelian group</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 248"
+        },
+        {
+          "post_id": "529041",
+          "text": "<p>Identity element of the group $R^*$ under Multiplication is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>1</li><li>2</li><li>0</li><li>-1</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 248"
+        }
+      ]
+    }
+  ]
+}

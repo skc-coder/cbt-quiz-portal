@@ -1,0 +1,70 @@
+{
+  "name": "Day 253 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "529490",
+          "text": "<p>How many whole numbers from 1 through 46 are divisible by either 3 or 5 or both?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>18</li><li>21</li><li>24</li><li>25</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 253"
+        },
+        {
+          "post_id": "529484",
+          "text": "<p>The Pythagoras High School band has 100 female and 80 male members. The Pythagoras High School orchestra has 80 female and 100 male members. There are 60 females who are members in both band and orchestra. Altogether, there are 230 students who are in either band or orchestra or both. The number of males in the band who are NOT in the orchestra is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>10</li><li>20</li><li>30</li><li>50</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 253"
+        },
+        {
+          "post_id": "529481",
+          "text": "<p>An auditorium with 20 rows of seats has 10 seats in the first row. Each successive row has one more seat than the previous row. If students taking an exam are permitted to sit in any row, but not next to another student in that row, then the maximum number of students that can be seated for an exam is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>150</li><li>180</li><li>200</li><li>400</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 253"
+        },
+        {
+          "post_id": "529479",
+          "text": "<p>A circular table has 60 chairs around it. There are $N$ people seated at this table in such a way that the next person seated must sit next to someone. What is the smallest possible value for $N$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>15</li><li>20</li><li>30</li><li>40</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 253"
+        },
+        {
+          "post_id": "529477",
+          "text": "<p>How many different patterns can be made by shading exactly two of the nine squares? Patterns that can be matched by flips and/or turns are not considered different. For example, the patterns shown below are not considered different.</p><p><img alt=\"\" width=\"267\" height=\"60\" src=\"data:image/png;base64,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\"></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>3</li><li>6</li><li>8</li><li>12</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 253"
+        }
+      ]
+    }
+  ]
+}

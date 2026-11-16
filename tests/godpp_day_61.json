@@ -1,0 +1,70 @@
+{
+  "name": "Day 58 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "478696",
+          "text": "<p>A processor has 5 stages: Fetch, Decode, Execute, Memory, and Writeback. The latencies of each stage are given below:<br>\\begin{array}{|l|l|l|}<br>\\hline Stage & Latency & \\\\<br>\\hline Fetch & 300 ps & \\\\<br>\\hline Decode & 400 ps & \\\\<br>\\hline Execute & 350 ps & \\\\<br>\\hline Memory & 550 ps & \\\\<br>\\hline Writeback & 100 ps & \\\\<br>\\hline<br>\\end{array}</p><p>In the pipelined version, assume each pipeline register adds an overhead of 20 ps .<br>What is the cycle time, latency of one instruction, and maximum throughput of the pipelined processor?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Cycle time $=550 \\mathrm{ps}$, Latency $=2750 \\mathrm{ps}$, Throughput $=1$ instruction every 550 ps<br>&nbsp;</li><li>Cycle time $=570 \\mathrm{ps}$, Latency $=2850 \\mathrm{ps}$, Throughput $=1$ instruction every 570 ps<br>&nbsp;</li><li>Cycle time $=570 \\mathrm{ps}$, Latency $=1700 \\mathrm{ps}$, Throughput $=1$ instruction every 570 ps<br>&nbsp;</li><li>Cycle time $=550 \\mathrm{ps}$, Latency $=1700 \\mathrm{ps}$, Throughput $=1$ instruction every 550 ps</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 58"
+        },
+        {
+          "post_id": "478694",
+          "text": "<p>A non-pipelined processor has the following stage latencies:<br>\\begin{array}{|l|l|}<br>\\hline Stage & Latency \\\\<br>\\hline Fetch & 300 ps \\\\<br>\\hline Decode & 400 ps \\\\<br>\\hline Execute & 350 ps \\\\<br>\\hline Memory & 550 ps \\\\<br>\\hline Writeback & 100 ps \\\\<br>\\hline<br>\\end{array}</p><p>Assume no overhead between stages in the non-pipelined design.<br>Which of the following is correct regarding the non-pipelined processor?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Cycle time $=550$ ps, Latency $=1700$ ps, Throughput $=1$ instruction every 550 ps<br>&nbsp;</li><li>Cycle time $=400 \\mathrm{ps}$, Latency $=2000 \\mathrm{ps}$, Throughput $=1$ instruction every 400 ps<br>&nbsp;</li><li>Cycle time $=1700 \\mathrm{ps}$, Latency $=1700 \\mathrm{ps}$, Throughput $=1$ instruction every 1700 ps<br>&nbsp;</li><li>Cycle time $=1700 \\mathrm{ps}$, Latency $=550 \\mathrm{ps}$, Throughput $=1$ instruction every 1700 ps</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 58"
+        },
+        {
+          "post_id": "478692",
+          "text": "<p>Consider cache memory $90 \\%$ hit ratio is required to be installed in a memory system to reduce the average memory access time from 250 ns to 34 ns . Calculate the cache memory access time required?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10$<br>&nbsp;</li><li>$12$<br>&nbsp;</li><li>$15$<br>&nbsp;</li><li>$20$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 58"
+        },
+        {
+          "post_id": "478688",
+          "text": "<p>A direct-mapped cache has 16 blocks and each block holds 8 bytes. For a 16 -bit byte-addressable address, how many bits are needed for the tag field?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$9$<br>&nbsp;</li><li>$10$<br>&nbsp;</li><li>$11$<br>&nbsp;</li><li>$12$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 58"
+        },
+        {
+          "post_id": "478690",
+          "text": "<p>A program consists of 500 instructions in total, including a loop of 100 instructions that is executed 25 times. Initially, all instructions are stored in main memory, and the cache is empty.<br>Assume:</p><ul><li>Main memory access takes 10 units of time</li><li>Cache access takes 1 unit of time</li><li>The cache is large enough to hold all loop instructions</li><li>Program execution time depends only on the time taken to fetch instructions (operand data access is ignored)</li></ul><p>What is the speedup achieved by using the cache?<br>Provide your answer as a numerical value rounded to 2 decimal places.</p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 58"
+        }
+      ]
+    }
+  ]
+}

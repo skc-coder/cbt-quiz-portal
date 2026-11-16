@@ -1,0 +1,70 @@
+{
+  "name": "Day 25 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "473730",
+          "text": "<pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nint x = 180;\nvoid func() {\n    static int x = 10;\n    x += 5;\n    printf(\"%d \", x);\n}\nint main() {\n    int x = 1;\n    printf(\"%d \", x);\n    func();\n    {\n        int x = 50;\n        x++;\n        printf(\"%d \", x);\n        func();\n    }\n    printf(\"%d\", x);\n    return 0;\n}</pre><p>What will be the output of the above program?<br>A 1 15 51 20 1<br>B 1 10 51 15 1<br>C 1 15 51 15 100<br>D 1 15 51 20 100</p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 25"
+        },
+        {
+          "post_id": "473728",
+          "text": "<p>Consider the following recursive function definition:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">function FOO(n)\n    if (n=0) then\n        return 0\n    else if ( n = 1) then\n        return 1\n    else if ( n = 2) then\n        return 3\n    else\n        return n + FOO(n-1) + FOO(n-2)\n    end if\nend function</pre><p>What is the value returned by $F O O(5)$ ?<br>A. $10$<br>B. $14$<br>C. $26$<br>D. $35$</p>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 25"
+        },
+        {
+          "post_id": "473726",
+          "text": "<p>Consider the following C program executed on a little-endian system:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nint main() {\n    int a = 320;\n    char *ptr;\n    ptr = (char *)&a;\n    printf(\"%d \", \"ptr);\n    return 0;\n}\n</pre><p>What will be the output of the program?<br>A. $2$<br>B. $320$<br>C. $64$<br>D. Compilation error</p>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 25"
+        },
+        {
+          "post_id": "473724",
+          "text": "<p>Consider the following C program:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n#include &lt;conio.h&gt;\nvoid main()\n{\n&nbsp; &nbsp; int *ptr, i;\n&nbsp; &nbsp; i = 12;\n&nbsp; &nbsp; *ptr = i * i;\n&nbsp; &nbsp; ++i;\n&nbsp; &nbsp; printf(\"%d %d\", i, *ptr);\n}</pre><p>What will be the output of the above program?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$12,144$</li><li>$13,144$</li><li>$13,0$</li><li>None&nbsp;of&nbsp;these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 25"
+        },
+        {
+          "post_id": "473722",
+          "text": "<p>Study the following program:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\n#include&lt;conio.h&gt;\nvoid main()\n{\nint i, n=2;\n&nbsp; &nbsp; for(i=0; i&lt;2 ; i++ )\n&nbsp; &nbsp; {\n&nbsp; &nbsp; &nbsp; &nbsp; if(!(i&lt;=n) && (++n==i))\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; n=n+2;\n&nbsp; &nbsp; &nbsp; &nbsp; else\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; n=n-2;\n&nbsp; &nbsp; }\n}</pre><p>What will be the output of this program?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3$</li><li>$4$</li><li>$2$</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 25"
+        }
+      ]
+    }
+  ]
+}

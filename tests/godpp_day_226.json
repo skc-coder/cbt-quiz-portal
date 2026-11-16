@@ -1,0 +1,70 @@
+{
+  "name": "Day 215 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524565",
+          "text": "<p>Let's consider the interpretation $v$ where $v(p)=F, v(q)=T, v(r)=T$.</p><p>Does $v$ satisfy the following propositional formulas?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(p \\rightarrow \\neg q) \\vee \\neg(r \\wedge q)$</li><li>$(\\neg p \\vee \\neg q) \\rightarrow(p \\vee \\neg r)$</li><li>$\\neg(\\neg p \\rightarrow \\neg q) \\wedge r$</li><li>$\\neg(\\neg p \\rightarrow q \\wedge \\neg r)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 215"
+        },
+        {
+          "post_id": "524563",
+          "text": "<p>Someone ate Ronaldo's cookies from his seat in the pavilion. There are three suspects: Messi, Mbappe and Haaland. Ofcourse, all three of them deny stealing. When forced to open their mouths, they say:</p><p>Messi: \"Ronaldo knows Mbappe, but Haaland liked his cookies.\"<br>Mbappe: \"I don't even know Ronaldo. Besides, I was on the pitch at that time.\"<br>Haaland: \"I saw both Messi and Mbappe without Ronaldo in the pavilion at that time, one of them must have done it.\"</p><p>Assume that the two innocent men are telling the truth, but the guilty man may or may not be. Who ate the cookies?&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Messi</li><li>Mbappe</li><li>Haaland</li><li>Cannot be determined from the given statements</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 215"
+        },
+        {
+          "post_id": "524561",
+          "text": "<ul><li>p = \"Roses are red\"</li><li>q = \"Violets are blue\"</li></ul><div><p>Which of the following are correct applications of De Morgan's Laws? <em>(Select all that apply)</em></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>¬(p ∨ q) ≡ ¬p ∧ ¬q</li><li>¬(p ∧ q) ≡ ¬p ∨ ¬q</li><li>¬(p ∨ q) ≡ ¬p ∨ ¬q</li><li>¬(¬p ∧ ¬q) ≡ p ∨ q</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 215"
+        },
+        {
+          "post_id": "524554",
+          "text": "<p><strong>Statement 1 </strong>— Mathematician to student: <em>\"If a function is not continuous, then it is not differentiable.\"</em></p><ul><li>C = \"The function is continuous\"</li><li>D = \"The function is differentiable\"</li></ul><p><strong>Statement 2 </strong>— Mother to son<strong>:</strong> <em>\"If you don't do your homework, then you can't watch TV.\"</em></p><ul><li>H = \"Do your homework\"</li><li>T = \"Can watch TV\"</li></ul><div><p>Which of the following pairs of propositions are logically equivalent? <em>(Select all that apply)</em></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>(¬C → ¬D) and (D → C)</li><li>(¬H → ¬T) and (H → T)</li><li>(H ↔ T) and (H → T) ∧ (T → H)</li><li>(¬C → ¬D) and (C → D)</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 215"
+        },
+        {
+          "post_id": "524557",
+          "text": "<ul><li>p = \"Roses are red\"</li><li>q = \"Violets are blue\"</li></ul><div><p>The statement <em>\"It is not true that roses are red and violets are blue\"</em> is logically equivalent to which of the following English sentences ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Roses are not red and violets are not blue</li><li>Roses are not red or violets are not blue</li><li>It is not true that roses are red or violets are blue</li><li>Roses are not red and violets are blue</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 215"
+        }
+      ]
+    }
+  ]
+}

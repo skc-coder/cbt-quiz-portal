@@ -1,0 +1,341 @@
+{
+  "name": "Databases GATE2020: Previous GATE (4)",
+  "duration": "85",
+  "total_qs": "29",
+  "total_qs_one": 12,
+  "total_qs_two": 17,
+  "apti_num_qs": 0,
+  "technical_num_qs": 29,
+  "apti_marks": 0,
+  "technical_marks": 46,
+  "total_marks": 46,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 29,
+      "marks": 46,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "39569",
+          "text": "<p>B+ Trees are considered BALANCED because.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>The lengths of the paths from the root to all leaf nodes are all equal.</li>\n\t<li>The lengths of the paths from the root to all leaf nodes differ from each other by at most $1$.</li>\n\t<li>The number of children of any two non-leaf sibling nodes differ by at most $1$.</li>\n\t<li>The number of records in any two leaf nodes differ by at most $1$.</li>\n</ol>\n\n\n\n",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2016-set2,databases,b-tree,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "39637",
+          "text": "\n<p><span style=\"line-height: 1.6;\">Which of the following is NOT a superkey in a relational schema with attributes $V,W,X,Y,Z$ and primary key $V\\;Y$?</span></p>\n\n<ol style=\"list-style-type: upper-alpha;\"><li>$VXYZ$</li>\n\t<li>$VWXZ$</li>\n\t<li>$VWXY$</li>\n\t<li>$VWXYZ$</li>\n</ol>\n",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2016-set1,databases,database-normalization,easy",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "39644",
+          "text": "\n<p>Which one of the following is NOT a part of the ACID properties of database transactions?</p>\n\n<ol style=\"list-style-type: upper-alpha;\"><li>Atomicity</li>\n\t<li>Consistency</li>\n\t<li>Isolation</li>\n\t<li>Deadlock-freedom</li>\n</ol>\n",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2016-set1,databases,transaction-and-concurrency,easy",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "39646",
+          "text": "<p>A database of research articles in a journal uses the following schema.</p>\n\n<p>$\\text{(VOLUME, NUMBER, STARTPAGE, ENDPAGE, TITLE, YEAR, PRICE)}$</p>\n\n<p>The primary key is '$\\text{(VOLUME, NUMBER, STARTPAGE, ENDPAGE)}$</p>\n\n<p>and the following functional dependencies exist in the schema.</p>\n\n<p>$\\begin{align*}&amp;(\\text{VOLUME , NUMBER, STARTPAGE, ENDPAGE}) &amp; \\rightarrow \\text{TITLE} \\\\ &amp;(\\text{VOLUME, NUMBER}) &amp; \\rightarrow &nbsp;\\text{ YEAR} \\\\ &amp;(\\text{VOLUME, NUMBER, STARTPAGE, ENDPAGE}) &nbsp; &nbsp; &nbsp; &nbsp;&amp;\\rightarrow &nbsp;\\text{PRICE}&nbsp;\\end{align*}$</p>\n\n<p>The database is redesigned to use the following schemas</p>\n\n<p>$(\\text{VOLUME, NUMBER, STARTPAGE, ENDPAGE, TITLE, PRICE}) \\\\ \\text{(VOLUME, NUMBER, YEAR})$</p>\n\n<p>Which is the weakest normal form that the new database satisfies, but the old one does not?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{1NF}$</li>\n\t<li>$\\text{2NF}$</li>\n\t<li>$\\text{3NF}$</li>\n\t<li>$\\text{BCNF}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2016-set1,databases,database-normalization,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "118157",
+          "text": "<p>An ER model of a database consists of entity types $A$ and $B$. These are connected by a relationship $R$ which does not have its own attribute. Under which one of the following conditions, can the relational table for R be merged with that of A?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Relationship $R$ is one-to-many and the participation of $A$ in $R$ is total</li>\n\t<li>Relationship $R$ is one-to-many and the participation of $A$ in $R$ is partial</li>\n\t<li>Relationship $R$ is many-to-one and the participation of $A$ in $R$ is total</li>\n\t<li>Relationship $R$ is many-to-one and the participation of $A$ in $R$ is partial</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2017-set2,databases,er-diagram,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "118236",
+          "text": "<p>Consider the following tables $T1$ and $T2.$</p>\n\n<p>$$\\overset{T1}{\\begin{array}{|c|c|c|} \\hline \\textbf {P} &amp; \\textbf {Q} \\\\\\hline&nbsp;&nbsp;\\text {2} &amp; &nbsp;\\text{2&nbsp;}\\\\\\hline&nbsp;\\text{3} &amp; \\text{8} \\\\\\hline \\text{7} &amp; \\text{3} \\\\\\hline&nbsp;\\text{5} &amp; \\text{8} \\\\\\hline&nbsp; \\text{6&nbsp;} &amp;\\text{9} \\\\\\hline&nbsp;\\text{8} &amp;&nbsp;\\text{5} \\\\\\hline \\text{9} &amp; \\text{8} \\\\\\hline \\end{array}}<br>\n\\qquad \\overset{T2}{\\begin{array}{|c|c|c|} \\hline \\textbf {R} &amp; \\textbf {S} \\\\\\hline&nbsp;&nbsp;\\text {2} &amp; &nbsp;\\text{2&nbsp;}\\\\\\hline&nbsp;\\text{8} &amp; \\text{3} \\\\\\hline \\text{3} &amp; \\text{2} \\\\\\hline&nbsp;\\text{9} &amp; \\text{7} \\\\\\hline&nbsp; \\text{5&nbsp;} &amp;\\text{7} \\\\\\hline&nbsp;\\text{7} &amp;&nbsp;\\text{2}&nbsp; \\\\\\hline \\end{array}}$$</p>\n\n<p>In table $T1$&nbsp;<strong>P</strong> is the primary key and <strong>Q</strong> is the foreign key referencing <strong>R</strong> in table $T2$ with on-delete cascade and on-update cascade. In table $T2,$&nbsp;<strong>R </strong>is the primary key and <strong>S</strong> is the foreign key referencing <strong>P </strong>&nbsp;in table $T1$ with on-delete set NULL and on-update cascade. In order to delete record $\\langle 3, 8 \\rangle$&nbsp;from the table $T1,$ the number of additional records that need to be deleted from table $T1$ is _______</p>",
+          "type": "Numerical",
+          "answer": "0.00",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gatecse-2017-set2,databases,numerical-answers,referential-integrity,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "118296",
+          "text": "<p>The following functional dependencies hold true for the relational schema $R\\left \\{V,W,X,Y,Z \\right \\}$:</p><ul><li>$V \\rightarrow W$</li><li>$VW \\rightarrow&nbsp;X$</li><li>$Y \\rightarrow&nbsp;VX$</li><li>$Y \\rightarrow&nbsp;Z$</li></ul><p>Which of the following is irreducible equivalent for this set of functional dependencies?</p><ol class=\"shrink-inline-options\" style=\"list-style-type:upper-alpha\"><li>$V \\rightarrow&nbsp;W$<br>$V \\rightarrow&nbsp;X$<br>$Y \\rightarrow&nbsp;V$<br>$Y \\rightarrow&nbsp;Z$</li><li>$V \\rightarrow&nbsp;W$<br>$W \\rightarrow&nbsp;X$<br>$Y \\rightarrow&nbsp;V$<br>$Y \\rightarrow&nbsp;Z$</li><li>$V \\rightarrow&nbsp;W$<br>$V \\rightarrow&nbsp;X$<br>$Y \\rightarrow&nbsp;V$<br>$Y \\rightarrow&nbsp;X$<br>$Y \\rightarrow&nbsp;Z$</li><li>$V \\rightarrow&nbsp;W$<br>$W \\rightarrow&nbsp;X$<br>$Y \\rightarrow&nbsp;V$<br>$Y \\rightarrow&nbsp;X$<br>$Y \\rightarrow&nbsp;Z$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2017-set1,databases,database-normalization,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "118303",
+          "text": "<p>Consider a database that has the relation schema EMP (EmpId, EmpName, and DeptName). An instance of the schema EMP and a SQL query on it are given below:</p><p>$$\\small \\overset{\\text{EMP}}{\\begin{array}{|c|c|c|}\\hline<br>\\textbf{EmpId}&amp;&nbsp; &nbsp; \\textbf{EmpName}&amp;&nbsp; \\textbf{DeptName}\\\\\\hline<br>1&amp;&nbsp; &nbsp; &nbsp;\\text{XYA}&amp; \\text{AA} &nbsp; \\\\ \\hline&nbsp; &nbsp;<br>2&amp; &nbsp; &nbsp; \\text{XYB}&amp; \\text{AA} \\\\&nbsp; &nbsp; &nbsp;\\hline<br>3&amp; &nbsp; &nbsp; \\text{XYC}&amp; \\text{AA} &nbsp; &nbsp; &nbsp; \\\\\\hline<br>4&amp; &nbsp; &nbsp; \\text{XYD}&amp; \\text{AA} &nbsp; &nbsp; \\\\\\hline<br>5&amp; &nbsp; &nbsp; \\text{XYE}&amp; \\text{AB} &nbsp; \\\\\\hline&nbsp; &nbsp;&nbsp;<br>6&amp; &nbsp; &nbsp; \\text{XYF}&amp; \\text{AB} &nbsp; &nbsp; \\\\\\hline&nbsp; &nbsp;<br>7&amp; &nbsp; &nbsp; \\text{XYG}&amp; \\text{AB} &nbsp; &nbsp; &nbsp; \\\\\\hline&nbsp;<br>8&amp; &nbsp; &nbsp; \\text{XYH}&amp; \\text{AC} &nbsp; &nbsp; &nbsp; \\\\\\hline&nbsp;<br>9&amp; &nbsp; &nbsp; \\text{XYI}&amp; \\text{AC} &nbsp; &nbsp; &nbsp; \\\\\\hline&nbsp;<br>10&amp; &nbsp; &nbsp; \\text{XYJ}&amp; \\text{AC} \\\\\\hline 11&amp;\\text{XYK} &amp; \\text{AD} \\\\\\hline 12 &amp; \\text{XYL}&amp; \\text{AD} \\\\\\hline 13&nbsp;&amp; \\text{XYM} &amp; \\text{AE}<br>\\\\\\hline\\end{array}}$$</p><pre class=\"prettyprint lang-c_cpp\">SELECT AVG(EC.Num)\nFROM EC\nWHERE (DeptName, Num) IN\n    (SELECT DeptName, COUNT(EmpId) AS\n                        EC(DeptName, Num)\n    FROM EMP\n    GROUP BY DeptName)</pre><p>The output of executing the SQL query is _____________ .</p>",
+          "type": "Numerical",
+          "answer": "2.6",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gatecse-2017-set1,databases,sql,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "204086",
+          "text": "<p>Consider the following two tables and four queries in SQL.</p>\n\n<p>Book (isbn, bname), Stock(isbn, copies)</p>\n\n<p>Query 1:&nbsp;</p>\n\n<pre class=\"prettyprint lang-sql\">\nSELECT B.isbn, S.copies FROM Book B INNER JOIN Stock S ON B.isbn=S.isbn;</pre>\n\n<p>Query 2: &nbsp;</p>\n\n<pre class=\"prettyprint lang-sql\">\nSELECT B.isbn, S.copies FROM Book B LEFT OUTER JOIN Stock S ON B.isbn=S.isbn;</pre>\n\n<p>Query 3:&nbsp;</p>\n\n<pre class=\"prettyprint lang-sql\">\nSELECT B.isbn, S,copies FROM Book B RIGHT OUTER JOIN Stock S ON B.isbn=S.isbn</pre>\n\n<p>Query 4:&nbsp;</p>\n\n<pre class=\"prettyprint lang-sql\">\nSELECT B.isbn, S.copies FROM Book B FULL OUTER JOIN Stock S ON B.isbn=S.isbn</pre>\n\n<p>Which one of the queries above is certain to have an output that is a superset of the outputs of the other three queries?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Query 1</li>\n\t<li>Query 2</li>\n\t<li>Query 3</li>\n\t<li>Query 4</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2018,databases,sql,easy,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "204085",
+          "text": "<p>In an Entity-Relationship (ER) model, suppose $R$ is a many-to-one relationship from entity set E1 to entity set E2. Assume that E1 and E2 participate totally in $R$ and that the cardinality of E1 is greater than the cardinality of E2.</p>\n\n<p>Which one of the following is true about $R$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Every entity in E1 is associated with exactly one entity in E2</li>\n\t<li>Some entity in E1 is associated with more than one entity in E2</li>\n\t<li>Every entity in E2 is associated with exactly one entity in E1</li>\n\t<li>Every entity in E2 is associated with at most one entity in E1</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2018,databases,er-diagram,normal,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "302834",
+          "text": "<p>Which one of the following statements is NOT correct about the $B^+$ tree data structure used for creating an index of a relational database table?</p><ol style=\"list-style-type:upper-alpha\"><li>$B^+$ Tree is a height-balanced tree</li><li>Non-leaf nodes have pointers to data records</li><li>Key values in each node are kept in sorted order</li><li>Each leaf node has a pointer to the next leaf node</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2019,databases,b-tree,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "302837",
+          "text": "<p>Consider the following two statements about database transaction schedules:</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Strict two-phase locking protocol generates conflict serializable&nbsp;schedules that are also recoverable.</li>\n\t<li>Timestamp-ordering concurrency control protocol with Thomas’ Write Rule can generate view serializable&nbsp;schedules that are not conflict serializable</li>\n</ol>\n\n<p>Which of the above statements is/are TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>I only</li>\n\t<li>II only</li>\n\t<li>Both I and II</li>\n\t<li>Neither I nor II</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2019,databases,transaction-and-concurrency,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "39604",
+          "text": "<p>Consider the following database table named water_schemes:<br>\n$$\\overset{\\text{Water_schemes}}{\\begin{array}{|c|c|c|}\\hline<br>\n\\textbf{scheme_no}&amp;&nbsp; &nbsp; \\textbf{district_name}&amp;&nbsp; \\textbf{capacity} \\\\\\hline<br>\n1&amp;&nbsp; &nbsp; &nbsp;\\text{Ajmer}&amp; &nbsp; &nbsp;&nbsp; &nbsp;20&nbsp; \\\\ \\hline&nbsp; &nbsp;<br>\n1&amp; &nbsp; &nbsp; \\text{Bikaner}&amp; 10 \\\\&nbsp; &nbsp; &nbsp;\\hline<br>\n2&amp; &nbsp; &nbsp; \\text{Bikaner}&amp; &nbsp;10&nbsp; &nbsp; &nbsp; \\\\\\hline<br>\n3&amp; &nbsp; &nbsp; \\text{Bikaner}&amp;20&nbsp; &nbsp; &nbsp;\\\\\\hline<br>\n1&amp; &nbsp; &nbsp; \\text{Churu}&amp; &nbsp; &nbsp; 10&nbsp; \\\\\\hline&nbsp; &nbsp;&nbsp;<br>\n2&amp; &nbsp; &nbsp; \\text{Churu}&amp; 20&nbsp; &nbsp;\\\\\\hline&nbsp; &nbsp;<br>\n1&amp; &nbsp; &nbsp; \\text{Dungargarh}&amp; &nbsp;10&nbsp; &nbsp; &nbsp; \\\\\\hline&nbsp;<br>\n\\end{array}}$$</p>\n\n<p>The number of tuples returned by the following SQL query is _________.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nwith total (name, capacity) as \n    select district_name, sum (capacity) \n    from water_schemes\n    group by district_name \nwith total_avg (capacity) as \n   select avg (capacity) \n&nbsp;  from total \nselect name \n&nbsp;  from total, total_avg \n   where total.capacity ≥ total_avg.capacity\n</pre>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gatecse-2016-set2,databases,sql,normal,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "39703",
+          "text": "<p>Consider the following two phase locking protocol. Suppose a transaction $T$ accesses (for read or write operations), a certain set of objects $\\{O_1,\\ldots,O_k \\}$. This is done in the following manner:</p>\n\n<ul>\n\t<li>$\\text{Step 1}$. $T$ acquires exclusive locks to $O_1,\\ldots,O_k$ in increasing order of their addresses.</li>\n\t<li>$\\text{Step 2}$. The required operations are performed .</li>\n\t<li>$\\text{Step 3}$. All locks are released</li>\n</ul>\n\n<p>This protocol will</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>&nbsp;guarantee serializability and &nbsp;deadlock-freedom&nbsp;</li>\n\t<li>&nbsp;guarantee neither serializability nor deadlock-freedom&nbsp;</li>\n\t<li>&nbsp;guarantee serializability but not deadlock-freedom &nbsp;</li>\n\t<li>&nbsp;guarantee deadlock-freedom but not serializability.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2016-set1,databases,transaction-and-concurrency,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "43290",
+          "text": "<p>Relation $R$ has eight attributes $\\text{ABCDEFGH}$. Fields of $R$ contain only atomic values. $F&nbsp;= \\text{{CH $\\rightarrow$ G, A $\\rightarrow$ BC, B $\\rightarrow$ CFH, E $\\rightarrow$ A, F $\\rightarrow$ EG}}$ is a set of functional dependencies $(FDs)$ so that $F^+$ is exactly the set of $FDs$ that hold for $R$.</p>\n\n<p>The relation $R$ is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>in $\\text{1NF}$, but not in $\\text{2NF}$.</li>\n\t<li>in $\\text{2NF}$, but not in $\\text{3NF}$.</li>\n\t<li>in $\\text{3NF}$, but not in $\\text{BCNF}$.</li>\n\t<li>in $\\text{BCNF}$.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2013,databases,database-normalization,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "43313",
+          "text": "<p>Consider the following relations $A, B$ and $C:$<br>\n&nbsp;</p>\n\n<p>$$\\overset{\\textbf{A}}{\\begin{array}{|c|c|c|}\\hline\\\\<br>\n\\textbf{Id}&amp;&nbsp; &nbsp; \\textbf{Name}&amp;&nbsp; \\textbf{Age} \\\\\\hline<br>\n12&amp;&nbsp; &nbsp; &nbsp;\\text{Arun}&amp;&nbsp; &nbsp; 60&nbsp;\\\\ \\hline&nbsp; &nbsp;<br>\n15&amp; &nbsp; &nbsp; \\text{Shreya}&amp; 24&nbsp;\\\\&nbsp; &nbsp; &nbsp;\\hline<br>\n99&amp; &nbsp; &nbsp; \\text{Rohit}&amp;&nbsp; 11&nbsp; &nbsp; \\\\\\hline<br>\n\\end{array}}\\qquad \\overset{\\textbf{B}}{\\begin{array}{|c|c|c|}\\hline\\\\<br>\n\\textbf{Id}&amp;&nbsp; &nbsp; \\textbf{Name}&amp;&nbsp; \\textbf{Age} \\\\\\hline<br>\n15&amp; &nbsp; &nbsp; \\text{Shreya}&amp; 24&nbsp;\\\\&nbsp; &nbsp; &nbsp;\\hline 25 &amp; \\text{Hari} &amp; 40 \\\\ \\hline 98 &amp; \\text{Rohit} &amp; 20 \\\\ \\hline<br>\n99&amp; &nbsp; &nbsp; \\text{Rohit}&amp;&nbsp; 11&nbsp; &nbsp; \\\\\\hline<br>\n\\end{array}}\\qquad \\overset{\\textbf{C}}{\\begin{array}{|c|c|c|}\\hline\\\\<br>\n\\textbf{Id}&amp;&nbsp; &nbsp; \\textbf{Phone}&amp;&nbsp; \\textbf{Area} \\\\\\hline<br>\n10&amp;&nbsp; &nbsp; &nbsp;2200&amp;&nbsp; &nbsp; 02&nbsp;\\\\ \\hline&nbsp; &nbsp;<br>\n99&amp;&nbsp; &nbsp; &nbsp;2100&amp; 01\\\\&nbsp; &nbsp; &nbsp;\\hline<br>\n\\end{array}}$$</p>\n\n<p>How many tuples does the result of the following SQL query contain?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nSELECT A.Id \nFROM A \nWHERE A.Age &gt; ALL (SELECT B.Age \n                    FROM B \n                    WHERE B.Name = ‘Arun’)\n</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n<li>$4$</li>\n<li>$3$</li>\n<li>$0$</li>\n<li>$1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2012,databases,sql,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "43474",
+          "text": "<p>Consider the following relational schema:</p><ul><li>$\\text{Suppliers}(\\underline{\\text{sid:integer}},\\text{ sname:string, city:string, street:string})$&nbsp;</li><li>$\\text{Parts}(\\underline{\\text{pid:integer}}, \\text{ pname:string, color:string})$&nbsp;</li><li>$\\text{Catalog}(\\underline {\\text{sid:integer, pid:integer}}, \\text{cost:real})$</li></ul><p>Assume that, in the suppliers relation above, each supplier and each street within a city has unique name, and (sname, city) forms a candidate key. No other functional dependencies are implied other than those implied by primary and candidate keys. Which one of the following is $\\text{TRUE}$ about the above schema?</p><ol style=\"list-style-type:upper-alpha\"><li>The schema is in $\\text{BCNF}$</li><li>The schema is in $\\text{3NF}$ but not in $\\text{BCNF}$</li><li>The schema is in $\\text{2NF}$ but not in $\\text{3NF}$</li><li>The schema is not in $\\text{2NF}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2009,databases,sql,database-normalization,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "87025",
+          "text": "<p>Consider the following $\\text{ER}$ diagram</p>\n\n<p><img alt=\"\" src=\"data:image/png;base64,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fLKES3m45NglhQmWcKkm4zA5ZQmX8nDJs0sKEyzhUk2mYfLKEi7l4ZJrlxQmWMKlmgzD5JYlXMrDJd8uKUywhEs1mYXJL0u4lIdLzl1SmGAJl2oyCpNjlnApD5e8u6QwwRIumakMU1yWcCkPl9y7pDDBEi6ZqQxTWJZwKQ+X/LukMMESLpmpDFNUlkouPW0rXNo0XKqHCZZwyUxlmIKyVHDJWri0abhUD9MhWMIlM5VhiskSLuXhUgiXFCZYwiUzlWEKydI/uvSqxXCpHC5tCyZYwqWaDMBUYOlObyypSw2GS+vh0vZggiVcMlMZpoAs4VIeLkVxSWGCJVwyUxmmeCzhUh4uhXFJYYIlXDJQBUwdSw86ZwmX8nApjksKEyzhkpnKMEVjCZfycCmQSwpTeJZwyU5lmIKxhEuFeuXSp03m0iWFKTpLabnVVbp0qQRTLJbSHml1lW261GwOXVKYgrOUlqXdHLq0GUx3R2Ep7ZGGwyUNl/4LTLFZwiVTlWGKxBIu/Z8daTiXLilMoVlqepUuXSrBFIiltOdIw7XmEllLYYrMEtmqDFMglohi18EES2SkMkywRBSlDiZYIguVYYIlokB1MMESWagMEywRBaqDCZbIQmWYvP+JR0R/gwmWyEBlmGCJKFIdTLBEhlKYYIkoaB1MsESGUphgiShoHUywRIZSmGCJKGgdTLBEhlKYYIkoaB1MsESGUphgiShoHUywRIZSmGCJKGgdTLBEhlKYYIkoaB1MsESGUphgiShoHUywRIZSmGCJKGgdTLBEhlKYYIkoaB1MsESGUphgiShol2CCJTKUwgRLRFFbgwmWyFAKEywRha0flshcA7BEFLl+WCJzDcASUeT6YYnMNQBLREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREQb+wvuaL9HPwPJLQAAAABJRU5ErkJggg==\" width=\"724\"></p>\n\n<p>The minimum number of tables needed to represent $M$, $N$, $P$, $R1$, $R2$ is</p>\n\n<p>&nbsp;Which of the following is a correct attribute set for one of the tables for the minimum number of tables needed to represent $M$, $N$, $P$, $R1$, $R2$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>${M1, M2, M3, P1}$</li>\n\t<li>${M1, P1, N1, N2}$</li>\n\t<li>${M1, P1, N1}$</li>\n\t<li>${M1,&nbsp;P1}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2008,databases,er-diagram,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "118324",
+          "text": "<p>Consider a database that has the relation schemas EMP(EmpId, EmpName, DeptId), and DEPT(DeptName, DeptId). Note that the DeptId can be permitted to be NULL in the relation EMP. Consider the following queries on the database expressed in tuple relational calculus.</p>\n\n<ol style=\"list-style-type: upper-roman;\">\n\t<li>{$t$ | $\\exists$u $\\in$ EMP(t[EmpName] = u[EmpName] $\\wedge$ $\\forall$v $\\in$ DEPT(t[DeptId] $\\neq$ v[DeptId]))}</li>\n\t<li>{$t$ | $\\exists$u $\\in$ EMP(t[EmpName] = u[EmpName] $\\wedge$ $\\exists$v $\\in$ DEPT(t[DeptId] $\\neq$ v[DeptId]))}</li>\n\t<li>{$t$ | $\\exists$u $\\in$ EMP(t[EmpName] = u[EmpName] $\\wedge$ $\\exists$v $\\in$ DEPT(t[DeptId] $=$ v[DeptId]))}</li>\n</ol>\n\n<p>Which of the above queries are safe?</p>\n\n<ol style=\"list-style-type: upper-alpha;\">\n\t<li>I and II only</li>\n\t<li>I and III only</li>\n\t<li>II and III only</li>\n\t<li>I, II and&nbsp;III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2017-set1,databases,relational-calculus,safe-query,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "118325",
+          "text": "<p>In a database system, unique timestamps are assigned to each transaction using Lamport's logical clock. Let $TS(T_{1})$ and $TS(T_{2})$ be the timestamps of transactions $T_{1}$ and $T_{2}$ respectively. Besides, $T_{1}$ holds a lock on the resource $R,$ and $T_{2}$ has requested a conflicting lock on the same resource $R.$ The following algorithm is used to prevent deadlocks in the database system assuming that a killed transaction is restarted with the same timestamp.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if $TS(T_{2})&lt;TS(T_{1})$ then<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$T_{1}$ is killed<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else $T_{2}$ waits.<br><br>Assume any transaction that is not killed terminates eventually. Which of the following is TRUE about the database system that uses the above algorithm to prevent deadlocks?</p><ol style=\"list-style-type:upper-alpha\"><li>The database system is both deadlock-free and starvation-free.</li><li>The database system is deadlock-free, but not starvation-free.</li><li>The database system is starvation-free, but not deadlock-free.</li><li>The database system is neither deadlock-free nor starvation-free.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2017-set1,databases,timestamp-ordering,normal,transaction-and-concurrency",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "118329",
+          "text": "<p>Consider a database that has the relation schema CR(StudentName, CourseName). An instance of the schema CR is as given below.<br>\n$$\\begin{array}{|c|c|} \\hline \\textbf{StudentName} &amp;&nbsp;\\textbf {CourseName} \\\\\\hline \\text {SA} &amp; &nbsp;\\text{CA} \\\\\\hline \\text{SA} &amp; \\text{CB}\\\\\\hline \\text{SA} &amp; \\text{CC}&nbsp;\\\\\\hline \\text{SB} &amp; \\text{CB}&nbsp;\\\\\\hline \\text{SB}&amp; \\text{CC}&nbsp;\\\\\\hline&nbsp;\\text{SC} &amp; \\text{CA}\\\\\\hline \\text{SC}&amp;\\text{CB}&nbsp;\\\\\\hline \\text{SC} &amp; \\text{CC} \\\\\\hline&nbsp;\\text {SD} &amp; &nbsp;\\text{CA} \\\\\\hline \\text{SD} &amp; \\text{CB}\\\\\\hline \\text{SD} &amp; \\text{CC}&nbsp;\\\\\\hline \\text{SD} &amp; \\text{CD}&nbsp;\\\\\\hline \\text{SE}&amp; \\text{CD}&nbsp;\\\\\\hline&nbsp;\\text{SE} &amp; \\text{CA}\\\\\\hline \\text{SE}&amp;\\text{CB}&nbsp;\\\\\\hline \\text{SF}&amp; \\text{CA} \\\\\\hline \\text{SF} &amp; \\text{CB }\\\\\\hline\\text{SF} &amp; \\text{CC} \\\\\\hline \\end{array}$$<br>\nThe following query is made on the database.</p>\n\n<ul>\n<li>$T1 \\leftarrow \\pi _{CourseName}\\left ( \\sigma _{StudentName=SA}\\left ( CR \\right ) \\right )$</li>\n<li>$T2 \\leftarrow CR\\div T1$</li>\n</ul>\n\n<p>The number of rows in $T2$ is ______________ .</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gatecse-2017-set1,databases,relational-algebra,normal,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "118391",
+          "text": "<p>Consider the following database table named $\\text{top_scorer}$.</p>\n\n<p>$$\\overset{\\text{top_scorer}}{\\begin{array}{|c|c|c|}\\hline\\\\<br>\n\\textbf{player}&amp;&nbsp; &nbsp; \\textbf{country}&amp;&nbsp; \\textbf{goals}&nbsp;\\\\\\hline<br>\n\\text{Klose}&amp;&nbsp; &nbsp; &nbsp; \\text{Germany}&amp; &nbsp; &nbsp;16\\\\ \\hline&nbsp; &nbsp;<br>\n\\text{Ronaldo}&amp; &nbsp; &nbsp; \\text{Brazil}&amp; 15 \\\\&nbsp; &nbsp; &nbsp;\\hline<br>\n\\text{G Muller}&amp; &nbsp; &nbsp; \\text{Germany}&amp; &nbsp;14&nbsp; &nbsp; &nbsp;\\\\\\hline<br>\n\\text{Fontaine}&amp; &nbsp; &nbsp; \\text{France}&amp; 13&nbsp; &nbsp; \\\\\\hline<br>\n\\text{Pele}&amp; &nbsp; &nbsp; \\text{Brazil}&amp; &nbsp; &nbsp; 12 \\\\\\hline&nbsp; &nbsp;&nbsp;<br>\n\\text{Klinsmann}&amp; &nbsp; &nbsp; \\text{Germany}&amp; 11&nbsp; &nbsp;\\\\\\hline&nbsp; &nbsp;<br>\n\\text{Kocsis}&amp; &nbsp; &nbsp; \\text{Hungary}&amp; &nbsp;11&nbsp; &nbsp; &nbsp; \\\\\\hline&nbsp;<br>\n\\text{Batistuta}&amp; &nbsp; &nbsp; \\text{Argentina}&amp;10&nbsp; &nbsp; &nbsp; \\\\\\hline&nbsp;<br>\n\\text{Cubillas}&amp; &nbsp; &nbsp; \\text{Peru}&amp;10&nbsp; &nbsp; &nbsp;\\\\\\hline&nbsp;<br>\n\\text{Lato}&amp; &nbsp; &nbsp; \\text{Poland}&amp; &nbsp;10 \\\\\\hline&nbsp;\\text{Lineker}&amp; &nbsp; &nbsp; \\text{England}&amp; 10&nbsp; &nbsp; &nbsp; &nbsp;\\\\\\hline&nbsp;<br>\n\\text{T Muller}&amp; &nbsp; &nbsp; \\text{Germany}&amp; &nbsp;10&nbsp; &nbsp; &nbsp; \\\\\\hline&nbsp;<br>\n\\text{Rahn}&amp; &nbsp; &nbsp; \\text{Germany}&amp; 10 \\\\\\hline&nbsp;<br>\n\\end{array}}$$</p>\n\n<p>Consider the following SQL query:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"\">\nSELECT ta.player FROM top_scorer AS ta\nWHERE ta.goals &gt;ALL (SELECT tb.goals\n    FROM top_scorer AS tb\n    WHERE tb.country = 'Spain')\nAND ta.goals &gt; ANY (SELECT tc.goals\n    FROM top_scorer AS tc\n    WHERE tc.country='Germany')</pre>\n\n<p>The number of tuples returned&nbsp;by the above SQL query is ______</p>",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gatecse-2017-set2,databases,sql,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "118561",
+          "text": "In a $B^+$ Tree , if the search-key value is $8$ bytes long , the block size is $512$ bytes and the pointer size is $2\\;\\text{B}$ , then the maximum order of the $B^+$ Tree is ____",
+          "type": "Numerical",
+          "answer": "52",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gatecse-2017-set2,databases,b-tree,numerical-answers,normal",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "118640",
+          "text": "Two transactions $T_1$ and $T_2$ are given as\n\n$T_1:r_1(X)w_1(X)r_1(Y)w_1(Y)$\n\n$T_2:r_2(Y)w_2(Y)r_2(Z)w_2(Z)$\n\nwhere $r_i(V)$ denotes a $\\textit{read}$ operation by transaction $T_i$ on a variable $V$ and $w_i(V)$ denotes a $\\textit{write}$ operation by transaction $T_i$ on a variable $V$. The total number of conflict serializable schedules that can be formed by $T_1$ and $T_2$ is ______",
+          "type": "Numerical",
+          "answer": "54",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gatecse-2017-set2,databases,transaction-and-concurrency,numerical-answers,conflict-serializable",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "204116",
+          "text": "<p>Consider the following four relational schemas. For each schema , all non-trivial functional dependencies are listed, The <strong>bolded</strong> attributes are the respective primary keys.</p>\n\n<p>$\\text{Schema I:}$ Registration(<u>rollno</u>, courses)</p>\n\n<p>Field ‘courses’ is a set-valued attribute containing the set of courses a student has registered for.</p>\n\n<p>Non-trivial functional dependency</p>\n\n<p>rollno $\\rightarrow$ courses</p>\n\n<p>$\\text{Schema II:}$ Registration (<u>rollno, coursid</u>, email)</p>\n\n<p>Non-trivial functional dependencies:</p>\n\n<p>rollno, courseid $\\rightarrow$ email</p>\n\n<p>email $\\rightarrow$ rollno</p>\n\n<p>$\\text{Schema III:}$ Registration (<u>rollno, courseid</u>, marks, grade)</p>\n\n<p>Non-trivial functional dependencies:</p>\n\n<p>rollno, courseid, $\\rightarrow$ marks, grade</p>\n\n<p>marks $\\rightarrow$ grade</p>\n\n<p>$\\text{Schema IV:}$ Registration (<u>rollno, courseid</u>, credit)</p>\n\n<p>Non-trivial functional dependencies:</p>\n\n<p>rollno, courseid $\\rightarrow$ credit</p>\n\n<p>courseid $\\rightarrow$ credit</p>\n\n<p>Which one of the relational schemas above is in $\\text{3NF}$ but not in $\\text{BCNF}$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{Schema I}$</li>\n\t<li>$\\text{Schema II}$</li>\n\t<li>$\\text{Schema III}$</li>\n\t<li>$\\text{Schema IV}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2018,databases,database-normalization,normal,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "204115",
+          "text": "<p>Consider the relations $r(A, B)$ and $s(B, C)$, where $s.B$ is a primary key and $r.B$ is a foreign key referencing $s.B$. Consider the query</p>\n\n<p>$Q: r \\bowtie&nbsp;(\\sigma_{B&lt;5} (s))$</p>\n\n<p>Let LOJ denote the natural left outer-join operation. Assume that $r$ and $s$ contain no null values.</p>\n\n<p>Which of the following is NOT equivalent to $Q$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\sigma_{B&lt;5} (r \\bowtie&nbsp;s)$</li>\n\t<li>$\\sigma_{B&lt;5} (r \\: LOJ \\:&nbsp;s)$</li>\n\t<li>$r \\: LOJ \\: (\\sigma_{B&lt;5}&nbsp;&nbsp;(s))$</li>\n\t<li>$\\sigma_{B&lt;5} (r) \\: LOJ \\:&nbsp;s$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2018,databases,relational-algebra,normal,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "302793",
+          "text": "Consider the following relations $P(X,Y,Z), Q(X,Y,T)$ and $R(Y,V)$.\n$$\\overset{\\textbf{Table: P}}{\\begin{array}{|l|l|l|} \\hline \\textbf{X} & \\textbf{Y} & \\textbf{Z} \\\\\\hline \\text{X1} & \\text{Y1} & \\text{Z1} \\\\\\hline \\text{X1} & \\text{Y1} & \\text{Z2} \\\\\\hline \\text{X2} & \\text{Y2} & \\text{Z2} \\\\\\hline \\text{X2} & \\text{Y4} & \\text{Z4} \\\\\\hline  \\end{array}} \\qquad \\overset{\\textbf{Table: Q}}{\\begin{array}{|l|l|l|} \\hline  \\textbf{X} & \\textbf{Y} & \\textbf{T} \\\\\\hline \\text{X2} & \\text{Y1} & 2 \\\\\\hline \\text{X1} & \\text{Y2} & 5 \\\\\\hline \\text{X1} & \\text{Y1} & 6 \\\\\\hline \\text{X3} & \\text{Y3} & 1 \\\\\\hline  \\end{array}} \\qquad \\overset{\\textbf{Table: R}}{\\begin{array}{|l|l|} \\hline \\textbf{Y} & \\textbf{V}  \\\\\\hline \\text{Y1} & \\text{V1} \\\\\\hline \\text{Y3} & \\text{V2} \\\\\\hline \\text{Y2} & \\text{V3} \\\\\\hline \\text{Y2} & \\text{V2} \\\\\\hline  \\end{array}}$$\nHow many tuples will be returned by the following relational algebra query?\n\n$\\Pi_x (\\sigma_{(P.Y=R.Y \\wedge R.V=V2))} (P \\times R)) – \\Pi_x (\\sigma_{(Q.Y = R.Y \\wedge Q.T>2))} (Q \\times R))$\n\nAnswer: ________",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gatecse-2019,numerical-answers,databases,relational-algebra,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "302797",
+          "text": "<p>A relational database contains two tables Student and Performance as shown below:</p>\n\n<p>$$\\overset{\\text{Table: student}}{\\begin{array}{|l|l|} \\hline \\text{Roll_no} &amp; \\text{Student_name}\\\\\\hline 1 &amp; \\text{Amit} \\\\\\hline 2&nbsp;&amp; \\text{Priya} \\\\\\hline 3&nbsp;&amp; \\text{Vinit} \\\\\\hline&nbsp;4&nbsp;&amp; \\text{Rohan} \\\\\\hline 5&nbsp;&amp; \\text{Smita} \\\\\\hline \\end{array}} \\qquad\\overset{\\text{Table: Performance}}{\\begin{array}{|l|l|l|} \\hline \\text{Roll_no} &amp; \\text{Subject_code} &amp; \\text{Marks}\\\\\\hline 1 &amp; \\text{A} &amp; 86 \\\\\\hline 1 &amp; \\text{B} &amp; 95&nbsp;\\\\\\hline 1 &amp; \\text{C} &amp; 90&nbsp;\\\\\\hline 2&nbsp;&amp; \\text{A} &amp; 89&nbsp;\\\\\\hline&nbsp;2&nbsp;&amp; \\text{C} &amp; 92&nbsp;\\\\\\hline&nbsp;3&nbsp;&amp; \\text{C} &amp; 80&nbsp;\\\\\\hline \\end{array}}$$</p>\n\n<p>The primary key of the Student table is Roll_no. For the performance table, the columns Roll_no. and Subject_code together form the primary key. Consider the SQL query given below:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT S.Student_name, sum(P.Marks) \nFROM Student S, Performance P \nWHERE P.Marks &gt;84 \nGROUP BY S.Student_name;</pre>\n\n<p>The number of rows returned by the above SQL query is ________</p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gatecse-2019,numerical-answers,databases,sql,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "302816",
+          "text": "<p>Let the set of functional dependencies $F=\\{QR \\rightarrow S, \\: R \\rightarrow P, \\: S \\rightarrow Q \\}$ hold on a relation schema $X=(PQRS)$. $X$ is not in BCNF. Suppose $X$ is decomposed into two schemas $Y$ and $Z$, where $Y=(PR)$ and $Z=(QRS)$.</p>\n\n<p>Consider the two statements given below.</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Both $Y$ and $Z$ are in BCNF</li>\n\t<li>Decomposition of $X$ into $Y$ and $Z$ is dependency preserving and lossless</li>\n</ol>\n\n<p>Which of the above statements is/are correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Both I and II</li>\n\t<li>I only</li>\n\t<li>II only</li>\n\t<li>Neither I nor II</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2019,databases,database-normalization,two-marks",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

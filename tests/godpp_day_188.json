@@ -1,0 +1,70 @@
+{
+  "name": "Day 184 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "516829",
+          "text": "<p>Two processes, $P 1$ and $P 2$, share a common variable $X$, which is initialized to $10$. They also use a binary semaphore $S$, initialized to $1$ . The processes execute the following code concurrently:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">Process P1:\nwait(S);\nX = X + 5;\nsignal(S);\n\nProcess P2:\nwait(S);\nX = X * 2;\nsignal(S);</pre><p><br>What are the possible final values of $X$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$15$<br>&nbsp;</li><li>$20$<br>&nbsp;</li><li>$25$<br>&nbsp;</li><li>$30$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 184"
+        },
+        {
+          "post_id": "516826",
+          "text": "<p>Which of the following conditions is the MOST direct cause of 'Thrashing' in a virtual memory system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE CPU UTILIZATION IS TOO HIGH DUE TO INTENSIVE COMPUTATION.<br>&nbsp;</li><li>THE SUM OF THE WORKING SET SIZES OF ALL ACTIVE PROCESSES EXCEEDS THE TOTAL PHYSICAL MEMORY.<br>&nbsp;</li><li>THE PAGE TABLE SIZE EXCEEDS THE AVAILABLE CACHE (TLB) SPACE.<br>&nbsp;</li><li>THE DISK SCHEDULING ALGORITHM IS INEFFICIENCT (E.G., FCFS INSTEAD OF SSTF).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 184"
+        },
+        {
+          "post_id": "516823",
+          "text": "<p>Consider a disk queue with requests for I/O to blocks on cylinders $98, 183,37,122,14,124,65$, and 67 . The disk head is initially at cylinder $53$. Using the SCAN algorithm (Elevator) and assuming the head is moving towards higher cylinder numbers, what is the total head movement (in number of cylinders) to satisfy all requests if the disk has $200$ cylinders $(0$ to $199)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$331$<br>&nbsp;</li><li>$345$<br>&nbsp;</li><li>$236$<br>&nbsp;</li><li>$185$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 184"
+        },
+        {
+          "post_id": "516818",
+          "text": "<p>Consider a system with three processes, $P_1, P_2$, and $P_3$, with arrival times and burst times as shown in the table below. The system uses a <strong>Preemptive Priority Scheduling</strong> algorithm. Note that a <strong>lower priority number</strong> indicates a <strong>higher priority.</strong></p><p>\\[<br>\\begin{array}{llll}<br>\\text{Process} & \\text{Arrival Time} & \\text{Burst Time} & \\text{Priority} \\\\<br>P_1 & 0 & 7 & 3 \\\\<br>P_2 & 2 & 4 & 1 \\\\<br>P_3 & 4 & 2 & 2<br>\\end{array}<br>\\]<br>&nbsp;</p><p>What is the <strong>Average Waiting Time</strong> for these processes?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2.00$<br>&nbsp;</li><li>$2.33$<br>&nbsp;</li><li>$2.67$<br>&nbsp;</li><li>$3.00$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 184"
+        },
+        {
+          "post_id": "516820",
+          "text": "<p>Consider a system with a $32$-bit logical address space and a page size of $4 ~\\mathrm{KB}$. The system uses a two-level paging scheme where the first level (Outer Page Table) index is $10 ~\\mathrm{bits}$. If each page table entry (PTE) at both levels is $4 ~\\mathrm{bytes}$, what is the size of the inner page table $($in $\\mathrm{KB})$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1 ~\\mathrm{KB}$<br>&nbsp;</li><li>$8 ~\\mathrm{KB}$<br>&nbsp;</li><li>$16 ~\\mathrm{KB}$<br>&nbsp;</li><li>$4 ~\\mathrm{KB}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 184"
+        }
+      ]
+    }
+  ]
+}

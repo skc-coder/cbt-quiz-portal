@@ -1,0 +1,70 @@
+{
+  "name": "Day 310 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "538011",
+          "text": "<p>A ring counter and a Johnson counter are both built using $4$ flip-flops. Assuming normal operation, how many states are produced by the ring counter and the Johnson counter respectively?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Ring counter: $4$, Johnson counter: $8$<br>&nbsp;</li><li>Ring counter: $8$, Johnson counter: $4$<br>&nbsp;</li><li>Ring counter: $16$, Johnson counter: $8$<br>&nbsp;</li><li>Ring counter: $4$, Johnson counter: $16$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 310"
+        },
+        {
+          "post_id": "538009",
+          "text": "<p>Which statement is correct for a synchronous counter?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>All flip-flops receive the same clock signal, and the next state is decided using combinational logic<br>&nbsp;</li><li>Only the first flip-flop receives the clock, and the clock then ripples through other flip-flops<br>&nbsp;</li><li>It cannot be used for binary counting<br>&nbsp;</li><li>It does not have any flip-flop</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 310"
+        },
+        {
+          "post_id": "538005",
+          "text": "<p>A 3-bit ripple up counter starts from state $000$. What will be its state after $5$ clock pulses?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$011$<br>&nbsp;</li><li>$100$<br>&nbsp;</li><li>$101$<br>&nbsp;</li><li>$110$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 310"
+        },
+        {
+          "post_id": "538007",
+          "text": "<p>A $3$-bit counter is designed to count through the states $0,1,2,3,4,5$ and then return to $0$. What is the modulus of the counter, and how many states are unused?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Modulo-$5$, $3$ unused states<br>&nbsp;</li><li>Modulo-$6$, $2$ unused states<br>&nbsp;</li><li>Modulo-$8$, $0$ unused states<br>&nbsp;</li><li>Modulo-$7$, $1$ unused state</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 310"
+        },
+        {
+          "post_id": "538003",
+          "text": "<p>Which statement correctly describes an asynchronous or ripple counter?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>All flip-flops receive the same clock signal directly<br>&nbsp;</li><li>The output of one flip-flop is used as the clock input for the next flip-flop<br>&nbsp;</li><li>It does not use flip-flops<br>&nbsp;</li><li>It always counts only one state</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 310"
+        }
+      ]
+    }
+  ]
+}

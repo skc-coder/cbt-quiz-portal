@@ -1,0 +1,132 @@
+{
+  "name": "GO Classes CS 2025 | Weekly Quiz 26 | Functional Dependency | DBMS",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "428445",
+          "text": "Purpose of 'Foreign Key' in a table is to ensure<br />    A. Null Integrity<br />    <br />    B. Referential Integrity<br />    <br />    C .Domain Integrity<br />    <br />    D. Null and Domain Integrity",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq12,goclasses,databases,functional-dependency,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428444",
+          "text": "If $\\text{D}_1,\\text{D}_2, \\dots \\text{D}_n$ are domains in a relational model, then the relation is a table, which is a subset of<br />    A. $\\text{D}_1 \\oplus \\text{D}_2 \\oplus \\dots \\oplus \\text{D}_n$<br />   <br />    B.  $\\text{D}_1 \\times \\text{D}_2 \\times \\dots \\times \\text{D}_n$<br />    <br />    C. $\\text{D}_1 \\cup \\text{D}_2 \\cup \\dots \\cup \\text{D}_n$<br />    <br />    D. $\\text{D}_1 \\cap \\text{D}_2 \\cap \\dots \\cap \\text{D}_n$",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_csda_wq12,goclasses,databases,functional-dependency,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428443",
+          "text": "Given the relational schema $R=(U, V, W, X, Y, Z)$ and the set of functional dependencies:<br />\\[<br />\\{U \\rightarrow V, U \\rightarrow W, W X \\rightarrow Y, W X \\rightarrow Z, V \\rightarrow X\\}<br />\\]<br />Which of the following functional dependencies can be derived from the above set?<br />    A. $V W \\rightarrow Y Z$<br />    <br />    B. $W X \\rightarrow Y Z$<br />   <br />    C. $V W \\rightarrow U$<br />    <br />    D. $V W \\rightarrow Y$",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq12,goclasses,databases,functional-dependency,two-marks,multiple-selects",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428441",
+          "text": "The symbol $\\rightarrow$ indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE?<br />   A.  $(X, Y) \\rightarrow(Z, W)$ implies $X \\rightarrow(Z, W)$ <br />    <br />    B. $(X, Y) \\rightarrow(Z, W)$ implies $(X, Y) \\rightarrow Z$<br />    <br />    C. $((X, Y) \\rightarrow Z$ and $W \\rightarrow Y)$ implies $(X, W) \\rightarrow Z$<br />    <br />    D. $(X \\rightarrow Y$ and $Y \\rightarrow Z)$ implies $X \\rightarrow Z$",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq12,goclasses,databases,functional-dependency,two-marks,multiple-selects",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428442",
+          "text": "A functional dependency $F: X \\rightarrow Y$ is termed as a useful functional dependency if and only if it satisfies all the following three conditions:<br />    $\\text{X}$ is not the empty set.<br />    $\\text{Y}$ is not the empty set.<br />    Intersection of $\\text{X}$ and $\\text{Y}$ is the empty set.<br /><br />For a relation $\\text{R}$ with $4$ attributes, the total number of possible useful functional dependencies is ------.",
+          "type": "Numerical",
+          "answer": "50",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq12,numerical-answers,goclasses,databases,functional-dependency,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428448",
+          "text": "Armstrong’s inference rule doesnot determine<br />    A. Reflexivity<br />    <br />    B. Augmentation<br />    <br />    C. Transitivity<br />    <br />    D. Mutual dependency",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq12,goclasses,databases,functional-dependency,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428447",
+          "text": "In functional dependency Armstrong inference rules refers to<br />   A. Reflexive, Augmentation and Decomposition<br />    <br />    B. Transitive, Augmentation and Reflexive<br />    <br />    C. Augmentation, Transitive, Reflexive and Decomposition<br />    <br />    D. Reflexive, Transitive and Decomposition",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq12,goclasses,databases,functional-dependency,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428449",
+          "text": "Let $x,y,z,a,b,c$ be the attributes of an entity set E. If $\\{x\\} ,\\{x,y\\}, \\{a,b\\},\\{a,b,c\\}, \\{x,y,z\\}$ are superkeys then which of the following are the candidate keys?<br />   A. $\\{x,y\\}$ and $\\{a,b\\}$<br />    B. $\\{x\\}$ and $\\{a,b\\}$<br />    C. $\\{x,y,z\\}$ and $\\{a,b,c\\}$<br />    D. $\\{z\\}$ and $\\{c\\}$",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq12,goclasses,databases,functional-dependency,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428440",
+          "text": "Relation $R$ has eight attributes $\\text{ABCDEFGH}$. Fields of $R$ contain only atomic values. $F$=<br />$\\text{{CH→G, A→BC, B→CFH, E→A, F→EG}}$ is a set of functional dependencies $(FDs)$ so that $F^+$ is exactly the set of $FDs$ that hold for $R$.<br />How many candidate keys does the relation $R$ have?<br />    A. $3$<br />    <br />    B. $4$<br />    <br />    C. $5$<br />    <br />    D. $6$",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_csda_wq12,goclasses,databases,functional-dependency,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428446",
+          "text": "Considering the following table in a relational database : $$\\begin{array}{|c|c|c|c|} \\hline \\textbf{Last Name} & \\textbf{Rank} & \\textbf{Room} & \\textbf{shift} \\\\ \\hline \\text{Smith} & \\text{Manager} & \\text{234} & \\text{Morning} \\\\ \\hline  \\text{Jones} & \\text{Custodian} & \\text{33} & \\text{Afternoon} \\\\ \\hline\\text{Smith} & \\text{Custodian} & \\text{33} & \\text{Evening} \\\\ \\hline \\text{Doe} & \\text{Clerical} & \\text{222} & \\text{Morning} \\\\ \\hline \\end{array}$$<br />According to the data shown in the table, which of the following could be a candidate key of the table?<br />    A .$\\bigl\\{\\text{Last Name} \\bigl\\}$<br />    <br />    B. $\\bigl\\{\\text{{Room}}\\bigl\\}$<br />    <br />    C. $\\bigl\\{\\text{{Shift}}\\bigl\\}$<br />    <br />    D. $\\bigl\\{\\text{{Room, Shift}}\\bigl\\}$",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq12,goclasses,databases,functional-dependency,one-mark",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

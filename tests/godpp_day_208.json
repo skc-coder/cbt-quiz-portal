@@ -1,0 +1,70 @@
+{
+  "name": "Day 204 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "523322",
+          "text": "<p>A system has $n$ processes and $r$ identical resource instances. Each process requires a maximum of $m$ instances. What is the <strong>minimum</strong> number of resource instances $r$ required to ensure that the system is always deadlock-free?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$n(m-1)+1$<br>&nbsp;</li><li>$n m-1$<br>&nbsp;</li><li>$n(m+1)-1$<br>&nbsp;</li><li>$m(n-1)+1$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 204"
+        },
+        {
+          "post_id": "523315",
+          "text": "<p>Consider the following two-process synchronization code where $\\verb|flag[0]|$ and $\\verb|flag[1]|$ are initialized to $\\verb|false|$ and $\\verb|turn|$ is initialized to $0$ or $1$ randomly$:$</p><p><strong>Process</strong> $P_i(i=0,1 ; j=1-i)$ :</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">while (true) {\n&nbsp; &nbsp; flag[i] = true;\n&nbsp; &nbsp; turn = j;\n&nbsp; &nbsp; while (flag[j] && turn == j);\n&nbsp; &nbsp; // CRITICAL SECTION\n&nbsp; &nbsp; flag[i] = false;\n&nbsp; &nbsp; // REMAINDER SECTION\n}</pre><p><br>Which of the following statements is/are <strong>CORRECT</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE SOLUTION GUARANTEES MUTUAL EXCLUSION.<br>&nbsp;</li><li>THE SOLUTION GUARANTEES PROGRESS.<br>&nbsp;</li><li>THE SOLUTION GUARANTEES BOUNDED WAITING.<br>&nbsp;</li><li>THE SOLUTION IS PRONE TO DEADLOCK.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 204"
+        },
+        {
+          "post_id": "523317",
+          "text": "<p>Consider a uniprocessor system with three processes $P_1, P_2$, and $P_3$ arriving at time $t=0$. Their burst times are $10,20 ,$ and $30$ units, respectively. The system uses a <strong>Round Robin</strong> scheduling algorithm with a time quantum of $5$ units. If the context switch overhead is $1$ unit (incurred every time a process is swapped out, including the last burst), what is the total completion time of the last process to finish?</p>",
+          "type": "Numerical",
+          "answer": "72",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 204"
+        },
+        {
+          "post_id": "523320",
+          "text": "<p>A system uses a $\\mathbf{3-}$<strong>level page table</strong> for virtual-to-physical address translation.<br><br>The virtual address size is $\\mathbf{39 ~bits}$.<br><br>The page size is $\\mathbf{4 K B}$ <strong>(</strong>$\\mathbf{2}^{\\mathbf{1 2}}$ <strong>bytes)</strong>.<br><br>Each Page Table Entry (PTE) takes&nbsp;$\\mathbf{8}$ <strong>bytes.</strong><br><br>The page table is structured such that <strong>each level fits exactly into one page frame.</strong><br><br>How many bits of the virtual address are used for the <strong>inner-most page table index</strong>?</p>",
+          "type": "Numerical",
+          "answer": "9",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 204"
+        },
+        {
+          "post_id": "523324",
+          "text": "<p>Consider a disk with $200$ tracks $(0-199)$. The current head position is at track $50$ and is moving towards higher track numbers. The request queue is: $82,170,43,140,24,16,190$. If the <strong>C-SCAN</strong> (Circular SCAN) algorithm is used, what is the total head movement (in tracks) to satisfy all requests? (Assume the head moves to the very end of the disk before wrapping around).</p>",
+          "type": "Numerical",
+          "answer": "391",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 204"
+        }
+      ]
+    }
+  ]
+}

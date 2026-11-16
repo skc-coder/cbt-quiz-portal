@@ -1,0 +1,352 @@
+{
+  "name": "Algorithms GATE2020: Previous GATE (2)",
+  "duration": "100",
+  "total_qs": "30",
+  "total_qs_one": 9,
+  "total_qs_two": 21,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 51,
+  "total_marks": 51,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 51,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "48",
+          "text": "<p>The recurrence relation capturing the optimal execution time of the $Towers \\&nbsp;of \\ Hanoi$ problem with $n$ discs is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$T(n) = &nbsp;2T(n − 2) + 2$</li>\n\t<li>$T (n) = &nbsp;2T(n − 1) + n$</li>\n\t<li>$T (n) = &nbsp;2T(n/2) + 1$</li>\n\t<li>$T (n) = &nbsp;2T(n − 1) + 1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2012,algorithms,easy,recurrence-relation",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "50",
+          "text": "<p>Let $W(n) $ and $A(n)$ denote respectively, the worst case and average case running time of an algorithm executed on an input of size $n$. &nbsp;Which of the following is <strong>ALWAYS TRUE</strong>?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$A(n) = \\Omega (W(n))$</li>\n\t<li>$A(n) = \\Theta (W(n))$</li>\n\t<li>$A(n) = \\text{O} (W(n))$</li>\n\t<li>$A(n) = \\text{o} (W(n))$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2012,algorithms,easy,asymptotic-notations",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1026",
+          "text": "<p>The tightest lower bound on the number of comparisons, in the worst case, for comparison-based sorting is of the order of</p>\n\n<ol style=\"list-style-type: upper-alpha;\">\n\t<li>$n$</li>\n\t<li>$n^2$</li>\n\t<li>$n \\log n$</li>\n\t<li>$n \\log^2n$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2004,algorithms,sorting,asymptotic-notations,easy",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "975",
+          "text": "\n<p>Which one of the following in place sorting algorithms needs the minimum number of swaps?</p>\n\n<ol style=\"list-style-type: upper-alpha;\"><li>Quick sort</li>\n\t<li>Insertion sort</li>\n\t<li>Selection sort</li>\n\t<li>Heap sort</li>\n</ol>\n",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2006,algorithms,sorting,easy,isro2011",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "891",
+          "text": "<p>To implement Dijkstra’s shortest path algorithm on unweighted graphs so that it runs in linear time, the data structure to be used is:</p><ol style=\"list-style-type:upper-alpha\"><li>Queue</li><li>Stack</li><li>Heap</li><li>B-Tree</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2006,algorithms,graph-algorithms,easy,dijkstras-algorithm",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "707",
+          "text": "<p>Randomized quicksort is an extension of quicksort where the pivot is chosen randomly. What is the worst case complexity of sorting n numbers using Randomized quicksort?</p><ol style=\"list-style-type:upper-alpha\"><li>$O(n)$</li><li>$O(n \\log n)$</li><li>$O(n^2)$</li><li>$O(n!)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2001,algorithms,sorting,time-complexity,easy,quick-sort",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "455",
+          "text": "<p>Consider the Quicksort algorithm. Suppose there is a procedure for finding a pivot element which splits the list into two sub-lists each of which contains at least one-fifth of the elements. Let $T(n)$ be the number of comparisons required to sort $n$ elements. Then</p><ol style=\"list-style-type:upper-alpha\"><li><p>$T(n) \\leq 2T(n/5) + n$</p></li><li><p>$T(n) \\leq T(n/5) + T(4n/5) + n$</p></li><li><p>$T(n) \\leq 2T(4n/5) + n$</p></li><li><p>$T(n) \\leq 2T(n/2) + n$</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2008,algorithms,sorting,easy,quick-sort",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "50",
+          "text": "<p>Let $W(n) $ and $A(n)$ denote respectively, the worst case and average case running time of an algorithm executed on an input of size $n$. &nbsp;Which of the following is <strong>ALWAYS TRUE</strong>?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$A(n) = \\Omega (W(n))$</li>\n\t<li>$A(n) = \\Theta (W(n))$</li>\n\t<li>$A(n) = \\text{O} (W(n))$</li>\n\t<li>$A(n) = \\text{o} (W(n))$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2012,algorithms,easy,asymptotic-notations",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "48",
+          "text": "<p>The recurrence relation capturing the optimal execution time of the $Towers \\&nbsp;of \\ Hanoi$ problem with $n$ discs is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$T(n) = &nbsp;2T(n − 2) + 2$</li>\n\t<li>$T (n) = &nbsp;2T(n − 1) + n$</li>\n\t<li>$T (n) = &nbsp;2T(n/2) + 1$</li>\n\t<li>$T (n) = &nbsp;2T(n − 1) + 1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2012,algorithms,easy,recurrence-relation",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "786",
+          "text": "<p>Let $G$ be a weighted graph with edge weights greater than one and $G'$ be the graph constructed by&nbsp;squaring the weights of edges in $G$. Let $T$ and $T'$ be the minimum spanning trees of $G$ and $G'$,&nbsp;respectively, with total weights $t$ and $t'$. Which of the following statements is <strong>TRUE</strong>?</p>\n\n<ol style=\"list-style-type: upper-alpha;\">\n\t<li>$T' = T$ with total weight $t' = t^2 $</li>\n\t<li>$T' = T$ with total weight $t' &lt; t^2$</li>\n\t<li>$T' \\neq T$ but total weight $t' = t^2$</li>\n\t<li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "x",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2012,algorithms,minimum-spanning-tree,normal,marks-to-all",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1406",
+          "text": "<p>We are given $9$ tasks $T_1, T_2, \\dots, T_9$. The execution of each task requires one unit of time. We can execute one task at a time. Each task $T_i$ has a profit $P_i$ and a deadline $d_i$. Profit $P_i$ is earned if the task is completed before the end of the $d_i^{th}$ unit of time.</p>\n\n<p>$$\\begin{array}{|l|l|l|l|l|l|l|l|l|}\\hline \\textbf{Task}&nbsp; &amp;&nbsp; \\text{$T_1$ } &amp; \\text{$T_2$}&amp; \\text{$T_3$}&nbsp;&amp; \\text{$T_4$}&nbsp;&amp; \\text{$T_5$}&nbsp;&amp; \\text{$T_6$}&nbsp;&amp; \\text{$T_7$}&nbsp;&amp; \\text{$T_8$}&nbsp;&amp; \\text{$T_9$}&nbsp;&nbsp; \\\\\\hline \\textbf{Profit}&nbsp; &amp;&nbsp; \\text{$15$ } &amp; \\text{$20$}&amp; \\text{$30$}&nbsp;&amp; \\text{$18$}&nbsp;&amp; \\text{$18$}&nbsp;&amp; \\text{$10$}&nbsp;&amp; \\text{$23$}&nbsp;&amp; \\text{$16$}&nbsp;&amp; \\text{$25$}&nbsp;&nbsp; \\\\\\hline&nbsp; \\textbf{Deadline} &amp; \\text{$7$} &amp; \\text{$2$} &amp; \\text{$5$} &amp; \\text{$3$} &amp; \\text{$4$}&nbsp; &amp; \\text{$5$}&nbsp; &amp; \\text{$2$}&nbsp; &amp; \\text{$7$}&nbsp; &amp; \\text{$3$} \\\\\\hline \\end{array}$$</p>\n\n<p>Are all tasks completed in the schedule that gives maximum profit?</p>\n\n<ol class=\"shrink-inline-options2\" style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>All tasks are completed</p>\n\t</li>\n\t<li>\n\t<p>$T_1$ and $T_6$ are left out</p>\n\t</li>\n\t<li>\n\t<p>$T_1$ and $T_8$ are left out</p>\n\t</li>\n\t<li>\n\t<p>$T_4$ and $T_6$ are left out</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2005,algorithms,greedy-algorithms,process-scheduling,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1404",
+          "text": "<p>Let $s$ and $t$ be two vertices in a undirected graph $G=(V,E)$ having distinct positive edge weights. Let $[X,Y]$ be a partition of $V$ such that $s \\in&nbsp;X$ and $t&nbsp;\\in&nbsp;Y$. Consider the edge $e$ having the minimum&nbsp; weight amongst all those edges that have one vertex in $X$ and one vertex in $Y$.</p>\n\n<p>The edge $e$ must definitely belong to:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>the minimum weighted spanning tree of $G$</p>\n\t</li>\n\t<li>\n\t<p>the weighted shortest path from $s$ to $t$</p>\n\t</li>\n\t<li>\n\t<p>each path from $s$ to $t$</p>\n\t</li>\n\t<li>\n\t<p>the weighted longest path from $s$ to $t$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2005,algorithms,graph-algorithms,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1374",
+          "text": "<p>Let $G(V,E)$ be an undirected graph with positive edge weights. Dijkstra’s single source shortest path algorithm can be implemented using the binary heap data structure with time complexity:</p><ol style=\"list-style-type:upper-alpha\"><li><p>$O\\left(|V|^2\\right)$</p></li><li><p>$O\\left(|E|+|V|\\log |V|\\right)$</p></li><li><p>$O\\left(|V|\\log|V|\\right)$</p></li><li><p>$O\\left(\\left(|E|+|V|\\right)\\log|V|\\right)$</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2005,algorithms,graph-algorithms,normal,dijkstras-algorithm",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1373",
+          "text": "<p>Suppose $T(n) =2T (\\frac{n}{2}) + n$, $T(0) = T(1) =1$</p>\n\n<p>Which one of the following is FALSE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$T(n)=O(n^2)$</p>\n\t</li>\n\t<li>\n\t<p>$T(n)=\\Theta(n \\log n)$</p>\n\t</li>\n\t<li>\n\t<p>$T(n)=\\Omega(n^2)$</p>\n\t</li>\n\t<li>\n\t<p>$T(n)=O(n \\log n)$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2005,algorithms,asymptotic-notations,recurrence-relation,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1367",
+          "text": "<p>Consider the following C-program:</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid foo (int n, int sum) {\n    int k = 0, j = 0;\n    if (n == 0) return;\n    k = n % 10; j = n/10;\n    sum = sum + k;\n    foo (j, sum);\n    printf (\"%d,\",k);\n}\n\nint main() {\n    int a = 2048, sum = 0;\n    foo(a, sum);\n    printf(\"%d\\n\", sum);\n}</pre>\n\n<p>What does the above program print?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$\\text{8, 4, 0, 2, 14}$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{8, 4, 0, 2, 0}$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{2, 0, 4, 8, 14}$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{2, 0, 4, 8, 0}$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2005,algorithms,identify-function,recursion,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1338",
+          "text": "<p>A sub-sequence of a given sequence is just the given sequence with some elements (possibly none or all) left out. We are given two sequences $X[m]$ and $Y[n]$ of lengths $m$ and $n$, respectively with indexes of $X$ and $Y$ starting from $0$.</p>\n\n<p>We wish to find the length of the longest common sub-sequence (LCS) of $X[m]$ and $Y[n]$ as $l(m, n)$, where an incomplete recursive definition for the function $I(i, j)$ to compute the length of the LCS of $X[m]$ and $Y[n]$ is given below:</p>\n\n<pre class=\"text\" style=\"text-align: justify;\">\nl(i,j)  = 0, if either i = 0 or j = 0\n        = expr1, if i,j &gt; 0 and X[i-1] = Y[j-1]\n        = expr2, if i,j &gt; 0 and X[i-1] ≠ Y[j-1]\n</pre>\n\n<p>Which one of the following options is correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$\\text{expr1} = l\\left(i-1, j\\right) +1$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{expr1} = l\\left(i, j-1\\right)$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{expr2} = \\max\\left(l\\left(i-1, j\\right), l\\left(i,j-1\\right)\\right)$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{expr2} = \\max\\left(l\\left(i-1, j-1\\right), l\\left(i,j\\right)\\right)$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2009,algorithms,normal,dynamic-programming,recursion",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1325",
+          "text": "<p>In quick-sort, for sorting $n$ elements, the $\\left(n/4\\right)^{th}$ smallest element is selected as pivot using an $O(n)$ time algorithm. What is the worst case time complexity of the quick sort?</p><ol style=\"list-style-type:upper-alpha\"><li><p>$\\Theta(n)$</p></li><li><p>$\\Theta(n \\log &nbsp;n)$</p></li><li><p>$\\Theta(n^2)$</p></li><li><p>$\\Theta(n^2 \\log &nbsp;n)$</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2009,algorithms,sorting,normal,quick-sort",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1324",
+          "text": "<p>Consider the following graph:</p>\n\n<p><img alt=\"\" src=\"data:image/png;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/CABEIAVsCWAMBEQACEQEDEQH/xAAvAAEBAQEBAQEBAQEAAAAAAAAAAQcGBQgEAwIJAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAD/AKpEKQoBCgAAAAAAAAAAAAAAAAAAAEKAAAAAACFAAAAAAAAAIUAAAAHKnFnRndgAAAAAAAAAAAAAHInHnTnbgAAAAAAAAAAAAAEKAAADyTLztzrzwTOztDrgAAAAD/JjJqx6QAAAAB4Rm53R1Zzpnp350oAAAAAAAAAAAAAAAABDITXwADLzuT1wAAAAflPm41Y0UAAAAH8zGDawADKjSD9oAAAAAAAAAAAABCgAAzU74/YDgjvQDIjXQAAAAfyPjk+ojqQAAAAZOaif3AAIZWaqAAAAAAAACFAIUAAhQADIjXCkPkg+iTrwYUe8AAAAAAAAAAAfgNmB/A+Rj6nPZBlRqoAAAAAAAAAIUAAAAAAyc1gA+OT6DNDBlJqwAAAAAAAAAABlBq4P5mSmpH7AZUaqAAAAAAAAAAAACFIUAA5c/KdkAAeeZ8aiAAAAAAAAAAAcOfqOuAAPFOZNAAABCgAAhQAAAQoABCgAAw41c9oA/gfMJ9SFAAAAAAAAAAAB8/G1HrgH5D5yPpgAAAAAAAAAAAAAAgKADMz2DyjzT+J+gh35mpsoAAAAAAAAAABl50pzh+M/gfoP9nbnCmsgAAAAAAAAAAAEKD5tPoA9IAzM9k7MhTKDVwDxTNDZQCGKGwn6wAAAAZmdCdWAZcdMdWAZQauAeAcKayAfnPmw+migAAAAAAEKQoBkp+o1AGZnsnZgAyg1cAHimaGygykwg+rz3gAAAD+J8QH0gaqDLjpjqwAZQauADwDhTWQfhPn0+hD9gAAAAAAAAABgB0ZrhmZ7J2ZCkKZQauAAeKZobKeIfNh9FnRgAAAA+bztTWzLjpzqgADKDVwADwThDWTkTED6NPQAAAAAAAAABAUzM9k7MAgKZSasAADxjMzZQAAAAAADLjpzqgAAZQauAADwThDWQAAAAAAAAAAADMj2zsgAADKDVwAADxjMjZgAAAAADLjpzqgAADKDVwAADwThDWQAAAAAAAAAADMj2zsgAAAZQauAAADxjMjZgAAAADLjpzqgAAAZQauAAADwThDWQAAAAAAAACFMyPaOyKACAFMoNXAAAAPGMyNmAAAAMtOoOqAAAAMoNXAAAAPBODNaAAAAAABxB4J+s0c/2Zke2dkAAAADKDVwAAAAeMZkbMDgjxz9po5TLTqDqgAAAAZQauAAAADwTgzWgZ8eYekaEAADwjMjRzoj8Rlh45o52QAAAABlBq4AAAAB45m5+U0o6A8wyk881A6kAAAAAyg1cAAAAA8I4I/MaSe0eSZWd0dgAQxI24AAzM6494AAEKADKDVwAAAAD/BiptoABlh3h64AAAABlBq4AAAAB/Ax02kAAx01I9AGWGin7gQFBkxrIAAAIeAfvM5NXAAAAAMoNPP0A/gcYd0DHjYQAAAADKDUTNDUCgAAAyM1k/2Diz3D2AZAa+Qys1Uh5x8gH0od6QyI10FIUEKQ+XDcjmjVwAAAADKjVQf5MEP3m3Ayo1UAAAAAyg0U+Oz7OP0AAAAyo1UH4T4aPrw7cGVGqgyY1gH4jBDaDoQZKayAAUhT+Z8pGvH8zVyApAUAhTJjWCnGHyefYB0RTJDWiggKQAoMoOiPnA+ojoSggKQGTmsg5Mws+oCAyY1ohzB5B3wAB5pwpphQAQpAUGUGrApCgEAByB+c7ggBTxDjjTAAACFBDKTVikKAAAQ4g/UdaUhSHOnPGiEBkp250YKflPm8+mSghSFBAUhlJq4AICgAgMSNQPeAPNPno+lgUAAEKAZQauCAoAAIUw81g9gA8cy42kAgOAPDP7n8z/Zoxk5s4BSFIUgBlJq4ABCkKAZYdUc6eafoP4lNCMvNoAAIUAAyg1YoIUAEKDKTtDlzzz+p/g/saiUAhQQpCkPwGTG0AFABCkMpNXAAPmc+ij9wBlh1Z1AAAB5BlxtABDCjbD9QAMoNXAAAABlJ2h0QAAAAICkKAAeeZMbQCggABlJq4BCmOnqGnAys6w6coAAIU8gy42cpj5jJ9UHvAEMpNWKAQoIUyg7U6IEKQoBCkBSFIUEBTLTjj6CKAQFBlBq4AIfPh2xpxlZ1h1AICgAAHkGXG0HiHzkfRZ7gBTKDVwCAoIZSf6NUAKAAQFIUEAKQFB8+H6T0TaCgEAMpNXABAUys6w6gEKAAAQoPIMuNoBCghTKDVwQoIUyg6w+Xj7MBCgAhQQFBACghSHzefrN3MlNpBAAZSauACFMrOsOoABCgAAhQDyTLTaAAAZQauAADKDtj+x8in2CeoAAAAAQAAoIAUA/AZKbQUAGUGrgAGVnWnTgAAAAAAAHkmWm0AAGUGrgAGUHbHQgAAAAAAEAAKAQApCn4TJDaAAZSauADKzrTpwAAAAAAAADyTLDaQAZQasUAyg7Y6EAAAAhQACFIAAUhSAFAPwGSm0Az0406c0o/2ZWdadQCFBACkBSAFAIAeSZabSQzs486k0k/0ZQdudCQAApAUgAKAQpAUAgABQAfgMwPzmpnpn8TJDwzVjpwAAAAAAQoAAAPJMwP5mtH7z85kh5RrB0AAAAAAAABCgEKCFABCgA/wY+bGQoBnJ0574AAAIUAAAAAAH5jIzZQADNDtz1AAAAAAAAAQpCkAKQpAAUhmRo5/YAoBkRroABCgAAAAAhQAZIawf7Bkx7x3YMpNWIUAAAAAAEAAAKACApCghkRrpQfL5tJ2wMLPeAAAKQApAUgAAAPwGzEKfJZ9WH6CGVmqkKQoAIUhQQoIAAUhQQoICgAyg1YpDKzQz0gZOauUAAgKAcodIf3ICgEKCGUmrg58xQ+iwQys1UEKCAoIUAgKAQAFABCggBSHPnjnckKCHkHGmlAAEABTxT4xPrs6wFBCkAByJ+Y7c/Cf5PQBzx5R2xSAAoIUgBQQpCgAAhQQpAUAGZHTnSlB5RlxswAAAAB5h8hG4GwAAAAAGSHcnRAHjmeGtgAAAAAAAAEKAQpCgEBQACHEHhAp+00cAAAAAAAAAAAAA4M8YEPSNEAAAAAAAAABCkKAQApCgAEBQAAAAAAAAAAAAAAAAAAAAAAAAAAACFIAAAAACkAABQAACFAAAAAAAAIUAAEKAAAQoAAIUAA/8QAQRAAAgICAAEIBgkDAgUFAQAABAUCAwEGEgAHEBETFCAwFRYXITdAIjEyQVBUVnR1IyRTM0IIJUNRUiY0NkRgcP/aAAgBAQABEgH/APPudrT69jHpJmKFnP1Rzzsax1+462cP8ine9ee3diE4Euv/AMPzrnbkuvdWGTQQOWfqh7WNY4vcdbKH+VPu6B9ZmsBuIRd/i/BmrURIBcadfAYarHXKyul5u8e1utv1xLP/AEx0uoptdzmS9bQPbn7V3JshWvqOxZADnV/dGestdVxm3WypFCR9+U2t7OHs4s7B+Oq+mXZkCeXKWI4znOerGPva85cFSibvKY4jX4Y45HrWQzheOcHdEgQivFtVvlungWur7DWF8Rx4e7rqCebrX2p91+vqJ++AKXVE+u4z6NWjiSz9qzk411XsFXZsl450cfVylr7fUcZuQk2MgI++SdBsIeyBd5ElLHDLs7aPwPOerkph67NfS5GOJOHbmK6jw7UlvHIxsKiGPS4tfVZSoajvFYrASfGOTXiyGfKKGrMGuHtxxVWwzCWNrVh83vNbLUUNFxpZtNoK4Pm71aWk6OlR2W4vsBGjVOzypzjVCU5yxGMcdeZa3RLdmVezHQ/sKZSwoF8O0gXpSc7Krr4yaYdRooRlLAOgoeeLaLoYsrn+Bc4BltSDAY881ks76wK5BiUrxKRh68VUUwxXXDoq3Vbbtstb/uItI05I4enUcehtl2JH9mnFkGIsPKtlKFc5Qh2k8Y68REu51BWpbGWnpSTLs8MbtXpYUa+DFrnGWfZ8RHl8485kqA09csxm4MrClmimA1NdVUMV1VxxGMfFpefRjB4h+zAIjF40fwLbZdruOlDZ+zksi/wa8xPac7e8OAV2DqwKqFVM9R2cPc9bXuwOLuhlfaQx0bG7H1vnHXEkQInAhVdXnHtLU/lnHL2lqfyzjl7S1P5Zxy9pan8s45e0tT+WccvaWp/LOOXtLU/lnHL2lqfyzjl7S1P5Zxy9pan8s45e0tT+WccvaWp/LOOXtLU/lnHL2lqfyzjl7S1P5Zxy9pan8s45e0tT+WccvaWp/LOOXtLU/lnHL2lqfyzjl7S1P5Zxy9pan8s45e0tT+WccjTq3W5ahZVGyNPYmFYx0X3RHpstnnqhCOZSzoj1tziIrtjNXMr4nzn6OFTDkiKQ6Db+8l10xjbd0Q/o86VvV/8AZTxzn8D3aHd22psP9o7Pspy6UFh+raE/Uji3EbecwOzGjm91KGi6UoRQs7XuVGISs6K89950LpR98QFWK5Z+X2zPc9p1E7P2O9Whyz0WQjbCUJY4oyx1ZxrOnMdSRUIl7KiCwbiiPYINgMaqjE52YhHh4+hf/ec5Ti+P0qxF44vF+BbOl9YERYOJ9lZZHrqt1N/6xJoX2Q7EyuWaC6PCwOoVgkGE2YqHohm2yegCXzALcmV5pLc398zV8vuaS1/rxA40sVnQzEgWeqbFVtKIZhXHNU5dcLqfC5bDoVRTAufAONXmyedKXkCKZlGx7M9jdI0iH4G8pki2m1sjzEoyVcZNkyhwI9ArMCuxdRP7+m++sWmd11kaqoY4pTYbBXu+0rBD6rwtRnniGs+r5lrXPVdrMbo/7+ieIydJlTYR4BUaDfAka3HXGfSWXQANaQTdCiiqOZTsk4hum5ra2dV4CGH9wrr/AAPZ9nvGKrTJa4FviI8WI6xrFGtC2YxZMs4iXalmttNxaZYxTmWpWk/pTsi82lV7mWv1M6/81nOXRQVSLcheVGXYlmoeW0P2P0FmrX0Z++6nTS3NkSNoOwx6s8UVrdKG9WXAG0RuFtx1ZgncmaqypQvrs30254Fzb5fZNkKmfhEhxC1zZHitu1zWxdZBzRRmdttku0IKZ6ZnBlrFGdNKxszx2YjsGzq/cy1yLCH+aXOXRWXWHNC8gdZCVkBpbLsTL6KvV7Bf+9w2mXsyKy9lO9KXQlxwCeIg9hW2BG18dMvfjKN4YmY1oH9nGRP3AsvnGvPeGq2c5H6ubAaSNb2UbVxNpgNF9w0w7bI4lIfp2fZ7xiq0yWuBb4iPFiOsaxRrQlmMWTLOIl2pZ3S9+Imq/tjvA4TCP11wJ1OLxrcdUop3BeqsqUL66V9NueBc28B3OkEMoYOaRbCEIGZRuZCE1nC0kU54qroYshnyit3qkxPDXCzYTXY6zL9V2ULcdfDcL5SkGVHihnp2PYyZn4QosQtc2R4rbtc1wXWQM0UZnbbZLtSCulj8T0X8Wb4HiMPYl1gRtfHTP34yjeGJmVaB/ZxkT9wLLpIuwOPbbnHXiEcy6tX58qdvvHGA1PY8E29XX8uMmfhWPLAywqcXlTIHhzbbxVzhakK4rq7vZLMqb6ejZ9nvGLrTJa4FviI8WI6xrFGtCWYjZMs0iXaFG+B58RNV/bHeFwnEfrrgTqcXjW46pRTuC9VZUInt2b6bs8C5r0c6zK9Pza7KYLLMCKgLcwlrBrbV+YVU4qgLYIEsrvkrQOBthRgMw/eIZRC+ryrp5rpsnjHXmMc56v8Ah7y+cc2RTAYmgcok4u/r5r9zF33SV7gQfAcbMShYN0bHsZUz8IkWIWubI8Vt2ua4LrIGRx8zttsl2pBPgY/E9F/Fm+F4jD2JbYEdX2lM/f1o3hiZlUgf2doRPrwCy6Dqs3hEV492Z1yjjk8cPebDQRWpdgZgyyqmBggZdZ4lBNMuOm6EbIS+VRpWPN8uaL06a1lMkq4yonms0X2d6cMpldggnjmQRby2fZ7xi60qWuBb4iPFiOsaxRrQlkY2TLNIl2hR3he/ETVf2x3icJw3624E+nF412OqUE7gzVWVCF7dm+m7PAua8namh8nNWk46xy6Z0Wcs6xs3svzovcMSv7t6Nw31xHRrOvrlI3XkcEeA9efK1RA55tVzVMtVZaByKuKXXc1eiR5udIASdtgi+visvu5bHsZVh/oFFwWuZx4rbtc1wXWQO7j5nbZZLtLyfCy+J6L+LN8TxGHsS20E6rtKJ+/kjeGJWVSB/b2hE+vuLLlt2vw2rWWaidmaomUSp49r1hxtWjVaWMpkqDshUKQavCrWgDCU46qR641Qx8vs+z3jl1pUtcCnxEeLGNY1ijWhLIxsmUaRLtSzfE9+Imq/tjvG4Thv1t4B9ESBbsdU4J3BmqMqEL6/JFN2eBc28/Y9jKsP9AoeC1zOPFbfrmuC6yB3cfjtsnLNl5PiY/E9F/Fm+N4jD2JbaCdV2tE+rPJG8MSsqkD+3tSJ9fcWXzOz7PeOXWlS1wKfER4sY1jWKNZEsjGyZRpEu1KN8bz4iar+2O8hwnDfrbwD6IkCXY6p1p3BmqMqUT6+RFF2eBc283Y9jKsP9AocQtczjxW365rgusgd3H47bJyzZeT42PxPRfxZvkPEYexLbQTqu1pn7+SN4YkY1oX9naXz9wLL5fZ9nvHLglS1wKfER4urWNYo1oSyMZzKMvl2pRvkPPiJqv7Y7yXCcN8uuAPoiQLdjqlBO4M1NjSie3yIHuzwLm3l7HsZVh/oFDwWuJx4rr9c1wXWQO7j8dtk5dpeT5DL4nov4s3yXaQTYV1gRtXaUz9/JI7MSMa0L+3tLp+4Bn8rs+z30FwSpa4FPr48XLWNYH1oSyMbJlGXy7Uo3yXnxE1X9sd5TdOG+XXAnURIGux1SgocF6mxpRPbpED3Z4Fzbydj2Mq0/wBAoeC1xOPFdfrmuC6yB3cfjtsnLtLyfJY/E9F/Fm+U7SB7CtsCNq7SmfvxlI7MRsa0L6ztLZ+4Bn5zfdkSO7sTGdFZH5f2kqZe+sdvbX/kF5x9cLvjT6TgLdL3RrjLE44lHOJRz9WeWz7ORQZBKlhAp7fHi5axrA+tCTjGyZRl8u1KN8p58RNV/bHeW3UCPl1wJ1MbxrsdUoKG5epsaUT26RA10uBa26Gm+a+nI7uS1o71+X9pKnPviO3nX/lC5xtcOIiPFpWORL7NOM4ljrxnrxn7+Wx7GVaw9AoeCxxOOJXX65rgusgd3H47LJy7S8nymPxPRfxZvlu0gewrrQjau0pn96R2YjY1IX1vaWz9wDLoZb/ryojI9zWmROPrH9pKn7Xdm+av8q/nA15kRgeppVWTn6qPE7dha6tuPYkRGFq+1McN1vMO3Y2EIU0/fWvTa4r16nsloA4UPv6CwRmFEqSh6iaZfXXZpRGvZmRqhPcf92VVnONe4xhSoAtp2iX0bhNY1gfWhJwhOZRl8u1KN8t58RNV/bHeY3TiPl14J1MbxrscMoBMytGXl17AVglcNmMQj8I2+7Y7V1feoUz98FCfXlmv0ditAGBr/wDHkesDajyoNFpMol9ddunH6tGV+pE9nXj6UkuecC/ZsYVIBrRnufomR1zXBdZA7uPxWTnLNt5Hlsfiei/izfMdpA9hXWgnVdpRZyHdl6csvhsd2CY0zjUGXHXmm347fYLrQAJe+CVWlXox8ULwRwacf7OTJSE4HzQeJQbTL66ydXaalCRGrXyIGh9KSPWNpD2sCV4vHVbVPsiRenOerHXn6uSOn18b4fldU04dsoqR/Dt6Ei6VTtRiMXoEJdlhE5o2FOIxG6+xIhieMeW8+Imq/tjvMnONccylnhjHHXnOsDy3RrHaTfeFVmcE43h3BQSPOOxKIdbcKvqnUnajvVQjASfaDFVRtrl5bH4nov4s3zL76xaLLrZ4rqrjmUp6kFZtLGO2sMZ4ZxzFUJ4dxV3pyvWpRDrOGr6jRV51DQEcwazFo99cba59HOUTdDVLgxp5rKZW1r6pAhULQqBBq8VD0QxXXX4tcxhNuL5Tj6FBGINB4+S/ehaymMasbsDhCV5ttsXHVtF4xlPX2JFUbYcnnxE1X9sd5nOROZKQZRXLMZuS6wM5HorForpqjiuquOIQh0X29hTOzMZTxCOZcOobkBuoJJa+BEKxyJizx0aZX6D2HY0P2aY34ZCx8tl8T0X8WbyutgPVO2yeIVwxmUpGc46ZdUKQZkgReVZGqk/6/J5xo+kwlqHGc/8AODIUW8oQjXDEY4xGOMdWMdBu4qQDbxbCcyuHjiRHJQ3DfLqT15MCw7sZzXd0aDD0QU/QfVWAZ2o0ejb/AOtsenDZ+zlhZdnpZH1K15Rl2eqkeqVs+Qrog/mib7+5uugdePaWDDQxTQtMS0MibC2MRK+8W9DKXZc6iHq/6qsyOfK55P8A1Dzfbfb9a5evIjXy0z/4ei/YUcnnxE1X9ud5mx/1N41GrP1RkVd05ziOM5z7scrOc+ZWtNdjWr4k6+DizMSuZZPal5s0cCP/AHhFWTCJdE/6fOnV1f8AVTT6/MY/E9F/Fm8ma4duuKALh2opVUqbYc6qMIHTFOl4FtQapgqim1sPCFQ9cK89dcY4xHyXP9TnF1mH3QENt6TrLKQiJ1R47Y1ylCKF3jUP+G0pyVfiTtzVfbOekIY6tpyVRHHV3MSqnPSJ/R5z2ePr7dUPLp3+Xc5a6yz7oBtau0l0HB1MgiBL48dF9cq5xO5qLmOj06pa4zFYLGuA/JKsmtot7a3F5N9mbbrOiUe/86Vcoe+K1VKNkvInHjjmPvx146uXOlo1lHN8zUpYvTySRZ0Djc2otgWpg0XUsaL6qq4WVvPiJqv7Y7zNzl3J9qTDP+nWwyNPPRui8trqDoICXAaQHbVTl6NfPmJW6ssWn4tzQIKfhCVMsHtOw7tRx5iPX0Bz7/zoMZw+lWAsqHlLy2PxPRfxZvLdA2rDVGg6MvALeyiWBr+cKhvt3NVHUqAmDHYC6qRritdWSSa+sXTtzfMQWoeVvkbRLuW46kbL3VStICzLo2oxqv18whIFWxaQj10jPtNzuzBPRSjrUhUmVsGRXSin37nD2YmHvqGoFB4ujZkdeyoD1lk814JqzDFmlP7XqbHfMRraiTyKdT4WTEdQvINLtjSMPDNlk9FEIkEU4NrzSc3t71Kny3vxE1X9sd5m3IfWXXjF+LOxunHEqLtO2HOyI6iLYdidVnI5lHhdNxkCktiXPgHGrzZPOgqSQFN5p8eBm1vkeTX5bL4nov4s3zNzQ2bFrxAo9mKTY5jeLbquwV7MjHOjDNNueuF9Hh2J5RraUtkT15rHhxcGiJSEyLiP6sszbZml+DYkBi91HZEUMWHYjis0FFsAexB94DsznhlwW1dJJVIQ9l5FsKKa48U7G7yGzP1OWgpAenyn10XeY8+Imq/tjvNaV+jNpKZoMxLOhCHpZSleBbAFgoG7F1fXwyx0sWIqgK4w2+sUWmPFZbZsUNn2hTJwEQu1yUsTWS8xj8T0X8Wb5pmMJ9nPZoeo7MeHDlUpbCPAazAb4kDz+qXS2bBol9xx5EBRaY8U7FQhW7NaHTMawNULnjXL/C800ZqX38a+5U2xHhidE7cE30SlwewU/wCb1xaY90tOcYl92JP9oYf0wdZwBn77x9JsY31lbIflzfDPFAU9eM0CuDLpgQNdHgnUAeToptKprdMhLdLFYDLy3vxE1X9sd5mxbEWQw9AIeGbaUcSvJ13XRdZX92G4pylLNlxDrRxzjps1xNyVxn6zIMtwUZ4TFIb2r/P64tMe7OnOOP7sSebWy/pg65Ws/wC5AOh96MrP2I+b46uXFXW2UiPF14J1ESBbo8M4KWxeoMaEby6RAd0uzWtfLY/E9F/Fm+Y+fGMmM0CCeInYxjvh6FCJra6AYcM4rxnMpTa6VXcZaxUl2pGs/fO+LbbVWeA1IM5h91/ri0+r1Occf/bLja2n0A0VCjH33rtGjI2pi8Nsesq88VefMPAHaBXCF0wIGujmFlQB5GiG0Kml0yEt88VAMvKe/ETVf2x3iL56LR9jPT06c9YWD35orICtuvDpsIo7tfKOMzp6di2Ishh6AQ8M20o4kQTruui6yv7qLxSlKWbLr/G2UiPV14J1ESBbo8M61LYvT2NCN5dIgO+XZrWvTnOMYznPuxyO51RhkJ2w0h5u1wPOcSYCkQMGqvr6+zthicfCy+J6L+LN8t8+LZspoEE8ROxjHfD0KETW10Aw4ZjXjOZSn8meAO0CvDLpgQLfDMLKgDyNENpVNLpkJbpYrAZeS9+Imq/tjvFQldhCubQWg1eZk3EDV8227Vc4emr3ldXYSvxmNtPRsWxFksPQCDhk1lHEiCtd10TWV/dReKWZSzZdf5LZSI9XXgHUxIFvjwzrUti9PY0I3l8iA7pcC5r0c8B96vmu2gkaWY3wAt4ZITnGo8xKl6PbVmsBXSRlYhcUbEkXtBevuxo8CK/Cy+J6L+LN8p8+LaMZoEE8RNxjHfD0KETXFsAg4ZjXjOZzn8q+2hReA1oIDIbLx8TqO5attNSYcCMj/Sern9Xoxx5D34iar+2O8SfW2mh6+Yj19RXd2ttttBnNtpFXN5poCOq3t80YzKy7lsWxFksMoEHDNrmOMkFa7romsr+6i8Usylmy6/y2ykR4uvBOoiSLdHhnWpbF6ewoSPL5EBXS4Fzbk7UUP0xywrHEMZTOizFuobNdzaeouR6eru+F2XCJPRryRerFxnAwVEB6vCx+J6L+LN8l89LaMZoEE8YMxj+8PmwRc2oyZXmUq5sjIi0Y+W2RRXoiLZLtcQ23FNpWllX81GtIqeahUpCJqeqLB84ncAeRohtKtpdMhJdLswWfje/ETVf2x3kbFsRZLDKBBwTbZjjJBWu66JrK/AovHPOZZnbf5rZSI8X3gn0RJFujwzrUti9OYUJHl8yQrpcC5v42PxPRfxZvkPnpbRjNAgniJmOrvjBWrX6elzVT/RGpxK227nJGtJc83zYuGYEk7MNiqv5bWy3+npHAr/0psjKZV1o0uYnRD+b3QKlzOWO/XEWF2VHgDtA7hC6IEjXR4LKgTyNDMpVtL5kpLpcALPxPfiJqv7Y7x7FsRZLDKBBwya5jjJBWu66JrK/AovFLOc5nbf57ZSI8X3AnURJFuxwzrVNi9OYUJHl8iQbpcC5t4mPxPRfxZvjevjGjGaBBPETI9XfWCJCHri6AQUMxrx1ylNwooegTDJ7TsZZjLPLnQ0xiW81aKwLYWQ4DSssq5XjhXDY4b4f08fR+YOBHZh3CF0wJGujwWVAnkaGZSsaXTJR3SxWCy8Lz4iar+2O8WxbEWUwygQZjJrmOJEFa7romsr8Ci4lLOZZstv8AkWqoR4vvBOoiQLdHhnWqal6awoSO75EA3S7Nc28LH4nov4s3xPnxjRlYgQTxEyPV31giQh64ugEFDMao9cpS+dOBHZh3CF0wIGujmFlQJxGhGUrGd0yEd0sVgsvA8+Imq/tjvDsWwllMcoEGYya5jiRJeu66JrK/AouJSzmWbLbvk2qoR4vvBOoiQLdHhnWqal6axoRu7pEA3y7Na18DH4nov4s3wvXxjVlYgQWYgZHGO+sEKEPXFsAgq8wqj1yzL584EdmHcIVTAga6OYWVAnEaEZSrZ3TIR3SxWCx6GO/oFZWRrGEbyo/WOVtK85yvaYU7BZkKFsITo5yNftujVcZNfZL3RxCcbIYlCWJRz78Z5bDsRZbDKBBmOWmY4ySXruvCayuwILiWeuWbLrvlWqoR4uvBOoiQLfHgnWqal6axoSO75EAXy7Na16D+cFAvJkPk/BJMftUXbQAQ9Eb+iNglIai0eMxecfXyL402GyAul7owjLE44lHPFHP1Z5PXxjVjNAgs4DI4x31giRB64trCCr4Ko9cpS/ATgR2YdwhdMCBro5hZUHddoAZNbMvvSWrhwBbXr7TcJd5f3WgrZf6aRcsDUjRHBFpEoj9VfK6msiuVdsI2Vy92YmaRemlIvVCsKrvtSXZ3thsc/QaoG5ZsHV/e8td14TWl2BRcSz1yzZbd8u1VCPF14J1ESRb48M66GZPN+svqck5ZCVzjWtsF1pptv93s9sxhJ++CEIAZaPGgQeoWiP2a+RA9RdMqrq4XVS90oF6aYg6ytSIwFLGeKSnO5nbbL0OmHvVtMY/5jaiRCa4trCCr4Ko5zKUvwKUsQjmUs8McY6851weW2tcbKZ15ErzKCkfw7YhuKzU3V9Vb0GMuwkhc0bCnFYj9eK74cXD8uSRWIPbfdPFVNccznPUBLdlNxtbGGcZtjmKwbw7arIolF8qh1tQ4fSqWMaHC4Y4WfaDkV4shL8C5wb5SS0ra5ZjY2KrA66aYD0wqqjiuuEcRjHxaxH0NuOxqfqpvzW1Hj8vzjdZ4KxLj6m51Y1uIQxCOIxxiMcY6sY6OcbaiNYXLqgcQyyaH0gD50+L6C8iOwZokTgmzFMujUc4VvNgSfZhVfE4eP4FtkuPdNJoz9jJRNvg0AmfOmU7fM8dspqMsBWAaYiK1rWxFxrGTUmrj4iujZGlqXnGWX0LimcrlZEJU+u536Qe8vXc79IPeXrud+kHvL13O/SD3l67nfpB7y9dzv0g95eu536Qe8vXc79IPeXrud+kHvL13O/SD3l67nfpB7y9dzv0g95eu536Qe8vXc79IPeXrud+kHvL13O/SD3l67nfpB7y9dzv0g95eu536Qe8vXc79IPeXrud+kHvL13O/SD3l67nfpB7yMKmz3PUZ2jXBZ7uYR2HTvqKnYeeXTV+SDMRrpKZXxHpwNRXVGU5YhHEevoj/AEudKfV/10+My/A95h3c7WGX+wRpGM89KbSrtYrLFTscCLiCJk4pXgQWiRohOyzGOvOZ9A0vSHOeZOHvrXLIUSl5Z+0qlpchSDI4JjHinVTdWTTC2qcbKp4xKM/K2/Pcti1Nhn/TibMSeeh8+A1hQS0aExEAGjxW3avD1g53NkewzxhhBDLR7OlX/fc4rwqPvqEDHC6/wJ+nrfpi19kswxfXmOJ6g9m7V5iVjEGYc8im1eFu1HRrCTy59mOPDNk86IrJEWEHsI9mya3ZNIr8p0xwnTnnyjxYFondw82Ljv3MsS2ZKyGtDKJBLcvUoK69YVRSSxNRgaGBZeVtiL1jQFAxs7C/OMWUXadseNmSVkTh2BtUsjmD8jgR2QlgpVMCB7MdU6wF4ysbFAtMaKsZznh6Ngd0a6nJYEdeYUx90NPU3qlHEb1ZYmWSLK/BNgRF0Na36WMcsq4dkQKh2EPYhpWjSlGyuXBcP0tGoiQC406+AwtWOKdi4YzeGVDNkLMJINLFgIHltAINVpYVvurJqlTLlprKGlczt2rMq5wfgUEB4A5odWL0vm1QJjs9Zgo/Vb5j1CYqd+sSGrFpM44gwXo34WxB94Dt4sYzw2V9LZuGjBsMOviOPD65Llhe0OKHTYeQoYv0ly78Fd6iG4JibCVi9pCPDA/Nm4Ks9XZLX9P/AJetL/H0Zaabmf3csMNuY/RqUgJ4/wCUHS6sm1sG5M3bCvPFVZ82508RoZ38ey1W2xjqwfm/cFeerIq19V/5+tL7H0c6ad2nLvu4Ms8NS1clh/lXaZRUbWxZkWOmkPfAj/8AlP8A/8QASRAAAQICBgYECQoFAwUBAAAAAQIDABEEEiExQVEgMEJhcYEQEzLTBRUiQENSU4ORM1BiY4KSobGywRQjcqLwRHOzVGCjwvFw/9oACAEBABM/Af8At950BR4C8wiiPKQPtVZR1gSv7pt8+cdFY8E3wmhvFH3qkoDgC/um35nWf8md0NeTTX05rV6IH1R5W8XQEzcVxWbTzPRSGwuXCcU9wqRLJpw+Ug7jNPCHxVeo6/VWnD98NYYZqE9X7QN1qxRvytlCDYpJuOsNpUcEpF5JwAtijmpS3E/WubE/VTbvhCBXVxVeefQ+2FS4ZRTXKxCcmXTaDklUxwh1NV1lYvQtOyofMp7Lq02GknPEI3W4iWiLBTGRaWlb76pwO4mNx1e4iRhxfWOOKcnWUSdlNYkm4AQLirGW6erNwEKuCbv4kj1lbOSTvOkj/VsC272ib0niMbE3KSRMH5jSbU9YZKI4IrnlCbkpAkB0ro6koKAZVgoiRtOGhgG3Z1gPeIWftaucpnKHfClrbeCE2WDPM2wlVYBZtIByE5atJt6ozU7/AONC4SJAAXDTyYdFYAbgvrE8vmPeijrl+vQde6pHkAuOpBkZqKlDCVl8LFowIPAzHTRaOt9U0utkeSgEy8pVseKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3ceKKV3cPtqbVYlCBNKgCD/MPTuEMUkUdhhkEpSSQsEqMpkkHdHrqAtPT/tvHvPmPIOtLbH9ykDnoBBFZbrqqjpVcEVKip7pX2R6yr1H4k9OSnXZy+DQPPzjLrGjL+5CRz6c4XRyp5DZJIT2pEicq0uUOqrKVvJ6clqUtah93qzz+Y/ZuA1kK5KAMeyeTYtPxu3S0lXJSBMwq9puqEtIO8ISJ7yfODcl5tQWjlMCFdpl1JktB3hQI0twy3x7MqlJH2UhKeXzI0sdY+zcl5KfaJlL6QswEXFJxSoYEYg6CzIJGZMPoqo8KUhJ8lJyRiAe3LIW+c0YhTon2aQ2j17JFO0BmIR/lh3aDipJSMyYpCKifCL4PbP8ASLUoNp7WHzIr5Oit+1dlcMheo8yHvlKQ5md2QuAhkVmXz9a3crjYrfHgWkAq5tu1ZclGDRAVLCZVpEKIsmMcY8MUhthA5ILij8BFGBboaMppvcP9Vm4QcMiMiMDC/T5NOnB39XGfnCxNqgtn0jm/1U48Jw8ZuvuG9azifyuhAr0d9X1jWP8AUJHfHgWkpX8W3ahHImDRBWUkSmQa1WysMcY8M0hDKRwS2VqP4Q0KlDaOBCL1kZrJ4CEmSm1C5STgoYGCJJpiRsqydGIxvGIHnlBoXWtumQNip78YdIKm9xlZPQX8nRUe1dyGQvUeZD3ylIXmd2QuA0OTOgcMiDgRgcIX6fJp0+137XGejXSlC6pkrqheuRswGUZgiY1YWEMsGU6pUb1StkBZjKFCRvl+Y0FibVBbPpF7/VRjwmYeM3aQ4b1rOJ/K4aHvKPoJMlIULlJOChgREpJpiRsnJ0C8Y3jEDpG6H6IG2mwdpThVKr+O7zdbKnK3kJHlGsJWpwic+rdSZKHCfSv5Oio9q7uyF6jzIe+UpC8zuyFwGjyZ0T+YOBGcL9Pk05k6M9rj0pvBq3w6zMOsgTVNc+0RM3Stxj6KhMat9nrP4l0rMyu0STcmzKE3NOJJSpPxHSsTaoLZ9IvM+qnHhDpm6+4b1rOJ/wDmj7yj6IMlIULlJOChgREpJpqRsnJ0C8Y3jEDoPCGmlA9V5KFFC61pF91u6M0kTHmyqWnq1LcM/LrmaZWTqg3TxhIkFOrM1S3YcuhfydFb9q7uyF6jzIe+UpDmZ/YXAaXJnSP5g4HfC/T/AFTmTgGO1x6BkoSgvI6gs9nrKs69apsyvxhV5CRLVofQhLYcNbq3AozFVRNonMQLluLVWVLdbLl0LE26C2fSLzPqpx4Q6ZuPuG9aznpe8o+kDJSSLQpJFoINxEESTTQLap9V0C8bV4xAhJlKYh+kpdQ2wiU6ltZajVsrAb4+iBIecL+TorftXd2QvUeZD3ylIc9Y/sLgLNPkzpn8xkd8L9P9U7k4M9vj5gsTaoLZ9IvM+qjHhDpm4+4b1rOf/wAGn7yj6YMlJULQpJFxBtBgiSaakbKsEujEbV4xA85V8nRW/au7sheo8yHvlKQ56x/YXAajkzqFf5Yd8Oen+qdycGB2uOuWKzVBbO2vMnZTjwh41nX3DetZxP8A81HvKPqAZKSoXKScCDaDBEk0xI2VYB0ZY3jEDzdfydFb9s7uyF6jzIe+UpDnrH9hcBqeTOpV+e474c9N9U6cHMjtcdYsTaoLZ21/SOynHhDxrOvuG9azidT7yj6kGSkKFyknBQNoMESTTEjZVk8MRjeMQPNV2tURv2zssMk3qPMh61ykOesf2FwFg1XJnVK/MZEZw56bJp04O5Ha46pYrNUFs7a/pHZRjwh41nX3DetZxOq95R9UDJSFC5STgoXgiCJJpiRsKyeGI2rxiBrkGu6fsJmr8IR4JpJT/wAcU1tdGKuHWBM+UDoXa3RW/au7sk3qPMw9a5SHPWP7C4CzV8mdWr8xkRnDnpcmXT7Xftcelo9a79xM1fhCfBFJq/8AHFMSqjrVwDgE4HQsTaoLZ215q9VGPCHTWdfcN61nE6v3lH1YMlIVgpJwULwRBEk0wDYVk6BeNq8YgdFHm86PsIBMeKKTV/RFJCmHDwSsAnTV+AAxJuAF8MKqUp5ObqxaifqJtzOENNgFW8m88+h5AUk8jD5KqG5uAvaO9Nm4xTESTQBi44blJ9Wr2/jJ61ykOesr9hcBZrOTOsV+YyO+J1n3wbEtKQLVOYTHamMZxRV1HVp+vcFtvqplxMMNBM+Mr+h9sLSeRilqKqMvc2b2jw8ndFMbl4sGKl4KPqgdq+6HTNx9w3rWcSdZ7yj6wGSknBSTgRgRDQm7TZ9lPVi3rMLLDfZbKiuVbPrnE2qP0UyTh5UUdsIH4dD7YWPximOVmljJlZtbOQtTuEPJqu0dwXoWnA/nonsrUPJNJOZNoTkLcdI2JpLd6mV7jKw7JtzhV6c0neDZy1nJnWHCD2Ut3fxJ+ksXZJ4nS/6xgWqZO/FJwO4mNxE9Z7yj6xVwAvMKFlHYPpP63BI7hIZ6Sf8AW0cWlP8AWm0pPLGE3KSRMHpTeOtUEqI4JrHlCbkpAkBpi7y5pdA+2mt9vVHACFCRkoTEcmdYm/q1TU7/AONK4TcALh0oE1HgIpLXVqrp7Ql04Bp6dYDg6hz72s95R4UZAAYw8wpLClK7PlYA5mQ1Q9gn+Y78Uoq/agYdLTS3AwDi4UghGdsNmaVWys+HTkw8OsSBuCitP2eneijOkfn0jICZhDhSKGi0MpQLp3EnGeUPKrLLhTNUzz6eDjBH76r2tICCCrgi7jPIR7sRyZ1m8NVf/c6Dj1RdJCJham0y7MwZEkTlBvLjqi4r9XT/AEPpl+s6z3lHicqyFCRHwMUlQcbQ2FTCRJRUCo2Vl1QPhE8NTv8A5Kf/AGPTmZWCFny3aW8opA4iwS+jG8JE/wAenKq66P8A2/DpyS4lTP5uJ6c0kSMNsSWoIUCgO2+ULBYKs4SmqCZAAAYAAJHLpyU86mQ+DJOpEM0lSmhhJczKUeEVTUlQQAatp8mOTOsy65paE/31Bz6Zy8opIECjLSaK31iOvJErT2rBOy2CkpV1QsSSDdOU+BHTk444pZT91KDzGs95R49RcUqiFltKgU13Vr7GB7JO6DespSBP8NTkXGwpP4tS5jpdXUSszz4Q40lCnig1g0gXma5Ekyu0Ppiu4ofB1HSm9CtlQ4GRhOw8m/kbFDcRpKuAEKvZbkEtt8QkCe8nWcmdZ7N1JrNq5KAMeyfTYtPxu3EaWcsBvj2RUAEt/ZQlKeR1nvKPrDch5CgpB4THwnCu0y6kyWg8CDpJ7SzgkbyZAcYTcHVmZSNyRJP2dCtVTTWR+Tidk8juWKrjK8ULTgRoOGSUjMmHhJumUiY6vrRelv1a3aVLdPWcmda0oVnmzOo4MA6JWT7Qsyi5SFC9KheCMjoOqklIilJqopdJB8kuC9NlqEqvvvAGt95R9bRzNZMvIdQLusleNoSxAhOeIIwIy0FmwQ+JLWr/AKh1OB9VOF5tu0aGZKIwC03LG5QigO/w73Ntzyf74DlGI+PWx4VpaKqfstVyfiISjqqI2dzUzWO9ZO6ULEwoQ6Zlom5h45+qvG4236vkzrFCbdBbO2rNXqox4Q6ZuPuHtLWcSYolzn+4g+Sscbd8eDXuoc5tOWf3wHKMR8etjwtS0mXBDVat8RCk9XRWThUZunvVMwr/ACw74c9Jkw79Zkra46z3lH1kqyKCg/qcOCeZ3rNZbizetRxUc4YE23j9a2fJXxsO+PBdIDSjxbdlLksx1lGl8etjwrSQsjg21OfNQh0VGGD9W0LBxM1b9a4JhQMOmZaUeyw8f0rN9xtv1XJnSojIUy8R9IkAc4r16hymL9BQm3QGztqzV6qMb7odM3H3D2lrOJOoV/lnGHPSZMu/TGCtrjoqcq9bJVUlpASSoTsmZT4Wwcjbo+8o+rlWRQUH9ThwTzNl6jWW4s9pajio5+aLEwpJwhwzLRPZYeP6Vm+4236nkzpJZ6xJJM5OGedlkonOo4klKh8R0qFZugtnbVmo7KMeEOms4+4e0tZxJ1SsYc28mXcl5K2uPSLxMS/eFNCotkJEwVX1imZnngYN9VSQofno+8o+qlWRQUH8C6cE8zvUZrcWe0tRxUTefNqOx1qESHlJOZGIEzBVW6udzLx/BKjfcbb9RyZ0nKVJusszrOA+VMfRBnLCJSruKJUo/E9ChWaoDZ2lZrOynG+6HTWcfcN61nEnWLxhzb+peOC8jtcej6KhIwXhUNH7Nep2q9TC6eMG+qlISPy0feUfUymigoP5unBPM7+26+8u9azjmVeboWC2l1Q8pxSa1Y5yQkwRNLxUSV2YWk2YQ6Zlk4MvH8ErxuNt+nyZ1ChWaoCDtLzWdlON5sh01nX1m9a1Yk65YsMO7f1LxwcyO1x1HvKPqJVkUFJ/N0i5OF53uqmpZvUtasVHEwq9lnq3aqeJvO+zAebs0WuhTZ+TQlQsA/qlKeUIVWSzX2Ad0vjOHBNKhvh5U1MnBl9X4JXjcbb9LkzpqFZqgIO0rNZ2U8zZDprOvrN61qxJ8wWLDDptXky8faZHa46fvKPpyrIoKThvdIuThed6zWW4o3rWraUcTDThQqYMxaN4j+OKgGwkibdZyda3DfFKVWdH9RmbfOXBNKhkYdM1MnBl5X4JXjcbb9HkzpKFZugtnaVms7KeZsh01nHnDetZxJ8yXDm1ky8faZK2uOl7yj6UqyKCk/m4RcnC871mstxRvUpW0o5+fOCaVCHTNTJNzDx/SvG4236HJnRUKzdAbO0rNZ2UczZDhrOPOHtLWcSfNFYw5tHBh0+vkra436HvKPoyrIoKT+pw4JwvO9RrLcUb1KOKjn8wOCYUDhDpmphR7LDp/Ss33G2/ooaFUh0cUthREJ8GOhMnKs5gitsjCPCNGdoszkC4lIMJMwehQrN0Bs7RzX6qOZshw1nHnD2lrOJPmysRDl6smHfp5K2uN/RQW10lxPFLYURA8GOVKqygmwit6MYR4RYcopUd3WJTPlA6JVkUFJywU4cE4Xneo1lOKPaWo4qJx+YnBMKScIJK6VM2Cj1b3D6pvON04o66s0/XrFqj9EGrxhhAQn4DoWJgwu2hP7ij0Z3olvBimI8nwej153OT2JWHGUjDhm484e0tZxJ84XiIRNdLpM7mSjaWPWxFplIxRnP5aRh1yxa4d3Z4wygJSOQ6HEzB5Q8Z0N7MDFo702ZgxSm7fBw3YLWdmVkrd0KM1OLPaWo4qJvPzGcIPZS3d/ES9Zdsjgk7zpG59F6mV/RVLkZGFdpBxSd4MweHnCjIJAvMLuo9HNy5eusSJOAkM9If6tkWqZO/FJwPExuI+Y0m2oozcl7tK4TcBp4AOTS4B9tsq+35wMWRNx0c0II+1Aw6ViYRXPlLljVSFHjKGVTJZn5BVIAVuA6cA09aQPeJd+Y96aOuX6joOWshLfkqdUi5Siqd90rIUipWmskADAAGQ3DpodSuAl1ogmspIl5R+MSo/exKj97EqP3sSo/exKj97EqP3sSo/exKj97EqP3sSo/exKj97EqP3sSo/exKj97EqP3sSo/exKj97EqP3sSo/exKj97EqP3sSo/exKj97FIlXSoBtEjIkTks46DdKWkIqpDbZSAfJNZRtGUOKKlHiTf0/wBD1n/IfmPJLqFtfqWjQWwFqZUs1l1DOUpzNoMpw6qspRJmSTx6cluuFZH3W0HnrEJK1ITmoJBqjjCTMEZ6vIOtqA/vSgc+lQJCRdhGClK/nOS4VkfHQ+smtxQ+6tv5jF6FbKhvBkeUDZdTeRuVYobiNLh+8eymAEt/ZQlI4g6vOqkn9obdqOOzUqvUF5CESTeOzZAUVfy5eTabbs9XL5N1JCkK5KAjFl9Ni0/G7cR0OCYMJGJtJ49I7TirkoG8mQHGE3BxeyNyRJP2fmRSqqaazfUJwWDalXEXGHU1XWV4pUnA/wCDQWbBD1jj68H3U7MtlB4m2UtXuUJfvCEErpBKl9WpsbQUFJMxdMzuic6qioqq8py5aytVFNbFxBNgcTgcRYcCFiq40rFKkm0HQVjuAxO4Q72kq9u5kuVgTs24mz5loiqjoGRwUNygRAWqiPfDykn4iEUyjFHxrj8oplJNIUPsIAB+9D4qtMH6tsWJ42nf55RDVWRksXLG5QMNOKojv3TWSfiITTKNU+Nf9opVINJWPsIAH90Unss/7bY8lHG/f/8AlX//xAApEAEAAQMDBQACAgMBAQAAAAABEQAhMRAgQTBRYXGBQJGhsdHw8eHB/9oACAEBAAE/EM1inXiuNHTndjXGltuNPtW2ZKnfirbMa2r7p/fRxravun99bNRrzpzpzuSrM/d1/QNQvf3vgGP3TDK10+oV+qGSRn8U3tLYk+/cl8KfcIC+x/ZQtldOfNiHmKzsN70DWNvPTsFD4DgAyjACVUAViid/Qe1qmBww5aQcLbOvlmP5TQkD4G8oGHyVcKgF5KzlQvFGVcd/H7LOlRcbghSI1Y6FtQbGVSAO60SCS5pQ2iZsnAiFm1amNEHyOljotRVRRKrAIrWEpYBr4iq80lYr2wMM5D+wTzby98pazQLGqv5pJXkhq468RjdWymStiTcbrGUZt15Fx7iSI0b3ZnTvob86euhOk+aAKsASrSx8OkqJOLuwJZ7pNnS8OsGTc+dMJ4vGewTCcJhOETpsyC5RWBJiy0rLgrh4gbSADsM8Ug8pcr3GPEdHGjkGOwAlV4Cm8AsN6tVk5l4190gkMTloAXCeRdsGiJb6kED2Jtx1YrGsVjTGk1G9nldgpWOSpmO5KAADsAGpqIyKYhgwEpvOrVto1LDg/ARWCHTkICMQi0mxOJaUNZhDWORIhhzLgGb4S7pVZSDwHTcdrAFhpiwnzQ1IOBoAMAAVzpzqgkJJQsigLbwyCIwBDHQ+Vzpz08689J8mpOIP6/yrOsCjZ9dCwSIAMiaViDiF9C7gnk1ni+5rqEGYRLEyn5HRIk6ZMmTpkSdMnTJk6dMmTIkydH0aTrtIAsoMX18HbkCV/Q0wSVi6QsTQWAGT8HcQGn3ZdbJd6TDP7/qjrnVxumEg3ddvuyCsgmE4gjuSwFACaIxA6nOBZ91xJ+8Lff5g77n8LAntXLz8PtBqJNR2AkJV6SKh0XCRKQJTKkT1IQjIyvLrIhLHD3uyT0/Cz+DYcWJMNB/8FUBp2sr/AHQErlLDrGqkvyhEj6BqGwDrzykEcdPx0/mmf+u4C+mfC0QEcmB/56E87rc7NlQmBysAXVCjnjDwxPzd3K3nb8/B40jbxvy4E4Q2TiJgJnMM2LCAi2Ru6QQiIhsex8aYSosActPd23OFCycR5ORIFAABYO2yNI2Z2Y2RUbgxIN0TGM2OwZhITNbK0jwiZBkVCIiDrihSceLJUWAKD3RI3kVZAA8lsYhUVG52YrnWKj8DjS49Cqxhe4WeEQWKFsqMlgC5gYGyAKW6IIAIJeOCNggNPg0RNj3Xe7QfNXAn1xBNLjhCoL+nyL/UBp2EakhlIpLMtlcqLMkyJF0l0AhCIJEViE7UHhAQYbBJLBs7fhOgBG3hAsZcPKyWAhizfsKSRjAAAAV2eUUtLIJ5XzsUiRxA4XyP+h0xpRp0GKCFcI96cmX+vRTJ7VFMt+eyiqFyIblFhLXjqT7thC4lGxmCDngBCjYjtw6P4LnauyidfGIwkRsDvTM8o03nbBzCkzdzpGlxoBGbC5cb8IgtQtxxitIXMAsNkARp32sIrmv7NZyyoQhQIiVjkvUHpAgxYEkgDW1KAzYqfLUBXYcjK4iJqUqkkQyR6TZBrGpau6PSnHTlmQSUilHLtoEhPCFtM6HiTekizl3uSyWADhm2BK23IPAAAAN3OxSHoiR5J92Q3QlApmKByeyZIwE1xmmTN+RAsfxS1AnhqxDBmSUYTboWNkaxs+7Fq2CWgChyEBQvN4MGJZEzvMEj2TW7ECjNhcuG/CILFCzFL7FhcwCw2QBB0uF+/uxHIC6IQQiCIlY8/XBy8ALWBJMjV5lvQpEHhJkfFRmuIA8IvmQYJlSDqDSGLMcWTpRsoe5CYpzERV6lNYguJsxBQLJIAGUBaRHkR1NMHHJeVvdlksBacAGxrd9IPAAAAKndTjVFsAKcSfdgMBEoEMsgYVEsVwBHXCBigUAqCf3UbT0QKDkgSSCRKaLsG3BJ9E3R0Y151ChO3zQR2sAGkBKAVfoxRit4KCbwHS/xLixhYwbgwCCAoW8AdYkLlgCw2QABsjS7YhjS+N7o9wFwYQIiCNqto/uWEjlhLKAkliVFL+PGU1x5htRCHxA5jYf+DXp18Ywcr5QnoY1b+IjlAAWBmFhtSIgOUSIOxg8DQyIPHNA8t7sslgLThBfvvSv0AAABszUb2dnBZO2skMFAiVZAcaSUJbsQAdMI+vIVoMiMTExxNOn5pFNFkA5FUNl+zuZBB+g0zUb43fzszXOt7gnljCxgs3QEEBQs8EkuIVLAFhgQADqsM1OmPaTeRCEEECIgiJUND6hYKRWJYUAJLErHUzqdAFxig8sNwWSwFpy/0bXpUegAAAKx1OfI2INCEkwAiIVYQEaQlAsPgBpjH481d5JlcwsYDOEEEBQtUEosIVMAWGBAAGrpNN9vT5tvh1wTCIiXBBAiIIyVZGJIwkQsa1gJJASnX+dvzaeELhJD4Q3ZZLAWn7/RoEk/QAAABxivm22nP5pOvzSwQYUaSbcwAyIVcO0cQmzZM4k2gtp80nX5tjfBeTkXKKGAiWQQQFCx3eiwhUwGBsgADadXh9HCekCXBBBCIJcrAaCXhbAlsBJLE6g8A3BIGZucrJYC09dF9gST9AAAAfhM7f7BRhJt4gEIg1feQEYs9ggo2I9eDszrB+XAoMK3AZ4hBAULDZ7qEKmAiBgQAG/HV4RPi59EyiEEIgkJU2sr/wAGAPASSAnSGiCxQFvMDyMlgLS10X2BJP0AAAB0PnUp21zQX4fdsQSIJV8/wRiy2AChADTHzpGoJ9wn1iT5SNFWTz20aKGRF2M54lQ4QlEidx0gXnklmFi4L4gQQAWHz1UIVMBEDZAANkbHrVI57cx2TKIQQiCIlH5Ax/UgAxYEkgJqiHHP9scHmkTv2qfbROMQjnZz8DRkQJLgmgY7rUkWskNyUSwFpK6r7Imn6AAAAPxedtt0QYyfdkQSIJV0t4NKeyJNgBqD+WtwxFnlKmIdk/y629G/8pWg0Iklx7bh6OMpVWBJVIAqQBWp3H8MG3IcgO7IE8kGbsiR7pWuCiCBBKdkEakwyVC/WL3STLUg5V8BEPyBkZICAqWHI1UIUMBgYEAA/A6fOg1dv8IhcGEEIgiJS1gBIqEQ0ALeQUJ3r4Vku7JcEw3KAnefayAryy6EniCI8glTpPATytl14kyzzofhqsYg/T05IrXBe43vGr0AAAAfj87bCMoWyTdwKBEkqM48Dls0jEocCEKGFn8MjpWVAlXJxgg93ICXzoP0oTvwJSVYknINsKyOE5CfY0WcTlwnOBCKI6lAyQCVeCrW0glFHcjtZRe2udgQCEyEdyhScI4LREZobAOAKOFFRo87++h24Rpmo2AfQSgASrQ3pprhUDkzeXyL6UbDZKBsKfNr5L9ghHhEiTCThvCcM6/NGoqN2MqNnzRqKjRAWGQNKPABNGPXfSJMckRSXHu0KjR62KG09J2HKzLtZdZeMCB7Er5oyKsIfyqX76F9nkAgegCprttH7grJCOLKO8+dY33nBYQpgOVwHKhXYnrBZjhhN3T7vYPziBkiY5/dKEfYEDQB2ADUX2AuITAXV4CkQFIBwkXssex1KMiKeFLgRjiHEdVmNL7gSVLgAWaVLHEaAwlmDSSG5QgEZG4nPRYGANwoIsXhS9e9APMNAAgDUZ8kR0gQRN0tfF6hxWGIkrklHzRJL4q0yzIsJ2ACOCBjUY68PIJ+5fNJpGyWyHQfBo17diodlRkVxcCmQSOBEldRR81eAsPPNHxf9tzjQ0ve1TjyFTI7t82oW5Nc7ppua9tLzhhj3DfHVyQCVWAKz5owBGiCXJJaFM9RIhcH7H0Gv+i+5V40noTpzuOR9IZxCShJeimikNtxSgbq+CYpVkhABfm2s7r8sKXmQR5jQmvCH4dP0YrGJowPm7L2ki0VHLmoyY3yyXy62rYvHK9e/wC6prNfu486fV14HW/SJokg/S07M4BLasIJHktYJXaoKpJUGirBm9YdIFPCwk9/xE77J1G2gLINJwk9nimpJRRCAYYuZm9J2a8bVQQRCGLOzpO7NTbSOsdr9A+H6BrxYkEvxxdiaWyJgoIBixVJxuyPboUuZFICCJBM1Ohh+xf7BBDxtsaTXfbTTMBwew3EFhJi0zT7JVcjhAloQqQc1n5uGNftl9rnZjSa71G32jcPCHsHOpiZ2UgR8JMcxHNcYkMi6uQYQcrB2qa5o70nyIzPUjz6185bmB5AB5KBsKgWLDMcnlW59zdwNK/xRs8DwRl5IPH0jTjXgqKjrkJcjkyYH/nqJlO3dvzQVco53CC5zAJg5TABdUDNFWDDh5efcluehx1wfFZuy/ub0x8qE8HKCH8Jnkh53S+NF3DPy4HKKCozKmRBzA/A2NLKwSKQtpSrAksCNH8gm4OQvOuPskR2MEMRJuosB3ajXFeW0xupSAJMAaxvNhr07dA1KE3vCQKgSJCGSXjPyoDZy92sgI1zp2pSIChXKtEVkwmXzsuJyoC1jb9rmo3Qfukbftc1aRbVCciAjKPlCXod0IGFAUCKBERB2WTBHB2OVWwEqoAtX7tHHjsDPeaAg0RsHF8FKusJ3keEqKBrEy8qU+h6ouzclPiJ9iopHsH8g3ovto6y3Q1xCCgZESaGIlFqkIlOpWuqhm6sJ24LsRtxUUaEDbjZ90cre5vgHD3uSrsBaGH9kxhV8CAAAoULkgs4J3CsgYFRDCwdPZjxh+qLb1kJ/CfaduMgC81v0a0DgR12UCocN20pekArJwjkGEEIgkJR5RJXXN4AXICcFHHU5/z01YCIQElmw/V2oKPW0yslu7JVf1FM3MJGEHZFsHg1Fgre2BCg5/h7L9f/ANqYebeU1FbCkM+LcXLnG+s6RUax7zoKhEqamgxEXRXjsqWul2xrG9hGSjtwKRCqMoIzVuPapZK7SMSW7bGa8WH0OHvclXQFo6FtO6lco9AAAAG9xzsSncS6G4IRBESjioyS5Rgi5ATgo6ogASrgKczHnuyCIgoUaFPSOIUAScWfwEb7AFIS0DYXrO2KPfE2klO7ZVdfO2PGBpkKKklHedGUXjsqWtc+dI0dcakIvtLgbRKLA3uFo5XEZYYgLN5BoeSNWCccBYODTyK7AWjIffKoVfAgAADZF9qy2Y0dxLiIIlxBLlWYHul8vAhCWJ5jodrJMSKR4QTNL+GNf8bzBAogytSVzF2HmBsjQHmnXO1KBEcBwNku9g44KJjAG0lO96TK+tY0zTrnTGpXO3OitQqBSFkSYIPElGOMZxgduJ3JFsjQwbmudrQriojOTgu5RISAwXQJvc6xZnAtBwBopHFkwHwJ5USgKiQ98FRqucAAAAFdtM7TWHNZrDIzkRBEuIJcqTpq7uJMASz2J2o0kMEMyYvMNqI3thljyURbyW0eYuc3YeYGmehzjWKGw634wcEu1g44KSZDDcy4ylFXc7hpnoR0ea50imX+hVCSIlnDcLpQ54NywH2SV4Q3KDG1W6wv8V2YDp4xq2qNSkaxRqjORLiAMCe6LAVEnInxZp3PAAAAGjTrGsUa3OvnBMj3EQRLiCXKkrmiVcWYGMZO1GL6OkboZjaPk5RFTBwhLWHHBThkdjVZdkqXWjG7XA0U4m94kmlGvGpjZnWanWdJpxapYu3w84SlZzMwFuQ6kCExGAWLShNJeqHbLgbNFSqwZyHdRXY1jXnSdxQxXOnGis8efEfAnuuAKgFnb4s07ngAAADTtpzsMVzpxsS1OQBkTsjCJcQS5RdJTRPRnDGTgo9XmTspBFSQxesXZwUZyKSuli6Lpdae0LBYbDiQD8o36+ZiQgeYHuoTBF0WGGk72W/L1Zo2e9jq/OgdvIOaTLE9lh7MqK7MR6nhwkJHsLBJ5XgF8hLRLHbu54IAADfPRnRyGAJE4TkRhEuIJcoy3lZW+sB4icFHZO/GCNpBBSANvHUscFGdoiopeuhVV2p3TvmnZGz7rjYaAILZCI04ZbbaGbstk7GsdmdaH2udOFIYEJY7wl4BfIWEeRW6suCwQAHS+1zrztchomweRyI3EuIJejV9bla3HEL0BODHRY+cVaBEEFIA2H4g44KIoBPRS/diqrq7PfR5xsei6OvaonQ0HQoaY0dxBF2Xt2R7Gs80sV/vNrdVXCmCg+YBjqLUWXpwGgZ7wh6Wj2PYg7iZ04ijkQHhu5fgF1BvMudbquuCwAAE1MatTU6TU7Jr5p81zowzotk7JcTIkIglyjWZTuubwQvwEvE9EgS2DlpZ6x/2UsBRxATqW0qRhTk0g2fAcRj+qGACUSJ3GvlE4sBgpANi8AccFHTIQVUp3mlV1dc7Z8Vzs+VNfNOKjTmuK52Y6ERgaDIUdoq7syUVhBDACpIBZHK7nxEVyeTDDzoWjQaPgGgNVhp+yNmiFFiFn7BjmM4FArFrzETl33WFYApU7zH0W6rr6AAA3P4KDKnWb+RGES4gl6GfBMFYgwQA+QDErCMHjmnKULaIyl+GBE8AGgjxgh+yrNXnRe5I2V4Iw3pAi5IxMiFwrOTusAngIAuJTvNKXV3nXeh42j/SSgBlWoYn3i8SWS8JBDNoazxTWDPZQIcmGEYxbxowS8GBwoq+11jfeovvhxzGFKPAAtCu55FMrHOBR7jbJA8tBT+5fwEE4InckSezeE4ZOibudZ2OpHSKwzQBSowiZ8UEmzoGQAcAEa4050sPEhgBnF4DlvNGyaMb+dToFLfJg08J+LBzQfxBQAwB21lloRkrSwQYYG00VIRBdxlhKwGOZqdIHwxWDQOAsOyb52RpO00Ou2Yx7JY93PjshYLKZSbhRnGALq+aUVAWqgwpsNY0Bj9qsG0EczOGY6hU6VOnTrUqVOlTsHT6ValSpUq9KlStl2EkKZIGyto12okRTuOpElQLK92jiOCoESpV5WXURL7J4VJ+/wCF0M72u2htM0beNR2lqnWSiOw91/1ROxoncW4KAmBOLJamnaruCDKpeAwAAa+o1d7YRD12TsjTmsULTTDGGBIYYDDRj1lLEgSyI50zv40iFHCdNvv2A1m8I8JBYKqoACq0dgPZgG47DfKMjo6FuHntYb0l97eOg7s7jbMa8aeY0wY8Bh5FNI6WwiB2lPOimdhXVZzAmA5TAGVQM1KhV4un/mZvKOdeNltI0n4b4QgftIxVZR9cACxBIklEUNUMeQrDu76W6K5jazHvzJpyCc0aeXmUZHiErlHOkOoVRzNz2D4irMejhSQ5Uqq3VvrclDnlgeXg5RUsMhKGVOQE8gd8dDndOttGsdExDTAqhBDSjEoypKaV4sFa4T6SFIjstQdmDj2rABdUC9AE21FZtCByEWMA6D7sShVpka/4pHkP3+EOeAYCVAniEgSw89LI0s2MWYjzxyCZgoTHNsQeGDcifsh2EYnlKbBLswAKqALUy9FhZJGWRy5ipxb0b89Kdk7J3DUpDiuW2X/EKJEjEZeWP8g+KyTcvqGxRqdbPql9wNQ06jAwum86U+NC+k180+atfNk+NC+k+NflTXOnyoZCmhMMHxwOIb1E8cRX5FnkK2KymWFX7SlCeLz61M3380/KYUG/5APe6mmp8a/KmudPm6aanxrzrHVNc78dfHUdcdR1xs4aK4rip05Kac1N6aac0VzRRmjFGGpzU2KK7alOwo42NFdtSmnDX+aaOKHOhpzRXNNtDim1OGv800cUOdDTmiuabaHFNqcNf5r/xAAUEQEAAAAAAAAAAAAAAAAAAACw/9oACAECAQE/AE5P/8QAFBEBAAAAAAAAAAAAAAAAAAAAsP/aAAgBAwEBPwBOT//Z\" width=\"480\"></p>\n\n<p>Which one of the following is NOT the sequence of edges added to the minimum spanning tree using Kruskal’s algorithm?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$\\text{(b, e) (e, f) (a, c) (b, c) (f, g) (c, d)}$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{(b, e) (e, f) (a, c) (f, g) (b, c) (c, d)}$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{(b, e) (a, c) (e, f) (b, c) (f, g) (c, d)}$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{(b, e) (e, f) (b, c) (a, c) (f, g) (c, d)}$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2009,algorithms,minimum-spanning-tree,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1321",
+          "text": "<p>The running time of an algorithm is represented by the following recurrence relation:</p>\n\n<p>$T(n) = &nbsp;\\begin{cases}<br>\n&nbsp; n&nbsp;&amp;&nbsp;n \\leq 3&nbsp;\\\\<br>\n&nbsp; T(\\frac{n}{3})+cn&nbsp;&amp; \\text{ otherwise }<br>\n&nbsp;\\end{cases}$</p>\n\n<p>Which one of the following represents the time complexity of the algorithm?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$\\Theta(n)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Theta(n \\log &nbsp;n)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Theta(n^2)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Theta(n^2 \\log &nbsp;n)$</p>\n\t</li>\n</ol>\n\n",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2009,algorithms,recurrence-relation,time-complexity,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1271",
+          "text": "<p>Suppose the letters $a, \\,b, \\,c, \\,d, \\,e, \\,f$ have probabilities $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\frac{1}{16}, \\frac{1}{32}, \\frac{1}{32}$, respectively.&nbsp;</p>\n\n<p>Which of the following is the Huffman code for the letter $a, \\,b, \\,c, \\,d, \\,e, \\,f$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$0$, $10$, $110$, $1110$, $11110$, $11111$</p>\n\t</li>\n\t<li>\n\t<p>$11$, $10$, $011$, $010$, $001$, $000$</p>\n\t</li>\n\t<li>\n\t<p>$11$, $10$, $01$, $001$, $0001$, $0000$</p>\n\t</li>\n\t<li>\n\t<p>$110$, $100$, $010$, $000$, $001$, $111$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2007,algorithms,greedy-algorithms,normal,huffman-code",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1249",
+          "text": "<p>Consider the following C program segment:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nint IsPrime (n)\n    {\n        int i, n;\n        for (i=2; i&lt;=sqrt(n);i++)\n            if(n%i == 0)\n                {printf(\"Not Prime \\n\"); return 0;}\n        return 1;\n    }\n</pre>\n\n<p>Let $T(n)$ denote number of times the $for$ loop is executed by the program on input $n$. Which of the following is TRUE?<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$T(n) = O(\\sqrt{n}) \\: \\text{ and } T(n) = \\Omega(\\sqrt{n})$</p>\n\t</li>\n\t<li>\n\t<p>$T(n) = O(\\sqrt{n}) \\: \\text{ and } T(n) = \\Omega(1)$</p>\n\t</li>\n\t<li>\n\t<p>$T(n) = O(n) \\: \\text{ and } T(n) = \\Omega(\\sqrt{n})$</p>\n\t</li>\n\t<li>\n\t<p>None of the above</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2007,algorithms,time-complexity,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1247",
+          "text": "<p>Let $w$ be the minimum weight among all edge weights in an undirected connected graph. Let $e$ be a specific edge of weight $w$. Which of the following is FALSE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>There is a minimum spanning tree containing $e$</p>\n\t</li>\n\t<li>\n\t<p>If $e$ is not in a minimum spanning tree $T$, then in the cycle formed by adding $e$ to $T$, all edges have the same weight.</p>\n\t</li>\n\t<li>\n\t<p>Every minimum spanning tree has an edge of weight $w$</p>\n\t</li>\n\t<li>\n\t<p>$e$ is present in every minimum spanning tree</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2007,algorithms,minimum-spanning-tree,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1243",
+          "text": "<p>What is the $\\text{time complexity}$ of the following recursive function?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nint  DoSomething (int n) {\n    if (n &lt;= 2)\n        return 1;\n    else \n        return (DoSomething (floor (sqrt(n))) + n);\n}\n</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$\\Theta(n^2)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Theta(n \\log_2n)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Theta(\\log_2n)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Theta(\\log_2\\log_2n)$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2007,algorithms,time-complexity,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1242",
+          "text": "<p>In the following C function, let $n \\geq m$.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nint gcd(n,m)  {\n    if (n%m == 0) return m;\n    n = n%m;\n    return gcd(m,n);\n}  </pre>\n\n<p>How many recursive calls are made by this function?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$\\Theta(\\log_2n)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Omega(n)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Theta(\\log_2\\log_2n)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Theta(\\sqrt{n})$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2007,algorithms,recursion,time-complexity,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1078",
+          "text": "<p>The recurrence equation<br>\n$ T(1) = 1$<br>\n$T(n) = 2T(n-1) + n, n \\geq 2$<br>\n<br>\nevaluates to</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$2^{n+1} - n - 2$</li>\n\t<li>$2^n - n$</li>\n\t<li>$2^{n+1} - 2n - 2$</li>\n\t<li>$2^n + n $</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2004,algorithms,recurrence-relation,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1077",
+          "text": "<p>The time complexity of the following C function is (assume $n &gt; 0$)</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nint recursive (int n) {\n    if(n == 1)\n        return (1);\n    else\n        return (recursive (n-1) + recursive (n-1));\n}</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$O(n)$</li>\n\t<li>$O(n \\log n)$</li>\n\t<li>$O(n^2)$</li>\n\t<li>$O(2^n)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2004,algorithms,recurrence-relation,time-complexity,normal,isro2015",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1076",
+          "text": "<p>Let $A[1,\\ldots,n]$ be an array storing a bit ($1$ or $0$) at each location, and $f(m)$ is a function whose time complexity is $\\Theta(m)$. Consider the following program fragment written in a C like language:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\ncounter = 0;\nfor (i=1; i&lt;=n; i++)\n{ \n    if (a[i] == 1) counter++;\n    else {f (counter); counter = 0;}\n}</pre>\n\n<p>The complexity of this program fragment is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$\\Omega(n^2)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Omega (n\\log n) \\text{ and } O(n^2)$</p>\n\t</li>\n\t<li>\n\t<p>$\\Theta(n)$</p>\n\t</li>\n\t<li>\n\t<p>$o(n)$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2004,algorithms,time-complexity,normal",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "1075",
+          "text": "<p>Let $G_1=(V,E_1)$ and $G_2 =(V,E_2)$ be connected graphs on the same vertex set $V$ with more than two vertices. If $G_1 \\cap G_2= (V,E_1\\cap E_2)$ &nbsp;is not a connected graph, then the graph $G_1\\cup G_2=(V,E_1\\cup E_2)$</p><ol style=\"list-style-type:upper-alpha\"><li>cannot have a cut vertex</li><li>must have a cycle</li><li>must have a cut-edge (bridge)</li><li>has chromatic number strictly greater than those of $G_1$ and $G_2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2004,graph-theory,normal,graph-connectivity",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "1041",
+          "text": "<p>Suppose we run Dijkstra’s single source shortest path algorithm on the following edge-weighted directed graph with vertex $P$ as the source.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"218\" src=\"data:image/png;base64,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\" width=\"251\"></p>\n\n<p>In what order do the nodes get included into the set of vertices for which the shortest path distances are finalized?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$P,Q,R,S,T,U$</li>\n\t<li>$P,Q,R,U,S,T$</li>\n\t<li>$P,Q,R,U,T,S$</li>\n\t<li>$P,Q,T,R,U,S$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2004,algorithms,graph-algorithms,normal,dijkstras-algorithm",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "971",
+          "text": "<p>In the following $C$ program fragment, $j$, $k$, $n$ and TwoLog_n are integer variables, and $A$ is an array of integers. The variable $n$ is initialized to an integer $\\geqslant&nbsp;3$, and TwoLog_n is initialized to the value of $2^*\\lceil \\log_2(n) \\rceil$</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nfor (k = 3;  k &lt;= n; k++)\n        A[k] = 0;\nfor (k = 2; k &lt;= TwoLog_n; k++)\n    for (j = k+1; j &lt;= n; j++)\n        A[j] = A[j] || (j%k);\nfor (j = 3; j &lt;= n; j++)\n    if (!A[j]) printf(\"%d\", j);\n</pre>\n\n<p>The set of numbers printed by this program fragment is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$\\left\\{m \\mid m \\leq n, (\\exists i)\\left[m=i!\\right]\\right\\}$</p>\n\t</li>\n\t<li>\n\t<p>$\\left\\{m \\mid m \\leq n, (\\exists i) \\left[m=i^2\\right]\\right\\}$</p>\n\t</li>\n\t<li>\n\t<p>$\\left\\{m \\mid m \\leq n, \\text{m is prime} \\right\\}$</p>\n\t</li>\n\t<li>\n\t<p>{ }</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2003,algorithms,identify-function,normal",
+          "category": "Algorithms"
+        }
+      ]
+    }
+  ]
+}

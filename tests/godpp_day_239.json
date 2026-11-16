@@ -1,0 +1,70 @@
+{
+  "name": "Day 221 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525123",
+          "text": "<p>The<strong> Eigen values</strong> of a $2 \\times 2$ matrix $A$ are $1, -2$, and its&nbsp;<strong>Eigen vectors</strong> $x_1$ and $x_2$ respectively.</p><p>The <strong>Eigen values</strong> and <strong>Eigen vectors</strong> of the matrix $A^{2} - 3A + 4I$&nbsp; (where $I$ is the identity matrix) will be:</p><ol style=\"list-style-type:upper-alpha\"><li>&nbsp; $2,14$ and $ x_1,x_2$<br>&nbsp;</li><li>&nbsp; $2,14$ and&nbsp;$x_1+x_2 , x_1- x_2$<br>&nbsp;</li><li>&nbsp; $2,0$ and $x_1,x_2$<br>&nbsp;</li><li>&nbsp; $2,0$ and $x_1+x_2, x_1- x_2$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 221"
+        },
+        {
+          "post_id": "525121",
+          "text": "<p>If $M$ is a square matrix with a zero determinant, which of the following assertion(s) is(are) correct?</p><p><strong>S1:</strong>&nbsp;Each row of $M$ can be represented as a linear combination of the other rows<br><br><strong>S2:</strong>&nbsp;Each column of $M$ can be represented as a linear combination of the other columns<br><br><strong>S3:</strong> $MX = 0$ has a nontrivial solution<br><br><strong>S4:</strong> $M$ has an inverse<br>&nbsp;</p><ol style=\"list-style-type:upper-alpha\"><li>$S3$<br>&nbsp;</li><li>$S1$ and $S4$<br>&nbsp;</li><li>$S1$ and $S3$<br>&nbsp;</li><li>$S1, S2$ and $S3$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 221"
+        },
+        {
+          "post_id": "525119",
+          "text": "<p>The condition for which the eigenvalues of the matrix &nbsp;$A=\\begin{bmatrix} 2 & 1\\\\ 1 &k \\end{bmatrix}$ &nbsp;&nbsp;are positive is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$k &gt; \\frac{1}{2}$<br>&nbsp;</li><li>$&nbsp;k &gt; −2$<br>&nbsp;</li><li>$&nbsp;k &gt; 0$<br>&nbsp;</li><li>$k&lt; \\frac{-1}{2}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 221"
+        },
+        {
+          "post_id": "525117",
+          "text": "Let M be a $3 \\times 3$ matrix satisfying:<br>\n<br>\n$$<br>\nM\\left[\\begin{array}{l}<br>\n0 \\\\<br>\n1 \\\\<br>\n0<br>\n\\end{array}\\right]=\\left[\\begin{array}{c}<br>\n-1 \\\\<br>\n2 \\\\<br>\n3<br>\n\\end{array}\\right], \\quad M\\left[\\begin{array}{c}<br>\n1 \\\\<br>\n-1 \\\\<br>\n0<br>\n\\end{array}\\right]=\\left[\\begin{array}{c}<br>\n1 \\\\<br>\n1 \\\\<br>\n-1<br>\n\\end{array}\\right], \\text { and } \\quad M\\left[\\begin{array}{l}<br>\n1 \\\\<br>\n1 \\\\<br>\n1<br>\n\\end{array}\\right]=\\left[\\begin{array}{c}<br>\n0 \\\\<br>\n0 \\\\<br>\n12<br>\n\\end{array}\\right]<br>\n$$<br>\nThen the sum of the diagonal entries of $M$ is:",
+          "type": "Numerical",
+          "answer": "9",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 221"
+        },
+        {
+          "post_id": "525115",
+          "text": "<p>Consider a $4 \\times 4$ matrix $M$. Suppose that the following four entries of the matrix are known to be zero.</p><p>For which of the following cases must the determinant of the matrix be equal to $0$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$M[0,0]=0, ~M[1,1]=0, ~M[2,2]=0, ~M[3,3]=0$<br>&nbsp;</li><li>$M[0,0]=0, ~M[0,1]=0, ~M[0,2]=0, ~M[0,3]=0$<br>&nbsp;</li><li>$M[1,0]=0, ~M[0,1]=0, ~M[3,1]=0, ~M[2,3]=0$<br>&nbsp;</li><li>$M[0,2]=0, ~M[1,2]=0, ~M[2,2]=0, ~M[3,2]=0$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 221"
+        }
+      ]
+    }
+  ]
+}

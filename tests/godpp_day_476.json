@@ -1,0 +1,70 @@
+{
+  "name": "Day 325 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "540362",
+          "text": "<p data-start=\"3032\" data-end=\"3117\">Which of the following statements about threading models are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3119\" data-end=\"3132\">User-level threads can be implemented without modifying the operating-system kernel.<br>&nbsp;</li><li data-start=\"3224\" data-end=\"3342\">In a pure user-level threading model, a blocking I/O operation by one thread may block all threads of the process.<br>&nbsp;</li><li data-start=\"3344\" data-end=\"3452\">Kernel-level threads belonging to the same process cannot execute simultaneously on multiple processors.<br>&nbsp;</li><li data-start=\"3454\" data-end=\"3571\">A hybrid threading model can map multiple user-level threads onto a smaller number of kernel scheduling entities.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 325"
+        },
+        {
+          "post_id": "540357",
+          "text": "<p data-start=\"2488\" data-end=\"2550\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2552\" data-end=\"2565\">With kernel-level threads, if one thread of a process blocks, all the threads of that process will also be blocked.<br>&nbsp;</li><li data-start=\"2552\" data-end=\"2565\">A lock implementation should always block instead of spin if it will always be used only on a uniprocessor.<br>&nbsp;</li><li data-start=\"2552\" data-end=\"2565\">On a multiprocessor, a lock implementation should spin instead of block if it is known that the lock will be available before the time required for a context switch.<br>&nbsp;</li><li data-start=\"2552\" data-end=\"2565\">Periodically yielding the processor while spin-waiting reduces the amount of wasted time to be proportional to the duration of a time slice.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 325"
+        },
+        {
+          "post_id": "540360",
+          "text": "<p data-start=\"803\" data-end=\"889\">Which of the following statements about context switching are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"891\" data-end=\"904\">When switching between two threads, the registers, stack pointer, and program counter of the outgoing thread must be saved.<br>&nbsp;</li><li data-start=\"1035\" data-end=\"1154\">Switching between two threads of the same process always requires loading a different top-level page-table pointer.<br>&nbsp;</li><li data-start=\"1156\" data-end=\"1294\">When switching between threads belonging to different processes, the address-space information of the incoming process must be loaded.<br>&nbsp;</li><li data-start=\"1296\" data-end=\"1403\">A thread cannot be context-switched while it is executing inside a critical section and holding a lock.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 325"
+        },
+        {
+          "post_id": "540353",
+          "text": "<p data-start=\"695\" data-end=\"757\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"759\" data-end=\"772\">Threads belonging to the same process use a common stack.<br>&nbsp;</li><li data-start=\"759\" data-end=\"772\">Threads belonging to the same process can use the same valid TLB entries.<br>&nbsp;</li><li data-start=\"759\" data-end=\"772\">Multiple kernel-level threads of the same process may execute simultaneously on different CPUs.<br>&nbsp;</li><li data-start=\"759\" data-end=\"772\">Holding a lock prevents the operating-system scheduler from context-switching the thread.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 325"
+        },
+        {
+          "post_id": "540354",
+          "text": "<p data-start=\"638\" data-end=\"700\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"702\" data-end=\"715\">Threads that are part of the same process share the same stack pointer.<br>&nbsp;</li><li data-start=\"702\" data-end=\"715\">Threads that are part of the same process share the same page-table base register.<br>&nbsp;</li><li data-start=\"702\" data-end=\"715\">Threads that are part of the same process share the same general-purpose registers.<br>&nbsp;</li><li data-start=\"702\" data-end=\"715\">Context-switching between threads of the same process requires flushing the TLB or tracking an ASID in the TLB.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 325"
+        }
+      ]
+    }
+  ]
+}

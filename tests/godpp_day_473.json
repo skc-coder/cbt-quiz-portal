@@ -1,0 +1,70 @@
+{
+  "name": "Day 322 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "539954",
+          "text": "<p data-start=\"7924\" data-end=\"7973\">Consider the following statement:</p><p data-start=\"7977\" data-end=\"8091\">After $\\texttt{fork()}$, the child’s standard input, standard output, and standard error are reset to their default states.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"8093\" data-end=\"8115\">True<br>&nbsp;</li><li data-start=\"8093\" data-end=\"8115\">False</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 322"
+        },
+        {
+          "post_id": "539951",
+          "text": "<p data-start=\"3489\" data-end=\"3546\">Assume that every $\\texttt{fork()}$ call succeeds.</p><pre data-start=\"3548\" data-end=\"3765\" data-rawcode=\"int value = 0;  int main() {     fork();     value++;      fork();     value++;      if (fork() == 0)         printf(&quot;Child\\n&quot;);     else         printf(&quot;Parent\\n&quot;);      value++;     printf(&quot;%d\\n&quot;, value); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int value = 0;\n\nint main() {\n    fork();\n    value++;\n\n    fork();\n    value++;\n\n    if (fork() == 0)\n        printf(\"Child\\n\");\n    else\n        printf(\"Parent\\n\");\n\n    value++;\n    printf(\"%d\\n\", value);\n}</pre><p data-start=\"3767\" data-end=\"3869\">How many times is $\\texttt{Child}$ printed, and what value is printed by every process in the final $\\texttt{printf()}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3871\" data-end=\"4086\">$\\texttt{Child}$ is printed $2$ times, and the value is $3$.<br>&nbsp;</li><li data-start=\"3871\" data-end=\"4086\">$\\texttt{Child}$ is printed $4$ times, and the value is $3$.<br>&nbsp;</li><li data-start=\"3871\" data-end=\"4086\">$\\texttt{Child}$ is printed $4$ times, and the value is $8$.<br>&nbsp;</li><li data-start=\"3871\" data-end=\"4086\">$\\texttt{Child}$ is printed $8$ times, and the value is $3$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 322"
+        },
+        {
+          "post_id": "539948",
+          "text": "<p data-start=\"2268\" data-end=\"2335\">ssume that the process priorities are $X &gt; Y &gt; Z$.</p><ol data-start=\"2337\" data-end=\"2517\"><li data-section-id=\"yn5c41\" data-start=\"2337\" data-end=\"2373\">Process $X$ is initially running.<br>&nbsp;</li><li data-section-id=\"mec4nx\" data-start=\"2374\" data-end=\"2416\">$X$ creates process $Y$ using $\\texttt{fork()}$.<br>&nbsp;</li><li data-section-id=\"oruita\" data-start=\"2417\" data-end=\"2470\">$X$ requests a disk operation and becomes blocked.<br>&nbsp;</li><li data-section-id=\"1931fna\" data-start=\"2471\" data-end=\"2517\">$Y$&nbsp;begins running and creates process $Z$.<br>&nbsp;</li></ol><p data-start=\"2519\" data-end=\"2599\">Before the disk operation completes, what are the states of the three processes?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2601\" data-end=\"2824\">$X$&nbsp;is blocked, $Y$&nbsp;is running, and $Z$&nbsp;is ready.<br>&nbsp;</li><li data-start=\"2601\" data-end=\"2824\">$X$&nbsp;is ready, $Y$&nbsp;is blocked, and $Z$&nbsp;is running.<br>&nbsp;</li><li data-start=\"2601\" data-end=\"2824\">$X$&nbsp;is running, while $Y$&nbsp;and $Z$&nbsp;are ready.<br>&nbsp;</li><li data-start=\"2601\" data-end=\"2824\">$X$&nbsp;is terminated, $Y$&nbsp;is running, and $Z$&nbsp;is blocked.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 322"
+        },
+        {
+          "post_id": "539943",
+          "text": "<p data-start=\"600\" data-end=\"725\">When a process creates a child using $\\texttt{fork()}$, which of the following is shared between the parent and child?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"727\" data-end=\"801\">Stack<br>&nbsp;</li><li data-start=\"727\" data-end=\"801\">Heap<br>&nbsp;</li><li data-start=\"727\" data-end=\"801\">Shared-memory segments<br>&nbsp;</li><li data-start=\"727\" data-end=\"801\">All of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 322"
+        },
+        {
+          "post_id": "539945",
+          "text": "<p data-start=\"1389\" data-end=\"1478\">Assuming that no error occurs, which statement about $\\texttt{fork()}$ is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1480\" data-end=\"1650\">It is called once and returns once.<br>&nbsp;</li><li data-start=\"1480\" data-end=\"1650\">It is called once and returns twice.<br>&nbsp;</li><li data-start=\"1480\" data-end=\"1650\">It is called once and never returns.<br>&nbsp;</li><li data-start=\"1480\" data-end=\"1650\">It is called twice and returns once.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 322"
+        }
+      ]
+    }
+  ]
+}

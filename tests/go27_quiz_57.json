@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_57",
+  "name": "GO Classes GATE CS | CO and Architecture | IO Interfacing | Weekly Quiz 9",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "537999",
+          "text": "Assume that a program wants to copy a $500$ word block of data from an I/O device to memory. Let A, B and C be the total number of interrupts for whole block transfer using Programmed IO, Interrupt-driven IO and Direct-memory access respectively. What is the value of $A+B+C$ ?",
+          "type": "Numerical",
+          "answer": "101",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,numerical-answers,goclasses,co-and-architecture,io-interfacing,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "538000",
+          "text": "<p>Which of the following is/are false?</p><ol style=\"list-style-type:upper-alpha\"><li>Interrupt-driven I/O allows the CPU to perform useful work while the I/O is performed.<br> </li><li>Memory-mapped I/O uses standard memory instructions such as load and store.<br> </li><li>Memory-mapped I/O uses a distinct memory space separate from physical memory.<br> </li><li>DMA passes data through a CPU register during I/O.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,goclasses,co-and-architecture,io-interfacing,multiple-selects,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537993",
+          "text": "<p>Consider a system in which bus cycles takes $500$ ns . Transfer of bus control in either direction, from processor to I/O device or vice versa, takes $250$ ns . One of the I/O devices has a data transfer rate of $50 \\mathrm{~KB} / \\mathrm{s}$ and employs DMA. Data are transferred 1 byte at a time. Suppose we employ DMA in a burst mode. That is, the DMA interface gains bus mastership prior to the start of a block transfer and maintains control of the bus until the whole block is transferred. For how long would the device tie up the bus when transferring a block of $128$ bytes?</p><ol style=\"list-style-type:upper-alpha\"><li>$64.5$ microsecond<br> </li><li>$64$ microsecond<br> </li><li>$2.56$ millisecond<br> </li><li>$3.56$ millisecond</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq84,goclasses,co-and-architecture,io-interfacing,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "538001",
+          "text": "<p>Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>Direct Memory Access (DMA) bypasses the cache or TLB to read directly from main memory.<br> </li><li>Direct Memory Access (DMA) is \"direct\" because it accesses devices via memory directly rather than processor instructions.<br> </li><li>Direct Memory Access (DMA) can reduce the load on the processor when accessing block devices such as disks.<br> </li><li>When a DMA controller needs to use the bus to access memory, it performs \"cycle stealing\" by making the CPU wait if it is also trying to access memory. Even though the CPU is continually executing, the DMA device might find the bus to memory free when it needs to access memory.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,goclasses,co-and-architecture,io-interfacing,multiple-selects,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537994",
+          "text": "A DMA module is transferring characters to memory using cycle stealing, from a device transmitting at $9600$ bps . The processor is fetching instructions at the rate of $1$ million instructions per second ( $1$ MIPS). By how much will the processor be slowed down due to the DMA activity (in $\\%$)?",
+          "type": "Numerical",
+          "answer": "0.12",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,numerical-answers,goclasses,co-and-architecture,io-interfacing,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537989",
+          "text": "<p>A certain microprocessor requires $4.5~\\mu s$ to respond to an interrupt. Assume that the three interrupts $I_1$, $I_2$, and $I_3$ require the following execution times after the interrupt is recognized:</p><ol style=\"list-style-type:upper-roman\"><li>$I_1$ requires $25$ microseconds<br> </li><li>$I_2$ requires $35$ microseconds<br> </li><li>$I_3$ requires $20$ microseconds</li></ol><p>$I_1$ has the highest priority and $I_3$ has the lowest priority. What is the possible range of time for $I_3$ to be executed, assuming that it may or may not occur simultaneously with the other interrupts?</p><ol style=\"list-style-type:upper-alpha\"><li>$24.5$ microseconds to $39.5$ microseconds<br> </li><li>$24.5$ microseconds to $93.5$ microseconds<br> </li><li>$4.5$ &nbsp;microseconds to $24.5$ microseconds<br> </li><li>$29.5$ microseconds to $93.5$ microseconds</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq84,goclasses,co-and-architecture,io-interfacing,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537988",
+          "text": "<p>A DMA controller transfers $16$ -bit words to memory using cycle stealing. The words are assembled from a device that transmits characters at a rate of $2400$ characters per second. The CPU is fetching and executing instructions at an average rate of $1$ million instructions per second. By how much percentage will the CPU be slowed down because of the DMA transfer?</p><ol style=\"list-style-type:upper-alpha\"><li>$0.06$<br> </li><li>$0.12$<br> </li><li>$1.2$<br> </li><li>$2.5$</li></ol>",
+          "type": "Numerical",
+          "answer": "0.12",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,numerical-answers,goclasses,co-and-architecture,io-interfacing,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537991",
+          "text": "Consider a system employing interrupt-driven I/O for a particular device that transfers data at an average of $8 \\mathrm{~KB} / \\mathrm{s}$ on a continuous basis. Assume that interrupt processing takes about $100 \\mu s$ (i.e., the time to jump to the interrupt service routine (ISR), execute it, and return to the main program). Determine what percentage of processor time is consumed by this I/O device if it interrupts for every byte. (Assume $1 \\mathrm{~KB}=1000$ Byte)",
+          "type": "Numerical",
+          "answer": "80",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,numerical-answers,goclasses,co-and-architecture,io-interfacing,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537997",
+          "text": "With the GATE exam just a few months away, Alice realizes she won't finish making notes in time, so she buys a laser printer to print topper's handwritten notes. Suppose that she bought a laser printer that produces up to $45$ pages per minute, where each page consists of $5000$ characters. The manual for the laser printer states that the system uses interrupt-driven I/O by raising an interrupt for every character. If each interrupt takes $50$ microseconds to process, how much CPU time will be spent processing interrupts (in $\\%$)?",
+          "type": "Numerical",
+          "answer": "18.75",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,numerical-answers,goclasses,co-and-architecture,io-interfacing,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537992",
+          "text": "Consider a system in which bus cycles takes $500$ ns . Transfer of bus control in either direction, from processor to I/O device or vice versa, takes $250$ ns . One of the I/O devices has a data transfer rate of $50 \\mathrm{~KB} / \\mathrm{s}$ and employs DMA. Data are transferred $1$ byte at a time. Suppose we employ DMA in a cycle-stealing mode. For how long (in microsecond) would the device tie up the bus when transferring a block of $128$ bytes?",
+          "type": "Numerical",
+          "answer": "128",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,numerical-answers,goclasses,co-and-architecture,io-interfacing,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537995",
+          "text": "Assume that a program wants to copy a $500$ word block of data from an I/O device to memory. Let $\\mathrm{A}, \\mathrm{B}$ and C be the total number of READ I/O commands issued by the CPU to the I/O module using Programmed IO, Interrupt-driven IO and Direct-memory access respectively. What is the value of $A+B+C$ ?",
+          "type": "Numerical",
+          "answer": "201",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,numerical-answers,goclasses,co-and-architecture,io-interfacing,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537998",
+          "text": "Assume that for a single polling operation, a processor running at $1$ MHz takes $200$ cycles. A processor polls a printer $1000$ times per minute. What percentage of time does the processor spend in polling? (Round off to $2$ decimal places)",
+          "type": "Numerical",
+          "answer": "0.33-0.34",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,numerical-answers,goclasses,co-and-architecture,io-interfacing,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "538002",
+          "text": "<p>Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>DMA requires a special controller that facilitates the transfer of blocks between the I/O device and main memory.<br> </li><li>The overhead of polling depends on the polling frequency.<br> </li><li>Polling is often a viable option for slow and asynchronous devices.<br> </li><li>DMA usually slows down overall system performance.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,goclasses,co-and-architecture,io-interfacing,multiple-selects,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537996",
+          "text": "Suppose Bob (a sneaky prankster) replaces Alice's laser printer with a toaster on April $1^{st}$. Unfortunately, Alice urgently needs to print lecture notes for the upcoming class, and decides that the easiest solution is to buy a new printer. The new printer has the same specifications as Alice's old printer: it can produce $45$ pages per minute, where each page consists of $5000$ characters. However, an upgrade in the system hardware allows the polling-driven implementation to take up only $10 \\%$ of the CPU time instead. How long (in microseconds) should the interrupt-driven implementation take for each interrupt to \"break even\"? (Round off to $2$ decimal places.)",
+          "type": "Numerical",
+          "answer": "26.66-26.67",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,numerical-answers,goclasses,co-and-architecture,io-interfacing,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "537990",
+          "text": "Consider a system employing interrupt-driven I/O for a particular device that transfers data at an average of $8 \\mathrm{~KB} / \\mathrm{s}$ on a continuous basis. Assume that interrupt processing takes about $100 \\mu s$ (i.e., the time to jump to the interrupt service routine (ISR), execute it, and return to the main program). Assume that the device has two $16$-byte buffers and interrupts the processor when one of the buffers is full. Naturally, interrupt processing takes longer, because the ISR must transfer $16$ bytes. While executing the ISR, the processor takes about $8 \\mu \\mathrm{~s}$ for the transfer of each byte. Determine what percentage of processor time is consumed by this I/O device in this case. (Assume $1 \\mathrm{~KB}=1000$ Byte)",
+          "type": "Numerical",
+          "answer": "11.4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq84,numerical-answers,goclasses,co-and-architecture,io-interfacing,two-marks",
+          "category": "CO & Architecture"
+        }
+      ]
+    }
+  ]
+}

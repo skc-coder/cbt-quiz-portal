@@ -1,0 +1,70 @@
+{
+  "name": "Day 64 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "482171",
+          "text": "<p>A computer system uses $2^{32}$ bytes of main memory. The memory is byte-addressable and each word consists of $8$ bytes.<br><br>The CPU generates $32$-bit addresses so the address bus size is $32$ bits.<br>If the memory were word-addressable instead of byte-addressable, then what would be the size of the data bus in bits?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$29$<br>&nbsp;</li><li>$32$<br>&nbsp;</li><li>$64$<br>&nbsp;</li><li>$8$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 64"
+        },
+        {
+          "post_id": "482169",
+          "text": "<p>The memory locations $3000$, $3002$, and $3010$ contain the values $40$, $7$, and $25$ respectively before the following program is executed:<br><br>MOVI Rs, 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; Move immediate<br><br>LOAD Rd, 3000(Rs) &nbsp;&nbsp;&nbsp;&nbsp;; Load from memory<br><br>ADDI Rd, 1000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; Add immediate<br><br>STOREI 0(Rd), 55 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; Store immediate<br><br>ADDI Rd, 1990 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; Add immediate<br><br>STOREI 5(Rd), 55 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; Store immediate<br><br>Which of the following statements is/are not TRUE after the program finishes execution?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Memory location $3000$ has value $55$<br>&nbsp;</li><li>Memory location 3002 has value $79$<br>&nbsp;</li><li>Memory location $3010$ has value $55$<br>&nbsp;</li><li>Memory location $1007$ has value $55$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A,C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 64"
+        },
+        {
+          "post_id": "482167",
+          "text": "A processor has 32 integer registers (RO ... R31) and 128 floating point registers (F0 ... F127).<br>\nIt uses a 3-byte instruction format.<br>\n<br>\nThe instruction set has four categories:<br>\n<br>\n1. Type-1: 6 instructions, each with 3 integer register operands (3 $R$ ).<br>\n<br>\n2. Type-2: 10 instructions, each with 2 floating-point register operands (2 F).<br>\n<br>\n3. Type-3: 20 instructions, each with 1 integer register and 1 floating-point register operand (1 R + 1 F).<br>\n<br>\n4. Type-4: M instructions, each with 1 floating-point register operand (1 F).<br>\n<br>\nThe maximum possible value of $M$ is _________?",
+          "type": "Numerical",
+          "answer": "127616",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 64"
+        },
+        {
+          "post_id": "482165",
+          "text": "<p>If the code shown below is executed on a big-endian machine, then the output of the following C code will be ?<br><br><strong>(Assume int takes 4 bytes and char takes 1 byte in memory.)</strong><br><br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\nmain()\n{\n&nbsp; &nbsp; int y=100;\n&nbsp; &nbsp; printf(\"%d\", (*(char*)&y));\n}\n</pre><p>&nbsp;</p>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 64"
+        },
+        {
+          "post_id": "482163",
+          "text": "We want to design a $128 \\times 16$ RAM using $16 \\times 8$ RAM chips.<br>\n<br>\nThe 7-bit system address is:<br>\n<br>\nA6 A5 A4 A3 A2 A1 A0<br>\n<br>\nWhere A0 is the least significant bit (LSB).<br>\nThe chip selection (chip number) is determined by the 3 bits (A3, A2, A1).<br>\nThe internal address within the chip is determined by the remaining 4 bits<br>\nThe system address &nbsp;$(0100100)_2$,<br>\ncorresponds to memory location A inside chip number B<br>\nThe value of $(A+B)_{10}$ is ___________ .",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 64"
+        }
+      ]
+    }
+  ]
+}

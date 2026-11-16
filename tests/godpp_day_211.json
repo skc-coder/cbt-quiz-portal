@@ -1,0 +1,70 @@
+{
+  "name": "Day 207 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "523590",
+          "text": "<p>A $6$-bit CPU uses $\\mathbf{2}$<strong>'s complement representation</strong> for signed integers. Two numbers, $X= (101101)_2$ and $Y=(011010)_2$, are fed into an Arithmetic Logic Unit (ALU) to perform the operation $Z=X-Y$.</p><p>Which of the following statements is <strong>TRUE</strong> regarding the result $Z$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The result $Z$ in decimal is $-45$ and no overflow occurred.<br>&nbsp;</li><li>The result $Z$ in decimal is $+19$ and an overflow occurred.<br>&nbsp;</li><li>The result $Z$ in decimal is $-19$ and no overflow occurred.<br>&nbsp;</li><li>The result $Z$ in decimal is $-27$ and an overflow occurred.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 207"
+        },
+        {
+          "post_id": "523581",
+          "text": "<p>Consider a Boolean function $f(A, B, C, D)$ expressed as the sum of minterms $\\sum m(0,1,2,5,8,9,10)$. If the variable $A$ is the Most Significant Bit (MSB), which of the following represents the minimal sum-of-products (SOP) form, and how many <strong>Essential Prime Implicants</strong> does it contain?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\bar{B} \\bar{D}+\\bar{B} \\bar{C}+\\bar{A} \\bar{C} D ;$ $3$ Essential Prime Implicants<br>&nbsp;</li><li>$\\bar{B} \\bar{D}+\\bar{B} \\bar{C}+\\bar{A} B D$; $2$ Essential Prime Implicants<br>&nbsp;</li><li>$\\bar{B} \\bar{D}+\\bar{A} \\bar{C} D ;$ $2$ Essential Prime Implicants<br>&nbsp;</li><li>$\\bar{B} \\bar{D}+\\bar{B} \\bar{C}+\\bar{A} \\bar{C} D$; $2$ Essential Prime Implicants</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 207"
+        },
+        {
+          "post_id": "523583",
+          "text": "<p>You are tasked with implementing a $3$-input XOR gate using a single $4$-to-$1$ Multiplexer. The inputs to the XOR gate are $X, Y, Z$. If $X$ and $Y$ are connected to the select lines $S_1$ and $S_0$ respectively, what should be the sequence of inputs $\\left(I_0, I_1, I_2, I_3\\right)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(Z, \\bar{Z}, \\bar{Z}, Z)$<br>&nbsp;</li><li>$(\\bar{Z}, Z, Z, \\bar{Z})$<br>&nbsp;</li><li>$(0,1,1,0)$<br>&nbsp;</li><li>$(Z, Z, \\bar{Z}, \\bar{Z})$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 207"
+        },
+        {
+          "post_id": "523585",
+          "text": "<p>A $3$-bit synchronous counter uses three $T$ flip-flops $\\left(T_2, T_1, T_0\\right)$ where $Q_2$ is the MSB. The excitation equations are:</p><p>$$<br>\\begin{aligned}<br>& T_0=1 \\\\\\\\<br>& T_1=Q_0 \\\\\\\\<br>& T_2=Q_1 Q_0<br>\\end{aligned}<br>$$</p><p><br>If the counter is initialized to $\\left(Q_2 Q_1 Q_0\\right)=(011)$, what will be the state after $\\mathbf{3}$ <strong>clock pulses</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(110)$<br>&nbsp;</li><li>$(010)$<br>&nbsp;</li><li>$(111)$<br>&nbsp;</li><li>$(001)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 207"
+        },
+        {
+          "post_id": "523587",
+          "text": "<p>In a hypothetical $8$-bit floating-point representation, $1$ bit is for the sign, $4$ bits are for the <strong>biased exponent </strong>$($bias $=7)$, and $3$ bits are for the fraction (normalized). What is the decimal value represented by the bit pattern $1~1011~101$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$-24$<br>&nbsp;</li><li>$-26$<br>&nbsp;</li><li>$-13$<br>&nbsp;</li><li>$-28$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 207"
+        }
+      ]
+    }
+  ]
+}

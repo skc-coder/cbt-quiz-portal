@@ -1,0 +1,70 @@
+{
+  "name": "Day 81 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "486205",
+          "text": "<p>Which of the following is not time complexity of the following code:<br>(O represents big-oh)<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">for (i=1 to n):\n    // Some constant time operation,O(1)\n    // Then a loop that runs log(n) times\n    for ( j=1;j&lt;n;j*=2) :\n    \n        //...O(1) operation.</pre><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$O(n \\log n)$<br>&nbsp;</li><li>$O\\left(n^2\\right)$<br>&nbsp;</li><li>$O(n)$<br>&nbsp;</li><li>$O(n\\log n.\\log n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 81"
+        },
+        {
+          "post_id": "486202",
+          "text": "<p>G is an undirected graph with vertex set ( $\\mathrm{v} 1, \\mathrm{v} 2, \\mathrm{v3}, \\mathrm{v4}, \\mathrm{v5}, \\mathrm{v6}, \\mathrm{v7}$ ) and edge set [ $\\mathrm{v} 1 \\mathrm{v2}$, $\\mathrm{v1v3}, \\mathrm{v1v4}, \\mathrm{v2v4}, \\mathrm{v2v5}, \\mathrm{v3v4}, \\mathrm{v4v5}, \\mathrm{v4v6}, \\mathrm{v5v6}, \\mathrm{v6v7}$).<br><br>A breadth-first search of the graph is performed with $\\mathrm{v 1}$ as the root node. Which of the following is a tree edge?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{v 2}, \\mathrm{v 4}$<br>&nbsp;</li><li>$\\mathrm{v&nbsp;1}, \\mathrm{v&nbsp;4}$<br>&nbsp;</li><li>$\\mathrm{v} 4, \\mathrm{v} 5$<br>&nbsp;</li><li>$\\mathrm{v3},\\mathrm{v4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 81"
+        },
+        {
+          "post_id": "486207",
+          "text": "<p>Arrange the following recurrence relations in increasing order of their time capacity.<br><br>(A) $\\mathrm{T}(\\mathrm{n})=\\mathrm{T}(\\mathrm{n} / 2)+1$<br><br>(B) $\\mathrm{T}(\\mathrm{n})=2 \\mathrm{~T}(\\mathrm{n} / 2)+\\mathrm{n}$<br><br>(C) $T(\\mathrm{n})=3 \\mathrm{~T}(\\mathrm{n} / 3)+\\mathrm{n}$<br><br>(D) $\\mathrm{T}(\\mathrm{n})=2 \\mathrm{~T}(\\mathrm{n} / 2)+\\sqrt{\\mathrm{n}}$<br><br>(E) $\\mathrm{T}(\\mathrm{n})=\\mathrm{T}(\\mathrm{n}-1)+1$</p><p>Choose the correct answer from the options given below :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{(E), (A), (B), (D), (C)}$<br>&nbsp;</li><li>$\\mathrm{(A), (E), (D), (B), (C)}$<br>&nbsp;</li><li>$(\\mathrm{E}),(\\mathrm{A}),(\\mathrm{D}),(\\mathrm{B}),(\\mathrm{C})$<br>&nbsp;</li><li>$\\mathrm{(A), (B), (D), (E), (C)}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 81"
+        },
+        {
+          "post_id": "486203",
+          "text": "If the array $A$ contains elements $25,40,23,7,54,78$ and $2$ in that order, The element at $3^{\\text {rd }}$ position of the array after $3^{\\text {rd }}$ pass of insertion sort will be ________.",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 81"
+        },
+        {
+          "post_id": "486201",
+          "text": "<p>A Huffman tree is constructed for the following data: $[A, B, C, D, E]$ with frequency $\\{0.17$, $0.11,0.24,0.33$ and $0.15$} respectively. $1000001101$ is decoded as</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>BACE<br>&nbsp;</li><li>CADE<br>&nbsp;</li><li>BAD<br>&nbsp;</li><li>CADD</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 81"
+        }
+      ]
+    }
+  ]
+}

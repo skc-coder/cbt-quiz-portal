@@ -1,0 +1,70 @@
+{
+  "name": "Day 136 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "498581",
+          "text": "<p>A company has been assigned the IP block $\\verb|192.168.10.0/24|$.<br><br>The network administrator wants to create $\\mathbf{6 ~subnets}$, each capable of accommodating <strong>at least</strong> $\\mathbf{25}$ <strong>usable host addresses.</strong></p><p>Which of the following subnet masks should be used, and what will be the total number of <strong>usable subnets</strong> and <strong>usable hosts per subnet</strong> created?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$/ 26 \\rightarrow 4$ subnets, $62$ hosts per subnet<br>&nbsp;</li><li>$/ 27 \\rightarrow 8$ subnets, $30$ hosts per subnet<br>&nbsp;</li><li>$/ 28 \\rightarrow 16$ subnets, $14$ hosts per subnet<br>&nbsp;</li><li>$/ 29 \\rightarrow 32$ subnets, $6$ hosts per subnet</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 136"
+        },
+        {
+          "post_id": "498576",
+          "text": "<p>During TCP congestion control, the congestion window ($\\text{cwnd}$) increases from $8 ~\\text{MSS}$ to $16 ~\\text{MSS}$ over several round-trip times (RTTs).</p><p>Assume no packet loss occurs during this period. Which phase of TCP congestion control does this behavior represent, and how does the window grow during it?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Slow Start phase; exponential growth<br>&nbsp;</li><li>Congestion Avoidance phase; linear growth<br>&nbsp;</li><li>Slow Start phase; linear growth<br>&nbsp;</li><li>Congestion Avoidance phase; exponential growth</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 136"
+        },
+        {
+          "post_id": "498578",
+          "text": "<p>A TCP connection has a <strong>Round Trip Time (RTT)</strong> of $100 ~\\text{ms}$&nbsp;and a <strong>segment size</strong> ($\\textbf{MSS}$) of $1,000 ~\\text{bytes}$<br>If TCP is operating in <strong>congestion avoidance phase</strong> with an average congestion window size of $\\mathbf{20} ~\\textbf{MSS}$, estimate the <strong>throughput</strong> of the connection.<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$100 ~\\text{Mbps}$<br>&nbsp;</li><li>$160 ~\\text{Mbps}$<br>&nbsp;</li><li>$1.6 ~\\text{Mbps}$<br>&nbsp;</li><li>$2 ~\\text{Mbps}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 136"
+        },
+        {
+          "post_id": "498569",
+          "text": "<p>A network link uses a token bucket for traffic shaping with a bucket size of $\\mathbf{10,000}$&nbsp;<strong>tokens</strong> and a token generation rate of $\\mathbf{2000}$ <strong>tokens per second</strong>. Each token allows transmission of $\\mathbf{1}$ <strong>byte</strong>.</p><p>A source wants to send $\\mathbf{20,000}$ <strong>bytes</strong> of data as fast as possible through this link.<br>Assume the output link can transmit at a very high rate, and tokens are consumed only when packets are sent.</p><p>Find the <strong>minimum time required</strong> to send all $20,000$ bytes.<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3 ~\\textrm{seconds}$<br>&nbsp;</li><li>$4 ~\\textrm{seconds}$<br>&nbsp;</li><li>$5 ~\\textrm{seconds}$<br>&nbsp;</li><li>$6 ~\\textrm{seconds}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 136"
+        },
+        {
+          "post_id": "498572",
+          "text": "<p>A leaky bucket algorithm is configured to leak at a constant rate of $\\mathbf{1,000}$ <strong>bytes per second</strong>. The bucket capacity is $\\mathbf{5,000}$ <strong>bytes.</strong></p><p>Packets of <strong>$\\mathbf{2,000}$ bytes</strong> arrive at $\\mathbf{t = 0 ~s, ~t=1 ~s, ~t=2 ~s, ~t=3 ~s,}$ and $\\mathbf{t=4~s}$.<br><br>Assume the bucket starts empty and no packet loss occurs.<br>&nbsp;</p><p>At what <strong>earliest time</strong> will the <strong>last packet</strong> completely leave the bucket?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$8 ~\\mathrm{seconds}$<br>&nbsp;</li><li>$9 ~\\mathrm{seconds}$<br>&nbsp;</li><li>$10 ~\\mathrm{seconds}$<br>&nbsp;</li><li>$11 ~\\mathrm{seconds}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 136"
+        }
+      ]
+    }
+  ]
+}

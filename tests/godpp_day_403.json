@@ -1,0 +1,70 @@
+{
+  "name": "Day 286 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "533677",
+          "text": "<p data-section-id=\"1u8p3py\" data-start=\"2861\" data-end=\"2888\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a = 5, b = 10;     printf(&quot;%d&quot;, a &lt; b && b &gt; 0);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a = 5, b = 10;\n    printf(\"%d\", a &lt; b && b &gt; 0);\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 286"
+        },
+        {
+          "post_id": "533674",
+          "text": "<p data-section-id=\"x935rr\" data-start=\"3047\" data-end=\"3074\">What is the output of the following code?</p><pre data-rawcode=\"&lt;code&gt;#include &lt;stdio.h&gt;  int main() {     int a = 5, b = 10;     printf(&quot;%d&quot;, a &gt; b || b &gt; 0);     return 0; }&lt;/code&gt;\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a = 5, b = 10;\n    printf(\"%d\", a &gt; b || b &gt; 0);\n    return 0;\n}\n</pre>",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 286"
+        },
+        {
+          "post_id": "533668",
+          "text": "<p data-start=\"86\" data-end=\"152\">Which of the following is a valid identifier in C?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"154\" data-end=\"210\">$\\texttt{2sum}$<br>&nbsp;</li><li data-start=\"154\" data-end=\"210\">$\\texttt{total-marks}$<br>&nbsp;</li><li data-start=\"154\" data-end=\"210\">$\\texttt{_value}$<br>&nbsp;</li><li data-start=\"154\" data-end=\"210\">$\\texttt{float}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 286"
+        },
+        {
+          "post_id": "533672",
+          "text": "<p data-section-id=\"1vwmnko\" data-start=\"770\" data-end=\"822\">Which of the following is <strong>not</strong> a keyword in C?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-section-id=\"1vwmnko\" data-start=\"770\" data-end=\"822\">$\\texttt{int}$<br>&nbsp;</li><li data-section-id=\"1vwmnko\" data-start=\"770\" data-end=\"822\">$\\texttt{return}$<br>&nbsp;</li><li data-section-id=\"1vwmnko\" data-start=\"770\" data-end=\"822\">$\\texttt{main}$<br>&nbsp;</li><li data-section-id=\"1vwmnko\" data-start=\"770\" data-end=\"822\">$\\texttt{while}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 286"
+        },
+        {
+          "post_id": "533670",
+          "text": "<p>Assume that $\\texttt{char}$ is $8$ bits and signed integers are represented using $2$'s complement. Consider the following C code:</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     signed char x = 0xF9;     unsigned char y = x;      printf(&quot;%d %u&quot;, x, (unsigned int)y);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    signed char x = 0xF9;\n    unsigned char y = x;\n\n    printf(\"%d %u\", x, (unsigned int)y);\n    return 0;\n}</pre><p data-start=\"369\" data-end=\"393\">What will be the output?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"395\" data-end=\"487\">$\\texttt{-7\\ 249}$<br>&nbsp;</li><li data-start=\"395\" data-end=\"487\">$\\texttt{249\\ 249}$<br>&nbsp;</li><li data-start=\"395\" data-end=\"487\">$\\texttt{-7\\ -7}$<br>&nbsp;</li><li data-start=\"395\" data-end=\"487\">$\\texttt{7\\ 249}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 286"
+        }
+      ]
+    }
+  ]
+}

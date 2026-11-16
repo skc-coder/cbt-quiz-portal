@@ -1,0 +1,70 @@
+{
+  "name": "Day 339 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "542808",
+          "text": "<p data-start=\"6248\" data-end=\"6357\">Consider the following C program executing on a computer that supports virtual memory and paged segmentation:</p><pre data-start=\"6359\" data-end=\"6461\" data-rawcode=\"#include &lt;stdio.h&gt;  int main(void) {     int w;     printf(&quot;%p&quot;, (void *)&w);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main(void)\n{\n    int w;\n    printf(\"%p\", (void *)&w);\n    return 0;\n}</pre><p data-start=\"6463\" data-end=\"6551\">When the $\\texttt{printf}$ statement is executed, the value printed on the screen corresponds to:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"6553\" data-end=\"6650\">The physical address representing the segment, page, and offset where variable $\\texttt{w}$ is stored.<br>&nbsp;</li><li data-start=\"6652\" data-end=\"6743\">The virtual address associated with the physical location where variable $\\texttt{w}$ is stored.<br>&nbsp;</li><li data-start=\"6745\" data-end=\"6806\">The result produced after the MMU translates the address.<br>&nbsp;</li><li data-start=\"6808\" data-end=\"6885\">The address of variable $\\texttt{w}$ in the physical address space of the process.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 339"
+        },
+        {
+          "post_id": "542802",
+          "text": "<p data-start=\"0\" data-end=\"49\">Consider the following table of active processes:</p><p data-start=\"51\" data-end=\"185\">$$\\begin{array}{|c|c|c|}<br>\\hline<br>\\text{Process} & \\text{Base} & \\text{Bound} \\\\<br>\\hline<br>A & 100 & 10 \\\\<br>B & 1000 & 20 \\\\<br>C & 500 & 50 \\\\<br>\\hline<br>\\end{array}$$</p><p data-start=\"187\" data-end=\"375\">Process $A$ is initially running on the CPU. The operating system performs a context switch from process $A$ to process $B$ and correctly loads the base and bound registers of process $B$.</p><p data-start=\"377\" data-end=\"450\">Which of the following physical addresses can process $B$ legally access?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"452\" data-end=\"455\">$0$<br>&nbsp;</li><li data-start=\"457\" data-end=\"461\">$20$<br>&nbsp;</li><li data-start=\"463\" data-end=\"468\">$500$<br>&nbsp;</li><li data-start=\"470\" data-end=\"476\" data-is-last-node=\"\" data-is-only-node=\"\">$1015$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 339"
+        },
+        {
+          "post_id": "542799",
+          "text": "<p data-start=\"0\" data-end=\"37\">Consider the following segment table:</p><p data-start=\"39\" data-end=\"209\">$$\\begin{array}{|c|c|c|}<br>\\hline<br>\\text{Segment} & \\text{Base} & \\text{Limit} \\\\<br>\\hline<br>0 & 219 & 600 \\\\<br>1 & 2300 & 14 \\\\<br>2 & 90 & 100 \\\\<br>3 & 1327 & 580 \\\\<br>4 & 1952 & 96 \\\\<br>\\hline<br>\\end{array}$$</p><p data-start=\"211\" data-end=\"304\">In the process’s logical address space, the segments are arranged consecutively in the order:</p><p data-start=\"306\" data-end=\"321\">$0, 1, 2, 3, 4$</p><p data-start=\"323\" data-end=\"383\">What physical address corresponds to logical address $1000$?</p><p data-start=\"385\" data-end=\"426\" data-is-last-node=\"\" data-is-only-node=\"\"><em>(Enter the physical address as an integer.)</em></p>",
+          "type": "Numerical",
+          "answer": "1613",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 339"
+        },
+        {
+          "post_id": "542805",
+          "text": "<p data-start=\"0\" data-end=\"16\">The instruction:</p><p data-start=\"18\" data-end=\"43\">$\\texttt{LOAD GR, B, AD}$</p><p data-start=\"45\" data-end=\"240\">adds the contents of base register $B$ to the address field $AD$. The resulting effective address is used to access main memory, and the data stored at that location is loaded into register $GR$.</p><p data-start=\"242\" data-end=\"269\">Base register $1$ contains : $100$</p><p data-start=\"278\" data-end=\"316\">The relevant main-memory contents are:</p><p data-start=\"318\" data-end=\"545\">$$\\begin{array}{|c|c|}<br>\\hline<br>\\text{Memory address} & \\text{Stored value} \\\\<br>\\hline<br>100 & 1100 \\\\<br>101 & 1101 \\\\<br>200 & 1200 \\\\<br>201 & 1201 \\\\<br>300 & 1300 \\\\<br>301 & 1301 \\\\<br>1200 & 2200 \\\\<br>1201 & 2201 \\\\<br>1300 & 2300 \\\\<br>1301 & 2301 \\\\<br>\\hline<br>\\end{array}$$</p><p data-start=\"547\" data-end=\"630\">What value is loaded into register $GR$ when the following instruction is executed?</p><p data-start=\"632\" data-end=\"658\">$\\texttt{LOAD GR, 1, 200}$<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"660\" data-end=\"666\">$1201$<br>&nbsp;</li><li data-start=\"668\" data-end=\"674\">$1300$<br>&nbsp;</li><li data-start=\"676\" data-end=\"682\">$2200$<br>&nbsp;</li><li data-start=\"684\" data-end=\"690\" data-is-last-node=\"\" data-is-only-node=\"\">$2300$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 339"
+        },
+        {
+          "post_id": "542797",
+          "text": "<p data-start=\"0\" data-end=\"49\">A system uses base-and-bound address translation.</p><p data-start=\"51\" data-end=\"73\">The registers contain:</p><p data-start=\"75\" data-end=\"97\">$\\texttt{base} = 1000$</p><p data-start=\"99\" data-end=\"121\">$\\texttt{bound} = 100$</p><p data-start=\"123\" data-end=\"178\">The CPU fetches and executes the following instruction:</p><p data-start=\"180\" data-end=\"202\">$\\texttt{load 10, r1}$</p><p data-start=\"204\" data-end=\"276\">Assume that the instruction itself is stored at a valid logical address.</p><p data-start=\"278\" data-end=\"368\">How many main-memory accesses are generated while fetching and executing this instruction?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"370\" data-end=\"373\">$0$<br>&nbsp;</li><li data-start=\"375\" data-end=\"378\">$1$<br>&nbsp;</li><li data-start=\"380\" data-end=\"383\">$2$<br>&nbsp;</li><li data-start=\"385\" data-end=\"388\" data-is-last-node=\"\" data-is-only-node=\"\">$3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 339"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 293 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534600",
+          "text": "<p data-start=\"867\" data-end=\"1002\">How many $8$-bit patterns represent the same decimal value when interpreted as sign-magnitude and $1$'s complement numbers?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1004\" data-end=\"1044\">$64$<br>&nbsp;</li><li data-start=\"1004\" data-end=\"1044\">$127$<br>&nbsp;</li><li data-start=\"1004\" data-end=\"1044\">$128$<br>&nbsp;</li><li data-start=\"1004\" data-end=\"1044\">$255$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 293"
+        },
+        {
+          "post_id": "534610",
+          "text": "<p data-start=\"3092\" data-end=\"3302\">For a Boolean function $F(A,B,C)$, where $A$ is the most significant variable, the output is $0$ for input combinations $000$, $011$, and $101$. Which of the following is the correct representation?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3304\" data-end=\"3399\">$F=\\Sigma (0,3,5)$<br>&nbsp;</li><li data-start=\"3304\" data-end=\"3399\">$F=\\Pi (0,3,5)$<br>&nbsp;</li><li data-start=\"3304\" data-end=\"3399\">$F=\\Sigma (1,2,6)$<br>&nbsp;</li><li data-start=\"3304\" data-end=\"3399\">$F=\\Pi (1,2,4,6,7)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 293"
+        },
+        {
+          "post_id": "534602",
+          "text": "<p data-start=\"1717\" data-end=\"1784\">In the following hexadecimal addition, find the digit $x$. $$(4x\\mathrm{D})_{16}+(2\\mathrm{B}7)_{16}=(744)_{16}$$</p>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 293"
+        },
+        {
+          "post_id": "534608",
+          "text": "<p data-start=\"2445\" data-end=\"2532\">Simplify the Boolean expression $F=(A+\\overline{B})(A+C)+\\overline{A}B+BC$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2534\" data-end=\"2591\">$A+B+C$<br>&nbsp;</li><li data-start=\"2534\" data-end=\"2591\">$A+\\overline{B}C$<br>&nbsp;</li><li data-start=\"2534\" data-end=\"2591\">$AB+BC$<br>&nbsp;</li><li data-start=\"2534\" data-end=\"2591\">$A+C$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 293"
+        },
+        {
+          "post_id": "534598",
+          "text": "<p data-start=\"103\" data-end=\"301\">An $8$-bit pattern represents $-45$ in $2$'s complement form. If the same bit pattern is interpreted as a $1$'s complement number, what decimal value does it represent?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"103\" data-end=\"301\">$-44$<br>&nbsp;</li><li data-start=\"103\" data-end=\"301\">$-45$<br>&nbsp;</li><li data-start=\"103\" data-end=\"301\">$-46$<br>&nbsp;</li><li data-start=\"103\" data-end=\"301\">$211$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 293"
+        }
+      ]
+    }
+  ]
+}

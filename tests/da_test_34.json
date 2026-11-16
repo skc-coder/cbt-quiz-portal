@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2025 | Machine Learning | Topic Wise Test 2",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "434539",
+          "text": "You are building a $k$-NN classifier to filter spam emails. You divide 100 labeled emails into a training set ( 60 emails), a validation set ( 20 emails), and a test set ( 20 emails). For $k=1$, you get a training error of $0.0 \\%$ and a validation error of $11.2 \\%$. For $k=2$, you get a training error of $8.5 \\%$ and a validation error of $9.4 \\%$. Which classifier should you expect to have a lower error on the test set, and why?<br /><ol style=\"list-style-type:upper-alpha\"><li> The $k=1$ classifier, because it has a $0.0 \\%$ training error.</li><li> The $k=2$ classifier, because it has a lower validation error.</li> <li>The $k=1$ classifier, because it will generalize better with less training error.</li>  <li>Both classifiers are equally likely to have the same error on the test set.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,one-mark",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434535",
+          "text": "Given the following training set of four labeled points:<br />$$<br />(-0.8,0),(-0.4,1),(0.2,1),(0.8,0)<br />$$<br />What is the decision boundary of a 1-NN classifier using this training set?<br /><ol style=\"list-style-type:upper-alpha\"><li> <br />$$<br />h(x)= \\begin{cases}1 & \\text { if }-0.4 \\leq x \\leq 0.8 \\\\ 0 & \\text { otherwise }\\end{cases}<br />$$</li><li> <br />$$<br />h(x)= \\begin{cases}1 & \\text { if }-0.8 \\leq x \\leq 0.2 \\\\ 0 & \\text { otherwise }\\end{cases}<br />$$</li> <li><br />$$<br />h(x)= \\begin{cases}1 & \\text { if }-0.6 \\leq x \\leq 0.5 \\\\ 0 & \\text { if } x<-0.6 \\text { or } x>0.5\\end{cases}<br />$$</li>  <li><br />$$<br />h(x)= \\begin{cases}1 & \\text { if } 0.2 \\leq x \\leq 0.8 \\\\ 0 & \\text { otherwise }\\end{cases}<br />$$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,two-marks",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434542",
+          "text": "<p>Imagine you are using a $k$-Nearest Neighbor classifier on a dataset with lots of noise. You want your classifier to be less sensitive to the noise. Which of the following is likely to help and with what side effect?</p><ol style=\"list-style-type:upper-alpha\"><li>Increase the value of $k \\rightarrow$ Increase in prediction time</li><li>Decrease the value of $k \\rightarrow$ Increase in prediction time</li><li>Increase the value of $k \\rightarrow$ Decrease in prediction time</li><li>Decrease the value of $k \\rightarrow$ Decrease in prediction time</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,one-mark",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434531",
+          "text": "<p>The table below shows the test set for a<strong> 1-nearest-neighbor classifier</strong> that uses Manhattan distance, i.e., the distance between two points at coordinates $p$ and $q$ is $|p-q|$. The only attribute, $X$, is real-valued, and the label, $Y$, has two classes, 0 and 1 . Suppose a subset containing $n \\leq 8$ examples is selected from this set to train the classifier, and the accuracy of the classifier is 100 percent when tested on this set (with all 8 examples). What is the smallest possible value for $n$ ? In case of ties in distance, use the example with smallest $X$ value as the neighbor.<br> </p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px;\"><tbody><tr><th scope=\"row\">X</th><td>-5</td><td>-4</td><td>-1</td><td>0</td><td>1</td><td>3</td><td>4</td><td>8</td></tr><tr><th scope=\"row\">Y</th><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr></tbody></table><p><br> </p><ol style=\"list-style-type:upper-alpha\"><li>2</li><li>3</li><li>4</li><li>5</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,one-mark",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434525",
+          "text": "In $k$-nearest neighbor ( kNN ) regression, the prediction of $Y$ at point $x_{0}$ is given by the average of the values $Y$ at the $k$ neighbors closest to $x_{0}$. Denote the $\\ell$-nearest neighbor to $x_{0}$ by $x_{(\\ell)}$ and its corresponding $Y$ value by $y_{(\\ell)}$. Which of the following expresses the prediction $\\hat{f}\\left(x_{0}\\right)$ in terms of $y_{(\\ell)}$, for $1 \\leq \\ell \\leq k$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\hat{f}\\left(x_{0}\\right)=\\frac{1}{k} \\sum_{\\ell=1}^{k} y_{(\\ell)}$</li><li> $\\hat{f}\\left(x_{0}\\right)=\\frac{1}{k} \\sum_{\\ell=1}^{k}\\left(y_{(\\ell)} \\cdot e^{-\\left|x_{(\\ell)}-x_{0}\\right|}\\right)$</li> <li>$\\hat{f}\\left(x_{0}\\right)=\\frac{1}{k} \\sum_{\\ell=1}^{k}\\left(y_{(\\ell)}+\\left(x_{(\\ell)}-x_{0}\\right)^{2}\\right)$</li>  <li>$\\hat{f}\\left(x_{0}\\right)=\\frac{1}{k} \\sum_{\\ell=1}^{k}\\left(y_{(\\ell)}-\\left(x_{(\\ell)}-x_{0}\\right)\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,one-mark",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434541",
+          "text": "<p>Figure shows the decision boundaries (DB) for two nearest-neighbour classifiers - 1NN and 3NN. Consider following statements and choose the correct option (True/False for all the statements 1/2/3/4).<br><img alt=\"\" src=\"data:image/png;base64,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\"><br><br>1. DB1 belongs to $3 N N$ while DB2 belongs to $1 N N$.<br>2. DB1 belongs to $1 N N$ while DB2 belongs to $3 N N$.<br>3. DB1 gives zero test error.<br>4. DB1 gives zero training error.</p><ol style=\"list-style-type:upper-alpha\"><li>1: True, 2: False, 3: True, 4: False</li><li>1: False, 2: True, 3: False, 4: True</li><li>1: False, 2: True, 3: True, 4: False</li><li>1: True, 2: False, 3: False, 4: True</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,one-mark",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434533",
+          "text": "A 1-NN classifier will have non-zero training error on a data set with three points $(x, y)$ if:<br /><ol style=\"list-style-type:upper-alpha\"><li> This is not possible for a 1-NN classifier with any data set.</li><li> Two or more points have the same $x$-value but different labels.</li> <li>The points are linearly separable.</li>  <li>The distance between all points is equal .</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,two-marks",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434544",
+          "text": "<p>Consider the following training set in a two-dimensional feature space:</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px;\"><thead><tr><th scope=\"col\">(x , y)</th><th scope=\"col\">Class</th></tr></thead><tbody><tr><td>(-1 , 1)</td><td><p>-</p></td></tr><tr><td>(0 , 1)</td><td>&nbsp;+</td></tr><tr><td>(0, 2)</td><td>-</td></tr><tr><td>(1 , -1)</td><td>-</td></tr><tr><td>(1 , 0)</td><td>+</td></tr><tr><td>(1 , 2)</td><td>+</td></tr><tr><td>(2 , 2)</td><td>-</td></tr><tr><td>(2 , 3)</td><td>+</td></tr></tbody></table><p><img alt=\"\" width=\"287\" height=\"280\" src=\"data:image/png;base64,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\"><br><br>What are the predictions of the k-nearest-neighbor classifier at the point $(1,1)$ for different values of $k$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>3-nearest: +, 5-nearest: +, 7-nearest: -</li><li>3-nearest: -, 5-nearest: -, 7-nearest: -</li><li>3-nearest: +, 5-nearest: -, 7-nearest: +</li><li>3-nearest: -, 5-nearest: +, 7-nearest: +</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,one-mark",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434529",
+          "text": "<p>Which of the following statements about $k$-Nearest Neighbor ( $k$-NN) are true in a classification setting, and for all $k$ ? Select all that apply.</p><ol style=\"list-style-type:upper-alpha\"><li>The training error of a 1-NN will always be better than or equal to that of $5-\\mathrm{NN}$.</li><li>The test error of a 1-NN will always be better than that of a 5-NN.</li><li>The decision boundary of the k-NN classifier is linear.</li><li>The time needed to classify a test example with the k-NN classifier grows with the size of the training set.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,multiple-selects,one-mark",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434526",
+          "text": "<p>Which of the following is true about the k-nearest neighbors (KNN) algorithm?</p><ol style=\"list-style-type:upper-alpha\"><li>It is a parametric model.</li><li>It can learn&nbsp;a nonlinear decision boundary between classes.</li><li>It requires a separate training phase and testing phase for prediction.</li><li>It typically requires longer training compared to other ML algorithms.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,one-mark",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434543",
+          "text": "Let $S_{1}$ and $S_{2}$ be two separate training data sets. Let $h_{k}\\left(S_{i}, x\\right)$ be the binary classifier function which takes in a training data set $S_{i}$ and a test example $x$, and outputs the result of the $k$-nearest neighbor classifier that has been trained on data set $S_{i}$ on the test example $x$. (So, for example, $h_{5}\\left(S_{1}, x\\right)$ is the output of the 5-nearest neighbor classifier trained on $S_{1}$ on the test example $x$ ). Assume that the two labels are 0 and 1. Consider the following two statements:<br />(a) If $h_{1}\\left(S_{1}, x\\right)=1$ and $h_{1}\\left(S_{2}, x\\right)=1$, then $h_{1}\\left(S_{1} \\cup S_{2}, x\\right)=1$<br />(b) If $h_{3}\\left(S_{1}, x\\right)=1$ and $h_{3}\\left(S_{2}, x\\right)=1$, then $h_{3}\\left(S_{1} \\cup S_{2}, x\\right)=1$<br />Which of the following statements is correct?<br /><ol style=\"list-style-type:upper-alpha\"><li> Only (a) is correct.</li><li> Only (b) is correct.</li> <li>Both (a) and (b) are correct.</li>  <li>Both (a) and (b) are incorrect.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,two-marks",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434532",
+          "text": "<p>Which of the following statements is/are TRUE about the k-NN classifier?</p><ol style=\"list-style-type:upper-alpha\"><li>If point $A$ is among point B's k-nearest neighbors, then point $B$ is always among point $A$ 's k-nearest neighbors.</li><li>On a training set with 1000 positive items and 1000 negative items, it is possible for 1-NN to have a training set accuracy of $0 \\%$, given that there is no overlap in points.</li><li>Multiplying each dimension of every item's feature vector by 0.1 (assuming Euclidean distance) will not change k-NN results.</li><li>As the value of $k$ used in a k-NN classifier is incrementally increased from 1 to n , the total number of training examples, the classification accuracy on the training set will always increase.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,multiple-selects,two-marks",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434537",
+          "text": "You are using a 1-NN classifier to filter spam emails. Given a training set of size $n$ and a validation set of size $m$, and assuming that the distance calculation takes constant time, what is the asymptotic time complexity of computing the validation error? (Use big-O notation in terms of $n$ and $m$.)<br /><ol style=\"list-style-type:upper-alpha\"><li> $O(n)$</li><li> $O(m)$</li> <li>$O(n+m)$</li>  <li>$O(n \\cdot m)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,one-mark",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434545",
+          "text": "Consider a dataset with two features and three points: $x_{q}=(0,0)$ is the query point, and the other points are $x_{1}=(1,1)$ and $x_{2}=(1.5,0)$. The task is to determine the 1-Nearest-Neighbor (1-NN) for the query point $x_{q}$ using two different distance metrics: Euclidean and Manhattan distances.<br />Which of the following statements is true about the nearest neighbor of the query point $x_{q}$ based on the distance metric used?<br /><ol style=\"list-style-type:upper-alpha\"><li> $x_{1}$ is the nearest neighbor according to both Euclidean and Manhattan distances.</li><li> $x_{2}$ is the nearest neighbor according to both Euclidean and Manhattan distances.</li> <li>$x_{1}$ is the nearest neighbor according to Euclidean distance, and $x_{2}$ is the nearest neighbor according to Manhattan distance.</li>  <li>$x_{2}$ is the nearest neighbor according to Euclidean distance, and $x_{1}$ is the nearest neighbor according to Manhattan distance.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,one-mark",
+          "category": "Machine Learning"
+        },
+        {
+          "contents": "",
+          "post_id": "434527",
+          "text": "<p>You are using a<strong> Probabilistic 3NN</strong> model for binary classification with labels $\\{-1,+1\\}$. The model predicts the label of a query point based on the relative proportion of labels among its 3 nearest neighbors. For example, if the 3 nearest neighbors have labels $\\{-1,-1,+1\\}$, the model assigns a probability of $2 / 3$ to label -1 and $1 / 3$ to label +1 .<br>Given the 5 nearest neighbors and their distances from the query point $q$ :</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px;\"><thead><tr><th scope=\"col\">Neighbor</th><th scope=\"col\">Distance from q</th><th scope=\"col\">Label</th></tr></thead><tbody><tr><td>N1</td><td>1.2</td><td>-1</td></tr><tr><td>N2</td><td>1.5</td><td>+1</td></tr><tr><td>N3</td><td>1.7</td><td>-1</td></tr><tr><td>N4</td><td>2.0</td><td>-1</td></tr><tr><td>N5</td><td>2.5</td><td>+1</td></tr></tbody></table><p><br>What is the predicted probability $P(y=-1)$ using the 3 nearest neighbors?</p><ol style=\"list-style-type:upper-alpha\"><li>$1 / 3$</li><li>$2 / 3$</li><li>$3 / 4$</li><li>$1 / 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ml-2,goclasses,machine-learning,two-marks",
+          "category": "Machine Learning"
+        }
+      ]
+    }
+  ]
+}

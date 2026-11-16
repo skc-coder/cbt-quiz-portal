@@ -1,0 +1,70 @@
+{
+  "name": "Day 158 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "503599",
+          "text": "<p>Consider a system with $4$ processes that share $16$ instances of the same resource type. Each process can request a maximum of $K$ instances. Resources can be requested and released only one at a time. The largest value of $K$ that will<strong> always</strong> avoid deadlock is:</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 158"
+        },
+        {
+          "post_id": "503602",
+          "text": "<p>Consider the following C program snippet :</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n#include &lt;unistd.h&gt;\n#include &lt;sys/wait.h&gt;\n\nvoid main() &\n&nbsp; &nbsp; int i;\n&nbsp; &nbsp; for (i = 0; i &lt; 3; i++) {\n&nbsp; &nbsp; &nbsp; &nbsp; if (fork() == 0) {\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; printf(\"Child Process: i = %d\\n\", i);\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _exit(0); // Use _exit to immediately terminate the child\n&nbsp; &nbsp; &nbsp; &nbsp; }\n&nbsp; &nbsp; }\n&nbsp; &nbsp; for (i = 0; i &lt; 3; i++) {\n&nbsp; &nbsp; &nbsp; &nbsp; wait(NULL);\n&nbsp; &nbsp; }\n&nbsp; &nbsp; printf(\"Parent Process finished.\\n\");\n}</pre><p><br>Assuming all $\\verb|fork()|$ calls are successful and the parent process executes the $\\verb|wait()|$ loop correctly:<br><br>What is the <strong>total number of new processes</strong> created by this program (excluding the initial parent process)?</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 158"
+        },
+        {
+          "post_id": "503593",
+          "text": "<p>In a system, there are <strong>four</strong> types of resources: $\\mathbf{R 1}, \\mathbf{R 2}, \\mathbf{R 3}$, and $\\mathbf{R 4}$. <strong>Three</strong> processes, $P_1, P_2$, and $P_3$ execute concurrently. At the outset, the processes have declared their maximum resource requirements using a matrix named Max as given below. The number of instances of the resources allocated to the various processes at any given state is given by a matrix named Allocation.</p><p>Consider a state of the system with the Allocation and Max matrices as shown below, and in which $\\mathbf{3}$ <strong>instances of</strong>&nbsp;$\\mathbf{R1}$,&nbsp;$\\mathbf{2}$&nbsp;<strong>instances of</strong>&nbsp;$\\mathbf{R2}$,&nbsp;$\\mathbf{2}$&nbsp;<strong>instances of</strong>&nbsp;$\\mathbf{R3}$, and $\\mathbf{1}$<strong> instance of</strong>&nbsp;$\\mathbf{R4}$ are only resources available (Total available resources).<br>&nbsp;</p><p>\\[<br>\\begin{array}{c c c c}<br>&nbsp;& \\text{Allocation} & & \\text{Max} \\\\<br>& \\textbf{R1 R2 R3 R4} & & \\textbf{R1 R2 R3 R4}\\\\<br>P_1 & 0\\ 1\\ 0\\ 0 & P_1 &1\\ 3\\ 1\\ 1 \\\\<br>P_2 & 2\\ 0\\ 1\\ 0 &&nbsp;P_2 & 3\\ 1\\ 2\\ 2 \\\\<br>P_3 & 0\\ 0\\ 1\\ 1 & P_3 &2\\ 0\\ 3\\ 1<br>\\end{array}<br>\\]</p><p><br>From the perspective of deadlock avoidance, which of the following is/are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The system is in a <strong>safe state.</strong><br>&nbsp;</li><li>The system is <strong>not in a safe state</strong>, but would be safe if <strong>one</strong> more instance of $\\mathrm{R2}$ were available.<br>&nbsp;</li><li>The system is <strong>not in a safe state</strong>, and <strong>no</strong> process can complete its execution.<br>&nbsp;</li><li>The system is <strong>not in a safe state</strong>, but would be safe if the available resources were $\\textbf{(4, 3, 2, 1)}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 158"
+        },
+        {
+          "post_id": "503601",
+          "text": "<p>Consider a system with a pool of $\\mathbf{20}$ instances of a single resource type. Each process can request a maximum of $\\mathbf{5}$ instances. To guarantee that the system will <strong>always avoid deadlock,</strong> what is the <strong>maximum</strong> number of processes $(N)$ that the system can support?</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 158"
+        },
+        {
+          "post_id": "503596",
+          "text": "<p>In a system, there are <strong>three</strong> types of resources: $\\mathbf{P}, \\mathbf{Q}$, and $\\mathbf{R}$. Four processes, $T_1, T_2, T_3$, and $T_4$ execute concurrently. At the outset, the processes have declared their maximum resource requirements using a matrix named Max as given below. The number of instances of the resources allocated to the various processes at any given state is given by a matrix named Allocation.</p><p>Consider a state of the system with the Allocation and Max matrices as shown below, and in which the <strong>Total System Resources available</strong> are $\\mathbf{10}$&nbsp;<strong>instances of P, </strong>$\\mathbf{7}$&nbsp;<strong>instances of Q, and</strong>&nbsp;$\\mathbf{8}$&nbsp;<strong>instances of</strong> $\\mathbf{R}$.<br>&nbsp;</p><p>\\[<br>\\begin{array}{c c c c}<br>&nbsp;& \\text{Allocation} & & \\text{Max} \\\\<br>& \\textbf{P Q R} & & \\textbf{P Q R}\\\\<br>T_1 & 0\\ 1\\ 0 & T_1 & 4\\ 2\\ 2 \\\\<br>T_2 & 2\\ 0\\ 0 & T_2 & 6\\ 1\\ 3 \\\\<br>T_3 & 3\\ 0\\ 2 & T_3 & 3\\ 0\\ 3 \\\\<br>T_4 & 2\\ 1\\ 1 & T_4 & 4\\ 3\\ 2<br>\\end{array}<br>\\]</p><p><br>From the perspective of deadlock avoidance, which of the following is/are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The system is in a <strong>safe state,</strong> with a possible safe sequence starting with $T2.$<br>&nbsp;</li><li>The system is <strong>not in a safe state</strong> because $T4$ needs $T2$'s allocated resources to finish.<br>&nbsp;</li><li>The system is in a <strong>safe state</strong><br>&nbsp;</li><li>The system is <strong>not in a safe state,</strong> as no process can complete its execution.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 158"
+        }
+      ]
+    }
+  ]
+}

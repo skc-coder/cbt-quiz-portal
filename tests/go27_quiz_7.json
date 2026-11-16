@@ -1,0 +1,134 @@
+{
+  "id": "go27_quiz_7",
+  "name": "GO Classes GATE CS | Propositional Logic| Weekly Quiz 5",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "462135",
+          "text": "<p>Akash,Bharani,Chetan and Deepa are invited to a party. If Bharani and Chetanattend, then Deepa will attend too. If Bharani does not attend, then Akash will not attend. If Deepa does not attend, which of the following is true?</p><ol style=\"list-style-type:upper-alpha\"><li>Chetan does not attend</li><li>Akash does not attend</li><li>either (A)or (B)</li><li>none of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq8,goclasses,discrete-mathematics,mathematical-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "462132",
+          "text": "<p>If Vinay finishes his homework and the school closes early, then he can play in the park or eat an ice cream. He will end up at the dispensary with tummy ache if he eats ice cream and plays in the park. Which of the following can be correctly inferred?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If he doesn’t end up in the dispensary with tummy ache, then he did not finish his homework or the school closed late.</li><li>If he doesn’t end up in the dispensary with tummy ache, he didn’t eat ice cream and he didn’t play in the park.</li><li>Both A and B.</li><li>None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq8,goclasses,discrete-mathematics,mathematical-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "462131",
+          "text": "<p>All inhabitants of the Old Forest are either Ents or Bents. Ents always tell the truth and Bents always lie. During a visit to the Old Forest, you encounter four inhabitants $-\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ and D . They make the following assertions.<br><br>A: Exactly one of us is a Bent.<br>B: Exactly two of us are Bents.<br>C: Exactly three of us are Bents.<br>D: Exactly four of us are Bents.<br> </p><p>How many of them are Bents?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1$</li><li>$2$</li><li>$3$</li><li>$4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq8,goclasses,discrete-mathematics,mathematical-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "462138",
+          "text": "<p>Select the logical expression that is equivalent to: $\\neg(\\mathbf{p} \\vee \\mathbf{q}) \\rightarrow(\\mathbf{p} \\vee \\mathbf{r})$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\neg(p \\wedge q \\wedge \\neg r)$</li><li>$p \\vee(q \\wedge r)$</li><li>$p \\wedge(q \\vee r)$</li><li>$\\mathbf{p} \\vee \\mathbf{q} \\vee \\mathbf{r}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq8,goclasses,discrete-mathematics,mathematical-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "462134",
+          "text": "<p>Four siblings go shopping with their father. If Abhay gets shoes, then Asha does not get a necklace. If Arun gets a T-shirt, then Aditi gets bangles. If Abhay does not get shoes or Aditi gets bangles, the mother will be happy. Which of the following is TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If the mother is happy, then Aditi got bangles.</li><li>If Aditi got bangles, then Abhay got shoes.</li><li>If the mother is not happy, then Asha did not get a necklace and Arun did not get a T-shirt.</li><li>None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq8,goclasses,discrete-mathematics,mathematical-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "462137",
+          "text": "<p>From the expressions below, select ALL of the tautologies:</p><ol style=\"list-style-type:upper-alpha\"><li>$F \\rightarrow(p \\wedge q)$</li><li>$(\\mathrm{F} \\rightarrow(\\mathrm{p} \\wedge q)) \\rightarrow(\\mathrm{p} \\wedge q)$</li><li>$r \\leftrightarrow \\neg r$</li><li>$(p \\oplus q) \\rightarrow(p \\vee q)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq8,goclasses,discrete-mathematics,mathematical-logic,one-mark,multiple-selects",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "462133",
+          "text": "<p>An advertisement for a tennis magazine states, \"If I'm not playing tennis, I'm watching tennis. And If I'm not watching tennis, I'm reading about tennis.\" We can assume that the speaker can do at most one of these activities at a time. What is the speaker doing?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Playing&nbsp;tennis</li><li>Watching&nbsp;tennis</li><li>Reading about&nbsp;tennis</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq8,goclasses,discrete-mathematics,mathematical-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "462142",
+          "text": "<p>Select the logical expression that is equivalent to: $\\neg(\\mathbf{p} \\wedge \\mathbf{q}) \\rightarrow(\\mathbf{p} \\wedge \\mathbf{r})$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\neg(p \\wedge q \\wedge \\neg r)$</li><li>$p \\vee(q \\wedge r)$</li><li>$p \\wedge(q \\vee r)$</li><li>$p \\vee q \\vee r$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq8,goclasses,discrete-mathematics,mathematical-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "462140",
+          "text": "<p>How many assignments of truth values to $p, q$ and $r$ respectively are there that prove that argument below is invalid?</p><p><img alt=\"\" width=\"93\" height=\"159\" src=\"data:image/png;base64,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\"></p>",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq8,numerical-answers,goclasses,discrete-mathematics,mathematical-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "462144",
+          "text": "<p>If the milkman doesn't deliver milk or the geyser doesn't work, then Akash will be late for school and lunch will be cooked late. Suppose lunch was actually cooked on time. Which of the following is definitely true?</p><ol style=\"list-style-type:upper-alpha\"><li>Akash was late for school</li><li>Akash reached school in time</li><li>Geyser worked</li><li>Milkman did not deliver milk</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq8,goclasses,discrete-mathematics,mathematical-logic,one-mark,propositional-logic",
+          "category": "Mathematical Logic"
+        }
+      ]
+    }
+  ]
+}

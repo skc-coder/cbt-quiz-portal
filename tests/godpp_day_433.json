@@ -1,0 +1,70 @@
+{
+  "name": "Day 302 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "536051",
+          "text": "<p>In a carry look-ahead adder,</p><p>$C_{i+1}=G_i+P_iC_i$</p><p>Which expression correctly represents $C_3$ in terms of $G_0,G_1,G_2,P_0,P_1,P_2$ and $C_0$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$C_3=G_2+P_2G_1+P_2P_1G_0+P_2P_1P_0C_0$<br>&nbsp;</li><li>$C_3=G_0+P_0G_1+P_0P_1G_2+P_0P_1P_2C_0$<br>&nbsp;</li><li>$C_3=P_2+G_2P_1+G_2G_1P_0+G_2G_1G_0C_0$<br>&nbsp;</li><li>$C_3=G_2+G_1+G_0+C_0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 302"
+        },
+        {
+          "post_id": "536047",
+          "text": "<p>In a ripple carry adder, which condition causes a carry to propagate through bit position $i$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A_i=0$ and $B_i=0$<br>&nbsp;</li><li>$A_i=1$ and $B_i=1$<br>&nbsp;</li><li>$A_i\\oplus B_i=1$<br>&nbsp;</li><li>$A_iB_i=1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 302"
+        },
+        {
+          "post_id": "536043",
+          "text": "<p>A circuit has two gates in series. First, $X=AB$ is produced using an AND gate with delay $4$ $\\text{ns}$. Then, $F=X+C$ is produced using an OR gate with delay $3$ $\\text{ns}$. If input $A$ changes at time $t=0$ while $B$ and $C$ are stable, what is the worst-case delay for $F$ to change?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3$ $\\text{ns}$<br>&nbsp;</li><li>$4$ $\\text{ns}$<br>&nbsp;</li><li>$7$ $\\text{ns}$<br>&nbsp;</li><li>$12$ $\\text{ns}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 302"
+        },
+        {
+          "post_id": "536049",
+          "text": "<p>For a carry look-ahead adder, let</p><p>$G_i=A_iB_i$</p><p>and</p><p>$P_i=A_i\\oplus B_i$</p><p>For bit position $i$, what do $G_i=1$ and $P_i=1$ represent?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$G_i=1$ means carry is propagated, and $P_i=1$ means carry is killed<br>&nbsp;</li><li>$G_i=1$ means carry is generated, and $P_i=1$ means carry is propagated<br>&nbsp;</li><li>$G_i=1$ means sum is generated, and $P_i=1$ means overflow occurs<br>&nbsp;</li><li>$G_i=1$ means carry is killed, and $P_i=1$ means carry is generated</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 302"
+        },
+        {
+          "post_id": "536045",
+          "text": "<p>A $4$-bit ripple carry adder is made using full adders. For each full adder, carry propagation delay from $C_{in}$ to $C_{out}$ is $2$ $\\text{ns}$, and sum delay from $C_{in}$ to $S$ is $3$ $\\text{ns}$. What is the worst-case delay for the MSB sum $S_3$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5$&nbsp;$\\text{ns}$<br>&nbsp;</li><li>$6$&nbsp;$\\text{ns}$<br>&nbsp;</li><li>$9$&nbsp;$\\text{ns}$<br>&nbsp;</li><li>$11$&nbsp;$\\text{ns}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 302"
+        }
+      ]
+    }
+  ]
+}

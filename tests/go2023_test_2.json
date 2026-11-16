@@ -1,0 +1,297 @@
+{
+  "name": "GO Classes Test Series 2023 | Discrete Mathematics | Test 2",
+  "duration": "75",
+  "total_qs": "25",
+  "total_qs_one": 10,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 25,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 25,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "374260",
+          "text": "<p>Let $\\text{Z}$ be the set of all integers. Which of these functions from $\\text{Z}$ to $\\text{Z}$ is not Onto</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>$f(n) = n-1$</li>\n\t<li>$f(n) = n^{2} + 1$</li>\n\t<li>$f(n) = n^{3}$</li>\n\t<li>$f(n) = \\left \\lfloor&nbsp;\\frac{n}{2} \\right \\rfloor$&nbsp;</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,functions,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374278",
+          "text": "<p>The below function is defined from a set of all positive integers to a set of all integers.</p>\n\n<p>$f(n) = \\left\\{\\begin{matrix} (n-1)/2\\;;&amp; \\text{if}\\; n \\;\\text{is odd} \\\\ -n/2\\;;&amp; \\text{if}\\; n\\;\\text{is even} \\end{matrix}\\right.$&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p>Which of the following statements is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>It is one to one but not onto</li>\n\t<li>It is onto but not one-one</li>\n\t<li>It is bijection</li>\n\t<li>It is neither One-One nor Onto</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,functions,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374280",
+          "text": "<p>Let $\\text{A, B}$ be two non-empty sets such that $\\text{P(A)} \\subset \\text{P(B)},$ where $\\text{P(S)}$ denotes Power set of set $\\text{S}$, and $\\subset$ denotes “proper subset”. Let $\\text{M}$ be the universal set and $\\text{A, B}$ are proper subsets of $\\text{M}$. For any set $\\text{S},$ let $\\text{S}'$ be the set of those elements which are in $\\text{M}$, but not in $\\text{S}.$</p>\n\n<p>Which of the following sets forms a partition of $\\text{M}$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\{\\text{A} \\cap \\text{B},\\text{A}' \\cap \\text{B}\\}$</li>\n\t<li>$\\{\\text{A} \\cap \\text{B},\\text{A}' \\cap \\text{B},\\text{A} \\cap \\text{B}',\\text{A}' \\cap \\text{B}'\\}$</li>\n\t<li>$\\{\\text{A} \\cap \\text{B},\\text{A}' \\cap \\text{B}, \\text{A}' \\cap \\text{B}'\\}$</li>\n\t<li>$\\{\\text{A} \\cap \\text{B},\\text{A}' \\cap \\text{B}'\\}$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,set-theory,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374255",
+          "text": "<p>Let $\\text{R}$ be a relation from a set $\\text{A}$ to a set $\\text{B}.$ The inverse relation from $\\text{B}$ to $\\text{A},$ denoted by $\\text{R}^{-1},$&nbsp;is the set of ordered pairs $\\{(b,a) \\mid (a,b) \\in \\text{R}\\}$.</p><ul><li>$\\text{S1: R}$ is reflexive relation iff $\\text{R}^{-1} = \\text{R}$</li><li>$\\text{S2: R}$ is a symmetric relation iff $\\text{R}^{-1} = \\text{R}$</li></ul><p>Which one of the following statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\text{S1}$</li><li>Only $\\text{S2}$</li><li>Both $\\text{S1}$ and $\\text{S2}$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_cs_dm_tw_2,goclasses-testseries-2026,goclasses,set-theory&algebra,relations,easy,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374256",
+          "text": "<p>In set theory, an urelement or ur-element is an object that is not a set, but that may be an element of a set. It is also referred to as an atom or individual. In this case, if $\\text{X}$ is an urelement, it makes no sense to say $y \\in \\text{X},$ although $\\text{X} \\in \\text{U}$ is perfectly legitimate.</p>\n\n<p>Let $\\text{A}$ be any set in which every element is ur-element.</p>\n\n<ul>\n\t<li>We define set $\\text{B}$ which is union of $\\text{A}$ and power set of $\\text{A}.$</li>\n\t<li>We define a relation $\\text{R}$ on $\\text{B}$ as following $:a\\text{R}b$ if and only if $a \\in b.$</li>\n</ul>\n\n<p>Which of the following properties is/are satisfied by $\\text{R}?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Reflexivity</li>\n\t<li>Symmetric</li>\n\t<li>Transitive</li>\n\t<li>Anti-symmetric</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2025_cs_dm_tw_2,goclasses-testseries-2025,goclasses,set-theory&algebra,relations,multiple-selects,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374294",
+          "text": "<p>Consider a Set $\\text{X} = \\{a, b, c, d, e\\}$ and a relation $\\text{R}$ defined on $\\text{X}:$</p>\n\n<p>$\\text{R} = \\{(a, a), (a, b), (a, e), (b, b), (b, e), (c, c), (c, d), (d, d), (e, e)\\}.$</p>\n\n<p>Which of the following properties is Not true for $\\text{R}?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>reflexive</li>\n\t<li>symmetric</li>\n\t<li>anti-symmetric</li>\n\t<li>transitive</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,relations,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374274",
+          "text": "<p>&nbsp;Let $\\text{Z}$ be the set of all integers. Define a relation $\\text{S}$ on $\\text{Z} \\times \\text{Z}$ by $(w,x)\\text{S}(y,z)$ if and only if $w-x = y-z.$ We know that $\\text{S}$ is an equivalence relation.</p>\n\n<p>Which of the following is true about equivalence classes of $\\text{S}?$</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>The equivalence class of $(a,b)$ is the same as the equivalence class of $(-b,a),$ for all $a,b \\in \\text{Z}.$</li>\n\t<li>For every $n \\in \\text{Z},$ there is exactly one equivalence class $\\text{E}$ of $\\text{S},$ where $(a,b) \\in \\text{E}$ iff $a-b = n.$</li>\n\t<li>The equivalence class of $(a,b)$ is the same as the equivalence class of $(-b,-a),$ for all $a,b \\in \\text{Z}.$</li>\n\t<li>The equivalence class of $(a,b)$ is disjoint from the equivalence class of $(a-2,b+2),$ for all $a,b,c,d \\in \\text{Z}.$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "B;C;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,relations,equivalence-class,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374286",
+          "text": "Consider the relation $\\text{T}$ defined on set $\\text{S} =\\{0,1,2,3,4,5,6,7,8,9\\}$ defined by $x\\text{T}y$ if and only if $3|(x^{3}-y^{3}).\\; \\text{T}$ is an equivalence relation. For any $x \\in \\text{S},$ let $[x]$ denote the equivalence class of $\\text{T}$ containing $x.$\n\nWhat is the cardinality of $[6]?$",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024_wq13,numerical-answers,goclasses,set-theory&algebra,relations,equivalence-class,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374277",
+          "text": "<p>For any set $\\text{X},$ let $|\\text{X}|$ be the cardinality of set $\\text{X}.$ Let $\\text{A}$ and $\\text{B}$ be two finite sets such that $|\\text{A}| = |\\text{B}|$. There is a one to one function $f$ from $\\text{A}$ to $\\text{B}.$</p>\n\n<p>Which of the following must be true for $f?$</p>\n\n<ul>\n\t<li>$\\text{S1:}\\; f$ is onto function</li>\n\t<li>$\\text{S2:}\\;f$ has an inverse</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Only $\\text{S1}$</li>\n\t<li>Only $\\text{S2}$</li>\n\t<li>Both $\\text{S1}$ and $\\text{S2}$</li>\n\t<li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_cs_dm_tw_2,goclasses-testseries-2026,goclasses,set-theory&algebra,functions,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374281",
+          "text": "<p>Consider the Hasse diagram shown below-<br>\n&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"202\" src=\"https://lh6.googleusercontent.com/nBzpyFzEN4_JupzSZ66-waUMeKqfPXhCYk1cxE4iBgb1wwv6tdSmZSanqjbzkMk9ljMnYl5-KIYOIi8pFuuDIh3BGQvhMJ3nFRckWzoHTwRCcdCS81Ip3URoBPm1R3pNKp_I07wi\" width=\"119\"></p>\n\n<p><br>\nWhich of the following is/are true about the lattice $\\text{L}$ that is represented by the above Hasse diagram:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{L}$ is a distributive lattice.</li>\n\t<li>$\\text{L}$ is a complemented lattice.</li>\n\t<li>The subset $\\{1,2,3,4,5,6\\}$ is a sub-lattice of $\\text{L}$ under the same relation.</li>\n\t<li>The subset $\\{1,3,4,5,6\\}$ is a sub-lattice of $\\text{L}$ under the same relation.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2025_cs_dm_tw_2,goclasses-testseries-2025,goclasses,set-theory&algebra,lattice,multiple-selects,difficult,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374264",
+          "text": "<p>A binary relation $\\text{R}$ on a set $\\text{A}$ is called connected iff for all elements $x$ and $y$ of $\\text{A},$ either $x \\text{R} y$ or $y \\text{R} x$ or both. i.e. $\\text{R}$ is connected iff $\\forall x,y \\in \\text{A} ((x \\text{R} y)$ $\\vee$&nbsp;&nbsp;$(y \\text{R} x))$</p>\n\n<p>Which of the following is/are true ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Every connected relation is reflexive.</li>\n\t<li>Every connected relation is partial order.</li>\n\t<li>Every connected relation is symmetric.&nbsp;&nbsp;</li>\n\t<li>Every connected relation is transitive.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_2,goclasses-testseries-2026,goclasses,set-theory&algebra,relations,partial-order,multiple-selects,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374293",
+          "text": "<p>Let $\\text{R}$ be an equivalence relation on a Set $\\text{A}.$</p>\n\n<p>Which of the following statements is/are correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Every equivalence class of $\\text{R}$ is a subset of $\\text{R}.$</li>\n\t<li>Every equivalence class of $\\text{R}$ is a subset of $\\text{A}.$</li>\n\t<li>Set of equivalence classes of $\\text{R}$ is a subset of $\\text{A}.$</li>\n\t<li>Set of equivalence classes of $\\text{R}$ is a subset of $\\text{P(A)},$ where $\\text{P(A)}$ is the power set of $\\text{A}.$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2024_wq13,goclasses,set-theory&algebra,relations,equivalence-class,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374292",
+          "text": "<p>Let $\\text{R}$ be an equivalence relation on a Set $\\text{A}.$</p>\n\n<p>Which of the following statements is/are correct?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>Two different equivalence classes of $\\text{R}$ are necessarily disjoint.</li>\n\t<li>Set of equivalence classes of $\\text{R}$ is a partition of $\\text{A}.$</li>\n\t<li>Set of equivalence classes of $\\text{R}$ is partition of $\\text{P(A)},$ where $\\text{P(A)}$ is the powerset of $\\text{A}.$</li>\n\t<li>Set of equivalence classes of $\\text{R}$ is a partition of $\\text{R}.$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2024_wq13,goclasses,set-theory&algebra,relations,equivalence-class,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374290",
+          "text": "<p>Let $\\text{R}$ be an equivalence relation on a non-empty set $\\text{A}.$ Let $a,b \\in \\text{A}.$</p>\n\n<p>For any $x \\in A,$ let $[x]$ denote the equivalence class of $\\text{R}$ containing $x.$</p>\n\n<p>Which of the following is/are correct statements?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$a\\text{R}b$ iff $[a] = [b]$</li>\n\t<li>$a\\text{R}b$ iff $[a] \\cap&nbsp;[b] \\neq&nbsp;\\phi$</li>\n\t<li>If $\\text{A}$ is non-empty finite set then $\\text{R}$ can never have more than $|\\text{A}|$ equivalence classes, where $|\\text{A}|$ is the cardinality of $\\text{A}.$</li>\n\t<li>$\\text{R} = \\text{A} \\times \\text{A}$ iff $R$ has only one equivalence class.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_2,goclasses-testseries-2026,goclasses,set-theory&algebra,relations,equivalence-class,multiple-selects,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374258",
+          "text": "<p>Which of the following statements must be true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>$\\left \\lfloor x \\right \\rfloor&nbsp;= \\left \\lceil x \\right \\rceil$ if and only if $x$ is an integer.</li>\n\t<li>$\\left \\lfloor x \\right \\rfloor&nbsp; + 1 =&nbsp; \\left \\lceil x \\right \\rceil$ if and only if $x$ is not an integer.</li>\n\t<li>$\\left \\lfloor x \\right \\rfloor&nbsp; \\left \\lceil&nbsp;y&nbsp;\\right \\rceil = \\left \\lceil x \\right \\rceil \\left \\lfloor&nbsp;y&nbsp;\\right \\rfloor$ for all $x,y.$</li>\n\t<li>$-\\left \\lfloor x \\right \\rfloor = \\left \\lceil&nbsp;-x \\right \\rceil $ for all $x.$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,functions,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374268",
+          "text": "<p>Let $\\text{R}$ and $\\text{S}$ be binary relations on a set $\\text{A}.$ Suppose that $\\text{R}$ is reflexive, symmetric, and transitive and that $\\text{S}$ is symmetric, and transitive but is not reflexive.</p>\n\n<p>Which statement is always true for any such $\\text{R}$ and $\\text{S}?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{R} \\cup \\text{S}$ is symmetric but not reflexive and not transitive.</li>\n\t<li>$\\text{R} \\cup \\text{S}$ is symmetric, reflexive, transitive</li>\n\t<li>$\\text{R} \\cup \\text{S}$ is transitive and symmetric but not reflexive</li>\n\t<li>$\\text{R} \\cup \\text{S}$ is reflexive and symmetric but may not be transitive.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,relations,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374266",
+          "text": "Define an equivalence relation $\\text{R}$ on the positive integers $A = \\{2, 3, 4, \\dots , 20\\}$ by $m \\text{R} n$ if the largest prime divisor of $m$ is the same as the largest prime divisor of $n.$ The number of equivalence classes of $\\text{R}$ is ________",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024_wq13,numerical-answers,goclasses,set-theory&algebra,relations,equivalence-class,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374276",
+          "text": "Given a set of values $\\text{R} = \\{1,2,3,4,5,6,7\\}.$ The number of relations on this set which are both partial-order and equivalence relation is?",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_2,goclasses-testseries-2026,goclasses,set-theory&algebra,relations,partial-order,numerical-answers,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374262",
+          "text": "<p>Let $\\text{A}$ be any set.</p>\n\n<p>The following are the definitions of Irreflexive and Asymmetric Relations :</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>A binary relation $\\text{R}$ on a set $\\text{A}$ is irreflexive iff $(x,x) \\notin \\text{R}$ for all $x \\in \\text{A}$</li>\n\t<li>A binary relation $\\text{R}$ on a set $\\text{A}$ is asymmetric iff whenever $(x,y) \\in \\text{R},$ then $(y,x) \\notin \\text{R}$</li>\n</ol>\n\n<p>We define a “strict order relation” as follows :</p>\n\n<p>A binary relation $\\text{R}$ on a set $\\text{A}$ is a strict order on $\\text{A}$ iff $\\text{R}$ is irreflexive and transitive.</p>\n\n<p>Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Every strict order is asymmetric.</li>\n\t<li>Every strict order is a total order relation.</li>\n\t<li>Every strict order is antisymmetric.</li>\n\t<li>Every relation which is both Irreflexive and Asymmetric is in strict order.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,relations,partial-order,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374285",
+          "text": "<p>A relation $\\text{R}$ on a set $\\text{A}$ is said to be triangular iff $a\\text{R}b$ and $c\\text{R}b$ together imply $a\\text{R}c,$ For all $a,b,c \\in \\text{A} \\,\\,\\,and \\,\\,\\, a \\neq c.$</p>\n\n<p>Which of the following is false?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{A}$ relation $\\text{S}$ is reflexive and triangular only if $\\text{S}$ is an equivalence relation.</li>\n\t<li>$\\text{A}$ relation $\\text{S}$ is reflexive and triangular if $\\text{S}$ is an equivalence relation.</li>\n\t<li>If a relation $\\text{S}$ is symmetric and triangular, then $\\text{S}$ is a transitive relation.</li>\n\t<li>If a relation $\\text{S}$ is transitive and triangular, then $\\text{S}$ is a symmetric relation.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "C;D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,relations,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374272",
+          "text": "<p>Let $\\text{L}$ be a lattice $[\\text{S},\\#],$ where $\\text{S}$ is the base set and $\\#$ is a relation defined on $\\text{S}.$ If for every subset $\\text{A}$ of $\\text{S}, [\\text{A},\\#]$ is also a lattice then $\\text{L}$ must be?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>Total order</li>\n\t<li>Bounded lattice</li>\n\t<li>Distributive lattice</li>\n\t<li>Boolean lattice</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2025_cs_dm_tw_2,goclasses-testseries-2025,goclasses,set-theory&algebra,partial-order,lattice,difficult,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374284",
+          "text": "Let $\\text{A, B}$ be two non-empty sets, with cardinality $3,4$ respectively. Let $\\text{R}$ be a relation defined on the power set of $\\text{A} \\times \\text{B}.$ Relation $\\text{R}$ is reflexive, symmetric, transitive, and antisymmetric. Hence,  Relation $ \\text{R}$ is also equivalence relation.\n\nThe cardinality of the largest equivalence class of relation $\\text{R}$ is?",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_2,goclasses-testseries-2026,numerical-answers,goclasses,set-theory&algebra,relations,equivalence-class,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374283",
+          "text": "<p>We define a relation $\\text{S}$ on a non-empty Set $\\text{A}.$ The definition of relation $\\text{S}$ is given in form of a first order logic formula below :<br>\n$$\\forall x \\forall y(\\text{S}(x, y)\\Leftrightarrow \\neg \\text{S}(y, x)) \\wedge [ \\forall x \\exists y \\text{S}(x, y)] \\wedge \\forall x \\forall y \\forall z(\\text{S}(x, y) \\wedge \\text{S}(y, z) \\Rightarrow \\text{S}(x, z))$$<br>\nNote that for $x,y \\in \\text{A}, \\text{S}(x,y)$ is true iff $x\\text{S}y$ i.e. $\\text{S}(x,y)$ is just another way of saying that $x$ is related to $y$ in relation $\\text{S}.$</p>\n\n<p>Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>There is some finite set $\\text{A}$ on which such relation $\\text{S}$ can be defined.</li>\n\t<li>There is some infinite set $\\text{A}$ on which such relation $\\text{S}$ can be defined.</li>\n\t<li>There is no finite set $\\text{A}$ on which such relation $\\text{S}$ can be defined.</li>\n\t<li>There is no infinite set $\\text{A}$ on which such relation $\\text{S}$ can be defined.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,set-theory,relations,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374288",
+          "text": "<p>Let $\\text{N}$ be the set of positive integers. Consider the relation $\\text{R}$ on $\\text{N}$ defined by $x\\text{R}y$ if and only if $\\gcd(x,y)&gt;1.$</p>\n\n<p>The relation $\\text{R}$ on $\\text{N}$ is ________</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Reflexive</li>\n\t<li>Symmetric</li>\n\t<li>Transitive</li>\n\t<li>Equivalence relation</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-dm-2-weekly-quiz,goclasses,set-theory&algebra,relations,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374279",
+          "text": "<p>A relation on an $n$-element set $\\text{A} = \\{a_0, a_1, \\dots , a_{n-1}\\}$ can be represented by an $n \\times n$ adjacency matrix of Boolean values.</p>\n\n<p><br>\n<strong><img alt=\"\" height=\"266\" src=\"https://lh4.googleusercontent.com/JsLce-oiIoxOfv3Wtf_jfKqfyMPxWXr4PLnEkj3Tnzvx0mU0FggC9gwCiBi7HUqHBKRyfKql7p3xn8ESmF6HgRWnm-zrx06rlBTqoVnAKQNrx8A0V5pkqXrrwbJANwM8XM7Sn78d\" width=\"559\"></strong><br>\nwhere the entries $b_{i,j}$ are Boolean values such that $b_{i,j} = 1$ if $a_{i}$ is related to $a_{j}$ and $b_{i,j} = 0$ otherwise.</p>\n\n<p>Which of the following is/are correct about the matrix representation of various types of relations?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>For antisymmetric relation, for all $0\\leq i, j\\leq n-1,$ exactly one of the entries $b_{i,j}, b_{j,i}$ is $1.$</li>\n\t<li>For reflexive relation, there are at least $n\\; 1$-entries in the adjacency matrix.</li>\n\t<li>The number of $1$-entries in the adjacency matrix is the cardinality of the relation.</li>\n\t<li>For symmetric relation, for all $0\\leq i, j\\leq n-1, b_{i,j} = b_{j,i}.$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2025_cs_dm_tw_2,goclasses-testseries-2025,goclasses,set-theory&algebra,relations,multiple-selects,moderate,two-marks",
+          "category": "Set Theory & Algebra"
+        }
+      ]
+    }
+  ]
+}

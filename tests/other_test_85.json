@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 OS3: Memory Management",
+  "duration": "54",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "270580",
+          "text": "A memory page, which contained a variable which is used more than an average number of times any other variable is used, is removed from memory. This hints the use of:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Least Recently Used policy<br /> </li><li>  First In First Out policy<br /> </li> <li> Most Recently Used policy<br /> </li>  <li> Most Frequently Used policy  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270578",
+          "text": "<p>Consider a heap allocation in sequence from address 0 to largest possible address in memory, as follows:<br>\nFirst $100$ KB &nbsp;is used.<br>\n$130$ KB is free.<br>\n$500$ KB is used.<br>\n$400$ KB is free.<br>\nLast $700$ KB is used<br>\nThe sequence of request (in KB) comes as follows:<br>\n$100, 50, 120, 200, 40$<br>\nWhich of the following allocation policy would help to satisfy all of these requests with given memory layout:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Either first fit or best fit but not worst fit</li>\n    <li>Best fit but not worst fit</li>\n    <li>Worst fit but not first fit</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270576",
+          "text": "In a paged segmented scheme of memory management, a segment table itself must have a page table because:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  The segment table is often too large to fit in one page<br /> </li><li>  Each segment is spread over a number of pages<br /> </li> <li> Segment tables point to page tables and not to the physical locations of the segment<br /> </li>  <li> The processor’s description base register points to a page table  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270574",
+          "text": "<p>A $1000$ KBytes memory is managed using variable partitions but no compaction. It currently has two partitions of sizes $240$ KBytes and $280$ Kbytes respectively. The smallest allocation request in Kbytes that could be denied is for:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$121$</li>\n    <li>$89$</li>\n    <li>$197$</li>\n    <li>$161$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270572",
+          "text": "In a resident OS computer which of the following system program &nbsp;must reside in main memory under all conditions:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Linker <br /> </li><li>  Compiler<br /> </li> <li> Loader<br /> </li>  <li> Assembler.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270570",
+          "text": "Modified bit finds its usage in:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  process scheduling schemes.<br /> </li><li>  page replacement policies.<br /> </li> <li> CPU mode switching.<br /> </li>  <li> All of the above.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270568",
+          "text": "The essential content(s) in each entry of a page table is/are:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  virtual page number.<br /> </li><li>  page frame number.<br /> </li> <li> both virtual page number and page frame number.<br /> </li>  <li> access right information.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270566",
+          "text": "Consider a system with byte-addressable memory, $32$-bit logical addresses, $16$ kilobyte page size and page table entries of $6$ bytes each. The size of the page table in the system in megabytes is:",
+          "type": "Numerical",
+          "answer": "1.5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-os3,numerical-answers",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270564",
+          "text": "<p>Let the page fault service time be $15000$ microseconds in a computer with average memory access time being $60$ns. If four page faults are generated for every $10^7$ memory accesses, what is the effective access time for the memory?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$66 \\text{ ns}$</li>\n    <li>$76 \\text{ ns}$</li>\n    <li>$86 \\text{ ns}$</li>\n    <li>$96 \\text{ ns}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270562",
+          "text": "<p>A dramatic increase in the number of page I/O which may hinder the system to perform efficiently, is known as:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>increasing the degree of multiprogramming</li>\n    <li>Convoy's effect</li>\n    <li>Belady's effect</li>\n    <li>Thrashing</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270560",
+          "text": "Consider a computer system with $64$-bit virtual address, $32$-bit physical address and page size of $64$ kilobytes. The computer system has a two-level page table per process and each page table entry requires $32$ bits. If each page table fits in a page frame and total amount of memory required for all levels of page tables for fully utilizing the physical memory is ____ kilo bytes",
+          "type": "Numerical",
+          "answer": "320",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-os3,numerical-answers,virtual-memory",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270558",
+          "text": "The capacity of a memory unit is completely defined by number of words in memory and how many bits are there in such a word. For a memory chip of size $16K \\times 16$ nibbles (a nibble is half of a byte) the required number of data and address lines are denoted by D and A respectively. The value of $2^{D\\%A}$ is _______",
+          "type": "Numerical",
+          "answer": "256",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-os3,numerical-answers",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270556",
+          "text": "<p>A processor uses $48$ bit physical addresses and $40$ bit virtual addresses, with a page frame size of $16$ Kbytes. Each page table entry is of size $6$ bytes. A four level page table is used for virtual to physical address translation, where the virtual address is used as follows:</p>\n\n<ul>\n    <li>Bits $35-39$ are used to index into the first level page table</li>\n    <li>Bits $28-34$ are used to index into the second level page table</li>\n    <li>Bits $21-27$ are used to index into the third level page table</li>\n    <li>Bits $14-20$ are used to index into the fourth level page table and</li>\n    <li>Bits $0-13$ are used as offset within the page</li>\n</ul>\n\n<p>The number of miscellaneous bits apart form frame number in each of the page table entry of the first, second, third and fourth level of the page tables are respectively:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$14, 14, 14, 14$</li>\n    <li>$16, 16, 20, 20$</li>\n    <li>$20, 20, 24, 24$</li>\n    <li>$16, 24, 24, 24$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270554",
+          "text": "<p>In a system a program has a overlay design as follows:</p>\n\n<p>There is a main program $M$&nbsp;(of size $30$ KB) which generates four different sub-programs A,B,C and D with sizes $10KB, 20KB, 60KB, 50KB&nbsp;$ respectively. Each of these subprograms splits into two more lower level subprograms as follows:</p>\n\n<p>A splits in to two subprograms of sizes $30KB$ and $45 KB.$<br>\nB splits in to two subprograms of sizes $40KB $ and $95 KB.$<br>\nC splits in to two subprograms of sizes $20KB&nbsp;$ and $25 KB.$<br>\nD splits in to two subprograms of sizes $10KB $ and&nbsp; $100 KB.$</p>\n\n<p>If there is a common routine of size $50KB$ which must always be in memory then the amount of memory required to load and run this program $M$&nbsp;in memory (in KB) is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$120$</li>\n    <li>$130$</li>\n    <li>$140$</li>\n    <li>$180$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270552",
+          "text": "Consider a computer system with $12$ physical page frames. The system is provided with an access sequence $(a_1,a_2,...,a_{32},a_31,a_30,a_{29}...a_{10})$, where each $a_i$ is a distinct virtual page number. The difference in the number of page faults between the last-in-first-out page replacement policy and the optimal page replacement policy is _________",
+          "type": "Numerical",
+          "answer": "9",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-os3,numerical-answers",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270550",
+          "text": "<p>A computer system implements a $50$-bit page address, page size of $16$ kilobytes, and a $1024$-entry translation look-aside buffer (TLB) organized into $128$ sets each having eight ways. Assume that the TLB does store a $13$ bit process id for each entry then the size of the TLB tag directory (in Kbits) is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$20$</li>\n    <li>$30$</li>\n    <li>$43$</li>\n    <li>$56$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270548",
+          "text": "<p>The address sequence generated by a particular program executing in a pure demand paging system with $300$ bytes per page is as follows:</p>\n\n<p>$0100, 0220, 0317, 0089, 0395, 0530, 0560, 0645, 0699, 0999, 1260, 1320.$</p>\n\n<p>Suppose that the memory can store only two pages and if x is the address which causes a page fault then the bytes from addresses $x$ to $x + 299$ are loaded on to the memory. How many page faults will occur?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0$</li>\n    <li>$4$</li>\n    <li>$6$</li>\n    <li>$8$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270546",
+          "text": "<p>A computer system implements $16$ kilobyte pages and a $40$-bit physical address space. Each page table entry contains a valid bit, a dirty bit, four permission bits, and the translation. If the maximum size of the page table of a process is $128$&nbsp;magabytes, the length (in bits) of the virtual address supported by the system is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$22$</li>\n    <li>$30$</li>\n    <li>$36$</li>\n    <li>$39$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270544",
+          "text": "<p>A system uses LIFO policy for page replacement. It has $6$ page frames with no pages loaded to begin with. The system first accesses $900$ distinct pages in order from $1$ to $900$ and then accesses the same pages but now in the reverse order and that too from $900$ to $402$ followed by $100$ to $1$. How many page faults will occur?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1235$</li>\n    <li>$1346$</li>\n    <li>$1493$</li>\n    <li>$1520$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270542",
+          "text": "<p>Consider a paging hardware with two levels of page table with a TLB. Assume that the entire page table and all the pages are in the physical memory. It takes $25$ milliseconds to search the TLB and $118$ milliseconds to access the physical memory. If the TLB hit ratio is $0.75$, the effective memory access time (in milliseconds) is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$105$</li>\n    <li>$132$</li>\n    <li>$202$</li>\n    <li>$238$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os3",
+          "category": "Operating System"
+        }
+      ]
+    }
+  ]
+}

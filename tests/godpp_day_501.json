@@ -1,0 +1,70 @@
+{
+  "name": "Day 348 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "544045",
+          "text": "<p data-start=\"4708\" data-end=\"4851\">A $3$2-bit system uses $\\mathbf{4}$<strong data-start=\"4729\" data-end=\"4743\">&nbsp;KB pages</strong> and a two-level page table with a $10$-bit Level-$1$ index, $10$-bit Level-$2$ index, and $12$-bit page offset.</p><p data-start=\"4853\" data-end=\"4920\">The current Level-$1$ page table begins at physical address $\\texttt{0x2000}$.</p><p data-start=\"4922\" data-end=\"4943\">Relevant entries are:</p><p>$$<br>\\begin{array}{|c|c|} \\hline<br>\\textbf{Page-table location} & \\textbf{Entry} \\\\ \\hline<br>\\text{L1[0]} & \\texttt{0x1007} \\\\<br>\\text{L1[3]} & \\texttt{0x3007} \\\\<br>\\text{table at }\\texttt{0x1000},\\ \\text{entry }0 & \\texttt{0x7007} \\\\<br>\\text{table at }\\texttt{0x1000},\\ \\text{entry }1 & \\texttt{0x8007} \\\\<br>\\text{table at }\\texttt{0x3000},\\ \\text{entry }128 & \\texttt{0xA007} \\\\<br>\\hline<br>\\end{array}<br>$$</p><p data-start=\"5159\" data-end=\"5296\">All unspecified entries are zero and therefore not present. The low permission bits are removed when obtaining the physical page address.</p><p data-start=\"5298\" data-end=\"5329\">Which translations are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5331\" data-end=\"5377\">$\\texttt{0x00000FFF}&nbsp;\\rightarrow \\texttt{0x00007FFF}$<br>&nbsp;</li><li data-start=\"5379\" data-end=\"5425\">$\\texttt{0x00001000}&nbsp;\\rightarrow \\texttt{0x00008000}$<br>&nbsp;</li><li data-start=\"5427\" data-end=\"5473\">$\\texttt{0x00C08003}&nbsp;\\rightarrow \\texttt{0x0000A003}$<br>&nbsp;</li><li data-start=\"5475\" data-end=\"5521\">$\\texttt{0x00C80003}&nbsp;\\rightarrow \\texttt{0x0000A003}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 348"
+        },
+        {
+          "post_id": "544070",
+          "text": "<p data-start=\"6572\" data-end=\"6586\">A system uses:</p><ul data-start=\"6588\" data-end=\"6652\"><li data-start=\"6588\" data-end=\"6600\" data-section-id=\"ba4al1\">$4$ KB pages<br>&nbsp;</li><li data-start=\"6601\" data-end=\"6634\" data-section-id=\"1e243y7\">A $4$-entry fully associative TLB<br>&nbsp;</li><li data-start=\"6635\" data-end=\"6652\" data-section-id=\"mkkkf1\">LRU replacement<br>&nbsp;</li></ul><p data-start=\"6654\" data-end=\"6666\">$$ \\textbf{Initial TLB:} $$$$<br>\\begin{array}{|c|c|c|c|}<br>\\hline<br>\\text{Valid} & \\text{VPN} & \\text{Physical Page} & \\text{LRU} \\\\<br>\\hline<br>1 & 11 & 12 & 2 \\\\<br>1 & 7 & 4 & 3 \\\\<br>1 & 3 & 6 & 4 \\\\<br>0 & 4 & 9 & 1 \\\\<br>\\hline<br>\\end{array}<br>$$</p><p data-start=\"6654\" data-end=\"6666\">$$ \\textbf{Relevant initial page-table entries:} $$ $$<br>\\begin{array}{|c|c|c|}<br>\\hline<br>\\text{VPN} & \\text{Valid} & \\text{Location} \\\\<br>\\hline<br>0 & 1 & \\text{Physical page }5 \\\\<br>1 & 0 & \\text{Disk} \\\\<br>2 & 0 & \\text{Disk} \\\\<br>3 & 1 & \\text{Physical page }6 \\\\<br>7 & 1 & \\text{Physical page }4 \\\\<br>11 & 1 & \\text{Physical page }12 \\\\<br>\\hline<br>\\end{array}<br>$$</p><p data-start=\"7034\" data-end=\"7125\">When a page fault occurs, new physical pages are allocated beginning with physical page $13$.</p><p data-start=\"7127\" data-end=\"7181\">The following virtual addresses are accessed in order:</p><p data-start=\"7183\" data-end=\"7257\">$\\texttt{0x0FFF}$<br data-start=\"7191\" data-end=\"7194\">$\\texttt{0x7A28}$<br data-start=\"7202\" data-end=\"7205\">$\\texttt{0x3DAD}$<br data-start=\"7213\" data-end=\"7216\">$\\texttt{0x3A98}$<br data-start=\"7224\" data-end=\"7227\">$\\texttt{0x1C19}$<br data-start=\"7235\" data-end=\"7238\">$\\texttt{0x1000}$<br data-start=\"7246\" data-end=\"7249\">$\\texttt{0x22D0}$</p><p data-start=\"7259\" data-end=\"7288\">Which statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"7290\" data-end=\"7361\">The access to $\\texttt{0x0FFF}$ produces a TLB miss but not a page fault.<br>&nbsp;</li><li data-start=\"7363\" data-end=\"7446\">The accesses to $\\texttt{0x7A28}, \\texttt{0x3DAD}, \\texttt{0x3A98},$ and $\\texttt{0x1000}$ are all TLB hits.<br>&nbsp;</li><li data-start=\"7448\" data-end=\"7543\">Accessing $\\texttt{0x1C19}$ causes a page fault, after which VPN $1$ is mapped to physical page $13$.<br>&nbsp;</li><li data-start=\"7545\" data-end=\"7627\">After all seven accesses have completed, VPN $0$ is still present in the TLB.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 348"
+        },
+        {
+          "post_id": "544043",
+          "text": "<p data-start=\"3492\" data-end=\"3589\">A machine uses a <strong data-start=\"3509\" data-end=\"3533\">two-level page table</strong>. The page-directory base address is held in a register.</p><p data-start=\"3591\" data-end=\"3598\">Assume:</p><ul data-start=\"3600\" data-end=\"4000\"><li data-start=\"3600\" data-end=\"3643\" data-section-id=\"wldsgl\">One physical-memory access takes $100$ ns<br>&nbsp;</li><li data-start=\"3644\" data-end=\"3708\" data-section-id=\"xn04k6\">Page directories and page tables are always resident in memory<br>&nbsp;</li><li data-start=\"3709\" data-end=\"3763\" data-section-id=\"18o38ap\">$0.001%$ of user-memory accesses cause a page fault<br>&nbsp;</li><li data-start=\"3764\" data-end=\"3802\" data-section-id=\"jh3ccf\">Servicing a page fault takes $10$ ms<br>&nbsp;</li><li data-start=\"3803\" data-end=\"3832\" data-section-id=\"dnqgpm\">Initially there is no cache<br>&nbsp;</li><li data-start=\"3833\" data-end=\"3903\" data-section-id=\"gfhikj\">A TLB is added such that $75\\%$ of translations are found in the TLB<br>&nbsp;</li><li data-start=\"3904\" data-end=\"3936\" data-section-id=\"3ggvmz\">TLB lookup time may be ignored<br>&nbsp;</li><li data-start=\"3937\" data-end=\"4000\" data-section-id=\"1kph9xv\">A translation found in the TLB corresponds to a resident page<br>&nbsp;</li></ul><p data-start=\"4002\" data-end=\"4059\">What is the effective memory access time, in nanoseconds?</p>",
+          "type": "Numerical",
+          "answer": "250",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 348"
+        },
+        {
+          "post_id": "544041",
+          "text": "<p data-start=\"2131\" data-end=\"2145\">A machine has:</p><ul data-start=\"2147\" data-end=\"2336\"><li data-section-id=\"so52nt\" data-start=\"2147\" data-end=\"2173\">$64$-bit virtual addresses<br>&nbsp;</li><li data-section-id=\"1g8nfh5\" data-start=\"2174\" data-end=\"2186\">$8$ KB pages<br>&nbsp;</li><li data-section-id=\"6yzgst\" data-start=\"2187\" data-end=\"2209\">$4$ GB physical memory<br>&nbsp;</li><li data-section-id=\"1aq8t4m\" data-start=\"2210\" data-end=\"2227\">$512$ TLB entries<br>&nbsp;</li><li data-section-id=\"1u38p5w\" data-start=\"2228\" data-end=\"2286\">An inverted page table with one entry per physical frame<br>&nbsp;</li><li data-section-id=\"14pwy50\" data-start=\"2287\" data-end=\"2336\">Each inverted page-table entry occupies $8$ bytes<br>&nbsp;</li></ul><p data-start=\"2338\" data-end=\"2367\">Which statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2369\" data-end=\"2417\">The virtual page number requires $51$ bits.<br>&nbsp;</li><li data-start=\"2419\" data-end=\"2508\">If all $512$ TLB entries contain distinct valid translations, the TLB reach is $4$ MB.<br>&nbsp;</li><li data-start=\"2510\" data-end=\"2585\">The TLB can simultaneously cover $\\frac{1}{512}$ of physical memory.<br>&nbsp;</li><li data-start=\"2587\" data-end=\"2632\">The inverted page table occupies $4$ MB.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 348"
+        },
+        {
+          "post_id": "544038",
+          "text": "<p data-start=\"766\" data-end=\"794\">A virtual-memory system has:</p><ul data-start=\"796\" data-end=\"1117\"><li data-section-id=\"5oc60n\" data-start=\"796\" data-end=\"822\">$48$-bit virtual addresses<br>&nbsp;</li><li data-section-id=\"1krryg0\" data-start=\"823\" data-end=\"836\">$32$ KB pages<br>&nbsp;</li><li data-section-id=\"1h12m6j\" data-start=\"837\" data-end=\"860\">$32$ TB physical memory<br>&nbsp;</li><li data-section-id=\"uta0n5\" data-start=\"861\" data-end=\"884\">Two-level page tables<br>&nbsp;</li><li data-section-id=\"3unho4\" data-start=\"885\" data-end=\"924\">Both levels stored in physical memory<br>&nbsp;</li><li data-section-id=\"da1671\" data-start=\"925\" data-end=\"998\">Every second-level page table must fit completely inside one page frame<br>&nbsp;</li><li data-section-id=\"1jsrf5l\" data-start=\"999\" data-end=\"1117\">Page-table entries are stored using the minimum whole number of bytes sufficient to contain the physical page number<br>&nbsp;</li></ul><p data-start=\"1119\" data-end=\"1174\">Which of the following correctly gives the bit division</p><p data-start=\"1176\" data-end=\"1243\">$$(\\text{Level-1 index},\\text{ Level-2 index},\\text{ page offset})?$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1245\" data-end=\"1330\">$(20,13,15)$<br>&nbsp;</li><li data-start=\"1245\" data-end=\"1330\">$(18,15,15)$<br>&nbsp;</li><li data-start=\"1245\" data-end=\"1330\">$(21,12,15)$<br>&nbsp;</li><li data-start=\"1245\" data-end=\"1330\">$(13,20,15)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 348"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "go27_quiz_64",
+  "name": "GO Classes GATE CS | Theory of Computation | Decidability | Weekly Quiz 6",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "530581",
+          "text": "<p>Which of the following is/are <strong>decidable</strong>?<br><br>$L_1 = \\{\\langle M \\rangle \\mid M$ is a $ \\text{DFA}$ that doesnt accept any string containing an odd number of $\\text{1s}\\} $<br><br>$L_2 = \\{\\langle G \\rangle \\mid G$ is a $ \\text{CFG}$ over $\\{1\\}$ and $1^* \\subseteq L(G)\\}$</p><ol style=\"list-style-type:upper-alpha\"><li>Only $L_1$<br> </li><li>Only $L_2$<br> </li><li>Both $L_1$ and $L_2$<br> </li><li>Neither $L_1$ nor $L_2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq64,goclasses,theory-of-computation,decidability,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "530585",
+          "text": "<p>Let $L_1$ and $L_2$ be the following languages:<br><br>$L_1 = \\{\\langle M \\rangle \\mid M$ is a $\\text{Turing Machine}$, $N$ is a $\\text{Turing Machine}$ that halts on all inputs, and $N \\in L(M)\\}$<br><br>$L_2 = \\{\\langle M \\rangle \\mid M$ is a $\\text{Turing Machine}$, $N$ is a $\\text{Turing Machine}$ that halts on all inputs, and $M \\in L(N)\\}$<br><br>Which of the following options is <strong>correct</strong>?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $L_1$ is decidable<br> </li><li>Only $L_2$ is decidable<br> </li><li>Both $L_1$ and $L_2$ are decidable<br> </li><li>Neither $L_1$ nor $L_2$ is decidable</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq64,goclasses,theory-of-computation,decidability,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "530583",
+          "text": "<p>Which of the following statements is/are <strong>true</strong>?</p><ol style=\"list-style-type:upper-alpha\"><li>The language $L = \\{\\langle&nbsp;\\text{M}\\rangle \\ \\mid \\ \\text{M}$ is a Turing machine and $L(M)$ is regular$\\}$ is undecidable.<br> </li><li>If $L_1, L_2$ are two decidable languages, and $L$ is a language such that $L_1 \\subseteq L \\subseteq L_2$, then $L$ is decidable.<br> </li><li>If a language $L$ is recursively enumerable and its complement $L'$ is recursively enumerable, then $L$ is decidable.<br> </li><li>There are undecidable languages over the alphabet containing only one symbol.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq64,goclasses,theory-of-computation,decidability,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "530590",
+          "text": "<p>Consider the language $L$ defined as follows.<br>$$L = \\left\\{<br>\\begin{array}{ll}<br>\\{0\\} &amp; \\text{if God does not exist} \\\\\\\\<br>\\{1\\} &amp; \\text{if God exists}<br>\\end{array}<br>\\right.$$<br>Which of the following option is <strong>correct</strong> ?</p><p>(Note that the answer does not depend on your religious convictions.)</p><ol style=\"list-style-type:upper-alpha\"><li>$L$ is recursive<br> </li><li>$L$ is recursively enumerable but not recursive<br> </li><li>$L$ is not recursively enumerable<br> </li><li>Whether $L$ is recursively enumerable or not will be known after we find out if God exists or not.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq64,goclasses,theory-of-computation,decidability,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "530580",
+          "text": "<p>Suppose there are four languages $A$, $B$, $C$, and $D$. Each of the languages may or may not be recursively enumerable. However, we know the following about them:</p><ul><li>There is a mapping reduction (i.e., an algorithm which can be carried out by some Turing machine, not necessarily polynomial-time) from $\\text{A}$ to $\\text{B}.$&nbsp;</li><li>There is a mapping reduction from $\\mathrm{B}$ to $\\mathrm{C}$.</li><li>There is a mapping reduction from $\\mathrm{D}$ to $\\mathrm{C}$</li></ul><p><br>Which of the following options is/are<strong> TRUE</strong>?</p><ol style=\"list-style-type:upper-alpha\"><li>If $C$ is recursively enumerable, then $A$ is recursively enumerable.<br> </li><li>If the complement of $B$ is not recursive, then the complement of $A$ is not recursive.<br> </li><li>If $C$ is recursive, then the complement of $D$ is recursively enumerable.<br> </li><li>If $C$ is recursively enumerable, then $B \\cap D$ is recursively enumerable.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq64,goclasses,theory-of-computation,decidability,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "530586",
+          "text": "<p>Which of the following is/are <strong>FALSE</strong>?</p><ol style=\"list-style-type:upper-alpha\"><li>A non-deterministic TM can decide languages that a deterministic TM cannot decide.<br> </li><li>If a language $L$ is context-free then $L'$ is TM decidable.<br> </li><li>The Language $L = \\{\\langle M,w \\rangle \\mid M$ is a $ \\text{Turing Machine}$ and $ w \\notin L(M)\\}$ is TM recognizable.<br> </li><li>The language $L = \\{\\langle D \\rangle \\mid D$ is $\\text{DFA}$ and $ L(D) $ is $\\text{regular}\\}$ is decidable.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq64,goclasses,theory-of-computation,decidability,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "530592",
+          "text": "<p>Consider the language $L$:<br><br>$L =$ {$ \\langle \\text{M} \\rangle \\mid \\text{M}$ is a $\\text{Turing Machine}$, and there exists an input whose length is less than $100$, on which $\\text{M}$ halts$\\}$</p><p><br>Which of the following options is true?</p><ol style=\"list-style-type:upper-alpha\"><li>$L$ is recursive.<br> </li><li>$L$ is recursively enumerable but not recursive.<br> </li><li>$L$ is not recursively enumerable.<br> </li><li>$L$ is regular.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq64,goclasses,theory-of-computation,decidability,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "530587",
+          "text": "<p>Which of the following problems is<strong> undecidable</strong>?</p><ol style=\"list-style-type:upper-alpha\"><li>Membership Problem for TMs<br> </li><li>Emptiness Problem for FSAs<br> </li><li>Equivalence Problem for FSAs<br> </li><li>Finiteness Problem for CFGs</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq64,goclasses,theory-of-computation,decidability,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "530589",
+          "text": "<p>Which of the following options is/are <strong>TRUE</strong>?</p><ol style=\"list-style-type:upper-alpha\"><li>Every turing machine recognizable language is recursive.<br> </li><li>The complement of a recursive language is recursively enumerable.<br> </li><li>The complement of a context-free language is context-free.<br> </li><li>The set of turing machines which do not halt on empty input forms a recursively enumerable set</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq64,goclasses,theory-of-computation,decidability,multiple-selects,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "530588",
+          "text": "<p>If $L$ is a decidable language, then which of the following is/are <strong>TRUE</strong> ?</p><ol style=\"list-style-type:upper-alpha\"><li>$L$ is recognizable<br> </li><li>$L'$ is recognizable<br> </li><li>$L'$ is decidable<br> </li><li>There is a Turing machine that halts on all inputs, accepting every string in $L$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq64,goclasses,theory-of-computation,decidability,multiple-selects,one-mark",
+          "category": "Theory of Computation"
+        }
+      ]
+    }
+  ]
+}

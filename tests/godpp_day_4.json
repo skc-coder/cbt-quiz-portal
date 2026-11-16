@@ -1,0 +1,30 @@
+{
+  "name": "Day 4 [Others]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "471188",
+          "text": "<p>Which of the following relations between the set $\\mathbb{N}$ (natural numbers) and the set $\\{\\mathbb{N}, \\mathbb{R}\\}$ are true?</p><p>Select all that apply.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathbb{N} \\in\\{\\mathbb{N}, \\mathbb{R}\\}$</li><li>$\\mathbb{N} \\subseteq\\{\\mathbb{N}, \\mathbb{R}\\}$</li><li>$\\mathbb{N} \\notin\\{\\mathbb{N}, \\mathbb{R}\\}$</li><li>$\\mathbb{N} \\nsubseteq\\{\\mathbb{N}, \\mathbb{R}\\}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A,D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Others",
+          "day": "Day 4"
+        }
+      ]
+    }
+  ]
+}

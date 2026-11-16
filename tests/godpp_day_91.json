@@ -1,0 +1,70 @@
+{
+  "name": "Day 88 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "487572",
+          "text": "<p>In a computer system with a $32$-bit physical address, the address is broken down for cache mapping as follows: Tag = $18$ bits, Index (Set) = $8$ bits, Offset = $6$ bits. If the total cache size is $512$ KB, what is the associativity of the cache?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$8$-WAY<br>&nbsp;</li><li>$16$-WAY<br>&nbsp;</li><li>$32$-WAY<br>&nbsp;</li><li>$64$-WAY</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 88"
+        },
+        {
+          "post_id": "487575",
+          "text": "<p>A machine has $16$-bit instructions. An address field takes $5$ bits. The machine uses an expanding opcode scheme. If there are $12$ two-address instructions and $150$ one-address instructions, what is the maximum possible number of zero-address instructions?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1514$<br>&nbsp;</li><li>$1664$<br>&nbsp;</li><li>$48448$<br>&nbsp;</li><li>$49152$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 88"
+        },
+        {
+          "post_id": "487576",
+          "text": "<p>Processor A runs at $3$ GHz with a CPI of $1.5$. Processor B runs at $4$ GHz with a CPI of $1.2$. A program P , when compiled for Processor A , has $1 \\times 10^9$ instructions. An optimizing compiler for Processor $B$ reduces the instruction count for the same program to $0.75 \\times 10^9$ instructions. What is the speedup of Processor B over Processor A for this program?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1.85$<br>&nbsp;</li><li>$2.00$<br>&nbsp;</li><li>$2.22$<br>&nbsp;</li><li>$2.50$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 88"
+        },
+        {
+          "post_id": "487573",
+          "text": "<p>Which of the following characteristics is a primary advantage of a hardwired control unit when compared to a microprogrammed control unit?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>EASE OF MODIFICATION<br>&nbsp;</li><li>HIGHER OPERATING SPEED<br>&nbsp;</li><li>LOWER IMPLEMENTATION COST<br>&nbsp;</li><li>ABILITY TO HANDLE COMPLEX INSTRUCTIONS</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 88"
+        },
+        {
+          "post_id": "487577",
+          "text": "<p>A computer system has a two-level cache (L1 and L2). The processor issues a memory request which is first sent to the L1 cache. The system has the following characteristics:</p><ul><li>L 1 cache hit time is $2$ ns.<br>&nbsp;</li><li>L1 cache hit rate is $95 \\%$.<br>&nbsp;</li><li>$\\quad \\mathrm{L} 2$ cache hit time is $20$ ns .<br>&nbsp;</li><li>For misses in $\\mathrm{L} 1,90 \\%$ are found in the L 2 cache (this is the local hit rate for L 2 ).<br>&nbsp;</li><li>Main memory access time is $120$ ns .</li></ul><p>What is the Average Memory Access Time (AMAT) for this system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3.2$ ns<br>&nbsp;</li><li>$3.6$ ns<br>&nbsp;</li><li>$8.4$ ns<br>&nbsp;</li><li>$15.0$ ns</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 88"
+        }
+      ]
+    }
+  ]
+}

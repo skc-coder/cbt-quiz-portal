@@ -1,0 +1,70 @@
+{
+  "name": "Day 328 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "540752",
+          "text": "<p data-start=\"8177\" data-end=\"8221\">A system has two processes, $P_1$ and $P_2$.</p><ul data-start=\"8223\" data-end=\"8420\"><li data-section-id=\"cxbeih\" data-start=\"8223\" data-end=\"8252\">$P_1$ is currently running.<br>&nbsp;</li><li data-section-id=\"uzckbu\" data-start=\"8253\" data-end=\"8270\">$P_2$ is ready.<br>&nbsp;</li><li data-section-id=\"w30hj0\" data-start=\"8271\" data-end=\"8333\">The operating system uses preemptive Round Robin scheduling.<br>&nbsp;</li><li data-section-id=\"1l9elkk\" data-start=\"8334\" data-end=\"8382\">$P_1$'s scheduling quantum is about to expire.<br>&nbsp;</li><li data-section-id=\"mt3a9q\" data-start=\"8383\" data-end=\"8420\">$P_2$ will be selected to run next.<br>&nbsp;</li></ul><p data-start=\"8422\" data-end=\"8452\">Consider the following events:</p><ol data-start=\"8454\" data-end=\"8907\"><li data-section-id=\"15roayz\" data-start=\"8454\" data-end=\"8509\">$P_1$'s user-level state is saved into a trap frame.<br>&nbsp;</li><li data-section-id=\"6hb0gb\" data-start=\"8510\" data-end=\"8565\">$P_2$'s user-level state is saved into a trap frame.<br>&nbsp;</li><li data-section-id=\"ria8ng\" data-start=\"8566\" data-end=\"8594\">A timer interrupt occurs.<br>&nbsp;</li><li data-section-id=\"1x3q0il\" data-start=\"8595\" data-end=\"8634\">The operating system scheduler runs.<br>&nbsp;</li><li data-section-id=\"3oxj49\" data-start=\"8635\" data-end=\"8710\">A context switch occurs from the thread of $P_1$ to the thread of $P_2$.<br>&nbsp;</li><li data-section-id=\"1esa70y\" data-start=\"8711\" data-end=\"8751\">$P_1$'s user-level state is restored.<br>&nbsp;</li><li data-section-id=\"149dvf4\" data-start=\"8752\" data-end=\"8792\">$P_2$'s user-level state is restored.<br>&nbsp;</li><li data-section-id=\"19shgxb\" data-start=\"8793\" data-end=\"8834\">A system-call instruction is executed.<br>&nbsp;</li><li data-section-id=\"1ufu4o5\" data-start=\"8835\" data-end=\"8869\">The thread of $P_2$ is created.<br>&nbsp;</li><li data-section-id=\"gc6qd9\" data-start=\"8870\" data-end=\"8907\">The thread of $P_1$ is destroyed.<br>&nbsp;</li></ol><p data-start=\"8909\" data-end=\"8955\">Which sequence correctly describes the events?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"8957\" data-end=\"8972\">$3,1,4,5,7$<br>&nbsp;</li><li data-start=\"8974\" data-end=\"8989\">$3,4,1,7,5$<br>&nbsp;</li><li data-start=\"8991\" data-end=\"9006\">$1,3,5,4,7$<br>&nbsp;</li><li data-start=\"9008\" data-end=\"9023\">$3,1,5,4,6$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 328"
+        },
+        {
+          "post_id": "540750",
+          "text": "<p data-start=\"6301\" data-end=\"6334\">Consider the following processes:</p><p>$$\\begin{array}{c|c|c} \\text{Process} & \\text{Arrival Time} & \\text{Processing Time} \\\\ \\hline P_1 & 0 & 2 \\\\ P_2 & 1 & 6 \\\\ P_3 & 4 & 1 \\\\ P_4 & 7 & 4 \\\\ P_5 & 8 & 3 \\end{array}$$</p><p data-start=\"6520\" data-end=\"6527\">Assume:</p><ul data-start=\"6529\" data-end=\"6602\"><li data-section-id=\"1s5o0q3\" data-start=\"6529\" data-end=\"6571\">Shortest Remaining Time First scheduling<br>&nbsp;</li><li data-section-id=\"1gqahak\" data-start=\"6572\" data-end=\"6602\">Zero context-switch overhead<br>&nbsp;</li></ul><p data-start=\"6604\" data-end=\"6642\">What is the <strong data-start=\"6616\" data-end=\"6641\">average response time</strong>?</p>",
+          "type": "Numerical",
+          "answer": "1.4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 328"
+        },
+        {
+          "post_id": "540739",
+          "text": "<p data-start=\"747\" data-end=\"856\">Which of the following statements are true about a scheduler that implements a Round Robin scheduling policy?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"858\" data-end=\"871\">This scheduler will minimize the number of context switches when scheduling processes that never sleep or wait for I/O.<br>&nbsp;</li><li data-start=\"998\" data-end=\"1077\">This scheduler has higher throughput than a First-Come First-Served policy.<br>&nbsp;</li><li data-start=\"1079\" data-end=\"1191\">This scheduler will approximately evenly divide CPU time between processes that never sleep or wait for I/O.<br>&nbsp;</li><li data-start=\"1193\" data-end=\"1345\">It is possible to implement a Round Robin scheduler such that selecting the next process to run and marking a process as runnable takes $O(1)$ time.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 328"
+        },
+        {
+          "post_id": "540742",
+          "text": "<p data-start=\"2684\" data-end=\"2716\">Consider the following workload:</p><p>$$\\begin{array}{c|c|c} \\text{Job} & \\text{Arrival Time} & \\text{CPU Burst Time} \\\\ \\hline A & 0 & 8 \\\\ B & 2 & 4 \\\\ C & 5 & 7 \\end{array}$$</p><p data-start=\"2861\" data-end=\"2923\">Assume Round Robin scheduling with a time slice of $1$ second.</p><p data-start=\"2925\" data-end=\"2964\">What is the turnaround time of job $B$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2966\" data-end=\"2981\">$8$ seconds<br>&nbsp;</li><li data-start=\"2983\" data-end=\"2998\">$9$ seconds<br>&nbsp;</li><li data-start=\"3000\" data-end=\"3016\">$10$ seconds<br>&nbsp;</li><li data-start=\"3018\" data-end=\"3034\">$11$ seconds</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 328"
+        },
+        {
+          "post_id": "540745",
+          "text": "<p data-start=\"4201\" data-end=\"4247\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4249\" data-end=\"4262\">A Round Robin scheduler may preempt the currently running job.<br>&nbsp;</li><li data-start=\"4332\" data-end=\"4410\">A Shortest-Time-to-Completion-First scheduler cannot cause jobs to starve.<br>&nbsp;</li><li data-start=\"4412\" data-end=\"4525\">If all jobs arrive at the same point in time, SJF and Shortest-Time-to-Completion-First will behave the same.<br>&nbsp;</li><li data-start=\"4527\" data-end=\"4632\">If all jobs have identical run lengths, Round Robin provides worse average turnaround time than FIFO.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 328"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes 2024 | Weekly Quiz 10 | First Order Logic",
+  "duration": "50",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "402629",
+          "text": "<p>Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$[\\forall \\mathrm{x} \\in \\mathrm{D},(\\mathrm{P}(\\mathrm{x}) \\rightarrow \\mathrm{Q}(\\mathrm{x}))] \\rightarrow[(\\forall \\mathrm{x} \\in \\mathrm{D}, \\mathrm{P}(\\mathrm{x})) \\rightarrow(\\forall \\mathrm{x} \\in \\mathrm{D}, \\mathrm{Q}(\\mathrm{x}))]$</li>\n    <li>$[\\exists \\mathrm{x} \\in \\mathrm{D},(\\mathrm{P}(\\mathrm{x}) \\rightarrow \\mathrm{Q}(\\mathrm{x}))] \\rightarrow[(\\exists \\mathrm{x} \\in \\mathrm{D}, \\mathrm{P}(\\mathrm{x})) \\rightarrow(\\exists \\mathrm{x} \\in \\mathrm{D}, \\mathrm{Q}(\\mathrm{x}))]$</li>\n    <li>$[\\forall \\mathrm{x} \\in \\mathrm{D},(\\mathrm{P}(\\mathrm{x}) \\rightarrow \\mathrm{Q}(\\mathrm{x}))] \\leftarrow[(\\forall \\mathrm{x} \\in \\mathrm{D}, \\mathrm{P}(\\mathrm{x})) \\rightarrow(\\forall \\mathrm{x} \\in \\mathrm{D}, \\mathrm{Q}(\\mathrm{x}))]$</li>\n    <li>$[\\exists \\mathrm{x} \\in \\mathrm{D},(\\mathrm{P}(\\mathrm{x}) \\rightarrow \\mathrm{Q}(\\mathrm{x}))] \\leftarrow[(\\exists \\mathrm{x} \\in \\mathrm{D}, \\mathrm{P}(\\mathrm{x})) \\rightarrow(\\exists \\mathrm{x} \\in \\mathrm{D}, \\mathrm{Q}(\\mathrm{x}))]$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402635",
+          "text": "<p>Let $p(x), q(x)$, and $r(x)$ be the following open statements.<br>\n$$<br>\n\\begin{array}{ll}<br>\np(x): &amp; x^2-7 x+10=0 \\\\<br>\nq(x): &amp; x^2-2 x-3=0 \\\\<br>\nr(x): &amp; x&lt;0\\\\<br>\n\\end{array}<br>\n$$ For the universe of all positive integers, which of the following statements is/are false?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\forall x[p(x) \\rightarrow \\neg r(x)]$</li>\n    <li>$\\forall x[q(x) \\rightarrow r(x)]$</li>\n    <li>$\\exists x[q(x) \\rightarrow r(x)]$</li>\n    <li>$\\exists x[p(x) \\rightarrow r(x)]$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402649",
+          "text": "<p>Let $p(x, y), q(x, y)$ denote the following open statements.<br>\n$$. p(x, y): \\quad x^2 \\geq y \\quad q(x, y): \\quad x+2 &lt; y$$<br>\nIf the universe for each of $x, y$ consists of all real numbers, Which of the following statements is/are false?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$p(-3,8) \\wedge q(1,3)$</li>\n    <li>$p\\left(\\frac{1}{2}, \\frac{1}{3}\\right) \\vee \\neg q(-2,-3)$</li>\n    <li>$p(2,2) \\rightarrow q(1,1)$</li>\n    <li>$p(1,2) \\leftrightarrow \\neg q(1,2)$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402641",
+          "text": "<p>Which of the following formulas is a formalization of the sentence:</p>\n\n<p>\"Not all cars have carburetors.\"</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\neg \\forall \\mathrm{x}[\\operatorname{car}(\\mathrm{x}) \\rightarrow$ carburetors $(\\mathrm{x})]$</li>\n    <li>$\\forall \\mathrm{x}[\\operatorname{car}(\\mathrm{x}) \\rightarrow$ carburetors $(\\mathrm{x})]$</li>\n    <li>$\\exists \\mathrm{x}[\\operatorname{car}(\\mathrm{x}) \\wedge \\neg$ carburetors $(\\mathrm{x})]$</li>\n    <li>$\\neg \\exists \\mathrm{x}[\\operatorname{car}(\\mathrm{x}) \\wedge \\neg$ carburetors $(\\mathrm{x})]$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402647",
+          "text": "<p>Let $\\text{Z}$ be the set of integers.<br>\nStart with the statement, \" $\\forall n \\in \\mathrm{Z},$ if $n^2$ is even then $n$ is even.\" Which of the following statements say the same thing?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Every integer has an even square and is even.</li>\n    <li>If a given integer is even then that integer has even square.</li>\n    <li>For all integers, some will have an even square.</li>\n    <li>Every integer that has an even square will be even.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402639",
+          "text": "<p>Consider the quantified statement<br>\n$$<br>\n\\forall x \\exists y[x+y=17]<br>\n$$<br>\nFor which of the following universes, this statement is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>the integers</li>\n    <li>the positive integers</li>\n    <li>the integers for $x,$ the positive integers for $y$</li>\n    <li>the positive integers for $x,$ the integers for $y$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402633",
+          "text": "<p>Let $p(x), q(x)$, and $r(x)$ be the following open statements.<br>\n$$<br>\n\\begin{array}{ll}<br>\np(x): &amp; x^2-7 x+10=0 \\\\<br>\nq(x): &amp; x^2-2 x-3=0 \\\\<br>\nr(x): &amp; x&lt;0<br>\n\\end{array}<br>\n$$<br>\nIf the universe contains only the integers $2$ and $5,$ which of the following statements is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\forall x[p(x) \\rightarrow \\neg r(x)]$</li>\n    <li>$\\forall x[q(x) \\rightarrow r(x)]$</li>\n    <li>$\\exists x[q(x) \\rightarrow r(x)]$</li>\n    <li>$\\exists x[p(x) \\rightarrow r(x)]$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402637",
+          "text": "<p>For which of the following pairs of statements, the proposed negation is the correct negation of the original statement?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Statement: For all real numbers $x, y,$ if $x^2&gt;y^2,$ then $x&gt;y$.<br>\n    Proposed negation: There exist real numbers $x, y$ such that $x^2&gt;y^2$ but $x \\leq y$.</li>\n    <li>Statement: There exist real numbers $x, y$ such that $x$ and $y$ are rational but $x+y$ is irrational.<br>\n    Proposed negation: For all real numbers $x, y,$ if $x+y$ is rational, then each of $x, y$ is rational.</li>\n    <li>Statement: For all real numbers $x,$ if $x$ is not $0,$ then $x$ has a multiplicative inverse.<br>\n    Proposed negation: There exists a nonzero real number that does not have a multiplicative inverse.</li>\n    <li>Statement: There exist odd integers whose product is odd.<br>\n    Proposed negation: The product of any two odd integers is odd.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402645",
+          "text": "<p>Predicates:</p>\n\n<ul>\n    <li>$\\mathrm{C}(\\mathrm{x}): \\mathrm{x}$ is a CSE $260$ student</li>\n    <li>$\\mathrm{L}(\\mathrm{x}): \\mathrm{x}$ loves music</li>\n</ul>\n\n<p>The universe of discourse for the variable $\\mathrm{x}$ is all students.</p>\n\n<p>Which Translation of the following statements into logical expressions using predicates, quantifiers, and logical connectives is correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Every student loves music $\\forall \\mathrm{xL}(\\mathrm{x})$</li>\n    <li>No student loves music $\\forall \\mathrm{x} \\neg \\mathrm{L}(\\mathrm{x})$</li>\n    <li>Some students love music $\\exists \\mathrm{xL}(\\mathrm{x})$</li>\n    <li>Every CSE $260$ student loves music. $\\forall \\mathrm{x}(\\mathrm{C}(\\mathrm{x}) \\rightarrow \\mathrm{L}(\\mathrm{x}))$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402636",
+          "text": "<p>Let $p(x), q(x)$, and $r(x)$ be the following open statements.<br>\n$$<br>\n\\begin{array}{ll}<br>\np(x): &amp; x^2-7 x+10=0 \\\\<br>\nq(x): &amp; x^2-2 x-3=0 \\\\<br>\nr(x): &amp; x&lt;0<br>\n\\end{array}<br>\n$$<br>\nFor the universe of all integers, which of the following statements is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\forall x[p(x) \\rightarrow&nbsp;\\neg&nbsp;r(x)]$</li>\n    <li>$\\forall x[q(x) \\rightarrow r(x)]$</li>\n    <li>$\\exists x[q(x) \\rightarrow r(x)]$</li>\n    <li>$\\exists x[p(x) \\rightarrow r(x)]$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402627",
+          "text": "<p>Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$[\\forall \\mathrm{x} \\in \\mathrm{D},(\\mathrm{P}(\\mathrm{x}) \\Leftrightarrow \\mathrm{Q}(\\mathrm{x}))] \\rightarrow[(\\forall \\mathrm{x} \\in \\mathrm{D}, \\mathrm{P}(\\mathrm{x})) \\Leftrightarrow(\\forall \\mathrm{x} \\in \\mathrm{D}, \\mathrm{Q}(\\mathrm{x}))]$</li>\n    <li>$[\\exists \\mathrm{x} \\in \\mathrm{D},(\\mathrm{P}(\\mathrm{x}) \\Leftrightarrow \\mathrm{Q}(\\mathrm{x}))] \\rightarrow[(\\exists \\mathrm{x} \\in \\mathrm{D}, \\mathrm{P}(\\mathrm{x})) \\Leftrightarrow(\\exists \\mathrm{x} \\in \\mathrm{D}, \\mathrm{Q}(\\mathrm{x}))]$</li>\n    <li>$[\\forall \\mathrm{x} \\in \\mathrm{D},(\\mathrm{P}(\\mathrm{x}) \\Leftrightarrow \\mathrm{Q}(\\mathrm{x}))] \\leftarrow[(\\forall \\mathrm{x} \\in \\mathrm{D}, \\mathrm{P}(\\mathrm{x})) \\Leftrightarrow(\\forall \\mathrm{x} \\in \\mathrm{D}, \\mathrm{Q}(\\mathrm{x}))]$</li>\n    <li>$[\\exists \\mathrm{x} \\in \\mathrm{D},(\\mathrm{P}(\\mathrm{x}) \\Leftrightarrow \\mathrm{Q}(\\mathrm{x}))] \\leftarrow[(\\exists \\mathrm{x} \\in \\mathrm{D}, \\mathrm{P}(\\mathrm{x})) \\Leftrightarrow(\\exists \\mathrm{x} \\in \\mathrm{D}, \\mathrm{Q}(\\mathrm{x}))]$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402631",
+          "text": "<p>What is the truth of the wff $(\\exists x)\\left(\\mathrm{A}(x) \\wedge(\\forall y)[\\mathrm{B}(x, y) \\rightarrow \\mathrm{C}(y)]\\right),$ where $\\mathrm{A}(x)$ is \" $x&gt;0$ \" $,\\mathrm{B}(x, y)$ is \" $x&gt;y$ \"$,\\mathrm{C}(y)$ is \" $y \\leq 0$ \", and $x$ is the domain of positive integers and $y$ is the domain of all integers?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>True</li>\n    <li>False</li>\n    <li>Not a proposition, because there is a free variable in the given wff.</li>\n    <li>Not a proposition, because every variable is a bounded variable in the given wff.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402640",
+          "text": "<p>For the following statements, the universe comprises all nonzero integers. Determine the truth value of each statement. Which of the following statements is/are false?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\forall&nbsp;x \\exists y[x y=1]$</li>\n    <li>$\\exists x \\exists y[(3 x-y=7) \\wedge(2 x+4 y=3)]$</li>\n    <li>$\\forall&nbsp;y&nbsp;\\exists x[x y=1]$</li>\n    <li>$\\exists x \\exists y[(2 x+y=5) \\wedge(x-3 y=-8)]$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402643",
+          "text": "<p>Which of the following formulas is a formalization of the sentence:</p>\n\n<p>\"Some people are either religious or pious (but not both)\"</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\exists \\mathrm{x}(\\mathrm{R}(\\mathrm{x}) \\oplus \\mathrm{P}(\\mathrm{x}))$</li>\n    <li>$\\exists \\mathrm{x} \\neg(\\mathrm{R}(\\mathrm{x}) \\leftrightarrow \\mathrm{P}(\\mathrm{x}))$</li>\n    <li>$\\neg \\forall \\mathrm{x}[\\mathrm{R}(\\mathrm{x}) \\leftrightarrow \\mathrm{P}(\\mathrm{x})]$</li>\n    <li>$\\exists \\mathrm{x}((\\mathrm{R}(\\mathrm{x}) \\wedge \\neg \\text{P}(\\mathrm{x})) \\vee(\\neg \\text{R}(\\mathrm{x}) \\wedge \\mathrm{P}(\\mathrm{x})))$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "402625",
+          "text": "<p>Let $\\mathrm{Q}(x,y)$ be the statement</p>\n\n<p>\"$x$ has been a contestant on television show $y.$”</p>\n\n<p>The domain of discourse for $x$ is the set of all students at your school and for $y$ is the set of all quiz shows on television.<br>\nWhich of the following are logically equivalent to:</p>\n\n<p>\"No student at your school has ever been a contestant on a television quiz show.\"</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\forall x \\forall y \\cdot \\operatorname{NOT}(Q(x, y))$</li>\n    <li>$\\exists x \\exists y \\cdot \\operatorname{NOT}(Q(x, y))$</li>\n    <li>$\\operatorname{NOT}(\\forall x \\forall y \\cdot Q(x, y))$</li>\n    <li>$\\operatorname{NOT}(\\exists x \\exists y \\cdot Q(x, y))$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq7,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        }
+      ]
+    }
+  ]
+}

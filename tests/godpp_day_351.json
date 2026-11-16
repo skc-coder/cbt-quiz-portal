@@ -1,0 +1,70 @@
+{
+  "name": "Day 261 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530601",
+          "text": "<p data-start=\"63\" data-end=\"220\">A delivery worker is assigned one of three types of delivery routes by drawing a card from a box containing $6$ cards numbered $1$ through $6$.</p><p data-start=\"222\" data-end=\"396\">If the card is $1$ or $2$, the worker gets a downtown route. A downtown route normally takes $10$ minutes, but with probability $\\frac{1}{4}$ traffic adds $12$ extra minutes.</p><p data-start=\"398\" data-end=\"587\">If the card is $3$, $4$, or $5$, the worker gets a neighborhood route. A neighborhood route normally takes $18$ minutes, but with probability $\\frac{1}{3}$ an easier path saves $2$ minutes.</p><p data-start=\"589\" data-end=\"760\">If the card is $6$, the worker gets an express route. An express route normally takes $9$ minutes, but with probability $\\frac{1}{6}$ a road issue adds $18$ extra minutes.</p><p data-start=\"762\" data-end=\"818\">What is the expected time needed to finish the delivery?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"820\" data-end=\"901\">$14$ minutes<br>&nbsp;</li><li data-start=\"820\" data-end=\"901\">$15$ minutes<br>&nbsp;</li><li data-start=\"820\" data-end=\"901\">$\\frac{46}{3}$ minutes<br>&nbsp;</li><li data-start=\"820\" data-end=\"901\">$16$ minutes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 261"
+        },
+        {
+          "post_id": "530608",
+          "text": "<p data-start=\"66\" data-end=\"480\">A website assigns each new visitor one of $6$ equally likely security icons, independently of all previous visitors. The administrator watches the sequence of assigned icons and stops as soon as an icon is assigned that has already been assigned to an earlier visitor. Let $T$ be the number of visitors observed until this first repeated icon occurs. Which of the following is the correct PMF of $T$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"482\" data-end=\"570\">$P(T=k)=\\frac{6\\cdot5\\cdot4\\cdots(8-k)}{6^{k-1}}\\cdot\\frac{k-1}{6}$ for $2\\le k\\le 7$<br>&nbsp;</li><li data-start=\"572\" data-end=\"658\">$P(T=k)=\\frac{6\\cdot5\\cdot4\\cdots(8-k)}{6^{k-1}}\\cdot\\frac{1}{6}$ for $2\\le k\\le 7$<br>&nbsp;</li><li data-start=\"660\" data-end=\"715\">$P(T=k)=\\left(\\frac{5}{6}\\right)^{k-2}\\frac{1}{6}$ for $k\\ge 2$<br>&nbsp;</li><li data-start=\"717\" data-end=\"766\">$P(T=k)=\\left(\\frac{1}{6}\\right)^{k-1}$ for $2\\le k\\le 7$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 261"
+        },
+        {
+          "post_id": "530599",
+          "text": "<p data-start=\"0\" data-end=\"418\">Suppose that a person plays $12$ independent games. In each game, he wins with probability $\\frac{1}{3}$ and loses otherwise. If he wins a game, he earns $9$ dollars, and if he loses a game, he loses $3$ dollars. In addition, after all $12$ games, he receives a bonus of $2$ dollars for every pair of games that he won. Let $X$ denote the number of games he wins. What is his expected total gain or loss?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"420\" data-end=\"477\">$\\frac{44}{3}$<br>&nbsp;</li><li data-start=\"420\" data-end=\"477\">$20$<br>&nbsp;</li><li data-start=\"420\" data-end=\"477\">$\\frac{80}{3}$<br>&nbsp;</li><li data-start=\"420\" data-end=\"477\">$32$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 261"
+        },
+        {
+          "post_id": "530605",
+          "text": "<p data-start=\"0\" data-end=\"278\">A random variable $X$ has probability mass function given by :<br>$$p_X(x)=\\begin{cases} c, & \\text{if } x=-1 \\\\\\\\ 2c, & \\text{if } x=1 \\\\\\\\ \\frac{1}{6}, & \\text{if } x=4 \\\\\\\\ 3c, & \\text{if } x=6 \\\\\\\\ \\frac{1}{3}, & \\text{if } x=8 \\\\\\\\ 0, & \\text{otherwise} \\end{cases}$$</p><p data-start=\"0\" data-end=\"278\">Find the cumulative distribution function $F_X(x)$ of $X$. Then compute $E[X]+F_X(5)-4F_X(0)$</p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 261"
+        },
+        {
+          "post_id": "530597",
+          "text": "<p data-start=\"0\" data-end=\"221\">Suppose you keep tossing a fair coin until you get the first head. Let $Y$ be the number of tosses until the first head appears. Find the probability that $Y$ is odd, given that $Y$ is not a multiple of $3$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"223\" data-end=\"300\">$\\frac{1}{2}$<br>&nbsp;</li><li data-start=\"223\" data-end=\"300\">$\\frac{4}{7}$<br>&nbsp;</li><li data-start=\"223\" data-end=\"300\">$\\frac{17}{27}$<br>&nbsp;</li><li data-start=\"223\" data-end=\"300\">$\\frac{5}{9}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 261"
+        }
+      ]
+    }
+  ]
+}

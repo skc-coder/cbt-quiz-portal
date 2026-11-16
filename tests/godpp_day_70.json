@@ -1,0 +1,70 @@
+{
+  "name": "Day 67 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "482831",
+          "text": "<p>Consider the Merge Sort algorithm applied to an array of size $n$.<br><br>Suppose every time we divide the array, instead of splitting it exactly in half, the left subarray always has $\\left\\lceil\\frac{9 n}{10}\\right\\rceil$ elements and the right subarray has the rest.</p><p>Which of the following statements is/are correct regarding this algorithm?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The recurrence relation for this algorithm is: $\\mathrm{T}(\\mathrm{n})=\\mathrm{T}\\left(\\frac{9 n}{10}\\right)+\\mathrm{T}\\left(\\frac{n}{10}\\right)+\\mathrm{O}(\\mathrm{n})$<br>&nbsp;</li><li>The worst-case time complexity of this algorithm is $O(n \\log n)$ where $O$ represents big-oh<br>&nbsp;</li><li>The worst-case time complexity of this algorithm is $\\theta($ nlogn $)$ where $\\theta$ represents big-theta<br>&nbsp;</li><li>The worst-case time complexity of this algorithm is $\\theta\\left(n^2\\right)$ where $\\theta$ represents big-theta</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 67"
+        },
+        {
+          "post_id": "482829",
+          "text": "If one uses a straight two-way merge sort algorithm to sort the following elements in ascending order:<br>\n<br>\n$$<br>\n2,1,4,3,5,6,8,7,9,10,12,11,14,13,16,15<br>\n$$<br>\n<br>\nThe minimum number of passes after which the whole array will be sorted in ascending order is ________",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 67"
+        },
+        {
+          "post_id": "482826",
+          "text": "Suppose you apply straight mergesort on the given sequence: $7$ $11$ $14$ $6$ $9$ $4$ $3$ $12$.<br>\n<br>\nThe element at the $2^{\\text {nd }}$ position after the second phase will be _________",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 67"
+        },
+        {
+          "post_id": "482824",
+          "text": "<pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">LazySort(A):\n&nbsp; &nbsp; n = length(A)\n\n&nbsp; &nbsp; if n = 0 or n = 1:\n&nbsp; &nbsp; &nbsp; &nbsp; return A\n\n&nbsp; &nbsp; pivot = A[1] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # always pick the first element\n&nbsp; &nbsp; left &nbsp;= LazySort(elements &lt; pivot) &nbsp; // apply recursion on elements smaller than pivot\n&nbsp; &nbsp; right = LazySort(elements &gt; pivot) &nbsp; // apply recursion on elements greater than pivot\n\n&nbsp; &nbsp; B = left + [pivot] + right &nbsp; # concatenate\n&nbsp; &nbsp; return MergeSort(B) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# finally call MergeSort\n</pre><p>What is the tightest upper bound of this algorithm?<br><br>(Here $\\Theta$ represents big-theta.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\Theta\\left(n \\log ^2 n\\right)$<br>&nbsp;</li><li>$\\Theta\\left(n^2 \\log n\\right)$<br>&nbsp;</li><li>$\\Theta\\left(n^3\\right) \\mathrm{}$<br>&nbsp;</li><li>$\\Theta\\left(n^2 \\log n\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 67"
+        },
+        {
+          "post_id": "482823",
+          "text": "Assume that a mergesort algorithm in the worst case takes $15$ seconds for an input size of $128$. The maximum input size of a problem that can be solved in $4$ minutes using mergesort is _______",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 67"
+        }
+      ]
+    }
+  ]
+}

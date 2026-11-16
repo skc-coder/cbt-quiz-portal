@@ -1,0 +1,70 @@
+{
+  "name": "Day 301 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "535887",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int *p;      printf(&quot;%d&quot;, *p);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int *p;\n\n    printf(\"%d\", *p);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{0}$<br>&nbsp;</li><li>$\\texttt{Garbage value}$<br>&nbsp;</li><li>$\\texttt{Compilation error}$<br>&nbsp;</li><li>$\\texttt{Undefined behavior}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 301"
+        },
+        {
+          "post_id": "535881",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  void change(int *p, int q) {     *p = *p + q;     q = q + 5;     *p = *p + q; }  int main() {     int a = 2, b = 3;      change(&a, b);      printf(&quot;%d %d&quot;, a, b);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nvoid change(int *p, int q) {\n    *p = *p + q;\n    q = q + 5;\n    *p = *p + q;\n}\n\nint main() {\n    int a = 2, b = 3;\n\n    change(&a, b);\n\n    printf(\"%d %d\", a, b);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{5 3}$<br>&nbsp;</li><li>$\\texttt{10 8}$<br>&nbsp;</li><li>$\\texttt{13 3}$<br>&nbsp;</li><li>$\\texttt{13 8}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 301"
+        },
+        {
+          "post_id": "535871",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a = 10;     int *p = &a;      *p = *p + 5;     a = a + 2;      printf(&quot;%d&quot;, *p);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a = 10;\n    int *p = &a;\n\n    *p = *p + 5;\n    a = a + 2;\n\n    printf(\"%d\", *p);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{10}$<br>&nbsp;</li><li>$\\texttt{15}$<br>&nbsp;</li><li>$\\texttt{17}$<br>&nbsp;</li><li>$\\texttt{Garbage value}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 301"
+        },
+        {
+          "post_id": "535875",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a = 5, b = 8;     int *p = &a;     int *q = &b;      q = p;     *q = *q + b;      printf(&quot;%d %d&quot;, a, b);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a = 5, b = 8;\n    int *p = &a;\n    int *q = &b;\n\n    q = p;\n    *q = *q + b;\n\n    printf(\"%d %d\", a, b);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{5 13}$<br>&nbsp;</li><li>$\\texttt{13 8}$<br>&nbsp;</li><li>$\\texttt{13 13}$<br>&nbsp;</li><li>$\\texttt{5 8}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 301"
+        },
+        {
+          "post_id": "535865",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a = 25;     int *p = &a;      printf(&quot;%d %d&quot;, a, *p);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a = 25;\n    int *p = &a;\n\n    printf(\"%d %d\", a, *p);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{25 25}$<br>&nbsp;</li><li>$\\texttt{25 address}$<br>&nbsp;</li><li>$\\texttt{address 25}$<br>&nbsp;</li><li>$\\texttt{Compilation error}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 301"
+        }
+      ]
+    }
+  ]
+}

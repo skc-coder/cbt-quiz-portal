@@ -1,0 +1,70 @@
+{
+  "name": "Day 165 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "506215",
+          "text": "<p>Consider the following grammar $G$ with the set of non-terminals $\\{S, A, B\\}$ and terminals $\\{a, b, c, d\\}$ :</p><p>$$<br>S \\rightarrow A B c A \\rightarrow a|\\epsilon B \\rightarrow b| \\epsilon<br>$$</p><p><br>Which of the following is the correct $\\operatorname{FIRST}(\\mathrm{S})$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\{a, b, c, \\epsilon\\}$<br>&nbsp;</li><li>$\\{a, b, c\\}$<br>&nbsp;</li><li>$\\{a, \\epsilon\\}$<br>&nbsp;</li><li>$\\{a, b, \\epsilon\\}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 165"
+        },
+        {
+          "post_id": "506204",
+          "text": "<p>Which one of the following is<strong> FALSE</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Reaching Definitions analysis is a forward data flow analysis problem.<br>&nbsp;</li><li>Live Variable analysis is used to determine which variables hold values that may be needed in the future, aiding in Register Allocation.<br>&nbsp;</li><li>Loop Invariant Code Motion involves moving computations that produce the same result in every iteration to the loop pre-header.<br>&nbsp;</li><li>$x=y * 8 \\Rightarrow x=y \\ll 3$ is an example of Constant Folding.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 165"
+        },
+        {
+          "post_id": "506206",
+          "text": "<p>Which one of the following is <strong>FALSE</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A flow graph is a directed graph where nodes represent basic blocks and edges represent the flow of control.<br>&nbsp;</li><li>Copy Propagation is an optimization that replaces the use of a variable with its assigned value if that value is another variable.<br>&nbsp;</li><li>Constant Folding can only be performed on local variables within a single basic block and never across a whole function.<br>&nbsp;</li><li>Dead Code Elimination uses Live Variable analysis to remove instructions that compute values never subsequently used.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 165"
+        },
+        {
+          "post_id": "506212",
+          "text": "<p>Consider the following grammar $G$ with start symbol $E$ :</p><ul><li>$E \\rightarrow T R$<br>&nbsp;</li><li>$R \\rightarrow+T R \\mid \\epsilon$<br>&nbsp;</li><li>$T \\rightarrow f$</li></ul><p>Which of the following statement(s) is/are <strong>FALSE</strong> regarding the $\\text{FIRST}$ and $\\text{FOLLOW}$ sets of this grammar?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\operatorname{FIRST}(R)=\\{+, \\epsilon\\}$<br>&nbsp;</li><li>$\\operatorname{FOLLOW}(R)=\\operatorname{FOLLOW}(E)$<br>&nbsp;</li><li>$\\epsilon \\in \\operatorname{FOLLOW}(T)$<br>&nbsp;</li><li>The end-of-input marker $(\\$)$ is an element of $\\operatorname{FOLLOW}(E)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 165"
+        },
+        {
+          "post_id": "506210",
+          "text": "<p>Which of the following statement(s) is/are <strong>FALSE</strong> while computing $\\textbf{FIRST}$ and $\\textbf{FOLLOW}$ sets for a Context-Free Grammar?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If $X \\rightarrow \\alpha$ is a production, then everything in $\\operatorname{FIRST}(\\alpha)$ is added to $\\operatorname{FIRST}(X)$.<br>&nbsp;</li><li>The epsilon symbol ( $\\epsilon$ ) can be a member of a $\\text{FOLLOW}$ set if a non-terminal can derive the empty string.<br>&nbsp;</li><li>If there is a production $A \\rightarrow \\alpha B \\beta$, then everything in $\\operatorname{FIRST}(\\beta)$ except $\\epsilon$ is added to $\\text{FOLLOW(B)}$.<br>&nbsp;</li><li>For the start symbol $S$, the end-of-input marker $(\\$)$ is always placed in $\\text{FOLLOW(S)}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 165"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 Compilers2: Parsing",
+  "duration": "72",
+  "total_qs": "20",
+  "total_qs_one": 0,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "287244",
+          "text": "<p>A non left recursive and unambiguous grammar in which all rules are&nbsp;non – empty and rules defining the same non terminal have disjoint first sets&nbsp;is&nbsp; _______<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{SLR(1)}$</li>\n    <li>$\\text{LR (0)}$</li>\n    <li>$\\text{LL&nbsp;(0)}$</li>\n    <li>$\\text{None of these}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,parsing",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287242",
+          "text": "<p>Consider the following grammar</p>\n\n<ul>\n    <li>$S\\rightarrow AB$</li>\n    <li>$A\\rightarrow &nbsp;aA \\mid \\epsilon$</li>\n    <li>$B\\rightarrow bA$</li>\n</ul>\n\n<p><br>\nHow many entries have multiple productions in LL(1) table?</p>",
+          "type": "Numerical",
+          "answer": "0 : 0",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cd2,numerical-answers",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287240",
+          "text": "<p>The FOLLOW Set of $S$ for the following CFG is:</p>\n\n<ul>\n    <li>$S\\rightarrow SPQR$</li>\n    <li>$P\\rightarrow pt \\mid \\epsilon$</li>\n    <li>$Q\\rightarrow q$</li>\n    <li>$R \\rightarrow Rr \\mid Qm \\mid\\epsilon $<br>\n    &nbsp;</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\{p, q,&nbsp;\\$ \\}$</li>\n    <li>$ \\{p, q, r, t, \\$ \\}$</li>\n    <li>$\\{ q, r, m, \\$ \\}$</li>\n    <li>$\\{ p, q, r, m ,t, \\$ \\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,first-follow",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287238",
+          "text": "<ul>\n    <li>$ E \\rightarrow A$</li>\n    <li>$ A \\rightarrow BC \\mid DBC$</li>\n    <li>$ B \\rightarrow Bb \\mid \\epsilon$</li>\n    <li>$ C \\rightarrow c \\mid \\epsilon$</li>\n    <li>$D \\rightarrow a\\mid d$</li>\n</ul>\n\n<p>What is the FIRST and FOLLOW sets of nonterminal $B$?<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$FIRST = \\{b,\\epsilon\\}$ , $FOLLOW = \\{b,c\\}$</li>\n    <li>$FIRST = \\{b\\}$,&nbsp;$FOLLOW = \\{b,c,\\$\\}$</li>\n    <li>$FIRST = \\{b\\}$, $FOLLOW = \\{b,\\$\\}$</li>\n    <li>$FIRST = \\{b,\\epsilon\\}$ , $FOLLOW = \\{b,c,\\$\\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,first-follow,parsing",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287236",
+          "text": "Consider the following grammar:<br />\n$ E \\rightarrow E*F \\mid F$<br />\n$ F \\rightarrow F+G \\mid G$<br />\n$ G \\rightarrow id \\mid \\epsilon$<br />\n<br />\n<br />\nIn the above grammar:<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  * is left associative, + is right associative<br /> </li><li>  + is left associative, + is right associative<br /> </li> <li> Both are left associative<br /> </li>  <li> Both are right associative  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287234",
+          "text": "Consider the following statements about parsers:<br />\n<br />\nS1: Top-down parser can not parse left recursive grammar.<br />\nS2: Keywords of a language are recognized during parsing of the program.<br />\n<br />\nChoose the suitable option about above statements.<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  S1 is false, S2 is true<br /> </li><li>  S1 is true, S2 is false<br /> </li> <li> Both statements are true<br /> </li>  <li> Both statements are false  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287232",
+          "text": "The BURS code generation algorithm basically uses the parsing techniques of<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  LL(1) grammar<br /> </li><li>  SLR(1) grammar<br /> </li> <li> LR(0) grammar<br /> </li>  <li> LALR(1) and LR(1) grammar  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287230",
+          "text": "Choose the FALSE statement.<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  No left recursive/ ambiguous grammar can be LL(1)<br /> </li><li>  The class of grammars that can be parsed using LR method is proper subset of the class of grammar that can be parsed by LL method<br /> </li> <li> LR parsing is non-backtracking method<br /> </li>  <li> LR parsing can describe more languages than LL parsing  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287228",
+          "text": "<p>Which of the following is TRUE?<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Handle of a string is a sub string that matches left hand side of production</li>\n    <li>RR conflicts does not&nbsp;occur in LALR(1) if there is no RR conflict in corresponding LR(1)</li>\n    <li>SR conflicts occur in LALR(1) if there is no SR conflict in corresponding LR(1)</li>\n    <li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,lr-parser",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287226",
+          "text": "<p>Consider $SLR(1)$ and $LALR(1)$ parsing tables. Which of the following is TRUE?<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>SHIFT&nbsp;entries are different</li>\n    <li>REDUCE&nbsp;entries are same</li>\n    <li>GOTO&nbsp;entries are different</li>\n    <li>ERROR&nbsp;entries are different</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,lr-parser",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287224",
+          "text": "Which of the following is operator grammar?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $ S \\rightarrow AA$ $ A \\rightarrow a \\mid \\epsilon$<br /> </li><li>  $ S \\rightarrow SAS$<br />\n&nbsp;$ A \\rightarrow a$<br /> </li> <li> $ S \\rightarrow AB$<br />\n&nbsp;$ A \\rightarrow aA\\mid + \\mid a$ $B \\rightarrow bB \\mid + \\mid b$<br /> </li>  <li> $ S \\rightarrow A+B$ $ A \\rightarrow aA \\mid a$ $B \\rightarrow bB\\mid b$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287222",
+          "text": "<p>Consider the grammar given below:<br>\n$S \\rightarrow aS \\mid Sa \\mid a$.</p>\n\n<p>The number of conflicting states in DFA with LR(1) items is<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0$</li>\n    <li>$3$</li>\n    <li>$4$</li>\n    <li>$2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,lr-parser",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287220",
+          "text": "<p>The grammar given below is:</p>\n\n<ul>\n    <li>$S \\rightarrow S+S \\mid S*S \\mid a$</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$LL(1)$</li>\n    <li>$LR(0)$</li>\n    <li>Both (A) &amp; (B)</li>\n    <li>Neither $LL(1)$ nor $LR(0)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,parsing",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287218",
+          "text": "Consider the grammar given below:<br />\n<br />\n$S \\rightarrow E \\#$<br />\n$E \\rightarrow T \\mid E;T$<br />\n$T \\rightarrow Ta \\mid \\epsilon$<br />\n<br />\nNumber of inadequate states in DFA with LR(0) items is",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cd2,numerical-answers",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287216",
+          "text": "<p>Consider the grammar given below:</p>\n\n<ul>\n    <li>${S'} \\rightarrow S$</li>\n    <li>$S \\rightarrow +SS \\mid a$</li>\n</ul>\n\n<p>Which among&nbsp;the below ones is in the&nbsp;LALR (1) sets of items for the given grammar?<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$S \\rightarrow a., \\$$</li>\n    <li>$S \\rightarrow a.,+\\mid a$</li>\n    <li>$S \\rightarrow +SS.,\\$\\mid +\\mid a$</li>\n    <li>$S \\rightarrow +SS.,\\$$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,lr-parser,lalr-parsing",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287214",
+          "text": "<p>Consider the following CFG, with $S$&nbsp;as start symbol:</p>\n\n<ul>\n    <li>$S \\rightarrow aA \\mid CB$</li>\n    <li>$A \\rightarrow BaA \\mid \\epsilon$</li>\n    <li>$B \\rightarrow bB \\mid Abc \\mid \\epsilon$</li>\n    <li>$C\\rightarrow B$<br>\n    &nbsp;</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$FIRST(S)= \\{a,b,\\epsilon\\}$, $FIRST(B)= \\{a,b,\\epsilon\\}$, $FOLLOW(C)=\\{b,a,\\$\\}$</li>\n    <li>$FIRST(S)= \\{a,\\epsilon\\}$, $FIRST(B)= \\{b,\\epsilon\\}$, $FOLLOW(C)=\\{a,b,\\epsilon\\}$</li>\n    <li>$FIRST(S)= \\{a,b,\\$\\}$, $FIRST(B)= \\{a,b,\\epsilon\\}$, $FOLLOW(C)=\\{b,a,\\$\\}$</li>\n    <li>$FIRST(S)= &nbsp;\\{a,b,\\epsilon\\}$, $FIRST(B)= &nbsp;\\{a,\\epsilon\\}$, $FOLLOW(C)=\\{ b,a,\\$\\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,first-follow,parsing",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287212",
+          "text": "<p>Let the number of states in SLR (1), LR (1) and LALR(1) parsers for a&nbsp;grammar be $n_1, n_2$ and $n_3$ respectively. The following relationship holds good<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$n_1&lt; n_2&lt; n_3$</li>\n    <li>$n_1 = n_3\\leq&nbsp;n_2$</li>\n    <li>$n_1 = n_2 = n_3$</li>\n    <li>$n_1 \\geq n_3 \\geq n_2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,lr-parser",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287210",
+          "text": "<p>Consider the grammar</p>\n\n<ul>\n    <li>$E \\rightarrow A \\mid B$</li>\n    <li>$A \\rightarrow a\\mid c$</li>\n    <li>$B \\rightarrow b \\mid c$</li>\n</ul>\n\n<p><br>\nThe above grammar is<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Not LR(0)</li>\n    <li>LR(0) &amp; LR(1)</li>\n    <li>LR(1) but not SLR (1)</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,parsing",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287208",
+          "text": "<p>Let $G$ be a grammar with the following productions:</p>\n\n<ul>\n    <li>$E \\rightarrow E+T \\mid T$</li>\n    <li>$T \\rightarrow T*F \\mid F$</li>\n    <li>$T \\rightarrow (E) \\mid T-F$</li>\n    <li>$F \\rightarrow id$</li>\n</ul>\n\n<p><br>\nIf $LR(1)$&nbsp;parser is used to construct the DFA using the above productions,&nbsp;how many look-aheads are present for the&nbsp;item $T \\to .T * F$ in the initial state?</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cd2,numerical-answers,lr-parser",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "287206",
+          "text": "<p>Consider the following grammar:</p>\n\n<ul>\n    <li>$E \\rightarrow T{E}’$</li>\n    <li>${E}’ \\rightarrow +T{E}’ \\mid \\epsilon$</li>\n    <li>$T \\rightarrow F{T}’$</li>\n    <li>${T}’ \\rightarrow *F{T}’\\mid \\epsilon$</li>\n    <li>$F&nbsp;\\rightarrow (E) \\mid id$</li>\n</ul>\n\n<p><br>\nWhich of the following is correct regarding the entry in the predictive parsing table (LL(1) parsing table) $M$ for above grammar?<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$M\\left[T, (\\right] = T \\to FT',\\quad M[T',+] = T' \\to \\epsilon$</li>\n    <li>$M[E', )] = E' \\to \\epsilon,\\quad M[E',*] \\to E' \\to \\epsilon$</li>\n    <li>$M[E, (] = E \\to TE',\\quad M[E,*] \\to E \\to \\epsilon$</li>\n    <li>$M[T, id] = T \\to FT',\\quad M[T,)] = T \\to FT'$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd2,predictive-parsing",
+          "category": "Compiler Design"
+        }
+      ]
+    }
+  ]
+}

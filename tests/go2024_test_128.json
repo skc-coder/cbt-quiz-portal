@@ -1,0 +1,352 @@
+{
+  "name": "TIFR CSE 2024",
+  "duration": "180",
+  "total_qs": "30",
+  "total_qs_one": 30,
+  "total_qs_two": 0,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "5",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "419131",
+          "text": "<p>Suppose Michelle gives Asna and Badri two different numbers from $\\mathbb{N}=\\{1,2,3, \\ldots\\}$. It is commonly known to both Asna and Badri that they each know only their own number and that it is different from the other one. The following conversation ensues.</p>\n\n<p>Michelle: I privately gave each of you a different natural number. Which of you has the larger of the two numbers?</p>\n\n<p>Asna: I don't know.<br>\nBadri: I don't know either.<br>\nAsna: Oh, then I know who has the larger number.<br>\nBadri: In that case, I know both numbers. What numbers were Asna and Badri respectively given?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Asna was given $2$, Badri was given $3$.</li>\n    <li>Asna was given $3$, Badri was given $2$.</li>\n    <li>Asna was given $3$, Badri was given $4$.</li>\n    <li>Asna was given $4$, Badri was given $3$.</li>\n    <li>None of the above.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,logical-reasoning,puzzle",
+          "category": "Others"
+        },
+        {
+          "contents": "",
+          "post_id": "419132",
+          "text": "<p>Let $\\text{A}$ and $\\text{B}$ be two $n \\times n$ invertible matrices with real entries such that every row in $\\text{A}$ sums to $1$ and every row in $\\text{B}$ sums to $2$. Consider the following three statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>Every row in the matrix $\\text{AB}$ sums to $2$.</li>\n    <li>Every row in the matrix $\\text{A}^{-1} B$ sums to $2$.</li>\n    <li>Every row in the matrix $\\text{A}^{-1} \\text{B}^{-1}$ sums to $\\frac{1}{2}$.</li>\n</ol>\n\n<p>Which of the above statements is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>None of the statements $\\text{(i), (ii), (iii)}$ is true.</li>\n    <li>All the three statements $\\text{(i), (ii)}$, and $\\text{(iii)}$ are true.</li>\n    <li>Statement $\\text{(i)}$ is true but not necessarily statements $\\text{(ii)}$ or $\\text{(iii)}$.</li>\n    <li>Statements $\\text{(i)}$ and $\\text{(ii)}$ are true but not necessarily statement $\\text{(iii)}$.</li>\n    <li>Statements $\\text{(i)}$ and $\\text{(iii)}$ are true but not necessarily statement $\\text{(ii)}$.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,matrix,linear-algebra",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "419133",
+          "text": "<p>Let $n \\geq 100$ be a positive integer. Let $X_{1}, X_{2}, \\ldots, X_{n}$ be independent random variables, each taking values in the set $\\{0,1\\}$ such that $\\operatorname{Pr}\\left[X_{i}=1\\right]=\\frac{2}{3}$ for each $1 \\leq i \\leq n$. Define $S:=\\sum_{i=1}^{n} X_{i}$, and let $p(x)$ be a polynomial such that for each non-negative integer $j$, the coefficient of $x^{j}$ in $p(x)$ is $\\operatorname{Pr}[S=j]$. What is $p^{\\prime}(1)$ ?</p>\n\n<p>Note: $p^{\\prime}(x)$ denotes the polynomial obtained by differentiating $p$ with respect to $x$.</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$0$</li>\n    <li>$n$</li>\n    <li>$\\frac{2 n}{3}$</li>\n    <li>$\\frac{4 n^{2}+2 n}{9}$</li>\n    <li>$\\frac{4 n^{2}-4 n}{9}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,probability,random-variable,polynomials",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "419134",
+          "text": "<p>A subset $\\text{S}$ of the rational numbers is said to be \"nice\" if for every infinite sequence of $x_1, x_2, \\ldots$ of elements from $\\text{S}$, there is always two indices $i&lt;j$ such that $x_i \\leq x_j$. Consider the following statements.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>The set of natural numbers $\\mathbb{N}$ is \"nice\".</li>\n    <li>The set of integers $\\mathbb{Z}$ is \"nice\".</li>\n    <li>The set of positive rational numbers is \"nice\".</li>\n</ol>\n\n<p>Which of the above statements is/are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only $\\text{(i)}$.</li>\n    <li>Only $\\text{(i)}$ and $\\text{(ii)}$.</li>\n    <li>Only $\\text{(i)}$ and $\\text{(iii)}$.</li>\n    <li>All three statements are true.</li>\n    <li>None of the three statements is true.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,set-theory,mathematical-logic,analytical-aptitude",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "419135",
+          "text": "<p>Consider the following sequence of polynomials&nbsp;with real coefficients.<br>\n\\[<br>\n\\begin{aligned}<br>\nP_{0}(x) &amp; =1 \\\\<br>\nP_{1}(x) &amp; =2 x \\\\<br>\nP_{n+1}(x) &amp; =2 x P_{n}(x)-P_{n-1}(x), \\text { for all natural numbers } n \\geq 1 .<br>\n\\end{aligned}<br>\n\\]<br>\n<br>\nWhat is the dimension of the linear span of the set<br>\n\\[<br>\n\\left\\{P_{0}(x), P_{1}(x), P_{2}(x), P_{3}(x), P_{4}(x)\\right\\}<br>\n\\]<br>\nin the vector space of polynomials in variable $x$ with real coefficients?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1$</li>\n    <li>$2$</li>\n    <li>$3$</li>\n    <li>$4$</li>\n    <li>$5$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "E",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,linear-algebra,recurrence-relation,polynomials",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "419136",
+          "text": "<p>Let $\\text{M}$ be a $3 \\times 3$ matrix over the real numbers such that $\\text{M}^{\\text{T}} \\text{M}=\\mathbf{I}$. Consider the following statements.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>There exists a non-zero vector $x \\in \\mathbb{R}^{3}$ such that $M x=\\mathbf{0}$.</li>\n    <li>There exist two non-zero vectors $x, y \\in \\mathbb{R}^{3}$ such that the angle between them and that between $\\text{M x}$ and $\\text{M y}$ are different.</li>\n    <li>There exists a non-zero vector $\\text{x}$ such that its length is different from that of $\\text{M x}$.</li>\n</ol>\n\n<p>Which of the above statements is/are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only $\\text{(i)}$</li>\n    <li>Only $\\text{(ii)}$.</li>\n    <li>Only $\\text{(iii)}$.</li>\n    <li>All three statements.</li>\n    <li>None of the three statements.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "E",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,matrix,linear-algebra",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "419137",
+          "text": "<p>Compute $\\int_{16}^{\\infty} \\frac{1}{x} \\cdot \\frac{1}{\\sqrt{\\sqrt{x}-1}} d x$.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0$</li>\n    <li>$\\frac{\\pi}{3}$</li>\n    <li>$\\frac{\\pi}{2}$</li>\n    <li>$\\frac{2 \\pi}{3}$</li>\n    <li>$2 \\pi$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,calculus",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "419138",
+          "text": "<p>A palindrome is a string that reads the same in reverse (e.g. ABBA or KAYAK or MALAYALAM).<br>How many strings of length 5 using the letters from $\\{A, B, C, D, E\\}$ have no palindromic substring of length at least 2?</p><ol style=\"list-style-type:upper-alpha\"><li>$243$</li><li>$405$</li><li>$540$</li><li>$675$</li><li>$1280$<p> </p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,combinatory,counting",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "419139",
+          "text": "<p>Let $S:=\\{(a, b) \\mid 0 \\leq a \\leq 1,0 \\leq b \\leq 1\\}$, a unit square, in $\\mathbb{R}^{2}$. Let $B:=$ $\\left\\{(x, y) \\mid x^{2}+y^{2} \\leq 1\\right\\}$, a unit disk, in $\\mathbb{R}^{2}$. Define the set $S+B$ as follows:<br>\n\\[<br>\nS+B:=\\{(u, v) \\mid \\exists(a, b) \\in S,(x, y) \\in B \\text { such that } u=a+x, v=b+y\\} .<br>\n\\]</p>\n\n<p>What is the area of $S+B$ ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\pi+4$</li>\n    <li>$\\pi+5$</li>\n    <li>$\\pi+3$</li>\n    <li>$\\pi+2$</li>\n    <li>None of the above.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,geometry,area",
+          "category": "Geometry"
+        },
+        {
+          "contents": "",
+          "post_id": "419140",
+          "text": "<p>For each month in the year (i.e., January, February, March,...), let us assume the probability that a person's birthday falls in that particular month is exactly $1 / 12$, and let us assume that this is independent for different persons.</p>\n\n<p>What is the smallest value of the natural number $n$ such that, among $n$ independently chosen persons the probability that there is a pair of them born in the same month is at least $1 / 2$?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$3$</li>\n    <li>$4$</li>\n    <li>$5$</li>\n    <li>$6$</li>\n    <li>$7$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,probability",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "419141",
+          "text": "<p>Let $p(x)$ be a polynomial with real coefficients which satisfies $p(r)=p(-r)$ for every real number $r$. Let $n \\geq 5$ be a positive integer. Suppose that $p(i)=i$ for all $1 \\leq i \\leq n$. What is the maximum possible value of the absolute value of the coefficient of ${x^{5}}$ in $p(x)$ ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0$</li>\n    <li>$5$</li>\n    <li>$10$</li>\n    <li>$n$</li>\n    <li>$n+1$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,polynomials",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "419142",
+          "text": "<p>Let $z_{1}, z_{2}, z_{3}, \\ldots, z_{2023}$ be a permutation of the numbers $1,2,3, \\ldots, 2023$. Which of the following is true about the product $\\prod_{i=1}^{2023}\\left(z_{i}-i\\right)$ ?</p>\n\n<p>Note: The parity of an integer $n$ just denotes whether $n$ is even or odd. Formally, the parity of $n$ is said to be odd if $n$ is odd, and even if $n$ is even.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>The above product is always even.</li>\n    <li>The above product is always odd.</li>\n    <li>The parity of the above product always changes if we swap the values of any two variables among $z_{1}, z_{2}, \\ldots, z_{2023}$.</li>\n    <li>There always exist two variables among $z_{1}, z_{2}, \\ldots, z_{2023}$ such that the parity of the above product changes if we swap their values, but there may also exist two variables among the $z_{1}, z_{2}, \\ldots, z_{2023}$ such that swapping their values does not change the parity of the above product.</li>\n    <li>None of the above statements is true.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,permutation-and-combination,number-theory,product,parity",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "419143",
+          "text": "<p>There is a $100 \\mathrm{~cm}$ long ruler that has 11 ants on positions $0 \\mathrm{~cm}, 10 \\mathrm{~cm}, 20 \\mathrm{~cm}, 30 \\mathrm{~cm}$, ..., $100 \\mathrm{~cm}$. The ant at the $0 \\mathrm{~cm}$ mark is facing towards the $100 \\mathrm{~cm}$ mark, and the ant at the $100 \\mathrm{~cm}$ is facing towards the $0 \\mathrm{~cm}$ mark; all other ants is either facing towards $0 \\mathrm{~cm}$ or towards the $100 \\mathrm{~cm}$ mark.</p>\n\n<p>All ants start moving in the direction they are facing at a speed of $1 \\mathrm{~cm}$ per second. Whenever an ant collides with another ant, the two instantly reverse their direction and continue moving in the other direction. All ants continue moving until they fall off the ruler when they move past one of the two ends (at $0 \\mathrm{~cm}$ or $100 \\mathrm{~cm}$ marks).</p>\n\n<p>How long will it take for all ants to fall off the ruler?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>At most $50$ seconds, but cannot be determined without knowing the directions of all ants.</li>\n    <li>$50$ seconds.</li>\n    <li>At least $50$ seconds and at most $100$ seconds, but cannot be determined without knowing the directions of all ants.</li>\n    <li>$100$ seconds.</li>\n    <li>More than $100$ seconds, but cannot be determined without knowing the directions of all ants.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,analytical-aptitude,combinatory",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "419144",
+          "text": "<p>Let $\\sigma$ be a uniform random permutation of $\\{1, \\ldots, 100\\}$. What is the probability that $\\sigma(1)&lt;\\sigma(2)&lt;\\sigma(3)$ (i.e., what is the probability that the first three elements are in increasing order)?</p>\n\n<p>In the options below, $n !=1 \\times 2 \\times \\ldots \\times n$.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\frac{3}{100 !}$</li>\n    <li>$\\frac{3 !}{100 !}$</li>\n    <li>$\\frac{6}{100}$</li>\n    <li>$\\frac{1}{6}$</li>\n    <li>$\\frac{1}{3}$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,probability,permutation-and-combination",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "419145",
+          "text": "<p>If $\\text{O}$ is the center of the circle, what is the area of the shaded portion in square cm?</p>\n\n<p><img alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVsAAAEvCAAAAADOFz3mAAAABGdBTUEAALGPC/xhBQAAJ+JJREFUeNrs11dUUwkex3H37Ng446g7I2MbD7ojdsSCjiiDAnZqLAgCBiRUASmKCIpIEVRQEEVERZogRRBQkSpjkCoEIZQAgQChBkghufcm997/Zs8+7NnZ2SkPexZYvm+//+Pn7T8DpvtvNQOmm7adfE3bTttOxqZtp20nY9O2/4+2pDziH5HyYPI1YW1xRMQfGR7g9vb2D/JGBWLp5NOdQLakTNDPbqwqfZuREB0aeOXSBXfX885O5845ubi6eXhe9rsZGfsip+gjg9UzghAwCZoItiQuGuK01JYVvowNv+5ha2qwT3XZYsVFS5Z8u/CLLxctX/bt/D9/9fWiZatVd++nWDr73IpOfvNTVWNH3xg6sYkngi0uqE0NtNy9fO6c2bNnzZy78LuVS+ZsPnjS2sZ8/8LNJ847W/yosFPfUF9HbeW8uQozZ82aPWfO1+uNLsa870VhIvc/tSXRnsrMSC/qUc1t65S+UdJ1vOpro7TxYlZBqt+OVdrP6HXFfhoad+h1+Te1v99553VpXoD6UsvgcF8z5Tnz16tsVt9/0ikksbhFgMMfbWrbykaYRUnhPrYU7Q3LNx00szGh6B59VM58b6vr2jAuarxsYnbxpzG0wfMwrVwoaQ8wNXHPH8Gb/Q+Ypjcy83xOHFHeYUDRUtu047C5e8iTnOoeMfyRpq4tLub1Ml8Hntwwd95S5R0qm80SWwWN9Dvbb9WiUOr+44MmjGgti9nuV4GQlVe23a5DoaM8ea9nqYRgBKtel185FTm69smlL64eWTN/7iLFtQdd48u7BoUY/N6mrC3BK4ugqi1XXKmyQO9hY+fHm8qhrQQm6Ug66MUkJI0PdwezAEN6MyjnGCjCSjjgzSSkyFCu+ZlqEdqVbuTEwGQIP99Wv6ib1551VM3nkqnaoiXrD1951UHA72xK2soGKpL8rY+qbdG0Cniacs3UrUksqvOzDmVLAeFEOlxsEImbb9peb5MA1v/UybGCj3RFOng2ikA2+NyVWszD+h87naviAzGc6WGSMygbTLLXvZ+ZFnFeb6uqlumFqPw2jITfburZSnqrX0U46+3apqG5Sz+FjUnbgqi3GsYlzV60+x0SINjhpwOrRRgrkHq7UQzQ/fjktQ8Cgn33dGCNCICbYuSdP0ZyYv5+BRjMNbqYPUJwkyk+BTwRI9HjwLKF67WtApLfswQE/EZTzJbAxpuTzJW/VPjLoaDC4vN7X/biAO13V99rwaHZb3scWz45T5WDGnBoD1sT2SoD6EvffvkTTnIerw5ukJEwnK/lVC4l+9K2en+SksAvM6SWjpPDeXudyzESxunG6/avU5y34EBw5Sgig19tatnKerLc9q9brWvnoORSxud/DNK81wKANEXpB7QTktqwg8ENACg71tizFUOYDwyu1OKAcZ+fcWCK0Y6nxm4VCEh5GXbmtQKsN4lq80EIuPD1ecPSUelwht3pQh4QwgKXtYFPbplvXa1mFlUrI+FXmkK22GDpIzfdNZsMgtILn6/zYADwy+ypET1S4Fdo0KpwENZ5UG90oTD+Wc+4TAJili/VhyUGtMn8cAkfUE6IpWudXJPlpP52GKS9kZa29DEA9tWNKVwg+mKtLN6NAHSHrohmtBbcP7tVScMq5FWLGP5TU8YW53d8iLPbs27LtiO+Pai4/phDKl8GArqdZXwPhnRanY0bloKk0t00ph3BBlzNorsxwOuuUu41SmRDvifCWShAY8iR2zVikhemH1IvAWiN1A4oE8Hok0PXK8UA7FhNn2IhwU/b5106DrIqXw3Fr5SPheQxBxD4xaaMraDUc8dchV3eHwodNfKGQUI316cLgCQYl1VT++QSjpr5wwBE041Vj7uAZFzakt4nn233V4a1AckM+usTjnxyElSuNQHZFrniTrt89mXtca0nSU7cRr9mAJJXeNi6BiX7MtXdP5NA8EsNV2p8o6B0KrEDfrGpYUu2PLHao7JM0TG9ZYxXdFXvOZcYy/XUzxkEEJb5Ux5xSH7hFd1kLsD4p5BTYR2EkH6dEsMBEDPvWvizMFFN8Km7bAIQdtRZzyaJmBlmHsCSAsZ9Zu/IECLtUWcvNUlAyktxodJHUW6snVO9EPDRTJv19vYGG3dQrn0cgX9vKtgKm9O9jqgetHM0dczhAYy8t3ZJGJAN5Vq4ZQyRwK9ycXrExUZKzrokDshAxLzsEN6F8CudnWL6MJA/unY3muTvr5djRBcC0s47Nlc/yd9ff7vgFjEQ3dHWnnQ+1hlm41srBOAmWl4oGMW7H1p7lvEBBl5aOARFeJ3YtZ0WVcaTwc+a9LYEMkgP+WH5Us0EzsDbAx4lEowQ1VhaZPVLR+nHHPKEGI7WuxxP7UJFNdQzr4ZRHGf6HIljIQjD6URaLyoDVvDeqEYJzrx8NJ6NysjOB2qhn8TQemNfdDMiI3sStvqXj5Ps+zvDGIiU7M/S9CoV4d1xWwIqJVKCV6Tn8m60zO8HxQ3Wr9sFP9Od9LbCeu/dy1ab7FOL5eCjb6mmFe0CAqVf2v20kxAXOeqWsEZJtNpfNaJFfvXUzG7hAVYfuvnGZxKt8tuayBwkpS3R6t7VgDFuq0Q19ONSduL+83RC2vxw1816LibjZhhaF0uk7Hgdn9puBB/OPW3yli/rTTdwqekaxwX5NnpZHF6Nm8pCpTMZQ/AvTW5bXFQSZLj++1021+21tXxeFKe5G1BO+2eWZF3T0brw/P1Lb32KqU9GUXaIjpZzfEmWv76RycW0gtzwQ9o2sQXZN/WNTrkkv3sTbaR95nFeboShobH9s7y8eBNt46jXbx6dMjxp9ehNQYqVtuHd7Lw4quEJ83u5RakO2oeCX+an2BocNwvNLslw09HyS3tzx2LTzBX7XFI6Mfhnk9kWH6yMs94w40+L1a1ox7d/sUaXRjPeOXvWWoo1zVhdYdUhGs1EQ2HWKgMrmqnm/O90ztJOay+YtVyPSjPXWbT4b9Tcd1QUWb7A8TNv97nrzjvzZp/hjQwDhgEBRYIoGZugCBgwgGBEBBUBdUwooyCIo4IICoqigmJas6AoQUSSiiAGQtMEybGhu6FzVdf9Lc6scmZntm2mm+by/af/gNPn9OfUqbp1696y7vtwGDtirMNqbw97lVGWK73XzFcd8bXdSu91juO/MnX39lw4ccSXVu7e3vM1Rxq5eHst0vrLCJNl3t7OU/6st8jbe4nuX0YYuvR9Gnyhs6DvQ/9PX3wxxulIRm3/TMPwtUVkV4rn3//0XyP+OhKb/vqV9fE6PgW/NHxt2c98Z4yf9rXq/C27cGn7xnkGmk4X6uGXhqktIt7Euc9wCDi3cKr9ncJiTHqZlxy5Stcx6DGLgr6Gp62480WI9YTF55qohLlaD5iAT905G2dM97hXy4e+hqVt+z3aWJ1guhhBY+gor3zAJ0Ryk+b/TTOUDn0NP1skztxlOtXrKoOHAIT3nXRjugCjqObMUFMj9wsNkuFny6UneVhYBmQw4edqYr9fnQFYxa047mI8+3BONzW8bBH7ZaTeJKf4Dgp+iaiaO2MnTwI4hcQZvuqTvdNbRcPJFokvL/lu8oHCHkk/djyN9pQNWIX4NTcdxhuElaPhYyuuCLc3W55Y2gv9ETV+Bl7lFAyouw8FCAYzUVtqwCyjLY9EaHjYIl7hIX0TvwfcX0OiS07q1zpgAIka1gWyKRjciNfhtJlrU9uI4WBL8d/5j1eJqIB/rzZi5PpsBDKHWhMMPAfdFoB9z1HVNLlNMgxsOx4668z5R40A/j1hlo3+kV7Zcfn5jmOUYUt2P9463jiiCn/byrNLpq281CGG39ZwWs81TQyyVnVhlaoybAFYOXuM7Pa+4GBtiwTV0U4TVz7gwu8lalxqsrWDlPWsnR9zZIpybEH0/kczgx+eMBHGtpLqzRqaW6sJ+P3IeGv9PLaMX1Weez9mmpJsgeKeo/3Z+bYEX1tuqqfGvMjy/zhuQjU7Nb1egSxRvLu59FMfbcX1V6/cTHlA5wLkBHm5xHak3rkUEZXf25Jx49qBuAKkANzGO6v050a1EXjakj231urPP02X9i835k0+3wEyxC5KZ7TG/cuWKjp15B8ZaVHx+QDFB2eNWZTxKCPl9JLg9OTU9AeHPIJbxCB/zDQfi1lRZWIcbSlmntNkp7ROkFZV1GjvJwg+G8k4Wyv6aItYh+ZcaoaOQLfDAFDtN9E4upWkuh1n+R6pAXG1i1UGBxRRyR4tzahaCcLPtifVbPy6Z70SkBZRRDMIkuEmqL3gYhv6aEvcXbmohYA62vR9AFAXrDk3lYuA6z3ZtowHiPDSO9YKikhEPzVBP7ibxM2W4lx1VfVL60GfQ4s3m5/Ghc+EXjyoEsBHW0Hg3E18BOyLifkAUB+qtbqeBOD5GC7jSABgve5PzaCQBPSIWeb7q8V42ZLd99ymuWax4XOJ6jyM/d6TIDWyNSMLwSdb3mKrUDGAhM0R/myr7UugD7ZWmwhQqC2I60OtpkWXinGyRax82oSlFTyQoXN2kzLZIDVuyuMqoVBYd0J3TTtfAr2mZjH9P7fPdjPAB1vrLYq2BaiPVNMMb0EY2XJuzx6/KUdAgQzV7h+3vgCk1r5575nExMTo1d9ZnkyoVKqtiB6nZ7yvi8DFVtJz1V3DJ40DMiVKcdCP7QRpseMTbvZ11lvd5uKNWuDOtQxXli0Iqg/Zmh0sF+FhK2GmLdFdWtADMlZ9YoJHFkiLqKv6UH6I1tJXlRzgb7DbJYS+ejiDbwtkfZjx98crCCxse7ONVVeUyT6JTdbY6u1AIC30cy1992UsEoEofuHSHgoACvOUYAuo/uT/TQ7rojCwFd5drO7/mEuBrCH2GRvbx2z4TP3jBAljj0NyO1D8tFRl2IKwIsbUIoQpGXJb6sl67dVpHBhABGPTdJ8KCUgNMUuSPNVsku43AIjSg8PuFb5+lvUagJHgpjrvUUVr9W17bafk2tby1DlqKy7WKBa3IYRmmtQ41Lai5o36s59xYGBdnKNyhwVSo+jn11lNM3f3zQcAUUXoodikC+UEwANPa33rrXdKHvlY6Fn5Zr665T9L38YrHRRb9V4N2t3eIbatDtKad3PAWw9rw/+2/ilIT9zT0dzY3N4pBAAkZrE4vb1iBMDvaGlsYfJE/M6+v3YKRFxmc2NLBx8UG/F85+hVD4fWtjZuyuzjzRIYYPxM25kRLJxfOsN6stjEp0QwdLYUK2nJdwffwsCrj53qnkUAxnVfdzALqhQOlS0S5LqM9yhDMPCI9gUGmzlYv2GGijZRTWxAQ2QrKHfVcyvjwh8ICc/MMc7qBpyrO6ZhlsAZGluyOEDb7RaB4I9E0bfrbCrB+YwL5KtAbdcbJBoK29qjmpaJbPiDUdfnTLqI94HLL3U3cH/LHQJbFGWscrEJwR+t9vj/eGUD1gnzl6qtKVe+bU/6AlO5rqP8AluTEC7elzN20mLVE9XKthWVehuvLeGDHLXFGi/M4gHW1cZMcL7CR8q1bUxUdboEciVuWWHo34Dpq9I+VuqpsaGMVKotumWjEtsOcoXIs/ZaGSzAOu5bW8PdvUq1femv5V9IgJzR96n5Pgesk/CiZpundCjPluQctKYpYORPJNvpn+oCrEPvdk7xzBMpzZZTaGkU1gvyVxPz7dqngHn354861qwsW6rERcu/igT5E5baz9yN+0uYW69NmH0OKcm2Kmqc622xQkTYsbTZ2WzAOqJyy8xVL/nKsEX8SwtU4htBIRE1G/T9KjAfh3GfLTLeW0cqwZZkeE7wKkOgmFCi7dj7vYB31HHziWlsJdhygs0cCjmgqCp/+tonBzCPvl9tTfbg2/Y8p1kfFlGgqAQZNJPILswvZ6K0BVMj2wfbFtF/muhbAtJjdUhkx6o7obU8lwS8a0iYtDJjsG0l9wymJ4hAeokhbNmxxM0LDLfwAe+IWsfp26lBti0NHBdQ/Bms116u3QTIGhKdsjfPxPzuDHpO2djlcwbTFpHnnHQfdoO0JO2RM+wGYAtUxQ86/q+xnsgFIOgbDXYwqEG0JZlrdX0aQGrc4nljBmQLcI2mcpULmBdvpZYuGERb5nlTh9zPKDDiAg0HaFsV9bVXFmBe6f6RAcWDZyt+62y2hyUBaXUVJUVbDtCWl2djEcbG/O6sN0XPJl6IBsu2Jelb9xSQGvX66YtztH/ZUsKmuvqmZhYBwHpXmPeOaG+sq6C3ksKO+sbyyjaq/4uPGy3Kw32swNijvZFODpZthuuo2G7ptMI7D3ovf7QVNx4PORx7KquLgiznqWMWdl2ODPNYe479/vqho8s3XBDCxwim21SfNsA7fqWFWRR/kGw7w6e4ZhMgLc6jgkbuR1sqxyc8o7rmVNAZATCzPL83OFtQySjycImLy6quvr9xXv+mekTEO+o9ZALWSbiBFvOqhINjm7FK+2LjZzZiJFaIP9nWRJjcaAFyj+NmLgDroIHuifckkmwxXBhfDahzl8aZBvhUWeD4LYWY3/mixyt1EhsHwxaR+8ydGkiQVnPO3Ub4ZHt9Ja2SAmKTfSAPgHPC2DSLBQAhutqFAgAIUwsoh09RyVbaZ3oA77hHtZfmU4NgK2Y6mR/pQVL5Cy8yyX7bINqaBgDEeNcg+WBr4sgiP9iaO71Hv7GF2pOqHk8A76gHS7+9IhgE2/brhsuei6XSMp7miqHf1stwVysACAVi+Nl2gQR9sKW5NMBvbXmvHCx+5GE+DmMc+3vAG8XbonerDfZyKKm2VxOySsvLi47MMH32tgPAbWpoO3ysz3YhfCjE2q3xd2yBddxyTh7mZwVu1uQFSYq3JdK/cbgKUqP2+ET0FbZ8kkbI4VwAd939A7Alm7y0fRmYTyvUrNDfTiBF2zIO//e+NyA1VJCW3dfDH/WnpzyuBfA13tYiuy0SJzhMvIf5MhvmZfOFL/mKtk12++YGG6THav9Q7Ukzq8omLkCU0+JaBADtDIkMtgDloaP98gDrRDWu5hGdirVF/MNGc1+BLPVfy574m+T1AkhKkkUy2YozTY2OcfAe5KJgs3l0UqG2JMNDJ65xgLbcJOPwMoDeJ0lCmWyh/qSGex7mj3dSXFXSOQq15cXb2FXxQYaaHgbNVVH3C84GkNTdDj56KflWdp0EXu+dPW5y0P3SknDLcZo7Mhm5kbSvZvilwq8SVDmbbOfifeA2hI0NfK1IW0nravMtYgpkqL0gPnRHQGR8MQCQ3am3H+ZkV5MAjDMHdv14Ore6Milkx564F/Ullw9sC4rJh18nirGzyMZ7E4T4hpHtLYkCbblFek5XYPCjqrZqbH2D9zisyFftULcCbauPqm2rBSVEXLH77hrey2w67k1Yna1A2/xlerF8UEb0iFEb8d69I6Jb2ccqzpa4PXVBCiglQb6lxU94b0ZlbrDwI5GibFkx/7urGJRTS/Q050IBYFxPnIVDN6Eo25ebR11tA+UkanAz3NwOGCd6scQ4vVtRtlcX6TwTgnJCZJyDEdaPdyRMf/3QOsXYIkmohXMNKK2y3erbXmJ9xo0wcXyDFGJL8T0MwlpBaaG7phPPiQDjbi4a+1SiEFvecwfr9B5QXtXR6p5YP94p3jUyvlkhtp0nzdyaxKC8eEVzrIJ7MX6803H2y+0vFGJbt9Z4JwJl1n3MxL4I48V3VIb6/BuKsKVK9ezPgFIjGtbp+NYAvhUv0T+KFGDbdU/F6wkoNSQ676h9B+Nx2PvwKVtaKPlt6YdHh9WDknsXNPqHZ/hO5LKeTnfJIeS3feqhcpkEJSfJMNSNxnccJmHbWZ8WyG97x94kFYGSQ+9jdVZkY/t4B4k8aHt48tue11uWB0qPV+ZsuRvf5c7kXusVPXLbCiPUA96C8hNFzbJ4xgFMk5yxt+6g5LVtClA7XQfKj6rbrLb5HWAalbpYr0wgr+1zT43MblB+SHBprsYVXJfZoHfrJyd3yGt709mALoKhqOzgKN9cwDPEDJx0rEZe22g7u04YksQFRjMP8TCdbKQiNX1fy2u7g7auG4Yk1BRtsLgA18c7iWaOufLZImq5ZWgPDE0ChrvJtlZM786SnbVT5bMluubYJvFgiEInZxtmYrrMJs9n9GWRXLY9xaaLckQwVDF2f/NDEZ4HbvnBL6Pa5bJtuzbNs56EoUp403rKeTwnctsufbXrrVy27w/o7uAhGLIqI9S98Xw5myDr/9dmyGVb4TU9DIYwQck/27vzuJr2vYHjOud17vOcwXmu4eA5jiFkbp7n2g1bRaWBhA6FOIUMiQxRplAhQypFUjKFdEWOlAwNKiqVbKHStGu32+15rfV96jgOr/u4rtverf3bw/v18vL/p/Va67fWb9iWJttZGCCoRGV2qkhtyxzNDoEk0SN1bcq6AUHlRvaxIrUtMraNB0ni13irr6IBgqocrCNFavtgsmMKSFLvIbnTrtABPbULzcJEant32NwrIFnl2watfUQAcupWGwSJ0pbI/tuibJAs/g1dtWg+IKd+u5a/KG056V+tvA8SRouatjAHA9Q0Hdby5hF9b0s/rRRcBhLWXTnLdDMDubhtZ3Q927C+t31zRGnvc5A0XoSRURkLEMPINHGt5fe9bfVupaMNIGn4c3+VVeWAGNZDikMhp+9tH29UOsMASSO4p6lTU+iAFk6NnfVNVt/b3vP7+goPJK887O+rHwBaBK1OpmmdfW970+vbbEAA9lBNYy8OSCGEc/Ri2vveNt195F1AAPEmStc9jwNIIRYb7Gnte9tUp6n5gAL2Mw/jDY04IMXPOLip722THHQfAhoOW2jkMQEpa83Wvu1721N2ho8ADTVBIwKKASnrzVc39r1t4gyTAkAD+5ylxpx1m85U4YCKDeb+IrQ9STUvBETcdh74/dCfbfeXIhN3o8WKhr63jbOhFAEasEt6/z2gx5SNHALQEGzpK0LbWGvbYkBDfdgPX/W2/ZZSzQY0bKEsEaFtjJUdKm1L/Qe8o36nHdCwjeJdL0JbCjJti1cMeEftFh3+LSloe8IKmXtCw9Z3aZX0n3MADVssl9TLxLOMe8niOyUlpQHTNjMxQEOw5bIGEcZgtuiMwV7Eu2qMU7EIyf/ytEiPwRLQeXcAYN3cuXxV8nP4cki/OyD0zguAcxj0dpYAvhzS77xJDrqI/37uZyH9rSbVaXo+KPwL/iabRPjGeNl9FJorNJHgbbCrpe9ts7y+zwaFTyIEc/WP0fveNu+3r6/yQeFThHRnk1SGCHPoQUpnkd1TK2HcWjurG119b1u1S+n4W1D4FFaBlf0jdt/bvo5W2lcLJOI+SUu4eO3KqZR7bEQ3RP6FccPUpYbX97Ztp5S2PAHS8BrOJ5y7dudebub5U3HP0Nyf86FNit68VmHf27Ivf7XqAZCF/zJ13p7nOPSoP20bXcYFlDUd0VwsyhpR/NY3i28DWV7FqB6qFEAv7M0F6qYqpG8L9aHafoRIa/J/8rgK5CCEie7UXBa8w3u1zDmMhXLcugCDDSBK2/uTnFKBHILapXo7XsF7/BN2lMconzxe62UWKlLbQiNqPJCDecrEOIcB72FFXuP2o3y2XdUsEfdAlc4yOwzkaPFTsavjwnt445rhzgWArnJj+xMita300dkF5Ki3Ge7WjcF7BGf7YBWEP2YQJZNE3HNKC1HdwCOADHWqP86Hj+35n++vAbJ4d4d5ZYnU9u0Z1SX1GJDh5YRv/6ntD0qXAVktKT+uLxGpLbPAwCWfR07bid95EvABsWfg1+mArKo930c0itSW32JjfZYNZHhjPti5Q/ghLXPzj2OyAFn3/YckcURqC8Rc011MIEPLb+MsSlnwHl69bIjjI0BWhsvE6yBaW1hrsawdyMBMNNY60wLvCa47KYcjPL49ZULNFbVthPWMFiADv2bJ9KXP4T1uqJFlEbo/KYtFTlleImrbNCetGj6QgBCedFDP6PhwRqvldnS/JxAdm8ftrxW17f1FE+90ACleRo0IeiiEXlhNlMbKCmTTAlHhO+lys6htXwWOiX8FpOA9O+yyoxz7I3OsZeh9Dpong/XCs9zUnnSL2rY7XHlzOZCDXZt84mxm7oP8rLT4Y48ZgC4sbobFW0zUthCv6pkPZOGWpsSfv3IpITkP7fkyYYilBxNEbnvR2vgfQBriT+jeDv4g8Dbf0C162zu/jk4WgMLHhO0zKMc4oretCBuytwEUPtb5QMf1d77obdsujViG6tHUklJ3cKp/PS56W6xM1S4eFD5W4qERjonlN7YWGm5E+qFNOix7okMqiKNty0EDz2bF0+wj9MTvVj8QS1vWPVurOyjPZpOuLPi/YurF0hZj/Kob3gQKf0l3H5HNE0tbwEOM3Wig8B4RaWxTCuJpC0mOUwsVy8ffwzsD1La8FFfbh35D0lpA4R1esZtuJl1cbVuiBm0uBYV3uuIs7Bp54moruDB59nVQeIfuZ7xCSIirLeS5qB9X3HDfEdLMrQ8CiK1t9Z4xgXWg0Kvl2vgFt8XYlpGn4XweFHo9XqMc9laMbfEmD5P1fMVHhR78SwamabgY2wIr2tSmAd3fyyVRU/jgdUUgzraCci/VeMUX8h7/8Bx5jS7WtkTXTh3nEsQnsUhAYDvNqBUCsbYFuOQy/Ariu+lIwG+Yp7+zBcTctnrXgB0VIO/azxs4FLLF3bb72kinNJB3tMU6azoxcbeFsjna2zvlfBjWnTPdPgFA7G0bk9Q8S+V8aocW/fe1xf3Qlt9MNY6S86dZ1txhSex+aEsINpm41Mn1hdsZqe6Yi4u9ba+MudPOy/MpIES+96SjL6Ff2tJ3K8+7J79PM4IXYkCh8fqnrTDTffTxNpBX3ZXWpvuYRP+0hboTvyy6CfKqNnS6T4kQ+qmt4ImN0TYmBnKp+4a20VE+0V9toTVGx66YDXKpeufX6woB+q0tr85Le009yCPilK1yOqMf2xLYMVvtWyhv8ugvwhcrNZdXEf3YFqBsw7CQJyB/uhKtzO8yoF/b8i+q6ZyRvzEuXu+otZqH929bKN+qsroM5E190qR5GQD93JaRZ2x7iCtnVy4v22NKeGO/twXGek3753I2Dnu9Z5jbLej/tvzSRZP9qkCeEMcoEy+3kNCWYCU4TEiQp0Fud4GH4TqagIS2AFXhQ70y+HIzoS6oDdab+4ANpLSF4hlj1jTLzeOsI+MX46MAJLWl3zQzPSAv0zvEjTk/76ohra2wc6sZNa8D5AFRFTx9bg6PtLYAD33HB5YIQfbhnGO22lebgcS2/BSLUbF0kH3dVVSt9W0YmW2hNnqM+wXZHyoQlQHTFz8UAKlt+U/n6fpWon3auhi8iRtPTeQS5LaFziwbrbDXsj2/Q/DSnAdGvQAguS3GjLCYkvgaZBn37vxp3sU80tsCPA2dMvNsO8iu7qe+Rm53GSCBtvgj3/GLbsruDhNB+b7JMxMJkERb4NVQlee2yOyevvbjP0+J44Bk2uJd192m+VfK5oVL8I7bqETXYBJqCzg91n5cpGx+y2VkOOsHVHJBUm0BXh4ZSYnpkMErt/uRq+qiJxyQYFvhs5DJDhc4IHMK1w1ZmCkgJNkWWBVLjVzvydwnsepQHauzzQASbQtExoKpq3Nk60cluW8iqdpHX4Kk24IwzWLw+gKBDH23Eb5K0lEN7CAk35ZouWoybWmJDN1zaUdVNENoQpB8W8Cakmfp+96XlRV4QlokdeKOIiGg0BZwTpy9clCubBx9x311jKq+tkIIaLQF4FzQGuRfArLgzekJKmvZGCDTFm9It9ZeUiIDV27tIV3NHeUYgU5bwOgJTjp+udI+zuXVRTlMDykSAiDUFgh2gs2QoHtsqR6K8erizNUDaEJAqy0Q7enaY32LpXpPal3seNXgJgGg1hawhov2el7Xm0FqFe4wUwstwQj02gLGPumqviCZJp23BaL9fhBFf0upEADBtgD8DPchVkfo0vj+izNzPJSNwjtwQLQt0VkYqK21rkb6pnlwxskZQz1TmjBAtS1Ad9FOe7UAqduBxq49YK+77Eo9AMJtAWqizSYtv94mVeOFzqJIXV2/IiYg3hY67pgNM8uUqqMACgIGjttbD4B8WwH9zm+aOvulZ/Nke5qHJuV0DVcK2gLBvhOkYRX8e6dUrM/lPI1xNJqX1CgEaWgLgFeH6KkvzKpDfxeaoL0wzEDZ5zoOICVtQchIdRs+cQf65783n5sxSnX/Ey5IT1sgGm5tNzBceLIe5aEu0XVrg6Ged0o1C6SpLQCnKtLFwCYivxVQxao+66NvtOFmFwFS1haAyFk5+uelNzrRfAXGu0v3q42ySWkCAOlrC11V5xymGG0u5wF6MEai21i9HQXtAgBpbAv8pmuBNhrLzrzAADEtOVupRvPjnrKhh1S2BSDKIilTHSPy37ABHYKOp8krphisymbCH6S0LQCrYvGYgYYxLwhARnvOgtE/GCW3wp+kti3GqkharqbpeqCcBSjAGtOW66g6789/y4c/SW3bHk054R6mpitPFnVjIGFc2tXtsw2sA9OeC+Ev0twWCEHuFoMxJoE5NCYOkkPwmguPzpqgtiCtEYePSHVbAB69bLvhT8qrbnMIkBgeLcJyxEif9LccDD4m5W0BZ1de3mqlYxd4mcYDSRAy8yI8tM2WJjxs/uey0t62B+dZnI+Zjlvo+cImLpALZzy7cWwZRctp552u/19WBtoCEG8SXX4Zqrb0QhWDgwNZCH5XU84Oq8HDTbY8ZcEnyERb4NOrb22jjp1gHXSjlay4hKD4sJvaOO0lScWNn/6LykZbAIxZdmmvF8V45prYfDLe5VmVF7bPtzRwCUrMa+TBp8lK2x5YZ+4+T73pFP+k3OpmLg79RthRV3Il1FlVy37dxc8uoJOdtr3a767R+Ns3Bmsu1nMJ6B8Ezri3z/F/vxnmfvoFfJaMtRV01OTE+pirqZn/uvvqi24QN2FLXswqB93pmm5hGWVvOfBZMta2B6/x9xObFlqbUmYHRJy797ILxIXfXJIRs2Uh1cTcdeW+y5X/fkmw7LXtxSxP3jBz2tjJFr5HsqteNTM4mKijrbaG2oLUTc7qYyaaeh+62/RFXWWzLS5gdzaWnPA1HDxorMlvUVcrunBR0gpf3z0Z7DRl8KAprjuzXnSweBh8Cdls2wvrrivKTNg8n2Kgb+rguXp34o3SJgHxn7531eSmHdzoPdtKX9/MeeXBi3lVdD58Kdlt2wvnVl0/FLjImaJvaOmwYE14YvrtR6XPaA1tXfzPVBayO5pe1Twtys1MObzZx8XGRNfU3sN/99mCViH8R2S67TtdtVnH1s1WHzV08E+qdj5rQ6OTMx9UNTS30jsYTGZXVxerV8//TGZnB72t5e2Lx7cvxIZvWuFmOGrI4GGTrJbtPV9MR3WhlITb4jxmawPtWd65cL/ZxlPHjBw1dvykaZpmsxb6b9lzIOrwkeOxcbExR6MPRoSHrvVxtdZTnayiPHrkLyo61EVb47NLnr9u7mALUV2zPgBQwGmuepCZcuLQnq3rlnu5zZxha02xtDA3N+tl2vPP3NzCwtLKhmrvPG/Jqk1hEUdPXc4pe92F6gX7oS06CG4brSzveuqJA9sClnjOcZvtNMvB3n6mo7Or+7xf/TftPnI6/XZhdWOXlBzoMgAUFG2lj6Ktoq00UrTtP/8HxMDmYdtFq4QAAAAASUVORK5CYII=\" width=\"200\"></p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$4 \\pi-4 \\sqrt{2}$</li>\n    <li>$\\frac{7}{2} \\pi-4 \\sqrt{2}$</li>\n    <li>$\\frac{7}{2} \\pi-4 \\sqrt{3}$</li>\n    <li>$\\frac{8}{3} \\pi-4 \\sqrt{3}$</li>\n    <li>$\\frac{8}{3} \\pi-4 \\sqrt{2}$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,geometry",
+          "category": "Geometry"
+        },
+        {
+          "contents": "",
+          "post_id": "419332",
+          "text": "<p>Consider the following automata:<br>Let $N$ be the number of $0 / 1$-strings of length exactly $6$ accepted by this automata. Which of the following is true about $\\text{N}$?</p><p><img alt=\"\" width=\"350\" src=\"data:image/png;base64,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\"></p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{N} \\leq 4$</li><li>$4 &lt;\\text{N} \\leq 8$</li><li>$8&lt;\\text{N} \\leq 16$</li><li>$16&lt;\\text{N} \\leq 32$</li><li>$32&lt;\\text{N} \\leq 64$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,finite-automata,counting,theory-of-computation",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "419333",
+          "text": "<p>For an undirected graph $G$, let $\\bar{G}$ refer to the complement (a graph on the same vertex set as $G$, with $(i, j)$ as an edge in $\\bar{G}$ if and only if it is not an edge in $G$ ). Consider the following statements.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>$G$ has a vertex-cover of size at most $k$.</li>\n    <li>$\\bar{G}$ has an independent set of size at least $k$.</li>\n    <li>$G$ has an independent set of size at least $n-k$.</li>\n    <li>$G$ has a clique of size at least $k$.</li>\n    <li>$\\bar{G}$ has a clique of size at least $n-k$.</li>\n</ol>\n\n<p>Which of the following is true for any graph $G$ and its complement graph $\\bar{G}$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(i) is equivalent to (iii) and (iv).</li>\n    <li>(i) is equivalent to (iii) and (v).</li>\n    <li>(i) is equivalent to (ii) and (iv).</li>\n    <li>(i) is equivalent to (ii) and (v)</li>\n    <li>None of the five statements are equivalent to each other.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,graph-theory,combinatory",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "419334",
+          "text": "<p>Suppose we are given a graph $\\text{G=(V, E)}$ with non-negative edge weights $\\left\\{w_{e}\\right\\}_{e \\in E}$.</p>\n\n<p>Consider the following problems:</p>\n\n<p>P1: Finding a minimum spanning tree of $\\text{G}$.<br>\nP2: Finding a maximum spanning tree of&nbsp;$\\text{G}$.<br>\nP3: Finding a cycle of smallest weight in&nbsp;$\\text{G}$.<br>\nP4: Finding a cycle of largest weight in&nbsp;$\\text{G}$.</p>\n\n<p>Note: a cycle consists of distinct vertices.</p>\n\n<p>Assuming $\\mathrm{P} \\neq \\mathrm{NP}$, which of the above problems can be solved in polynomial time?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{P1, P2 but not P3, P4}$.</li>\n    <li>$\\text{P1, P3 but not P2, P4}$.</li>\n    <li>$\\text{P1 but not P2,P3, P4}$.</li>\n    <li>$\\text{P1,P2,P3 but not P4}$.</li>\n    <li>$\\text{P1, P4 but not P2, P3}$.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,graph-theory,minimum-spanning-tree,algorithms,complexity-theory",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "419335",
+          "text": "<p>In the $n$-queens completion problem, the input is an $n \\times n$ chess board with queens on some squares, and the goal is to determine if there is a way to place more queens so that the total number of queens is $n$ and no two queens attack each other (two queens are said to attack each other if they are on the same row, or they are on the same column, or they are on the same diagonal).</p>\n\n<p>Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>The $n$-queens completion problem is decidable.</li>\n    <li>The $n$-queens completion problem is decidable in time $O\\left(n^{n^{n}}\\right)$.</li>\n    <li>The problem of \"checking whether a given program solves the $n$-queens completion problem\" is decidable.</li>\n    <li>The problem of \"checking whether a given program solves the $n$-queens completion problem in time $O\\left(n^{n^{n}}\\right)$ \" is decidable.</li>\n    <li>The problem of \"checking whether a given program solves the $n$-queens completion problem\" is decidable in time $O\\left(n^{n^{n}}\\right)$.</li>\n</ol>\n\n<p>Which of the above is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $\\text{(i) and (ii)}$.</li>\n    <li>Only $\\text{(i) and (iii)}$.</li>\n    <li>Only $\\text{(i), (ii) and (iv)}$.</li>\n    <li>Only $\\text{(iii),(iv) and (v)}$.</li>\n    <li>Only $\\text{(i), (iii) and (iv)}$.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,theory-of-computation,decidability,complexity,analytical-aptitude",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "419336",
+          "text": "<p>Let $\\mathbb{C}$ denote the set of complex numbers and let $k$ be a positive integer. Given a non-zero univariate polynomial $f(x)$ with coefficients in $\\mathbb{C}$ and an $a \\in \\mathbb{C}$, we say that $a$ is a zero of $f$ of multiplicity $k$ if $f(a)=0, \\frac{d^{k} f}{d x^{k}}(a) \\neq 0$, and for all $i \\in\\{1, \\ldots, k-1\\}$, $\\frac{d^{i} f}{d x^{i}}(a)=0$.</p>\n\n<p>Which of the following is true for every polynomial $f$ of degree $d$ and every positive integer $k$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>The number of distinct zeroes in $\\mathbb{C}$ of $f$ of multiplicity $k$ is at most $d / k$, and can be smaller than $d / k$ as well.</li>\n    <li>The number of distinct zeroes in $\\mathbb{C}$ of $f$ of multiplicity $k$ is at least $d / k$, and can be larger than $d / k$ as well.</li>\n    <li>The number of distinct zeroes in $\\mathbb{C}$ of $f$ of multiplicity $k$ is equal to $d / k$.</li>\n    <li>The number of distinct zeroes in $\\mathbb{C}$ of $f$ of multiplicity $k$ is at least $d$, and can be larger than $d$ as well.</li>\n    <li>The number of distinct zeroes in $\\mathbb{C}$ of $f$ of multiplicity $k$ is equal to $d$.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,polynomials,calculus,complex-number",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "419337",
+          "text": "<p>Arun has a non-empty subset $\\text{S}$ of the numbers $\\{1,2,3, \\ldots, 1000\\}$. Bela wants to find any number $\\text{x}$ in Arun's set $\\text{S}$.</p>\n\n<p>To do this, Arun and Bela decide to play a game which proceeds in rounds. In each round, Bela can give Arun a subset $T \\subseteq\\{1,2,3, \\ldots, 1000\\}$, and Arun answers with a \"YES\" if $S \\cap T$ is non-empty, and with \"NO\" otherwise.</p>\n\n<p>In the worst case, how many rounds will Bela need to find out some $\\text{x}$ in Arun's set $\\text{S}$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$9$</li>\n    <li>$10$</li>\n    <li>$11$</li>\n    <li>$1023$</li>\n    <li>$1024$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,combinatory,searching,algorithm-design,probability",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "419338",
+          "text": "<p>Given $m$ vectors $\\vec{x}_{1}, \\vec{x}_{2}, \\ldots, \\vec{x}_{m}$ in $\\mathbb{R}^{d}$, we construct an undirected graph $G=(V, E)$ as follows. Each vector $\\vec{x}_{i}$ is represented by a vertex $v_{i}$. We add an edge between vertices $v_{i}$ and $v_{j}$ if the corresponding pair of vectors $\\vec{x}_{i}$ and $\\vec{x}_{j}$ are linearly independent.</p>\n\n<p>Which of the following statements regarding the graph $G$ must be TRUE, for any such vectors $\\vec{x}_{1}, \\vec{x}_{2}, \\ldots, \\vec{x}_{m}$ ? Recall that a clique in a graph is a set of vertices $S \\subseteq V$ that have an edge between every pair of vertices in $S$.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>If $m&gt;d$, the graph must be disconnected.</li>\n    <li>Any clique has size at most $d$</li>\n    <li>Any clique has size at most $m / 2$</li>\n    <li>The maximum degree of any vertex in $G$ is at most $d$</li>\n    <li>None of the above.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "E",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,graph-theory,linear-algebra",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "419339",
+          "text": "<p>In the following pseudocode, assume that for any pair of integers $x \\leq y$, the function random ( $\\mathrm{x}, \\mathrm{y})$ produces an integer uniformly chosen from the set $\\{x, x+1, \\ldots, y\\}$.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nn=9\nfor (i=1 to n){\nA[i]=i\n}\nfor (i=1 to n){\nr= random (i, n)\ntemp =A[i]\nA [i]= A [r]\nA[r]=temp\nprint A[i]\n}</pre>\n\n<p><br>\nWhich of the following statements is<strong> TRUE</strong> of the output of the code?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>It outputs all permutations of $123456789$ with equal probability.</li>\n    <li>It never outputs $123456789$.</li>\n    <li>It outputs all cyclic permutations of $123456789$ with equal probability, and does not print any other output.</li>\n    <li>The output is always $987654321$.</li>\n    <li>The output may not be a permutation of $123456789$.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,algorithms,data-structures,probability",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "419340",
+          "text": "<p>Consider the following algorithm that takes as input a positive integer $n$.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nif (n == 1) {\nreturn \"Neither prime nor composite.\"\n}\nm=2\nwhile (m &lt; n) {\nif (m divides n ){\nreturn \"Composite.\"\n}\nm=m+1\n}\nreturn \"Prime.\"</pre>\n\n<p><br>\nIf $n$ is a number of the form $n=p^{2} q^{3} r^{4}$ where $p, q, r$ are natural numbers greater than 1 , how many times does the while loop in the algorithm run?<br>\nIn the options below, for any real number $m,\\lceil m\\rceil$ denotes the least integer greater than or equal to $m$.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>The while loop runs at most $\\left\\lceil n^{1 / 9}\\right\\rceil$ times for all natural numbers $p, q, r$ greater than one.</li>\n    <li>The while loop runs at most $\\left\\lceil n^{1 / 9}\\right\\rceil$ times only if $p, q, r$ are all distinct.</li>\n    <li>The while loop runs at most $\\left\\lceil n^{1 / 9}\\right\\rceil$ times only if at least two of $p, q, r$ are distinct.</li>\n    <li>The while loop runs at most $\\left\\lceil n^{1 / 9}\\right\\rceil$ times only if $p, q, r$ are distinct primes.</li>\n    <li>The while loop runs at most $\\left\\lceil n^{1 / 9}\\right\\rceil$ times only if $p, q, r$ are distinct primes or distinct prime powers.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,algorithm-design,time-complexity",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "419341",
+          "text": "<p>The four nucleotides in $\\text{DNA}$ are called $\\text{A, C, G}$, and $\\text{T}$. Consider the following languages over the alphabet $\\{\\mathrm{A}, \\mathrm{C}, \\mathrm{G}$, and $\\mathrm{T}\\}$.<br>\n\\[<br>\n\\begin{array}{l}<br>\nL_{1}=\\left\\{(\\mathrm{AC})^{n}(\\mathrm{GT})^{n} \\mid n \\geq 0\\right\\} \\\\<br>\nL_{2}=\\left\\{\\mathrm{A}^{n} \\mathrm{C}^{n} \\mathrm{G}^{n} \\mathrm{~T}^{n} \\mid n \\geq 0\\right\\} \\\\<br>\nL_{3}=\\left\\{(\\mathrm{AT})^{n}(\\mathrm{CG})^{m} \\mid m \\neq n \\text { and } m, n \\geq 0\\right\\}<br>\n\\end{array}<br>\n\\]<br>\n<br>\nWhich of the above languages is/are context-free?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only $L_{1}$.</li>\n    <li>Only $L_{3}$.</li>\n    <li>Only $L_{1}$ and $L_{3} \\cdot$</li>\n    <li>Only $L_{1}$ and $L_{2}$.</li>\n    <li>All three of $L_{1}, L_{2}, L_{3}$.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,theory-of-computation,context-free-language,formal-languages",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "419342",
+          "text": "<p>For two languages $\\text{A, B}$ over the alphabet $\\Sigma$, let the perfect shuffle of $\\text{A}$ and $\\text{B}$ be the language</p>\n\n<p>\\begin{Bmatrix}<br>\nw=a_1 b_1 a_2 b_2 \\cdots a_k b_k \\text{where}&nbsp;a_1 a_2 \\cdots a_k \\in \\text{A}&nbsp;and b_1 b_2 \\cdots b_k \\in B.&amp; \\\\&nbsp;\\text{and}&nbsp;k \\in\\mathbb{N}<br>\n&nbsp;&amp;&nbsp;<br>\n\\end{Bmatrix}<br>\n<br>\nConsider the following statements.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>If $\\text{A}$ and $\\text{B}$ are regular, then perfect shuffle of&nbsp;$\\text{A}$&nbsp;and&nbsp;$\\text{B}$&nbsp;is regular.</li>\n    <li>If $\\text{A}$&nbsp;and $\\text{B}$&nbsp;are regular, then perfect shuffle of $\\text{A}$&nbsp;and $\\text{B}$&nbsp;is context-free.</li>\n    <li>If $\\text{A}$&nbsp;and $\\text{B}$&nbsp;are decidable, then perfect shuffle of $\\text{A}$&nbsp;and $\\text{B}$&nbsp;is decidable.</li>\n</ol>\n\n<p>Which of above statements is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>All of $\\text{(i), (ii) and (iii)}$.</li>\n    <li>Only $\\text{(i) and (ii)}$.</li>\n    <li>Only $\\text{(ii)}$.</li>\n    <li>Only $\\text{(ii) and (iii)}$.</li>\n    <li>None of $\\text{(i), (ii), (iii)}$ is true.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,theory-of-computation,regular-language,decidability,context-free-language",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "419343",
+          "text": "<p>Consider functions $f$ and $g$ from the set of positive real numbers to itself, recursively defined as follows.<br>\n\\[<br>\n\\begin{array}{rrl}<br>\n\\forall n \\leq 1 &amp; f(n), g(n) &amp; =1, \\\\<br>\n\\forall n&gt;1 &amp; f(n) &amp; =3 f(n / 3)+n^{2}, \\\\<br>\n\\forall n&gt;1 &amp; g(n) &amp; =n^{2 / 3} g\\left(n^{1 / 3}\\right)+n .<br>\n\\end{array}<br>\n\\]<br>\n<br>\nWhich of the following options is correct about their asymptotic behaviour?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$f(n)=\\Theta\\left(n^{2}\\right)$ and $g(n)=\\Theta(n \\log \\log n) \\checkmark$</li>\n    <li>$f(n)=\\Theta\\left(n^{2}\\right)$ and $g(n)=\\Theta(n \\log n)$</li>\n    <li>$f(n)=\\Theta\\left(n^{2} \\log n\\right)$ and $g(n)=\\Theta(n \\log \\log \\log n)$</li>\n    <li>$f(n)=\\Theta\\left(n^{2} \\log n\\right)$ and $g(n)=\\Theta(n \\log \\log n)$</li>\n    <li>$f(n)=\\Theta\\left(n^{2} \\log n\\right)$ and $g(n)=\\Theta(n \\log n)$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,algorithms,asymptotic-notations",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "419344",
+          "text": "<p>For any positive integer $\\text{N}$, let $\\text{p(N)}$ be the probability that a uniformly random number $a \\in\\{1, \\ldots, N\\}$ has an odd number of factors (including 1 and the number itself).<br>\nWhich of the following is true about the function $p: \\mathbb{N} \\rightarrow \\mathbb{R}$ ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\lim _{N \\rightarrow \\infty} p(N)=\\frac{1}{2}$.</li>\n    <li>$p(N)=\\Theta\\left(\\frac{\\log N}{N}\\right)$.</li>\n    <li>$p(N)=\\Theta\\left(\\frac{1}{N}\\right)$.</li>\n    <li>$p(N)=\\Theta\\left(\\frac{1}{\\sqrt{N}}\\right)$.</li>\n    <li>$p(N)=\\Theta\\left(\\frac{1}{\\log N}\\right)$.\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,probability,number-theory,limits",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "419345",
+          "text": "<p>Let $\\text{S}$ be the set of all $4$ -digit numbers created using just the digits $1,2,3,4,5$ such that no two successive digits are the same. If the numbers in $\\text{S}$ are arranged in ascending order, what is the $100$ th number in this sequence?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2135$</li>\n    <li>$2324$</li>\n    <li>$2315$</li>\n    <li>$2352$</li>\n    <li>$2415$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "E",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,combinatory,counting,permutation-and-combination,quantitative-aptitude",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "419346",
+          "text": "<p>Consider the following three functions defined for all positive integers $n \\geq 0$.<br>\n\\[<br>\n\\begin{array}{l}<br>\nf(n)=|\\sin (n)+n|, \\\\<br>\ng(n)=n, \\\\<br>\nh(n)=|\\sin (n)| .<br>\n\\end{array}<br>\n\\]<br>\n<br>\nWhich of the following statements about these functions is / are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>$f(n)=O(g(n))$</li>\n    <li>$g(n)=O(f(n))$</li>\n    <li>$h(n)=O(g(n))$</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only&nbsp;$\\text{(i)}$ is true.</li>\n    <li>Only $\\text{(ii)}$ is true.</li>\n    <li>Only $\\text{(i)}$ and $\\text{(ii)}$ are true.</li>\n    <li>Only $\\text{(ii)}$ and $\\text{(iii)}$ are true</li>\n    <li>All of $\\text{(i), (ii)}$, and $\\text{(iii)}$ are true.</li>\n</ol>\n\n<p>&nbsp;</p>",
+          "type": "Multiple Choice",
+          "answer": "E",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "tifr2024,algorithms,asymptotic-notations",
+          "category": "Algorithms"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "name": "GATE Overflow CS Test Series 2025 | Data Structures | Shallow Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "452738",
+          "text": "Given an array:  <br />$$4,\\;1,\\;3,\\;10,\\;2,\\;7,\\;9,\\;5$$  <br />What is the least number of swaps required to rearrange the array into a max-heap, where each parent node is greater than or equal to its child nodes?",
+          "type": "Numerical",
+          "answer": "7:7",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-ds-shallow-1,numerical-answers,binary-heap,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452765",
+          "text": "<pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">void cD(struct node* start)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;if (start == NULL || start-&gt;next == NULL)\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;\n&nbsp;&nbsp;&nbsp;&nbsp;int dif = start-&gt;next-&gt;data - start-&gt;data;\n&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", dif);\n&nbsp;&nbsp;&nbsp;&nbsp;cD(start-&gt;next);\n}\n</pre><p><br>$7 \\to 14 \\to 21 \\to 28 \\to 35 \\to 42$<br><br>Using the above function, what is the sum of the differences printed when the function is called with the head of the above list?</p>",
+          "type": "Numerical",
+          "answer": "35:35",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-ds-shallow-1,numerical-answers,linked-list,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452775",
+          "text": "<p>Consider a set of elements $ X = \\{P, Q, R, S, T\\} $ that are inserted into both a stack and a input restricted deque in order. One element at a time is removed from each structure independently. Deletions can occur at any point after third insertion is done and insertions in deque happens only at the rear end while, deletions in input restricted deque happens at both ends.<br>Which of the following sequences is possible for the order in which the elements are removed from the stack and the queue, respectively?</p><ol style=\"list-style-type:upper-alpha\"><li>$ RSTQP, RTSQP $</li><li>$ RQPST, TSRQP $</li><li>$ QPRST, PTSRQ $</li><li>Both A and B</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-ds-shallow-1,stack,queue,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452740",
+          "text": "<p>Given three algorithms with time complexities $ p(n), q(n), $ and $ r(n) $, where:</p><ul><li>$ p(n) $ grows slower than $ q(n) $ as $ n \\to \\infty $,</li><li>$ r(n) $ grows faster than $ q(n) $ as $ n \\to \\infty $,</li></ul><p>Which of the following is FALSE?</p><ol style=\"list-style-type:upper-alpha\"><li>$ p(n) = O(q(n)) $</li><li>$ r(n) = O(q(n)) $</li><li>$ p(n) = o(q(n)) $</li><li>$ r(n) = \\Omega(q(n)) $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,time-complexity,asymptotic-notations,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452734",
+          "text": "The best data structures in terms of asymptotic time complexities for performing the following operations respectively are:<br />1. UNION(A, B): Combine all unique elements from sets A and B.<br />2. Insert(T, key): Insert a key into data structure T.<br />3. Find Min(T): Retrieve the minimum value from T.<br />4. Range Query(T, x, y)(considering it as a primary operation for T): Find all elements between $ x $ and $ y $ in T.<br />Choose the correct sequence of data structures for optimal performance:<br /><ol style=\"list-style-type:upper-alpha\"><li> Hash Table, Binary Heap, Binary Search Tree, AVL Tree</li><li> Disjoint Set, Binary Heap, Sorted Array, Binary Search Tree</li> <li>Disjoint Set, Hash Table, Binary Heap, Segment Tree</li>  <li>Hash Table, AVL Tree, Binary Heap, Sorted Array</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452783",
+          "text": "Which data structures are most appropriate for performing preorder traversal and reverse level order traversal of a binary tree, respectively?<br /><ol style=\"list-style-type:upper-alpha\"><li> (Stack) and (Queue + Stack)<br />  </li><li> (Queue) and (Stack + Queue)<br />  </li> <li>(Stack) and (Stack + Stack)<br />  </li>  <li>(Queue) and (Queue + Queue)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-ds-shallow-1,stack,queue,binary-tree,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452755",
+          "text": "Let $ f(n), g(n), $ and $ h(n) $ represent the time complexities of three different algorithms. Suppose $ f(n) = \\Theta(g(n)) $ and $ h(n) = \\Omega(g(n)) $. Which of the following is necessarily FALSE?<br /><ol style=\"list-style-type:upper-alpha\"><li> $ f(n) = O(h(n)) $</li><li> $ g(n) = \\Theta(f(n)) $</li> <li>$ h(n) = O(f(n)) $</li>  <li>None of the above are necessarily FALSE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,time-complexity,asymptotic-notations,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452742",
+          "text": "<p>Consider the following representation of a binary tree where A: B, C denotes that B and C are the left and right child nodes of A respectively.<br><br>$10: 20, 30$<br>$20: 40, 50$<br>$30: 60, 70$<br>$40: NULL, NULL$<br>$50: NULL, NULL$<br>$60: NULL, NULL$<br>$70: NULL, NULL$<br><br>If the root of the above tree is passed to the following modified C function (assume that the left child is child1 and the right child is child2 and all NULL values are assigned properly), the return value will be _____</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int foo(struct node *root)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;if(!root) return 0;\n&nbsp;&nbsp;&nbsp;&nbsp;int left = foo(root-&gt;child1);\n&nbsp;&nbsp;&nbsp;&nbsp;int right = foo(root-&gt;child2);\n&nbsp;&nbsp;&nbsp;&nbsp;return left + right + 1;\n}</pre><p> </p>",
+          "type": "Numerical",
+          "answer": "7:7",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-ds-shallow-1,numerical-answers,tree,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452777",
+          "text": "Consider a directed graph $ G $ with $ v $ vertices and $ e $ edges. Which of the following statements is true about the number of strongly connected components (SCCs) in the graph?<br />A. The number of strongly connected components is always less than or equal to $ v $.<br />B. The number of strongly connected components is always equal to $ e - v + 1 $.<br />C The number of strongly connected components is always equal to $ v $.<br />D. The number of strongly connected components is always equal to $ e $.",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-ds-shallow-1,graph-theory,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452732",
+          "text": "<p>Consider a QUEUE implemented using two STACKS, where ENQUEUE operations favor pushing onto one stack and DEQUEUE operations involve transferring elements between the stacks. Given that $k$ ENQUEUE operations and $l$ DEQUEUE operations are performed on this queue, where $k$ and $l$ are much smaller than the total number of elements $n$ initially in the queue, what is the amortized time complexity for performing these operations?</p><ol style=\"list-style-type:upper-alpha\"><li>$O(k + l)$</li><li>$O(k \\cdot l)$</li><li>$O(k + l + n)$</li><li>$O(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,stack,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452746",
+          "text": "In a binary search tree, the following key values (not necessarily in the order given) are encountered while searching for the key $ 42 $: <br />$$ 5, 12, 18, 25, 30, 38, 60, 75. $$  <br />What is the total number of distinct binary search trees that can be constructed using these keys, given that the keys are visited in some order during the search for $42$?",
+          "type": "Numerical",
+          "answer": "264:264",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-ds-shallow-1,numerical-answers,binary-search-tree,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452757",
+          "text": "Given an array of elements $6, 12, 15, 9, 20, 30, 10, 18,$ which of the following is not a valid array implementation of max-heap of these elements?<br /> <br /><ol style=\"list-style-type:upper-alpha\"><li> $30, 20, 15, 9, 12, 6, 10, 18$</li><li> $20, 18, 15, 9, 12, 6, 10, 30$</li> <li>$30, 20, 10, 9, 12, 6, 15, 18$</li>  <li>All of the above are not Max-heaps</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,binary-heaps,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452773",
+          "text": "Given the following array-based representation of a binary tree with $n = 10$: $[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]$, where the root is indexed as $1$.Find the index and value of the right child of node $i = 4$, if it exists.<br /><ol style=\"list-style-type:upper-alpha\"><li> $10, 100$</li><li> $7, 90$</li> <li>$8, 20$</li>  <li>$9, 90$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-ds-shallow-1,binary-tree,c-language,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452781",
+          "text": "<p>Consider the following infix expression: &nbsp;<br>$ A + (B \\times C) - \\frac{D}{E} \\times (F + G) $<br>Which of the following represents the correct prefix form of the expression?</p><ol style=\"list-style-type:upper-alpha\"><li>$ - + A \\times B C \\div D E + F G $<br>&nbsp;&nbsp;</li><li>$ - + A \\times B C \\times \\div D E + F G $<br>&nbsp;&nbsp;</li><li>$ + - A \\times B C \\div D E \\times F G $<br> </li><li>$ + - A \\times B C \\div \\div D E F G $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-ds-shallow-1,infix-prefix,stack,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452771",
+          "text": "Which of the following statements is TRUE regarding XOR linked list?<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> Memory requirements of doubly-linked list is not greater than XOR linked list.</li><li> XOR-linked lists does not have the advantages of both singly and doubly linked lists.</li> <li>In subtraction linked list, the entire list can be relocated in memory without needing any patching of pointer values.</li>  <li>A memory efficient version of Doubly Linked List cannot be created using only one space for address field with every node.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-ds-shallow-1,linked-list,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452761",
+          "text": "Two binary trees having $p$ and $q$ elements respectively, whereas $p>=1$ and $q>=1$. Both of these trees are merged into another binary tree in $O((n)^a {(\\log (n))}^b)$ time where n in this case is the total number of nodes that will be present in the new merged tree, Find the value of $5*a - 2*b =$ _____",
+          "type": "Numerical",
+          "answer": "5:5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-ds-shallow-1,numerical-answers,binary-tree,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452769",
+          "text": "Suppose you have a circular doubly linked list $ C $ containing $ r $ elements and another singly linked list $ P $ containing $ m $ nodes, where each node in $ P $ stores a direct reference to a node in $ C $ (with $ r/3 < m < r/2 $). The references in $ P $ are not in any specific order. Determine the most efficient algorithm, using $ O(1) $ additional space if necessary and assuming only comparison-based sorting, to output the elements from $ C $ as specified by the references in $ P $. The time complexity of the best algorithm will be:<br /><ol style=\"list-style-type:upper-alpha\"><li> $ \\Theta(r) $</li><li> $ \\Theta(m \\log m) $</li> <li>$ \\Theta(r \\log m) $</li>  <li>$ \\Theta(r + m) $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,linked-list,time-complexity,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452787",
+          "text": "Sarah is tasked with writing a program to construct a binary tree from the given preorder and inorder traversals, where the tree has $ n $ nodes. In this case, she is not allowed to use any additional data structures like hashmaps or dictionaries. What is the best possible time complexity for this program, considering the constraints?<br /> <br /><ol style=\"list-style-type:upper-alpha\"><li> $ \\Theta(n \\log n) $</li><li> $ \\Theta(n) $</li> <li>$ \\Theta(n^2) $</li>  <li>$ \\Theta(n^3) $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-ds-shallow-1,tree-traversal,binary-tree,time-complexity,stack,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452789",
+          "text": "<p>The Cut Vertices in the given graph are:</p><p><br><img alt=\"\" width=\"266\" height=\"267\" src=\"data:image/png;base64,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\"></p><ol style=\"list-style-type:upper-alpha\"><li>D, B and C</li><li>D and C</li><li>B</li><li>A, C and E</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-ds-shallow-1,graph-theory,graph-connectivity,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452763",
+          "text": "<p>Consider the following C function to delete a node at the end of linked list.<br> </p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">void delete_node_end(struct node *Start)\n&nbsp;{\n&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;struct node *p;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(Start == NULL)\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  printf(\"Llist empty\");\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  return;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while (Start-&gt;next != NULL)\n&nbsp;&nbsp;&nbsp;&nbsp; {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p=Start;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Start = Start-&gt;next;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p-&gt;next = NULL;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;free(Start);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\", Start-&gt;data);\n}</pre><p><br><br>Which of the following is $TRUE$ about above function?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>The function may crash when the passed linked list is empty.</li><li>The function does not delete a node at the end of linked list.</li><li>Pointer Start becomes dangling pointer when a node is deleted at the end of linked list.</li><li>Last printf prints the data of initial node of the linked list.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,linked-list,c-language,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452729",
+          "text": "<p>Consider the following three structure declarations and their initialization in C language:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">struct point1\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int x, y, z;\n} mypoint1[3000];\n\nfor(i = 0; i &lt; 3000; i++)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;mypoint1[i].x = rand();\n&nbsp;&nbsp;&nbsp;&nbsp;mypoint1[i].y = rand();\n&nbsp;&nbsp;&nbsp;&nbsp;mypoint1[i].z = rand();\n}\n\nstruct point2\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int x[3000], y[3000], z[3000];\n} mypoint2;\n\nfor(i = 0; i &lt; 3000; i++)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;mypoint2.x[i] = rand();\n&nbsp;&nbsp;&nbsp;&nbsp;mypoint2.y[i] = rand();\n&nbsp;&nbsp;&nbsp;&nbsp;mypoint2.z[i] = rand();\n}\n\nstruct point3\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int x[3000];\n} mypoint3;\n\nfor(i = 0; i &lt; 3000; i++)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;mypoint3.x[i] = rand();\n}</pre><p><br>Assume the following:</p><ul><li>The size of an integer is 4 bytes,</li><li>Cache line size is 128 bytes,</li><li>Cache is 64 KB, direct-mapped, with all cache lines invalidated initially,</li><li>All arrays and structures are aligned to cache lines, with no other intervening cache accesses.</li></ul><p>Let $n_1$, $n_2$, and $n_3$ represent the number of cache misses during the initialization of $mypoint1,$ $mypoint2,$ and $mypoint3,$ respectively. Compute the sum $n_1 + n_2 + n_3$.</p>",
+          "type": "Numerical",
+          "answer": "676:676",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-ds-shallow-1,numerical-answers,array,cache-memory,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452785",
+          "text": "Evaluate the result of the postfix expression 5  3  2  ^ 4 * +  6  2  /  -",
+          "type": "Numerical",
+          "answer": "38:38",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-ds-shallow-1,numerical-answers,infix-prefix,expression-evaluation,stack,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452767",
+          "text": "<p>The time complexity of below code is</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&nbsp;&lt;stdio.h&gt;\n#define TEN 10\nvoid updateFreq(int n, int fq[])\n{\n&nbsp;&nbsp;&nbsp;&nbsp;while (n)\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int digit = n % TEN;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fq[digit]++;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n /= TEN;\n&nbsp;&nbsp;&nbsp;&nbsp;}\n}\nint areAnagrams(int a, int b)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int fqA[TEN] = {0};\n&nbsp;&nbsp;&nbsp;&nbsp;int fqB[TEN] = {0};\n&nbsp;&nbsp;&nbsp;&nbsp;updateFreq(a, fqA);\n&nbsp;&nbsp;&nbsp;&nbsp;updateFreq(b, fqB);\n&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; TEN; i++)\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (fqA[i] != fqB[i])\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 0;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;return 1;\n}\nint main()\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int a = 240, b = 204;\n&nbsp;&nbsp;&nbsp;&nbsp;if (areAnagrams(a, b))\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"Yes\\n\"); &nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;else\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"No\\n\");\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;return 0;\n}\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$O(\\log_{10} a + \\log_{10} b)$</li><li>$O(a + b)$</li><li>$O(b \\log_{10} a)$</li><li>$O(b)$</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,time-complexity,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452748",
+          "text": "In an AVL tree with $n$ nodes, if the time complexity for performing an insertion operation, including all necessary rotations to maintain the balance of the tree, expressed as $ \\Theta(n^p (\\log n)^q) $ based on the size and height of the tree, then what is the value of  $ 3^p + 4^q $?",
+          "type": "Numerical",
+          "answer": "5:5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-ds-shallow-1,numerical-answers,binary-search-tree,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452759",
+          "text": "<p>You are given the following code snippet for inserting a new element into a max-heap, where the parent(i) function returns the index of the parent node, and the size variable holds the current number of elements in the heap. &nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">void swap(int *p, int *q)\n{\n&nbsp;int temp = *p;\n&nbsp;&nbsp;*p = *q;\n&nbsp;&nbsp;*q = temp;\n}\nvoid insert(int element)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;size++;\n&nbsp;&nbsp;&nbsp;&nbsp;int i = size - 1;\n&nbsp;&nbsp;&nbsp;&nbsp;heap[i] = element;\n&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;while (__________________)\n&nbsp;&nbsp;&nbsp;&nbsp;    {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;swap(&amp;heap[i], &amp;heap[parent(i)]);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i = parent(i);\n&nbsp;&nbsp;&nbsp;&nbsp;    }\n}</pre><p><br>The correct replacement for While condition will be?</p><p>A. $i &gt; 0$ &amp;&amp; $heap[parent(i)] &lt; heap[i]$</p><p>B. $i &lt; 0$ || $heap[parent(i)] &gt; heap[i]$</p><p>C. $i &lt; 0$ &amp;&amp; $heap[parent(i)] &gt; heap[i]$</p><p>D. $i &gt; 0$ || $heap[parent(i)] &lt; heap[i]$</p>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,binary-heaps,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452736",
+          "text": "Determine the Correct Asymptotic Growth Order; Given the following functions, determine the correct order of their asymptotic growth rates as $ n \\to \\infty $:<br />$ \\log n $, $ n \\log n $, $ 2^n $, $ n^{\\log n} $, $ \\log(\\log n)$, $ n^{2^n} $, $ \\sqrt{n} $<br />Which of the following correctly arranges these functions from slowest to fastest growth?<br /><ol style=\"list-style-type:upper-alpha\"><li> $ \\log(\\log n) < \\log n < \\sqrt{n} < n \\log n < n^{\\log n} < 2^n < n^{2^n} $</li><li> $ \\log n < \\log(\\log n) < \\sqrt{n} < 2^n < n \\log n < n^{\\log n} < n^{2^n} $</li> <li>$ \\log(\\log n) < \\sqrt{n} < \\log n < n \\log n < 2^n < n^{\\log n} < n^{2^n} $</li>  <li>$ \\log n < \\log(\\log n) < \\sqrt{n} < n^{\\log n} < n \\log n < 2^n < n^{2^n} $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,asymptotic-notations,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452751",
+          "text": "<p>What is the best time complexity (not considering best-case input but the most efficient algorithm for all cases) for finding the $k^{th}$ smallest element in a binary search tree with $n$ nodes and height $h$?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\Theta(n)$</li><li>$\\Theta(n \\log n)$</li><li>$O(h)$</li><li>$\\Omega(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,binary-search-tree,time-complexity,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452744",
+          "text": "<p>What will be the output of the following C program?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\nint main()\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int a[2][3] = {{1, 2, 3}, {4, 5, 6}};\n&nbsp;&nbsp;&nbsp;&nbsp;int (*ptr1)[3] = a;\n&nbsp;&nbsp;&nbsp;&nbsp;int (*ptr2)[3] = a + 1;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d %d \", *(*ptr1 + 1), *(*(ptr1 + 1) + 1));\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d %d \", *(*ptr2 + 2), *(*(ptr2 - 1) + 2));\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d %d\\n\", *ptr1[0], *ptr2[0]);\n&nbsp;&nbsp;&nbsp;&nbsp;return 0;\n}\n​​​​​​​\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$2$ $4$ $6$ $3$ $1$ $4$<br>&nbsp;&nbsp;</li><li>$2$ $5$ $6$ $3$ $1$ $4$<br>&nbsp;&nbsp;</li><li>$2$ $3$ $6$ $5$ $1$ $2$<br>&nbsp;&nbsp;</li><li>$2$ $5$ $6$ $1$ $4$ $2$</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-ds-shallow-1,array,pointers,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452753",
+          "text": "What is the maximum number of nodes in a complete $ k $-ary tree where $ k = 3 $ (each node has at most $3$ children) and the height (starting from $1$) is $5$?\nThe maximum number of nodes is __________.",
+          "type": "Numerical",
+          "answer": "121:121",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-ds-shallow-1,numerical-answers,tree,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "452779",
+          "text": "<p>In a binary search tree, you are tasked with searching for the key $ 57 $. Which of the following traversal sequences represent the valid order of nodes visited while searching for $ 57 $?</p><ol style=\"list-style-type:upper-alpha\"><li>$ 45, 78, 34, 56, 57 $<br>&nbsp;&nbsp;</li><li>$ 45, 56, 34, 57 $<br> </li><li>$ 78, 45, 34, 56, 57 $<br> </li><li>$ 78, 34, 45, 56, 57 $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-ds-shallow-1,binary-search-tree,one-mark",
+          "category": "Data Structures"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 317 [Data Structures]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "539137",
+          "text": "<p data-start=\"779\" data-end=\"849\">A queue is implemented using two stacks $\\text{S1}$ and $\\text{S2}$.</p><p data-start=\"851\" data-end=\"1010\">Use the implementation where $\\texttt{dequeue()}$ is $\\text{O(1)}$ by keeping the <strong data-start=\"917\" data-end=\"958\">front of the queue at the top of </strong>$\\textbf{S1}$. Stack $\\text{S2}$&nbsp;is used temporarily during $\\texttt{enqueue()}$.</p><p data-start=\"1012\" data-end=\"1084\">Starting with both stacks empty, perform the following queue operations:</p><pre data-start=\"1086\" data-end=\"1172\"><code>enqueue(1)\nenqueue(2)\nenqueue(3)\ndequeue()\ndequeue()\nenqueue(4)\nenqueue(5)</code></pre><p data-start=\"1174\" data-end=\"1219\">What are the final contents of $\\text{S1}$ and $\\text{S2}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li><pre><code>S1 top to bottom: 3, 4, 5\nS2: empty</code>\n</pre></li><li><pre><code>S1 top to bottom: 5, 4, 3\nS2: empty</code>\n</pre></li><li><pre><code>S1 top to bottom: 3\nS2 top to bottom: 5, 4</code>\n</pre></li><li><pre><code>S1 top to bottom: 4, 5, 3\nS2: empty</code></pre></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 317"
+        },
+        {
+          "post_id": "539130",
+          "text": "<p data-start=\"4577\" data-end=\"4694\">Suppose a circular queue of capacity $(n - 1)$ elements is implemented with an array of $n$ elements.</p><p data-start=\"4696\" data-end=\"4810\">Insertion and deletion operations are carried out using $\\texttt{REAR}$ and $\\texttt{FRONT}$ as array index variables, respectively.</p><p data-start=\"4812\" data-end=\"4822\">Initially:</p><p data-start=\"4824\" data-end=\"4852\">$\\texttt{REAR = FRONT = 0}$</p><p data-start=\"4854\" data-end=\"4915\">Which conditions correctly detect queue full and queue empty?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li><pre><code>Full:  (REAR + 1) mod n == FRONT\nEmpty: REAR == FRONT</code>\n</pre></li><li><pre><code>Full:  (REAR + 1) mod n == FRONT\nEmpty: (FRONT + 1) mod n == REAR</code>\n</pre></li><li><pre><code>Full:  REAR == FRONT\nEmpty: (REAR + 1) mod n == FRONT</code>\n</pre></li><li><pre><code>Full:  (FRONT + 1) mod n == REAR\nEmpty: REAR == FRONT</code></pre></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 317"
+        },
+        {
+          "post_id": "539126",
+          "text": "<p data-start=\"3342\" data-end=\"3449\">A FIFO queue is represented using a circular linked list and only one external pointer $\\text{Q}$.</p><ul><li data-start=\"3451\" data-end=\"3571\">Design $1: \\text{Q}$ points to the node containing the front item.<br>&nbsp;</li><li data-start=\"3451\" data-end=\"3571\">Design $2: \\text{Q}$&nbsp;points to the node containing the rear item.</li></ul><p data-start=\"3573\" data-end=\"3596\">Which design is better?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3598\" data-end=\"3781\">Design $1$ is better.<br>&nbsp;</li><li data-start=\"3598\" data-end=\"3781\">Design $2$ is better.<br>&nbsp;</li><li data-start=\"3598\" data-end=\"3781\">Both are the same.<br>&nbsp;</li><li data-start=\"3598\" data-end=\"3781\">$\\text{Q}$&nbsp;should point to the middle node.<br>&nbsp;</li><li data-start=\"3598\" data-end=\"3781\">A circular linked list cannot be used to represent a FIFO queue.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 317"
+        },
+        {
+          "post_id": "539124",
+          "text": "<p data-start=\"2143\" data-end=\"2330\">Consider an array implementation of a queue. Suppose we try to keep all items at the front of a partially-filled array, so that $\\texttt{data[0]}$ is always the front of the queue.</p><p data-start=\"2332\" data-end=\"2352\">What would go wrong?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2354\" data-end=\"2602\">The enqueue method would require linear time.<br>&nbsp;</li><li data-start=\"2354\" data-end=\"2602\">The $\\texttt{isEmpty}$ method would require linear time.<br>&nbsp;</li><li data-start=\"2354\" data-end=\"2602\">The dequeue method would require linear time.<br>&nbsp;</li><li data-start=\"2354\" data-end=\"2602\">None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 317"
+        },
+        {
+          "post_id": "539120",
+          "text": "<p data-start=\"712\" data-end=\"799\">Consider an initially empty stack $\\text{S}$ and an initially empty queue $\\text{Q}$.</p><p data-start=\"801\" data-end=\"840\">The following operations are performed:</p><pre data-start=\"842\" data-end=\"1025\"><code>S.push(5)\nS.push(6)\nS.push(S.top())\nS.push(7)\n\nQ.enqueue(S.pop())\nQ.enqueue(5)\nQ.enqueue(6)\n\nprint(Q.front())\n\nS.push(Q.dequeue())\n\nprint(S.pop())\n\nS.pop()\n\nprint(S.pop())</code></pre><p data-start=\"1027\" data-end=\"1048\"><em>(Note : The front() function is used to access the first element stored in the queue.)</em></p><p data-start=\"1027\" data-end=\"1048\">What will be printed?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1050\" data-end=\"1114\">$567$<br>&nbsp;</li><li data-start=\"1050\" data-end=\"1114\">$765$<br>&nbsp;</li><li data-start=\"1050\" data-end=\"1114\">$775$<br>&nbsp;</li><li data-start=\"1050\" data-end=\"1114\">None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 317"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 289 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534062",
+          "text": "<p data-start=\"178\" data-end=\"350\">In a $10$-bit $2$’s complement system, how many bit patterns represent negative integers that are divisible by $8$, not divisible by $16$, and have even parity?</p>",
+          "type": "Numerical",
+          "answer": "16",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 289"
+        },
+        {
+          "post_id": "534058",
+          "text": "A $12$-bit $2$’s complement number has hexadecimal representation $(B6D)_H$. This number is sign-extended to $16$ bits and then arithmetic right-shifted by $2$ positions. What is the final decimal value?",
+          "type": "Numerical",
+          "answer": "-293",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 289"
+        },
+        {
+          "post_id": "534064",
+          "text": "<p data-start=\"25\" data-end=\"153\">Which of the following exact decimal expressions can be represented in binary notation with a finite number of bits?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"155\" data-end=\"222\">$0.84-0.33$<br>&nbsp;</li><li data-start=\"155\" data-end=\"222\">$0.64-0.015$<br>&nbsp;</li><li data-start=\"155\" data-end=\"222\">$0.72+0.02$<br>&nbsp;</li><li data-start=\"155\" data-end=\"222\">$0.45-0.125$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 289"
+        },
+        {
+          "post_id": "534056",
+          "text": "<p data-start=\"56\" data-end=\"122\">Suppose we have two $16$-bit $2$’s complement numbers:</p><p data-start=\"124\" data-end=\"142\">$$101xx101101xxxxx$$</p><p data-start=\"144\" data-end=\"162\">$$1101101xx11xxxxx$$</p><p data-start=\"164\" data-end=\"238\">Here, each $x$ is an independent unknown bit and can be either $0$ or $1$.</p><p data-start=\"240\" data-end=\"371\">Could the sum of these two numbers possibly result in an overflow? If yes, write $1$ in the answer. If no, write $0$ in the answer.</p>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 289"
+        },
+        {
+          "post_id": "534060",
+          "text": "<p data-start=\"36\" data-end=\"205\">Which of the following $2$’s complement bit strings represents the smallest decimal value? Each bit string must be interpreted using its own given bit-width.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"207\" data-end=\"349\">$1001011$ as a $7$-bit number<br>&nbsp;</li><li data-start=\"207\" data-end=\"349\">$11001010$ as an $8$-bit number<br>&nbsp;</li><li data-start=\"207\" data-end=\"349\">$111000101$ as a $9$-bit number<br>&nbsp;</li><li data-start=\"207\" data-end=\"349\">$101111$ as a $6$-bit number</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 289"
+        }
+      ]
+    }
+  ]
+}

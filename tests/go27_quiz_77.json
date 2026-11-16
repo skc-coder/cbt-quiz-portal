@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_77",
+  "name": "GO Classes GATE CS | Operating System | Multi Level Paging | Weekly Quiz 2",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "497172",
+          "text": "<p>A processor uses two-level page tables for virtual-to-physical address translation. Both levels of page tables are stored in the main memory. Virtual and physical addresses are $\\mathbf{3 2}$ bits wide, and the system uses $\\mathbf{4}$ KB pages with $4$-byte page table entries (PTEs).<br>The two-level split is such that each page table contains the same number of entries. Memory is byte-addressable.<br>A program uses only the following virtual addresses during its execution:<br><br>$\\text{0x00001000}$<br><br>$\\text{0x00002000}$<br><br>$\\text{0xFFFFFE00}$<br><br>$\\text{0xFFFFFF00}$<br><br>Assume that a page table is allocated only when needed and that each page table occupies one full page frame.<br>The total memory required to store all page table structures for this program is:</p><ol style=\"list-style-type:upper-alpha\"><li>$4$ KB<br> </li><li>$8$ KB<br> </li><li>$12$ KB<br> </li><li>$16$ KB</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497183",
+          "text": "<p style=\"line-height:1.8;\">A computer system implements a two-level paging scheme with the following parameters:</p><ul style=\"line-height:1.8;\"><li>Virtual address size: \\(42\\) bits</li><li>Physical address size: \\(40\\) bits</li><li>Page size: \\(64\\ \\text{KB} = 2^{16}\\ \\text{bytes}\\)</li><li>Each page table (at both levels) occupies exactly one page (\\(64\\) KB).</li><li>Each Page Table Entry (PTE) occupies \\(8\\) bytes</li></ul><p style=\"line-height:1.8;\">The system accesses the virtual address \\(0\\text{x}\\ 00\\ 12\\ 34\\ 56\\ 78\\ 9\\).<br>Select all virtual addresses from the following that use the same outermost page table entry as this address:</p><ol style=\"list-style-type:upper-alpha; line-height:1.8;\"><li>\\(0\\text{x}\\ 00\\ 12\\ 34\\ 44\\ 44\\ 4\\)</li><li>\\(0\\text{x}\\ 00\\ 0A\\ 98\\ 76\\ 78\\ 9\\)</li><li>\\(0\\text{x}\\ 00\\ 13\\ 63\\ 45\\ 67\\ 8\\)</li><li>\\(0\\text{x}\\ 00\\ 00\\ 00\\ 06\\ 78\\ 9\\)</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,multiple-selects,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497178",
+          "text": "<p>A system uses $34$-bit virtual addresses and two-level paging.<br>The page size is $2$ KB (i.e., offset $=11$ bits).<br>The virtual address is divided as:<br>$$<br>\\begin{array}{|c|c|c|}<br>\\hline<br>n\\ \\text{bits} &amp; (34 - n - 11)\\ \\text{bits} &amp; 11\\ \\text{bits} \\\\<br>\\hline<br>\\end{array}<br>$$<br>$$<br>\\text{L1 index} \\quad \\text{L2 index} \\quad \\text{Page offset}<br>$$<br>A program uses $8$ MB of virtual memory.<br>What is the minimum number of second-level page tables required to map the entire address space used by the program?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$2^{n-12}$<br> </li><li>$2^{(n-11)}$<br> </li><li>$2^{(34-n-12)}$<br> </li><li>$2^{(n-23)}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497189",
+          "text": "A system uses a $47$-bit virtual address space with a page size of $\\mathbf{1 6 ~ K B}$. Each page table entry (PTE) requires $8$ bytes. Each page table must fit entirely within a single page.\nHow many levels of page tables are required to map the entire virtual address space?",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq58,numerical-answers,goclasses,operating-system,paging,multilevel-paging,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497190",
+          "text": "<p>A processor uses $11$-bit physical addresses and $16$-bit virtual addresses.<br><br>The page size is $2^{8}$ bytes, and a two-level paging scheme is used for address translation.<br><br>The virtual address is divided into the following fields:<br>$$<br>\\begin{array}{|c|c|c|}<br>\\hline<br>5~\\text{bits} &amp; 3~\\text{bits} &amp; 8~\\text{bits} \\\\<br>\\hline<br>\\end{array}<br>$$<br>$$<br>\\text{L1 index} \\quad \\text{L2 index} \\quad \\text{Page offset}<br>$$<br>Each Page Table Entry is $2$ bytes in size and has the following format:<br>$$<br>\\begin{array}{|c|c|}<br>\\hline<br>\\text{Physical Page Number (PPN)} &amp; \\text{Control bits} \\\\<br>\\hline<br>\\end{array}<br>$$<br>Determine which of the following L1 and L2 PPN values would NOT be possible:</p><ol style=\"list-style-type:upper-alpha\"><li>L1 PPN value $=120,$ L2 PPN value $=5$<br> </li><li>L1 PPN value $=64, $ L2 PPN value $=3$<br> </li><li>L1 PPN value $=127, $ L2 PPN value $=7$<br> </li><li>L1 PPN value $=12,$ L2 PPN value $=15$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,multiple-selects,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497182",
+          "text": "<p>A system uses $32$-bit virtual addresses and $4$-KB pages.<br>A three-level page table is used as follows:</p><ul><li>A single root page directory points to multiple mid-level directories.<br> </li><li>Each mid-level directory points to page table pages that store the actual page table entries (PTEs).</li></ul><p>Assume that only two pages in the virtual address space are valid: the very first page and the very last page.<br>How many total physical pages are used to store this page table structure (including all levels of indirection)?</p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq58,numerical-answers,goclasses,operating-system,paging,multilevel-paging,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497180",
+          "text": "<p>A process has a $32$-bit virtual address space and uses two-level paging with a $4$ KB page size. Assume the process accesses one page at the top, one in the middle, and one at the bottom of its virtual address space.<br>How large (in bytes) will the page table structure be (counting only the page tables, not data pages)?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$2^{12}$ bytes<br> </li><li>$2^{13}$ bytes<br> </li><li>$2^{14}$ bytes<br> </li><li>$2^{15}$ bytes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497187",
+          "text": "<p>A system uses a linear page table for a virtual address space of size $128$ bytes with $32$-byte pages.<br>Each Page Table Entry (PTE) contains the Page Frame Number (PFN) followed by a one valid bit.<br>The page table entries are as follows:<br>$$<br>\\begin{array}{c|c}<br>\\text{VPN} &amp; \\text{PTE (Hex)} \\\\<br>\\hline<br>0 &amp; \\text{0xFE} \\\\<br>1 &amp; \\text{0x0F} \\\\<br>2 &amp; \\text{0xFE} \\\\<br>3 &amp; \\text{0x09}<br>\\end{array}<br>$$<br>Now, for the following virtual addresses, determine which ones are valid (no page fault):</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{0x065}$<br> </li><li>$\\mathrm{0x00 \\mathrm{C}}$<br> </li><li>$\\mathrm{0x026}$<br> </li><li>$\\mathrm{0x058}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,multiple-selects,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497174",
+          "text": "<p>Suppose you search for an element $x$ in a sorted array of $N$ elements using a binary search.<br>Each page holds $p$ array elements ( $N&gt;p$ ).<br>Assume that the cost of a page fault is much higher than that of a normal memory access.<br>On average, how many page faults will be generated during the binary search?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\frac{\\log N}{p}$<br> </li><li>$\\log \\frac{N}{p}$<br> </li><li>$\\frac{N}{2 p}$<br> </li><li>$\\frac{p}{N}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497170",
+          "text": "<p>Consider a virtual memory system that uses $\\mathbf{2}$-level paging. The page size in this system is $\\mathbf{2 5 6}$ bytes. Each individual page table fits exactly into one memory frame, and the size of each page table entry (PTE) is $\\mathbf{8}$ bytes.<br>Suppose that there is a process with a virtual address space of size $\\mathbf{1 0 2 4 0}\\left(\\mathbf{1 0 x 2}{ }^{\\mathbf{1 0}}\\right)$ bytes. Also suppose that the entire address space is in memory.<br>How many valid PTEs will exist in the page tables for this process?</p><ol style=\"list-style-type:upper-alpha\"><li>$32$<br> </li><li>$40$<br> </li><li>$42$<br> </li><li>$48$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497192",
+          "text": "<p>Select all True statements.</p><ol style=\"list-style-type:upper-alpha\"><li>A process's virtual address space can be larger than the size of the physical address space.<br> </li><li>The physical address space can be larger than a process's virtual address space.<br> </li><li>A process cannot access more memory than the size of its virtual address space.<br> </li><li>A process cannot access more memory than the size of the physical address space.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,multiple-selects,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497168",
+          "text": "<p style=\"line-height:1.8;\">A system uses \\(15\\)-bit virtual addresses, a \\(32\\)-byte page size, and a two-level paging scheme.<br>Assume both levels have equal bits in address split.<br>Each outer and inner page table entry is \\(\\mathbf{1}\\) byte (MSB = valid bit, remaining \\(\\mathbf{7}\\) bits store the frame number).<br>Physical memory has \\(\\mathbf{128}\\) pages.<br><br>The relevant portion of physical page \\(\\mathbf{93}\\) is shown below:</p><div style=\"background:#f2f2f2; padding:12px; border-radius:6px; font-family:monospace; line-height:1.8;\">\\(\\text{pg }93:\\;\\; \\texttt{15 08 08 00 11 15 07 02 12 12 0c 03 1c 1a 13 11 ...}\\)</div><p style=\"line-height:1.8;\"><br>If the virtual address that refers to a byte on this page is \\(\\mathbf{0x48CB}\\), which byte value would be returned by a load to that address?</p><ol style=\"list-style-type:upper-alpha; line-height:1.8;\"><li>\\(\\mathrm{0x0C}\\)</li><li>\\(\\mathrm{0x02}\\)</li><li>\\(\\mathrm{0x03}\\)</li><li>\\(\\mathrm{0x1A}\\)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497193",
+          "text": "<p>Suppose that pages are $512$B and each page table entry is $4$ bytes.<br>Assume that somehow the virtual and physical address spaces were both $4$GB and that the page table begins at address $\\mathrm{0 x 10000000}$. If we wanted to access the virtual address $\\mathrm{0x00000345}$, what is the address of the PTE we would look at?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{0 x10000000}$<br> </li><li>$\\mathrm{0x10000001}$<br> </li><li>$\\mathrm{0x10000004}$<br> </li><li>$\\mathrm{0x10000345}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497176",
+          "text": "<p>Suppose you search for an element $x$ in a sorted array of $N$ elements using a linear search.<br>Each memory page holds $p$ array elements ( $N&gt;p$ ).<br>Assume that the cost of a page fault is much higher than that of a normal memory access.<br>On average, how many page faults will be generated during the linear search?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\frac{N}{2}$<br> </li><li>$\\frac{N}{2 p}$<br> </li><li>$\\log \\frac{N}{p}$<br> </li><li>$\\frac{p}{N}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497185",
+          "text": "<p style=\"line-height:1.8;\">A system uses \\(15\\)-bit virtual addresses, a \\(32\\)-byte page size, and a two-level paging scheme.<br>The address bits (other than the offset) are split equally between the outer and inner page table indices.<br>Each Page Table Entry (PTE) consists of a valid bit (MSB) followed by a \\(7\\)-bit Page Frame Number (PFN).<br>The outer page table is located in physical page \\(73\\).<br><br>Partial physical memory (in hexadecimal, \\(0\\)-based indexing):</p><div style=\"background:#f2f2f2; padding:12px; border-radius:6px; font-family:monospace; line-height:1.8;\">\\(\\text{pg }6:\\;\\; \\texttt{0a 1c 01 14 0b 1a ...}\\)<br>\\(\\text{pg }73:\\;\\; \\texttt{a2 d2 97 96 f2 7f ...}\\)<br>\\(\\text{pg }114:\\;\\; \\texttt{7f 7f 7f 86 1f 0c ...}\\)</div><p style=\"line-height:1.8;\"><br>The virtual address to be translated is \\(0 \\text{x} 1787\\).<br>What is the value read from memory after translation?</p><ol style=\"list-style-type:upper-alpha; line-height:1.8;\"><li>\\(0 \\text{x} 7F\\)</li><li>\\(0 \\text{x} 86\\)</li><li>\\(0 \\text{x} 1A\\)</li><li>Page fault occurs</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq58,goclasses,operating-system,paging,multilevel-paging,one-mark",
+          "category": "Operating System"
+        }
+      ]
+    }
+  ]
+}

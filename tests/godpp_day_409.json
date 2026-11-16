@@ -1,0 +1,70 @@
+{
+  "name": "Day 289 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534054",
+          "text": "<p data-start=\"110\" data-end=\"167\">What is the output of the following code?</p><pre data-start=\"169\" data-end=\"385\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() { int a = 10, b = 20; int *p, *q;  p = &a; q = &b;  *p = *p + 5; *q = *p + *q; p = q; *p = *p - 10;  printf(&quot;%d %d&quot;, a, b);  return 0; }\" data-pbcklang=\"\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\n\nint main() {\nint a = 10, b = 20;\nint *p, *q;\n\np = &a;\nq = &b;\n\n*p = *p + 5;\n*q = *p + *q;\np = q;\n*p = *p - 10;\n\nprintf(\"%d %d\", a, b);\n\nreturn 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"387\" data-end=\"476\">$\\texttt{15\\ 25}$<br>&nbsp;</li><li data-start=\"387\" data-end=\"476\">$\\texttt{15\\ 35}$<br>&nbsp;</li><li data-start=\"387\" data-end=\"476\">$\\texttt{10\\ 25}$<br>&nbsp;</li><li data-start=\"387\" data-end=\"476\">$\\texttt{25\\ 15}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 289"
+        },
+        {
+          "post_id": "534050",
+          "text": "<p data-start=\"2315\" data-end=\"2372\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int i, j, count = 0;      for (i = 1; i &lt;= 4; i++) {         for (j = 1; j &lt;= 4; j++) {             if (i == j)                 continue;              if (i + j &gt; 5)                 break;              count++;         }     }      printf(&quot;%d&quot;, count);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int i, j, count = 0;\n\n    for (i = 1; i &lt;= 4; i++) {\n        for (j = 1; j &lt;= 4; j++) {\n            if (i == j)\n                continue;\n\n            if (i + j &gt; 5)\n                break;\n\n            count++;\n        }\n    }\n\n    printf(\"%d\", count);\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 289"
+        },
+        {
+          "post_id": "534045",
+          "text": "<p data-start=\"227\" data-end=\"284\">What is the output of the following code?</p><pre data-start=\"286\" data-end=\"620\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a[5] = {2, 4, 1, 3, 5};     int i, sum = 0;      for (i = 0; i &lt; 5; i++) {         if (a[i] % 2 == 0)             sum = sum + a[i];         else {             sum = sum + i;              if (sum &gt; 8)                 break;         }     }      printf(&quot;%d %d&quot;, i, sum);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a[5] = {2, 4, 1, 3, 5};\n    int i, sum = 0;\n\n    for (i = 0; i &lt; 5; i++) {\n        if (a[i] % 2 == 0)\n            sum = sum + a[i];\n        else {\n            sum = sum + i;\n\n            if (sum &gt; 8)\n                break;\n        }\n    }\n\n    printf(\"%d %d\", i, sum);\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"622\" data-end=\"706\">$\\texttt{3\\ 11}$<br>&nbsp;</li><li data-start=\"622\" data-end=\"706\">$\\texttt{4\\ 16}$<br>&nbsp;</li><li data-start=\"622\" data-end=\"706\">$\\texttt{5\\ 16}$<br>&nbsp;</li><li data-start=\"622\" data-end=\"706\">$\\texttt{2\\ 8}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 289"
+        },
+        {
+          "post_id": "534048",
+          "text": "<p data-start=\"1407\" data-end=\"1464\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int update(int x) {     x = x + 3;     return x * 2; }  int main() {     int a = 4, b;      b = update(a);     printf(&quot;%d %d&quot;, a, b);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint update(int x) {\n    x = x + 3;\n    return x * 2;\n}\n\nint main() {\n    int a = 4, b;\n\n    b = update(a);\n    printf(\"%d %d\", a, b);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1647\" data-end=\"1730\">$\\texttt{7\\ 14}$<br>&nbsp;</li><li data-start=\"1647\" data-end=\"1730\">$\\texttt{4\\ 14}$<br>&nbsp;</li><li data-start=\"1647\" data-end=\"1730\">$\\texttt{4\\ 8}$<br>&nbsp;</li><li data-start=\"1647\" data-end=\"1730\">$\\texttt{7\\ 8}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 289"
+        },
+        {
+          "post_id": "534052",
+          "text": "<p data-start=\"3993\" data-end=\"4050\">What is the output of the following code?</p><pre data-start=\"4052\" data-end=\"4357\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int x = 3, y = 1;      switch (x - 1) {         case 1:             y = y + 2;         case 2:             y = y * 3;         case 3:             y = y - 1;             break;         default:             y = y + 5;     }      printf(&quot;%d&quot;, y);     return 0; }\" data-pbcklang=\"\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\n\nint main() {\n    int x = 3, y = 1;\n\n    switch (x - 1) {\n        case 1:\n            y = y + 2;\n        case 2:\n            y = y * 3;\n        case 3:\n            y = y - 1;\n            break;\n        default:\n            y = y + 5;\n    }\n\n    printf(\"%d\", y);\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 289"
+        }
+      ]
+    }
+  ]
+}

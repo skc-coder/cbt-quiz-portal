@@ -1,0 +1,70 @@
+{
+  "name": "Day 226 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525833",
+          "text": "<p>The negation of the statement $((A \\wedge(B \\vee C)) \\Rightarrow(A \\vee B)) \\Rightarrow A$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>equivalent to $B \\vee \\sim C$</li><li>equivalent to $\\sim A$</li><li>equivalent to $\\sim C$</li><li>a fallacy</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 226"
+        },
+        {
+          "post_id": "525822",
+          "text": "<p>Aunt Nellie baked a pie and left it to cool. Upon returning home she finds that exactly one of her four visiting relatives - Charles, Kelly, Dawn, or Tyler - has eaten a quarter of the pie. She questions each of them and they make the following statements:<br>- Charles: \"Kelly ate the piece of pie.\"<br>- Dawn: \"I did not eat the piece of pie.\"<br>- Kelly: \"Tyler ate the pie.\"<br>- Tyler: \"Kelly lied when she said I ate the pie.\"</p><p>It is known that exactly one statement is true and exactly one person is the culprit. Who ate the pie?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Charles</li><li>Kelly</li><li>Dawn</li><li>Tyler</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 226"
+        },
+        {
+          "post_id": "525826",
+          "text": "<p>Let $p$ : \"Jupiter is a planet\" and $q$ : \"India is an island.\" Which of the following is the correct verbal description of $\\neg p$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Jupiter is a planet and India is an island</li><li>Jupiter is not a planet or India is not an island</li><li>Jupiter is not a planet</li><li>If Jupiter is a planet then India is not an island</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 226"
+        },
+        {
+          "post_id": "525831",
+          "text": "<p>The statement $(p \\wedge(\\sim q)) \\vee((\\sim p) \\wedge q) \\vee((\\sim p) \\wedge(\\sim q))$ is equivalent to $\\_\\_\\_\\_$ .</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(\\sim p) \\vee(\\sim q)$</li><li>$p \\vee(\\sim q)$</li><li>$p \\vee q$</li><li>$(\\sim p) \\vee q$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 226"
+        },
+        {
+          "post_id": "525829",
+          "text": "<p>Let $p$ : \"Jupiter is a planet\" and $q$ : \"India is an island.\" Which of the following is the correct verbal description of $p \\rightarrow \\neg q$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Jupiter is a planet if and only if India is not an island</li><li>If India is not an island then Jupiter is a planet</li><li>Jupiter is not a planet or India is not an island</li><li>If Jupiter is a planet then India is not an island</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 226"
+        }
+      ]
+    }
+  ]
+}

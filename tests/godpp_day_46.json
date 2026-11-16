@@ -1,0 +1,30 @@
+{
+  "name": "Day 44 [Mathematical Logic]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "476463",
+          "text": "<p>Statement $(P \\Rightarrow Q) \\wedge(R \\Rightarrow Q)$ is logically equivalent to :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(P \\Rightarrow R) \\wedge(Q \\Rightarrow R)$<br>&nbsp;</li><li>$(P \\Rightarrow R) \\vee(Q \\Rightarrow R)$<br>&nbsp;</li><li>$(P \\wedge R) \\Rightarrow Q$<br>&nbsp;</li><li>$(P \\vee R) \\Rightarrow Q$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 44"
+        }
+      ]
+    }
+  ]
+}

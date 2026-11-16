@@ -1,0 +1,70 @@
+{
+  "name": "Day 235 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "527206",
+          "text": "<p>The value of $\\begin{vmatrix} 1 & \\log _x y & \\log_x z \\\\&nbsp;\\log _y x & 1 &&nbsp;\\log_y z \\\\&nbsp;\\log _z x &&nbsp;\\log _z y & 1 \\end{vmatrix}$ is</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$0$<br>&nbsp;</li><li>$1$<br>&nbsp;</li><li>$-1$<br>&nbsp;</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 235"
+        },
+        {
+          "post_id": "527209",
+          "text": "<p>Let $A$ be an $n \\times n$ matrix such that $\\mid A^{2} \\mid\\: =1$. Here $\\mid A \\mid $ stands for determinant of matrix $A$. Then</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$\\mid A \\mid =1$<br>&nbsp;</li><li>$\\mid A \\mid =0 \\text{ or } 1$<br>&nbsp;</li><li>$\\mid A \\mid =-1, 0 \\text{ or } 1$<br>&nbsp;</li><li>$\\mid A \\mid =-1&nbsp; \\text{ or }&nbsp; 1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 235"
+        },
+        {
+          "post_id": "527197",
+          "text": "<p>If $f(x) = \\begin{bmatrix} \\cos x & -\\sin x & 0 \\\\ \\sin x & \\cos x & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$ then the value of $\\big(f(x)\\big)^2$ is</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$f(x)$<br>&nbsp;</li><li>$f(2x)$<br>&nbsp;</li><li>$2f(x)$<br>&nbsp;</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 235"
+        },
+        {
+          "post_id": "527200",
+          "text": "<p>Let two systems of linear equations be defined as follows:</p><p>$\\begin{array} {} & x+y & =1 \\\\ P: & 3x+3y & =3 \\\\ & 5x+5y & =5 \\end{array}$ and&nbsp;$\\begin{array} {} & x+y & =3 \\\\ Q: & 2x+2y & =4 \\\\ & 5x+5y & =12 \\end{array}$. Then,<br>&nbsp;</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$P$ and $Q$ are inconsistent<br>&nbsp;</li><li>$P$ and $Q$ are consistent<br>&nbsp;</li><li>$P$ is consistent but&nbsp;$Q$ is inconsistent<br>&nbsp;</li><li>None of the above</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 235"
+        },
+        {
+          "post_id": "527194",
+          "text": "<p>The value of $\\begin{vmatrix} 1+a & 1 & 1 & 1 \\\\ 1 & 1+b & 1 & 1 \\\\ 1 & 1 & 1+c & 1 \\\\ 1 & 1 & 1 & 1+d \\end{vmatrix}$ is<br>&nbsp;</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$abcd(1+\\frac{1}{a} +&nbsp;\\frac{1}{b} +&nbsp;\\frac{1}{c} +&nbsp;\\frac{1}{d})$<br>&nbsp;</li><li>$abcd(\\frac{1}{a} +&nbsp;\\frac{1}{b} +&nbsp;\\frac{1}{c} +&nbsp;\\frac{1}{d})$<br>&nbsp;</li><li>$1+\\frac{1}{a} +&nbsp;\\frac{1}{b} +&nbsp;\\frac{1}{c} +&nbsp;\\frac{1}{d}$<br>&nbsp;</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 235"
+        }
+      ]
+    }
+  ]
+}

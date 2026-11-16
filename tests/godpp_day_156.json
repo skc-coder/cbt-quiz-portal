@@ -1,0 +1,70 @@
+{
+  "name": "Day 152 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "501847",
+          "text": "<p>A computer system has $12$ <strong>tape drives</strong> (reusable resources). There are $n$ <strong>processes</strong> competing for these resources. Each process may require a <strong>maximum of</strong>&nbsp;$5$&nbsp;<strong>tape drives</strong> to complete its execution.</p><p>The maximum value of $n$ for which the system can guarantee to be <strong>deadlock-free</strong> is:</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 152"
+        },
+        {
+          "post_id": "501841",
+          "text": "<p>$\\text { The following C program is executed on a Unix/Linux system: }$<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;unistd.h&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\n    //Note the use of the logical AND operator (&&)\n    if(fork() && fork()) {\n        fork();\n    }\n    printf(\"GATE\\n\");\n    return 0;\n}\n</pre><p><br>$\\text { The total number of times the word}$ <strong>\"GATE\"</strong> $\\text {is printed is: }$</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3$<br>&nbsp;</li><li>$4$<br>&nbsp;</li><li>$6$<br>&nbsp;</li><li>$8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 152"
+        },
+        {
+          "post_id": "501840",
+          "text": "<p>The following C program is executed on a Unix/Linux system:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;unistd.h&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\n    int i;\n    int n = 10; // n can be any positive integer\n    for (i = 0; i &lt; n; i++) {\n        if (i % 2 != 0) {\n            fork();\n        }\n    }\n    return 0;\n}</pre><p><br>Determine the <strong>total number of processes</strong> (including the original parent process) created when the program finishes the loop.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2^n$<br>&nbsp;</li><li>$2^{n / 2}$<br>&nbsp;</li><li>$2^{\\lfloor n / 2\\rfloor}$<br>&nbsp;</li><li>$2^{[n / 2]}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 152"
+        },
+        {
+          "post_id": "501814",
+          "text": "<p>Consider a disk system with $200$ cylinders, numbered $0$ to $199$ . The requests to access the cylinders occur in the following sequence:</p><p>$$<br>82,170,43,140,24,16,190<br>$$</p><p><br>Assuming the head is currently at cylinder $50$ and is initially moving towards the <strong>higher</strong> cylinder numbers (the $199$ end), what is the total head movement required to satisfy all requests using the <strong>SCAN</strong> disk scheduling policy?</p>",
+          "type": "Numerical",
+          "answer": "332",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 152"
+        },
+        {
+          "post_id": "501811",
+          "text": "<p>Consider a disk system with $200$ cylinders. The requests to access the cylinders occur in the following sequence:</p><p>$$<br>55,58,39,18,90,160,150,38,184<br>$$</p><p><br>Assuming that the head is currently at cylinder $100$, what is the time taken to satisfy all requests if it takes $1 ~\\text{ms}$ to move from one cylinder to an adjacent one and the <strong>Shortest Seek Time First (SSTF)</strong> policy is used?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$240 ~\\text{ms}$<br>&nbsp;</li><li>$248 ~\\text{ms}$<br>&nbsp;</li><li>$256 ~\\text{ms}$<br>&nbsp;</li><li>$235 ~\\text{ms}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 152"
+        }
+      ]
+    }
+  ]
+}

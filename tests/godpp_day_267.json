@@ -1,0 +1,70 @@
+{
+  "name": "Day 230 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "526435",
+          "text": "<p>Given $\\operatorname{Instant}(i)$ : $i$ is an instant in time\" and Precedes( $x, y$ ): \" $x$ precedes $y$ \", which of the following correctly expresses \"time has a beginning\" - i.e., there exists a first instant that is not preceded by any other instant?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\exists x(\\operatorname{Instant}(x) \\wedge \\forall y(\\operatorname{Instant}(y) \\rightarrow \\operatorname{Precedes}(x, y)))$</li><li>$\\exists x(\\operatorname{Instant}(x) \\wedge \\neg \\exists y(\\operatorname{Instant}(y) \\wedge \\operatorname{Precedes}(y, x)))$</li><li>$\\forall x(\\operatorname{Instant}(x) \\rightarrow \\exists y(\\operatorname{Instant}(y) \\wedge \\operatorname{Precedes}(y, x)))$</li><li>$\\exists x(\\operatorname{Instant}(x) \\wedge \\exists y(\\operatorname{Instant}(y) \\wedge \\operatorname{Precedes}(y, x)))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 230"
+        },
+        {
+          "post_id": "526434",
+          "text": "<p>Given $\\operatorname{Instant}(i)$ : \" $i$ is an instant in time\" and Precedes $(x, y)$ : \" $x$ precedes $y$ \", which of the following correctly expresses \"time has no end\" - i.e., every instant is followed by another instant?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\exists x(\\operatorname{Instant}(x) \\wedge \\forall y(\\operatorname{Instant}(y) \\rightarrow \\operatorname{Precedes}(x, y)))$</li><li>$\\neg \\exists x(\\operatorname{Instant}(x) \\wedge \\neg \\exists y(\\operatorname{Instant}(y) \\wedge \\operatorname{Precedes}(x, y)))$</li><li>$\\forall x(\\operatorname{Instant}(x) \\rightarrow \\exists y(\\operatorname{Instant}(y) \\wedge$ Precedes $(x, y)))$</li><li>$\\forall x \\forall y(\\operatorname{Instant}(x) \\wedge \\operatorname{Instant}(y) \\rightarrow \\operatorname{Precedes}(x, y))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 230"
+        },
+        {
+          "post_id": "526432",
+          "text": "<p>Given Instant $(i)$ : \" $i$ is an instant in time\" and Precedes $(x, y)$ : \" $x$ precedes $y$ \", which of the following correctly expresses the combined statement \"time has a beginning but has no end\"?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\exists x(\\operatorname{Instant}(x) \\wedge \\neg \\exists y(\\operatorname{Instant}(y) \\wedge$ Precedes $(y, x))) \\wedge \\exists x(\\operatorname{Instant}(x) \\wedge \\neg \\exists y(\\operatorname{Instant}(y) \\wedge \\operatorname{Precedes}(x, y)))$</li><li>$\\exists x(\\operatorname{Instant}(x) \\wedge \\neg \\exists y(\\operatorname{Instant}(y) \\wedge \\operatorname{Precedes}(y, x))) \\wedge \\forall x(\\operatorname{Instant}(x) \\rightarrow \\exists y(\\operatorname{Instant}(y) \\wedge \\operatorname{Precedes}(x, y)))$</li><li>$\\forall x(\\operatorname{Instant}(x) \\rightarrow \\exists y(\\operatorname{Instant}(y) \\wedge$ Precedes $(y, x))) \\wedge \\forall x(\\operatorname{Instant}(x) \\rightarrow \\exists y(\\operatorname{Instant}(y) \\wedge \\operatorname{Precedes}(x, y)))$</li><li>(D) $\\exists x(\\operatorname{Instant}(x) \\wedge \\neg \\exists y(\\operatorname{Instant}(y) \\wedge$ Precedes $(y, x))) \\wedge \\neg \\forall x(\\operatorname{Instant}(x) \\rightarrow \\exists y(\\operatorname{Instant}(y) \\wedge \\operatorname{Precedes}(x, y)))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 230"
+        },
+        {
+          "post_id": "526429",
+          "text": "<p>Given Person $(x)$ : \" $x$ is a person\" and Ruler $(x)$ : \" $x$ is a ruler\", which of the following correctly expresses \"exactly one person is a ruler\" in first-order logic?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\forall x \\forall y((\\operatorname{Person}(x) \\wedge \\operatorname{Ruler}(x) \\wedge \\operatorname{Person}(y) \\wedge \\operatorname{Ruler}(y)) \\rightarrow(x=y))$</li><li>$\\exists x(\\operatorname{Person}(x) \\wedge \\operatorname{Ruler}(x))$</li><li>$\\exists x(\\operatorname{Person}(x) \\wedge$ Ruler $(x)) \\wedge \\forall x \\forall y((\\operatorname{Person}(x) \\wedge$ Ruler $(x) \\wedge \\operatorname{Person}(y) \\wedge \\operatorname{Ruler}(y)) \\rightarrow(x=y))$</li><li>$\\exists x \\forall y((\\operatorname{Person}(y) \\wedge \\operatorname{Ruler}(y)) \\leftrightarrow(x=y))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 230"
+        },
+        {
+          "post_id": "526292",
+          "text": "<p>Given Person $(x)$ : \" $x$ is a person\" and Ruler $(x)$ : \" $x$ is a ruler\", which of the following correctly expresses \"at most one person is a ruler\" in first-order logic?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\exists x(\\operatorname{Person}(x) \\wedge \\operatorname{Ruler}(x))$</li><li>$\\forall x \\forall y((\\operatorname{Person}(x) \\wedge \\operatorname{Ruler}(x) \\wedge \\operatorname{Person}(y) \\wedge \\operatorname{Ruler}(y)) \\rightarrow(x=y))$</li><li>$\\exists x \\forall y((\\operatorname{Person}(y) \\wedge \\operatorname{Ruler}(y)) \\rightarrow(x=y))$</li><li>$\\forall x(\\operatorname{Person}(x) \\rightarrow \\neg \\operatorname{Ruler}(x))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 230"
+        }
+      ]
+    }
+  ]
+}

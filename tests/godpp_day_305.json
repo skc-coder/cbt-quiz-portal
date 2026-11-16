@@ -1,0 +1,70 @@
+{
+  "name": "Day 243 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543025",
+          "text": "<p data-start=\"6040\" data-end=\"6087\">Consider an array of $2n$ elements of the form:</p><p data-start=\"6089\" data-end=\"6134\">$1,2n-1,2,2n-2,3,2n-3,4,2n-4,\\ldots,n,n$</p><p data-start=\"6136\" data-end=\"6160\">For example, when $n=8$:</p><p data-start=\"6162\" data-end=\"6231\">$1,15,2,14,3,13,4,12,5,11,6,10,7,9,8,8$</p><p data-start=\"6233\" data-end=\"6324\">What is the number of comparisons made by standard $2$-way quicksort with no initial shuffle?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"6326\" data-end=\"6425\">$\\Theta(\\log n)$<br>&nbsp;</li><li data-start=\"6326\" data-end=\"6425\">$\\Theta(n)$<br>&nbsp;</li><li data-start=\"6326\" data-end=\"6425\">$\\Theta(n\\log n)$<br>&nbsp;</li><li data-start=\"6326\" data-end=\"6425\">$\\Theta(n^2)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "543021",
+          "text": "<p data-start=\"4296\" data-end=\"4407\">Consider the problem of sorting an array of $n$ comparable elements in which there are only four distinct keys.</p><p data-start=\"4409\" data-end=\"4501\">It is possible to design an algorithm that makes at most $4n$ comparisons in the worst case.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4503\" data-end=\"4523\">True<br>&nbsp;</li><li data-start=\"4503\" data-end=\"4523\">False</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "543019",
+          "text": "<p data-start=\"2337\" data-end=\"2422\">Why do $2$-pivot and $3$-pivot quicksort generally perform better than $1$-pivot quicksort?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2424\" data-end=\"2571\">They always perform fewer comparisons.<br>&nbsp;</li><li data-start=\"2424\" data-end=\"2571\">They always perform fewer exchanges.<br>&nbsp;</li><li data-start=\"2424\" data-end=\"2571\">They produce fewer cache misses.<br>&nbsp;</li><li data-start=\"2424\" data-end=\"2571\">None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "543027",
+          "text": "<p data-start=\"7899\" data-end=\"7984\">Randomized quicksort is applied to $n$ distinct keys, where $n$ is divisible by $16$.</p><p data-start=\"7986\" data-end=\"8024\">A pivot is chosen uniformly at random.</p><p data-start=\"8026\" data-end=\"8121\">What is the probability that both recursive subarrays contain at least $\\frac{n}{16}$ elements?</p><p data-start=\"8123\" data-end=\"8153\"><em>Give your answer as a decimal.</em></p>",
+          "type": "Numerical",
+          "answer": "0.875",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "543005",
+          "text": "<p data-start=\"764\" data-end=\"914\">In the worst case, approximately how many key comparisons and exchanges does the standard $\\texttt{partition()}$ procedure perform on a subarray of length $n$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"916\" data-end=\"1111\">$\\frac{n}{2}$ comparisons and $\\frac{n}{2}$ exchanges<br>&nbsp;</li><li data-start=\"916\" data-end=\"1111\">$\\frac{n}{2}$ comparisons and $n$ exchanges<br>&nbsp;</li><li data-start=\"916\" data-end=\"1111\">$n$ comparisons and $\\frac{n}{2}$ exchanges<br>&nbsp;</li><li data-start=\"916\" data-end=\"1111\">$n$ comparisons and $n$ exchanges</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 243"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 242 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "542944",
+          "text": "<p data-start=\"4079\" data-end=\"4165\">Which of the following are <strong data-start=\"4106\" data-end=\"4134\">important design choices</strong> rather than arbitrary choices?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4167\" data-end=\"4266\">In binary search, compute the middle index using $\\texttt{(lo + hi) &gt;&gt;&gt; 1}$ instead of $\\texttt{(lo + hi) / 2}$.<br>&nbsp;</li><li data-start=\"4268\" data-end=\"4408\">When equal keys are encountered during merging, copy the element from the left subarray before the equal element from the right subarray.<br>&nbsp;</li><li data-start=\"4410\" data-end=\"4510\">During $2$-way quicksort partitioning, stop both scans when they encounter keys equal to the pivot.<br>&nbsp;</li><li data-start=\"4512\" data-end=\"4611\">In quicksort, always recursively process the left subarray before processing the right subarray.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 242"
+        },
+        {
+          "post_id": "542946",
+          "text": "<p data-start=\"6290\" data-end=\"6456\">Suppose $n$ elements are divided into groups of $r$ elements. The median of each group is found, and the median of these group medians is used as the selection pivot.</p><p data-start=\"6458\" data-end=\"6556\">For which value of $r$ does the resulting selection algorithm have worst-case running time $O(n)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"6558\" data-end=\"6632\">$r=3$<br>&nbsp;</li><li data-start=\"6558\" data-end=\"6632\">$r=7$<br>&nbsp;</li><li data-start=\"6558\" data-end=\"6632\">Both $r=3$ and $r=7$<br>&nbsp;</li><li data-start=\"6558\" data-end=\"6632\">Neither $r=3$ nor $r=7$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 242"
+        },
+        {
+          "post_id": "542942",
+          "text": "<p data-start=\"2477\" data-end=\"2523\">An array contains $n\\geq 8$ distinct elements:</p><p data-start=\"2525\" data-end=\"2545\">$a_1&lt;a_2&lt;\\cdots&lt;a_n$</p><p data-start=\"2547\" data-end=\"2594\">The array is sorted using randomized quicksort.</p><p data-start=\"2596\" data-end=\"2670\">What is the probability that $a_7$ and $a_8$ are compared with each other?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2672\" data-end=\"2727\">$0$<br>&nbsp;</li><li data-start=\"2672\" data-end=\"2727\">$\\dfrac{1}{n}$<br>&nbsp;</li><li data-start=\"2672\" data-end=\"2727\">$\\dfrac{2}{n}$<br>&nbsp;</li><li data-start=\"2672\" data-end=\"2727\">$1$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 242"
+        },
+        {
+          "post_id": "542940",
+          "text": "<p data-start=\"820\" data-end=\"921\">Two sorted subarrays, each containing $n/2$ elements, are merged into one sorted array of length $n$.</p><p data-start=\"923\" data-end=\"1004\">What is the possible range for the number of key comparisons made during merging?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1006\" data-end=\"1117\">Approximately $n/4$ to $n/2$<br>&nbsp;</li><li data-start=\"1006\" data-end=\"1117\">Approximately $n/2$<br>&nbsp;</li><li data-start=\"1006\" data-end=\"1117\">Approximately $n/2$ to $n$<br>&nbsp;</li><li data-start=\"1006\" data-end=\"1117\">Approximately $n$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 242"
+        },
+        {
+          "post_id": "542947",
+          "text": "<p data-start=\"8227\" data-end=\"8383\">The standard $2$-way quicksort partition procedure uses the first element as the pivot and stops both scans when they encounter an element equal to the pivot.</p><p data-start=\"8385\" data-end=\"8463\">It is applied to an array of $16$ identical elements indexed from $0$ to $15$:</p><p data-start=\"8465\" data-end=\"8500\">$[A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A]$</p><p data-start=\"8502\" data-end=\"8565\">At which index is the original pivot placed after partitioning?</p>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 242"
+        }
+      ]
+    }
+  ]
+}

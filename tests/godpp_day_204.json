@@ -1,0 +1,70 @@
+{
+  "name": "Day 200 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "522313",
+          "text": "<p>Which of the following statements regarding <strong>Semaphores</strong> and <strong>Monitors</strong> is/are <strong>CORRECT</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A binary semaphore can be used to achieve Mutual Exclusion.<br>&nbsp;</li><li>If a process performing a $\\verb|signal()|$ operation on a counting semaphore does not find any waiting processes, the semaphore value is incremented.<br>&nbsp;</li><li>Monitors are high-level synchronization constructs that require the programmer to manually manage the $\\verb|wait()|$ and $\\verb|signal()|$ operations for mutual exclusion.<br>&nbsp;</li><li>A counting semaphore initialized to $5$ can allow at most $5$ processes to enter the critical section simultaneously.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 200"
+        },
+        {
+          "post_id": "522317",
+          "text": "<p>A system has $5$ identical resource instances shared by $N$ processes. Each process requires a maximum of $2$ resource instances to complete its execution. What is the <strong>Maximum Value of</strong> $N$ for which the system is guaranteed to be <strong>Deadlock-Free</strong>?</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 200"
+        },
+        {
+          "post_id": "522311",
+          "text": "<p>Consider a system with three processes $P_1, P_2$, and $P_3$ with burst times 8,4 , and 2 units respectively. All processes arrive at time $t=0$. The system uses a<strong> Round Robin</strong> scheduling algorithm with a time quantum of 3 units. Calculate the <strong>Average Turnaround Time</strong> (in units) for these processes. (Assume no context switch overhead).</p>",
+          "type": "Numerical",
+          "answer": "11.33",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 200"
+        },
+        {
+          "post_id": "522319",
+          "text": "<p>Consider a disk with $200$ tracks $(0-199)$. The current position of the R/W head is at track $50$. The queue of pending requests is: $82,170,43,140,24,16$. If the <strong>SSTF (Shortest Seek Time First)</strong> algorithm is used, what is the total number of track movements required to satisfy all requests?</p>",
+          "type": "Numerical",
+          "answer": "188",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 200"
+        },
+        {
+          "post_id": "522315",
+          "text": "<p>A system uses $32$-bit virtual addresses and a page size of $4$ KB . If the system uses a <strong>Two-Level Paging</strong> scheme where the first-level page table (Outer Page Table) and the second-level page table are each limited to exactly one page, and each Page Table Entry (PTE) is $4$ bytes, what is the maximum number of bits available for the <strong>Page Offset</strong>?</p>",
+          "type": "Numerical",
+          "answer": "12",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 200"
+        }
+      ]
+    }
+  ]
+}

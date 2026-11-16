@@ -1,0 +1,70 @@
+{
+  "name": "Day 180 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "514337",
+          "text": "<p>Consider a system with three processes, $\\mathbf{P 1}, \\mathbf{P 2}$, and $\\mathbf{P 3}$, arriving at time $t=0$. Their burst times are $4 \\mathrm{~ms}, 6 \\mathrm{~ms}$, and $8&nbsp; ~\\mathrm{ms}$ , respectively. The system uses the Round Robin (RR) scheduling algorithm with a time quantum of $2 ~\\mathrm{ms}$.</p><p>However, there is a <strong>context switching overhead of </strong>$\\mathbf{0 . 5 ~ m s}$ every time the CPU switches from one process to another (this overhead does not occur before the first process starts or after the last process finishes).</p><p>What is the <strong>Completion Time</strong> of process $\\mathbf{P3}$?</p><p><strong>Assume :</strong> if there is no process left in the queue after time quantum expires of running process then context switch does not occur and process keeps running.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$18.0 ~\\mathrm{ms}$<br>&nbsp;</li><li>$20.5 ~\\mathrm{ms}$<br>&nbsp;</li><li>$21.0 ~\\mathrm{ms}$<br>&nbsp;</li><li>$21.5 ~\\mathrm{ms}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 180"
+        },
+        {
+          "post_id": "514334",
+          "text": "<p>Two processes, $\\mathbf{P1}$ and $\\mathbf{P2}$, share two binary semaphores (mutexes) $\\mathbf{S}$ and $\\mathbf{Q}$, both initialized to $\\mathbf{1}$. The code for the processes is shown below:</p><p>$\\mathbf{Process ~P1:}$</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">while (true) {\n&nbsp; &nbsp; wait(S);\n&nbsp; &nbsp; wait(Q);\n&nbsp; &nbsp; // Critical Section\n&nbsp; &nbsp; signal(S);\n&nbsp; &nbsp; signal(Q);\n}</pre><p><br>$\\mathbf{Process ~P2:}$</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">while (true) {\n&nbsp; &nbsp; wait(Q) ;\n&nbsp; &nbsp; wait(S);\n&nbsp; &nbsp; // Critical Section\n&nbsp; &nbsp; signal(Q);\n&nbsp; &nbsp; signal(S);\n}</pre><p><br>Which of the following statements is <strong>TRUE</strong> regarding the execution of these processes?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The system is free from deadlock but may suffer from starvation.<br>&nbsp;</li><li>The system is guaranteed to execute without any synchronization issues.<br>&nbsp;</li><li>The system may enter a deadlock state.<br>&nbsp;</li><li>The system enforces strict alteration between $\\mathrm{P1}$ and $\\mathrm{P2}$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 180"
+        },
+        {
+          "post_id": "514332",
+          "text": "<p>A hard disk has $200$ tracks $($numbered $0$ to $199)$. The disk head is initially located at track $53$. The disk queue contains read/write requests for the following tracks in the order they arrived:<br>$$<br>98,183,37,122,14,124,65,67<br>$$<br>If the <strong>Shortest Seek Time First (SSTF)</strong> disk scheduling algorithm is used, what is the <strong>total number of head movements</strong> required to satisfy all requests?</p>",
+          "type": "Numerical",
+          "answer": "236",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 180"
+        },
+        {
+          "post_id": "514330",
+          "text": "<p>A Unix-like file system uses $\\mathbf{2}$ <strong>KB</strong> disk blocks and $\\mathbf{4{$<strong>-byte</strong> block pointers. Each Inode contains:</p><ul><li>$12$ Direct pointers<br>&nbsp;</li><li>$1$ Single Indirect pointer<br>&nbsp;</li><li>$1$ Double Indirect pointer</li></ul><p>What is the approximate <strong>maximum file size</strong> supported by this file system structure?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$256 ~\\mathrm{MB}$<br>&nbsp;</li><li>$512 ~\\mathrm{MB}$<br>&nbsp;</li><li>$1 ~\\mathrm{MB}$<br>&nbsp;</li><li>$4 ~\\mathrm{MB}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 180"
+        },
+        {
+          "post_id": "514328",
+          "text": "<p>A computer system uses a $2$-level paging scheme for virtual memory management. The system has the following timing parameters:</p><ul><li><strong>TLB access time:</strong> $\\mathrm{20 ~ns}$<br>&nbsp;</li><li><strong>Main Memory access time:</strong>&nbsp;$\\mathrm{150 ~ns}$<br>&nbsp;</li><li><strong>TLB Hit Ratio:</strong>&nbsp;$80\\%$</li></ul><p>Assume that on a TLB miss, the page table entries are brought into the TLB and the time taken for the TLB update is negligible. What is the Effective Memory Access Time (EMAT) for this system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{170 ~ns}$<br>&nbsp;</li><li>$\\mathrm{200 ~ns}$<br>&nbsp;</li><li>$\\mathrm{230 ~ns}$<br>&nbsp;</li><li>$\\mathrm{470 ~ns}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 180"
+        }
+      ]
+    }
+  ]
+}

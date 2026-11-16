@@ -1,0 +1,70 @@
+{
+  "name": "Day 31 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "474597",
+          "text": "<p>Let the sequence $\\left\\{a_n\\right\\}$ be defined by:</p><p>$$<br>a_0=1, \\quad a_1=6, \\quad \\text { and } \\quad a_{n+1}=6 a_n-9 a_{n-1} \\text { for } n \\geq 1 .<br>$$</p><p><br>Which of the following is the closed-form expression for $a_n$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$a_n=3^n$<br>&nbsp;</li><li>$a_n=(n+1) \\cdot 3^n$<br>&nbsp;</li><li>$a_n=2^n+3^n$<br>&nbsp;</li><li>$a_n=(3 n+1)^n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 31"
+        },
+        {
+          "post_id": "474595",
+          "text": "The number of 6 -letter words, with or without meaning, that can be formed using the letters of the word MATHS such that any letter that appears in the word must appear at least twice, is_____________ .",
+          "type": "Numerical",
+          "answer": "1405",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 31"
+        },
+        {
+          "post_id": "474591",
+          "text": "<p>Q1. Let $A$ be a subset of $n+1$ numbers chosen from the set $\\{1,2,3, \\ldots, 2 n\\}$, where $n$ is a natural number. Which of the following must be true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>All elements in $A$ are even<br>&nbsp;</li><li>No two elements in $A$ are consecutive<br>&nbsp;</li><li>At least two elements in $A$ are consecutive<br>&nbsp;</li><li>All elements in $A$ are odd</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 31"
+        },
+        {
+          "post_id": "474593",
+          "text": "Compute the number of all possible rearrangements of the following sequence of letters<br>\n<br>\n$$<br>\nA A A B B B C C C<br>\n$$<br>\n<br>\nsuch that no three identical consecutive letters exist (that is no strings of the form $AAA$ or $BBB$ or $CCC$ exist in the rearrangment).",
+          "type": "Numerical",
+          "answer": "1314",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 31"
+        },
+        {
+          "post_id": "474589",
+          "text": "<p>The number of sequences of ten terms, whose terms are either 0 or 1 or 2 , that contain exactly five 1 s and exactly three 2 s , is equal to:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$360$<br>&nbsp;</li><li>$2520$<br>&nbsp;</li><li>$1820$<br>&nbsp;</li><li>$45$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 31"
+        }
+      ]
+    }
+  ]
+}

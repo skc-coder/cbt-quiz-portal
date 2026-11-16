@@ -1,0 +1,50 @@
+{
+  "name": "Day 219 [Data Structures]",
+  "duration": 9,
+  "total_qs": 3,
+  "total_qs_one": 3,
+  "total_qs_two": 0,
+  "total_marks": 3,
+  "apti_num_qs": 0,
+  "technical_num_qs": 3,
+  "technical_marks": 3,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 3,
+      "marks": 3,
+      "question": [
+        {
+          "post_id": "539209",
+          "text": "<div style=\"line-height:1.9; font-size:16px;\"><p>A stack is used to check whether parentheses, braces, and brackets are properly balanced.</p><p>Consider the following two inputs:</p><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">Input $1: \\texttt{[()]\\{\\}\\{[()()]()\\}}$<br>Input $2: \\texttt{[(])}$</p><p>What should the stack-based checker return for Input $1$ and Input $2$ respectively?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{true, false}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{false, true}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{true, true}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{false, false}$</p></li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 219"
+        },
+        {
+          "post_id": "539183",
+          "text": "<div style=\"line-height:1.9; font-size:16px;\"><p>Suppose an intermixed sequence of stack push and pop operations is performed. The push operations push the integers $0$ through $9$ in order. The pop operations print the returned values.</p><p><b>Which of the following output sequences could NOT occur?</b></p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{4 3 2 1 0 9 8 7 6 5}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{4 6 8 7 5 3 2 9 0 1}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 5 6 7 4 8 9 3 1 0}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{4 3 2 1 0 5 6 7 8 9}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{1 2 3 4 5 6 9 8 7 0}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{0 4 6 5 3 8 1 7 2 9}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{1 4 7 9 8 6 5 3 0 2}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{2 1 4 3 6 5 8 7 9 0}$</p></li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "B;F;G",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 219"
+        },
+        {
+          "post_id": "539153",
+          "text": "<div style=\"line-height:1.9; font-size:16px;\"><p>A stack client reads tokens from left to right. If the token is a word, it is pushed onto the stack. If the token is $\\texttt{-}$, one item is popped and printed.</p><p>Consider the following input:</p><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{it was - the best - of times - - - it was - the - -}$</p><p><b>What is printed?</b></p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{was best times of the was the it}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{it was the best of times was the}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{was best of times the was it the}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\texttt{best was times of the was the it}$</p></li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 219"
+        }
+      ]
+    }
+  ]
+}

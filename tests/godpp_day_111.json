@@ -1,0 +1,70 @@
+{
+  "name": "Day 108 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "491668",
+          "text": "In the network $172.25 .86 .192 / 28$, the fourth octet (in decimal) of the first IP address of the network which can be assigned to a host is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "193",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 108"
+        },
+        {
+          "post_id": "491667",
+          "text": "<p>Consider the following routing table at an IP router:</p><p>\\[<br>\\begin{array}{lll}<br>\\text{Network No} & \\text{Net Mask} & \\text{Next Hop} \\\\<br>200.20.128.0 & 255.255.192.0 & R_1 \\\\<br>200.20.160.0 & 255.255.224.0 & R_2 \\\\<br>200.20.180.0 & 255.255.255.0 & \\text{Interface 0} \\\\<br>0.0.0.0 & \\text{Default} & R_3 \\\\<br>\\end{array}<br>\\]</p><p>For each IP address in Group I, identify the correct choice of the next hop from Group II using the entries from the routing table above.</p><p>\\[<br>\\begin{array}{ll}<br>\\textbf{Group I} & \\textbf{Group II} \\\\<br>\\text{i) }~200.20.180.55 & \\text{a) Interface 0} \\\\<br>\\text{ii) }~200.20.175.10 & \\text{b) R}_1 \\\\<br>\\text{iii) }~200.20.150.100 & \\text{c) R}_2 \\\\<br>\\text{iv) }~200.20.200.1 & \\text{d) R}_3 \\\\<br>\\end{array}<br>\\]</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{i-a, ii-c, iii-b, iv-d}$<br>&nbsp;</li><li>$\\mathrm{i-a, ii-b, iii-c, iv-d}$<br>&nbsp;</li><li>$\\mathrm{i-c, ii-b, iii-d, iv-a}$<br>&nbsp;</li><li>$\\mathrm{i}-\\mathrm{a}, \\mathrm{ii}-\\mathrm{c}, \\mathrm{iii}-\\mathrm{b}, \\mathrm{iv}-\\mathrm{a}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 108"
+        },
+        {
+          "post_id": "491662",
+          "text": "Suppose the congestion window size of a TCP connection is $60$ KB when a timeout occurs. The connection has a round trip time of $50$ msec and uses a maximum segment size of $3$ KB . The time taken (in msec) by the TCP connection to reach a $60$ KB congestion window again is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "700",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 108"
+        },
+        {
+          "post_id": "491665",
+          "text": "Consider a LAN with three nodes $S_1, S_2$, and $S_3$. Time is divided into fixed-size slots, and a node can begin its transmission only at the beginning of a slot. A collision is said to have occurred if more than one node transmits in the same slot. The probabilities of generation of a frame in a time slot by $S_1, S_2$, and $S_3$ are $0.5,0.2$, and $0.1$ respectively. The probability of sending a frame in the first slot without any collision by any of these three stations is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "0.49",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 108"
+        },
+        {
+          "post_id": "491660",
+          "text": "<p>In a TCP connection using the Additive Increase Multiplicative Decrease (AIMD) algorithm, the congestion window size at the start of the slow start phase is $4$ MSS and the slow start threshold is $12$ MSS. A timeout event occurs during the sixth transmission. What is the congestion window size at the end of the eleventh transmission?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$7$ MSS<br>&nbsp;</li><li>$8$ MSS<br>&nbsp;</li><li>$9$ MSS<br>&nbsp;</li><li>$12$ MSS</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 108"
+        }
+      ]
+    }
+  ]
+}

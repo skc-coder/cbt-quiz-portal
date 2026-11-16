@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2026 | Probability and Statistics | Topic Wise Test 4",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "427266",
+          "text": "If the distribution of $X$ is symmetric and reaches its highest point at the exact middle of the distribution:<br /><ol style=\"list-style-type:upper-alpha\"><li> The mode of $X$ will be equal to the median of $X$.</li><li> The mean of $X$ will be equal to the median of $X$.</li> <li>The median of $X$ will be at the exact middle of the distribution.</li>  <li> All of the above are true.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427277",
+          "text": "<p>Consider three random variables, $X, Y$, and $Z$, with means $E(X)=1$, $E(Y)=2$, and $E(Z)=-1$. Given that $X$ and $Y$ are uncorrelated, and $E(X Z)=5$, what is $\\operatorname{COV}(X, Y+2 Z)$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>12</li><li>-12</li><li>2</li><li>-2</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,random-variable,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427279",
+          "text": "Let $Y=X+30$ and $Z=3 X-4$. $X$ is a uniform random variable on the interval $[-1,2]$.<br />Find $\\operatorname{COV}(Y, Z)$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\frac{3}{4}$</li><li> $\\frac{9}{4}$</li> <li>$\\frac{15}{4}$</li>  <li>$\\frac{27}{4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427260",
+          "text": "Given the joint density function $f(x, y)$ of random variables $X$ and $Y$ :<br />$f(x, y)= \\begin{cases}c x y & \\text { if } 0 \\leq y \\leq x \\leq 1 \\\\ 0 & \\text { otherwise }\\end{cases}$<br />Which of the following is $E[Y \\mid X=x]$, the conditional expectation of $Y$ given $X=x$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\frac{x}{3}$</li><li> $\\frac{x}{2}$</li> <li>$\\frac{2 x}{3}$</li>  <li>$\\frac{3 x}{2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427275",
+          "text": "Let $Z=3 X-Y-5$, where $X$ and $Y$ are independent random variables with $\\operatorname{Var}(X)=1$ and $\\operatorname{Var}(Y)=2$. What is $\\operatorname{Var}(Z)$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> 4</li><li> 7</li> <li>11</li>  <li>16</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427264",
+          "text": "<p>Which of the following statements is not true?</p><ol style=\"list-style-type:upper-alpha\"><li>Two random variables can have the same mean but different medians.</li><li>Two random variables can have the same mean but different variances.</li><li>The mean of the sum of two random variables is always equal to the sum of their means.</li><li>The variance of the sum of two random variables is always equal to the sum of their variances.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,random-variable,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427281",
+          "text": "<p>Express the probability $P(\\{-1&lt;X \\leq 4\\} \\cap\\{2&lt;Y \\leq 5\\})$ in terms of&nbsp; $F_{X, Y}(x, y)$, the joint CDF of the random variables $X$ and $Y$.</p><ol style=\"list-style-type:upper-alpha\"><li>$F_{X, Y}(4,5)-F_{X, Y}(-1,5)-F_{X, Y}(4,2)-F_{X, Y}(-1,2)$</li><li>$F_{X, Y}(4,5)+F_{X, Y}(-1,5)+F_{X, Y}(4,2)+F_{X, Y}(-1,2)$</li><li>$F_{X, Y}(4,5)-F_{X, Y}(-1,5)+F_{X, Y}(4,2)-F_{X, Y}(-1,2)$</li><li>$F_{X, Y}(4,5)-F_{X, Y}(-1,5)-F_{X, Y}(4,2)+F_{X, Y}(-1,2)$</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,random-variable,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427262",
+          "text": "Doubling the value of the largest observation in a sample of incomes will: (Mark all that are TRUE)<br /><ol style=\"list-style-type:upper-alpha\"><li> Increase the median.</li><li> Increase the mode.</li> <li>Increase the mean.</li>  <li>decrease the median.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,multiple-selects,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427285",
+          "text": "<p>Let $X$ be a random variable whose distribution depends on two conditions: $C_{1}$ and $C_{2}$, where $C_{1}$ and $C_{2}$ form a partition of the sample space, meaning $P\\left(C_{1}\\right)+P\\left(C_{2}\\right)=1$. Given that $P\\left(C_{1}\\right)=\\frac{1}{4}$ and the conditional cumulative distribution functions (CDFs) are<br>$$<br>F_{X}\\left(x \\mid C_{1}\\right)= \\begin{cases}0 &amp; \\text { for } x&lt;0 \\\\ \\frac{x}{2} &amp; \\text { for } 0 \\leq x \\leq 2 \\\\ 1 &amp; \\text { for } x&gt;2\\end{cases}<br>$$<br>and<br>$$<br>F_{X}\\left(x \\mid C_{2}\\right)= \\begin{cases}0 &amp; \\text { for } x&lt;0 \\\\ \\frac{x}{3} &amp; \\text { for } 0 \\leq x \\leq 3 \\\\ 1 &amp; \\text { for } x&gt;3\\end{cases}<br>$$<br>Find the probability $P(X \\leq 2)$.</p><ol style=\"list-style-type:upper-alpha\"><li>$\\frac{1}{4}$</li><li>$\\frac{1}{2}$</li><li>$\\frac{2}{3}$</li><li>$\\frac{3}{4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,random-variable,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427271",
+          "text": "Consider a constant $b$. Let $X$ be a random variable.<br />Given the expression $E\\left[(X-b)^{2}\\right]$, where $E[\\cdot]$ denotes the expected value, what value of $b$ minimizes $E\\left[(X-b)^{2}\\right]$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $b=\\sqrt{E[X]}$</li><li> $b=-\\sqrt{E[X]}$</li> <li>$b=E[X]$</li>  <li>$b=-E[X]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427273",
+          "text": "If $X$ is a uniformly distributed RV on the interval $[0,1]$, then the pdf of the RV $Y=5 X$ is<br /><ol style=\"list-style-type:upper-alpha\"><li> <br />$$<br />f_{Y}(y)= \\begin{cases}1 / 5 & \\text { for } 0 \\leq y \\leq 1 \\\\ 0 & \\text { otherwise }\\end{cases}<br />$$</li><li> <br />$$<br />f_{Y}(y)= \\begin{cases}5 & \\text { for } 0 \\leq y \\leq 1 / 5 \\\\ 0 & \\text { otherwise }\\end{cases}<br />$$</li> <li><br />$$<br />f_{Y}(y)= \\begin{cases}1 / 5 & \\text { for } 0 \\leq y \\leq 5 \\\\ 0 & \\text { otherwise }\\end{cases}<br />$$</li>  <li><br />$$<br />f_{Y}(y)= \\begin{cases}5 & \\text { for } 0 \\leq y \\leq 1 \\\\ 0 & \\text { otherwise }\\end{cases}<br />$$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427270",
+          "text": "Let $a$ and $b$ be some constant. Which of the following statement is false?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\operatorname{Cov}(a+b X, a+b Y)=b^{2} E[X Y]-b^{2} E[X] E[Y]$.</li><li> $\\operatorname{Var}(a X-b Y)=a^{2} \\operatorname{Var}(X)+b^{2} \\operatorname{Var}(Y)-2 a b \\operatorname{Cov}(X, Y)$.</li> <li>$\\operatorname{Cov}(W, Z)=\\operatorname{Corr}(X, Y)$, where $W=(X-E(X)) / \\sqrt{\\operatorname{Var}(X)}$ and $Z=(Y-E(Y)) / \\sqrt{\\operatorname{Var}(Y)}$.</li>  <li>$\\operatorname{Cov}(X, W)=\\operatorname{Var}(X)$, where $W=(X-E(X)) / \\sqrt{\\operatorname{Var}(X)}$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427283",
+          "text": "<p>Which of the following statements is/are TRUE?</p><ol style=\"list-style-type:upper-alpha\"><li>If $X$ and $Y$ have $\\operatorname{COV}(X, Y)=c_{X Y}$, then<br>$\\operatorname{COV}(X-E(X), Y-E(Y))=c_{X Y}-E(X) E(Y)$.</li><li>$E(X)=\\sum_{i=1}^{n} E\\left(X \\mid A_{i}\\right)$ if $A_{1}, A_{2}, \\ldots, A_{n}$ form a partition.</li><li>If $E(X Y) \\neq E(X) E(Y)$, then $X$ and $Y$ cannot be independent random variables.</li><li>$\\operatorname{COV}(3 X+4,-2 Y-1)=36 \\operatorname{COV}(X, Y)$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,expectation,multiple-selects,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427287",
+          "text": "<p>Imagine you're rolling a fair six-sided die repeatedly. If you get a 6, you win right away and the game stops. But if you roll any number from 1 to 5 , you have to wait for that many minutes before rolling again. For example, if you roll a 3 , you wait for 3 minutes before your next roll. What is the expected elapsed time from when you start rolling until you win? (Note: If you win on your first roll, the elapsed time is zero.)</p><ol style=\"list-style-type:upper-alpha\"><li>15 minutes</li><li>10 minutes</li><li>20 minutes</li><li>25 minutes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,expectation,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427268",
+          "text": "Let $X$ be a random variable. Define a new random variable $Z$ as $Z=\\frac{X-E(X)}{\\sqrt{\\operatorname{Var}(X)}}$.<br />Given this definition, what property does the standardized random variable $Z$ satisfy?<br /><ol style=\"list-style-type:upper-alpha\"><li> $E(Z)=0$ and $\\operatorname{Var}[Z]=\\operatorname{Var}(X)$</li><li> $E(Z)=1$ and $\\operatorname{Var}[Z]=0$</li> <li>$E(Z)=0$ and $\\operatorname{Var}[Z]=1$</li>  <li>$E(Z)=1$ and $\\operatorname{Var}[Z]=1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_4,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        }
+      ]
+    }
+  ]
+}

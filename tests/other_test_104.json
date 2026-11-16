@@ -1,0 +1,187 @@
+{
+  "name": "GATEBOOK-2019 DBMS4: Transactions and Concurrency",
+  "duration": "54",
+  "total_qs": "15",
+  "total_qs_one": 0,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "272293",
+          "text": "<p>Consider the following transactions&nbsp;T&nbsp;;<br>\n&nbsp;&nbsp;&nbsp;&nbsp;• $\\text{T1:read(A,t); t:=t+2; write(A,t); read(B,t);t:=t∗3; write(B,t)}$<br>\n&nbsp;&nbsp;&nbsp;&nbsp;• $\\text{T2:read(B,s); s:=s}\\times 2;\\text{write(B,s); read(A,s);s:=s+3;write(A,s)}$</p>\n\n<p>And one of the possible schedule&nbsp;I:</p>\n\n<p>$\\text{read1(A,t);&nbsp;read2(B,s);&nbsp;t1:=t1+2;&nbsp;s2:=s2∗2;} \\text{&nbsp;write2(B,s);&nbsp;write1(A,t);&nbsp;read2(A,s);&nbsp;read1(B,t);} \\\\\\text{t1:=t1+3;&nbsp;write1(B,t);&nbsp;s2:=s2+3;&nbsp;write2(A,s)}$</p>\n\n<p>Which one of the following statements is false ?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$T1 \\rightarrow T2$ and $T2 \\rightarrow T1$ have the same effect on the database.</li>\n    <li>$I$ is not conflict serilizable schedule.</li>\n    <li>$I$ is view serializable schedule but not conflict serializable.</li>\n    <li>The effect of the schedule&nbsp;I&nbsp;on the data base is same as , that of, some serial schedule.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4,transactions",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272292",
+          "text": "<p>Consider the schedule $\\text{S=r1(A); r2(A); r3(B); w1(A); r2(C); r2(B); w2(B); w1(C)}$. Which one of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$S$ is not serializable schedule.</li>\n    <li>$S$ is conflict serializable schedule and it’s equivalent serial schedule is $(T2,T3,T1).$</li>\n    <li>$S$ is conflict serializable schedule and it’s equivalent serial schedule is $(T3,T2,T1).$</li>\n    <li>$S$ is not conflict serializable schedule.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272291",
+          "text": "<p>Given two transaction $T1$ and $T2$ consisting of $n1$ and $n2$ actions, how many interleavings (i.e., different schedules with $T1$ and $T2$) are possible ?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$ n1 \\times n2$</li>\n    <li>$ ((n1+n2)!)/(n1!n2!)$</li>\n    <li>$ n1!n2!$</li>\n    <li>$ 2(n1+n2)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4,transactions",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272290",
+          "text": "<p>Consider the following schedule<br>\n<img alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOoAAACZCAAAAAAESfn9AAAEWUlEQVR42u2cS0iUURTHJ2gT4iLSFtLDjbSolgpJEIgjuOkJQa9FEjRFRUwyoBAJGQORYVpRi7IilNQcBiIXYdGDyFIhgpRskbTJRRiRNZOPf4v7qTPfY7iLm/PN33M3H+hZ3B8z97vnN+dwAlgyKyCogiqoAAKB/xMrqIJqDPVpRTRUGG1Yp7N9U7FZQm2ewtU9QLPO9k3FZgm1EzjQDDzS2b6p2Oyd1eK3+ufPSGzWUMfyE9rbNxObNdTuCgBAbIfG9lXs88d13bqxHbHL132DeqJOPas1UFXsyu+JVbqxZyZGy3yDWtqrj6piJ/Flm24snhz/4BPUtrPLw3FN1PnY5Olv2rEYqvFdtqTzqaqV7Pj9Sjc2+HOmwG+osQ0x3e1vLy3bpxvbEm/qlBxYUI2hBvywBFW+wCZRE63q2dUHAK0JYtTIuHpu6gKA8Qgv6lCjevbVtAAAGodoUcMj6tlb2wAAGAlzofZdvIebz76sBVA+rf6SbDkFAJgu50K9f/cctr7HTgBKspJxtO1V/yvjQv1R9e7v6incmSeL1zccrKZEnVw/MxAEHs6RJfuA/o2UqF+3oDOE/uG5sxpPAqMllGd19lj7rcM93XNv4NrifoyFljUwvoFd7tW5RXyvzmdLajFnS/M5sFrUObD8CiGoSwTVy2wJUb3Mlg/V02z5UD3Nlgi15+iV28EMZkuE2l5/fiiUwWyJUCeCg8hktkSof4qmkMlsiVDfBIFMZkuEeq0JGc2W9151mC1xtmQ3W+Ic2G62YjaCyoea/m1P+7qzoUbGgdlLRYei0YoHtpcYGaq6mSZXfAJe5tmuJjJUZXwv1gCIldgSDgZURy2zcT/wsXLQlkYyoDpqmZUnY7FdN+xywIBqr2XO5A8DicLPhKj2WubrgmkgkTdAiGqvZTbtBnChaobwrNpqmdHNldHokfAvEL6BMxgf8b1qMz7mbGkp5cAicYK6KKieZ4oPNTKOVLEkbvuw7r8FseRt5rEqiQtiydska1USF8SSt0nW8o0UsaRtklVgqWJJ2ySrwFLFkrZJVp3VFLHkbZINjyBdLHmbZL29kjRbcvNKyYHFbARVULlQpb5KiCr1VRpUqa8izYM5UKW+KvXVnEaV+iq471Wpr4rZCKqgLgqqiYFFOYJqYmBRbqAaGViUG6hGBhb5GNX0wCIfo5oeWORjVNMDi3yManpgkY9RTQ8s8jGq6YFFuXWvOhyUOFuyOyhxDmx3UDEbQRXUHEVdhF+W/ILq2WVMh+rdZUyH6t1lzIOaPq/IpcuYBzVtXpFblzEPatq8IrcuYx7U1HlFrl3GPKip84pcu4x5UFPmFbl3GbPeqy5mS5otuZmt5MBiNoIqqAZRl9DAsPQWX/6hua4Oyjk019VBWVAtB3W0+BIO4rQc1Nniyzde1XJQZ4svH6rloM4WXz5Uy0EdLb6EZ9VyUEeLrwzNpcmW3B1UcmAxG0HNHqr/l6AKak6vfxl5L0NBq57hAAAAAElFTkSuQmCC\"><br>\nWhich of the following statements is true about the above schedule $S$?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$S$ is conflict serializable but not view serializable.</li>\n    <li>$S$ is not conflict serializable but view serializable.</li>\n    <li>$S$ is both conflict and view serializable.</li>\n    <li>$S$ is neither conflict serializable nor view serializable.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4,transactions",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272289",
+          "text": "<p>Which of the following schedules are admissible (i.e., could have been produced) under a legal, two-phase-locking scheduler. (Assume that only exclusive locks are allowed and that locks are acquired immediately before data items are read/written.)</p>\n\n<p>$\\text{S1: r1(A); w1(A); w2(B); w3( C); r1(D); w2(D)}$</p>\n\n<p>$\\text{S2: r3(A); w4(B); r1( C); r3(D); w3(B); w2(D); r3(A); w1(D); r3(B); r2( C); r1(A)}$</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only $S1$</li>\n    <li>Only $S2$</li>\n    <li>Both $S1$ and $S2$</li>\n    <li>Neither $S1$ nor $S2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272288",
+          "text": "<p>Consider two transactions that simultaneously attempt to acquire locks on object Z. The types of locks requested are given in parts (a) through (d) below. (For example, in part (d) one transaction requests an S lock while the other requests an IS lock.)<br>\nAssume that each transaction has requested the appropriate lock on Z’s parent in the hierarchy. For each case below, select ‘yes’ if the transactions can obtain the lock at the same time, and ‘no’ if one of the transactions will have to wait for the other to release its lock.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n    <li>Requested lock types are: SIX, SIX.<br>\n    Can locks be held concurrently (YES) or not (NO)?:</li>\n    <li>Requested lock types are: IX, IX.<br>\n    Can locks be held concurrently (YES) or not (NO)?:</li>\n    <li>Requested lock types are: IX, X.<br>\n    Can locks be held concurrently (YES) or not (NO)?:</li>\n    <li>Requested lock types are: S, IS.<br>\n    Can locks be held concurrently (YES) or not (NO)?:</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>a- YES; b-NO; c-&nbsp;YES; d-NO</li>\n    <li>a- NO; b-YES; c-&nbsp;YES; d-NO</li>\n    <li>a- NO; b-YES; c-&nbsp;NO; d-YES</li>\n    <li>a- NO; b-YES; c-&nbsp;NO; d-NO</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272287",
+          "text": "<p>Consider a multi-granularity locking system with the five lock modes $S,X,IX,IS,SIX$. The object hierarchy is as follows: There is a root $R$, with blocks $A$ and $B$ under it. Block $A$ currently contains records $a1, a2, a3$, while block $B$ currently contains records $b1, b2, b3$. The list of locks start at the root, and go downwards in the hierarchy. The operation to be performed is:&nbsp;Delete all records from $B$.&nbsp;Which of the following is suggested locking scheme?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$X(r),&nbsp; X(B), X(b1), X(b2), X(b3)$</li>\n    <li>$IX(r), X(B), X(b1), X(b2), X(b3)$</li>\n    <li>$IX(r), IX(B), X(b1), X(b2), X(b3)$</li>\n    <li>$X(r), IX(B), X(b1), X(b2), X(b3)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272286",
+          "text": "<p>Consider the following schedule:</p>\n\n<p>$\\text{S:w2(X)&nbsp;w2(Y)&nbsp;r1(X)&nbsp;w1(Y)&nbsp;w2(Z)&nbsp;c2&nbsp;c1&nbsp;r3(Y)&nbsp;w3(Z)&nbsp;c3}$&nbsp;</p>\n\n<p>Which of the following statements is FALSE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$S$ is recoverable</li>\n    <li>$S$ avoids cascading roll back</li>\n    <li>$S$ is not serial schedule</li>\n    <li>$S$ is not strict schedule</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4,transaction-and-concurrency",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272285",
+          "text": "<p>Consider the following schedule:</p>\n\n<p>$\\text{S:w1(X)&nbsp;w2(Y)&nbsp;w3(Z)&nbsp;r3(X)&nbsp;c2&nbsp;r3(Y)&nbsp;c3&nbsp;c1}$</p>\n\n<p>Which of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$S$ is a serial schedule.</li>\n    <li>$S$ is recoverable schedule.</li>\n    <li>$S$ is not a strict schedule.</li>\n    <li>$S$ avoids cascading rollback.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272284",
+          "text": "<p>Suppose we introduce a new algorithm, Wound-Die, which works as follows. Say transaction $Ti$ requests a resource held by transaction $Tj$. If $ts(Ti)&lt;ts(Tj)$ then $Tj$ is wounded, else&nbsp;Ti dies.&nbsp;Which of the following statements is false about Wound-die algorithm ?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>It prevents all possible dead locks&nbsp; &nbsp;</li>\n    <li>Wound-Die will cause more transactions to abort unnecessarily&nbsp; &nbsp;</li>\n    <li>Compared to Wound-Wait Wound-Die will cause more transactions to abort unnecessarily.&nbsp; &nbsp;</li>\n    <li>Compared to Wait-Die Wound-Die will cause less transactions to abort unnecessarily.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272283",
+          "text": "<p>Consider table Item(name,price) where name is a key, and the following two concurrent transactions.</p>\n\n<p>T1:<br>\nBegin Transaction;<br>\nS1: Insert Into Item Values (‘scissors’,$40$);<br>\nS2: Update Item Set price = price + $30$ Where name = ‘pencil’;<br>\nCommit;</p>\n\n<p>T2:<br>\nBegin Transaction;<br>\nS3: Select Avg(price) As a1 From Item;<br>\nS4: Select Avg(price) As a2 From Item;<br>\nCommit;</p>\n\n<p>Assume that the individual statements S1, S2, S3, and S4 always execute atomically. Suppose initially there are two tuples in Item: (pencil,20) and (pen,30). Each transaction runs once and commits. Transaction T1 always executes with isolation level Serializable.<br>\nIf transaction T2 executes with isolation level Read-Committed, what possible pairs of values a1 and a2 are returned by T2?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$(25,25), (40,40)$</li>\n    <li>$(25,25)$</li>\n    <li>$(40,40)$</li>\n    <li>$(25,25) (25,40) (40,40)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272282",
+          "text": "<p>Consider a relation $R(A)$ containing $\\{(5),(6)\\}$ and two transactions:<br>\n$\\text{T1: Update R set A = A+1};$<br>\n$\\text{T2: Update R set A = 2*A.}$<br>\nSuppose both transactions are submitted under the isolation and atomicity properties. Which of the following is NOT a possible final state of $R$?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\{(10,12)\\}$</li>\n    <li>$\\{(11,13)\\}$</li>\n    <li>$\\{(11,12)\\}$</li>\n    <li>$\\{(12,14)\\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272281",
+          "text": "<p>Which of the following concurrency control protocols ensure both conflict serializability and freedom from deadlock?<br>\n$S1:$ Conservative $2PL$<br>\n$S2:$ Time stamp based protocol</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only $S1$</li>\n    <li>Only $S2$</li>\n    <li>Both $S1$ and $S2$</li>\n    <li>Neither $S1$ nor $S2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272280",
+          "text": "<p>In rigorous $2PL$</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only shared locks are released at the end</li>\n    <li>Only exclusive locks are released at the end</li>\n    <li>All the locks are released at the end</li>\n    <li>All the locks are acquired immediately after the begin of the transaction with one atomic instruction</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4,transaction-and-concurrency",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272279",
+          "text": "<p>There are two applications $A1,A2. \\: A1$ has sequence of transactions $(T1,T2)$ and $A2$ has sequence of transactions $(T3,T4)$. The number&nbsp;of possible serializations of these transactions is __________</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$12$</li>\n    <li>$6$</li>\n    <li>$1$</li>\n    <li>$4$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms4,transactions",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

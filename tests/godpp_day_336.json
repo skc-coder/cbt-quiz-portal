@@ -1,0 +1,70 @@
+{
+  "name": "Day 254 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "529878",
+          "text": "<p data-start=\"0\" data-end=\"204\">Suppose $X,Y,Z$ are independent binary random variables taking values in ${0,1}$. Let $P(X=0)=p$, $P(Y=0)=q$, and $P(Z=0)=r$. Which expression is equal to $P(X+Y+Z\\geq 2\\mid X+Y\\geq 1)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"206\" data-end=\"242\">$\\frac{(1-p)(1-q)+pq(1-r)}{1-pq}$<br>&nbsp;</li><li data-start=\"244\" data-end=\"293\">$\\frac{(1-p)(1-q)+(1-r)[p(1-q)+q(1-p)]}{1-pq}$<br>&nbsp;</li><li data-start=\"295\" data-end=\"345\">$\\frac{(1-p)(1-q)r+(1-r)[p(1-q)+q(1-p)]}{1-pq}$<br>&nbsp;</li><li data-start=\"347\" data-end=\"370\">$\\frac{1-pqr}{1-pq}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 254"
+        },
+        {
+          "post_id": "529881",
+          "text": "<p data-start=\"0\" data-end=\"151\">Let $A$, $B$, and $C$ be events. Assume every conditional probability that appears is defined. Which statement is <strong>NOT</strong> necessarily true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"153\" data-end=\"210\">If $0&lt;P(B)&lt;1$ and $P(A|B)&gt;P(A)$, then $P(A|B^c)&lt;P(A)$.<br>&nbsp;</li><li data-start=\"212\" data-end=\"256\">If $P(A|B)&gt;P(A|C)$, then $P(B|A)&gt;P(C|A)$.<br>&nbsp;</li><li data-start=\"258\" data-end=\"318\">If $A\\subseteq B$ and $P(C)&gt;0$, then $P(A|C)\\leq P(B|C)$.<br>&nbsp;</li><li data-start=\"320\" data-end=\"352\">$P(A\\cap B)\\geq P(A)+P(B)-1$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 254"
+        },
+        {
+          "post_id": "529862",
+          "text": "<p data-start=\"0\" data-end=\"397\">A manufacturer tests one electronic chip using four independent inspection gates. The chip passes Gate A, Gate B, Gate C, and Gate D with probabilities $0.96$, $0.90$, $0.85$, and $0.75$, respectively. A chip is approved only if it passes Gate A and passes at least two of the other three gates. Given that a chip is approved, what is the probability that it passed all four gates?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"399\" data-end=\"448\">$0.417$<br>&nbsp;</li><li data-start=\"399\" data-end=\"448\">$0.550$<br>&nbsp;</li><li data-start=\"399\" data-end=\"448\">$0.617$<br>&nbsp;</li><li data-start=\"399\" data-end=\"448\">$0.930$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 254"
+        },
+        {
+          "post_id": "529883",
+          "text": "<p data-start=\"0\" data-end=\"368\">Consider three Bernoulli random variables $X$, $Y$, and $Z$, each taking values $0$ or $1$. No independence assumptions are made. Suppose</p><ul><li data-start=\"0\" data-end=\"368\">$P(X=1)=\\frac{2}{5}$,&nbsp;<br>&nbsp;</li><li data-start=\"0\" data-end=\"368\">$P(Y=1|X=1)=\\frac{3}{4}$,&nbsp;<br>&nbsp;</li><li data-start=\"0\" data-end=\"368\">$P(Y=1)=\\frac{1}{2}$,&nbsp;<br>&nbsp;</li><li data-start=\"0\" data-end=\"368\">$P(Z=1|X=1,Y=1)=\\frac{1}{5}$,&nbsp;<br>&nbsp;</li><li data-start=\"0\" data-end=\"368\">$P(Z=1|X=1,Y=0)=\\frac{4}{5}$,&nbsp;<br>&nbsp;</li><li data-start=\"0\" data-end=\"368\">$P(Z=1|X=0,Y=1)=\\frac{2}{3}$, and&nbsp;<br>&nbsp;</li><li data-start=\"0\" data-end=\"368\">$P(Z=1)=\\frac{67}{150}$.&nbsp;<br>&nbsp;</li></ul><p>What is $P(Z=1|X=0,Y=0)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"370\" data-end=\"446\">$\\frac{1}{3}$<br>&nbsp;</li><li data-start=\"370\" data-end=\"446\">$\\frac{13}{30}$<br>&nbsp;</li><li data-start=\"370\" data-end=\"446\">$\\frac{7}{15}$<br>&nbsp;</li><li data-start=\"370\" data-end=\"446\">$\\frac{1}{2}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 254"
+        },
+        {
+          "post_id": "529876",
+          "text": "<p data-start=\"0\" data-end=\"209\">Let $A$, $B$, $C$, and $D$ be events. Assume every conditional probability used below is defined. Without making any independence assumptions, which expression(s) must be equal to $P(A,B,C,D)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"211\" data-end=\"244\">$P(D|A,B,C)P(C|A,B)P(A|B)P(B)$<br>&nbsp;</li><li data-start=\"246\" data-end=\"267\">$P(A,B)P(C,D|A,B)$<br>&nbsp;</li><li data-start=\"269\" data-end=\"305\">$\\frac{P(A,B,C)P(A,B,D)}{P(A,B)}$<br>&nbsp;</li><li data-start=\"307\" data-end=\"334\">$P(A|B,C)P(B|C,D)P(C,D)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 254"
+        }
+      ]
+    }
+  ]
+}

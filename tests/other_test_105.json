@@ -1,0 +1,286 @@
+{
+  "name": "GATEBOOK-2019 Probability 1",
+  "duration": "70",
+  "total_qs": "24",
+  "total_qs_one": 10,
+  "total_qs_two": 14,
+  "apti_num_qs": 0,
+  "technical_num_qs": 24,
+  "apti_marks": 0,
+  "technical_marks": 38,
+  "total_marks": 38,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 24,
+      "marks": 38,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "279991",
+          "text": "The weekly wages of 1000 workers are normally distributed with a mean of Rs.70 and standard deviation of Rs. 5. Estimate the number of workers whose weekly wages will be more than 80. ______<br />\n<img alt=\"GATEBOOK-2019-Probability1-1\" src=\"data:image/png;base64,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\"/>",
+          "type": "Numerical",
+          "answer": "23 : 23",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-probability1,numerical-answers",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279989",
+          "text": "A die is rolled three times. The probability that exactly one odd number turns up among the three outcomes is<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\frac{1}{6}$<br /> </li><li>  $\\frac{3}{8}$<br /> </li> <li> $\\frac{1}{8}$<br /> </li>  <li> $\\frac{1}{2}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279987",
+          "text": "Seven coins are tossed what is the probability that the number of heads exceeds the number of tails?",
+          "type": "Numerical",
+          "answer": "0.45 : 0.55",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-probability1,numerical-answers",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279986",
+          "text": "Let A, B, C are independent events with probabilities $0.8, 0.5, 0.3$ respectively. The probability of occurrence of at least one of these events is _____",
+          "type": "Numerical",
+          "answer": "0.9 : 0.96",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-probability1,numerical-answers",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279985",
+          "text": "<p>Suppose A and B are independent events associated with an experiment. If the probability that A and&nbsp;B occurs equals $0.6$ and the probability that A occurs equals $0.6$ then the probability of B is ____</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1$</li>\n    <li>$\\frac{2}{3}$</li>\n    <li>$0.2$</li>\n    <li>$0.5$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-probability1,probability",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279983",
+          "text": "Each of two persons, tosses three fair coins. The probability that they obtain same number of head is ____",
+          "type": "Numerical",
+          "answer": "0.3 : 0.32",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-probability1,numerical-answers",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279981",
+          "text": "A computer assembly consists of two sub systems, say A and B. From previous testing procedures, the following probabilities are assumed to be known.<br />\n$\\text{P(A) fails}= 0.2$<br />\n$\\text{P(B) fails alone} = 0.15$<br />\n$\\text{A and B fail} =0.15$<br />\nThen the conditional probability $\\text{P(A) fails | B has failed)} = $_____",
+          "type": "Numerical",
+          "answer": "0.5 : 0.5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-probability1,numerical-answers",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279979",
+          "text": "If A, B, C are mutually exclusive and exhaustive events associated with a random experiment and $P(B) = 0.6 \\: P(A)\\text{ and }P(C) = 0.2 P(A)$ then $P(A)$ is _____<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\frac{1}{9}$<br /> </li><li>  $\\frac{5}{9}$<br /> </li> <li> $\\frac{7}{9}$<br /> </li>  <li> $\\frac{8}{9}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279977",
+          "text": "From a pack of well shuffled cards, one card is drawn then the probability that this card is either a king or an ace is _____<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\frac{1}{13}$<br /> </li><li>  $\\frac{2}{13}$<br /> </li> <li> $\\frac{7}{13}$<br /> </li>  <li> $\\frac{11}{13}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279975",
+          "text": "A bag contains 4 red and 3 black balls. A second bag contains 2 red and 4 black balls. One bag is selected at random. From the selected bag one ball is drawn, the probability that the ball drawn is red is ______",
+          "type": "Numerical",
+          "answer": "0.4 : 0.5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-probability1,numerical-answers",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279973",
+          "text": "Suppose A and B are independent events associated with an experiment. If the probability that A or B occurs is $0.6$ and the probability that A occurs equals $0.4$ then the probability of B is _______<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\frac{1}{3}$<br /> </li><li>  $\\frac{2}{3}$<br /> </li> <li> $0.2$<br /> </li>  <li> $0.5$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279971",
+          "text": "For any two events $E_1, E_2$ let $P(E_1)= \\frac{1}{2}, P(E2)=\\frac{2}{3}, P(E_1 \\cap E_2)= \\frac{1}{3}$ then $E_1, E_2$ are<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Mutually exclusive but not independent events<br /> </li><li>  Mutually exclusive and independent events<br /> </li> <li> Independent but not mutually exclusive<br /> </li>  <li> None of these  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279969",
+          "text": "A product is an assemble of $4$ different components. The product can be sequentially assembled in two possible ways. If the $4$ components are placed in a box and these are drawn at random from the box, the the probability of getting a correct sequence is _____.",
+          "type": "Numerical",
+          "answer": "0.082 : 0.084",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-probability1,numerical-answers",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279967",
+          "text": "A random variable $X$ has normal distribution with mean $100$. If $P(100 &lt; X &lt; 120) = \\alpha$ then $ P(X &lt; 80) =$<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $1-2 \\alpha$<br /> </li><li>  $1- \\alpha$<br /> </li> <li> $\\frac{1-2 \\alpha}{2}$<br /> </li>  <li> $\\frac{1- \\alpha}{2}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279965",
+          "text": "The number of particles emitted from a radioactive source during a specific period is a random variable with Poisson distribution. If the probability of no emissions equals $\\frac{1}{3}$, then the probability that $2$ or more emissions occur is<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\frac{2-\\log _e 3}{3}$<br /> </li><li>  $\\frac{3-\\log _e 2}{3}$<br /> </li> <li> $\\frac{2-\\log _e 3}{2}$<br /> </li>  <li> $\\frac{3-\\log _e 2}{3}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279963",
+          "text": "A player tosses two fair coins. He wins Rs. $2$ if $2$ heads occur and Re. $1$ if $1$ head occurs. On the other hand, he loses Rs. $3$ if no heads occur. If the player plays $100$ times, then the amount he wins is ____(Rs).",
+          "type": "Numerical",
+          "answer": "24.5 : 25.5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-probability1,numerical-answers",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279961",
+          "text": "A function $f(x)$ is defined as $f(x) = \\begin{cases} 0 &amp; ; &amp; x&lt;2 \\\\ \\frac{1}{A}(2x+3) &amp; ; &amp; 2 &lt; x &lt; 4 \\\\ 0 &amp; ; &amp; x &gt;4 \\end{cases}$. For $f(x)$ to be valid probability density function the value of $A$ must be<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  8<br /> </li><li>  16<br /> </li> <li> 18<br /> </li>  <li> 22  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279959",
+          "text": "If the probability of a bad reaction from a certain injection is $0.001$, then the probability that out of $2000$ individuals more than two will get a bad reaction is<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $1-\\frac{5}{e^2}$<br /> </li><li>  $1-\\frac{5}{e^3}$<br /> </li> <li> $1+\\frac{5}{e^2}$<br /> </li>  <li> $1+\\frac{5}{e^3}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279958",
+          "text": "A fair die is tossed repeatedly until a six is obtained. Let $X$ denote the number of tosses required. The probability that $X \\geq 3$ is equal to,<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\frac{125}{216}$<br /> </li><li>  $\\frac{25}{36}$<br /> </li> <li> $\\frac{5}{36}$<br /> </li>  <li> $\\frac{25}{216}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279955",
+          "text": "In a class $30\\%$ students like tea, $20 \\%$ like coffee and $10 \\%$ like both tea and coffee. A student is selected at random then the probability that he does not like tea if it known that he takes coffee?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\frac{1}{2}$<br /> </li><li>  $\\frac{3}{4}$<br /> </li> <li> $\\frac{1}{3}$<br /> </li>  <li> $\\frac{1}{4}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279953",
+          "text": "A fair die is thrown three times and sum of the three members is found to be $16$. Find the probability that $5$ appears on the third throw.<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\frac{1}{2}$<br /> </li><li>  $\\frac{1}{3}$<br /> </li> <li> $\\frac{1}{4}$<br /> </li>  <li> $\\frac{1}{5}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279951",
+          "text": "If $A$ and $B$ are two events such that $P(A)=0.4$ and $P(A \\cup \\bar{B})=0.7$. If $A$ and $B$ are independent events, then $P(B)$ is ____<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $0.5$<br /> </li><li>  $0.4$<br /> </li> <li> $0.6$<br /> </li>  <li> $0.3$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279949",
+          "text": "The probability of that at least one of the events $A$ and $B$ occurs is $0.8$ and the probability that both the events occur simultaneously is $0.25$ then the probability $P(\\bar{A})+P(\\bar{B})$ is _____",
+          "type": "Numerical",
+          "answer": "0.94 : 0.96",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-probability1,numerical-answers",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "279947",
+          "text": "Two dice are tossed oncem the probability of getting an even number on the first dice or a total of $8$ is ____<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\frac{2}{9}$<br /> </li><li>  $\\frac{5}{9}$<br /> </li> <li> $\\frac{3}{2}$<br /> </li>  <li> $\\frac{1}{2}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-probability1",
+          "category": "Probability"
+        }
+      ]
+    }
+  ]
+}

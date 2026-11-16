@@ -1,0 +1,341 @@
+{
+  "name": "GATEBOOK-2019 Grand Test 1: DS&A",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "290187",
+          "text": "﻿What would be the worst case time complexity to build binary search tree with given $n$ arbitrary elements?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\Theta(n \\log n)$<br /> </li><li> $\\Theta(n)$<br /> </li> <li>$\\Theta(n^{2})$<br /> </li>  <li>$\\Theta( \\log n)$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290186",
+          "text": "An array of size $N$ contains $0's$ followed by $1's$. What is the worst case time complexity of best algorithm to find whether there are more number of $0's$ or more number of $1's$?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\Theta(n \\log n)$<br /> </li><li> $\\Theta(\\log n)$<br /> </li> <li>$\\Theta(n)$<br /> </li>  <li>$\\Theta(1)$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290185",
+          "text": "Consider the following exponential search algorithm(ES). The array of $n$ elements to be searched is divided in to $ \\log n$ parts. The $i^{th}$ part is from index $2^{i-1}$ &nbsp;to $2^{i}$. To search an element all the parts are searched one by one from left to right using binary search algorithm. What is the worst case complexity of above searching algorithm?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\Theta(n \\log n )$<br /> </li><li> $\\Theta( \\log n)^{2}$<br /> </li> <li>$\\Theta(\\log n)$<br /> </li>  <li>$\\Theta(n)$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290184",
+          "text": "Which of the following cannot be the intermediate sequence if we apply quick sort on $9,8,7,6,5,4,3,2,1$ ?<br />\n<br />\nAssume the pivot is always the first element<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $1,8,7,6,5,4,3,2,9$<br /> </li><li> $1,2,3,6,5,4,7,8,9$<br /> </li> <li>$1,2,7,6,5,4,3,8,9$<br /> </li>  <li>$1,2,3,5,4,6,7,8,9$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290183",
+          "text": "Suppose we are sorting an array of eight integers using quick sort, and we have just finished the first partitioning with the array looking like this: $2 \\quad 5 \\quad &nbsp;1 \\quad 7 \\quad 9 \\quad 12 \\quad &nbsp;11 \\quad 10$. Which of the following statement is correct?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> The pivot could be either $7$ or $9$.<br /> </li><li> The pivot could be $7$, but it can not be $9$.<br /> </li> <li>The pivot is not $7$, but it could be $9$.<br /> </li>  <li>Neither $7$ nor $9$ is the pivot.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290182",
+          "text": "What are minimum and maximum number of nodes in a heap tree of height $h$?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $2^{h}$ to $2^{h+1}$<br /> </li><li> $2^{h-1} +1$ to $2^{h}$<br /> </li> <li>$2^{h}$ to $2^{h+1} -1$<br /> </li>  <li>$2^{h-1}$ to $2^{h+1}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290181",
+          "text": "<pre class=\"prettyprint linenums lang-c_cpp \" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"><br />\nint f(int n)<br />\n&nbsp;&nbsp;&nbsp;&nbsp;{<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (n == 0)<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 1;<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return f(n-1) - n + f(n-1) + 2;<br />\n&nbsp;&nbsp;&nbsp;&nbsp;}<br />\n</pre><br />\nwhat is the output if $f(5)$ is called?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $37$<br /> </li><li> $11$<br /> </li> <li>$20$<br /> </li>  <li>$33$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290180",
+          "text": "<p>The time required to check whether given tree is binary search tree or not in the worst case is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\Theta(n)$</li>\n<li>$\\Theta(n\\log n)$</li>\n<li>$\\Theta(\\log n)$</li>\n<li>$\\Theta(n^2)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-dsa,binary-search-tree",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290179",
+          "text": "Given an array of integers what is the worst case time complexity that would find pair of integers which are same?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\Theta(n \\log n)$<br /> </li><li> $\\Theta(n)$<br /> </li> <li>$\\Theta(n^2)$<br /> </li>  <li>$\\Theta(n \\log \\log n)$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290177",
+          "text": "The no of different balanced parenthesizes possible with $n$ pairs of parenthesis?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\dfrac{^{2n}C_{n}}{n+1}$<br /> </li><li> $\\dfrac{^{2(n-1)}C_{n-1}}{n}$<br /> </li> <li>$(2n)!$<br /> </li>  <li>$n!$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290178",
+          "text": "<pre class=\"prettyprint linenums lang-c_cpp \" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"><br />\nvoid main(){<br />\nchar p[] = &quot;GATEBOOK&quot;;<br />\np=p+1;<br />\nprintf(&quot;%s&quot;,p);<br />\n}<br />\n</pre><br />\nWhat is the output of the above program?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> It generates runtime error<br /> </li><li> It generates compile time error<br /> </li> <li>GATEBOOK<br /> </li>  <li>ATEBOOK  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290176",
+          "text": "<pre class=\"prettyprint linenums lang-c_cpp \" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"><br />\n#include &lt;stdio.h&gt;<br />\ntypedef struct node {<br />\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char data;<br />\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;struct node* next;<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} Node;<br />\nNode* mystery(Node* root) {<br />\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Node* new_root = 0;<br />\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while (root) {<br />\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Node* next = root-&gt;next;<br />\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;root-&gt;next = new_root;<br />\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new_root = root;<br />\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;root = next;<br />\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return new_root;<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />\n</pre><br />\nWhat is the output of the following program if mystery method is called with start node of the singly linked list?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  List will remain same<br /> </li><li> Every two consecutive nodes from left to right are swapped<br /> </li> <li>Reverses the linked list<br /> </li>  <li>None of the above  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290175",
+          "text": "Given a binary tree what is the time complexity of finding the height of the tree where $ \\text{n = no of nodes}$ and $\\text{h= height of the tree}?$<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\Theta(n)$<br /> </li><li> $\\Theta(h)$<br /> </li> <li>$\\Theta(nh)$<br /> </li>  <li>$\\Theta( \\log n)$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290174",
+          "text": "<p>Suppose that an application has a huge number of $\\text{INSERT}$ operations, but only a few $\\text{DELETE_MAX}$ operations. Which of the following priority-queue implementations will&nbsp;be most effective?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\text{Max heap}$</li>\n<li>$\\text{Unordered array}$</li>\n<li>$\\text{Ordered array}$</li>\n<li>$\\text{Binary search tree}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa,priority-queue",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290173",
+          "text": "Suppose that a certain BST has keys that are integers between $1$ and $10$, and we search for $5$.<br />\nWhich of the sequence below cannot be the sequence of keys examined?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $10, 9, 8, 7, 6, 5$<br /> </li><li> $1, 10, 2, 9, 3, 8, 4, 7, 6, 5$<br /> </li> <li>$2, 7, 3, 8, 4, 5$<br /> </li>  <li>$1, 2, 10, 4, 8, 5$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290172",
+          "text": "The number of binary search trees with $2n+1$ keys where median is the root?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\left (\\dfrac{^{2n}C_n}{n+1}\\right)^{2}$<br /> </li><li> $(n!)^{2}$<br /> </li> <li>$(2n+1)!$<br /> </li>  <li>Depends on the values of the keys  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290171",
+          "text": "$T(0)=0$ and $T(1)=1$ and each of the following recurrences for $n \\geq 2$ defines a function $T$ on non-negative integers. Which of the following CANNOT be bounded (above) by a polynomial function?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $T(n) = 3T(\\frac{n}{2})+n^2$<br /> </li><li> $T(n) = 4T(\\frac{n}{2})+ n$<br /> </li> <li>$T(n) = 2T(n-2) + 1$<br /> </li>  <li>$T(n) = T(n-1)+ n^2$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290170",
+          "text": "<pre class=\"prettyprint linenums lang-c_cpp \" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"><br />\nint f () {<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int k, result;<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = 0;<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for ( k = 0; k &lt; 5; k++ ) {<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( ( k % 3 ) == 1 )<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = result + k;<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = result + 1;<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return result;<br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />\n</pre><br />\nThe value returned for the call to $f ()$ ?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $5$<br /> </li><li> $6$<br /> </li> <li>$7$<br /> </li>  <li>$8$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290169",
+          "text": "Consider the following pseudocode program.<br />\n<pre class=\"prettyprint linenums lang-c_cpp \" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"><br />\nint i;<br />\nmain () {<br />\ni = 3;<br />\nS ();<br />\nR ();<br />\n}<br />\nvoid S () {<br />\nprint i; // prints the value of i on the current line of output<br />\nprint &quot; &quot; // prints a blank space on the current line of output<br />\n}<br />\nvoid R () {<br />\nint i;<br />\ni = 2;<br />\nS ();<br />\n}<br />\n</pre><br />\nWhat is the output of the program if the pseudocode uses (i) static (lexical) scoping; (ii) dynamic scoping?<br />\nStatic scoping : Dynamic scoping<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $3 \\quad 2 : 3 \\quad 2$<br /> </li><li> $3 \\quad 3 : 2 \\quad 2$<br /> </li> <li>$3 \\quad 3 : 2 \\quad 3$<br /> </li>  <li>$3 \\quad 3 : 3 \\quad 2$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290168",
+          "text": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid P1 (int x, int y, int z) {\n    if ((x != 0) &amp;&amp; ((y / x) == z))\n        z = z + 1;\n    printf(\"x = %d\" &nbsp;\" y = %d\" &nbsp;\" z = %d\",x,y,z );\n}\n\npublic void P2 (int x, int y, int z) {\n    if (((y / x) == z) &amp;&amp; (x != 0))\n        z = z + 1;\n    printf(\"x = %d\" \" y = %d\" \" z = %d\",x,y,z );\n}</pre>\n\n<p><br>\nWhich of the following is TRUE?</p>\n\n<p>&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>&nbsp;For all $x, y,$ and $z$, $P1(x, y, z)$ and $P2(x, y, z)$ have the same behavior</li>\n    <li>&nbsp;For all $y$ and $z$, there exists $x$ such that $P1(x, y, z)$ and $P2(x, y, z)$ behave differently</li>\n    <li>&nbsp;For all $x$ and $y$, there exists $z$ such that $P1(x, y, z)$ and $P2(x, y, z)$ behave differently</li>\n    <li>&nbsp;For all $x$ and $z$, there exists $y$ such that $P1(x, y, z)$ and $P2(x, y, z)$ behave differently</li>\n</ol>\n\n<p>&nbsp;</p>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290167",
+          "text": "Which of the following is the time complexity of topological sort of a graph $G(V,E)$<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\Theta(V+E)$<br /> </li><li> $\\Theta(V)$<br /> </li> <li>$\\Theta(V+E)\\log V$<br /> </li>  <li>$\\Theta(VE)$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290165",
+          "text": "Which of the following problem cannot be computed by DFS?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> Finding connected components in directed graph<br /> </li><li> Finding shortest path in unweighted graph<br /> </li> <li>Finding directed cycle in directed graph<br /> </li>  <li>Finding a path from a source vertex to all other reachable vertices in directed graph  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290164",
+          "text": "A dynamically growing array is implemented using fixed size array by the following method. Initially a $k$ element array is created using $malloc$ and then once it is full a $2*k$ size array is created using $malloc$ and values in previously allocated array are copied in to new array and previously allocated array is freed. This process will be repeated whenever current array is completely filled. Example if $k=2$ then $2,4,8,16,32$ are the sizes of the arrays created. In the long run overall, if $n$ elements are inserted then the time complexity of all the copying operations which are used to copy from previous array to new array is<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\Theta(n)$<br /> </li><li> $\\Theta(2^n)$<br /> </li> <li>$\\Theta(n!)$<br /> </li>  <li>$\\Theta(n^2)$  </li></ol>",
+          "type": "Numerical",
+          "answer": "a\n<code>",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-dsa,numerical-answers",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290163",
+          "text": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint foo(int a, int b) {\n    if (a%b == 0)\n        return b;\n    else\n        return foo(b, a%b);\n}</pre>\n\n<p><br>\n<br>\nWhat is the output given by $foo(17, 3)$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3$</li>\n    <li>$17$</li>\n    <li>$51$</li>\n    <li>$1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa,recursion",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290162",
+          "text": "Closest pair of an array of integers is two values whose difference is no greater than the difference of any other pair in the array. &nbsp;The best algorithm to compute closest pair in the worst case is<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\Theta(n)$<br /> </li><li> $\\Theta(n^2)$<br /> </li> <li>$\\Theta(n\\log n)$<br /> </li>  <li>$\\Theta(n^3)$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290161",
+          "text": "The maximum height an AVL tree can have with $77$ nodes<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $8$<br /> </li><li>  $9$<br /> </li> <li> $6$<br /> </li>  <li> $7$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290160",
+          "text": "A hash function $h$ maps $16-bit$ inputs to $8-bit$ hash values. What is the largest $k$ such that in any set of $1,000$ inputs, there are at least $k$ inputs that $h$ maps to the same hash value?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $3$<br /> </li><li> $4$<br /> </li> <li>$10$<br /> </li>  <li>$64$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290159",
+          "text": "<p>A thief faces $0/1$ KNAPSACK problem. There are $7$ items to be packed into the knapsack, each with value $V_{i}$ and weight $W_{i}$ as shown in the following table.<br>\n<br>\n$$\\begin{array} {| c | c | c | c | c | c | c | c | } \\hline I &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 \\\\ \\hline V_{i} &amp; 3 &amp; 6 &amp; 8 &amp; 1 &amp; 2 &amp; 5 &amp; 7 \\\\ \\hline W_{i} &amp; 7 &amp; 3 &amp; 5 &amp; 1 &amp; 4 &amp; 2 &amp; 6 &nbsp;\\\\ \\hline \\end{array}$$<br>\n<br>\nThe knapsack, which is initially empty, can hold a maximum weight of $24$, so some item(s) must be left behind, and fractions of items cannot be packed. The optimality criterion is to maximize the total value of the items that are placed in the knapsack. If thief uses greedy strategy, that is always picking the item with highest $V_{i} / W_{i}$ value then what is the total value of the items packed and is this the optimal value?<br>\n<br>\n$\\begin{array} {| c | c | } \\hline \\text{Total Value} &amp; \\text{Optimal/ Not Optimal} &nbsp;\\\\ \\hline\\end{array}$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\begin{array} {| c | c | }\\hline 29 &amp; \\text{Optimal} \\\\ \\hline\\end{array}$</li>\n    <li>$\\begin{array} {| c | c | }\\hline 29&nbsp;&amp; \\text{Not Optimal} \\\\ \\hline\\end{array}$</li>\n    <li>$\\begin{array} {| c | c | }\\hline 30&nbsp;&amp; \\text{Optimal} \\\\ \\hline\\end{array}$</li>\n    <li>$\\begin{array} {| c | c | }\\hline 30&nbsp;&amp; \\text{Not Optimal} \\\\ \\hline\\end{array}$<br>\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "290158",
+          "text": "Consider messages made up entirely of vowels $(A, E, I, O, U)$. Here's a table of probabilities for each of the vowels:<br />\n<br />\n$$\\begin{array} {| c | c | } \\hline \\text{Character} &amp; \\text{Frequency} &nbsp;\\\\ \\hline A &nbsp;&amp; 0.22 \\\\ \\hline E &amp; 0.34 &nbsp;\\\\ \\hline I &amp; 0.17 \\\\ \\hline O &nbsp;&amp; 0.19 \\\\ \\hline U &amp; 0.08 \\\\ \\hline \\end{array}$$<br />\n<br />\nUsing Huffman algorithm, the number of bits of an encoded message transmitting $100$ vowels is ___<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $225$<br /> </li><li> $300$<br /> </li> <li>$250$<br /> </li>  <li>$232$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-dsa",
+          "category": "Algorithms"
+        }
+      ]
+    }
+  ]
+}

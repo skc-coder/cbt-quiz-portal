@@ -1,0 +1,70 @@
+{
+  "name": "Day 287 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "533722",
+          "text": "<p data-start=\"2123\" data-end=\"2180\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int i, sum = 0;      for (i = 1; i &lt;= 6; i++) {         if (i % 2 == 0)             continue;          sum = sum + i;          if (sum &gt; 6)             break;     }      printf(&quot;%d %d&quot;, i, sum);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int i, sum = 0;\n\n    for (i = 1; i &lt;= 6; i++) {\n        if (i % 2 == 0)\n            continue;\n\n        sum = sum + i;\n\n        if (sum &gt; 6)\n            break;\n    }\n\n    printf(\"%d %d\", i, sum);\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2440\" data-end=\"2521\">$\\texttt{5\\ 9}$<br>&nbsp;</li><li data-start=\"2440\" data-end=\"2521\">$\\texttt{6\\ 9}$<br>&nbsp;</li><li data-start=\"2440\" data-end=\"2521\">$\\texttt{7\\ 9}$<br>&nbsp;</li><li data-start=\"2440\" data-end=\"2521\">$\\texttt{5\\ 4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 287"
+        },
+        {
+          "post_id": "533720",
+          "text": "<p>What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a = 0, b = 5, c = 10;     int ans = a++ && ++b || c--;      printf(&quot;%d %d %d %d&quot;, ans, a, b, c);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a = 0, b = 5, c = 10;\n    int ans = a++ && ++b || c--;\n\n    printf(\"%d %d %d %d\", ans, a, b, c);\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{1\\ 1\\ 6\\ 9}$<br>&nbsp;</li><li>$\\texttt{1\\ 1\\ 5\\ 9}$<br>&nbsp;</li><li>$\\texttt{0\\ 1\\ 5\\ 10}$<br>&nbsp;</li><li>$\\texttt{1\\ 0\\ 5\\ 9}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 287"
+        },
+        {
+          "post_id": "533713",
+          "text": "<p data-section-id=\"1xf6jw0\" data-start=\"4433\" data-end=\"4460\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() { int x = 5; printf(&quot;%d&quot;, x++);  printf(&quot;%d&quot;, ++x); return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\nint x = 5;\nprintf(\"%d\", x++);\n\nprintf(\"%d\", ++x);\nreturn 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4559\" data-end=\"4621\">$56$<br>&nbsp;</li><li data-start=\"4559\" data-end=\"4621\">$67$<br>&nbsp;</li><li data-start=\"4559\" data-end=\"4621\">Compilation error<br>&nbsp;</li><li data-start=\"4559\" data-end=\"4621\">Undefined behavior</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 287"
+        },
+        {
+          "post_id": "533718",
+          "text": "<p data-section-id=\"1xf6jw0\" data-start=\"4433\" data-end=\"4460\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a = 5, b = 2;     float x = a / b + 0.5;     printf(&quot;%.1f&quot;, x);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a = 5, b = 2;\n    float x = a / b + 0.5;\n    printf(\"%.1f\", x);\n    return 0;\n}\n</pre>",
+          "type": "Numerical",
+          "answer": "2.5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 287"
+        },
+        {
+          "post_id": "533716",
+          "text": "<p data-section-id=\"1xf6jw0\" data-start=\"4433\" data-end=\"4460\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     float x = 5 / 2;     printf(&quot;%.1f&quot;, x);     printf(&quot;\\n&quot;);     float y = 5.0 / 2;     printf(&quot;%.1f&quot;, y);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    float x = 5 / 2;\n    printf(\"%.1f\", x);\n    printf(\" \");\n    float y = 5.0 / 2;\n    printf(\"%.1f\", y);\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4559\" data-end=\"4621\">$\\verb|2.5 2.0|$<br>&nbsp;</li><li data-start=\"4559\" data-end=\"4621\">$\\verb|2.0 2.5|$&nbsp;<br>&nbsp;</li><li data-start=\"4559\" data-end=\"4621\">$\\verb|3.0 3.0|$&nbsp;<br>&nbsp;</li><li data-start=\"4559\" data-end=\"4621\">Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 287"
+        }
+      ]
+    }
+  ]
+}

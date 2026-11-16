@@ -1,0 +1,70 @@
+{
+  "name": "Day 177 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "513050",
+          "text": "<p>A lexical analyzer uses the following patterns to recognize three tokens $T_1, T_2$, and $T_3$ over the alphabet $\\{x, y, z\\}$.</p><p>$$<br>\\begin{aligned}<br>& T_1: x ?(y \\mid z)^* y \\\\<br>& T_2: y ?(x \\mid z)^* x \\\\<br>& T_3: z^{+}(x \\mid y) ?<br>\\end{aligned}<br>$$</p><p>$y?$ means $0$ or $1$ occurrence of $y$.<br><br>The analyzer outputs the token that matches the <strong>longest possible prefix.</strong> If there is a tie in length, it prioritizes the token with the lowest index $($e.g., $T_1$ over $T_2)$.</p><p>If the string $zxxyzyx$ is processed by the analyzer, which one of the following is the sequence of tokens it outputs?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$T3,~T2,~T1$<br>&nbsp;</li><li>$T2, ~T1, ~T2$<br>&nbsp;</li><li>$T2, ~T1, ~T3$<br>&nbsp;</li><li>$T1,~T2,~T3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 177"
+        },
+        {
+          "post_id": "513047",
+          "text": "<p><strong>The attributes of three operators in a custom language are given below:</strong><br>\\begin{array}{llll}<br>\\text { OPERATOR } & \\text { PRECEDENCE } & \\text { ASSOCIATIVITY } & \\text { ARITY } \\\\<br>\\text { # (Square) } & \\text { HIGH } & \\text { RIGHT } & \\text { UNARY (Postfix) } \\\\<br>\\text { ^ (Power) } & \\text { MEDIUM } & \\text { RIGHT } & \\text { BINARY } \\\\<br>+ \\text { (Plus) } & \\text { LOW } & \\text { LEFT } & \\text { BINARY }<br>\\end{array}</p><p><br><strong>OPERATOR DEFINITIONS:</strong></p><ul><li>$\\mathbf{x \\#}=x^2$ (Square the number before it)<br>&nbsp;</li><li>$\\mathbf{x}^{\\wedge} \\mathbf{y}=x^y$ (Standard power)<br>&nbsp;</li><li>$\\mathbf{x + y}=x+y$ (Standard addition)<br>&nbsp;</li></ul><p><strong>Evaluate the following expression:</strong></p><p>$$<br>5+2 ~^{\\wedge} ~2 ~\\#&nbsp; ~^{\\wedge}~ 2<br>$$</p>",
+          "type": "Numerical",
+          "answer": "65541",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 177"
+        },
+        {
+          "post_id": "513044",
+          "text": "<p><strong>The attributes of three symbolic operators are given below:</strong></p><p>\\[<br>\\begin{array}{llll}<br>\\text{OPERATOR} & \\text{PRECEDENCE} & \\text{ASSOCIATIVITY} & \\text{ARITY} \\\\<br>\\& & \\text{HIGH} & \\textbf{RIGHT} & \\text{Binary} \\\\<br>1 & \\text{MEDIUM} & \\text{LEFT} & \\text{Binary} \\\\<br>\\Longrightarrow & \\text{LOW} & \\text{LEFT} & \\text{Binary}<br>\\end{array}<br>\\]</p><p><br><strong>Rules for this language:</strong></p><ul><li>$A \\& B$ is defined as $(A \\times B)$<br>&nbsp;</li><li>$A \\| B$ is defined as $(A+B)$<br>&nbsp;</li><li>$A \\Longrightarrow B$ is defined as $(A-B)$<br>&nbsp;</li></ul><p>The value of the expression $10 \\Longrightarrow 2 ~\\&~ 3 ~\\&~ 2 ~\\|~ 5$ in this language is $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "-7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 177"
+        },
+        {
+          "post_id": "513039",
+          "text": "Consider the following augmented grammar with $\\{+, *,(),, i d\\}$ as the set of terminals.<br>\n<br>\n$$<br>\n\\begin{aligned}<br>\n& T^{\\prime} \\rightarrow T \\\\<br>\n& T \\rightarrow T+F \\\\<br>\n& T \\rightarrow F \\\\<br>\n& F \\rightarrow F * P \\\\<br>\n& F \\rightarrow P \\\\<br>\n& P \\rightarrow(T) \\\\<br>\n& P \\rightarrow i d<br>\n\\end{aligned}<br>\n$$<br>\n<br>\nLet $I_0=\\operatorname{CLOSURE}\\left(\\left\\{T^{\\prime} \\rightarrow \\bullet T\\right\\}\\right)$.<br>\n<br>\nThe number of items in the set $\\operatorname{GOTO}\\left(\\operatorname{GOTO}\\left(I_0, F\\right), *\\right)$ is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 177"
+        },
+        {
+          "post_id": "513041",
+          "text": "Consider the following augmented grammar with $\\{+, \\uparrow, a, b\\}$ as the set of terminals. Note that $\\epsilon$ represents the empty string.<br>\n<br>\n$$<br>\n\\begin{aligned}<br>\n& S^{\\prime} \\rightarrow S \\\\<br>\n& S \\rightarrow A+S \\\\<br>\n& S \\rightarrow b \\\\<br>\n& A \\rightarrow a A \\uparrow \\\\<br>\n& A \\rightarrow \\epsilon<br>\n\\end{aligned}<br>\n$$<br>\n<br>\nLet $I_0=\\operatorname{CLOSURE}\\left(\\left\\{S^{\\prime} \\rightarrow \\bullet S\\right\\}\\right)$.<br>\n<br>\nThe number of items in the set $\\operatorname{GOTO}\\left(I_0, a\\right)$ is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 177"
+        }
+      ]
+    }
+  ]
+}

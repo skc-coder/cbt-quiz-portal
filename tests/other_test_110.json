@@ -1,0 +1,187 @@
+{
+  "name": "GATEBOOK-2019 Compilers1: Lexical Analysis",
+  "duration": "54",
+  "total_qs": "15",
+  "total_qs_one": 0,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "286855",
+          "text": "What is the minimum number of extra registers required to swap two numbers where the numbers are stored in two different registers?",
+          "type": "Numerical",
+          "answer": "0 : 0",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cd1,numerical-answers",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286853",
+          "text": "The number of tokens in the following C code fragment is:<br />\n<pre class=\"prettyprint linenums lang-c_cpp \" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"><br />\nprintf(&quot;i=%d.j = %d, &amp;i=%x&quot;,i,j,&amp;i);<br />\n</pre><br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $3$<br /> </li><li>  $28$<br /> </li> <li> $12$<br /> </li>  <li> $23$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd1",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286851",
+          "text": "Assume $ \\times , -, +$ and $/$ are operators. Precedence and associativity given for those operators are as follows:<br />\n<br />\n1.$ \\times $ has highest precedence among all operators and it is left associative.<br />\n2. $-, +$ and $/$ are having equal precedence and they are right associative.<br />\nUsing $\\times$ as Multiplication, - as Subtraction, + as Addition and $/$ is Division.<br />\n&nbsp;<br />\nThe output of the following expression: $10 \\times 10-5+15-5 \\times 10/5$ is _______,.",
+          "type": "Numerical",
+          "answer": "90",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cd1,numerical-answers",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286849",
+          "text": "<p>The #define ... directive in C is handled on a C compiler<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>by the lexical analyser</li>\n    <li>by the syntax analyser</li>\n    <li>by the semantic analyser</li>\n    <li>by the C preprocessor</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd1",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286847",
+          "text": "<p>Find the number of tokens in the following C code</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint main ()\n{\n    int *a, b; //variables\n    b =10;\n    a=&amp;b;\n    print (\"%d%d\",b,*a);\n    b=*/*pointer*/b;\n}\n\n</pre>",
+          "type": "Numerical",
+          "answer": "36",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cd1,numerical-answers,lexical-analysis",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286845",
+          "text": "<p>Which of the following is not part of&nbsp;the activation record of a&nbsp;function?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Local variables</li>\n    <li>Return value</li>\n    <li>Global variable</li>\n    <li>Access links</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd1,runtime-environments",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286843",
+          "text": "The identifier in the source program is stored in the symbol table during<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Semantic analysis<br /> </li><li>  Syntax analysis<br /> </li> <li> Lexical analysis<br /> </li>  <li> Code generation phase  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd1",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286841",
+          "text": "Match the following:<br />\n<br />\n$\\begin{array}{llll}P : &amp; \\text{Semantic analyzer} &amp; 1. &amp; \\text{Back end} \\\\ Q: &amp; \\text{Parser} &amp; 2. &amp; \\text{Postfix notation<br />\n} \\\\ R : &amp; \\text{Code optimizer} &amp; 3. &amp; \\text{Eliminating redundant code<br />\n} \\\\ S: &amp; \\text{Target code generation} &amp; 4. &amp; \\text{Static type checking<br />\n}&nbsp; &nbsp; \\\\ &amp; &amp; 5. &amp; \\text{Syntax errors<br />\n} \\\\ &amp; &amp; 6. &amp; \\text{correlating error messages<br />\n} \\end{array}$<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  P – 1, Q – 5, R – 3, S – 4<br /> </li><li>  P – 4, Q – 5, R – 3, S – 1<br /> </li> <li> P – 1, Q – 3, R – 6, S – 2<br /> </li>  <li> P – 5, Q – 2, R – 3, S – 6  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd1",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286839",
+          "text": "<p>Find the number of tokens in the following C code using lexical analyzer of compiler.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint main ()\n{//code begin\n    /* int a = 10; */\n    int * u, *v, s;\n    u=&amp;s;\n    v=&amp;s;\n    printf(\"%d%d\",s,*u);\n    //code ended\n}\n\n</pre>",
+          "type": "Numerical",
+          "answer": "35",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cd1,numerical-answers,lexical-analysis",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286837",
+          "text": "<p>Consider the following program:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\n\n1. main ()\n2. { int x =10;\n3. if (x &lt; 20;\n4. else\n5. y=20;\n6. }\n\n</pre>\n\n<p><br>\nWhen lexical analyzer scanning the above program, how many lexical errors will be produced?</p>",
+          "type": "Numerical",
+          "answer": "0 : 0",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cd1,numerical-answers,lexical-analysis",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286835",
+          "text": "<p>For the grammar</p>\n\n<ul>\n    <li>$S\\rightarrow aA\\mid *S$</li>\n    <li>$A\\rightarrow \\dotplus S \\mid (S \\mid \\varepsilon$</li>\n</ul>\n\n<p>Set $\\{ +,( \\}$ will be in the<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>First(A)</li>\n    <li>First (S)</li>\n    <li>Follow (S)</li>\n    <li>Follow (A)</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd1,first-follow,parsing",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286833",
+          "text": "<p>What will be the output of the following program for call by name and copy restore parameter passing mechanism respectively?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid func(int a, int b)\n{\n    a=a+b;\n    b=a+b;\n    a=b-a;\n    b=a+b\n}\n\nint main()\n{\n    int j, i=4;\n    int array[10] ={1,2,3,4,5,6,7,8,9,0}\n    func(i, array[i]);\n    for(j=0; j&lt;10; j++)\n        print(\"%d\", array[j]);\n    return 0;\n}\n</pre>\n\n<p>&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{call by name: }1&nbsp;\\: 2 \\: 3 \\: 4 \\: 5 \\: 6 \\: 7 \\: 8\\: &nbsp;9\\: &nbsp;9$ $\\text{copy restore: }1 \\:2 \\: 3 \\: 4 \\: 19 \\: 6 \\: 7 \\: 8 \\: 9 \\: 0$</li>\n    <li>$\\text{call by name: }9&nbsp;\\: 2 \\: 3 \\: 4 \\: 5 \\: 6 \\: 7 \\: 8 \\: 9 \\: 9$ $\\text{copy restore: }1 \\: 2 \\: 3 \\: 4 \\: 5 \\: 6 \\: 7 \\: 8 \\: 9 \\: 0$</li>\n    <li>$\\text{call by name: }0&nbsp;\\: 2 \\: 3 \\: 4 \\: 5 \\: 6 \\: 7 \\: 8 \\: 9 \\: 9$ $ \\text{copy restore: } 1 \\: 2 \\: 3 \\: 4 \\: \\text{-}8 \\: 6 \\: 7 \\: 8 \\: 9 \\: 0$</li>\n    <li>$\\text{call by name: }1 \\: 2 \\: 3 \\: 4 \\: 5 \\: 6 \\: 7 \\: 8 \\: 9 \\: 9$ $ \\text{copy restore: }1 \\: 2 \\: 3 \\: 4 \\: &nbsp;8 \\: 6 \\: 7 \\: 8 \\: 9 \\: 0$</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd1,parameter-passing",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286831",
+          "text": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid F( ){\n    static int x = 0;\n    x++;\n    printf(\"%d\", x);\n}\n\nint main ()\n{\n    F():\n    F():\n    F():\n    return 0;\n}\n\n</pre>\n\n<p><br>\nOutput of the above code snippet is:</p>",
+          "type": "Numerical",
+          "answer": "123 : 123",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cd1,numerical-answers",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286829",
+          "text": "<p>Which of the following statements regarding Lexical Analyser is FALSE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Lexical Analyser&nbsp;can be implemented using a Deterministic Pushdown Automata</li>\n    <li>Lexical Analyser&nbsp;produces token stream for the Syntax Analyser&nbsp;phase</li>\n    <li>Lexical Analyser&nbsp;helps in code optimization by removing unwanted tokens</li>\n    <li>Same Lexical Analyser&nbsp;can be used for different programming languages as long as their tokens are the same<br>\n    &nbsp;</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd1,lexical-analysis",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "286827",
+          "text": "<p>Consider the grammar</p>\n\n<ul>\n    <li>$S\\rightarrow ACB \\mid cbB \\mid Ba$</li>\n    <li>$A\\rightarrow da \\mid &nbsp;BC$</li>\n    <li>$B\\rightarrow b\\mid&nbsp; g \\mid \\epsilon $</li>\n    <li>$C \\rightarrow h \\mid \\epsilon $</li>\n</ul>\n\n<p>$FIRST (A)$ will be<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\{b, d, g, h, \\epsilon\\}$</li>\n    <li>$\\{d, g, h, b&nbsp;\\}$</li>\n    <li>$\\{d, h, g, \\epsilon\\}$</li>\n    <li>$\\{g, h, a, \\epsilon \\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cd1,first-follow",
+          "category": "Compiler Design"
+        }
+      ]
+    }
+  ]
+}

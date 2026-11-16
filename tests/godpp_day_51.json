@@ -1,0 +1,70 @@
+{
+  "name": "Day 48 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "477177",
+          "text": "<p>If an instruction takes $3$ cycles for execution, then how many cycles are needed for executing4 instructions of the same type in a sequence using a $3$-stage pipeline?<br>Assume that there are no interrupts or exceptions while executing them.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$12$ cycles<br>&nbsp;</li><li>$6$ cycles<br>&nbsp;</li><li>$9$ cycles<br>&nbsp;</li><li>$4$ cycles</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 48"
+        },
+        {
+          "post_id": "477186",
+          "text": "<p>A machine with a two-level cache has a base CPI of $1.5$ when all references hit the primary cache.<br>Given the following characteristics:</p><ul><li>Clock rate: $250$ MHz</li><li>Memory access time: $\\mathbf{1 0 0}$ ns</li><li>Miss rate at the primary cache: $\\mathbf{5 \\%}$</li><li>Secondary cache access time: $\\mathbf{1 0}$ ns</li><li>Miss rate at the secondary cache: $1 \\%$</li></ul><p>What is the total CPI?<br>(Answer should be a numerical value accurate to 4 decimal places.)</p>",
+          "type": "Numerical",
+          "answer": "1.6375",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 48"
+        },
+        {
+          "post_id": "477175",
+          "text": "<p>How do Direct Addressing Mode instructions compare with respect to the Indirect Addressing Mode instructions?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Faster</li><li>Slower</li><li>No difference</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 48"
+        },
+        {
+          "post_id": "477182",
+          "text": "Suppose a computer has a $4$-way set associative cache with one-word blocks and a total capacity of 256 bytes (word size $=4$ bytes). Given the sequence of byte addresses $8$, $64$, $96$, $128$, $64$, $96$, $256$, $192$, $24$, how many cache misses occur? (Answer as a numerical value.)",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 48"
+        },
+        {
+          "post_id": "477179",
+          "text": "<p>A block-set-associative cache consists of $64$ blocks divided into $4$-block sets.<br>The main memory has $4096$ blocks, each block containing $32$ words.<br>Assuming:</p><ul><li>The machine has a $32$-bit byte-addressable address space</li><li>Word size $=4$ bytes</li></ul><p>How many bits are there in each of the Tag, Set, and Word/Byte offset fields?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Tag $=21$ bits, Set $=4$ bits, Word/Byte offset $=7$ bits<br>&nbsp;</li><li>Tag $=20$ bits, Set $=5$ bits, Word/Byte offset $=7$ bits<br>&nbsp;</li><li>Tag $=21$ bits, Set $=5$ bits, Word/Byte offset $=6$ bits<br>&nbsp;</li><li>Tag $=22$ bits, Set $=4$ bits, Word/Byte offset $=6$ bits</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 48"
+        }
+      ]
+    }
+  ]
+}

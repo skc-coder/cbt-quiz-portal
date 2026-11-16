@@ -1,0 +1,70 @@
+{
+  "name": "Day 233 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "526829",
+          "text": "<p>Let $X$ be a square matrix. Consider the following two statements on $X$.</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>$X$ is invertible.<br>&nbsp;</li><li>Determinant of $X$ is non-zero.<br>&nbsp;</li></ol><p>Which one of the following is TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>I implies II; II does not imply I<br>&nbsp;</li><li>II implies I; I does not imply II<br>&nbsp;</li><li>I does not imply II; II does not imply I<br>&nbsp;</li><li>I and II are equivalent statements</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 233"
+        },
+        {
+          "post_id": "526827",
+          "text": "The nullity of $A=\\begin{pmatrix}2&3&7\\\\1&1&9\\\\9&2&x\\end{pmatrix}$ is $1$, then the value of $x$ is $\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_$.",
+          "type": "Numerical",
+          "answer": "158",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 233"
+        },
+        {
+          "post_id": "526825",
+          "text": "<p>Let $A$ be a $2 \\times 2$ matrix with integer entries. Which of the following could be its eigenvalue?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\sqrt[3]{2}$<br>&nbsp;</li><li>$\\pi$<br>&nbsp;</li><li>$\\dfrac{1}{\\sqrt{2}}$<br>&nbsp;</li><li>$\\sqrt{2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 233"
+        },
+        {
+          "post_id": "526819",
+          "text": "<p>Consider the matrix $A=\\begin{pmatrix} 1 & 2 & 0\\\\ 3 & c & 1\\\\ 0 & 1 & 1 \\end{pmatrix}$. For which value of $c$ is the factorization $A=LU$ impossible?&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4$&nbsp;<br>&nbsp;</li><li>$5$&nbsp;<br>&nbsp;</li><li>$6$&nbsp;<br>&nbsp;</li><li>$8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 233"
+        },
+        {
+          "post_id": "526822",
+          "text": "<p>If $s=a+b+c$, then the value of $\\Delta=\\begin{vmatrix} s+c & a & b \\\\ c & s+a & b \\\\ c & a & s+b \\end{vmatrix}$</p><ol style=\"list-style-type:upper-alpha\"><li>$2s^2$<br>&nbsp;</li><li>$2s^3$<br>&nbsp;</li><li>$s^3$<br>&nbsp;</li><li>$3s^3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 233"
+        }
+      ]
+    }
+  ]
+}

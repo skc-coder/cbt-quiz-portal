@@ -1,0 +1,70 @@
+{
+  "name": "Day 240 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528033",
+          "text": "<p>Define a relation $R$ over a class of $n \\times n$ real matrices $A$ and $B$ as \"ARB, if there exists a non-singular matrix $P$ such that $P A P^{-1}=B^{\\prime \\prime}$. Then which of the following is true ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$R$ is symmetric, transitive but not reflexive.</li><li>$R$ is reflexive, symmetric but not transitive.</li><li>$R$ is an equivalence relation.</li><li>$R$ is reflexive, transitive but not symmetric.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 240"
+        },
+        {
+          "post_id": "528034",
+          "text": "Let $A=\\{2,3,4,5, \\ldots, 30\\}$ and ${ }^{\\prime} \\sim$ ' be an equivalence relation on $A \\times A$, defined by $(a, b)=(c, d)$, if and only if $a d=b c$. Then, the number of ordered pairs, which satisfy this equivalence relation with ordered pair $(4,3)$ is equal to ?",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 240"
+        },
+        {
+          "post_id": "528028",
+          "text": "<p>Which of the following is not correct for relation $R$ on the set of real numbers?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(x, y) \\in R \\Leftrightarrow 0&lt;|x|-|y| \\leq 1$ is neither transitive nor symmetric.</li><li>$(x, y) \\in R \\Leftrightarrow 0&lt;|x-y| \\leq 1$ is symmetric and transitive.</li><li>$(x, y) \\in R \\Leftrightarrow|x|-|y| \\leq 1$ is reflexive but not symmetric.</li><li>$(x, y) \\in R \\Leftrightarrow|x-y| \\leq 1$ is reflexive and symmetric.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 240"
+        },
+        {
+          "post_id": "528031",
+          "text": "<p>Let N be the set of natural numbers and a relation R on N be defined by $R=\\left\\{(x, y) \\in \\mathrm{N} \\times \\mathrm{N}: x^3-3 x^2 y-x y^2\\right. \\left.+3 y^3=0\\right\\}$. Then the relation $R$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>symmetric but neither reflexive nor transitive.</li><li>reflexive but neither symmetric nor transitive.</li><li>reflexive and symmetric, but not transitive.</li><li>an equivalence relation.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 240"
+        },
+        {
+          "post_id": "528030",
+          "text": "<p>Let $S=\\{x \\in R: x \\geq 0$ and $2|\\sqrt{x}-3|+\\sqrt{x}(\\sqrt{x}-6)+6=0$. Then, $S$&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>is an empty set.</li><li>contains exactly one element.</li><li>contains exactly two elements.</li><li>contains exactly four elements.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 240"
+        }
+      ]
+    }
+  ]
+}

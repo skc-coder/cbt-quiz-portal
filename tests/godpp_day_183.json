@@ -1,0 +1,70 @@
+{
+  "name": "Day 179 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "513578",
+          "text": "<p>Consider a language that allows identifiers to start with a digit if they contain at least one letter. How would this impact the design of the Lexical Analyzer?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>IT WOULD SIMPLIFY THE DFA BY MERGING CONSTANTS AND IDENTIFIERS<br>&nbsp;</li><li>IT WOULD HAVE NO IMPACT ON THE DFA STRUCTURE<br>&nbsp;</li><li>MIN DFA WILL REQUIRE $3$ STATES FOR THIS PURPOSE<br>&nbsp;</li><li>THE LEXICAL ANALYZER WOULD BE UNABLE TO PROCESS SUCH A LANGUAGE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Compiler Design",
+          "day": "Day 179"
+        },
+        {
+          "post_id": "513576",
+          "text": "<p>Consider the following context-free grammar:</p><p>$$<br>\\begin{aligned}<br>& E \\rightarrow T R \\\\<br>& R \\rightarrow+T R \\mid \\epsilon \\\\<br>& T \\rightarrow F Y \\\\<br>& Y \\rightarrow * F Y \\mid \\epsilon \\\\<br>& F \\rightarrow(E) \\mid i d<br>\\end{aligned}<br>$$</p><p><br>Which of the following statements regarding the FIRST and FOLLOW sets of this grammar is FALSE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\left.\\operatorname{FOLLOW}(T)=\\left\\{{ }^*,+,\\right), \\$\\right\\}$<br>&nbsp;</li><li>$\\operatorname{FIRST}(R)=\\{+$, epsilon $\\}$<br>&nbsp;</li><li>$\\operatorname{FOLLOW}(Y)=\\{+),, \\$\\}$<br>&nbsp;</li><li>$\\operatorname{FIRST}(E)=\\{($, id $\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Compiler Design",
+          "day": "Day 179"
+        },
+        {
+          "post_id": "513574",
+          "text": "<p>Consider the following grammar $G$ with non-terminals $\\{S, A, B, C\\}$ and terminals $\\{a, b, c, d, g\\}$ :</p><p>$$<br>\\begin{aligned}<br>& S \\rightarrow A B \\\\<br>& A \\rightarrow a A \\mid \\epsilon \\\\<br>& B \\rightarrow b B \\mid C \\\\<br>& C \\rightarrow c C \\mid d \\mid \\epsilon<br>\\end{aligned}<br>$$</p><p><br>What is the FOLLOW set of the non-terminal $A$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\{a, b, c, d\\}$<br>&nbsp;</li><li>$\\{b, c, d, \\$\\}$<br>&nbsp;</li><li>$\\{b, c, d\\}$<br>&nbsp;</li><li>$\\{B, b, c, d, \\$\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Compiler Design",
+          "day": "Day 179"
+        },
+        {
+          "post_id": "513572",
+          "text": "<p>$\\text { Consider the following C code segment: }$</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">inline int square(int s) { return s * s; }\nvoid process(int n, int a[]) {\n    int x = 10;\n    int y = x; // Copy of x\n    \n    for (int i = 0; i &lt; n; i++)\n    {\n        a[i] = y * i;\n        int val = square(i);\n        \n        // Assume n is always a multiple of 4\n        //\n    }\n}</pre><p>Which of the following is/are not true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THERE IS SCOPE FOR COPY PROPAGATION IN THIS CODE<br>&nbsp;</li><li>THERE IS SCOPE FOR LOOP UNROLLING IN THIS CODE<br>&nbsp;</li><li>THE CODE EXHIBITS CONSTANT FOLDING AT RUNTIME<br>&nbsp;</li><li>THERE IS SCOPE FOR DEADCODE ELIMINATION IN THIS CODE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Compiler Design",
+          "day": "Day 179"
+        },
+        {
+          "post_id": "513570",
+          "text": "<p>Consider the following C code segment:<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int a = 10, b = 20;\nfor (int i = 0; i &lt; n; i++)\n{\n&nbsp; &nbsp; int constant_val = a * b + 5;\n&nbsp; &nbsp; for (int j = 0; j &lt; n; j++)\n&nbsp; &nbsp; {\n&nbsp; &nbsp; &nbsp; &nbsp; int temp = i * 8;\n&nbsp; &nbsp; &nbsp; &nbsp; arr[i][j] = temp + j;\n&nbsp; &nbsp; &nbsp; &nbsp; \n&nbsp; &nbsp; &nbsp; &nbsp; if (0) {\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; printf(\"Debugging: %d\", arr[i][j]);\n&nbsp; &nbsp; &nbsp; &nbsp; }\n&nbsp; &nbsp; }\n}</pre><p><br>Which one of the following is FALSE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE CODE CONTAINS LOOP INVARIANT COMPUTATION<br>&nbsp;</li><li>THERE IS SCOPE FOR STRENGTH REDUCTION IN THIS CODE<br>&nbsp;</li><li>THERE IS SCOPE FOR DEAD CODE ELIMINATION IN THIS CODE<br>&nbsp;</li><li>THERE IS SCOPE FOR COMMON SUB-EXPRESSION ELIMINATION IN THIS CODE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Compiler Design",
+          "day": "Day 179"
+        }
+      ]
+    }
+  ]
+}

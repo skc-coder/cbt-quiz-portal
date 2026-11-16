@@ -1,0 +1,70 @@
+{
+  "name": "Day 287 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "533747",
+          "text": "The smallest integer that can be represented using a $12$-bit number in $2$’s complement form is",
+          "type": "Numerical",
+          "answer": "-2048",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 287"
+        },
+        {
+          "post_id": "533739",
+          "text": "<p data-start=\"41\" data-end=\"182\">In an $n$-bit signed number system, zero has exactly $2$ different representations in which of the following representations?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"184\" data-end=\"371\">Sign-magnitude and $1$’s complement only<br>&nbsp;</li><li data-start=\"184\" data-end=\"371\">$2$’s complement and excess-$2^{n-1}$ only<br>&nbsp;</li><li data-start=\"184\" data-end=\"371\">Sign-magnitude and $2$’s complement only<br>&nbsp;</li><li data-start=\"184\" data-end=\"371\">$1$’s complement and excess-$2^{n-1}$ only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 287"
+        },
+        {
+          "post_id": "533743",
+          "text": "<p data-start=\"30\" data-end=\"169\">Given that $A$ and $B$ are two $8$-bit $2$’s complement numbers where $A=10000001$ and $B=11111110$, then the sum $A+B$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"171\" data-end=\"232\">$01111111$<br>&nbsp;</li><li data-start=\"171\" data-end=\"232\">$10000011$<br>&nbsp;</li><li data-start=\"171\" data-end=\"232\">$01111101$<br>&nbsp;</li><li data-start=\"171\" data-end=\"232\">$11111111$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 287"
+        },
+        {
+          "post_id": "533737",
+          "text": "Let $X$ be the number of distinct $12$-bit integers representable in $2$’s complement form. Let $Y$ be the number of distinct $12$-bit integers representable in $1$’s complement form. Let $Z$ be the number of distinct $12$-bit integers representable in sign-magnitude form. Then find $X-Y-Z$.",
+          "type": "Numerical",
+          "answer": "-4094",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 287"
+        },
+        {
+          "post_id": "533745",
+          "text": "<p data-start=\"206\" data-end=\"320\">An $8$-bit $2$’s complement number is given as $10010110$. Find its decimal value.</p>",
+          "type": "Numerical",
+          "answer": "-106",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 287"
+        }
+      ]
+    }
+  ]
+}

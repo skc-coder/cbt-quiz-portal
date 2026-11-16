@@ -1,0 +1,352 @@
+{
+  "name": "Data Structures GATE2020: Previous GATE (1)",
+  "duration": "72",
+  "total_qs": "30",
+  "total_qs_one": 20,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "1686",
+          "text": "<p>Let $A$ be a two dimensional array declared as follows:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nA: array [1 …. 10] [1 ….. 15] of integer;</pre>\n\n<p>Assuming that each integer takes one memory location, the array is stored in row-major order and the first element of the array is stored at location $100$, what is the address of the element $A[i][j]$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$15i+j+84$</p>\n\t</li>\n\t<li>\n\t<p>$15j+i+84$</p>\n\t</li>\n\t<li>\n\t<p>$10i+j+89$</p>\n\t</li>\n\t<li>\n\t<p>$10j+i+89$</p>\n\t</li>\n</ol>\n\n",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gate1998,data-structures,array,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1347",
+          "text": "<p>A program $P$ reads in $500$ integers in the range $[0, 100]$ representing the scores of $500$ students. It then&nbsp;prints the frequency of each score above $50$. What would be the best way for $P$ to store the frequencies?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>An array of $50$ numbers</p>\n\t</li>\n\t<li>\n\t<p>An array of $100$ numbers</p>\n\t</li>\n\t<li>\n\t<p>An array of $500$ numbers</p>\n\t</li>\n\t<li>\n\t<p>A dynamically allocated array of $550$ numbers</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2005,data-structures,array,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1000",
+          "text": "<p>A single array $A[1 \\ldots&nbsp;\\text{MAXSIZE}]$ is used to implement two stacks. The two stacks grow from opposite ends of the array. Variables $top1$ and $top2$ $(top1 &lt; top 2)$ point to the location of the topmost element in each of the stacks. If the space is to be used efficiently, the condition for $\\text{“}\\textsf{stack full}\\text{”}$ is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$(top1 = \\text{MAXSIZE} / 2)$ and $(top2 = \\text{MAXSIZE} / 2 + 1)$</p>\n\t</li>\n\t<li>\n\t<p>$top1 + top2 = \\text{MAXSIZE}$</p>\n\t</li>\n\t<li>\n\t<p>$(top1 = \\text{MAXSIZE} / 2)$ or $(top2 = \\text{MAXSIZE})$</p>\n\t</li>\n\t<li>\n\t<p>$top1 = top2 - 1$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2004,data-structures,stack,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1001",
+          "text": "<p>The following numbers are inserted into an empty binary search tree in the given order: $10, 1, 3, 5, 15, 12, 16$. What is the height of the binary search tree (the height is the maximum distance of a leaf node from the root)?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$2$</li>\n\t<li>$3$</li>\n\t<li>$4$</li>\n\t<li>$6$</li>\n</ol>\n\n",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2004,data-structures,binary-search-tree,easy,isro2009",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3272",
+          "text": "<p>Which of the following is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>The cost of searching an AVL tree is $\\Theta&nbsp;(\\log n)$ but that of a binary search tree is $O(n)$</li>\n\t<li>The cost of searching an AVL tree is $\\Theta (\\log n)$ but that of a complete binary tree is&nbsp;$\\Theta (n \\log n)$</li>\n\t<li>The cost of searching a binary search tree is $O (\\log n )$ but that of an AVL tree is $\\Theta(n)$</li>\n\t<li>The cost of searching an AVL tree is $\\Theta&nbsp;(n \\log n)$&nbsp;but that of a binary search tree is $O(n)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gateit-2008,data-structures,binary-search-tree,easy,avl-tree",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3387",
+          "text": "<p>How many distinct BSTs can be constructed with $3$ distinct keys?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$4$</li>\n\t<li>$5$</li>\n\t<li>$6$</li>\n\t<li>$9$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gateit-2008,data-structures,binary-search-tree,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1416",
+          "text": "<p>Which one of the following is the tightest upper bound that represents the time complexity of inserting an object into a binary search tree of $n$ nodes?</p>\n\n<ol style=\"list-style-type: upper-alpha;\">\n\t<li>$O(1)$</li>\n\t<li>$O(\\log n)$</li>\n\t<li>$O(n)$</li>\n\t<li>$O(n&nbsp;\\log n)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2013,data-structures,easy,binary-search-tree",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "8221",
+          "text": "<p>What are the worst-case complexities of insertion and deletion of a key in a binary search tree?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\Theta(\\log n)$ for both insertion and deletion</li>\n\t<li>$\\Theta(n)$ for both insertion and deletion</li>\n\t<li>$\\Theta(n)$ for insertion and&nbsp;$\\Theta(\\log n)$ for deletion</li>\n\t<li>$\\Theta(\\log n)$ for insertion and&nbsp;$\\Theta(n)$ for deletion</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2015-set1,data-structures,binary-search-tree,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "8409",
+          "text": "<p>While inserting the elements $71, 65, 84, 69, 67, 83$ in an empty binary search tree (BST) in the sequence shown, the element in the lowest level is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$65$</li>\n\t<li>$67$</li>\n\t<li>$69$</li>\n\t<li>$83$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2015-set3,data-structures,binary-search-tree,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "118286",
+          "text": "<p>Let $T$ be a binary search tree with $15$ nodes. The minimum and maximum possible heights of $T$ are:</p>\n\n<p><em>Note: The height of a tree with a single node is </em>$0$<em>.</em></p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$4$ and $15$ respectively.</li>\n\t<li>$3$ and $14$ respectively.</li>\n\t<li>$4$ and $14$ respectively.</li>\n\t<li>$3$ and $15$ respectively.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2017-set1,data-structures,binary-search-tree,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "2457",
+          "text": "<p>Which of the following permutations can be obtained in the output (in the same order) using a stack assuming that the input is the sequence $\\text{1, 2, 3, 4, 5}$ in that order?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n\t<li>$\\text{3, 4, 5, 1, 2}$</li>\n\t<li>$\\text{3, 4, 5, 2, 1}$</li>\n\t<li>$\\text{1, 5, 2, 3, 4}$</li>\n\t<li>$\\text{5, 4, 3, 1, 2}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gate1994,data-structures,stack,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "8408",
+          "text": "<p>The result evaluating the postfix expression $10&nbsp; \\ 5 + 60 \\ 6 / &nbsp;* 8 -$ is&nbsp;</p><ol style=\"list-style-type:upper-alpha\"><li>$284$</li><li>$213$</li><li>$142$</li><li>$71$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2015-set3,data-structures,stack,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "839",
+          "text": "<p>The number of leaf nodes in a rooted tree of n nodes, with each node having $0$ or $3$ children is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\frac{n}{2}$</li>\n\t<li>$\\frac{(n-1)}{3}$</li>\n\t<li>$\\frac{(n-1)}{2}$</li>\n\t<li>$\\frac{(2n+1)}{3}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2002,data-structures,tree,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "2046",
+          "text": "<p>Consider the following rooted tree with the vertex labeled $P$ as the root:</p><p><img alt=\"\" height=\"287\" width=\"303\" src=\"data:image/png;base64,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\"></p><p>The order in which the nodes are visited during an in-order traversal of the tree is</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{SQPTRWUV}$</li><li>$\\text{SQPTUWRV}$</li><li>$\\text{SQPTWUVR}$</li><li>$\\text{SQPTRUWV}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2014-set3,data-structures,tree,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "118300",
+          "text": "Let $T$ be a tree with $10$ vertices. The sum of the degrees of all the vertices in $T$ is ________",
+          "type": "Numerical",
+          "answer": "18",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gatecse-2017-set1,data-structures,tree,easy,numerical-answers",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3264",
+          "text": "<p>What is the size of the smallest $\\textsf{MIS}$ (Maximal Independent Set) of a chain of nine nodes?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$5$</li>\n\t<li>$4$</li>\n\t<li>$3$</li>\n\t<li>$2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gateit-2008,normal,graph-connectivity",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "2258",
+          "text": "<p>Let $G$ be the graph with $100$ vertices numbered $1$ to $100$.&nbsp; Two vertices $i$ and $j$ are adjacent &nbsp;if $\\vert&nbsp;i-j \\vert&nbsp;=8$&nbsp;or $\\vert&nbsp;i-j \\vert=12$. The&nbsp;number of connected components in $G$ is</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n\t<li>$8$</li>\n\t<li>$4$</li>\n\t<li>$12$</li>\n\t<li>$25$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gate1997,data-structures,normal,graph-theory",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1967",
+          "text": "<p>A priority queue is implemented as a Max-Heap. Initially, it has $5$ elements. The level-order traversal of the heap is: $10, 8, 5, 3, 2$. Two new elements $1$ and $7$ are inserted into the heap in that order. The level-order traversal of the heap after the insertion of the elements is:&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$10, 8, 7, 3, 2, 1, 5$</li>\n\t<li>$10, 8, 7, 2, 3, 1, 5$</li>\n\t<li>$10, 8, 7, 1, 2, 3, 5$</li>\n\t<li>$10, 8, 7, 5, 3, 2, 1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2014-set2,data-structures,binary-heap,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "8418",
+          "text": "<p>Consider the following array of elements.</p>\n\n<p>$\\langle 89, 19, 50, 17, 12, 15, 2, 5, 7, 11, 6, 9, 100 \\rangle$</p>\n\n<p>The minimum number of interchanges needed to convert it into a max-heap is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$4$</li>\n\t<li>$5$</li>\n\t<li>$2$</li>\n\t<li>$3$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2015-set3,data-structures,binary-heap,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "2460",
+          "text": "<p>Linked lists are not suitable data structures for which one of the following problems?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>Insertion sort</p>\n\t</li>\n\t<li>\n\t<p>Binary search</p>\n\t</li>\n\t<li>\n\t<p>Radix sort</p>\n\t</li>\n\t<li>\n\t<p>Polynomial manipulation</p>\n\t</li>\n</ol>\n\n",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gate1994,data-structures,linked-list,normal,ugcnetsep2013ii",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1033",
+          "text": "<p>A circularly linked list is used to represent a Queue. A single variable $p$ is used to access the Queue. To which node should $p$ point such that both the operations $\\text{enQueue}$ and $\\text{deQueue}$ can be performed in constant time?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"184\" src=\"data:image/png;base64,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\" width=\"521\"></p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>rear node</li>\n\t<li>front node</li>\n\t<li>not possible with a single pointer</li>\n\t<li>node next to front</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2004,data-structures,linked-list,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1037",
+          "text": "<p>Suppose each set is represented as a linked list with elements in arbitrary order. Which of the operations among $\\text{union, intersection, membership, cardinality}$ will be the slowest?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$\\text{union}$ only</p>\n\t</li>\n\t<li>\n\t<p>$\\text{intersection, membership}$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{membership, cardinality}$</p>\n\t</li>\n\t<li>\n\t<p>$\\text{union, intersection}$</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2004,data-structures,linked-list,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3815",
+          "text": "<p>The following C function takes a singly-linked list of integers as a parameter and rearranges the elements of the list. The list is represented as pointer to a structure. The function is called with the list containing the integers $1, 2, 3, 4, 5, 6, 7$ in the given order. What will be the contents of the list after the function completes execution?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nstruct node {int value; struct node *next;);\nvoid rearrange (struct node *list) {\n    struct node *p, *q;\n    int temp;\n    if (!list || !list -&gt; next) return;\n    p = list; q = list -&gt; next;\n    while (q) {\n        temp = p -&gt; value;\n        p -&gt; value = q -&gt; value;\n        q -&gt; value = temp;\n        p = q -&gt; next;\n        q = p ? p -&gt; next : 0;\n      }\n}</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$1, 2, 3, 4, 5, 6, 7$</li>\n\t<li>$2, 1, 4, 3, 6, 5, 7$</li>\n\t<li>$1, 3, 2, 5, 4, 7, 6$</li>\n\t<li>$2, 3, 4, 5, 6, 7, 1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gateit-2005,data-structures,linked-list,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "485",
+          "text": "<p>The following C function takes a single-linked list of integers as a parameter and rearranges the elements of the list. The function is called with the list containing the integers $1, 2, 3, 4, 5, 6, 7$ in the given order. What will be the contents of the list after function completes execution?</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nstruct node {\n    int value;\n    struct node *next;\n};\n\nvoid rearrange(struct node *list) {\n    struct node *p, *q;\n    int temp;\n    if (!list || !list -&gt; next) return;\n    p = list; q = list -&gt; next;\n    while(q) {\n        temp = p -&gt; value; p-&gt;value =  q -&gt; value;\n        q-&gt;value = temp; p = q -&gt;next;\n        q = p? p -&gt;next : 0;\n    }   \n}\n</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$1, 2 ,3, 4, 5, 6, 7$</li>\n\t<li>$2, 1, 4 ,3, 6, 5, 7$</li>\n\t<li>$1, 3, 2, 5, 4, 7, 6$</li>\n\t<li>$2, 3, 4, 5, 6, 7, 1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2008,data-structures,linked-list,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "39557",
+          "text": "<p>$N$ items are stored in a sorted doubly linked list. For a <em>delete</em> operation, a pointer is provided to the record to be deleted. For a <em>decrease-key</em> operation, a pointer is provided to the record on which the operation is to be performed.</p>\n\n<p>An algorithm performs the following operations on the list in this order: $\\Theta \\left(N\\right)$ <em>delete</em>, $O (\\log N)$ <em>insert</em>, $O(\\log N)$ <em>find</em>, and $\\Theta(N)$ <em>decrease-key</em>. What is the time complexity of all these operations put together?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$O(\\log^{2} N)$</li>\n\t<li>$O(N)$</li>\n\t<li>$O(N^{2})$</li>\n\t<li>$\\Theta\\left(N^{2}\\log N\\right)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2016-set2,data-structures,linked-list,time-complexity,normal,algorithms",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "118711",
+          "text": "<p>Consider the C code fragment given below.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\ntypedef struct node {\n    int data;\n    node* next;\n} node;\n\nvoid join(node* m, node* n) {\n    node* p = n;\n    while(p-&gt;next != NULL) {\n        p = p-&gt;next;\n    }\n    p-&gt;next = m;\n}</pre>\n\n<p>Assuming that m and n point to valid NULL-terminated linked lists, invocation of&nbsp;join will</p>\n\n<ol style=\"list-style-type: upper-alpha;\">\n\t<li>append list m to the end of list n for all inputs.</li>\n\t<li>either cause a null&nbsp;pointer dereference or append list m to the end of list n.</li>\n\t<li>cause a null pointer dereference for all inputs.</li>\n\t<li>append list n&nbsp;to the end of list m&nbsp;for all inputs.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2017-set1,data-structures,linked-list,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "2074",
+          "text": "<p>Consider a hash table with $100$ slots. Collisions are resolved using chaining. Assuming simple uniform hashing, what is the probability that the first $3$ slots are unfilled after the first $3$ insertions?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$(97 \\times 97 \\times 97) / 100^3$</li>\n\t<li>$(99 \\times 98 \\times 97) / 100^3$</li>\n\t<li>$(97 \\times 96 \\times 95) / 100^3$</li>\n\t<li>$(97 \\times 96 \\times 95 / (3! \\times 100^3)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2014-set3,data-structures,hashing,probability,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "8152",
+          "text": "<p>Which one of the following hash functions &nbsp;on integers will distribute keys most uniformly over $10$ buckets numbered $0$ to $9$ for $i$ ranging from $0$ to $2020$?</p>\n\n\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$h(i) = i^2 \\text{mod } 10$</li>\n\t<li>$h(i) = i^3 \\text{mod } 10$</li>\n\t<li>$h(i) = (11 \\ast i^2) \\text{mod } 10$</li>\n\t<li>$h(i) = (12 \\ast i^2) \\text{mod } 10$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2015-set2,data-structures,hashing,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3463",
+          "text": "<p>Suppose you are given an implementation of a queue of integers. The operations that can be performed on the queue are:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>$isEmpty (Q)$ — returns true if the queue is empty, false otherwise.</li>\n\t<li>$delete (Q)$ — deletes the element at the front of the queue and returns its value.</li>\n\t<li>$insert (Q, i)$ — inserts the integer i at the rear of the queue.</li>\n</ol>\n\n<p>Consider the following function:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\nvoid f (queue Q) {\nint i ;\nif (!isEmpty(Q)) {\n   i = delete(Q);\n   f(Q);\n   insert(Q, i);\n  }\n}</pre>\n\n<p>What operation is performed by the above function $f$ ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Leaves the queue $Q$ unchanged</li>\n\t<li>Reverses the order of the elements in the queue $Q$</li>\n\t<li>Deletes the element at the front of the queue&nbsp;$Q$ and inserts it at the rear keeping the other elements in the same order</li>\n\t<li>Empties the queue $Q$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gateit-2007,data-structures,queue,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "39667",
+          "text": "<p>A queue is implemented using an array such that ENQUEUE and DEQUEUE operations are performed efficiently. Which one of the following statements is <strong>CORRECT</strong> ($n$ refers to the number of items in the queue) ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Both operations can be performed in $O(1)$ time.</li>\n\t<li>At most one operation can be performed in $O(1)$ time but the worst case time for the operation will be $\\Omega (n)$.</li>\n\t<li>The worst case time complexity for both operations will be $\\Omega (n)$.</li>\n\t<li>Worst case time complexity for both operations will be $\\Omega (\\log n)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2016-set1,data-structures,queue,normal",
+          "category": "Data Structures"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "name": "GATE Overflow CS Test Series 2026 | Discrete Mathematics | Shallow Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "431474",
+          "text": "<p>Two finite sets \\(A\\) and \\(B\\) have \\(p\\) and \\(q\\) elements each. The number of subsets of \\(A\\) is 240 more than that of \\(B\\). What are the values of \\(p\\) and \\(q\\) respectively?</p><ol style=\"list-style-type:upper-alpha\"><li>\\(p = 8, q = 5\\)<br>&nbsp;&nbsp;</li><li>\\(p = 7, q = 4\\)<br>&nbsp;&nbsp;</li><li>\\(p = 9, q = 6\\)<br>&nbsp;&nbsp;</li><li>None of the above&nbsp;</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-dm-shallow-1,set-theory,easy,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "431476",
+          "text": "Consider a propositional language where:\n\n- \\( p \\) means \"x is a prime number\",\n\n- \\( q \\) means \"x is an odd number\".\n\nWhat is the correct formal representation of the sentence \"x being a prime number is a sufficient condition for x being odd\"? Assume  \\( x \\) $>$ \\( 2 \\).\n\nA. \\( p \\rightarrow q \\)  \n\nB. \\( q \\rightarrow p \\)  \n\nC. \\( p \\leftrightarrow q \\)  \n\nD. \\( \\neg p \\rightarrow \\neg q \\)",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-dm-shallow-1,propositional-logic,easy,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "431421",
+          "text": "<p>Match the pairs in the following question by choosing the appropriate option.<br>\\[<br>\\begin{array}{|c|c|}<br>\\hline<br>P_1 &amp; A \\text{: There are precisely two cars} \\\\<br>P_2 &amp; B \\text{: There are a minimum of two cars} \\\\<br>P_3 &amp; C \\text{: There is just one car} \\\\<br>P_4 &amp; D \\text{: There are a minimum of three cars} \\\\<br>\\hline<br>\\end{array}<br>\\]<br>Where,<br>\\[<br>\\begin{array}{l}<br>P_1 : \\exists x(\\text{Car}(x) \\land \\forall y(\\text{Car}(y) \\implies y = x)) \\\\<br>P_2 : \\exists x \\exists y(\\text{Car}(x) \\land \\text{Car}(y) \\land (x \\ne y) \\land \\forall z \\forall w \\forall v ((\\text{Car}(z) \\land \\text{Car}(w) \\land \\text{Car}(v)) \\implies (z = y \\lor z = w \\lor z = v \\lor w = v))) \\\\<br>P_3 : \\exists x \\exists y(\\text{Car}(x) \\land \\text{Car}(y) \\land (x \\ne y)) \\\\<br>P_4 : \\exists x \\exists y \\exists z(\\text{Car}(x) \\land \\text{Car}(y) \\land \\text{Car}(z) \\land (x \\ne y) \\land (y \\ne z) \\land (x \\ne z)) \\\\<br>\\end{array}<br>\\]</p><ol style=\"list-style-type:upper-alpha\"><li>\\( P_1 - C, P_2 - A, P_3 - D, P_4 - B \\)</li><li>\\( P_1 - C, P_2 - A, P_3 - B, P_4 - D \\)</li><li>\\( P_1 - D, P_2 - A, P_3 - C, P_4 - B \\)</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,first-order-logic,normal,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "431454",
+          "text": "<p>Consider three finite sets \\(P\\), \\(Q\\), and \\(R\\). Let<br>\\[ U_1 = ((P \\cup Q) - (Q \\cup R)) \\cap R \\]<br>and<br>\\[ U_2 = (P \\cup (Q \\cap R)) - (Q - R). \\]<br>The sets \\( U_1 \\) and \\( U_2 \\) are related as.</p><ol style=\"list-style-type:upper-alpha\"><li>\\( U_1 \\subseteq U_2 \\)</li><li>\\( U_2 \\subseteq U_1 \\)</li><li>\\( U_1 \\cap U_2 \\neq&nbsp;\\emptyset \\)</li><li>\\( U_1 = U_2 \\)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,set-theory,normal,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "431429",
+          "text": "Consider the statement: \"For every student S, if S passes the exam, then S studied well and S understood the material.\" Which one of the following sentences is equivalent to the above claim?<br /><ol style=\"list-style-type:upper-alpha\"><li> For every student S, if S did not study well or S did not understand the material, then S did not pass the exam.<br />  </li><li> There is a student S, such that if S did not study well or S did not understand the material, then S did not pass the exam.<br />  </li> <li>If S did not study well or S did not understand the material, then S did not pass the exam.<br />  </li>  <li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,propositional-logic,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431464",
+          "text": "<p>Consider the set \\( B = \\{ \\emptyset, \\{1, 2\\}, 4, \\{3\\}, \\{2, \\{4\\}\\} \\} \\).&nbsp;</p><p>Which of the following are subsets of \\( B \\)? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>(Mark all the appropriate choices)</p><ol style=\"list-style-type:upper-alpha\"><li>\\( \\{ \\{1, 2\\}, 4 \\} \\)<br>&nbsp;&nbsp;</li><li>\\( \\{ \\emptyset, \\{3\\} \\} \\)<br>&nbsp;&nbsp;</li><li>\\( \\{ 2, \\{4\\} \\} \\)<br>&nbsp;&nbsp;</li><li>\\( \\{ 4, \\{2, \\{4\\}\\} \\} \\)&nbsp;</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-dm-shallow-1,set-theory,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "431458",
+          "text": "Let \\( p(t), q(t), \\) and \\( r(t) \\) be the lengths of the three sides of a geometric figure \\( t \\) in non-increasing order (i.e., \\( p(t) \\ge q(t) \\ge r(t) \\)).<br />We define the sets:<br />\\[ A := \\{t : p(t) \\neq q(t) \\neq r(t) \\neq p(t)\\} \\]<br />\\[ B := \\{t : p(t) = q(t)\\} \\]<br />\\[ C := \\{t : q(t) = r(t)\\} \\]<br />\\[ D := \\{t : r(t) = p(t)\\} \\]<br />\\[ S := \\{\\text{the set of all triangles}\\} \\]<br />Which of the following will represent a scalene triangle?<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( (A \\cup B) \\cap S \\)</li><li> \\( (A \\cap B \\cap C) \\cap S \\)</li> <li>\\( (A \\cup B \\cup C) \\cap S \\)</li>  <li>\\( A \\cap S \\)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,set-theory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431456",
+          "text": "Consider the set $ B = \\{2, 4, 6, 8, 10\\} $. From all the subsets of $ B $, we define a new set $ Y $ as $ Y = \\{ (M, N) \\mid |M \\Delta N| = 4 \\} $, where $ (M, N) $ is an ordered pair and $ \\Delta $ denotes the symmetric difference operation. The number of elements in $ Y $ , i.e., $ |Y| $ , is _____.",
+          "type": "Numerical",
+          "answer": "160",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-dm-shallow-1,numerical-answers,set-theory,difficult,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "431447",
+          "text": "Consider the following two sentences:<br />\\[ S1: \\text{The complement of an irreflexive relation is reflexive.} \\]<br />\\[ S2: \\text{The union of two irreflexive relations is irreflexive.} \\]<br />Which of the below options is/are CORRECT?<br /><ol style=\"list-style-type:upper-alpha\"><li> Only \\( S1 \\)</li><li> Only \\( S2 \\)</li> <li>Neither \\( S1 \\) nor \\( S2 \\)</li>  <li>Both \\( S1 \\) and \\( S2 \\)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,relations,normal,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431451",
+          "text": "Consider the following relations defined on the set \\( K \\):<br />\\[ R1 : \\{(a, b) \\mid a + b = 10\\} \\]<br />\\[ R2 : \\{(a, b) \\mid a \\equiv b \\pmod{4}\\} \\]<br />\\[ R3 : \\{(a, b) \\mid a < b\\} \\]<br />where \\( K \\) is the set of all non-negative integers. Which of the following statements is TRUE?<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( R1 \\) and \\( R2 \\) are symmetric while \\( R3 \\) is not symmetric.</li><li> \\( R1 \\) is symmetric while \\( R2 \\) and \\( R3 \\) are not symmetric.</li> <li>\\( R2 \\) is symmetric while \\( R1 \\) and \\( R3 \\) are not symmetric.</li>  <li>None of these relations is symmetric.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,relations,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431477",
+          "text": "<p>Consider the following logical statements:<br>P1: If it is sunny and warm, then the picnic will happen.<br>P2: The picnic did not happen.<br>Which of the following is a valid conclusion?</p><ol style=\"list-style-type:upper-alpha\"><li>It was not sunny.</li><li>It was not warm.</li><li>It was not sunny or it was not warm.</li><li>It was sunny and warm.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-dm-shallow-1,propositional-logic,moderate,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "431479",
+          "text": "Which of the following is the correct formalization for the sentence \"Every student reads some book\"?<br />(Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> \\(\\forall x(Student(x) \\rightarrow \\exists y(Book(y) \\land Reads(x, y)))\\)</li><li> \\(\\exists y(Book(y) \\land \\forall x(Student(x) \\rightarrow Reads(x, y)))\\)</li> <li>\\(\\forall x \\exists y((Student(x) \\land Book(y)) \\rightarrow Reads(x, y))\\)</li>  <li>\\(\\forall x \\forall y((Student(x) \\land Book(y)) \\rightarrow Reads(x, y))\\)</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-dm-shallow-1,first-order-logic,multiple-selects,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431435",
+          "text": "Which of the following function(s) is/are bijection from \\(\\mathbb{R}\\) to \\(\\mathbb{R}\\)? <br />(Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( f(x) = \\frac{2x + 1}{x^2 + 1} \\)</li><li> \\( g(x) = x^3 + 3x \\)</li> <li>\\( h(x) = \\ln(x^2 + 1) \\)</li>  <li>\\( k(x) = \\frac{3x - 2}{x + 4} \\)</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-dm-shallow-1,functions,multiple-selects,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431437",
+          "text": "Consider the function \\( f \\) on \\( [0, 2] \\) defined by:<br />\\[ f(x) = \\frac{x^2 - 2x + 2}{x + 1} \\]<br />Which of the following statements is TRUE?<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( f \\) is not injective but is surjective.<br />  </li><li> \\( f \\) is neither injective nor surjective.<br />  </li> <li>\\( f \\) is surjective but not injective.<br />  </li>  <li>\\( f \\) is injective but not surjective.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,functions,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431441",
+          "text": "Given a relation \\( \\diamond \\) on \\( \\mathbb{Z}^2 \\) by \\((a, b) \\diamond (c, d)\\) if and only if either \\( a > c \\) or \\( a = c \\) and \\( b \\geq d \\). Consider the following statements:<br />S1: \\( \\diamond \\) is a partial order.  <br />S2: \\( \\diamond \\) is reflexive.  <br />Which of the following is TRUE?<br /><ol style=\"list-style-type:upper-alpha\"><li> S1 is TRUE and S2 is FALSE<br />  </li><li> S1 is FALSE and S2 is TRUE<br />  </li> <li>Neither S1 nor S2 is correct<br />  </li>  <li>Both S1 and S2 are correct</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,relations,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431445",
+          "text": "Let \\( T \\) and \\( U \\) be two arbitrary relations on a set \\( B \\). Consider the following statements:<br />S1: \\( T \\cup U \\) is a universal relation.<br />S2: \\( T \\cap U \\) is a universal relation.<br />Which of the below statements is/are TRUE?<br /><ol style=\"list-style-type:upper-alpha\"><li> S1 is true and S2 is false<br />  </li><li> S1 is false and S2 is true<br />  </li> <li>Neither S1 nor S2 is true<br />  </li>  <li>Both S1 and S2 are true</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,relations,easy,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431433",
+          "text": "Suppose that \\( g: \\mathbb{Z} \\rightarrow \\mathbb{Z} \\) is known to be one-one and onto (bijection). Let's define a function \\( f: \\mathbb{Z}^2 \\rightarrow \\mathbb{Z} \\) by \\( f(x, y) = g(xy) \\). Which of the following defines the nature of function \\( f(x, y) \\)?<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( f \\) is one-one</li><li> \\( f \\) is onto</li> <li>\\( f \\) is a bijection</li>  <li>\\( f \\) is onto but not one-one</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,functions,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431468",
+          "text": "Consider the following two statements about sets \\(A\\), \\(B\\), and \\(C\\):<br />S1: If \\(A \\cup B = A \\cap C\\) and \\(B \\subseteq C\\), then \\(A \\subseteq C\\).<br />S2: If \\(A \\cap B = \\emptyset\\) and \\(B \\subseteq C\\), then \\(A \\cap C = \\emptyset\\).<br />Which of the following is true?<br /><ol style=\"list-style-type:upper-alpha\"><li> Only S1 is true<br />  </li><li> Only S2 is true<br />  </li> <li>Both S1 and S2 are true<br />  </li>  <li>Neither S1 nor S2 is true</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-dm-shallow-1,set-theory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431460",
+          "text": "Consider the following two identities on three sets \\( A \\), \\( B \\), and \\( C \\). (Here, \\(\\cup\\) represents union, \\(\\cap\\) represents intersection, and \\(\\Delta\\) represents the symmetric difference operation)<br />S1: \\( A \\cup (B \\Delta C) = (A \\cup B) \\Delta (A \\cup C) \\)  <br />S2: \\( A \\cap (B \\Delta C) = (A \\cap B) \\Delta (A \\cap C) \\)<br />Which of the following options is TRUE?<br /><ol style=\"list-style-type:upper-alpha\"><li> Only S1 is True<br />  </li><li> Only S2 is True<br />  </li> <li>Both S1 and S2 are True<br />  </li>  <li>Neither S1 nor S2 is True</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,set-theory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431466",
+          "text": "Which of the following is a valid partition for \\(\\mathbb{Z}\\), where \\(\\mathbb{Z}\\) is the set of all integers?<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( \\{ x \\in \\mathbb{Z} \\mid x \\geq -10 \\} \\cup \\{ x \\in \\mathbb{Z} \\mid x \\leq -10 \\} \\)<br />  </li><li> \\( \\{ x \\in \\mathbb{Z} \\mid x \\geq 0 \\} \\cup \\{ x \\in \\mathbb{Z} \\mid x < 0 \\} \\)<br />  </li> <li>\\( \\{ x \\in \\mathbb{Z} \\mid x > 0 \\} \\cup \\{ x \\in \\mathbb{Z} \\mid x < 0 \\} \\)<br />  </li>  <li>\\( \\{ x \\in \\mathbb{Z} \\mid x \\geq 5 \\} \\cup \\{ x \\in \\mathbb{Z} \\mid x < 5 \\} \\)</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-dm-shallow-1,relations,normal,multiple-selects,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431425",
+          "text": "Consider the following statements assuming there is at least one cat, one mammal, and one animal:<br />S1: All cats are mammals. All mammals are animals. Therefore, some cats are animals.<br />  <br />S2: Some cats are animals. All mammals are animals. Therefore, some cats are mammals.  <br />Which of the following options is correct about the above statements?<br /><ol style=\"list-style-type:upper-alpha\"><li> S1 is correct but S2 is not correct<br />  </li><li> S1 is not correct but S2 is correct<br />  </li> <li>Neither S1 nor S2 is correct<br />  </li>  <li>Both S1 and S2 are correct</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,first-order-logic,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431427",
+          "text": "Consider a propositional language where:<br />- \\( a \\) means \"Alex is studying\",<br />- \\( b \\) means \"Alex passes the exam\",<br />- \\( c \\) means \"Casey is studying\".<br />The propositional formula for the sentence:<br />\"If Alex is studying and passes the exam, then Casey is also studying\" is?<br />(Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( a \\land b \\rightarrow c \\)<br />  </li><li> \\( a \\lor b \\rightarrow c \\)<br />  </li> <li>\\( \\neg a \\lor \\neg b \\lor c \\)<br />  </li>  <li>\\( a \\land b \\rightarrow \\neg c \\)</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-dm-shallow-1,propositional-logic,multiple-selects,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431443",
+          "text": "Define a relation \\( R \\) on the set of all functions from \\( \\mathbb{R} \\) to \\( \\mathbb{R} \\) as \\( fRh \\) if and only if there exists an \\( m \\in \\mathbb{R} \\) such that \\( f(x) \\leq h(x) \\) for every \\( x \\geq m \\). Which of the following is TRUE?<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( R \\) is reflexive as well as symmetric<br />  </li><li> \\( R \\) is not reflexive<br />  </li> <li>\\( R \\) is not transitive<br />  </li>  <li>\\( R \\) is not symmetric</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,relations,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431470",
+          "text": "Which of the following is the negation of the statement<br />\"All students in the math club have solved at least one calculus problem\"?<br /><ol style=\"list-style-type:upper-alpha\"><li> No student in the math club has solved any calculus problem<br />  </li><li> There is at least one student in the math club who has not solved any calculus problem<br />  </li> <li>All students in the math club have not solved any calculus problem<br />  </li>  <li>Some students in the math club have solved at least one calculus problem</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-dm-shallow-1,propositional-logic,easy,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431423",
+          "text": "Which of the following is the correct formalization of the sentence \"There is a cat who is fed by every other cat.\"?<br />Here, \\( \\text{Feeds}(p, q) \\) means \\( p \\) feeds \\( q \\).<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( \\exists x(\\text{Cat}(x) \\land \\forall y(\\text{Cat}(y) \\rightarrow \\text{Feeds}(y, x))) \\)</li><li> \\( \\exists x(\\text{Cat}(x) \\land \\forall y(\\text{Cat}(y) \\land \\neg(y = x) \\rightarrow \\text{Feeds}(y, x))) \\)</li> <li>\\( \\exists x(\\text{Cat}(x) \\rightarrow \\forall y(\\text{Cat}(y) \\rightarrow \\text{Feeds}(y, x))) \\)</li>  <li>\\( \\exists x(\\text{Cat}(x) \\rightarrow \\forall y(\\text{Cat}(y) \\land \\neg(y = x) \\rightarrow \\text{Feeds}(y, x))) \\)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,first-order-logic,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431439",
+          "text": "Consider the function \\( f \\) defined by \\( f(x) = \\frac{1}{\\sqrt{1+x^2}} \\). The domain of the function \\( f \\) is:<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( \\mathbb{R} \\)<br />  </li><li> \\( \\mathbb{R}^+ \\)<br />  </li> <li>\\( \\mathbb{R} \\setminus \\{0\\} \\)<br />  </li>  <li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,functions,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431462",
+          "text": "Let \\( A \\), \\( B \\), and \\( C \\) be three sets. Then \\((A \\cap B^c) \\cup (A \\cap C^c)\\) is _________.<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( A \\cap (B^c \\cup C^c)^c \\)<br />  </li><li> \\( A \\cap (B \\cap C)^c \\)<br />  </li> <li>\\( A \\cup (B^c \\cap C^c) \\)<br />  </li>  <li>\\( (A \\cap B^c) \\cap (A \\cap C^c) \\)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-dm-shallow-1,set-theory,easy,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431472",
+          "text": "Let \\( P \\) and \\( Q \\) be two propositions. Which of the following logical expressions are equivalent?<br /><ol style=\"list-style-type:upper-roman\"><li> \\( \\neg P \\lor (Q \\land P) \\)  </li><li> \\( P \\rightarrow Q \\)  </li> <li>\\( \\neg (P \\land \\neg Q) \\)  </li>  <li>\\( \\neg P \\rightarrow Q \\)</li></ol><br /><ol style=\"list-style-type:upper-alpha\"><li> I, IV<br />  </li><li> I, II, III<br />  </li> <li>II, IV<br />  </li>  <li>II, III, IV</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-dm-shallow-1,propositional-logic,easy,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431449",
+          "text": "Let \\( P(Z) \\) be the collection of all the subsets of a set \\( Z \\) with at least three elements. Consider the following two relations on \\( P(Z) \\):<br />\\[ T : E \\subset F \\]<br />\\[ W : E \\cup F = Z \\]<br />Which of the following is true about relations \\( T \\) and \\( W \\)?<br /><ol style=\"list-style-type:upper-alpha\"><li> \\( T \\) is asymmetric but \\( W \\) is not asymmetric.</li><li> \\( T \\) is not asymmetric but \\( W \\) is asymmetric.</li> <li>Both \\( T \\) and \\( W \\) are asymmetric.</li>  <li>None of these.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,relations,normal,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "431431",
+          "text": "Let \\( f \\) be a function from set \\( A \\) to set \\( B \\). Let \\( S \\) and \\( T \\) be two subsets of \\( A \\). Now, consider the statements given below.<br />S1: \\( f(S \\cup T) = f(S) \\cup f(T) \\).<br />S2: \\( f(S \\setminus T) = f(S) \\setminus f(T) \\).<br />Which of the above statements is/are TRUE?<br /><ol style=\"list-style-type:upper-alpha\"><li> Only S1 is true<br />  </li><li> Only S2 is true<br />  </li> <li>Both S1 and S2 are true<br />  </li>  <li>Neither S1 nor S2 is true</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-dm-shallow-1,functions,two-marks",
+          "category": "Discrete Mathematics"
+        }
+      ]
+    }
+  ]
+}

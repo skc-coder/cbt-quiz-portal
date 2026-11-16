@@ -1,0 +1,70 @@
+{
+  "name": "Day 324 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "540221",
+          "text": "<p data-start=\"220\" data-end=\"377\">Consider a process that successfully executes a member of the $\\texttt{exec()}$ family of system calls.&nbsp;</p><p data-start=\"220\" data-end=\"377\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"379\" data-end=\"392\">The process continues with the same process ID.<br>&nbsp;</li><li data-start=\"379\" data-end=\"392\">A new child process is created.<br>&nbsp;</li><li data-start=\"379\" data-end=\"392\">The existing program image is replaced by the new program image.<br>&nbsp;</li><li data-start=\"379\" data-end=\"392\">After the new program terminates, execution resumes from the statement following $\\texttt{exec()}$.<br>&nbsp;</li><li data-start=\"379\" data-end=\"392\">Open file descriptors generally remain open across the $\\texttt{exec()}$ call, unless specifically marked to be closed.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;E",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 324"
+        },
+        {
+          "post_id": "540214",
+          "text": "<p data-start=\"3126\" data-end=\"3238\">Which of the following operations normally require the processor to be executing in kernel mode?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3240\" data-end=\"3253\">Issuing a command directly to a disk controller<br>&nbsp;</li><li data-start=\"3240\" data-end=\"3253\">Updating the address of the system trap table<br>&nbsp;</li><li data-start=\"3240\" data-end=\"3253\">Adding two integers stored in user memory<br>&nbsp;</li><li data-start=\"3240\" data-end=\"3253\">Executing a return-from-trap instruction<br>&nbsp;</li><li data-start=\"3240\" data-end=\"3253\">Reading a local variable from the current user stack</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 324"
+        },
+        {
+          "post_id": "540218",
+          "text": "<p data-start=\"5778\" data-end=\"5856\">Consider the following statements about processes and threads.&nbsp;Which of them is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5858\" data-end=\"5991\">Using multiple threads can allow a process to continue performing useful work while one thread waits for a long-latency operation.<br>&nbsp;</li><li data-start=\"5993\" data-end=\"6076\">A multithreaded program is useful only when it runs on a multiprocessor system.<br>&nbsp;</li><li data-start=\"6078\" data-end=\"6217\">Thread management should always be performed entirely in user space because kernel-supported threads provide no significant advantage.<br>&nbsp;</li><li data-start=\"6219\" data-end=\"6349\">A multithreaded server can be organised using a dispatcher thread and multiple worker threads to receive and process requests.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 324"
+        },
+        {
+          "post_id": "540216",
+          "text": "<p data-start=\"4393\" data-end=\"4497\">Which of the following statements are correct for threads belonging to the same process?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4499\" data-end=\"4512\">They share the process’s code, data, and heap.<br>&nbsp;</li><li data-start=\"4499\" data-end=\"4512\">Every thread has its own stack and register context.<br>&nbsp;</li><li data-start=\"4499\" data-end=\"4512\">Kernel-level threads of the same process may execute simultaneously on different CPU cores.<br>&nbsp;</li><li data-start=\"4499\" data-end=\"4512\">All threads share one program counter.<br>&nbsp;</li><li data-start=\"4499\" data-end=\"4512\">In a many-to-one model, the kernel schedules every user thread independently.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 324"
+        },
+        {
+          "post_id": "540212",
+          "text": "<p data-start=\"1720\" data-end=\"1817\">Consider the following events that occur when a user process makes a system call:</p><ol data-start=\"1819\" data-end=\"2227\"><li data-section-id=\"151q1rk\" data-start=\"1819\" data-end=\"1872\">The kernel executes the requested service routine.<br>&nbsp;</li><li data-section-id=\"14txrx6\" data-start=\"1873\" data-end=\"1963\">The library wrapper places the system-call number and arguments in specified locations.<br>&nbsp;</li><li data-section-id=\"15us10v\" data-start=\"1964\" data-end=\"2050\">A trap instruction saves the user context and changes the processor to kernel mode.<br>&nbsp;</li><li data-section-id=\"16rfcbi\" data-start=\"2051\" data-end=\"2127\">The kernel uses the system-call number to locate the appropriate handler.<br>&nbsp;</li><li data-section-id=\"11j17h2\" data-start=\"2128\" data-end=\"2227\">A return-from-trap instruction restores the user context and changes the processor to user mode.<br>&nbsp;</li></ol><p data-start=\"2229\" data-end=\"2276\">Which of the following gives the correct order?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2278\" data-end=\"2357\">$2, 3, 4, 1, 5$<br>&nbsp;</li><li data-start=\"2278\" data-end=\"2357\">$2, 4, 3, 1, 5$<br>&nbsp;</li><li data-start=\"2278\" data-end=\"2357\">$3, 2, 4, 5, 1$<br>&nbsp;</li><li data-start=\"2278\" data-end=\"2357\">$4, 2, 3, 1, 5$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 324"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_103",
+  "name": "GO Classes GATE CS | DBMS | Transaction and Concurrency | Weekly Quiz 16",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "535209",
+          "text": "<p>Which transactions are involved in a deadlock ?<br><br>\\[<br>\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|}<br>\\hline<br>T_{1} &amp; X(A) &amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; S(D) \\\\<br>\\hline<br>T_{2} &amp; &nbsp;&amp; S(A) &amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;\\\\<br>\\hline<br>T_{3} &amp; &nbsp;&amp; &nbsp;&amp; X(B) &amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; S(C) &amp; X(A) &amp; &nbsp;\\\\<br>\\hline<br>T_{4} &amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; S(C) &amp; &nbsp;&amp; &nbsp;&amp; X(A) &amp; &nbsp;&amp; &nbsp;&amp; &nbsp;\\\\<br>\\hline<br>T_{5} &amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; S(D) &amp; X(B) &amp; &nbsp;&amp; &nbsp;&amp; &nbsp;&amp; &nbsp;\\\\<br>\\hline<br>\\end{array}<br>\\]</p><ol style=\"list-style-type:upper-alpha\"><li>$T_1$ and $T_2$<br> </li><li>$T_3$ and $T_4$<br> </li><li>$T_5$<br> </li><li>There is no deadlock</li></ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,goclasses,databases,transaction-and-concurrency,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535220",
+          "text": "<p>Which of the following schedules is/are conflict serializable and also recoverable?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>\\(T_{1}:R(X),\\; T_{2}:R(X),\\; T_{1}:W(X),\\; T_{1}:\\text{Commit},\\; T_{2}:W(X),\\; T_{2}:\\text{Commit}\\)<br> </li><li>\\(T_{1}:W(X),\\; T_{2}:R(X),\\; T_{1}:W(X),\\; T_{2}:\\text{Commit},\\; T_{1}:\\text{Abort}\\)<br> </li><li>\\(T_{1}:W(X),\\; T_{2}:R(Y),\\; T_{1}:R(Y),\\; T_{2}:R(X),\\; T_{1}:\\text{Commit},\\; T_{2}:\\text{Commit}\\)<br> </li><li>\\(T_{1}:R(X),\\; T_{2}:R(X),\\; T_{1}:\\text{Commit},\\; T_{2}:W(X),\\; T_{2}:\\text{Commit}\\)</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,goclasses,databases,transaction-and-concurrency,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535224",
+          "text": "The following two transactions are run concurrently:\n\n$T_{1}: r_{1}(A) ; w_{1}(B) ; c_{1}$\n\n$T_{2}: w_{2}(A) ; r_{2}(B) ; c_{2}$\n\nDepending on the scheduler, we may get various combinations of the actions of $T_{1}$ and $T_{2}$. One example of a resulting schedule could be\n\n$S: r_{1}(A) ; w_{1}(B) ; w_{2}(A) ; r_{2}(B) ; c_{1} ; c_{2}$\n\nHow many interleavings of these two transactions are there?",
+          "type": "Numerical",
+          "answer": "20",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,numerical-answers,goclasses,databases,transaction-and-concurrency,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535215",
+          "text": "<p>Which of the following options is/are false?</p><ol style=\"list-style-type:upper-alpha\"><li>Depending on what they are doing, it is possible for concurrent transactions to become involved in a deadlock under strict two-phase locking. If this happens, it can lead to an inconsistent database state.<br> </li><li>Wound-wait always outperforms wait-die.<br> </li><li>Wait-die always outperforms wound-wait.<br> </li><li>If we know all records that each transaction will access, we can prevent deadlocks by imposing a total order on lock acquisitions.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,goclasses,databases,transaction-and-concurrency,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535217",
+          "text": "<p>Consider the following schedule. Assume both A and B have a value of $100$ before $T_1$ begins.<br>\\[<br>\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|}<br>\\hline<br>T_{1} &amp; R(B) &amp; R(A) &amp; A=A+100 &amp; B=B+A &amp; W(A) &amp; B=B+100 &amp; W(B) &amp; A=A+B &amp; W(A) &amp; \\text{COM} \\\\<br>\\hline<br>\\end{array}<br>\\]<br>Suppose $T_1$ starts and its execution is not atomic.<br>Which of the following are possible final states of $B$?</p><ol style=\"list-style-type:upper-alpha\"><li>$100$<br> </li><li>$200$<br> </li><li>$300$<br> </li><li>$400$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,goclasses,databases,transaction-and-concurrency,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535222",
+          "text": "<p>This ACID property is something that an application builder has to be at least partly concerned with when writing their application code in order for the other ACID properties to ensure correctness despite other things that might go wrong when running in a multi-user and potentially failure-prone environment.</p><ol style=\"list-style-type:upper-alpha\"><li>Atomicity<br> </li><li>Consistency<br> </li><li>Isolation<br> </li><li>Durability</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq81,goclasses,databases,transaction-and-concurrency,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535216",
+          "text": "<p>Consider the database for a web application being created to serve lower income patients in a new medical network, DontCare, being proposed by the recently elected leaders of a certain country. The primary keys for the two tables, Patient and Doctor, are pid and did, respectively.<br><br>\\[<br>\\begin{array}{|c|l|l|c|c|l|c|}<br>\\hline<br>\\textbf{pid} &amp; \\textbf{lastname} &amp; \\textbf{firstname} &amp; \\textbf{age} &amp;<br>\\textbf{spouse} &amp; \\textbf{symptoms} &amp; \\textbf{doc} \\\\<br>\\hline<br>1 &amp; Doe &amp; Jane &amp; 30 &amp; \\textit{null} &amp; none &amp; 1002 \\\\<br>2 &amp; Smith &amp; Laura &amp; 25 &amp; 3 &amp; chills &amp; 1000 \\\\<br>3 &amp; Smith &amp; David &amp; 24 &amp; 2 &amp; fever &amp; 1001 \\\\<br>4 &amp; Lee &amp; Richard &amp; 40 &amp; \\textit{null} &amp; none &amp; 1000 \\\\<br>\\hline<br>\\end{array}<br>\\]<br>\\[<br>\\begin{array}{|c|l|l|c|}<br>\\hline<br>\\textbf{did} &amp; \\textbf{name} &amp; \\textbf{specialty} &amp; \\textbf{certyear} \\\\<br>\\hline<br>1000 &amp; Frankenstein &amp; surgery &amp; 1950 \\\\<br>1001 &amp; Jekyll &amp; dermatology &amp; 1994 \\\\<br>1002 &amp; Dre &amp; audiology &amp; 2000 \\\\<br>\\hline<br>\\end{array}<br>\\]<br><br>Now consider the following SQL transactions that users might wish to run against this table:</p><p>\\[<br>\\begin{array}{l}<br>\\textbf{\\underline{Transaction T1:}} \\\\[4pt]</p><p>\\textbf{BEGIN TRANSACTION;} \\\\</p><p>\\qquad \\textbf{INSERT INTO} \\ \\text{Patient} \\ \\textbf{VALUES} \\\\<br>\\qquad\\qquad (5,\\ \\text{'Deere'},\\ \\text{'John'},\\ 52,\\ \\text{null},\\ \\text{'aches'},\\ 1000); \\\\</p><p>\\qquad \\textbf{INSERT INTO} \\ \\text{Patient} \\ \\textbf{VALUES} \\\\<br>\\qquad\\qquad (6,\\ \\text{'Doe'},\\ \\text{'John'},\\ 33,\\ 1,\\ \\text{'pains'},\\ 1000); \\\\</p><p>\\qquad \\textbf{UPDATE} \\ \\text{Patient} \\\\<br>\\qquad\\qquad \\textbf{SET} \\ \\text{spouse} = 6 \\ \\textbf{WHERE} \\ \\text{pid} = 1; \\\\</p><p>\\textbf{END TRANSACTION;}<br>\\end{array}<br>\\]<br>\\begin{array}{l}<br>\\textbf{\\underline{Transaction T2:}} \\\\[8pt]</p><p>\\textbf{BEGIN TRANSACTION} \\\\</p><p>\\qquad \\textbf{SELECT} \\ \\text{COUNT}(*) \\\\<br>\\qquad \\textbf{FROM} \\ \\text{Doctor d, Patient p} \\\\<br>\\qquad \\textbf{WHERE} \\ d.did = p.doc \\\\<br>\\qquad\\qquad \\textbf{AND} \\ d.name = \\text{'Frankenstein'}; \\\\</p><p>\\textbf{END TRANSACTION;}<br>\\end{array}<br>Suppose that you were to run transactions \\(T_1\\) and \\(T_2\\) concurrently in different windows on your laptop, and further suppose that you wisely configured your database system's consistency level to be SERIALIZABLE. Select all of the possible numerical outcomes from \\(T_2\\)'s query (depending on how it interleaves with \\(T_1\\)).</p><ol style=\"list-style-type:upper-alpha\"><li>$1$<br> </li><li>$2$<br> </li><li>$3$<br> </li><li>$4$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,goclasses,databases,transaction-and-concurrency,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535225",
+          "text": "<p>Which of the following options is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If only the last two operations out of many in a committed transaction do not take effect, it is a violation of the Atomicity principle.<br> </li><li>Interleaving transactions is always faster than doing them one at a time.<br> </li><li>Transaction A reads from relation W, and Transaction B reads from relation W concurrently. They may possibly read any or all of W. This is considered a conflict.<br> </li><li>Transaction A writes to relation W, and Transaction B writes to relation W concurrently. They may possibly write to any or all of W. This is considered a conflict.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,goclasses,databases,transaction-and-concurrency,multiple-selects,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535223",
+          "text": "Consider the following two transactions:\n\n$T_{1}: r_{1}(A) ; w_{1}(A) ; r_{1}(B) ; w_{1}(B)$;\n\n$T_{2}: r_{2}(B) ; w_{2}(B) ; r_{2}(A) ; w_{2}(A)$;\n\nAmong the possible schedules of the eight actions above, how many are conflict-equivalent to the serial order ($T_1,T_2$)?",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,numerical-answers,goclasses,databases,transaction-and-concurrency,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535218",
+          "text": "Consider the following schedule $S$ of transactions $T_1$ and $T_2$:\n\n\\[\n\\begin{array}{l|l}\n\\mathbf{T_{1}} & \\mathbf{T_{2}} \\\\ \\hline\n\\text{Read}(A) & \\\\\nA = A - 10 & \\\\\n& \\text{Read}(A) \\\\\n& \\text{Temp} = 0.2 * A \\\\\n& \\text{Write}(A) \\\\\n& \\text{Read}(B) \\\\\n\\text{Write}(A) & \\\\\n\\text{Read}(B) & \\\\\nB = B + 10 & \\\\\n\\text{Write}(B) & \\\\\n& B = B + \\text{Temp} \\\\\n& \\text{Write}(B)\n\\end{array}\n\\]\n\nAssume that the initial values of $A=100$ and $B=200$ before the schedule starts executing. What will be the value of $A+B$ after the schedule executes successfully?",
+          "type": "Numerical",
+          "answer": "310",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,numerical-answers,goclasses,databases,transaction-and-concurrency,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535211",
+          "text": "<p>Which of the following transactions preserves the consistency of the database that has the constraint \"$A$ must be less than $B$\"? (Assume $A$ and $B$ are integers but not necessarily positive.)</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{A}:=\\mathrm{A}+2 ; \\mathrm{B}:=\\mathrm{B}+3$<br> </li><li>$\\mathrm{A}:=2^{*} \\mathrm{~A} ; \\mathrm{B}:=3^{*} \\mathrm{~B}$<br> </li><li>$\\mathrm{A}:=\\mathrm{B}-1 ; \\mathrm{B}:=\\mathrm{A}+\\mathrm{B}$<br> </li><li>$A:=A-1 ; B:=A+B$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,goclasses,databases,transaction-and-concurrency,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535212",
+          "text": "Is the following schedule allowed by the $2$PL scheduler? Answer $1$ if yes, otherwise $0$.\n\n\\[\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\nT_{1} & X(A) & & & & & & & & & S(D) \\\\\n\\hline\nT_{2} & & S(A) & & & & & & & & \\\\\n\\hline\nT_{3} & & & X(B) & & & & & S(C) & X(A) & \\\\\n\\hline\nT_{4} & & & & S(C) & & & X(A) & & & \\\\\n\\hline\nT_{5} & & & & & S(D) & X(B) & & & & \\\\\n\\hline\n\\end{array}\n\\]",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,numerical-answers,goclasses,databases,transaction-and-concurrency,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535219",
+          "text": "<p>Consider the following schedule $S$ of transactions $T_1$ and $T_2:$</p><p>$${\\begin{array}{l|l}<br>\\textbf{T1}&amp;&nbsp; &nbsp; \\textbf{T2} \\\\\\hline<br>\\text{Read(A)} \\\\<br>\\text{A = A – 10}\\\\<br>&amp;&nbsp; &nbsp;\\text{Read(A) }\\\\ &nbsp;<br>&amp;&nbsp; \\text{Temp = A} \\\\<br>&amp; \\text{Write(A)}&nbsp;\\\\<br>&amp; \\text{Read(B)} \\\\&nbsp; &nbsp;&nbsp;<br>\\text{Write(A)}\\\\<br>&nbsp;\\text{Read(B)}\\\\<br>\\text{B = B + 10}\\\\<br>\\text{Write(B)} \\\\<br>&amp;&nbsp;\\text{B = B + Temp}&nbsp; \\\\ &nbsp;<br>&amp;&nbsp;\\text{Write(B)}\\\\&nbsp;<br>\\end{array}}$$</p><p>Which of the following is TRUE about the schedule $S$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$S$ is serializable only as $T_1, T_2$<br> </li><li>$S$ is serializable only as $T_2, T_1$<br> </li><li>$S$ is serializable both as $T_1, T_2$ and $T_2, T_1$<br> </li><li>$S$ is neither serializable as $T_1,T_2$ nor as $T_2,T_1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq81,goclasses,databases,transaction-and-concurrency,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535214",
+          "text": "<p>Which of the following options is/are false?</p><ol style=\"list-style-type:upper-alpha\"><li>For any schedule, there is only one acceptable schedule. (An acceptable schedule is one that has the same outcome as some serial schedule.)<br> </li><li>When using locking for concurrency control, using two phase locking guarantees serializability.<br> </li><li>Deadlocks are an indication that the \"isolation\" property has been violated.<br> </li><li>Using $2$PL protocol guarantees that there will be no deadlocks during a concurrent execution of transactions.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,goclasses,databases,transaction-and-concurrency,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "535221",
+          "text": "Suppose that $5$ concurrent transactions are concurrently attempting to read the same record in a table holding bank account information. How many of these transactions will be able to read the record at one time under $2$ PL?",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq81,numerical-answers,goclasses,databases,transaction-and-concurrency,one-mark",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

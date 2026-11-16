@@ -1,0 +1,30 @@
+{
+  "name": "Day 235 [Mathematical Logic]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "527158",
+          "text": "<p>Let $A=\\{x \\mid x$ is an odd integer and $2 x+5&gt;20\\}$ and $B=\\left\\{x \\in \\mathbb{Z}^{+} \\mid x&gt;\\right.$ 7 and $\\exists k \\in \\mathbb{Z}, x=2 k+1\\}$.</p><p>Which of the following correctly describes the elements of $B$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>All positive integers greater than 7&nbsp;</li><li>All odd positive integers greater than 7&nbsp;</li><li>All odd integers greater than 7&nbsp;</li><li>All positive integers of the form $2 k+1$ for $k \\geq 0$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 235"
+        }
+      ]
+    }
+  ]
+}

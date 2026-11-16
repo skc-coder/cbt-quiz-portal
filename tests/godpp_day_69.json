@@ -1,0 +1,70 @@
+{
+  "name": "Day 66 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "482618",
+          "text": "<p>Consider a processor with byte-addressable memory. All registers, including the Program Counter (PC), Program Status Word (PSW), and Stack Pointer (SP), are $1$ word ($1$ word = $2$ bytes) wide. A stack is implemented in the main memory and grows upward (toward higher addresses).</p><p>A CALL instruction occupies $2$ words:<br><br>The first word is the opcode and the second word is the starting address of the subroutine. The semantics of CALL (as implemented) are:</p><ol><li>Compute the return address = address of the instruction following the CALL.<br>&nbsp;</li><li>Push the return address onto the stack.<br>&nbsp;</li><li>Push the PSW onto the stack.<br>&nbsp;</li><li>Load the starting address of the subroutine into PC.</li></ol><p>Push operation:<br>To push a $2$-byte word W onto the stack:</p><ul><li>$\\mathrm{SP} \\leftarrow \\mathrm{SP}+2$ (pre-increment because stack grows upward and SP points to top),<br>&nbsp;</li><li>then store the word W at memory addresses SP.</li></ul><p>Given:</p><ul><li>The current content of PC just before fetching the CALL instruction = $0x&nbsp; 1000$ (hex).</li><li>The two words of the CALL are located at addresses $0x 1000$ (opcode) and $0x&nbsp;1002$ (operand = starting address).</li><li>The operand (starting address of subroutine) contained in the CALL is $0x &nbsp;2000$.</li><li>The current content of PSW = 0xABCD.<br>&nbsp;</li><li>The current content of $\\mathrm{SP}=0x&nbsp;3006$.</li></ul><p>If the machine is Little-Endian, after execution of the CALL, the final values of PC and SP, and the bytes stored at addresses $0x 3008$ through $0&nbsp;x 300 \\mathrm{~B}$ (in increasing address order) will be:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{PC}=0 x&nbsp;2000, \\mathrm{SP}=0 x300A$, bytes $=0410 \\mathrm{CD} \\mathrm{AB}$</li><li>$\\mathrm{PC}=0 x&nbsp;2000, \\mathrm{SP}=0 x300A$, bytes $=1004 \\mathrm{AB} \\mathrm{CD}$</li><li>$\\mathrm{PC}=0 x&nbsp;1004, \\mathrm{SP}=0 x&nbsp;300A$, bytes $=0410 \\mathrm{CD} \\mathrm{AB}$</li><li>$\\mathrm{PC}=0 x&nbsp;2000, \\mathrm{SP}=0 x&nbsp;3008$, bytes $=0410 \\mathrm{CD} \\mathrm{AB}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 66"
+        },
+        {
+          "post_id": "482616",
+          "text": "<p>A computer architecture uses a 16-bit instruction format. The system designers want to implement the expand opcode technique to increase the number of instructions while supporting multiple addressing modes.</p><ul><li>The instruction format is divided as follows:</li><li>Opcode field</li><li>Addressing mode field</li><li>Register/Operand field(s)</li></ul><p>Two alternative designs are considered:<br><br><strong>Design A:</strong></p><ul><li>Opcode field = 6 bits<br>&nbsp;</li><li>Addressing mode field $=2$ bits<br>&nbsp;</li><li>Register/Operand field $=8$ bits</li></ul><p><strong>Design B (Expand Opcode Technique):</strong></p><ul><li>First 4 bits of the instruction = Primary Opcode.<br>&nbsp;</li><li>If the primary opcode indicates a \"special class\", then the next 4 bits are used as extended opcode.<br>&nbsp;</li><li>Remaining bits are used for addressing mode (2 bits) and operand (6 bits).<br>&nbsp;</li><li>There are $25 \\%$ chances that a primary opcode indicates a special class.</li></ul><p>Which of the following options is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Design A supports a greater number of instructions and a larger operand field.<br>&nbsp;</li><li>Design $B$ supports a greater number of instructions but a smaller operand field.<br>&nbsp;</li><li>Design A supports a greater number of instructions but a smaller operand field.<br>&nbsp;</li><li>Design $B$ supports both a greater number of instructions and a larger operand field.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 66"
+        },
+        {
+          "post_id": "482612",
+          "text": "<p>A computer system has a $1$ MB main memory organised as $4$-way interleaved memory using low-order interleaving.</p><ul><li>Memory is word-addressable.<br>&nbsp;</li><li>Each word $=4$ bytes.<br>&nbsp;</li><li>Each module has a cycle time of $200$ ns and can deliver $1$ word per cycle.</li></ul><p>Assume the CPU requests $8$ consecutive words starting at memory address $1020$; which sequence of modules will be accessed (in order)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{M} 0 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 2 \\rightarrow \\mathrm{M} 3 \\rightarrow \\mathrm{M} 0 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 2 \\rightarrow \\mathrm{M} 3$<br>&nbsp;</li><li>$\\mathrm{M} 3 \\rightarrow \\mathrm{M} 2 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 0 \\rightarrow \\mathrm{M} 3 \\rightarrow \\mathrm{M} 2 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 0$<br>&nbsp;</li><li>$\\mathrm{M} 3 \\rightarrow \\mathrm{M} 0 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 2 \\rightarrow \\mathrm{M} 3 \\rightarrow \\mathrm{M} 0 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 2$<br>&nbsp;</li><li>Depends on whether memory is big-endian or little-endian</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 66"
+        },
+        {
+          "post_id": "482610",
+          "text": "A machine supports RISC-style load/store architecture. Each instruction is $4$ bytes. Load and store instructions use base+offset addressing with a $16$-bit signed offset. If the machine has a $32$-bit address space, what is the maximum displacement range (in bytes) achievable from a base register using a single load/store instruction?",
+          "type": "Numerical",
+          "answer": "65536",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 66"
+        },
+        {
+          "post_id": "482608",
+          "text": "Consider the following binary data:<br>\n<br>\n\\[<br>\n\\begin{array}{|c|c|c|c|c|c|c|c|}<br>\n\\hline<br>\n0 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n\\]<br>\n<br>\nSuppose you apply logical left shift twice on this data and put it in destination d 1 where d 1 is a 8 bit register.<br>\n<br>\nLet the content of carry flag at this time is c1.<br>\n<br>\nNow you apply RCR (Rotate through carry right) operation on d1 and put it in d2 where d2 is a 8 bit register and the carry flag content at this time is c2 .<br>\n<br>\nConsider a 8-bit binary number B formed by c1 c2 a2 a1 a0 b2 b1 b0<br>\n<br>\nWhere c1 is MSB and b0 is LSB and a2 a1 a0 represents first three bits of d1 and b2 b1 b0 represents first three bit of d2 .<br>\n<br>\nThe value of $B$ in decimal is ______?",
+          "type": "Numerical",
+          "answer": "183",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 66"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "name": "GO Classes GATE CS/DA |Combinatorics | Weekly Quiz 2",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "468516",
+          "text": "A college planning committee consists of 3 freshmen, 4 sophomores, 5 juniors, and 2 seniors. A subcommittee of 4 consists of 1 person from each class. How many choices are possible?",
+          "type": "Numerical",
+          "answer": "120",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq6,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468508",
+          "text": "Suppose there are 8 men and 8 women. How many ways can we choose a committee that has 2 men and 2 women?",
+          "type": "Numerical",
+          "answer": "784",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq6,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468511",
+          "text": "How many ways can one arrange 4 math books, 3 chemistry books, 2 physics books, and 1 biology book on a bookshelf so that all the math books are together, all the chemistry books are together, and all the physics books are together?",
+          "type": "Numerical",
+          "answer": "6912",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq6,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468502",
+          "text": "The English alphabet has 26 letters of which 5 are vowels (A,E,I,O,U). How many seven letter words, with all letters distinct, can be formed that start with B, end with the letters ES, and have exactly three <br />vowels? The \"words\" for this problem are just strings of letters and need not have linguistic meaning.",
+          "type": "Numerical",
+          "answer": "24624",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq6,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468504",
+          "text": "Suppose there are 12 students, among whom are three students, $M, B, C$ (a Math Major, a Biology Major, a Computer Science Major). We want to send a delegation of four students (chosen from the 12 students) to a convention. How many ways can this be done so that the delegation includes exactly two (not more, not less) students from $\\{M, B, C\\}$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> 32</li><li> 64</li> <li>88</li>  <li>108</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_csda_wq6,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468510",
+          "text": "Recall that a standard deck of cards has 52 cards. The cards can be classified according to suits or denominations. There are 4 suits, hearts, diamonds, spades and clubs. There are 13 cards in each suit. There are 13 denominations, Aces, Kings, Queens, .......... ,Twos, with 4 cards in each denomination. A poker hand consists of a sample of size 5 drawn from the deck.<br />How many Poker hands have three cards from one denomination and two from another (a full house)?",
+          "type": "Numerical",
+          "answer": "3744",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq6,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468506",
+          "text": "Suppose we have 4 Americans and 6 Canadians. Suppose you want to choose a committee of 3 . How many ways for a committee of 3 that is not all Americans or all Canadians?",
+          "type": "Numerical",
+          "answer": "96",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq6,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468513",
+          "text": "There is a school class of 25 people made up of 11 guys and 14 girls. How many ways are there to make a committee of 5 people?",
+          "type": "Numerical",
+          "answer": "53130",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq6,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468518",
+          "text": "Suppose we have 4 Americans and 6 Canadians. Suppose you want to choose a committee of 3, which will be all Americans or all Canadians. How many ways can this be done?",
+          "type": "Numerical",
+          "answer": "24",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq6,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "468514",
+          "text": "Suppose there are 9 men and 8 women. How many ways can we choose a committee that has 2 men and 3 women?",
+          "type": "Numerical",
+          "answer": "2016",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq6,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Discrete Mathematics"
+        }
+      ]
+    }
+  ]
+}

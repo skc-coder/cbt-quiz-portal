@@ -1,0 +1,70 @@
+{
+  "name": "Day 243 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528420",
+          "text": "<p>Let $S$ be the set of all $3 \\times3$ matrices $A$ with integer entries such that the product&nbsp;$AA^{t}$ is the identity matrix. Here&nbsp;$A^{t}$ denotes the transpose of $A$. Then&nbsp;$\\left | S \\right |$ =</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$12$<br>&nbsp;</li><li>$24$<br>&nbsp;</li><li>$48$<br>&nbsp;</li><li>$60$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "528418",
+          "text": "Let $Q$ be an invertible matrix of order $4\\times 4$ and $\\det(Q)=2$. Find the value of $\\det(\\operatorname{adj}(\\operatorname{adj}(Q)))$.",
+          "type": "Numerical",
+          "answer": "512",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "528416",
+          "text": "<p>A $n\\times n$ matrix $A$ is said to be $symmetric$ if $A^T=A$. Suppose $A$ is an arbitrary $2\\times 2$ matrix. Then which of the following matrices are symmetric (here $0$&nbsp;denotes the $2\\times 2$ matrix consisting of zeros):</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$A^TA$<br>&nbsp;</li><li>$\\begin{bmatrix} 0&A^T \\\\ A & 0&nbsp;\\end{bmatrix}$<br>&nbsp;</li><li>$AA^T$&nbsp;<br>&nbsp;</li><li>$\\begin{bmatrix} A & 0&nbsp;\\\\ 0&nbsp;& A^T&nbsp;\\end{bmatrix}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "528411",
+          "text": "<p><strong>True/False Question :</strong></p><p>If $A$ is a $2\\times2$ complex matrix that is invertible and diagonalizable, and such that $A$ and $A^{2}$ have the same characteristic polynomial, then $A$ is the $2\\times2$ identity matrix.<br><br><em>(Note : Mark $\\emph{0}$ for False and $\\emph{1}$ for True.)</em></p>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "528413",
+          "text": "<p><strong>True/False Question :</strong></p><p>Suppose $A,B,C$ are $3\\times3$ real matrices with Rank $A =2$, Rank $B=1$, Rank $C=2$. Then Rank $(ABC)=1$.<br><br><em>(Note : Mark $\\emph{0}$ for False and $\\emph{1}$ for True.)</em></p>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 243"
+        }
+      ]
+    }
+  ]
+}

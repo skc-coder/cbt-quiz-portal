@@ -1,0 +1,70 @@
+{
+  "name": "Day 63 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "481951",
+          "text": "<p>State whether following statement(s) is/are correct or not<br><br>S1: If $\\mathrm{f}, \\mathrm{g}, \\mathrm{h}, \\mathrm{k}: \\mathrm{N} \\rightarrow \\mathrm{N}$ are functions such that $\\mathrm{f} \\in \\Theta(\\mathrm{g}), \\mathrm{h} \\in \\Theta(\\mathrm{k})$, and for all $n \\in N, f(n)&gt;h(n)$ and $g(n)&gt;k(n)$ then $f(n)-h(n) \\in O(g(n)- k(n)$ ).</p><p>S2: For any functions $f, g: R \\rightarrow R, \\max (f(n), g(n)) \\in \\Theta(f(n)+g(n))$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>&nbsp;S1 is true<br>&nbsp;</li><li>&nbsp;S2 is true<br>&nbsp;</li><li>&nbsp;S1 is false<br>&nbsp;</li><li>&nbsp;S2 is false</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 63"
+        },
+        {
+          "post_id": "481956",
+          "text": "<p>Consider the equality $\\sum_{i=0}^n i^4=\\mathrm{X}$ and the following choices for X:<br><br>I. $\\theta\\left(n^6\\right)$<br><br>II. $\\theta\\left(\\mathrm{n}^5\\right)$<br><br>III. $\\omega\\left(\\mathrm{n}^6\\right)$<br><br>IV. $\\mathrm{O}\\left(\\mathrm{n}^8\\right)$</p><p>The equality above remains correct if X is replaced by</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Only I<br>&nbsp;</li><li>Only II<br>&nbsp;</li><li>II or IV but not (I or III)<br>&nbsp;</li><li>II or III or IV but not I</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 63"
+        },
+        {
+          "post_id": "481954",
+          "text": "<p><b id=\"docs-internal-guid-31bbbf6f-7fff-aee9-d911-c58a1393e4b9\">What is the worst-case time complexity of the following function:</b><br><br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">RemoveNegatives(A):\n\ni = 0\n\nwhile i ≤ length(A) - 1:\n    if A[i] &lt; 0:\n        Delete(A, i)\n    else:\n        i = i + 1\n\nDelete(A, i):   // definition of Delete(A, i)\n\nfor j = i to length(A) - 2:\n    A[j] = A[j + 1]\n\ndecrease length(A) by one</pre><p>(Here $\\Theta$ represents big-theta.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\Theta(n)$<br>&nbsp;</li><li>$\\Theta(n \\log n)$<br>&nbsp;</li><li>$\\Theta\\left(n^{\\log _3 5}\\right)$<br>&nbsp;</li><li>$\\Theta\\left(n^2\\right)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 63"
+        },
+        {
+          "post_id": "481946",
+          "text": "<p>&nbsp;</p><p><meta>Compute the worst-case time complexity of the following function in terms of the number of dollar signs (\\$) printed as a function of N.&nbsp;<br><br><strong>(Give the tightest upper bound.)</strong><br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">myCalc(N)\n{\n    j = 0\n    n = N\n    while (n &gt; 1)\n    {\n        n = n / 32\n        j++\n    }\n\n    for (w = 0 to N/3 + 32)\n    {\n        for (k = 1 to j * N)\n        {\n            print(\"$\")\n        }\n    }\n}</pre><p>&nbsp;</p><p dir=\"ltr\"><b id=\"docs-internal-guid-9949b0c6-7fff-5737-5649-59e0ecae999f\">(Here O represents big-O.)</b></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$O(N^{2}\\log_{32}N)$&nbsp;<br>&nbsp;</li><li>$O(N^{2}\\log_{2}N)$&nbsp;<br>&nbsp;</li><li>$O(N^{3})$&nbsp;<br>&nbsp;</li><li>$O(N^{2})$</li></ol><p dir=\"ltr\">&nbsp;</p><p>&nbsp;</p>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 63"
+        },
+        {
+          "post_id": "481948",
+          "text": "<p>Which of the following statements is/are always true?<br><br>(Here 'o' represents small-oh and ' 0 ' represents big-oh)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>if $f(n)=\\theta(g(n))$ then $e^{f(n)}=O\\left(e^{g(n)}\\right)$<br>&nbsp;</li><li>If $f(n)=O(g(n))$ and $g(n)=O(h(n))$ then $f(n)=o(h(n))$<br>&nbsp;</li><li>If $\\mathrm{f}(\\mathrm{n})=\\mathrm{O}(\\mathrm{g}(\\mathrm{n})$ ) and $\\mathrm{g}(\\mathrm{n})=\\mathrm{O}(\\mathrm{f}(\\mathrm{n}))$ then $\\mathrm{f}(\\mathrm{n})=\\theta(\\mathrm{g}(\\mathrm{n})$ )<br>&nbsp;</li><li>If $f(n)=O(g(n))$, then $\\log (f(n))=O(\\log (g(n)))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 63"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 198 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "521949",
+          "text": "<p>An inode-based file system uses $4$ KB blocks and $4$-byte disk addresses. The inode contains $12$ direct block pointers, $1$ single indirect pointer, and $1$ double indirect pointer.</p><p>Which of the following statements is/are TRUE regarding this file system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE MAXIMUM FILE SIZE SUPPORTED IS SLIGHTLY MORE THAN $4$ GB.<br>&nbsp;</li><li>THE MAXIMUM FILE SIZE SUPPORTED IS SLIGHTLY MORE THAN $1$ GB.<br>&nbsp;</li><li>ACCESSING A BYTE AT OFFSET $20$ MB REQUIRES AT MOST $3$ DISK BLOCK READS (INCLUDING THE INODE).<br>&nbsp;</li><li>A SINGLE INDIRECT BLOCK CAN ADDRESS UP TO $1024$ DATA BLOCKS.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 198"
+        },
+        {
+          "post_id": "521944",
+          "text": "<p>Consider three concurrent processes $P_1, P_2$, and $P_3$ sharing a single counting semaphore $\\verb|S|$ initialized to $\\mathbf{2}$. Each process executes the following sequence of operations exactly once:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">wait(S);\n// Critical Section\nsignal(S);\nsignal(S);</pre><p>Which of the following statements is/are TRUE after all three processes have finished execution?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE MAXIMUM POSSIBLE VALUE OF THE SEMAPHORE $\\verb|S|$&nbsp;IS $5$.<br>&nbsp;</li><li>THE MINIMUM POSSIBLE VALUE OF THE SEMAPHORE $\\verb|S|$&nbsp;IS $2$.<br>&nbsp;</li><li>DEADLOCK IS NOT POSSIBLE IN THIS SCENARIO.<br>&nbsp;</li><li>AT MOST TWO PROCESSES CAN BE IN THE CRITICAL SECTION SIMULTANEOUSLY AT ANY POINT.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 198"
+        },
+        {
+          "post_id": "521946",
+          "text": "<p>Consider three processes with the following CPU burst times: $P_1=2, P_2=7$, and $P_3=10$. All processes arrive at time $t=0$. The system uses <strong>Round Robin</strong> scheduling with a time quantum $Q=4$.</p><p><strong>Calculate the Average Turnaround Time (TAT) for these processes.</strong></p>",
+          "type": "Numerical",
+          "answer": "11.33",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 198"
+        },
+        {
+          "post_id": "521952",
+          "text": "<p>A system has $4$ copies of resource $R$. There are $n$ processes, and each process requires at most $2$ copies of resource $R$ to complete its execution.</p><p>Which of the following statements is/are TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE SYSTEM IS GUARANTEED TO BE DEADLOCK-FREE IF $N=3$.<br>&nbsp;</li><li>THE SYSTEM IS GUARANTEED TO BE DEADLOCK-FREE IF $N=4$.<br>&nbsp;</li><li>THE MAXIMUM NUMBER OF PROCESSES THE SYSTEM CAN SUPPORT WITHOUT ANY POSSIBILITY OF DEADLOCK IS $3$.<br>&nbsp;</li><li>IF $N=5$, A DEADLOCK IS CERTAIN TO OCCUR.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 198"
+        },
+        {
+          "post_id": "521942",
+          "text": "<p>A computer system uses $\\mathbf{32}$<strong>-bit virtual addresses.</strong> The system implements a <strong>two-level hierarchical paging</strong> scheme. The <strong>page size of the Outer Page Table is exactly</strong> $\\mathbf{4}$ KB, and each Page Table Entry (PTE) at all levels occupies&nbsp;$\\mathbf{8}$ <strong>bytes</strong>. The physical page frames (base page size) used for the actual process data are $\\mathbf{4}$ <strong>KB</strong> in size.</p><p><strong>Calculate the number of bits used for the inner page table index in the virtual address.</strong></p>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 198"
+        }
+      ]
+    }
+  ]
+}

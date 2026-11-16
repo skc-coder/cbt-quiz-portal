@@ -1,0 +1,70 @@
+{
+  "name": "Day 229 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "526190",
+          "text": "Let $p(x, y)$ : \" $x^2 \\geq y^{\\text {\" }}$ where the universe for both $x$ and $y$ is $\\mathbb{R}$.<br>\nWhat is the truth value of $p(2,4)$ ? (Enter $1$ for TRUE and $0$ for FALSE)",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 229"
+        },
+        {
+          "post_id": "526194",
+          "text": "Let &nbsp;$q(x, y)$ : \" $x+2&lt;y^{\\text {\" }}$, where the universe for both $x$ and $y$ is $\\mathbb{R}$.<br>\n<br>\nWhat is the truth value of $q(1, \\pi)$ ? (Enter 1 for TRUE and 0 for FALSE).<br>\n&nbsp;",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 229"
+        },
+        {
+          "post_id": "526201",
+          "text": "<p>Let $P(x, y)$ denote $x+y=17$, where the universe $U$ is the set of all integers. What is the truth value of $\\forall x(\\exists y(P(x, y)))$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>FALSE</li><li>TRUE</li><li>TRUE only for positive integers</li><li>TRUE only when $x \\leq$ 17</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 229"
+        },
+        {
+          "post_id": "526199",
+          "text": "<p>Let $p(x, y)$ : \" $x^2 \\geq y^{\\text {\" }}$ and $q(x, y)$ : \" $x+2&lt;y^{\\text {\" }}$, where the universe for both $x$ and $y$ is $\\mathbb{R}$.<br>What is the truth value of $p(2,2) \\rightarrow q(1,1)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>TRUE → TRUE $=$ TRUE&nbsp;</li><li>TRUE → FALSE $=$ FALSE&nbsp;</li><li>FALSE → TRUE $=$ TRUE&nbsp;</li><li>FALSE $\\rightarrow$ FALSE $=$ TRUE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 229"
+        },
+        {
+          "post_id": "526197",
+          "text": "<p>Let $p(x, y)$ : \" $x^2 \\geq y^{\\text {\" }}$ and $q(x, y)$ : \" $x+2&lt;y^{\\text {\" }}$, where the universe for both $x$ and $y$ is $\\mathbb{R}$.</p><p>What is the truth value of $p(-3,8) \\wedge q(1,3)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>TRUE $\\wedge$ TRUE $=$ TRUE&nbsp;</li><li>TRUE $\\wedge$ FALSE $=$ FALSE&nbsp;</li><li>FALSE $\\wedge$ TRUE $=$ FALSE&nbsp;</li><li>FALSE $\\wedge$ FALSE $=$ FALSE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 229"
+        }
+      ]
+    }
+  ]
+}

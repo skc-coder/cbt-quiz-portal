@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes CS Test Series 2026 | CO and Architecture | Topic Wise Test 4",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "387443",
+          "text": "<p>Consider a disk with the following characteristics :</p><ul><li>Average seek time $=8 \\mathrm{~msec}$</li><li>Average rotational delay $=3 \\mathrm{~msec}$</li><li>Maximum rotational delay $=6\\;\\text{msecs}$</li><li>Spindle speed $=10,000 \\mathrm{~rpm}$</li><li>Sectors per track $=170&nbsp;\\text{ sectors}$</li><li>Sector size $=512\\text{&nbsp;bytes}$</li></ul><p>What is the average time to read one sector?</p><ol style=\"list-style-type:upper-alpha\"><li>$10$</li><li>$11.03$</li><li>$12.35$</li><li>$14.22$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-coa-4,goclasses,co-and-architecture,disk,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387441",
+          "text": "Consider a system which uses a hard disk for storage. The task of managing the hard disk comes under the operating system. It is very important to keep track of occupancy of the hard disk i.e., which block is empty or which block is already occupied. A particular disk unit uses a bit string to record the vacancy and occupancy of its tracks, with $0$ denoting vacant and $1$ denoting occupied. A $\\text{32 bit}$ segment of this string has hexadecimal value $\\textsf{F1E0FA36}.$ The percentage of empty track for the corresponding part of the disk, to the nearest percentage is ________ (upto two decimal places)",
+          "type": "Numerical",
+          "answer": "43.75",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-4,numerical-answers,goclasses,co-and-architecture,disk,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387421",
+          "text": "<p>Let the decimal equivalents for these $\\textsf{IEEE 754}$ (Single precision) floating point numbers be $\\textsf{a, b}$ respectively.</p>\n\n<ul>\n\t<li>$\\textsf{a : 0 01111111 00000000000000000000000}$</li>\n\t<li>$\\textsf{b : 1 01111110 10000000000000000000000}$</li>\n</ul>\n\n<p>Then $\\text{a + b =}$&nbsp; ________</p>",
+          "type": "Numerical",
+          "answer": "0.25",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-4,numerical-answers,goclasses,co-and-architecture,number-representation,ieee-representation,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387419",
+          "text": "A machine has a base CPI of $2$ clock cycles. Measurements obtained show that the instruction miss rate is $12 \\%$ and the data miss rate is $6 \\%$, and that on average, $30 \\%$ of all instructions contain one data reference. The miss penalty for the cache is $10$ cycles. What is the total CPI?",
+          "type": "Numerical",
+          "answer": "3.38",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-4,numerical-answers,goclasses,co-and-architecture,cache-memory,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387429",
+          "text": "A computer has a cache, main memory, and a disk. If a referenced word is in the cache, $10 \\mathrm{~ns}$ are required to access it. If it is in the main memory but not in the cache, $50 \\mathrm{~ns}$ are required to load it into the cache, and then the reference is started again. If the word is not in the main memory, $10 \\mathrm{~ms}$ are needed to load it from the disk to main memory, followed by $50 \\mathrm{~ns}$ to copy it to the cache, and then the reference is started again. The cache hit ratio is $0.8$ and the main memory hit ratio is $0.7$. What is the average time needed to access a referenced word (in nsec)?",
+          "type": "Numerical",
+          "answer": "600020",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-4,numerical-answers,goclasses,co-and-architecture,cache-memory,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387427",
+          "text": "<p>Disk requests come in a disk queue for cylinders $5,15,73,90,11,4,55, 42$ in order. One end of the disk is at cylinder $0$ and another end is at cylinder $99.$<br>If SCAN scheduling is used, what will be the difference of the total head movements if the head is moving towards $0$ and if the head is moving towards $99?$ (Initially the head is at cylinder 60.)</p><ol style=\"list-style-type:upper-alpha\"><li>$0$</li><li>$2$</li><li>$16$</li><li>$21$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-4,goclasses,co-and-architecture,disk-scheduling,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387425",
+          "text": "<p>A block of $105$ words of memory is used for dynamic storage for objects of sizes $3$ and $10$ words. The operations supported by the storage are:</p><ul><li>$\\mathrm{x:= alloc (n)}$ {Allocate any block of $\\mathrm{n}$ consecutive words and return its starting address ; note that $3$ and $10$ are the only legal values for $n$. }</li><li>$\\mathrm{free (y)}$ {Make the previously allocated block starting at address $\\mathrm{y}$ available for re-use. }</li></ul><p>At a point where a certain request for allocation of a block of words cannot be granted because of a lack of a sufficiently long block of consecutive words to fill that request, what is the minimum possible number of words that might actually be in use?</p><ol style=\"list-style-type:upper-alpha\"><li>$10$</li><li>$24$</li><li>$53$</li><li>$96$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-4,goclasses,co-and-architecture,file-organization,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387446",
+          "text": "<p>Of the following, which best characterizes computers that use memory-mapped I/O?</p><ol style=\"list-style-type:upper-alpha\"><li>The computer provides special instructions for manipulating I/O ports.</li><li>I/O ports are placed at addresses on the bus and are accessed just like other memory locations.</li><li>To perform an I/O operation, it is sufficient to place the data in an address register and call the channel to perform the operation.</li><li>Ports are referenced only by memory-mapped instructions of the computer and are located at hardwired memory locations.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-coa-4,goclasses,co-and-architecture,memory-interfacing,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387431",
+          "text": "<p>The time taken to access a file that is stored on a hard disk is affected significantly by how data is stored on disks. The bottleneck of a disk access is moving the read/write arm. So it makes sense to store a file in tracks that are below/above each other in different surfaces, rather than in several tracks in the same surface.<br>\nConsider a file with $50,000$ records of fixed length, $256$ bytes per record. This file is stored on a hard disk in which we have $512$ bytes per sector, $63$ sectors per track, $16$ tracks per cylinder, and total $4092$ cylinders. File is stored in consecutive cylinders in such a way that first it is stored in a cylinder then in adjacent cylinder and so on. How many cylinder are needed to store this file?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$26$</li>\n\t<li>$20.60$</li>\n\t<li>$24.80$</li>\n\t<li>$30.50$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-4,goclasses,co-and-architecture,disk,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387423",
+          "text": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nif A &gt; B then\n    V[i] := F(i)\nelse\n    If B &gt; C then\n        V[i] := G(i)</pre>\n\n<p>Assume that the values of the Boolean expressions $\\text{“A &gt; B\"}$ and $\\text{“B &gt; C\"}$ are independent and that, on the average, $\\text{“A &gt; B\"}, 75$ percent of the time and $\\text{“B &gt; C\"}, 25$ percent of the time. If the program segment above is executed $10,000$ times, how many times would one expect the functions $\\mathrm{F}$ and $\\mathrm{G}$ to be executed?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\mathrm{F} : 2,500, \\mathrm{G}: 18,750$</li>\n\t<li>$\\mathrm{F} : 7,500, \\mathrm{G}: 625$</li>\n\t<li>$\\mathrm{F} : 7,500, \\mathrm{G}: 1,875$</li>\n\t<li>$\\mathrm{F}: 7,500, \\mathrm{G}: 2,500$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-4,goclasses,co-and-architecture,microprogramming,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387435",
+          "text": "Seek time is the time required to move the disk arm to the required track. The time it takes for the beginning of the sector to reach the head is known as rotational delay, or rotational latency.\n\nA magnetic disk has average seek time of $6 \\mathrm{~ms}$, rotational speed of $20,000$ rotations per minute (rpm), and $1024\\text{-byte}$ sectors with $400$ sectors per track. Rotational delay to access each sector is the time required for half a rotation on average.\n\nSuppose that we wish to read a file consisting of $500$ sectors that are distributed randomly over the disk, So, for every read we need to apply seek. The estimated total time (in milliseconds) needed to read the entire file is _______",
+          "type": "Numerical",
+          "answer": "3753.75",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-4,numerical-answers,goclasses,co-and-architecture,disk,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387445",
+          "text": "<p>Which of the following is true of interrupts?</p><ol style=\"list-style-type:upper-alpha\"><li>They are generated only when memory cycles are \"stolen\".</li><li>They are used in place of data channels.</li><li>They can indicate completion of an I/O operation.</li><li>They cannot be generated by arithmetic operations.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-coa-4,goclasses,co-and-architecture,memory-interfacing,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387437",
+          "text": "<p>The unsigned integer $3,505,468,161$ can be written in $32\\text{-bit}$ binary as $$11010000\\; 11110001\\; 00110011\\; 00000001.$$ Putting it into four bytes of memory beginning at address $98370$ in big-endian&nbsp;fashion would give which picture?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li><img alt=\"\" height=\"69\" width=\"500\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAW8AAAAzCAYAAABYB4ksAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAATSSURBVHic7dy/Tus8GMfxp31fdSBlYKm4AHR2xMAFsVaBgYG2CwuibETqwoC6czFcADfQzMSBjbwDb9DpnyS4td04+X4khmNcK/nF56F1GneyLMsEAOCV7r4PAACgj+INAB6ieAOAh/7d9wHkkiSR6XQqIiL9fl9Go5F2+99tuU2/+3ucNrOdef6a2WzW+LyZv/aR8bJOHW5YJkkiDw8PcnBwICIiWZZJt9uV4XCo1R6GoURR9DOuUkrm87m8vb1t7F/3i2OTi8yn06kopeTl5UUWi4X7k3SE+WsfGW+Q1cBisciOj4/X/l3UrpTKoigqfH2WZdn7+3s2mUyyKIoKx2kz25krpbK7u7tsNBo1PmsXWVb1bzoyXlebZRMdQRBIGIalfdI0lefnZ1ksFhLHsaMjay7dzEVExuOxxHEs8/ncxSF6Y5ssq/pjWRsyrkXxPjw8lOFwKJPJRES+P8psau90OksfY/I1qk3tbVhn3QWZm+Myy7bm7Crjov51VIviHQSBXF1d/axFZf8vw399fcnn56cEQfDTnqbpz+u63a4EQbDWvvoXFevI3BxXWebrvoPBwLt3ibtylXFR/1ray2JNhar1rKL+Wba8jlX0Oh/Ws1wznXnV65vMRpZlGbeRrflaNU6d1OJ73kmSyP39vZH++V/Utr0z0UXm5tjOss3vuHMuMtYZvw5q8VXBNE3l8fFRPj4+ROR73WowGMjFxYVWexiGEsexnJ6eLn0cKhq/rf8RROxnniv7XVPYzjKOYzk5OZHLy8ufNh++h2wSNWLdP7e3t7f7PoherydnZ2fy+voqvV5Pjo6OJAxD7XaR79CDIJDz8/PK8dvMdua5st81he0sO52O9Hq9pZ9+v9/oTFdRI9YVvvPe9CQSAMAO3U9ThcU7jmP58+eP3NzcGDs4fFNKyWw2I1sLyNYesrUnf9JTZ3mxtHg3fa1yX8jWHrK1h2zt2SbbWnzbBACgh+INAB6ieAOAh5w/Hl+2p8Bqe9n+ujr9TbX7Qidj3XYXGddx/w6T52EiV93xfWB7bjVtjjq7YZkHsbq/c1l70T69uv1NtJu8SLZu/GyTsalrYqp91z3AbWS7zXnbzlVnfFNs3rB0MbfqMkc32SrboufmTT/bX7S/c1F72T69Ov1NtZtka98E3YxNXRNT7Sb2AHdxvbY9D1O56o5vKwebY5ueW3Wao785/99wtuYdBIGMx+O1p5aK2nXHgX7Gpq6JKU25trZzrdt1a5M6ZcwNSwDwEMUbADxE8QYAD1G8AcBDzvc2KRp3tb1qf93f9tfd77dsH2DbGdgef9d2Vxnvko+NbHXPu+o8ds1Vd3xTbM5b23OrTnN0k23GK9zPWyklT09Pcn19beTgckX7O6+2V+2v+9v+JvcBNsVWtrnfZqzb7irjXfYAt5Gt6fPYNVfd8U2xOW9tz606zdFNtsmWXQX3gGztIVt7yNYedhUEgJageAOAhyjeAOCh0l0FkySRyWTi6lhaQylFtpaQrT1ka49SSvs1hTcs0zSVKIp2PigAQLV+v6/1zbbC4g0AqC/WvAHAQxRvAPAQxRsAPETxBgAPUbwBwEMUbwDwEMUbADxE8QYAD1G8AcBDFG8A8BDFGwA8RPEGAA9RvAHAQxRvAPDQfwU2L44+cw6RAAAAAElFTkSuQmCC\"></li><li><img alt=\"\" height=\"76\" width=\"500\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXAAAAA4CAYAAADkZaOKAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAASUSURBVHic7d2xUuJQFMbxszs7A1amtPUReAIt6cSSN2DsLC19Ajst7dQOHRrGJ9DK0keADlIRq2yxExQkxMvek9yT/H+dh0sm+YAjXMLNrzRNUwEAmPO76h0AAOyGBg4ARtHAAcAoGjgAGEUDBwCj/lS9A+uSJJHhcCgiInt7e9Lr9ZzrX2uZTbd93U6TaWee3Wc8Htc+b56/+sj4U1ANPEkSeXh4kOfnZxERabVaIiLS7Xad6sfHxzIajZbbXSwW8vLykjs+5AdIWxmZD4dDieNYLi8va501z199ZLwmDchkMkkPDg6+/Z1Xn81m6WAwyL1/mqbpYrFIb29v08FgkLudJtPOfDabpf1+P+31erXPuowsi8bXHRmvCuoduKsoiuTm5mbrmPl8LhcXFzKZTGQ6nZa0Z/XlmrmIyN3dnUynU+l0OmXsohm7ZFk0HqvqnnFQDbzdbku325X7+3sREYnjeGP94+Nj5SNNNme1qd6Eedf/Qeb+lJllU3MuK+O88aEJqoFHUSRXV1dydnYmIv/mpUT+PThHR0fLOatWqyUnJyfL+yVJIqPR6Ft9/T8rviNzf8rKMpsHfn19NfVu0YcyM940PjhVz+FsUzS/lTc+TVfntfLuF/r8VhV8Z150/zrTyHJbxk2k9Xwt2k4ogjoPPEkSeXx89DI++8/atHcorsjcH+0sm/zOO1NGxi7br1pQUyhJksjT09PyY1E2/5Q3v5U3Pk/RPFkTaWfeJNpZzudzOT8/l+vr6+W2Qj9P2TftjK09v3+laVjLyc7n8+X81v7+/vK/4y71Te8G88Y3mXbmRbfViWaWX8dmmvgcpkd8Kmzgm36xBADQ4fKpqrCBT6dTOTw8lNPTUy87h0+LxULG4zHZKiBbPWSrJ/tF6E/P4vpRA+90Oo08LUwb2eohWz1kq8c126DOQgEA/BwNHACMCuo0QgDNtu2n7ev1bcu+uoz3Va9C6Q1cO0SfD4b19SZcXgyu9abm7/M4fOTquv1QZce3vuzwtnre8rGu433Uq8q41AauHaLPuuU1rHd5Mfh68dQ5/12OWztXl+2HLFt7JPsBTVF9fQ2T7Mu/9/d3p/Fvb29e6pVlXPRbe59rAbiu5VtVvaw1rLXWWcjbf191C/lrZOvrOHzl6rp9rRzK2HbRWie7/u2r7ovr9pgD3yCKItNrWOftv696VftvjXauoT1uKB9noQCAUTRwADCKBg4ARjEHDsAc16Wh88b7qlel1AauHaL1B8OKpuavfRx1yel/tNvtjce2Xl+/tNr6sq8u433VK+H7tJYi2SlO/X5/5VJGodWz2zQvXaV9uaa8/fdRDz1/7VM0fRyHj1xdt+9D6JcZs8w1W1YjrBDZ6iFbPWSrh9UIAaAhaOAAYBQNHACM+tFZKEmSLL8Bhz9xHJOtErLVQ7Z64jh2Gl/4JeamK2EDAHS4nJpY2MABAGFiDhwAjKKBA4BRNHAAMIoGDgBG0cABwCgaOAAYRQMHAKNo4ABgFA0cAIyigQOAUTRwADCKBg4ARtHAAcAoGjgAGEUDBwCjaOAAYBQNHACM+gsTeM4QC/4oTAAAAABJRU5ErkJggg==\"></li><li><img alt=\"\" height=\"71\" width=\"500\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXMAAAA1CAYAAACzzAtXAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAAQjSURBVHic7d0xUuMwFMbxx06O4CINHYULN+kpwhEoOALH4BwcxwUNvZmBgj6ZiQv3eEZb7Dg4OzaOgp4tP/9/HYqisb5V3mwUxblyzjkBAMzan6kvAADwexRzADCAYg4ABlDMAcAAijkAGLCa+gJ+Ute1fHx8iIjIarWSNE2929ttja7H2uMsmXbmzXM+Pz/N58361UfGLS5SX19f7uXlxWVZ5rIsc7e3t+79/d27/XA4HNuyLHNpmrr1et3bf8nGyLwoCpfnuVuv11NPVxXrVx8Zn4q2mO92u5MXfPN3X/vhcHDb7bb3+c59/+Nvt9vecZZMO/PmRdO8WCwbI8uh/taR8amot1l8JEkieZ7/2KcsS3l4eJDdbif7/X6kK7PLN3MRkaIoZL/fy2azGeMSZ+OSLIf645T1jKMt5qvVSm5ubuTt7U1E/oXc1V5V1ck+VrPH1dW+hH3a3yDzcMbMcqk5j5VxX//oTP3W4Cftvaxz97Ga5/zfPrStEvtbqLFoZj7Ubs0YWba3BZZojIz7+scm6mLeNrQf1tffue4FTzEfFjrzoedbppHl0gv5/7TW69A4sYj2nHnXcaFL+zf7YHPa/5oCmYejnWVd1/L6+ipPT09kHKB/X8Y+408t2j3zqqrk8fFRnp+fj3+nadq7H9bXv8/QvtoSaWe+JNpZlmUp9/f3kuf5cazoz0EHpp3x3Nb3lXPx3gK3LEu5u7sTkdNPoi9p7/pfYl//JdPOfOgxSzSzbPdtLHENUyO+eRXzub3tAIA583m35VXM9/u9XF9fR/1WY66WerxsDGSrh2z11HUtVVUdz7wP8S7mm83m7MFxPrLVQ7Z6yFaPb7bRnmYBAJyPYg4ABlDMAcCAKM6Zh7gn8RjtzWNz/MAn5Fy72rXHj4XvNWtmaHX9hsjMt3/IjCfj83VRja+zhron8Rjtmvfi1vyqcKi5/tSuOf5vhcj2kky0M4xh/YZctyEzmyLj0HyznbyY+96TeKp27XtxaxbzUHPta9ceP/T8L+F7zdoZxrJ+Q67bUJlNlXFovuOyZ36mJEmkKIqovwEWSt9cQ2WgPb4G32uObY4xZ9sIldkc5qqBYg4ABlDMAcAAijkAGEAxBwADJj9n3nfv4dja50x7rkvKUgvr15/vXM1nrHlU5lzt3/Fr/2xTbO3NYxo/06X9k1Qh59rVrj3+b4Q+PudzzZoZxrB+NdZtiMx8+4fMOBTfbLlrYiTIVg/Z6iFbPdw1EQAWiGIOAAZQzAHAAO/TLHVdHz/FRThlWZKtErLVQ7Z6yrL06u/1AWjXL4IDAHQkSXL2PWa8ijkAIE7smQOAARRzADCAYg4ABlDMAcAAijkAGEAxBwADKOYAYADFHAAMoJgDgAEUcwAwgGIOAAZQzAHAAIo5ABhAMQcAA/4CRRt2zXvZv8wAAAAASUVORK5CYII=\"></li><li><img alt=\"\" height=\"77\" width=\"500\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXkAAAA6CAYAAABVuClLAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAARJSURBVHic7d1ReqowEIbhCc/Zg7FdRdv9L6HdhUAXgTk3TQ/1gDaQATL53rsOyKO/cQoB0YUQggAATGr2fgIAAD00eQAwjCYPAIbR5AHAMJo8ABhGkwcAw2jyAGAYTR4ADKPJA4BhNHkAMIwmDwCG0eQBwDCaPAAYVlST7/temqaRpmnk6elpUX1cu7dsvJ2aaWcel9eQN+NXHxlPCIXoui6cz+dwvV7D9XoNbduG8/mcXA8hfNdi3Xt/d/1abZG5cy4454L3fudXq4vxq4+Mp/3Z+59MihCCOOdERMQ5J+HrVvhTde+9XC6XyfVjre97eXt7k7Zt5fPzc3b7NdPM3DknwzBI3/fy+vq69UvbnHaWc+vXhIz/V9R0Tar4ZtwzfvOxXmrmzjnyn7EkS6SpIuNtDhjyaNv2+/B+fIg/rsfDqShOCUzVx7Wu635MGdz+XSvNzMf1GrLeIstHy6zbarxOrX9URe3Jn89nGYZBhmGQy+UiIv8Op2L9/f1dnp+fvx/jvZ+si7AX/xtkns8WWcapr/G0Qk22yPje+kdU1Jy8iEweNoUHc+lxSiDW4wehbduNnnXZyDwfzSxrb/DRFuP1dv0jK2ZPPvUyu0fr17xH+Vtkno92ljT4bTIu5rLJsU0nh1aam1dLrc/NAd+bt6uVduaPllmimWXXdUFEfsxHl3B5X270iP+5EAo43hgZP93bw7HU+tQez9z6NdPO/NEySzSznPoo15DpLXrET6vm5Is9fAGAAnnvk89rrT7xejqdqj+ZpoETlXrIVg/Z6ln6pcEsV9eUcMhSmqK/fHFwZKuHbPUszbSYq2sAAOlo8gBgGE0eAAzbvcmn3v85Lpu6qmeqrr39kuS41/YW9bisxKxzjM3U9XPmfkSpn0fN/lDkWF5zkf3aL7Esuf/z7Y2H4nbm6prb15T7C0K57rW9RV07a40vX+Ucm7nGcuo91HPlkCvbJZlq94c9x/LSbHffkw9fXzi4vRfEVD3eGCjeeCiaq2+x/ZKkZLFXvdSsc43NXGN5Sf1oUjPV7g+p9aOM5d2bfKoY4m/rR9s+His161xjp9TXryE106N9fo/wXhbX5AEAv0eTBwDDaPIAYBhNHgAM2/WXobz38vHxIU3TfP8dfxV9qn607ZckNYu96rWYez9S1yf35WrJdNX95Pu+l5eXF+m6btWTGD+F8ZnouXpcNnXWeqquvX0NubK9lZrFXvW4TCNrrWyjHGMzdf2cua+hOW5TPo+a/WGvsbw020P8xuvci78XSspjtLdfktTXtVf90bIjyzE2U9fPmfsRab5u62OZOXkAMIwmDwCG0eQBwLDVc/Lx7mvIL4RAtkrIVg/Z6jmdTsmPWXV1jcj0L8QDAHSknsRdvSdf2ll6AKgJx1QAYBhNHgAMo8kDgGE0eQAwjCYPAIbR5AHAMJo8ABhGkwcAw2jyAGAYTR4ADKPJA4BhfwE9nzkLR+usTgAAAABJRU5ErkJggg==\"></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-coa-4,goclasses,co-and-architecture,number-representation,two-marks",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387439",
+          "text": "<p>Disk requests come in a disk queue for cylinders $5,15,73,90,11,4,55, 42$ in order. One end of the disk is at cylinder $0$ and another end is at cylinder $99.$</p><p>If the disk head is currently $60 ,$ then how many total head movements will occur, if $\\text{SSTF}$ scheduling technique is used?</p><ol style=\"list-style-type:upper-alpha\"><li>$134$</li><li>$142$</li><li>$146$</li><li>$150$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-coa-4,goclasses,co-and-architecture,disk-scheduling,one-mark",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "387433",
+          "text": "Seek time is the time required to move the disk arm to the required track. The time it takes for the beginning of the sector to reach the head is known as rotational delay, or rotational latency.\n\nA magnetic disk has average seek time of $6 \\;\\text{ms},$ rotational speed of $20,000$ rotations per minute (rpm), and $1024\\text{-byte}$ sectors with $400$ sectors per track. Rotational delay to access each sector is the time required for half a rotation on average.\n\nSuppose that we wish to read a file consisting of $1400$ sectors. Let us assume that the file is stored as compactly as possible on the disk. That is, the file occupies the sectors on $4$ adjacent tracks, all the sectors of $3$ tracks and $200$ sectors of fourth track, So, only for the starting position of the file we need to necessitate seek, so the remaining adjacent tracks can be read with essentially no seek time. The estimated total time (in milliseconds) needed to read the entire file is ________",
+          "type": "Numerical",
+          "answer": "22.5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-coa-4,numerical-answers,goclasses,co-and-architecture,disk,two-marks",
+          "category": "CO & Architecture"
+        }
+      ]
+    }
+  ]
+}

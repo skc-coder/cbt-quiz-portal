@@ -1,0 +1,70 @@
+{
+  "name": "Day 143 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "500012",
+          "text": "<p>Consider the following $3$-address code sequence. This code is divided into basic blocks. How many basic blocks are there? (Answer as an integer)<br><br>&nbsp;</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">1: a = 1\n2: b = 2\n3: if a &gt; b goto 7\n4: c = a + b\n5: d = c *2\n6: goto 8\n7: c = a - b\n8: a = c + 1\n9: print a\n</pre><p>&nbsp;</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 143"
+        },
+        {
+          "post_id": "500020",
+          "text": "<p>Consider the following $3$-address code sequence. This code is divided into basic blocks. How many basic blocks are there? (Answer as an integer)<br><br>&nbsp;</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">1: i = 0\n2: sum = 0\n3: t1 = i &lt; 10\n4: if t1 == 0 goto 11\n5: t2 = i * 4\n6: t3 = arr[t2]\n7: sum = sum + t3\n8: i = i + 1\n9: goto 3\n10: goto 14\n11: avg = sum / 10\n12: print avg\n13: goto 10\n14: end\n</pre><p>&nbsp;</p>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 143"
+        },
+        {
+          "post_id": "500010",
+          "text": "The minimum number of arithmetic operations required to evaluate the polynomial<br>\n<br>\n$$<br>\nP(X)=2 X^6-3 X^5+4 X^4-X^3+5 X^2+6 X-7<br>\n$$<br>\n<br>\nfor a given value of $X$, using only one temporary variable, is:",
+          "type": "Numerical",
+          "answer": "12",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 143"
+        },
+        {
+          "post_id": "500008",
+          "text": "The minimum number of arithmetic operations (additions and multiplications) required to evaluate the polynomial<br>\n<br>\n$$<br>\nP(X)=X^5+3 X^4+2 X^3+7 X^2+8 X+9<br>\n$$<br>\n<br>\nfor a given value of $X$, using only one temporary variable, is:",
+          "type": "Numerical",
+          "answer": "9",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 143"
+        },
+        {
+          "post_id": "499990",
+          "text": "Consider the following sequence of $3$-address code. This code is divided into basic blocks. How many basic blocks are there? (Answer as an integer)<br>\n<br>\n$$<br>\n\\begin{aligned}<br>\n& \\verb|2001: x = 0| \\\\<br>\n& \\verb|2002: y = 20| \\\\<br>\n& \\verb|2003: i = 1| \\\\<br>\n& \\verb|2004: t1 = i * 4| \\\\<br>\n& \\verb|2005: t2 = arr[t1]| \\\\<br>\n& \\verb|2006: if t2 &gt; y goto 2010| \\\\<br>\n& \\verb|2007: x = x + t2| \\\\<br>\n& \\verb|2008: i = i + 1| \\\\<br>\n& \\verb|2009: if i &lt;= 15 goto 2004| \\\\<br>\n& \\verb|2010: y = y / 2| \\\\<br>\n& \\verb|2011: if y != 0 goto 2003| \\\\<br>\n& \\verb|2012: result = x|<br>\n\\end{aligned}<br>\n$$<br>\n&nbsp;",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 143"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 194 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "520981",
+          "text": "<p>A system uses <strong>Variable Partitioning</strong> for memory management. The total physical memory is $\\mathbf{1 0 0 0 ~ K B}$, out of which $\\mathbf{2 0 0~ K B}$ is occupied by the Resident OS. The remaining memory is currently allocated to three processes as follows:</p><ul><li>$\\mathbf{P1}:&nbsp;200$ KB $($starts at address $200)$<br>&nbsp;</li><li>$\\mathbf{P2}:&nbsp;150$ KB $($starts at address $500)$<br>&nbsp;</li><li>$\\mathbf{P3}:&nbsp;250$ KB $($starts at address $750)$</li></ul><p>The gaps between processes are currently empty. A new process $\\mathbf{P4}$ arrives requiring $\\mathbf{2 5 0}$ KB.<br>Consider the following two scenarios:</p><ol><li><strong>Scenario I:</strong> The system does not support compaction.<br>&nbsp;</li><li><strong>Scenario II:</strong> The system supports compaction, but it takes $\\mathbf{1 ~ m s}$ to move $\\mathbf{1 0 ~ K B}$ of data.<br>&nbsp;</li></ol><p>Which of the following statements is <strong>TRUE</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P4$ can be accommodated in Scenario I using the Best-Fit algorithm.<br>&nbsp;</li><li>In Scenario II, it will take $60$ ms to create a contiguous block for $P4$ if we move $P2$ and $P3$ upward.<br>&nbsp;</li><li>In Scenario II, it will take $40$ ms to create a contiguous block for $P4$ if we move $P2$ and $P3$ upward.<br>&nbsp;</li><li>$P4$ cannot be accommodated even after compaction.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 194"
+        },
+        {
+          "post_id": "520979",
+          "text": "<p>A system has $4$ processes $(P_0$ through $P_3)$ and $3$ resource types $(R_1, R_2, R_3)$. The current state is as follows:</p><p>\\[<br>\\begin{array}{|l|l|l|}<br>\\hline<br>\\text{Process} & \\text{Allocation }(R_1, R_2, R_3) & \\text{Max Demand }(R_1, R_2, R_3) \\\\<br>\\hline<br>P_0 & (1, 0, 1) & (4, 3, 3) \\\\<br>\\hline<br>P_1 & (1, 1, 2) & (2, 2, 2) \\\\<br>\\hline<br>P_2 & (1, 0, 3) & (1, 1, 3) \\\\<br>\\hline<br>P_3 & (2, 0, 0) & (3, 3, 1) \\\\<br>\\hline<br>\\end{array}<br>\\]<br>The Available resource vector is $(2,1,0)$. Which of the following is a valid safe sequence?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P_1, P_2, P_0, P_3$<br>&nbsp;</li><li>$P_2, P_1, P_0, P_3$<br>&nbsp;</li><li>$P_1, P_2, P_3, P_0$<br>&nbsp;</li><li>There is no safe sequence</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 194"
+        },
+        {
+          "post_id": "520977",
+          "text": "<p>Consider a disk with $200$ tracks $(0-199)$. The disk head is currently at track $50$ and was previously at <strong>track</strong> $\\mathbf{40}.$ The queue of pending requests in FIFO order is:<br><br>$\\mathbf{90, 150, 25, 110, 30, 180}$<br><br>The system uses the <strong>C-SCAN</strong> scheduling algorithm. What is the total distance (in tracks) moved by the disk arm to satisfy all requests?</p>",
+          "type": "Numerical",
+          "answer": "378",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 194"
+        },
+        {
+          "post_id": "520975",
+          "text": "<p>Three processes ( $P_1, P_2, P_3$ ) share a single resource and coordinate using two binary semaphores, $S_1$ and $S_2$, both initialized to $0$. The processes execute the following code snippets:</p><p>\\[<br>\\begin{array}{lll}<br>P_1 & P_2 & P_3 \\\\<br>\\hline<br>\\verb|print(\"A\")| & \\verb|wait(S1)| & \\verb|wait(S2)| \\\\<br>\\verb|signal(S1)| & \\verb|print(\"B\")| & \\verb|print(\"C\")| \\\\<br>\\verb|signal(S2)| & \\verb|signal(S2)| & \\verb|wait(S1)|<br>\\end{array}<br>\\]<br>Which of the following execution sequences is <strong>NOT</strong> possible?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\verb|A B C|$<br>&nbsp;</li><li>$\\verb|A C B|$<br>&nbsp;</li><li>$\\verb|B A C|$<br>&nbsp;</li><li>$\\verb|A|$ followed by $P_2$ and $P_3$ in any order</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 194"
+        },
+        {
+          "post_id": "520973",
+          "text": "<p>Consider a system with a $48$-bit virtual address and a page size of $8$ KB . The system uses a $3$-level paging scheme where the first $10$ bits index the outer page table, the next $10$ bits index the middle page table, and the remaining bits (before the offset) index the inner page table. Assume each Page Table Entry (PTE) is $8$ bytes and the TLB has $512$ entries.</p><p>If a process is currently using $20$ MB of contiguous virtual memory, what is the minimum total memory (in KB) required to store its page tables?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$24$ KB<br>&nbsp;</li><li>$32$ KB<br>&nbsp;</li><li>$40$ KB<br>&nbsp;</li><li>$48$ KB</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 194"
+        }
+      ]
+    }
+  ]
+}

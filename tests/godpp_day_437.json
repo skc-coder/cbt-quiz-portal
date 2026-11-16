@@ -1,0 +1,70 @@
+{
+  "name": "Day 304 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "536430",
+          "text": "<p>For an SR latch using NAND gates, the inputs are active-low. Which option correctly describes the latch behavior?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$S=0,R=1$ sets the latch, $S=1,R=0$ resets the latch, $S=1,R=1$ holds the previous state, and $S=0,R=0$ is invalid<br>&nbsp;</li><li>$S=1,R=0$ sets the latch, $S=0,R=1$ resets the latch, $S=0,R=0$ holds the previous state, and $S=1,R=1$ is invalid<br>&nbsp;</li><li>$S=0,R=0$ always holds the previous state<br>&nbsp;</li><li>$S=1,R=1$ is invalid because NAND gates cannot store data</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 304"
+        },
+        {
+          "post_id": "536426",
+          "text": "<p>For an active-high SR latch using NOR gates, which option correctly describes the latch behavior?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$S=1,R=0$ sets the latch, $S=0,R=1$ resets the latch, $S=0,R=0$ holds the previous state, and $S=1,R=1$ is invalid<br>&nbsp;</li><li>$S=0,R=1$ sets the latch, $S=1,R=0$ resets the latch, $S=1,R=1$ holds the previous state, and $S=0,R=0$ is invalid<br>&nbsp;</li><li>$S=0,R=0$ always resets the latch, and $S=1,R=1$ always sets the latch<br>&nbsp;</li><li>All input combinations are valid for an SR latch</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 304"
+        },
+        {
+          "post_id": "536424",
+          "text": "<p>In a sequential circuit, the circuit is able to remember previous output mainly because of:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Encoder<br>&nbsp;</li><li>Decoder<br>&nbsp;</li><li>Feedback or memory element<br>&nbsp;</li><li>Multiplexer</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 304"
+        },
+        {
+          "post_id": "536428",
+          "text": "<p>In a NOR-based SR latch, why is the input condition $S=1,R=1$ considered invalid?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Because both outputs become $1$<br>&nbsp;</li><li>Because both outputs become $0$, so $Q$ and $Q'$ are not complements<br>&nbsp;</li><li>Because the latch holds the previous state<br>&nbsp;</li><li>Because the latch behaves like a decoder</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 304"
+        },
+        {
+          "post_id": "536422",
+          "text": "<p>Which statement correctly differentiates a combinational circuit from a sequential circuit?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A combinational circuit depends only on current inputs, while a sequential circuit depends on current inputs and previous state<br>&nbsp;</li><li>A combinational circuit always has memory, while a sequential circuit never has memory<br>&nbsp;</li><li>A combinational circuit uses clock only, while a sequential circuit uses only logic gates<br>&nbsp;</li><li>A combinational circuit depends on previous outputs, while a sequential circuit depends only on current inputs</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 304"
+        }
+      ]
+    }
+  ]
+}

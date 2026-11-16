@@ -1,0 +1,70 @@
+{
+  "name": "Day 134 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "498204",
+          "text": "<p>A leaky bucket algorithm is used for traffic shaping. The bucket leaks at a constant rate of $\\mathbf{10 ~KB/s}$ and has a capacity of $\\mathbf{3 0 ~ K B}$ .<br>A burst of $\\mathbf{5 0 ~ K B}$ data arrives instantaneously at time $\\mathrm{t}=0$.<br>Assuming no other data arrives later, how long will it take for the bucket to empty completely?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2$ $\\mathrm{seconds}$<br>&nbsp;</li><li>$3$ $\\mathrm{seconds}$<br>&nbsp;</li><li>$4$ $\\mathrm{seconds}$<br>&nbsp;</li><li>$5$ $\\mathrm{seconds}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 134"
+        },
+        {
+          "post_id": "498201",
+          "text": "<p>Consider a network using <strong>Ethernet</strong> and <strong>IPv4</strong> without any options field in the header.<br>Each Ethernet frame can carry up to $1600 \\textbf{ bytes}$ in its data portion. A <strong>UDP segment</strong> is transmitted.<br>The UDP payload size is $9000 \\textbf{ bytes}$.<br><br>Which one of the following choices gives the correct number of <strong>IPv4 fragments</strong> transmitted and the <strong>size of the last fragment (including header)</strong>?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5&nbsp;\\mathrm{~fragments} ~1600&nbsp;\\mathrm{~bytes}$<br>&nbsp;</li><li>$6&nbsp;\\mathrm{~fragments} ~100&nbsp;\\mathrm{~bytes}$<br>&nbsp;</li><li>$6&nbsp;\\mathrm{~fragments} ~1140&nbsp;\\mathrm{~bytes}$<br>&nbsp;</li><li>$7&nbsp;\\mathrm{~fragments} ~108 \\mathrm{~bytes}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 134"
+        },
+        {
+          "post_id": "498202",
+          "text": "<p>A TCP connection uses additive increase and multiplicative decrease for congestion control. Suppose the congestion window size (cwnd) just before a loss is $16$ segments. After the loss is detected via triple duplicate ACKs, the congestion window drops according to AIMD behavior. Afterward, how many successful congestion-free round trips are required for cwnd to reach $16$ again?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4$<br>&nbsp;</li><li>$8$<br>&nbsp;</li><li>$12$<br>&nbsp;</li><li>$14$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 134"
+        },
+        {
+          "post_id": "498198",
+          "text": "<p>Consider a network that uses Ethernet and <strong>IPv4</strong>. Assume that&nbsp;<strong>IPv4</strong> headers do not use any options field. Each Ethernet frame can carry a maximum of $1400 \\textbf{ bytes}$ in its data field. A <strong>UDP segment</strong> is transmitted. The payload (data) in the UDP segment is $6800 \\textbf{ bytes}$.</p><p>Which ONE of the following choices has the <strong>CORRECT</strong> total number of fragments transmitted and the size of the last fragment including the <strong>IPv4</strong> header?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4&nbsp;\\mathrm{~fragments} ~1400&nbsp;\\mathrm{~bytes}$<br>&nbsp;</li><li>$5&nbsp;\\mathrm{~fragments} ~1316&nbsp;\\mathrm{~bytes}$<br>&nbsp;</li><li>$6&nbsp;\\mathrm{~fragments} ~108&nbsp;\\mathrm{~bytes}$<br>&nbsp;</li><li>$5&nbsp;\\mathrm{~fragments} ~1296&nbsp;\\mathrm{~bytes}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 134"
+        },
+        {
+          "post_id": "498203",
+          "text": "<p>In TCP congestion control, suppose the congestion window ($\\mathrm{cwnd}$) is currently $12$ $\\mathrm{MSS}$&nbsp;and the threshold ($\\mathrm{ssthresh}$) is $8$ $\\mathrm{MSS}$. A timeout occurs. What will be the new values of $\\mathrm{cwnd}$ and $\\mathrm{ssthresh}$ immediately after the timeout?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{cwnd}=6$ $\\mathrm{MSS},$ $\\mathrm{ssthresh}=8$ $\\mathrm{MSS}$<br>&nbsp;</li><li>$\\mathrm{cwnd}=1$ $\\mathrm{MSS},$ $\\mathrm{ssthresh}=6$ $\\mathrm{MSS}$<br>&nbsp;</li><li>$\\mathrm{cwnd}=1$ $\\mathrm{MSS},$ $\\mathrm{ssthresh}=12$ $\\mathrm{MSS}$<br>&nbsp;</li><li>$\\mathrm{cwnd}=1$ $\\mathrm{MSS},$ $\\mathrm{ssthresh}=6$ $\\mathrm{MSS}$<br>&nbsp;</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 134"
+        }
+      ]
+    }
+  ]
+}

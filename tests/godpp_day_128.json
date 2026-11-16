@@ -1,0 +1,70 @@
+{
+  "name": "Day 125 [Theory of Computation]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "495780",
+          "text": "<p>Let $\\langle M\\rangle$ denote the standard encoding of a Turing Machine $M$, and $\\langle G\\rangle$ be the encoding of a Context-Free Grammar $G$.</p><p>Consider the following languages:</p><ul><li>$L_1=\\{\\langle M\\rangle| | L(M) \\mid \\geq 10\\}$<br>&nbsp;</li><li>$L_2=\\{\\langle M\\rangle \\mid M$ halts on input $\\epsilon$ within 100 steps $\\}$<br>&nbsp;</li><li>$L_3=\\{\\langle M\\rangle \\mid L(M)$ is finite $\\}$<br>&nbsp;</li><li>$L_4=\\left\\{\\langle G\\rangle \\mid L(G)=\\Sigma^*\\right\\}$</li></ul><p>Which of the following statements is/are TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$L_1$ IS UNDECIDABLE.<br>&nbsp;</li><li>$L_2$ IS DECIDABLE.<br>&nbsp;</li><li>$L_3$ IS UNDECIDABLE.<br>&nbsp;</li><li>$L_4$ IS UNDECIDABLE.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 125"
+        },
+        {
+          "post_id": "495791",
+          "text": "<p>Let $\\Sigma=\\{a, b, c, d\\}$. Consider the following languages over $\\Sigma$ :</p><ul><li>$\\quad L_1:\\left\\{a^n b^m c^k \\mid(n=m\\right.$ or $m=k)$ and $\\left.n, m, k \\geq 1\\right\\}$<br>&nbsp;</li><li>$L_2:\\left\\{a^n b^m c^m d^n \\mid n, m \\geq 0\\right\\}$<br>&nbsp;</li><li>$L_3:\\left\\{a^n b^m c^n d^m \\mid n, m \\geq 0\\right\\}$<br>&nbsp;</li><li>$L_4:\\left\\{w w \\mid w \\in\\{a, b\\}^*\\right\\}$</li></ul><p>Which of the following statements is/are TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$L_1$ IS A DETERMINISTIC CONTEXT-FREE LANGUAGE (DCFL).<br>&nbsp;</li><li>$L_2$ IS A DETERMINISTIC CONTEXT-FREE LANGUAGE (DCFL).<br>&nbsp;</li><li>$L_3$ IS A CONTEXT-FREE LANGUAGE (CFL).<br>&nbsp;</li><li>$L_4$ IS NOT A CONTEXT-FREE LANGUAGE (CFL).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 125"
+        },
+        {
+          "post_id": "495776",
+          "text": "<p>Let $r, s$, and $t$ be three regular expressions defined over the alphabet $\\Sigma=\\{0,1\\}$ :</p><ul><li>$r=(0+1)^* 00$<br>&nbsp;</li><li>$s=1(0+1)^* 00$<br>&nbsp;</li><li>$t=(0+1)^* 100$</li></ul><p>Which one of the following statements is TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$L(s) \\subseteq L(r)$ AND $L(t) \\subseteq L(r)$<br>&nbsp;</li><li>$L(r) \\subseteq L(s)$ AND $L(r) \\subseteq L(t)$<br>&nbsp;</li><li>$L(s) \\subseteq L(t)$ AND $L(t) \\subseteq L(r)$<br>&nbsp;</li><li>$L(t) \\subseteq L(s)$ AND $L(s) \\subseteq L(r)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 125"
+        },
+        {
+          "post_id": "495779",
+          "text": "LET $L$ BE THE SET OF ALL BINARY STRINGS $w$ OF LENGTH AT LEAST 4 SUCH THAT THE FIRST TWO SYMBOLS OF $w$ ARE THE SAME AS THE LAST TWO SYMBOLS OF $w$.<br>\n<br>\nWHAT IS THE NUMBER OF STATES IN THE MINIMAL DETERMINISTIC FINITE AUTOMATON (DFA) THAT ACCEPTS $L$ ?",
+          "type": "Numerical",
+          "answer": "15",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 125"
+        },
+        {
+          "post_id": "495778",
+          "text": "<p>Consider the following Non-deterministic Finite Automaton (NFA) $M$ with:</p><ul><li>States $Q=\\left\\{q_0, q_1, q_2\\right\\}$<br>&nbsp;</li><li>Alphabet $\\Sigma=\\{0,1\\}$<br>&nbsp;</li><li>Start state $q_S=q_0$<br>&nbsp;</li><li>Final states $F=\\left\\{q_2\\right\\}$<br>&nbsp;</li><li>Transition function $\\delta$ :<br>&nbsp;</li><li>$\\delta\\left(q_0, 0\\right)=\\left\\{q_0, q_1\\right\\}$<br>&nbsp;</li><li>$\\delta\\left(q_0, 1\\right)=\\left\\{q_0\\right\\}$<br>&nbsp;</li><li>$\\delta\\left(q_1, 1\\right)=\\left\\{q_2\\right\\}$<br>&nbsp;</li><li>$\\delta\\left(q_2, 0\\right)=\\left\\{q_1\\right\\}$<br>&nbsp;</li><li>$\\delta\\left(q_2, 1\\right)=\\left\\{q_2\\right\\}$</li></ul><p>Which one of the following regular expressions represents the language $L(M)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(0+1)^* 01(1+01)^*$<br>&nbsp;</li><li>$(0+1)^* 011^*$<br>&nbsp;</li><li>$(0+1)^* 0(1+10)^*$<br>&nbsp;</li><li>$0^* 1(1+01)^*$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 125"
+        }
+      ]
+    }
+  ]
+}

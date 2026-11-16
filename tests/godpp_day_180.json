@@ -1,0 +1,70 @@
+{
+  "name": "Day 176 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "512805",
+          "text": "<p>A computer system supports a logical address space of $2^{44}$ <strong>bytes</strong>. It uses <strong>inverted </strong>paging with a page size of $\\mathbf{8 1 9 2}$ <strong>bytes</strong>. A logical address is divided into a $\\mathbf{3 1}$<strong>-bit </strong>logical page number, a $\\mathbf{25}<strong>-bit</strong> process id, and $\\mathbf{8}$ control bits. The system has $\\mathbf{16 ~GB}$ of physical memory. Each entry of the inverted page table uses <strong>eight bytes</strong>. All the pages in the system have the same size.</p><p>The size of the inverted page table in $\\mathrm{MB}$ is $\\_\\_\\_\\_$ . (Answer in integer)</p>",
+          "type": "Numerical",
+          "answer": "16",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 176"
+        },
+        {
+          "post_id": "512803",
+          "text": "<p>A computer system supports a logical address space of $2^{45}$ <strong>bytes</strong>. It uses a three-level hierarchical paging scheme with a page size of $\\mathbf{16 ~KB}$ $(2^{14}$ <strong>bytes</strong>$)$. A logical address is divided into a $b$<strong>-bit</strong> index to the top-level page table, a middle-level index, an inner-level index, and a page offset.</p><p>Each entry in all levels of the page tables uses $\\mathbf{8}$ <strong>bytes</strong>. In this system,<strong> every page table at every level fits exactly within one single page.</strong></p><p><strong>The value of $b$ is:</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$7$<br>&nbsp;</li><li>$9$<br>&nbsp;</li><li>$11$<br>&nbsp;</li><li>$13$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 176"
+        },
+        {
+          "post_id": "512801",
+          "text": "<p>Consider a system where each process has a maximum need of $\\mathbf{4}$<strong> instances</strong> of a specific resource type. The system has a total of $\\mathbf{13}$ <strong>instances</strong> of this resource available.</p><p><strong>What is the largest number of processes $(N)$ that the system can support to always avoid deadlock?</strong></p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 176"
+        },
+        {
+          "post_id": "512798",
+          "text": "<p>Consider a system with $\\mathbf{4}$ <strong>processes</strong> $(P_1, P_2, P_3, P_4)$ and $\\mathbf{10}$ <strong>instances</strong> of a resource. $P_1$ has a maximum need of $\\mathbf{3}$ instances, and $P_2$ has a maximum need of $\\mathbf{4}$ instances. $P_3$ and $P_4$ both have the same maximum need of $\\mathbf{K}$ instances.</p><p><strong>The largest integer value of $\\mathbf{K}$ that will always avoid deadlock is:</strong></p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 176"
+        },
+        {
+          "post_id": "512795",
+          "text": "<p>Consider a system with $\\mathbf{5}$ <strong>processes</strong> that share $\\mathbf{12}$ <strong>instances</strong> of the same resource type. Each process can request a maximum of $\\mathbf{K}$ instances. Resources can be requested and released only one at a time.</p><p><strong>The largest value of $\\mathbf{K}$ that will always avoid deadlock is:</strong></p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 176"
+        }
+      ]
+    }
+  ]
+}

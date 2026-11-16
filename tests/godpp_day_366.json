@@ -1,0 +1,70 @@
+{
+  "name": "Day 269 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "531553",
+          "text": "<p>Let $f(x,y)=x^2e^{xy}+y^3$. At the point $P=(1,2)$, find the maximum possible directional derivative of $f$ among all unit vectors $\\mathbf{u}=\\langle a,b\\rangle$ satisfying $a+b=0$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$<br>&nbsp;</li><li>$\\frac{3e^2-12}{\\sqrt{2}}$<br>&nbsp;</li><li>$\\frac{12-3e^2}{\\sqrt{2}}$<br>&nbsp;</li><li>$4e^2+e^2+12$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 269"
+        },
+        {
+          "post_id": "531551",
+          "text": "Let $f(x)=\\sqrt[3]{1+ax+bx^2}$, where $a$ and $b$ are real constants. The linear approximation of $f(x)$ at $x=0$ is $L(x)=1+4x$. If the quadratic approximation of $f(x)$ at $x=0$ has no $x^2$ term, then the value of $b$ is:",
+          "type": "Numerical",
+          "answer": "48",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 269"
+        },
+        {
+          "post_id": "531555",
+          "text": "<p data-start=\"0\" data-end=\"169\">The direction of steepest ascent of $f(x,y,z)=x^2y+yz^2+e^{xz}$ at the point $(1,1,0)$, among all unit directions lying in the plane $u_1+u_2+u_3=0$, is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"171\" data-end=\"242\">$\\left\\langle \\frac{1}{\\sqrt{2}},-\\frac{1}{\\sqrt{2}},0\\right\\rangle$<br>&nbsp;</li><li data-start=\"244\" data-end=\"333\">$\\left\\langle \\frac{2}{\\sqrt{6}},-\\frac{1}{\\sqrt{6}},-\\frac{1}{\\sqrt{6}}\\right\\rangle$<br>&nbsp;</li><li data-start=\"335\" data-end=\"423\">$\\left\\langle \\frac{1}{\\sqrt{6}},\\frac{1}{\\sqrt{6}},-\\frac{2}{\\sqrt{6}}\\right\\rangle$<br>&nbsp;</li><li data-start=\"425\" data-end=\"513\">$\\left\\langle -\\frac{2}{\\sqrt{6}},\\frac{1}{\\sqrt{6}},\\frac{1}{\\sqrt{6}}\\right\\rangle$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 269"
+        },
+        {
+          "post_id": "531549",
+          "text": "<p data-start=\"0\" data-end=\"248\">Let the piecewise function $f(x)$ be defined by $$f(x)=\\begin{cases}\\dfrac{\\sqrt{1+ax}-\\sqrt{1-bx}}{x},&x&gt;0\\\\\\\\ c,&x=0\\\\\\\\ \\dfrac{\\ln(1+3x)}{\\sin x},&x&lt;0\\end{cases}$$ For which of the following values of $a,b,c$ is $f$ continuous at $x=0$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"250\" data-end=\"351\">$a+b=6$ and $c=3$<br>&nbsp;</li><li data-start=\"250\" data-end=\"351\">$a+b=3$ and $c=3$<br>&nbsp;</li><li data-start=\"250\" data-end=\"351\">$a-b=6$ and $c=3$<br>&nbsp;</li><li data-start=\"250\" data-end=\"351\">$a+b=6$ and $c=\\frac{3}{2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 269"
+        },
+        {
+          "post_id": "531547",
+          "text": "<p>If $f(x,y,z)=\\ln(x^2+y^2+z^2)+e^{xy-z}+x\\sin(yz)$, what is the <strong>length of the gradient</strong> of $f$ at the point $(1,0,1)$?&nbsp;</p><p>Enter the answer correct to two decimal places.</p>",
+          "type": "Numerical",
+          "answer": "1.94",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 269"
+        }
+      ]
+    }
+  ]
+}

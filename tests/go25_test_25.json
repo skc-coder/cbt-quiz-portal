@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes Cs Test Series 2025 | Digital Logic | Test 2",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "375966",
+          "text": "<p><strong><img alt=\"\" height=\"181\" src=\"https://lh6.googleusercontent.com/8YU_DM5kk9He-ZOuAOuCu7TGSOMicnu5SjnSTEg14skeSofJBEH6tM0g4nWJvipxvflFse1NQ7mrjga-ZdjtxVa48iWSjA6YGD16OL_EP1j66_VcD6aDiciPOvt9GSH0fnvthSP2hyF7WmUHpg\" width=\"600\"></strong><br>\nAbove circuit represents</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$2 \\times 1$ MUX with $\\text{A, B}$ as input lines and $\\text{C}$ as a select line</li>\n\t<li>$4 \\times 1$ MUX with $\\text{A, B}$ as input lines and $\\text{C}$ as a select line</li>\n\t<li>$2 \\times 1$ MUX with $\\text{A, C}$ as input lines and $\\text{B}$ as a select line</li>\n\t<li>$4 \\times 1 \\mathrm{MUX}$ with $\\mathrm{A}, \\mathrm{C}$ as input lines and $\\mathrm{B}$ as a select line</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,multiplexer,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375958",
+          "text": "<p>Consider the following combinational circuit:<br>\n<strong><img alt=\"\" height=\"155\" src=\"https://lh6.googleusercontent.com/Pc69sX8FfGYUkj24Ka_gCcfu2bpfleQm97d8Pb27S5IMxziTug2hwgQKkpWLNe5J_oo0EWlR8L-8aqBRBHBbkifGVBadlnP21jn2vjLVq895bExHTiU-DWR_mwZshM4o6oGab_yPXNvEuWj-Hw\" width=\"472\"></strong><br>\nBy adding which term to this circuit, it will be free from \"Static-$1$ Hazard\"?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$X Z$</li>\n\t<li>$X Z'$</li>\n\t<li>$X Y^{\\prime} Z+X Y Z$</li>\n\t<li>$X Y Z$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,hazards,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375986",
+          "text": "<p><strong><img alt=\"\" height=\"275\" src=\"https://lh4.googleusercontent.com/XMuUeI2Kzns8tayOh7CMD87qfe9t7j0_Woy7ZvtxfQCfcv0F-WQJjv7fka8YqPpgpSDARDcnYt8CCkuu9H1avtBdpFwNtDFhjCQmPehrl4YAMVuMN6njn6rALYxCHIXmMoX_UTyfp5a1xWHSZA\" width=\"624\"></strong><br>\nThe circuit above is to be used to implement the function $\\mathrm{z}=\\mathrm{f}(\\mathrm{A}, \\mathrm{B})=\\overline{\\text{A}}+\\mathrm{B}$. Inputs $\\text{I}$ and $\\mathrm{J}$ can be selected from the set $\\{0,1, \\mathrm{~B}, \\overline{\\text{B}}\\}$.</p>\n\n<p>What values should be chosen for $\\text{I}$ and $\\text{J} ?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{I}=0, \\text{J}=\\text{B}$</li>\n\t<li>$\\text{I}=1, \\text{J}=\\text{B}$</li>\n\t<li>$\\text{I}=\\text{B}, \\text{J}=1$</li>\n\t<li>$\\text{I}=\\overline{\\text{B}}, \\text{J}=0$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,digital-circuits,one-mark",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375960",
+          "text": "<p>Consider the following combinational circuit using a decoder and OR gates, implementing three Boolean functions $\\text{F}_1, \\text{F}_2, \\text{F}_3:$<br>\n<strong><img alt=\"\" height=\"284\" src=\"https://lh3.googleusercontent.com/2pltfhGfva6U_Qmaj9GZ7W3IU9CMilTWwQnPmqZbPzI38rNHY1rA3TBovLFkHzxOyZ_H7fbRqUps-3bWxXTRW-UI3r0LeGLlF35MsBjOxumSVTZIGt8P_S6O6a4Oh_920q87tFcHH-NLNf-KaQ\" width=\"624\"></strong><br>\nWhich of the following is/are correct boolean expressions for these boolean functions?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\mathrm{F}_{1}=\\mathrm{x}^{\\prime} \\mathrm{y}^{\\prime} \\mathrm{z}+\\mathrm{xz'}$</li>\n\t<li>$\\mathrm{F}_{2}=\\mathrm{x}^{\\prime} \\mathrm{yz'}$ $+\\mathrm{xy}$ '</li>\n\t<li>$\\mathrm{F}_{3}=\\mathrm{xyz'}+\\mathrm{xz}$</li>\n\t<li>$\\mathrm{F}_{3} =&nbsp;\\mathrm x' y z +&nbsp;\\mathrm x y$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,decoder,multiple-selects,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375946",
+          "text": "<p><strong><img alt=\"\" height=\"237\" src=\"https://lh4.googleusercontent.com/kxNNNuM4EUVUj7iVHCiTSSCJ6RAmE7-xwCUL_7QwR7LMOR4xQLicUuKpXxwvuooN8fa3BwLhLxmn51HnLGrUJhYQpchRbWvt7Yj-jzzZaHxgmlETiRYt-5MfS0at4G1zU5ebZrRdSLO_xcxlMw\" width=\"262\"></strong><br>\nThe figure above shows part of a CPU with parallel data paths $A, B, F, G$ and $H$. The information on these paths is interpreted as integers in two's complement number notation. The four control signals $x, y, z$, and (the low-order carry-in) $c_{0}$, come from a control unit and cause the boxes in the figure to implement the following functions:<br>\n$$<br>\nF=\\overline{x} A \\vee x B ; G=y B \\oplus z ; H=F+G+c_{0}<br>\n$$<br>\nWhere $V$ is bitwise $OR, \\oplus$ is bitwise exclusive $O R$, the bitwise AND is denoted by juxtaposition, and $+$ is arithmetic plus.<br>\nWhich of the following values of $H$ CANNOT be realized by some combination of the control signals and $c_{0}$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$A$</li>\n\t<li>$A+B+1$</li>\n\t<li>$A-B$</li>\n\t<li>$A-B+1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,digital-circuits,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375976",
+          "text": "<p>As shown in the three diagrams below, device FA makes use of Two copies of device HA, and device D makes use of four copies of device FA. Assume that all basic logic gates(AND, OR, NOT, XOR gate) have the same delay T.<br>\n<strong><img alt=\"\" height=\"603\" src=\"https://lh3.googleusercontent.com/h8vT6Q84-CVGIyiIJkWd6TmYYFR8KfGHQEApLsPoyqeuvXAMK4a6ggga1O7a4CmhhpC_pTmL83wXxbzKYbURYsQhDAGAmTMxx2dDzoGSPS5QFO10AkVY-nduNsHAAVuQs2-W5cW3XV4crpubPQ\" width=\"624\"></strong><br>\nIf all inputs to device D become available simultaneously, which output will be available last?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{S}_{1}$</li>\n\t<li>$\\text{S}_{2}$</li>\n\t<li>$\\text{S}_{3}$</li>\n\t<li>They will all be available simultaneously.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,digital-circuits,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375952",
+          "text": "<p>A multiplexer, shown below on the right, has $6$ inputs, $S_0, S_1, A, B, C$, and $D.$ The truth table on the left describes its function.<br>\n<strong><img alt=\"\" height=\"251\" src=\"https://lh6.googleusercontent.com/8hsNm2oBoHOPHKovgOP4TOJdnfGhppCuCTzPW2U923Oisu0SZXSdLVWoppi7UhU3_vVjDlz4UJLKxzb5_h0_qePyNHmi2JzX69PXpaaKK_JbB38Wr4FMtHMgmEk6vtBJww6N9-hYFdOejrH1eg\" width=\"624\"></strong><br>\nIt is desired to implement the function $F=(X \\oplus Y) \\oplus Z$ using the multiplexer. If $X$ is applied to $S_{0}$, and $Y$ is applied to $S_{1}$, what inputs should be applied to $A, B, C$ and $D$ to realize the function $F$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$A=B=C=D=Z$</li>\n\t<li>$A=X \\oplus Y, B=X \\oplus Z, C=Y \\oplus Z, D=Z$</li>\n\t<li>$\\mathrm{A}=\\mathrm{D}=\\mathrm{Z} ; \\mathrm{B}=\\mathrm{C}=\\overline{Z}$</li>\n\t<li>the function $F$ can not be realized with any of the inputs shown above.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,multiplexer,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375956",
+          "text": "<p>We design a comparator circuit that takes two $4$-bit words $a_{3} a_{2} a_{1} a_{0}$ and $b_{3} b_{2} b_{1} b_{0}$ as inputs, and generates one output $f$ which is $1$&nbsp;iff the two words are identical, i.e. $a_{i}=b_{i, \\text { for all four bits }}$ $(i=0,1,2,3)$. Then which of the following is NOT a correct expression for $f?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\overline{\\left(a_{3} \\oplus b_{3}\\right)+\\left(a_{2} \\oplus b_{2}\\right)+\\left(a_{1} \\oplus b_{1}\\right)+\\left(a_{0} \\oplus b_{0}\\right)}$</li>\n\t<li>$\\left(a_{3} \\odot b_{3}\\right)\\left(a_{2} \\odot b_{2}\\right)\\left(a_{1} \\odot b_{1}\\right)\\left(a_{0} \\odot b_{0}\\right)$</li>\n\t<li>$\\left(a_{3} \\odot b_{3}\\right)+\\left(a_{2} \\odot b_{2}\\right)+\\left(a_{1} \\odot b_{1}\\right)+\\left(a_{0} \\odot b_{0}\\right)$</li>\n\t<li>$\\left(\\overline{a_{3}} \\oplus b_{3}\\right)\\left(\\overline{a_{2}} \\oplus b_{2}\\right)\\left(\\overline{a_{1}} \\oplus b_{1}\\right)\\left(\\overline{a_{0}} \\oplus b_{0}\\right)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375990",
+          "text": "An $8 \\times 1$ multiplexer has inputs $\\text{A, B}$ and $\\text{C}$ connected to the selection inputs $\\text{S}_{2}(\\text{MSB}), \\text{S}_{1}$, and $\\text{S}_{0}(\\text{LSB})$ respectively. The data inputs through $I_{0}$ through $\\mathrm{I}_{7}$ are as follows:\n$$\\mathrm{I}_{1}=\\mathrm{I}_{2}=\\mathrm{I}_{4}=0 ; \\mathrm{I}_{3}=\\mathrm{I}_{5}=1 ; \\mathrm{I}_{0}=\\mathrm{I}_{7}=\\mathrm{D} ; \\;\\text{and}\\; \\mathrm{I}_{6}=\\overline{\\text{D}}$$\nConsider the Boolean function $\\text{F(A, B, C, D)}$ that this multiplexer implements.\n\nHow many minterms of $F$ are there for which $\\text{F}$ is $1?$",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,numerical-answers,goclasses,digital-logic,combinational-circuit,digital-circuits,multiplexer,one-mark",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375988",
+          "text": "<p><strong><img alt=\"\" height=\"304\" src=\"https://lh6.googleusercontent.com/Mv1VR3xkFTQt3nqiU2BjYMShk67kD0Nk11Ipf64EFKjJLm8OU9V-AhNYXJ_fMNRVnC35DqPVQY1GSWDgQQM_NxUEAgXj0dey9Gq0X1DpgjyXVBBM2UJsjPfwFJObZYuzrp-l-Qy3wXNj47H9Vw\" width=\"624\"></strong><br>\nThe figure above implements the Boolean function:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\mathrm{F}(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})=\\Sigma(2,3,5,6)$</li>\n\t<li>$\\mathrm{F}(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})=\\Sigma(3,4,6,7)$</li>\n\t<li>$\\mathrm{F}(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})=\\Sigma(1,3,6,7)$</li>\n\t<li>$\\mathrm{F}(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})=\\Sigma(0,2,4,6)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,digital-circuits,one-mark",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375974",
+          "text": "<p>As shown in the three diagrams below, device FA makes use of Two copies of device HA, and device D makes use of four copies of device FA. Assume that all basic logic gates(AND, OR, NOT, XOR gate) have the same delay T.<br>\n<br>\n<strong><img alt=\"\" height=\"603\" src=\"https://lh3.googleusercontent.com/h8vT6Q84-CVGIyiIJkWd6TmYYFR8KfGHQEApLsPoyqeuvXAMK4a6ggga1O7a4CmhhpC_pTmL83wXxbzKYbURYsQhDAGAmTMxx2dDzoGSPS5QFO10AkVY-nduNsHAAVuQs2-W5cW3XV4crpubPQ\" width=\"624\"></strong><br>\nIf all inputs to device D become available simultaneously, the delay before $S_2$ must be valid is $kT,$ then what is $k?$</p>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,numerical-answers,goclasses,digital-logic,combinational-circuit,digital-circuits,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375948",
+          "text": "<p><strong><img alt=\"\" height=\"270\" src=\"https://lh5.googleusercontent.com/0AXQYOe9DSU6bSXb9X8YPq013eblEfGwdpoQ2-uTX1BbJfnnlGqaCgjSIbVX8tHXjO4UeQFzBnHKSe97Em2k_gz8WXZ885Vxo5UWUo9pXCtE2I6V33fIATfqjBQiSL5OmEE6n44c1NdJZR6JAw\" width=\"464\"></strong><br>\nThe $64 K$ address space of a certain microcomputer is accessed by address signals $A_{0}$. $A_{1}, \\ldots, A_{14}, A_{15}$ (Where $A_{0}$ is the least significant bit and $A_{15}$ is the most significant bit) and is divided equally among read-only memory(ROM), read-write memory(RAM), and input-output registers (I/O) by means of the decoder and gates as shown above.<br>\nNote that only the three high order outputs of the decoder are used. Output $i(0 \\leq i \\leq 7)$ of the decoder is $1$ if and only if the binary value of the inputs $A_{15} A_{14} A_{13}$ is $i$.<br>\nWhich of the following correctly indicates the beginning and ending hexadecimal addresses of the three portions of the address space?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{ROM (0000 - 3FFF), RAM ( 4000 - DFFF ), I/O ( E000 - FFFF )}$</li>\n\t<li>$\\text{ROM (0000 - 9FFF), RAM ( A000 - DFFF ), I/O ( E000 - FFFF )}$</li>\n\t<li>$\\text{ROM (A000 - DFFF), RAM ( 0000 - 9FFF ), I/O ( E000 - FFFF )}$</li>\n\t<li>$\\text{ROM (4000 - 4FFF), RAM ( 6000 - FFFF ), I/O ( 0000 - 3FFF )}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,rom,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375992",
+          "text": "<p>Consider the following combinational circuit using a decoder and OR gates, implementing three Boolean functions $\\text{F}_{1}, \\text{F}_{2}, \\text{F}_{3}:$<br>\n<strong><img alt=\"\" height=\"288\" src=\"https://lh5.googleusercontent.com/nUMVBtk7HhgM9nSHpgN5Fc-bNE9wb8bClzy63G-IVqhAfQqLJ5l4x3Oa5SqnT8mazPr71EtzljajBGcBbSMR2dhF8FvVyve9O26o936Yx_hz3rhDfSoqnsJZREidO9CF_dOAzeLWQworVFoC4A\" width=\"624\"></strong><br>\nFor how many input combinations $(x,y,z),$ at least two of these boolean functions are high?</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,numerical-answers,goclasses,digital-logic,combinational-circuit,digital-circuits,decoder,one-mark",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375984",
+          "text": "<p>Which of the following is the correct function for Full adder where inputs ' $a$ ' and '$b$' are the numbers added, and input '$c$' is the carry-in. Also, '$s$' and '$co$' are sum and carry out, respectively.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$c o=b c+a c+a b ; s=a$ xor $b$ xor $c$</li>\n\t<li>$c o=b ' c+a ' c+a b ; s=a$ xor b xor $c$</li>\n\t<li>$c o=b c+a c+a ' b ' ; s=a$ xor b xor $c$</li>\n\t<li>$c o=b c+a c+a b ; s=(a b)$ xor $c$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,adder,one-mark",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375972",
+          "text": "<p><strong><img alt=\"\" height=\"297\" src=\"https://lh6.googleusercontent.com/jas-ulbBbUq6QtxnB6vbkYpVE8TM3TjrXP5IW8ZOWZb2LEQl-dDJtGUdzUybH2qriV6X3tOLzZTg0wm5UU29nCLlDcGmpE5uexCKBUvBZAioHtUkNxUn5ZrrDom90jnaUd9laBXmaVm3Gk03_g\" width=\"373\"></strong><br>\nThe logic circuit above is used to compare two unsigned $2$-bit numbers,</p>\n\n<p>$\\mathrm{X}_{1} \\mathrm{X}_{0}=\\mathrm{X}$ and $\\text{Y}_{1} \\text{Y}_{0}=\\text{Y}$, where $\\text{X}_{0}$ and $\\text{Y}_{0}$ are the least significant bits. (A small circle on any line in a logic diagram indicates logical NOT.)</p>\n\n<p>Which of the following always makes the output $\\text{Z}$ have the value $1?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{X}&gt;\\text{Y}$</li>\n\t<li>$\\text{X}&lt;\\text{Y}$</li>\n\t<li>$\\text{X} \\neq \\text{Y}$</li>\n\t<li>$\\text{X} \\geq \\text{Y}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_dl_tw_2,goclasses-testseries-2026,goclasses,digital-logic,combinational-circuit,digital-circuits,number-representation,two-marks",
+          "category": "Digital Logic"
+        }
+      ]
+    }
+  ]
+}

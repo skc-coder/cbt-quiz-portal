@@ -1,0 +1,70 @@
+{
+  "name": "Day 223 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525431",
+          "text": "<p>Which of the following conditional statements is FALSE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If $1+1=3$, then unicorns exist.</li><li>If $1+1=3$, then dogs can fly.</li><li>If $1+1=2$, then dogs can fly.</li><li>If $2+2=4$, then $1+2=3$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 223"
+        },
+        {
+          "post_id": "525429",
+          "text": "<p>Determine which of the following conditional statements are TRUE. Select all that apply.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If $1+1=2$, then $2+2=5$.</li><li>If $1+1=3$, then $2+2=4$.</li><li>If $1+1=3$, then $2+2=5$.</li><li>If monkeys can fly, then $1+1=3$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 223"
+        },
+        {
+          "post_id": "525433",
+          "text": "<p>For each of the following sentences, determine which involve an EXCLUSIVE OR (meaning one or the other but not both). Select all that apply.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Experience with C++ or Java is required.</li><li>Lunch includes soup or salad.</li><li>To enter the country you need a passport or a voter registration card.</li><li>Publish or perish.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 223"
+        },
+        {
+          "post_id": "525436",
+          "text": "<p>Let $\\mathrm{p}=$ \"It is cold\" and $\\mathrm{q}=$ \"It is raining.\" Which of the following is the correct verbal translation of $ q\\vee \\neg p$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It is not raining or it is cold.</li><li>It is raining and it is not cold.</li><li>It is raining or it is not cold.</li><li>It is not cold and it is not raining.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 223"
+        },
+        {
+          "post_id": "525435",
+          "text": "<p>In classical propositional logic, which of the following correctly distinguishes inclusive OR (v) from exclusive OR ( $\\oplus$ )?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$p \\vee q$ is TRUE when at least one of $p$, $q$ is TRUE; $p \\oplus q$ is TRUE only when exactly one of $p$, q is TRUE.</li><li>$p&nbsp;\\vee q$ is TRUE only when both $p$ and $q$ are TRUE; $\\mathrm{p} \\oplus \\mathrm{q}$ is TRUE when at least one is TRUE.</li><li>$\\mathrm{p} \\vee \\mathrm{q}$ and $\\mathrm{p} \\oplus \\mathrm{q}$ are logically equivalent - they differ only in natural language usage.</li><li>$p \\vee&nbsp;&nbsp;q$ is FALSE when both p and q are TRUE; $\\mathrm{p} \\oplus \\mathrm{q}$ is TRUE when both are TRUE.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 223"
+        }
+      ]
+    }
+  ]
+}

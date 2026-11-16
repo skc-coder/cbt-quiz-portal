@@ -1,0 +1,70 @@
+{
+  "name": "Day 345 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543590",
+          "text": "<p data-start=\"3328\" data-end=\"3507\">An operating system can use page tables and exceptions to perform allocation on demand, where it does not allocate physical memory for a program until the program tries to use it.</p><p data-start=\"3509\" data-end=\"3596\">What happens when a program attempts to access memory that still needs to be allocated?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3598\" data-end=\"3690\">The hardware detects the condition, updates the page table, and allocates memory itself.<br>&nbsp;</li><li data-start=\"3692\" data-end=\"3866\">The operating system's page fault handler allocates the memory, updates the page table, and restarts the program beginning with the instruction that attempted the access.<br>&nbsp;</li><li data-start=\"3868\" data-end=\"3999\">The operating system allocates the memory and restarts execution from the beginning of the function containing the instruction.<br>&nbsp;</li><li data-start=\"4001\" data-end=\"4121\">The operating system allocates the memory and resumes execution from the instruction after the faulting instruction.<br>&nbsp;</li><li data-start=\"4123\" data-end=\"4210\">The compiler inserts a system call before every potentially faulting memory access.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 345"
+        },
+        {
+          "post_id": "543594",
+          "text": "<p data-start=\"6509\" data-end=\"6570\">A process generates the following first $25$ page references:</p><p data-start=\"6572\" data-end=\"6671\">$A,\\ B,\\ C,\\ D,\\ E,\\ B,\\ D,\\ B,\\ C,\\ D,\\ B,\\ C,\\ D,\\ B,\\ C,\\ B,\\ D,\\ E,\\ B,\\ D,\\ E,\\ B,\\ C,\\ B,\\ A$</p><p data-start=\"6673\" data-end=\"6746\">There are $5$ unique pages, but the process has only $4$ physical frames.</p><p data-start=\"6748\" data-end=\"6790\">Initially, none of the pages are resident.</p><p data-start=\"6792\" data-end=\"6855\">How many <strong data-start=\"6801\" data-end=\"6814\">page hits</strong> occur when LRU page replacement is used?</p>",
+          "type": "Numerical",
+          "answer": "19",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 345"
+        },
+        {
+          "post_id": "543587",
+          "text": "<p data-start=\"2101\" data-end=\"2207\">The size of an inverted page table grows with the size of the virtual address space that it is supporting.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2209\" data-end=\"2217\">True<br>&nbsp;</li><li data-start=\"2219\" data-end=\"2228\">False</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 345"
+        },
+        {
+          "post_id": "543592",
+          "text": "<p data-start=\"5300\" data-end=\"5343\">Assume the following page-reference stream:</p><p data-start=\"5345\" data-end=\"5392\">$A,\\ B,\\ C,\\ D,\\ A,\\ B,\\ E,\\ A,\\ B,\\ C,\\ D,\\ E$</p><p data-start=\"5394\" data-end=\"5495\">Assuming a page cache of size $3$ pages and a FIFO replacement policy, how many misses will there be?</p>",
+          "type": "Numerical",
+          "answer": "9",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 345"
+        },
+        {
+          "post_id": "543585",
+          "text": "<p data-start=\"864\" data-end=\"953\">Assume a task is divided into $8$ equal-sized segments, and page tables have $4$ entries.</p><p data-start=\"955\" data-end=\"1017\">Thus, the system has a combination of segmentation and paging.</p><p data-start=\"1019\" data-end=\"1060\">Assume also that the page size is $2$ KB.</p><p data-start=\"1062\" data-end=\"1124\">What is the maximum logical address space for the task, in KB?</p>",
+          "type": "Numerical",
+          "answer": "64",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 345"
+        }
+      ]
+    }
+  ]
+}

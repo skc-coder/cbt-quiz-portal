@@ -1,0 +1,70 @@
+{
+  "name": "Day 243 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528382",
+          "text": "<p>Let $\\mathrm{A}=\\{1,2,3,4,5\\}$. Let R be a relation on A defined by $x \\mathrm{R} y$ if and only if $4 x \\leq 5 \\mathrm{y}$. Let m be the number of elements in R and n be the minimum number of elements from $\\mathrm{A} \\times \\mathrm{A}$ that are required to be added to R to make it a symmetric relation. Then $m+n$ is equal to :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>23</li><li>26</li><li>25</li><li>24</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "528371",
+          "text": "Let $R=\\{(1,2),(2,3),(3,3)\\}$ be a relation defined on the set $\\{1,2,3,4\\}$. Then the minimum number of elements, needed to be added in $R$ so that $R$ becomes an equivalence relation, is:",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "528377",
+          "text": "<p>The number of non-empty equivalence relations on the set $\\{1,2,3\\}$ is :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>7</li><li>4</li><li>5</li><li>6</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "528380",
+          "text": "<p>Let $A=\\{2,3,6,8,9,11\\}$ and $B=\\{1,4,5,10,15\\}$. Let $R$ be a relation on $A \\times B$ defined by $(a, b) R(c, d)$ if and only if $3 a d-7 b c$ is an even integer. Then the relation $R$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>reflexive but not symmetric.</li><li>an equivalence relation.</li><li>reflexive and symmetric but not transitive.</li><li>transitive but not symmetric.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 243"
+        },
+        {
+          "post_id": "528374",
+          "text": "<p>Let $A=\\{1,2,3, \\ldots, 10\\}$ and $B=\\left\\{\\frac{m}{n}: m, n \\in A, m&lt;n\\right.$ and $\\left.\\operatorname{gcd}(m, n)=1\\right\\}$. Then $n(B)$ is equal to :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>29</li><li>31</li><li>37</li><li>36</li></ol>",
+          "type": "Numerical",
+          "answer": "31",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 243"
+        }
+      ]
+    }
+  ]
+}

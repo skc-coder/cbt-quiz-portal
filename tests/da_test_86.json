@@ -1,0 +1,352 @@
+{
+  "name": "GO Classes DA Test Series 2026 | Linear Algebra | Subject Wise Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 15,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 45,
+  "total_marks": 45,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 45,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "471328",
+          "text": "<p>Let $A$ be an $m \\times n$ real matrix.<br>Consider the following statements regarding its fundamental subspaces and mark all the statement(s) that is/are TRUE:</p><ol style=\"list-style-type:upper-alpha\"><li>If $W$ is the column space of $A$, then $W^{\\perp}$ is the null space of $A^T$.</li><li>The null space of $A$ is a subspace of $\\mathbb{R}^n$.</li><li>The null space of $A$ is a subspace of $\\mathbb{R}^m$.</li><li>The column space of $A$ is a subspace of $\\mathbb{R}^m$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a,b,d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,fundamental-spaces,one-mark,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471327",
+          "text": "Let<br />$$<br />A=\\left[\\begin{array}{cc}<br />2 & 2 \\\\<br />-1 & 1<br />\\end{array}\\right]<br />$$<br /><br />Which of the following are the singular values of matrix $A$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\sqrt{5}, \\sqrt{5}$</li><li> $3$,$1$</li> <li>$2 \\sqrt{2}, \\sqrt{2}$</li>  <li>$4$,$2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,svd,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471325",
+          "text": "Let $B$ be a square matrix such that $C=\\operatorname{adj}(B)$, where $\\operatorname{adj}(B)$ denotes the adjugate of $B$. Suppose $|B| \\neq 0$.<br />What is the value of the determinant of the matrix $C^{-1} B^2$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $|B|$</li><li> $|B|^2$</li> <li>$\\frac{1}{|B|}$</li>  <li>$\\frac{1}{|B|^2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,matrix,determinant,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471324",
+          "text": "A $10 \\times 13$ matrix $A$ is given and the homogeneous system $A \\vec{x}=\\overrightarrow{0}$ is transformed to reduced row echelon form. There are 7 lead variables.<br />How many free variables?",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_sw_1,numerical-answers,goclasses,goclasses-testseries-2026,linear-algebra,system-of-equations,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471323",
+          "text": "A system $A \\mathbf{x}=\\mathbf{b}$ with $m \\times 2024$ matrix $A$ and $\\mathbf{b}=(1,0, \\ldots, 0)^T$ has a unique solution. Which of the these statements does not follow from these conditions?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\operatorname{rank}(A)=2024$</li><li> $m \\geq 2024$</li> <li>Columns of $A$ are linearly independent</li>  <li>$A$ is invertible</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,matrix,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471320",
+          "text": "What is the projection of the vector $(1,2)^T$ on the line $x=y$ in $\\mathbf{R}^2$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $(3 / 2,3 / 2)^T$</li><li> $(2,2)^T$</li> <li>$(2,1)^T$</li>  <li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471319",
+          "text": "Let $A$ be a $4 \\times 4$ matrix in which the first two rows are not proportional (none of them is a multiple of another), the third row is the sum of the first two, and the fourth row is the difference of the first two. What are the dimensions of the four subspaces $R(A), C(A), N(A)$ and $N\\left(A^T\\right)$ (in this order)?<br /><ol style=\"list-style-type:upper-alpha\"><li> $3,3,0,4$</li><li> $2,2,2,2$</li> <li>$3,3,0,0$</li>  <li>$1,1,3,2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,fundamental-spaces,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471315",
+          "text": "Let $A$ be a $4 \\times 4$ matrix. If $\\mathbf{p}=\\left[\\begin{array}{l}p_1 \\\\ p_2 \\\\ p_3 \\\\ p_4\\end{array}\\right]$ and $\\mathbf{q}=\\left[\\begin{array}{l}q_1 \\\\ q_2 \\\\ q_3 \\\\ q_4\\end{array}\\right]$ are solutions of the system of linear equations $A\\left[\\begin{array}{l}x_1 \\\\ x_2 \\\\ x_3 \\\\ x_4\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 2 \\\\ 1 \\\\ 3\\end{array}\\right]$, then which of the following is also a solution?<br /><ol style=\"list-style-type:upper-alpha\"><li> $p-q$</li><li> $\\mathbf{q}-2 \\mathbf{p}$</li> <li>$2 \\mathbf{p}-\\mathbf{q}$</li>  <li>All of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,system-of-equations,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471311",
+          "text": "<p>Assume that the $4 \\times 4$ matrix $A$ is row equivalent to the matrix $B$, where<br>$$<br>B=\\left[\\begin{array}{llll}<br>1 &amp; 0 &amp; 2 &amp; 0 \\\\<br>0 &amp; 1 &amp; 1 &amp; 0 \\\\<br>0 &amp; 0 &amp; 0 &amp; 1 \\\\<br>0 &amp; 0 &amp; 0 &amp; 0<br>\\end{array}\\right]<br>$$<br><br>Which of the following statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>$B$ is not the reduced row echelon form of $A$.</li><li>$\\operatorname{det}(A) \\neq 0$.</li><li>The null space of $A$ has dimension 3 .</li><li>If $A \\vec{x}=\\vec{b}$ is consistent for some $\\vec{b} \\neq \\overrightarrow{0}$, then it has infinitely many solutions.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,matrix,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471309",
+          "text": "Which of the following statements about all $5 \\times 5$ matrices is true?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\operatorname{det}(A+B)=\\operatorname{det} A+\\operatorname{det} B$</li><li> $\\operatorname{det}(-A)=-\\operatorname{det}(A)$.</li> <li>$A B=0$ implies $A=0$ or $B=0$.</li>  <li>If $\\operatorname{det} A=0$ then some two rows are proportional.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,matrix,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471307",
+          "text": "<p>Let $A=\\left(\\begin{array}{rrr}2 &amp; -1 &amp; -2 \\\\ -4 &amp; 2 &amp; 4 \\\\ -8 &amp; 4 &amp; 8\\end{array}\\right)$. Then the following is a basis of the nullspace of $A$.</p><ol style=\"list-style-type:upper-alpha\"><li>$\\left\\{\\left[\\begin{array}{lll}2 &amp; -4 &amp; -8\\end{array}\\right]^T,\\left[\\begin{array}{lll}-1 &amp; 2 &amp; 4\\end{array}\\right]^T,\\left[\\begin{array}{lll}-2 &amp; 4 &amp; 8\\end{array}\\right]^T\\right\\}$<br> </li><li>$\\left\\{\\left[\\begin{array}{lll}1 &amp; 0 &amp; 1\\end{array}\\right]^T,\\left[\\begin{array}{lll}1 &amp; 2 &amp; 0\\end{array}\\right]^T\\right\\}$<br> </li><li>$\\left\\{\\left[\\begin{array}{lll}1 &amp; 0 &amp; 1\\end{array}\\right]^T,\\left[\\begin{array}{lll}1 &amp; 2 &amp; 0\\end{array}\\right]^T,\\left[\\begin{array}{lll}3 &amp; 2 &amp; 2\\end{array}\\right]^T\\right\\}$<br> </li><li>$\\left\\{\\left[\\begin{array}{lll}1 &amp; 0 &amp; 1\\end{array}\\right]^T\\right\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,fundamental-spaces,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471305",
+          "text": "Let\n$$\nV=\\left\\{\\left(x_1, x_2, x_3, x_4\\right) \\in \\mathbb{R}^4 \\mid x_1+x_2+x_3+x_4=0\\right\\}\n$$\nbe a subspace of $\\mathbb{R}^4$.\nWhat is the dimension of the subspace $V$ ?",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,vector-space,one-mark,numerical-answers",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471298",
+          "text": "Which of the following could be a non-zero singular value for matrix $B$ below?<br />$$<br />B=\\left[\\begin{array}{lllll}<br />1 & 5 & 1 & 1 & 2 \\\\<br />2 & 7 & 2 & 9 & 4 \\\\<br />3 & 3 & 3 & 4 & 6<br />\\end{array}\\right]<br />$$<br /><ol style=\"list-style-type:upper-alpha\"><li> $1.01+2.14 \\mathrm{j}$</li><li> $-1.05$</li> <li>$-100$</li>  <li>$4.04$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,svd,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471293",
+          "text": "Consider the following two statements:<br />S1: If a matrix has determinant zero, then two of its columns are scalar multiples of each other, or one of the columns is the zero vector.<br />S2: If $\\lambda$ is an eigenvalue of $A A^{\\top}$, then $\\lambda$ is necessarily an eigenvalue of $A^{\\top} A$.<br />Which of the following is correct?<br /><ol style=\"list-style-type:upper-alpha\"><li> S 1 is true, S 2 is false</li><li> S 1 is false, S 2 is true</li> <li>Both S1 and S2 are true</li>  <li>Both S1 and S2 are false</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,matrix,eigen-value,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471291",
+          "text": "<p>Consider the following matrices defined using real numbers $a, b, c$ :<br>$$<br>A=\\left[\\begin{array}{ll}<br>1 &amp; a \\\\<br>1 &amp; 1<br>\\end{array}\\right], \\quad B=\\left[\\begin{array}{ll}<br>1 &amp; b \\\\<br>1 &amp; 1<br>\\end{array}\\right], \\quad C=\\left[\\begin{array}{ll}<br>1 &amp; c \\\\<br>1 &amp; 1<br>\\end{array}\\right]<br>$$<br><br>Each matrix is of the form $\\left[\\begin{array}{ll}1 &amp; x \\\\ 1 &amp; 1\\end{array}\\right]$, where $x \\in \\mathbb{R}$.<br>Which of the following statements is/are TRUE?</p><ol style=\"list-style-type:upper-alpha\"><li>Matrix $A$ has two distinct real eigenvalues if and only if $a&gt;0$.</li><li>Matrix $B$ has a repeated real eigenvalue if and only if $b=0$.</li><li>Matrix $C$ has complex (non-real) eigenvalues if and only if $c&lt;0$.</li><li>The eigenvalues of all three matrices are real for any real values of $a, b, c$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a,b,c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,vector-space,one-mark,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471332",
+          "text": "<p>Let the linear transformation $T: \\mathbb{R}^2 \\rightarrow \\mathbb{R}^2$ be defined by:<br>$$<br>T\\left(\\left[\\begin{array}{l}<br>2 \\\\<br>1<br>\\end{array}\\right]\\right)=\\left[\\begin{array}{l}<br>4 \\\\<br>3<br>\\end{array}\\right], \\quad T\\left(\\left[\\begin{array}{l}<br>1 \\\\<br>3<br>\\end{array}\\right]\\right)=\\left[\\begin{array}{l}<br>4 \\\\<br>1<br>\\end{array}\\right]<br>$$<br><br>Which of the following matrices $A$ satisfies $T(\\vec{x})=A \\vec{x}$ for all $\\vec{x} \\in \\mathbb{R}^2$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\frac{1}{5}\\left[\\begin{array}{ll}5 &amp; 0 \\\\ 0 &amp; 5\\end{array}\\right]$<br> </li><li>$\\frac{1}{5}\\left[\\begin{array}{cc}8 &amp; 4 \\\\ 4 &amp; -1\\end{array}\\right]$<br> </li><li>$\\frac{1}{5}\\left[\\begin{array}{cc}8 &amp; 4 \\\\ 8 &amp; -1\\end{array}\\right]$<br> </li><li>$\\left[\\begin{array}{ll}4 &amp; 4 \\\\ 1 &amp; 3\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,linear-transformations,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471330",
+          "text": "Let $V$ be a vector space, and let $W_1$ and $W_2$ be subspaces of $V$. Define the set<br />$$<br />U=\\left\\{\\mathbf{v} \\in V: \\mathbf{v} \\in W_1 \\text { and } \\mathbf{v} \\in W_2\\right\\}<br />$$<br /><br />Which of the following statements is true about the set $U$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $U$ is not a subspace of $V$ unless $W_1=W_2$.</li><li> $U$ is a subspace of $V$ because the intersection of two subspaces is always a subspace.</li> <li>$U$ is a subspace of $V$ only if $W_1 \\subseteq W_2$ or $W_2 \\subseteq W_1$.</li>  <li>$U$ may not contain the zero vector, so it is not always a subspace.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,vector-space,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471326",
+          "text": "<p>Let $A$ be an $m \\times n$ matrix. Let $S_1$ be the row space of $A$, and $S_2$ be the column space of $A$. Define a transformation<br>$$<br>T: S_1 \\rightarrow S_2 \\quad \\text { by } \\quad T(\\vec{x})=A \\vec{x}<br>$$<br><br>Which of the following statements is/are TRUE?</p><ol style=\"list-style-type:upper-alpha\"><li>$T$ is one-to-one because if $A \\vec{x}_1=A \\vec{x}_2$, then $\\vec{x}_1=\\vec{x}_2$ for all $\\vec{x}_1, \\vec{x}_2 \\in S_1$.</li><li>$T$ is onto because every vector in the column space of $A$ can be written as $A \\vec{x}$ for some $\\vec{x} \\in S_1$.</li><li>$T$ is not one-to-one because row vectors might map to the same column vector.</li><li>$T$ is a bijection between the row space and the column space of $A$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a,b,d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,fundamental-spaces,two-marks,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471322",
+          "text": "Let $A=L U$, where $L$ is lower triangular with 1's on the main diagonal, and $U=\\left(u_{i, j}\\right)$ is upper triangular, and<br />$$<br />A=\\left(\\begin{array}{cccc}<br />2 & 1 & 3 & 0 \\\\<br />-4 & 0 & -5 & 0 \\\\<br />2 & 5 & 5 & 2<br />\\end{array}\\right)<br />$$<br /><br />What's $u_{2,4}$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> 2</li><li> -1</li> <li>1</li>  <li>0</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,matrix,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471317",
+          "text": "<p>Let the following vectors in $\\mathbb{R}^2$ be given:<br>$$<br>\\mathbf{u}_1=\\left[\\begin{array}{c}<br>1 \\\\<br>-1<br>\\end{array}\\right], \\quad \\mathbf{u}_2=\\left[\\begin{array}{c}<br>-2 \\\\<br>3<br>\\end{array}\\right], \\quad \\mathbf{v}_1=\\left[\\begin{array}{l}<br>2 \\\\<br>2<br>\\end{array}\\right], \\quad \\mathbf{v}_2=\\left[\\begin{array}{l}<br>3 \\\\<br>1<br>\\end{array}\\right]<br>$$<br><br>Let $\\mathcal{B}=\\left\\{\\mathbf{v}_1, \\mathbf{v}_2\\right\\}$ and $\\mathcal{C}=\\left\\{\\mathbf{u}_1, \\mathbf{u}_2\\right\\}$ be ordered bases for $\\mathbb{R}^2$.<br>What is the change-of-basis matrix that converts coordinates from the basis $\\mathcal{B}$ to the basis $\\mathcal{C}$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\left[\\begin{array}{ll}3 &amp; 2 \\\\ 1 &amp; 1\\end{array}\\right]$<br> </li><li>$\\left[\\begin{array}{cc}10 &amp; 11 \\\\ 4 &amp; 4\\end{array}\\right]$<br> </li><li>$\\left[\\begin{array}{ll}2 &amp; 3 \\\\ 2 &amp; 1\\end{array}\\right]$<br> </li><li>$\\left[\\begin{array}{cc}1 &amp; -2 \\\\ -1 &amp; 3\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,vector-space,change-of-basis,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471313",
+          "text": "$A$ is an $m \\times n$ matrix and $\\mathbf{b}$ is an $m \\times 1$ vector. The equation $A \\mathbf{x}=\\mathbf{b}$ has infinitely many solutions. Consider the following statements:<br />(i) $m \\leq n$<br />(ii) $n \\leq m$<br />(iii) the rank of $A=n$<br />(iv) the rank of $A<n$<br />(v) $\\operatorname{det} A=0$<br />Which must be true?<br /><ol style=\"list-style-type:upper-alpha\"><li> only (i) and (v)</li><li> only (iv)</li> <li>only (v)</li>  <li>only (iii) and (v)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,system-of-equations,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471303",
+          "text": "<p>Consider the following statements related to properties of matrices and subspaces in $\\mathbb{R}^n$.<br>Which of the following statements is/are TRUE?</p><ol style=\"list-style-type:upper-alpha\"><li>If the rows of a matrix $A \\in \\mathbb{R}^{m \\times n}$ are linearly independent, then for every $\\vec{b} \\in \\mathbb{R}^m$, the system $A \\vec{x}=$ $\\vec{b}$ has at most one solution $\\vec{x} \\in \\mathbb{R}^n$.</li><li>If the columns of a square matrix $A$ are linearly independent, then the transpose $A^T$ is invertible.</li><li>If $V$ and $W$ are subspaces of $\\mathbb{R}^n$, then the union $V \\cup W$ is also a subspace of $\\mathbb{R}^n$.</li><li>If $A$ and $B$ are square matrices and $A B$ is invertible, then both $A$ and $B$ are invertible.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b,d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,matrix,two-marks,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471301",
+          "text": "<p>Let $A \\in \\mathbb{R}^{n \\times n}$ be a real square matrix with singular values $\\sigma_1, \\sigma_2, \\ldots, \\sigma_n$.<br>Which of the following statements is/are TRUE?</p><ol style=\"list-style-type:upper-alpha\"><li>The singular values of $A^2$ are necessarily equal to $\\sigma_1^2, \\sigma_2^2, \\ldots, \\sigma_n^2$.</li><li>The singular values of $A^T A$ are necessarily equal to $\\sigma_1^2, \\sigma_2^2, \\ldots, \\sigma_n^2$.</li><li>The singular values of $A^T A$ are the eigenvalues of $A^T A$, which are always non-negative.</li><li>The eigenvalues of $A$ and the singular values of $A$ are always equal.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b,c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,svd,two-marks,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471300",
+          "text": "Which of the following statements about the Singular Value Decomposition (SVD) are true when written in the form $A=\\sigma_1 \\overrightarrow{u_1}{\\overrightarrow{v_1}}^{\\top}+\\sigma_2{\\overrightarrow{u_2}}^{\\top}{\\overrightarrow{v_2}}^{\\top}+\\cdots$ ? Assume that all $\\sigma_i$, the singular values, are non-zero.<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left\\{\\overrightarrow{u_1}, \\overrightarrow{u_2}, \\ldots\\right\\}$ is an orthonormal basis for the column space of $\\boldsymbol{A}$.</li><li> The singular values, $\\sigma_i$, are real numbers of arbitrary sign.</li> <li>The SVD separates a rank $\\boldsymbol{r}$ matrix $\\boldsymbol{A}$ into a sum of $\\boldsymbol{r}-1$ rank 1 matrices.</li>  <li>The SVD of a matrix $\\boldsymbol{A}$ is unique.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,svd,two-marks,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471297",
+          "text": "Consider the following two statements:<br />- $\\mathbf{S 1}$ : If $\\left\\{\\mathbf{q}_1, \\mathbf{q}_2\\right\\}$ is an orthonormal set, then the matrix $\\mathbf{q}_1 \\mathbf{q}_1^{\\top}+\\mathbf{q}_2 \\mathbf{q}_2^{\\top}$ is a projection matrix.<br />- S2: If $\\mathbf{A}$ is symmetric, then every vector $\\mathbf{x} \\in \\mathbb{R}^n$ can be uniquely written as $\\mathbf{x}=\\mathbf{x}_1+\\mathbf{x}_2$, where $\\mathbf{x}_1 \\in \\mathcal{N}(\\mathbf{A}), \\mathbf{x}_2 \\in \\mathcal{C}(\\mathbf{A})$.<br />Which of the following is correct?<br /><ol style=\"list-style-type:upper-alpha\"><li> S 1 is true, S 2 is false</li><li> S 1 is false, S 2 is true</li> <li>Both S1 and S2 are true</li>  <li>Both S1 and S2 are false</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,vector-space,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471295",
+          "text": "<p>Let<br>$$<br>A=\\left[\\begin{array}{ccc}<br>1 &amp; -1 &amp; 0 \\\\<br>0 &amp; 2 &amp; 2 \\\\<br>0 &amp; 1 &amp; 1<br>\\end{array}\\right], \\quad \\mathbf{v}=\\left[\\begin{array}{l}<br>1 \\\\<br>2 \\\\<br>1<br>\\end{array}\\right]<br>$$<br><br>Find the decomposition<br>$$<br>\\mathbf{v}=\\mathbf{v}_{\\text {null }}+\\mathbf{v}_{\\text {row }}<br>$$<br>where $\\mathbf{v}_{\\text {null }} \\in \\mathcal{N}(A)$ (null space of $A$ ) and $\\mathbf{v}_{\\text {row }} \\in \\mathcal{R}(A)$ (row space of $A$ ).</p><ol style=\"list-style-type:upper-alpha\"><li>$\\quad \\mathbf{v}_{\\text {null }}=\\left[\\begin{array}{c}-1 \\\\ -1 \\\\ 1\\end{array}\\right], \\quad \\mathbf{v}_{\\text {row }}=\\left[\\begin{array}{l}2 \\\\ 3 \\\\ 0\\end{array}\\right]$<br> </li><li>$\\quad \\mathbf{v}_{\\text {null }}=\\frac{1}{3}\\left[\\begin{array}{c}-2 \\\\ -2 \\\\ 2\\end{array}\\right], \\quad \\mathbf{v}_{\\text {row }}=\\frac{1}{3}\\left[\\begin{array}{l}5 \\\\ 8 \\\\ 1\\end{array}\\right]$<br> </li><li>$\\quad \\mathbf{v}_{\\text {null }}=\\left[\\begin{array}{c}-2 \\\\ -2 \\\\ 2\\end{array}\\right], \\quad \\mathbf{v}_{\\text {row }}=\\left[\\begin{array}{c}3 \\\\ 4 \\\\ -1\\end{array}\\right]$<br> </li><li>$\\quad \\mathbf{v}_{\\text {null }}=\\left[\\begin{array}{c}1 \\\\ 1 \\\\ -1\\end{array}\\right], \\quad \\mathbf{v}_{\\text {row }}=\\left[\\begin{array}{l}0 \\\\ 1 \\\\ 2\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,vector-space,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471290",
+          "text": "Let $A=\\left[\\begin{array}{ll}1 & a \\\\ 1 & 1\\end{array}\\right]$, where $a>0$.<br />Suppose $A$ is diagonalizable as $A=V D V^{-1}$, where $D$ is a diagonal matrix of eigenvalues and $V$ is the matrix of corresponding eigenvectors.<br />Which of the following is a valid choice for the matrix $V$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $V=\\left[\\begin{array}{cc}1 & -1 \\\\ 1 & 1\\end{array}\\right]$</li><li> $V=\\left[\\begin{array}{cc}\\sqrt{a} & -\\sqrt{a} \\\\ 1 & 1\\end{array}\\right]$</li> <li>$V=\\left[\\begin{array}{cc}1 & 1 \\\\ \\sqrt{a} & -\\sqrt{a}\\end{array}\\right]$</li>  <li>$\\quad V=\\left[\\begin{array}{cc}a & -a \\\\ 1 & 1\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,diagonalisation,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471288",
+          "text": "<p>The matrix $A$ has the following Singular Value Decomposition (SVD):<br>$$<br>A=\\underbrace{\\frac{1}{5}\\left[\\begin{array}{cc}<br>3 &amp; 4 \\\\<br>-4 &amp; 3<br>\\end{array}\\right]}_U \\cdot \\underbrace{\\left[\\begin{array}{lll}<br>2 &amp; 0 &amp; 0 \\\\<br>0 &amp; 1 &amp; 0<br>\\end{array}\\right]}_{\\Sigma} \\cdot \\underbrace{\\frac{1}{3}\\left[\\begin{array}{ccc}<br>1 &amp; x &amp; 2 \\\\<br>2 &amp; 2 &amp; y \\\\<br>2 &amp; -1 &amp; -2<br>\\end{array}\\right]}_{V^T}<br>$$<br><br>Here, $U$ and $V$ are square matrices, and $x, y \\in \\mathbb{R}$ are unknown real numbers.<br>Which of the following pairs of values for $x$ and $y$ is consistent with the decomposition?</p><ol style=\"list-style-type:upper-alpha\"><li>$x=2, \\quad y=-1$</li><li>$x=-2, \\quad y=1$</li><li>$x=-1, \\quad y=2$</li><li>$x=1, \\quad y=-2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,svd,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471286",
+          "text": "<p>Let $A \\in \\mathbb{R}^{3 \\times 3}$ be a symmetric matrix with distinct eigenvalues $\\lambda_1, \\lambda_2, \\lambda_3$ and corresponding orthonormal eigenvectors $\\boldsymbol{q}_1, \\boldsymbol{q}_2, \\boldsymbol{q}_3$. Which of the following correctly describes the Singular Value Decomposition (SVD) of $A$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>If $\\lambda_1, \\lambda_2, \\lambda_3 \\geq 0$, then<br>$$<br>\\text { SVD of } A=Q \\Sigma Q^T \\quad \\text { where } Q=\\left[\\boldsymbol{q}_1 \\boldsymbol{q}_2 \\boldsymbol{q}_3\\right], \\quad \\Sigma=\\operatorname{diag}\\left(\\lambda_1, \\lambda_2, \\lambda_3\\right)<br>$$</li><li>If $\\lambda_1, \\lambda_2&gt;0&gt;\\lambda_3$, then<br>$$<br>\\text { SVD of } A=U \\Sigma V^T \\quad \\text { where } U=\\left[\\boldsymbol{q}_1 \\boldsymbol{q}_2-\\boldsymbol{q}_3\\right], \\quad V=Q, \\quad \\Sigma=\\operatorname{diag}\\left(\\left|\\lambda_1\\right|,\\left|\\lambda_2\\right|,\\left|\\lambda_3\\right|\\right)<br>$$</li><li>For any symmetric matrix with eigenvalue decomposition $A=Q \\Lambda Q^T$, the SVD is<br>$$<br>\\text { SVD of } A=Q|\\Lambda| Q^T \\quad \\text { where }|\\Lambda|=\\operatorname{diag}\\left(\\left|\\lambda_1\\right|,\\left|\\lambda_2\\right|,\\left|\\lambda_3\\right|\\right)<br>$$</li><li>If $\\lambda_3=0$, then one of the singular values of $A$ is 0 , and the corresponding singular vectors can be taken as $\\boldsymbol{q}_3$ (for both $U$ and $V$).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a,b,d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_sw_1,goclasses,goclasses-testseries-2026,linear-algebra,svd,two-marks,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "471284",
+          "text": "Let<br />$$<br />A=\\left[\\begin{array}{cc}<br />1 & 1 \\\\<br />0 & 1 \\\\<br />-2 & 0<br />\\end{array}\\right], \\quad b=\\left[\\begin{array}{l}<br />1 \\\\<br />0 \\\\<br />1<br />\\end{array}\\right]<br />$$<br /><br />Let $x \\in \\mathbb{R}^2$ be any vector, and consider the quantity $\\|A x-b\\|_2$. What is the minimum value of this expression over all possible $x \\in \\mathbb{R}^2$ ?",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_sw_1,numerical-answers,goclasses,goclasses-testseries-2026,linear-algebra,vector-space,projection,two-marks",
+          "category": "Linear Algebra"
+        }
+      ]
+    }
+  ]
+}

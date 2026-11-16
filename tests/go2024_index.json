@@ -1,0 +1,566 @@
+[
+  {
+    "id": "go2024_test_0",
+    "name": "GO Classes 2024 | Weekly Quiz 7 | Linear Algebra and Propositional Logic"
+  },
+  {
+    "id": "go2024_test_1",
+    "name": "GO Classes 2024 | Weekly Quiz 8 | Conditional Probability"
+  },
+  {
+    "id": "go2024_test_2",
+    "name": "GO Classes 2024 | Weekly Quiz 9 | First Order Logic"
+  },
+  {
+    "id": "go2024_test_3",
+    "name": "GO Classes Test Series 2024 | Probability | Test 1"
+  },
+  {
+    "id": "go2024_test_4",
+    "name": "GO Classes 2024 | Discrete Mathematics | Test 1"
+  },
+  {
+    "id": "go2024_test_5",
+    "name": "GO Classes Test Series 2024 | Linear Algebra | Test 1"
+  },
+  {
+    "id": "go2024_test_6",
+    "name": "GATE Overflow Test Series 2024 | Verbal Aptitude | Test 1"
+  },
+  {
+    "id": "go2024_test_7",
+    "name": "GO Classes 2024 | Weekly Quiz 10 | First Order Logic"
+  },
+  {
+    "id": "go2024_test_8",
+    "name": "GO Classes 2024 | Weekly Quiz 11 | Probability Distributions"
+  },
+  {
+    "id": "go2024_test_9",
+    "name": "GO Classes Test Series 2024 | Discrete Mathematics | Test 2"
+  },
+  {
+    "id": "go2024_test_10",
+    "name": "GO Classes Test Series 2024 | Calculus | Test 1"
+  },
+  {
+    "id": "go2024_test_11",
+    "name": "GATE Overflow Test Series 2024 | Quantitative Aptitude | Test 1"
+  },
+  {
+    "id": "go2024_test_12",
+    "name": "GO Classes 2024 | Weekly Quiz 12 | Programming"
+  },
+  {
+    "id": "go2024_test_13",
+    "name": "GO Classes Test Series 2024 | Discrete Mathematics | Test 3"
+  },
+  {
+    "id": "go2024_test_14",
+    "name": "GO Classes Test Series 2024 | Programming | Test 1"
+  },
+  {
+    "id": "go2024_test_15",
+    "name": "GATE Overflow Test Series 2024 | Discrete Mathematics | Test 2"
+  },
+  {
+    "id": "go2024_test_16",
+    "name": "GO Classes Test Series 2024 | Discrete Mathematics | Test 4"
+  },
+  {
+    "id": "go2024_test_17",
+    "name": "GATE Overflow Test Series 2024 | Discrete Mathematics | Test 1"
+  },
+  {
+    "id": "go2024_test_18",
+    "name": "GO Classes Test Series 2024 | Programming | Test 2"
+  },
+  {
+    "id": "go2024_test_19",
+    "name": "GO Classes 2024 | Weekly Quiz 13 | Equivalence Relation"
+  },
+  {
+    "id": "go2024_test_20",
+    "name": "GATE Overflow Test Series 2024 | Discrete Mathematics | Test 3"
+  },
+  {
+    "id": "go2024_test_21",
+    "name": "GO Classes 2024 | Weekly Quiz 14 | Calculus"
+  },
+  {
+    "id": "go2024_test_22",
+    "name": "GATE Overflow Test Series 2024 | Mix Subjects | Test 1"
+  },
+  {
+    "id": "go2024_test_23",
+    "name": "GO Classes Test Series 2024 | Discrete Mathematics | Test 5"
+  },
+  {
+    "id": "go2024_test_24",
+    "name": "GO Classes Test Series 2024 | Programming | Test 3"
+  },
+  {
+    "id": "go2024_test_25",
+    "name": "GO Classes 2024 | Weekly Quiz 15 | Programming"
+  },
+  {
+    "id": "go2024_test_26",
+    "name": "GO Classes Test Series 2024 | Data Structures | Test 1"
+  },
+  {
+    "id": "go2024_test_27",
+    "name": "GO Classes 2024 | Weekly Quiz 16 | Group Theory"
+  },
+  {
+    "id": "go2024_test_28",
+    "name": "GATE Overflow Test Series 2024 | Digital Logic | Test 1"
+  },
+  {
+    "id": "go2024_test_29",
+    "name": "GO Classes Test Series 2024 | Data Structures | Test 2"
+  },
+  {
+    "id": "go2024_test_30",
+    "name": "GO Classes Test Series 2024 | Mixed Subjects | Full Length Test 1"
+  },
+  {
+    "id": "go2024_test_31",
+    "name": "GO Classes 2024 | Weekly Quiz 17 | Programming"
+  },
+  {
+    "id": "go2024_test_32",
+    "name": "GO Classes Test Series 2024 | Data Structures | Test 3"
+  },
+  {
+    "id": "go2024_test_33",
+    "name": "GATE Overflow Test Series 2024 | Programming | Test 1"
+  },
+  {
+    "id": "go2024_test_34",
+    "name": "GO Classes Test Series 2024 | Theory of Computation | Test 2"
+  },
+  {
+    "id": "go2024_test_35",
+    "name": "GO Classes Test Series 2024 | Theory of Computation | Test 1"
+  },
+  {
+    "id": "go2024_test_36",
+    "name": "GO Classes 2024 | Weekly Quiz 18 | Programming"
+  },
+  {
+    "id": "go2024_test_37",
+    "name": "GO Classes Test Series 2024 | Theory of Computation | Test 3"
+  },
+  {
+    "id": "go2024_test_38",
+    "name": "GATE Overflow Test Series 2024 | Computer Organization and Architecture | Test 1"
+  },
+  {
+    "id": "go2024_test_39",
+    "name": "GO Classes 2024 | Weekly Quiz 19 | Combinatorics"
+  },
+  {
+    "id": "go2024_test_40",
+    "name": "GO Classes 2024 | Weekly Quiz 20 | Linked List"
+  },
+  {
+    "id": "go2024_test_41",
+    "name": "GO Classes Test Series 2024 | Theory of Computation | Test 4"
+  },
+  {
+    "id": "go2024_test_42",
+    "name": "GO Classes Test Series 2024 | Theory of Computation | Test 5"
+  },
+  {
+    "id": "go2024_test_43",
+    "name": "GATE Overflow Test Series 2024 | Data Structures | Test 1"
+  },
+  {
+    "id": "go2024_test_44",
+    "name": "GO Classes Test Series 2024 | Theory of Computation | Test 6"
+  },
+  {
+    "id": "go2024_test_45",
+    "name": "GO Classes Test Series 2024 | Discrete Mathematics | Test 6"
+  },
+  {
+    "id": "go2024_test_46",
+    "name": "GO Classes Test Series 2024 | Data Structures | Test 4"
+  },
+  {
+    "id": "go2024_test_47",
+    "name": "GO Classes Test Series 2024 | Data Structures | Test 5"
+  },
+  {
+    "id": "go2024_test_48",
+    "name": "GATE Overflow Test Series 2024 | Algorithms | Test 1"
+  },
+  {
+    "id": "go2024_test_49",
+    "name": "GO Classes 2024 | Weekly Quiz 21 | Asymptotic Notation and Loop Time Complexity"
+  },
+  {
+    "id": "go2024_test_50",
+    "name": "GO Classes 2024 | Weekly Quiz 22 | Stack and Queue"
+  },
+  {
+    "id": "go2024_test_51",
+    "name": "GO Classes Test Series 2024 | Digital Logic | Test 1"
+  },
+  {
+    "id": "go2024_test_52",
+    "name": "GATE Overflow Test Series 2024 | Mix Subjects | Test 2"
+  },
+  {
+    "id": "go2024_test_53",
+    "name": "GO Classes 2024 | Weekly Quiz 23 | Asymptotic Notations, Stack and Queue"
+  },
+  {
+    "id": "go2024_test_54",
+    "name": "GO Classes 2024 | Weekly Quiz 24 | Finite Automata"
+  },
+  {
+    "id": "go2024_test_55",
+    "name": "GATE Overflow Test Series 2024 | Algorithms | Test 2"
+  },
+  {
+    "id": "go2024_test_56",
+    "name": "GO Classes Test Series 2024 | Algorithms | Test 1"
+  },
+  {
+    "id": "go2024_test_57",
+    "name": "Scholarship Test for GATE 2024 Course"
+  },
+  {
+    "id": "go2024_test_58",
+    "name": "GO Classes 2024 | Weekly Quiz 25 | Finite Automata and Regular Expression"
+  },
+  {
+    "id": "go2024_test_59",
+    "name": "GATE Overflow Test Series 2024 | Discrete Mathematics | Test 4"
+  },
+  {
+    "id": "go2024_test_60",
+    "name": "GO Classes 2024 | Weekly Quiz 26 | Finite Automata and Regular Expression | Stanford University"
+  },
+  {
+    "id": "go2024_test_61",
+    "name": "GO Classes Test Series 2024 | Algorithms | Test 2"
+  },
+  {
+    "id": "go2024_test_62",
+    "name": "GO Classes Test Series 2024 | Algorithms | Test 3"
+  },
+  {
+    "id": "go2024_test_63",
+    "name": "GO Classes Test Series 2024 | Algorithms | Test 4"
+  },
+  {
+    "id": "go2024_test_64",
+    "name": "GATE Overflow Test Series 2024 | Probability | Test 1"
+  },
+  {
+    "id": "go2024_test_65",
+    "name": "GO Classes 2024 | Weekly Quiz 27 | Complete Data Structures"
+  },
+  {
+    "id": "go2024_test_66",
+    "name": "GATE Overflow Test Series 2024 | Theory of Computation | Test 1"
+  },
+  {
+    "id": "go2024_test_67",
+    "name": "GO Classes Test Series 2024 | Digital Logic | Test 2"
+  },
+  {
+    "id": "go2024_test_68",
+    "name": "GO Classes Test Series 2024 | Digital Logic | Test 3"
+  },
+  {
+    "id": "go2024_test_69",
+    "name": "GATE Overflow Test Series 2024 | Databases | Test 1"
+  },
+  {
+    "id": "go2024_test_70",
+    "name": "GO Classes Test Series 2024 | Operating System | Test 1"
+  },
+  {
+    "id": "go2024_test_71",
+    "name": "GO Classes Test Series 2024 | CO and Architecture | Test 1"
+  },
+  {
+    "id": "go2024_test_72",
+    "name": "GATE Overflow Test Series 2024 | Mix Subjects | Test 3"
+  },
+  {
+    "id": "go2024_test_73",
+    "name": "GO Classes 2024 | Weekly Quiz 28 | Process Synchronization"
+  },
+  {
+    "id": "go2024_test_74",
+    "name": "GO Classes Test Series 2024 | Operating Systems | Test 2"
+  },
+  {
+    "id": "go2024_test_75",
+    "name": "GO Classes Test Series 2024 | Operating Systems | Test 3"
+  },
+  {
+    "id": "go2024_test_76",
+    "name": "GO Classes Test Series 2024 | CO and Architecture | Test 2"
+  },
+  {
+    "id": "go2024_test_77",
+    "name": "GO Classes Test Series 2024 | Operating Systems | Test 4"
+  },
+  {
+    "id": "go2024_test_78",
+    "name": "GATE Overflow Test Series 2024 | Analytical and Spatial Aptitude | Test 1"
+  },
+  {
+    "id": "go2024_test_79",
+    "name": "GATE Overflow Test Series 2024 | Computer Networks | Test 1"
+  },
+  {
+    "id": "go2024_test_80",
+    "name": "GO Classes Test Series 2024 | Theory of Computation | Test 7"
+  },
+  {
+    "id": "go2024_test_81",
+    "name": "GO Classes Test Series 2024 | CO and Architecture | Test 3"
+  },
+  {
+    "id": "go2024_test_82",
+    "name": "GO Classes Test Series 2024 | CO and Architecture | Test 4"
+  },
+  {
+    "id": "go2024_test_83",
+    "name": "GO Classes Test Series 2024 | Databases | Test 1"
+  },
+  {
+    "id": "go2024_test_84",
+    "name": "GO Classes Test Series 2024 | Databases | Test 2"
+  },
+  {
+    "id": "go2024_test_85",
+    "name": "GO Classes Test Series 2024 | Databases | Test 4"
+  },
+  {
+    "id": "go2024_test_86",
+    "name": "GO Classes Test Series 2024 | Databases | Test 5"
+  },
+  {
+    "id": "go2024_test_87",
+    "name": "GO Classes Test Series 2024 | Databases | Test 3"
+  },
+  {
+    "id": "go2024_test_88",
+    "name": "GO Classes Test Series 2024 | Mixed Subjects | Full Length Test 2"
+  },
+  {
+    "id": "go2024_test_89",
+    "name": "GO Classes Test Series 2024 | Computer Networks | Test 1"
+  },
+  {
+    "id": "go2024_test_90",
+    "name": "GO Classes Test Series 2024 | Computer Networks | Test 2"
+  },
+  {
+    "id": "go2024_test_91",
+    "name": "GO Classes Test Series 2024 | Computer Networks | Test 3"
+  },
+  {
+    "id": "go2024_test_92",
+    "name": "GO Classes 2024 | Weekly Quiz 29 | Subnetting and Supernetting"
+  },
+  {
+    "id": "go2024_test_93",
+    "name": "GO Classes 2024 | Weekly Quiz 30 | Boolean Algebra, Minimization, Number System"
+  },
+  {
+    "id": "go2024_test_94",
+    "name": "GATE Overflow Test Series 2024 | Operating Systems | Test 1"
+  },
+  {
+    "id": "go2024_test_95",
+    "name": "GO Classes Test Series 2024 | Computer Networks | Test 4"
+  },
+  {
+    "id": "go2024_test_96",
+    "name": "GATE Overflow Test Series 2024 | Operating Systems | Test 2"
+  },
+  {
+    "id": "go2024_test_97",
+    "name": "GO Classes 2024 | Weekly Quiz 31 | Multiplexer"
+  },
+  {
+    "id": "go2024_test_98",
+    "name": "GATE Overflow Test Series 2024 | Linear Algebra | Test 1"
+  },
+  {
+    "id": "go2024_test_99",
+    "name": "GO Classes Test Series 2024 | Compiler Design | Test 1"
+  },
+  {
+    "id": "go2024_test_100",
+    "name": "GATE Overflow Test Series 2024 | Mix Subjects | Test 4"
+  },
+  {
+    "id": "go2024_test_101",
+    "name": "GO Classes Test Series 2024 | Compiler Design | Test 3"
+  },
+  {
+    "id": "go2024_test_102",
+    "name": "GO Classes Test Series 2024 | Compiler Design | Test 2"
+  },
+  {
+    "id": "go2024_test_103",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 1"
+  },
+  {
+    "id": "go2024_test_104",
+    "name": "GO Classes 2024 | Weekly Quiz 32 | Combinational Circuits, Number System"
+  },
+  {
+    "id": "go2024_test_105",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 2"
+  },
+  {
+    "id": "go2024_test_106",
+    "name": "GATE Overflow Test Series 2024 | Compiler Design | Test 1"
+  },
+  {
+    "id": "go2024_test_107",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 3"
+  },
+  {
+    "id": "go2024_test_108",
+    "name": "GATE Overflow Test Series 2024 | Calculus | Test 1"
+  },
+  {
+    "id": "go2024_test_109",
+    "name": "GO Classes 2024 | Weekly Quiz 33 | Normalization, Relational Model"
+  },
+  {
+    "id": "go2024_test_110",
+    "name": "GO Classes Test Series 2024 | Mixed Subjects | Full Length Test 4"
+  },
+  {
+    "id": "go2024_test_111",
+    "name": "GO Classes Test Series 2024 | Mixed Subjects | Full Length Test 3"
+  },
+  {
+    "id": "go2024_test_112",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 4"
+  },
+  {
+    "id": "go2024_test_113",
+    "name": "GATE Overflow Test Series 2024 | Mock GATE 1"
+  },
+  {
+    "id": "go2024_test_114",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 5"
+  },
+  {
+    "id": "go2024_test_115",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 6"
+  },
+  {
+    "id": "go2024_test_116",
+    "name": "GATE Overflow Test Series 2024 | Mock GATE 2"
+  },
+  {
+    "id": "go2024_test_117",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 7"
+  },
+  {
+    "id": "go2024_test_118",
+    "name": "GATE Overflow Test Series 2024 | Mock GATE 3"
+  },
+  {
+    "id": "go2024_test_119",
+    "name": "GO Classes 2024 | Weekly Quiz 34 | Cache Memory"
+  },
+  {
+    "id": "go2024_test_120",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 9"
+  },
+  {
+    "id": "go2024_test_121",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 8"
+  },
+  {
+    "id": "go2024_test_122",
+    "name": "GO Classes GATE CSE 2024 All India Mock Test 1"
+  },
+  {
+    "id": "go2024_test_123",
+    "name": "GATE Overflow Test Series 2024 | Mock GATE 4"
+  },
+  {
+    "id": "go2024_test_124",
+    "name": "GATE Overflow Test Series 2024 | Mock GATE 5"
+  },
+  {
+    "id": "go2024_test_125",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 11"
+  },
+  {
+    "id": "go2024_test_126",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 12"
+  },
+  {
+    "id": "go2024_test_127",
+    "name": "GATE Overflow Test Series 2024 | Mock GATE 6"
+  },
+  {
+    "id": "go2024_test_128",
+    "name": "TIFR CSE 2024"
+  },
+  {
+    "id": "go2024_test_129",
+    "name": "GO Classes Test Series 2024 | Mock GATE DA | Test 1"
+  },
+  {
+    "id": "go2024_test_130",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 13"
+  },
+  {
+    "id": "go2024_test_131",
+    "name": "GO Classes GATE DA 2024 All India Mock Test 2"
+  },
+  {
+    "id": "go2024_test_132",
+    "name": "GO Classes Test Series 2024 | Mock GATE | Test 14"
+  },
+  {
+    "id": "go2024_test_133",
+    "name": "GO Classes 2024 | IIITH Mock Test 1"
+  },
+  {
+    "id": "go2024_test_134",
+    "name": "GATE CSE 2024 | Set 1 | Original Paper"
+  },
+  {
+    "id": "go2024_test_135",
+    "name": "GATE CSE 2024 | Set 2 | Original Paper"
+  },
+  {
+    "id": "go2024_test_136",
+    "name": "GO Classes 2024 | IIITH Mock Test 2"
+  },
+  {
+    "id": "go2024_test_137",
+    "name": "GO Classes 2024 | IIITH Mock Test 3"
+  },
+  {
+    "id": "go2024_test_138",
+    "name": "GO Classes 2024 | IIITH Mock Test 4"
+  },
+  {
+    "id": "go2024_test_139",
+    "name": "GO Classes 2024 | IIITH Mock Test 5"
+  },
+  {
+    "id": "go2024_test_140",
+    "name": "GATE DS&AI 2024 | Original paper"
+  }
+]

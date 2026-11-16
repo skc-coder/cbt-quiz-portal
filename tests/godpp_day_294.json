@@ -1,0 +1,70 @@
+{
+  "name": "Day 239 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "527857",
+          "text": "<p>Which of the following set of vectors are linearly dependent ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\left\\{ \\begin{bmatrix} 0 \\\\ 0 \\end{bmatrix}, \\begin{bmatrix} 2 \\\\ 1 \\end{bmatrix} \\right\\}$<br>&nbsp;</li><li>$\\left\\{ \\begin{bmatrix} 2 \\\\ 4 \\\\ 6 \\end{bmatrix}, \\begin{bmatrix} 1 \\\\ 2 \\\\ 4 \\end{bmatrix} \\right\\}$<br>&nbsp;</li><li>$\\left\\{ \\begin{bmatrix} 0 \\\\ 0 \\end{bmatrix}, \\begin{bmatrix} 1 \\\\ 2 \\end{bmatrix} \\right\\}$<br>&nbsp;</li><li>$\\left\\{ \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix}, \\begin{bmatrix} 2 \\\\ 4 \\\\ 6 \\end{bmatrix},\\begin{bmatrix} 6 \\\\ 3 \\\\ 11 \\end{bmatrix} , \\begin{bmatrix} 0 \\\\ 3 \\\\ -4 \\end{bmatrix} \\right\\}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 239"
+        },
+        {
+          "post_id": "527939",
+          "text": "Two eigenvalues of a $3\\times 3$ real matrix $Q$ are $(1+\\sqrt{-1})$ and $4$. The determinant of $Q$ is ?",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 239"
+        },
+        {
+          "post_id": "527931",
+          "text": "$N$ is a square matrix of order $n$ and its determinant is $7$. If each element of $N$ is multiplied by $2$, the determinant becomes $112$. The value of $n$ is $?$",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 239"
+        },
+        {
+          "post_id": "527937",
+          "text": "<p>Let $A$ and $B$ be invertible square matrices of order $n$, and let $k$ be a non-zero scalar. Which of the following statements is <strong>not always true&nbsp;</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\det(AB^{-1}A^T)=\\dfrac{(\\det A)^2}{\\det B}$<br>&nbsp;</li><li>$\\det(\\operatorname{adj}(A))=(\\det A)^{n-1}$<br>&nbsp;</li><li>$\\det(A+kI)=\\det(A)+k^n$<br>&nbsp;</li><li>$\\det(A^{-1}B^T)=\\dfrac{\\det B}{\\det A}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 239"
+        },
+        {
+          "post_id": "527925",
+          "text": "<p>If product of matrix $A=\\begin{bmatrix}\\cos^{2}\\theta &\\cos&nbsp;\\theta \\sin \\theta&nbsp;\\\\&nbsp; \\cos&nbsp;\\theta \\sin \\theta &\\sin&nbsp;^{2} \\theta \\end{bmatrix}$ and&nbsp;$B=\\begin{bmatrix}\\cos^{2}\\phi&nbsp;&\\cos&nbsp;\\phi&nbsp;\\sin \\phi&nbsp;\\\\&nbsp; \\cos&nbsp;\\phi&nbsp;\\sin \\phi&nbsp;&\\sin&nbsp;^{2} \\phi \\end{bmatrix}$ is a null matrix, then $\\theta$ and $\\phi$ differ by an</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>odd multiple of $\\pi$<br>&nbsp;</li><li>even multiple of $\\pi$<br>&nbsp;</li><li>odd multiple of $\\dfrac{\\pi}{2}$<br>&nbsp;</li><li>even multiple of $\\dfrac{\\pi}{2}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 239"
+        }
+      ]
+    }
+  ]
+}

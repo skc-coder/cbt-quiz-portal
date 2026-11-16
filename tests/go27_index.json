@@ -1,0 +1,418 @@
+[
+  {
+    "id": "go27_test_0",
+    "name": "GO Classes CS Test Series | Discrete Mathematics | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_1",
+    "name": "GO Classes CS Test Series | Discrete Mathematics | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_2",
+    "name": "GO Classes CS Test Series | Discrete Mathematics | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_3",
+    "name": "GO Classes Test Series | Discrete Mathematics | Topic Wise Test 4"
+  },
+  {
+    "id": "go27_test_4",
+    "name": "GO Classes Test Series | Discrete Mathematics | Topic Wise Test 5"
+  },
+  {
+    "id": "go27_test_5",
+    "name": "GO Classes CS Test Series | Discrete Mathematics | Subject Wise Test 1"
+  },
+  {
+    "id": "go27_test_6",
+    "name": "GO Classes CS Test Series | Discrete Mathematics | Subject Wise Test 2"
+  },
+  {
+    "id": "go27_test_7",
+    "name": "GO Classes CS Test Series | Discrete Mathematics | Subject Wise Test 3"
+  },
+  {
+    "id": "go27_test_8",
+    "name": "GO Classes CS&DA Test Series | Linear Algebra | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_9",
+    "name": "GO Classes CS&DA Test Series | Linear Algebra | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_10",
+    "name": "GO Classes CS/DA Test Series | Counting | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_11",
+    "name": "GO Classes CS/DA Test Series | Combinatorics | Counting | Extra Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_12",
+    "name": "GO Classes CS/DA Test Series | Probability and Statistics | Bayes Theorem, Conditional Probability"
+  },
+  {
+    "id": "go27_test_13",
+    "name": "GO Classes CS Test Series | Probability | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_14",
+    "name": "GO Classes CS Test Series | Calculus | Topic Wise Test 5"
+  },
+  {
+    "id": "go27_test_15",
+    "name": "GO Classes CS Test Series | Engineering Mathematics | Subject Wise Test 1"
+  },
+  {
+    "id": "go27_test_16",
+    "name": "GO Classes CS Test Series | Engineering Mathematics | Subject Wise Test 2"
+  },
+  {
+    "id": "go27_test_17",
+    "name": "GO Classes CS Test Series | Engineering Mathematics | Subject Wise Test 3"
+  },
+  {
+    "id": "go27_test_18",
+    "name": "GO Classes CS/DA Test Series | Aptitude | Test 1"
+  },
+  {
+    "id": "go27_test_19",
+    "name": "GO Classes CS/DA Test Series | Aptitude | Test 2"
+  },
+  {
+    "id": "go27_test_20",
+    "name": "GO Classes CS/DA Test Series | Aptitude | Test 3"
+  },
+  {
+    "id": "go27_test_21",
+    "name": "GO Classes CS/DA Test Series | Aptitude | Test 4"
+  },
+  {
+    "id": "go27_test_22",
+    "name": "GO Classes CS/DA Test Series | Aptitude | Test 5"
+  },
+  {
+    "id": "go27_test_23",
+    "name": "GO Classes CS/DA Test Series | Aptitude | Test 6"
+  },
+  {
+    "id": "go27_test_24",
+    "name": "GO Classes CS/DA Test Series | Aptitude | Test 7"
+  },
+  {
+    "id": "go27_test_25",
+    "name": "GO Classes CS/DA Test Series | Aptitude | Test 8"
+  },
+  {
+    "id": "go27_test_26",
+    "name": "GO Classes CS/DA Test Series | Aptitude | Test 9"
+  },
+  {
+    "id": "go27_test_27",
+    "name": "GO Classes CS/DA Test Series | Aptitude | Test 10"
+  },
+  {
+    "id": "go27_test_28",
+    "name": "GO Classes CS Test Series | Mixed Subjects | Full Length Test 1"
+  },
+  {
+    "id": "go27_test_29",
+    "name": "GO Classes CS Test Series | Mixed Subjects | Full Length Test 2"
+  },
+  {
+    "id": "go27_test_30",
+    "name": "GO Classes CS Test Series | Mixed Subjects | Full Length Test 3"
+  },
+  {
+    "id": "go27_test_31",
+    "name": "GO Classes CS Test Series | Mixed Subjects | Full Length Test 4"
+  },
+  {
+    "id": "go27_test_32",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 1"
+  },
+  {
+    "id": "go27_test_33",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 2"
+  },
+  {
+    "id": "go27_test_34",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 3"
+  },
+  {
+    "id": "go27_test_35",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 4"
+  },
+  {
+    "id": "go27_test_36",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 5"
+  },
+  {
+    "id": "go27_test_37",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 6"
+  },
+  {
+    "id": "go27_test_38",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 7"
+  },
+  {
+    "id": "go27_test_39",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 8"
+  },
+  {
+    "id": "go27_test_40",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 9"
+  },
+  {
+    "id": "go27_test_41",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 10"
+  },
+  {
+    "id": "go27_test_42",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 11"
+  },
+  {
+    "id": "go27_test_43",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 12"
+  },
+  {
+    "id": "go27_test_44",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 13"
+  },
+  {
+    "id": "go27_test_45",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 14"
+  },
+  {
+    "id": "go27_test_46",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 15"
+  },
+  {
+    "id": "go27_test_47",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 16"
+  },
+  {
+    "id": "go27_test_48",
+    "name": "GO Classes CS Test Series | Mock GATE | Test 17"
+  },
+  {
+    "id": "go27_test_49",
+    "name": "GO Classes CS Test Series | Digital Logic | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_50",
+    "name": "GO Classes CS Test Series | Digital Logic | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_51",
+    "name": "GO Classes CS Test Series | Digital Logic | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_52",
+    "name": "GO Classes GATE CS Test Series | Digital Logic | Boolean Algebra, Minimization | Topic Wise Test 4"
+  },
+  {
+    "id": "go27_test_53",
+    "name": "GO Classes CS Test Series | Digital Logic | Subject Wise Test 1"
+  },
+  {
+    "id": "go27_test_54",
+    "name": "GO Classes CS Test Series | Digital Logic | Subject Wise Test 2"
+  },
+  {
+    "id": "go27_test_55",
+    "name": "GO Classes CS Test Series | Digital Logic | Subject Wise Test 3"
+  },
+  {
+    "id": "go27_test_56",
+    "name": "GO Classes CS/DA Test Series | Databases | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_57",
+    "name": "GO Classes CS/DA Test Series | Databases | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_58",
+    "name": "GO Classes CS/DA Test Series | Databases | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_59",
+    "name": "GO Classes CS/DA Test Series | Databases | Topic Wise Test 4"
+  },
+  {
+    "id": "go27_test_60",
+    "name": "GO Classes CS Test Series | Databases | Topic Wise Test 5"
+  },
+  {
+    "id": "go27_test_61",
+    "name": "GO Classes Test Series | DBMS | Subject Wise Test 1"
+  },
+  {
+    "id": "go27_test_62",
+    "name": "GO Classes Test Series | DBMS | Subject Wise Test 2"
+  },
+  {
+    "id": "go27_test_63",
+    "name": "GO Classes Test Series | DBMS | Subject Wise Test 3"
+  },
+  {
+    "id": "go27_test_64",
+    "name": "GO Classes CS Test Series | C-Programming | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_65",
+    "name": "GO Classes CS Test Series | C-Programming | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_66",
+    "name": "GO Classes CS Test Series | C-Programming | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_67",
+    "name": "GO Classes CS Test Series | C programming | Subject Wise Test 1"
+  },
+  {
+    "id": "go27_test_68",
+    "name": "GO Classes CS Test Series | C programming | Subject Wise Test 2"
+  },
+  {
+    "id": "go27_test_69",
+    "name": "GO Classes CS Test Series | C programming | Subject Wise Test 3"
+  },
+  {
+    "id": "go27_test_70",
+    "name": "GO Classes CS Test Series | Theory of Computation | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_71",
+    "name": "GO Classes CS Test Series | Theory of Computation | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_72",
+    "name": "GO Classes CS Test Series | Theory of Computation | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_73",
+    "name": "GO Classes CS Test Series | Theory of Computation | Topic Wise Test 4"
+  },
+  {
+    "id": "go27_test_74",
+    "name": "GO Classes CS Test Series | Theory of Computation | Topic Wise Test 5"
+  },
+  {
+    "id": "go27_test_75",
+    "name": "GO Classes CS Test Series | Theory of Computation | Topic Wise Test 6"
+  },
+  {
+    "id": "go27_test_76",
+    "name": "GO Classes CS Test Series | Theory of Computation | Subject Wise Test 1"
+  },
+  {
+    "id": "go27_test_77",
+    "name": "GO Classes CS Test Series | Theory of Computation | Subject Wise Test 2"
+  },
+  {
+    "id": "go27_test_78",
+    "name": "GO Classes CS Test Series | Theory of Computation | Subject Wise Test 3"
+  },
+  {
+    "id": "go27_test_79",
+    "name": "GO Classes CS Test Series | Computer Networks | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_80",
+    "name": "GO Classes CS Test Series | Computer Networks | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_81",
+    "name": "GO Classes CS Test Series | Computer Networks | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_82",
+    "name": "GO Classes CS Test Series | Computer Networks | Topic Wise Test 4"
+  },
+  {
+    "id": "go27_test_83",
+    "name": "GO Classes CS Test Series | Computer Networks | Subject Wise Test 1"
+  },
+  {
+    "id": "go27_test_84",
+    "name": "GO Classes CS Test Series | Compiler Design | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_85",
+    "name": "GO Classes CS Test Series | Compiler Design | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_86",
+    "name": "GO Classes CS Test Series | Compiler Design | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_87",
+    "name": "GO Classes CS Test Series | CO and Architecture | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_88",
+    "name": "GO Classes CS Test Series | CO and Architecture | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_89",
+    "name": "GO Classes CS Test Series | CO and Architecture | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_90",
+    "name": "GO Classes CS Test Series | CO and Architecture | Topic Wise Test 4"
+  },
+  {
+    "id": "go27_test_91",
+    "name": "GO Classes CS Test Series | Operating Systems | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_92",
+    "name": "GO Classes CS Test Series | Operating Systems | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_93",
+    "name": "GO Classes CS Test Series | Operating Systems | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_94",
+    "name": "GO Classes CS Test Series | Operating Systems | Topic Wise Test 4"
+  },
+  {
+    "id": "go27_test_95",
+    "name": "GO Classes Test Series | Data Structures and Algorithms | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_96",
+    "name": "GO Classes Test Series | Data Structure and Algorithms | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_97",
+    "name": "GO Classes Test Series | Data Structures and Algorithms | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_98",
+    "name": "GO Classes Test Series | Data Structures | Topic Wise Test 4"
+  },
+  {
+    "id": "go27_test_99",
+    "name": "GO Classes Test Series | Data Structures | Topic Wise Test 5"
+  },
+  {
+    "id": "go27_test_100",
+    "name": "GO Classes CS Test Series | Algorithms | Topic Wise Test 1"
+  },
+  {
+    "id": "go27_test_101",
+    "name": "GO Classes CS Test Series | Algorithms | Topic Wise Test 2"
+  },
+  {
+    "id": "go27_test_102",
+    "name": "GO Classes CS Test Series | Algorithms | Topic Wise Test 3"
+  },
+  {
+    "id": "go27_test_103",
+    "name": "GO Classes CS Test Series | Algorithms | Topic Wise Test 4"
+  }
+]

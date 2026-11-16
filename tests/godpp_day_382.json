@@ -1,0 +1,70 @@
+{
+  "name": "Day 276 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "532555",
+          "text": "<p data-start=\"14\" data-end=\"163\">A rectangle has its base on the $x$-axis, and its upper two vertices lie on the curve $y=27-x^2$. What is the maximum possible area of the rectangle?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"165\" data-end=\"172\">$81$<br>&nbsp;</li><li data-start=\"174\" data-end=\"182\">$108$<br>&nbsp;</li><li data-start=\"184\" data-end=\"192\">$162$<br>&nbsp;</li><li data-start=\"194\" data-end=\"202\">$216$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 276"
+        },
+        {
+          "post_id": "532549",
+          "text": "<p data-start=\"14\" data-end=\"116\">The intervals for which the function $G(x)=\\frac{x^2}{2}-2x-6\\ln(x^2+1)+14\\tan^{-1}x$ is increasing are</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"118\" data-end=\"135\">$x&lt;-3,\\ 1&lt;x&lt;4$<br>&nbsp;</li><li data-start=\"137\" data-end=\"154\">$-3&lt;x&lt;1,\\ x&gt;4$<br>&nbsp;</li><li data-start=\"156\" data-end=\"171\">$x&lt;-3,\\ x&gt;4$<br>&nbsp;</li><li data-start=\"173\" data-end=\"184\">$-3&lt;x&lt;4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 276"
+        },
+        {
+          "post_id": "532546",
+          "text": "<p>Let $f$ be continuous on the closed interval $[0,7]$. Some values of $f$ are shown below.</p><p>\\[<br>\\begin{array}{|c|c|c|c|c|c|c|c|c|}<br>\\hline<br>x & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\\\<br>\\hline<br>f(x) & 7 & k & -2 & 6 & 0 & k & 8 & -3\\\\<br>\\hline<br>\\end{array}<br>\\]</p><p data-start=\"269\" data-end=\"370\">The equation $(f(x)-2)^2=9$ must have at least ten distinct solutions in the interval $(0,7)$ if $k=$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"372\" data-end=\"407\">$-4$<br>&nbsp;</li><li data-start=\"372\" data-end=\"407\">$-1$<br>&nbsp;</li><li data-start=\"372\" data-end=\"407\">$0$<br>&nbsp;</li><li data-start=\"372\" data-end=\"407\">$5$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 276"
+        },
+        {
+          "post_id": "532553",
+          "text": "<p data-start=\"14\" data-end=\"119\">A closed circular cylinder has volume $54\\pi$. What is the minimum possible surface area of the cylinder?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"908\" data-end=\"918\">$54\\pi$<br>&nbsp;</li><li data-start=\"920\" data-end=\"930\">$72\\pi$<br>&nbsp;</li><li data-start=\"932\" data-end=\"942\">$81\\pi$<br>&nbsp;</li><li data-start=\"944\" data-end=\"955\">$108\\pi$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 276"
+        },
+        {
+          "post_id": "532551",
+          "text": "<p data-start=\"14\" data-end=\"112\">The intervals for which the function $G(x)=\\frac{x^2}{2}-2x-3\\ln(x^2+1)+8\\tan^{-1}x$ decreases are</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"114\" data-end=\"131\">$x&lt;-2,\\ 1&lt;x&lt;3$<br>&nbsp;</li><li data-start=\"133\" data-end=\"150\">$-2&lt;x&lt;1,\\ x&gt;3$<br>&nbsp;</li><li data-start=\"152\" data-end=\"166\">$x&lt;1,\\ x&gt;3$<br>&nbsp;</li><li data-start=\"168\" data-end=\"179\">$-2&lt;x&lt;3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 276"
+        }
+      ]
+    }
+  ]
+}

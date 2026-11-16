@@ -1,0 +1,70 @@
+{
+  "name": "Day 116 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "493700",
+          "text": "<p>A TCP connection is used for a critical file transfer. The connection starts with a congestion window ( cwnd ) of $1$ MSS and an initial slow start threshold ( ssthresh ) of $32$ MSS. The transfer proceeds smoothly until the network detects congestion during the $7$th transmission round, signalled by the receipt of three duplicate ACKs.</p><p>Following this event, what will the size of the congestion window be at the conclusion of the $11$th transmission round?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$16$ MSS<br>&nbsp;</li><li>$18$ MSS<br>&nbsp;</li><li>$20$ MSS<br>&nbsp;</li><li>$32$ MSS</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 116"
+        },
+        {
+          "post_id": "493708",
+          "text": "<p>A network administrator is configuring four devices: a server (S), a printer (P), a workstation (W). and a router's interface (R). Their IP addresses are assigned as follows:</p><ul><li>Server (S): $192.168.50.78$<br>&nbsp;</li><li>Printer (P): $192.168.50.97$<br>&nbsp;</li><li>Workstation (W): $192.168.50.65$<br>&nbsp;</li><li>Router (R): $192.168.50.94$</li></ul><p>All devices are configured with the subnet mask 255.255.255.224. Which of the following statements accurately describes the network configuration?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The Server, Workstation, and Router are on the same subnet, but the Printer is on a different one.<br>&nbsp;</li><li>The Server and Printer are on one subnet, and the Workstation and Router are on another.<br>&nbsp;</li><li>All four devices are on the same subnet.<br>&nbsp;</li><li>The Printer and Router are on the same subnet, but the Server and Workstation are on different subnets.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 116"
+        },
+        {
+          "post_id": "493705",
+          "text": "A network router uses the token bucket algorithm to manage outgoing traffic. The bucket has a capacity of $500$ tokens, where each token corresponds to one packet. Tokens are generated and added to the bucket at a constant rate of $200$ per second. The router can transmit packets at a maximum rate of $800$ packets per second as long as there are tokens in the bucket.<br>\n<br>\nIf the bucket is initially half-full and a burst of $2000$ packets arrives to be transmitted, the minimum time required to send all $2000$ packets is $\\_\\_\\_\\_$ seconds.",
+          "type": "Numerical",
+          "answer": "8.75",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 116"
+        },
+        {
+          "post_id": "493702",
+          "text": "<p>A host needs to send a large IP datagram. The datagram's total data payload is $2400$ bytes. This datagram must be fragmented to cross a network link with a Maximum Transmission Unit (MTU) of $1000$ bytes. Assume a standard $20$-byte IPv4 header is used for all fragments.</p><p>What is the total number of fragments created and what is the size of the data payload in the last fragment?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3$ fragments, $448$ bytes<br>&nbsp;</li><li>$3$ fragments, $460$ bytes<br>&nbsp;</li><li>$2$ fragments, $1420$ bytes<br>&nbsp;</li><li>$4$&nbsp;fragments, $20$ bytes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 116"
+        },
+        {
+          "post_id": "493694",
+          "text": "<p>A TCP connection is operating using the Additive Increase Multiplicative Decrease (AIMD) algorithm. At the beginning of the connection, the congestion window ( cwnd ) is set to $1$ MSS and the slow start threshold ( ssthresh ) is $16$ MSS. The connection proceeds normally until a timeout occurs during the sixth round of transmission.</p><p>What will be the size of the congestion window at the end of the twelfth transmission round?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$8$ MSS<br>&nbsp;</li><li>$10$ MSS<br>&nbsp;</li><li>$11$ MSS<br>&nbsp;</li><li>$12$ MSS</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 116"
+        }
+      ]
+    }
+  ]
+}

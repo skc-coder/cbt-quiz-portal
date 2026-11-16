@@ -1,0 +1,70 @@
+{
+  "name": "Day 185 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "517998",
+          "text": "<p>Consider the following sequence of three-address code (TAC) instructions:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">1. i = 1\n2. j = 1\n3. t1 = 5 * i\n4. t2 = t1 + j\n5. a[t2] = 0\n6. j = j + 1\n7. if j &lt;= 5 goto (3)\n8. i = i + 1\n9. if i &lt;= 5 goto (2)</pre><p>Which of the following optimization techniques can be successfully applied to this code to reduce the number of multiplications performed inside the inner loop?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>CONSTANT FOLDING<br>&nbsp;</li><li>CODE MOTION<br>&nbsp;</li><li>LOOP UNROLLING<br>&nbsp;</li><li>DEAD CODE ELIMINATION</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 185"
+        },
+        {
+          "post_id": "517995",
+          "text": "<p>Consider the following grammar $G$ with start symbol $S$ :</p><p>$$<br>\\begin{aligned}<br>& S \\rightarrow L=R \\\\<br>& S \\rightarrow R \\\\<br>& L \\rightarrow * R \\\\<br>& L \\rightarrow i d . \\\\<br>& R \\rightarrow L<br>\\end{aligned}<br>$$</p><p><br>Let $I$ be the set of $L R(1)$ items. During the construction of the canonical $L R(1)$ parsing table, a state contains the following items:</p><p>$$<br>\\begin{aligned}<br>& L \\rightarrow i d \\cdot,[=] \\\\<br>& R \\rightarrow L^{\\cdot},[\\$]<br>\\end{aligned}<br>$$</p><p><br>Which of the following statements is <strong>TRUE</strong> regarding this state?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THERE IS A SHIFT-REDUCE CONFLICT.<br>&nbsp;</li><li>THERE IS A REDUCE-REDUCE CONFLICT.<br>&nbsp;</li><li>THERE IS NO CONFLICT IN THIS STATE FOR AN $\\mathrm{LR(1)}$ PARSER.<br>&nbsp;</li><li>THIS STATE WILL RESULT IN A REDUCE-REDUCE CONFLICT ONLY IN AN $\\mathrm{SLR(1)}$ PARSER.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 185"
+        },
+        {
+          "post_id": "517992",
+          "text": "<p>Consider the following basic block of Three-Address Code:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">1. a = 1\n2. b = a + 1\n3. c = a + b\n4. a = c + b\n5. return a</pre><p>A variable is live at a point if its current value will be used in the future before being redefined. Assuming only the variable $\\mathrm{a}$ is live at the exit of this block, which variables are live immediately after statement $2$ has executed?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\{\\mathrm{a, b}\\}$<br>&nbsp;</li><li>$\\{\\mathrm{b, c}\\}$<br>&nbsp;</li><li>$\\{\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\}$<br>&nbsp;</li><li>$\\{\\mathrm{a, c}\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 185"
+        },
+        {
+          "post_id": "517989",
+          "text": "Consider the following Syntax-Directed Translation (SDT) scheme with the grammar rules and actions provided below:<br>\n<br>\n$$<br>\n\\begin{aligned}<br>\n& S \\rightarrow S_1 \\# T\\left\\{S . \\mathrm{val}=S_1 . \\mathrm{val}-T . \\mathrm{val}\\right\\} \\\\<br>\n& S \\rightarrow T\\{S . \\mathrm{val}=T . \\mathrm{val}\\} \\\\<br>\n& T \\rightarrow T_1 \\% i d\\left\\{T . \\mathrm{val}=T_1 . \\mathrm{val} \\times i d . \\mathrm{val}\\right\\} \\\\<br>\n& T \\rightarrow i d\\{T . \\mathrm{val}=i d . \\mathrm{val}\\}<br>\n\\end{aligned}<br>\n$$<br>\n<br>\nWhat is the value of $S.\\mathrm{val}$ for the input expression$: 10 \\# 2 \\% 3 \\# 4$?",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 185"
+        },
+        {
+          "post_id": "517984",
+          "text": "<p>Consider the following lexical specification for a scanner:</p><ol><li>$\\mathrm{KEYWORD\\_IF:&nbsp;\\verb|if|}$<br>&nbsp;</li><li>$\\mathrm{ID: [a-z][0-9]*}$<br>&nbsp;</li><li>$\\mathrm{NUM: [0-9]+}$<br>&nbsp;</li></ol><p>The scanner follows the Longest Match rule. In case of a tie in length, the token defined first in the specification takes priority. How many tokens will be generated for the input string \"$\\verb|if20if|$\"?</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 185"
+        }
+      ]
+    }
+  ]
+}

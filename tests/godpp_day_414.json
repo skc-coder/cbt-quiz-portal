@@ -1,0 +1,70 @@
+{
+  "name": "Day 292 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534526",
+          "text": "<p data-start=\"2178\" data-end=\"2247\">Simplify $F=(A+B+C)(A+B+\\overline{C})(A+\\overline{B}+C)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2249\" data-end=\"2306\">$A+BC$<br>&nbsp;</li><li data-start=\"2249\" data-end=\"2306\">$A+B+C$<br>&nbsp;</li><li data-start=\"2249\" data-end=\"2306\">$AB+C$<br>&nbsp;</li><li data-start=\"2249\" data-end=\"2306\">$A+\\overline{B}C$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 292"
+        },
+        {
+          "post_id": "534528",
+          "text": "<p data-start=\"2907\" data-end=\"2970\">Simplify $F=(A+\\overline{B})(A+C)+A\\overline{C}+B$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2972\" data-end=\"3040\">$A+B+C$<br>&nbsp;</li><li data-start=\"2972\" data-end=\"3040\">$A+\\overline{B}C$<br>&nbsp;</li><li data-start=\"2972\" data-end=\"3040\">$A+B\\overline{C}$<br>&nbsp;</li><li data-start=\"2972\" data-end=\"3040\">$AB+C$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 292"
+        },
+        {
+          "post_id": "534524",
+          "text": "<p data-start=\"1598\" data-end=\"1671\">Simplify the Boolean expression $F=(A+B)(\\overline{A}+C)+BC$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1673\" data-end=\"1729\">$AC+\\overline{A}B$<br>&nbsp;</li><li data-start=\"1673\" data-end=\"1729\">$AC+BC$<br>&nbsp;</li><li data-start=\"1673\" data-end=\"1729\">$A+B$<br>&nbsp;</li><li data-start=\"1673\" data-end=\"1729\">$B+C$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 292"
+        },
+        {
+          "post_id": "534534",
+          "text": "<p data-start=\"169\" data-end=\"241\">In the base $8$ subtraction shown below, find the digit $x$.</p><p data-start=\"243\" data-end=\"271\">$$(6251)_8-(3x74)_8=(2555)_8$$</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 292"
+        },
+        {
+          "post_id": "534530",
+          "text": "<p data-start=\"123\" data-end=\"302\">Consider an $8$-bit signed integer system using $2$’s complement representation. For how many integer values of $x$ does the arithmetic left shift operation $(x &lt;&lt; 1$, i.e left shifting $x$ by $1$ bit) produce a result equivalent to the algebraic value of $2x$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"304\" data-end=\"344\">$64$<br>&nbsp;</li><li data-start=\"304\" data-end=\"344\">$127$<br>&nbsp;</li><li data-start=\"304\" data-end=\"344\">$128$<br>&nbsp;</li><li data-start=\"304\" data-end=\"344\">$129$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 292"
+        }
+      ]
+    }
+  ]
+}

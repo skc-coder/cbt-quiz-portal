@@ -1,0 +1,30 @@
+{
+  "name": "Day 334 [Algorithms]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "541994",
+          "text": "<p data-start=\"226\" data-end=\"256\">Consider the following C code:</p><pre data-start=\"258\" data-end=\"387\" data-rawcode=\"int sum = 0;  for (int i = 0; i &lt; n; i++) {     sum += i;      int k = n;     while (k &gt; 0) {         k = k / 2;     } }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int sum = 0;\n\nfor (int i = 0; i &lt; n; i++) {\n    sum += i;\n\n    int k = n;\n    while (k &gt; 0) {\n        k = k / 2;\n    }\n}</pre><p data-start=\"389\" data-end=\"417\">What is the time complexity?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"419\" data-end=\"478\">$O(n)$<br>&nbsp;</li><li data-start=\"419\" data-end=\"478\">$O(\\log n)$<br>&nbsp;</li><li data-start=\"419\" data-end=\"478\">$O(n \\log n)$<br>&nbsp;</li><li data-start=\"419\" data-end=\"478\">$O(n^2)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 334"
+        }
+      ]
+    }
+  ]
+}

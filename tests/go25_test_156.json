@@ -1,0 +1,352 @@
+{
+  "name": "GATE Overflow CS Test Series 2025 | Computer Networks | Shallow Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "457823",
+          "text": "An IP datagram of $3500\\;\\text{bytes}$ needs to be forwarded over a link with a Maximum Transmission Unit (MTU) of $500\\;\\text{bytes}$. The IP header is $20\\;\\text{bytes}$. How much data will the last fragment carry, excluding the IP header?",
+          "type": "Numerical",
+          "answer": "120:120",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,ip-datagram,normal,one-mark",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457787",
+          "text": "A communication link operates with a bit rate of $4 \\;\\text{Mbps}$, and the one-way propagation delay is $20\\;\\text{ms}$. The link uses a Stop-and-Wait ARQ protocol, and the frame size is $500\\;\\text{bytes}$. The acknowledgment packets are assumed to have negligible transmission time. Given these parameters, if the system aims to achieve a channel efficiency of at least $60\\%,$ you are required to calculate the actual channel efficiency for the system based on the provided values.",
+          "type": "Numerical",
+          "answer": "2.4:2.4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,stop-and-wait,network-flow,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457803",
+          "text": "Consider a shared communication channel where $200-bit$ frames are transmitted using pure ALOHA. The channel operates at a data rate of $150 Kbps$ and the system generates $300$ frames per second. What is the expected proportion of transmitted frames in percentage that will likely encounter a collision?",
+          "type": "Numerical",
+          "answer": "82.0:82.03",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,pure-aloha,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457793",
+          "text": "Host $ A $ is transmitting data to host $ B $ over a full-duplex link. Both hosts are using a sliding window protocol for flow control. The sender window size is $ 6 $ packets, and the receiver window size is $ 1 $ packet, meaning the receiver can only hold and acknowledge the last successfully received packet. Data packets, transmitted only from $ A $ to $ B $, are each $ 1000\\;\\text{bytes} $ long. The link capacity is $200\\;\\text{Mbps} $, and acknowledgment packets, which are very small, require negligible transmission time. The propagation delay on the link is $ 150\\;\\mu s $.<br />If a packet is lost or corrupted, all subsequent packets from $ A $ must be retransmitted until the lost packet is successfully received by $ B $. What is the maximum achievable throughput (in Mbps, rounded to one decimal point) for this communication?",
+          "type": "Numerical",
+          "answer": "141.1:141.2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,sliding-window-protocol,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457797",
+          "text": "Consider a network with three hosts: $ X $, $ Y $, and $ Z $, connected in a linear topology. The communication link between each pair of adjacent hosts has a data rate of $ 5 \\times 10^6 \\;\\text{bits/sec} $. The distance between each consecutive pair of hosts is $ 8,000 \\;\\text{km} $, and the signal propagation speed along the link is $ 1.5 \\times 10^8 \\;\\text{m/sec} $. Host $ X $ sends a file of $ 40,000 \\;\\text{bytes} $ as one large message to host $ Z $ through host $ Y $ continuously.<br />Let the transmission delay between each pair of adjacent hosts be $ p $ milliseconds, and the propagation delay between each pair of adjacent hosts be $ q $ milliseconds. What is the value of $ 3p + 2q $ (in milliseconds)?",
+          "type": "Numerical",
+          "answer": "298.0:298.66",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,network-communication,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457777",
+          "text": "You are tasked with verifying whether two given IP addresses belong to the same subnet. The subnet mask for the network is $255.255.240.0$.<br />For each of the following pairs of IP addresses, which of them belong to the same network? (Select all that apply.)<br /><ol style=\"list-style-type:upper-alpha\"><li> $192.168.48.15$ and $192.168.55.23$</li><li> $10.14.18.22$ and $10.14.40.50$</li> <li>$172.25.30.55$ and $172.25.45.10$</li>  <li>$198.100.120.30$ and $198.100.80.75$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,subnetting,normal,multiple-selects,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457795",
+          "text": "<p>A communication link has a capacity of $500\\;\\text{Mbps}$ and is shared by several sources. Each source generates traffic in an on-off pattern; during the \"on\" state, the source transmits data at a rate of $15\\;\\text{Mbps}$, and during the \"off\" state, the traffic rate is zero. The duty cycle (the ratio of on-time to off-time) of each source is $2:3$.<br><strong>1:</strong> If there is no buffering at the link, the minimum number of sources that can be multiplexed on the link such that the link is fully utilized and no data loss occurs is A.<br><strong>2:</strong> If the link has a large buffer and all sources are synchronized, the maximum number of sources that can be multiplexed on the link without any data loss is $ B $.<br>calculate the value of $ A + B $.</p>",
+          "type": "Numerical",
+          "answer": "116:116",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,network-flow,link-utilization,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457785",
+          "text": "Host $ P $ is sending a TCP segment containing $ 7800\\;\\text{bytes} $ of data to host $ Q $ over a network. The maximum transmission unit (MTU) for the link is $ 1500\\;\\text{bytes} $. The TCP header is $ 20\\;\\text{bytes} $ and the IP header is $ 20\\;\\text{bytes} $, and no options are present in the headers. Given these parameters, calculate the total number of IP fragments required for the transmission and the value of the offset field in the last fragment.<br />If the total number of IP fragments is $ m $ and the offset field in the last fragment is $ n $, what is the value of $ m + n $?",
+          "type": "Numerical",
+          "answer": "931:931",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,ip-fragmentation,ip-packet,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457831",
+          "text": "Which of the following statements about Ethernet and link layer protocols is correct?<br /><ol style=\"list-style-type:upper-alpha\"><li> Ethernet uses a connection-oriented protocol to ensure reliable data transmission between devices on a local area network (LAN).</li><li> The Ethernet protocol utilizes Carrier Sense Multiple Access with Collision Detection (CSMA/CD) to manage access to the shared transmission medium and handle collisions.</li> <li>Ethernet frames have a fixed size of 64 bytes, which includes the preamble, MAC addresses, type/length field, data payload, and CRC.</li>  <li>Link layer protocols, such as Ethernet, operate at the network layer of the OSI model and are responsible for end-to-end data delivery across different networks.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-cn-shallow-1,ethernet,one-mark",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457817",
+          "text": "<p>Which of the following statements accurately describe the characteristics of the User Datagram Protocol (UDP)? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>UDP does not handle retransmissions or error recovery; these tasks are typically handled at the application layer or by higher-layer protocols if needed.</li><li>UDP headers include a checksum that covers both the payload and the header, but the protocol does not include mechanisms for ensuring data order or reliability during transmission.</li><li>Unlike TCP, UDP does not implement flow control or congestion control, which can lead to packet loss in congested networks without notifying the sender.</li><li>UDP's connectionless nature and lack of a handshake mechanism reduce protocol overhead, making it ideal for time-sensitive applications where low latency is preferred over guaranteed delivery, such as DNS queries or real-time VoIP calls.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,udp,multiple-selects,one-mark",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457775",
+          "text": "You are working with a router that has the following routing table configuration:<br />$$\\begin{array}{|c|c|c|}<br />\\hline<br />\\text{Destination} & \\text{Subnet Mask} & \\text{Interface}<br />\\\\\\hline<br />203.15.30.0 & 255.255.255.192 & \\text{Eth1}\\\\\\hline<br />203.15.30.0 & 255.255.255.0 & \\text{Eth2}\\\\\\hline<br />198.51.100.1 & 255.255.255.255 & \\text{Eth3}\\\\\\hline<br />\\text{Default} & & \\text{Eth4}<br />\\\\\\hline<br />\\end{array}$$<br />Given the above routing table, determine the interfaces to which the router will forward packets with the destination IP addresses $203.15.30.64$ and $198.51.100.5$ respectively?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\text{Eth2 and Eth3}$</li><li> $\\text{Eth1 and Eth4}$</li> <li>$\\text{Eth1 and Eth3}$</li>  <li>$\\text{Eth2 and Eth4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-cn-shallow-1,subnetting,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457773",
+          "text": "Which of the following statements about Ethernet networks are true? (Mark all the appropriate choices.)<br /><ol style=\"list-style-type:upper-alpha\"><li> Ethernet frames include a 4-byte Frame Check Sequence (FCS) for error detection, ensuring data integrity during transmission.</li><li> In a switched Ethernet network, the MAC address of a device is used by switches to forward frames to the correct destination port. Routers use IP addresses for packet forwarding between networks.</li> <li>Ethernet operates in both half-duplex and full-duplex modes. In full-duplex mode, devices can send and receive data simultaneously without collisions.</li>  <li>The maximum payload size of an Ethernet frame (excluding preamble and FCS) is 1500 bytes. Larger packets are typically fragmented at the network layer.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,ethernet,multiple-selects,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457799",
+          "text": "Consider a communication link operating at a speed of $ 1 \\times 10^6 $ bits/sec. The data packets being transmitted are each $1000$ bytes in size. Assume that the acknowledgment packets incur negligible delay, and processing times at both ends of the link are negligible. Under the Stop-and-Wait ARQ, the system achieves an efficiency of $50\\%$. Given this setup, how many data packets will be transmitted over the link in a span of $10$ seconds?",
+          "type": "Numerical",
+          "answer": "625:625",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,stop-and-wait,mac-protocol,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457779",
+          "text": "A TCP message consisting of $3200 \\;\\text{bytes}$ is passed to IP for delivery across three different networks. The first network can carry a maximum payload of $1500 \\;\\text{bytes}$ per frame, the second network supports a maximum payload of $4000 \\;\\text{bytes}$ per frame, and the third network allows a maximum payload of $6000 \\;\\text{bytes}$ per frame, excluding network overhead. The IP header size is $20 \\;\\text{bytes}$ per packet. How many total IP packets will be required to transmit the message across all three networks?",
+          "type": "Numerical",
+          "answer": "3:3",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,ip-fragmentation,network-flow,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457805",
+          "text": "In a time-slotted Medium Access Control (MAC) system, each of the $10$ devices in a network attempts to transmit with a probability of $ p = 0.25 $ during each time slot. If more than one device transmits in the same slot, a collision occurs and no transmission is successful. Assuming that each device always has data to send, what is the expected throughput (i.e., the number of successful transmissions per time slot) for this system?",
+          "type": "Numerical",
+          "answer": "0.18:0.19",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,mac-protocol,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457821",
+          "text": "<p>Consider a network setup where a source node $P$ sends data to a destination node $Q$ through three intermediate routers. During the transmission:</p><ul><li>Let $d$ represent the number of data link layer accesses each packet encounters at each router.</li><li>Let $n$ represent the number of network layer accesses each packet encounters at each router.</li></ul><p>Each packet goes through all three routers, encountering both data link and network layer operations at each router.<br>Given that the path includes three routers, calculate the total number of accesses (both data link and network layer) the packet encounters during the entire transmission from $P$ to $Q$.</p>",
+          "type": "Numerical",
+          "answer": "13:13",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,network-layering,normal,one-mark",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457781",
+          "text": "In an $IPv4$ network, each host has a real-time clock with a $1$ millisecond resolution and a battery backup. Each host is required to generate up to $32$ unique identifiers per second. If the host needs to generate unique identifiers for a duration of $1$ hour without any overlap, what is the minimum number of bits required to design a globally unique identifier for this purpose?",
+          "type": "Numerical",
+          "answer": "59:59",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,ip-addressing,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457813",
+          "text": "Which of the following statements about Ethernet communication and networking devices is correct? (Select all that apply)<br /><ol style=\"list-style-type:upper-alpha\"><li> Ethernet uses MAC (Media Access Control) addresses to identify devices on the network, and data frames are forwarded based on these addresses.</li><li> Full-duplex communication is supported by switches, allowing devices connected to individual ports to transmit and receive simultaneously without collisions.</li> <li>Bridges and switches break up collision domains but maintain a single broadcast domain, while routers separate both collision and broadcast domains.</li>  <li>Simplex communication, where data flows in one direction only, is typically used in Ethernet networks to connect devices like printers or monitors.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,ethernet,normal,multiple-selects,one-mark",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457825",
+          "text": "<p>A router has four Ethernet interfaces, each running at $\\text{1 Gbps}$ in full-duplex mode. The minimum size of Ethernet frames is $\\text{64 bytes}$. What is the maximum time the router can take to process a packet for line-rate forwarding to be maintained (in microseconds)?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$0.64$<br> </li><li>$1.28$<br> </li><li>$0.32$<br> </li><li>$0.512$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-cn-shallow-1,ethernet,normal,one-mark",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457801",
+          "text": "In a slotted ALOHA system, $500-bit$ frames are transmitted over a shared channel with a bandwidth of $500 Kbps$. The system has a frame generation rate of $150$ frames per second. What is the expected number of successful transmissions (i.e., frames that do not experience collisions) in one second? Round your answer to the nearest integer.",
+          "type": "Numerical",
+          "answer": "19:19",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,slotted-aloha,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457807",
+          "text": "Imagine you are tasked with setting up a network for a small office with $48$ computers. The office has access to Ethernet switches that each come with $7$ total ports. Given that you must use one of these ports to connect the switches together, what's the fewest number of switches you would need to ensure that all computers are connected?",
+          "type": "Numerical",
+          "answer": "10:10",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,switches,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457783",
+          "text": "In the $IPv4$ addressing format, the number of usable hosts in a network under Class A, Class B, and Class C addressing schemes are $2^x - 2$, $2^y - 2$, and $2^z - 2$ respectively (since 2 addresses are reserved for network and broadcast). What is the value of $2x + 3y + 5z$?",
+          "type": "Numerical",
+          "answer": "136:136",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,ip-addressing,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457827",
+          "text": "<p>Consider a device that is part of a company's internal network, which is connected to a regional network that serves multiple companies, and this regional network is part of the global internet. Which of the following statements is true regarding the uniqueness of the device's IP address?</p><ol style=\"list-style-type:upper-alpha\"><li>The IP address of the device must be unique within the company's internal network only.</li><li>The device's IP address must be globally unique across the regional network to ensure proper routing.</li><li>The IP address of the device needs to&nbsp;be unique&nbsp;within the global internet.</li><li>The device's IP address must be unique within the global internet to ensure its proper identification across all networks.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-cn-shallow-1,networking,normal,one-mark",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457829",
+          "text": "Consider the following scenarios involving the User Datagram Protocol (UDP). Which of the following are potential advantages and limitations of using UDP for data transmission? (Select all that apply)<br /><ol style=\"list-style-type:upper-alpha\"><li> UDP is ideal for applications where low latency and high throughput are critical, and where occasional packet loss can be tolerated, such as in streaming media.</li><li> UDP guarantees the order in which packets are delivered to the receiver, ensuring data integrity in transmission.</li> <li>UDP's lack of connection establishment and control mechanisms results in faster communication, but it can lead to data corruption and loss without higher-layer error handling.</li>  <li>UDP is preferred for applications where reliable delivery and retransmission of lost packets are required, as it automatically handles retransmissions and acknowledgments.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,udp,multiple-selects,one-mark",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457811",
+          "text": "To ensure proper collision detection in a CSMA/CD network operating at $5\\;\\text{Gbps}$ over a $1.5\\;\\text{km}$ cable (without any repeaters), with a signal propagation speed of $2.5 \\times 10^8\\;\\text{m/s}$, what is the minimum frame length required for the sender to be able to detect a collision before it finishes transmitting?<br /><ol style=\"list-style-type:upper-alpha\"><li> $15000\\; \\text{bytes}$<br />   </li><li> $7500\\; \\text{bytes}$<br />  </li> <li>$10000\\; \\text{bytes}$<br /> </li>  <li>$8500\\; \\text{bytes}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-cn-shallow-1,csma-cd,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457789",
+          "text": "A communication link with a data rate of $5 \\;\\text{Mbps}$ connects two ground stations via a satellite. The satellite operates at an altitude of $36,000\\;\\text{km}$, and the propagation speed of the signal is $3 \\times 10^8 \\;\\text{m/s}$. A Go-Back-127 sliding window protocol is used for data transmission.<br />Assume that acknowledgment packets are negligible in size and there are no errors during transmission. To achieve a channel utilization of $40\\%$, what is the minimum packet size (in bytes, rounded to one decimal place) required for the system?",
+          "type": "Numerical",
+          "answer": "787.3:787.4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,sliding-window,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457815",
+          "text": "<p>Which of the following statements about TCP flow control and congestion control mechanisms are correct? (Select all that apply)<br> </p><ol style=\"list-style-type:upper-alpha\"><li>The receiver&nbsp;advertised window size controls how much data the sender can send based on the available buffer space at the receiver.</li><li>The congestion window (cwnd) dynamically adjusts to avoid network congestion, with the sender controlling how much data can be sent based on network conditions.</li><li>Flow control in TCP ensures the sender does not overwhelm the receiver's buffer by adjusting the sender's transmission rate according to the available bandwidth.</li><li>During the slow start phase, TCP increases the congestion window exponentially until it reaches the slow start threshold (ssthresh), after which it shifts to linear growth.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,tcp,multiple-selects,one-mark",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457809",
+          "text": "In an Ethernet network with two stations, $ A $ and $ B $, each continuously sending frames, both stations attempt to transmit at the same time and collide. Station $ A $ wins the first back-off race, and after $ A $ successfully transmits, both $ A $ and $ B $ attempt to transmit again and collide. What is the probability that station $ A $ will win the second back-off race?\n\nA. $ \\dfrac{5}{8} $\n\nB. $ \\dfrac{1}{16} $\n\nC. $ \\dfrac{1}{8} $\n\nD. $ \\dfrac{3}{16} $",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-cn-shallow-1,ethernet,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457791",
+          "text": "Station $ X $ needs to send a message consisting of 15 packets to station $ Y $ using a sliding window protocol with a window size of 5 and Go-Back-N (GBN) error control strategy. All packets are immediately available for transmission. If every $ 4^{\\text{th}} $ packet that $ X $ transmits is lost (but no acknowledgments from $ Y $ ever get lost), how many retransmissions will $ X $ need to perform in order to successfully send the message to $ Y $?",
+          "type": "Numerical",
+          "answer": "8:8",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-cn-shallow-1,numerical-answers,sliding-window,normal,two-marks",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "457819",
+          "text": "<p>Which of the following mappings is CORRECT based on the general characteristics of IPv4 address types?<br> </p><p>$\\begin{array}{|cl|cl|}<br>\\hline<br>\\text{I. Used for local communication within a network,}\\\\ \\text{auto-assigned if no DHCP is available.} &amp;&amp; \\text{a. Link-Local Address} \\\\<br>\\hline<br>\\text{II. Reserved for private networks, not routable on the public internet.} &amp;&amp; \\text{b. Private Address} \\\\<br>\\hline<br>\\text{III. Used by a device to communicate with itself for diagnostic purposes.} &amp;&amp; \\text{c. Loopback Address} \\\\<br>\\hline<br>\\end{array} $<br> </p><p>Which of the following options correctly matches the descriptions with the corresponding address types?</p><ol style=\"list-style-type:upper-alpha\"><li>I - a, II - b, III - c<br> </li><li>I - c, II - a, III - b<br> </li><li>I - b, II - c, III - a<br> </li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-cn-shallow-1,ip-addressing,normal,one-mark",
+          "category": "Computer Networks"
+        }
+      ]
+    }
+  ]
+}

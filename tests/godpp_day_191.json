@@ -1,0 +1,70 @@
+{
+  "name": "Day 187 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "518659",
+          "text": "<p>Consider the following grammar $g$ :</p><p>$$<br>\\begin{gathered}<br>s \\rightarrow l=r \\mid r \\\\<br>l \\rightarrow * r \\mid i d \\\\<br>r \\rightarrow l<br>\\end{gathered}<br>$$</p><p>Which of the following statements is/are correct regarding the parsing of grammar $g$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>the grammar $g$ is $l r(0)$ because there are no shift-reduce or reduce-reduce conflicts.<br>&nbsp;</li><li>the grammar $g$ is $\\operatorname{slr}(1)$ because all shift-reduce conflicts can be resolved using follow sets.<br>&nbsp;</li><li>there is a shift-reduce conflict in the $\\operatorname{slr}(1)$ parsing table for the state containing the items $\\{s \\rightarrow l \\cdot=r, r \\rightarrow l \\cdot\\}$.<br>&nbsp;</li><li>the grammar $g$ is $\\operatorname{lalr}(1)$ but not $\\operatorname{slr}(1)$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 187"
+        },
+        {
+          "post_id": "518655",
+          "text": "<p>Consider the following basic block of three-address code:</p><ol><li>$\\mathrm{t 1=a+b}$<br>&nbsp;</li><li>$\\mathrm{t 2=c* d}$<br>&nbsp;</li><li>$\\mathrm{t} 3=\\mathrm{t} 1+\\mathrm{t} 2$<br>&nbsp;</li><li>$\\mathrm{a=t 3}$<br>&nbsp;</li><li>$\\mathrm{t 4=c*d}$<br>&nbsp;</li><li>$\\mathrm{b}=\\mathrm{t} 1+\\mathrm{t} 4$</li></ol><p>Assuming '$\\mathrm{a}$' and '$\\mathrm{b}$' are live at the end of the block, which of the following represents the optimized code after applying Common Subexpression Elimination (CSE) and Copy Propagation?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{t&nbsp;1=a+b ; ~t 2=c* d ; ~a=t 1+t 2 ; ~b=t 1+t 2}$<br>&nbsp;</li><li>$\\mathrm{t1 = a + b; ~t2 = c * d; ~t3 = t1 + t2; ~a = t3; ~t4 = c * d; b = t1 + t4}$<br>&nbsp;</li><li>$\\mathrm{t 1=a+b ; ~t 2=c* d ; ~a=t 1+t 2 ; ~b=a}$<br>&nbsp;</li><li>$\\mathrm{t1= a+b; ~a = t1+ (c*d); ~b = t1 + (c*d)}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 187"
+        },
+        {
+          "post_id": "518646",
+          "text": "Consider the following SDT scheme used to evaluate an expression. The synthesized attribute $\\mathrm{val}$ stores the numerical value.<br>\n\\[<br>\n\\begin{aligned}<br>\nE &\\rightarrow E_1 + T \\quad \\{\\, E.\\text{val} = E_1.\\text{val} + T.\\text{val} \\,\\} \\\\<br>\nE &\\rightarrow T \\quad \\{\\, E.\\text{val} = T.\\text{val} \\,\\} \\\\<br>\nT &\\rightarrow T_1 * F \\quad \\{\\, T.\\text{val} = T_1.\\text{val} \\times F.\\text{val} \\,\\} \\\\<br>\nT &\\rightarrow F \\quad \\{\\, T.\\text{val} = F.\\text{val} \\,\\} \\\\<br>\nF &\\rightarrow (E) \\quad \\{\\, F.\\text{val} = E.\\text{val} \\,\\} \\\\<br>\nF &\\rightarrow \\text{digit} \\quad \\{\\, F.\\text{val} = \\text{digit.lexval} \\,\\}<br>\n\\end{aligned}<br>\n\\]<br>\nFor the input string $3 * 4+5 *(2+1)$, what is the value of $E.\\mathrm{val}$ at the root of the dependency graph?",
+          "type": "Numerical",
+          "answer": "27",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 187"
+        },
+        {
+          "post_id": "518644",
+          "text": "<p>Consider the following grammar $G$ with terminal set $\\Sigma=\\{a, b, c, d\\}$ and non-terminal set $V=\\{S, A, B\\}$ :</p><p>$$<br>\\begin{gathered}<br>S \\rightarrow a A b \\mid b B a \\\\<br>A \\rightarrow c S \\mid \\epsilon \\\\<br>B \\rightarrow d S \\mid \\epsilon<br>\\end{gathered}<br>$$</p><p><br>Which of the following statements is/are CORRECT regarding the $\\mathrm{LL(1)}$&nbsp;parsing table for grammar $G$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE $\\mathrm{FIRST}(S)$ SET CONTAINS $\\{a, b\\}$.<br>&nbsp;</li><li>THE $\\mathrm{FOLLOW}(A)$ SET CONTAINS $\\{b\\}$.<br>&nbsp;</li><li>THERE IS A REDUCE-REDUCE CONFLICT IN THE PARSING TABLE.<br>&nbsp;</li><li>THE GRAMMAR $G$ IS $\\mathrm{LL(1)}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 187"
+        },
+        {
+          "post_id": "518649",
+          "text": "<p>Consider the following regular expression over the alphabet $\\{a, b\\}$ used for a lexical analyzer token definition:<br>$$<br>R=(a+b)^*(a a+b b)(a+b)^*<br>$$<br>Which of the following describes the language $L(R)$ and the properties of its corresponding Minimal Deterministic Finite Automata (MDFA)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE LANGUAGE CONSISTS OF ALL STRINGS CONTAINING AT LEAST ONE PAIR OF CONSECUTIVE IDENTICAL SYMBOLS, AND THE MDFA HAS $3$ STATES.<br>&nbsp;</li><li>THE LANGUAGE CONSISTS OF ALL STRINGS ENDING WITH $aa$&nbsp;OR $bb$, AND THE MDFA HAS $4$ STATES.<br>&nbsp;</li><li>THE LANGUAGE CONSISTS OF ALL STRINGS CONTAINING AT LEAST ONE PAIR OF CONSECUTIVE IDENTICAL SYMBOLS, AND THE MDFA HAS $4$ STATES.<br>&nbsp;</li><li>THE LANGUAGE CONSISTS OF ALL STRINGS WHERE EVERY $a$&nbsp;IS FOLLOWED BY ANOTHER $a$, AND THE MDFA HAS $2$ STATES.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 187"
+        }
+      ]
+    }
+  ]
+}

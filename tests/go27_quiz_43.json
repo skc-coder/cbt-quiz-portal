@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_43",
+  "name": "GO Classes GATE CS | Digital Logic | Number System | Weekly Quiz 9",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "480241",
+          "text": "<p>How many numbers in the range ${0, 1, \\dots , 1365}$ have exactly four $1$’s&nbsp;in their binary representation? (Hint: $1365_{10}$ is $10101010101_{2}$, that is, $$1365=2^{10} + 2^{8}+2^{6}+2^{4}+2^{2}+2^{0}.)$$</p><p>In the following, the binomial coefficient $\\binom{n}{k}$ counts the number of $k$-element subsets of an $n$-element set.</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$\\binom{6}{4}$</li></ol><ol start=\"2\" style=\"list-style-type:upper-alpha\" type=\"A\"><li>$\\binom{10}{4}$</li></ol><ol start=\"100\" style=\"list-style-type:upper-roman\" type=\"I\"><li>$\\binom{10}{4}+\\binom{8}{3}+\\binom{6}{2}+\\binom{5}{1}$</li></ol><ol start=\"500\" style=\"list-style-type:upper-roman\" type=\"I\"><li>$\\binom{11}{4}+\\binom{9}{3}+\\binom{7}{2}+\\binom{5}{1}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480249",
+          "text": "<p>The sum $110101_{2} + 101_{2}$ is equivalent to:</p><ol style=\"list-style-type:upper-alpha\"><li>None of the others<br> </li><li>$111010_{10}$<br> </li><li>$=65_{8} + 5_{8}$<br> </li><li>$00111010_{2}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,multiple-selects,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480243",
+          "text": "<p>The octal number $326.4$ is equivalent to</p><ol style=\"list-style-type: upper-alpha;\"><li>$(214.2)_{10}$ and $(D6.8)_{16}$<br> </li><li>$(212.5)_{10}$ and $(D6.8)_{16}$&nbsp;<br> </li><li>$(214.5)_{10}$ and $(D6.8)_{16}$&nbsp;<br> </li><li>$(214.5)_{10}$ and $(D6.4)_{16}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480244",
+          "text": "<p>A number in $4$-bit $2$s complement signed representation is $a_3 a_2 a_1 a_0$. The same number, when stored using $8$ bits, will appear like:</p><ol style=\"list-style-type:upper-alpha\"><li>$0000\\ a_3\\ a_2\\ a_1\\ a_0$<br> </li><li>$a_3' \\; a_3' \\; a_3' \\; a_3' \\; a_3 \\; a_2 \\; a_1 \\; a_0$<br> </li><li>$a_3\\ a_2\\ a_1\\ a_0\\ a_3\\ a_2\\ a_1\\ a_0$<br> </li><li>$a_3\\ a_3\\ a_3\\ a_3\\ a_3\\ a_2\\ a_1\\ a_0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480252",
+          "text": "<p>The string $ABBA$ may represent:</p><ol style=\"list-style-type:upper-alpha\"><li>A number in base $16$<br> </li><li>A number in base $10$<br> </li><li>A number in base $14$<br> </li><li>A $70$s pop group</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,one-mark,multiple-selects",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480257",
+          "text": "<p>The number $233_{10}$ is equal to the following:</p><ol style=\"list-style-type:upper-alpha\"><li>$10101001_{2}$<br> </li><li>$11001001_{2}$<br> </li><li>$11111001_{2}$<br> </li><li>$11101001_{2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,one-mark",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480253",
+          "text": "<p>Which representation schemes allow performing the $9$'s complement of decimal digits by simply taking the one's complement of their binary representations?</p><ol style=\"list-style-type:upper-alpha\"><li>$2421$ code<br> </li><li>the $2$'s complement number system<br> </li><li>XS-$3$ code (Excess-$3$ Code)<br> </li><li>$8421$ code</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,one-mark,multiple-selects",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480250",
+          "text": "<p>The hexadecimal number $67565_{16}$ has a value:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$=1472545_{8}$<br> </li><li>$&lt;67565_{10}$<br> </li><li>$&lt;F0000_{16}$<br> </li><li>$\\leq 1000000_{10}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,two-marks,multiple-selects",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480256",
+          "text": "<p>The number $233_8$ is equal to the following:</p><ol style=\"list-style-type:upper-alpha\"><li>$150_{10}$<br> </li><li>$164_{10}$<br> </li><li>$155_{10}$<br> </li><li>$159_{10}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,one-mark",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480247",
+          "text": "<p>The binary number $11010.110001$ is equivalent to:</p><ol style=\"list-style-type:upper-alpha\"><li>$1.110110001 \\times 2^{6}$<br> </li><li>$1.110110001 \\times 2^{4}$<br> </li><li>$0.11010110001 \\times 2^{5}$<br> </li><li>$1.110110001 \\times 2^{5}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480251",
+          "text": "<p>Express the unsigned fixed-point binary $0011110010_{2}$ as a decimal, assuming the format $bbbbb.bbbbb_{2}$:</p><ol style=\"list-style-type:upper-alpha\"><li>$7.06250$<br> </li><li>$6.56250$<br> </li><li>$-7.56250$<br> </li><li>$7.56250$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480248",
+          "text": "<p>The binary product $110101_{2} \\times 101_{2}$ is equivalent to:</p><ol style=\"list-style-type:upper-alpha\"><li>None of the others<br> </li><li>$110101_{2} + 11010100_{2}$<br> </li><li>$110101_{2} + 1101010_{2}$<br> </li><li>$5_{10} \\times 65_{8}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,two-marks,multiple-selects",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480246",
+          "text": "<p>What are the decimal values of the binary number ($8$ bits) $10011001$, considering the unsigned representation and the two's complement representation, respectively?</p><ol style=\"list-style-type:upper-alpha\"><li>$153,-102$<br> </li><li>$100,-101$<br> </li><li>$153,-103$<br> </li><li>$129, 103$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,two-marks",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480242",
+          "text": "Given\n\n$(135)_x+(144)_x=(323)_x$\n\nWhat is the value of base $x$ ?",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,two-marks,numerical-answers",
+          "category": "Digital Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "480255",
+          "text": "<p>What is the magnitude of the $10$-bit&nbsp; $2's$ complement number $1011100010_2$?</p><ol style=\"list-style-type:upper-alpha\"><li>$286_{10}$<br> </li><li>$-739_{10}$<br> </li><li>$738_{10}$<br> </li><li>$-286_{10}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq50,goclasses,digital-logic,one-mark",
+          "category": "Digital Logic"
+        }
+      ]
+    }
+  ]
+}

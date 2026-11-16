@@ -1,0 +1,70 @@
+{
+  "name": "Day 288 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "533906",
+          "text": "Find the base $r$ if $(132)_r+(45)_r=(221)_r$",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 288"
+        },
+        {
+          "post_id": "533904",
+          "text": "<p data-start=\"33\" data-end=\"268\">A controller has to send one of $45$ possible status messages. Each message is encoded using a fixed-length binary code. What is the minimum number of bits required, and how many binary code patterns will remain unused?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"270\" data-end=\"413\">$5$ bits, $13$ unused patterns<br>&nbsp;</li><li data-start=\"270\" data-end=\"413\">$6$ bits, $19$ unused patterns<br>&nbsp;</li><li data-start=\"270\" data-end=\"413\">$6$ bits, $18$ unused patterns<br>&nbsp;</li><li data-start=\"270\" data-end=\"413\">$7$ bits, $83$ unused patterns</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 288"
+        },
+        {
+          "post_id": "533902",
+          "text": "<p data-start=\"245\" data-end=\"415\">What is the minimum number of bits required to represent $-92$ in $2$’s complement form, and what is its representation using that minimum number of bits?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"417\" data-end=\"524\">$7$ bits, $0100100$<br>&nbsp;</li><li data-start=\"417\" data-end=\"524\">$8$ bits, $10100100$<br>&nbsp;</li><li data-start=\"417\" data-end=\"524\">$7$ bits, not representable<br>&nbsp;</li><li data-start=\"417\" data-end=\"524\">$8$ bits, $11011100$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 288"
+        },
+        {
+          "post_id": "533896",
+          "text": "<p data-start=\"114\" data-end=\"224\">In a $5$-bit $2$’s complement system, which of the following additions result in overflow?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"184\" data-end=\"237\">$11+9$<br>&nbsp;</li><li data-start=\"184\" data-end=\"237\">$-13+(-7)$<br>&nbsp;</li><li data-start=\"184\" data-end=\"237\">$14+(-6)$<br>&nbsp;</li><li data-start=\"184\" data-end=\"237\">$-9+12$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 288"
+        },
+        {
+          "post_id": "533899",
+          "text": "<p data-start=\"34\" data-end=\"169\">What decimal value is represented by the following $8$-bit $2$’s complement bit pattern, given in hexadecimal notation?</p><p data-start=\"171\" data-end=\"203\">$$A7_{16}=\\_\\_\\_\\_\\_\\_\\_\\__{10}$$</p>",
+          "type": "Numerical",
+          "answer": "-89",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 288"
+        }
+      ]
+    }
+  ]
+}

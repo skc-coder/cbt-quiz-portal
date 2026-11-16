@@ -1,0 +1,70 @@
+{
+  "name": "Day 206 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "523532",
+          "text": "<p>Which of the following statements is/are <strong>TRUE</strong> regarding Paging and Segmentation?</p><ol><li><strong>PAGING</strong> eliminates external fragmentation but can lead to internal fragmentation.<br>&nbsp;</li><li><strong>SEGMENTATION</strong> suffers from external fragmentation because segments are of variable length.<br>&nbsp;</li><li><strong>THRASHING</strong> occurs when the sum of the working sets of all active processes exceeds the total physical memory available.</li></ol><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1$ AND $2$ ONLY<br>&nbsp;</li><li>$2$ AND $3$ ONLY<br>&nbsp;</li><li>$1$ AND $3$ ONLY<br>&nbsp;</li><li>$1, 2,$ AND $3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 206"
+        },
+        {
+          "post_id": "523530",
+          "text": "<p>A system uses <strong>MULTILEVEL PAGING</strong> with a $32$-bit virtual address and a page size of $\\mathbf{4}$ <strong>KB.</strong> The Page Table Entry (PTE) size is $\\mathbf{4}$ <strong>bytes.</strong> If the system uses a $2$-level paging scheme where the first level (outer) and second level (inner) page tables both fit exactly within one disk block, what is the size of the logical address space (in number of pages) that a single outer page table entry can cover?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2^{10}$ pages<br>&nbsp;</li><li>$2^{12}$ pages<br>&nbsp;</li><li>$2^{20}$ pages<br>&nbsp;</li><li>$2^{22}$ pages</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 206"
+        },
+        {
+          "post_id": "523526",
+          "text": "<p>A file system uses <strong>INDEXED ALLOCATION</strong> with a single-level index block. The disk block size is $\\mathbf{4}$ <strong>KB</strong>, and each disk block address requires $\\mathbf{4}$ <strong>bytes</strong>. What is the maximum possible size of a file in this system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2 ~\\text{MB}$<br>&nbsp;</li><li>$4 ~\\text{MB}$<br>&nbsp;</li><li>$8&nbsp;~\\text{MB}$<br>&nbsp;</li><li>$16&nbsp;~\\text{MB}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 206"
+        },
+        {
+          "post_id": "523524",
+          "text": "<p>Consider a system using pure segmentation.<br><br>The Segment Table is as follows:</p><p>\\[<br>\\begin{array}{lll}<br>\\text{Segment No.} & \\text{Base Address} & \\text{Limit (Size)} \\\\<br>0 & 1200 & 800 \\\\<br>1 & 2500 & 200 \\\\<br>2 & 4000 & 500 \\\\<br>3 & 1000 & 300<br>\\end{array}<br>\\]</p><p>Which of the following logical addresses will result in a <strong>SEGMENTATION FAULT</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\langle 0,430\\rangle$<br>&nbsp;</li><li>$\\langle 1,199\\rangle$<br>&nbsp;</li><li>$\\langle 2,500\\rangle$<br>&nbsp;</li><li>$\\langle 3,10\\rangle$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 206"
+        },
+        {
+          "post_id": "523528",
+          "text": "<p>Consider the following C code snippet executed on a standard Linux system:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int main() {\n&nbsp; &nbsp; if (fork() == 0) {\n&nbsp; &nbsp; &nbsp; &nbsp; if (fork() == 0) {\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; printf(\"A\");\n&nbsp; &nbsp; &nbsp; &nbsp; } else {\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; printf(\"B\");\n&nbsp; &nbsp; &nbsp; &nbsp; }\n&nbsp; &nbsp; } else {\n&nbsp; &nbsp; &nbsp; &nbsp; printf(\"C\");\n&nbsp; &nbsp; }\n&nbsp; &nbsp; return 0;\n}</pre><p>Assuming all $\\verb|fork()|$ calls are successful, how many times will the character '$\\mathbf{A}$' be printed, and what is the total number of processes created (including the parent)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1$ '$\\text{A}$', $3$ processes<br>&nbsp;</li><li>$1$ '$\\text{A}$', $4$ processes<br>&nbsp;</li><li>$2$ '$\\text{A}$', $3$ processes<br>&nbsp;</li><li>$2$ '$\\text{A}$', $4$ processes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Operating System",
+          "day": "Day 206"
+        }
+      ]
+    }
+  ]
+}

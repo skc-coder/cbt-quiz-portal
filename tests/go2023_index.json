@@ -1,0 +1,374 @@
+[
+  {
+    "id": "go2023_test_0",
+    "name": "GO Classes Test Series 2023 | Programming | Test 1"
+  },
+  {
+    "id": "go2023_test_1",
+    "name": "GO Classes Test Series 2023 | Discrete Mathematics | Test 1"
+  },
+  {
+    "id": "go2023_test_2",
+    "name": "GO Classes Test Series 2023 | Discrete Mathematics | Test 2"
+  },
+  {
+    "id": "go2023_test_3",
+    "name": "GO Classes Test Series 2023 | Programming | Test 2"
+  },
+  {
+    "id": "go2023_test_4",
+    "name": "GO Classes Test Series 2023 | Discrete Mathematics | Test 3"
+  },
+  {
+    "id": "go2023_test_5",
+    "name": "GO Classes Test Series 2023 | Programming | Test 3"
+  },
+  {
+    "id": "go2023_test_6",
+    "name": "GO Classes Test Series 2023 | Discrete Mathematics | Test 4"
+  },
+  {
+    "id": "go2023_test_7",
+    "name": "GO Classes 2023 | Discrete Mathematics | Test 5"
+  },
+  {
+    "id": "go2023_test_8",
+    "name": "GO Classes Test Series 2023 | Data Structures | Test 2"
+  },
+  {
+    "id": "go2023_test_9",
+    "name": "GO Classes Test Series 2023 | Data Structures | Test 1"
+  },
+  {
+    "id": "go2023_test_10",
+    "name": "GO Classes Test Series 2023 | Digital Logic | Test 1"
+  },
+  {
+    "id": "go2023_test_11",
+    "name": "GO Classes Test Series 2023 | Data Structures | Test 3"
+  },
+  {
+    "id": "go2023_test_12",
+    "name": "GO Classes Test Series 2023 | Digital Logic | Test 2"
+  },
+  {
+    "id": "go2023_test_13",
+    "name": "GO Classes Test Series 2023 | Data Structures | Test 4"
+  },
+  {
+    "id": "go2023_test_14",
+    "name": "GO Classes Test Series 2023 | Digital Logic | Test 3"
+  },
+  {
+    "id": "go2023_test_15",
+    "name": "GATE Overflow Test Series 2023 | Verbal Aptitude | Test 1"
+  },
+  {
+    "id": "go2023_test_16",
+    "name": "GO Classes Test Series 2023 | Data Structures | Test 5"
+  },
+  {
+    "id": "go2023_test_17",
+    "name": "GATE Overflow Test Series 2023 | Quantitative Aptitude | Test 1"
+  },
+  {
+    "id": "go2023_test_18",
+    "name": "GO Classes Test Series 2023 | Theory of Computation | Test 1"
+  },
+  {
+    "id": "go2023_test_19",
+    "name": "GO Classes Test Series 2023 | Algorithms | Test 1"
+  },
+  {
+    "id": "go2023_test_20",
+    "name": "GATE Overflow Test Series 2023 | Discrete Mathematics | Test 1"
+  },
+  {
+    "id": "go2023_test_21",
+    "name": "GO Classes Test Series 2023 | Theory of Computation | Test 2"
+  },
+  {
+    "id": "go2023_test_22",
+    "name": "GATE Overflow Test Series 2023 | Discrete Mathematics | Test 2"
+  },
+  {
+    "id": "go2023_test_23",
+    "name": "GO Classes Test Series 2023 | Algorithms | Test 2"
+  },
+  {
+    "id": "go2023_test_24",
+    "name": "GO Classes Test Series 2023 | Theory of Computation | Test 3"
+  },
+  {
+    "id": "go2023_test_25",
+    "name": "GO Classes Test Series 2023 | Algorithms | Test 3"
+  },
+  {
+    "id": "go2023_test_26",
+    "name": "GATE Overflow Test Series 2023 | Discrete Mathematics | Test 3"
+  },
+  {
+    "id": "go2023_test_27",
+    "name": "GO Classes Test Series 2023 | Theory of Computation | Test 4"
+  },
+  {
+    "id": "go2023_test_28",
+    "name": "GATE Overflow Test Series 2023 | Mix Subjects | Test 1"
+  },
+  {
+    "id": "go2023_test_29",
+    "name": "GATE Overflow Test Series 2023 | Digital Logic | Test 1"
+  },
+  {
+    "id": "go2023_test_30",
+    "name": "GATE Overflow Test Series 2023 | Programming | Test 1"
+  },
+  {
+    "id": "go2023_test_31",
+    "name": "GATE Overflow Test Series 2023 | Data Structures | Test 1"
+  },
+  {
+    "id": "go2023_test_32",
+    "name": "GO Classes Test Series 2023 | Theory of Computation | Test 5"
+  },
+  {
+    "id": "go2023_test_33",
+    "name": "GATE Overflow Test Series 2023 | Computer Organization and Architecture | Test 1"
+  },
+  {
+    "id": "go2023_test_34",
+    "name": "GO Classes Test Series 2023 | Linear Algebra | Test"
+  },
+  {
+    "id": "go2023_test_35",
+    "name": "GO Classes Test Series 2023 | CO and Architecture | Test 1"
+  },
+  {
+    "id": "go2023_test_36",
+    "name": "GATE Overflow Test Series 2023 | Algorithms | Test 1"
+  },
+  {
+    "id": "go2023_test_37",
+    "name": "GO Classes Test Series 2023 | Algorithms | Test 4"
+  },
+  {
+    "id": "go2023_test_38",
+    "name": "GO Classes Test Series 2023 | Probability | Test"
+  },
+  {
+    "id": "go2023_test_39",
+    "name": "GATE Overflow Test Series 2023 | Mix Subjects | Test 2"
+  },
+  {
+    "id": "go2023_test_40",
+    "name": "GO Classes Test Series 2023 | CO and Architecture | Test 2"
+  },
+  {
+    "id": "go2023_test_41",
+    "name": "GO Classes Test Series 2023 | Calculus | Test"
+  },
+  {
+    "id": "go2023_test_42",
+    "name": "GO Classes Test Series 2023 | CO and Architecture | Test 3"
+  },
+  {
+    "id": "go2023_test_43",
+    "name": "GATE Overflow Test Series 2023 | Algorithms | Test 2"
+  },
+  {
+    "id": "go2023_test_44",
+    "name": "GATE Overflow Test Series 2023 | Discrete Mathematics | Test 4"
+  },
+  {
+    "id": "go2023_test_45",
+    "name": "GO Classes Test Series 2023 | Databases | Test 1"
+  },
+  {
+    "id": "go2023_test_46",
+    "name": "GO Classes Test Series 2023 | Databases | Test 2"
+  },
+  {
+    "id": "go2023_test_47",
+    "name": "GATE Overflow Test Series 2023 | Theory of Computation | Test 1"
+  },
+  {
+    "id": "go2023_test_48",
+    "name": "GO Classes Test Series 2023 | Mixed Subjects | Full Length Test 1"
+  },
+  {
+    "id": "go2023_test_49",
+    "name": "GATE Overflow Test Series 2023 | Databases | Test 1"
+  },
+  {
+    "id": "go2023_test_50",
+    "name": "GO Classes Test Series 2023 | Operating Systems | Test 2"
+  },
+  {
+    "id": "go2023_test_51",
+    "name": "GO Classes Test Series 2023 | Databases | Test 3"
+  },
+  {
+    "id": "go2023_test_52",
+    "name": "GO Classes Test Series 2023 | Operating Systems | Test 4"
+  },
+  {
+    "id": "go2023_test_53",
+    "name": "GATE Overflow Test Series 2023 | Probability | Test 1"
+  },
+  {
+    "id": "go2023_test_54",
+    "name": "GO Classes Test Series 2023 | Operating System | Test 1"
+  },
+  {
+    "id": "go2023_test_55",
+    "name": "GO Classes Test Series 2023 | Operating Systems | Test 3"
+  },
+  {
+    "id": "go2023_test_56",
+    "name": "GO Classes Test Series 2023 | Mixed Subjects | Full Length Test 2"
+  },
+  {
+    "id": "go2023_test_57",
+    "name": "GO Classes Test Series 2023 | Databases | Test 5"
+  },
+  {
+    "id": "go2023_test_58",
+    "name": "GO Classes Test Series 2023 | Databases | Test 4"
+  },
+  {
+    "id": "go2023_test_59",
+    "name": "GO Classes Test Series 2023 | Compiler Design | Test 3"
+  },
+  {
+    "id": "go2023_test_60",
+    "name": "GO Classes Test Series 2023 | CO and Architecture | Test 4"
+  },
+  {
+    "id": "go2023_test_61",
+    "name": "GO Classes 2023 Mock Test 1"
+  },
+  {
+    "id": "go2023_test_62",
+    "name": "GO Classes 2023 Mock Test 2"
+  },
+  {
+    "id": "go2023_test_63",
+    "name": "GO Classes Test Series 2023 | Computer Networks | Test 2"
+  },
+  {
+    "id": "go2023_test_64",
+    "name": "GO 2023 Topic Wise Free Test 1 | Propositional Logic"
+  },
+  {
+    "id": "go2023_test_65",
+    "name": "GO Classes Test Series 2023 | Compiler Design | Test 1"
+  },
+  {
+    "id": "go2023_test_66",
+    "name": "GO Classes Test Series 2023 | Compiler Design | Test 2"
+  },
+  {
+    "id": "go2023_test_67",
+    "name": "GO Classes 2023 Mock Test 4"
+  },
+  {
+    "id": "go2023_test_68",
+    "name": "GO Classes Test Series 2023 | Computer Networks | Test 1"
+  },
+  {
+    "id": "go2023_test_69",
+    "name": "GO Classes Test Series 2023 | Computer Networks | Test 3"
+  },
+  {
+    "id": "go2023_test_70",
+    "name": "GO Classes Test Series 2023 | Mixed Subjects | Full Length Test 3"
+  },
+  {
+    "id": "go2023_test_71",
+    "name": "GO Classes 2023 Mock Test 5"
+  },
+  {
+    "id": "go2023_test_72",
+    "name": "GO Classes All India Mock Test 2023"
+  },
+  {
+    "id": "go2023_test_73",
+    "name": "GO Classes 2023 Mock Test 3"
+  },
+  {
+    "id": "go2023_test_74",
+    "name": "GO 2023 Topic Wise Free Test 2 | First Order Logic"
+  },
+  {
+    "id": "go2023_test_75",
+    "name": "GO Classes Test Series 2023 | Mixed Subjects | Full Length Test 4"
+  },
+  {
+    "id": "go2023_test_76",
+    "name": "GO Classes 2023 Mock Test 7"
+  },
+  {
+    "id": "go2023_test_77",
+    "name": "GO Classes 2023 All India Mock Test 2"
+  },
+  {
+    "id": "go2023_test_78",
+    "name": "GO Classes Test Series 2023 | Computer Networks | Test 4"
+  },
+  {
+    "id": "go2023_test_79",
+    "name": "GO Classes 2023 All India Mock Test 3"
+  },
+  {
+    "id": "go2023_test_80",
+    "name": "Memory Based GATE CSE 2023"
+  },
+  {
+    "id": "go2023_test_81",
+    "name": "GATE CSE 2023 | Original Paper"
+  },
+  {
+    "id": "go2023_test_82",
+    "name": "TIFR CSE 2023"
+  },
+  {
+    "id": "go2023_test_83",
+    "name": "GO Classes Test Series 2023 | NIELIT Mock Test 1"
+  },
+  {
+    "id": "go2023_test_84",
+    "name": "GO Classes Test Series 2023 | NIELIT Mock Test 2"
+  },
+  {
+    "id": "go2023_test_85",
+    "name": "GO Classes Test Series 2023 | NIELIT Mock Test 3"
+  },
+  {
+    "id": "go2023_test_86",
+    "name": "GO Classes Test Series 2023 | NIELIT Mock Test 4"
+  },
+  {
+    "id": "go2023_test_87",
+    "name": "GO Classes Test Series 2023 | NIELIT Mock Test 5"
+  },
+  {
+    "id": "go2023_test_88",
+    "name": "GO Classes Test Series 2023 | NIELIT Mock Test 6"
+  },
+  {
+    "id": "go2023_test_89",
+    "name": "GO Classes Test Series 2023 | NIELIT Mock Test 7"
+  },
+  {
+    "id": "go2023_test_90",
+    "name": "GO Classes Test Series 2023 | NIELIT Mock Test 8"
+  },
+  {
+    "id": "go2023_test_91",
+    "name": "GO Classes Test Series 2023 | NIELIT Mock Test 9"
+  },
+  {
+    "id": "go2023_test_92",
+    "name": "GO Classes Test Series 2023 | NIELIT Mock Test 10"
+  }
+]

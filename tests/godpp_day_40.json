@@ -1,0 +1,70 @@
+{
+  "name": "Day 38 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "475410",
+          "text": "How many natural numbers between $1$ and $600$ are there which are multiples of $2$ or $3$ ?",
+          "type": "Numerical",
+          "answer": "400",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 38"
+        },
+        {
+          "post_id": "475413",
+          "text": "How many combinations with repetitions for $4$ numbers are there from the set $\\{1,2,3,4,5,6\\}$ ?",
+          "type": "Numerical",
+          "answer": "126",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 38"
+        },
+        {
+          "post_id": "475412",
+          "text": "<p>Group $A$&nbsp;consists of $7$ boys and $3$ girls, while group $B$ consists of $6$ boys and $5$ girls. The number of ways, $4$ boys and $4$ girls can be invited for a picnic if $5$ of them must be from group $A$ and the remaining $3$ from group $B$, is equal to :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$8925$<br>&nbsp;</li><li>$9100$<br>&nbsp;</li><li>$8575$<br>&nbsp;</li><li>$8750$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 38"
+        },
+        {
+          "post_id": "475415",
+          "text": "A bag contains $100$ apples, $100$ oranges, $100$ bananas and $100$ pears. Every minute you choose one fruit from the bag. How long will it take to ensure that you have at least $10$ fruits of the same kind?",
+          "type": "Numerical",
+          "answer": "37",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 38"
+        },
+        {
+          "post_id": "475417",
+          "text": "<p>From a group of $7$ batsmen and $6$ bowlers, $10$ players are to be chosen for a team, which should include atleast $4$ batsmen and atleast $4$ bowlers. One batsmen and one bowler who are captain and vice-captain respectively of the team should be included. Then the total number of ways such a selection can be made, is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$145$<br>&nbsp;</li><li>$165$<br>&nbsp;</li><li>$155$<br>&nbsp;</li><li>$135$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 38"
+        }
+      ]
+    }
+  ]
+}

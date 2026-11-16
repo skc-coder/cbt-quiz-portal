@@ -1,0 +1,286 @@
+{
+  "name": "GATEBOOK-2019 Grand Test 4: Mathematics",
+  "duration": "90",
+  "total_qs": "24",
+  "total_qs_one": 0,
+  "total_qs_two": 24,
+  "apti_num_qs": 0,
+  "technical_num_qs": 24,
+  "apti_marks": 0,
+  "technical_marks": 48,
+  "total_marks": 48,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 24,
+      "marks": 48,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "290999",
+          "text": "Let $x_n = \\dfrac{n^n}{n!}; (n = 1, 2, 3, \\ldots )$<br />\n$\\displaystyle{\\lim_{n \\to \\infty} \\dfrac{x_{n+1}}{x_n} = ?}$<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\sqrt{e}$<br /> </li><li> $e^2$<br /> </li> <li>$e$<br /> </li>  <li>$e^{-1}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290998",
+          "text": "The inverse of the matrix $M = \\begin{bmatrix} 2 &amp; 1 &amp; 3 \\\\ 0 &amp; -1 &amp; 2 \\\\ 4 &amp; 3 &amp; 1 \\end{bmatrix}$  is the matrix  $M^{-1} = \\dfrac{1}{6} \\begin{bmatrix} -7 &amp; 8 &amp; a \\\\ 8 &amp; -10 &amp; -4 \\\\ 4 &amp; b &amp; -2  \\end{bmatrix}$ where<br />\n   <br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $a=5, b=-2$<br /> </li><li>  $a = 2, b = -3$<br /> </li> <li> $a=3, b = 2$  <br /> </li>  <li> $a=  5, b = -1$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290997",
+          "text": "Let $G$ be the set of all $2 × 2$ real matrices, trace of which is $0$, and $+$ denotes the operation of matrix addition. Then the algebraic structure $(G, +)$ is<br />\n    <br />\n<ol style=\"list-style-type:upper-alpha\"><li>  A groupoid only            <br /> </li><li>  A semi group only<br /> </li> <li> A monoid only            <br /> </li>  <li> A group  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290996",
+          "text": "<p>A coin is tossed five times. Probability of getting at least $\\text{2 heads}$ and $\\text{1 tail}$ is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\left (\\dfrac{25}{32} \\right )$&nbsp; &nbsp; &nbsp; &nbsp;</li>\n    <li>&nbsp;$\\left (\\dfrac{27}{32} \\right )$&nbsp; &nbsp;</li>\n    <li>$\\left (\\dfrac{5}{6} \\right )$&nbsp; &nbsp; &nbsp; &nbsp;</li>\n    <li>$\\left (\\dfrac{11}{16} \\right )$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "290995",
+          "text": "<p>A die is rolled $10$ times. The probability that exactly $ 7$ odd numbers turn up among the $10$ outcomes is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\left (\\dfrac{15}{128} \\right )$&nbsp; &nbsp; &nbsp; &nbsp;</li>\n    <li>$\\left (\\dfrac{14}{128}\\right )$ &nbsp;&nbsp; &nbsp;</li>\n    <li>$\\left (\\dfrac{16}{128} \\right )$&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</li>\n    <li>none of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "290994",
+          "text": "<p>Consider the adjacency matrix of undirected graph $G$ as:<br>\n<br>\n$$\\begin{array}{|c|c|c|c|c|c|} \\hline&amp;&nbsp; &nbsp;v1 &amp; v2 &amp; v3 &amp; v4 &amp; v5 \\\\ \\hline v1 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\\\ \\hline v2 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\\\ \\hline &nbsp;v3 &amp; 1 &amp; 1 &amp; 0 &amp;&nbsp; 1 &amp;&nbsp; 0 \\\\ \\hline v4 &amp;&nbsp; 1 &amp; 0 &amp;&nbsp; 1 &amp;&nbsp; 0 &amp;&nbsp; 1 \\\\ \\hline v5 &amp;&nbsp; 1 &amp;&nbsp; 1 &amp;&nbsp; 0 &amp;&nbsp; 1 &amp; 0 \\\\ \\hline \\end{array}$$<br>\n<br>\nHow many chromatic partitions are possible for the graph $G$ where chromatic partition is defined as the number of integer (positive) partitions possible for the chromatic number of $G$?<br>\n&nbsp;&nbsp; &nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>&nbsp;$1$&nbsp; &nbsp;</li>\n    <li>&nbsp;$2$&nbsp; &nbsp;</li>\n    <li>&nbsp;$3$&nbsp; &nbsp;</li>\n    <li>&nbsp;$4$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths,graph-coloring",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "290993",
+          "text": "Let $a_n = \\left ( \\dfrac{n+2}{n+1} \\right ) ^{2n+3}$. Determine $\\displaystyle{\\lim_{n \\to \\infty } a_n}$  <br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $1$    <br /> </li><li>  $e$    <br /> </li> <li> $e^2$    <br /> </li>  <li> $e^3$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290992",
+          "text": "<p>The value of $\\large\\int\\limits_{1}^{4}&nbsp;\\mid y-2 \\mid dy$ is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>&nbsp;$3$&nbsp; &nbsp;</li>\n    <li>$\\left (\\dfrac{3}{2} \\right )$&nbsp; &nbsp; &nbsp; &nbsp;</li>\n    <li>&nbsp;$\\left (\\dfrac{5}{2} \\right )$&nbsp; &nbsp; &nbsp;</li>\n    <li>&nbsp;$\\left (\\dfrac{7}{2} \\right )$&nbsp;</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "290991",
+          "text": "Let the matrix be $A = \\begin{bmatrix} 2 &amp; 4 \\\\ 1 &amp; 2 \\end{bmatrix}$ and consider the equation: $A^4 = nA$<br />\n<br />\nFor which value of $n$ the given equation gets satisfied? <br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $2^3$    <br /> </li><li>  $2^4$    <br /> </li> <li> $2^5$    <br /> </li>  <li> $2^6$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290990",
+          "text": "<p>Consider the system of equation<br>\n$$2x+3y+5z = 30 \\\\ 4x+6y+10z =40 \\\\ x+y -z = 2 $$&nbsp;&nbsp;<br>\nThe above system has&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>&nbsp;No solution&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</li>\n    <li>&nbsp;a unique solution</li>\n    <li>&nbsp;More than one but finite solutions&nbsp;&nbsp; &nbsp;</li>\n    <li>&nbsp;an infinite number of solutions&nbsp;</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "290989",
+          "text": "Find $k$ so that the matrix $A = \\begin{bmatrix} k &amp; 1 &amp; 2 \\\\ 1 &amp; 2 &amp; k \\\\ 1&amp; 2 &amp; 3  \\end{bmatrix}$ has eigenvalue $\\lambda = 1$<br />\n    <br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\dfrac{1}{2}$     <br /> </li><li>  $-\\dfrac{1}{2}$       <br /> </li> <li> $0$    <br /> </li>  <li> $1$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290988",
+          "text": "Consider the following systems of linear equations:<br />\n  $$  2x+y-2z=1 \\\\ 4x+3y-6z=5 \\\\  x+2y-4z=7$$<br />\n<br />\nThe given system has<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  no solution        <br /> </li><li>  infinite solution         <br /> </li> <li> unique solution    <br /> </li>  <li> finite solutions  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290987",
+          "text": "In a test there are $5$ questions (True-False type) and the probability of correctly guessing a question by a student is $30\\%$. What is the probability of getting more than $3$ correct answers?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $0.031$    <br /> </li><li>  $0.023$    <br /> </li> <li> $0.056$    <br /> </li>  <li> $0.05$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290986",
+          "text": "The number of stationary points of the following function is <br />\n<br />\n$$f(t) = 4t^3 +15t^2 -18t + 6$$ is <br />\n    <br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $0$    <br /> </li><li>  $1$    <br /> </li> <li> $2$    <br /> </li>  <li> $3$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290985",
+          "text": "How many integral solutions are there for $x_1 + x_2 + x_3 +x_4 +x_5 = 30$, where $x_i &gt; i \\: for  \\: i = 1,2,3,4,5$   ?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $C(19 ,15)$    <br /> </li><li>  $C(14, 10)$    <br /> </li> <li> $C(34, 10)$    <br /> </li>  <li> None of the these  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290984",
+          "text": "If $ A = \\begin{pmatrix} 3 &amp; 1 \\\\ -1 &amp; -1 \\end{pmatrix} \\: and  \\: I = \\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 1 \\end{pmatrix} $ , which of the following matrix polynomial vanishes?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>   $A^2 – 2A- 4I$<br /> </li><li>   $A^2 – 2A+ 4I$<br /> </li> <li>  $A^2 + A+ 2I$ <br /> </li>  <li>  $A^2 – 2A- 2I$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290983",
+          "text": "A random variable $X$ follows normal distribution i.e., $x$ follows  $N(\\mu, \\sigma^2)$ and $p(9.6 \\leq x \\leq 13.8) = 0.7008$ and $p(x&gt;9.6) = 0.8159$<br />\nGiven $\\sigma =2, \\: \\phi(0.9) = 0.8159$ and $\\phi(1.2) = 0.8849$. Find the value of $\\mu$.<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>     $2$    <br /> </li><li>     $4$    <br /> </li> <li>    $11.4$    <br /> </li>  <li>    $13.2$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290982",
+          "text": "Let $p(\\lambda)$ be the characteristic polynomial for an $(n \\times n)$ matrix $A$. if $\\lambda = 0$ is a root of $p(\\lambda)$ then which of the following statement(s) is/are always FALSE? <br />\n<br />\nI. $A$ has $n$ linearly independent eigenvectors.<br />\n<br />\nII. $det[p(A)] = 0$<br />\n<br />\nIII. A is invertible.<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> I only<br /> </li><li> II only<br /> </li> <li>III only<br /> </li>  <li>I and III only  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290981",
+          "text": "Let $A = \\begin{pmatrix} 2 &amp; 1 \\\\ -1 &amp; t \\end{pmatrix}$. For how many value(s) of $t$ does $A$ posses a repeated eigenvalue?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $1$<br /> </li><li> $2$<br /> </li> <li>$3$<br /> </li>  <li>$infinite$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290980",
+          "text": "Consider the binomial distribution, with probability distribution function of happening of $r$ events is given by <br />\n<br />\n$$P(r) = ^nC_r p^r q^{n-r}$$<br />\n<br />\nConsidering $n \\to \\infty$ and $p \\to 0$ such that $np$ is finite<br />\n<br />\nThen the above distribution is modified to <br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> Uniform<br /> </li><li> Normal<br /> </li> <li>Poisson<br /> </li>  <li>None of the above  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290979",
+          "text": "<p>Box $P$ has $6$ red balls &amp; $12$ blue balls and box $Q$ has $7$ blue &amp; $5$ red balls.A ball is selected by first selecting a box and then choosing a ball from the selected box. The probability of selecting box $P$ is $\\dfrac{3}{4}$ whereas box $Q$ is $\\dfrac{1}{4}$<br>\n<br>\nWhat is the probability of selecting red ball?<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\left ( \\dfrac{19}{48} \\right ) $</li>\n    <li>$\\left ( \\dfrac{1}{3} \\right ) $</li>\n    <li>$\\left ( \\dfrac{17}{48} \\right ) $</li>\n    <li>$\\left ( \\dfrac{3}{4} \\right ) $</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "290978",
+          "text": "<p>Box $P$ has $6$ red balls &amp; $12$ blue balls and box $Q$ has $7$ blue &amp; $5$ red balls.A ball is selected by first selecting a box and then choosing a ball from the selected box. The probability of selecting box $P$ is $\\dfrac{3}{4}$ whereas box $Q$ is $\\dfrac{1}{4}$<br>\n<br>\nIf a randomly chosen ball is blue, then what is the probability that it comes from box $P$ ?<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\left ( \\dfrac{23}{48} \\right ) $</li>\n    <li>$\\left ( \\dfrac{1}{2} \\right ) $</li>\n    <li>$\\left ( \\dfrac{1}{4} \\right ) $</li>\n    <li>$\\left ( \\dfrac{24}{31} \\right ) $</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "290977",
+          "text": "A fair coin is tossed $2n$ times to form the string of length $2n$. If it is head, it is $0$, otherwise $1$. What is the probability of bitwise anding of two strings consisting of all $1$?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\left ( \\dfrac{1}{2^{n}} \\right ) $<br /> </li><li> $\\left ( \\dfrac{1}{n} \\right ) $<br /> </li> <li>$\\left ( \\dfrac{1}{4^{n}} \\right ) $<br /> </li>  <li>$\\left ( \\dfrac{2}{(4)^{n}} \\right ) $  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "290976",
+          "text": "If $\\mathrm{e}^y = x^x$, then $y$ has a <br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> Maximum at $ x =\\mathrm{e}$<br /> </li><li> Minimum at $ x = \\mathrm{e}$<br /> </li> <li>Maximum at $ x = \\mathrm{e}^{-1}$<br /> </li>  <li>Minimum at $ x = \\mathrm{e}^{-1}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-maths",
+          "category": "Engineering Mathematics"
+        }
+      ]
+    }
+  ]
+}

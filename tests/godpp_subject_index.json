@@ -1,0 +1,87 @@
+[
+  {
+    "id": "godpp_sub_0",
+    "name": "Algorithms",
+    "total_qs": 173
+  },
+  {
+    "id": "godpp_sub_2",
+    "name": "Calculus",
+    "total_qs": 131
+  },
+  {
+    "id": "godpp_sub_3",
+    "name": "CO & Architecture",
+    "total_qs": 100
+  },
+  {
+    "id": "godpp_sub_4",
+    "name": "Combinatory",
+    "total_qs": 94
+  },
+  {
+    "id": "godpp_sub_5",
+    "name": "Compiler Design",
+    "total_qs": 120
+  },
+  {
+    "id": "godpp_sub_6",
+    "name": "Computer Networks",
+    "total_qs": 130
+  },
+  {
+    "id": "godpp_sub_7",
+    "name": "Data Structures",
+    "total_qs": 105
+  },
+  {
+    "id": "godpp_sub_8",
+    "name": "Databases",
+    "total_qs": 20
+  },
+  {
+    "id": "godpp_sub_9",
+    "name": "Digital Logic",
+    "total_qs": 240
+  },
+  {
+    "id": "godpp_sub_11",
+    "name": "Graph Theory",
+    "total_qs": 70
+  },
+  {
+    "id": "godpp_sub_12",
+    "name": "Linear Algebra",
+    "total_qs": 232
+  },
+  {
+    "id": "godpp_sub_13",
+    "name": "Mathematical Logic",
+    "total_qs": 168
+  },
+  {
+    "id": "godpp_sub_14",
+    "name": "Operating System",
+    "total_qs": 300
+  },
+  {
+    "id": "godpp_sub_16",
+    "name": "Probability",
+    "total_qs": 100
+  },
+  {
+    "id": "godpp_sub_19",
+    "name": "Programming in C",
+    "total_qs": 158
+  },
+  {
+    "id": "godpp_sub_21",
+    "name": "Set Theory & Algebra",
+    "total_qs": 114
+  },
+  {
+    "id": "godpp_sub_22",
+    "name": "Theory of Computation",
+    "total_qs": 150
+  }
+]

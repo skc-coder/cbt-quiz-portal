@@ -1,0 +1,189 @@
+{
+  "id": "go27_test_3",
+  "name": "GO Classes Test Series | Discrete Mathematics | Topic Wise Test 4",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "374926",
+          "text": "<p>Let $0 \\leq \\text{S(0)} \\leq \\text{T(0)},$ and suppose we have the recurrences</p><ul><li>$\\text{S}(n + 1) = a\\text{S}(n) + f(n)$</li><li>$\\text{T}(n + 1) = b\\text{T}(n) + g(n),$</li></ul><p>where $0 \\leq a \\leq b$ and $0 \\leq f(n) \\leq g(n)$ for all $n \\in \\mathbf{N}.$</p><p>Which of the following is/are necessarily true ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{S}(n) \\leq \\text{T}(n)$ for all $n \\in \\mathbf{N}.$</li><li>$\\text{T}(n) \\leq \\text{S}(n)$ for all $n \\in \\mathbf{N}.$</li><li>$\\text{T}(n) &lt; \\text{S}(n)$ for some $n \\in \\mathbf{N}.$</li><li>$0 \\leq \\text{S}(n) \\leq \\text{T}(n)$ for all $n \\in \\mathbf{N}.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,goclasses,combinatory,recurrence-relation,multiple-selects,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374930",
+          "text": "Consider the set $\\text{X} = \\{1, 2, 3, 4\\}$ and $\\text{Y} = \\{a, b, c, d, e, f\\}.$ How many one-to-one functions $\\text{F}$ are there from $\\text{X}$ to $\\text{Y}$ so that $\\text{F(1)}$ is not a vowel?",
+          "type": "Numerical",
+          "answer": "240",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,functions,combinatory,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374928",
+          "text": "How many integer solutions does the equation\n\n$$\nx_1+x_2+x_3+x_4=15\n$$\nhave, if we require that $x_1 \\geq 2, x_2 \\geq 3, x_3 \\geq 10$ and $x_4 \\geq-3?$",
+          "type": "Numerical",
+          "answer": "20",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374944",
+          "text": "<p>Let $a_0, a_1, a_2, \\ldots$ be a sequence with generating function $G(x)=\\sum_{n=0}^{\\infty} a_n x^n$, and let $b_0, b_1, b_2, \\ldots$ be the sequence whose generating function is $F(x) = G(3x^{2}).$</p><ul><li>Let $b_{11} = m.a_{11}$</li><li>Let $b_{20} = p.a_{10}$</li></ul><p>What is $m+p?$</p>",
+          "type": "Numerical",
+          "answer": "59049",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,generating-functions,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374914",
+          "text": "What is the coefficient of $x^{5}$ in the power series expansion of the following function?\n\n$$\\frac{1+7x}{(1-x)(1-5x)}$$",
+          "type": "Numerical",
+          "answer": "9373",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,generating-functions,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374946",
+          "text": "Let the recurrence for the number of sequences of length $n$ containing digits from $\\{0, 1, \\dots, 6 \\},$ which do not have consecutive even digits be $\\text{T}(n).$\n\nFor instance$, 05565301$ is a sequence of length 8 containing digits from $\\{0, 1, \\dots, 6 \\},$ which do not have consecutive even digits.\n\nWe can see that $\\text{T}_{1} = 7, \\text{T}_{2} = 33,$ which are the initial conditions of the recurrence $\\text{T}(n).$\n\nFor $n \\geq 3, \\text{T}(n) = x\\text{T}_{n-1} + y\\text{T}_{n-2}$\n\nThen what is $x+y?$",
+          "type": "Numerical",
+          "answer": "15",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,recurrence-relation,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374940",
+          "text": "Consider the set $\\text{X} = \\{2, 3, 4, 5, 6, 7, 8, 9\\},$ which contains $8$ elements. How many subsets of $\\text{X}$ have at least one prime number?",
+          "type": "Numerical",
+          "answer": "240",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,counting,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374954",
+          "text": "Consider the set of $4$-digit positive integers. How many of them have their digits in strictly increasing order? (i.e. $1234, 2578$ etc)",
+          "type": "Numerical",
+          "answer": "126",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "376755",
+          "text": "A student is given an exam consisting of $8$ essay questions divided into $4$ groups of $2$ questions each. The student is required to select a set of $6$ questions to answer, including at least $1$ question from each of the $4$ groups. How many sets of questions satisfy this requirement?",
+          "type": "Numerical",
+          "answer": "24",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,counting,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "376771",
+          "text": "How many words can be formed by re-arranging the letters of the word $\\text{“PROBLEMS”}$ such that $\\text{P}$ and $\\text{S}$ occupy the first and last position respectively? (Note: The words thus formed need not be meaningful)",
+          "type": "Numerical",
+          "answer": "720",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,counting,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374922",
+          "text": "<p>Let $n \\in \\mathbf{N}$ be a natural number and let $\\text{X} \\subseteq \\mathbf{N}$ be a subset with $n + 1$ elements.</p><p>Then which of the following is/are necessarily true ?</p><ol style=\"list-style-type:upper-alpha\"><li>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that $x-y$ is divisible by $n.$</li><li>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that both $x, y$ are divisible by $n.$</li><li>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that $x + y$ is divisible by $n.$</li><li>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that $xy$ is divisible by $n.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,goclasses,combinatory,pigeonhole-principle,multiple-selects,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374912",
+          "text": "Let $\\text{S}$ be a set consisting of $10$ elements. We want to count all the ways to form an unordered pair $\\{\\text{A, B}\\}$ of disjoint subsets of $\\text{S i.e. A} \\subseteq \\text{S, B} \\subseteq \\text{S},$ and $\\text{A, B}$ are disjoint sets. How many ways are there?\n\nNote that we will consider $\\{\\text{X, X}\\}$ also as an unordered pair. Also, $\\{\\text{X, Y}\\} = \\{\\text{Y, X}\\}.$",
+          "type": "Numerical",
+          "answer": "29525",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,counting,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374952",
+          "text": "How many ways are there to arrange the $12$ letters of $\\text{AAABBBBCCCCC}$ without having two $\\text{Cs}$ together?",
+          "type": "Numerical",
+          "answer": "1960",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374924",
+          "text": "There are five people of different heights. In how many ways can they stand in a line, so there are no $3$ consecutive people with increasing height(from left to right)? (Hint: May Try Inclusion-Exclusion Principle)",
+          "type": "Numerical",
+          "answer": "70",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,goclasses,combinatory,numerical-answers,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "374950",
+          "text": "<p>Count the number of ways to place the numbers $1, 2, \\dots, 10$ (all of them) on the left and bottom side of the square below (below gray squares), such that for each gray box, the number on its left is smaller than the number below it.</p><p style=\"text-align:center\"><img alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT0AAAEOCAAAAADeHp9CAAAE3klEQVR42u3df0zUdRzH8SORH3EkIQYpytV5R0cHjV2nk9RYSa3+sGLJRjOKseZY5nTZRlOr1bI1LdZli5CxqMS5Sc2VjT90t2zZH6Ud/S7yBs10IiopEk7x2z9vf/x3e8GY5/Z8/XX/PLfbY3vff5+dy2HjnwsC9NBDDz2GHnroocfQQw899Bh6k6l3Xt3YRSsvyuml0hkbf3pBLS9M4Psm0hv1u8TVHrG081Y17Ri2dIVbLG+OObYFKWJa1WvlHp9L3MbBBHrn/HWbI8oWNh61tKv4k6+V7fZsO2vpqod3SunrpT2OreK5L6W0pvaQlfv8LVL5VXDzyYR667ujyh5pGrC0u/RXR9mJkq7/7OOLT/dL6acVPzm2Rc2npHRNY599+q7kW6kcq9gyhB566KGHHnrooYceeuihhx566KGHHnrooYceeuihhx566KGHHnrooYceeuihhx566KGHHnrooYceeuihhx566KGHHnroJanesD8tI1NZatkhS9flekukZbx2wtIlGTe6laWnHXBs4bQsKZ3qiVn5/qxMt7QpDf0J9Eb8wfuqlBXc329pc0F1g7LlOZF/La2evbBKWVnOQcc2z18ppXPu/sXKHUVhqVwybe3RhJfbedZR9sRVl9sRVbbLc/1dLnrooYceeuihhx566KGHHnrooYceeuihhx566KGHHnrooYceeuihhx566KGHHnrooYceeuihhx566KGHHnrooYceeuihl6R6w77bQ2FluYv7LN2U7ylWNjft7SFLl+aXhZXNzb7yPnd2uZTm3/WzldvmBMLS3Kv/SaTnd0/PU5ZeHrf0pdwcqcxN3XjS0gezgmFlPvdlvXlZuXnKMr09VrYWTsuTNvWZvyflcif+sr4rquzV0DW6XPTQQw899NBDDz300EMPPfTQQw899NBDDz300EMPPfTQQw899NBDDz300EMPPfTQQw899NBDDz300EMPPfTQQw899NBDL0n1Rv2PNW1QFlx22NL2okapXDuj7YylT5Uvq1N278wfHNv8B17YoGx+1R9W7vbWS+X6wpcHEuid9rnEeXstXZWtpuuOW7poilimfO/YQqnpGcpSZhy08q0Cl7jaeJJd7sRf1j/7eVRZw4QuFz300EMPPfTQQw899NBDDz300EMPPfTQQw899NBDDz300EMPPfTQQw899NBDDz300EMPPfTQQw899NBDDz300EMPPfTQS1q9d37rU7Z09TFLdwX2SGXMt2PE0ucf/0ZKW0I/OrZ7nmzbrqymPm7l/js+61MWDzWfSqA35HOJu+1PS1dmq2nT8UsEN6jplfe5ajn9gJVv3qKmNfGEb8NXftiprKL+iKXbvZuksnVWx7ClKyojUrqmOObYFizfKqUPPdpr5V5fU6uyFu8bg8n0u3et/zf8vaiyvXduGUIPPfTQQw899NBDDz300EMPPfTQQw899NBDDz300EMPPfTQQw899NBDDz300EMPPfTQQw899NBDDz300EMPPfTQQw899JJUb7S0qCSoLK/6sKVbPX6pDNzUdsbSusJiKfXkxxzb4sKAlBZU/m7lF4GZHmnZrwwk0Bv7KCJu34il/e1q+td5S/d/IJbtg45t57ti2n3aymMfR8T1nDM9Nq6hhx566KHH0EMPPfQYepO2/wE8oHGZZTLiAwAAAABJRU5ErkJggg==\"></p>",
+          "type": "Numerical",
+          "answer": "151200",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_dm_tw_4,goclasses-testseries,numerical-answers,goclasses,combinatory,counting,two-marks",
+          "category": "Combinatory"
+        }
+      ]
+    }
+  ]
+}

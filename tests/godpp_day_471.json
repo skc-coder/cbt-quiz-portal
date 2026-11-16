@@ -1,0 +1,30 @@
+{
+  "name": "Day 321 [Data Structures]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "539832",
+          "text": "<p data-start=\"4952\" data-end=\"5076\">Which of the following functions correctly returns the total number of nodes in a binary tree rooted at $\\texttt{t}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li><pre data-start=\"5082\" data-end=\"5228\" data-rawcode=\"int tree_size(TreeNode *t) {     if (t == NULL)         return 0;     else         return 1 + tree_size(t-&gt;left) + tree_size(t-&gt;right); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int tree_size(TreeNode *t) {\n    if (t == NULL)\n        return 0;\n    else\n        return 1 + tree_size(t-&gt;left) + tree_size(t-&gt;right);\n}</pre></li><li><pre data-rawcode=\"int tree_size(TreeNode *t, int count) { &nbsp; &nbsp; if (t == NULL) &nbsp; &nbsp; &nbsp; &nbsp; return count; &nbsp; &nbsp; else &nbsp; &nbsp; &nbsp; &nbsp; return tree_size(t-&gt;left, count) + tree_size(t-&gt;right, count); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int tree_size(TreeNode *t, int count) {\n&nbsp; &nbsp; if (t == NULL)\n&nbsp; &nbsp; &nbsp; &nbsp; return count;\n&nbsp; &nbsp; else\n&nbsp; &nbsp; &nbsp; &nbsp; return tree_size(t-&gt;left, count) + tree_size(t-&gt;right, count);\n}</pre></li><li><pre data-rawcode=\"int tree_size(TreeNode *t, int count) {     if (t == NULL)         return count;     else         return tree_size(t-&gt;left, count + 1) + tree_size(t-&gt;right, count + 1); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int tree_size(TreeNode *t, int count) {\n    if (t == NULL)\n        return count;\n    else\n        return tree_size(t-&gt;left, count + 1) + tree_size(t-&gt;right, count + 1);\n}\n</pre></li><li><pre data-rawcode=\"int tree_size(TreeNode *t, int count) {     if (t == NULL)         return count;     else         return tree_size(t-&gt;left, count) + tree_size(t-&gt;right, count + 1); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int tree_size(TreeNode *t, int count) {\n    if (t == NULL)\n        return count;\n    else\n        return tree_size(t-&gt;left, count) + tree_size(t-&gt;right, count + 1);\n}</pre></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 321"
+        }
+      ]
+    }
+  ]
+}

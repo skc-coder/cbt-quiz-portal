@@ -1,0 +1,297 @@
+{
+  "name": "GO Classes Test Series 2023 | Data Structures | Test 1",
+  "duration": "75",
+  "total_qs": "25",
+  "total_qs_one": 10,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 25,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 25,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "375117",
+          "text": "<p>Given a doubly linked list where each node has two references (prev and next): one that points to a previous node and another that points to a next node. Assume the linked list below and provide the output for the following two lines.</p>\n\n<p><strong><img alt=\"\" height=\"116\" src=\"https://lh3.googleusercontent.com/rA07BmSdkwyMdbIppsBYIyYw3KTVJ8Sx2m4TTDEvO_w9hLCpqjcQeu0tCVU55Of36oq_YCZirtJqVQOXR8Us3cq73XMmjQccBz5oW2F7qcGvn7sJ-lmA-KAdwFgs-cK5urepC6UP8360GkP6Fg\" width=\"608\"></strong></p>\n\n<p>The list is restored to its initial state before each line executes:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nLine1:&nbsp;printf(“%d”, head-&gt;next-&gt;next-&gt;next-&gt;prev-&gt;prev-&gt;data);\nLine2:&nbsp;printf(“%d”, tail-&gt;prev-&gt;prev-&gt;prev-&gt;prev-&gt;next-&gt;next-&gt;data);</pre>\n\n<p>Which of the options is correct.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Output of line $1$ is $7$ and Output of line $2$ is $9$</li>\n\t<li>Output of line $1$ is $9$ and Output of line $2$ is $7$</li>\n\t<li>Both lines output $7$</li>\n\t<li>Both lines output $9$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ds-1,goclasses,data-structures,linked-list,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375105",
+          "text": "<p>Consider a function ReverseList() which has following protype -</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nNode *ReverseList(Node *p)</pre>\n\n<p>Function reverse the nodes in a given linked list.</p>\n\n<p>That is, head = ReverseList(head); will take a list held by head, reverse it and put back to head.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nNode * ReverseList(Node * p) {\n    if (!p) return NULL;\n    if (p -&gt; next) {\n        Node * q = ReverseList(p -&gt; next);\n        p -&gt; next -&gt; next = p;\n        p -&gt; next = 0;\n        return ______; //Line X\n    }\n    return ______; //Line Y\n}\n</pre>\n\n<p><br>\nFill in the blanks for Line X and Line Y. If we say Line X is filled by $p$ then we consider Line X as $\\textbf{return p;}$ after filling the blank.<br>\nLine X and Line Y should be filled by which values respectively such that the function correctly reverses the given linked list.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$p$ and $p \\rightarrow $ next</li>\n\t<li>$p$ and $q$</li>\n\t<li>$q \\rightarrow$ next and $p$</li>\n\t<li>$q$ and $p$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024_wq20,goclasses,data-structures,linked-list,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375106",
+          "text": "<p>Consider the function removeElements(int marker), which intends to remove all nodes with value equal to marker from the link list, leaving the rest intact. If no node with value marker exists in the list, then the list should left unchanged.<br>For example: calling removeElements(head, $12)$ on the linked list $:5 \\rightarrow 12 \\rightarrow 6\\rightarrow 3 \\rightarrow 12\\rightarrow 12\\rightarrow 9$ should result in $: 5\\rightarrow 6\\rightarrow 3\\rightarrow 9.$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void removeElements(Node * head, int marker) {\n    Node * current = head;\n    while (current != NULL) {\n        if (current -&gt; next != NULL &amp;&amp; current -&gt; next -&gt; data == marker) {\n            Node * newNext = current -&gt; next -&gt; next;\n            while (newNext != NULL &amp;&amp; newNext -&gt; data == marker) {\n                newNext = newNext -&gt; next;\n            }\n            current -&gt; next = newNext;\n        }\n        current = current -&gt; next;\n    }\n}\n</pre><p>Node is singly linked list type typedef structure and head always points to the first node of linked list.<br>Which of the option(s) is/are correct about removeElements() if we call this function from the main() function of some C program.</p><ol style=\"list-style-type:upper-alpha\"><li>removeElements(head, $12)$ on linked list $:5 \\rightarrow 12 \\rightarrow 6\\rightarrow 3 \\rightarrow 12\\rightarrow 12\\rightarrow 9$ would result in $: 5\\rightarrow 6\\rightarrow 3\\rightarrow 9.$</li><li>removeElements(head, $12)$ on linked list $:12 \\rightarrow 6\\rightarrow 3 \\rightarrow 12\\rightarrow 12\\rightarrow 9$ would result in $:6\\rightarrow 3\\rightarrow 9.$</li><li>removeElements(head, $12)$ on linked list $:6\\rightarrow 3 \\rightarrow 12\\rightarrow 12$ would result in $:6\\rightarrow 3.$</li><li>removeElements(head, $12)$ on linked list $:12 \\rightarrow 6\\rightarrow 3 \\rightarrow 12\\rightarrow 12$ would result in $: 6\\rightarrow 3.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,multiple-selects,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375097",
+          "text": "<p>The intent of the function below is to delete the last node of the list.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void removeLast(Node* first) {\n    Node *p, *q;\n    p = first;\n    q = p-&gt;next;\n    while (q-&gt;next != NULL) {\n        p = q;\n        q = q-&gt;next;\n    }\n    p-&gt;next = NULL;\n    free(q);\n}\n</pre><p>Which of the following describes the class of all linked lists for which this function works correctly?</p><ol style=\"list-style-type:upper-alpha\"><li>No linked lists</li><li>All non-empty linked lists</li><li>All linked lists with more than one node</li><li>The empty list and all linked lists with more than one node</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024_wq20,data-structures,linked-list,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375114",
+          "text": "<p>The concatenation of $2$ lists can be performed $O(1)$ time.</p><p>Following are the constraints -</p><ul><li>Only Pointer to head is given</li><li>Swap of node values is not allowed</li><li>The order should be preserved in concatenation. I.e. first list end node should point to the second list first node.</li></ul><p>Which of the following implementations of the list should be used?</p><ol style=\"list-style-type:upper-alpha\"><li>Singly Linked List</li><li>Doubly Linked List</li><li>Circular Linked List</li><li>Circular Doubly Linked List</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375118",
+          "text": "<p>Consider a sorted circular doubly-linked list where the head element points to the smallest element in the list. Which of the following(s) is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>Asymptotic time complexity of finding the smallest element in the list is $O(1)$</li><li>Asymptotic time complexity of finding the largest element in the list is $O(1)$</li><li>Asymptotic time complexity of determining whether a given element e appears in the list is $O(\\log n)$</li><li>Asymptotic time complexity of deleting a given element e in the list (not including the cost of finding it) is $O(1)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,multiple-selects,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375093",
+          "text": "<p>Consider two programs given below. Consider a non-empty linked list which is either a circular or singly linked list.&nbsp;$\\text{P1}$ and&nbsp;$\\text{P2}$ are two programs which try to check if it is circular or not. Let&nbsp;$\\text{head}$ point to the first node of the linked list.</p>\n\n<p>$\\text{P1}$ takes the head of the linked list as its argument and $\\text{P2}$ takes head as the first argument and head-&gt;next as the second argument at the first call.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint P1(struct node* head)\n{\n    if (head==null)\n        return 1;\n\n    struct node* next = head-&gt;next;\n\n    while(next!=null &amp;&amp; next !=head)\n    next = next-&gt;next;\n    return (next == head);\n\n}\n</pre>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint P2(struct node* head, struct node* cur)\n{\n    if (head==null)\n        return 1;\n\n    if(cur==null)\n        return 0;\n\n    if(head==cur)\n        return 1;\n\n    return P2(head, cur-&gt;next);\n}</pre>\n\n<p>Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\text{P1}$ returns $1$ if given linked list is circular</li>\n\t<li>$\\text{P2}$ returns $1$ if given linked list is circular</li>\n\t<li>$\\text{P1}$ returns $1$ if given linked list is having even number of nodes</li>\n\t<li>$\\text{P2}$ returns $1$ if given linked list is having even number of nodes</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024_wq20,goclasses,data-structures,linked-list,multiple-selects,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375100",
+          "text": "<p>Consider the following function $\\textsf{printNthNode()}.$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void printNthNode(Node *head){\n    Node *p, *q;\n    p = q= head;\n    while(q){\n        p = p-&gt;next;\n        q = q-&gt;next ? q-&gt;next-&gt;next : NULL;\n    }\n    printf(\"%d\", p-&gt;data);\n}\n</pre><p>We pass the head of the singly linked list to the above function. Which of the option(s) is/are correct about a linked list of length $n\\; (n\\geq 2)?$</p><p>The length of a linked list is the number of nodes in it.</p><ol style=\"list-style-type:upper-alpha\"><li>Function prints $n/2$ node value if $n$ is even</li><li>Function prints $n/2 +1$ node value if $n$ is even</li><li>Function prints $(n-1)/2 +1$ node value if $n$ is odd</li><li>Function prints $(n+1)/2 +1$ node value if $n$ is odd</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-mockgate-14,goclasses,data-structures,linked-list,multiple-selects,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375101",
+          "text": "<p>Consider a mutual pair of recursive functions g() and h().</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint g(struct node *l) {\n    if (l == NULL || l-&gt;next == NULL) return 1;\n    if (l-&gt;value &lt; l-&gt;next-&gt;value) return h(l-&gt;next);\n    else return 0;\n}\n\nint h(struct node *l) {\n    if (l == NULL || l-&gt;next == NULL) return 1;\n    if (l-&gt;value &gt; l-&gt;next-&gt;value) return g(l-&gt;next);\n    else return 0;\n}\n</pre>\n\n<p>Let head be a pointer to a singly linked list having at least $3$ nodes.</p>\n\n<p>When will the expression (g(head) || h(head)) return $1$ or $0?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>g(head) || h(head) is $1$ if the linked list is in ascending order.</li>\n\t<li>g(head) || h(head) is $1$ if the linked list is in descending order.</li>\n\t<li>g(head) || h(head) is $1$ for every unsorted linked list.</li>\n\t<li>g(head) || h(head) is $1$ for the linked list $1\\rightarrow 3\\rightarrow 2\\rightarrow 4\\rightarrow 0\\rightarrow 6$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ds-1,goclasses,data-structures,linked-list,multiple-selects,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375110",
+          "text": "<p>Suppose we have a Node data structure declared as follows:</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct Node\n{\n    int item;\n    Node *next;\n};\n</pre><p>What value does this function return, assuming that its argument is a properly formed singly linked list with a null pointer in the next field of the last Node?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int func(Node * arg) {\n    if (arg == NULL) {\n        return 0;\n    } \n    else {\n        if (arg -&gt; item &gt;0) return 1 + func(arg -&gt;next);\n        else\n            return func(arg -&gt; next);\n    }\n}\n</pre><ol style=\"list-style-type:upper-alpha\"><li>Returns the sum of the positive numbers in the list</li><li>Returns the number of positive numbers in the list</li><li>Returns the number of negative numbers in the list</li><li>Does not execute correctly because it never reaches a base case</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375109",
+          "text": "<p>Consider the following program.&nbsp;$\\textsf{printlist()}$ is a function that takes the head of a linked list and prints all nodes values separated by comma. Node is typedefed singly linked list type struct.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void insert1(Node *head,int data)\n{\n    Node *NewNode= (Node *)malloc(sizeof(Node));\n    NewNode-&gt;value=data;\n    NewNode-&gt;next=head;\n    head=NewNode;\n}\nvoid insert2(Node **head_ref,int data)\n{\n    Node *NewNode= (Node *)malloc(sizeof(Node));\n    NewNode-&gt;value=data;\n    NewNode-&gt;next=*(head_ref);\n    *(head_ref)=NewNode;\n}\nint main()\n{\n    /* create a linked list 1-&gt;2-&gt;3-&gt;4-&gt;5 \nand head points to the first node.*/\n    insert1(head,9);\n    printlist(head); //Line X\n\n    //The list is restored to its initial state\n\n    insert2(&amp;head,9);\n    printlist(head); //Line Y\n}\n</pre><p>Which of the following is/are true about the above program?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>Line $\\text{X}$ prints $9,1,2,3,4,5$</li><li>Line $\\text{Y}$ prints $9,1,2,3,4,5$</li><li>Line $\\text{X}$ prints $1,2,3,4,5$</li><li>Line $\\text{Y}$ prints $1,2,3,4,5$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,multiple-selects,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375099",
+          "text": "<p>Consider the following function $\\textsf{fun()}$ that takes the head of a linked list.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct node {\n    int value;\n    struct node *next;\n};\ntypedef struct node Node;\n\nint fun(Node *head){\n    if(head== NULL) return 1;\n    Node *p,*q;\n    p = head;\n    q = p-&gt;next;\n    while(q!=NULL &amp;&amp; q!=p){\n        q = q-&gt;next;\n    if(q==NULL) return 1;\n    q = q-&gt;next;\n    p = p-&gt;next;\n    }\nreturn (q==NULL);\n}\n</pre><p>We say, a linked list has a loop if the last node of linked list points to some node of linked list and does not point to NULL.</p><p>What does the above function do?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>Returns $0$ is there is loop in linked list</li><li>Returns $1$ is there is loop in linked list</li><li>Returns $0$ is length of the linked list is even</li><li>Function may go to infinite loop if there is a loop in linked list</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375095",
+          "text": "<p>Which of the following prints the last node of a circular (non empty) linked list?</p>\n\n<p>In all options, head is pointing to the first node of the circular (non empty) linked list.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>&nbsp;\n\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nstruct node *current = head;\nwhile(current-&gt;next!=head)\ncurrent=current-&gt;next;\nprintf(\"%d\", current-&gt;value);\n</pre>\n\t</li>\n\t<li>&nbsp;\n\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nstruct node *current = head-&gt;next;\nwhile(current-&gt;next!=head)\ncurrent=current-&gt;next;\nprintf(\"%d\", current-&gt;value);\n</pre>\n\t</li>\n\t<li>&nbsp;\n\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nstruct node *current = head;\nwhile(current!=head-&gt;next)\ncurrent=current-&gt;next;\nprintf(\"%d\", current-&gt;value);\n</pre>\n\t</li>\n\t<li>&nbsp;\n\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nstruct node *current = head;\nwhile(current-&gt;data!=head-&gt;data)\ncurrent=current-&gt;next;\nprintf(\"%d\", current-&gt;value);\n</pre>\n\t</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024_wq20,goclasses,data-structures,linked-list,multiple-selects,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375115",
+          "text": "<p>Consider a linked list given in the figure below.</p>\n\n<p>What is the value of $\\textsf{n} \\rightarrow&nbsp;\\textsf{next}\\rightarrow&nbsp;\\textsf{next}\\rightarrow&nbsp;\\textsf{next}\\rightarrow&nbsp;\\textsf{data}?$</p>\n\n<p>Where $n$ and head are pointers to the following struct type and intitallised as per the figure shown.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nstruct node{\n    int data;\n    struct node *next;\n};\n</pre>\n\n<p><strong><img alt=\"\" height=\"192\" src=\"https://lh5.googleusercontent.com/z9V5D16dKRZFPEuremLeAuNCOHWlEBHfxr4JFEgkLvqwqqgVcl0DcI7XMqFCNkal28wlxgDuMWqy6EbLjzM9Puc85M02GIPQKpcag2Y_6QOERouNqk-n7BnQjLKgRNaKuqNUQdURFngBlnZZ7w\" width=\"546\"></strong></p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$10$</li>\n\t<li>$20$</li>\n\t<li>$30$</li>\n\t<li>$40$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024_wq20,goclasses,data-structures,linked-list,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375112",
+          "text": "<p>What is the output of the following function for the head pointing to the first node of the following linked list? $$1\\rightarrow 5\\rightarrow 9\\rightarrow 4\\rightarrow 7\\rightarrow 6$$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void myFunction(struct node* head)\n{\n    if(head == NULL)\n        return;\n    printf(\"%d \", head-&gt;data);\n    if(head-&gt;next != NULL )\n        myFunction(head-&gt;next-&gt;next);\n    printf(\"%d \", head-&gt;data);\n}\n</pre><ol style=\"list-style-type:upper-alpha\"><li>$1\\; 9 \\;7\\; 7\\; 9\\; 1$</li><li>$1\\; 9\\; 7$</li><li>$1\\; 9\\; 7\\; 1\\; 9\\; 7$</li><li>$1\\; 9\\; 7\\; 6\\; 4\\; 5$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375098",
+          "text": "<p>Consider an unsorted singly linked list.</p><p>Suppose it has as its representation with a head and tail pointer (i.e., pointers to the first and last nodes in the list). Given that representation, which of the following operations could be implemented in $O(1)$ time?</p><ol style=\"list-style-type:upper-roman\"><li>Insert item at the front of the list</li><li>Insert item at the rear of the list</li><li>Delete the front item from the list</li><li>Delete rear item from the list</li></ol><p> </p><ol style=\"list-style-type:upper-alpha\"><li>I and II</li><li>I and III</li><li>I, II, and III</li><li>I, II, and IV</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375113",
+          "text": "<p>Consider the following singly linked list where the head points to the first node of the linked list.</p><p><strong><img alt=\"\" height=\"71\" width=\"508\" src=\"https://lh5.googleusercontent.com/voEAEZN8xoNf833-ggXME1XUM18lYGYY-IgzUjF5eeRYxDMemRpwmgb7Z6wcaQME9r6HEpHssGj1qW8z3fBET_kX6e8pHSpxXzd30SaowUaGs7bxWpn9TfOLahTJQoRv6wy72Ut_2cEMkKjf_g\"></strong><br>If we execute the following code on the above-linked list then what will be the final linked list?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Node *p, *addNode;\np = head-&gt;next;\naddNode = createNode(6); \naddNode-&gt;next = p-&gt;next;\np-&gt;next = addNode;\n</pre><p>Here $\\textsf{createNode()}$ is a function that takes an integer value and creates a node using $\\textsf{malloc},$ sets the data field to an integer value, and the next field to $\\textsf{NULL}, and then it returns the pointer to the node created.</p><ol style=\"list-style-type:upper-alpha\"><li>$2\\rightarrow 4\\rightarrow 6\\rightarrow 8\\rightarrow 10$</li><li>$2\\rightarrow 4\\rightarrow 8\\rightarrow 6\\rightarrow 10$</li><li>$2\\rightarrow 4\\rightarrow 8\\rightarrow 10$</li><li>$2\\rightarrow 6\\rightarrow 4\\rightarrow 8\\rightarrow 10$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375104",
+          "text": "<p>Consider the following function recursive_remove().</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Node* recursive_remove(Node* head, int x)\n{\n    if (head == NULL)\n        return NULL;\n    if (head-&gt;value == x)\n    {\n        Node* tmp = head-&gt;next;\n        free(head);\n        return recursive_remove(tmp, x);\n    }\n    else\n    {\n        head-&gt;next = recursive_remove(head-&gt;next, x);\n        return head;\n    }\n}\n</pre><p>If we call the function recursive_remove(head,$2)$ on the following linked list then $1\\rightarrow2\\rightarrow2\\rightarrow8\\rightarrow6\\rightarrow2\\rightarrow2$</p><ol style=\"list-style-type:upper-alpha\"><li>Final LinkedList will be $1,2,8,6,2,2$</li><li>Final LinkedList will be $1,8,6$</li><li>Final LinkedList will be $1,8,6,2,2$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375111",
+          "text": "<p>Consider the following linked list which has nodes of a doubly linked list type.</p>\n\n<p><strong><img alt=\"\" height=\"99\" src=\"https://lh3.googleusercontent.com/-viS0YnVTFYd6HKN8X2qxpJkoSTYyXJkG6FxgFCl5sw9DwQnMi3ARJkbbA1veeAzyOUzrWvzwHMA25SUcUityFPyc-rTHBjz0MnAuU_qj36QhDVOelTbvag2q0j2vOeoUHqIVKGarpIa4Wy78Q\" width=\"624\"></strong></p>\n\n<p>If we execute the following lines of code on a given linked list then what will be the output?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nhead-&gt;prev-&gt;next-&gt;next = head-&gt;next-&gt;next;\nhead = head-&gt;prev-&gt;prev;\nhead-&gt;prev = head;\nprintf(\"%d\", head-&gt;data);\n</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$2$</li>\n\t<li>$15$</li>\n\t<li>$10$</li>\n\t<li>$13$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024_wq20,goclasses,data-structures,linked-list,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375096",
+          "text": "<p>Suppose there are two singly linked lists both of which intersect at some point and become a single linked list. See figure for visual understanding.</p><p>The head or start pointers of both the lists are known, but the intersecting node is not known. Also, the number of nodes in each of the list before they intersect are unknown and both list may have it different i.e. List$1$ may have m nodes before it reaches intersection point and List$2$ might have n nodes before it reaches intersection point where $m(\\geq 2)$ and $n (\\geq 2)$ may be</p><ul><li>$m = n,$</li><li>$m &lt; n$ or</li><li>$m &gt; n$</li></ul><p style=\"text-align:center\"><img alt=\"\" height=\"281\" width=\"703\" src=\"https://lh6.googleusercontent.com/FZ9dq-j6eAU2BKgweGvnHAbCLKKdMGONvwm-s5iM9xvt_SbpTrPWM4u6PcTta3rurdZ52nYDv_bdf8FblOnmmiQgdxZI9G8iaM_L2GEUNkM3GSNftuFzwdvAqoAi2C8pAmLwGclvcV3rEdBg8A\"></p><p>Consider the below algorithm which tries to find out the intersecting point of both linked lists -<br>Here $\\text{M}$ and $\\text{N}$ are total lengths of linked list $1$ and $2$ respectively. That is, $\\text{M} = m+t$ and $\\text{N} = n+t.$</p><ol><li>Traverse the two linked lists to find $\\text{M}$ and $\\text{N}.$</li><li>Get back to the heads, then traverse $|\\text{M - N}|$ nodes on the long list.</li><li>Now start walking in the first linked list too and compare the nodes until you find the common ones. I.e. if $\\text{M} = 4$ and $\\text{N} = 6$ then we will compare 1st node address in linked list $1$ with $3$rd node address in linked list $2,$ then $2$nd node address in linked list $1$ and $4$th node address in linked list $2,$ and so on.</li></ol><p>Which of the following is/are correct about this algorithm?</p><ol style=\"list-style-type:upper-alpha\"><li>Algorithm will fail to detect the intersection point for $m = n.$</li><li>Algorithm will fail to detect the intersection point for $m &lt; n.$</li><li>Algorithm will correctly detect the intersection point for every input and the time complexity of the algorithm is $O(\\text{M+N}).$</li><li>Algorithm will correctly detect the intersection point for every input and the time complexity of the algorithm is $O(\\text{MN}).$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375102",
+          "text": "<p>Consider the function mystery which takes the head of a singly linked list as an argument.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int mystery(Node* head)\n{\n    if (head == NULL) return 0;\n    else return head-&gt;data - mystery(head-&gt;next);\n}\n</pre><p>If the linked list contains integers from $1$ to n in the order, where the head is pointing to $1.$</p><p>Which of the following is/are true about the function call mystery(head)?</p><ol style=\"list-style-type:upper-alpha\"><li>It returns $-50$ if $n$ is $99$</li><li>It returns $50$ if $n$ is $99$</li><li>It returns $-50$ if $n$ is $100$</li><li>It returns $50$ if $n$ is $100$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-mockgate-14,goclasses,data-structures,linked-list,multiple-selects,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375094",
+          "text": "<p>Consider the function insertBeginning() below which inserts a node in the beginning of a doubly linked list.<br>Choose the correct option to fill commented line in below code such that&nbsp;insertBeginning() works as stated.</p><p>Assuming that \"struct node\" is a structure with three usual fields for a doubly linked list (prev, next, and val), where all the fields work as expected by their name i.e. prev points to the previous node and so on.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct node * insertBeginning(struct node *head, int val){\n    struct node *newNode = malloc(sizeof( struct node ));\n    newNode-&gt;value = val;\n    // your code goes here\n    return head;\n}\n</pre><ol style=\"list-style-type:upper-alpha\"><li> <pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">newNode-&gt;prev = NULL;\nnewNode-&gt;next = head;\nhead-&gt;prev =newNode;\nhead =newNode;\n</pre></li><li> <pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">newNode-&gt;prev = head;\nnewNode-&gt;next = NULL;\nhead-&gt;prev =newNode;\nhead =newNode;\n</pre></li><li> <pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">newNode-&gt;prev = head;\nnewNode-&gt;next = NULL;\nhead-&gt;next =newNode;\nhead =newNode;\n</pre></li><li> <pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">newNode-&gt;prev = NULL;\nnewNode-&gt;next = head;\nhead-&gt;prev =newNode;\nhead =newNode-&gt;next;\n</pre></li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ds-sw-1,goclasses,data-structures,linked-list,multiple-selects,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375108",
+          "text": "<p>Consider the following code fragment.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nstruct node {\n    int data;\n    struct node *next;\n};\n    struct node *curr, *prev, *next;\n    //front is pointing to the head of the linked list as shown\n       in figure.\n    curr = front;\n    next = curr-&gt;next;\n    prev = NULL;\n    while (curr != NULL) {\n    (*)\n}\nfront = prev;\n</pre>\n\n<p>Which code must be added in the part marked (*) so the above code correctly inverts a non-empty singly linked list? See the figure to understand what ”invert” means.<br>\n&nbsp;</p>\n\n<p><strong><img alt=\"\" height=\"62\" src=\"https://lh5.googleusercontent.com/ExMplg9UNY-Df-uR_21bRFcr2ebe_V0MpzLyk6rKzmuPhGTGCZ-Bae9rDxak9bucs4lZO7wDhHfUPY1035kA_lIjo8o8feu7hLWLuTmDxe_JRZESbSddAj-kJXTyavSHvkaDfULmuMtL-XJOSw\" width=\"756\"></strong></p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nnext-&gt;next = prev; prev = curr; curr = next; \nif (next != NULL) next = next-&gt;next;</pre>\n\n\t<p>&nbsp;</p>\n\t</li>\n\t<li>\n\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\ncurr-&gt;next= prev; prev = curr; curr = next; \nif (next != NULL) next = next-&gt;next;</pre>\n\n\t<p>&nbsp;</p>\n\t</li>\n\t<li>\n\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nnext-&gt;next=curr; prev = curr; curr = next; \nif (next != NULL) next = next-&gt;next;</pre>\n\n\t<p>&nbsp;</p>\n\t</li>\n\t<li>\n\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nprev = curr; curr = next; curr-&gt;next= prev; \nif (next != NULL) next = next-&gt;next;\n</pre>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ds-1,goclasses,data-structures,linked-list,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375116",
+          "text": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct node{\n    int data;\n    struct node *next;\n}\nvoid print(struct node *ptr)\n{\n    if(ptr)\n    {\n        printf(\"%d \",ptr-&gt;data);\n        do {\n            printf(\"%d \",ptr-&gt;data);\n        }\n        while(ptr-&gt;next);\n    }\n}\n\n</pre><p>What is the output, if the address of the first node of singly linked list $1 \\rightarrow 2 \\rightarrow 3\\rightarrow&nbsp;4 \\rightarrow&nbsp;5$ is passed in the above C code?</p><ol style=\"list-style-type:upper-alpha\"><li>$1\\; 2 \\;3\\; 4\\; 5$</li><li>$1\\; 1\\; 2\\; 3\\; 4\\; 5$</li><li>$1\\; 1\\; 2\\; 3\\; 4\\; 5\\; 5$</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ds-1,goclasses,data-structures,linked-list,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "375107",
+          "text": "<p>The following code is intended to remove a node p from a doubly linked list. Assume that we know that p is in the list, so the list is not empty.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nstruct node {\n    char value;\n    struct node *next;\n    struct node *prev;\n};\nstruct node *prev *succ;\nprev = p-&gt;prev;\nsucc = p-&gt;next;\nif (p == front) {\n    front = front-&gt;next;\n    if (front == NULL) rear = NULL;\n    else front-&gt;prev = NULL;\n}\nelse prev-&gt;next = succ;\nif (p == rear) {\n    rear = rear-&gt;next;\n    rear-&gt;next = NULL;\n}\nelse succ-&gt;prev = prev;\n</pre>\n\n<p>Given three linked lists (a),(b), and (c) as shown below.</p>\n\n<p><br>\n<strong><img alt=\"\" height=\"125\" src=\"https://lh5.googleusercontent.com/XPGFupKtI_QF0e9Y3NAHHFagNXJ2gn0RGUDpVVmdFYAxh5tcawigOXLK_zDdG_Pcnkygy5kY7R5sVtVhVf0ub-bVT_sO81sQ1i4BldjDjLKPEcJiMhm8mMg2-Q6xycN_x8laaDHxZOvSK4ZfSw\" width=\"875\"></strong><br>\nMark the correct option(s).</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Code will crash on linked list (a)</li>\n\t<li>Code will crash on linked list (b)</li>\n\t<li>Code will crash on linked list (c)</li>\n\t<li>Code will not crash on any of the given linked lists</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ds-1,goclasses,data-structures,linked-list,multiple-selects,two-marks",
+          "category": "Data Structures"
+        }
+      ]
+    }
+  ]
+}

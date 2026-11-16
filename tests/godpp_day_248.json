@@ -1,0 +1,70 @@
+{
+  "name": "Day 224 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525570",
+          "text": "<p>Consider the following statements :</p><ul><li><strong>Statement I </strong>$:$ Eigenvalues of $M =$ Eigenvalues of $M'$.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(M'$ is the matrix gets after row operation$)$<br>&nbsp;</li><li><strong>Statement II </strong>$:$ Eigenvalues of $(M- \\lambda I)$ = Eigenvalues of $(M- \\lambda I)'$.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$((M- \\lambda I)'$ is the matrix gets after row operation$)$</li></ul><div>&nbsp;</div><p>Which of the statement(s) is(are) correct always?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Only I<br>&nbsp;</li><li>Only II<br>&nbsp;</li><li>Both I and II<br>&nbsp;</li><li>None</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "525563",
+          "text": "<p>If $A$ is a unitary matrix, which of the following can be the eigenvalues of $A$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1,-1$<br>&nbsp;</li><li>$1,-i$<br>&nbsp;</li><li>$i,-i$<br>&nbsp;</li><li>$-1, i$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "525556",
+          "text": "How many invertible $2 \\times 2$ matrices are there whose entries belong to $\\{0,1\\}$ ?",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "525566",
+          "text": "<p>$A$ is $5 \\times 5$ matrix, all of whose entries are $1$ , then</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A$ is not diagonalizable&nbsp;<br>&nbsp;</li><li>$A$ is idempotent&nbsp;<br>&nbsp;</li><li>$A$ is nilpotent<br>&nbsp;</li><li>$rank(A) = 1$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "525558",
+          "text": "<p>$A^2-A=0$, where $A$ is a $9 \\times 9$ matrix. Then which of the following is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A$ must be a zero matrix.&nbsp;<br>&nbsp;</li><li>$A$ is an identity matrix<br>&nbsp;</li><li>rank of $A$ is $0$&nbsp;or $1$&nbsp;<br>&nbsp;</li><li>$A$ is diagonalizable.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 224"
+        }
+      ]
+    }
+  ]
+}

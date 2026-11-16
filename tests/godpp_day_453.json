@@ -1,0 +1,70 @@
+{
+  "name": "Day 311 [Theory of Computation]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "538150",
+          "text": "<p data-start=\"4185\" data-end=\"4407\">Let $\\Sigma = \\{a,b,c,d,e\\}$ and $L = \\{w \\in \\Sigma^* \\mid$ the letters in $w$ are sorted alphabetically$\\}$. Which option lists exactly the strings that belong to $L$ from $abcde, bee, a, \\epsilon, decade$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4409\" data-end=\"4547\">$\\{abcde, bee, a, \\epsilon\\}$<br>&nbsp;</li><li data-start=\"4409\" data-end=\"4547\">$\\{abcde, bee, a, \\epsilon, decade\\}$<br>&nbsp;</li><li data-start=\"4409\" data-end=\"4547\">$\\{abcde, a, decade\\}$<br>&nbsp;</li><li data-start=\"4409\" data-end=\"4547\">$\\{bee, decade, \\epsilon\\}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 311"
+        },
+        {
+          "post_id": "538146",
+          "text": "For a string $s$ of length $n = 5$, find the number of non-empty proper prefixes of $s$. A proper prefix here means a prefix that is neither $\\epsilon$ nor the complete string $s$.",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 311"
+        },
+        {
+          "post_id": "538144",
+          "text": "<p data-start=\"1367\" data-end=\"1436\">Which of the following formal descriptions are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1438\" data-end=\"1660\">The set containing the string $aba$ is $\\{aba\\}$<br>&nbsp;</li><li data-start=\"1438\" data-end=\"1660\">The set containing the empty string is $\\{\\epsilon\\}$<br>&nbsp;</li><li data-start=\"1438\" data-end=\"1660\">The set containing nothing at all is $\\emptyset$<br>&nbsp;</li><li data-start=\"1438\" data-end=\"1660\">The set containing the empty string is $\\emptyset$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 311"
+        },
+        {
+          "post_id": "538148",
+          "text": "<p data-start=\"3185\" data-end=\"3342\">Let $\\Sigma = \\{a,c,m,o\\}$ and $L = \\{w \\in \\Sigma^* \\mid w$ contains $cocoa$ as a substring$\\}$. How many of the following strings belong to $L$?</p><ol start=\"1\" style=\"list-style-type: lower-roman;\"><li data-start=\"3344\" data-end=\"3446\">$mmcocoamm$<br>&nbsp;</li><li data-start=\"3344\" data-end=\"3446\">$cocoa$<br>&nbsp;</li><li data-start=\"3344\" data-end=\"3446\">$c$<br>&nbsp;</li><li data-start=\"3344\" data-end=\"3446\">$cmomcmoma$<br>&nbsp;</li><li data-start=\"3344\" data-end=\"3446\">$\\epsilon$<br>&nbsp;</li><li data-start=\"3344\" data-end=\"3446\">$ccccocoa$<br>&nbsp;</li><li data-start=\"3344\" data-end=\"3446\">$cococoa$</li></ol>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 311"
+        },
+        {
+          "post_id": "538142",
+          "text": "<p data-start=\"458\" data-end=\"571\">Let $S = \\{w \\mid w$ is a binary string and $w = w^R\\}$. Which of the following best describes $S$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"573\" data-end=\"814\">Set of all binary strings having equal number of $0$s and $1$s<br>&nbsp;</li><li data-start=\"573\" data-end=\"814\">Set of all binary strings that are palindromes<br>&nbsp;</li><li data-start=\"573\" data-end=\"814\">Set of all binary strings that start and end with the same symbol<br>&nbsp;</li><li data-start=\"573\" data-end=\"814\">Set of all binary strings of even length only</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 311"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 OS1: Introduction and CPU Scheduling",
+  "duration": "60",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "251186",
+          "text": "<p>An operating system is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>a collection of programs that manages hardware resources</li>\n    <li>system service provider to the application programs</li>\n    <li>an interface between hardware and application programs</li>\n    <li>all of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251184",
+          "text": "<p>As we know that operating system provides an interface to access various underlying resources. How does the operating system actually provide these services to user processes:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>System calls</li>\n    <li>API</li>\n    <li>Library routines</li>\n    <li>Assembly routine</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251182",
+          "text": "<p>Which one of the following is a correct difference between a kernel and an operating system?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>kernel is the loaded into memory once all the device drivers and library routines are loaded into memory during booting.</li>\n    <li>kernel is made of various modules which can not be loaded in an already running operating system.</li>\n    <li>kernel remains in the memory during the entire computer session.</li>\n    <li>All of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251180",
+          "text": "<p>A thread can be classified as a :</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Typical computation job</li>\n    <li>Typical process</li>\n    <li>Program</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251178",
+          "text": "<p>Processes communicate with each other in order to complete some task. This communication can be done with the help of:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Mails</li>\n    <li>Messages</li>\n    <li>Systems calls</li>\n    <li>Traps</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251176",
+          "text": "<p>The state-transition diagram for any user process in the system shows the lifetime of a process going through many states throughout its lifetime. The edges are directed from one node (or state) to another node (or state) depicting the transition of process from former state to later state. If there is a cycle (caused by two edges) between two nodes with labels $\\texttt{Running}$ and $\\texttt{Ready}$&nbsp;it means this system:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>has a preemptive scheduling policy</li>\n    <li>has a non-preemptive scheduling policy</li>\n    <li>is a Batch operating system</li>\n    <li>is a multi-programming operating system</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os1,process",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251174",
+          "text": "<p>System calls are used in order to use services provided by operating system. System calls usually employ:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Software Interrupts</li>\n    <li>Polling</li>\n    <li>Context switching</li>\n    <li>Jump instructions</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251172",
+          "text": "<p>Supervisor state is a state of the system which is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>entered by user programs when they take the control of the processor.</li>\n    <li>required to perform &nbsp;all types of I/O operations only.</li>\n    <li>only allowed to be used by the operating system.</li>\n    <li>used by user and system processes in order to perform special types of I/O operations.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251170",
+          "text": "<p>Which of the following job scheduling policy is most suitable for a real time operating system:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Priority based scheduling</li>\n    <li>First in first out scheduling</li>\n    <li>Round robin scheduling</li>\n    <li>feedback queue based scheduling</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251168",
+          "text": "<p>Which of the following is a&nbsp;valid sequence of state-transitions of a normal user process?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(ready,running,timeout)</li>\n    <li>(block,ready,blocked)</li>\n    <li>(timeout,ready,blocked)</li>\n    <li>All are valid</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os1,process",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251166",
+          "text": "Five jobs A,B,C,D,E are to be executed on a single processor system all arriving (in that order) at time $0$ ns. The CPU bursts of these processes are: $6,7,5,4,2 \\text{ (all in ns) }$ respectively. The completion time of process B under round robin scheduling policy with time quantum of $2$ ns, if context switch time is given as $0.2$ ns and switching at the beginning and at the end are not to be considered, is __________",
+          "type": "Numerical",
+          "answer": "26.4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-os1,numerical-answers",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251164",
+          "text": "<p>The minimum requirement at hardware level, for a &nbsp;multiuser, multiprogrammed operating system, so that it can be implemented on that hardware, can be given by:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Virtual and physical address spaces</li>\n    <li>Demand paging with interrupts</li>\n    <li>At least two modes of processor execution (user mode and kernel mode)</li>\n    <li>DMA with restricted memory accesses.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251162",
+          "text": "<p>Which thread cancellation approach allows to terminate the thread immediately?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Deferred cancellation</li>\n    <li>Asynchronous cancellation</li>\n    <li>Immediate termination is not possible.</li>\n    <li>Both (A) and (B)</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251160",
+          "text": "<p>The sequence A is an optimal non-preemptive scheduling sequence for the following jobs shown as following three tuples:(job, arrival time, burst time):<br>\n$(Job_1, 0.0, 9)$<br>\n$(Job_2, 0.6, 5)$<br>\n$(Job_3, 1.0, 1)$</p>\n\n<p>The schedule A leaves the processor idle for B amount of time. The values of A and B respectively are:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$(1,2,3), 7.13$</li>\n    <li>$(3,2,1), 1$</li>\n    <li>$(3,2,1), 2.8$</li>\n    <li>$(1,3,2), 5.8$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251158",
+          "text": "<p>A process executes following lines of code:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\npid_t pid = fork();\nfor(i=0;i&lt;5;i++)\nif(pid==0) fork();</pre>\n\n<p>The total number of child processes created is ________</p>",
+          "type": "Numerical",
+          "answer": "32",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-os1,numerical-answers,fork",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251156",
+          "text": "<p>Consider following four processes shown in the following table with their arrival time and CPU bursts.</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:250px; border-spacing: 1px;\">\n    <tbody>\n        <tr>\n            <td><strong>Process ID</strong></td>\n            <td><strong>Arrival Time</strong></td>\n            <td><strong>CPU Burst</strong></td>\n        </tr>\n        <tr>\n            <td>P1</td>\n            <td>0</td>\n            <td>6</td>\n        </tr>\n        <tr>\n            <td>P2</td>\n            <td>2</td>\n            <td>10</td>\n        </tr>\n        <tr>\n            <td>P3</td>\n            <td>6</td>\n            <td>4</td>\n        </tr>\n        <tr>\n            <td>P4</td>\n            <td>4</td>\n            <td>6</td>\n        </tr>\n    </tbody>\n</table>\n\n<p><br>\nThree different scheduling approaches namely:<br>\nFirst Come First Serve (FCFS), Shortest Remaining CPU Time First (SRCTF) and Round Robin (RR-2) with quantum size of $2$ time unit are employed. The tuple (a,b,c) shows the average waiting times of FCFS, SRTF and RR-2 respectively. The value of expression $\\frac{a+b+c}{3}$ is __________</p>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-os1,numerical-answers",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251154",
+          "text": "<p>Consider following statements about context switching happening from process A to process B:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>Storing the current values of registers to address space of A and loading the values of registers for process B.</li>\n    <li>Modifying the address translation tables of both processes to reflect the effects of switching.</li>\n    <li>Flushing all entries in TLB (which contains attributes like address translation entries, process ids, control bit entries etc) completely and load the same for process B.</li>\n    <li>Updating Page table buffer register so that it contains the address of page table of A.</li>\n</ol>\n\n<p>Which of the above actions are typically performed by operating system while switching the context from process A to process B?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(i) and (ii) only</li>\n    <li>(ii) and (iii) only</li>\n    <li>(i), (ii) and (iii) only</li>\n    <li>(i), (ii), (iii) and (iv) only</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os1,virtual-memory",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251152",
+          "text": "<p>Consider a uni-processor system with only $2$ processes running. Bot of the processes have the CPU burst time as $20$ ms and IO burst time as $100$ ms. Both processes are started at the same time and IO operations can be overlapped. Which of the following scheduling strategies will result in lowest CPU utilization over a long period of time:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>FCFS</li>\n    <li>Shortest remaining time first</li>\n    <li>Longest remaining time first</li>\n    <li>Round robin scheduling with time quantum of $5$ ms</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251150",
+          "text": "<p>Consider following set of processes with their arrival times and CPU-burst times given in milliseconds.</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:250px; border-spacing: 1px;\">\n    <tbody>\n        <tr>\n            <td><strong>Process ID</strong></td>\n            <td><strong>Arrival Time</strong></td>\n            <td><strong>CPU Burst</strong></td>\n        </tr>\n        <tr>\n            <td>P1</td>\n            <td>4</td>\n            <td>3</td>\n        </tr>\n        <tr>\n            <td>P2</td>\n            <td>2</td>\n            <td>10</td>\n        </tr>\n        <tr>\n            <td>P3</td>\n            <td>0</td>\n            <td>5</td>\n        </tr>\n        <tr>\n            <td>P4</td>\n            <td>5</td>\n            <td>8</td>\n        </tr>\n        <tr>\n            <td>P5</td>\n            <td>2</td>\n            <td>2</td>\n        </tr>\n    </tbody>\n</table>\n\n<p><br>\nWhat is the average Turnaround time (in ms) for these processes with Shortest remaining time first algorithm employed for scheduling.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$8.6$</li>\n    <li>$10.8$</li>\n    <li>$12.25$</li>\n    <li>$14.25$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os1",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "251148",
+          "text": "<p>Consider three processes, all arriving at time zero, with total execution times of $20, 40$ and $60$ units, respectively. Each process spends the first $30 \\%$ of its execution time doing computation, next $40\\%$ of execution time doing I/O, next $20\\%$ of time doing computation and the last $10\\%$ of time doing I/O again. The operating system uses a shortest remaining compute time first scheduling algorithm and schedules a new process either when the running process gets blocked on I/O or when the running process finishes its compute burst. Assume that all I/O operations can be overlapped as much as possible. For what percentage of time does the CPU remain idle?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0\\%$</li>\n    <li>$20.67\\%$</li>\n    <li>$26.83\\%$</li>\n    <li>$33.33\\%$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os1,process-schedule",
+          "category": "Operating System"
+        }
+      ]
+    }
+  ]
+}

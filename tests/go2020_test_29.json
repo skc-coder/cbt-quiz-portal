@@ -1,0 +1,352 @@
+{
+  "name": "Data Structures GATE2020: Previous GATE (2)",
+  "duration": "81",
+  "total_qs": "30",
+  "total_qs_one": 15,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 45,
+  "total_marks": 45,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 45,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "2633",
+          "text": "<p>The postfix expression for the infix expression $A+B*(C+D)/F+D*E$ is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$AB + CD + *F/D +E*$</li>\n\t<li>\n\t<p>$ABCD + *F/DE* ++$</p>\n\t</li>\n\t<li>\n\t<p>$A * B + CD/F *DE ++$</p>\n\t</li>\n\t<li>\n\t<p>$A + *BCD/F* DE ++$</p>\n\t</li>\n</ol>\n\n",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gate1995,data-structures,stack,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "2246",
+          "text": "<p>A binary search tree contains the value $1, 2, 3, 4, 5, 6, 7, 8$. The tree is traversed in pre-order and the values are printed out. Which of the following sequences is a valid output?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$5 \\ 3 \\ 1 \\ 2 \\ 4 \\ 7 \\ 8 \\ 6$</li>\n\t<li>$5 \\ 3 \\ 1 \\ 2 \\ 6 \\ 4 \\ 8 \\ 7$</li>\n\t<li>$5 \\ 3 \\ 2 \\ 4 \\ 1 \\ 6 \\ 7 \\ 8$</li>\n\t<li>$5 \\ 3 \\ 1 \\ 2 \\ 4 \\ 7 \\ 6 \\ 8$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gate1997,data-structures,binary-search-tree,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3654",
+          "text": "<p>Let $P$ be a singly linked list. Let $Q$ be the pointer to an intermediate node $x$ in the list. What is the worst-case time complexity of the best-known algorithm to delete the node $x$ from the list ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$O(n)$</li>\n\t<li>$O(\\log^2&nbsp;n)$</li>\n\t<li>$O(\\log n)$</li>\n\t<li>$O(1)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gateit-2004,data-structures,linked-list,normal,ambiguous",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3617",
+          "text": "<p>An array $X$ of n distinct integers is interpreted as a complete binary tree. The index of the first element of the array is $0$.&nbsp;If the root node is at level $0$, the level of element $X[i]$, $i \\neq&nbsp;0$, is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\left \\lfloor \\log _2 i \\right \\rfloor$&nbsp;</li>\n\t<li>$\\left \\lceil \\log _2 (i+1)\\right \\rceil$</li>\n\t<li>$\\left \\lfloor \\log _2 (i+1) \\right \\rfloor$&nbsp;</li>\n\t<li>$\\left \\lceil \\log _2 i \\right \\rceil$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gateit-2006,data-structures,binary-tree,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "734",
+          "text": "<p>What is the minimum number of stacks of size $n$ required to implement a queue of size $n$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>One</li>\n\t<li>Two</li>\n\t<li>Three</li>\n\t<li>Four</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2001,data-structures,easy,stack,queue",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "118253",
+          "text": "<p>A circular queue has been implemented using a singly linked list where each node consists of a value and a single pointer pointing to the next node. We maintain exactly two external pointers FRONT and REAR pointing to the front node and the rear node of the queue, respectively. Which of the following statements is/are CORRECT for such a circular queue, so that insertion and deletion operations can be performed in $O(1)$ time?</p>\n\n<ol style=\"list-style-type: upper-roman;\">\n\t<li>Next pointer of front node points to the rear node.</li>\n\t<li>Next pointer of rear node points to the front node.</li>\n</ol>\n\n\n\n<ol style=\"list-style-type: upper-alpha;\">\n\t<li>(I) only.</li>\n\t<li>(II) only.</li>\n\t<li>Both (I) and (II).</li>\n\t<li>Neither (I) nor (II).</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2017-set2,data-structures,queue",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "204077",
+          "text": "<p>A queue is implemented&nbsp;using a non-circular singly linked list. The queue has a head pointer and a tail pointer, as shown in the figure. Let $n$ denote the number of nodes in the queue. Let 'enqueue' be implemented by inserting a new node at the head, and 'dequeue' be implemented by deletion of a node from the tail.</p>\n\n<p><img alt=\"\" height=\"152\" src=\"data:image/png;base64,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\" width=\"600\"></p>\n\n<p>Which one of the following is the time complexity of the most time-efficient implementation of 'enqueue' and 'dequeue, respectively, for this data structure?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\Theta(1), \\Theta(1)$</li>\n\t<li>$\\Theta(1), \\Theta(n)$</li>\n\t<li>$\\Theta(n), \\Theta(1)$</li>\n\t<li>$\\Theta(n), \\Theta(n)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2018,algorithms,data-structures,queue,normal,linked-list,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1003",
+          "text": "<p>Level order traversal of a rooted tree can be done by starting from the root and performing</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>preorder traversal</p>\n\t</li>\n\t<li>\n\t<p>in-order traversal</p>\n\t</li>\n\t<li>\n\t<p>depth first search</p>\n\t</li>\n\t<li>\n\t<p>breadth first search</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2004,data-structures,tree,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1004",
+          "text": "<p>Given the following input $(4322, 1334, 1471, 9679, 1989, 6171, 6173, 4199)$ and the hash function $x$ mod $10$, which of the following statements are true?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\n\t<p>$9679, 1989, 4199$ hash to the same value</p>\n\t</li>\n\t<li>\n\t<p>$1471, 6171$ hash to the same value</p>\n\t</li>\n\t<li>\n\t<p>All elements hash to the same value</p>\n\t</li>\n\t<li>\n\t<p>Each element hashes to a different value</p>\n\t</li>\n</ol>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>I only</li>\n\t<li>II only</li>\n\t<li>I and II only</li>\n\t<li>III or IV</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gatecse-2004,data-structures,hashing,easy",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3761",
+          "text": "<p>A hash table contains $10$ buckets and uses linear probing to resolve collisions. The key values are integers and the hash function used is $\\text{key}\\%10$. If the values $43, 165, 62, 123, 142$ are inserted in the table, in what location would the key value $142$ be inserted?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$2$</li>\n\t<li>$3$</li>\n\t<li>$4$</li>\n\t<li>$6$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gateit-2005,algorithms,hashing,easy",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "3272",
+          "text": "<p>Which of the following is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>The cost of searching an AVL tree is $\\Theta&nbsp;(\\log n)$ but that of a binary search tree is $O(n)$</li>\n\t<li>The cost of searching an AVL tree is $\\Theta (\\log n)$ but that of a complete binary tree is&nbsp;$\\Theta (n \\log n)$</li>\n\t<li>The cost of searching a binary search tree is $O (\\log n )$ but that of an AVL tree is $\\Theta(n)$</li>\n\t<li>The cost of searching an AVL tree is $\\Theta&nbsp;(n \\log n)$&nbsp;but that of a binary search tree is $O(n)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gateit-2008,data-structures,binary-search-tree,easy,avl-tree",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3615",
+          "text": "<p>An array $X$ of $n$ distinct integers is interpreted as a complete binary tree. The index of the first element of the array is $0$.&nbsp;The index of the parent of element $X[i], i \\neq 0$, is?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\left \\lfloor \\dfrac i 2 \\right \\rfloor$<br>\n\t&nbsp;</li>\n\t<li>$\\left \\lceil \\dfrac{i-1}{2} \\right \\rceil$<br>\n\t&nbsp;</li>\n\t<li>$\\left \\lceil \\dfrac i 2 \\right \\rceil$<br>\n\t&nbsp;</li>\n\t<li>$\\left \\lceil \\dfrac i 2 \\right \\rceil - 1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gateit-2006,data-structures,binary-tree,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3697",
+          "text": "<p>Which one of the following binary trees has its inorder and preorder traversals as $BCAD$&nbsp; and $ABCD$, respectively?</p>\n\n<ol class=\"shrink-inline-options\" style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li><img alt=\"\" height=\"193\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAG1CAMAAAC/Ed0yAAADAFBMVEX////+/v79/f38/Pz7+/v6+vr5+fn4+Pj39/f29vb19fX09PTz8/Py8vLx8fHw8PDv7+/u7u7t7e3s7Ozr6+vq6urp6eno6Ojn5+fm5ubl5eXk5OTj4+Pi4uLh4eHg4ODf39/e3t7d3d3c3Nzb29va2trZ2dnY2NjX19fW1tbV1dXU1NTT09PS0tLR0dHQ0NDPz8/Ozs7Nzc3MzMzLy8vKysrJycnIyMjHx8fGxsbFxcXExMTDw8PCwsLBwcHAwMC/v7++vr69vb28vLy7u7u6urq5ubm4uLi3t7e2tra1tbW0tLSzs7OysrKxsbGwsLCvr6+urq6tra2srKyrq6uqqqqpqamoqKinp6empqalpaWkpKSjo6OioqKhoaGgoKCfn5+enp6dnZ2cnJybm5uampqZmZmYmJiXl5eWlpaVlZWUlJSTk5OSkpKRkZGQkJCPj4+Ojo6NjY2MjIyLi4uKioqJiYmIiIiHh4eGhoaFhYWEhISDg4OCgoKBgYGAgIB/f39+fn59fX18fHx7e3t6enp5eXl4eHh3d3d2dnZ1dXV0dHRzc3NycnJxcXFwcHBvb29ubm5tbW1sbGxra2tqamppaWloaGhnZ2dmZmZlZWVkZGRjY2NiYmJhYWFgYGBfX19eXl5dXV1cXFxbW1taWlpZWVlYWFhXV1dWVlZVVVVUVFRTU1NSUlJRUVFQUFBPT09OTk5NTU1MTExLS0tKSkpJSUlISEhHR0dGRkZFRUVERERDQ0NCQkJBQUFAQEA/Pz8+Pj49PT08PDw7Ozs6Ojo5OTk4ODg3Nzc2NjY1NTU0NDQzMzMyMjIxMTEwMDAvLy8uLi4tLS0sLCwrKysqKiopKSkoKCgnJycmJiYlJSUkJCQjIyMiIiIhISEgICAfHx8eHh4dHR0cHBwbGxsaGhoZGRkYGBgXFxcWFhYVFRUUFBQTExMSEhIREREQEBAPDw8ODg4NDQ0MDAwLCwsKCgoJCQkICAgHBwcGBgYFBQUEBAQDAwMCAgIBAQEAAADuruGUAAAS3ElEQVR42u3de5zOdd7H8TfGjKJJNdFBm5xSVFupHNJKUkmxSycl2qK7Re2mXZXauVcSHWw53OVMJyKUMwmVHXLOjoacGmXHWchxGq/7sZgxh+u65ve95prr+unxef7TP/31eZiXt+u6fnPJGGOMMcYYY4wxxhhjjDHGGGOMMcYYY4wxxhhjjDHGGGOMMcWq/uhbZYpgCRtKyIStJlBfJmz/C/SXCdsaYEspmTBdA0ATmTC9CsBQmfCUSN8DsDteJiw30n8xwF0yYRlIg6cBPpAJR6mtm0pcmAX8fLpMGJrymjQP4F6ZMIzgGqkjwEQZdwk/rZV09hHg0JkyzlrSQ5KmALSXcfYRtSTpQYAZMq7K7V954r9A5rkyjtrwvI4ZA/CEjKPJVNUxLQC+kHFz9pFFOi5+N3C0koyTx3haJwwDeFrGyecn/8w1AVgs4+K8rC+VrdQWgGoyDp7iT8rxFsALMg4W/FJBOeoCrJLx7hI2tjup/X6AK2Q8e46CXpbx7JuDbe7L5QmA9TJeXc7YfAcFuF7Go5doGeBHuq+MR2t3JyiPSwA2l5TxpA5DlM9CgN/JePIGNyufPwO8I+NFiR8L/rBekAXsiJPx4Bb6qYC5AHfIeJDCMyrgcYBRMoV7Hj4rofxqA/x8jkxoJeqPBRh5gfKqMBSASWfLhHD/8p0cl/ldZ+V4ee7qTI7LSv1y5mMyQfxt/7ZN69NWrd6wedfBvsoxZfePG9akrUpdtTY9Y+e+w6/JGGOMMcYYY4wxxhhjjDHm1yXphqr2kaLwNHnspfcX7gSy0j7t26V5ORkHl3VfRl6b3rxJxpsybcYD6RP6/a3N76omVLi2Rec+Hy4GvnjqIpnCPbEBSOlUXnm0ngjse12mMIOBcS1VUL0Bu2H2hTKhnL0I5tVRYL8ZCjubywR3SyYMV3DP2TNfIXUF/qpQGm2F8TKBNYAdlVWIudBLJpBysEyF62O/FTSIT9nv8f/7xT5nGcAzcLk8WW0flg6gOdwrb2rC8zJ5VVhLD3nVGu6UyeMppsq7ZN6XyWMhHeTdVWTVksmlBduT5GAqPWVyGcNguejAevu9oLlcBc3kImk7j8rk6M0KuRnMbJkcS0iWm2ZwgUy2n3hIbi4Be5Mk9zXqytF2HpE5oQmcKUcLbcic9Djfy9UHjJY54VU+l6sXWSRzwgQGyFVrdsqcMJ5+ctXKDnhSH2bI1bMslDnhMTbI1XB7ReukJpAoR/NJljmhGtSRo232DQUnxR2gjdxcDI1ksv07nBcTKstkG477y1krZXLcivsLqs/JnDTH+SX9ffYTnFsH5zeVBsvkUm6j49ua3CyTWy/HN9ZnyeRxBfSXVx2xl6ML6AbPyZub4EOZ/MZ67tpm1tg35gawnsPyYgnUkymoBqxR4d6CzjKBPADpSSrEGBghE1hnoJlCqbke3pMJptZhSFZwD9uXDRdi8mSYGvRRrwGwadjVMkENYNP/hXzYcPQc+4a5EB6Bv+iP6UEfdz34iurZlzoEd+UR3peU+Pg8IH3iwO7tG1dPqHh966ffGLMYSHuxmqTO0EEmoAWkldUxt408TD7T2sbpmJEcvUYmYAC56eSqTh40eWkGAHvTZo/q1VDZ4v9tGQwewHziK9erfbbysgyGCKAHlsFQASyUZTB0AEOzDDoEMC/LoOcAWgaLGEDLYNECaBksWgAtg0ULoGWwiAG0DBYtgJbBogUwJhksVTFeuZTVqSZXAN11KVIGSzcdtPDHX8hKn9fnEh3X/FAFFbPxGQX9J3XusIcrFTWAUc5gjZG7gX1fjh45cx1Zk2tJ0rlbuVTFbMiKVT/+AgAH1q1Yfsx3B4CsSY2KFMDoZvCct47AnneuLylJuqznzwc7SxoHlyoKzhgEkHqmclzzdhbw7tnhBzC6GWy5G44OTFSOC8fzbtx9ROmAugBgkHK7cRfw3UXhBjC6GfxrFvxwo3Ir0ZvpO6J2wNMA+iuPG48CG8qHGcBoZrDkUGBLDeXzKkTtgAkBDqiPAN4PL4BRzWBPYEdt5VdqTowPWCsLoHY4AYxqBv9wFLhbBV18KLYH1DcAb4QRwKhmsOY+4GMF8kaMDzgGYE4YAYxqBqcAR2spkKQjsT1gb4A09wBGNYMNAKYqsMmxPeBggHkuAYyU+t4z+BXA/QrsgdgecAVAD9cARjeDdQAyg6WjQkwPWOMocKSqawCjm8EeAF8rmE2xPOB7AL1cAxjlDC4HeFPBfEyNmB2wFcDkUo4BjHIGLwLgCQXT9P2ysTpgy4OQ2aO0YwCjncHmANwmB9E54HlDsuDb65wXYLQz2AGAKxVrCQBTWxz3+8f+PucXMgb8rqTzAox6Bv8OQFXFWgLA/owcBzg09rmrnRdg9DP4NgDny0F0foQrtF0IazrGOQUwBhl8B4Dz5CA6B5RK/C0LVl/jEsAYZDAZgCpyEL0d2AU49KBDAGOQwY44vOQW7QPqCyDzLocARj+DdwNwixxE8YC3Auw81yGAUc9gVaCQUMbwgFoEMNAtgJHPYFaoDKYBvKpgKs0vH8sDvgywK94hgJGXEDqDfQC+VDB3UymWB3wYgOsdAhj1DN4IcChBQTyTFSfF7oB1AWgdNICHcwIYswyW+AbgbgUxOF2K4QEbAnCnQwCjn8E7AcYFO+/3Q2J6wPYA1HIIYAwy+BVw5BIFVJ8WMT3gBwDpJRwCGIMMXn8EGK6ARqXHS4rZASseBOjhEMCYZPBPwNFGAW97tINyxOpduR/KOQQwNhkcCvxwsQoos3RlaUVHmUAHbAtw5FaHAMYog/HTgPWVlE/JCfsuVZRULPjxthJPZQGZrR0CGLMMluoPfFdLeZQdk9lKUVLyZYBFccpxeuuvATbUdQhgDDOoTkfgyD/idVKdVQfuUjT0mTF70W4A2PLljOnHzE07CLDl+TMcFmBMM6jqE4Afe5yYM6Ubf8qauoqKuQSy//uFfe8sI8cFGMM1KDWc/QuwcWzflwdP28Pebj7+hXoOAYzqWyRJf5zyQybA9o/v9fO3/DkEMPrvFJc8/7dVEuRvDgGMfAZ/BQ/TOQQw8hn8FXzvUk4AY6H+qf9McU4AY6PLKf9McUrIAFoGfRzAX0UGCw+gZdDHATz1M+glgJZBHwfwFM+g1wBaBn0cwFM5g94DaBn0cQBP2Qy6BdAy6OMAnpoZdA2gZdDHAfRvBqs06dh77JJdO1JGdW9T/3z/BjAng2/rpLOuvafboM/Ws2Zy307NLiujqKv83ErymP3o6X4NYMEM3vUheWx98wZF1c2D9wFs/mpU91atnh0+fxvA+p61fBrAvBlM6pIC8PM3E155+I4u/aatBeCT+xQ1j8wC1vW58XzluLjZ4O2Q9f6dUv9oBtA9g1f2zQAmtbu8lLIlXvPMAmBFt0RFQ+IwYEKbBOWT1GEq8OqxAPrTfzN472ZY3fNq5dd00A5YcruK3/WpkFxbAV2VDAun+ffb97ukDYOUe0sqkIqd9kIPFbd2QGsF9SRk+fdrLyt8DYPPUDCN1sBnKl6zYHVNhXBPpn//1fQH4MmQlZwL+2uqGO2GTxVapa0wTH7UHmis0EYA5VVsPoU+KlQKNJH/VAEqqDBtYLWKS1eYLA82QSX5zjqoosLdDy+oeFwHa+RFEkyX37wLj8uLZGipYrGAvZXkSSN4Sf7yBAySN6PZW1PFoC88II86w0Pyk6t2MEkenbmM6Yq8agfpKs/e4Uv5SV+WnCuvGuznAUXci8yTd7/ZzR3yj6QM7pV3rzFJkRaXRhc5GMC78o8urC4p7+pCPUVYW3ZfIAf1yKwp30ihp1zMpJ8ibBpD5GQiPeQXd8HVctGR7ecpohrC7XLSmrVl5BMfujbtnC38RRHVi0VytJi75A/loZ3cDGC+ImoEw+VoDH+WP1wNrj3uQIYiagbPytEb9Jc//IF9JeWmMUQ2gqm0kqOnmSZ/6MpSOboAGiiS9nCFHLXmO/nD24yRq620UwSdBQlydD1ZJeULn9NDrlIiu8JqsU6uKkJ1+cIPPCRXw/lAEVSPhXKVADfIFw5wh1z1Yboi6DfslKvqcK584Ru6yNWnDFQExUNFOWrMLvnDePrJVSpdFUn/oYEctWeJ/KEP0+TqAL9XJC2mvRx1Z6z84X9YK0eXwlWKpE/oKUcD6S1/uB0S5aY5nKFIesd9i06ko/yhJlwjN0+yXhGVzMbT5KR8Ok3kD2W28ozcfMQURVSNw7SVk07Ml1+8yQLHBGbxoCJrJJ/ISQqd5Bc3QFO56E5qSUXWbXClHLRk89nyjU8YJBfL6K5Im0cPORjH6/KP+9hRUd41Z38VRdrjrJJ3deBa+cgKOjn1aqgiLjGdQfKq5Gd8LD/pxt5G8qod3KLI6wLJ8uifHKorP0lcwpoEeXMt9FdxGA2t5Mmj0F7+cjvMlScJm5gTp2LxPSR6XA2vyG96wAh5MQtqq3g0gM0qXFnYIP/5DNqocP2htYrLc7BMhakFVJYP7Yf7VZh34T0Vn+mw//JC+8cT8qOaQLJCOn0loOL0FHCvQugN/F7+VH41jD5TwbXYAV+oeP12M/RQUINh2TnyrRdgWQMF0xl4ScWtzNsw9ZFESQr4uOEA+VnLvex/ra4CaT4Svm2iKPgz8MObNyqfYw+8bmgjf6s5HZjZ8RzldWn3ZcDQeEXFFb02AnO63XP16TomsU6b5BXAwqcqyPcemARsGdCxyUU67pLbunyUBfuH3qKoKddhDgCsn9W/34wNADCmhU4NncdvB2DXktHJHyzeA0Bq9yqKrluHpx4gx64lva/SqWII8/8yP4OT1k55sKRiIK7G7X96fcLHrzzS6GKdQuJ/5jFJ5zVo1+ODaf26NK9dTsZFOw77+Te/+99MRsiErxo0lQnfi6yVKYJv+YdM+G6GmjLhG8LnMkUcgcZGYBA2Av2uqo1AG4Eh2Aj0OxuBedyeEcDqWcO6VbUR6Emj5SvX7uO4bd8u/69/bzsKsLBTaRuB3pS46QDA30vohLhrX14DrGpoI9CjsQDX5Tlqx91wdGAp5TfDRmAAgwCuUh7nzQbGx9sI9OLtAAdU2RRgRhkbgeEeUGetBPrbCAz7gLoiC2huIzDsA2oUsD3JRmDYB7w4E3hZOUr/zKMy3g+or4CfEm0Ehn3A5wGetREY9gGvBlhpIzDsA8ZnAZxvIzDcA2oTQFsbgWEfcB7AMBuBYR9wLMAsHTPYRqD7AUcBrLARGPYB3wHIsBEY9gH7A+y3ERj2AYcBfG8jsGh/iSy0ERj2AacBfGIjMOwDpgD0thEY9gF3AzSyERjuAS8C2FvaRmC4B2wOMN5GYNgHHApQ30ZguAcs8xMwy0Zg2Af8I0ADG4HhHvDMLcCbNgLDPuAg4Ot4G4HhHrAr8J/K9kqgB+8EOGDpvsCayvZKoBejAa5Tbg0WAAuS7JVALy79CaCTciQ9uAjY3aWUvR1cmHrTZ36x9igArPx8+n/NXLgRYMubSTquKtwqE1gLAtj77awBjUsp2ws2Au3BEO/swRAfsbeDw2efCbSng2PEHgyJFBuBRWIj0EagJzYC/c5GoI3AEGwE+p6NQBuBIdgI9D0bgTYCQ7AR6EPlqjW87+mn72tYrZyNQGc3D1u2hRxblg17xUaggzbTOG7b0qXbOG7eOBlPKnZdDqQlP9r0snKSVO6ypo8mpwHLu1aUKVSr9cCUh+KUR9xDU4D1rWQK0RO2vlVPAdR7ayv0lAlpCsyoriCqz4ApMsGduxkGKoSBsPlcmSDqAu0VUnugrkxAibCxrApRdiMkygSSSro8SCdVJoD+kCQPkqC/TAHdoJk8aQbdZPJpB8nyKBnayeSRmM5UeTaVdPuLJK/HoY48qwOPy+Q2j3FyMI55MrncBi3loCXcJnPSSFLkJIWRMjlqHKaTnHTicA2ZbMmkl5eT8ukky2QbxEQ5msggmWyTGShHA5ksk20p3eWoO0tlsmXQXo7akyFzQjw0lqPGEC9zXGWoLkfVobLMcfUgQY4SoJ7McbWgghxVgFoyx50F18rRtXCWzAl7aCFHLdgjky2VznLU2d5aymUGfeSoDzNkso3gQzn60J55yKUXi+RoEb1ksjWEFnLSAhrK5JjGaDkZzTSZk9pCbTmoDW1lTopLo6cc9CQtTiaXF1l3mjw7bR0vyuRW7SDd5Fk3DlaTyeN1aC2PWsPrMvnMJqOsPCmbwWyZ/C7cyb/kyb/YeaFMAc3hVXnwKjSXCeAFaKpCNYUXZAIaDy94uPJ4mSD+CZOSFELSJPinTFB3wJZmCqrZFrhDJoTLlkNyTQVUMxmWXyYT0ukjIPO9O1XAne9lwgh76LpwyalAypMVlEuFJ1OAVPtEmzf3jAUOrf9qzOtPtmjx5Otjvlp/CBh7j4xXtZJTySM12d5Gd1SlScfeY5fs2rVkbO+OTarIGGOMMcYYY4wxxhhjjDHGGGOMMebU9/8vLwBarisfCwAAAABJRU5ErkJggg==\" width=\"141\"></li>\n\t<li><img alt=\"\" height=\"206\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAAG1CAMAAADTF483AAAC/VBMVEX////+/v79/f38/Pz7+/v6+vr5+fn4+Pj39/f29vb19fX09PTz8/Py8vLx8fHw8PDv7+/u7u7t7e3s7Ozr6+vq6urp6eno6Ojn5+fm5ubl5eXk5OTj4+Pi4uLh4eHg4ODf39/e3t7d3d3c3Nzb29va2trZ2dnY2NjX19fW1tbV1dXU1NTT09PS0tLR0dHQ0NDPz8/Ozs7Nzc3MzMzLy8vKysrJycnIyMjHx8fGxsbFxcXExMTDw8PCwsLBwcHAwMC/v7++vr69vb28vLy7u7u6urq5ubm4uLi3t7e2tra1tbW0tLSzs7OysrKxsbGwsLCvr6+urq6tra2srKyrq6uqqqqpqamoqKinp6empqalpaWkpKSjo6OioqKhoaGgoKCfn5+enp6dnZ2cnJybm5uampqZmZmYmJiXl5eWlpaVlZWUlJSTk5OSkpKRkZGQkJCPj4+Ojo6NjY2MjIyLi4uKioqJiYmIiIiHh4eGhoaFhYWEhISDg4OCgoKBgYGAgIB+fn59fX18fHx7e3t6enp5eXl4eHh3d3d2dnZ1dXV0dHRzc3NycnJxcXFwcHBvb29ubm5tbW1sbGxra2tqamppaWloaGhnZ2dmZmZlZWVkZGRjY2NiYmJhYWFgYGBfX19eXl5dXV1cXFxbW1taWlpZWVlYWFhXV1dWVlZVVVVUVFRTU1NSUlJRUVFQUFBPT09OTk5NTU1MTExLS0tKSkpJSUlISEhHR0dGRkZFRUVERERDQ0NCQkJBQUFAQEA/Pz8+Pj49PT08PDw7Ozs6Ojo5OTk4ODg3Nzc2NjY1NTU0NDQzMzMyMjIxMTEwMDAvLy8uLi4tLS0sLCwrKysqKiopKSkoKCgnJycmJiYlJSUkJCQjIyMiIiIhISEgICAfHx8eHh4dHR0cHBwbGxsaGhoZGRkYGBgXFxcWFhYVFRUUFBQTExMSEhIREREQEBAPDw8ODg4NDQ0MDAwLCwsKCgoJCQkICAgHBwcGBgYFBQUEBAQDAwMCAgIBAQEAAABOOd87AAATJUlEQVR42u3de5jPdd7H8ZdxziGrkujgUIadmpSQytamohKNzgdS3Wo1UVZlrTY7t2ZxUxGVKEYnKdp1yjJRuIXlDsmoaHYyzqeQQzPG87qvzVXMmDG/z+/wnU/T+/GPf/z1vn7Xc97X9/P7fH8yxhhjjDHGGGOMMcYYY4wxxhhjjDHGGGOMMcYYY4wxxhhjjDHGGGOMOV6Z/xlZQSZI7eE+mSBNgFkyAaqyDw6dLhOcuwCSZYIzBWCBTGBq/ABw+GyZoDzIboAnZIKSfugBgGUyAal9aHb57QCNZILRgwc1CuAZmWAszPmNrgLIkAlEPaZIcdkAF8oEoQ93SxoK8DeZICzfX1XSJQCZMgFowkRJ0lcAl8rEXgqdjvwL8IJM7H21p5IkqQnAxjiZWGvGeB3xGcDvZWJtCDfoiKcAXpWJsTLrd5TXEWcfBnaUl4mt1sd8rhcA3CgTWy9xtX6SDPCGTEyV27q5rH5SKxfYW1kmltoyXEfNBLhVJpbG8fx9R70FMEkmhiru5jgHqsvEThJv3XGsjwA6y8TORBJ0rCSAGTIxU3X/cuVTaTeQe4pMrNzDU8ovDeBhmViZdvgs5dcOYK5MjNTM+UQFlNsG5NWRiY2HCknIywCPy8TG/MOnqKArARbLxERb9uo4cdkADWRi4Jyv4Aod532AgTJRd8oftgGbksoonzLXbQP4vmMZmaj6aG0uR+xYUkU/aTxr8TY4YvunH31YSSZq9uzakPnVFxlff7t1T+7J+knL/Vuyvl6zetWqNd9kb/1u/6EqMsYYY4wxxhhjjDHGGGOMMcaYX5SqiYlVZYLR/N6nR8/NBsieO/rpe5vLxFSVrtMpYHpXO9iPneaDM4H0sSnd2iVUr57QrlvK2HQgc7B91GPj3MnAlmGtlE+rYVuAyefKRN1tmbCwZy0dp1bPhZB5m0yUpcKGTipCpw2QKhNVM2BegoqUMM8uxkXZJhinExoHm2Si5ku4rdjWw5cyUTIEFAIYIhMVt0MLhaAF3C4TBS0hWSFJhpYyEau9lDSFKI2ltWUiNYmMugpR3Qx7O0vkLockhSwJLpeJzAgWysFCRshEpM4OespBT3bYhf7I9GZLLTmotYXeMpFYyjA5GcZSmQjcAq3kpBXcIhO+oaTLUTpDZcI3gTQ5SmOCTPjmkypHqcyXCd86kuUomXUy4TtIezlqz0GZsNWGRDlKBHu0Fb5mcLIcnQzNZMJ1MVSXo+pwsUwEYUmQowQLS0RyaCdH7ciRCV8m3eSom/1wXEQWkCJHKfbL5RGZyFg5GstEmfAND+ex1nCZ8HUP5+Ftd5nw1VjvfkSxvoZMBAa7H8QNlonERbgeN3ORTEQmOn6pwvaViCVBJ4WsEyTJRGgJGxIUooQNLJGJVJtc5ilE88htIxOxHjBOIRkHPWSi4CW4TSG4DV6SiYqPQSGAj2WiZCu0UDFawFaZqPkSknVCyXYhLsqGQFpdFaluml2Hi7Z+gyEjSUVIyoBBf5GJonbw2tITvTZh6Ri4QSZqTssiXbUnFf1ykEm1NYv1p8tEy2R2NZR05egDQHpaanL7xJNPTmyfnJqWDhwYfaWk+jv4u0yU9Pv52nKjlG8o4JuURvrRrWA5j17IB+kn1bq/OOnTrFyA3KxPJ73YvZp+8jfLeTRDXlCdZs3qqADLeVRDXjzLeXRDXizLeZRDXhzLeexCXpDlPJYht5y7iTzklnM3kYfccu4m8pBbzh1FHnLLuZvIQ245lyQ/Q/5rz3nZ0yvoGFXCDbnlPBTlrxu1KPsQeVkfD6qvI9ofrBVmyC3nxWs0bhewd9474/65lrypCZJ02hbiAwh5WDlP2XS8jSumjuxWU78MpwzLgd2vtIiTJDUZ8P2BRyW9B/FhhTyAnD+xfFXmDxzx7eef/UfGdwA5U9rLf7p5FxweWV0/qzuJ8eXuAOLDCXlQOa/wOABX6ieV247aCkw9R757Mg/WX6FjlRnIh9uB+HBCHlzOtwL7dKyqzx2CfQ/Ia3FjgM2NVMBgAOLDDnkg2/mXwC7ld3EW8IR8NgDYfr4KKjsHID7ckAeznWcUMnLFbwX+Kn91Ogx00PHOOQjEO4c82jl3H7ku3o3PrwFsvBd4X4UZCsQ7hzzqOXcfuZKBnWfJU9OAwwkqzKk5EO8a8hjk3H3k5dcCc+WnywGmq3BTId4x5LHIufvIdQ/AtfLSfIA7Vbi7IN4t5LHJufvITzro7cf8EoDcKipcLYh3C3lscu4+cs0CuFQeSgFYrKJ8S7xTyGOVc/eR9wL8fOPIZwAvqCjv08gl5DHLufvIrwFYI/+cBUB3FeW6N6s4hDx2OXcfeQMAzpJ32gPQNuDDTvecu4+83CGAzvJONwASAz7sdM+5+8i1FeDP8s4zADQM+rDTPefuI88CeEHeeRmAM4L+1op7zt1HvgbgHXnnFQBqBx1y95y7j/xzgOnyTn8AGgQdcvecu498HcA4eechAM73IOQOOXf48zlQ3ukAQJugQ+6ec/eR7wd4XN5pCEC3gEPunnP3kVcEoJ38kwEwWEU5c0ENh5DHLufuI28KcKCy/DMIYN4JwnOmQ8hjl3P3kXcG+FAeugLgYEUV4Ym8cg4hj13O3Uc+BDx9aVeZFQAdVIRXsxxCHsOcu4/8a2BHNfnoRoD3VLgy/x7tEPLY5dx95K08fcLyo/lATn0V6jI6OoQ8djl3H/l4fz/kUosc4HUVKi2rgkPIY5hz15G3Ogx0kq8eAQ5fpUK0ONzNIeSxzLnjyCsvB56Xv8YA68/RcSotW1neIeQxzbnTyMt+AHxSXv6qMANYd6YKiJu8N94x5MHnfE0hI6/1EfD3yvJZ2ReBrxKUT5UJube4hjz4nG8C9ulY5e7aALxSVp5LzoGcv1bQUZd8sf8m15AHn/M7Cz4Jrffkt8CatvLfeZOB7JT6+lH5q//Bl5fKIeTB5/zhmbMXbgSAHxbP+vA/0pdtBVjdy+eMH6N1+iEgc+Jzz746Yzd7+lSQU8gDz/nzFGLbZ1P/+wL9cpz6wLT1uQDb3r/9JCk2IbdboQXFndG0QcVYPiO3W6Elc9hpl/yDPuy0S/5ROuy0nJ+Qp4edlnPHkFvOS1XIf505Lz7klvNSFfIj6u/8NeU8pJBbzktVyH9tOQ815JbzUhXyX1fOHUJuOS9VIf/15Nwt5JbzUhXyX0vOnUNuOS9VIS9FOa9zRZf+afM37F8xadAf2jWu5G/Ij5idL+eVE9r3fGHKqv3Zc0f/6c5La8t/iusyi3w2D2nqa8iPz3nTIZvJZ1aXOPmtbp/PAb5fMflvXa5/bOTsfwPw1vWehrxAzq9/C4Bv547pfcO9KROW7QX4vE9d+Svxhe3A5C6/LXu0JZenZgBzHvAz5Mfm/IE5QEbq5UcrE9e4y2Rg+wsXylO3b4DFfRuroKS0PfBekyzS5anZrG/4GuxJS1JBjfsuhu3d5aVn4I02RfQmeQ/Zb+xqKE/V3/niKrYlF1GQNm/DePmn1qfQR0W66kt4V976KyxoqiINgbUN5JlOwI06gYpzYbk8NQteK6cT6A10lVcehm3n6MTGwnZ5aS88pRNrugfukkdawgIV624YKw/Ngw4q1iJoKG9U2MX3CsH90EXeGQ5PKgQ72VBOvpgDzRWKl+FKeeZ+SFcoGsAoeeI5GKDQLCPzHHnlom1kKjR3eHPJuTO8rRBdCNPklVkODxKHwt3ywUcsrqJQdfPsD/9d0FOhqjifefLAZW7XrWczRR6ZwmyFrhNcr5I3hEVy0BVayRutoKscLGK8Slylb+ghB+VXM1zeGM7q8nLQg9zGKml3k11TLvqxrbY8UXsb/eSiZjYpKmmTGCQn9XbTS57oxe56cjKIryupZNWARLl5ifnyxDxekpvEkj+cvoj1cpTMOnliLY/IUTbdVLI6sVCOkjgYJy/EHeQmOVpMf5Ws3kyUo2ZwlrxQF5rK0WReVcl6mefk6FRoKS9cAqfI0Qimq2R9RC+52kOSvNCB3XL1JMtVstZzm1yt5lF54RFWydUdbFPJ2k9bufqUvvJCXxbKVVt+UMlawQNytZ6u8kJnsuSqG5kqWZP4ixzF5XGdvNCGvDg5SuF/VbIGMUqO6sEF8kICnC1Hr/OeStYfmCZHreEUeaEmXCZHMxmmktWOz+ToLr6TJ3ZxuxytpI9KVmP3nak3q+WJVfxRjrbTWSWr0laukZtJTJMnpjFJbq6BNiphrzBWTlrCPfLEPdBSTsayQCXtOnKayMVwVsXJE3GrGC4XTXJIVolbwgA5qLuDfvJGP3bUlYMBbKipEteHzOoK3VPsayBvNNjHUwpd9UyGqOSdl0t3hW4FY+SRMaxQ6LpDM3ngXXZeqlClQht5pA28qFA1zuZ9+eDyffxLIUqC5+WVV+BxhxcQNJcXkuHdkE++PpBnFkGCQtIXbpUnxsAjCsVy9tWRZ+J/ICvUBj0hbyyF01S8V6GVvHMnTFTxqsEH8kge1FdxxkN3eWgQvBjK0fQh+SQRuEkndNJKmCEv/RNmVSy24zSUV2qsgb46gY7bvb3CLz0G3zYr5gLlxjPkm6fhrdoqyqOw60Z5q+kGuE9FqfdPmCQP3byHFX0bqzBJaTC9qjxW6WVIS1JhGvddyYHe8lLjD4HJXaopvxapGUA/ee5xICO1hfKr1mUy8NFl8tW9M4HsEd2urqMflU+4+al0YOPgRHkvcfBGIL3PrYnl9aParR8ckQ3MvFc+S52aC8CWha8P+mBVDgDLep2mX4TTei0DIDdjyuAx8zYBkDu2jfw2nSmpS3dy1NfT7tQvyJ3T1nHUjn+l/laeqwfXSzr7qgcGvD1jeI/253v9N7Nw1S5M6j3ywzf733vFmfKf+vKNTKA+51mZIP0OEmSC9DIfywQp7jselgnSPRyqJhOk6bwh4yjypdwcZUt5KWRLeQG2lJc+tpQXYEt56WNLecQmbTrexlVzX+tyZlFL+XiZiIxe/kX2IQDYv3b5Zz/6aj+QN+UqW8pjptoogFUn62cXv5wHjK9pS3ms1AEYpWNdsRP46ixbymOkMsCLyueKw8A3NZRPa1vKo6RiISPXuwBv2lIe4MgT8gDOt6U8uJFrBcBQW8oDHPkEgDm2lAc48oEAGbaUBzjyVwE+tqU8wJEvB0ixpTy4kTc6DOQ0tKU8uJG/AZBqS3lwI78FYGpZW8oDG/nNByA3pbwt5UGNvPboPFjd3J6Ux3bk0zsekfRfz8w5xKYRV8bpWOfYUh71ke/b9LP9HJzY9yJ7Uh5kWGp1XgRfPlTOlvLARi6VeSoP1lxsS3mQe3kP4OA9tpQHOHJ9AuTeZEt5gCO/FmDHabaUBzdyLQEYaUt5gCN/FmBnBVvKgxt5FwBa2FIe3MgvBeBWW8qDG3lrAG60pTy4kXcFIMGW8uBG/hZAVhmVsaU8oJGffgAgxZbygE/411e1pTwWKhU28s4AOdfaUh4Tpx//Zecyj+UBubfaUh4Tcc8CLCmnn51062KAby61J+XRN2hm+pJdALB53swPfzQ34wDA5j9XsyflMTCXwuz796LnbqxkT8pLhC3lRbGLnqWILeUBsK+vhMLevlKKrLSlPObsomdI7O0rpYct5QXYUl4K2VJegC3lpY8t5QXYUl762FJegC3lpY8t5QXYUl4K2VIegKrntr7jj71uu7x+JVvKA3Dt6/+3mZ+tXzxwmC3lsVS12xyO2Lxs2VaOmDlRJkYuSM0EFvTt/PvzKktS1SbXPdg/A1j0WC2ZGHgSYMJNyq/cvdOAdbfIRN3bsHnoxSpEq2FbYIBMdJ2dATPPUxEazYFpMtHUERipE3gDNvxCfjr1l6E/0LX4/9JCJkougswqKkZLoJxMVNSANSpeFUiXiYrpUFkhaAl9ZKJgADRXSB6E22Ui9iDcrxA9z57mMhGqnsVQhSpuNu/LROhhvlDoLoFmMpH5mBQ5eI8hMhFpC4lycDMbaspEYhx/l5OFJMtEoNEPdJaTZBbIRKA/mZXlpEYW18iEbxQT5egDHpIJ31QGytFIBsqEb5n7R7YfdvwciU1cJUddWSoTtgpwhhxdzU6ZsNXDfXzngZ3Iha8Vi+WqIrSUCVcCa+WqFjSUCddvoKIcNSMvTiZsu7lAjjqSIRO+VdwiR4/yD5nwzeRPcjSI52TCN5bX5ehtesiEL9V9S1xCe5nwtYY2ctKRryvJRGAGI+TkHVJkItGZ7GpycD65jWUiUS6DLnIwwG4kRuwvTFboKq+1G4kRO/eAywbSl3kykXqODU0Uoq5wn0zEPmWpQnPBD7wiE7nmMEUhyWSlTDT0hqcVggVwvkxU/AOuU7H6wyMyUbIrhM/5uzBBJmoWwpRTdQINV8LzMlHUFzbfoCIlHbK3skRdB6D/uSpU4/7wWROZKLtwAewffZWOc+MbuTD2JJmoqzFiIzDjHh2rVs+FwMr+MjFR48HpwJ41c94c9GiHjj2HTJi/7iDsHddBJnYuGrCafD557CyZGGtwzUMDJy7duWPJOwPu/10dGWOMMcYYY4wxxhhjjDHGGGOMMcYYY4wx/vh/rWntxZMBVq0AAAAASUVORK5CYII=\" width=\"174\"></li>\n\t<li><img alt=\"\" height=\"223\" src=\"data:image/png;base64,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\" width=\"164\"></li>\n\t<li><img alt=\"\" height=\"226\" src=\"data:image/png;base64,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\" width=\"167\"></li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gateit-2004,binary-tree,easy,data-structures",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3548",
+          "text": "<p>In a binary tree, the number of internal nodes of degree $1$ is $5$, and the number of internal nodes of degree $2$ is $10$. The number of leaf nodes in the binary tree is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$10$</li>\n\t<li>$11$</li>\n\t<li>$12$</li>\n\t<li>$15$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gateit-2006,data-structures,binary-tree,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "8059",
+          "text": "A binary tree T has $20$ leaves. The number of nodes in T having two children is ______.",
+          "type": "Numerical",
+          "answer": "19",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gatecse-2015-set2,data-structures,binary-tree,normal,numerical-answers",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3461",
+          "text": "<p>Consider a hash function that distributes keys uniformly. The hash table size is $20$. After hashing of how many keys will the probability that any new key hashed collides with an existing one exceed $0.5$.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$5$</li>\n\t<li>$6$</li>\n\t<li>$7$</li>\n\t<li>$10$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gateit-2007,data-structures,hashing,probability,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3559",
+          "text": "<p>Which of the following statement(s) is TRUE?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>A hash function takes a message of arbitrary length and generates a fixed length code.</li>\n\t<li>A hash function takes a message of fixed length and generates a code of variable length.</li>\n\t<li>A hash function may give the same hash value for distinct messages.\n\t<ol style=\"list-style-type:upper-alpha\">\n\t\t<li>I only</li>\n\t\t<li>II and III&nbsp;only</li>\n\t\t<li>I and III&nbsp;only</li>\n\t\t<li>II&nbsp;only</li>\n\t</ol>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gateit-2006,data-structures,hashing,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1322",
+          "text": "<p>The keys $12, 18, 13, 2, 3, 23, 5$ and $15$ are inserted into an initially empty hash table of length $10$ using open addressing with hash function $h(k) = k \\mod 10$ and linear probing. What is the resultant hash table?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\" class=\"shrink-inline-options\">\n<li>$\\begin{array}{|l|l|} \\hline&nbsp;0 &amp;&nbsp; &nbsp;\\\\\\hline 1 &amp;&nbsp; \\\\\\hline 2 &amp; 2&nbsp; \\\\\\hline 3 &amp; 23 \\\\\\hline 4 &amp;&nbsp; \\\\\\hline 5 &amp; 15 \\\\\\hline 6 &amp;&nbsp; &nbsp;\\\\\\hline 7 &amp;&nbsp; \\\\\\hline 8 &amp; 18 \\\\\\hline 9 &amp;&nbsp; \\\\\\hline&nbsp;&nbsp;\\end{array}$&nbsp;</li>\n<li>$\\begin{array}{|l|l|} \\hline&nbsp;0 &amp;&nbsp; &nbsp;\\\\\\hline 1 &amp;&nbsp; \\\\\\hline 2 &amp; 12&nbsp; \\\\\\hline 3 &amp; 13&nbsp;\\\\\\hline 4 &amp;&nbsp; \\\\\\hline 5 &amp; 5 \\\\\\hline 6 &amp;&nbsp; &nbsp;\\\\\\hline 7 &amp;&nbsp; \\\\\\hline 8 &amp; 18 \\\\\\hline 9 &amp;&nbsp; \\\\\\hline&nbsp;&nbsp;\\end{array}$</li>\n<li>$\\begin{array}{|l|l|} \\hline&nbsp;0 &amp;&nbsp; &nbsp;\\\\\\hline 1 &amp;&nbsp; \\\\\\hline 2 &amp; 12&nbsp; \\\\\\hline 3 &amp; 13&nbsp;\\\\\\hline 4 &amp; 2 \\\\\\hline 5 &amp; 3&nbsp;\\\\\\hline 6 &amp; 23&nbsp; &nbsp;\\\\\\hline 7 &amp; 5&nbsp; \\\\\\hline 8 &amp; 18 \\\\\\hline 9 &amp; 15&nbsp; \\\\\\hline&nbsp;&nbsp;\\end{array}$</li>\n<li>$\\begin{array}{|l|l|} \\hline&nbsp;0 &amp;&nbsp; &nbsp;\\\\\\hline 1 &amp;&nbsp; \\\\\\hline 2&nbsp;&amp; 2,12&nbsp; &nbsp;\\\\\\hline 3 &amp; 13,3,23 &nbsp;\\\\\\hline 4 &amp;&nbsp; \\\\\\hline 5 &amp; 5,15 &nbsp; \\\\\\hline 6 &amp;&nbsp; &nbsp;\\\\\\hline 7 &amp;&nbsp; \\\\\\hline 8 &amp; 18 \\\\\\hline 9 &amp;&nbsp; \\\\\\hline&nbsp;&nbsp;\\end{array}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2009,data-structures,hashing,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "43327",
+          "text": "<p>A hash table of length $10$ uses open addressing with hash function $h(k) = k \\: \\mod \\: 10$, and linear probing. After inserting $6$ values into an empty hash table, the table is shown as below<br>\n$$\\begin{array}{|l|l|}\\hline \\text{0}&nbsp; &amp;&nbsp; \\text{} \\\\ \\hline \\text{1} &amp; \\text{} \\\\\\hline&nbsp; \\text{2} &amp; \\text{42} \\\\ \\hline&nbsp; \\text{3} &amp; \\text{23} \\\\\\hline&nbsp;&nbsp; \\text{4} &amp; \\text{34} \\\\\\hline&nbsp;&nbsp; \\text{5} &amp; \\text{52} \\\\\\hline&nbsp;&nbsp; \\text{6} &amp; \\text{46} \\\\\\hline&nbsp;&nbsp; \\text{7} &amp; \\text{33} \\\\\\hline&nbsp;&nbsp; \\text{8} &amp; \\text{} \\\\\\hline&nbsp;&nbsp; \\text{9} &amp; \\text{}&nbsp; \\\\\\hline \\end{array}$$</p>\n\n<p>How many different insertion sequences of the key values using the same hash function and linear probing will result in the hash table shown above?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$10$</li>\n\t<li>$20$</li>\n\t<li>$30$</li>\n\t<li>$40$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "data-structures,hashing,normal,gatecse-2010",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "842",
+          "text": "<p>A weight-balanced tree is a binary tree in which for each node, the number of nodes in the left sub tree is at least half and at most twice the number of nodes in the right sub tree. The maximum possible height (number of nodes on the path from the root to the furthest leaf) of such a tree on n nodes is best described by which of the following?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\log_2 n$</li>\n\t<li>$\\log_{\\frac{4}{3}} n$</li>\n\t<li>$\\log_3 n$</li>\n\t<li>$\\log_{\\frac{3}{2}} n$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2002,data-structures,binary-tree,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "950",
+          "text": "<p>A data structure is required for storing a set of integers such that each of the following operations can be done in $O(\\log n)$ time, where $n$ is the number of elements in the set.</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\n\t<p>Deletion of the smallest element</p>\n\t</li>\n\t<li>Insertion of an element if it is not already present in the set</li>\n</ol>\n\n<p>Which of the following data structures can be used for this purpose?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>A heap can be used but not a balanced binary search tree</li>\n\t<li>\n\t<p>A balanced binary search tree can be used but not a heap</p>\n\t</li>\n\t<li>\n\t<p>Both balanced binary search tree and heap can be used</p>\n\t</li>\n\t<li>\n\t<p>Neither balanced search tree nor heap can be used</p>\n\t</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2003,data-structures,easy,isro2009,binary-search-tree",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "1079",
+          "text": "<p>A program takes as input a balanced binary search tree with $n$&nbsp;leaf nodes and computes the value of a function $g(x)$ for each node $x$. If the cost of computing $g(x)$ is:&nbsp;$$\\Large \\min \\left ( \\substack{\\text{number of leaf-nodes}\\\\\\text{in left-subtree of $x$}}\\;,\\; \\substack{\\text{number of leaf-nodes}\\\\\\text{in right-subtree of $x$}}\\right )$$</p>\n\n<p>Then the worst-case time complexity of the program is?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\Theta&nbsp;(n)$</li>\n\t<li>$\\Theta&nbsp;(n \\log n)$</li>\n\t<li>$\\Theta(n^2)$</li>\n\t<li>$\\Theta&nbsp;(n^2\\log n)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2004,binary-search-tree,normal,data-structures",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3757",
+          "text": "<p>The numbers $1, 2, .\\dots n$ are inserted in a binary search tree in some order. In the resulting tree, the right subtree of the root contains $p$ nodes. The first number to be inserted in the tree must be</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$p$</li>\n\t<li>$p + 1$</li>\n\t<li>$n - p$</li>\n\t<li>$n - p + 1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gateit-2005,data-structures,normal,binary-search-tree",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "3588",
+          "text": "<p>Suppose that we have numbers between $1$ and $100$ in a binary search tree and want to search for the number $55$. Which of the following sequences CANNOT be the sequence of nodes examined?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\{10, 75, 64, 43, 60, 57, 55\\}$</li>\n\t<li>$\\{90, 12, 68, 34, 62, 45, 55\\}$</li>\n\t<li>$\\{9, 85, 47, 68, 43, 57, 55\\}$</li>\n\t<li>$\\{79, 14, 72, 56, 16, 53, 55\\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gateit-2006,data-structures,binary-search-tree,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "458",
+          "text": "<p>You are given the postorder traversal, $P$,&nbsp; of a binary search tree on the $n$ elements $1, 2, \\dots,&nbsp;n$. You have to determine the unique binary search tree that has $P$ as its postorder traversal. What is the time complexity of the most efficient algorithm for doing this?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\Theta(\\log n)$</li>\n\t<li>$\\Theta(n)$</li>\n\t<li>$\\Theta(n\\log n)$</li>\n\t<li>None of the above, as the tree cannot be uniquely determined</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2008,data-structures,binary-search-tree,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "2073",
+          "text": "Suppose we have a balanced binary search tree $T$ holding $n$ numbers. We are given two numbers $L$ and $H$ and wish to sum up all the numbers in $T$ that lie between $L$ and $H$. Suppose there are $m$ such numbers in $T$. If the tightest upper bound on the time to compute the sum is $O(n^a\\log^bn+m^c\\log^dn)$, the value of $a+10b+100c+1000d$ is ______.",
+          "type": "Numerical",
+          "answer": "110",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gatecse-2014-set3,data-structures,binary-search-tree,numerical-answers,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "39586",
+          "text": "The number of ways in which the numbers $1, 2, 3, 4, 5, 6, 7$ can be inserted in an empty binary search tree, such that the resulting tree has height $6$, is _________.\n\nNote: The height of a tree with a single node is $0$.",
+          "type": "Numerical",
+          "answer": "64",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gatecse-2016-set2,data-structures,binary-search-tree,normal,numerical-answers",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "2717",
+          "text": "\n<p>An advantage of chained hash table (external hashing) over the open addressing scheme is</p>\n\n<ol style=\"list-style-type: upper-alpha;\"><li>\n\t<p>Worst case complexity of search operations is less</p>\n\t</li>\n\t<li>\n\t<p>Space used is less</p>\n\t</li>\n\t<li>\n\t<p>Deletion is easier</p>\n\t</li>\n\t<li>\n\t<p>None of the above</p>\n\t</li>\n</ol>\n",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gate1996,data-structures,hashing,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "974",
+          "text": "<p>A scheme for storing binary trees in an array $X$ is as follows. Indexing of $X$ starts at $1$ instead of $0$. the root is stored at $X[1]$. For a node stored at $X[i]$, the left child, if any, is stored in $X[2i]$ and the right child, if any, in $X[2i+1]$. To be able to store any binary tree on n vertices the minimum size of $X$ should be</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\log_2 n$</li>\n\t<li>$n$</li>\n\t<li>$2n+1$</li>\n\t<li>$2^n-1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gatecse-2006,data-structures,binary-tree,normal",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "8164",
+          "text": "\n<p>Consider the C program below</p>\n\n<pre class=\"prettyprint lang-c_cpp\">\n#include &lt;stdio.h&gt;\nint *A, stkTop;\nint stkFunc (int opcode, int val)\n{\n    static int size=0, stkTop=0;\n    switch (opcode) {\n        case -1: size = val; break;\n        case 0: if (stkTop &lt; size ) A[stkTop++]=val; break;\n        default: if (stkTop) return A[--stkTop];\n    }\n    return -1;\n}\nint main()\n{\n    int B[20]; A=B; stkTop = -1;\n    stkFunc (-1, 10);\n    stkFunc (0, 5);\n    stkFunc (0, 10);\n    printf (\"%d\\n\", stkFunc(1, 0)+ stkFunc(1, 0));\n}</pre>\n\n<p>The value printed by the above program is ________.</p>\n",
+          "type": "Numerical",
+          "answer": "15",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gatecse-2015-set2,data-structures,stack,easy,numerical-answers",
+          "category": "Data Structures"
+        }
+      ]
+    }
+  ]
+}

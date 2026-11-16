@@ -1,0 +1,70 @@
+{
+  "name": "Day 201 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "522400",
+          "text": "<p>Consider a $4$-to-$16$ line decoder with active-low outputs. To implement a logic function that is the NAND of inputs $X_1, X_2, X_3, X_4$, which of the following is required at the output of the decoder?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>An OR gate connected to all outputs except $Y_{15}$<br>&nbsp;</li><li>A single inverter connected to output $Y_{15}$<br>&nbsp;</li><li>A single connection from output $Y_{15}$ (it will already represent the NAND)<br>&nbsp;</li><li>An OR gate connected to all outputs</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 201"
+        },
+        {
+          "post_id": "522392",
+          "text": "<p>A Boolean function $F(A, B, C, D)=\\sum m(0,1,2,5,8,9,10)$ is given. Which of the following represents the most simplified Sum of Products (SOP) form?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\bar{B} \\bar{D}+\\bar{B} \\bar{C}+\\bar{A} C \\bar{D}$<br>&nbsp;</li><li>$\\bar{B} \\bar{D}+\\bar{A} \\bar{B}+\\bar{A} \\bar{C} D$<br>&nbsp;</li><li>$\\bar{B} \\bar{C}+\\bar{B} \\bar{D}+\\bar{A} \\bar{C} D$<br>&nbsp;</li><li>$\\bar{B} \\bar{D}+\\bar{B} \\bar{C}+\\bar{A} \\bar{C} \\bar{D}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 201"
+        },
+        {
+          "post_id": "522398",
+          "text": "<p>A $3$-bit ripple counter is constructed using T flip-flops. If the propagation delay of each flipflop is $20$ ns , what is the maximum clock frequency at which the counter can operate reliably?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$50$ MHz<br>&nbsp;</li><li>$16.67$ MHz<br>&nbsp;</li><li>$25$ MHz<br>&nbsp;</li><li>$10$ MHz</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 201"
+        },
+        {
+          "post_id": "522394",
+          "text": "<p>In a $16$-bit floating-point format, $1$ bit is for the sign, $6$ bits are for the exponent $($excess-$31$ bias$)$, and $9$ bits are for the fractional mantissa (normalized). What is the decimal value of the bit pattern $0~100001~101000000$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1.625 \\times 2^2$<br>&nbsp;</li><li>$1.625 \\times 2^{-2}$<br>&nbsp;</li><li>$6.5$<br>&nbsp;</li><li>$3.25$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 201"
+        },
+        {
+          "post_id": "522396",
+          "text": "<p>What is the minimum number of $2$-to-$1$ Multiplexers required to implement a $2$-input XOR gate?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1$<br>&nbsp;</li><li>$2$<br>&nbsp;</li><li>$3$<br>&nbsp;</li><li>$4$</li></ol>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 201"
+        }
+      ]
+    }
+  ]
+}

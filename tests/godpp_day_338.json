@@ -1,0 +1,30 @@
+{
+  "name": "Day 255 [Mathematical Logic]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "529983",
+          "text": "Color the surfaces of a cube of dimension $5 \\times 5 \\times 5$ red, and then cut the cube into smaller cubes of dimension $1 \\times 1 \\times 1$. Take out all the smaller cubes which have at least one red surface and fix a cuboid, keeping the surfaces of the cuboid red. Now what is the maximum possible volume of the cuboid?",
+          "type": "Numerical",
+          "answer": "96",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 255"
+        }
+      ]
+    }
+  ]
+}

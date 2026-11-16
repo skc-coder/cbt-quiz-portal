@@ -1,0 +1,70 @@
+{
+  "name": "Day 212 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524225",
+          "text": "<p>You are told that the system of linear equations \\(Ax=b\\) has no free variables.</p><p>Which of the following statements is/are <strong>NOT a valid conclusion</strong>&nbsp;about the matrix \\(A\\)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>\\(A\\) is a full rank matrix<br>&nbsp;</li><li>\\(Ax=0\\) has only the trivial solution<br>&nbsp;</li><li>\\(A\\) is invertible<br>&nbsp;</li><li>Every column in the RREF of \\(A\\) has a pivot variable</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 212"
+        },
+        {
+          "post_id": "524221",
+          "text": "<p>Let \\(A\\) and \\(B\\) be \\(n\\times n\\) matrices such that \\(\\det(A)=2\\) and \\(\\det(B)=5\\).<br><br>Then \\(\\det\\!\\left(A^{3}B^{-1}A^{T}\\right)\\) $=$</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{14}{5}$<br>&nbsp;</li><li>$\\frac{16}{5}$<br>&nbsp;</li><li>$-\\frac{16}{5}$<br>&nbsp;</li><li>$-\\frac{14}{5}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 212"
+        },
+        {
+          "post_id": "524223",
+          "text": "<p>With respect to the following reduced row echelon form of a matrix \\(A\\),<br>\\[<br>\\operatorname{RREF}(A)=<br>\\begin{bmatrix}<br>1 & 0 & 0 & 0\\\\<br>0 & 1 & 0 & 0\\\\<br>0 & 0 & 1 & 0\\\\<br>0 & 0 & 0 & 0<br>\\end{bmatrix},<br>\\]<br>which one of the following conclusions is valid?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The homogeneous system \\(Ax=0\\) has a unique solution.<br>&nbsp;</li><li>Matrix \\(A\\) is invertible.<br>&nbsp;</li><li>Rank of \\(A\\) is $3$.<br>&nbsp;</li><li>\\(Ax=b\\) has a unique solution for every \\(b\\).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 212"
+        },
+        {
+          "post_id": "524178",
+          "text": "<p>Let \\(A\\) be an \\(n\\times n\\) matrix whose entries are all either \\(0\\) or \\(1\\).<br>If \\(A\\) is invertible, then the maximum possible number of zero entries in \\(A\\) is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$n^2-2n$<br>&nbsp;</li><li>$n^2-(n-1)$<br>&nbsp;</li><li>$n^2-n$<br>&nbsp;</li><li>inderterminate without knowing the actual value of $n$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 212"
+        },
+        {
+          "post_id": "524174",
+          "text": "<p>If $A$ and $B$ are $3 \\times 3$ matrices and $B=\\left[\\begin{array}{lll}\\mathbf{b}_1 & \\mathbf{b}_2 & \\mathbf{b}_3\\end{array}\\right]$, where $\\mathbf{b}_1=\\left[\\begin{array}{l}b_{11} \\\\ b_{21} \\\\ b_{31}\\end{array}\\right], \\mathbf{b}_2=\\left[\\begin{array}{l}b_{12} \\\\ b_{22} \\\\ b_{32}\\end{array}\\right], \\mathbf{b}_3=\\left[\\begin{array}{l}b_{13} \\\\ b_{23} \\\\ b_{33}\\end{array}\\right]$,<br>then the product matrix $A B=$<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$[\\mathbf{b}_1 A \\quad&nbsp;\\mathbf{b}_2 A \\quad&nbsp;\\mathbf{b}_3 A]$<br>&nbsp;</li><li>$[A \\mathbf{b}_1+A \\mathbf{b}_2+A \\mathbf{b}_3]$<br>&nbsp;</li><li>$[A \\mathbf{b}_1+A \\mathbf{b}_2 \\quad A \\mathbf{b}_2+A \\mathbf{b}_3 \\quad A \\mathbf{b}_1+A \\mathbf{b}_3]$<br>&nbsp;</li><li>$[A \\mathbf{b}_1 \\quad&nbsp;A \\mathbf{b}_2 \\quad&nbsp;A \\mathbf{b}_3]$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 212"
+        }
+      ]
+    }
+  ]
+}

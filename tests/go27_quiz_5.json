@@ -1,0 +1,244 @@
+{
+  "id": "go27_quiz_5",
+  "name": "GO Classes GATE CS | Calculus | Weekly Quiz 2",
+  "duration": "50",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "474552",
+          "text": "<p>Which of the following statements is always true for a function $f(x)$ ?</p><ol style=\"list-style-type:lower-roman\"><li>If $f(x)$ and $g(x)$ are continuous at $x=a$, then $\\frac{f(x)}{g(x)}$ is continuous at $x=a$.</li><li>If $f(x)+g(x)$ is continuous at $x=a$ and $f^{\\prime}(a)=0$, then $g(x)$ is continuous ta $x=a$.</li><li>If $f(x)+g(x)$ is differentiable at $x=a$, then $f(x)$ and $g(x)$ are both differentiable at $x=a$<br><br>A. only i.<br>B. only ii.<br>C. only iii.<br>D. i. and ii.</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries,calculus,two-marks,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474514",
+          "text": "<p>The positive integers $m$ and $n$ are relatively prime, and chosen in such a way that<br>$$<br>\\lim _{x \\rightarrow 2} \\frac{5 \\sqrt{1+4 x}-3 \\sqrt{1+12 x}}{x-2}=-\\frac{m}{n} .<br>$$<br>What is $n-4 m$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$-1$</li><li>$2$</li><li>$-3$</li><li>$4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,one-mark,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474549",
+          "text": "<p><img alt=\"\" src=\"data:image/png;base64,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\"><br><br>The graph of the derivative of a function $f$ is shown above. Which of the following are true about the original function $f$ ?</p><ol style=\"list-style-type:upper-roman\"><li>$\\quad f$ is increasing on the interval $(-2,1)$.</li><li>$\\quad f$ is continuous at $x=0$.</li><li>$\\quad f$ has an inflection point at $x=-2$.</li></ol><p> </p><ol style=\"list-style-type:upper-alpha\"><li>I only</li><li>II only</li><li>III only</li><li>II and III only</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,one-mark,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474535",
+          "text": "<p>Let<br>$$<br>f(x)=(x-1)(x-2)(x-3)(x-4)(x-5)$$<br>The number of distinct real roots of the equation $\\frac{d}{d x} f(x)=0$ is exactly</p><ol style=\"list-style-type:upper-alpha\"><li>$2$</li><li>$3$</li><li>$4$</li><li>$5$</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,one-mark,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474508",
+          "text": "<p>The function $f$ is defined on the closed interval $[2,4]$ and $f(2)=f(3)=f(4)$. On the open interval $(2,4), f$ is continuous and strictly decreasing. Which of the following statements is true</p><ol style=\"list-style-type:upper-alpha\"><li>$f$ attains neither a minimum value nor a maximum value on the closed interval $[2,4]$.</li><li>$f$ attains a minimum value but does not attain a maximum value on the closed interval $[2,4]$.</li><li>$f$ attains a maximum value but does not attain a minimum value on the closed interval $[2,4]$.</li><li>$f$ attains both a minimum value and a maximum value on the closed interval $[2,4]$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,two-marks,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474543",
+          "text": "<p>If $f(x)=2+|x-3|$ for all $x$, then the value of the derivative $f^{\\prime}(x)$ at $x=3$ is</p><ol style=\"list-style-type:upper-alpha\"><li>$-1$</li><li>$0$</li><li>$1$</li><li>nonexistent</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,one-mark,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474507",
+          "text": "<table border=\"1\" cellpadding=\"1\" style=\"width: 500px; margin: auto; border-spacing: 1px;\"><tbody><tr><td>$x$</td><td>$0$</td><td>$1$</td><td>$2$</td></tr><tr><td>$f(x)$</td><td>$1$</td><td>$k$</td><td>$2$</td></tr></tbody></table><p><br>The function $f$ is continuous on the closed interval $[0,2]$ and has values that are given in the table above. The equation $f(x)=\\frac{1}{2}$ must have at least two solutions in the interval $[0,2]$ if $k=$</p><ol style=\"list-style-type:upper-alpha\"><li>$0$<br> </li><li>$\\frac{1}{2}$<br> </li><li>$1$<br> </li><li>$2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,two-marks,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474548",
+          "text": "<p>Given that the function $f$ is continuous at the point ( $c, f(c)$ ), determine which of the following statements could be false.</p><ol style=\"list-style-type:upper-alpha\"><li>$\\lim _{x \\rightarrow c} f(x)$ exists.</li><li>$\\lim _{x \\rightarrow c} f(x)=f(c)$.</li><li>$\\lim _{x \\rightarrow c^{-}} f(x)=\\lim _{x \\rightarrow c^{+}} f(x)$.</li><li>$\\lim _{x \\rightarrow c} f(x)=c$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,one-mark,limits,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474551",
+          "text": "<p><img alt=\"\" src=\"data:image/png;base64,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\"><br>The graph of the first derivative $f^{\\prime}$ for a function $f$ is shown above. Which of the following statements must be true?</p><p>&nbsp;&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>$f(4)=f(-1)$</li><li>$f(2)&gt;f(4)$</li><li>$f^{\\prime \\prime}(2)&lt;f^{\\prime \\prime}(4)$</li></ol><p> </p><ol style=\"list-style-type:upper-alpha\"><li>I only</li><li>II only</li><li>II and III only</li><li>I and III only</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,two-marks,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474509",
+          "text": "<p>$$<br>f(x)= \\begin{cases}2 x-2 &amp; \\text { for } x&lt;3 \\\\ 2 x-4 &amp; \\text { for } x \\geq 3\\end{cases}<br>$$<br>Let $f$ be the piecewise-linear function defined above. Which of the following statements are true?</p><ol style=\"list-style-type:upper-roman\"><li>$\\lim _{h \\rightarrow 0^{-}} \\frac{f(3+h)-f(3)}{h}=2$<br> </li><li>$\\lim _{h \\rightarrow 0^{+}} \\frac{f(3+h)-f(3)}{h}=2$<br> </li><li>$f^{\\prime}(3)=2$</li></ol><p> </p><ol style=\"list-style-type:upper-alpha\"><li>None</li><li>II only</li><li>I and II only</li><li>I, II, and III</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,one-mark,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474529",
+          "text": "<p>Let $f(x, y)=\\frac{a x^{2}+b y^{2}}{x y}$, where $a$ and $b$ are constants. If $\\frac{\\partial f}{\\partial x}=\\frac{\\partial f}{\\partial y}$ at $x=1$ and $y=2$, then the relation between $a$ and $b$ is:</p><ol style=\"list-style-type:upper-alpha\"><li>$a=\\frac{b}{4}$<br> </li><li>$a=\\frac{b}{2}$<br> </li><li>$a=2 b$<br> </li><li>$a=4 b$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,two-marks,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474539",
+          "text": "<p>Let $f:[a, b] \\rightarrow \\mathbb{R}$ be a differentiable function, and define $g(x)=(f(x))^{2}$.<br>Apply the Mean Value Theorem (MVT) to the function $g$ on the interval $[a, b]$.<br>Then which of the following is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>There exists $c \\in(a, b)$ such that<br>$$<br>\\frac{f(b)^{2}-f(a)^{2}}{b-a}=f^{\\prime}(c)^{2}<br>$$</li><li>There exists $c \\in(a, b)$ such that<br>$$<br>\\frac{f(b)^{2}-f(a)^{2}}{b-a}=2 f(c) f^{\\prime}(c)<br>$$</li><li>There exists $c \\in(a, b)$ such that<br>$$<br>\\frac{f(b)^{2}-f(a)^{2}}{b-a}=f(c)^{2}<br>$$</li><li>There exists $c \\in(a, b)$ such that<br>$$<br>\\frac{f(b)^{2}-f(a)^{2}}{b-a}=f^{\\prime}(c)[f(a)+f(b)]<br>$$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,one-mark,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474527",
+          "text": "<p>Let<br>$$<br>f(x, y)=15-x^{2}+2 y^{2}+6 x-8 y .<br>$$<br>Which of the following statements is correct about the critical point(s) of $f(x, y)$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>The function has a critical point at $(3,2)$, which is a local maximum.</li><li>The function has a critical point at $(3,2)$, which is a local minimum.</li><li>The function has no critical points.</li><li>The function has a critical point at $(3,2)$, which is a saddle point.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,two-marks,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474537",
+          "text": "<p>$\\lim _{n \\rightarrow \\infty} \\frac{2^{n+1}+3^{n+1}}{2^{n}+3^{n}}$ equals</p><ol style=\"list-style-type:upper-alpha\"><li>$3$<br> </li><li>$2$<br> </li><li>$1$<br> </li><li>$0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,one-mark,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474550",
+          "text": "<p>Which of the following are true about the function $f$ if its derivative is $f^{\\prime}(x)=(x-1)^{2}(4-x)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>$f$ is decreasing for all $x&lt;4$.</li><li>$f$ has a local maximum at $x=1$.</li><li>$f$ is concave up for all $1&lt;x&lt;3$.</li></ol><p> </p><ol style=\"list-style-type:upper-alpha\"><li>I only</li><li>II only</li><li>III only</li><li>II and III only</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,one-mark,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474547",
+          "text": "<p>If $f$ is continuous at $x=2$, and if $f$ is defined as<br>$$<br>f(x)= \\begin{cases}\\frac{\\ln x^{2}-x \\ln x}{x-2} &amp; x \\neq 2 \\\\ k &amp; x=2,\\end{cases}<br>$$<br>then $k$ is</p><ol style=\"list-style-type:upper-alpha\"><li>$-1$</li><li>$-2$</li><li>$-\\frac{e}{4}$</li><li>$-\\ln 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,two-marks,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474545",
+          "text": "<p>If $f^{\\prime}(x)$ and $g^{\\prime}(x)$ exist and $f^{\\prime}(x)&gt;g^{\\prime}(x)$ for all real $x$, then the graph of $y=f(x)$ and the graph of $y=g(x)$</p><ol style=\"list-style-type:upper-alpha\"><li>intersect exactly once.</li><li>intersect no more than once.</li><li>do not intersect.</li><li>could intersect more than once.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,two-marks,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474521",
+          "text": "<p>Consider the function $f(x)=\\sqrt{3-x}$. Which of the following is the definition of $f^{\\prime}(-1)$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$f^{\\prime}(-1)=\\lim _{x \\rightarrow-1} \\frac{\\sqrt{3-x}-2}{x+1}$<br> </li><li>$f^{\\prime}(-1)=\\lim _{x \\rightarrow \\infty} \\frac{\\sqrt{3-x}-2}{x+1}$<br> </li><li>$f^{\\prime}(-1)=\\lim _{h \\rightarrow 0} \\frac{\\sqrt{3-x-h}-\\sqrt{3-x}}{h}$<br> </li><li>$f^{\\prime}(-1)=\\lim _{h \\rightarrow 0} \\frac{h}{\\sqrt{3-x-h}-\\sqrt{3-x}}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,two-marks,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474531",
+          "text": "<p>$\\lim _{n \\rightarrow \\infty} \\frac{1-2+3-4+5-6+\\ldots+(-2 n)}{\\sqrt{n^{2}+1}+\\sqrt{n^{2}-1}}$ equals</p><ol style=\"list-style-type:upper-alpha\"><li>$\\infty$</li><li>$1 / 2$</li><li>$0$</li><li>$-1 / 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries-2026,calculus,two-marks,goclasses_cs_wq34",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "474556",
+          "text": "<p>Suppose that $f$ is continuous on $[a, b]$ and differentiable on $(a, b)$. If $f^{\\prime}(x)&gt;0$ on ( $a, b$ ). Which of the following is necessarily true?</p><ol style=\"list-style-type:upper-alpha\"><li>$f$ is decreasing on $[a, b]$,</li><li>$f$ has no local extrema on $(a, b)$,</li><li>$f$ is a constant function on $(a, b)$,</li><li>$f$ is concave up on $(a, b)$,</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_calculus_sw_1,goclasses,goclasses-testseries,calculus,one-mark,maxima-minima,goclasses_cs_wq34",
+          "category": "Calculus"
+        }
+      ]
+    }
+  ]
+}

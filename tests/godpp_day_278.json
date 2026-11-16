@@ -1,0 +1,70 @@
+{
+  "name": "Day 234 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "526996",
+          "text": "<p>Which of the following statement(s) is(are) true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If $\\{v_1,v_2,v_3,v_4\\}$ is linearly independent in $\\mathbb{R}^6$, then $\\{v_1+v_2,\\;v_2+v_3,\\;v_3+v_4,\\;v_4\\}$ is linearly independent.<br>&nbsp;</li><li>If $\\{v_1,v_2,v_3,v_4\\}$ is linearly dependent in $\\mathbb{R}^6$, then at least one of the vectors is a linear combination of the other three.<br>&nbsp;</li><li>If $\\{v_1,v_2,v_3\\}$ is linearly independent in $\\mathbb{R}^6$ and $v_4$ is a linear combination of $v_1,v_2,v_3$, then $\\{v_1,v_2,v_3,v_4\\}$ is linearly dependent.<br>&nbsp;</li><li>If $\\{v_1,v_2,v_3,v_4,v_5\\}$ is a linearly independent set in $\\mathbb{R}^7$, then $\\{v_1-v_5,\\;v_2-v_5,\\;v_3-v_5,\\;v_4-v_5\\}$ is linearly independent.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "526998",
+          "text": "<p>Let $A$ be an $2\\times 2$ matrix such that $|A^2+I|=0$ and $|A| \\ne 0$. Which of the following must be true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$|A|=1$<br>&nbsp;</li><li>$|A|=-1$<br>&nbsp;</li><li>$|A|^2=1$<br>&nbsp;</li><li>None of these</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "527003",
+          "text": "<p>The set of vectors constituting an orthogonal basis in $\\mathbb{R} ^3$ is</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>$\\begin{Bmatrix} \\begin{bmatrix} 1 \\\\ -1 \\\\ 0 \\end{bmatrix}, &&nbsp;\\begin{bmatrix} 1 \\\\ 1 \\\\ 0 \\end{bmatrix}, &&nbsp;\\begin{bmatrix} 0 \\\\ 0 \\\\ 1 \\end{bmatrix} \\end{Bmatrix}$<br><br>&nbsp;</li><li>$\\begin{Bmatrix} \\begin{bmatrix} \\frac{1}{\\sqrt{2}}&nbsp;\\\\ \\frac{1}{\\sqrt{2}} \\\\ 0 \\end{bmatrix}, &&nbsp;\\begin{bmatrix} 0 \\\\ 1 \\\\ 0 \\end{bmatrix}, &&nbsp;\\begin{bmatrix} 0 \\\\ 0 \\\\ 1 \\end{bmatrix} \\end{Bmatrix}$<br><br>&nbsp;</li><li>$\\begin{Bmatrix} \\begin{bmatrix} \\frac{1}{\\sqrt{2}}&nbsp;\\\\ \\frac{1}{\\sqrt{2}} \\\\ 0 \\end{bmatrix}, &&nbsp;\\begin{bmatrix} \\frac{1}{\\sqrt{2}} \\\\ -\\frac{1}{\\sqrt{2}} \\\\ 0 \\end{bmatrix}&nbsp;\\end{Bmatrix}$<br><br>&nbsp;</li><li>None of these</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "527006",
+          "text": "<p>Suppose $\\mathrm{A}$ and $\\mathrm{B}$ are orthogonal $n \\times n$ matrices. Which of the following is also an orthogonal matrix? Assume that $\\mathrm{O}$ is the null matrix of order $n \\times n$ and $I$ is the identity matrix of order $n$.</p><ol type=\"A\"><li>$\\mathrm{AB-BA}$<br>&nbsp;</li><li>$\\begin{bmatrix} \\mathrm{A} & \\mathrm{O} \\\\ \\mathrm{O} & \\mathrm{B} \\end{bmatrix}$<br>&nbsp;</li><li>$\\begin{bmatrix} \\mathrm{A} & \\mathrm{I} \\\\ \\mathrm{I} & \\mathrm{B} \\end{bmatrix}$<br>&nbsp;</li><li>$\\mathrm{A}^2 –&nbsp;\\mathrm{B}^2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 234"
+        },
+        {
+          "post_id": "526992",
+          "text": "<p>Let $A$ be a matrix such that</p><p>$<br>A\\begin{bmatrix}1\\\\0\\\\2\\end{bmatrix}<br>=<br>\\begin{bmatrix}3\\\\-1\\\\4\\end{bmatrix},<br>\\qquad<br>A\\begin{bmatrix}0\\\\1\\\\-1\\end{bmatrix}<br>=<br>\\begin{bmatrix}2\\\\5\\\\-3\\end{bmatrix},<br>\\qquad<br>A\\begin{bmatrix}2\\\\-1\\\\1\\end{bmatrix}<br>=<br>\\begin{bmatrix}7\\\\-8\\\\6\\end{bmatrix}.<br>$</p><p><br>Use this information to find the solution to</p><p>$$<br>A\\mathbf{x}<br>=<br>\\begin{bmatrix}11\\\\-15\\\\17\\end{bmatrix}.<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathbf{x}=\\begin{bmatrix}4\\\\-2\\\\6\\end{bmatrix}$<br><br>&nbsp;</li><li>$\\mathbf{x}=\\begin{bmatrix}3\\\\-1\\\\5\\end{bmatrix}$<br><br>&nbsp;</li><li>$\\mathbf{x}=\\begin{bmatrix}5\\\\-3\\\\4\\end{bmatrix}$<br><br>&nbsp;</li><li>$\\mathbf{x}=\\begin{bmatrix}2\\\\1\\\\7\\end{bmatrix}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 234"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "name": "GO Classes CS/DA Test Series 2026 | Engineering Mathematics | Topic Wise Test Extra",
+  "duration": "60",
+  "total_qs": "20",
+  "total_qs_one": 5,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 35,
+  "total_marks": 35,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 35,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "402718",
+          "text": "<p>Let $a, b$ be in $\\mathbb{R}$. Consider the three vectors<br>$$<br>\\boldsymbol{v}_1=\\left[\\begin{array}{l}<br>a \\\\<br>0 \\\\<br>0<br>\\end{array}\\right], \\quad \\boldsymbol{v}_2=\\left[\\begin{array}{l}<br>0 \\\\<br>b \\\\<br>1<br>\\end{array}\\right], \\quad \\boldsymbol{v}_3=\\left[\\begin{array}{l}<br>0 \\\\<br>1 \\\\<br>1<br>\\end{array}\\right] .<br>$$<br>For which values of $a$ and $b$ are $\\boldsymbol{v}_1, \\boldsymbol{v}_2, \\boldsymbol{v}_3$ independent?</p><ol style=\"list-style-type:upper-alpha\"><li>$a=0$ and $b=1$</li><li>$a \\neq 0$ and $b \\neq 1$</li><li>$a=0$ and $b \\neq 1$</li><li>$a \\neq 0$ and $b=1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,linear-algebra,vector-space,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380396",
+          "text": "<p>It is known that $\\boldsymbol{A} \\in \\mathbb{R}^{3 \\times 3}$ has eigenvalues $\\lambda_{1}=0, \\lambda_{2}=1, \\lambda_{3}=2$.<br>Which of the following is true?</p><ol style=\"list-style-type:upper-alpha\"><li>Linear system $A x=b$ always has solution for any $b$</li><li>Linear system $A x=b$ has solution for some $b \\neq 0$</li><li>Linear system $A x=b$ can not have solution for any non zero $b$</li><li>Linear system $A x=b$ has solution iff $b=0$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,linear-algebra,eigen-value,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380393",
+          "text": "<p>Let $A$ be an $m \\times n$ matrix and $\\mathbf{b}$ be a vector in $\\mathbb{R}^{m}$. Which of the following statements implies that the matrix equation $A \\mathrm{x}=\\mathrm{b}$ is consistent?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Every row of $A$ contains a pivot position.</li>\n\t<li>$\\operatorname{rank} A=n$.</li>\n\t<li>$m=n$ and $A$ is invertible.</li>\n\t<li>$m&lt;n$.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,goclasses,linear-algebra,system-of-equations,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "402714",
+          "text": "<p>Suppose $A$ is $3$ by $4,$ and $A x=0$ has all solutions in the following form -<br>$$<br>\\mathrm{x}=\\mathrm{s}\\left[\\begin{array}{l}<br>1 \\\\<br>1 \\\\<br>1 \\\\<br>0<br>\\end{array}\\right]+\\mathrm{t}\\left[\\begin{array}{r}<br>-2 \\\\<br>-1 \\\\<br>0 \\\\<br>1<br>\\end{array}\\right]<br>$$<br>We do some unknown elementary row transformations on $A$ and get the following matrix $R$ -<br>$$<br>R=\\left[\\begin{array}{llll}<br>1 &amp; 0 &amp; \\mathrm{a} &amp; \\mathrm{b} \\\\<br>0 &amp; 1 &amp; \\mathrm{c} &amp; \\mathrm{d} \\\\<br>0 &amp; 0 &amp; 0 &amp; 0<br>\\end{array}\\right]<br>$$<br>What will be the values of $a, b, c,$&nbsp;and $d?$</p><ol style=\"list-style-type:upper-alpha\"><li>$a=-1$</li><li>$b=2$</li><li>$c=-1$</li><li>$d=1$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,linear-algebra,system-of-equations,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380399",
+          "text": "<p>Let $A$ be $n\\times n$ matrix with real coefficients. Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>A must have an even number of non-real eigenvalues.</li><li>If $v_{1}, v_{2} \\in \\mathbb{R}^{n}$ are eigenvectors of $A$ with different eigenvalues $\\lambda_{1} \\neq \\lambda_{2}$, then $v_{1}$ and $v_{2}$ are linearly independent.</li><li>If $v_{1}, v_{2} \\in \\mathbb{R}^{n}$ are eigenvectors of $A$ with different eigenvalues $\\lambda_{1} \\neq \\lambda_{2}$, then $v_{1}$ and $v_{2}$ are orthogonal.</li><li>The eigenvalues of $A B$ are the product of the eigenvalues of $A$ and $B$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,goclasses,linear-algebra,eigen-value,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380394",
+          "text": "<p>For any real numbers $a, b, c$, let $A=\\left[\\begin{array}{ccc}1 &amp; a &amp; b\\\\<br>\n-a &amp; 1 &amp; c\\\\<br>\n-b &amp; -c &amp; 1\\end{array}\\right]$ and let $B=\\left[\\begin{array}{rrr}0 &amp; a &amp; b\\\\<br>\n-a &amp; 0 &amp; c\\\\<br>\n-b &amp; -c &amp; 0\\end{array}\\right]$. Which of the following is/are true ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$A$ is invertible for all values of $a, b, c$.</li>\n\t<li>$B$ is not invertible for any values of $a, b, c$.</li>\n\t<li>$B$ is invertible for all values of $a, b, c$.</li>\n\t<li>$A$ is not invertible for any values of $a, b, c$.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,goclasses,linear-algebra,determinant,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380420",
+          "text": "If $\\operatorname{det}\\left[\\begin{array}{lll}a_{11} & a_{12} & a_{13}\\\\\na_{21} & a_{22} & a_{23} \\\\\na_{31} & a_{32} & a_{33}\\end{array}\\right]=3$, what is $\\operatorname{det}\\left[\\begin{array}{ccc}a_{31} & a_{32} & a_{33}\\\\\n2 a_{21} & 2 a_{22} & 2 a_{23}\\\\\na_{11} & a_{12} & a_{13}\\end{array}\\right] ?$",
+          "type": "Numerical",
+          "answer": "-6",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,numerical-answers,goclasses,linear-algebra,determinant,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "402716",
+          "text": "<ul><li>$\\mathrm{S} 1:$ A set of two vectors in $\\mathbb{R}^n$ is Linealy dependent if at least one vector is a multiple of the other.</li><li>$\\text{S2}:$ A set of $n$ vectors in $\\mathbb{R}^n$ is Linealy independent if and only if none of the vectors are a multiple of any other vector.</li></ul><ol style=\"list-style-type:upper-alpha\"><li>$\\text{S1}$ and $\\text{S2}$ both are correct</li><li>$\\mathrm{S} 1$ is correct and $\\mathrm{S} 2$ is incorrect</li><li>$\\text{S} 2$ is correct and $\\text{S} 1$ is incorrect</li><li>$\\text{S} 1$ and $\\text{S} 2$ both are incorrect</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,linear-algebra,vector-space,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380391",
+          "text": "Let $A$ be $5 \\times 4$ matrix. If all solutions of $A x=0$ are scalar multiple of one nonzero vector then what will be the rank of $A?$",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,numerical-answers,goclasses,linear-algebra,rank-of-matrix,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380402",
+          "text": "<p>Which of the following is/are FALSE ?</p><ol style=\"list-style-type:upper-alpha\"><li>Let $A$ be an $m \\times n$ matrix, and assume that the matrix $A$ has a pivot in every column. Additionally, assume $A \\vec{v}=A \\vec{w}$ for some vectors $\\vec{v}, \\vec{w} \\in \\mathbb{R}^{n}$.<br>Then $\\vec{v}=\\vec{w}$.<br> </li><li>If $\\mathrm{A}$ and $\\mathrm{B}$ are both invertible $n \\times&nbsp;n$ matrices, then $A B$ is invertible.<br> </li><li>Let $A$ be an $m \\times n$ matrix. Then, the homogeneous equation $A \\vec{x}=\\overrightarrow{0}$ is consistent<br>if and only if the augmented matrix $[A \\mid \\overrightarrow{0}]$ has a pivot in every row.<br> </li><li>Let $A$ be a $3 \\times 2$ matrix and $B$ a $2 \\times 3$ matrix. Then the determinant of $A B$ MUST be zero.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,goclasses,linear-algebra,system-of-equations,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380392",
+          "text": "<p>Let $A$ be a $12 \\times 9$ matrix (i.e., $A$ has $12$ rows and $9$ columns) and $b$ be a vector in $\\mathbb{R}^{12}$. We know that the matrix equation $A \\mathbf{x}=\\mathrm{b}$ has infinitely many solutions. Which of the following statements are false?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\mathrm{b}$ can be written as a linear combination of the columns of $A$.</li>\n\t<li>Every row of $A$ has a pivot position.</li>\n\t<li>The columns of $A$ are linearly dependent.</li>\n\t<li>$\\operatorname{rank} A \\geq 9$.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,goclasses,linear-algebra,system-of-equations,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380412",
+          "text": "<p>Which of the following is/are TRUE ?</p><ol style=\"list-style-type:upper-alpha\"><li>Suppose an $m \\times n$ matrix $A$ has $n$ pivot columns. Then for each $\\mathbf{b} \\in \\mathbb{R}^{m}$, the equation $A \\mathbf{x}=\\mathrm{b}$ has at most one solution.</li><li>Suppose $A x=b$ has a&nbsp;solution, the solution is unique&nbsp;if and only if $A x=0$ has unique solution.</li><li>If $A$ is an $m \\times n$ matrix and $A x=0$ has a unique solution, then $A x=b$ is consistent for every $b$ in $\\mathbf{R}^{m}$.</li><li>If for some matrix $A$, and some vectors $x$ and $b$, we have $A x=b$, then $b$ is linear combination of columns of $A$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,goclasses,linear-algebra,system-of-equations,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380418",
+          "text": "$A, B$ and $C$ are arbitrary, non-singular matrices. $\\operatorname{det}\\left(A^{T} B\\right)$ must equal which of the following?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\operatorname{det}(A) \\operatorname{det}(B)$</li><li> $\\dfrac{\\operatorname{det}(B)}{\\operatorname{det}(A)}$</li> <li>$\\operatorname{det}\\left(A^{-1}\\right) \\operatorname{det}(B)$</li>  <li>$\\dfrac{\\operatorname{det}(B)}{\\operatorname{det}\\left(A^{-1}\\right)}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,goclasses,linear-algebra,determinant,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380416",
+          "text": "<p>Which of the following vectors are eigenvectors of the matrix: $\\left[\\begin{array}{lll}1 &amp; 3 &amp; 6\\\\<br>2 &amp; 1 &amp; 4\\\\<br>1 &amp; 0 &amp; 3\\end{array}\\right]$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\left[\\begin{array}{c}1\\\\<br>3\\\\<br>-2\\end{array}\\right]$<br> </li><li>$\\left[\\begin{array}{c}-2\\\\<br>-2\\\\<br>1\\end{array}\\right]$<br> </li><li>$\\left[\\begin{array}{c}0\\\\<br>1\\\\<br>-5\\end{array}\\right]$<br> </li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,linear-algebra,eigen-value,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380401",
+          "text": "<p>Which one of the following statements is NOT correct?</p><ol style=\"list-style-type:upper-alpha\"><li>An eigenvalue of $A$ is a scalar $\\lambda$ such that $A-\\lambda I$ is not invertible.</li><li>An eigenvalue of $A$ is a scalar $\\lambda$ such that $(A-\\lambda I) v=0$ has a solution.</li><li>An eigenvalue of $A$ is a scalar $\\lambda$ such that $A v=\\lambda v$ for a nonzero vector $v$.</li><li>An eigenvalue of $A$ is a scalar $\\lambda$ such that $\\operatorname{det}(A-\\lambda I)=0$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,linear-algebra,eigen-value,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380421",
+          "text": "<p>Which of the following statements are true? Note that more than one statement may be true. You should indicate all the true statements.</p><ol style=\"list-style-type:upper-alpha\"><li>Eigen values can never be zero.</li><li>Eigen vectors can never be the zero vector.</li><li>If $\\vec{x}$ is an eigen vector of a matrix $A$, then $2 \\vec{x}$ is also an eigen vector of $A$.</li><li>The maximum possible rank of $5 \\times 7$ matrix is $5.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,goclasses,linear-algebra,eigen-value,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380414",
+          "text": "<p>Consider the vectors $\\mathbf{u}=\\left[\\begin{array}{l}1\\\\<br>1\\end{array}\\right], \\mathbf{v}=\\left[\\begin{array}{c}1\\\\<br>c^{2}\\end{array}\\right], \\mathbf{b}=\\left[\\begin{array}{l}1\\\\<br>c\\end{array}\\right]$, where $c$ is a constant.<br>Consider two statements.</p><ul><li>$\\mathrm{S} 1: \\;c=1$ is the ONLY possibility where $b$ is a linear combination of $u$ and $v$.</li><li>$\\mathrm{S} 2:\\; c=-1$ is the ONLY possibility where $b$ is NOT a linear combination of $u$ and $v$.</li></ul><p>Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{S} 1$ is correct but $\\mathrm{S} 2$ is incorrect</li><li>$\\mathrm{S} 1$ is incorrect but $\\mathrm{S} 2$ is correct</li><li>Both are correct</li><li>Both are incorrect</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,goclasses,linear-algebra,system-of-equations,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380404",
+          "text": "<p>If the characteristic polynomial of $A$ is $=\\lambda^{2}(\\lambda-3)^{4}$, then the $\\operatorname{rank}(A)$ could be</p><ol style=\"list-style-type:upper-alpha\"><li>$3$</li><li>$4$</li><li>$5$</li><li>$6$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,goclasses,linear-algebra,rank-of-matrix,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380419",
+          "text": "<p>Let $\\mathbf{u}=\\left[\\begin{array}{l}4 \\\\<br>1 \\\\<br>3\\end{array}\\right], \\mathbf{v}=\\left[\\begin{array}{r}2\\\\<br>5\\\\<br>-1\\end{array}\\right]$, and $\\mathbf{w}=\\left[\\begin{array}{r}-4\\\\<br>17\\\\<br>-13\\end{array}\\right].$</p><p>It can shown that $3 \\mathbf{u}-4 \\mathbf{v}+\\mathbf{w}=\\mathbf{0}$. Use this fact to find a solution to the system $A \\mathbf{x}=\\mathbf{b}$ where<br>$$<br>A=\\left[\\begin{array}{cc}<br>2 &amp; 4\\\\<br>5 &amp; 1\\\\<br>-1 &amp; 3<br>\\end{array}\\right], \\quad \\mathbf{x}=\\left[\\begin{array}{l}<br>x_{1}\\\\<br>x_{2}<br>\\end{array}\\right], \\quad \\text { and } \\mathbf{b}=\\left[\\begin{array}{r}<br>-4\\\\<br>17\\\\<br>-13<br>\\end{array}\\right]<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathbf{x}=\\left[\\begin{array}{r}<br>3\\\\<br>-4<br>\\end{array}\\right] $<br> </li><li>$\\mathbf{x}=\\left[\\begin{array}{r}<br>-4\\\\<br>3<br>\\end{array}\\right]$<br> </li><li>$\\mathbf{x}=\\left[\\begin{array}{r}<br>4\\\\<br>-3<br>\\end{array}\\right]$<br> </li><li>$\\mathbf{x}=\\left[\\begin{array}{r}<br>-3\\\\<br>4<br>\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,linear-algebra,system-of-equations,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "380410",
+          "text": "<p>Consider the matrices $A$ and $R$ given below.<br>$$<br>A=\\left[\\begin{array}{cccc}<br>1 &amp; 2 &amp; 1 &amp; b\\\\<br>2 &amp; a &amp; 1 &amp; 8\\\\<br>\\star &amp; \\star &amp; \\star &amp; \\star<br>\\end{array}\\right], \\quad R=\\left[\\begin{array}{llll}<br>1 &amp; 2 &amp; 0 &amp; 3\\\\<br>0 &amp; 0 &amp; 1 &amp; 2\\\\<br>0 &amp; 0 &amp; 0 &amp; 0<br>\\end{array}\\right]<br>$$<br>Suppose we get $\\mathrm{R}$ after performing some unknown elementary row operations on $\\mathrm{A}$. What will be the value of $a$ and $b$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$a=2, b=5$</li><li>$a=0, b=3$</li><li>$a=4, b=5$</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_2,goclasses-testseries-2026,linear-algebra,matrix,two-marks",
+          "category": "Linear Algebra"
+        }
+      ]
+    }
+  ]
+}

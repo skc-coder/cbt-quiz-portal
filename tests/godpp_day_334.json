@@ -1,0 +1,70 @@
+{
+  "name": "Day 253 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "529761",
+          "text": "<p data-start=\"202\" data-end=\"398\">Let $S$ be the sample space. Three events $A$, $B$, and $C$ are such that $A$ and $C$ do not overlap, $C \\subseteq B$, and $A$ overlaps with $B$. Which of the following statements are always true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"400\" data-end=\"430\">$P(A \\cup C) = P(A) + P(C)$<br>&nbsp;</li><li data-start=\"432\" data-end=\"455\">$P(B \\cup C) = P(B)$<br>&nbsp;</li><li data-start=\"457\" data-end=\"482\">$P(A^c \\cap C) = P(C)$<br>&nbsp;</li><li data-start=\"484\" data-end=\"523\">$P(A \\cap B^c) = P(A) - P(A \\cap B)$<br>&nbsp;</li><li data-start=\"484\" data-end=\"523\">$P((A \\cup B)^c) = 1 - P(A) - P(B)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 253"
+        },
+        {
+          "post_id": "529767",
+          "text": "<p data-start=\"217\" data-end=\"402\">Let $A$ and $B$ be two events with $P(A)&gt;0$ and $P(B)&gt;0$. Suppose $P(A\\cap B)$ increases, while $P(B)$ also increases, and $P(A)$ remains unchanged. Which of the following must be true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"404\" data-end=\"429\">$P(B\\mid A)$ increases<br>&nbsp;</li><li data-start=\"431\" data-end=\"456\">$P(A\\mid B)$ increases<br>&nbsp;</li><li data-start=\"458\" data-end=\"483\">$P(A\\cup B)$ increases<br>&nbsp;</li><li data-start=\"485\" data-end=\"512\">$P(A^c\\cap B)$ increases</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 253"
+        },
+        {
+          "post_id": "529775",
+          "text": "<p data-start=\"206\" data-end=\"357\">Let $X$ be a random variable such that $P(X=-2)=\\frac{1}{4}$, $P(X=0)=\\frac{1}{2}$, and $P(X=2)=\\frac{1}{4}$.<br>What is the value of $E[X^2]-{E[X]}^2$ ?</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 253"
+        },
+        {
+          "post_id": "529763",
+          "text": "<p data-start=\"190\" data-end=\"246\">Which of the following statements is/are always correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"248\" data-end=\"329\">If $A$ and $B$ are independent and $P(B) &gt; 0$, then $P(A^c \\mid B) = 1 - P(A)$<br>&nbsp;</li><li data-start=\"331\" data-end=\"427\">If $A$ and $B$ are mutually exclusive and $P(A \\cup B) &gt; 0$, then $P(A \\mid A \\cup B) = P(A)$<br>&nbsp;</li><li data-start=\"429\" data-end=\"506\">If $A \\subseteq B$ and $P(B) &gt; 0$, then $P(B \\mid A) = \\dfrac{P(B)}{P(A)}$<br>&nbsp;</li><li data-start=\"508\" data-end=\"583\">For any two events $A$ and $B$ with $P(B) &gt; 0$, $P(A \\cup B \\mid B) = 1$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 253"
+        },
+        {
+          "post_id": "529765",
+          "text": "<p data-start=\"231\" data-end=\"439\">Suppose that $B_1, B_2, \\ldots, B_k$ form a partition of the sample space $S$, and $A$ is an event with $0 &lt; P(A) &lt; 1$. Assume also that $P(B_i) &gt; 0$ for all $i$. Which of the following is/are always correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"441\" data-end=\"489\">$\\sum_{i=1}^k P(A \\mid B_i)P(B_i \\mid A) = 1$<br>&nbsp;</li><li data-start=\"491\" data-end=\"546\">$\\sum_{i=1}^k \\dfrac{P(B_i \\mid A)P(A)}{P(B_i)} = 1$<br>&nbsp;</li><li data-start=\"548\" data-end=\"618\">$\\sum_{i=1}^k P(A \\mid B_i)P(B_i) = \\sum_{i=1}^k P(B_i \\mid A)P(A)$<br>&nbsp;</li><li data-start=\"620\" data-end=\"692\">$\\sum_{i=1}^k P(A^c \\mid B_i)P(B_i) = 1 - \\sum_{i=1}^k P(A \\mid B_i)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 253"
+        }
+      ]
+    }
+  ]
+}

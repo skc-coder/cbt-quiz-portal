@@ -1,0 +1,70 @@
+{
+  "name": "Day 130 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "497162",
+          "text": "<p>A COMPUTER ON A <strong>$10$Mbps</strong> NETWORK IS REGULATED BY A TOKEN BUCKET. THE TOKEN BUCKET HAS A CAPACITY OF <strong>$16$ MEGABITS</strong> AND IS FILLED AT A RATE OF <strong>$2$ Mbps</strong>. THE BUCKET IS INITIALLY FULL.</p><p>THE COMPUTER TRANSMITS AT THE FULL $10$Mbps FOR <strong>$1$ SECOND</strong>, THEN IS IDLE FOR <strong>$2$ SECONDS</strong> (DURING WHICH TOKENS CONTINUE TO ARRIVE).</p><p>WHAT IS THE MAXIMUM DURATION (IN SECONDS) THAT THE COMPUTER CAN TRANSMIT AT THE FULL <strong>$10$Mbps</strong> AGAIN?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.5$<br>&nbsp;</li><li>$1.0$<br>&nbsp;</li><li>$1.5$<br>&nbsp;</li><li>$2.0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 130"
+        },
+        {
+          "post_id": "497163",
+          "text": "<p>A SENDER USES THE <strong>SELECTIVE REPEAT</strong> SLIDING WINDOW PROTOCOL FOR FLOW CONTROL. DATA PACKETS ARE <strong>$1$ KB</strong> ($1000$ BYTES) IN SIZE, AND THE LINK HAS A BANDWIDTH OF <strong>$100$ Mbps</strong> ($100$ * $10^6$ bits/second). THE ONE-WAY PROPAGATION DELAY IS <strong>$\\mathbf{4 5}$ MS.</strong></p><p>WHAT IS THE MINIMUM NUMBER OF BITS REQUIRED FOR THE SEQUENCE NUMBER FIELD TO ACHIEVE $100$% LINK UTILIZATION?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10$<br>&nbsp;</li><li>$11$<br>&nbsp;</li><li>$12$<br>&nbsp;</li><li>$13$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 130"
+        },
+        {
+          "post_id": "497165",
+          "text": "<p>A SENDER USES THE <strong>GO-BACK-N</strong> SLIDING WINDOW PROTOCOL. THE SENDER'S WINDOW SIZE IS 15.</p><ul><li>DATA PACKETS ARE $\\mathbf{2000}$<strong> BYTES.</strong><br>&nbsp;</li><li>ACKNOWLEDGEMENT PACKETS ARE $\\mathbf{25}$<strong> BYTES</strong>.<br>&nbsp;</li><li>THE LINK BANDWIDTH (IN BOTH DIRECTIONS) IS $\\mathbf{4}$<strong> Mbps</strong> ( $4$ * $10^6$ bits/second).<br>&nbsp;</li><li>THE ONE-WAY PROPAGATION DELAY IS $\\mathbf{5 0}$&nbsp;<strong>MS</strong>.<br>&nbsp;</li></ul><p>ASSUMING NO ERRORS, WHAT IS THE MAXIMUM ACHIEVABLE THROUGHPUT IN <strong>BYTES/SECOND</strong>?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$288,323$<br>&nbsp;</li><li>$250,000$<br>&nbsp;</li><li>$294,118$<br>&nbsp;</li><li>$500,000$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 130"
+        },
+        {
+          "post_id": "497166",
+          "text": "<p>CONSIDER AN INSTANCE OF TCP'S CONGESTION CONTROL ALGORITHM.<br>&nbsp;</p><ul><li>THE WINDOW SIZE AT THE START OF THE SLOW START PHASE IS $\\mathbf{4}$<strong>&nbsp;MSS</strong>.<br>&nbsp;</li><li>THE THRESHOLD AT THE START OF THE FIRST TRANSMISSION IS $\\mathbf{12}$<strong> MSS</strong>.<br>&nbsp;</li><li>ASSUME A <strong>TRIPLE DUPLICATE ACK</strong> OCCURS DURING THE <strong>SIXTH TRANSMISSION</strong>.<br>&nbsp;</li></ul><p>WHAT IS THE CONGESTION WINDOW SIZE (IN MSS) AT THE END OF THE <strong>TENTH </strong>TRANSMISSION?</p>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 130"
+        },
+        {
+          "post_id": "497159",
+          "text": "<p>A TCP connection uses $\\mathbf{32-}$<strong>bit sequence numbers</strong>, which means there are $2^{32}$ (about $4.3$ billion) unique byte-counts.</p><p>A network has a <strong>Maximum Packet Lifetime (MPL)</strong> of $\\mathbf{100}$&nbsp;<strong>seconds</strong>. This is a guarantee that no packet will stay \"lost\" in the network for more than $100$ seconds.</p><p>To prevent errors, the connection's data rate must be slow enough that it cannot \"wrap around\" (use all $2^{32}$ sequence numbers) in less than $100$ seconds.</p><p>What is the <strong>maximum data rate</strong> (in Bytes per second) that this connection can safely support?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2^{32} \\mathrm{~B} / \\mathrm{S}$<br>&nbsp;</li><li>$100 \\mathrm{~B} / \\mathrm{S}$<br>&nbsp;</li><li>$2^{32} \\div 100 \\mathrm{~B} / \\mathrm{S}$<br>&nbsp;</li><li>$100 \\div 2^{32} \\mathrm{~B} / \\mathrm{S}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 130"
+        }
+      ]
+    }
+  ]
+}

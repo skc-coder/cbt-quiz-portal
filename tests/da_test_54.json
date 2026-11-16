@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2025 | Probability and Statistics | Hypothesis Testing",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "455219",
+          "text": "Which of the following is the p-value for two tail test? phi represents CDF of standard normal distribution and $v$ is the test statistic.<br /><ol style=\"list-style-type:upper-alpha\"><li> 1 - phi(v)</li><li> phi(v)</li> <li>$2(1-\\mathrm{phi}(\\mathrm{v}))$</li>  <li>phi(v)-1</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455226",
+          "text": "<p>The Cashier of SM Supermarket claims that the mean Monthly salary of their employees is Php22,500.00 with a standard deviation of Php7,000.00 A researcher takes a random sample of 80 employees and found out that they have a mean monthly salary of Php18,750.00. Do the 80 selected employees have lower salaries than the rest ? Test the claim at $5 \\%$ level of significance. The appropriate $\\mathrm{H_0}$and $\\mathrm{H_1}$: are:</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{H_0}:\\mu=\\mathrm{P} 22,500$;&nbsp; $\\mathrm{H_1}: \\mu&lt;\\mathrm{P} 22,500$</li><li>$\\mathrm{H_0}:\\mu \\leq \\mathrm{P} 22,500$. ;$\\mathrm{H_1}: \\mu&gt;\\mathrm{P} 22,500$</li><li>$\\mathrm{H_0}:\\mu \\geq \\mathrm{P} 22,500$; $\\mathrm{H_1}: \\mu&lt;\\mathrm{P} 22,500$</li><li>$\\mathrm{H_0}:\\mu \\mathrm{E}=\\mathrm{P} 22,500$;&nbsp; $\\mathrm{H_1}: \\mu \\neq \\mathrm{P} 22,500$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455225",
+          "text": "Type II error in hypothesis testing is<br /><ol style=\"list-style-type:upper-alpha\"><li> acceptance of the null hypothesis when it is false and should be rejected</li><li> rejection of the null hypothesis when it is true and should be accepted</li> <li>rejection of the null hypothesis when it is false and should be rejected</li>  <li>acceptance of the null hypothesis when it is true and should be accepted</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455209",
+          "text": "<p>Consider covid-19 situation, you are the doctor(imagine). When the test is positive we give treatment, else we don't. Assume the test can make errors, null hypothesis as the patient has covid 19.</p><ol style=\"list-style-type:upper-alpha\"><li>More importance must be given to type 1 error than type 2 error.</li><li>More importance must be given to type 2 error than type 1 error.</li><li>Type 1 error is the probability (rejecting $\\mathrm{H_0}$|patient actually has covid 19).</li><li>Type 2 error is the probability (accepting $\\mathrm{H_0}$|patient actually doesn't have covid 19).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,two-marks,multiple-selects",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455215",
+          "text": "<p>Suppose the jewelry of exams has a population that is normally distributed with a standard deviation of 5 . You are walking down the street and sample 9 exams from this population and obtain a mean jewelry of 28.95 and a standard deviation of 6.3802 .<br>Using an alpha value of $\\alpha=0.01$, is this observed mean significantly different than an expected jewelry of 27 ?<br>$z_\\mathrm{critical}$ $= \\pm 2.58$, For $\\alpha=0.01$</p><ol style=\"list-style-type:upper-alpha\"><li>$z$-value $=2.34$, The means are completely different</li><li>$z$-value $=-2.34$, The means are same</li><li>$z$-value $=-1.17$, The means are completely different.</li><li>$z$-value $=1.17$, The means are the same.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455210",
+          "text": "<p>Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>We can use $p$-value and significance level to reject $\\mathrm{H_0}$, If $p$-value is less than alpha we reject $\\mathrm{H_0}$.</li><li>We can use $p$-value and significance level to reject $\\mathrm{H_0}$ , If $p$-value is greater than alpha we reject $\\mathrm{H_0}$.</li><li>The Z-test is performed when the sample size is large and the variance of the population is known.</li><li>T-test is performed when sample size is less and population variance is not known.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,two-marks,multiple-selects",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455224",
+          "text": "Which of the following statements are true?<br /><ol style=\"list-style-type:upper-alpha\"><li> Z-distribution is symmetric about mean.</li><li> T-distribution is symmetric about mean.</li> <li>Chi-squared distribution is symmetric about mean.</li>  <li>Z-distribution has mean $=0$, variance $=1$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,one-mark,multiple-selects",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455220",
+          "text": "<p>In this problem, let $S$ represent the proportion of women who agree that men are basically selfish and egotistical.<br>Suppose that surveys done 20 years ago showed that $S$ was 0.40 at that time, but a new survey finds that $Y=1260$ out of a random sample of $n=3000$ women said that men are basically selfish and egotistical. Is there sufficient evidence to say the proportion S has increased? Define the $\\mathrm{H_0}, \\mathrm{H_a}$ for this problem statement.</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{H_0}: \\mathrm{S}=0.4, \\mathrm{H_a}: \\mathrm{S}&lt;0.4$.</li><li>$\\mathrm{H_0}: \\mathrm{S}=0.4, \\mathrm{H_a}: \\mathrm{S} \\neq 0.4$</li><li>$\\mathrm{H_0}: \\mathrm{S}=0.4, \\mathrm{H_a}: \\mathrm{S}&gt;0.4$.</li><li>$\\mathrm{H_0}: \\mathrm{S}&gt;0.4, \\mathrm{H_a}: \\mathrm{S}&lt;0.4$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455211",
+          "text": "<p>Suppose the courage of hateful republicans has a population that is normally distributed with a standard deviation of 6 . Let's pretend that you sample 58 hateful republicans from this population and obtain a mean courage of 23.59 and a standard deviation of 6.61.<br>Using an alpha value of $\\alpha=0.05$, is this observed mean significantly less than an expected courage of 26 ?<br>$\\mathrm{Z}$-$\\mathrm{value}$ for $\\alpha=0.05$ is 1.64</p><ol style=\"list-style-type:upper-alpha\"><li>The courage of hateful republicans is significantly less than 26.</li><li>The courage of hateful republicans is significantly more than 26.</li><li>we perform two tailed test, $z$-value is +3.06</li><li>we perform left tailed test, $z$-value is -3.06</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,two-marks,multiple-selects",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455217",
+          "text": "<p>Statement 1 : P-value is the smallest level of significance that would lead to rejection of $\\mathrm{H_0}$.<br>Statement 2 : P -Value is the probability that the $\\mathrm{H_0}$ is false.</p><ol style=\"list-style-type:upper-alpha\"><li>Statement 1 and 2 are true</li><li>Statement 1 is true</li><li>Statement 2 is true</li><li>Both statements are false.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455222",
+          "text": "<p>Statement 1: The acceptance region of $\\alpha=0.1$ is more than the acceptance region of $\\alpha=0.05$<br>Statement 2: If $\\alpha$ (alpha) increases then rejection region increases.</p><ol style=\"list-style-type:upper-alpha\"><li>Statement 1 is true.</li><li>Statement 2 is true.</li><li>Both statements are true.</li><li>Both statements are false.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455218",
+          "text": "<p>Which of the following is/are correct?</p><ol style=\"list-style-type:upper-alpha\"><li>Let $\\mathrm{X_i} \\sim \\operatorname{Binomial}(\\mathrm{n}, \\mathrm{p})$, then $\\mathrm{X_1}+\\mathrm{X_2}+\\ldots+\\mathrm{X_n}$<br>follows normal distribution (assume n to be large)</li><li>Chi-squared test can be used to test independence of two features.</li><li>Chi-squared test can be used for goodness of fit testing</li><li>As alpha increases it will become easy to reject $\\mathrm{H_0}$ .</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,one-mark,multiple-selects",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455223",
+          "text": "In a class test the mean test score for the entire class is 70 with standard deviation equal to 10 . The mean score of a random sample of 64 female students is 73 . The $z$-value is?",
+          "type": "Numerical",
+          "answer": "2.4",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,numerical-answers,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455213",
+          "text": "<p>Suppose the courage of psychologists has a population that is normally distributed with a standard deviation of 10 . You decide to sample 57 psychologists from this population and obtain a mean courage of 34.81 and a standard deviation of 9.0579.<br>Using an alpha value of $\\alpha=0.05$, is this observed mean significantly greater than an expected courage of 34 ?<br>$\\mathrm{Z}_{critical}$ $=1.64$, for $\\alpha=0.05$</p><ol style=\"list-style-type:upper-alpha\"><li>$z$-value observed is 0.61 , we need to perform two tailed test and the observed mean and population mean are the same.</li><li>$z$-value observed is 0.61 , we need to perform a right tailed test and the observed mean and population mean are the same.</li><li>$z$-value observed is 0.61 , we need to perform a left tailed test and the observed mean and population mean are the same.</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "455221",
+          "text": "Assume that the hardness of iron bars produced by one plant is normally distributed with mean $\\mu$ and variance $\\sigma^{2}$. A random sample of $n=7$ bars from the output of the plant is measured to determine whether the average hardness meets the desired figure $\\mu_{0}=172$.<br />The following measurements:<br />$$167,174,179,164,163,160,168$$<br />were obtained. Test $H_{0}: \\mu=172$ versus the alternative $H_{a}: \\mu \\neq 172$ using an appropriate test with $\\alpha=.01$.<br />Which test is performed here?<br /><ol style=\"list-style-type:upper-alpha\"><li> Two tail t-test can be performed</li><li> Right-tail z-test can be performed</li> <li>Left-tail z-test can be performed</li>  <li>Two tail z-test can be performed</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_statistics_tw_1,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        }
+      ]
+    }
+  ]
+}

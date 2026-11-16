@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_18",
+  "name": "GO Classes CS/DA | Discrete Mathematics | Combinatorics | Weekly Quiz 17",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "469366",
+          "text": "Consider the following problem. How many integer solutions are there to the equation $x_{1}+x_{2}+x_{3}+x_{4}=12$ with $x_{i} \\geq 0$ and $1 \\leq i \\leq 4$ ?",
+          "type": "Numerical",
+          "answer": "455",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469360",
+          "text": "How many ways can 10 different diplomats be assigned to 5 different continents, if each continent needs to have 2 diplomats each?.",
+          "type": "Numerical",
+          "answer": "113400",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469368",
+          "text": "How many ways can you distribute 12 identical dog treats to 4 dogs such that every dog must get at least one treat?",
+          "type": "Numerical",
+          "answer": "165",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469364",
+          "text": "Consider the following problem. How many integer solutions are there to the equation $x_{1}+x_{2}+x_{3}+x_{4}=12$ with $x_{i} \\geq 0$ and $x_{i} \\geq 1$ ?",
+          "type": "Numerical",
+          "answer": "165",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469354",
+          "text": "What's the number of 3-digit natural numbers, in which digits are in non-increasing order?",
+          "type": "Numerical",
+          "answer": "219",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469350",
+          "text": "How many 7 digit decreasing numbers are there? One example is 9777650 .",
+          "type": "Numerical",
+          "answer": "11439",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469370",
+          "text": "How many ways can you distribute 12 identical dog treats to 4 dogs?",
+          "type": "Numerical",
+          "answer": "455",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469356",
+          "text": "How many integer solutions are there to\n$$\nx_{1}+x_{2}+x_{3}+x_{4}+x_{5}=120 \\text { where } x_{1} \\geq 0, x_{2} \\geq 0, x_{3} \\geq 5, x_{4} \\geq 5, x_{5} \\geq 10 ?\n$$",
+          "type": "Numerical",
+          "answer": "4598126",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469362",
+          "text": "How many ways can 6 different diplomats be assigned to 5 different continents?",
+          "type": "Numerical",
+          "answer": "15625",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469355",
+          "text": "What's the number of 3-digit natural numbers, in which digits are in non-decreasing order?",
+          "type": "Numerical",
+          "answer": "165",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469353",
+          "text": "What's the number of 5-digit natural numbers, in which digits are in strictly decreasing order?",
+          "type": "Numerical",
+          "answer": "252",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469358",
+          "text": "How many integer solutions are there to\n$$\nx_{1}+x_{2}+x_{3}+x_{4}+x_{5}=100 , \\quad \\text { where } x_{i} \\geq 0 ?\n$$",
+          "type": "Numerical",
+          "answer": "4598126",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469349",
+          "text": "<p>$m$ identical balls are to be placed in $n$ distinct bags. You are given that $m \\geq kn$, where $k$ is a natural number $\\geq 1$. In how many ways can the balls be placed in the bags if each bag must contain at least $k$ balls?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\left( \\begin{array}{c} m - k \\\\ n - 1 \\end{array} \\right)$<br> </li><li>$\\left( \\begin{array}{c} m - kn + n - 1 \\\\ n - 1 \\end{array} \\right)$<br> </li><li>$\\left( \\begin{array}{c} m - 1 \\\\ n - k \\end{array} \\right)$<br> </li><li>$\\left( \\begin{array}{c} m - kn + n + k - 2 \\\\ n - k \\end{array} \\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq14,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469347",
+          "text": "How many 3 digit numbers have a sum of digits equal to 9 ?",
+          "type": "Numerical",
+          "answer": "45",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "469352",
+          "text": "What's the number of 5-digit natural numbers, in which digits are in strictly increasing order?",
+          "type": "Numerical",
+          "answer": "126",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq14,numerical-answers,goclasses,discrete-mathematics,combinatory,two-marks",
+          "category": "Combinatory"
+        }
+      ]
+    }
+  ]
+}

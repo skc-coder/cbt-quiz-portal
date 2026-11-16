@@ -1,0 +1,70 @@
+{
+  "name": "Day 9 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "471758",
+          "text": "<p>A homogeneous linear system in n unknowns whose corresponding augmented matrix has a reduced row echelon form with r leading 1's has</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>n free variables</li><li>$\\mathrm{n}-\\mathrm{r}$ free variables</li><li>$r$ free variables</li><li>cannot be determined</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 9"
+        },
+        {
+          "post_id": "471763",
+          "text": "<p>Suppose $A$ is a $2 \\times 2$ matrix,</p><p>$$<br>A=\\left[\\begin{array}{ll}<br>a & b \\\\<br>c & d<br>\\end{array}\\right]<br>$$</p><p>and that $\\mathbf{v}=\\left[\\begin{array}{l}2 \\\\ 3\\end{array}\\right]$ is an eigenvector with eigenvalue 2. Is $\\mathbf{v}$ also an eigenvector of the matrix $2 A$, and if so, what is its eigenvalue?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathbf{v}$ is not necessarily an eigenvector of $2 A$.</li><li>$\\mathbf{v}$ must be an eigenvector of $2 A$, with eigenvalue $1 / 2$</li><li>$\\mathbf{v}$ must be an eigenvector of $2 A$, with eigenvalue 2</li><li>$\\mathbf{v}$ must be an eigenvector of $2 A$, with eigenvalue 4</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 9"
+        },
+        {
+          "post_id": "471756",
+          "text": "<p>Which of the following sets of vectors are linearly independent?<br><br>- $A=\\left\\{\\left[\\begin{array}{c}4 \\\\ -2 \\\\ 6\\end{array}\\right],\\left[\\begin{array}{c}6 \\\\ -3 \\\\ 9\\end{array}\\right]\\right\\}$<br><br>- $B=\\left\\{\\left[\\begin{array}{c}4 \\\\ -2\\end{array}\\right],\\left[\\begin{array}{l}6 \\\\ 0\\end{array}\\right],\\left[\\begin{array}{l}1 \\\\ 3\\end{array}\\right],\\left[\\begin{array}{c}-2 \\\\ 1\\end{array}\\right]\\right\\}$<br><br>- $C=\\left\\{\\left[\\begin{array}{c}4 \\\\ -2 \\\\ 6\\end{array}\\right],\\left[\\begin{array}{l}6 \\\\ 2 \\\\ 1\\end{array}\\right],\\left[\\begin{array}{l}0 \\\\ 0 \\\\ 0\\end{array}\\right]\\right\\}$<br><br>- $D=\\left\\{\\left[\\begin{array}{c}-1 \\\\ 0 \\\\ 4 \\\\ 2\\end{array}\\right],\\left[\\begin{array}{c}5 \\\\ -5 \\\\ 0 \\\\ 10\\end{array}\\right],\\left[\\begin{array}{c}-1 \\\\ 1 \\\\ 3 \\\\ -11\\end{array}\\right]\\right\\}$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>&nbsp;$D$ only</li><li>$A$ and $D$ only</li><li>$B$ and $D$ only</li><li>$C$ and $D$ only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 9"
+        },
+        {
+          "post_id": "471761",
+          "text": "<p>If A is a matrix with n columns, then</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\operatorname{rank}(\\mathrm{A})+\\operatorname{nullity}(\\mathrm{A})=\\mathrm{n}$</li><li>$\\operatorname{rank}(\\mathrm{A})-\\operatorname{nullity}(\\mathrm{A})=\\mathrm{n}$</li><li>$\\operatorname{rank}(\\mathrm{A})+\\operatorname{nullity}(\\mathrm{A})=2 \\mathrm{n}$</li><li>$\\operatorname{rank}(\\mathrm{A})-\\operatorname{nullity}(\\mathrm{A})=\\mathrm{n} / 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 9"
+        },
+        {
+          "post_id": "471765",
+          "text": "<p>Which of the following statements are true?<br>A. If $M$ is a $4 \\times 4$ matrix with eigenvalues $1,2,3$ and 4 , then $M$ must have an eigenbasis.<br>B. If $M$ is a $4 \\times 4$ symmetric matrix with eigenvalues $1,2,3$ and 3 , then $M$ must have an eigenbasis.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>(a) Both A and B are true</li><li>(b) A is true but B is false</li><li>(c) B is true but A is false</li><li>(d) Neither A nor B is true</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 9"
+        }
+      ]
+    }
+  ]
+}

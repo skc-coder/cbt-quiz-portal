@@ -1,0 +1,70 @@
+{
+  "name": "Day 65 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "482311",
+          "text": "Consider the following recurrence relation:<br>\n<br>\n$$<br>\n\\mathrm{T}(\\mathrm{n})=\\sqrt{n} \\cdot \\log \\mathrm{n}+\\mathrm{T}(\\mathrm{n} / 2), \\mathrm{T}(1)=1<br>\n$$<br>\n<br>\nThe above recurrence is equivelant to: $T(n)=\\theta\\left(n^a \\cdot \\log ^b n\\right)$<br>\nThe value of $a+b$ is (upto 2 decimal places) _________ .",
+          "type": "Numerical",
+          "answer": "1.5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 65"
+        },
+        {
+          "post_id": "482306",
+          "text": "<p>Consider the following program:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">function GO_Recursion(n):\nif n &lt;= 1:\n&nbsp; &nbsp; return\nfor i=1 to n:\n&nbsp; &nbsp; doConstantWork() // O(1)\nfor j=1 to 5:\n&nbsp; &nbsp; GO_Recursion(n/3)\n</pre><p><br>Which of the following is the worst-case time complexity of this algorithm?<br><br>(Here $\\Theta$ represents big-theta.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\Theta(n)$<br>&nbsp;</li><li>$\\Theta(n \\log n)$<br>&nbsp;</li><li>$\\Theta\\!\\left(n^{\\log_{3} 5}\\right)$<br>&nbsp;</li><li>$\\Theta\\left(n^2\\right)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 65"
+        },
+        {
+          "post_id": "482309",
+          "text": "<p>What is the time complexity of the following recursive function?<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int DoSomething (int n) {\n&nbsp; &nbsp; if (n &lt;= 2)\n&nbsp; &nbsp; &nbsp; &nbsp; return 1;\n&nbsp; &nbsp; else\n&nbsp; &nbsp; &nbsp; &nbsp; for( i=1 to  sqrt{log n} )\n&nbsp; &nbsp; &nbsp; &nbsp; doconstantwork() // O(1)\n&nbsp; &nbsp; &nbsp; &nbsp; return (DoSomething (floor (sqrt(n))) + n);\n}</pre><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li><p>$\\Theta(n \\log n)$ &nbsp;</p></li><li><p>$\\Theta(\\sqrt{\\log n})$</p></li><li><p>$\\Theta(\\log n)$ &nbsp;</p></li><li><p>$\\Theta(n)$ &nbsp;</p></li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 65"
+        },
+        {
+          "post_id": "482303",
+          "text": "<p>Solve the following recurrences.</p><p>$$<br>T(n)=2 T(n-2), T(0)=1, T(1)=1 .<br>$$</p><p>(Here $\\Theta$ represents big-theta.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\Theta\\left((\\sqrt{ 2})^n\\right)$<br>&nbsp;</li><li>$\\Theta\\!\\left(\\sqrt{2^n}\\right)$<br>&nbsp;</li><li>$\\Theta\\left(2^n\\right)$<br>&nbsp;</li><li>$\\Theta\\left(n^2\\right)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 65"
+        },
+        {
+          "post_id": "482299",
+          "text": "<p>Suppose that the function F is defined for all powers of $2$ and is described by the following recurrence equation and base case: $F(n)=n-2+2 F(n / 2), F(1)=1$ respectively</p><p>What is the tightest upper bound of $\\mathrm{F}(\\mathrm{n})$?<br><br>(Here O represents big-Oh.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{O}(n)$<br>&nbsp;</li><li>$\\mathrm{O}(nlogn)$<br>&nbsp;</li><li>$\\mathrm{O}\\left(2^n\\right)$<br>&nbsp;</li><li>$O\\left(n^2\\right)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 65"
+        }
+      ]
+    }
+  ]
+}

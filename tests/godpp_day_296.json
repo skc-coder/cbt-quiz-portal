@@ -1,0 +1,70 @@
+{
+  "name": "Day 240 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "542761",
+          "text": "<p data-start=\"3733\" data-end=\"3859\">Merge sort divides an array of size $n$ into two halves, recursively sorts both halves, and then merges the two sorted halves.</p><p data-start=\"3861\" data-end=\"3910\">Which recurrence correctly represents merge sort?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3912\" data-end=\"4043\">$T(n) = T(n/2) + \\Theta(n)$<br>&nbsp;</li><li data-start=\"3912\" data-end=\"4043\">$T(n) = 2T(n/2) + \\Theta(1)$<br>&nbsp;</li><li data-start=\"3912\" data-end=\"4043\">$T(n) = 2T(n/2) + \\Theta(n)$<br>&nbsp;</li><li data-start=\"3912\" data-end=\"4043\">$T(n) = T(n-1) + \\Theta(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 240"
+        },
+        {
+          "post_id": "542759",
+          "text": "<p data-start=\"2146\" data-end=\"2291\">An array has distinct elements. A local minimum is an element smaller than both of its neighbors, with endpoints compared to their only neighbor.</p><p data-start=\"2293\" data-end=\"2359\">A divide-and-conquer algorithm checks the middle element $A[mid]$.</p><p data-start=\"2361\" data-end=\"2428\">If $A[mid-1] &lt; A[mid]$, which side should the algorithm recurse on?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2430\" data-end=\"2503\">Left half<br>&nbsp;</li><li data-start=\"2430\" data-end=\"2503\">Right half<br>&nbsp;</li><li data-start=\"2430\" data-end=\"2503\">Both halves<br>&nbsp;</li><li data-start=\"2430\" data-end=\"2503\">No recursion is needed</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 240"
+        },
+        {
+          "post_id": "542760",
+          "text": "<p data-start=\"2956\" data-end=\"3076\">Karatsuba multiplication multiplies two $n$-digit numbers by reducing the number of recursive half-size multiplications.</p><p data-start=\"3078\" data-end=\"3131\">Which recurrence represents Karatsuba multiplication?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3133\" data-end=\"3267\">$T(n) = 4T(n/2) + \\Theta(n)$<br>&nbsp;</li><li data-start=\"3133\" data-end=\"3267\">$T(n) = 3T(n/2) + \\Theta(n)$<br>&nbsp;</li><li data-start=\"3133\" data-end=\"3267\">$T(n) = 2T(n/2) + \\Theta(n^2)$<br>&nbsp;</li><li data-start=\"3133\" data-end=\"3267\">$T(n) = T(n/2) + \\Theta(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 240"
+        },
+        {
+          "post_id": "542758",
+          "text": "<p data-start=\"1230\" data-end=\"1321\">In the divide-and-conquer algorithm for maximum sum subarray, the maximum subarray may lie:</p><ol data-start=\"1323\" data-end=\"1385\" start=\"1\" style=\"list-style-type: upper-roman;\"><li data-section-id=\"1s4ed8o\" data-start=\"1323\" data-end=\"1353\">entirely in the left half<br>&nbsp;</li><li data-section-id=\"1l9u7u8\" data-start=\"1354\" data-end=\"1385\">entirely in the right half</li></ol><p data-start=\"1387\" data-end=\"1419\">What is the third possible case?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1421\" data-end=\"1668\">It must contain only positive elements.<br>&nbsp;</li><li data-start=\"1421\" data-end=\"1668\">It must be exactly the middle element.<br>&nbsp;</li><li data-start=\"1421\" data-end=\"1668\">It crosses the middle, using a suffix of the left half and a prefix of the right half.<br>&nbsp;</li><li data-start=\"1421\" data-end=\"1668\">It must start at the first element and end at the last element.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 240"
+        },
+        {
+          "post_id": "542757",
+          "text": "<p data-start=\"491\" data-end=\"617\">Suppose array $A[1 \\ldots n]$ is sorted in non-decreasing order and it is guaranteed that there exists an index $i$ such that:</p><p data-start=\"619\" data-end=\"629\">$A[i] = i$</p><p data-start=\"631\" data-end=\"731\">A divide-and-conquer algorithm checks the middle index and then searches only one half of the array.</p><p data-start=\"733\" data-end=\"761\">What is the time complexity?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"763\" data-end=\"819\">$O(1)$<br>&nbsp;</li><li data-start=\"763\" data-end=\"819\">$O(\\log n)$<br>&nbsp;</li><li data-start=\"763\" data-end=\"819\">$O(n)$<br>&nbsp;</li><li data-start=\"763\" data-end=\"819\">$O(n\\log n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 240"
+        }
+      ]
+    }
+  ]
+}

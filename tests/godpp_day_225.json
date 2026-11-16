@@ -1,0 +1,70 @@
+{
+  "name": "Day 215 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524569",
+          "text": "<p>If $<br>\\det\\!\\begin{bmatrix}<br>1 & t & t^{2} & t^{3}\\\\<br>t & 1 & t & t^{2}\\\\<br>t^{2} & t & 1 & t\\\\<br>t^{3} & t^{2} & t & 1<br>\\end{bmatrix}=(1-A(t))^{p},<br>$ then<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A(t)=t^3, p=2$<br>&nbsp;</li><li>$A(t)=t^3, p=3$<br>&nbsp;</li><li>$A(t)=t^2, p=2$<br>&nbsp;</li><li>$A(t)=t^2, p=3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 215"
+        },
+        {
+          "post_id": "524567",
+          "text": "<p>Solve for \\(x\\) such that<br>\\[<br>\\det\\!\\begin{bmatrix}<br>3 & -4 & 7 & 0 & 6 & -2\\\\<br>2 & 0 & 1 & 8 & 0 & 0\\\\<br>3 & 4 & -8 & 3 & 1 & 2\\\\<br>27 & 6 & 5 & 0 & 0 & 3\\\\<br>3 & x & 0 & 2 & 1 & -1\\\\<br>1 & 0 & 1 & 3 & 4 & 0<br>\\end{bmatrix}=0.<br>\\]</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$x=-2$<br>&nbsp;</li><li>$x=2 $<br>&nbsp;</li><li>$x=-1$<br>&nbsp;</li><li>$x=1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 215"
+        },
+        {
+          "post_id": "524550",
+          "text": "Consider the homogeneous system of linear equations<br>\n\\[<br>\nx+2y=0,\\qquad ax+8y+3z=0,\\qquad 3y+5z=0.<br>\n\\]<br>\nFor what value of \\(a\\) is it necessary during Gaussian elimination to interchange rows in the coefficient matrix?",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 215"
+        },
+        {
+          "post_id": "524555",
+          "text": "<p>State whether True or False.<br><br>For the block matrix $M=\\begin{bmatrix}A & B\\\\ C & D\\end{bmatrix},$ where \\(A,B,C,D\\) are square matrices of the same order,<br><br>we have $\\det(M)=\\det(A)\\det(D)-\\det(B)\\det(C).$<br>&nbsp;</p><p><em>NOTE$:$&nbsp;<strong>Enter \"$\\textbf0$\" if the statement is false, otherwise enter \"$\\textbf1$\".</strong></em></p>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 215"
+        },
+        {
+          "post_id": "524548",
+          "text": "<p>For fixed \\(a,b\\in\\mathbb{R}\\), the matrix $A(x)=\\begin{bmatrix}<br>x^{2}+ab & x\\\\<br>a+b & 1<br>\\end{bmatrix}$, is invertible if and only if</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>\\(x\\in\\mathbb{R}\\)<br>&nbsp;</li><li>\\(x\\in\\mathbb{R},\\ x\\neq 0\\)<br>&nbsp;</li><li>\\(x\\in\\mathbb{R},\\ x&gt;\\max\\{a,b\\}\\)<br>&nbsp;</li><li>\\(x\\in\\mathbb{R},\\ x\\neq a,b\\)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 215"
+        }
+      ]
+    }
+  ]
+}

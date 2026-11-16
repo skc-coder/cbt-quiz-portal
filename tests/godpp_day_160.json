@@ -1,0 +1,70 @@
+{
+  "name": "Day 156 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "503043",
+          "text": "<p>Consider the following C code segment:<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;unistd.h&gt;\n#include &lt;stdio.h&gt;\nint main() {\n&nbsp; &nbsp; int i;\n&nbsp; &nbsp; for (i = 0; i &lt; 2; i++) {\n&nbsp; &nbsp; &nbsp; &nbsp; pid_t pid = fork();\n&nbsp; &nbsp; &nbsp; &nbsp; \n&nbsp; &nbsp; &nbsp; &nbsp; if (pid == 0) {\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Child branch\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; printf(\"Child %d created in iteration %d\\n\", getpid(), i);\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break; // Exit the loop only for the child process\n&nbsp; &nbsp; &nbsp; &nbsp; } else {\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Parent branch\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; printf(\"Parent %d created child %d in iteration %d\\n\", getpid(), pid, i);\n&nbsp; &nbsp; &nbsp; &nbsp; }\n&nbsp; &nbsp; }\n&nbsp; &nbsp; \n&nbsp; &nbsp; sleep(1);\n&nbsp; &nbsp; return 0;\n}</pre><p><br>Assuming all $\\verb|fork()|$ calls succeed, what is the <strong>total number of processes </strong>(including the original parent) that will be running immediately before the program terminates?</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 156"
+        },
+        {
+          "post_id": "503037",
+          "text": "<p>Consider a file system utilizing a <strong>FAT (File Allocation Table)</strong> where the <strong>overhead</strong> associated with each entry in the <strong>FAT</strong> is $\\mathbf{4}$ <strong>bytes</strong>. If the file system is deployed on a massive $2 \\times 10^{12}$ <strong>bytes</strong> disk and the data block size is set to $8 \\times 10^3$ <strong>bytes</strong>, determine the <strong>maximum possible file size</strong> that can be stored on this disk in units of <strong>TB (Terabytes).</strong> (Note: $1 \\mathrm{~TB}=10^{12}$ bytes).</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1.999$<br>&nbsp;</li><li>$1999$<br>&nbsp;</li><li>$2.3$<br>&nbsp;</li><li>$1.898$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 156"
+        },
+        {
+          "post_id": "503040",
+          "text": "<p>The<strong> index node (i-node)</strong> of a Linux-like file system is configured with $\\mathbf{10}$ <strong>direct, two singleindirect,</strong> and <strong>one triple-indirect pointers.</strong> The disk block size is $\\mathbf{16 ~kB}$ , and the disk block address is $\\mathbf{64-bits}$ long. The maximum possible file size (rounded off to $2$ decimal places) is<br>$\\_\\_\\_\\_$ <strong>TB</strong> (Terabytes).<br><br>(Assume $1 \\mathrm{k}=2^{10}$ )</p>",
+          "type": "Numerical",
+          "answer": "128",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 156"
+        },
+        {
+          "post_id": "503035",
+          "text": "<p>A <strong>FAT (File Allocation Table)</strong> based file system is being used. The <strong>total overhead</strong> of each entry in the <strong>FAT</strong> is $\\mathbf{8 ~bytes}$ in size. Given a $50 \\times 10^9 ~\\textbf{bytes}$ disk on which the file system is stored and a data block size of $4 \\times 10^3~\\textbf{byte}$, the <strong>maximum size of a file</strong> that can be stored on this disk in units of <strong>MB (Megabytes)</strong> is $\\_\\_\\_\\_$ . (Note: $1 ~\\mathrm{MB}=10^6~\\text{bytes}$).</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$49900$<br>&nbsp;</li><li>$51000$<br>&nbsp;</li><li>$4990$<br>&nbsp;</li><li>$5100$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 156"
+        },
+        {
+          "post_id": "503042",
+          "text": "<p>A legacy Unix-like file system uses an <strong>index node (i-node)</strong> structure that contains $\\mathbf8$ <strong>direct, zero single-indirect</strong>, and <strong>one double-indirect</strong> pointer. The disk block size is $512$ bytes, and the disk block address is $\\mathbf{3 2}$<strong>-bits</strong> long. The maximum possible file size (rounded off to the nearest integer) is $\\_\\_\\_\\_$ <strong>MB</strong> (Megabytes).<br>(Assume $1 \\mathrm{k}=2^{\\wedge} 10$ )</p>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 156"
+        }
+      ]
+    }
+  ]
+}

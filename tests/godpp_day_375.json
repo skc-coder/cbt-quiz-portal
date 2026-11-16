@@ -1,0 +1,70 @@
+{
+  "name": "Day 272 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "531838",
+          "text": "<p data-start=\"118\" data-end=\"378\">Let $A$ and $B$ be finite non-empty sets such that $|A|=m$ and $|B|=n$, where $1\\le m\\le n$. Let $X$ be the set of all injective functions from $A$ to $B$. Let $Y=A\\times X$ and $W=\\mathcal P(X)$. The number of functions from $Y$ to $W$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"380\" data-end=\"402\">$2^{m({}^nP_m)^2}$<br>&nbsp;</li><li data-start=\"404\" data-end=\"422\">$2^{m{}^nP_m}$<br>&nbsp;</li><li data-start=\"424\" data-end=\"454\">$({}^nP_m)^{m2^{{}^nP_m}}$<br>&nbsp;</li><li data-start=\"456\" data-end=\"473\">$2^{{}^nP_m}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 272"
+        },
+        {
+          "post_id": "531836",
+          "text": "<p data-start=\"212\" data-end=\"332\">Let all logarithms be natural logarithms unless a base is written. Consider the following functions:</p><ul><li data-start=\"334\" data-end=\"387\">$f:(0,\\infty)\\to\\mathbb R$ defined by $f(x)=2\\log x$.<br>&nbsp;</li><li data-start=\"389\" data-end=\"444\">$g:(0,\\infty)\\to\\mathbb R$ defined by $g(x)=\\log(x^2)$.<br>&nbsp;</li><li data-start=\"446\" data-end=\"506\">$h:\\mathbb R-{0}\\to\\mathbb R$ defined by $h(x)=\\log(x^2)$.<br>&nbsp;</li><li data-start=\"508\" data-end=\"569\">$p:(0,\\infty)\\to\\mathbb R$ defined by $p(x)=\\log_{e^2}(x^4)$.</li></ul><p data-start=\"571\" data-end=\"614\">Which of the following statements are <strong>true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"616\" data-end=\"656\">$f$ and $g$ are identical functions.<br>&nbsp;</li><li data-start=\"658\" data-end=\"698\">$f$ and $h$ are identical functions.<br>&nbsp;</li><li data-start=\"700\" data-end=\"740\">$f$ and $p$ are identical functions.<br>&nbsp;</li><li data-start=\"742\" data-end=\"868\">If the domain of $h$ is restricted to $(0,\\infty)$ and its codomain remains $\\mathbb R$, then it becomes identical to $f$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 272"
+        },
+        {
+          "post_id": "531844",
+          "text": "<p data-start=\"121\" data-end=\"313\">Let $A,B,C$ be finite non-empty sets and let $f:A\\to B$ and $g:B\\to C$ be functions. Suppose $g\\circ f:A\\to C$ is bijective. Which of the following statements must be <strong>true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"315\" data-end=\"336\">$f$ is injective.<br>&nbsp;</li><li data-start=\"338\" data-end=\"360\">$g$ is surjective.<br>&nbsp;</li><li data-start=\"362\" data-end=\"432\">Since $g\\circ f$ is bijective, both $f$ and $g$ must be bijective.<br>&nbsp;</li><li data-start=\"434\" data-end=\"479\">If $|A|=|B|$, then $g$ must be injective.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 272"
+        },
+        {
+          "post_id": "531846",
+          "text": "<p data-start=\"114\" data-end=\"364\">Let $A,B,C$ be non-empty sets. Let $g:A\\to B$ and $f:B\\to C$ be functions. The composition $f\\circ g$ always exists. For the reverse composition $g\\circ f$ to exist as a function from $B$ to $B$.&nbsp;</p><p data-start=\"114\" data-end=\"364\">Which of the above statements is/are<strong> true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"366\" data-end=\"409\">$g\\circ f$ exists if $f(B)\\subseteq A$.<br>&nbsp;</li><li data-start=\"411\" data-end=\"484\">If $f$ is onto, then $g\\circ f$ exists if and only if $C\\subseteq A$.<br>&nbsp;</li><li data-start=\"486\" data-end=\"552\">If $f$ and $g$ are both injective, then $g\\circ f$ must exist.<br>&nbsp;</li><li data-start=\"554\" data-end=\"591\">If $C=A$, then $g\\circ f$ exists.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 272"
+        },
+        {
+          "post_id": "531848",
+          "text": "<p data-start=\"213\" data-end=\"356\">Let $A$ and $B$ be finite non-empty sets and let $f:A\\to B$ be a function. Match $\\textbf{List-I}$ with $\\textbf{List-II}$.</p><p>$$\\begin{array}{lcl} \\mathbf{List-I} && \\mathbf{List-II} \\\\ (a)\\ \\exists g:B\\to A \\text{ such that } g\\circ f=I_A && (i)\\ f \\text{ is not injective}\\\\ (b)\\ \\exists h:B\\to A \\text{ such that } f\\circ h=I_B && (ii)\\ f \\text{ is injective} \\\\ (c)\\ \\forall y\\in B,\\exists!x\\in A \\text{ such that } f(x)=y && (iii)\\ f \\text{ is surjective} \\\\ (d)\\ \\exists x_1,x_2\\in A \\text{ such that } x_1\\neq x_2 \\text{ and } f(x_1)=f(x_2) && (iv)\\ f \\text{ is bijective} \\end{array}$$</p><p data-start=\"882\" data-end=\"891\">&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"893\" data-end=\"937\">$(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)$<br>&nbsp;</li><li data-start=\"939\" data-end=\"983\">$(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)$<br>&nbsp;</li><li data-start=\"985\" data-end=\"1029\">$(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)$<br>&nbsp;</li><li data-start=\"1031\" data-end=\"1075\">$(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 272"
+        }
+      ]
+    }
+  ]
+}

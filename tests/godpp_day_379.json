@@ -1,0 +1,70 @@
+{
+  "name": "Day 274 [Graph Theory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "532173",
+          "text": "<p data-start=\"15\" data-end=\"284\">A connected simple planar graph $G$ has $18$ vertices. Of these, $10$ vertices have degree $3$, $6$ vertices have degree $4$, and $2$ vertices have degree $5$. In any planar drawing of $G$ with no edge crossings, the number of bounded regions is equal to:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"286\" data-end=\"293\">$13$<br>&nbsp;</li><li data-start=\"295\" data-end=\"302\">$14$<br>&nbsp;</li><li data-start=\"304\" data-end=\"311\">$15$<br>&nbsp;</li><li data-start=\"313\" data-end=\"320\">$16$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Graph Theory",
+          "day": "Day 274"
+        },
+        {
+          "post_id": "532179",
+          "text": "A simple undirected graph has $20$ vertices and exactly $4$ connected components. What is the maximum possible number of edges in the graph?",
+          "type": "Numerical",
+          "answer": "136",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Graph Theory",
+          "day": "Day 274"
+        },
+        {
+          "post_id": "532171",
+          "text": "<p data-start=\"116\" data-end=\"291\">A committee has $10$ members. Some pairs of members know each other, and no three members are mutually strangers. Which of the following statements must be<strong> true</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"293\" data-end=\"370\">The number of pairs of members who do not know each other is at most $25$.<br>&nbsp;</li><li data-start=\"372\" data-end=\"443\">The number of pairs of members who know each other is at least $20$.<br>&nbsp;</li><li data-start=\"445\" data-end=\"514\">It is possible that exactly $20$ pairs of members know each other.<br>&nbsp;</li><li data-start=\"516\" data-end=\"585\">It is possible that exactly $19$ pairs of members know each other.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Graph Theory",
+          "day": "Day 274"
+        },
+        {
+          "post_id": "532177",
+          "text": "<p data-start=\"15\" data-end=\"253\">Let $G$ be a simple undirected graph on $n$ vertices with exactly $k$ connected components. Suppose every connected component of $G$ has at least $3$ vertices, where $n\\ge 3k$. The maximum possible number of edges in $G$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"255\" data-end=\"276\">$\\binom{n-k+1}{2}$<br>&nbsp;</li><li data-start=\"278\" data-end=\"307\">$\\binom{n-3k+3}{2}+3(k-1)$<br>&nbsp;</li><li data-start=\"309\" data-end=\"335\">$\\binom{n-2k+2}{2}+k-1$<br>&nbsp;</li><li data-start=\"337\" data-end=\"356\">$\\binom{n}{2}-k$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Graph Theory",
+          "day": "Day 274"
+        },
+        {
+          "post_id": "532175",
+          "text": "<p data-start=\"15\" data-end=\"215\">Let $H$ be a complete bipartite graph with parts $A$ and $B$, where $|A|=5$ and $|B|=6$. If all vertices are labeled, then the number of distinct cycles of length $6$ in $H$ is equal to:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"217\" data-end=\"225\">$600$<br>&nbsp;</li><li data-start=\"227\" data-end=\"235\">$900$<br>&nbsp;</li><li data-start=\"237\" data-end=\"246\">$1200$<br>&nbsp;</li><li data-start=\"248\" data-end=\"257\">$2400$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Graph Theory",
+          "day": "Day 274"
+        }
+      ]
+    }
+  ]
+}

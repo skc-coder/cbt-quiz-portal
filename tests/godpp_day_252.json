@@ -1,0 +1,70 @@
+{
+  "name": "Day 225 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525667",
+          "text": "<p>Given the premise $H_1: P \\rightarrow Q$, which of the following conclusions $C$ is logically valid?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$C:P \\rightarrow (P \\vee Q)$</li><li>$C: P\\rightarrow (P \\wedge Q)$</li><li>$C: Q\\rightarrow(P\\wedge Q)$</li><li>$C: \\neg P \\rightarrow (P \\wedge Q)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 225"
+        },
+        {
+          "post_id": "525662",
+          "text": "<p>A government installation has an alarm system modelled as:</p><p>$$<br>A \\Leftrightarrow M \\wedge(D \\vee(G \\wedge \\neg S))<br>$$</p><p>where $M=$ Master switch is ON, $D=$ Door is disturbed, $G=$ Main gates are opened, $S=$ Special switch is closed.</p><p>Out of all $2^4=16$ possible combinations of truth values for $M, D, G, S$, how many make the alarm sound?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>6</li><li>7</li><li>5</li><li>11</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 225"
+        },
+        {
+          "post_id": "525663",
+          "text": "A government installation has an alarm system modelled as:<br>\n<br>\n$$<br>\nA \\Leftrightarrow M \\wedge(D \\vee(G \\wedge \\neg S))<br>\n$$<br>\n<br>\nand a recording system modelled as:<br>\n<br>\n$$<br>\nR \\Leftrightarrow G \\wedge \\neg M \\wedge D<br>\n$$<br>\n<br>\nwhere $M=$ Master switch is $\\mathrm{ON}, D=$ Door is disturbed/opened, $G=$ Main gates are opened, $S=$ Special switch is closed.<br>\n<br>\nOut of all $2^4=16$ possible combinations of truth values for $M, D, G, S$, how many combinations make EITHER the alarm sound OR the recording instrument active (i.e., $A \\vee R$ is TRUE)?",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 225"
+        },
+        {
+          "post_id": "525659",
+          "text": "<p>A government installation has the following two rules:<br>- Alarm: $A \\Leftrightarrow M \\wedge(D \\vee(G \\wedge \\neg S))$<br>- Recording: $R \\Leftrightarrow G \\wedge (\\neg M \\wedge D)$<br>where $\\boldsymbol{M}=$ Master switch is $\\mathrm{ON}, \\boldsymbol{D}=$ Door is disturbed/opened, $\\boldsymbol{G}=$ Main gates are opened, $S=$ Special switch is closed.</p><p>Which of the following statements are correct? Select ALL that apply.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A$ and $R$ can never both be TRUE at the same time&nbsp;</li><li>If $M=T$ and $D=T$, the alarm will sound regardless of the values of $G$ and $S$</li><li>If $G=F$, the recording instrument will never make an entry regardless of other variables&nbsp;</li><li>If $M=T, G=T$ and $S=T$, opening the gates alone will NOT trigger the alarm</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 225"
+        },
+        {
+          "post_id": "525668",
+          "text": "<p>Given the premises:</p><p>$$<br>H_1: \\neg P \\vee Q, \\quad H_2: \\neg(Q \\wedge \\neg R), \\quad H_3: \\neg R<br>$$<br>Which of the following conclusions is logically valid?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$C: P$&nbsp;</li><li>$C: Q$&nbsp;</li><li>$C: \\neg P$&nbsp;</li><li>$C: \\neg Q$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 225"
+        }
+      ]
+    }
+  ]
+}

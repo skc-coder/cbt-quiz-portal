@@ -1,0 +1,70 @@
+{
+  "name": "Day 164 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "505741",
+          "text": "<p>A system uses paging with the following parameters:</p><ul><li>Logical address space size $=64 \\mathrm{~KB}$<br>&nbsp;</li><li>Page size $=1 \\mathrm{~KB}$<br>&nbsp;</li><li>Physical memory size $=32 \\mathrm{~KB}$<br>&nbsp;</li><li>Page table entry size $=2 ~\\text{bytes}$<br>&nbsp;</li></ul><p>Each logical address is of the form (page number, page offset).<br>&nbsp;</p><p>Which of the following statements is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The number of bits required for the page offset is $10$<br>&nbsp;</li><li>The number of entries in the page table is $64$<br>&nbsp;</li><li>The total size of the page table is $128&nbsp;~\\text{bytes}$<br>&nbsp;</li><li>The number of frames in physical memory is $32$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 164"
+        },
+        {
+          "post_id": "505750",
+          "text": "<p>Consider the following C program executed on a UNIX-like system:<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n#include &lt;unistd.h&gt;\n\nint main() {\n&nbsp; &nbsp; int x = 1;\n&nbsp; &nbsp; \n&nbsp; &nbsp; if (fork() && fork()) {\n&nbsp; &nbsp; &nbsp; &nbsp; x = x + 2;\n&nbsp; &nbsp; } else {\n&nbsp; &nbsp; &nbsp; &nbsp; x = x + 1;\n&nbsp; &nbsp; }\n&nbsp; &nbsp; \n&nbsp; &nbsp; printf(\"%d\\n\", x);\n&nbsp; &nbsp; return 0;\n}</pre><p><br>Which of the following statements is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Exactly $3$ processes are created in total<br>&nbsp;</li><li>Exactly $4$ processes are created in total<br>&nbsp;</li><li>The value $\\verb|3|$ is printed exactly once<br>&nbsp;</li><li>The value $\\verb|2|$ is printed more than once</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 164"
+        },
+        {
+          "post_id": "505748",
+          "text": "<p>A counting semaphore $\\verb|S|$ is initialized to $3.$<br><br>Five identical processes $\\text{P1}-\\text{P5}$ execute the following code concurrently:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">wait(S);\n/* critical section */\nsignal(S);</pre><p>Assume no process terminates inside the critical section.<br><br>Which of the following statements is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>At most $3$ processes can be in the critical section at any time<br>&nbsp;</li><li>Deadlock is possible<br>&nbsp;</li><li>Starvation is possible if semaphore scheduling is unfair<br>&nbsp;</li><li>Exactly $3$ processes will always be in the critical section</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 164"
+        },
+        {
+          "post_id": "505743",
+          "text": "<p>A demand-paged system has the following characteristics:</p><ul><li>Memory access time $\\mathrm{= 200 ~ns}$<br>&nbsp;</li><li>Page fault service time $=10 \\mathrm{~ms}$<br>&nbsp;</li><li>Probability of a page fault $\\mathrm{= p}$</li></ul><p>The effective memory access time (EMAT) must not exceed $\\mathrm{300 ~ns}$<br><br>Which of the following is the <strong>maximum acceptable value of </strong>$\\mathbf{p}$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1 \\times 10^{-6}$<br>&nbsp;</li><li>$5 \\times 10^{-6}$<br>&nbsp;</li><li>$1 \\times 10^{-5}$<br>&nbsp;</li><li>$5 \\times 10^{-5}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 164"
+        },
+        {
+          "post_id": "505746",
+          "text": "<p>Two processes $\\text{P1}$ and $\\text{P2}$ share two semaphores $\\verb|S|$ and $\\verb|T|$, both initialized to $1$.<br><br>The code executed by the processes is:<br><br>$\\textbf{P1} : $</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">wait(S);\nwait(T);\n/* critical section */\nsignal(T);\nsignal(S);</pre><p><br>$\\textbf{P2} : $</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">wait(T);\nwait(S);\n/* critical section */\nsignal(S);\nsignal(T);</pre><p><br>Which of the following statements is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Mutual exclusion is guaranteed<br>&nbsp;</li><li>Deadlock is possible<br>&nbsp;</li><li>Starvation is possible<br>&nbsp;</li><li>Both processes can be in the critical section at the same time</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 164"
+        }
+      ]
+    }
+  ]
+}

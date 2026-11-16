@@ -1,0 +1,70 @@
+{
+  "name": "Day 40 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "475801",
+          "text": "Consider the following logical sentences. For each sentence, comment on its validity and satisfiability:<br>\n<br>\n1. (Smoke $\\rightarrow$ Fire $) \\rightarrow(\\neg$ Smoke $\\rightarrow \\neg$ Fire $)$<br>\n<br>\n2. $(($ Smoke $\\wedge$ Heat $) \\rightarrow$ Fire $) \\leftrightarrow(($ Smoke $\\rightarrow$ Fire $) \\vee($ Heat $\\rightarrow$ Fire $))$<br>\n<br>\n3. $B i g \\vee D u m b \\vee(B i g \\rightarrow D u m b)$<br>\n<br>\n4. $($ Big $\\wedge$ Dumb $) \\vee \\neg$ Dumb<br>\n<br>\nWhich of the following is correct?<br>\n<br>\nA. 1 and 2 are valid; 3 and 4 are satisfiable but not valid.<br>\n<br>\nB. 2 and 3 are valid; 1 and 4 are satisfiable but not valid.<br>\n<br>\nC. $1, 2, 3$ are valid; 4 is satisfiable but not valid.<br>\n<br>\nD. $1, 2, 3$, and 4 are all valid.",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 40"
+        },
+        {
+          "post_id": "475795",
+          "text": "Which of the following is a correct predicate logic statement for \"Every Natural number has one successor\"?<br>\n<br>\nA. $\\forall x \\exists y(\\operatorname{succ}(x, y) \\wedge(\\exists z \\operatorname{succ}(x, z) \\Rightarrow \\operatorname{equal}(y, z)))$<br>\n<br>\nB. $\\forall x \\exists y(\\operatorname{succ}(x, y) \\vee(\\exists z \\operatorname{succ}(x, z) \\Rightarrow \\operatorname{equal}(y, z)))$<br>\n<br>\nC. $\\exists x \\forall y(\\operatorname{succ}(x, y) \\wedge(\\exists z \\operatorname{succ}(x, z) \\Rightarrow \\operatorname{equal}(y, z)))$<br>\n<br>\nD. $\\forall x \\exists y(\\operatorname{succ}(x, y))$",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 40"
+        },
+        {
+          "post_id": "475803",
+          "text": "Consider the formula:<br>\n<br>\n$$<br>\n[(p \\rightarrow q) \\wedge(r \\rightarrow \\neg q)] \\rightarrow(r \\rightarrow \\neg p)<br>\n$$<br>\n<br>\nIf the formula is a tautology, submit your answer as $\\mathbf{1}$. If it is not a tautology, submit your answer as $\\mathbf{0}$",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 40"
+        },
+        {
+          "post_id": "475799",
+          "text": "Match List-I with List-II and choose the correct answer from the code given below :<br>\n<br>\n\\[<br>\n\\begin{array}{|c|l|c|l|}<br>\n\\hline<br>\n\\text{} & \\text{List I} & \\text{} & \\text{List II} \\\\<br>\n\\hline<br>\n(a) & \\text{Equivalence} & (i) & p \\Rightarrow q \\\\<br>\n\\hline<br>\n(b) & \\text{Contrapositive} & (ii) & p \\Rightarrow q ; q \\Rightarrow p \\\\<br>\n\\hline<br>\n(c) & \\text{Converse} & (iii) & p \\Rightarrow q : \\sim q \\Rightarrow \\sim p \\\\<br>\n\\hline<br>\n(d) & \\text{Implication} & (iv) & p \\Leftrightarrow q \\\\<br>\n\\hline<br>\n\\end{array}<br>\n\\]<br>\n<br>\nA. (a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)<br>\n<br>\nB. (a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)<br>\n<br>\nC. (a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)<br>\n<br>\nD. (a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 40"
+        },
+        {
+          "post_id": "475797",
+          "text": "The first order logic (FOL) statement $((R \\vee Q) \\wedge(P \\vee \\neg Q))$ is equivalent to which of the following?<br>\n<br>\nA. $((R \\vee \\neg Q) \\wedge(P \\vee \\neg Q) \\wedge(R \\vee P))$<br>\n<br>\nB. $((R \\vee Q) \\wedge(P \\vee \\neg Q) \\wedge(R \\vee P))$<br>\n<br>\nC. $((R \\vee Q) \\wedge(P \\vee \\neg Q) \\wedge(R \\vee \\neg P))$<br>\n<br>\nD. $((R \\vee Q) \\wedge(P \\vee \\neg Q) \\wedge(\\neg R \\vee P))$",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 40"
+        }
+      ]
+    }
+  ]
+}

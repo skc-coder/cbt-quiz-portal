@@ -1,0 +1,70 @@
+{
+  "name": "Day 331 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "541169",
+          "text": "<p data-start=\"6229\" data-end=\"6268\">Consider the following shared variable:</p><p data-start=\"6270\" data-end=\"6300\">$\\texttt{volatile int counter = 1000;}$</p><p data-start=\"6302\" data-end=\"6354\">Two threads each execute the following exactly once:</p><p data-start=\"6356\" data-end=\"6368\">$\\texttt{counter--;}$</p><p data-start=\"6370\" data-end=\"6442\">The main thread waits for both worker threads and then prints $\\texttt{counter}$.</p><p data-start=\"6444\" data-end=\"6487\">Which of the following values are possible?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"6489\" data-end=\"6502\">$1000$<br>&nbsp;</li><li data-start=\"6516\" data-end=\"6525\">$999$<br>&nbsp;</li><li data-start=\"6527\" data-end=\"6536\">$998$<br>&nbsp;</li><li data-start=\"6538\" data-end=\"6547\">$997$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 331"
+        },
+        {
+          "post_id": "541167",
+          "text": "<p data-start=\"4619\" data-end=\"4647\">Consider the following code:</p><p data-start=\"4649\" data-end=\"4699\">$\\texttt{balance}$ is a shared variable initialized to $0$.</p><p data-start=\"4701\" data-end=\"4737\">Each of two worker threads performs:</p><p data-start=\"4739\" data-end=\"4756\">$\\texttt{int result = 0;}$</p><p data-start=\"4758\" data-end=\"4782\">$\\texttt{result = result + 200;}$</p><p data-start=\"4784\" data-end=\"4810\">$\\texttt{balance = balance + 200;}$</p><p data-start=\"4812\" data-end=\"4858\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4860\" data-end=\"4873\">Each thread prints $200$ for its private variable $\\texttt{result}$.<br>&nbsp;</li><li data-start=\"4940\" data-end=\"5014\">The value printed for $\\texttt{result}$ may vary because both threads share it.<br>&nbsp;</li><li data-start=\"5016\" data-end=\"5113\">The final value of $\\texttt{balance}$ may vary because both threads update it without synchronization.<br>&nbsp;</li><li data-start=\"5115\" data-end=\"5204\">Since each thread adds $200$, the final value of $\\texttt{balance}$ is guaranteed to be $400$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 331"
+        },
+        {
+          "post_id": "541164",
+          "text": "<p data-start=\"3424\" data-end=\"3469\">A shared variable $x$ initially contains $0$.</p><p data-start=\"3471\" data-end=\"3506\">Thread $T_1$ adds $1$ to $x$ using:</p><p data-start=\"3508\" data-end=\"3515\">$R_1=x$</p><p data-start=\"3517\" data-end=\"3528\">$R_1=R_1+1$</p><p data-start=\"3530\" data-end=\"3537\">$x=R_1$</p><p data-start=\"3539\" data-end=\"3574\">Thread $T_2$ adds $2$ to $x$ using:</p><p data-start=\"3576\" data-end=\"3583\">$R_2=x$</p><p data-start=\"3585\" data-end=\"3596\">$R_2=R_2+2$</p><p data-start=\"3598\" data-end=\"3605\">$x=R_2$</p><p data-start=\"3607\" data-end=\"3655\">The instructions execute in the following order:</p><p data-start=\"3657\" data-end=\"3672\">$T_1:$ read $x$</p><p data-start=\"3674\" data-end=\"3688\">$T_1:$ add $1$</p><p data-start=\"3690\" data-end=\"3705\">$T_2:$ read $x$</p><p data-start=\"3707\" data-end=\"3721\">$T_2:$ add $2$</p><p data-start=\"3723\" data-end=\"3739\">$T_1:$ write $x$</p><p data-start=\"3741\" data-end=\"3757\">$T_2:$ write $x$</p><p data-start=\"3759\" data-end=\"3790\">&nbsp;</p><p data-start=\"3759\" data-end=\"3790\">What is the final value of $x$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3792\" data-end=\"3799\">$1$<br>&nbsp;</li><li data-start=\"3801\" data-end=\"3808\">$2$<br>&nbsp;</li><li data-start=\"3810\" data-end=\"3817\">$3$<br>&nbsp;</li><li data-start=\"3819\" data-end=\"3857\">The value must be greater than $3$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 331"
+        },
+        {
+          "post_id": "541160",
+          "text": "<p data-start=\"610\" data-end=\"692\">Why may two processes prefer shared memory over message passing for communication?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"694\" data-end=\"751\">Shared memory automatically prevents race conditions.<br>&nbsp;</li><li data-start=\"753\" data-end=\"868\">Shared memory is often faster because communication can occur without repeated kernel intervention and copying.<br>&nbsp;</li><li data-start=\"870\" data-end=\"962\">Shared memory allows processes on different computers to communicate without networking.<br>&nbsp;</li><li data-start=\"964\" data-end=\"1050\">Shared memory guarantees that only one process accesses the shared data at a time.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 331"
+        },
+        {
+          "post_id": "541162",
+          "text": "<p data-start=\"1859\" data-end=\"1905\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1907\" data-end=\"1920\">Processes normally have private address spaces, so a shared-memory segment must be explicitly established in their address spaces.<br>&nbsp;</li><li data-start=\"2058\" data-end=\"2132\">Shared memory removes the need to synchronize accesses to shared data.<br>&nbsp;</li><li data-start=\"2134\" data-end=\"2217\">Message passing allows processes to communicate without using shared variables.<br>&nbsp;</li><li data-start=\"2219\" data-end=\"2322\">A non-blocking send is synchronous because the sender waits until the receiver accepts the message.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 331"
+        }
+      ]
+    }
+  ]
+}

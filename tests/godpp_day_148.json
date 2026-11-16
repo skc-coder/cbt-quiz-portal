@@ -1,0 +1,70 @@
+{
+  "name": "Day 145 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "500369",
+          "text": "<p>Given the following expression grammar:</p><p>$$<br>\\begin{gathered}<br>E \\rightarrow E+T|T * E| T \\\\<br>T \\rightarrow T / F \\mid F \\\\<br>F \\rightarrow \\mathrm{id}<br>\\end{gathered}<br>$$</p><p><br>Which of the following is/are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$*$ has higher precedence than $+$<br>&nbsp;</li><li>$/$ has higher precedence than $*$<br>&nbsp;</li><li>$+$ is left-associative<br>&nbsp;</li><li>$*$ is right-associative</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 145"
+        },
+        {
+          "post_id": "500367",
+          "text": "<p>Consider the following grammar with semantic actions inside braces:</p><ul><li>$S \\rightarrow a A \\quad$ {print \"1\"}<br>&nbsp;</li><li>$S \\rightarrow b \\quad$ {print \" 2 \" }<br>&nbsp;</li><li>$A \\rightarrow S b \\quad$ {print \" 3 \" }</li></ul><p>If we perform a leftmost derivation for the string $a a b b b$ and execute the actions as soon as the leftmost nonterminal in the sentential form is replaced, what is the printed output?</p>",
+          "type": "Numerical",
+          "answer": "13132",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 145"
+        },
+        {
+          "post_id": "500365",
+          "text": "<p>A shift-reduce parser carries out the actions specified within braces immediately after reducing with the corresponding rule of the grammar:</p><ul><li>$A \\rightarrow a B \\quad$ {print \"1\"}<br>&nbsp;</li><li>$A \\rightarrow b \\quad$&nbsp; &nbsp; {print \"2\"}<br>&nbsp;</li><li>$B \\rightarrow A c$&nbsp; &nbsp; &nbsp;{print \"3\"}</li></ul><p>What is the translation of $a a b c c$ using the syntax-directed translation scheme described by the above rules?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$23131$<br>&nbsp;</li><li>$21323$<br>&nbsp;</li><li>$21321$<br>&nbsp;</li><li>$12312$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 145"
+        },
+        {
+          "post_id": "500360",
+          "text": "<p>The number of tokens in the following C statement is $\\_\\_\\_\\_$</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">for(int k=0; k&lt;MAX; k++) { sum += data[k];}</pre><p>&nbsp;</p>",
+          "type": "Numerical",
+          "answer": "23",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 145"
+        },
+        {
+          "post_id": "500363",
+          "text": "<p>The number of tokens in the following C statement is $\\_\\_\\_\\_$ .<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">scanf(\"%d %f\",&num,&value);</pre><p>&nbsp;</p>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 145"
+        }
+      ]
+    }
+  ]
+}

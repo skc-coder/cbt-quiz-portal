@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 Discrete Mathematics 2: Combinatorics",
+  "duration": "75",
+  "total_qs": "20",
+  "total_qs_one": 0,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "258353",
+          "text": "<p>How many paths are there from the lower left corner to the upper right corner, moving only up or to the right ?</p>\n\n<p><img alt=\"\" height=\"239\" src=\"http://thegatebook.in/qa/?qa=blob&amp;qa_blobid=9869124491175864628\" width=\"400\"></p>\n\n<p>Path can not go through any of the dotted lines&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>$\\begin{pmatrix} 20 \\\\ 10 \\end{pmatrix} - \\bigg[&nbsp;\\begin{pmatrix} 9&nbsp;\\\\ 4 \\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 10 \\\\ 5&nbsp;\\end{pmatrix} +&nbsp;\\begin{pmatrix} 14&nbsp;\\\\ 7 \\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 5&nbsp;\\\\ 3&nbsp;\\end{pmatrix} -&nbsp;\\begin{pmatrix} 9&nbsp;\\\\ 4&nbsp;\\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 2&nbsp;\\\\ 2 \\end{pmatrix} \\times \\begin{pmatrix} 5&nbsp;\\\\ 3 &nbsp;\\end{pmatrix} \\bigg]$</li>\n    <li>$\\begin{pmatrix} 20 \\\\ 10 \\end{pmatrix} - \\bigg[&nbsp;\\begin{pmatrix} 9&nbsp;\\\\ 4 \\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 10 \\\\ 4&nbsp;\\end{pmatrix} +&nbsp;\\begin{pmatrix} 14&nbsp;\\\\ 7 \\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 5&nbsp;\\\\ 3&nbsp;\\end{pmatrix} -&nbsp;\\begin{pmatrix} 9&nbsp;\\\\ 4&nbsp;\\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 2&nbsp;\\\\ 2 \\end{pmatrix} \\times \\begin{pmatrix} 5&nbsp;\\\\ 3 &nbsp;\\end{pmatrix} \\bigg]$</li>\n    <li>$\\begin{pmatrix} 20 \\\\ 10 \\end{pmatrix} - \\bigg[&nbsp;\\begin{pmatrix} 9&nbsp;\\\\ 4 \\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 10 \\\\ 5&nbsp;\\end{pmatrix} +&nbsp;\\begin{pmatrix} 14&nbsp;\\\\ 7 \\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 5&nbsp;\\\\ 3&nbsp;\\end{pmatrix} -&nbsp;\\begin{pmatrix} 9&nbsp;\\\\ 4&nbsp;\\end{pmatrix} \\times&nbsp;\\begin{pmatrix}&nbsp; 4 \\\\ 2 \\end{pmatrix} \\times \\begin{pmatrix} 5&nbsp;\\\\ 3 &nbsp;\\end{pmatrix} \\bigg]$</li>\n    <li>$\\begin{pmatrix} 20 \\\\ 10 \\end{pmatrix} - \\bigg[&nbsp;\\begin{pmatrix} 10&nbsp;\\\\ 4 \\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 10 \\\\ 4&nbsp;\\end{pmatrix} +&nbsp;\\begin{pmatrix} 14&nbsp;\\\\ 7 \\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 5&nbsp;\\\\ 3&nbsp;\\end{pmatrix} -&nbsp;\\begin{pmatrix} 9&nbsp;\\\\ 4&nbsp;\\end{pmatrix} \\times&nbsp;\\begin{pmatrix} 2&nbsp;\\\\ 2 \\end{pmatrix} \\times \\begin{pmatrix} 5&nbsp;\\\\ 3 &nbsp;\\end{pmatrix} \\bigg]$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258352",
+          "text": "<p>In how many ways can $2$ RED&nbsp;and $4$&nbsp;BLUE&nbsp;&nbsp;ROOKS&nbsp;be placed on an $8-by-8$ board so that no two ROOKS&nbsp;can attack&nbsp;one another?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$8! \\times 8!$</li>\n    <li>$8! \\times \\frac{8!}{2!4!}$</li>\n    <li>$8! \\times \\frac{8!}{2!4!2!2!}$</li>\n    <li>${}^8P_4$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258351",
+          "text": "How many numbers in $\\{1, 2, \\ldots,10000\\}$ have their digits sum to $7?\\:(e.g. 502)$",
+          "type": "Numerical",
+          "answer": "120",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination,numerical-answers",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258350",
+          "text": "The number of permutations of $\\{1, 2, 3, 4, 5\\}$ in which at least one odd integer is in its natural position is ______",
+          "type": "Numerical",
+          "answer": "56",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination,numerical-answers",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258349",
+          "text": "In how many ways can the letters $\\{a, b, c, d, e\\}$ be placed into $3$ identical boxes such that no box is empty?",
+          "type": "Numerical",
+          "answer": "25",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination,numerical-answers",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258348",
+          "text": "<p>In how many ways can $10$ women and $4$ men line up in a straight line so that no two men are consecutive?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$10! \\begin{pmatrix} 11 \\\\ 4 \\end{pmatrix} 4!$</li>\n    <li>$10! \\begin{pmatrix} 9&nbsp;\\\\ 4 \\end{pmatrix} 4!$</li>\n    <li>$\\frac{14!}{4!}$</li>\n    <li>$\\begin{pmatrix} 11 \\\\ 4 \\end{pmatrix} $</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258347",
+          "text": "<p>$50$ people are to be divided (partitioned) into $5$ teams of $10$ players each. In how many ways can this be done if each team has a different name</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>$\\frac{50!}{10!^5}$</li>\n    <li>$\\frac{50!}{5!^{10}}$</li>\n    <li>$\\frac{\\begin{pmatrix}50 \\\\ 10&nbsp;\\end{pmatrix}}{10!}$</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258346",
+          "text": "<p>A bowl contains $5$ red balls and $7$ silver ones. A woman chooses balls at random without looking at them. How many must she choose, to be sure of having at least $3$ of the same color?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>$7$</li>\n    <li>$11$</li>\n    <li>$10$</li>\n    <li>$5$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258345",
+          "text": "How many bit strings of length $6$ have more zeroes than ones?",
+          "type": "Numerical",
+          "answer": "22",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,numerical-answers",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258344",
+          "text": "<p>How many license plates with $3$ decimal digits followed by $3$ letters do not contain both the number $0$ and the letter $\\text{O}$?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$17047279$</li>\n    <li>$14074279$</li>\n    <li>$17074279$</li>\n    <li>$12436759$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258343",
+          "text": "A decimal number is called “increasing” if each digit is greater than the previous one (e.g. $24589$ is one). How many $5$ digit increasing numbers are there?",
+          "type": "Numerical",
+          "answer": "126",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination,numerical-answers",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "258342",
+          "text": "<p>How many even integers $≥ 4000$ and $&lt; 7000$ have four different digits?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>$128$</li>\n    <li>$728$</li>\n    <li>$328$</li>\n    <li>$528$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258341",
+          "text": "How many ways are there to seat $10$ people, consisting of $5$ couples, in a row of seats ($10$ seats wide) if all couples are to get adjacent seats?",
+          "type": "Numerical",
+          "answer": "3840",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination,numerical-answers",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258340",
+          "text": "An integer is called snakelike if its decimal representation $a_1a_2a_3 \\dots a_k$ satisfies $a_i < a_{i+1}$ if $i$ is odd and $a_i > a_{i+1}$ if $i$ is even. How many snakelike integers between $1000$ and $9999$ have four distinct digits?",
+          "type": "Numerical",
+          "answer": "882",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,numerical-answers",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258339",
+          "text": "<p>A landscaper is planting a row of $12$ trees including $4$ birch trees and $8$ pine trees. How many ways can this be done without having two birch trees next to each other?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>$\\frac{16!}{12!4!}$</li>\n    <li>$\\frac{16!}{12!}$</li>\n    <li>$\\frac{16!}{4!}$</li>\n    <li>$\\begin{pmatrix}9 \\\\ 4 \\end{pmatrix}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258338",
+          "text": "<p>How many solutions does the equation $a+b+c+d+e+f = 2006$ have where $a, b, c, d, e$&nbsp;and $f$ are all positive integers?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>$\\begin{pmatrix} 2005 \\\\ 5 \\end{pmatrix}$</li>\n    <li>$\\begin{pmatrix} 2006&nbsp;\\\\ 4&nbsp;\\end{pmatrix}$</li>\n    <li>$\\begin{pmatrix} 2011&nbsp;\\\\ 5 \\end{pmatrix}$</li>\n    <li>$\\begin{pmatrix} 2005 \\\\ 6&nbsp;\\end{pmatrix}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258337",
+          "text": "How many bit strings of length $5$ are there, such that every $1$ is followed immediately by a zero?",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination,numerical-answers",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258336",
+          "text": "How many numbers (minimum) must you pick to ensure that at least three of them have the same remainder when divided by $11?$",
+          "type": "Numerical",
+          "answer": "23",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination,numerical-answers",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258335",
+          "text": "A pool of available computer programmers has $13$ members–six men and seven women In how many ways can you choose a team of five, with at most three men?",
+          "type": "Numerical",
+          "answer": "1176",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,permutation-and-combination,numerical-answers",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "258334",
+          "text": "How many ways a set of $5$ elements can be divided into two unordered partitions where each partition gets at least one element?",
+          "type": "Numerical",
+          "answer": "15",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm2,discrete-mathematics,numerical-answers,permutation-and-combination",
+          "category": "Combinatory"
+        }
+      ]
+    }
+  ]
+}

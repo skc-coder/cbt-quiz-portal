@@ -1,0 +1,70 @@
+{
+  "name": "Day 332 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "541685",
+          "text": "<p data-start=\"7498\" data-end=\"7552\">Two processes $P_i$ and $P_j$ use Peterson’s solution:</p><p data-start=\"7554\" data-end=\"7571\">$\\texttt{flag[i] = TRUE;}$</p><p data-start=\"7573\" data-end=\"7584\">$\\texttt{turn = j;}$</p><p data-start=\"7586\" data-end=\"7617\">$\\texttt{while(flag[j] \\&\\& turn == j);}$</p><p data-start=\"7619\" data-end=\"7637\">$\\texttt{Critical Section}$</p><p data-start=\"7639\" data-end=\"7657\">$\\texttt{flag[i] = FALSE;}$</p><p data-start=\"7659\" data-end=\"7727\">Assume $P_i$ has requested entry and is waiting in the $\\texttt{while}$ loop.</p><p data-start=\"7729\" data-end=\"7835\">What is the maximum number of times $P_j$ can enter its critical section before $P_i$ is allowed to enter?</p>",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 332"
+        },
+        {
+          "post_id": "541172",
+          "text": "<p data-start=\"756\" data-end=\"802\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"804\" data-end=\"817\">Mutual exclusion ensures that if one process is executing in its critical section, no other process can execute in its critical section.<br>&nbsp;</li><li data-start=\"961\" data-end=\"1093\">A process executing in its remainder section may participate in deciding which waiting process enters the critical section next.<br>&nbsp;</li><li data-start=\"1095\" data-end=\"1270\">Bounded waiting requires a limit on the number of times other processes may enter their critical sections after a process requests entry and before its request is granted.<br>&nbsp;</li><li data-start=\"1272\" data-end=\"1371\">A correct solution may assume that one process always executes faster than the other processes.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 332"
+        },
+        {
+          "post_id": "541683",
+          "text": "<p data-start=\"5741\" data-end=\"5791\">Consider the following solution for process $P_i$:</p><p data-start=\"5793\" data-end=\"5813\">$\\texttt{while (turn != i);}$</p><p data-start=\"5815\" data-end=\"5833\">$\\texttt{Critical Section}$</p><p data-start=\"5835\" data-end=\"5846\">$\\texttt{turn = j;}$</p><p data-start=\"5848\" data-end=\"5894\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5896\" data-end=\"5909\">The solution satisfies mutual exclusion.<br>&nbsp;</li><li data-start=\"5957\" data-end=\"5992\">The solution uses busy waiting.<br>&nbsp;</li><li data-start=\"5994\" data-end=\"6098\">The solution may violate progress if $\\texttt{turn = j}$, but process $P_j$ remains in its remainder section.<br>&nbsp;</li><li data-start=\"6100\" data-end=\"6213\">Process $P_i$ can immediately re-enter its critical section after leaving, regardless of the value of $\\texttt{turn}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 332"
+        },
+        {
+          "post_id": "541174",
+          "text": "<p data-start=\"2370\" data-end=\"2435\">Consider the following entry and exit code used by two processes:</p><p data-start=\"2437\" data-end=\"2452\">$\\texttt{while(lock);}$</p><p data-start=\"2454\" data-end=\"2468\">$\\texttt{lock = TRUE;}$</p><p data-start=\"2470\" data-end=\"2488\">$\\texttt{Critical Section}$</p><p data-start=\"2490\" data-end=\"2505\">$\\texttt{lock = FALSE;}$</p><p data-start=\"2507\" data-end=\"2533\">Initially, $\\texttt{lock = FALSE.}$</p><p data-start=\"2535\" data-end=\"2650\">Which of the following interleavings can cause both processes to execute in their critical sections simultaneously?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2652\" data-end=\"2762\">$P_0$ observes $\\texttt{lock = FALSE}$, sets it to $\\texttt{TRUE}$, completes its critical section, and then $P_1$ executes.<br>&nbsp;</li><li data-start=\"2764\" data-end=\"2956\">$P_0$ observes $\\texttt{lock = FALSE}$ and is preempted before setting it. $P_1$ also observes $\\texttt{lock = FALSE}$, sets it to $\\texttt{TRUE}$, and enters. $P_0$ then resumes, sets it to $\\texttt{TRUE}$, and also enters.<br>&nbsp;</li><li data-start=\"2958\" data-end=\"3045\">Both processes observe $\\texttt{lock = TRUE}$ and immediately enter their critical sections.<br>&nbsp;</li><li data-start=\"3047\" data-end=\"3121\">$P_0$ sets $\\texttt{lock = TRUE}$, causing $P_1$ to wait until $P_0$ resets it.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 332"
+        },
+        {
+          "post_id": "541681",
+          "text": "<p data-start=\"4054\" data-end=\"4105\">Two processes use the following symmetric solution:</p><p data-start=\"4107\" data-end=\"4125\">For process $P_i$:</p><p data-start=\"4127\" data-end=\"4144\">$\\texttt{flag[i] = TRUE;}$</p><p data-start=\"4146\" data-end=\"4164\">$\\texttt{while (flag[j]);}$</p><p data-start=\"4166\" data-end=\"4184\">$\\texttt{Critical Section}$</p><p data-start=\"4186\" data-end=\"4204\">$\\texttt{flag[i] = FALSE;}$</p><p data-start=\"4206\" data-end=\"4252\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4254\" data-end=\"4267\">The solution satisfies mutual exclusion.<br>&nbsp;</li><li data-start=\"4315\" data-end=\"4427\">If both processes set their flags to $\\texttt{TRUE}$ before checking the other flag, both processes can wait forever.<br>&nbsp;</li><li data-start=\"4429\" data-end=\"4481\">The solution satisfies the progress requirement.<br>&nbsp;</li><li data-start=\"4483\" data-end=\"4558\">The solution guarantees bounded waiting under every possible execution.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 332"
+        }
+      ]
+    }
+  ]
+}

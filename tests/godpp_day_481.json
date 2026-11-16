@@ -1,0 +1,70 @@
+{
+  "name": "Day 330 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "540970",
+          "text": "<p>Match the following</p><p>$$<br>\\begin{array}{ll}<br>\\text{I. FCFS} & \\text{i. Optimal Waiting Time} \\\\<br>\\text{II. SJF} & \\text{ii. Convoy effect} \\\\<br>\\text{III. Round Robin} & \\text{iii. Not practical} \\\\<br>\\text{IV. SRTF} & \\text{iv. No Starvation}<br>\\end{array}<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4788\" data-end=\"4826\">$\\text{I - ii, II - i, III - iv, IV - iii}$<br>&nbsp;</li><li data-start=\"4828\" data-end=\"4866\">$\\text{I - i, II - ii, III - iv, IV - iii}$<br>&nbsp;</li><li data-start=\"4868\" data-end=\"4906\">$\\text{I - iii, II - i, III - iv, IV - ii}$<br>&nbsp;</li><li data-start=\"4908\" data-end=\"4945\">$\\text{I - iii, II - iv, III - i, IV - i}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 330"
+        },
+        {
+          "post_id": "540963",
+          "text": "<p>Which of the following statements is/are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1313\" data-end=\"1413\">The performance of the Round Robin scheduling algorithm depends on the size of the time quantum.<br>&nbsp;</li><li data-start=\"1415\" data-end=\"1545\">If the time quantum is extremely small, Round Robin algorithm for scheduling can result in a large number of context switches.<br>&nbsp;</li><li data-start=\"1547\" data-end=\"1642\">A large time quantum can make Round Robin behave more like First-Come, First-Served (FCFS).<br>&nbsp;</li><li data-start=\"1644\" data-end=\"1675\">All of the above statements</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 330"
+        },
+        {
+          "post_id": "540966",
+          "text": "<p>Which of the following statements is false for Round Robin (RR) process scheduling?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2419\" data-end=\"2463\">RR is suitable for a time-sharing system<br>&nbsp;</li><li data-start=\"2465\" data-end=\"2508\">RR is a preemptive scheduling algorithm<br>&nbsp;</li><li data-start=\"2510\" data-end=\"2569\">Its turnaround time does not depend on the time quantum<br>&nbsp;</li><li data-start=\"2571\" data-end=\"2642\">In case of RR algorithm, the priority of all the processes are same</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 330"
+        },
+        {
+          "post_id": "540968",
+          "text": "<p>$4$ processes $A,B,C,D$ have estimated burst times of $4,~5,~6,~7$ $\\text{ns}$ respectively. They are scheduled in round robin fashion and the time slice is of $2$ $\\text{ns}$. The processes $A,B,C,D$ arrive at the $0,~0.5,~1,~1.5$&nbsp;$\\text{ns}$ respectively. The order in which the processes are completed.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3615\" data-end=\"3626\">$B,A,C,D$<br>&nbsp;</li><li data-start=\"3628\" data-end=\"3639\">$D,A,B,C$<br>&nbsp;</li><li data-start=\"3641\" data-end=\"3652\">$A,B,D,C$<br>&nbsp;</li><li data-start=\"3654\" data-end=\"3665\">$A,B,C,D$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 330"
+        },
+        {
+          "post_id": "540949",
+          "text": "<p>Consider the following five processes:&nbsp;</p><p>$$<br>\\begin{array}{|c|c|c|c|}<br>\\hline<br>\\text{Process} & \\text{Arrival Time} & \\text{Burst Time} & \\text{Priority} \\\\<br>\\hline<br>P_1 & 0 & 4 & 1 \\\\<br>P_2 & 1 & 3 & 2 \\\\<br>P_3 & 2 & 1 & 3 \\\\<br>P_4 & 3 & 5 & 4 \\\\<br>P_5 & 4 & 2 & 5 \\\\<br>\\hline<br>\\end{array}<br>$$&nbsp;<br>The scheduling policy is non-preemptive priority scheduling.&nbsp;</p><p>A larger priority value means higher priority. What is the average turnaround time?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$7.0$&nbsp;<br>&nbsp;</li><li>$7.6$&nbsp;<br>&nbsp;</li><li>$8.6$&nbsp;<br>&nbsp;</li><li>$9.6$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 330"
+        }
+      ]
+    }
+  ]
+}

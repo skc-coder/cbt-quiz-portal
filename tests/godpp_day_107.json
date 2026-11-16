@@ -1,0 +1,70 @@
+{
+  "name": "Day 104 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "490903",
+          "text": "<p>An organization has been assigned the network block $172.20.128.0/18$. The network administrator must create four subnets for four different departments with the following requirements for usable host IP addresses:</p><ul><li>Engineering: $4000$ hosts<br>&nbsp;</li><li>Sales: $2000$ hosts<br>&nbsp;</li><li>Marketing: $1000$ hosts<br>&nbsp;</li><li>Management: $500$ hosts</li></ul><p>The administrator allocates the subnets sequentially, starting with the largest requirement first from the beginning of the address block. What is the broadcast address of the subnet assigned to the Management department?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$172.20.176.255$<br>&nbsp;</li><li>$172.20.144.255$<br>&nbsp;</li><li>$172.20.128.255$<br>&nbsp;</li><li>$172.20.191.255$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 104"
+        },
+        {
+          "post_id": "490900",
+          "text": "<p>A $1$ Mbps satellite link with a one-way propagation delay of $45$ ms uses the Go-Back-N protocol. If the data frames are $1$ Kilobyte ($1024$ bytes) in size, what is the minimum sender window size required to achieve a channel utilization of at least $60 \\%$ ? (Assume ACK frames have negligible transmission time).</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$7$<br>&nbsp;</li><li>$8$<br>&nbsp;</li><li>$11$<br>&nbsp;</li><li>$12$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 104"
+        },
+        {
+          "post_id": "490899",
+          "text": "<p>A sender and receiver are connected by a $1$ Mbps link and use the Stop-and-Wait protocol for data transfer. Data frames are $2$ Kilobytes (KB) in size (where 1 KB $=1024$ bytes), and acknowledgements are considered to have negligible transmission time. If the one-way propagation delay is $20$ milliseconds, what is the efficiency of the link?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$29.1 \\%$<br>&nbsp;</li><li>$40.9 \\%$<br>&nbsp;</li><li>$14.5 \\%$<br>&nbsp;</li><li>$70.9 \\%$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 104"
+        },
+        {
+          "post_id": "490898",
+          "text": "<p>A $100$ Mbps network is designed using the CSMA/CD protocol. If the minimum frame size allowed on this network is $64$ bytes, what is the maximum signal propagation time (one-way latency) from one end of the network to the other?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2.56$ microseconds<br>&nbsp;</li><li>$5.12$ microseconds<br>&nbsp;</li><li>$1.28$ microseconds<br>&nbsp;</li><li>$10.24$ microseconds</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 104"
+        },
+        {
+          "post_id": "490895",
+          "text": "<p>A CSMA/CD network operates at $100$ Mbps ( $10^8$ bits per second) over a $2.5$ km cable without any repeaters. The signal propagation speed in the cable is $2 \\times 10^7 \\mathrm{~m} / \\mathrm{sec}$. What is the minimum required frame size for this network in bytes?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$25000$<br>&nbsp;</li><li>$3125$<br>&nbsp;</li><li>$5000$<br>&nbsp;</li><li>$6250$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 104"
+        }
+      ]
+    }
+  ]
+}

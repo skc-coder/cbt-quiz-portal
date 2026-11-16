@@ -1,0 +1,70 @@
+{
+  "name": "Day 259 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530438",
+          "text": "A librarian is arranging $4$ mystery novels, $3$ history books, $2$ poetry books, and $2$ travel books on a shelf. All books are distinct. How many ways can the books be arranged so that all the mystery novels are together, all the history books are together, all the poetry books are together, the two travel books are not next to each other, and the history block appears before the poetry block?",
+          "type": "Numerical",
+          "answer": "10368",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 259"
+        },
+        {
+          "post_id": "530434",
+          "text": "During the GO Classes Jaipur felicitation trip, Deepak Sir and Sachin Sir are making two separate cricket teams from the toppers. There are $6$ batters and $6$ bowlers available. Among them, there are $3$ fixed batter-bowler practice pairs, and the remaining $3$ batters and $3$ bowlers are not in any pair. Deepak Sir first chooses a $4$-player team with exactly $2$ batters and $2$ bowlers. Then Sachin Sir chooses a $4$-player team from the remaining players, also with exactly $2$ batters and $2$ bowlers. Each sir's team must contain exactly one complete practice pair. How many ways can both teams be chosen?",
+          "type": "Numerical",
+          "answer": "756",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 259"
+        },
+        {
+          "post_id": "530423",
+          "text": "At an academy, there are $30$ students eligible for a $10$-student research team. There are $8$ students in Club $A$, $7$ students in Club $B$, and exactly $3$ students are in both Club $A$ and Club $B$. Of the students who are in neither club, exactly $3$ are scholarship students. How many ways can the research team be chosen so that it contains exactly $4$ students from Club $A$, exactly $3$ students from Club $B$, and exactly $1$ scholarship student?",
+          "type": "Numerical",
+          "answer": "788445",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 259"
+        },
+        {
+          "post_id": "530419",
+          "text": "A museum has two sealed collections of artifacts. Collection $X$ contains $5$ paintings, $4$ sculptures, and $3$ manuscripts. Collection $Y$ contains $6$ paintings, $5$ sculptures, and $4$ manuscripts. For a special exhibit, $8$ artifacts are selected, and all $8$ artifacts must come entirely from Collection $X$ or entirely from Collection $Y$. The exhibit must contain at least $2$ paintings, at least $2$ sculptures, at least $1$ manuscript, and no category may contribute more than $4$ artifacts. After the $8$ artifacts are selected, one artifact is chosen as the opening display piece and one different artifact is chosen as the closing display piece. These two display pieces must be from different categories. How many possible exhibits can be made?",
+          "type": "Numerical",
+          "answer": "224660",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 259"
+        },
+        {
+          "post_id": "530428",
+          "text": "The English alphabet has $26$ letters, of which $5$ are vowels: $A,E,I,O,U$. How many $8$-letter strings, with all letters distinct, can be formed that start with $B$, end with $T$, contain exactly $3$ vowels, have no two vowels next to each other, and have the vowels appear in alphabetical order from left to right? The strings do not need to have any meaning.",
+          "type": "Numerical",
+          "answer": "232560",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 259"
+        }
+      ]
+    }
+  ]
+}

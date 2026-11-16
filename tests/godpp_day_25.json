@@ -1,0 +1,70 @@
+{
+  "name": "Day 24 [Graph Theory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "473672",
+          "text": "<p>How many of the following statements are correct?<br>1. All cyclic graphs are complete graphs.<br>2. All complete graphs are cyclic graphs.<br>3. All paths are bipartite.<br>4. All cyclic graphs are bipartite.<br>5. There are cyclic graphs which are complete.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1$</li><li>$2$</li><li>$3$</li><li>$4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 24"
+        },
+        {
+          "post_id": "473670",
+          "text": "<p>If G is the forest with 54 vertices and 17 connected components, G has $\\qquad$ total number of edges.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$37$</li><li>$71$</li><li>$17$</li><li>$54$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 24"
+        },
+        {
+          "post_id": "473668",
+          "text": "<p>For a given graph $G$ having $v$ vertices and $e$ edges which is connected and has no cycles, which of the following statements is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$v=e$</li><li>$v=e+1$</li><li>$v+1=e$</li><li>$v=e-1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 24"
+        },
+        {
+          "post_id": "473666",
+          "text": "<p>Which of the following is true for any simple connected graph with more than 2 vertices.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>No two vertices have same degree</li><li>At least two vertices have same degree</li><li>At least 3 vertices have same degree&nbsp;</li><li>All vertices have same degree</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 24"
+        },
+        {
+          "post_id": "473664",
+          "text": "<p>What is the maximum number of edges in a bipartite graph having 12 vertices.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$24$</li><li>$38$</li><li>$36$</li><li>$32$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 24"
+        }
+      ]
+    }
+  ]
+}

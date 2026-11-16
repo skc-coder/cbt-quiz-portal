@@ -1,0 +1,187 @@
+{
+  "name": "GATEBOOK-2019 TOC4: Language Properties",
+  "duration": "54",
+  "total_qs": "15",
+  "total_qs_one": 0,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "272881",
+          "text": "<p>The family of recursive languages is closed under</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>Union</li>\n    <li>Intersection</li>\n    <li>Reversal</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>(i) and (ii) only&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>\n    <li>(ii) and (iii) only</li>\n    <li>(i) and (iii) only</li>\n    <li>(i), (ii) and (iii)</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272880",
+          "text": "<p>Which of the following problems is/are undecidable?&nbsp;Whether the language accepted by a Turing Machine is</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>Empty</li>\n    <li>Finite</li>\n    <li>Regular</li>\n    <li>Context free</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>(i) &amp; (iii) only</li>\n    <li>(ii) only</li>\n    <li>(i) &amp; (iv) only</li>\n    <li>All</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272879",
+          "text": "<p>$L = \\{B(N)\\#B(N+1) \\mid B(N)$ represents binary pattern for given $N.$ Example $B(5)=101, N\\geq 1\\}.$ Then which of the following is true for $L?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$L$ is Regular</li>\n    <li>$L$ is Context-free&nbsp;but not Regular</li>\n    <li>$L$ is Recursive but not Context-free</li>\n    <li>$L$ is Recursive enumerable but not Recursive</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,identify-class-language",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272878",
+          "text": "<p>Which of the following statements is correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Regular languages are closed under infinite union</li>\n    <li>Context free languages are closed under intersection</li>\n    <li>Regular languages are closed under substitution</li>\n    <li>Context free languages are not closed under substitution</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,closure-property",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272877",
+          "text": "<p>Consider the following statements:</p>\n\n<ol style=\"list-style-type:upper-roman\">\n    <li>$A_{TM} = \\{ \\langle M,W \\rangle \\mid \\text{ M is a TM and M accepts W}\\}\\text{ is undecidable}.$</li>\n    <li>A language $L$ is decidable if both $L$ and $\\bar{L}$ &nbsp;are Turing – recognizable</li>\n</ol>\n\n<p>Which of the above statement(s) is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only I</li>\n    <li>Only II</li>\n    <li>Both I and II</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,recursive-and-recursively-enumerable-languages",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272876",
+          "text": "<p>Match the following statements with true (T) / false (F)</p>\n\n<ul>\n    <li>&nbsp;S1 : Complement of a CFL need not be recursive</li>\n    <li>&nbsp;S2 : If $L$ is recursive then $\\bar L$ is also recursive</li>\n    <li>&nbsp;S3 : If $L_1$ is recursive and $L_2$ is recursive enumerable then $L_2-L_1$ need not be recursive enumerable</li>\n    <li>&nbsp;S4 : Recursive sets are closed under complementation and substitution</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\begin{array}{|c|c|}\\hline S_1 &amp; T \\\\ \\hline S_2 &amp; F \\\\ \\hline S_3 &amp; T \\\\ \\hline S_4 &amp; F \\\\ \\hline \\end{array}$</li>\n    <li>$\\begin{array}{|c|c|}\\hline S_1 &amp; T \\\\ \\hline S_2 &amp; F \\\\ \\hline S_3 &amp; F&nbsp;\\\\ \\hline S_4 &amp; T&nbsp;\\\\ \\hline \\end{array}$</li>\n    <li>$\\begin{array}{|c|c|}\\hline S_1 &amp; F&nbsp;\\\\ \\hline S_2 &amp; T&nbsp;\\\\ \\hline S_3 &amp; T \\\\ \\hline S_4 &amp; F \\\\ \\hline \\end{array}$</li>\n    <li>$\\begin{array}{|c|c|}\\hline S_1 &amp; F&nbsp;\\\\ \\hline S_2 &amp; T&nbsp;\\\\ \\hline S_3 &amp; F&nbsp;\\\\ \\hline S_4 &amp; F \\\\ \\hline \\end{array}$</li>\n</ol>\n\n<p>&nbsp;</p>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,theory-of-computation",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272875",
+          "text": "<p>Match the following statements with True (T) / False (F)</p>\n\n<ul>\n    <li>$ S_1 : ALL_{CFG} = \\{ \\langle G \\rangle \\mid \\text{G is a CFG and } L(G) = \\Sigma^* \\} \\text{ is undecidable}$</li>\n    <li>$ S_2 :A = \\{ \\langle G \\rangle \\mid \\text{ G is a CFG over } \\{0,1\\}^{*}, 1^{*} \\cap L(G) \\neq \\phi \\} \\text{ is undecidable}$</li>\n    <li>$ S_3 : E_{CFG} = \\{ \\langle G,G^{'} \\rangle \\mid &nbsp;G, G^{'}\\text{ are CFG's and L(G) = L(G') }\\} \\text{ is undecidable}$</li>\n    <li>$ S_4 : EM_{CFG} = \\{ \\langle G \\rangle \\mid \\text{ G is a CFG and }L(G) = \\phi\\} \\text{ is decidable}$</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$S_1 - T,&nbsp; \\;&nbsp;S_2 - F, \\;S_3 - T, \\; S_4 - T$</li>\n    <li>$S_1 - T, \\; S_2 - T, \\; S_3 - T, \\; S_4 - T$</li>\n    <li>$S_1 - F, \\; S_2 - F, \\; S_3 - T, \\; S_4 - T$</li>\n    <li>$S_1 - F, \\; S_2 - T, \\; S_3 - T, \\; S_4 - T$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,decidability",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272874",
+          "text": "<p>Which of the following statement is TRUE about the given Turing Machine transitions below?</p>\n\n<p>$$\\begin{array}{|c|c|c|}\\hline \\delta&amp;0&amp;1&amp;B \\\\ \\hline q_0 &amp;(q_1, 0, R)&amp; (q_1, 1, R) &amp; \\text{HALT} \\\\ \\hline&nbsp;<br>\nq_1&nbsp;&amp;(q_0, 0, R)&amp; (q_0, 1, R) &amp; (q_f, B, R) \\\\ \\hline<br>\nq_f&nbsp;&amp; \\text{HALT}&amp; \\text{HALT} &amp; \\text{HALT} \\\\ \\hline<br>\n&nbsp;\\end{array}$$</p>\n\n<p>where $ \\tau&nbsp;= \\{ 0,1,B \\} \\\\ Q = \\{ q_{0}, q_{1}, q_{f}\\} \\\\ F = \\{ q_{f}\\} \\\\ \\text{Initial} =&nbsp;q_{0}$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>TM does not halt on any string starting with $'1'$&nbsp; &nbsp; &nbsp;&nbsp;</li>\n    <li>TM halts on all strings of odd length and accept it</li>\n    <li>TM does not halt on any&nbsp;string&nbsp;in $\\Sigma ^{*}$&nbsp; &nbsp;</li>\n    <li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,turing-machine",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272873",
+          "text": "Which of the following statements is FALSE with respect to Recursive enumerable languages?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Recursive enumerable languages are closed under kleene closure operation<br /> </li><li>  Recursive enumerable languages are closed under Intersection<br /> </li> <li> If $L$ is recursive enumerable then complement of $L$ is also recursive enumerable<br /> </li>  <li> Recursive enumerable languages are not closed under set difference  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272872",
+          "text": "<p>Consider the following languages:</p>\n\n<ul>\n    <li>$L_1 = \\{w \\mid w \\in \\{a,b,c\\}^*,&nbsp;n_a(w)=n_b(w)=n_c(w)\\}$&nbsp;</li>\n    <li>$L_2 = \\{wvw^{R}: w,v \\in \\{a,b\\}^{+},&nbsp;\\mid w \\mid \\geq \\mid v \\mid \\}$</li>\n</ul>\n\n<p>Which of the following is/are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$L_1$ is CSL and $L_2$ is CFL</li>\n    <li>Both $L_1$ and $L_2$ are CSL</li>\n    <li>Neither $L_1$ nor $L_2$ is CSL</li>\n    <li>$L_1$ is CFL and $L_2$ is CSL</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,identify-class-language",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272871",
+          "text": "<p>Consider two languages, $L_1$&nbsp;and $L_2$&nbsp;defined over same alphabet set $\\Sigma.$ Let $L_1 \\oplus L_2= $$\\{w&nbsp;\\mid \\text{ w belongs to exactly one out of } L_1&nbsp;\\text{ and } L_2\\}$. Suppose $L_1$&nbsp;is regular and $L_2$&nbsp;is context-free, then which of the following statements is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n    <li>$L_1 \\oplus L_2&nbsp;\\text{ is not recursive}$</li>\n    <li>$L_1 \\oplus L_2&nbsp;\\text{ is context-free but not necessarily regular}$</li>\n    <li>$L_1 \\oplus L_2&nbsp;\\text{ is regular}$</li>\n    <li>$L_1 \\oplus L_2&nbsp;\\text{ is recursive but not necessarily context-free}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,identify-class-language",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272870",
+          "text": "<p>Which of the following statements is/are TRUE?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n    <li>If $L$ is decidable, $L^{R}$&nbsp;may or may not be decidable.</li>\n    <li>If $L\\subseteq \\{0\\}^{*}$, then $L$ is decidable</li>\n    <li>If $&nbsp;L \\leq_m\\{ 0^{n} 1^{n} \\mid n \\geq 0\\}$, then L is decidable</li>\n</ol>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(i) – True, (ii) – True, (iii) – False</li>\n    <li>(i) – True, (ii) – False, (iii) – False</li>\n    <li>(i) – False, (ii) – False, (iii) – True</li>\n    <li>(i) – False, (ii) – True, (iii) – True</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,decidability",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272869",
+          "text": "<p>Which of the following statements is/are TRUE?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n    <li>If $L_1,L_2&nbsp;\\in \\Sigma^{*}$ and both $L_1$ and $L_2$&nbsp;are infinite, then $L_1&nbsp;\\cap L_2$&nbsp;is also infinite</li>\n    <li>If $L \\subseteq \\Sigma^{*}$ is&nbsp;an infinite language, then $\\text{Complement}(L)$ is finite.</li>\n</ol>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>I – False, II – True</li>\n    <li>I –True , II – False</li>\n    <li>Both I and II are True</li>\n    <li>Both I and II are False</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,identify-class-language",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272867",
+          "text": "<p>Which of the following is/are TRUE?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>If $L_1$ is context free and $L_2$ is not context free, then $L_1 L_2$ is not context free.</li>\n    <li>If $L_1$ is context free and $L_2$ is not context free, then $L_1 L_2$ is context free.</li>\n    <li>If $L_1$ and $L_2$ are context free, then $L_1 \\cap L_2$ is not context free.</li>\n    <li>If a language $L$ is context free then $L'$ is Turing decidable.</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>(i) – F, (ii) – T, (iii) – T, (iv) – F</li>\n    <li>(i) – F, (ii) – F, (iii) – F, (iv) – F</li>\n    <li>(i) – F, (ii) – F, (iii) – F, (iv) – T</li>\n    <li>(i) – T, (ii) – F, (iii) – T, (iv) – T</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,identify-class-language",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "272866",
+          "text": "<p>Let $L=\\{x \\mid x \\in (0+1)^{*} , \\text{ if } x_i \\text{(bit at } i^{th} \\text{ position of x) }=1$ $ \\text{ then each of the next } 2^i \\text{ positions must be a 1}\\}$ then $L$ is?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Regular</li>\n    <li>CFL but not regular</li>\n    <li>CSL but not CFL</li>\n    <li>Recursive but not CSL</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc4,identify-class-language",
+          "category": "Theory of Computation"
+        }
+      ]
+    }
+  ]
+}

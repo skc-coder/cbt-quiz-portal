@@ -1,0 +1,70 @@
+{
+  "name": "Day 280 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "532899",
+          "text": "A rectangle is inscribed under the curve $y=12-x^2$ and above the $x$-axis, with its base on the $x$-axis and its top corners on the curve. What is the maximum possible area of the rectangle?",
+          "type": "Numerical",
+          "answer": "32",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 280"
+        },
+        {
+          "post_id": "532903",
+          "text": "<p data-start=\"54\" data-end=\"171\">For the function $f(x)=x^4-8x^3+18x^2+ax+7$, which statement about having a local maximum at $x=1$ is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"173\" data-end=\"341\">It happens for exactly one value of $a$.<br>&nbsp;</li><li data-start=\"173\" data-end=\"341\">It happens for more than one value of $a$.<br>&nbsp;</li><li data-start=\"173\" data-end=\"341\">It happens for no value of $a$.<br>&nbsp;</li><li data-start=\"173\" data-end=\"341\">It happens for every value of $a$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 280"
+        },
+        {
+          "post_id": "532907",
+          "text": "<p data-start=\"75\" data-end=\"222\">What are all values of $x$ for which the function $f(x)=\\dfrac{x^5}{5}-\\dfrac{x^4}{4}-\\dfrac{13x^3}{3}+\\dfrac{25x^2}{2}-12x+6$ is increasing?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"224\" data-end=\"345\">$(-\\infty,-4)\\cup(1,3)$<br>&nbsp;</li><li data-start=\"224\" data-end=\"345\">$(-4,1)\\cup(3,\\infty)$<br>&nbsp;</li><li data-start=\"224\" data-end=\"345\">$(-\\infty,-4)\\cup(3,\\infty)$<br>&nbsp;</li><li data-start=\"224\" data-end=\"345\">$(-\\infty,1)\\cup(3,\\infty)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 280"
+        },
+        {
+          "post_id": "532901",
+          "text": "<p data-start=\"54\" data-end=\"231\">Let $f,g:[a,b]\\to\\mathbb{R}$ be continuous on $[a,b]$ and differentiable on $(a,b)$. Suppose $f'(x)-g'(x)=2x$ for all $x\\in(a,b)$. Which of the following must be true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"233\" data-end=\"460\">$f(x)=g(x)+x^2$ for all $x\\in[a,b]$<br>&nbsp;</li><li data-start=\"233\" data-end=\"460\">$f(x)=g(x)+x^2+c$ for all $x\\in[a,b]$ for some $c\\in\\mathbb{R}$<br>&nbsp;</li><li data-start=\"233\" data-end=\"460\">$f(x)=g(x)+2x+c$ for all $x\\in[a,b]$ for some $c\\in\\mathbb{R}$<br>&nbsp;</li><li data-start=\"233\" data-end=\"460\">There exists $c\\in[a,b]$ such that $f(c)=g(c)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 280"
+        },
+        {
+          "post_id": "532909",
+          "text": "<p data-start=\"28\" data-end=\"179\">Let $f,g:[a,b]\\to\\mathbb{R}$ be continuous on $[a,b]$ and differentiable on $(a,b)$, with $f(a)=f(b)=0$. Which of the following must be true?</p><p data-start=\"181\" data-end=\"231\">Hint: Apply Rolle’s theorem to $f(x)e^{g(x)+x^2}$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"233\" data-end=\"493\">There exists $c\\in(a,b)$ such that $f'(c)+f(c)g'(c)+2cf(c)=0$.<br>&nbsp;</li><li data-start=\"233\" data-end=\"493\">There exists $c\\in(a,b)$ such that $f(c)+f'(c)g'(c)+2c=0$.<br>&nbsp;</li><li data-start=\"233\" data-end=\"493\">There exists $c\\in(a,b)$ such that $f'(c)+f(c)g(c)+2cf(c)=0$.<br>&nbsp;</li><li data-start=\"233\" data-end=\"493\">There exists $c\\in(a,b)$ such that $f'(c)+f(c)g'(c)+2c=0$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 280"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes Test Series 2024 | Compiler Design | Test 2",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "387348",
+          "text": "<p>Consider the following statements given below</p>\n\n<ul>\n    <li>$\\mathrm{S} 1: \\text{A} \\rightarrow \\text{XYZ}\\{\\text{Y.S = A.S, Y.S = X.S, Y.S = Z.S}\\}$ is not an $\\text{L}$-attributed grammar since $\\text{Y.S = A.S}$ and $\\text{Y.S = X.S}$ are allowed but $\\text{Y.S = Z.S}$ violates the $\\text{L}$-attributed $\\text{SDT}$ definition as attributed is inheriting the value from its right sibling.</li>\n    <li>$\\text{S2} : \\text{S}$-attributed $\\text{SDTs}$ are evaluated in bottom-up parsing, as the values of the parent nodes depend upon the values of the child nodes.</li>\n</ul>\n\n<p>Which of the above statement(s) is/are CORRECT?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $\\text{S1}$</li>\n    <li>Only $\\text{S2}$</li>\n    <li>Both $\\text{S1}$ and $\\text{S2}$</li>\n    <li>Neither $\\text{S1}$ nor $\\text{S2}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,syntax-directed-translation,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387353",
+          "text": "<p>Which of the following is/are true about the following grammar $: \\mathrm{S} \\rightarrow \\mathrm{S}a \\mid b$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Given grammar is $\\operatorname{SLR}(1)$</li>\n    <li>Given grammar is $\\operatorname{LR}(0)$</li>\n    <li>A recursive descent parser can not parse given grammar</li>\n    <li>Set of all viable prefixes&nbsp;for given grammar is $\\{a, \\text{S}, b\\}$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,parsing,lr-parser,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387337",
+          "text": "<p>Which of the following is/are true about handles and viable prefixes in shift-reduce parsing?</p>\n\n<ol>\n    <li>Handles always appear at the top of the stack</li>\n    <li>Handles are never to the left of the rightmost nonterminal</li>\n    <li>A viable prefix does not extend past the right end of the handle</li>\n    <li>For any grammar, the set of viable prefixes is a regular language</li>\n    <li>Viable prefix is a prefix of the handle</li>\n    <li>As long as a parser has viable prefixes on the stack no parsing error has been detected</li>\n    <li>Bottom-up parsing algorithms are based on recognizing handles</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1, 2$ and $3$ are true</li>\n    <li>$4,6$ and $7$ are true</li>\n    <li>$5$ is wrong</li>\n    <li>All are true except $7$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,viable-prefix,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387361",
+          "text": "<p style=\"text-align:center\"><img alt=\"\" src=\"data:image/png;base64,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\"></p>\n\n<p><br>\nWhich of the following arithmetic expressions corresponds directly to the parse tree given by the diagram in the figure above?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2(a-c)$</li>\n    <li>$2a - 2c$</li>\n    <li>$2(a + b - c + b)$</li>\n    <li>$2((a + b)-(c + b))$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,parsing,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387343",
+          "text": "<p>Expressions in a certain language can be described in Backus-Naur form (BNF) as follows:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\n&lt; expression &gt; ::= &lt; term &gt; | &lt; expression &gt; op1 &lt; term &gt; \n&lt; term &gt; ::= &lt; item &gt; | &lt; term &gt; op2 &lt; item &gt; \n&lt; item &gt; ::= &lt; variable &gt; | &lt; number &gt;</pre>\n\n<p>The syntax is most appropriate when the order of evaluation is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>from left to right always</li>\n    <li>from left to right, but $\\textsf{op1}$ takes precedence over $\\textsf{op2}$</li>\n    <li>from left to right, but $\\textsf{op2}$ takes precedence over $\\textsf{op1}$</li>\n    <li>In any order, but $\\textsf{op1}$ takes precedence over $\\textsf{op2}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,expression-evaluation,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387351",
+          "text": "<p>In a language in which operations are associated right-to-left instead of left-to-right $(\\text{i.e}.,\\; a+b+c=a+(b+c)&nbsp;),$ the value of the expression<br>\n$$<br>\n7-(16 /(3+1) * 2)-4<br>\n$$<br>\nis</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$-1$</li>\n    <li>$1$</li>\n    <li>$3$</li>\n    <li>$9$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,parsing,expression-evaluation,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387357",
+          "text": "<p>Consider the following statements with respect to storage allocation:</p>\n\n<ul>\n    <li>$\\text{S1} :$ Names local to a procedure are allocated space on a heap automatically.</li>\n    <li>$\\text{S2} :$ Stack allocation is used for data that may live even after a procedure call returns.</li>\n    <li>$\\text{S3} :$ Heap allocation is used for symbol tables.</li>\n</ul>\n\n<p>Which one of the following is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{S1, S2}$ are false but $\\mathrm{S} 3$ is true</li>\n    <li>$\\text{S1, S2}$ and $\\text{S3}$ are false</li>\n    <li>$\\text{S1, S2}$ are true but $\\mathrm{S} 3$ is false</li>\n    <li>$\\text{S1, S3}$ are true but $\\mathrm{S} 2$ is false</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,symbol-table,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387349",
+          "text": "<p>Consider the Syntax-Directed Translation scheme given below.<br>\n$$\\begin{array}{|l|l|}\\hline\\; \\textbf {Grammar} &amp; \\quad \\textbf {Semantic Rules} \\\\\\hline \\mathrm{E}_1 \\rightarrow \\mathrm{E}_2+\\mathrm{T} &amp; \\mathrm{E}_1 \\text {.string }=\\mathrm{E}_1 \\text {.string } \\| \\text {T.string } \\| \\text { ‘+' } \\\\ \\mathrm{E}_1 \\rightarrow \\mathrm{T} &amp; \\mathrm{E}_1 \\cdot \\text {string }=\\mathrm{T} \\text {.string } \\\\\\mathrm{T}_1 \\rightarrow \\mathrm{T}_2 * \\mathrm{~F} &amp; \\mathrm{T}_1 \\text {.string }=\\mathrm{T}_2 \\text {.string } \\| \\text {F.string } \\| \\text { ‘*' }&nbsp;\\\\ \\mathrm{T} \\rightarrow \\mathrm{F} &amp; \\text {T.string }=\\text {F.string } \\\\ \\mathrm{F} \\rightarrow(\\mathrm{E}) &amp; \\text {F.string }=\\text {E.string } \\\\ \\mathrm{F} \\rightarrow \\text {num} &amp; \\text {F.string }=\\text { num.string }\\\\\\hline\\end{array}$$</p>\n\n<p>What does this SDT does?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>It translate arithmetic expression from infix into postfix notation</li>\n    <li>It translate arithmetic expression from postfix into infix notation</li>\n    <li>It translate arithmetic expression from prefix into postfix notation</li>\n    <li>It translate arithmetic expression from infix into prefix notation</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,syntax-directed-translation,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387346",
+          "text": "<p>The syntax of a propositional calculus can be described by the context-free grammar $\\text{G}=\\langle \\text{V}_n, \\text{V}_t, \\text{P, S}\\rangle$<br>\nwhere $V_n=\\{\\text{S}\\}, \\text{V}_t=\\{$ not, if, then, and, or, $p, q, r\\}$,<br>\n$$<br>\n\\begin{aligned}<br>\n\\text{P}=&amp;\\{\\text{S} \\rightarrow p, \\text{S} \\rightarrow q, \\text{S} \\rightarrow r\\\\<br>\n&amp; \\text{S} \\rightarrow \\text { not } \\text{S},\\\\<br>\n&amp; \\text{S} \\rightarrow \\text{if S then S}\\\\<br>\n&amp; \\text{S} \\rightarrow \\text{S or S},\\\\<br>\n&amp;\\text{S} \\rightarrow \\text{S and S}\\}<br>\n\\end{aligned}<br>\n$$<br>\nChoose the False statements about the above grammar and language :</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>The given grammar is ambiguous.</li>\n    <li>\"and\" has higher precedence than \"or\"</li>\n    <li>\"or\" has higher precedence than \"and\"</li>\n    <li>\"or\", \"and\" are left associative, But not right associative</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,context-free-grammar,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387339",
+          "text": "<p>Consider the following grammar $\\text{G :}$<br>\n$$\\mathrm{A} \\rightarrow \\mathrm{A}&nbsp;\\;\\text{and}\\; \\mathrm{A} \\mid \\mathrm{A}&nbsp;\\;\\text{or}\\; \\mathrm{A} \\mid&nbsp;\\langle&nbsp;\\mathrm{A} \\rangle&nbsp;\\mid&nbsp;\\text{true} \\mid&nbsp;\\text{false}$$<br>\nWhich of the following is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{G}$ can be parsed by a $\\text{LL(1)}$ parser</li>\n    <li>$\\text{G}$ can be parsed by a $\\text{LALR(1)}$ parser</li>\n    <li>$\\text{L}(\\mathrm{G})$ is ambiguous.</li>\n    <li>$\\mathrm{G}$ is ambiguous.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,parsing,lr-parser,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387344",
+          "text": "<p>Let $\\text{P}$ be a procedure that for some inputs calls itself (i.e., is recursive). If $\\text{P}$ is guaranteed to terminate. Which of the following statements must be true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{P}$ has a local variable.</li>\n    <li>$\\text{P}$ has an execution path where it does not call itself.</li>\n    <li>$\\text{P}$ either refers to a global variable or has at least one parameter.</li>\n    <li>$\\text{P}$ cannot have more than one parameter.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,viable-prefix,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387341",
+          "text": "<p>Which of the following statements are True/False, map them appropriately, with respect to syntax directed definitions?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n    <li>The terminals in a $\\text{SDD}$ can have both synthesized as well as inherited attributes.</li>\n    <li>Value of attributes of terminals is generally supplied by lexical analyzer</li>\n    <li>The start symbol doesn't have an inherited attribute</li>\n    <li>Attribute grammar is a $\\text{SDD}$ in which function in the semantic rules should produce side effects.</li>\n</ol>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{T T T T}$</li>\n    <li>$\\text{T F T F}$</li>\n    <li>$\\text{T T T F}$</li>\n    <li>$\\text{F T T F}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,syntax-directed-translation,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387355",
+          "text": "<p>Consider the syntax directed translation scheme given below:<br>\n$$<br>\n\\begin{array}{|l|l|}<br>\n\\hline \\text{S} \\rightarrow \\text{L} &amp; \\text{S.val} = \\text{L.val}\\\\<br>\n\\hline \\text{L} \\rightarrow \\text{L}_1 \\text{B} &amp; \\text{L.val} = \\text{L}_1 . \\mathrm{val} \\ast 2+\\text{B} . \\mathrm{val}\\\\<br>\n\\hline \\text{L} \\rightarrow \\text{B} &amp; \\text{L.val} = \\text{B.val}\\\\<br>\n\\hline \\text{B} \\rightarrow 0 &amp; \\text{B.val} =0\\\\<br>\n\\hline \\text{B} \\rightarrow 1 &amp; \\text{B.val} =1\\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$<br>\nIf the input string is $1101 ,$ then the value of attribute of starting symbol is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$5$</li>\n    <li>$13$</li>\n    <li>$110$</li>\n    <li>$20$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,syntax-directed-translation,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387359",
+          "text": "<p>Inherited attributes are attributes at a node whose dependency is</p><ol style=\"list-style-type:upper-alpha\"><li>Restricted to siblings</li><li>Restricted to parent</li><li>Either A or&nbsp;B or both</li><li>Either A or B but not both</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,syntax-directed-translation,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "387362",
+          "text": "<p>Consider the following $\\text{CFG},$ where the set of terminals is $\\{a, b, \\#, \\%, !\\}:$&nbsp;<br>\n$$<br>\n\\begin{aligned}<br>\n&amp;\\text{S} \\rightarrow \\% a \\text{T} \\mid \\text{U} !\\\\<br>\n&amp;\\text{T} \\rightarrow a \\text{S} \\mid&nbsp;b a \\text{T} \\mid&nbsp;\\epsilon\\\\<br>\n&amp;\\text{U} \\rightarrow \\# a \\text{TU} \\mid \\epsilon\\\\<br>\n\\end{aligned}<br>\n$$<br>\nWhich of the following is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>The $\\text{FIRST}$ sets for each of the nonterminals $\\mathrm{S}, \\mathrm{T}, \\mathrm{U}$ is as follows :<br>\n    $\\text{S}:\\{\\%, \\#, !\\}$<br>\n    $\\text{T}:\\{a, b, \\epsilon\\}$<br>\n    $\\text{U}:\\{\\#, \\epsilon\\}$</li>\n    <li>The $\\text{FOLLOW}$ sets for each of the nonterminals $\\mathrm{S}, \\mathrm{T}, \\mathrm{U}$ is as follows :<br>\n    $\\text{S}:\\{\\#, !, \\$\\}$<br>\n    $\\text{T}:\\{\\#, !, \\$\\}$<br>\n    $\\text{U}:\\{!\\}$</li>\n    <li>The grammar is $\\operatorname{LL}(1)$</li>\n    <li>The grammar is $\\operatorname{LR}(1)$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-cd-2,goclasses,compiler-design,parsing,first-and-follow,multiple-selects,one-mark",
+          "category": "Compiler Design"
+        }
+      ]
+    }
+  ]
+}

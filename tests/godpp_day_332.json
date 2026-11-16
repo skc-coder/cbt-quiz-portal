@@ -1,0 +1,70 @@
+{
+  "name": "Day 252 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "529687",
+          "text": "<p data-start=\"0\" data-end=\"157\">A fair six-sided die is rolled $4$ times. What is the probability that exactly $2$ of the outcomes are odd and the sum of the $4$ outcomes is $14$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"159\" data-end=\"176\">$\\frac{5}{54}$<br>&nbsp;</li><li data-start=\"178\" data-end=\"197\">$\\frac{19}{216}$<br>&nbsp;</li><li data-start=\"199\" data-end=\"218\">$\\frac{11}{108}$<br>&nbsp;</li><li data-start=\"220\" data-end=\"237\">$\\frac{7}{72}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 252"
+        },
+        {
+          "post_id": "529682",
+          "text": "A game machine releases $6$ tokens, and each token shows a random integer from $1$ to $6$ with equal probability. The probability that the total of the $6$ numbers shown is $24$ is $\\frac{X}{46656}$. The value of $X$ is $\\_\\_\\_\\_\\_\\_.$",
+          "type": "Numerical",
+          "answer": "3431",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 252"
+        },
+        {
+          "post_id": "529680",
+          "text": "A debate club has $14$ members, of which exactly $6$ have completed advanced training. A coach interviews $4$ members selected at random without replacement, one by one. The club is selected for an elite competition if at least $3$ of the $4$ interviewed members have completed advanced training, or if exactly $2$ of the $4$ interviewed members have completed advanced training and the first two interviewed members are both trained. Let the probability that the club is selected be denoted by $p$. Then $1001p =?$",
+          "type": "Numerical",
+          "answer": "245",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 252"
+        },
+        {
+          "post_id": "529674",
+          "text": "<p data-start=\"0\" data-end=\"206\">Let $X$ be a random variable that takes each integer value from $1$ to $30$ with equal probability $\\frac{1}{30}$. Define the random variable $Y = X \\bmod 7$. Calculate $P(Y=0) + P(Y=1) + P(Y=2)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"208\" data-end=\"283\">$\\frac{2}{5}$<br>&nbsp;</li><li data-start=\"208\" data-end=\"283\">$\\frac{7}{15}$<br>&nbsp;</li><li data-start=\"208\" data-end=\"283\">$\\frac{1}{2}$<br>&nbsp;</li><li data-start=\"208\" data-end=\"283\">$\\frac{8}{15}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 252"
+        },
+        {
+          "post_id": "529663",
+          "text": "<p>Among $60$ students in a class, $28$ earned an $A$ on the midterm, $25$ earned an $A$ on the final exam, and $21$ earned an $A$ on the project. Also, $11$ earned an $A$ on both the midterm and final, $10$ earned an $A$ on both the midterm and project, and $9$ earned an $A$ on both the final and project. If $14$ students did not earn an $A$ on any of the three, what is the probability that a randomly selected student earned an $A$ on all three?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{1}{15}$<br>&nbsp;</li><li>$\\frac{1}{30}$<br>&nbsp;</li><li>$\\frac{1}{20}$<br>&nbsp;</li><li>$\\frac{1}{10}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 252"
+        }
+      ]
+    }
+  ]
+}

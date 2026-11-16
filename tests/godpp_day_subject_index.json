@@ -1,0 +1,3831 @@
+[
+  {
+    "id": "godpp_day_1_combinatory",
+    "dayNum": 1,
+    "name": "Day 1 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_2_digitallogic",
+    "dayNum": 2,
+    "name": "Day 2 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_3_linearalgebra",
+    "dayNum": 3,
+    "name": "Day 3 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_4_algebra",
+    "dayNum": 4,
+    "name": "Day 4 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 3
+  },
+  {
+    "id": "godpp_day_4_linearalgebra",
+    "dayNum": 4,
+    "name": "Day 4 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_4_others",
+    "dayNum": 4,
+    "name": "Day 4 [Others]",
+    "subject": "Others",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_4_settheory",
+    "dayNum": 4,
+    "name": "Day 4 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 3
+  },
+  {
+    "id": "godpp_day_5_digitallogic",
+    "dayNum": 5,
+    "name": "Day 5 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_6_linearalgebra",
+    "dayNum": 6,
+    "name": "Day 6 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_7_digitallogic",
+    "dayNum": 7,
+    "name": "Day 7 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_8_digitallogic",
+    "dayNum": 8,
+    "name": "Day 8 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_9_linearalgebra",
+    "dayNum": 9,
+    "name": "Day 9 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_10_digitallogic",
+    "dayNum": 10,
+    "name": "Day 10 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_11_graphtheory",
+    "dayNum": 11,
+    "name": "Day 11 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_12_linearalgebra",
+    "dayNum": 12,
+    "name": "Day 12 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_13_combinatory",
+    "dayNum": 13,
+    "name": "Day 13 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_14_digitallogic",
+    "dayNum": 14,
+    "name": "Day 14 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_15_linearalgebra",
+    "dayNum": 15,
+    "name": "Day 15 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_16_digitallogic",
+    "dayNum": 16,
+    "name": "Day 16 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_17_calculus",
+    "dayNum": 17,
+    "name": "Day 17 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_18_programminginc",
+    "dayNum": 18,
+    "name": "Day 18 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_19_algebra",
+    "dayNum": 19,
+    "name": "Day 19 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_19_settheory",
+    "dayNum": 19,
+    "name": "Day 19 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_20_mathematicallogic",
+    "dayNum": 20,
+    "name": "Day 20 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_21_digitallogic",
+    "dayNum": 21,
+    "name": "Day 21 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_22_probability",
+    "dayNum": 22,
+    "name": "Day 22 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_23_calculus",
+    "dayNum": 23,
+    "name": "Day 23 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_24_graphtheory",
+    "dayNum": 24,
+    "name": "Day 24 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_25_programminginc",
+    "dayNum": 25,
+    "name": "Day 25 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_26_digitallogic",
+    "dayNum": 26,
+    "name": "Day 26 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_27_calculus",
+    "dayNum": 27,
+    "name": "Day 27 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_27_linearalgebra",
+    "dayNum": 27,
+    "name": "Day 27 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_28_graphtheory",
+    "dayNum": 28,
+    "name": "Day 28 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_29_programminginc",
+    "dayNum": 29,
+    "name": "Day 29 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_30_programminginc",
+    "dayNum": 30,
+    "name": "Day 30 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_31_combinatory",
+    "dayNum": 31,
+    "name": "Day 31 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_32_calculus",
+    "dayNum": 32,
+    "name": "Day 32 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_33_probability",
+    "dayNum": 33,
+    "name": "Day 33 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_34_digitallogic",
+    "dayNum": 34,
+    "name": "Day 34 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_35_architecture",
+    "dayNum": 35,
+    "name": "Day 35 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_35_co",
+    "dayNum": 35,
+    "name": "Day 35 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_36_linearalgebra",
+    "dayNum": 36,
+    "name": "Day 36 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_37_calculus",
+    "dayNum": 37,
+    "name": "Day 37 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_38_probability",
+    "dayNum": 38,
+    "name": "Day 38 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_39_architecture",
+    "dayNum": 39,
+    "name": "Day 39 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_39_co",
+    "dayNum": 39,
+    "name": "Day 39 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_40_mathematicallogic",
+    "dayNum": 40,
+    "name": "Day 40 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_41_graphtheory",
+    "dayNum": 41,
+    "name": "Day 41 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_42_databases",
+    "dayNum": 42,
+    "name": "Day 42 [Databases]",
+    "subject": "Databases",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_43_digitallogic",
+    "dayNum": 43,
+    "name": "Day 43 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_44_algebra",
+    "dayNum": 44,
+    "name": "Day 44 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_44_mathematicallogic",
+    "dayNum": 44,
+    "name": "Day 44 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_44_settheory",
+    "dayNum": 44,
+    "name": "Day 44 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_45_probability",
+    "dayNum": 45,
+    "name": "Day 45 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_46_combinatory",
+    "dayNum": 46,
+    "name": "Day 46 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_47_databases",
+    "dayNum": 47,
+    "name": "Day 47 [Databases]",
+    "subject": "Databases",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_48_architecture",
+    "dayNum": 48,
+    "name": "Day 48 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_48_co",
+    "dayNum": 48,
+    "name": "Day 48 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_49_digitallogic",
+    "dayNum": 49,
+    "name": "Day 49 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_50_programminginc",
+    "dayNum": 50,
+    "name": "Day 50 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_51_databases",
+    "dayNum": 51,
+    "name": "Day 51 [Databases]",
+    "subject": "Databases",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_52_artificialintelligence",
+    "dayNum": 52,
+    "name": "Day 52 [Artificial Intelligence]",
+    "subject": "Artificial Intelligence",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_53_mathematicallogic",
+    "dayNum": 53,
+    "name": "Day 53 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_54_graphtheory",
+    "dayNum": 54,
+    "name": "Day 54 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_55_databases",
+    "dayNum": 55,
+    "name": "Day 55 [Databases]",
+    "subject": "Databases",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_56_programminginc",
+    "dayNum": 56,
+    "name": "Day 56 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_57_probability",
+    "dayNum": 57,
+    "name": "Day 57 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_58_architecture",
+    "dayNum": 58,
+    "name": "Day 58 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_58_co",
+    "dayNum": 58,
+    "name": "Day 58 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_59_mathematicallogic",
+    "dayNum": 59,
+    "name": "Day 59 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_60_digitallogic",
+    "dayNum": 60,
+    "name": "Day 60 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_61_artificialintelligence",
+    "dayNum": 61,
+    "name": "Day 61 [Artificial Intelligence]",
+    "subject": "Artificial Intelligence",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_62_computernetworks",
+    "dayNum": 62,
+    "name": "Day 62 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_63_algorithms",
+    "dayNum": 63,
+    "name": "Day 63 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_64_architecture",
+    "dayNum": 64,
+    "name": "Day 64 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_64_co",
+    "dayNum": 64,
+    "name": "Day 64 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_65_algorithms",
+    "dayNum": 65,
+    "name": "Day 65 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_66_architecture",
+    "dayNum": 66,
+    "name": "Day 66 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_66_co",
+    "dayNum": 66,
+    "name": "Day 66 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_67_algorithms",
+    "dayNum": 67,
+    "name": "Day 67 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_68_architecture",
+    "dayNum": 68,
+    "name": "Day 68 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_68_co",
+    "dayNum": 68,
+    "name": "Day 68 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_69_algorithms",
+    "dayNum": 69,
+    "name": "Day 69 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_70_architecture",
+    "dayNum": 70,
+    "name": "Day 70 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_70_co",
+    "dayNum": 70,
+    "name": "Day 70 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_71_algorithms",
+    "dayNum": 71,
+    "name": "Day 71 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_72_architecture",
+    "dayNum": 72,
+    "name": "Day 72 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_72_co",
+    "dayNum": 72,
+    "name": "Day 72 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_73_algorithms",
+    "dayNum": 73,
+    "name": "Day 73 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_74_architecture",
+    "dayNum": 74,
+    "name": "Day 74 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_74_co",
+    "dayNum": 74,
+    "name": "Day 74 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_75_algorithms",
+    "dayNum": 75,
+    "name": "Day 75 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_76_architecture",
+    "dayNum": 76,
+    "name": "Day 76 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_76_co",
+    "dayNum": 76,
+    "name": "Day 76 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_77_algorithms",
+    "dayNum": 77,
+    "name": "Day 77 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_78_architecture",
+    "dayNum": 78,
+    "name": "Day 78 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_78_co",
+    "dayNum": 78,
+    "name": "Day 78 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_79_algorithms",
+    "dayNum": 79,
+    "name": "Day 79 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_80_architecture",
+    "dayNum": 80,
+    "name": "Day 80 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_80_co",
+    "dayNum": 80,
+    "name": "Day 80 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_81_algorithms",
+    "dayNum": 81,
+    "name": "Day 81 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_82_architecture",
+    "dayNum": 82,
+    "name": "Day 82 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_82_co",
+    "dayNum": 82,
+    "name": "Day 82 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_83_algorithms",
+    "dayNum": 83,
+    "name": "Day 83 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_84_architecture",
+    "dayNum": 84,
+    "name": "Day 84 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_84_co",
+    "dayNum": 84,
+    "name": "Day 84 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_85_algorithms",
+    "dayNum": 85,
+    "name": "Day 85 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_86_architecture",
+    "dayNum": 86,
+    "name": "Day 86 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_86_co",
+    "dayNum": 86,
+    "name": "Day 86 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_87_algorithms",
+    "dayNum": 87,
+    "name": "Day 87 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_88_architecture",
+    "dayNum": 88,
+    "name": "Day 88 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_88_co",
+    "dayNum": 88,
+    "name": "Day 88 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_89_algorithms",
+    "dayNum": 89,
+    "name": "Day 89 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_90_architecture",
+    "dayNum": 90,
+    "name": "Day 90 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_90_co",
+    "dayNum": 90,
+    "name": "Day 90 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_91_algorithms",
+    "dayNum": 91,
+    "name": "Day 91 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_92_architecture",
+    "dayNum": 92,
+    "name": "Day 92 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_92_co",
+    "dayNum": 92,
+    "name": "Day 92 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_93_algorithms",
+    "dayNum": 93,
+    "name": "Day 93 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_94_algorithms",
+    "dayNum": 94,
+    "name": "Day 94 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_95_architecture",
+    "dayNum": 95,
+    "name": "Day 95 [Architecture]",
+    "subject": "Architecture",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_95_co",
+    "dayNum": 95,
+    "name": "Day 95 [CO]",
+    "subject": "CO",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_96_computernetworks",
+    "dayNum": 96,
+    "name": "Day 96 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_97_algorithms",
+    "dayNum": 97,
+    "name": "Day 97 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_98_computernetworks",
+    "dayNum": 98,
+    "name": "Day 98 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_99_algorithms",
+    "dayNum": 99,
+    "name": "Day 99 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_100_computernetworks",
+    "dayNum": 100,
+    "name": "Day 100 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_101_algorithms",
+    "dayNum": 101,
+    "name": "Day 101 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_102_computernetworks",
+    "dayNum": 102,
+    "name": "Day 102 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_103_theoryofcomputation",
+    "dayNum": 103,
+    "name": "Day 103 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_104_computernetworks",
+    "dayNum": 104,
+    "name": "Day 104 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_105_theoryofcomputation",
+    "dayNum": 105,
+    "name": "Day 105 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_106_computernetworks",
+    "dayNum": 106,
+    "name": "Day 106 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_107_theoryofcomputation",
+    "dayNum": 107,
+    "name": "Day 107 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_108_computernetworks",
+    "dayNum": 108,
+    "name": "Day 108 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_109_theoryofcomputation",
+    "dayNum": 109,
+    "name": "Day 109 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_110_computernetworks",
+    "dayNum": 110,
+    "name": "Day 110 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_111_theoryofcomputation",
+    "dayNum": 111,
+    "name": "Day 111 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_112_computernetworks",
+    "dayNum": 112,
+    "name": "Day 112 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_113_theoryofcomputation",
+    "dayNum": 113,
+    "name": "Day 113 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_114_computernetworks",
+    "dayNum": 114,
+    "name": "Day 114 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_115_theoryofcomputation",
+    "dayNum": 115,
+    "name": "Day 115 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_116_computernetworks",
+    "dayNum": 116,
+    "name": "Day 116 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_117_theoryofcomputation",
+    "dayNum": 117,
+    "name": "Day 117 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_118_computernetworks",
+    "dayNum": 118,
+    "name": "Day 118 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_119_theoryofcomputation",
+    "dayNum": 119,
+    "name": "Day 119 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_120_computernetworks",
+    "dayNum": 120,
+    "name": "Day 120 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_121_theoryofcomputation",
+    "dayNum": 121,
+    "name": "Day 121 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_122_computernetworks",
+    "dayNum": 122,
+    "name": "Day 122 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_123_theoryofcomputation",
+    "dayNum": 123,
+    "name": "Day 123 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_124_computernetworks",
+    "dayNum": 124,
+    "name": "Day 124 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_125_theoryofcomputation",
+    "dayNum": 125,
+    "name": "Day 125 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_126_computernetworks",
+    "dayNum": 126,
+    "name": "Day 126 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_127_theoryofcomputation",
+    "dayNum": 127,
+    "name": "Day 127 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_128_computernetworks",
+    "dayNum": 128,
+    "name": "Day 128 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_129_theoryofcomputation",
+    "dayNum": 129,
+    "name": "Day 129 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_130_computernetworks",
+    "dayNum": 130,
+    "name": "Day 130 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_131_theoryofcomputation",
+    "dayNum": 131,
+    "name": "Day 131 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_132_computernetworks",
+    "dayNum": 132,
+    "name": "Day 132 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_133_theoryofcomputation",
+    "dayNum": 133,
+    "name": "Day 133 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_134_computernetworks",
+    "dayNum": 134,
+    "name": "Day 134 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_135_theoryofcomputation",
+    "dayNum": 135,
+    "name": "Day 135 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_136_computernetworks",
+    "dayNum": 136,
+    "name": "Day 136 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_137_theoryofcomputation",
+    "dayNum": 137,
+    "name": "Day 137 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_138_computernetworks",
+    "dayNum": 138,
+    "name": "Day 138 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_139_theoryofcomputation",
+    "dayNum": 139,
+    "name": "Day 139 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_140_computernetworks",
+    "dayNum": 140,
+    "name": "Day 140 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_141_theoryofcomputation",
+    "dayNum": 141,
+    "name": "Day 141 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_142_computernetworks",
+    "dayNum": 142,
+    "name": "Day 142 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_143_compilerdesign",
+    "dayNum": 143,
+    "name": "Day 143 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_144_computernetworks",
+    "dayNum": 144,
+    "name": "Day 144 [Computer Networks]",
+    "subject": "Computer Networks",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_145_compilerdesign",
+    "dayNum": 145,
+    "name": "Day 145 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_146_operatingsystem",
+    "dayNum": 146,
+    "name": "Day 146 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_147_compilerdesign",
+    "dayNum": 147,
+    "name": "Day 147 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_148_operatingsystem",
+    "dayNum": 148,
+    "name": "Day 148 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_149_compilerdesign",
+    "dayNum": 149,
+    "name": "Day 149 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_150_operatingsystem",
+    "dayNum": 150,
+    "name": "Day 150 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_151_compilerdesign",
+    "dayNum": 151,
+    "name": "Day 151 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_151_probability",
+    "dayNum": 151,
+    "name": "Day 151 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_152_operatingsystem",
+    "dayNum": 152,
+    "name": "Day 152 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_153_compilerdesign",
+    "dayNum": 153,
+    "name": "Day 153 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_154_operatingsystem",
+    "dayNum": 154,
+    "name": "Day 154 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_155_compilerdesign",
+    "dayNum": 155,
+    "name": "Day 155 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_156_operatingsystem",
+    "dayNum": 156,
+    "name": "Day 156 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_157_compilerdesign",
+    "dayNum": 157,
+    "name": "Day 157 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_158_operatingsystem",
+    "dayNum": 158,
+    "name": "Day 158 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_159_compilerdesign",
+    "dayNum": 159,
+    "name": "Day 159 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_160_operatingsystem",
+    "dayNum": 160,
+    "name": "Day 160 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_161_compilerdesign",
+    "dayNum": 161,
+    "name": "Day 161 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_162_operatingsystem",
+    "dayNum": 162,
+    "name": "Day 162 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_163_compilerdesign",
+    "dayNum": 163,
+    "name": "Day 163 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_164_operatingsystem",
+    "dayNum": 164,
+    "name": "Day 164 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_165_compilerdesign",
+    "dayNum": 165,
+    "name": "Day 165 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_166_operatingsystem",
+    "dayNum": 166,
+    "name": "Day 166 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_167_compilerdesign",
+    "dayNum": 167,
+    "name": "Day 167 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_168_operatingsystem",
+    "dayNum": 168,
+    "name": "Day 168 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_169_compilerdesign",
+    "dayNum": 169,
+    "name": "Day 169 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_170_operatingsystem",
+    "dayNum": 170,
+    "name": "Day 170 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_171_compilerdesign",
+    "dayNum": 171,
+    "name": "Day 171 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_172_operatingsystem",
+    "dayNum": 172,
+    "name": "Day 172 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_173_compilerdesign",
+    "dayNum": 173,
+    "name": "Day 173 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_174_operatingsystem",
+    "dayNum": 174,
+    "name": "Day 174 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_175_programminginpython",
+    "dayNum": 175,
+    "name": "Day 175 [Programming in Python]",
+    "subject": "Programming in Python",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_176_operatingsystem",
+    "dayNum": 176,
+    "name": "Day 176 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_177_compilerdesign",
+    "dayNum": 177,
+    "name": "Day 177 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_178_operatingsystem",
+    "dayNum": 178,
+    "name": "Day 178 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_179_compilerdesign",
+    "dayNum": 179,
+    "name": "Day 179 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_180_operatingsystem",
+    "dayNum": 180,
+    "name": "Day 180 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_181_compilerdesign",
+    "dayNum": 181,
+    "name": "Day 181 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_182_operatingsystem",
+    "dayNum": 182,
+    "name": "Day 182 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_183_compilerdesign",
+    "dayNum": 183,
+    "name": "Day 183 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_184_operatingsystem",
+    "dayNum": 184,
+    "name": "Day 184 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_185_compilerdesign",
+    "dayNum": 185,
+    "name": "Day 185 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_186_operatingsystem",
+    "dayNum": 186,
+    "name": "Day 186 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_187_compilerdesign",
+    "dayNum": 187,
+    "name": "Day 187 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_188_operatingsystem",
+    "dayNum": 188,
+    "name": "Day 188 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_189_compilerdesign",
+    "dayNum": 189,
+    "name": "Day 189 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_190_operatingsystem",
+    "dayNum": 190,
+    "name": "Day 190 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_191_compilerdesign",
+    "dayNum": 191,
+    "name": "Day 191 [Compiler Design]",
+    "subject": "Compiler Design",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_192_operatingsystem",
+    "dayNum": 192,
+    "name": "Day 192 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_193_digitallogic",
+    "dayNum": 193,
+    "name": "Day 193 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_194_operatingsystem",
+    "dayNum": 194,
+    "name": "Day 194 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_195_digitallogic",
+    "dayNum": 195,
+    "name": "Day 195 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_196_operatingsystem",
+    "dayNum": 196,
+    "name": "Day 196 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_197_digitallogic",
+    "dayNum": 197,
+    "name": "Day 197 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_198_operatingsystem",
+    "dayNum": 198,
+    "name": "Day 198 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_199_digitallogic",
+    "dayNum": 199,
+    "name": "Day 199 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_200_operatingsystem",
+    "dayNum": 200,
+    "name": "Day 200 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_201_digitallogic",
+    "dayNum": 201,
+    "name": "Day 201 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_202_operatingsystem",
+    "dayNum": 202,
+    "name": "Day 202 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_203_digitallogic",
+    "dayNum": 203,
+    "name": "Day 203 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_204_operatingsystem",
+    "dayNum": 204,
+    "name": "Day 204 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_205_digitallogic",
+    "dayNum": 205,
+    "name": "Day 205 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_206_operatingsystem",
+    "dayNum": 206,
+    "name": "Day 206 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_207_digitallogic",
+    "dayNum": 207,
+    "name": "Day 207 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_208_operatingsystem",
+    "dayNum": 208,
+    "name": "Day 208 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_209_linearalgebra",
+    "dayNum": 209,
+    "name": "Day 209 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_209_mathematicallogic",
+    "dayNum": 209,
+    "name": "Day 209 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_210_linearalgebra",
+    "dayNum": 210,
+    "name": "Day 210 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_210_mathematicallogic",
+    "dayNum": 210,
+    "name": "Day 210 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_211_linearalgebra",
+    "dayNum": 211,
+    "name": "Day 211 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_211_mathematicallogic",
+    "dayNum": 211,
+    "name": "Day 211 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_212_linearalgebra",
+    "dayNum": 212,
+    "name": "Day 212 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_212_mathematicallogic",
+    "dayNum": 212,
+    "name": "Day 212 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_213_linearalgebra",
+    "dayNum": 213,
+    "name": "Day 213 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_213_mathematicallogic",
+    "dayNum": 213,
+    "name": "Day 213 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_214_linearalgebra",
+    "dayNum": 214,
+    "name": "Day 214 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_214_mathematicallogic",
+    "dayNum": 214,
+    "name": "Day 214 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_215_linearalgebra",
+    "dayNum": 215,
+    "name": "Day 215 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_215_mathematicallogic",
+    "dayNum": 215,
+    "name": "Day 215 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_216_linearalgebra",
+    "dayNum": 216,
+    "name": "Day 216 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_216_mathematicallogic",
+    "dayNum": 216,
+    "name": "Day 216 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_217_linearalgebra",
+    "dayNum": 217,
+    "name": "Day 217 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_217_mathematicallogic",
+    "dayNum": 217,
+    "name": "Day 217 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_218_linearalgebra",
+    "dayNum": 218,
+    "name": "Day 218 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_218_mathematicallogic",
+    "dayNum": 218,
+    "name": "Day 218 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_219_datastructures",
+    "dayNum": 219,
+    "name": "Day 219 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 3
+  },
+  {
+    "id": "godpp_day_219_linearalgebra",
+    "dayNum": 219,
+    "name": "Day 219 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_219_mathematicallogic",
+    "dayNum": 219,
+    "name": "Day 219 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_220_linearalgebra",
+    "dayNum": 220,
+    "name": "Day 220 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_220_mathematicallogic",
+    "dayNum": 220,
+    "name": "Day 220 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_221_datastructures",
+    "dayNum": 221,
+    "name": "Day 221 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_221_linearalgebra",
+    "dayNum": 221,
+    "name": "Day 221 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_221_mathematicallogic",
+    "dayNum": 221,
+    "name": "Day 221 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_222_datastructures",
+    "dayNum": 222,
+    "name": "Day 222 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_222_linearalgebra",
+    "dayNum": 222,
+    "name": "Day 222 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_222_mathematicallogic",
+    "dayNum": 222,
+    "name": "Day 222 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_223_datastructures",
+    "dayNum": 223,
+    "name": "Day 223 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 6
+  },
+  {
+    "id": "godpp_day_223_linearalgebra",
+    "dayNum": 223,
+    "name": "Day 223 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_223_mathematicallogic",
+    "dayNum": 223,
+    "name": "Day 223 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_224_datastructures",
+    "dayNum": 224,
+    "name": "Day 224 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_224_linearalgebra",
+    "dayNum": 224,
+    "name": "Day 224 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_224_mathematicallogic",
+    "dayNum": 224,
+    "name": "Day 224 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_225_datastructures",
+    "dayNum": 225,
+    "name": "Day 225 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_225_linearalgebra",
+    "dayNum": 225,
+    "name": "Day 225 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_225_mathematicallogic",
+    "dayNum": 225,
+    "name": "Day 225 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_226_datastructures",
+    "dayNum": 226,
+    "name": "Day 226 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_226_linearalgebra",
+    "dayNum": 226,
+    "name": "Day 226 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_226_mathematicallogic",
+    "dayNum": 226,
+    "name": "Day 226 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_227_datastructures",
+    "dayNum": 227,
+    "name": "Day 227 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_227_linearalgebra",
+    "dayNum": 227,
+    "name": "Day 227 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_227_mathematicallogic",
+    "dayNum": 227,
+    "name": "Day 227 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_228_datastructures",
+    "dayNum": 228,
+    "name": "Day 228 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_228_linearalgebra",
+    "dayNum": 228,
+    "name": "Day 228 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_228_mathematicallogic",
+    "dayNum": 228,
+    "name": "Day 228 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_229_datastructures",
+    "dayNum": 229,
+    "name": "Day 229 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_229_linearalgebra",
+    "dayNum": 229,
+    "name": "Day 229 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_229_mathematicallogic",
+    "dayNum": 229,
+    "name": "Day 229 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_230_datastructures",
+    "dayNum": 230,
+    "name": "Day 230 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_230_linearalgebra",
+    "dayNum": 230,
+    "name": "Day 230 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_230_mathematicallogic",
+    "dayNum": 230,
+    "name": "Day 230 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_231_datastructures",
+    "dayNum": 231,
+    "name": "Day 231 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_231_linearalgebra",
+    "dayNum": 231,
+    "name": "Day 231 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_231_mathematicallogic",
+    "dayNum": 231,
+    "name": "Day 231 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_232_datastructures",
+    "dayNum": 232,
+    "name": "Day 232 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_232_linearalgebra",
+    "dayNum": 232,
+    "name": "Day 232 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_232_mathematicallogic",
+    "dayNum": 232,
+    "name": "Day 232 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_233_datastructures",
+    "dayNum": 233,
+    "name": "Day 233 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_233_linearalgebra",
+    "dayNum": 233,
+    "name": "Day 233 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_233_mathematicallogic",
+    "dayNum": 233,
+    "name": "Day 233 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_234_datastructures",
+    "dayNum": 234,
+    "name": "Day 234 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_234_linearalgebra",
+    "dayNum": 234,
+    "name": "Day 234 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_234_mathematicallogic",
+    "dayNum": 234,
+    "name": "Day 234 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_235_algebra",
+    "dayNum": 235,
+    "name": "Day 235 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_235_datastructures",
+    "dayNum": 235,
+    "name": "Day 235 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_235_linearalgebra",
+    "dayNum": 235,
+    "name": "Day 235 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_235_mathematicallogic",
+    "dayNum": 235,
+    "name": "Day 235 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_235_settheory",
+    "dayNum": 235,
+    "name": "Day 235 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_236_algebra",
+    "dayNum": 236,
+    "name": "Day 236 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_236_algorithms",
+    "dayNum": 236,
+    "name": "Day 236 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_236_linearalgebra",
+    "dayNum": 236,
+    "name": "Day 236 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_236_settheory",
+    "dayNum": 236,
+    "name": "Day 236 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_237_algebra",
+    "dayNum": 237,
+    "name": "Day 237 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_237_algorithms",
+    "dayNum": 237,
+    "name": "Day 237 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 3
+  },
+  {
+    "id": "godpp_day_237_linearalgebra",
+    "dayNum": 237,
+    "name": "Day 237 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_237_settheory",
+    "dayNum": 237,
+    "name": "Day 237 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_238_algebra",
+    "dayNum": 238,
+    "name": "Day 238 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_238_algorithms",
+    "dayNum": 238,
+    "name": "Day 238 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_238_linearalgebra",
+    "dayNum": 238,
+    "name": "Day 238 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_238_settheory",
+    "dayNum": 238,
+    "name": "Day 238 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_239_algebra",
+    "dayNum": 239,
+    "name": "Day 239 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_239_algorithms",
+    "dayNum": 239,
+    "name": "Day 239 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_239_linearalgebra",
+    "dayNum": 239,
+    "name": "Day 239 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_239_settheory",
+    "dayNum": 239,
+    "name": "Day 239 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_240_algebra",
+    "dayNum": 240,
+    "name": "Day 240 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_240_algorithms",
+    "dayNum": 240,
+    "name": "Day 240 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_240_linearalgebra",
+    "dayNum": 240,
+    "name": "Day 240 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_240_settheory",
+    "dayNum": 240,
+    "name": "Day 240 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_241_algebra",
+    "dayNum": 241,
+    "name": "Day 241 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_241_algorithms",
+    "dayNum": 241,
+    "name": "Day 241 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_241_linearalgebra",
+    "dayNum": 241,
+    "name": "Day 241 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_241_settheory",
+    "dayNum": 241,
+    "name": "Day 241 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_242_algebra",
+    "dayNum": 242,
+    "name": "Day 242 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_242_algorithms",
+    "dayNum": 242,
+    "name": "Day 242 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_242_linearalgebra",
+    "dayNum": 242,
+    "name": "Day 242 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_242_settheory",
+    "dayNum": 242,
+    "name": "Day 242 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_243_algebra",
+    "dayNum": 243,
+    "name": "Day 243 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_243_algorithms",
+    "dayNum": 243,
+    "name": "Day 243 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_243_linearalgebra",
+    "dayNum": 243,
+    "name": "Day 243 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_243_settheory",
+    "dayNum": 243,
+    "name": "Day 243 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_244_algebra",
+    "dayNum": 244,
+    "name": "Day 244 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_244_algorithms",
+    "dayNum": 244,
+    "name": "Day 244 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_244_linearalgebra",
+    "dayNum": 244,
+    "name": "Day 244 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_244_mathematicallogic",
+    "dayNum": 244,
+    "name": "Day 244 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_244_settheory",
+    "dayNum": 244,
+    "name": "Day 244 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_245_algebra",
+    "dayNum": 245,
+    "name": "Day 245 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_245_algorithms",
+    "dayNum": 245,
+    "name": "Day 245 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_245_linearalgebra",
+    "dayNum": 245,
+    "name": "Day 245 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_245_settheory",
+    "dayNum": 245,
+    "name": "Day 245 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_246_algebra",
+    "dayNum": 246,
+    "name": "Day 246 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_246_algorithms",
+    "dayNum": 246,
+    "name": "Day 246 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_246_linearalgebra",
+    "dayNum": 246,
+    "name": "Day 246 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_246_settheory",
+    "dayNum": 246,
+    "name": "Day 246 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_247_algebra",
+    "dayNum": 247,
+    "name": "Day 247 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_247_algorithms",
+    "dayNum": 247,
+    "name": "Day 247 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_247_linearalgebra",
+    "dayNum": 247,
+    "name": "Day 247 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_247_settheory",
+    "dayNum": 247,
+    "name": "Day 247 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_248_algebra",
+    "dayNum": 248,
+    "name": "Day 248 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_248_algorithms",
+    "dayNum": 248,
+    "name": "Day 248 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_248_linearalgebra",
+    "dayNum": 248,
+    "name": "Day 248 [Linear Algebra]",
+    "subject": "Linear Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_248_settheory",
+    "dayNum": 248,
+    "name": "Day 248 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_249_algorithms",
+    "dayNum": 249,
+    "name": "Day 249 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_249_combinatory",
+    "dayNum": 249,
+    "name": "Day 249 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_250_algorithms",
+    "dayNum": 250,
+    "name": "Day 250 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_250_combinatory",
+    "dayNum": 250,
+    "name": "Day 250 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_250_probability",
+    "dayNum": 250,
+    "name": "Day 250 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_251_combinatory",
+    "dayNum": 251,
+    "name": "Day 251 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_251_probability",
+    "dayNum": 251,
+    "name": "Day 251 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_252_combinatory",
+    "dayNum": 252,
+    "name": "Day 252 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_252_probability",
+    "dayNum": 252,
+    "name": "Day 252 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_253_combinatory",
+    "dayNum": 253,
+    "name": "Day 253 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_253_probability",
+    "dayNum": 253,
+    "name": "Day 253 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_254_combinatory",
+    "dayNum": 254,
+    "name": "Day 254 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_254_probability",
+    "dayNum": 254,
+    "name": "Day 254 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_255_combinatory",
+    "dayNum": 255,
+    "name": "Day 255 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_255_mathematicallogic",
+    "dayNum": 255,
+    "name": "Day 255 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_255_probability",
+    "dayNum": 255,
+    "name": "Day 255 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_256_combinatory",
+    "dayNum": 256,
+    "name": "Day 256 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_256_probability",
+    "dayNum": 256,
+    "name": "Day 256 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_257_combinatory",
+    "dayNum": 257,
+    "name": "Day 257 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_257_probability",
+    "dayNum": 257,
+    "name": "Day 257 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_258_combinatory",
+    "dayNum": 258,
+    "name": "Day 258 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_258_probability",
+    "dayNum": 258,
+    "name": "Day 258 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_259_combinatory",
+    "dayNum": 259,
+    "name": "Day 259 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_259_probability",
+    "dayNum": 259,
+    "name": "Day 259 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_260_combinatory",
+    "dayNum": 260,
+    "name": "Day 260 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_260_probability",
+    "dayNum": 260,
+    "name": "Day 260 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_261_combinatory",
+    "dayNum": 261,
+    "name": "Day 261 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_261_probability",
+    "dayNum": 261,
+    "name": "Day 261 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_262_combinatory",
+    "dayNum": 262,
+    "name": "Day 262 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_262_probability",
+    "dayNum": 262,
+    "name": "Day 262 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_263_combinatory",
+    "dayNum": 263,
+    "name": "Day 263 [Combinatory]",
+    "subject": "Combinatory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_263_probability",
+    "dayNum": 263,
+    "name": "Day 263 [Probability]",
+    "subject": "Probability",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_264_algebra",
+    "dayNum": 264,
+    "name": "Day 264 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_264_calculus",
+    "dayNum": 264,
+    "name": "Day 264 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_264_settheory",
+    "dayNum": 264,
+    "name": "Day 264 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_265_algebra",
+    "dayNum": 265,
+    "name": "Day 265 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_265_calculus",
+    "dayNum": 265,
+    "name": "Day 265 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_265_settheory",
+    "dayNum": 265,
+    "name": "Day 265 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_266_algebra",
+    "dayNum": 266,
+    "name": "Day 266 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_266_calculus",
+    "dayNum": 266,
+    "name": "Day 266 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_266_settheory",
+    "dayNum": 266,
+    "name": "Day 266 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_267_algebra",
+    "dayNum": 267,
+    "name": "Day 267 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_267_calculus",
+    "dayNum": 267,
+    "name": "Day 267 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_267_settheory",
+    "dayNum": 267,
+    "name": "Day 267 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_268_algebra",
+    "dayNum": 268,
+    "name": "Day 268 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_268_calculus",
+    "dayNum": 268,
+    "name": "Day 268 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_268_settheory",
+    "dayNum": 268,
+    "name": "Day 268 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_269_algebra",
+    "dayNum": 269,
+    "name": "Day 269 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_269_calculus",
+    "dayNum": 269,
+    "name": "Day 269 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_269_discretemathematics",
+    "dayNum": 269,
+    "name": "Day 269 [Discrete Mathematics]",
+    "subject": "Discrete Mathematics",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_269_settheory",
+    "dayNum": 269,
+    "name": "Day 269 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_270_calculus",
+    "dayNum": 270,
+    "name": "Day 270 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_270_mathematicallogic",
+    "dayNum": 270,
+    "name": "Day 270 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_271_calculus",
+    "dayNum": 271,
+    "name": "Day 271 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_271_discretemathematics",
+    "dayNum": 271,
+    "name": "Day 271 [Discrete Mathematics]",
+    "subject": "Discrete Mathematics",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_271_mathematicallogic",
+    "dayNum": 271,
+    "name": "Day 271 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_272_calculus",
+    "dayNum": 272,
+    "name": "Day 272 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_272_mathematicallogic",
+    "dayNum": 272,
+    "name": "Day 272 [Mathematical Logic]",
+    "subject": "Mathematical Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_273_algebra",
+    "dayNum": 273,
+    "name": "Day 273 [Algebra]",
+    "subject": "Algebra",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_273_calculus",
+    "dayNum": 273,
+    "name": "Day 273 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_273_settheory",
+    "dayNum": 273,
+    "name": "Day 273 [Set Theory]",
+    "subject": "Set Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_274_calculus",
+    "dayNum": 274,
+    "name": "Day 274 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_274_graphtheory",
+    "dayNum": 274,
+    "name": "Day 274 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_275_calculus",
+    "dayNum": 275,
+    "name": "Day 275 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_275_graphtheory",
+    "dayNum": 275,
+    "name": "Day 275 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_276_calculus",
+    "dayNum": 276,
+    "name": "Day 276 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_276_graphtheory",
+    "dayNum": 276,
+    "name": "Day 276 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_277_calculus",
+    "dayNum": 277,
+    "name": "Day 277 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_277_graphtheory",
+    "dayNum": 277,
+    "name": "Day 277 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_278_calculus",
+    "dayNum": 278,
+    "name": "Day 278 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_278_graphtheory",
+    "dayNum": 278,
+    "name": "Day 278 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_279_calculus",
+    "dayNum": 279,
+    "name": "Day 279 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_279_graphtheory",
+    "dayNum": 279,
+    "name": "Day 279 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_280_calculus",
+    "dayNum": 280,
+    "name": "Day 280 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_280_graphtheory",
+    "dayNum": 280,
+    "name": "Day 280 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_281_calculus",
+    "dayNum": 281,
+    "name": "Day 281 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_281_graphtheory",
+    "dayNum": 281,
+    "name": "Day 281 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_282_calculus",
+    "dayNum": 282,
+    "name": "Day 282 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_282_graphtheory",
+    "dayNum": 282,
+    "name": "Day 282 [Graph Theory]",
+    "subject": "Graph Theory",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_283_calculus",
+    "dayNum": 283,
+    "name": "Day 283 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_283_digitallogic",
+    "dayNum": 283,
+    "name": "Day 283 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_284_calculus",
+    "dayNum": 284,
+    "name": "Day 284 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_284_digitallogic",
+    "dayNum": 284,
+    "name": "Day 284 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_285_calculus",
+    "dayNum": 285,
+    "name": "Day 285 [Calculus]",
+    "subject": "Calculus",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_285_digitallogic",
+    "dayNum": 285,
+    "name": "Day 285 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_286_digitallogic",
+    "dayNum": 286,
+    "name": "Day 286 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_286_programminginc",
+    "dayNum": 286,
+    "name": "Day 286 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_287_digitallogic",
+    "dayNum": 287,
+    "name": "Day 287 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_287_programminginc",
+    "dayNum": 287,
+    "name": "Day 287 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_288_digitallogic",
+    "dayNum": 288,
+    "name": "Day 288 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_288_programminginc",
+    "dayNum": 288,
+    "name": "Day 288 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_289_digitallogic",
+    "dayNum": 289,
+    "name": "Day 289 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_289_programminginc",
+    "dayNum": 289,
+    "name": "Day 289 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_290_digitallogic",
+    "dayNum": 290,
+    "name": "Day 290 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_290_programminginc",
+    "dayNum": 290,
+    "name": "Day 290 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_291_digitallogic",
+    "dayNum": 291,
+    "name": "Day 291 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_291_programminginc",
+    "dayNum": 291,
+    "name": "Day 291 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_292_digitallogic",
+    "dayNum": 292,
+    "name": "Day 292 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_292_programminginc",
+    "dayNum": 292,
+    "name": "Day 292 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_293_digitallogic",
+    "dayNum": 293,
+    "name": "Day 293 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_293_programminginc",
+    "dayNum": 293,
+    "name": "Day 293 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_294_digitallogic",
+    "dayNum": 294,
+    "name": "Day 294 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_294_programminginc",
+    "dayNum": 294,
+    "name": "Day 294 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_295_digitallogic",
+    "dayNum": 295,
+    "name": "Day 295 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_295_programminginc",
+    "dayNum": 295,
+    "name": "Day 295 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_296_digitallogic",
+    "dayNum": 296,
+    "name": "Day 296 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_296_programminginc",
+    "dayNum": 296,
+    "name": "Day 296 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_297_digitallogic",
+    "dayNum": 297,
+    "name": "Day 297 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_297_programminginc",
+    "dayNum": 297,
+    "name": "Day 297 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_299_digitallogic",
+    "dayNum": 299,
+    "name": "Day 299 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_299_programminginc",
+    "dayNum": 299,
+    "name": "Day 299 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_300_digitallogic",
+    "dayNum": 300,
+    "name": "Day 300 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_300_programminginc",
+    "dayNum": 300,
+    "name": "Day 300 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_300_programming",
+    "dayNum": 300,
+    "name": "Day 300 [Programming]",
+    "subject": "Programming",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_301_digitallogic",
+    "dayNum": 301,
+    "name": "Day 301 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_301_programminginc",
+    "dayNum": 301,
+    "name": "Day 301 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_302_digitallogic",
+    "dayNum": 302,
+    "name": "Day 302 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_302_programminginc",
+    "dayNum": 302,
+    "name": "Day 302 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_303_digitallogic",
+    "dayNum": 303,
+    "name": "Day 303 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_303_programminginc",
+    "dayNum": 303,
+    "name": "Day 303 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_304_digitallogic",
+    "dayNum": 304,
+    "name": "Day 304 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_304_programminginc",
+    "dayNum": 304,
+    "name": "Day 304 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_305_digitallogic",
+    "dayNum": 305,
+    "name": "Day 305 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_305_programminginc",
+    "dayNum": 305,
+    "name": "Day 305 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_306_digitallogic",
+    "dayNum": 306,
+    "name": "Day 306 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_306_programminginc",
+    "dayNum": 306,
+    "name": "Day 306 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_307_digitallogic",
+    "dayNum": 307,
+    "name": "Day 307 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_307_programminginc",
+    "dayNum": 307,
+    "name": "Day 307 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_308_digitallogic",
+    "dayNum": 308,
+    "name": "Day 308 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_308_programminginc",
+    "dayNum": 308,
+    "name": "Day 308 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_309_digitallogic",
+    "dayNum": 309,
+    "name": "Day 309 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_309_programminginc",
+    "dayNum": 309,
+    "name": "Day 309 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_310_digitallogic",
+    "dayNum": 310,
+    "name": "Day 310 [Digital Logic]",
+    "subject": "Digital Logic",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_310_programminginc",
+    "dayNum": 310,
+    "name": "Day 310 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_311_ds",
+    "dayNum": 311,
+    "name": "Day 311 [DS]",
+    "subject": "DS",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_311_programminginc",
+    "dayNum": 311,
+    "name": "Day 311 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 4
+  },
+  {
+    "id": "godpp_day_311_programming",
+    "dayNum": 311,
+    "name": "Day 311 [Programming]",
+    "subject": "Programming",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_311_theoryofcomputation",
+    "dayNum": 311,
+    "name": "Day 311 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_312_programminginc",
+    "dayNum": 312,
+    "name": "Day 312 [Programming in C]",
+    "subject": "Programming in C",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_312_theoryofcomputation",
+    "dayNum": 312,
+    "name": "Day 312 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_313_datastructures",
+    "dayNum": 313,
+    "name": "Day 313 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_313_theoryofcomputation",
+    "dayNum": 313,
+    "name": "Day 313 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_314_datastructures",
+    "dayNum": 314,
+    "name": "Day 314 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_314_theoryofcomputation",
+    "dayNum": 314,
+    "name": "Day 314 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_315_datastructures",
+    "dayNum": 315,
+    "name": "Day 315 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_315_theoryofcomputation",
+    "dayNum": 315,
+    "name": "Day 315 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_316_datastructures",
+    "dayNum": 316,
+    "name": "Day 316 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_316_theoryofcomputation",
+    "dayNum": 316,
+    "name": "Day 316 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_317_datastructures",
+    "dayNum": 317,
+    "name": "Day 317 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_317_theoryofcomputation",
+    "dayNum": 317,
+    "name": "Day 317 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_318_datastructures",
+    "dayNum": 318,
+    "name": "Day 318 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_318_theoryofcomputation",
+    "dayNum": 318,
+    "name": "Day 318 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_319_theoryofcomputation",
+    "dayNum": 319,
+    "name": "Day 319 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_320_datastructures",
+    "dayNum": 320,
+    "name": "Day 320 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_320_theoryofcomputation",
+    "dayNum": 320,
+    "name": "Day 320 [Theory of Computation]",
+    "subject": "Theory of Computation",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_321_datastructures",
+    "dayNum": 321,
+    "name": "Day 321 [Data Structures]",
+    "subject": "Data Structures",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_321_operatingsystem",
+    "dayNum": 321,
+    "name": "Day 321 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_322_operatingsystem",
+    "dayNum": 322,
+    "name": "Day 322 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_323_operatingsystem",
+    "dayNum": 323,
+    "name": "Day 323 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_324_operatingsystem",
+    "dayNum": 324,
+    "name": "Day 324 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_325_operatingsystem",
+    "dayNum": 325,
+    "name": "Day 325 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_326_operatingsystem",
+    "dayNum": 326,
+    "name": "Day 326 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_327_operatingsystem",
+    "dayNum": 327,
+    "name": "Day 327 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_328_operatingsystem",
+    "dayNum": 328,
+    "name": "Day 328 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_329_operatingsystem",
+    "dayNum": 329,
+    "name": "Day 329 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_330_operatingsystem",
+    "dayNum": 330,
+    "name": "Day 330 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_331_operatingsystem",
+    "dayNum": 331,
+    "name": "Day 331 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_332_operatingsystem",
+    "dayNum": 332,
+    "name": "Day 332 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_333_operatingsystem",
+    "dayNum": 333,
+    "name": "Day 333 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_334_algorithms",
+    "dayNum": 334,
+    "name": "Day 334 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 1
+  },
+  {
+    "id": "godpp_day_334_operatingsystem",
+    "dayNum": 334,
+    "name": "Day 334 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_335_algorithms",
+    "dayNum": 335,
+    "name": "Day 335 [Algorithms]",
+    "subject": "Algorithms",
+    "total_qs": 2
+  },
+  {
+    "id": "godpp_day_335_operatingsystem",
+    "dayNum": 335,
+    "name": "Day 335 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_336_operatingsystem",
+    "dayNum": 336,
+    "name": "Day 336 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_337_operatingsystem",
+    "dayNum": 337,
+    "name": "Day 337 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_338_operatingsystem",
+    "dayNum": 338,
+    "name": "Day 338 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_339_operatingsystem",
+    "dayNum": 339,
+    "name": "Day 339 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_340_operatingsystem",
+    "dayNum": 340,
+    "name": "Day 340 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_341_operatingsystem",
+    "dayNum": 341,
+    "name": "Day 341 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_342_operatingsystem",
+    "dayNum": 342,
+    "name": "Day 342 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_343_operatingsystem",
+    "dayNum": 343,
+    "name": "Day 343 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_344_operatingsystem",
+    "dayNum": 344,
+    "name": "Day 344 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_345_operatingsystem",
+    "dayNum": 345,
+    "name": "Day 345 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_346_operatingsystem",
+    "dayNum": 346,
+    "name": "Day 346 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_347_operatingsystem",
+    "dayNum": 347,
+    "name": "Day 347 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  },
+  {
+    "id": "godpp_day_348_operatingsystem",
+    "dayNum": 348,
+    "name": "Day 348 [Operating System]",
+    "subject": "Operating System",
+    "total_qs": 5
+  }
+]

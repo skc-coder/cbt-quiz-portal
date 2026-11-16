@@ -1,0 +1,70 @@
+{
+  "name": "Day 79 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "485293",
+          "text": "<p>We are given 8 tasks $T_1, T_2, \\ldots, T_8$. The execution of each task requires one unit of time. We can execute one task at a time. Each task $T_i$ has a profit $P_i$ and a deadline $d_i$. Profit $P_i$ is earned if the task is completed before the end of the $d_i^{t h}$ unit of time.</p><p>\\[<br>\\begin{array}{|l|c|c|c|c|c|c|c|c|}<br>\\hline<br>\\text{Task} & T_{1} & T_{2} & T_{3} & T_{4} & T_{5} & T_{6} & T_{7} & T_{s} \\\\<br>\\hline<br>\\text{Profit} & 12 & 25 & 18 & 30 & 20 & 15 & 10 & 22 \\\\<br>\\hline<br>\\text{Deadline} & 4 & 2 & 3 & 1 & 3 & 2 & 4 & 1 \\\\<br>\\hline<br>\\end{array}<br>\\]</p><p>What is the maximum profit that can be earned?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$122$</li><li>$87$</li><li>$120$</li><li>$125$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 79"
+        },
+        {
+          "post_id": "485295",
+          "text": "Consider the weights and values of items listed below. Note that there is only one unit of each item.<br>\n<br>\n\\[<br>\n\\begin{array}{|l|c|c|}<br>\n\\hline<br>\n\\text{Item number} & \\text{Weight (in Kgs)} & \\text{Value (in rupees)} \\\\<br>\n\\hline<br>\n1 & 8 & 48 \\\\<br>\n2 & 5 & 30 \\\\<br>\n3 & 3 & 18 \\\\<br>\n4 & 1 & 12 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n\\]<br>\n<br>\nThe task is to pick a subset of these items such that their total weight is no more than 10 Kgs and their total value is maximized. Moreover, the item may be split. The total value of items picked by an optimal algorithm is denoted by $V_{\\text {opt }}$.<br>\n<br>\nA greedy algorithm sorts the items by their value-to-weight ratios in descending order and packs them greedily, starting from the first item in the ordered list. The total value of items picked by the greedy algorithm is denoted by $V_{\\text {greedy }}$.<br>\n<br>\nThe value of $V_{\\text {opt }}-V_{\\text {greedy }}$ is __________.",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 79"
+        },
+        {
+          "post_id": "485290",
+          "text": "<p>If algorithm $A$ and another algorithm $B$ take $\\log _2(n)$ and $\\sqrt{ } n$ microseconds, respectively, to solve a problem, then the largest size $n$ of a problem these algorithms can solve is, respectively. in one second are __________ and ________.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2^{10^6}$ and $10^6$</li><li>$2^{10^6}$ and $10^{12}$</li><li>$2^{10^6}$ and $6.10^6$</li><li>$2^{10^6}$ and $6.10^{12}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 79"
+        },
+        {
+          "post_id": "485287",
+          "text": "<p>Given a 2-D array mat where the elements of each row are sorted in non-decreasing order and the first element of a row is greater than the last element of the previous row (if it exists) and an integer target, determine if the target exists in the given mat or not.</p><p>What is the best possible time complexity in the worst case for doing this task?<br><br>Assume the matrix size is $n \\times n$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$O(logn)$<br>&nbsp;</li><li>$O(nlogn)$<br>&nbsp;</li><li>$O(n)$<br>&nbsp;</li><li>$\\left(\\mathrm{n}^2\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 79"
+        },
+        {
+          "post_id": "485292",
+          "text": "<p>Consider the following functions:</p><p>$$<br>\\begin{aligned}<br>& \\mathrm{f}(\\mathrm{n})=3 \\mathrm{n}^{\\sqrt{\\mathrm{n}}} \\\\<br>& \\mathrm{~g}(\\mathrm{n})=2^{\\sqrt{\\mathrm{n}}\\log _2{\\mathrm{n}}} \\\\<br>& \\mathrm{~h}(\\mathrm{n})=\\mathrm{n}!<br>\\end{aligned}<br>$$</p><p><br>Which of the following statements is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$h(n)$ is $O(f(n))$<br>&nbsp;</li><li>$\\mathrm{h}(\\mathrm{n})$ is $\\mathrm{O}(\\mathrm{g}(\\mathrm{n}))$<br>&nbsp;</li><li>$\\mathrm{f}(\\mathrm{n})$ is $\\mathrm{O}(\\mathrm{g}(\\mathrm{n})$ )<br>&nbsp;</li><li>$g(n)$ is $\\operatorname{not} O(f(n))$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 79"
+        }
+      ]
+    }
+  ]
+}

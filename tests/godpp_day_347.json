@@ -1,0 +1,70 @@
+{
+  "name": "Day 259 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530382",
+          "text": "<p data-start=\"27\" data-end=\"167\">Let $X$ and $Y$ be non-negative random variables, which may or may not be independent. Which of the following statements is/are <strong>ALWAYS</strong> true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"169\" data-end=\"207\">$P(X+Y\\ge 2)\\ge P(X\\ge 1)P(Y\\ge 1)$<br>&nbsp;</li><li data-start=\"209\" data-end=\"239\">$P(X+Y&lt;2)\\le P(X&lt;1)+P(Y&lt;1)$<br>&nbsp;</li><li data-start=\"241\" data-end=\"271\">$P(XY\\ge 1)\\le P(X+Y\\ge 2)$<br>&nbsp;</li><li data-start=\"273\" data-end=\"302\">$P(X+Y&lt;2)\\ge P(X&lt;1)P(Y&lt;1)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 259"
+        },
+        {
+          "post_id": "530383",
+          "text": "<p data-start=\"27\" data-end=\"204\">Let $X$ and $Y$ be independent discrete uniform random variables on ${1,2,\\dots,n}$. Let $H_n=1+\\frac12+\\frac13+\\cdots+\\frac1n$. The value of $E\\left[\\frac{1}{X+Y}\\right]$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"206\" data-end=\"245\">$\\frac{(2n+1)H_{2n}-2(n+1)H_n}{n^2}$<br>&nbsp;</li><li data-start=\"247\" data-end=\"273\">$\\frac{2H_n-H_{2n}}{n}$<br>&nbsp;</li><li data-start=\"275\" data-end=\"300\">$\\frac{H_{2n}-H_n}{n}$<br>&nbsp;</li><li data-start=\"302\" data-end=\"329\">$\\frac{(n+1)H_n-n}{n^2}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 259"
+        },
+        {
+          "post_id": "530392",
+          "text": "<p data-start=\"27\" data-end=\"231\">Let $X$, $Y$, and $Z$ be random variables which are not necessarily independent. Suppose $Var(X)=4$, $Var(Y)=9$, $Var(Z)=16$, $Var(X+Y+Z)=39$, $Var(X-Y+Z)=11$, and $Var(2X+Y-Z)=53$. Find $Var(3X-2Y+Z+7)$.</p>",
+          "type": "Numerical",
+          "answer": "24",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 259"
+        },
+        {
+          "post_id": "530395",
+          "text": "<p data-start=\"92\" data-end=\"209\">Let $X$ be a Bernoulli random variable with parameter $p$, where $0&lt;p&lt;1$. Define $Y=5^{X}2^{1-X}+3X$. What is $E[Y]$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"211\" data-end=\"220\">$2+6p$<br>&nbsp;</li><li data-start=\"222\" data-end=\"236\">$5p+2(1-p)$<br>&nbsp;</li><li data-start=\"238\" data-end=\"247\">$2+3p$<br>&nbsp;</li><li data-start=\"249\" data-end=\"258\">$5+2p$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 259"
+        },
+        {
+          "post_id": "530389",
+          "text": "<p>Let $X$ and $Y$ be discrete random variables. $X$ takes values $0,1,2,3$ and $Y$ takes values $1,2,3,4$. Their joint probability mass function is given below.</p><p>$$<br>\\begin{array}{|c|c|c|c|c|}<br>\\hline<br>& Y=1 & Y=2 & Y=3 & Y=4 \\\\<br>\\hline<br>X=0 & 3/120 & 6/120 & 2/120 & 4/120 \\\\<br>\\hline<br>X=1 & 5/120 & 9/120 & 7/120 & 3/120 \\\\<br>\\hline<br>X=2 & 4/120 & 8/120 & 12/120 & 10/120 \\\\<br>\\hline<br>X=3 & 2/120 & 11/120 & 14/120 & 20/120 \\\\<br>\\hline<br>\\end{array}<br>$$</p><p data-start=\"584\" data-end=\"628\"><br>Find $P(X=2\\mid X+Y\\ge 5 \\text{ and } Y&gt;X)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"630\" data-end=\"648\">$22/45$<br>&nbsp;</li><li data-start=\"650\" data-end=\"668\">$11/30$<br>&nbsp;</li><li data-start=\"670\" data-end=\"688\">$12/37$<br>&nbsp;</li><li data-start=\"690\" data-end=\"708\">$22/59$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 259"
+        }
+      ]
+    }
+  ]
+}

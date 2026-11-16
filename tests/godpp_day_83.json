@@ -1,0 +1,70 @@
+{
+  "name": "Day 80 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "485675",
+          "text": "<p>A CPU has a 5-stage pipeline with the following stages: Fetch (F), Decode (D), Execute (E), Memory $(\\mathrm{M})$ and Write-back (W). Each stage takes one clock cycle to complete. Assume there are no pipeline stalls and the pipeline is initially empty. How many clock cycles are required to complete the execution of $10$ instructions?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10$<br>&nbsp;</li><li>$14$<br>&nbsp;</li><li>$15$<br>&nbsp;</li><li>$19$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 80"
+        },
+        {
+          "post_id": "485666",
+          "text": "<p>Consider a $5$-segment pipeline with a clock cycle time of $20$ ns in each sub-operation. Find out the approximate speed-up ratio between a pipelined and non-pipelined system to execute $100$ instructions. (If, on average, every five cycles, a bubble due to data hazard has to be introduced in the pipeline)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5$<br>&nbsp;</li><li>$4.03$<br>&nbsp;</li><li>$4.81$<br>&nbsp;</li><li>$4.17$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 80"
+        },
+        {
+          "post_id": "485676",
+          "text": "<p>Arrange the given steps required for a Direct Memory Access (DMA) transfer in the correct order.<br><br>(A) Initiate DMA transfer request<br><br>(B) Transfer data directly between peripheral and memory<br><br>(C) Processor grants DMA control over the system bus<br><br>(D) DMA controller completes data transfer and signals completion</p><p>Choose the correct answer from the options given below:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(C), (A), (B), (D)$<br>&nbsp;</li><li>$(A), (C), (B), (D)$<br>&nbsp;</li><li>$(A),(B),(C),(D)$<br>&nbsp;</li><li>$(C), (B), (A), (D)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 80"
+        },
+        {
+          "post_id": "485672",
+          "text": "<p>A non-pipelined CPU has $12$ general-purpose registers $(R0, R1, R2, ..... R12)$. Following operation are supported</p><ul><li>ADD Ra, Rb, Rr&nbsp; &nbsp; &nbsp; &nbsp;Add Ra to Rb and store the result in Rr<br>&nbsp;</li><li>MUL Ra, Rb, Rr.&nbsp; &nbsp; &nbsp; Multiply Ra to Rb and store the result in Rr</li></ul><p><br>MUL operations take two clock cycles; ADD takes one clock cycle.<br><br>Calculate the minimum number of clock cycles required to compute the value of the expression $X Y+X Y Z+Y Z$. The variables $X, Y, Z$ are initially available in registers R0, R1 and R2 and the contents of these registers must not be modified.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5$<br>&nbsp;</li><li>$6$<br>&nbsp;</li><li>$7$<br>&nbsp;</li><li>$8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 80"
+        },
+        {
+          "post_id": "485668",
+          "text": "<p>Consider a $32$-bit processor which supports $70$ instructions. Each instruction is $32$ bits long and has $4$ fields, namely opcode, two register identifiers, and an immediate operand of unsigned integer type. Maximum value of the immediate operand that can be supported by the processor is $8191$.&nbsp; How many registers does the processor have?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$32$<br>&nbsp;</li><li>$64$<br>&nbsp;</li><li>$128$<br>&nbsp;</li><li>$16$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 80"
+        }
+      ]
+    }
+  ]
+}

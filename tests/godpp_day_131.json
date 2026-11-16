@@ -1,0 +1,70 @@
+{
+  "name": "Day 128 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "496799",
+          "text": "<p>CONSIDER THE ENTRIES SHOWN BELOW IN THE FORWARDING TABLE OF AN IP ROUTER. EACH ENTRY CONSISTS OF AN IP PREFIX AND THE CORRESPONDING NEXT HOP ROUTER. THE NOTATION '/N' IN A PREFIX INDICATES A SUBNET MASK WITH THE MOST SIGNIFICANT $N$ BITS SET TO $1.$<br><br>\\begin{array}{ll}<br>\\text { Prefix } & \\text { Next hop router } \\\\<br>172.20 .128 .0 / 19 & \\text { R1 } \\\\<br>172.20 .160 .0 / 20 & \\text { R2 } \\\\<br>172.20 .175 .0 / 24 & \\text { R3 } \\\\<br>0.0 .0 .0 / 0 & \\text { R4 }<br>\\end{array}</p><p>THIS ROUTER FORWARDS 6 PACKETS. THE DESTINATION IP ADDRESSES OF THE PACKETS ARE:</p><ol start=\"1\" style=\"list-style-type: decimal;\"><li>$172.20 .150 .10$<br>&nbsp;</li><li>$172.20 .170 .5$<br>&nbsp;</li><li>$172,20,175,50$<br>&nbsp;</li><li>$172.20 .190 .1$<br>&nbsp;</li><li>$172.20 .160 .200$<br>&nbsp;</li><li>$192.168.1.1$</li></ol><p>THE NUMBER OF PACKETS FORWARDED VIA THE NEXT HOP ROUTER <strong>R2</strong> IS ________.</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 128"
+        },
+        {
+          "post_id": "496801",
+          "text": "<p>FOR A HOST MACHINE THAT USES THE TOKEN BUCKET ALGORITHM, TOKENS ARRIVE AT A RATE TO SUSTAIN A DATA RATE OF <strong>$20$ MEGABYTES PER SECOND</strong>. THE MAXIMUM OUTPUT RATE OF THE HOST IS <strong>$50$ MEGABYTES PER SECOND</strong>.</p><p>THE MACHINE MUST BE ABLE TO TRANSMIT <strong>$300$ MEGABYTES</strong> OF DATA IN A TOTAL TIME OF EXACTLY <strong>$14$ SECONDS</strong>.</p><p>THE MINIMUM CAPACITY (IN MEGABYTES) OF THE TOKEN BUCKET REQUIRED TO ACHIEVE THIS IS $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "20",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 128"
+        },
+        {
+          "post_id": "496810",
+          "text": "<p>CONSIDER THREE MACHINES, P, Q, AND R, WITH IP ADDRESSES $192.168.10.130$, $192.168.10.190$, AND $192.168.10.220$ RESPECTIVELY. THE SUBNET MASK IS SET TO $255.255.255.240$ FOR ALL THREE MACHINES. WHICH ONE OF THE FOLLOWING IS TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>P, Q, AND R ALL BELONG TO THE SAME SUBNET.<br>&nbsp;</li><li>ONLY P AND Q BELONG TO THE SAME SUBNET.<br>&nbsp;</li><li>ONLY Q AND R BELONG TO THE SAME SUBNET.<br>&nbsp;</li><li>P, Q, AND R BELONG TO THREE DIFFERENT SUBNETS.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 128"
+        },
+        {
+          "post_id": "496804",
+          "text": "<p>A SENDER USES THE STOP-AND-WAIT ARQ PROTOCOL.</p><ul><li>THE SIZE OF A DATA FRAME IS $\\mathbf{2000}$ <strong>BYTES.</strong><br>&nbsp;</li><li>THE SIZE OF AN ACKNOWLEDGEMENT IS $\\mathbf{50}$ <strong>BYTES</strong>.<br>&nbsp;</li><li>THE ONE-WAY PROPAGATION DELAY IS $\\mathbf{1 5 0}$ <strong>MILLISECONDS.</strong><br>&nbsp;</li><li>THE RECEIVER'S TRANSMISSION RATE IS $1/10$TH OF THE SENDER'S TRANSMISSION RATE.<br>&nbsp;</li><li>ASSUME NO FRAME IS LOST AND PROCESSING DELAYS ARE NEGLIGIBLE.<br>&nbsp;</li></ul><p>TO ACHIEVE A SENDER THROUGHPUT OF EXACTLY <strong>$5000$ BYTES/SECOND</strong>, THE SENDER'S TRANSMISSION RATE MUST BE $\\_\\_\\_\\_$ KBPS ( $1$ KBPS $=1000$ BITS/SECOND).</p>",
+          "type": "Numerical",
+          "answer": "25",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 128"
+        },
+        {
+          "post_id": "496798",
+          "text": "<p>Consider a network that uses <strong>Ethernet</strong> and <strong>IPv4</strong>. Assume that IPv4 headers do not use any options field.<br>Each Ethernet frame can carry a <strong>maximum of $1600$ bytes</strong> in its data field.<br>A <strong>UDP segment</strong> is transmitted, and the payload (data) in the UDP segment is <strong>$8200$ bytes.</strong><br><br>Which ONE of the following choices gives the <strong>correct total number of fragments transmitted</strong> and the <strong>size of the last fragment (including IPv4 header)?</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5$ fragments, $1400$ bytes<br>&nbsp;</li><li>$6$ fragments, $348$ bytes<br>&nbsp;</li><li>$6$ fragments, $160$ bytes<br>&nbsp;</li><li>$7$ fragments, $80$ bytes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 128"
+        }
+      ]
+    }
+  ]
+}

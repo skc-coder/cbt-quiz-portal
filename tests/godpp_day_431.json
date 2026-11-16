@@ -1,0 +1,70 @@
+{
+  "name": "Day 301 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "535940",
+          "text": "<p data-start=\"306\" data-end=\"475\">In a full adder, the carry output is $C_{out}=AB+C_{in}(A\\oplus B)$. For which input combinations does the full adder generate carry independent of $C_{in}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"477\" data-end=\"534\">$A=0,B=0$<br>&nbsp;</li><li data-start=\"477\" data-end=\"534\">$A=0,B=1$<br>&nbsp;</li><li data-start=\"477\" data-end=\"534\">$A=1,B=0$<br>&nbsp;</li><li data-start=\"477\" data-end=\"534\">$A=1,B=1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 301"
+        },
+        {
+          "post_id": "535936",
+          "text": "<p>Two unsigned $2$-bit numbers $A_1A_0$ and $B_1B_0$ are added with no input carry. Which implementation and equations are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>LSB uses half adder: $S_0=A_0\\oplus B_0$, $C_1=A_0B_0$;<br>MSB uses full adder: $S_1=A_1\\oplus B_1\\oplus C_1$, $C_2=A_1B_1+C_1(A_1\\oplus B_1)$<br>&nbsp;</li><li>Both bits use half adders only, and $C_2=A_1B_1$<br>&nbsp;</li><li>LSB uses full adder and MSB uses half adder, so $S_1=A_1\\oplus B_1$<br>&nbsp;</li><li>LSB uses OR gate: $S_0=A_0+B_0$, and MSB uses XOR gate only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 301"
+        },
+        {
+          "post_id": "535934",
+          "text": "<p>For a full adder with inputs $A$, $B$, and $C_{in}$, for which input combinations are $S=0$ and $C_{out}=1$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$000,111$<br>&nbsp;</li><li>$011,101,110$<br>&nbsp;</li><li>$001,010,100$<br>&nbsp;</li><li>$011,101,111$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 301"
+        },
+        {
+          "post_id": "535938",
+          "text": "<p>A $4$-bit ripple carry adder adds $A=1011$ and $B=0111$ with initial carry $C_0=0$. What are the final $4$-bit sum and final carry?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Sum $=0010$, $C_4=1$<br>&nbsp;</li><li>Sum $=10010$, $C_4=0$<br>&nbsp;</li><li>Sum $=0100$, $C_4=1$<br>&nbsp;</li><li>Sum $=0011$, $C_4=1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 301"
+        },
+        {
+          "post_id": "535932",
+          "text": "<p>A full adder is implemented using two half adders and one OR gate. The first half adder takes inputs $A$ and $B$. The second half adder takes the first sum output and $C_{in}$. Which pair of expressions correctly represents $S$ and $C_{out}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$S=A\\oplus B\\oplus C_{in},\\ C_{out}=AB+C_{in}(A\\oplus B)$<br>&nbsp;</li><li>$S=A+B+C_{in},\\ C_{out}=A\\oplus B\\oplus C_{in}$<br>&nbsp;</li><li>$S=(A\\oplus B)C_{in},\\ C_{out}=AB+AC_{in}$<br>&nbsp;</li><li>$S=A\\oplus B\\oplus C_{in},\\ C_{out}=A+B+C_{in}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 301"
+        }
+      ]
+    }
+  ]
+}

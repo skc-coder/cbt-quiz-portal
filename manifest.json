@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "examoverflow",
+  "version": "1.0.0",
+  "description": "examoverflow: Authentic TCS iON GATE Computer-Based Test portal with spreadsheet catalog, offline math formulas, auto-fullscreen, and portable cloud sync string.",
+  "icons": {
+    "16": "icon_16.png",
+    "32": "icon_32.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon_16.png",
+      "32": "icon_32.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png"
+    },
+    "default_title": "examoverflow",
+    "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "examoverflow@gatecbt.local",
+      "strict_min_version": "109.0"
+    }
+  },
+  "permissions": [
+    "storage",
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    "tests/*",
+    "src/*",
+    "lib/*",
+    "lib/fonts/*",
+    "icon_16.png",
+    "icon_32.png",
+    "icon_48.png",
+    "icon_128.png",
+    "logorectangle.jpeg",
+    "logosquare.jpeg"
+  ]
+}

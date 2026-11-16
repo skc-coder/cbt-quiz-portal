@@ -1,0 +1,189 @@
+{
+  "id": "go27_test_23",
+  "name": "GO Classes CS/DA Test Series | Aptitude | Test 6",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 15,
+  "technical_num_qs": 0,
+  "apti_marks": 25,
+  "technical_marks": 0,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Aptitude",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "539581",
+          "text": "<p>Out of the four options given below, four are similar in a certain manner. However, one is not like the other three. Select the one which is different from the rest.</p><ol style=\"list-style-type:upper-alpha\"><li>JHDB<br> </li><li>OllC<br> </li><li>LJFE<br> </li><li>WJNA</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539600",
+          "text": "<p>Two different positions of a dice are shown here. Which number will be on the face opposite to the face having number $2$?<br> </p><p style=\"text-align:center\"><img alt=\"\" width=\"180\" height=\"90\" src=\"data:image/jpeg;base64,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\"></p><ol style=\"list-style-type:upper-alpha\"><li>$5$<br> </li><li>$1$<br> </li><li>$4$<br> </li><li>$3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,one-mark",
+          "category": "Analytical Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539585",
+          "text": "<p>Manjeet, Rahim, Ram and Divya are four friends who live in a village. It is known that:</p><ol style=\"list-style-type:upper-roman\"><li>Each friend lives in a differently coloured house - orange, yellow, green and blue.<br> </li><li>Each friend owns a different pet - Bee, Dee, Cee and Tee.<br> </li><li>The pets each feed on different things - leaves, fish, vegetables and insects.<br> </li><li>Manjeet does not live in the blue house.<br> </li><li>Tee eats leaves but does not live with Rahim or Divya.<br> </li><li>Dee does not eat insects.<br> </li><li>&nbsp;Ram lives in an orange house but does not own Cee or Tee.<br> </li><li>&nbsp;The pet that feeds on insects does not live in the green or blue house.<br> </li><li>Rahim does not feed vegetables or insects to his pet, which is neither Dee nor Cee.</li></ol><p><br>Which pet eats fish</p><p> </p><ol style=\"list-style-type:upper-alpha\"><li>Bee<br> </li><li>Cee<br> </li><li>Dee<br> </li><li>Manjeet's pet</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539598",
+          "text": "<p>In a certain code language, if $\\text{SIXTH}$ is written as $80$, then how will $\\text{CLASS}$ be written in the same code language?</p><ol style=\"list-style-type:upper-alpha\"><li>$54$<br> </li><li>$48$<br> </li><li>$60$<br> </li><li>$42$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,one-mark",
+          "category": "Analytical Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539593",
+          "text": "<p>Choose the correct antonym of the given word.<br>$\\text{Sacrilegious}$</p><ol style=\"list-style-type:upper-alpha\"><li>Pious<br> </li><li>Profane<br> </li><li>Pernicious<br> </li><li>Preserve</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539601",
+          "text": "<p>$\\text{x}$ stands for 'greater than';<br><br>$\\copyright$&nbsp;stands for 'not less than';<br><br>$\\div$ stands for 'not equal to\";<br><br>$\\phi$ stands for 'equal to';<br><br>+ stands for 'not greater than';<br><br>$\\Delta$ stands for 'less than'.<br><br>Using these symbols, choose the correct alternative<br><br>If $a$ $\\copyright$ $b \\times c$, it implies that</p><ol style=\"list-style-type:upper-alpha\"><li>$a \\subset b \\phi c$<br> </li><li>$a \\Delta b \\subset c$<br> </li><li>$a \\odot c+b$<br> </li><li>$c \\times b \\times a$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,one-mark",
+          "category": "Analytical Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539603",
+          "text": "<p>Pointing to Sagar in a photograph, Manjula said, \"His brother's father is the only son of my grandfather. \"How is Manjula related to Sagar?</p><ol style=\"list-style-type:upper-alpha\"><li>Aunt<br> </li><li>Sister<br> </li><li>Mother<br> </li><li>None of these</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,multiple-selects,one-mark",
+          "category": "Analytical Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539594",
+          "text": "<p>Alfred, a tour operator wanted to increase his fleet of cars. For that, he wanted to know the preference of car types among his customers. A survey revealed that $40 \\%$ of the customers preferred sedans while the remaining preferred SUVs. Among the $40 \\%$ who preferred sedans, $45 \\%$ went for Volkswagen while $55 \\%$ went for Honda. What percentage of the cars should Alfred keep as Honda sedans so that it is commensurate with the findings of the survey?</p><ol style=\"list-style-type:upper-alpha\"><li>$18 \\%$<br> </li><li>$22 \\%$<br> </li><li>$40 \\%$<br> </li><li>$55 \\%$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,two-marks",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539605",
+          "text": "<p>In an election between two candidates Joseph and Judith, $60 \\%$ of the total number of voters did not vote for Joseph and $50 \\%$ of the total number of voters did not vote for Judith. If it is known that each voter can vote for only one candidate, what percentage of voters did not cast their votes?&nbsp;</p><ol style=\"list-style-type:upper-alpha\"><li>$5$<br> </li><li>$10$<br> </li><li>$20$<br> </li><li>$30$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,one-mark",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539596",
+          "text": "<p>In the city Xuangho, fine for speeding on the highway is calculated in a strange manner. There is a flat fine of $\\$ 60$ for anyone found driving above the speed limit of $100$ miles/hour and an additional fine of $\\$ 3$ for each mile/hour if found driving above the limit of $120$ miles/hour. Lucy was fined $\\$ 90$. At what speed (in miles/hour) was Lucy driving?</p><ol style=\"list-style-type:upper-alpha\"><li>$90$<br> </li><li>$110$<br> </li><li>$150$<br> </li><li>$190$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,two-marks",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539580",
+          "text": "<p>Rearrange the given sentences in a proper sequence to form a meaningful paragraph.</p><ol style=\"list-style-type:upper-alpha\"><li>According to archaeologists, Machu Picchu was an estate built for Pachacuti, the emperor of the Inca kingdom.<br> </li><li>In $2007$, it also got included as one of the Seven Wonders of the World.<br> </li><li>Machu Picchu is a citadel situated on a $7,970\\ \\mathrm{ft}$ mountain ridge in southern Peru.<br> </li><li>It was declared a UNESCO World Heritage Site in the year $1983$.</li></ol><ol style=\"list-style-type:upper-alpha\"><li>DBAC<br> </li><li>CDBA<br> </li><li>CBAD<br> </li><li>CADB</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539591",
+          "text": "<p>Many animals, including humans, must sleep, and sleep is known to have a role in everything from healing injuries to encoding information in long-term memory. But some scientists claim that, from an evolutionary standpoint, deep sleep for hours at a time leaves an animal so vulnerable that the known benefits of sleeping seem insufficient to explain why it became so widespread in the animal kingdom. These scientists therefore imply that ____.<br><br>Which choice most logically completes the text?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>It is more important to understand how widespread prolonged deep sleep is than to understand its function.<br> </li><li>Prolonged deep sleep is likely advantageous in ways that have yet to be discovered.<br> </li><li>Many traits that provide significant benefits for an animal also likely pose risks to that animal.<br> </li><li>Most traits perform functions that are hard to understand from an evolutionary standpoint.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539583",
+          "text": "<p>Select the conclusion that best follows from the statement given below.<br><br>$\\textbf{Statement:}$<br><br>No one who likes to watch baseball likes to watch basketball, and all those who like to watch basketball also like to watch football.<br><br>$\\textbf{Conclusions:}$</p><ol style=\"list-style-type:upper-roman\"><li>All those who like to watch football like to watch baseball.<br> </li><li>No one who likes to watch baseball likes to watch football.<br> </li><li>Some of those who like to watch football like to watch baseball.</li></ol><p> </p><ol style=\"list-style-type:upper-alpha\"><li>Only conclusion I follows<br> </li><li>Only conclusion II follows<br> </li><li>Both conclusions I and III follow<br> </li><li>None of the conclusions follow</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,two-marks",
+          "category": "Analytical Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539589",
+          "text": "<p>The following table shows the proportion of students passed in different streams in graauation from different cities. It also shows the ratio of Males to Females among the students.<br>$$<br>\\begin{array}{|c|c|c|c|c|}<br>\\hline<br>\\textbf{City} &amp;<br>\\begin{array}{c}<br>\\textbf{Arts : Science : Commerce}<br>\\end{array} &amp;<br>\\begin{array}{c}<br>\\textbf{Arts} \\\\<br>\\textbf{M : F}<br>\\end{array} &amp;<br>\\begin{array}{c}<br>\\textbf{Science} \\\\<br>\\textbf{M : F}<br>\\end{array} &amp;<br>\\begin{array}{c}<br>\\textbf{Commerce} \\\\<br>\\textbf{M : F}<br>\\end{array} \\\\<br>\\hline<br>A &amp; 2:4:5 &amp; 31:14 &amp; 23:27 &amp; 11:7 \\\\<br>\\hline<br>B &amp; 7:2:4 &amp; 37:33 &amp; 43:32 &amp; 29:21 \\\\<br>\\hline<br>C &amp; 1:4:2 &amp; 34:16 &amp; 57:43 &amp; 31:29 \\\\<br>\\hline<br>D &amp; 5:7:4 &amp; 17:13 &amp; 51:33 &amp; 23:17 \\\\<br>\\hline<br>E &amp; 4:3:8 &amp; 23:17 &amp; 41:34 &amp; 57:23 \\\\<br>\\hline<br>F &amp; 2:4:3 &amp; 47:28 &amp; 11:7 &amp; 16:11 \\\\<br>\\hline<br>G &amp; 3:5:4 &amp; 29:21 &amp; 27:24 &amp; 53:47 \\\\<br>\\hline<br>\\end{array}<br>$$<br>The number of Females who passed in Commerce from City $\\text{F}$ is what percentage more or less than the total number of Males who passed in Commerce from City $\\text{F}$?</p><ol style=\"list-style-type:upper-alpha\"><li>$45.45 \\%$ less<br> </li><li>$45.45 \\%$ more<br> </li><li>$31.25 \\%$ less<br> </li><li>$31.25 \\%$ more</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,two-marks",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "539587",
+          "text": "<p>The following text is from Ezra Pound's $1909$ poem \"Hymn III,\" based on the work of Marcantonio Flaminio.<br>As a fragile and lovely flower unfolds its gleaming foliage on the breast of the fostering earth, if the dew and the rain draw it forth;<br><br>So doth my tender mind flourish, if it be fed with the sweet dew of the fostering spirit,<br>Lacking this, it beginneth straightway to languish, even as a floweret born upon dry earth, if the dew and the rain tend it not.<br><br>Based on the text, in what way is the human mind like a flower?</p><ol style=\"list-style-type:upper-alpha\"><li>It becomes increasingly vigorous with the passage of time.<br> </li><li>It draws strength from changes in the weather.<br> </li><li>It requires proper nourishment in order to thrive.<br> </li><li>It perseveres despite challenging circumstances.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_apti_test_6,goclasses,aptitude,two-marks",
+          "category": "Verbal Aptitude"
+        }
+      ]
+    }
+  ]
+}

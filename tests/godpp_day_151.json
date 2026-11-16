@@ -1,0 +1,70 @@
+{
+  "name": "Day 148 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "501042",
+          "text": "<p>Consider $5$ memory partitions of sizes $\\mathbf{1 0 0 ~ K B} \\boldsymbol{,} \\mathbf{5 0 0 ~ K B} \\boldsymbol{,} \\mathbf{2 0 0 ~ K B} \\boldsymbol{,} \\mathbf{3 5 0 ~ K B}$, and $\\mathbf{6 0 0 ~ K B}$, where KB refers to kilobyte. These partitions need to be allotted to three processes of sizes $2 5 0$ KB, $450$ KB , and $150$ KB in that order.</p><p>If the Worst-Fit algorithm is used, which partitions are NOT allotted to any process?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$100$ KB and $200$ KB<br>&nbsp;</li><li>$350$ KB and $500$ KB<br>&nbsp;</li><li>$100$ KB and $350$ KB<br>&nbsp;</li><li>$200$ KB and $350$ KB</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 148"
+        },
+        {
+          "post_id": "501041",
+          "text": "Consider the following set of processes, with the arrival times and the CPU-burst times given in milliseconds.<br>\n<br>\n\\[<br>\n\\begin{array}{lll}<br>\n\\text{Process} & \\text{Arrival Time} & \\text{Burst Time} \\\\<br>\nP1 & 0 & 8 \\\\<br>\nP2 & 3 & 2 \\\\<br>\nP3 & 5 & 1 \\\\<br>\nP4 & 6 & 4 \\\\<br>\n\\end{array}<br>\n\\]<br>\n<br>\nWhat is the average completion time (in ms) for these processes with the Non-preemptive Shortest Job First (SJF) algorithm?",
+          "type": "Numerical",
+          "answer": "10.75",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 148"
+        },
+        {
+          "post_id": "501039",
+          "text": "Consider the following set of processes, with the arrival times and the CPU-burst times given in milliseconds. A time quantum ($q$) of $2$ milliseconds is used.<br>\n<br>\n\\[<br>\n\\begin{array}{lll}<br>\n\\text{Process} & \\text{Arrival Time} & \\text{Burst Time} \\\\<br>\nP1 & 0 & 7 \\\\<br>\nP2 & 2 & 4 \\\\<br>\nP3 & 4 & 5 \\\\<br>\nP4 & 6 & 2 \\\\<br>\n\\end{array}<br>\n\\]<br>\n<br>\nWhat is the average waiting time (in ms) for these processes with the Round Robin (RR) algorithm?",
+          "type": "Numerical",
+          "answer": "6.75",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 148"
+        },
+        {
+          "post_id": "501029",
+          "text": "<p>A process has been allocated $\\mathbf{3}$ page frames. Assume that none of the pages of the process are available in the memory initially. The process makes the following sequence of page references (reference string): $$\\mathbf{2 , 3 , 2 , 1 , 5 , 2 , 4 , 5 , 3 , 2 , 5 , 2 . ~}$$</p><p>If the First-In, First-Out (FIFO) page replacement policy is used, how many page hits occur for the above reference string?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4$<br>&nbsp;</li><li>$5$<br>&nbsp;</li><li>$6$<br>&nbsp;</li><li>$7$<br>&nbsp;</li></ol>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 148"
+        },
+        {
+          "post_id": "501027",
+          "text": "<p>A process has been allocated $\\mathbf{4}$ page frames. Assume that none of the pages of the process are available in the memory initially. The process makes the following sequence of page references (reference string): $$5,0,1,7,0,3,0,4,2,3,0,3,2,1,7$$</p><p>If the Least Recently Used (LRU) page replacement policy is used, how many page faults occur for the above reference string?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$9$<br>&nbsp;</li><li>$10$<br>&nbsp;</li><li>$11$<br>&nbsp;</li><li>$12$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 148"
+        }
+      ]
+    }
+  ]
+}

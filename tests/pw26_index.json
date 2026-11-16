@@ -1,0 +1,342 @@
+[
+  {
+    "id": "pw26_test_0",
+    "name": "Demo Test : Compiler Design"
+  },
+  {
+    "id": "pw26_test_1",
+    "name": "Demo Test : Data Structure & Programming"
+  },
+  {
+    "id": "pw26_test_2",
+    "name": "Demo Test : Discrete Maths"
+  },
+  {
+    "id": "pw26_test_3",
+    "name": "Demo Test : Digital Logic"
+  },
+  {
+    "id": "pw26_test_4",
+    "name": "Demo Test : Computer Organization & Architecture"
+  },
+  {
+    "id": "pw26_test_5",
+    "name": "Demo Test : Database"
+  },
+  {
+    "id": "pw26_test_6",
+    "name": "Demo Test : Operating System"
+  },
+  {
+    "id": "pw26_test_7",
+    "name": "Demo Test : Algorithms"
+  },
+  {
+    "id": "pw26_test_8",
+    "name": "Demo Test :  Computer Networks"
+  },
+  {
+    "id": "pw26_test_9",
+    "name": "SWT 1 : C Programming"
+  },
+  {
+    "id": "pw26_test_10",
+    "name": "TWT 1 : C Programming"
+  },
+  {
+    "id": "pw26_test_11",
+    "name": "TWT 2 : C Programming"
+  },
+  {
+    "id": "pw26_test_12",
+    "name": "TWT 3 : C Programming"
+  },
+  {
+    "id": "pw26_test_13",
+    "name": "TWT 4 : Algorithms"
+  },
+  {
+    "id": "pw26_test_14",
+    "name": "TWT 5 : Algorithms"
+  },
+  {
+    "id": "pw26_test_15",
+    "name": "TWT 6 : Algorithms"
+  },
+  {
+    "id": "pw26_test_16",
+    "name": "TWT 7 : Theory of Computation"
+  },
+  {
+    "id": "pw26_test_17",
+    "name": "TWT 8 : Theory of Computation"
+  },
+  {
+    "id": "pw26_test_18",
+    "name": "TWT 9 : Theory of Computation"
+  },
+  {
+    "id": "pw26_test_19",
+    "name": "TWT 10 : Computer Organization & Architecture"
+  },
+  {
+    "id": "pw26_test_20",
+    "name": "TWT 11 : Computer Organization & Architecture"
+  },
+  {
+    "id": "pw26_test_21",
+    "name": "TWT 12 : Computer Organization & Architecture"
+  },
+  {
+    "id": "pw26_test_22",
+    "name": "TWT 13 : Engineering Mathematics"
+  },
+  {
+    "id": "pw26_test_23",
+    "name": "TWT 14 : Engineering Mathematics"
+  },
+  {
+    "id": "pw26_test_24",
+    "name": "TWT 15 : General Aptitude"
+  },
+  {
+    "id": "pw26_test_25",
+    "name": "TWT 16 : General Aptitude"
+  },
+  {
+    "id": "pw26_test_26",
+    "name": "TWT 17 : General Aptitude"
+  },
+  {
+    "id": "pw26_test_27",
+    "name": "TWT 18 : Database"
+  },
+  {
+    "id": "pw26_test_28",
+    "name": "TWT 19 : Database"
+  },
+  {
+    "id": "pw26_test_29",
+    "name": "TWT 20 : Database"
+  },
+  {
+    "id": "pw26_test_30",
+    "name": "TWT 21 : Computer Networks"
+  },
+  {
+    "id": "pw26_test_31",
+    "name": "TWT 22 : Computer Networks"
+  },
+  {
+    "id": "pw26_test_32",
+    "name": "TWT 23 : Computer Networks"
+  },
+  {
+    "id": "pw26_test_33",
+    "name": "TWT 24 : Data Structures"
+  },
+  {
+    "id": "pw26_test_34",
+    "name": "TWT 25 : Data Structures"
+  },
+  {
+    "id": "pw26_test_35",
+    "name": "TWT 26 : Data Structures"
+  },
+  {
+    "id": "pw26_test_36",
+    "name": "TWT 27 : Compiler Design"
+  },
+  {
+    "id": "pw26_test_37",
+    "name": "TWT 28 : Compiler Design"
+  },
+  {
+    "id": "pw26_test_38",
+    "name": "TWT 29 : Operating System"
+  },
+  {
+    "id": "pw26_test_39",
+    "name": "TWT 30 : Operating System"
+  },
+  {
+    "id": "pw26_test_40",
+    "name": "TWT 31 : Operating System"
+  },
+  {
+    "id": "pw26_test_41",
+    "name": "TWT 32 : Discrete Mathematics"
+  },
+  {
+    "id": "pw26_test_42",
+    "name": "TWT 33 : Discrete Mathematics"
+  },
+  {
+    "id": "pw26_test_43",
+    "name": "TWT 34 : Discrete Mathematics"
+  },
+  {
+    "id": "pw26_test_44",
+    "name": "TWT 35 : Digital Logic"
+  },
+  {
+    "id": "pw26_test_45",
+    "name": "TWT 36 : Digital Logic"
+  },
+  {
+    "id": "pw26_test_46",
+    "name": "SWT 02 : Algorithms"
+  },
+  {
+    "id": "pw26_test_47",
+    "name": "SWT 03 : Theory of Computation"
+  },
+  {
+    "id": "pw26_test_48",
+    "name": "SWT 04 : Computer Org & Arch."
+  },
+  {
+    "id": "pw26_test_49",
+    "name": "SWT 05 : Engineering Mathematics"
+  },
+  {
+    "id": "pw26_test_50",
+    "name": "SWT 06 : General Aptitude"
+  },
+  {
+    "id": "pw26_test_51",
+    "name": "SWT 07 : Database"
+  },
+  {
+    "id": "pw26_test_52",
+    "name": "SWT 08 : Computer networks"
+  },
+  {
+    "id": "pw26_test_53",
+    "name": "SWT 09 : Data Structure"
+  },
+  {
+    "id": "pw26_test_54",
+    "name": "SWT 10 : Compiler Design"
+  },
+  {
+    "id": "pw26_test_55",
+    "name": "SWT 11 : Operating System"
+  },
+  {
+    "id": "pw26_test_56",
+    "name": "SWT 12 : Discrete Mathematics"
+  },
+  {
+    "id": "pw26_test_57",
+    "name": "SWT 13 : Digital Logic"
+  },
+  {
+    "id": "pw26_test_58",
+    "name": "MST 02 : Engineering Math, General Aptitude, Discrete Mathematics"
+  },
+  {
+    "id": "pw26_test_59",
+    "name": "MST 01 : C Programming, Data Structures Theory of Computation, Algorithms"
+  },
+  {
+    "id": "pw26_test_60",
+    "name": "MST 03 : COA, Database, Computer Networks"
+  },
+  {
+    "id": "pw26_test_61",
+    "name": "MST 04 : Compiler Design, Operating System, Digital Logic"
+  },
+  {
+    "id": "pw26_test_62",
+    "name": "GBG 01 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_63",
+    "name": "GBG 02 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_64",
+    "name": "GBG 03 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_65",
+    "name": "GBG 04 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_66",
+    "name": "GBG 05 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_67",
+    "name": "GBG 06 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_68",
+    "name": "GBG 07 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_69",
+    "name": "GBG 08 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_70",
+    "name": "GBG 09 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_71",
+    "name": "GBG 10 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_72",
+    "name": "GBG 11 : Complete GATE Syllabus"
+  },
+  {
+    "id": "pw26_test_73",
+    "name": "GATE PYQ Test 1 : GATE 2018"
+  },
+  {
+    "id": "pw26_test_74",
+    "name": "GATE PYQ Test 2 : GATE 2019"
+  },
+  {
+    "id": "pw26_test_75",
+    "name": "GATE PYQ Test 3 : GATE 2020"
+  },
+  {
+    "id": "pw26_test_76",
+    "name": "GATE PYQ Test 4 : GATE 2021 SET (I)"
+  },
+  {
+    "id": "pw26_test_77",
+    "name": "GATE PYQ Test 5 : GATE 2021 SET (II)"
+  },
+  {
+    "id": "pw26_test_78",
+    "name": "GATE PYQ Test 6 : GATE 2022"
+  },
+  {
+    "id": "pw26_test_79",
+    "name": "GATE PYQ Test 7 : GATE 2023"
+  },
+  {
+    "id": "pw26_test_80",
+    "name": "GATE PYQ Test 8 : GATE 2024 SET (I)"
+  },
+  {
+    "id": "pw26_test_81",
+    "name": "GATE PYQ Test 9 : GATE 2024 SET (II)"
+  },
+  {
+    "id": "pw26_test_82",
+    "name": "GATE PYQ Test 10 : GATE 2025 SET (I)"
+  },
+  {
+    "id": "pw26_test_83",
+    "name": "GATE PYQ Test 11 : GATE 2025 SET (II)"
+  },
+  {
+    "id": "pw26_test_84",
+    "name": "Demo Test : Theory Of Computation"
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "name": "Day 68 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "482991",
+          "text": "<p>Consider a 16-bit processor in which the following appears in main memory, starting at location 200:</p><p>\\[<br>\\begin{array}{|l|c|}<br>\\hline<br>200 & \\text{Load to AC} \\;\\; | \\;\\; \\text{Mode} \\\\ \\hline<br>201 & 500 \\\\ \\hline<br>202 & \\text{Next Instruction} \\\\ \\hline<br>\\end{array}<br>\\]</p><p>The first part of the first word indicates that this instruction loads a value into an accumulator. The Mode field specifies an addressing mode and, if appropriate, indicates a source register; assume that when used, the source register is R1, which has a value of $400$.There is also a base register that contains the value $100$.The value of $500$ in location $201$ may be part of the address calculation. Assume that location $399$ contains the value $999$, location $400$ contains the value $1000$ , and so on.</p><p>Which of the following statement(s) is/are correct?<br><br>(EA represents effective address.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If direct addressing mode is used, then $\\mathrm{EA}=500$ and operand $=1100$<br>&nbsp;</li><li>If PC relative addressing mode is used, then $\\mathrm{EA}=900$ and operand=mem[900]<br>&nbsp;</li><li>If register indirect addressing mode is used, then $\\mathrm{EA}=400$ and operand $=1000$<br>&nbsp;</li><li>If Indirect addressing mode is used, then $\\mathrm{EA}=1100$ and operand $=1700$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 68"
+        },
+        {
+          "post_id": "482989",
+          "text": "A computer has a memory hierarchy consisting of a two-level cache (L1 and L2) and a main memory. If the processor needs to access data from memory, it first looks into L1 and L2 cache simultaneously.<br>\n<br>\nIf the data is found In L1 cache, then it stops fetching from L2 immediately. it goes to main memory only if data is not found in L2 cache. Hit rates and access times of various memory units are:<br>\n<br>\nL1 cache:<br>\n<br>\nHit rate $=90 \\%$<br>\nAccess time $=20 \\mathrm{~ns}$<br>\n<br>\nL2 cache:<br>\n<br>\nHit rate $=80 \\%$<br>\nAccess time $=30 \\mathrm{~ns}$<br>\n<br>\nMain memory:<br>\n<br>\nAccess time $=300 \\mathrm{~ns}$<br>\n<br>\nThe average memory access time in nanoseconds is _________ (rounded off to two decimal places)",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 68"
+        },
+        {
+          "post_id": "482987",
+          "text": "A PC-relative mode branch instruction is $3$ bytes long. The address of the instruction in decimal is $256028$. What will be the branch target address if the signed displacement in the instruction is -31 ?",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 68"
+        },
+        {
+          "post_id": "482985",
+          "text": "A processor uses a two-level cache hierarchy. The L1 cache has a hit time of $2$ ns and a hit rate of $88 \\%$. 10% of the blocks evicted from L1 are dirty. The L2 cache has a hit time of $10$ ns, a hit rate of $90 \\%$, and uses a write-through and no-write-allocate policy. The L2 cache is inclusive of L1, and the main memory access time is $60$ ns.<br>\n<br>\nIf the L1 cache uses write-through policy with no write allocate, then the affective memory access time for a read operation is (up to $1$ decimal place) _________",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 68"
+        },
+        {
+          "post_id": "482983",
+          "text": "A processor uses a two-level cache hierarchy. The L1 cache has a hit time of $2$ ns and a hit rate of $88 \\%$. It follows a write-back and write-allocate policy, and $10\\%$ of the blocks evicted from L1 are dirty. The L2 cache has a hit time of $10$ ns , a hit rate of $90 \\%$, and uses a write-through and no-write-allocate policy. The L2 cache is inclusive of L1, and the main memory access time is $60$ ns.<br>\n<br>\nThe average memory access time (AMAT) for a read operation in ns is (up to $1$ decimal place) ______",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 68"
+        }
+      ]
+    }
+  ]
+}

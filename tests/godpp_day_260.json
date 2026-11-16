@@ -1,0 +1,70 @@
+{
+  "name": "Day 228 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "526105",
+          "text": "<p>Find $T\\left[\\begin{array}{l}1 \\\\ 1\\end{array}\\right]$ if $T: \\mathbb{R}^{2} \\rightarrow \\mathbb{R}^{3}$ is a linear transformation such that<br>$$<br>T\\left[\\begin{array}{l}<br>1 \\\\<br>2<br>\\end{array}\\right]=\\left[\\begin{array}{l}<br>2 \\\\<br>0 \\\\<br>6<br>\\end{array}\\right] \\quad \\text { and } \\quad T\\left[\\begin{array}{l}<br>3 \\\\<br>4<br>\\end{array}\\right]=\\left[\\begin{array}{c}<br>0 \\\\<br>-2 \\\\<br>4<br>\\end{array}\\right]<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\left[\\begin{array}{l}2 \\\\ 2 \\\\ 2\\end{array}\\right]$<br><br>&nbsp;</li><li>$\\left[\\begin{array}{c}2 \\\\ -2 \\\\ 10\\end{array}\\right]$<br><br>&nbsp;</li><li>$\\left[\\begin{array}{c}1 \\\\ -1 \\\\ 5\\end{array}\\right]$<br><br>&nbsp;</li><li>$\\left[\\begin{array}{l}-1 \\\\ -1 \\\\ -1\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 228"
+        },
+        {
+          "post_id": "526114",
+          "text": "If $A$ and $B$ are matrices of order $4 \\times 4$ such that $A= 5B$ and $\\det(A) = X*\\det(B)$, then $X$ will be",
+          "type": "Numerical",
+          "answer": "625",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 228"
+        },
+        {
+          "post_id": "526108",
+          "text": "<p>For the vectors</p><p>$$<br>\\vec{v}_1=\\left(\\begin{array}{c}<br>1 \\\\<br>-1 \\\\<br>0<br>\\end{array}\\right), \\vec{v}_2=\\left(\\begin{array}{c}<br>0 \\\\<br>1 \\\\<br>-1<br>\\end{array}\\right), \\vec{v}_3=\\left(\\begin{array}{c}<br>-1 \\\\<br>0 \\\\<br>1<br>\\end{array}\\right) .<br>$$</p><p><br>Which of the following sets are linearly independent?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>&nbsp;{${\\vec{v_1}, \\vec{v_2}}$}<br>&nbsp;</li><li>&nbsp;{${\\vec{v_2}, \\vec{v_3}}$}<br>&nbsp;</li><li>&nbsp;{${\\vec{v_1}, \\vec{v_3}}$}<br>&nbsp;</li><li>&nbsp;{${\\vec{v_1}, \\vec{v_2},\\vec{v_3}}$}</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 228"
+        },
+        {
+          "post_id": "526111",
+          "text": "<p>Let $A$ be the $2 \\times 2$ matrix with elements $a_{11} = a_{12} = a_{21} = +1$ and $a_{22} = −1$. Then the eigenvalues of the matrix $A^{19}$ are</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1024$ and $−1024 $<br>&nbsp;</li><li>$1024\\sqrt2$ and $−1024\\sqrt2$<br>&nbsp;</li><li>$4\\sqrt2$ and $−4\\sqrt2&nbsp;$<br>&nbsp;</li><li>$512\\sqrt2$ and $−512\\sqrt2$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 228"
+        },
+        {
+          "post_id": "526059",
+          "text": "<p>Let $A$ be $3 \\times 3$ matrix. Suppose $1$ and $-1$ are two of the three Eigen Values of $A$ and $18$ is one of the Eigen&nbsp;Values of $A^2 + 3A$. Then</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Both $A$ and $A^2 + 3A$ are invertible.<br>&nbsp;</li><li>$A^2 + 3A$ but $A$ is not.<br>&nbsp;</li><li>$A$ is invertible but $A^2 + 3A$ is not invertible.<br>&nbsp;</li><li>Both $A$ and $A^2 + 3A$ are not invertible.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 228"
+        }
+      ]
+    }
+  ]
+}

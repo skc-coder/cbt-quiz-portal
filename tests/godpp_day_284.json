@@ -1,0 +1,60 @@
+{
+  "name": "Day 236 [Algorithms]",
+  "duration": 12,
+  "total_qs": 4,
+  "total_qs_one": 4,
+  "total_qs_two": 0,
+  "total_marks": 4,
+  "apti_num_qs": 0,
+  "technical_num_qs": 4,
+  "technical_marks": 4,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 4,
+      "marks": 4,
+      "question": [
+        {
+          "post_id": "541993",
+          "text": "<p data-start=\"3030\" data-end=\"3103\">Arrange the following functions in increasing order of asymptotic growth:</p><p data-start=\"3105\" data-end=\"3125\">$f_1(n) = \\log(n^n)$</p><p data-start=\"3127\" data-end=\"3148\">$f_2(n) = (\\log n)^n$</p><p data-start=\"3150\" data-end=\"3175\">$f_3(n) = \\log(n^{6006})$</p><p data-start=\"3177\" data-end=\"3203\">$f_4(n) = (\\log n)^{6006}$</p><p data-start=\"3205\" data-end=\"3231\">$f_5(n) = \\log\\log(6006n)$<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3233\" data-end=\"3414\"><p>$f_5(n)&lt; f_3(n)&lt; f_4(n)&lt; f_1(n)&lt; f_2(n)$</p></li><li data-start=\"3233\" data-end=\"3414\"><p>$f_5(n)&lt; f_3(n)&lt; f_1(n)&lt; f_4(n)&lt; f_2(n)$</p></li><li data-start=\"3233\" data-end=\"3414\"><p>$f_3(n)&lt; f_5(n)&lt; f_4(n)&lt; f_1(n)&lt; f_2(n)$</p></li><li data-start=\"3233\" data-end=\"3414\"><p>$f_5(n)&lt; f_4(n)&lt; f_3(n)&lt; f_1(n)&lt; f_2(n)$</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "541990",
+          "text": "<p data-start=\"1096\" data-end=\"1127\">Suppose $g(n) \\in \\Theta(n^3)$.</p><p data-start=\"1129\" data-end=\"1179\">Which of the following statements are always true?</p><ul><li data-start=\"1181\" data-end=\"1202\">$\\text{S1}:$ $g(n) \\in O(n^3)$<br>&nbsp;</li><li data-start=\"1204\" data-end=\"1228\">$\\text{S2}:$&nbsp;$g(n) \\in \\Theta(n)$<br>&nbsp;</li><li data-start=\"1230\" data-end=\"1254\">$\\text{S3}:$&nbsp;$g(n) \\in \\Omega(n)$<br>&nbsp;</li></ul><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1256\" data-end=\"1325\">$\\text{S1}$ only<br>&nbsp;</li><li data-start=\"1256\" data-end=\"1325\">$\\text{S1}$ and&nbsp;$\\text{S3}$ only<br>&nbsp;</li><li data-start=\"1256\" data-end=\"1325\">$\\text{S2}$ and&nbsp;$\\text{S3}$ only<br>&nbsp;</li><li data-start=\"1256\" data-end=\"1325\">$\\text{S1}$,&nbsp;$\\text{S2}$ and&nbsp;$\\text{S3}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "541991",
+          "text": "<p>Suppose we have three functions $f(n)$, $g(n)$, and $h(n)$ such that:</p><p>$f(n) \\in O(g(n))\\qquad$ and $\\qquad g(n) \\in O(h(n))$</p><p>Which of the following statements are guaranteed to be true?</p><p>$\\text{S1}:$ $f(n) \\in O(h(n))$</p><p>$\\text{S2}:$ $h(n) \\in \\Omega(f(n))$</p><p>$\\text{S3}:$ $f(n) + g(n) \\in O(g(n))$</p><p>$\\text{S4}:$ $f(n)\\cdot g(n) \\in O(h(n))$</p><p>$\\text{S5}:$ If we also know that $f(n) \\in \\Theta(h(n))$, then $g(n) \\in \\Theta(h(n))$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\text{S1}$, $\\text{S2}$ and $\\text{S3}$ only<br>&nbsp;</li><li>$\\text{S1}$, $\\text{S2}$, $\\text{S3}$ and $\\text{S5}$ only<br>&nbsp;</li><li>$\\text{S1}$, $\\text{S4}$ and $\\text{S5}$ only<br>&nbsp;</li><li>$\\text{S1}$, $\\text{S2}$, $\\text{S3}$, $\\text{S4}$ and $\\text{S5}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "541989",
+          "text": "<p data-start=\"449\" data-end=\"522\">Arrange the following functions in increasing order of asymptotic growth:</p><ul><li data-start=\"524\" data-end=\"553\">$f_1(n) = n^{0.999999}\\log n$<br>&nbsp;</li><li data-start=\"555\" data-end=\"575\">$f_2(n) = 10000000n$<br>&nbsp;</li><li data-start=\"577\" data-end=\"598\">$f_3(n) = 1.000001^n$<br>&nbsp;</li><li data-start=\"600\" data-end=\"614\">$f_4(n) = n^2$</li></ul><p data-start=\"600\" data-end=\"614\">&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"616\" data-end=\"765\">$f_1(n)&lt;&nbsp;f_2(n)&lt;&nbsp;f_4(n)&lt;&nbsp;f_3(n)$<br>&nbsp;</li><li data-start=\"616\" data-end=\"765\">$f_1(n)&lt;&nbsp;f_4(n)&lt;&nbsp;f_2(n)&lt;&nbsp;f_3(n)$<br>&nbsp;</li><li data-start=\"616\" data-end=\"765\">$f_2(n)&lt;f_1(n)&lt;&nbsp;f_4(n)&lt;&nbsp;f_3(n)$<br>&nbsp;</li><li data-start=\"616\" data-end=\"765\">$f_1(n)&lt;&nbsp;f_2(n)&lt;&nbsp;f_3(n)&lt;&nbsp;f_4(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 236"
+        }
+      ]
+    }
+  ]
+}

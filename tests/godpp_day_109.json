@@ -1,0 +1,70 @@
+{
+  "name": "Day 106 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "491257",
+          "text": "<p>A router has the following entries in its routing table:</p><p>\\[<br>\\begin{array}{lll}<br>\\text{Destination} & \\text{Subnet Mask} & \\text{Interface} \\\\<br>172.16.0.0 & 255.255.0.0 & \\text{Eth0} \\\\<br>172.16.128.0 & 255.255.192.0 & \\text{Eth1} \\\\<br>172.16.130.0 & 255.255.255.0 & \\text{Eth3} \\\\<br>\\text{Default} & &nbsp;& \\text{Eth2} \\\\<br>\\end{array}<br>\\]</p><p>On which interfaces will the router forward packets addressed to the destinations $172.16 .130 .50$ and $172.16 .140 .200$, respectively?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Eth1 and Eth2<br>&nbsp;</li><li>Eth3 and Eth0<br>&nbsp;</li><li>Eth0 and Eth1<br>&nbsp;</li><li>Eth3 and Eth1</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 106"
+        },
+        {
+          "post_id": "491254",
+          "text": "A network uses the pure ALOHA protocol where each frame is $2,000$ bits long. The channel transmission rate is $1$ Mbps ( $=10^6$ bits per second). The aggregate number of transmissions (including new and retransmitted frames) is modelled as a Poisson process with a rate of $250$ frames per second.<br>\n<br>\nWhat is the throughput of the network in frames per second (rounded to the nearest integer)?",
+          "type": "Numerical",
+          "answer": "46",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 106"
+        },
+        {
+          "post_id": "491252",
+          "text": "<p>A host needs to send a large UDP datagram over a network that uses IPv4. The network link has an MTU of $1492$ bytes. The UDP segment contains $4400$ bytes of application data. Assuming the IPv4 header does not contain any optional fields, which of the following correctly states the total number of fragments generated and the total size of the final fragment?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3$ fragments, $1476$ bytes<br>&nbsp;</li><li>$3$ fragments, $1484$ bytes<br>&nbsp;</li><li>$2$ fragments, $1484$ bytes<br>&nbsp;</li><li>$3$ fragments, $1464$ bytes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 106"
+        },
+        {
+          "post_id": "491250",
+          "text": "<p>Consider two nodes communicating using the Stop-and-Wait protocol. The data frame size is $4000$ bits. The channel has a transmission rate of $10$ kbps (kilobits/second), and the one-way propagation delay between the nodes is $80$ milliseconds. Assume that both the processing delay and the size of the acknowledgement packet are negligible. Which ONE of the following values most closely represents the channel utilization for this communication scenario in percentage?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$83.33$<br>&nbsp;</li><li>$28.57$<br>&nbsp;</li><li>$71.43$<br>&nbsp;</li><li>$55.55$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 106"
+        },
+        {
+          "post_id": "491248",
+          "text": "<p>Determine the minimum Hamming distance for the following set of codewords:<br><br>C = $\\{101010, 010101, 111000, 000111\\}$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2$<br>&nbsp;</li><li>$3$<br>&nbsp;</li><li>$4$<br>&nbsp;</li><li>$5$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 106"
+        }
+      ]
+    }
+  ]
+}

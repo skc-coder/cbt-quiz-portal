@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes Weekly Quiz 10 | Discrete Mathematics | Set Theory, Mathematical Logic, Lattice",
+  "duration": "50",
+  "total_qs": "15",
+  "total_qs_one": 7,
+  "total_qs_two": 8,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 23,
+  "total_marks": 23,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 23,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "375360",
+          "text": "<p>Let $A, B$ be two predicate logic formulas. We say that “$A \\models B$” (which means that “$A$ infers $B$”) iff for all interpretations in which $A$ is true, $B$ is also true.<br>\nSo, “$A \\models B$” iff “$A \\rightarrow B$” is valid.</p>\n\n<p>Which of the following inferences are valid in predicate logic?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\forall x (P(x) \\vee Q(x)) \\models \\forall x P(x) \\vee \\forall x Q(x)$</li>\n    <li>$\\forall x (P(x) \\rightarrow Q(x)) \\models \\forall x P(x) \\rightarrow \\forall x Q(x)$</li>\n    <li>$\\forall x P(x) \\rightarrow \\forall x Q(x) \\models \\forall x (P(x) \\rightarrow Q(x))$</li>\n    <li>$\\neg \\forall x (P(x) \\wedge Q(x)) \\models \\exists x \\neg P(x) \\wedge \\exists x \\neg Q(x)$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_mix_1,goclasses-testseries-2026,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375378",
+          "text": "<p>Let $\\mathbf{Z}$ be the set of all integers. Define a relation $\\text{S}$ on $\\mathbf{Z} \\times \\mathbf{Z}$ by $(w,x)\\text{S}(y,z)$ if and only if $w-x = y-z.$<br>\nWhich of the following is true about $\\text{S}?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{S}$ is not an equivalence relation.</li>\n    <li>$\\text{S}$ is an equivalence relation and the equivalence class of $(a,b)$ is the same as the equivalence class of $(b,a),$ for all $a,b \\in \\mathbf{Z}.$</li>\n    <li>$\\text{S}$ is an equivalence relation and the equivalence class of $(a,b)$ is the same as the equivalence class of $(-b,-a),$ for all $a,b \\in \\mathbf{Z}.$</li>\n    <li>$\\text{S}$ is an equivalence relation and the equivalence class of $(a,b)$ is disjoint from the equivalence class of $(a+1,b+1),$ for all $a,b \\in \\mathbf{Z}.$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024_wq13,goclasses,set-theory&algebra,relations,equivalence-class,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "375369",
+          "text": "Let $[N, \\leq ]$ is a partial order relation defined on natural numbers, where “$\\leq$” is the “less than equal to” relation defined on $N = \\{ 0,1,2,3,\\dots \\}.$ Which of the following statements is false ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $[N, \\leq ]$ is distributive but not complemented lattice</li><li> $[N, \\leq ]$ is not a lattice</li> <li>$[N, \\leq ]$ is not Boolean lattice</li>  <li>Element $0$ doesn't have complement</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_wq10,goclasses,set-theory&algebra,partial-order,lattice,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "375354",
+          "text": "Suppose $A$ is a finite set of five elements. Then the cardinality of the largest partial order relation possible on $A$ is _______",
+          "type": "Numerical",
+          "answer": "15",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_wq10,numerical-answers,goclasses,set-theory&algebra,relations,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "375368",
+          "text": "<p><strong><img alt=\"\" height=\"281\" src=\"https://lh3.googleusercontent.com/IDQ-DvGqyvTT8cT7H5L85aY4zM3qs-9kpy0ilmS78KK_Yg95LtcnLtjWVwE07ULZTRZXrqO8UrsJmJ7R7PG92wiqj9P3IBSynO3nxSKdHlZhagXJtR2hfdEAZKA1Mhp0CDlt2vrGNbkPizDUfQ\" width=\"312\"></strong></p>\n\n<p>The number&nbsp;of elements which do not have complements in the above lattices is __________</p>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_mix_1,goclasses-testseries-2026,numerical-answers,goclasses,set-theory&algebra,partial-order,lattice,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "375366",
+          "text": "<p>Let the universe for all quantified variables be the set of all novels. Assume the following predicates and constant symbols:</p>\n\n<ul>\n    <li>$W(x,y) :\\; x$ wrote novel $y$</li>\n    <li>$L(x,y) : \\;x$ is longer than $y$</li>\n    <li>$h :$ Hardy</li>\n    <li>$a :$ Austen</li>\n</ul>\n\n<p>Given these specifications, which of the predicate logic formulas below represent the sentence, 'Hardy wrote a novel which is longer than any of Austen's' in predicate logic?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\forall x \\exists y (L(x,y) \\rightarrow W(h,y) \\wedge W(a,x))$</li>\n    <li>$\\forall x \\forall y (W(h,x) \\wedge W(a,y) \\rightarrow L(x,y)))$</li>\n    <li>$\\exists x (W(h,x) \\wedge \\forall y ( W(a,y) \\rightarrow L(x,y)))$</li>\n    <li>$\\exists x \\forall y (W(h,x) \\rightarrow W(a,y) \\wedge L(x,y))$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_wq10,goclasses,mathematical-logic,first-order-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375374",
+          "text": "<p>Assume the specifications</p>\n\n<ul>\n    <li>$F(x,y) : x$ is the father of $y$</li>\n    <li>$M(x,y) : x$ is the mother of $y.$</li>\n</ul>\n\n<p>Which of the formulas in predicate logic below express the sentence 'Everybody has a mother'?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\exists x \\forall y M(x, y)$</li>\n    <li>$\\exists y \\forall x M(x, y)$</li>\n    <li>$\\forall x \\exists y M(x, y)$</li>\n    <li>$\\forall y \\exists x M(x, y)$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_mix_1,goclasses-testseries-2026,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375355",
+          "text": "<p>Consider the following sentences :</p>\n\n<ol>\n    <li>$[R, | ]$ is poset. Where $R$ is the set of all real numbers and $|$ is the divisibility relation i.e. for any $a,b$ in $R, a|b$ iff there is some $c$ in $R$ such that $b=a\\ast c.$</li>\n    <li>If a relation $R$ on a set $A$ is irreflexive and transitive then $R$ is antisymmetric.</li>\n</ol>\n\n<p>Which of the above statements is correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $1$</li>\n    <li>Only $2$</li>\n    <li>Both</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_wq10,goclasses,set-theory&algebra,relations,partial-order,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "375359",
+          "text": "<p>Let $R$ be a relation from a set $A$ to a set $B.$ The inverse relation from $B$ to $A,$ denoted by $R^{-1}$ , is the set of ordered pairs $\\{(b,a) \\mid (a,b) \\in R\\}$ .</p>\n\n<ul>\n    <li>$S1: R$ is reflexive relation iff $R^{-1} = R$</li>\n    <li>$S2: R$ is a symmetric relation iff $R^{-1} = R$</li>\n</ul>\n\n<p>Which one of the following statements is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $S1$</li>\n    <li>Only $S2$</li>\n    <li>Both $S1$ and $S2$</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_wq10,goclasses,set-theory&algebra,relations,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "375364",
+          "text": "<p>Working with a unary predicate symbol, $P,$ a binary predicate symbol $Q$ and a unary function symbol $f,$ consider the following interpretation $M,$ given by,</p>\n\n<ul>\n    <li>Universe $A = \\{a,b,c,d\\};$</li>\n    <li>$P^M = \\{a,b\\}$ (it means that $P(a),P(b)$ are true, and $P(c),P(d)$ are false)</li>\n    <li>$Q^M = \\{(a,b), (b,b), (c,b)\\}$ (it means that $Q(a,b),Q(b,b),Q(c,b)$ are true, and for remaining pairs $Q$ is false)</li>\n    <li>$f^M (a) = b, f^M (b) = b, f^M (c) = a,$ and $f^M (d) = c$</li>\n</ul>\n\n<p>Which of the following formulas are satisfied in the interpretation $M?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\forall x (P(x) \\rightarrow \\exists y Q(y,x))$</li>\n    <li>$\\forall x (Q(f(x),x) \\rightarrow Q(x,x))$</li>\n    <li>$\\forall x \\forall y (Q(x,y) \\rightarrow P(x))$</li>\n    <li>$\\forall x \\exists y (Q(x,y) \\vee Q(y,x))$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_wq10,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375362",
+          "text": "Recall that a \"sentence/proposition\" is a predicate logic formula that has no free variables.<br />In predicate logic, a set of sentences is satisfiable iff there is some interpretation in which all the sentences are satisfied.<br />Which of the following sets of sentences is satisfiable? <br /><ol style=\"list-style-type:upper-alpha\"><li> $\\{\\exists x Q(x), \\forall x (Q(x) \\rightarrow R(x)), \\forall x \\neg R(x)\\}.$</li><li> $\\{ \\exists y \\forall x P(x,y), \\forall x \\neg P(x,x)\\}.$</li> <li>$\\{\\forall x \\forall y (P(x,y) \\rightarrow P(y,y)), \\forall x \\neg P(x,x), \\exists x \\exists y (P(x,y)\\}.$</li>  <li>$\\{ \\forall x \\exists y P(x,y), \\forall x \\neg P(x,x)\\}.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_wq10,goclasses,mathematical-logic,first-order-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "375372",
+          "text": "<p>Let $[P(S), \\supseteq]$ be a partial order relation defined on $P(S),$ where $S = \\{1,2,3,4\\}. P(S)$ is the set of all subsets of $S.$ Which of the following is the join of $\\{1,2\\}, \\{3,4\\}?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\{3,4\\}$</li>\n    <li>$\\{1,2,3,4\\}$</li>\n    <li>$\\varnothing&nbsp;$</li>\n    <li>$\\{1,2\\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_mix_1,goclasses-testseries-2026,goclasses,set-theory&algebra,partial-order,lattice,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "375371",
+          "text": "<p>Let $(L, \\#)$ be a lattice, where $\\#$ is some partial order relation defined on the base set $L$. Let $x,y,z \\in L.$ Which of the following is/are necessarily true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$x \\vee&nbsp;y = y \\vee x$</li>\n    <li>$x \\vee (x \\wedge y) = x$</li>\n    <li>$x \\vee (y \\wedge z) = (x \\vee y) \\wedge (x \\vee z)$</li>\n    <li>$x \\wedge (x \\vee&nbsp;y) = x$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_mix_1,goclasses-testseries-2026,goclasses,set-theory&algebra,partial-order,lattice,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "375357",
+          "text": "<p>For any integers $x,y,$ we say that $x$ divides $y$ iff there is some integer $z$ such that $y = x\\ast z.$<br>\nLet $[N, \\leq]$ is a partial order relation defined on natural numbers, where “$\\leq$” is the “divides” relation defined on $N = { 0,1,2,3,\\dots }$ i.e. $a\\leq b$ if and only if $a$ divides $b.$ Which of the following statements is/are false ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$[N, \\leq]$ is distributive but not complemented lattice</li>\n    <li>$[N, \\leq]$ is not reflexive.</li>\n    <li>$[N, \\leq]$ is not Boolean lattice</li>\n    <li>$[N, \\leq]$ Element $0$ doesn't have complement</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_wq10,goclasses,set-theory&algebra,partial-order,lattice,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "375376",
+          "text": "<p>Assume the following predicate and constant symbols.</p>\n\n<ul>\n    <li>$W(x,y) :\\; x$ wrote $y$</li>\n    <li>$L(x,y) :\\; x$ is longer than $y$</li>\n    <li>$h :$ Hardy</li>\n    <li>$a :$ Austen</li>\n    <li>$j :$ Jude the Obscure</li>\n    <li>$p :$ Pride and Predjudice</li>\n</ul>\n\n<p>Which of the following represents the sentence,</p>\n\n<p>''Jude the Obscure' is not longer than 'Pride and Predjudice'', in predicate logic?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$W(h,j) \\wedge W(a,p)$</li>\n    <li>$\\neg \\forall x \\forall y \\neg L(x,y)$</li>\n    <li>$L(p,j)$</li>\n    <li>$\\neg L(j,p)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_wq10,goclasses,mathematical-logic,first-order-logic,one-mark",
+          "category": "Mathematical Logic"
+        }
+      ]
+    }
+  ]
+}

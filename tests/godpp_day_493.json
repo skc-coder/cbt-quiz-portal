@@ -1,0 +1,70 @@
+{
+  "name": "Day 340 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543000",
+          "text": "<p data-start=\"0\" data-end=\"34\">Consider the following page table:</p><p data-start=\"36\" data-end=\"203\">$$\\begin{array}{|c|c|}<br>\\hline<br>\\text{Virtual page} & \\text{Frame} \\\\<br>\\hline<br>0 & 3 \\\\<br>\\hline<br>1 & 10 \\\\<br>\\hline<br>2 & 9 \\\\<br>\\hline<br>3 & 2 \\\\<br>\\hline<br>4 & 0 \\\\<br>\\hline<br>\\end{array}$$</p><p data-start=\"205\" data-end=\"235\">The page size is $1024$ bytes.</p><p data-start=\"237\" data-end=\"321\">Assume that physical address $2075$ belongs to the memory allocated to this process.</p><p data-start=\"323\" data-end=\"376\">What virtual address maps to physical address $2075$?</p><p data-start=\"378\" data-end=\"409\" data-is-last-node=\"\" data-is-only-node=\"\"><em>Enter the answer as an integer.</em></p>",
+          "type": "Numerical",
+          "answer": "3099",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 340"
+        },
+        {
+          "post_id": "542996",
+          "text": "<p data-start=\"3402\" data-end=\"3445\">Consider a single-level paging system with:</p><ul data-start=\"3447\" data-end=\"3534\"><li data-section-id=\"17mkb08\" data-start=\"3447\" data-end=\"3475\">$12$-bit virtual addresses<br>&nbsp;</li><li data-section-id=\"duz27d\" data-start=\"3476\" data-end=\"3505\">$24$-bit physical addresses<br>&nbsp;</li><li data-section-id=\"2heznm\" data-start=\"3506\" data-end=\"3534\">Page size $=256=2^8$ bytes<br>&nbsp;</li></ul><p data-start=\"3536\" data-end=\"3605\">What is the maximum number of entries in the page table of a process?</p><p data-start=\"3607\" data-end=\"3638\"><em>Enter the answer as an integer.</em></p>",
+          "type": "Numerical",
+          "answer": "16",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 340"
+        },
+        {
+          "post_id": "542998",
+          "text": "<p data-start=\"4615\" data-end=\"4700\">A system uses paging to implement virtual memory and uses a simple linear page table.</p><p data-start=\"4702\" data-end=\"4717\">The system has:</p><ul data-start=\"4719\" data-end=\"4938\"><li data-section-id=\"9hh1bp\" data-start=\"4719\" data-end=\"4770\">Virtual-address space $=1\\text{ GB}=2^{30}$ bytes<br>&nbsp;</li><li data-section-id=\"tlev3n\" data-start=\"4771\" data-end=\"4810\">Page size $=1\\text{ KB}=2^{10}$ bytes<br>&nbsp;</li><li data-section-id=\"16ynm2q\" data-start=\"4811\" data-end=\"4856\">Maximum number of physical frames $=2^{15}$<br>&nbsp;</li><li data-section-id=\"8l25x1\" data-start=\"4857\" data-end=\"4938\">Each page-table entry contains:<br>&nbsp;<ul data-start=\"4893\" data-end=\"4938\"><li data-section-id=\"1yzpszp\" data-start=\"4893\" data-end=\"4908\">One valid bit<br>&nbsp;</li><li data-section-id=\"83437e\" data-start=\"4911\" data-end=\"4938\">The physical frame number<br>&nbsp;</li></ul></li></ul><p data-start=\"4940\" data-end=\"5017\">Assume that each page-table entry occupies the minimum whole number of bytes.</p><p data-start=\"5019\" data-end=\"5109\">How many megabytes of memory are occupied by page tables when $100$ processes are running?</p><p data-start=\"5111\" data-end=\"5134\"><em>Enter the answer in MB.</em></p>",
+          "type": "Numerical",
+          "answer": "200",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 340"
+        },
+        {
+          "post_id": "542991",
+          "text": "<p>Consider the following page table. All numbers are expressed in base $10$.</p><p>$$\\begin{array}{|c|c|}<br>\\hline<br>\\text{Virtual page} & \\text{Frame} \\\\<br>\\hline<br>0 & 3 \\\\<br>\\hline<br>1 & 10 \\\\<br>\\hline<br>2 & 9 \\\\<br>\\hline<br>3 & 2 \\\\<br>\\hline<br>4 & 0 \\\\<br>\\hline<br>\\end{array}$$</p><p>The page size is $1024$ bytes.</p><p>What is the physical address corresponding to virtual address $697$?</p><p><em>Enter the answer as an integer.</em></p>",
+          "type": "Numerical",
+          "answer": "3769",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 340"
+        },
+        {
+          "post_id": "542994",
+          "text": "<p data-start=\"0\" data-end=\"50\">Consider a virtual-memory system that uses paging.</p><ul><li data-start=\"52\" data-end=\"111\">$\\text{Virtual address length } = 32 \\text{ bits}$<br>&nbsp;</li><li data-start=\"113\" data-end=\"173\">$\\text{Physical address length } = 32 \\text{ bits}$<br>&nbsp;</li><li data-start=\"175\" data-end=\"240\">$\\text{Page size } = 4\\text{ KB} = 2^{12} \\text{ bytes}$<br>&nbsp;</li></ul><p data-start=\"242\" data-end=\"285\">Process $P_1$ has the following page table:</p><p data-start=\"287\" data-end=\"535\">$$\\begin{array}{|c|c|}<br>\\hline<br>\\text{Virtual page} & \\text{Frame number} \\\\<br>\\hline<br>0 & \\texttt{0x00788} \\\\<br>\\hline<br>1 & \\texttt{0x00249} \\\\<br>\\hline<br>2 & \\texttt{0x0023f} \\\\<br>\\hline<br>3 & \\texttt{0x00ace} \\\\<br>\\hline<br>4 & \\texttt{0x00bcd} \\\\<br>\\hline<br>\\end{array}$$</p><p data-start=\"537\" data-end=\"621\">What is the physical address corresponding to virtual address $\\texttt{0x00001a60}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"623\" data-end=\"644\">$\\texttt{0x00249a60}$<br>&nbsp;</li><li data-start=\"646\" data-end=\"667\">$\\texttt{0x00788a60}$<br>&nbsp;</li><li data-start=\"669\" data-end=\"690\">$\\texttt{0x00249001}$<br>&nbsp;</li><li data-start=\"692\" data-end=\"713\" data-is-last-node=\"\" data-is-only-node=\"\">$\\texttt{0x00001a60}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 340"
+        }
+      ]
+    }
+  ]
+}

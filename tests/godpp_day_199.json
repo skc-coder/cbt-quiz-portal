@@ -1,0 +1,70 @@
+{
+  "name": "Day 195 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "521143",
+          "text": "<p>Consider a $3$-bit synchronous counter using <strong>T-Flip Flops</strong> $(T_2, T_1, T_0)$. The flip-flop inputs are defined by the following logic:</p><ul><li>$T_2=Q_1 Q_0$<br>&nbsp;</li><li>$T_1=Q_0$<br>&nbsp;</li><li>$T_0=\\overline{Q_2}$<br>&nbsp;</li></ul><p>If the counter starts at the state $\\left(Q_2 Q_1 Q_0\\right)=(000)$, what is the decimal equivalent of the state of the counter after $\\mathbf{4}$ <strong>clock pulses</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3$<br>&nbsp;</li><li>$4$<br>&nbsp;</li><li>$5$<br>&nbsp;</li><li>$6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 195"
+        },
+        {
+          "post_id": "521151",
+          "text": "<p>An integer $N$ has the following representations in two different bases, $r_1$ and $r_2$ :</p><p>$$<br>(121)_{r_1}=(100)_{r_2}<br>$$</p><p>find the values of the bases $\\mathbf{r 1}$ and $\\mathbf{r 2}$, and determine the decimal value of the integer $\\mathbf{N}$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$r_1=2, r_2=3, N=9$<br>&nbsp;</li><li>$r_1=3, r_2=4, N=16$<br>&nbsp;</li><li>Any $r_1&gt;2$ will satisfy this, $N$ is not unique.<br>&nbsp;</li><li>$r_1=5, r_2=6, N=36$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 195"
+        },
+        {
+          "post_id": "521149",
+          "text": "<p>Consider a logic circuit with $4$ inputs $A, B, C, D$ where the output is $\\text{HIGH}$ only when the number of $\\text{HIGH}$ inputs is even (including zero). Which logic gate can implement this function for $4$ variables?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\text{NOR}$<br>&nbsp;</li><li>$\\text{XOR}$<br>&nbsp;</li><li>$\\text{NAND}$<br>&nbsp;</li><li>$\\text{XNOR}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 195"
+        },
+        {
+          "post_id": "521145",
+          "text": "<p>A Boolean function $f(A, B, C, D)$ is implemented using a $4-$<strong>to</strong>$-1$ <strong>Multiplexer</strong> as shown below. The control lines are connected to $S_1=A$ and $S_0=B$. The inputs to the multiplexer are $I_0=C \\oplus D, I_1=C+\\bar{D}, I_2=\\bar{C} D$, and $I_3=0$.</p><p>Which of the following represents the correct <strong>Sum of Products (SOP)</strong> form for the function $f$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\sum m(1,2,4,6,9)$<br>&nbsp;</li><li>$\\sum m(1,2,4,6,7,9)$<br>&nbsp;</li><li>$\\sum m(1,2,5,6,7,10)$<br>&nbsp;</li><li>$\\sum m(2,4,5,8,9,12)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 195"
+        },
+        {
+          "post_id": "521147",
+          "text": "<p>A $4-$bit synchronous down-counter is initialized to $1010$. After $13$ clock pulses, what will be the state of the counter?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0111$<br>&nbsp;</li><li>$1011$<br>&nbsp;</li><li>$1101$<br>&nbsp;</li><li>$1100$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 195"
+        }
+      ]
+    }
+  ]
+}

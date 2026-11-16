@@ -1,0 +1,70 @@
+{
+  "name": "Day 118 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "494101",
+          "text": "<p>In an IPv4 datagram, the $M$ bit is $\\mathbf{1}$, the value of $H L E N$ is $\\mathbf{5}$, the value of total length is $\\mathbf{1 5 0 0}$ and the fragment offset value is $100$. The position of the datagram and the sequence numbers of the first and the last bytes of the payload, respectively, are:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>First fragment, $800$ and $2279$<br>&nbsp;</li><li>Last fragment, $800$ and $2279$<br>&nbsp;</li><li>Middle fragment, $100$ and $1579$<br>&nbsp;</li><li>Middle fragment, $800$ and $2279$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 118"
+        },
+        {
+          "post_id": "494100",
+          "text": "In the $\\mathrm{IPv4}$ addressing format, the total number of host addresses available within a single Class C network is:",
+          "type": "Numerical",
+          "answer": "254",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 118"
+        },
+        {
+          "post_id": "494098",
+          "text": "Consider the resolution of the domain name www.research.ac.uk by a local DNS resolver using an iterative query mechanism. Assume the resolver's cache is not empty; it already contains the resource record for the .ac.uk name server. No other records are cached. The number of new external DNS query-response pairs the resolver must initiate to find the IP address is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 118"
+        },
+        {
+          "post_id": "494092",
+          "text": "Assume you have requested a web page from a server. Your browser's cache is initially empty. The browser is configured to use non-persistent HTTP. The web page consists of one main HTML file, three stylesheets (.css files), and eight small icon images. The minimum number of TCP connections required to display the web page completely is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "12",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 118"
+        },
+        {
+          "post_id": "494096",
+          "text": "A web browser, with an empty cache, is set to use persistent HTTP and can open up to $6$ parallel connections to a single server. A requested web page contains one main HTML file and $10$ embedded images (all hosted on the same server). What is the minimum number of TCP connections the browser will open to display the page completely?",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 118"
+        }
+      ]
+    }
+  ]
+}

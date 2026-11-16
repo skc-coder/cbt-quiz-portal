@@ -1,0 +1,70 @@
+{
+  "name": "Day 344 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543481",
+          "text": "<p data-start=\"5552\" data-end=\"5575\">Consider a system with:</p><ul data-start=\"5577\" data-end=\"5665\"><li data-section-id=\"b7ip7f\" data-start=\"5577\" data-end=\"5600\">$6$-level page tables</li><li data-section-id=\"10c3hcy\" data-start=\"5601\" data-end=\"5635\">$1$ KB page tables at each level</li><li data-section-id=\"1tol9l\" data-start=\"5636\" data-end=\"5665\">$4$-byte page-table entries</li></ul><p data-start=\"5667\" data-end=\"5831\">How much page-table space, in KB, is required to allow a process to access <strong data-start=\"5742\" data-end=\"5830\">two distinct pages whose virtual addresses differ only in their most significant bit</strong>?</p>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 344"
+        },
+        {
+          "post_id": "543484",
+          "text": "<p data-start=\"7153\" data-end=\"7177\">Consider a machine with:</p><ul data-start=\"7179\" data-end=\"7335\"><li data-section-id=\"17zrflo\" data-start=\"7179\" data-end=\"7204\">Physical memory $=8$ GB</li><li data-section-id=\"1rh3yq\" data-start=\"7205\" data-end=\"7224\">Page size $=8$ KB</li><li data-section-id=\"j2pmzt\" data-start=\"7225\" data-end=\"7259\">Page-table entry size $=4$ bytes</li><li data-section-id=\"1hj2ki1\" data-start=\"7260\" data-end=\"7293\">Virtual address size $=46$ bits</li><li data-section-id=\"1ykorhz\" data-start=\"7294\" data-end=\"7335\">Every page table must fit into one page</li></ul><p data-start=\"7337\" data-end=\"7488\">How much physical memory is needed for a process with <strong data-start=\"7391\" data-end=\"7424\">three pages of virtual memory</strong>, for example, one code page, one data page, and one stack page?</p><p data-start=\"7490\" data-end=\"7513\">Give your answer in KB.</p>",
+          "type": "Numerical",
+          "answer": "48",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 344"
+        },
+        {
+          "post_id": "543476",
+          "text": "<p data-start=\"2224\" data-end=\"2286\">Consider a virtual-memory system that uses multi-level paging.</p><ul data-start=\"2288\" data-end=\"2507\"><li data-section-id=\"103cxs9\" data-start=\"2288\" data-end=\"2321\">Virtual address size $=64$ bits</li><li data-section-id=\"y8nztp\" data-start=\"2322\" data-end=\"2356\">Physical address size $=64$ bits</li><li data-section-id=\"1vh16pd\" data-start=\"2357\" data-end=\"2392\">Page size $=1$ MB $=2^{20}$ bytes</li><li data-section-id=\"1l8b45i\" data-start=\"2393\" data-end=\"2441\">Page-table entry size $=16$ bytes $=2^4$ bytes</li><li data-section-id=\"12kzauf\" data-start=\"2442\" data-end=\"2507\">Each individual page table at every level must fit in one frame</li></ul><p data-start=\"2509\" data-end=\"2632\">A particular process uses only $128$ MB $=2^{27}$ bytes of virtual memory, occupying the consecutive virtual-address range:</p><p data-start=\"2634\" data-end=\"2651\">$0$ to $2^{27}-1$</p><p data-start=\"2653\" data-end=\"2759\">What is the <strong data-start=\"2665\" data-end=\"2707\">total number of individual page tables</strong> required to translate this process's address space?</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 344"
+        },
+        {
+          "post_id": "543474",
+          "text": "<p data-start=\"0\" data-end=\"33\">Consider the $\\text{x86-64}$ architecture.</p><p data-start=\"35\" data-end=\"42\">Assume:</p><ul data-start=\"44\" data-end=\"282\"><li data-section-id=\"fb0pb7\" data-start=\"44\" data-end=\"62\">Pages are $4$ KB<br>&nbsp;</li><li data-section-id=\"15axz9k\" data-start=\"63\" data-end=\"99\">Each page-table entry is $8$ bytes<br>&nbsp;</li><li data-section-id=\"5vegmr\" data-start=\"100\" data-end=\"145\">Each page-table page contains $512$ entries<br>&nbsp;</li><li data-section-id=\"ru6z79\" data-start=\"146\" data-end=\"188\">The page-table structure has four levels<br>&nbsp;</li><li data-section-id=\"p1xl6d\" data-start=\"189\" data-end=\"242\">Any allocated memory consumes physical pages in RAM<br>&nbsp;</li><li data-section-id=\"mcpeb8\" data-start=\"243\" data-end=\"282\">There is no swapping or demand paging</li></ul><p data-start=\"284\" data-end=\"428\" data-is-last-node=\"\" data-is-only-node=\"\">What is the minimum number of physical pages consumed by a process that allocates $12$ KB, for example, one page each for code, stack, and data?</p>",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 344"
+        },
+        {
+          "post_id": "543479",
+          "text": "<p data-start=\"4043\" data-end=\"4095\">Consider a three-level page table on a system where:</p><ul data-start=\"4097\" data-end=\"4300\"><li data-section-id=\"tbg2i3\" data-start=\"4097\" data-end=\"4121\">Page size $=256$ bytes</li><li data-section-id=\"1p9s5tb\" data-start=\"4122\" data-end=\"4156\">Page-table entry size $=2$ bytes</li><li data-section-id=\"1x7t09e\" data-start=\"4157\" data-end=\"4203\">First-level page tables contain $16$ entries</li><li data-section-id=\"ndw3wk\" data-start=\"4204\" data-end=\"4252\">Second-level page tables contain $128$ entries</li><li data-section-id=\"5wc6pj\" data-start=\"4253\" data-end=\"4300\">Third-level page tables contain $128$ entries</li></ul><p data-start=\"4302\" data-end=\"4505\">If the page containing address $\\texttt{0x100}$ and the page containing address $\\texttt{0x10000}$ are valid for a process, and no other pages are valid, how many bytes of space do the page tables for this process occupy?</p>",
+          "type": "Numerical",
+          "answer": "800",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 344"
+        }
+      ]
+    }
+  ]
+}

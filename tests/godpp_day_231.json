@@ -1,0 +1,70 @@
+{
+  "name": "Day 218 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524807",
+          "text": "<p>Which of the following statements about the eigen values of $I_n$, the $n \\times n$ identity matrix (over complex numbers), is true?</p><ol style=\"list-style-type:upper-alpha\"><li>The eigen values are $1, \\omega, \\omega^2, \\dots , \\omega^{n-1}$, where $\\omega$ is a primitive $n$-th root of unity.<br>&nbsp;</li><li>The only eigen value is $-1$<br>&nbsp;</li><li>Both $0$ and $1$ are eigen values, but there are no other eigen values<br>&nbsp;</li><li>The only eigen value is $1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 218"
+        },
+        {
+          "post_id": "524802",
+          "text": "Consider a matrix, $A =$ $\\begin{bmatrix} 6 & 10\\\\ -2&-3 \\end{bmatrix}$.<br>\n<br>\n&nbsp;The trace of $A^{10}$ is ______.",
+          "type": "Numerical",
+          "answer": "1025",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 218"
+        },
+        {
+          "post_id": "524800",
+          "text": "<p>If $\\text{A}$ and $\\text{B}$ are square matrices with same order and $\\text{A}$ is symmetric, then $\\text{B}^{\\text{T}}\\text{AB}$ is</p><ol style=\"list-style-type:upper-alpha\" class=\"noshrink-inline-options\"><li>Skew symmetric<br>&nbsp;</li><li>Symmetric<br>&nbsp;</li><li>Orthogonal<br>&nbsp;</li><li>Idempotent</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 218"
+        },
+        {
+          "post_id": "524798",
+          "text": "<p>Let $\\mathrm{M}$ and $\\mathrm{N}$ be two $3 \\times 3$ non-singular skew symmetric matrices such that $\\mathrm{M N=N M}$. If $\\mathrm{P}^{\\top}$ denotes the transpose of $\\mathrm{P}$, then $\\mathrm{M}^2 \\mathrm{~N}^2\\left(\\mathrm{M}^{\\top} \\mathrm{N}\\right)^{-1}\\left(\\mathrm{MN}^{-1}\\right)^{\\top}$ is equal to</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{M}^2$<br>&nbsp;</li><li>$-\\mathrm{N}^2$<br>&nbsp;</li><li>$-\\mathrm{M^2}$<br>&nbsp;</li><li>$\\mathrm{MN}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 218"
+        },
+        {
+          "post_id": "524804",
+          "text": "<p>Let $x$ be a real number. If the rank of the matrix $A=\\left[\\begin{array}{ccc}x & -1 & 0 \\\\ 0 & x & -1 \\\\ -1 & 0 & x\\end{array}\\right]$ is $2$, then $x=$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$<br>&nbsp;</li><li>$1$<br>&nbsp;</li><li>$-1$<br>&nbsp;</li><li>$2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 218"
+        }
+      ]
+    }
+  ]
+}

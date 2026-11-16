@@ -1,0 +1,70 @@
+{
+  "name": "Day 7 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "471418",
+          "text": "<p>Consider the statement form $p \\Rightarrow q$ where $p=$ \"If Tom is Jane's father then Jane is Bill's niece\" and $q=$ \"Bill is Tom's brother.\" Which of the following statements is equivalent to this statement?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If Bill is Tom's Brother, then Tom is Jane's father and Jane is not Bill's niece.</li><li>If Bill is not Tom's Brother, then Tom is Jane's father and Jane is not Bill's niece.</li><li>If Bill is not Tom's Brother, then Tom is Jane's father or Jane is Bill's niece.</li><li>If Bill is Tom's Brother, then Tom is Jane's father and Jane is Bill's niece.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 7"
+        },
+        {
+          "post_id": "471416",
+          "text": "<p>Q4. The statement form $(p \\Leftrightarrow r) \\Rightarrow(q \\Leftrightarrow r)$ is logically equivalent to:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(\\sim p \\vee r) \\wedge(\\sim r \\vee p) \\Rightarrow(\\sim q \\vee r) \\wedge(\\sim r \\vee q)$</li><li>$\\sim[(\\sim p \\vee r) \\wedge(\\sim r \\vee p)] \\vee[(\\sim q \\vee r) \\wedge(\\sim r \\vee q)]$</li><li>$(\\sim p \\vee r) \\wedge(\\sim r \\vee p) \\wedge(\\sim q \\vee r) \\wedge(\\sim r \\vee q)$</li><li>$\\sim[(\\sim p \\vee r) \\wedge(\\sim r \\vee p)] \\wedge \\sim[(\\sim q \\vee r) \\wedge(\\sim r \\vee q)]$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A, B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 7"
+        },
+        {
+          "post_id": "471411",
+          "text": "How many different truth tables of compound propositions are there that involve the propositional variables $p$ and $q$ ?",
+          "type": "Numerical",
+          "answer": "16",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 7"
+        },
+        {
+          "post_id": "471414",
+          "text": "<p>Which of the following statements are tautologies?<br>(You may select more than one option.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(p \\wedge q) \\rightarrow p$</li><li>$p \\rightarrow(p \\vee q)$</li><li>$p \\rightarrow(p \\rightarrow q)$</li><li>$(p \\wedge q) \\rightarrow(p \\rightarrow q)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A,B,D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 7"
+        },
+        {
+          "post_id": "471409",
+          "text": "<p>Mark all the statements that are logically true:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If $1+1=2$, then $2+2=5$</li><li>If $1+1=2$, then $2+2=4$</li><li>If $1+1=3$, then $2+2=5$</li><li>If monkeys can fly, then $1+1=3$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B,C,D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 7"
+        }
+      ]
+    }
+  ]
+}

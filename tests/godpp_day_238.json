@@ -1,0 +1,30 @@
+{
+  "name": "Day 221 [Data Structures]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "539425",
+          "text": "<div style=\"line-height:1.9; font-size:16px;\"><p>Suppose a client performs an intermixed sequence of $\\texttt{enqueue}$ and $\\texttt{dequeue}$ operations on a queue. The enqueue operations put the integers $0$ through $9$ in order onto the queue. The dequeue operations print the returned values.</p><p><b>Which of the following output sequences could NOT occur?</b></p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\text{0 1 2 3 4 5 6 7 8 9}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\text{4 6 8 7 5 3 2 9 0 1}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\text{2 5 6 7 4 8 9 3 1 0}$</p></li><li><p data-pbcklang=\"text\" data-pbcktabsize=\"4\">$\\text{4 3 2 1 0 5 6 7 8 9}$</p></li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 221"
+        }
+      ]
+    }
+  ]
+}

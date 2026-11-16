@@ -1,0 +1,70 @@
+{
+  "name": "Day 220 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525055",
+          "text": "<p>In the proof of $\\neg(p \\vee(\\neg p \\wedge q)) \\equiv \\neg p \\wedge \\neg q$, which law justifies the step:</p><p>$$<br>\\neg p \\wedge(p \\vee \\neg q) \\equiv(\\neg p \\wedge p) \\vee(\\neg p \\wedge \\neg q)<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>De Morgan's law</li><li>Absorption law</li><li>Distributive law</li><li>Associative law</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 220"
+        },
+        {
+          "post_id": "525040",
+          "text": "<p>Which sequence of laws correctly proves $\\mathrm{p} \\vee(\\mathrm{p} \\wedge \\mathrm{q}) \\vee(\\neg \\mathrm{p} \\wedge \\mathrm{r}) \\equiv \\mathrm{p} \\vee \\mathrm{r}$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Distributive law, then De Morgan's law, then absorption.</li><li>Absorption law on first two terms, then distributive law, then identity law.</li><li>De Morgan's law, then absorption, then idempotent law.</li><li>Commutative law, then absorption, then identity law.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 220"
+        },
+        {
+          "post_id": "525038",
+          "text": "<p>Consider the two formulas:</p><p>$$<br>\\begin{aligned}<br>& \\mathrm{F} 1=(\\mathrm{p} \\wedge \\mathrm{q}) \\vee(\\mathrm{p} \\wedge \\mathrm{q} \\wedge \\mathrm{r}) \\\\<br>& \\mathrm{F} 2=(\\mathrm{p} \\wedge \\mathrm{q} \\wedge \\mathrm{r}) \\vee(\\mathrm{p} \\wedge \\mathrm{q})<br>\\end{aligned}<br>$$</p><p>Which of the following is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>F1 \\# F2, their biconditional is a tautology.</li><li>$\\mathrm{F} 1 \\equiv \\mathrm{~F} 2$; counterexample: $\\mathrm{p}=\\mathrm{T}, \\mathrm{q}=\\mathrm{F}, \\mathrm{r}=\\mathrm{T}$ makes them differ.</li><li>F1 $\\equiv \\mathrm{F} 2$; counterexample: $\\mathrm{p}=\\mathrm{F}, \\mathrm{q}=\\mathrm{T}, \\mathrm{r}=\\mathrm{T}$ makes them differ.</li><li>F1 $\\equiv \\mathrm{F} 2$; counterexample: $\\mathrm{p}=\\mathrm{F}, \\mathrm{q}=\\mathrm{F}, \\mathrm{r}=\\mathrm{F}$ makes them differ.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 220"
+        },
+        {
+          "post_id": "525037",
+          "text": "<p>$$<br>\\neg \\mathrm{I} \\rightarrow \\neg \\mathrm{C}, \\mathrm{D} \\rightarrow \\mathrm{~S}, \\neg \\mathrm{P} \\rightarrow \\neg \\mathrm{D}, \\neg \\mathrm{~S} \\vee \\mathrm{I}, \\mathrm{P} \\rightarrow \\mathrm{C}<br>$$</p><p>Given the five propositions with variables I, S, D, P, C (all assigned TRUE), which of the following assignments make all five propositions simultaneously TRUE? Select all that apply.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{I}=\\mathrm{T}, \\mathrm{P}=\\mathrm{T}, \\mathrm{D}=\\mathrm{T}, \\mathrm{S}=\\mathrm{T}, \\mathrm{C}=\\mathrm{T}$</li><li>$\\mathrm{I}=\\mathrm{T}, \\mathrm{P}=\\mathrm{F}, \\mathrm{D}=\\mathrm{F}, \\mathrm{S}=\\mathrm{T}, \\mathrm{C}=\\mathrm{T}$</li><li>$\\mathrm{I}=\\mathrm{F}, \\mathrm{P}=\\mathrm{T}, \\mathrm{D}=\\mathrm{T}, \\mathrm{S}=\\mathrm{T}, \\mathrm{C}=\\mathrm{T}$</li><li>$I=T, P=F, D=T, S=F, C=F$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 220"
+        },
+        {
+          "post_id": "525036",
+          "text": "<p>Consider the statement: \"Students cannot skype during the test unless the internet is on.\"<br>Let $\\mathrm{I}=$ \"the internet is on\" and $\\mathrm{S}=$ \"students can skype during the test.\"<br>Which propositional formula correctly represents this statement?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{S} \\rightarrow \\mathrm{I}$</li><li>$\\mathrm{I} \\rightarrow \\mathrm{S}$</li><li>$\\neg \\mathrm{I} \\rightarrow \\mathrm{S}$</li><li>$S \\wedge \\neg I$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 220"
+        }
+      ]
+    }
+  ]
+}

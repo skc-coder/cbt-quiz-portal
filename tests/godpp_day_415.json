@@ -1,0 +1,70 @@
+{
+  "name": "Day 292 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534514",
+          "text": "<p data-start=\"98\" data-end=\"155\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  struct Student {     int roll;     int marks; };  int main() {     struct Student s1;      s1.roll = 10;     s1.marks = 85;      printf(&quot;%d %d&quot;, s1.roll, s1.marks);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Student {\n    int roll;\n    int marks;\n};\n\nint main() {\n    struct Student s1;\n\n    s1.roll = 10;\n    s1.marks = 85;\n\n    printf(\"%d %d\", s1.roll, s1.marks);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"369\" data-end=\"458\">$\\texttt{10\\ 85}$<br>&nbsp;</li><li data-start=\"369\" data-end=\"458\">$\\texttt{85\\ 10}$<br>&nbsp;</li><li data-start=\"369\" data-end=\"458\">$\\texttt{10\\ 10}$<br>&nbsp;</li><li data-start=\"369\" data-end=\"458\">Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 292"
+        },
+        {
+          "post_id": "534516",
+          "text": "<p data-start=\"1004\" data-end=\"1061\">What is the output of the following code?</p><pre data-start=\"1063\" data-end=\"1264\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Point {     int x;     int y; };  int main() {     struct Point p = {4, 7};      p.x = p.x + 3;     p.y = p.x + p.y;      printf(&quot;%d %d&quot;, p.x, p.y);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Point {\n    int x;\n    int y;\n};\n\nint main() {\n    struct Point p = {4, 7};\n\n    p.x = p.x + 3;\n    p.y = p.x + p.y;\n\n    printf(\"%d %d\", p.x, p.y);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1266\" data-end=\"1350\">$\\texttt{4\\ 7}$<br>&nbsp;</li><li data-start=\"1266\" data-end=\"1350\">$\\texttt{7\\ 14}$<br>&nbsp;</li><li data-start=\"1266\" data-end=\"1350\">$\\texttt{7\\ 11}$<br>&nbsp;</li><li data-start=\"1266\" data-end=\"1350\">$\\texttt{4\\ 11}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 292"
+        },
+        {
+          "post_id": "534510",
+          "text": "<p data-start=\"1239\" data-end=\"1296\">What is the output of the following code?</p><pre data-start=\"1298\" data-end=\"1472\" data-rawcode=\"#include &lt;stdio.h&gt;  int fun(int n) {     if (n &lt;= 1)         return n;      return fun(n - 1) + fun(n - 3); }  int main() {     printf(&quot;%d&quot;, fun(5));     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint fun(int n) {\n    if (n &lt;= 1)\n        return n;\n\n    return fun(n - 1) + fun(n - 3);\n}\n\nint main() {\n    printf(\"%d\", fun(5));\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 292"
+        },
+        {
+          "post_id": "534512",
+          "text": "<p data-start=\"3193\" data-end=\"3250\">What is the output of the following code?</p><pre data-start=\"3252\" data-end=\"3408\" data-rawcode=\"#include &lt;stdio.h&gt;  #define SQUARE(x) x * x  int main() {     int a = 3;     int result = SQUARE(a + 1);      printf(&quot;%d&quot;, result);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\n#define SQUARE(x) x * x\n\nint main() {\n    int a = 3;\n    int result = SQUARE(a + 1);\n\n    printf(\"%d\", result);\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3410\" data-end=\"3486\">$\\texttt{16}$<br>&nbsp;</li><li data-start=\"3410\" data-end=\"3486\">$\\texttt{7}$<br>&nbsp;</li><li data-start=\"3410\" data-end=\"3486\">$\\texttt{13}$<br>&nbsp;</li><li data-start=\"3410\" data-end=\"3486\">Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 292"
+        },
+        {
+          "post_id": "534508",
+          "text": "<p data-start=\"281\" data-end=\"338\">What is the output of the following code?</p><pre data-start=\"340\" data-end=\"538\" data-rawcode=\"#include &lt;stdio.h&gt;  void update(int *p, int *q) {     *p = *p + 2;     *q = *q + 3;     *p = *p + *q; }  int main() {     int a = 5;     update(&a, &a);     printf(&quot;%d&quot;, a);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nvoid update(int *p, int *q) {\n    *p = *p + 2;\n    *q = *q + 3;\n    *p = *p + *q;\n}\n\nint main() {\n    int a = 5;\n    update(&a, &a);\n    printf(\"%d\", a);\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "20",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 292"
+        }
+      ]
+    }
+  ]
+}

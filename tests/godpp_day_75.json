@@ -1,0 +1,70 @@
+{
+  "name": "Day 72 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "483711",
+          "text": "<p>A processor has the following memory system characteristics:</p><ul><li>Main memory access time $=100 \\mathrm{~ns}$<br>&nbsp;</li><li>Cache access time $=5 \\mathrm{~ns}$<br>&nbsp;</li><li>Cache is write-back, write-allocate, block size = 16 bytes<br>&nbsp;</li><li>Cache read miss rate $=4 \\%$, write miss rate $=20 \\%$<br>&nbsp;</li><li>On a write miss, the entire block is loaded from memory before updating the cache<br>&nbsp;</li><li>On a write hit, the block is updated in cache only<br>&nbsp;</li><li>$20 \\%$ of the cache blocks are dirty when they are replaced<br>&nbsp;</li><li>Assume $30 \\%$ of all memory accesses are writes</li></ul><p>The average memory access time (AMAT) for this system (in ns) is __________.</p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 72"
+        },
+        {
+          "post_id": "483709",
+          "text": "A scalar in-order processor has a base CPI of $1$ in the absence of control hazards. The instruction mix of a program is such that conditional branches are $20$ percent of all instructions and unconditional branches are $5$ percent. The branch target buffer has a hit rate of $80$ percent for both branch types. For conditional branches, when the BTB hits, a $2$-bit saturating counter predictor is used whose direction accuracy is $92$ percent. Unconditional branches are always taken. The actual taken probability of conditional branches is $60$ percent. A direction misprediction incurs a penalty of $5$ cycles. When a branch is taken but the BTB misses, there is a $2$-cycle target resolution penalty even if the direction would have been correct; when a conditional branch is not taken and the BTB misses, there is no penalty. Assume no overlap between penalties and ignore all other stalls.<br>\n<br>\nThe average CPI of this processor is _______ (up to $3$ decimal places)",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 72"
+        },
+        {
+          "post_id": "483707",
+          "text": "<p>Consider the standard pipelined execution of the following instruction sequence:</p><p>I1: MUL R1, R2, R3</p><p>I2: ADD R4, R1, R5</p><p>I3: SUB R6, R4, R7</p><ul><li>Initially, registers contain: $\\mathrm{R} 2=3, \\mathrm{R} 3=5, \\mathrm{R} 5=2, \\mathrm{R} 7=4$.<br>&nbsp;</li><li>The processor uses forwarding from the ALU output to the input of subsequent ALU operations.<br>&nbsp;</li><li>Instructions are fetched one per cycle, starting from cycle 1.</li></ul><p>Which of the following statements is/are correct?<br><br>A. There is a RAW dependency between I1 and I2.<br><br>B. After execution of the sequence, the content of the registers is $R&nbsp;1=-2, R 4=-7, R 6=-11 $</p><p>C. 8 stalls are created due to RAW hazard<br><br>D. A structural hazard will occur due to the ALU being used by multiple instructions.</p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 72"
+        },
+        {
+          "post_id": "483705",
+          "text": "<p>Assume that the following instruction sequence is executed on standard pipeline:</p><p>$$<br>\\begin{aligned}<br>& 11: R 1=R 2+R 3 \\\\<br>& 12: R 4=R 1+R 5 \\\\<br>& 13: R 1=R 6-R 7 \\\\<br>& 14: R 5=R 1+R 8 \\\\<br>& 15: R 6=R 4+R 1<br>\\end{aligned}<br>$$</p><p><br>Which of the following statements is/are not true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>There are 3 RAW dependencies in this sequence<br>&nbsp;</li><li>There are 3 WAR hazards in this sequence<br>&nbsp;</li><li>There are 1 WAW hazard in this sequence<br>&nbsp;</li><li>There is a RAW hazard between I1 and I4</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 72"
+        },
+        {
+          "post_id": "483703",
+          "text": "<p>Which of the following statement(s) is/are correct regarding the single-issue pipeline?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>True data dependency always creates stalls in the pipeline<br>&nbsp;</li><li>WAR/WAW hazards may or may not be there in the pipeline<br>&nbsp;</li><li>Out-of-order execution can eliminate some stalls caused by true data dependencies.<br>&nbsp;</li><li>Structural dependency may or may not create stalls if no additional hardware is used.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 72"
+        }
+      ]
+    }
+  ]
+}

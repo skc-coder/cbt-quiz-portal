@@ -1,0 +1,70 @@
+{
+  "name": "Day 189 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "519236",
+          "text": "<p>A lexical analyzer for a specific language identifies tokens using the following regular expressions:<br>$$<br>\\begin{aligned}<br>& L_1: a(a \\mid b)^* \\\\<br>& L_2: a b(a \\mid b)^* \\\\<br>& L_3: a b b(a \\mid b)^*<br>\\end{aligned}<br>$$<br>If the input string is '$abbab$', which token(s) will be identified based on the principle of maximum prefix matching (longest match rule)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>NONE OF THE ABOVE<br>&nbsp;</li><li>ONLY $L3$<br>&nbsp;</li><li>ONLY $L1$<br>&nbsp;</li><li>$L1, L2,$ AND $L3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Compiler Design",
+          "day": "Day 189"
+        },
+        {
+          "post_id": "519233",
+          "text": "<p>Consider the following basic block of intermediate code:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">1. a = 10\n2. b = a + 5\n3. c = b * 2\n4. a = c - b\n5. d = a + b</pre><p>Assuming that only the variable $\\verb|d|$ is \"live\" at the exit of this basic block, identify which statements are considered <strong>Dead Code</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>STATEMENT $1$ ONLY<br>&nbsp;</li><li>STATEMENT $3$ ONLY<br>&nbsp;</li><li>STATEMENT $1$ AND STATEMENT $3$<br>&nbsp;</li><li>NONE OF THE STATEMENTS ARE DEAD CODE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Compiler Design",
+          "day": "Day 189"
+        },
+        {
+          "post_id": "519230",
+          "text": "<p>Consider the following L-attributed Syntax Directed Definition (SDD). $S$ is the start symbol, and S.val is a synthesized attribute. A.inh is an inherited attribute.</p><ol><li>$S \\rightarrow A B \\quad\\{A . i n h=5 ; S . v a l=A . v a l+B . v a l\\}$<br>&nbsp;</li><li>$A \\rightarrow id \\quad\\{&nbsp;A.val&nbsp;=&nbsp;A.inh × id.lexval&nbsp;\\}$<br>&nbsp;</li><li>$B \\rightarrow&nbsp;id \\quad\\{B. val =&nbsp;id.lexval +2\\}$<br>&nbsp;</li></ol><p>For the input string <strong>id id</strong> where the lexical values of the two <strong>id</strong> tokens are $\\mathbf{3}$ and $\\mathbf{4}$ respectively, what is the value of $S.val$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$15$<br>&nbsp;</li><li>$21$<br>&nbsp;</li><li>$23$<br>&nbsp;</li><li>$25$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Compiler Design",
+          "day": "Day 189"
+        },
+        {
+          "post_id": "519226",
+          "text": "<p>In the context of Code Optimization, consider the following code segment inside a loop:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">for (i = 0; i &lt; n; i++) {\n&nbsp; &nbsp; x = y + z;\n&nbsp; &nbsp; a[i] = 2 * i + x;\n}</pre><p>Moving the statement $\\verb|x = y + z;|$ outside the loop is an example of which optimization technique?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>DEAD CODE ELIMINATION<br>&nbsp;</li><li>STRENGTH REDUCTION<br>&nbsp;</li><li>CONSTANT FOLDING<br>&nbsp;</li><li>LOOP INVARIANT CODE MOTION</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Compiler Design",
+          "day": "Day 189"
+        },
+        {
+          "post_id": "519221",
+          "text": "<p>Consider the following syntax-directed translation scheme (SDTS) where $S$ is the start symbol:</p><p>$$<br>\\begin{aligned}<br>& S \\rightarrow E\\{\\text { print }(\\text { E.val })\\} \\\\<br>& E \\rightarrow E_1+T\\left\\{\\text { E.val }=E_1 . \\text { val } \\times T . \\text { val }\\right\\} \\\\<br>& E \\rightarrow T\\{\\text { E.val }=T . \\text { val }\\} \\\\<br>& T \\rightarrow T_1 * F\\left\\{T . \\text { val }=T_1 . \\text { val }+F . \\text { val }\\right\\} \\\\<br>& T \\rightarrow F\\{T . \\text { val }=F . \\text { val }\\} \\\\<br>& F \\rightarrow \\text { id }\\{F . \\text { val }=\\text { id.lexval }\\}<br>\\end{aligned}<br>$$</p><p>What is the output printed by the SDTS for the input expression: $2+3 \\star 5$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$17$<br>&nbsp;</li><li>$16$<br>&nbsp;</li><li>$40$<br>&nbsp;</li><li>$25$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Compiler Design",
+          "day": "Day 189"
+        }
+      ]
+    }
+  ]
+}

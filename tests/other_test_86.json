@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 Algorithms1: Sorting and Searching",
+  "duration": "72",
+  "total_qs": "20",
+  "total_qs_one": 0,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "253820",
+          "text": "<p>Consider an array $A[1..n]$ for which we know that $A[1] \\ge A[2]$ and $A[n - 1] \\le A[n]$. We say that i is a local minimum if $A[i - 1] \\ge A[i] \\le A[i + 1]$.<br>\nFollowing are some conclusions about this array?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>A has at least one local minimum.</li>\n    <li>An algorithm which finds a local minimum in this array needs time $\\Omega(n)$.</li>\n    <li>An algorithm which finds a global minimum in this array needs time $\\Omega(n^2)$.</li>\n</ol>\n\n<p>Which of the above conclusions are always right about the array given above?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(i) only</li>\n    <li>(i) and (ii) only</li>\n    <li>(ii) and (iii) only</li>\n    <li>(i), (ii) and (iii) only</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3,asymptotic-notations,algorithms",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "253819",
+          "text": "<p>In which of the cases shown below, $\\text{Binary Search}$ can not be always applied for searching?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Hierarchical data record</li>\n    <li>Internet Domain name conversion</li>\n    <li>Searching a telephone number in directory.</li>\n    <li>An array of integers</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3,binary-search",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253818",
+          "text": "<p>In order to speed up the normal linear search algorithm an improvement is proposed as follows. Instead of accessing every element in sequence from first element till last element in the given array, two pointers named as $\\text{ptr_front}$ and $\\text{ptr_back}$, are set to point &nbsp;two extreme locations of the array. Each pointer accesses element pointed by it and then moves towards the other end of the array by one position if the result of the current comparison is not true. If at any point any of the pointer finds the desired element, the search stops there and the index of that element is returned. At worst case both pointers meet at the midpoint of the array and algorithm declares the absence of the element. Which of the following recurrence relations best describes the above mentioned algorithm:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$T(n) = 2*T(\\frac{n}{2}) + O(n)$</li>\n    <li>$T(n) = T(n-1) + O(1)$</li>\n    <li>$T(n) = T(n-1) + O(n)$</li>\n    <li>$T(n) = 2*T(\\frac{n}{2}) + O(1)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253817",
+          "text": "<p>Consider a sorted array $A[0-7]$ of integers as shown below:<br>\n$A=[3, 8, 12, 34, 54, 84, 91, 110]$<br>\nTwo elements as $x=54$ and $y=45$ are to be searched in the array. Two implementations $L$ and $B$ are used in order to perform the search operation. $L$ uses Linear search algorithm while $B$ uses Binary search algorithm. To search $x$, $L$ and $B$ need $T_{L(x)}$ and $T_{B(x)}$ number of comparisons respectively while to search $y$ the two implementations need&nbsp; $T_{L(y)}$ and $T_{B(y)}$ number of comparisons, respectively.</p>\n\n<p>If $P=T_{L(x)}-T_{B(y)}$ and $Q=T_{L(y)}-T_{B(x)}$, then the value of $P*Q$ is?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$6$</li>\n    <li>$8$</li>\n    <li>$9$</li>\n    <li>$10$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3,binary-search",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "253816",
+          "text": "The comparison based sorting algorithm which best suites to sort a mostly sorted array of integers, is:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Selection sort<br /> </li><li>  Insertion sort<br /> </li> <li> Merge sort<br /> </li>  <li> Quick sort  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming and DS"
+        },
+        {
+          "contents": "",
+          "post_id": "253815",
+          "text": "<p>Consider a sorted array $A$ of $n$ integer elements, $A[0]...A[n - 1]$ and the pseudocode for BubbleSort as:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nfor j = 1&nbsp;to n-1&nbsp;do:\nfor i = 0 to n-1-j:\nif (A[i] &gt; A[i+1]) then swap (A[i], A[i+1])</pre>\n\n<p>The maximum number of times, $\\text{swap()}$ is called when $\\text{BubbleSort()}$ is performed on above array of integers at worst case is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0$</li>\n    <li>$n-2$</li>\n    <li>$(\\frac{n}{2}-1)$</li>\n    <li>$(n^2-n-2)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253814",
+          "text": "<p>Which of the following statements about Quick sort is/are incorrect?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Average running time is $O(N \\log N)$.</li>\n    <li>The best case always occurs when the pivot partitions the set of numbers to be sorted into two equal-sized subsets.</li>\n    <li>The worst case always occurs when the pivot partitions the set of numbers to be sorted into two equal-sized subsets.</li>\n    <li>The worst case always occurs when the smallest item is selected from the items to be sorted as the pivot.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253813",
+          "text": "<p>Consider a sorted array $A$ of $n$ integer elements, $A[0]...A[n - 1]$. A search operation is to be performed on this array using Binary search algorithm. If the element being searched is in fact the last element of the array, what is the difference between the index of element being searched and the index of the $mid$ element computed in the third round of search algorithm?<br>\n(Ignoring the $\\textit{ceil}$ and $\\textit{floor}$ functions for indices)</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\frac{7n-7}{8}$</li>\n    <li>$\\frac{5n-6}{6}$</li>\n    <li>$\\frac{n-7}{8}$</li>\n    <li>$\\frac{3n-3}{4}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3,binary-search",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "253812",
+          "text": "<p>Consider following array of integers:</p>\n\n<p>$A=\\{47, 24, 83, 78, 36, 17, 96, 55\\}$</p>\n\n<p>Number of inversions in the above array is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$9$</li>\n    <li>$10$</li>\n    <li>$11$</li>\n    <li>$13$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253811",
+          "text": "Which of the following statements about various traversing algorithms is true?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  &nbsp;In a depth-first traversal of a min heap, the first item printed out is always the largest one. <br /> </li><li>  &nbsp;In a preorder traversal of a binary search tree, the first item printed out is always the smallest one. <br /> </li> <li> &nbsp;In a inorder traversal of a binary search tree, the first item printed out is always the smallest one. <br /> </li>  <li> In a depth-first traversal of a max heap, the first item printed out is always the largest one.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming and DS"
+        },
+        {
+          "contents": "",
+          "post_id": "253810",
+          "text": "<p>Minimum number of comparisons required to sort an array of integers in worst case by any of the comparison based &nbsp;sorting algorithm is given by $P$ while Maximum number of comparisons by any such algorithm is given by $Q$. Which among the following is the best approximation of $\\frac{P}{Q}$:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$O(n)$</li>\n    <li>$O(\\frac{1}{n^2})$</li>\n    <li>$O(\\log_{2^n}n)$</li>\n    <li>$O(\\frac{\\log n}{n\\log n})$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3,sorting",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253809",
+          "text": "<p>The Space complexity of insertion sort algorithm is denoted by $S$ while the truth value of the question whether selection sort is stable or not is denoted by $F$. Which of the following pairs represents the correct values of $S$ and $F$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$O(1), YES$</li>\n    <li>$O(\\log n), YES$</li>\n    <li>$O(n), NO$</li>\n    <li>$O(n), YES$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3,sorting",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253808",
+          "text": "<p>What is an external sorting algorithm?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Algorithm that uses tape or disk during the sort.</li>\n    <li>Algorithm that uses main memory during the sort.</li>\n    <li>Algorithm that involves swapping.</li>\n    <li>Algorithm that are not considered as $\\text{in place}.$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3,sorting",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253807",
+          "text": "Consider an array of $6$ elements:\n$15, 19, 10, 7, 17, 16.$\nThis array is to be sorted using maxheap. In order to sort the array, first maxheap is created and then the heapsort algprithm is performed. Total number of two-way swaps required in order to sort the given array, (including construction of heap tree), is _______?",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-ds3,numerical-answers",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253806",
+          "text": "<p>Consider following sequence of integers:</p>\n\n<p>$66 \\; 75 \\; 71 \\; 80 \\; 10 \\; 85 \\; 60 \\; 55 \\; 50 \\; 45 \\; 24 \\; 90 \\; 40$</p>\n\n<p>The pivot is chosen such that it divides the sorted (sub)array in an approximate ratio of $\\frac{1}{3}\\: : \\: \\frac{2}{3}$ as left part and right part of the pivot respectively. At first round of the algorithm a pivot $P_1$ is chosen which divides the array as mentioned above. In second round of the algorithm two more pivots are chosen, $P_2$ for left subarray and $P_3$ for right subarray. Which of the following represents half of the value of expression: $P_1+P_2+P_3$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$100$</li>\n    <li>$50$</li>\n    <li>$140$</li>\n    <li>$70$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253805",
+          "text": "<p>Consider a version of Merge sort algorithm:</p>\n\n<p>The given array is divided such that instead of dividing the array in two halves, it gets divided into three parts such that one part contains $10\\%$ of elements, second part contains $40\\%$ of the elements while third part contains $50\\%$ of the total elements. Rest of the procedure remains same as in the case of standard merge sort.</p>\n\n<p>Which of the following recurrence relations belongs to this version of merge sort?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$T(n)= T(\\frac{n}{2}) + T(\\frac{2n}{5}) + T(\\frac{n}{10}) + O(n)$</li>\n    <li>$T(n)= T(\\frac{n}{2.5}) + T(\\frac{2n}{7}) + T(\\frac{n}{10}) + O(n)$</li>\n    <li>$T(n)= T(\\frac{n}{2}) + T(\\frac{n}{4}) + T(\\frac{n}{10}) + O(n)$</li>\n    <li>$T(n)= T(\\frac{n}{5}) + T(\\frac{n}{4}) + T(\\frac{n}{10}) + O(n)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253804",
+          "text": "<p>If Radix sort is used to sort an array of $n$ integers which are in the range $(n^{\\log_2d}, n^{d^2})$, where d is some function of input size, the time taken would be?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$O(nd^2)$</li>\n    <li>$O(n^2d \\log n + n^2 \\log_2d \\log_2n)$</li>\n    <li>$O(n^2d^2 + n^2 \\log_2n)$</li>\n    <li>$O(nd^2 \\log_2n )$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253803",
+          "text": "<p>The number of elements that can be sorted in $\\Theta(2^n)$ time using merge sort is, where $n$ is any integer which can be represented as some $k^{th}$ power of $2$ for some positive integer $k$:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\Theta(\\frac{2^n}{\\log n})$</li>\n    <li>$\\Theta(\\frac{2^{n-k}}{\\log n})$</li>\n    <li>$\\Theta(\\frac{n2^n}{k})$</li>\n    <li>$\\Theta(2^{n-k})$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3,sorting,asymptotic-notations",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253802",
+          "text": "<p>Two-way merge sort algorithm is used to sort the following array of integers in ascending order.</p>\n\n<p>$20,34,19,80,47,30,15,18,9,4,40,1,32,12,17,24,50$</p>\n\n<p>The order of these elements after the second pass of merge phase of the algorithm is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$19,20,34,80,15,18,30,1,4,9,12,40,47,17,24,32,50$</li>\n    <li>$15,18,19,20,34,80,30,1,4,9,12,40,47,17,24,32,50$</li>\n    <li>$19,20,34,80,15,18,30,47,1,4,9,40,12,17,24,32,50$</li>\n    <li>$15,18,19,20,34,30,47,80,1,4,9,12,17,24,32,40,50$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "253801",
+          "text": "<p>In order to improve the performance of Bubble sort, a small change is made in its algorithm. A boolean variable $flag$ is used and is initialized to false value. $flag$ is set to be false at the beginning of every iteration/round. The algorithm is same as original Bubble sort except that it sets the $flag$ variable to be true whenever any swapping is performed and the variable is tested at the end of every iteration. In some round of bubble sort if $flag$ is not set to true, the algorithm stops and declares that array is sorted. Consider the array $A$ shown below:</p>\n\n<p>$A=[1,2,4,5,6,3]$</p>\n\n<p>How many rounds will the modified Bubble sort will need in order to sort this array?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2$</li>\n    <li>$3$</li>\n    <li>$4$</li>\n    <li>$5$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds3",
+          "category": "Programming in C"
+        }
+      ]
+    }
+  ]
+}

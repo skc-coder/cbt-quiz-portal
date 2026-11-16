@@ -1,0 +1,70 @@
+{
+  "name": "Day 310 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "538021",
+          "text": "<p>Assume:</p><ul><li>$\\texttt{char}$ takes $1$ byte<br>&nbsp;</li><li>$\\texttt{int}$ takes $4$ bytes<br>&nbsp;</li><li>$\\texttt{int}$ must be stored at an address divisible by $4$<br>&nbsp;</li><li>Structure size is rounded to a multiple of the largest alignment requirement<br>&nbsp;</li></ul><p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Test {     char c;     int x;     char d; };  int main() {     printf(&quot;%zu&quot;, sizeof(struct Test));      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Test {\n    char c;\n    int x;\n    char d;\n};\n\nint main() {\n    printf(\"%zu\", sizeof(struct Test));\n\n    return 0;\n}\n</pre>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 310"
+        },
+        {
+          "post_id": "538017",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Item {     int code;     int price; };  void f(struct Item x) {     x.code = x.code + 1;     x.price = x.price + 50; }  void g(struct Item *p) {     p-&gt;code = p-&gt;code + 2;     p-&gt;price = p-&gt;price + 20; }  int main() {     struct Item i = {10, 100};      f(i);     g(&i);      printf(&quot;%d %d&quot;, i.code, i.price);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Item {\n    int code;\n    int price;\n};\n\nvoid f(struct Item x) {\n    x.code = x.code + 1;\n    x.price = x.price + 50;\n}\n\nvoid g(struct Item *p) {\n    p-&gt;code = p-&gt;code + 2;\n    p-&gt;price = p-&gt;price + 20;\n}\n\nint main() {\n    struct Item i = {10, 100};\n\n    f(i);\n    g(&i);\n\n    printf(\"%d %d\", i.code, i.price);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{10 100}$<br>&nbsp;</li><li>$\\texttt{11 150}$<br>&nbsp;</li><li>$\\texttt{12 120}$<br>&nbsp;</li><li>$\\texttt{13 170}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 310"
+        },
+        {
+          "post_id": "538019",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Book {     char name[4];     int pages; };  int main() {     struct Book b1 = {&quot;CAT&quot;, 50};     struct Book b2;      b2 = b1;      b2.name[0] = 'B';     b2.pages = b2.pages + 10;      printf(&quot;%s %d %s %d&quot;, b1.name, b1.pages, b2.name, b2.pages);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Book {\n    char name[4];\n    int pages;\n};\n\nint main() {\n    struct Book b1 = {\"CAT\", 50};\n    struct Book b2;\n\n    b2 = b1;\n\n    b2.name[0] = 'B';\n    b2.pages = b2.pages + 10;\n\n    printf(\"%s %d %s %d\", b1.name, b1.pages, b2.name, b2.pages);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{BAT 60 BAT 60}$<br>&nbsp;</li><li>$\\texttt{CAT 50 BAT 60}$<br>&nbsp;</li><li>$\\texttt{CAT 60 BAT 60}$<br>&nbsp;</li><li>Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 310"
+        },
+        {
+          "post_id": "538015",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Student {     int roll;     int marks; };  int main() {     struct Student s[3] = {         {1, 50},         {2, 60},         {3, 70}     };      struct Student *p = s;      (p + 1)-&gt;marks = (p + 1)-&gt;marks + 5;     p++;     p-&gt;roll = (p - 1)-&gt;roll + p-&gt;roll;      printf(&quot;%d %d %d&quot;, s[0].roll, s[1].roll, s[1].marks);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Student {\n    int roll;\n    int marks;\n};\n\nint main() {\n    struct Student s[3] = {\n        {1, 50},\n        {2, 60},\n        {3, 70}\n    };\n\n    struct Student *p = s;\n\n    (p + 1)-&gt;marks = (p + 1)-&gt;marks + 5;\n    p++;\n    p-&gt;roll = (p - 1)-&gt;roll + p-&gt;roll;\n\n    printf(\"%d %d %d\", s[0].roll, s[1].roll, s[1].marks);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{1 2 65}$<br>&nbsp;</li><li>$\\texttt{1 3 65}$<br>&nbsp;</li><li>$\\texttt{2 3 65}$<br>&nbsp;</li><li>$\\texttt{1 3 60}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 310"
+        },
+        {
+          "post_id": "538013",
+          "text": "<p>What will happen when the following code is compiled?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Node {     int data; };  int main() {     struct Node n = {25};     struct Node *p = &n;      printf(&quot;%d&quot;, *p.data);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Node {\n    int data;\n};\n\nint main() {\n    struct Node n = {25};\n    struct Node *p = &n;\n\n    printf(\"%d\", *p.data);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{25}$<br>&nbsp;</li><li>Address of $\\texttt{data}$<br>&nbsp;</li><li>Compilation error<br>&nbsp;</li><li>Undefined behavior</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 310"
+        }
+      ]
+    }
+  ]
+}

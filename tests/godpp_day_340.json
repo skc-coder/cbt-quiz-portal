@@ -1,0 +1,70 @@
+{
+  "name": "Day 256 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530011",
+          "text": "<p>Pat wants to buy four donuts from an ample supply of three types of donuts: glazed, chocolate, and powdered. How many different selections are possible?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>6</li><li>9</li><li>12</li><li>15</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 256"
+        },
+        {
+          "post_id": "530008",
+          "text": "<p>The Fibonacci sequence $1,1,2,3,5,8,13,21, \\ldots$ starts with two 1 s, and each term afterwards is the sum of its two predecessors. Which one of the ten digits is the last to appear in the units position of a number in the Fibonacci sequence?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>0</li><li>4</li><li>6</li><li>7</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 256"
+        },
+        {
+          "post_id": "529997",
+          "text": "<p>There are 5 yellow pegs, 4 red pegs, 3 green pegs, 2 blue pegs, and 1 orange peg to be placed on a triangular peg board. In how many ways can the pegs be placed so that no (horizontal) row or (vertical) column contains two pegs of the same color?</p><p style=\"text-align:center\"><img alt=\"\" width=\"140\" height=\"140\" src=\"data:image/png;base64,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\"></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>0</li><li>1</li><li>$5!\\cdot 4!\\cdot 3!\\cdot 2!\\cdot 1$ !</li><li>$\\frac{15!}{5!\\cdot 4!\\cdot 3!\\cdot 2!\\cdot 1!}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 256"
+        },
+        {
+          "post_id": "529999",
+          "text": "<p>Professor Gamble buys a lottery ticket, which requires that he pick six different integers from 1 through 46 , inclusive. He chooses his numbers so that the sum of the base-ten logarithms of his six numbers is an integer. It so happens that the integers on the winning ticket have the same property- the sum of the base-ten logarithms is an integer. What is the probability that Professor Gamble holds the winning ticket?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1 / 5$</li><li>$1 / 4$</li><li>$1 / 3$</li><li>$1 / 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 256"
+        },
+        {
+          "post_id": "530013",
+          "text": "<p>A box contains exactly five chips, three red and two white. Chips are randomly removed one at a time without replacement until all the red chips are drawn or all the white chips are drawn. What is the probability that the last chip drawn is white?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{3}{10}$</li><li>$\\frac{2}{5}$</li><li>$\\frac{1}{2}$</li><li>$\\frac{3}{5}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 256"
+        }
+      ]
+    }
+  ]
+}

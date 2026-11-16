@@ -1,0 +1,70 @@
+{
+  "name": "Day 110 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "491908",
+          "text": "Consider a TCP connection where the congestion window size is 60 KB when a packet loss is detected via a timeout. The connection has a round trip time of 80 msec and uses a maximum segment size of 4 KB . The time taken (in msec) by the TCP connection to increase its congestion window back to 60 KB is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "880",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 110"
+        },
+        {
+          "post_id": "491906",
+          "text": "A communication channel over a transatlantic fiber-optic link is managed using a selective repeat sliding window protocol. The protocol uses a frame size of 2 KB to send data over the 10 Mbps link, which has a one-way propagation delay of 40 msec . To achieve a minimum link utilization of $80 \\%$, the minimum number of bits required for the sequence number field is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 110"
+        },
+        {
+          "post_id": "491905",
+          "text": "A network architect is designing a network segment based on the Fast Ethernet standard, which operates at a transmission speed of 100 Mbps . The design specifies a maximum segment length of 200 meters between any two stations. If the signal propagation speed in the cable is $2 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$, what is the minimum frame size (in bits) that must be enforced on this network to ensure that the CSMA/CD protocol can reliably detect collisions?",
+          "type": "Numerical",
+          "answer": "200",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 110"
+        },
+        {
+          "post_id": "491899",
+          "text": "A server ( S ) sends a 4 Megabit ( $4 \\times 10^{6}$ bits) file to a client (D). The path between S and D consists of three routers, creating a total of four links. The file is segmented into 2000 packets of equal size. Each of the four links has a length of 200 km and a bandwidth of 10 Mbps . If the signal propagation speed over the links is $2 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$, what is the total end-to-end delay to send the entire file? (Assume there is no queuing or processing delay). <br>\n<br>\nA. 400 ms <br>\n<br>\nB. 404 ms <br>\n<br>\nC. 1600 ms <br>\n<br>\nD. 1604 ms",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 110"
+        },
+        {
+          "post_id": "491897",
+          "text": "A ground station transmits a data packet of 2000 bytes to a satellite orbiting at an altitude of 4500 km . The communication link has a bandwidth of 200 Mbps , and the signal travels at the speed of light, approximately $3 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$. Calculate the total time (in milliseconds, rounded off to two decimal places) for the entire packet to be received by the satellite.",
+          "type": "Numerical",
+          "answer": "15.08",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 110"
+        }
+      ]
+    }
+  ]
+}

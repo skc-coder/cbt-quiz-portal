@@ -1,0 +1,70 @@
+{
+  "name": "Day 98 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "489699",
+          "text": "<p>Consider a network that uses Ethernet and $\\mathrm{IPv4}$. Assume that $\\mathrm{IPv4}$ headers do not use any options field. Each Ethernet frame can carry a maximum of $1500$ bytes in its data field. A UDP segment is transmitted. The payload (data) in the UDP segment is $9000$ bytes.</p><p>Which ONE of the following choices has the CORRECT total number of fragments transmitted and the size of the last fragment including the $\\mathrm{IPv4}$ header?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$7$ fragments, $128$ bytes<br>&nbsp;</li><li>$6$ fragments, $1608$ bytes<br>&nbsp;</li><li>$7$ fragments, $148$ bytes<br>&nbsp;</li><li>$7$ fragments, $156$ bytes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 98"
+        },
+        {
+          "post_id": "489696",
+          "text": "<p>Suppose a message of size $20,000$ bytes is transmitted from a source to a destination using $\\mathrm{IPv4}$ protocol via two routers as shown in the figure. Each router has a defined maximum transmission unit (MTU) as shown in the figure, including the IP header. The number of fragments that will be delivered to the destination is $\\_\\_\\_\\_$ . (Answer in integer)</p><ul><li>Router-1: MTU = $8000$ bytes<br>&nbsp;</li><li>Router-2: MTU = $2500$ bytes</li></ul>",
+          "type": "Numerical",
+          "answer": "10",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 98"
+        },
+        {
+          "post_id": "489695",
+          "text": "<p>Consider the binary code that consists of only four valid codewords as given below:</p><p>$$<br>000000,111100,001111,110011<br>$$</p><p><br>Let the minimum Hamming distance of the code be $\\mathbf{p}$ and the maximum number of erroneous bits that can be corrected by the code be $\\mathbf{q}$. Then the values of $\\mathbf{p}$ and $\\mathbf{q}$ are</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$p=3$ and $q=1$<br>&nbsp;</li><li>$\\mathrm{p}=4$ and $\\mathrm{q}=2$<br>&nbsp;</li><li>$\\mathrm{p}=4$ and $\\mathrm{q}=1$<br>&nbsp;</li><li>$p=6$ and $q=2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 98"
+        },
+        {
+          "post_id": "489694",
+          "text": "<p>Consider the cyclic redundancy check (CRC)-based error-detecting scheme having the generator polynomial $X^4+X^3+1$. Suppose the message $m_5 m_4 m_3 m_2 m_1 m_0=101010$ is to be transmitted. The value of the 4-bit checkbit sequence is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1000$<br>&nbsp;</li><li>$1001$<br>&nbsp;</li><li>$0001$<br>&nbsp;</li><li>$1101$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 98"
+        },
+        {
+          "post_id": "489690",
+          "text": "<p>The message $1011011$ is to be transmitted using the CRC polynomial $x^3+x^2+1$ to protect it from errors. The message that should be transmitted is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1011011000$<br>&nbsp;</li><li>$1011011001$<br>&nbsp;</li><li>$1011011101$<br>&nbsp;</li><li>$10110111101$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 98"
+        }
+      ]
+    }
+  ]
+}

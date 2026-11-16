@@ -1,0 +1,70 @@
+{
+  "name": "Day 263 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530785",
+          "text": "<p data-start=\"0\" data-end=\"257\">Let $X$ be an exponentially distributed random variable with mean $1/\\ln 3$. Define $Y=\\lfloor X \\rfloor$, where $\\lfloor X \\rfloor$ is the greatest integer less than or equal to $X$. Given that $Y$ is odd, find $P(Y=3 \\mid Y \\text{ is odd})$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"259\" data-end=\"268\">$8/81$<br>&nbsp;</li><li data-start=\"270\" data-end=\"279\">$2/81$<br>&nbsp;</li><li data-start=\"281\" data-end=\"289\">$1/9$<br>&nbsp;</li><li data-start=\"291\" data-end=\"300\">$1/27$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 263"
+        },
+        {
+          "post_id": "530796",
+          "text": "<p data-start=\"117\" data-end=\"393\">A machine produces a random score $T$ between $0$ and $2$ with probability density function&nbsp;</p><p data-start=\"117\" data-end=\"393\">$$<br>f(t)= \\begin{cases}\\frac{3t^2}{8}, & \\text { if } 0&lt;t&lt;2 \\\\\\\\ 0, & \\text { otherwise }\\end{cases}<br>$$</p><p data-start=\"117\" data-end=\"393\">A player’s reward is $T$ dollars if $0&lt;T&lt;1$, but the reward is $2-T$ dollars if $1\\le T&lt;2$. Find the expected reward.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"395\" data-end=\"404\">$7/16$<br>&nbsp;</li><li data-start=\"406\" data-end=\"414\">$1/2$<br>&nbsp;</li><li data-start=\"416\" data-end=\"425\">$5/16$<br>&nbsp;</li><li data-start=\"427\" data-end=\"435\">$3/8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 263"
+        },
+        {
+          "post_id": "530790",
+          "text": "<p data-start=\"0\" data-end=\"233\">Let $X$ be a continuous random variable on $[0,1]$ with probability density function $f(x)=3x^2$ for $0\\le x\\le 1$ and $0$ otherwise. Let $Y=\\log_e(1+X^3)$. Find the expected value of $Y$, rounded to $2$ decimal places</p>",
+          "type": "Numerical",
+          "answer": "0.39",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 263"
+        },
+        {
+          "post_id": "530789",
+          "text": "<p data-start=\"162\" data-end=\"285\">Let $X$ and $Y$ be independent standard normal random variables. Define $A=X+Y$ and $B=X-Y$. Find $P(|A|&lt;B)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"287\" data-end=\"295\">$1/4$<br>&nbsp;</li><li data-start=\"297\" data-end=\"305\">$1/2$<br>&nbsp;</li><li data-start=\"307\" data-end=\"315\">$3/4$<br>&nbsp;</li><li data-start=\"317\" data-end=\"325\">$1/3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 263"
+        },
+        {
+          "post_id": "530792",
+          "text": "<p data-start=\"0\" data-end=\"265\">Let $Y$ be a continuous random variable with density,</p><p data-start=\"0\" data-end=\"265\">$$<br>f_Y(y)= \\begin{cases}2y, & \\text { if } 0&lt;y&lt;1 \\\\\\\\ 0, & \\text { otherwise }\\end{cases}<br>$$</p><p data-start=\"0\" data-end=\"265\">Given $Y=y$, the conditional density of $X$ is&nbsp;</p><p data-start=\"0\" data-end=\"265\">$$<br>f_{X \\mid Y}(x \\mid y)= \\begin{cases}\\frac{2x}{y^2}, & \\text { if } 0&lt;x&lt;y \\\\\\\\ 0, & \\text { otherwise }\\end{cases}<br>$$</p><p data-start=\"0\" data-end=\"265\">Find $P(X+Y&lt;1)$, rounded to two decimal places.</p>",
+          "type": "Numerical",
+          "answer": "0.39",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 263"
+        }
+      ]
+    }
+  ]
+}

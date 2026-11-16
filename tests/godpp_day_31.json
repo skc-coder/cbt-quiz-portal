@@ -1,0 +1,70 @@
+{
+  "name": "Day 29 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "474336",
+          "text": "<p>What is the output of the following code?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nint main() {\n    int val[] = {5, 10, 15};\n    int *ptr = val;\n    *ptr++ = 20;\n    printf(\"%d %d %d\\n\", val[0], ptr[2], val[2]);\n    return 0;\n}\n\n</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>5 10 15<br>&nbsp;</li><li>20 15 15<br>&nbsp;</li><li>20 10 15<br>&nbsp;</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 29"
+        },
+        {
+          "post_id": "474334",
+          "text": "<p>What is the output of the code given below?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\nint main()\n{\n    char name[] = \"satellites\";\n    int len;\n    int size;\n    len = strlen(name);\n    size = sizeof(name);\n    printf(\"%d\", len * size);\n    return 0;\n}\n</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$100$<br>&nbsp;</li><li>$110$<br>&nbsp;</li><li>$40$<br>&nbsp;</li><li>$44$</li></ol><p>&nbsp;</p>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 29"
+        },
+        {
+          "post_id": "474332",
+          "text": "<p>Consider the following recursive C function.</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">unsigned int f(unsigned int n)\n{\n    if (n &lt; 10) printf(\"%d\",n);\n    else {\n        printf(\"%d\", n%10);\n        f(n/10);\n        printf(\"%d\", n%10);\n    }\n}\n\n</pre><p>What does the call $£(351274)$ print?</p>",
+          "type": "Numerical",
+          "answer": "47215351274",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 29"
+        },
+        {
+          "post_id": "474330",
+          "text": "<p>What string does the following program print?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n#include &lt;string.h&gt;\nvoid strFunc2 (char A[], int n)\n{\n    char t;\n    if (n &lt;= 1) return;\n            t = A[0]; A[0] = A[n-1]; A[n-1] = t;\n            strFunc2(&A[1],n-2);\n}\nint main ()\n{\n    char A[10] = \"PDS 2005\";\n    strFunc2(A,strlen(A));\n    printf(\"%s\", A);\n}\n</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5002$ $SDP$<br>&nbsp;</li><li>$5DS$&nbsp; $200P$<br>&nbsp;</li><li>$PDS$ $2005$<br>&nbsp;</li><li>$\\operatorname{SDP} 2005$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 29"
+        },
+        {
+          "post_id": "474328",
+          "text": "<p>Let the function g be defined as follows:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int g ( int n )\n{\nif (n &lt; 2) return n;\nreturn g(n/2);\n}\n\n</pre><p>What is the value returned by the call $\\mathrm{g}(142857)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$<br>&nbsp;</li><li>$1$<br>&nbsp;</li><li>$2$<br>&nbsp;</li><li>$71428$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 29"
+        }
+      ]
+    }
+  ]
+}

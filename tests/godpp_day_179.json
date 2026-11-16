@@ -1,0 +1,70 @@
+{
+  "name": "Day 175 [Programming in Python]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "511112",
+          "text": "<p>Consider the following rule: an identifier must start with a digit and can be followed by any number of letters or digits. What is the correct regular expression?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>letter (letter $\\mid$ digit)$^{*}$<br>&nbsp;</li><li>(digit $\\mid$&nbsp;letter)$^{*}$ digit<br>&nbsp;</li><li>digit (digit $\\mid$&nbsp;letter)$^{*}$<br>&nbsp;</li><li>digit$^{+}$ letter$^{*}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in Python",
+          "day": "Day 175"
+        },
+        {
+          "post_id": "511111",
+          "text": "Consider the following Three-Address Code $(3AC)$ sequence. Partition the code into basic blocks and determine the total number of blocks.<br>\n\\[<br>\n\\begin{array}{ll}<br>\n\\textbf{Line No.} & \\textbf{Instruction} \\\\<br>\n3001 & \\verb|i = 1| \\\\<br>\n3002 & \\verb|j = 1| \\\\<br>\n3003 & \\verb|t1 = i * 10| \\\\<br>\n3004 & \\verb|t2 = t1 + j| \\\\<br>\n3005 & \\verb|if t2 &lt; 100 goto 3008| \\\\<br>\n3006 & \\verb|a[t2] = 0| \\\\<br>\n3007 & \\verb|goto 3009| \\\\<br>\n3008 & \\verb|a[t2] = 1| \\\\<br>\n3009 & \\verb|j = j + 1| \\\\<br>\n3010 & \\verb|if j &lt;= 10 goto 3003| \\\\<br>\n3011 & \\verb|i = i + 1| \\\\<br>\n3012 & \\verb|if i &lt;= 10 goto 3002| \\\\<br>\n3013 & \\verb|t3 = i - 1| \\\\<br>\n3014 & \\verb|if t3 == 0 goto 3017| \\\\<br>\n3015 & \\verb|res = a[t3]| \\\\<br>\n3016 & \\verb|goto 3018| \\\\<br>\n3017 & \\verb|res = -1| \\\\<br>\n3018 & \\verb|return res| \\\\<br>\n\\end{array}<br>\n\\]<br>\nTHE NUMBER OF BASIC BLOCKS IS $\\_\\_\\_\\_$ . (Answer in integer)",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in Python",
+          "day": "Day 175"
+        },
+        {
+          "post_id": "511110",
+          "text": "<p>Consider the following grammar $G$ with terminal set $\\{i d, \\&, \\oplus, \\odot,()$,$\\} :$</p><ul><li>$E::=E \\& T \\mid T$<br>&nbsp;</li><li>$T::=F \\oplus T \\mid F$<br>&nbsp;</li><li>$F::=F \\odot i d|(E)| i d$<br>&nbsp;</li></ul><p>Which of the following statements is <strong>TRUE</strong> regarding the operators $\\&$, $\\oplus$, and $\\odot$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>ALL THREE OPERATORS ARE LEFT ASSOCIATIVE<br>&nbsp;</li><li>'$\\&$' AND '$\\odot$' ARE LEFT ASSOCIATIVE, WHILE '$\\oplus$' IS RIGHT ASSOCIATIVE<br>&nbsp;</li><li>'$\\&$' IS RIGHT ASSOCIATIVE, WHILE ' $\\oplus$ ' AND ' $\\odot$ ' ARE LEFT ASSOCIATIVE<br>&nbsp;</li><li>'$\\&$' HAS THE HIGHEST PRECEDENCE AND IS LEFT ASSOCIATIVE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in Python",
+          "day": "Day 175"
+        },
+        {
+          "post_id": "511109",
+          "text": "<p>In the following grammar defining operations on identifiers:</p><ul><li>$A::=B \\# A \\mid B$<br>&nbsp;</li><li>$B::=B \\diamond C \\mid C$<br>&nbsp;</li><li>$C::=i d$<br>&nbsp;</li></ul><p>Which of the following is<strong> TRUE</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>BOTH '$\\#$' AND '$\\diamond$' ARE LEFT ASSOCIATIVE<br>&nbsp;</li><li>BOTH '$\\#$' AND '$\\diamond$' ARE RIGHT ASSOCIATIVE<br>&nbsp;</li><li>'$\\#$' IS LEFT ASSOCIATIVE WHILE '$\\diamond$' IS RIGHT ASSOCIATIVE<br>&nbsp;</li><li>'$\\#$' IS RIGHT ASSOCIATIVE WHILE '$\\diamond$' IS LEFT ASSOCIATIVE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in Python",
+          "day": "Day 175"
+        },
+        {
+          "post_id": "511107",
+          "text": "Refer to the given $3$-address code sequence below. If this code sequence is split into basic blocks, determine the total number of basic blocks.<br>\n<br>\n\\[<br>\n\\begin{array}{ll}<br>\n\\textbf{Line No.} & \\textbf{Instruction} \\\\<br>\n2001 & \\verb|sum = 0| \\\\<br>\n2002 & \\verb|i = 1| \\\\<br>\n2003 & \\verb|j = 1| \\\\<br>\n2004 & \\verb|t1 = i * 4| \\\\<br>\n2005 & \\verb|t2 = a[t1]| \\\\<br>\n2006 & \\verb|sum = sum + t2| \\\\<br>\n2007 & \\verb|j = j + 1| \\\\<br>\n2008 & \\verb|if j &lt;= 20 goto 2004| \\\\<br>\n2009 & \\verb|i = i + 1| \\\\<br>\n2010 & \\verb|if i &lt;= 10 goto 2003| \\\\<br>\n2011 & \\verb|k = 1| \\\\<br>\n2012 & \\verb|t3 = k * 8| \\\\<br>\n2013 & \\verb|b[t3] = 0| \\\\<br>\n2014 & \\verb|k = k + 1| \\\\<br>\n2015 & \\verb|if k &lt;= 5 goto 2012| \\\\<br>\n2016 & \\verb|return sum| \\\\<br>\n\\end{array}<br>\n\\]<br>\nThe number of basic blocks is $\\_\\_\\_\\_$ . (Answer in integer)",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in Python",
+          "day": "Day 175"
+        }
+      ]
+    }
+  ]
+}

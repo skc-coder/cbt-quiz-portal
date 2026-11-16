@@ -1,0 +1,198 @@
+{
+  "name": "GO Classes GATE CS | Propositional Logic| Weekly Quiz 2",
+  "duration": "45",
+  "total_qs": "16",
+  "total_qs_one": 7,
+  "total_qs_two": 9,
+  "apti_num_qs": 0,
+  "technical_num_qs": 16,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 16,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "400772",
+          "text": "<p>If $F_1, F_2$ and $F_3$ are propositional formulae/expressions, over same set of propositional variables, such that $F_1\\wedge F_2\\rightarrow F_3$ is a contradiction, then which of the following is/are necessarily true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Both $F_1$ and $F_2$ are tautologies</li>\n    <li>The conjunction $F_1\\wedge F_2$ is a tautology</li>\n    <li>$F_3$ is a contradiction</li>\n    <li>$F_1,\\;F_2$ and $F_3$ all are contradictions.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400770",
+          "text": "<p>Recall the definitions of valid, satisfiable, and unsatisfiable in the propositional logic.</p>\n\n<p>What is the relationship between the above concepts?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>If a formula $\\phi$ is valid then $\\phi$ is satisfiable; and if $\\phi$ is invalid then $\\phi$ is not satisfiable.</li>\n    <li>If a formula $\\phi$ is valid then $\\neg \\phi$ is not satisfiable; and if $\\phi$ is invalid then $\\neg \\phi$ is satisfiable.</li>\n    <li>If a formula $\\neg \\phi$ is not satisfiable, then $\\phi$ is valid; and if $\\neg \\phi$ is satisfiable then $\\phi$ is invalid.</li>\n    <li>If a formula $\\phi$ is not satisfiable, then $\\phi$ is invalid; and if $\\neg \\phi$ is satisfiable then $\\phi$ is valid.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400773",
+          "text": "<p>Which of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>The sentence $S$ is a logical consequence&nbsp;of&nbsp;$S_{1},\\dots,S_{n}$ if and only if&nbsp;$S_{1}\\wedge S_{2} \\wedge \\dots&nbsp;\\wedge&nbsp;S_{n}\\rightarrow S$ is satisfiable.</li>\n    <li>The sentence $S$ is a logical consequence&nbsp;of&nbsp;$S_{1},\\dots,S_{n}$ if and only if&nbsp;$S_{1}\\wedge S_{2}\\wedge \\dots \\wedge S_{n}\\rightarrow S$ is valid.</li>\n    <li>The sentence $S$ is a logical consequence&nbsp;of&nbsp;$S_{1},\\dots,S_{n}$ if and only if&nbsp;$S_{1}\\wedge S_{2}\\wedge \\dots \\wedge S_{n}\\wedge&nbsp;S$ is consistent.</li>\n    <li>The sentence $S$ is a logical consequence&nbsp;of&nbsp;$S_{1},\\dots,S_{n}$ if and only if&nbsp;$S_{1}\\wedge S_{2}\\wedge \\dots \\wedge S_{n}\\wedge S$ is inconsistent.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400771",
+          "text": "<p>Let $\\varphi$ be a propositional formula on a set of variables&nbsp; $A$ and&nbsp; $\\psi$ be a propositional&nbsp; formula on a set of&nbsp; variables $B$ , such that $\\varphi$ $\\Rightarrow$ $\\psi$ . A $\\textit{Craig interpolant}$ of $\\varphi$ and $\\psi$ is a propositional formula $\\mu$ on variables $A \\cap B$ such that $\\varphi$ $\\Rightarrow$ $\\mu$ and $\\mu$ $\\Rightarrow$ $\\psi$. Given propositional formula $\\varphi = q \\vee (r \\wedge s)$ on the set of variables $A = \\{q,r,s\\}$ and propositional formula $\\psi = \\neg q \\rightarrow (s \\vee t)$ on the set of variables $B =\\{q,s,t\\}$, which of the following is a Craig interpolant for $\\varphi$ and $\\psi?$&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\varphi$ itself</li>\n    <li>$q \\vee s$</li>\n    <li>$q \\vee r$</li>\n    <li>$\\neg q \\wedge s$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400769",
+          "text": "<p>In propositional logic if&nbsp;$\\left ( P \\rightarrow Q \\right )\\wedge \\left ( R \\rightarrow S \\right )$ and $\\left ( P \\vee R \\right )$&nbsp;are two premises such that</p>\n\n<p>$$\\begin{array}{c} (P \\to Q) \\wedge (R \\to S) \\\\&nbsp; P \\vee R&nbsp;\\\\ \\hline Y \\\\ \\hline \\end{array}$$</p>\n\n<p>$Y$&nbsp;is the premise :</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$P \\vee R$</li>\n    <li>$P&nbsp;\\vee S$</li>\n    <li>$Q \\vee R$</li>\n    <li>$Q \\vee S$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400778",
+          "text": "<p>What is logically equivalent to \"If Kareena and Parineeti go to the shopping mall then it is raining\":</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If Kareena and Parineeti do not go to the shopping mall then it is not raining.</li><li>If Kareena and Parineeti do not go to the shopping mall then it is raining.</li><li>If it is raining then Kareena and Parineeti go to the shopping mall.</li><li>If it is not raining then Kareena and Parineeti do not go to the shopping mall.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400765",
+          "text": "<p>Consider a proposition given as:</p>\n\n<p>$x \\geq 6$, if $x^2 \\geq 25 $ and and its proof as:</p>\n\n<p>If $x \\geq 6$, then $x^2 =x.x \\geq 6.6 = 36 \\geq 25$</p>\n\n<p>Which of the following is correct with respect to the given proposition and its proof?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n    <li>The proof shows the converse</li>\n    <li>The proof starts by assuming what is to be shown</li>\n    <li>The proof is correct and there is nothing wrong</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$​a$ only</li>\n    <li>$c$ only</li>\n    <li>$a$ and $b$</li>\n    <li>$b$ only</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400764",
+          "text": "<ul>\n    <li>If the bank receipt is forged, then Mr. M is liable.</li>\n    <li>If Mr. M is liable, he will go bankrupt.</li>\n    <li>If the bank will loan him money, he will not go bankrupt.</li>\n    <li>The bank will loan him money.</li>\n</ul>\n\n<p>Which of the following can be concluded from the above statements?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Mr. M is liable</li>\n    <li>The receipt is not forged</li>\n    <li>Mr. M will go bankrupt</li>\n    <li>The bank will go bankrupt</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400767",
+          "text": "Two compound propositions are logically equivalent if they have the same truth table.\n\nFor example, the following two compound propositions are logically equivalent: $\\mathrm{p} \\rightarrow \\mathrm{q}$ and $\\mathrm{q} \\vee \\neg \\mathrm{p}$.\n\nUsing exactly $\\mathrm{k}=4$ propositional variables, how many compound propositions are there that are Not logically equivalent to each other?",
+          "type": "Numerical",
+          "answer": "65536",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq3,numerical-answers,goclasses,mathematical-logic,propositional-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400777",
+          "text": "<p>Which of the following expressions is false?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$p \\rightarrow q \\equiv q \\rightarrow p$</li>\n    <li>$\\neg(p \\vee q) \\equiv \\neg p \\wedge \\neg q$</li>\n    <li>$p \\rightarrow q \\equiv \\neg q \\rightarrow \\neg p$</li>\n    <li>none of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400774",
+          "text": "<p>In propositional logic, given $P$ and $P \\rightarrow&nbsp;Q$, we can infer ________</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\sim Q$</li>\n    <li>$Q$</li>\n    <li>$P \\wedge&nbsp;Q$</li>\n    <li>$\\sim P \\wedge&nbsp;Q$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400766",
+          "text": "<p>Let $p,q,r$ be three propositional variables.</p>\n\n<p>Which of the following statements is/are false?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$p \\rightarrow(q \\vee r)) \\equiv((p \\wedge \\neg q) \\rightarrow r)$</li>\n    <li>$(p \\wedge q) \\vee r \\equiv p \\wedge(q \\vee r)$</li>\n    <li>If $(p \\rightarrow q)$ is FALSE then $(q \\rightarrow p)$ is TRUE.</li>\n    <li>If $(p \\rightarrow q)$ is TRUE then $(q \\rightarrow p)$ is FALSE.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400776",
+          "text": "<p>Select the proposition that is a tautology.</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$(p \\wedge q) \\rightarrow \\neg p$</li>\n    <li>$(p \\vee q) \\rightarrow p$</li>\n    <li>$(p \\wedge q) \\leftrightarrow p$</li>\n    <li>$(p \\wedge q) \\rightarrow p$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400763",
+          "text": "<p>If $\\text{F1, F2}$ and $\\text{F3}$ are propositional formulae/expressions, over some set of propositional variables, such that $\\mathrm{F} 1 \\vee&nbsp;F 2 \\rightarrow \\mathrm{F} 3$ is a contradiction, then which of the following is/are necessarily true:</p><ol style=\"list-style-type:upper-alpha\"><li>Both $\\text{F1, F2}$ are tautologies.</li><li>At least one of $\\text{F1, F2}$ is a tautology.</li><li>$\\text{F3}$ is a contradiction.</li><li>$\\text{F1} \\vee \\text{F2}$ is a tautology.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400768",
+          "text": "<p>A set of propositions is called a system specification.</p>\n\n<p>System specification is consistent if they do not contain conflicting requirements that could be used to derive a contradiction.<br>\nWhen specifications are not consistent, there would be no way to develop a system that satisfies all specifications.<br>\nConsider the following System Specifications:</p>\n\n<ol>\n    <li>“Whenever the system software is being upgraded, users cannot access the file system. If users can access the file system, then they can save new files. If users cannot save new files, then the system software is not being upgraded.”</li>\n    <li>“The diagnostic message is stored in the buffer or it is retransmitted. The diagnostic message is not stored in the buffer. If the diagnostic message is stored in the buffer, then it is retransmitted.”</li>\n</ol>\n\n<p>Which of the above system specifications are consistent?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only $1$</li>\n    <li>Only $2$</li>\n    <li>Both</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "400775",
+          "text": "<p>Select the proposition that is a contradiction.</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\neg(p \\vee q) \\wedge p$</li>\n    <li>$(p \\vee q) \\wedge p$</li>\n    <li>$(\\neg p \\wedge q) \\leftrightarrow p$</li>\n    <li>$(\\neg p \\wedge q) \\rightarrow p$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq3,goclasses,mathematical-logic,propositional-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        }
+      ]
+    }
+  ]
+}

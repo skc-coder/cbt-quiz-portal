@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_73",
+  "name": "GO Classes GATE CS | Compiler Design | Bottom Up Parsing | Weekly Quiz 3",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "532457",
+          "text": "<p>Grammar $G$ :<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow A S \\mid b \\\\<br>&amp; A \\rightarrow S A \\mid a<br>\\end{aligned}<br>$$<br><br>Consider the grammar $G$ provided above. Which of the following statements correctly describe its properties and the behavior of an $\\mathrm{LR}(0)$ parser acting upon it? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>The grammar $G$ is ambiguous.<br> </li><li>An LR($0$) parsing table for this grammar will contain at least one shift-reduce or reduce-reduce conflict.<br> </li><li>If a grammar is ambiguous, it is mathematically impossible for it to be $\\mathrm{LR}(0)$.<br> </li><li>Every state in the LR($0$) DFA for this grammar will contain exactly one item.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532461",
+          "text": "<p>A $\\textbf{viable prefix}$ is defined as a prefix of a right-sentential form that does not continue past the right end of the rightmost handle of that sentential form.<br>Consider the following two grammars:</p><ul><li>Grammar $G_{b}: S \\rightarrow S S+|S S *| a$</li><li>Grammar $G_{c}: S \\rightarrow S(S) \\mid \\epsilon$</li></ul><p>Based on these grammars, which of the following statements regarding their viable prefixes are correct? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>For grammar $G_{b}$, any string consisting of a sequence of non-terminals $S$ followed by the terminal $a$ (e.g., $S S S a$ ) is a viable prefix.<br> </li><li>For grammar $G_{c}$, the string $S(S$ is a viable prefix because it is a prefix of the right-sentential form $S(S)$ and does not exceed the rightmost handle.<br> </li><li>For grammar $G_{b}$, the string $S S+$ is a viable prefix as it represents the right-hand side of a production in a right-sentential form.<br> </li><li>For grammar $G_{c}$, every viable prefix must eventually contain a balanced set of parentheses.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532455",
+          "text": "<p>Grammar $G$ :<br>$$<br>\\begin{aligned}<br>&amp; S^{\\prime} \\rightarrow S \\\\<br>&amp; S \\rightarrow C C \\\\<br>&amp; C \\rightarrow c C \\mid d<br>\\end{aligned}<br>$$<br><br>Consider the grammar $G$ provided above. Identify the correct statements regarding its ambiguity and its relationship with the CLR(1) parsing method. (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>The grammar $G$ is unambiguous because it generates strings of the form $c^{*} d c^{*} d$ without multiple parse trees.<br> </li><li>$G$ is a CLR($1$) grammar, meaning it can be parsed using a Canonical LR parsing table without any shift-reduce or reduce-reduce conflicts.<br> </li><li>If a grammar is CLR($1$), it must also be an SLR($1$) grammar.<br> </li><li>Every CLR($1$) grammar is guaranteed to be unambiguous.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532449",
+          "text": "<p>Consider the following context-free grammar $G_{2}$ :<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow A a|b A c| B c \\mid b B a \\\\<br>&amp; A \\rightarrow d \\\\<br>&amp; B \\rightarrow d<br>\\end{aligned}<br>$$<br>Which of the following statements correctly describe the parsability of $G_{2}$ using LR(1) and LALR(1) techniques? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>The grammar $G_{2}$ is $\\mathrm{LR}(1)$ because every state in its canonical $\\mathrm{LR}(1)$ collection is completely free of conflicts.<br> </li><li>The grammar $G_{2}$ is LALR($1$) because merging its LR($14) states does not result in any shift/reduce conflicts.<br> </li><li>The grammar $G_{2}$ is not LALR($1$) because merging states with identical LR($0$) cores creates a reduce/reduce conflict on terminals ' $a$ ' and ' $c$ '.<br> </li><li>The grammar $G_{2}$ is not $\\mathrm{LR}(1)$ because the identical right-hand sides of $A \\rightarrow d$ and $B \\rightarrow d$ inherently cause an unavoidable reduce/reduce conflict.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532465",
+          "text": "<p>Identify the correct statements regarding the structure and functions of an LR parsing table. (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>The ACTION function is indexed by a state $i$ and a terminal $a$ (or the endmarker $\\$$).<br> </li><li>In a Shift $j$ action, the parser consumes the current input symbol and transitions to state $j$.<br> </li><li>The GOTO function maps a state and a terminal to a new state.<br> </li><li>A Reduce $A \\rightarrow \\beta$ action involves replacing the sequence of symbols $\\beta$ on the stack with the non-terminal $A$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532451",
+          "text": "<p>Consider the following context-free grammar $G_{1}$ :<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow A a|b A c| d c \\mid b d a \\\\<br>&amp; A \\rightarrow d<br>\\end{aligned}<br>$$<br>Which of the following statements correctly describe the parsing capabilities of this grammar? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>The grammar is not SLR($1$) because there is a shift/reduce conflict on the terminal ' $c$ ' in the LR( $0$) state containing the item $A \\rightarrow d \\cdot$.<br> </li><li>The grammar is an LALR($1$) grammar because the specific LR($1$) lookaheads prevent conflicts in all states.<br> </li><li>The grammar is an SLR($1$) grammar.<br> </li><li>The grammar is not LALR($1$) because merging LR($1$) states introduces a reduce/reduce conflict.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532475",
+          "text": "<p>Consider the grammar $G$ with the following production rules:<br>$$<br>S \\rightarrow 0 S 1 \\mid 01<br>$$<br>Identify the correct statements regarding the handles for the given right-sentential forms. (Select all that apply):</p><ol style=\"list-style-type:upper-alpha\"><li>In the right-sentential form $000111$, the handle is the substring $01$ at position $3$ (indices $3-4$).<br> </li><li>In the right-sentential form $000111$, the handle is the entire string $000111$.<br> </li><li>In the right-sentential form $00 S 11$, the handle is the substring $0 S 1$ at position $2$ (indices $2-4$).<br> </li><li>In the right-sentential form $00 S 11$, the handle is the substring $014$ at position $1$ (indices $1-2$).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532447",
+          "text": "<p>Consider a family of grammars $G_{n}$ defined by the following productions for an integer $n \\geq 1$ :<br>$$<br>\\begin{aligned}<br>S &amp; \\rightarrow A_{i} b_{i} \\quad \\text { for } 1 \\leq i \\leq n \\\\<br>A_{i} &amp; \\rightarrow a_{j} A_{i} \\mid a_{j} \\quad \\text { for } 1 \\leq i, j \\leq n \\text { and } i \\neq j<br>\\end{aligned}<br>$$<br>(where $S$ is the start symbol, $A_{i}$ are non-terminals, and $a_{j}, b_{i}$ are terminals).<br>Based on the construction of the grammar $G_{n}$ and the properties of LR parsing, which of the following statements are correct? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>For any integer $n \\geq 1$, the grammar $G_{n}$ has exactly $2 n^{2}-n$ productions.<br> </li><li>For $n=3$, the grammar $G_{3}$ has exactly 15 productions.<br> </li><li>The grammar $G_{n}$ is an SLR(1) grammar because its FOLLOW sets do not overlap in a way that creates conflicts.<br> </li><li>The grammar $G_{n}$ is NOT an SLR(1) grammar because the parser will encounter unavoidable shift/reduce conflicts on the terminal symbols $a_{j}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532459",
+          "text": "<p>Grammar $G$ :<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow S S+ \\\\<br>&amp; S \\rightarrow S S * \\\\<br>&amp; S \\rightarrow a<br>\\end{aligned}<br>$$<br><br>Identify the correct statements regarding the properties of Grammar $G$. (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>The grammar $G$ is unambiguous.<br> </li><li>$G$ is an $\\mathrm{SLR}(1)$ grammar.<br> </li><li>There is a shift-reduce conflict in the $\\mathrm{LR}(0)$ state containing the item $S \\rightarrow S S \\cdot+$.<br> </li><li>The language generated by $G$ consists of postfix expressions.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532463",
+          "text": "<p>Consider the following grammar $G$ :<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow L=R \\mid R \\\\<br>&amp; L \\rightarrow * R \\mid \\text { id } \\\\<br>&amp; R \\rightarrow L<br>\\end{aligned}<br>$$<br>Which of the following statements regarding the properties of this grammar and the relationship between grammar classes are correct? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>Every SLR($1$) grammar is guaranteed to be unambiguous.<br> </li><li>If a grammar is unambiguous, it is always guaranteed to be an SLR($1$) grammar.<br> </li><li>The provided grammar is unambiguous but is not an SLR($1$) grammar due to a shift/reduce conflict.<br> </li><li>Every unambiguous grammar is also an SLR($1$) grammar, provided it has no epsilon productions.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532467",
+          "text": "Consider the shift-reduce parsing process for the input string $\\textbf{id * id $\\$ $ }$ . The grammar used for this parse is the expression grammar:\n$$\n\\begin{aligned}\n& E \\rightarrow E+T \\mid T \\\\\n& T \\rightarrow T * F \\mid F \\\\\n& F \\rightarrow(E) \\mid \\text { id }\n\\end{aligned}\n$$\nLet $x$ be the total number of shift operations performed during the parse, and $y$ be the total number of reduce operations performed (excluding the final \"accept\" action).\nCalculate the value of $\\frac{x}{y}$ up to $2$ decimal places.",
+          "type": "Numerical",
+          "answer": "0.6",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,numerical-answers,goclasses,compiler-design,parsing,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532469",
+          "text": "<p>Consider the following augmented expression grammar $G$ :<br>$$<br>\\begin{aligned}<br>E^{\\prime} &amp; \\rightarrow E \\\\<br>E &amp; \\rightarrow E+T \\mid T \\\\<br>T &amp; \\rightarrow T * F \\mid F \\\\<br>F &amp; \\rightarrow(E) \\mid \\text { id }<br>\\end{aligned}<br>$$<br>If $I$ is the initial item set containing $\\left\\{E^{\\prime} \\rightarrow \\cdot E\\right\\}$, which of the following represents the correct complete set of items for $\\operatorname{CLOSURE(I)~(also~known~as~state~} I_{0}$ )?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\left\\{E^{\\prime} \\rightarrow \\cdot E, E \\rightarrow \\cdot E+T, E \\rightarrow \\cdot T\\right\\}$<br> </li><li>$\\left\\{E^{\\prime} \\rightarrow \\cdot E, E \\rightarrow \\cdot E+T, E \\rightarrow \\cdot T, T \\rightarrow \\cdot T * F, T \\rightarrow \\cdot F\\right\\}$<br> </li><li>$\\left\\{E^{\\prime} \\rightarrow \\cdot E, E \\rightarrow \\cdot E+T, E \\rightarrow \\cdot T, T \\rightarrow \\cdot T * F, T \\rightarrow \\cdot F, F \\rightarrow \\cdot(E), F \\rightarrow \\cdot \\operatorname{id}\\right\\}$<br> </li><li>$\\left\\{E^{\\prime} \\rightarrow \\cdot E, E \\rightarrow E \\cdot+T, T \\rightarrow T \\cdot * F\\right\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532453",
+          "text": "<p>Consider the grammar:<br>$$<br>S \\rightarrow S S+|S S *| a<br>$$<br>&nbsp;Which of the following statements are correct for the given grammar?</p><ol style=\"list-style-type:upper-alpha\"><li>The grammar is CLR(1).<br> </li><li>The grammar is LALR(1).<br> </li><li>The grammar is not CLR(1).<br> </li><li>The grammar is not LALR(1).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532473",
+          "text": "<p>Consider the grammar $G$ representing postfix expressions:<br>$$<br>S \\rightarrow S S+|S S *| a<br>$$<br>Identify the $\\textbf{correct}$ statements regarding the handles in the following right-sentential forms. (Select all that apply):</p><ol style=\"list-style-type:upper-alpha\"><li>In the right-sentential form $S S S+a *+$, the handle is the substring $a$ at position $5$ (index $4$).<br> </li><li>In the right-sentential form $S S S+a *+$, the handle is $S S+$.<br> </li><li>In the right-sentential form $S S+a * a+$, the handle is the substring $a$ at position $4$ (index $3$ ).<br> </li><li>In the right-sentential form $a a a * a++$, the handle is the leftmost $a$ at position $1$ (index $0$ ).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,multiple-selects,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "532471",
+          "text": "<p>Consider a grammar $G$ with the following productions:<br>$$<br>\\begin{aligned}<br>&amp; E \\rightarrow E+T \\mid T \\\\<br>&amp; T \\rightarrow i d<br>\\end{aligned}<br>$$<br>If a set of items $I$ initially contains only the item $\\{E \\rightarrow \\cdot E+T\\}$, which of the following represents the complete set of items in $\\operatorname{CLOSURE}(I)$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\{E \\rightarrow \\cdot E+T\\}$<br> </li><li>$\\{E \\rightarrow \\cdot E+T, E \\rightarrow \\cdot T\\}$<br> </li><li>$\\{E \\rightarrow \\cdot E+T, E \\rightarrow \\cdot T, T \\rightarrow \\cdot i d\\}$<br> </li><li>$\\{E \\rightarrow \\cdot E+T, T \\rightarrow \\cdot i d\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq75,goclasses,compiler-design,parsing,two-marks",
+          "category": "Compiler Design"
+        }
+      ]
+    }
+  ]
+}

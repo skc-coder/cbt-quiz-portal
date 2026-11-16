@@ -1,0 +1,70 @@
+{
+  "name": "Day 16 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "472672",
+          "text": "<p>Three boxes are presented to you. One contains gold, the other two are empty. Each box has imprinted on it a clue as to its contents; the clues are<br>I. (Box 1) The gold is not here<br>II. (Box 2) The gold is not here<br>III. (Box 3) The gold is in Box 2</p><p>Only one message is true; the other two are false. Which box has the gold?<br>Formalize the puzzle in Propositional Logic and find the solution using a truth table.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Box 1</li><li>Box 2</li><li>Box 3</li><li>Can't be determined</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 16"
+        },
+        {
+          "post_id": "472670",
+          "text": "<p>Determine if the following deduction rule is valid</p><p>p → q<br>~q&nbsp;→ ~r<br>_________<br>∴ p&nbsp;→ r</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>True</li><li>False</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 16"
+        },
+        {
+          "post_id": "472668",
+          "text": "<p>Let $\\mathbf{T}(\\mathbf{x}, \\mathbf{y})$ be the predicate \" $\\mathbf{x}$ is taller than $\\mathbf{y}$ \", where $\\mathbf{x}, \\mathbf{y} \\in$ People. Consider the logical expression: $\\exists \\mathbf{x}$ $\\exists \\mathbf{y}$ $\\mathbf{T}(\\mathbf{x}, \\mathbf{y})$</p><p>Which of the following best captures the meaning of this expression?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Everyone is taller than someone.</li><li>Someone is taller than somebody.</li><li>No one is taller than anyone.</li><li>There exists exactly one person who is taller than everyone else.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 16"
+        },
+        {
+          "post_id": "472666",
+          "text": "<p>Is $(\\mathrm{p} \\rightarrow \\mathrm{q})^{\\prime} \\equiv \\mathrm{p} \\wedge \\mathrm{q}^{\\prime}$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>True</li><li>False</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 16"
+        },
+        {
+          "post_id": "472664",
+          "text": "<p>If a truth table has five proposition labels, how many rows of truth values will the complete truth table have?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>5</li><li>16</li><li>32</li><li>64</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 16"
+        }
+      ]
+    }
+  ]
+}

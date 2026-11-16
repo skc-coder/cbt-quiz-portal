@@ -1,0 +1,242 @@
+{
+  "name": "GO Classes CS/DA Test Series 2026 | Engineering Mathematics | Topic Wise Test 1",
+  "duration": "60",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "425243",
+          "text": "<p>Let<br>$$<br>A=\\left(\\begin{array}{cccc}<br>0 &amp; 0 &amp; 0 &amp; a \\\\<br>-1 &amp; 0 &amp; 0 &amp; b \\\\<br>0 &amp; -1 &amp; 0 &amp; c \\\\<br>0 &amp; 0 &amp; -1 &amp; d<br>\\end{array}\\right)<br>$$<br>Suppose $0$ is an eigenvalue of $A$ with multiplicity $2$ . Then which of the following statement is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>$a=0, b \\neq 0$</li><li>$a=b=0$ and $c \\neq 0$</li><li>$a=c=0$ but $b \\neq 0$.</li><li>$a=d=0$ but $b \\neq 0$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425247",
+          "text": "<p>Which of the following is/are linearly independent sets ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\left\\{\\left[\\begin{array}{r}2 \\\\ -5 \\\\ 3\\end{array}\\right],\\left[\\begin{array}{r}4 \\\\ 3 \\\\ -2\\end{array}\\right]\\right\\}$<br> </li><li>$\\left\\{\\left[\\begin{array}{l}3 \\\\ 2\\end{array}\\right],\\left[\\begin{array}{r}2 \\\\ -1\\end{array}\\right],\\left[\\begin{array}{r}1 \\\\ -1\\end{array}\\right]\\right\\}$<br> </li><li>$\\left\\{\\left[\\begin{array}{r}4 \\\\ -6 \\\\ 2 \\\\ -4\\end{array}\\right],\\left[\\begin{array}{l}2 \\\\ 3 \\\\ 1 \\\\ 3\\end{array}\\right],\\left[\\begin{array}{r}6 \\\\ -9 \\\\ 3 \\\\ -6\\end{array}\\right],\\left[\\begin{array}{r}-1 \\\\ -1 \\\\ 2 \\\\ 0\\end{array}\\right]\\right\\}$<br> </li><li>$\\left\\{\\left[\\begin{array}{l}0 \\\\ 0 \\\\ 0\\end{array}\\right],\\left[\\begin{array}{l}3 \\\\ 6 \\\\ 2\\end{array}\\right]\\right\\}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425233",
+          "text": "<p>Which of the following is/are $\\mathbf{TRUE}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If $A$ and $B$ are $4 \\times 4$ matrices such that $\\operatorname{rank}(A B)=3$, then $\\operatorname{rank}(B A)&lt;4$.</li><li>If $A$ is a $5 \\times 3$ matrix with $\\operatorname{rank}(A)=2$, then for every vector $b \\in \\mathbb{R}^{5}$ the equation $A x=b$ will have at least one solution.</li><li>If $A$ is a $4 \\times 7$ matrix, then $A$ and $A^{T}$ have the same rank.</li><li>Let $A$ and $B \\neq 0$ be $2 \\times 2$ matrices. If $A B=0$, then $A$ must be the zero matrix.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425240",
+          "text": "<p>. If the matrix $A=\\left(\\begin{array}{ll}a &amp; 1 \\\\ 2 &amp; 3\\end{array}\\right)$ has $1$ as an eigenvalue, then the determinant of $A$ is</p><ol style=\"list-style-type:upper-alpha\"><li>$5$<br> </li><li>$2$<br> </li><li>$4$<br> </li><li>$3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425227",
+          "text": "<p>Suppose $A$ is a symmetric $n \\times n$ matrix. If $\\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^{n}$ are vectors satisfying $A \\mathbf{x}=2 \\mathbf{x}$ and $A \\mathbf{y}=3 \\mathbf{y}$, then what is the value of dot product between $\\mathrm{x}$ and $\\mathrm{y}$ i.e. $x . y$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$0$</li><li>$-1$</li><li>$1$</li><li>$6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425245",
+          "text": "Suppose that $A$ is an $m \\times n$ matrix with entries in $\\mathbb{R}$ and consider a system of linear equations $A x=b$.<br />Which of the following is/are TRUE ?<br /><ol style=\"list-style-type:upper-alpha\"><li> If $\\operatorname{rank}(A)=m$ and $n>m$ then the system $A x=b$ has infinitely many solutions.</li><li> If $\\operatorname{rank}(A)=n$, then $A x=b$ has a unique solution.</li> <li>If $\\operatorname{rank}(A)=m$ and $n \\geq m$, then $A x=b$ has at least one solution.</li>  <li>If $\\operatorname{rank}(A)=m$ and $n=m$, then $A x=b$ could have no solution.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425225",
+          "text": "<p>Let $A$ be an $m \\times n$ matrix and $x$ and $b$ are column vectors.<br>Which of the following is/are TRUE?</p><ol style=\"list-style-type:upper-alpha\"><li>If $A x=0$ has only the trivial solution $x=0$, then $A x=b$ always has a unique solution.</li><li>There are vectors $\\mathbf{b}_{1}, \\mathbf{b}_{2}, \\mathbf{b}_{3} \\in \\mathbb{R}^{m}$ such that $A \\mathbf{x}=\\mathbf{b}_{1}$ has no solutions, $A \\mathbf{x}=\\mathbf{b}_{2}$ has one solution, and $A \\mathbf{x}=\\mathbf{b}_{3}$ has infinitely many solutions.</li><li>If the columns of $A$ are linearly independent, then the equation $A x=b$ has exactly one solution for every $b$.</li><li>If a system $A x=b$ has more than one solution, then so does the system $A x=0$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425229",
+          "text": "Which of the following is/are TRUE ?<br /><ol style=\"list-style-type:upper-alpha\"><li> If $A$ is an invertible $4 \\times 4$ matrix, then $\\left(A^{T}\\right)^{-1}=\\left(A^{-1}\\right)^{T}$, where $A^{T}$ denotes the transpose of $A$.</li><li> If $A$ and $B$ are $3 \\times 3$ matrices with $\\operatorname{rank}(A)=\\operatorname{rank}(B)=2$, then $\\operatorname{rank}(A B)=2$.</li> <li>If $A$ and $B$ are invertible $3 \\times 3$ matrices, then $A+B$ is invertible.</li>  <li>If $A$ is an $n \\times n$ matrix with rank less than $n$, then for any vector $\\mathbf{b}$, the equation $A \\mathbf{x}=\\mathbf{b}$ has an infinite number of solutions.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425239",
+          "text": "The rank of the matrix<br />$$<br />\\left(\\begin{array}{lllll}<br />0 & 1 & 0 & 0 & 0 \\\\<br />0 & 1 & 2 & 0 & 0 \\\\<br />0 & 0 & 0 & 3 & 0 \\\\<br />0 & 1 & 0 & a & 0 \\\\<br />1 & 0 & 0 & 0 & b<br />\\end{array}\\right) .<br />$$<br /><ol style=\"list-style-type:upper-alpha\"><li> depends on the values of both $a$ and $b$</li><li> is independent of the values of both $a$ and $b$</li> <li>depends on the value of $a$ but not on the value of $b$</li>  <li>depends on the value of $b$ but not on the value of $a$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425246",
+          "text": "<p>Which of the following is/are TRUE ?</p><ol style=\"list-style-type:upper-alpha\"><li>If $\\operatorname{det}(A)=0$ then columns of $A$ are linearly dependent.</li><li>Let $v_{1}, \\ldots, v_{m}$ be eigenvectors of $A$ with eigenvalues $\\lambda_{1}, \\ldots, \\lambda_{m}$. Suppose that $\\lambda_{1}, \\ldots, \\lambda_{m}$ are distinct then $v_{1}, \\ldots, v_{m}$ are linearly independent.</li><li>If a given linear system has $5$ unknowns $x_{i}$ and $7$ equations, then the system must be inconsistent.</li><li>A square matrix $A$ is invertible if and only if 0 is not an eigenvalue of $A$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425234",
+          "text": "<p>An $n \\times n$ matrix $A=\\left(a_{i j}\\right)$ is said to be antisymmetric if $a_{i j}=-a_{j i}$ for all $1 \\leq i, j \\leq n$. Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>If $A$ is antisymmetric then all its principal diagonal entries are zero.</li>\n\t<li>If $A, B$ are antisymmetric matrices then the product $A B$ need not be antisymmetric.</li>\n\t<li>If $A$ is antisymmetric then $A^{2}$ is symmetric.</li>\n\t<li>Every nonzero $3 \\times 3$ antisymmetric matrix is invertible.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425236",
+          "text": "<p>Which of the following statements are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Let $A$ be a $n \\times m$ matrix with $n &lt; m$. Then there is a nonzero solution $y$ with $Ay = 0$ only if $A$ has full row rank.</li>\n\t<li>Let $A$ be a $n \\times m$ matrix with $n&gt;m$. There is a nonzero solution $y$ with $A y=0$.</li>\n\t<li>The rank of a matrix is equal to the maximum number of linearly independent rows in the matrix.</li>\n\t<li>Let $A$ be an $n \\times n$ matrix. Suppose $A=B C$, where $B$ has size $n \\times r$ and $C$ has size $r \\times n$. The rank of $A$ is less than or equal to $r$.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425253",
+          "text": "<p>Let $v_{1}, v_{2}, w$ be vectors in $\\mathbf{R}^{3}$, and suppose that the matrix whose three columns are $v_{1}, v_{2}$, and $w$ has three pivots. Which of the following statements must be true? Clearly circle all that apply.</p><ol style=\"list-style-type:upper-alpha\"><li>Every vector in $\\mathbf{R}^{3}$ is a linear combination of $v_{1}, v_{2}$, and $w$.</li><li>$w$ is not a linear combination of $v_{1}$ and $v_{2}$.</li><li>Every vector in $\\mathbf{R}^{2}$ is a linear combination of $v_{1}$ and $w$.</li><li>Every vector in $\\mathbf{R}^{2}$ is a linear combination of $v_{1}$ and $v_{2}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425251",
+          "text": "<p>$<br>\\text { Let } A=\\left(\\begin{array}{ll}<br>4 &amp; 1 \\\\<br>2 &amp; 1<br>\\end{array}\\right) \\text {. Find } A^{-1} \\text {. }<br>$</p><ol style=\"list-style-type:upper-alpha\"><li>$ A^{-1}=\\frac{1}{2}\\left(\\begin{array}{ll}<br>1 &amp; 1 \\\\<br>2 &amp; 4<br>\\end{array}\\right)$<br> </li><li>$ A^{-1}=\\frac{1}{-2}\\left(\\begin{array}{ll}<br>1 &amp; -1 \\\\<br>-2 &amp; 4<br>\\end{array}\\right)$<br> </li><li>$ A^{-1}=\\frac{1}{2}\\left(\\begin{array}{ll}<br>1 &amp; -1 \\\\<br>-2 &amp; 4<br>\\end{array}\\right)$<br> </li><li>$ A^{-1}=\\frac{1}{2}\\left(\\begin{array}{ll}<br>1 &amp; -2 \\\\<br>-1 &amp; 4<br>\\end{array}\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425254",
+          "text": "Which of the following is/are TRUE?<br /><ol style=\"list-style-type:upper-alpha\"><li> If the columns of matrix $\\mathrm{A}$ are linearly dependent, then $\\mathrm{Ax}=0$ has a nontrivial solution.</li><li> If $A$ is a $m \\times r$ matrix with $r$ independent columns and $B$ is a $r \\times n$ matrix with $r$ independent rows, then $A B$ is invertible.</li> <li>For a matrix $A$, let $\\lambda_{1}$ and $\\lambda_{2}$ be two different eigenvalues with corresponding eigenvectors $x_{1}$ and $x_{2}$. Then, $x_{1}+x_{2}$ is an eigenvector for $A$.</li>  <li>There exists a $4 \\times 3$ real matrix $A$ and a $3 \\times 4$ real matrix $B$ such that the column vectors of $A B$ are linearly independent.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425231",
+          "text": "<p>Let $A$ be a $4 \\times 4$&nbsp; matrix with determinant $7$. Which of the following is/are TRUE ?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>For some vector $\\mathbf{b}$ the equation $A \\mathbf{x}=\\mathbf{b}$ has exactly one solution.</li><li>For some vector $\\mathbf{b}$ the equation $A \\mathbf{x}=\\mathbf{b}$ has infinitely many solutions.</li><li>For some vector $\\mathbf{b}$ the equation $A \\mathbf{x}=\\mathbf{b}$ has no solution.</li><li>For all vectors $\\mathbf{b}$ the equation $A \\mathbf{x}=\\mathbf{b}$ has at least one solution.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425244",
+          "text": "<p>Consider the following linear system.<br>$$<br>\\begin{aligned}<br>x+a y+z &amp; =a+1 \\\\<br>2 x+b y+z &amp; =b+1 \\\\<br>3 x+c y+z &amp; =c+1<br>\\end{aligned}<br>$$<br>Suppose the system only has unique solution. Then</p><ol style=\"list-style-type:upper-alpha\"><li>$x=1$</li><li>$y=0$</li><li>$z=1$</li><li>$x=2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425238",
+          "text": "Which of the following statements are true for all $n \\times n$ matrices $A, B$ :<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left(A^{T}\\right)^{T}=A$;</li><li> $\\left|A^{T}\\right|=|A|$;</li> <li>$(A B)^{T}=A^{T} B^{T}$;</li>  <li>$(A+B)^{T}=A^{T}+B^{T}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425249",
+          "text": "<p>Let $A$ be a $3 \\times 5$ matrix $A$ and $\\mathbf{b}$ in $\\mathbb{R}^{3}$. Which of the following statements about the matrix equation $A \\mathbf{x}=\\mathbf{b}$ for $\\mathbf{x} \\in \\mathbb{R}^{5}$, and the corresponding homogeneous equation $A \\mathbf{x}=\\mathbf{0}$, could be true?</p><ol style=\"list-style-type:upper-alpha\"><li>$A \\mathbf{x}=\\mathbf{b}$ has infinitely many solutions.</li><li>$A \\mathbf{x}=\\mathbf{0}$ is inconsistent.</li><li>$A \\mathbf{x}=\\mathbf{0}$ has exactly two solutions.</li><li>$A \\mathbf{x}=\\mathbf{0}$ has a unique solution and $A \\mathbf{x}=\\mathbf{b}$ has infinitely many solutions.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425241",
+          "text": "Which of the following is/are TRUE ?<br /><ol style=\"list-style-type:upper-alpha\"><li> If a system $A x=b$ has more than one solution, then so does the system $A x=0$.</li><li> If $B C=B D$, then $C=D$.</li> <li>If $A$ and $B$ are $n \\times n$ matrices, then $(A+B)(A-B)=A^{2}-B^{2}$.</li>  <li>If $A$ is invertible and $r \\neq 0$, then $(r A)^{-1}=r A^{-1}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_csda_la_tw_1,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        }
+      ]
+    }
+  ]
+}

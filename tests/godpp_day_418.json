@@ -1,0 +1,70 @@
+{
+  "name": "Day 294 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534806",
+          "text": "<p data-start=\"175\" data-end=\"276\">For $F(X,Y,Z)=\\Sigma _m(0,2,3)$, which of the following is the correct canonical SOP form?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"278\" data-end=\"371\">$X'Y'Z'+X'YZ'+X'YZ$<br>&nbsp;</li><li data-start=\"278\" data-end=\"371\">$X'Y'Z+XY'Z'+XY'Z$<br>&nbsp;</li><li data-start=\"278\" data-end=\"371\">$X'Y'Z'+X'Y'Z+X'YZ'$<br>&nbsp;</li><li data-start=\"278\" data-end=\"371\">$XYZ+XY'Z+X'YZ$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 294"
+        },
+        {
+          "post_id": "534816",
+          "text": "<p data-start=\"3062\" data-end=\"3159\">For $F(A,B,C)=A'B+B'C+AC'$, which of the following is the correct canonical POS form?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3161\" data-end=\"3258\">$(A+B+C)(A'+B'+C')$<br>&nbsp;</li><li data-start=\"3161\" data-end=\"3258\">$(A+B+C')(A'+B'+C)$<br>&nbsp;</li><li data-start=\"3161\" data-end=\"3258\">$(A+B'+C)(A'+B+C')$<br>&nbsp;</li><li data-start=\"3161\" data-end=\"3258\">$(A'+B+C)(A+B'+C')$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 294"
+        },
+        {
+          "post_id": "534814",
+          "text": "<p data-start=\"2239\" data-end=\"2334\">For $F(X,Y,Z)=X'+YZ'+YZ$, which of the following is the correct canonical POS form?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2336\" data-end=\"2433\">$(X'+Y+Z)(X'+Y+Z')$<br>&nbsp;</li><li data-start=\"2336\" data-end=\"2433\">$(X+Y+Z)(X+Y+Z')$<br>&nbsp;</li><li data-start=\"2336\" data-end=\"2433\">$(X'+Y'+Z)(X'+Y'+Z')$<br>&nbsp;</li><li data-start=\"2336\" data-end=\"2433\">$(X+Y'+Z)(X+Y'+Z')$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 294"
+        },
+        {
+          "post_id": "534810",
+          "text": "<p data-start=\"713\" data-end=\"813\">For $F(A,B,C)=\\Pi _M(1,2,4,6)$, which of the following is the correct canonical SOP form?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"815\" data-end=\"928\">$A'B'C'+A'BC+AB'C+ABC$<br>&nbsp;</li><li data-start=\"815\" data-end=\"928\">$A'B'C+A'BC'+AB'C'+ABC'$<br>&nbsp;</li><li data-start=\"815\" data-end=\"928\">$A'BC'+AB'C+A'B'C+ABC$<br>&nbsp;</li><li data-start=\"815\" data-end=\"928\">$A'B'C'+A'B'C+AB'C+ABC'$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 294"
+        },
+        {
+          "post_id": "534812",
+          "text": "<p data-start=\"1551\" data-end=\"1656\">For $F(A,B,C,D)=\\Sigma _m(1,2,5,7)$, which of the following is the correct canonical SOP form?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1658\" data-end=\"1799\">$A'B'C'D+A'B'CD'+A'BC'D+A'BCD$<br>&nbsp;</li><li data-start=\"1658\" data-end=\"1799\">$A'B'C'D'+A'B'CD+A'BC'D'+A'BCD'$<br>&nbsp;</li><li data-start=\"1658\" data-end=\"1799\">$AB'C'D+A'B'CD'+A'BC'D+ABCD$<br>&nbsp;</li><li data-start=\"1658\" data-end=\"1799\">$A'B'C'D+A'B'CD'+AB'C'D+A'BCD$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 294"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 305 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "536562",
+          "text": "<p>For an active-high SR flip-flop, which expression correctly represents the next state?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$Q_{n+1}=S+R'Q_n$<br>&nbsp;</li><li>$Q_{n+1}=R+SQ_n$<br>&nbsp;</li><li>$Q_{n+1}=S'R+Q_n$<br>&nbsp;</li><li>$Q_{n+1}=SR+Q_n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 305"
+        },
+        {
+          "post_id": "536553",
+          "text": "<p>In basic sequential circuits, a flip-flop can be understood as:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A combinational circuit without memory<br>&nbsp;</li><li>A latch controlled by a clock signal<br>&nbsp;</li><li>A decoder controlled by a multiplexer<br>&nbsp;</li><li>A latch whose output never changes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 305"
+        },
+        {
+          "post_id": "536560",
+          "text": "<p>For a gated SR latch with active-high clock, which condition is invalid when clock $=1$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$S=0,R=0$<br>&nbsp;</li><li>$S=1,R=0$<br>&nbsp;</li><li>$S=0,R=1$<br>&nbsp;</li><li>$S=1,R=1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 305"
+        },
+        {
+          "post_id": "536555",
+          "text": "<p>A clock signal has time period $T=20$ ns. The signal remains high for $8$ ns in every cycle. What are the frequency and duty cycle of the clock?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$25$ MHz, $40$%<br>&nbsp;</li><li>$50$ MHz, $40$%<br>&nbsp;</li><li>$50$ MHz, $60$%<br>&nbsp;</li><li>$100$ MHz, $40$%</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 305"
+        },
+        {
+          "post_id": "536558",
+          "text": "<p>In a gated SR latch, the clock input is $0$. If $S=1$ and $R=0$, what will happen to the latch output?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It will be set to $1$<br>&nbsp;</li><li>It will be reset to $0$<br>&nbsp;</li><li>It will hold the previous state<br>&nbsp;</li><li>It will enter invalid state</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 305"
+        }
+      ]
+    }
+  ]
+}

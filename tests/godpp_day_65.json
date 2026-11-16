@@ -1,0 +1,70 @@
+{
+  "name": "Day 62 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "479283",
+          "text": "<p>In classful addressing, the IP address 190.255.254.254 belongs to</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Class A</li><li>Class B</li><li>Class C</li><li>Class D</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 62"
+        },
+        {
+          "post_id": "479282",
+          "text": "<p>In a binary Hamming Code the number of check digits is $r$ then number of message digits is equal to</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2^r-1$<br>&nbsp;</li><li>$2^r-r-1$<br>&nbsp;</li><li>$2^r-r+1$<br>&nbsp;</li><li>$2^r+r-1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 62"
+        },
+        {
+          "post_id": "479280",
+          "text": "<p>Which of the following fields in IPv 4 datagram is not related to fragmentation?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Type of service</li><li>Fragment offset</li><li>Flags</li><li>Indentification</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 62"
+        },
+        {
+          "post_id": "479278",
+          "text": "<p>The message 11001001 is to be transmitted using the CRC polynomial $x^3+1$ to protect it from errors. The message that should be transmitted is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$110010011001$<br>&nbsp;</li><li>$11001001$<br>&nbsp;</li><li>$110010011001001$<br>&nbsp;</li><li>$11001001011$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 62"
+        },
+        {
+          "post_id": "479276",
+          "text": "<p>To guarantee correction of upto $t$ errors, the minimum Hamming distance $d_{\\min }$ in a block code must be $\\qquad$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$t+1$<br>&nbsp;</li><li>$t-2$<br>&nbsp;</li><li>$2 t-1$<br>&nbsp;</li><li>$2 t+1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 62"
+        }
+      ]
+    }
+  ]
+}

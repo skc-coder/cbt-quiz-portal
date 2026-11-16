@@ -1,0 +1,134 @@
+{
+  "id": "go27_quiz_19",
+  "name": "GO Classes GATE CS | Discrete Mathematics | Combinatorics | Weekly Quiz 18",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "532407",
+          "text": "How many distinct permutations of the letters $\\text{CHECKMATE}$ contain the string $\\text{TEAM}$?",
+          "type": "Numerical",
+          "answer": "360",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq76,numerical-answers,goclasses,discrete-mathematics,combinatory,counting,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "532412",
+          "text": "Let $\\mathrm{T}_n$ be the number of ways to arrange cars in a row with $n$ parking spaces if we can use sedans, SUVs, and trucks to park such that a truck requires two spaces, whereas a sedan or SUV requires just one space each, and no two trucks are consecutively parked. Assume that all trucks are identical, all sedans are identical, and all SUVs are identical.\n\nWhat is the value of $\\mathrm{T}_7$?\n\n(Use the following data: $\\mathrm{T}_1 = 2$; $\\mathrm{T}_2 = 5$; $\\mathrm{T}_3 = 12$, i.e. initial conditions are already given, hence no need to compute them).",
+          "type": "Numerical",
+          "answer": "368",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq76,numerical-answers,goclasses,discrete-mathematics,combinatory,recurrence-relation,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "532409",
+          "text": "For how many $n \\in \\{1,2,\\ldots,500\\}$ is $n$ a multiple of one or more of $5,6,$ or $7$?",
+          "type": "Numerical",
+          "answer": "215",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq76,numerical-answers,goclasses,discrete-mathematics,combinatory,counting,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "532408",
+          "text": "How many $5$-digit numbers contain at least one $1$ and at least one $3$?",
+          "type": "Numerical",
+          "answer": "13696",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq76,numerical-answers,goclasses,discrete-mathematics,combinatory,counting,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "532413",
+          "text": "Suppose a class has $89$ students. How many students at least must have a birthday in the same month?",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq76,numerical-answers,goclasses,discrete-mathematics,combinatory,pigeonhole-principle,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "532411",
+          "text": "Two parents go with their three kids to the theater, and they have tickets for five consecutive seats. How many sitting arrangements would there be if the only rule is that the two parents want to sit together?",
+          "type": "Numerical",
+          "answer": "48",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq76,numerical-answers,goclasses,discrete-mathematics,combinatory,counting,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "532406",
+          "text": "Teams $A$ and $B$ play in a basketball tournament. Teams $A$ and $B$ play each other repeatedly until one of them wins the tournament. The first team to win two games in a row or a total of three games wins the tournament. Every match results in win or lose only, i.e., no ties.<br />What is the number of ways the tournament can occur? (Hint: Make a tree of the tournament.)<br /><ol style=\"list-style-type:upper-alpha\"><li> $8$</li><li> $9$</li> <li>$10$</li>  <li>$11$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq76,goclasses,discrete-mathematics,combinatory,counting,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "532410",
+          "text": "Chris has promised to bring back bagels for three friends he is studying with, as well as one for himself, one bagel for one person. The bagel shop sells $8$ varieties of bagel. In how many ways can he choose $4$ bagels to give to Jan, Tom, Olive, and themself?",
+          "type": "Numerical",
+          "answer": "4096",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq76,numerical-answers,goclasses,discrete-mathematics,combinatory,counting,one-mark",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "532405",
+          "text": "Find the number of $5$-lists of the form $(x_1, x_2, x_3, x_4, x_5)$, where each $x_i$ is a nonnegative integer and<br />$$x_1 + x_2 + x_3 + x_4 + 3x_5 = 12$$",
+          "type": "Numerical",
+          "answer": "780",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq76,numerical-answers,goclasses,discrete-mathematics,combinatory,counting,two-marks",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "532404",
+          "text": "Consider the generating function $\\left(\\dfrac{1}{1-x}\\right)^4 = (1 + x + x^2 + x^3 + \\cdots)^4$.<br />What is the coefficient of $x^4$?",
+          "type": "Numerical",
+          "answer": "35",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq76,numerical-answers,goclasses,discrete-mathematics,combinatory,generating-functions,two-marks",
+          "category": "Combinatory"
+        }
+      ]
+    }
+  ]
+}

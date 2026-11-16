@@ -1,0 +1,70 @@
+{
+  "name": "Day 74 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "484033",
+          "text": "Consider a cache of $4$ lines of $16$ bytes each. Main memory is divided into blocks of $16$ bytes each. That is, block $0$ has bytes with addresses $0$ through $15$, and so on. Now consider a program that accesses memory in the following sequence of addresses:<br>\n<br>\nOnce: $63$ through $70$<br>\n<br>\nLoop ten times: $15$ through $32$; $80$ through $95$<br>\n<br>\nSuppose the cache is organized as direct mapped. Memory blocks $0, 4,$ and so on are assigned to line $1$; blocks $1,5 ,$ and so on to line $2$; and so on.<br>\n<br>\nThe hit ratio of the cache will be_____________$\\%$ (up to one decimal place).",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 74"
+        },
+        {
+          "post_id": "484028",
+          "text": "A computer has a cache, main memory, and a disk used for virtual memory. If a referenced word is in the cache, $20$ ns are required to access it. If it is in main memory but not in the cache, $60$ ns are needed to load it into the cache, and then the reference is started again. If the word is not in main memory, $12$ ms are required to fetch the word from disk, followed by $60$ ns to copy it to the cache, and then the reference is started again. The cache hit ratio is $0.9$ and the main memory hit ratio is $0.6$ . The average time in nanoseconds required to access a referenced word on this system is________.",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 74"
+        },
+        {
+          "post_id": "484031",
+          "text": "Consider a computer with the following characteristics: a total of $1$Mbyte of main memory, a word size of $1$ byte, a block size of $16$ bytes, and a cache size of $64$ Kbytes. For the main memory addresses of F0010, $01234$, and CABBE, The sum of the corresponding tag, cache line address, and word offsets for a direct-mapped cache in decimal is $A, B, C$ respectively.<br>\n<br>\nThe value of $A-B+C$ is_________.",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 74"
+        },
+        {
+          "post_id": "484026",
+          "text": "Consider a standard 5-stage pipeline CPU.<br>\n<br>\nThe CPU executes the following sequence of instructions:<br>\n<br>\n1. I1: LOAD R1, 100(R2) ; R1 $\\leftarrow \\mathrm{M}[\\mathrm{R} 2+100]$<br>\n<br>\n2. I2: ADD R3, R1, R4 ; R3 $\\leftarrow \\mathrm{R} 1+\\mathrm{R} 4$<br>\n<br>\n3. I3: SUB R5, R3, R6 ; R5 $\\leftarrow \\mathrm{R} 3$ - R6<br>\n<br>\n4. I4: STORE R5, 200(R2) ; $\\mathrm{M}[\\mathrm{R} 2+200] \\leftarrow \\mathrm{R} 5$<br>\n<br>\n5. I5: ADD R7, R1, R5 ; R7 $\\leftarrow \\mathrm{R} 1+\\mathrm{R} 5$<br>\n<br>\nEach stage takes exactly one clock cycle. Assume no structural hazards are there.<br>\n<br>\nThe total number of clock cycles required to complete the above sequence of instructions, starting from the fetch of I1 is ________.",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 74"
+        },
+        {
+          "post_id": "484024",
+          "text": "<p>A uniprocessor system runs at $1$ GHz and is connected to a sensor device that produces $1$ data word every $2 \\mu \\mathrm{~s}$.</p><p>In Programmed I/O, the processor continuously polls the device. To read one word, it first reads the status register, checks if data is ready, then reads the data register, and finally stores the word in memory. Each instruction (read, check, or store) takes $1$ cycle except reading the data register, which takes $3$ cycles. Reading the status register takes $2$ cycles, and checking it takes $1$ cycle.</p><p>In Interrupt-driven I/O, the device raises an interrupt whenever data is ready. The interrupt service routine first saves the CPU context ($5$ cycles), then reads the status register, checks the status, reads the data register, and stores the word into memory, and finally restores the CPU context ($5$ cycles). Reading the data register takes $3$ cycles, checking the status takes $1$ cycle, and reading the status register takes $2$ cycles.</p><p>Assume the CPU performs useful computation only when it is not servicing I/O. Ignore memory stalls and DMA.</p><p>Which of the following statement(s) is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Programmed I/O consumes fewer CPU cycles per data word than Interrupt-driven I/O.<br>&nbsp;</li><li>Interrupt-driven I/O consumes fewer CPU cycles per data word than Programmed I/O.<br>&nbsp;</li><li>CPU spends more than $1 \\%$ of its time servicing interrupts if using Interrupt-driven I/O.<br>&nbsp;</li><li>CPU spends less than $1 \\%$ of its time servicing I/O if using Programmed I/O.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 74"
+        }
+      ]
+    }
+  ]
+}

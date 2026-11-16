@@ -1,0 +1,70 @@
+{
+  "name": "Day 305 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "536533",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     char str[] = &quot;CODE&quot;;     char *p = str;      p++;     *p = 'A';      printf(&quot;%s %c&quot;, str, *(p + 2));      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    char str[] = \"CODE\";\n    char *p = str;\n\n    p++;\n    *p = 'A';\n\n    printf(\"%s %c\", str, *(p + 2));\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{CODE D}$<br>&nbsp;</li><li>$\\texttt{CADE E}$<br>&nbsp;</li><li>$\\texttt{CADE D}$<br>&nbsp;</li><li>$\\texttt{COAE E}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 305"
+        },
+        {
+          "post_id": "536525",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a[] = {5, 10, 15, 20};     int *p = a + 1;      printf(&quot;%d %d %td&quot;, *(p + 1), p[2], (p + 2) - a);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a[] = {5, 10, 15, 20};\n    int *p = a + 1;\n\n    printf(\"%d %d %td\", *(p + 1), p[2], (p + 2) - a);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{10 15 2}$<br>&nbsp;</li><li>$\\texttt{15 20 3}$<br>&nbsp;</li><li>$\\texttt{15 20 2}$<br>&nbsp;</li><li>$\\texttt{20 15 3}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 305"
+        },
+        {
+          "post_id": "536529",
+          "text": "<p>What will happen when the following code is compiled?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a[] = {10, 20, 30};      a = a + 1;      printf(&quot;%d&quot;, *a);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a[] = {10, 20, 30};\n\n    a = a + 1;\n\n    printf(\"%d\", *a);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{10}$<br>&nbsp;</li><li>$\\texttt{20}$<br>&nbsp;</li><li>Compilation error<br>&nbsp;</li><li>Undefined behavior</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 305"
+        },
+        {
+          "post_id": "536531",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     char str[] = &quot;GATE&quot;;     char *p = str;      printf(&quot;%c %c %s&quot;, str[1], *(p + 2), p + 1);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    char str[] = \"GATE\";\n    char *p = str;\n\n    printf(\"%c %c %s\", str[1], *(p + 2), p + 1);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{G A GATE}$<br>&nbsp;</li><li>$\\texttt{A T ATE}$<br>&nbsp;</li><li>$\\texttt{A T TE}$<br>&nbsp;</li><li>$\\texttt{T A ATE}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 305"
+        },
+        {
+          "post_id": "536527",
+          "text": "<p>Consider the following declarations:</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a[4] = {6, 4, 1, 2};     int b[8] = {9, 8, 11, 10, 5, 7, 0, 3};      int *p = &a[1];     int *q = b;      printf(&quot;%p&quot;, p + q);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a[4] = {6, 4, 1, 2};\n    int b[8] = {9, 8, 11, 10, 5, 7, 0, 3};\n\n    int *p = &a[1];\n    int *q = b;\n\n    printf(\"%p\", p + q);\n\n    return 0;\n}</pre><p>What will happen?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It prints the sum of two addresses<br>&nbsp;</li><li>It prints the address of $\\texttt{a[1] + b[0]}$<br>&nbsp;</li><li>Compilation error<br>&nbsp;</li><li>Undefined behavior after successful compilation</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 305"
+        }
+      ]
+    }
+  ]
+}

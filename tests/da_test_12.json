@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2025 | Linear Algebra | Topic Wise Test 3",
+  "duration": "60",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "426575",
+          "text": "Let $V$ be a vector space, and suppose that $v_{1}, v_{2} \\in V$ and $w_{1}, w_{2} \\in V$ are<br />two ordered bases for $V$. Assume further that<br />$$<br />\\begin{aligned}<br />& w_{1}=6 v_{1}-2 v_{2} \\\\<br />& w_{2}=9 v_{1}-4 v_{2}<br />\\end{aligned}<br />$$<br />Find the change of coordinates matrix from the ordered basis $w_{1}, w_{2}$ to the ordered basis $v_{1}, v_{2}$.<br />A. $\\left(\\begin{array}{cc}6 & 9 \\\\ -2 & -4\\end{array}\\right)$<br />B. $\\left(\\begin{array}{cc}9 & 6 \\\\ -4 & -2\\end{array}\\right)$<br />c. $\\left(\\begin{array}{cc}-2 & 6 \\\\ 9 & -4\\end{array}\\right)$<br />D. $\\left(\\begin{array}{ll}6 & -2 \\\\ 9 & -4\\end{array}\\right)$",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426581",
+          "text": "$A=\\left[\\begin{array}{llll}2 & 0 & 1 & 0 \\\\ 0 & 4 & 2 & 1 \\\\ 0 & 0 & x & 5 \\\\ 0 & 2 & 3 & 0\\end{array}\\right]$.<br />Find the value of $x$ such that the dimension of the left nullspace of $A$ is greater than 0 .",
+          "type": "Numerical",
+          "answer": "-20",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,numerical-answers,linear-algebra,vector-space,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426577",
+          "text": "Which among the following subsets of $\\mathbb{R}^{3}$ is a subspace?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left\\{\\left.\\left[\\begin{array}{c}t \\\\ s \\\\ \\sin t\\end{array}\\right] \\right\\rvert\\, t, s \\in \\mathbb{R}\\right\\}$</li><li> $\\left\\{\\left.\\left[\\begin{array}{c}t \\\\ 2 t \\\\ 1\\end{array}\\right] \\right\\rvert\\, t \\in \\mathbb{R}\\right\\}$</li> <li>$\\left\\{\\left.\\left[\\begin{array}{c}t \\\\ s \\\\ t+s\\end{array}\\right] \\right\\rvert\\, t \\in \\mathbb{R}, s \\geq 0\\right\\}$</li>  <li>$\\left\\{\\left.\\left[\\begin{array}{c}t \\\\ t+s \\\\ s\\end{array}\\right] \\right\\rvert\\, t, s \\in \\mathbb{R}\\right\\}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426590",
+          "text": "Which of the following properties of a matrix are not changed by row operations?<br /><ol style=\"list-style-type:upper-alpha\"><li> The left null space</li><li> The column space</li> <li>The null space</li>  <li>The row space</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426585",
+          "text": "Suppose the matrix $A=\\left[\\begin{array}{cccc}a & b & c & d \\\\ e & f & g & h \\\\ i & j & k & l \\\\ m & n & p & q\\end{array}\\right]$ has row echelon form $R=\\left[\\begin{array}{llll}1 & 1 & 2 & 0 \\\\ 0 & 0 & 0 & 1 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0\\end{array}\\right]$.<br />Which of the following is/are ALWAYS the basis for the column space of $A$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> The first and second columns of $R$.</li><li> The first and fourth columns of $A$</li> <li>The first and fourth columns of $R$.</li>  <li>The third and fourth columns of $A$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426595",
+          "text": "Let $T: \\mathbb{R}^{2} \\rightarrow \\mathbb{R}^{2}$ be the linear transformation<br />$$<br />T\\left[\\begin{array}{l}<br />x_{1} \\\\<br />x_{2}<br />\\end{array}\\right]=\\left[\\begin{array}{l}<br />x_{1}+x_{2} \\\\<br />x_{1}-x_{2}<br />\\end{array}\\right]<br />$$<br />Find $[T]_{\\alpha}^{\\alpha}$ where $\\alpha$ is the standard basis of $\\mathbb{R}^{2}$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left[\\begin{array}{cc}1 & 1 \\\\ 1 & -1\\end{array}\\right]$</li><li> $\\left[\\begin{array}{ll}-1 & -2 \\\\ -1 & -1\\end{array}\\right]$</li> <li>$\\left[\\begin{array}{ll}1 & 1 \\\\ -1 & 1\\end{array}\\right]$</li>  <li>$\\left[\\begin{array}{ll}0 & 0 \\\\ 1 & 0\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426601",
+          "text": "Let $V$ be the subspace of $\\mathbb{R}^{4}$ defined by the equation $x_{1}+x_{2}+x_{3}+x_{4}=0$.<br />Which of the following is/are TRUE about $\\mathrm{V}$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $V$ is null space of rank-1 matrix</li><li> $\\mathrm{V}$ is null space of rank-3 matrix</li> <li>Dimension of $\\mathrm{V}$ is 3</li>  <li>Dimension of $\\mathrm{V}$ is 1</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426586",
+          "text": "Which of the following statements is/are true about a matrix $A$ for which the vector $\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right]$ is a basis for both the left null space and the null space of $A$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> The sum of the rows of $A$ is a zero vector.</li><li> The sum of the columns of $A$ is a zero vector.</li> <li>Such matrix is not possible to exist.</li>  <li>Possibly the matrix $A$ could be $A=\\left[\\begin{array}{ccc}-1 & -1 & 2 \\\\ 1 & 0 & -1 \\\\ 0 & 1 & -1\\end{array}\\right]$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426591",
+          "text": "Let $T: \\mathbb{R}^{n} \\rightarrow \\mathbb{R}^{m}$ be a linear transformation and $T(\\mathbf{x})=A \\mathbf{x}$, where $A$ is the standard matrix for $T$. Which of the following statements must be TRUE?<br />(i) $A$ is an $n \\times m$ matrix.<br />(ii) If the columns of $A$ are linearly independent, then $T$ is one-to-one.<br />(iii) If $m>n$, then $T$ is onto.<br />(iv) If $n>m$, then $T$ is one-to-one.<br />(v) If the columns of $A$ span $\\mathbb{R}^{m}$, then $T$ is onto.<br /><ol style=\"list-style-type:upper-alpha\"><li> (i), (ii), (iii), (iv), and (v)</li><li> (i), (ii), and (iii) only</li> <li>(ii) and (v) only</li>  <li>(ii), (iii), and (iv) only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426583",
+          "text": "If, for a $6 \\times 9$ matrix $\\mathrm{A}$, every solution of the homogenous equation $A \\mathbf{x}=\\mathbf{0}$ can be expressed as $r \\mathbf{v}_{\\mathbf{1}}+\\boldsymbol{s} \\mathbf{v}_{2}+t \\mathbf{v}_{3}$ for linearly independent $\\mathbf{v}_{1}, \\mathbf{v}_{2}, \\mathbf{v}_{3} \\in \\mathbb{R}^{9}$, then what can one say about existence of solutions to $\\mathbf{A x}=\\mathbf{b}$ for any $\\mathbf{b} \\in \\mathbb{R}^{6}$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> For every $\\mathbf{b} \\in \\mathbb{R}^{6}$, there is an $\\mathbf{x}$ such that $A \\mathbf{x}=\\mathbf{b}$.</li><li> For no $\\mathbf{b} \\in \\mathbb{R}^{6}$, there is an $\\mathbf{x}$ such that $A \\mathbf{x}=\\mathbf{b}$.</li> <li>There may exist some $\\mathbf{b} \\in \\mathbb{R}^{6}$ for which there is an $\\mathbf{x} \\in \\mathbb{R}^{9}$ such that $A \\mathbf{x}=\\mathbf{b}$ , but not for every $\\mathbf{b}$.</li>  <li>The existence of solutions for $A \\mathbf{x}=\\mathbf{b}$ depends on whether $\\mathbf{b}$ is in the null space of $A$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426597",
+          "text": "<p>Let $\\mathrm{P}_{i j}$ denote the change of basis matrix from Basis $\\mathrm{B}_{j}$ to $\\mathrm{B}_{i}$, and $\\left[\\mathrm{T}_{A}\\right]_{B_{k}}$ represent the linear transformation matrix with respect to basis $\\mathrm{B}_{k}$.<br>Which of the following statements accurately reflects the relationship between change of basis matrices and linear transformation matrices?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\left[\\mathrm{T}_{A}\\right]_{B_{2}}=P_{12}^{-1}\\left[\\mathrm{~T}_{A}\\right]_{B_{1}} P_{12}$</li><li>$\\left[\\mathrm{T}_{A}\\right]_{B_{3}}=P_{23}^{-1}\\left[\\mathrm{~T}_{A}\\right]_{B_{2}} P_{23}$</li><li>$\\left[\\mathrm{T}_{A}\\right]_{B_{3}}=P_{13}^{-1}\\left[\\mathrm{~T}_{A}\\right]_{B_{1}} P_{13}$</li><li>$\\left[\\mathrm{T}_{A}\\right]_{B_{1}}=P_{12}\\left[\\mathrm{~T}_{A}\\right]_{B_{2}} P_{12}^{-1}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426579",
+          "text": "Consider a vector $a \\in \\mathbb{R}^{m}$. The column space of the outer product $a b^{T}$ is:<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left\\{x \\in \\mathbb{R}^{m} \\mid x=k a, k \\in \\mathbb{R}\\right\\}$</li><li> $\\left\\{x \\in \\mathbb{R}^{m} \\mid x=k b, k \\in \\mathbb{R}\\right\\}$</li> <li>$\\left\\{x \\in \\mathbb{R}^{m} \\mid x=k a+k b, k \\in \\mathbb{R}\\right\\}$</li>  <li>$\\left\\{x \\in \\mathbb{R}^{m} \\mid x=k a+l b, k, l \\in \\mathbb{R}\\right\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426599",
+          "text": "Let $A$ and $B$ be matrices of the same size, say $m \\times n$. Consider the matrix $C$ formed by stacking $A$ on top of $B$, i.e.,<br />$$<br />C=\\left[\\begin{array}{l}<br />A \\\\<br />B<br />\\end{array}\\right]<br />$$<br />Here, $C$ is a $(2 m) \\times n$ matrix.<br />Which of the following is TRUE about the Null space of C?<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> $\\operatorname{null}(C)=\\operatorname{null}(A) \\cap$ null $(B)$</li><li> $\\operatorname{null}(C)=\\operatorname{null}(A)+\\operatorname{null}(B)$</li> <li>null $(C)=\\operatorname{null}(A+B)$</li>  <li>$\\operatorname{null}(C)=\\operatorname{null}(A) \\cup$ null(B)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426593",
+          "text": "Let $v_{1}, v_{2}, v_{3}$ form a basis $\\alpha$ for a vector space $V$ and let $T: V \\rightarrow V$ be a linear transformation<br />$$<br />\\begin{aligned}<br />& T\\left(v_{1}\\right)=v_{1}-v_{2} \\\\<br />& T\\left(v_{2}\\right)=v_{2}-v_{3} \\\\<br />& T\\left(v_{3}\\right)=v_{3}-v_{1}<br />\\end{aligned}<br />$$<br />Find $[T(v)]_{\\alpha}$ where $v=v_{1}-2 v_{2}+3 v_{3}$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left[\\begin{array}{c}0 \\\\ 2 \\\\ -4\\end{array}\\right]$</li><li> $\\left[\\begin{array}{c}-2 \\\\ -3 \\\\ 5\\end{array}\\right]$</li> <li>$\\left[\\begin{array}{c}1 \\\\ -2 \\\\ 3\\end{array}\\right]$</li>  <li>$\\left[\\begin{array}{c}4 \\\\ 0 \\\\ -1\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426588",
+          "text": "Which of the following transformations of $\\mathbf{R}^{2}$ are linear?<br /><ol style=\"list-style-type:upper-alpha\"><li> $T(\\mathbf{v})=\\left(v_{1}, v_{2}\\right)$</li><li> $T(\\mathbf{v})=\\left(\\left|v_{1}\\right|, 0\\right)$</li> <li>$T(\\mathbf{v})=\\left(3 v_{1}, v_{2}-3 v_{1}\\right)$</li>  <li>$T(\\mathbf{v})=(0,0)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_3,goclasses-testseries-2026,linear-algebra,vector-space,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "name": "GO Classes CS 2025 | Weekly Quiz 35 | Normalization | DBMS",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "431279",
+          "text": "Suppose R is a relation with attributes A1, A2, ... , A6.<br />How many superkeys R has, if the only keys are A1 and A2?",
+          "type": "Numerical",
+          "answer": "48",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq18,numerical-answers,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "431272",
+          "text": "Consider a relation with attributes $\\mathrm{R}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E})$ that satisfies the following functional dependencies:<br />$\\mathrm{AC} \\rightarrow \\mathrm{B}$<br />$\\mathrm{BD} \\rightarrow \\mathrm{C}$<br />$\\mathrm{CE} \\rightarrow \\mathrm{D}$<br />$\\mathrm{DA} \\rightarrow \\mathrm{E}$<br />$\\mathrm{EB} \\rightarrow \\mathrm{A}$<br />What is the number of keys that contain the attribute A?",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq18,numerical-answers,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "431275",
+          "text": "Suppose R is a relation with attributes A1, A2, ... , A6.<br />How many superkeys $R$ has, if the only keys are $\\{\\mathrm{A} 1, \\mathrm{~A} 2\\}$ and $\\{\\mathrm{A} 1, \\mathrm{~A} 3\\}$ ?",
+          "type": "Numerical",
+          "answer": "24",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq18,numerical-answers,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "431274",
+          "text": "<p>We say a set of attributes $X$ is closed (with respect to a given set of FD's) if $\\mathrm{X}^{+}=\\mathrm{X}$.</p><p>For which of the following set of functions dependencies does the relation $R(A, B, C, D)$ has $AB, CD$ as closed sets?</p><ol style=\"list-style-type: upper-alpha;\" start=\"1\"><li>$A&nbsp;\\rightarrow B, B&nbsp;\\rightarrow A, C&nbsp;\\rightarrow D$</li><li>$A&nbsp;\\rightarrow B, B&nbsp;\\rightarrow C, C&nbsp;\\rightarrow D, D&nbsp;\\rightarrow A$</li><li>$A&nbsp;\\rightarrow B, B&nbsp;\\rightarrow A, C&nbsp;\\rightarrow A, D&nbsp;\\rightarrow A$</li><li>$A&nbsp;\\rightarrow B, B&nbsp;\\rightarrow A, C&nbsp;\\rightarrow D, D&nbsp;\\rightarrow C$</li></ol><p> </p>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq18,goclasses,databases,one-mark,multiple-selects",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "431267",
+          "text": "<p>In a relational database relation, we say a non-empty set of attributes $\\mathrm{X}$ is closed (with respect to a given set of functional dependencies FD) if $X^{+}=X$ (where $X^{+}$is the closure of $X).$ Consider a relation with schema $\\mathrm{R}\\{\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D})$ and an unknown set of FD's.</p><p>If we are told which sets of attributes are closed, we can discover the FD's.</p><p>Assume that the only closed sets are $\\{\\mathrm{A}, \\mathrm{B}\\},\\{\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}\\}$.</p><p>Which of the following is/are true for $R?$</p><ol style=\"list-style-type:upper-alpha\"><li>The number of candidate keys is $2.$</li><li>The number of non-prime attributes is $2.$</li><li>$R$ is in $2 N F$.</li><li>$R$ is in $3 N F$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq18,goclasses,databases,two-marks,multiple-selects",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "431270",
+          "text": "<p>Let $X$ and $Y$ be sets of attributes.<br>Which of the following statements is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If a relation has no attribute that is functionally determined by all the other attributes combined, then the relation has no nontrivial FD's at all.</li><li>If $\\mathrm{X} \\subseteq \\mathrm{Y}$, then $\\mathrm{X}^+\\subseteq \\mathrm{Y}^+$ (where the closures are taken with respect to the same set of FD's)</li><li>$\\left(X^{+}\\right)^{+}=X^{+}$</li><li>If $A B \\rightarrow C$ and $A \\rightarrow C$, then $B \\rightarrow C$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq18,goclasses,databases,two-marks,multiple-selects",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "431265",
+          "text": "Consider a relation $\\mathrm{R}\\{\\mathrm{A}, \\mathrm{B}, \\mathrm{C})$ such that each attribute functionally determines the other two attributes. Relation R and its FD's have several minimal bases.<br />Which of the following is/are a minimal base (canonical cover) for FDs of R ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\mathrm{A} \\rightarrow \\mathrm{B}, \\mathrm{B} \\rightarrow \\mathrm{A}, \\mathrm{B} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{B}$</li><li> $\\mathrm{A} \\rightarrow \\mathrm{B}, \\mathrm{B} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{A}$</li> <li>$\\mathrm{A} \\rightarrow \\mathrm{C}, \\mathrm{B} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{A}, \\mathrm{C} \\rightarrow \\mathrm{B}$</li>  <li>$\\mathrm{A} \\rightarrow \\mathrm{C}, \\mathrm{B} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{A}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq18,goclasses,databases,two-marks,multiple-selects",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "431263",
+          "text": "Consider relation $R(A, B, C, D, E)$ with functional dependencies $A B \\rightarrow C, B C$ $\\rightarrow \\mathrm{D}, \\mathrm{CD} \\rightarrow \\mathrm{E}, \\mathrm{DE} \\rightarrow \\mathrm{A}$, and $\\mathrm{AE} \\rightarrow \\mathrm{B}$. If we project R onto the relation $S(A, B, C, D)$, that is, $S=\\pi_{A, B, C, D}(R)$, then certain functional dependencies must hold in S. These are the FD's that can be inferred from those of R, but that involve only the attributes of S. Note that the inference itself is not restricted only to attributes of S, just the result. Which of the following FD's holds in S?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\mathrm{AC} \\rightarrow \\mathrm{B}$</li><li> $\\mathrm{DE} \\rightarrow \\mathrm{A}$</li> <li>$\\mathrm{B} \\rightarrow \\mathrm{A}$</li>  <li>$\\mathrm{ABD} \\rightarrow \\mathrm{C}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq18,goclasses,databases,two-marks,multiple-selects",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "431268",
+          "text": "Consider a relation with schema $\\mathrm{R}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D})$ and FD's $\\mathrm{AB} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{D}$, and $\\mathrm{D} \\rightarrow \\mathrm{A}$.<br />What are all the nontrivial FD's that follow from the given FD's ? You should restrict yourself to FD's with single attributes on the right side.",
+          "type": "Numerical",
+          "answer": "14",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq18,numerical-answers,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "431277",
+          "text": "Suppose R is a relation with attributes A1, A2, ... , A6.<br />How many superkeys R has, if the only keys are $\\{\\mathrm{A} 1, \\mathrm{~A} 2\\}$ and $\\{\\mathrm{A} 3, \\mathrm{~A} 4\\}$ ?",
+          "type": "Numerical",
+          "answer": "28",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025_cs_da_wq18,numerical-answers,goclasses,databases,one-mark",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

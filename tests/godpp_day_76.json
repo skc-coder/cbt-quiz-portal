@@ -1,0 +1,70 @@
+{
+  "name": "Day 73 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "483910",
+          "text": "If Counting Sort is applied to an array of size $n=50$ with maximum element $k=200$, the minimum auxiliary array size required is (assume the array doesn't contain negative numbers) _______?",
+          "type": "Numerical",
+          "answer": "201",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 73"
+        },
+        {
+          "post_id": "483908",
+          "text": "<p>Which of the following statements is/are correct regarding the tightest upper bound of sorting an array of size $=n$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Mergesort performs $\\mathrm{O}($ nlogn $)$ swaps in worst case<br>&nbsp;</li><li>Bubblesort performs $\\mathrm{O}\\left(\\mathrm{n}^2\\right)$ swaps in worst case<br>&nbsp;</li><li>Selection sort performs $O(n)$ swaps in worst case<br>&nbsp;</li><li>Counting sort performs $\\mathrm{O}(\\mathrm{n}+\\mathrm{k})$ swaps in worst case where k is the maximum element in the array</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 73"
+        },
+        {
+          "post_id": "483904",
+          "text": "<p>For an array consisting of only a small number of unique elements, i.e., the array size can be very large but the range is limited to a very short constant, say $10$.</p><p>It means array can have numbers from $0$ to $10$ only<br><br>Which of the following sorting algorithm will outform the rests in this case</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Mergesort<br>&nbsp;</li><li>Quicksort<br>&nbsp;</li><li>Bubblesort<br>&nbsp;</li><li>Counting sort</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 73"
+        },
+        {
+          "post_id": "483902",
+          "text": "<p>To determine which of your Facebook friends were early adopters, you decide to sort them by their Facebook account ids, which are $64$-bit integers. (Recall that you are super popular, so you have very many Facebook friends.)</p><p>Which of the following algorithms will outperform the rest in this case</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Insertion Sort<br>&nbsp;</li><li>Merge Sort<br>&nbsp;</li><li>Radix Sort<br>&nbsp;</li><li>Counting Sort</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 73"
+        },
+        {
+          "post_id": "483899",
+          "text": "<p>You are tasked with sorting the purchase history of $1,000,000$ e-commerce transactions on a small IoT device with only $8$ KB of free memory. The transaction amounts are integers in the range $[1,1000]$.<br>Which sorting algorithm would be the most efficient under these constraints?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Insertion Sort<br>&nbsp;</li><li>Merge Sort<br>&nbsp;</li><li>Heap Sort<br>&nbsp;</li><li>Counting Sort</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 73"
+        }
+      ]
+    }
+  ]
+}

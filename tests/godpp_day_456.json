@@ -1,0 +1,70 @@
+{
+  "name": "Day 313 [Data Structures]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "538432",
+          "text": "<p data-start=\"598\" data-end=\"656\">Consider the following singly linked list:</p><p data-start=\"658\" data-end=\"710\">$\\texttt{12 -&gt; 18 -&gt; 25 -&gt; 31 -&gt; 44 -&gt; 57 -&gt; NULL}$</p><p data-start=\"712\" data-end=\"791\">Now, consider the following function:</p><pre data-start=\"793\" data-end=\"953\" data-rawcode=\"int Size(struct Node *list) {     int count = 0;      while (list != NULL)     {         count++;         list = list-&gt;next;     }      return count; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int Size(struct Node *list)\n{\n    int count = 0;\n\n    while (list != NULL)\n    {\n        count++;\n        list = list-&gt;next;\n    }\n\n    return count;\n}</pre><p data-start=\"955\" data-end=\"1056\">If $\\texttt{head}$ points to the first node containing $12$, what value will be returned by the function call?</p><pre data-start=\"1058\" data-end=\"1077\" data-rawcode=\"Size(head)\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">Size(head)</pre>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 313"
+        },
+        {
+          "post_id": "538424",
+          "text": "<p data-start=\"6644\" data-end=\"6983\">A singly linked list is:</p><p data-start=\"7027\" data-end=\"7075\">$\\texttt{5 -&gt; 8 -&gt; 20 -&gt; 9 -&gt; 20 -&gt; 7 -&gt; NULL}$</p><p data-start=\"7077\" data-end=\"7216\">The function $\\texttt{deleteByValue(L, val)}$ removes only the first node whose data is equal to $\\texttt{val}$. It adjusts links and frees the removed node.</p><p data-start=\"7218\" data-end=\"7232\">After calling:</p><p data-start=\"7234\" data-end=\"7264\">$\\texttt{deleteByValue(L, 20);}$</p><p data-start=\"7266\" data-end=\"7301\">what will be the final linked list?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"7303\" data-end=\"7447\">$\\texttt{5 -&gt; 8 -&gt; 9 -&gt; 20 -&gt; 7 -&gt; NULL}$<br>&nbsp;</li><li data-start=\"7303\" data-end=\"7447\">$\\texttt{5 -&gt; 8 -&gt; 9 -&gt; 7 -&gt; NULL}$<br>&nbsp;</li><li data-start=\"7303\" data-end=\"7447\">$\\texttt{8 -&gt; 20 -&gt; 9 -&gt; 20 -&gt; 7 -&gt; NULL}$<br>&nbsp;</li><li data-start=\"7303\" data-end=\"7447\">$\\texttt{5 -&gt; 8 -&gt; 20 -&gt; 9 -&gt; 7 -&gt; NULL}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 313"
+        },
+        {
+          "post_id": "538426",
+          "text": "<p data-start=\"8032\" data-end=\"8072\">A singly linked list is:</p><p data-start=\"8074\" data-end=\"8106\">$\\texttt{5 -&gt; 8 -&gt; 20 -&gt; NULL}$</p><p data-start=\"8108\" data-end=\"8195\">A new node $\\texttt{​newP}$ contains data $9$. Pointer $\\texttt{​prevP}$ points to the node containing $8$.</p><p data-start=\"8197\" data-end=\"8220\">The insertion logic is:</p><pre data-start=\"8222\" data-end=\"8276\"><code>newP-&gt;next = prevP-&gt;next;\nprevP-&gt;next = newP;</code></pre><p data-start=\"8278\" data-end=\"8323\">What will be the linked list after insertion?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"8325\" data-end=\"8454\">$\\texttt{9 -&gt; 5 -&gt; 8 -&gt; 20 -&gt; NULL}$<br>&nbsp;</li><li data-start=\"8325\" data-end=\"8454\">$\\texttt{5 -&gt; 9 -&gt; 8 -&gt; 20 -&gt; NULL}$<br>&nbsp;</li><li data-start=\"8325\" data-end=\"8454\">$\\texttt{5 -&gt; 8 -&gt; 9 -&gt; 20 -&gt; NULL}$<br>&nbsp;</li><li data-start=\"8325\" data-end=\"8454\">$\\texttt{5 -&gt; 8 -&gt; 20 -&gt; 9 -&gt; NULL}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 313"
+        },
+        {
+          "post_id": "538414",
+          "text": "<p data-start=\"493\" data-end=\"621\">For a singly linked list storing only the head pointer, which of the following operations can be done in worst-case $O(1)$ time?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"623\" data-end=\"763\">Access the $i$-th element<br>&nbsp;</li><li data-start=\"623\" data-end=\"763\">Modify the $i$-th element<br>&nbsp;</li><li data-start=\"623\" data-end=\"763\">Insert at the beginning<br>&nbsp;</li><li data-start=\"623\" data-end=\"763\">Delete the first node<br>&nbsp;</li><li data-start=\"623\" data-end=\"763\">Insert at the end</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 313"
+        },
+        {
+          "post_id": "538420",
+          "text": "<p data-start=\"662\" data-end=\"732\">A sequence of $n$ elements is implemented in two ways:</p><ol data-start=\"734\" data-end=\"879\"><li data-section-id=\"bbhtsb\" data-start=\"734\" data-end=\"802\">As a normal array with contiguous memory and no extra empty slot.<br>&nbsp;</li><li data-section-id=\"15z2j0k\" data-start=\"803\" data-end=\"879\">As a singly linked list with only a $\\texttt{head}$ pointer and no $\\texttt{tail}$ pointer.<br>&nbsp;</li></ol><p data-start=\"881\" data-end=\"945\">Which of the following statements are correct in the worst case?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"947\" data-end=\"1325\">In an array, $\\texttt{get_at(i)}$ takes $O(1)$ time.<br>&nbsp;</li><li data-start=\"947\" data-end=\"1325\">In an array, $\\texttt{insert_first(x)}$ takes $O(1)$ time.<br>&nbsp;</li><li data-start=\"947\" data-end=\"1325\">In a singly linked list, $\\texttt{get_at(i)}$ takes $O(1)$ time.<br>&nbsp;</li><li data-start=\"947\" data-end=\"1325\">In a singly linked list, $\\texttt{insert_first(x)}$ takes $O(1)$ time.<br>&nbsp;</li><li data-start=\"947\" data-end=\"1325\">In a singly linked list, $\\texttt{delete_first()}$ takes $O(1)$ time.<br>&nbsp;</li><li data-start=\"947\" data-end=\"1325\">In a singly linked list with only $\\texttt{head}$, $\\texttt{insert_last(x)}$ takes $O(1)$ time</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D;E",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 313"
+        }
+      ]
+    }
+  ]
+}

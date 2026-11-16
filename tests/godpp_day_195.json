@@ -1,0 +1,70 @@
+{
+  "name": "Day 191 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "520538",
+          "text": "<p>A lexical analyzer is designed for a new language with the following rules for token generation:</p><ol><li>$\\mathrm{KEYWORD1}:&nbsp;\\verb|if|$<br>&nbsp;</li><li>$\\mathrm{KEYWORD2}:&nbsp;\\verb|iff|$<br>&nbsp;</li><li>$\\mathrm{IDENTIFIER}: \\verb|[a-z]+|$ (One or more lowercase letters)<br>&nbsp;</li><li>$\\mathrm{OPERATOR}: \\verb|+| , \\verb|++|$</li></ol><p>The scanner follows the <strong>Longest Match Rule</strong> (Maximal Munch) and breaks ties using <strong>Rule Priority</strong> (the order listed above).</p><p>Consider the input string$: \\verb|ifffff++|$<br><br>Which of the following statement(s) is/are TRUE regarding the tokens generated?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE SCANNER GENERATES A TOTAL OF $3$ TOKENS.&nbsp;<br>&nbsp;</li><li>THE FIRST TOKEN GENERATED IS $\\verb|iff| ~\\mathrm{(KEYWORD2)}$.&nbsp;<br>&nbsp;</li><li>THE STRING IS PRE-PROCESSED INTO $\\verb|iff|$, $\\verb|ffff|$, AND $\\verb|++|$.&nbsp;<br>&nbsp;</li><li>IF THE INPUT WAS $\\verb|if+|$, THE SCANNER WOULD GENERATE $\\verb|if| ~\\mathrm{(KEYWORD1)}$ AND $\\verb|+| ~\\mathrm{(OPERATOR)}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 191"
+        },
+        {
+          "post_id": "520537",
+          "text": "<p>Consider the following arammar $G$ :$$<br>\\begin{aligned}<br>& S \\rightarrow(L) \\mid a \\\\<br>& L \\rightarrow L, S \\mid S<br>\\end{aligned}<br>$$<br>Which of the following statement(s) is/are TRUE regarding the parsing of grammar $G$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE GRAMMAR IS $\\mathrm{LR(0)}$.<br>&nbsp;</li><li>THE GRAMMAR IS $\\mathrm{LL(1)}$ AFTER ELIMINATING LEFT RECURSION.<br>&nbsp;</li><li>THE grammar is $\\mathrm{SLR(1)}$.<br>&nbsp;</li><li>THE GRAMMAR IS AN OPERATOR GRAMMAR.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 191"
+        },
+        {
+          "post_id": "520536",
+          "text": "<p>Consider a Bottom-Up parser for a grammar $G$. During the parsing of an input string $w$, the parser reaches a configuration where the stack contains the prefix $\\alpha$ and the remaining input is $a x$. If the parser decides to perform a 'Reduce' action using the production $A \\rightarrow \\beta$, which of the following must be TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$a$ IS THE FIRST SYMBOL OF $\\beta$<br>&nbsp;</li><li>THE PARSER IS GUARANTEED TO BE AN $\\operatorname{LR}(0)$ PARSER<br>&nbsp;</li><li>$\\alpha$ IS A SUFFIX OF $\\beta$<br>&nbsp;</li><li>$\\beta$ IS A SUFFIX OF $\\alpha$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 191"
+        },
+        {
+          "post_id": "520526",
+          "text": "<p>Which of the following statement(s) is/are TRUE regarding Lexical Analysis and Regular Expressions?</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>The number of states in a minimal Deterministic Finite Automaton (DFA) for the language $L=\\left\\{w \\in\\{a, b\\}^* \\mid\\right.~w&nbsp;\\text{contains 'aba' as a substring\\}}$&nbsp;is $4$.<br>&nbsp;</li><li>If a lexical analyzer is implemented using a Non-deterministic Finite Automaton (NFA), it will always be more space-efficient than a DFA implementation, but might be slower in terms of time complexity.&nbsp;<br>&nbsp;</li><li>The language $L=\\left\\{a^n b^n \\mid n \\geq 0\\right\\}$ cannot be recognized by a lexical analyzer.</li></ol><div>&nbsp;</div><div>&nbsp;</div><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>I, II, AND III<br>&nbsp;</li><li>I AND III ONLY<br>&nbsp;</li><li>II AND III ONLY<br>&nbsp;</li><li>I AND II ONLY</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 191"
+        },
+        {
+          "post_id": "520524",
+          "text": "<p>Consider the following Syntax Directed Translation (SDT) scheme where $S$ is the start symbol and $id.\\mathrm{val}$ represents the numerical value of an identifier:</p><p>$$<br>\\begin{gathered}<br>S \\rightarrow E \\quad\\{\\text { print }(E . \\text { val })\\} \\\\<br>E \\rightarrow E_1+T \\quad\\left\\{E . \\text { val }=E_1 . \\text { val }+T . \\text { val }\\right\\} \\\\<br>E \\rightarrow T \\quad\\{E . \\text { val }=T . \\text { val }\\} \\\\<br>T \\rightarrow T_1 * F \\quad\\left\\{T . \\text { val }=T_1 . \\text { val } \\times \\text { F.val }\\right\\} \\\\<br>T \\rightarrow F \\quad\\{T . \\text { val }=F . \\text { val }\\} \\\\<br>F \\rightarrow(E) \\quad\\{\\text { F.val }=\\text { E.val }\\} \\\\<br>F \\rightarrow i d \\quad\\{\\text { F.val }=i d . \\text { val }\\}<br>\\end{gathered}<br>$$</p><p><br>Which of the following statement(s) is/are TRUE regarding this SDT?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE UNDERLYING GRAMMAR IS AMBIGUOUS.<br>&nbsp;</li><li>THE ATTRIBUTES IN THIS SDD ARE ENTIRELY SYNTHESIZED.<br>&nbsp;</li><li>THE SDT CAN BE EVALUATED DURING BOTTOM-UP PARSING WITHOUT ANY MODIFICATIONS.<br>&nbsp;</li><li>FOR THE INPUT $3 + 4 * 5$, THE PRINTED VALUE WILL BE 35 IF THE OPERATORS ARE TREATED AS LEFT-ASSOCIATIVE.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 191"
+        }
+      ]
+    }
+  ]
+}

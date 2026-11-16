@@ -1,0 +1,60 @@
+{
+  "name": "Day 27 [Linear Algebra]",
+  "duration": 12,
+  "total_qs": 4,
+  "total_qs_one": 4,
+  "total_qs_two": 0,
+  "total_marks": 4,
+  "apti_num_qs": 0,
+  "technical_num_qs": 4,
+  "technical_marks": 4,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 4,
+      "marks": 4,
+      "question": [
+        {
+          "post_id": "473915",
+          "text": "<p>Given that A and B are not null sets, which of the following statements regarding probability is/are CORRECT?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P(A \\cap B)=P(A) P(B)$, if $A$ and $B$ are mutually exclusive.<br>&nbsp;</li><li>Conditional probability, $P(A \\mid B)=1$ if $B \\subseteq A$.<br>&nbsp;</li><li>$P(A \\cup B)=P(A)+P(B)$, if $A$ and $B$ are mutually exclusive.<br>&nbsp;</li><li>$P(A \\cap B)=0$, if $A$ and $B$ are independent.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B,C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 27"
+        },
+        {
+          "post_id": "473913",
+          "text": "<p>The matrix $\\left[\\begin{array}{ll}1 & a \\\\ 8 & 3\\end{array}\\right]($ where $a&gt;0)$ has a negative eigenvalue if $a$ is grater than</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{3}{8}$<br>&nbsp;</li><li>$\\frac{1}{8}$<br>&nbsp;</li><li>$\\frac{1}{4}$<br>&nbsp;</li><li>$\\frac{1}{5}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 27"
+        },
+        {
+          "post_id": "473911",
+          "text": "<p>Let the following sets of vectors be given:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>&nbsp;$\\vec{v}_1=\\left(\\begin{array}{c}1 \\\\ -1 \\\\ 1\\end{array}\\right), \\vec{v}_2=\\left(\\begin{array}{l}1 \\\\ 2 \\\\ 3\\end{array}\\right), \\vec{v}_3=\\left(\\begin{array}{l}0 \\\\ 0 \\\\ 1\\end{array}\\right)$<br>&nbsp;</li><li>$\\vec{v}_1=\\binom{1}{2}, \\vec{v}_2=\\binom{3}{1}, \\vec{v}_3=\\binom{-1}{-1}$<br>&nbsp;</li><li>$\\vec{v}_1=\\left(\\begin{array}{l}1 \\\\ 0 \\\\ 1\\end{array}\\right), \\vec{v}_2=\\left(\\begin{array}{l}0 \\\\ 1 \\\\ 0\\end{array}\\right)$</li></ol><p><br>Which of the following is correct regarding linear dependence?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>&nbsp;All three sets (a), (b), and (c) are linearly independent<br>&nbsp;</li><li>Only set (c) is linearly independent<br>&nbsp;</li><li>Sets (a) and (c) are linearly independent, but (b) is dependent<br>&nbsp;</li><li>Sets (a) and (b) are linearly dependent, but (c) is independent<br>&nbsp;</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 27"
+        },
+        {
+          "post_id": "473909",
+          "text": "<p>Which of the following statements are not true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>There is a $4 \\times 4$ matrix $A$ of rank 3 such that the system $A \\vec{x}=\\overrightarrow{0}$ has a unique solution.<br>&nbsp;</li><li>&nbsp;A system with 4 equations and 3 unknowns is always inconsistent.<br>&nbsp;</li><li>&nbsp;If the matrices $A$ and $B$ are both invertible, then $A+B$ must be invertible as well.<br>&nbsp;</li><li>If a square matrix $A$ is diagonalizable, then $A$ must have $n$ linearly independent eigenvectors.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Linear Algebra",
+          "day": "Day 27"
+        }
+      ]
+    }
+  ]
+}

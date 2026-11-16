@@ -1,0 +1,132 @@
+{
+  "name": "GO Classes CS 2025 | Weekly Quiz 3 | Propositional Logic",
+  "duration": "35",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "401313",
+          "text": "<p>Consider the following arguments.</p>\n\n<ul>\n\t<li>$\\text{Argument 1:}$ Kerry errs or Myrna fails to show. If Kerry errs, then he does not break the record. Myrna fails to show. Therefore, Kerry does break the record.</li>\n\t<li>$\\text{Argument 2:}$ If Tasha leaves, then Carol moves in. If Carol moves in, then Sam is not happy. If Sam is not happy, then Josh laughs. Sam is happy. Hence, Tasha does not leave.</li>\n</ul>\n\n<p>Which of the following is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Only Argument $1$ is valid.</li>\n\t<li>Only Argument $2$ is valid.</li>\n\t<li>Both Arguments are valid.</li>\n\t<li>No Argument is valid.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq4,goclasses,mathematical-logic,propositional-logic,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "401315",
+          "text": "<p>Let’s consider the interpretation $v$ where $v(p) = F, v(q) = T, v(r) = T.$ Which of the following propositional formulas are satisfied by $v$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$(p \\rightarrow \\neg q) \\vee \\neg(r \\wedge q)$</li>\n\t<li>$(\\neg p \\vee \\neg q) \\rightarrow (p \\vee \\neg r)$</li>\n\t<li>$\\neg(\\neg p \\rightarrow \\neg q) \\wedge r$</li>\n\t<li>$\\neg (\\neg p \\rightarrow q \\wedge \\neg r)$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq4,goclasses,mathematical-logic,propositional-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "401306",
+          "text": "<p>Let $F$ and $G$ be two propositional formula.</p>\n\n<p>Which of the following is/are True?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$F \\vee G$ is a tautology iff at least one of them is a tautology</li>\n\t<li>If $F \\rightarrow G$ is a tautology and $F$ is a tautology, then $G$ is a tautology.</li>\n\t<li>$(F \\rightarrow G) \\vee (F \\rightarrow \\neg G)$ is a tautology.</li>\n\t<li>$(F \\rightarrow G) \\wedge (F \\rightarrow \\neg G)$ is a tautology iff $F$ is a contradiction.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq4,goclasses,mathematical-logic,propositional-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "401302",
+          "text": "<p>Which of the following logical arguments is/are valid?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\begin{aligned} &amp; P \\rightarrow(Q \\rightarrow R) \\\\ &amp; \\neg R \\\\ \\therefore &amp; \\neg P \\\\ &amp; \\end{aligned}$</li>\n\t<li>$\\begin{aligned} &amp; (P \\wedge Q) \\rightarrow \\neg R \\\\ &amp; R \\rightarrow P\\\\ \\therefore &amp;&nbsp; \\neg(Q \\wedge R) \\\\ &amp; \\end{aligned}$</li>\n\t<li>$\\begin{aligned} &amp; (Q \\rightarrow P) \\vee R\\\\&amp; \\neg(R \\wedge Q)\\\\ &amp; \\therefore \\neg \\neg Q \\rightarrow P \\\\ &amp; \\end{aligned}$</li>\n\t<li>$\\begin{aligned} &amp; P \\rightarrow(Q \\vee R) \\\\ &amp; \\neg R \\\\ &amp; Q \\rightarrow \\neg(P \\wedge R) \\\\ &amp; \\therefore Q\\end{aligned}$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq4,goclasses,mathematical-logic,propositional-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "401314",
+          "text": "<p>Consider the following atomic propositions:</p>\n\n<ul>\n\t<li>$\\text{R}$: It is Raining</li>\n\t<li>$\\text{S}$: Sonu is Sick</li>\n</ul>\n\n<p>Which of the following is/are correct English Translation of the following logical expression:<br>\n$$(\\text{R} \\vee \\neg \\text{S} )\\wedge (\\neg \\text{R} \\vee&nbsp;\\text{S})?$$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>It is raining if and only if sonu is not sick</li>\n\t<li>If sonu is sick then it is raining, and vice versa</li>\n\t<li>It is raining is equivalent to sonu is sick</li>\n\t<li>It is raining or sonu is sick but not both</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq4,goclasses,mathematical-logic,propositional-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "424529",
+          "text": "<p>Which of the following compound propositions is/are a tautology?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$[p \\land (p \\rightarrow q)] \\rightarrow q$</li>\n\t<li>$[q \\land (p \\rightarrow q)] \\rightarrow p$</li>\n\t<li>$[(p \\lor q) \\land (r \\rightarrow p) \\land (r \\rightarrow q)] \\rightarrow r$</li>\n\t<li>$[(p \\lor q) \\land (p \\rightarrow r) \\land (q \\rightarrow r)] \\rightarrow r$<br>\n\t&nbsp;</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "A; D",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq4,goclasses,mathematical-logic,propositional-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "401316",
+          "text": "<p>Let $p,q$ be two atomic propositional assertions. Then which of the following is/are false?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$(p \\rightarrow q) \\vee (p \\rightarrow \\neg q)$ is a&nbsp;tautology.</li>\n\t<li>$(p \\rightarrow q) \\vee (q \\rightarrow p)$ is a&nbsp;tautology.</li>\n\t<li>$(p \\rightarrow q) \\vee (q \\rightarrow \\neg p)$ is a&nbsp;tautology.</li>\n\t<li>$(p \\rightarrow q) \\vee (\\neg q \\rightarrow \\neg p)$ is a&nbsp;tautology.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq4,goclasses,mathematical-logic,propositional-logic,multiple-selects,one-mark",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "401299",
+          "text": "<p>Which of the following statements is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>The argument form with premises $p_1, p_2, \\ldots, p_n$ and conclusion $q \\rightarrow r$ is valid iff the argument form with premises $p_1, p_2, \\ldots, p_n, r$, and conclusion $q$ is valid.</li>\n\t<li>The argument form with premises $p_1, p_2, \\ldots, p_n$ and conclusion $q \\rightarrow r$ is valid iff the argument form with premises $p_1, p_2, \\ldots ,p_n, q,$ and conclusion $r$ is valid.</li>\n\t<li>The argument form with premises $p_1, p_2, \\ldots, p_n$ and conclusion $q \\rightarrow r$ is valid iff the argument form with premises $p_1, p_2, \\ldots ,p_n, q$, and conclusion $\\sim r$ is valid.</li>\n\t<li>The argument form with premises $p_1, p_2, \\ldots, p_n$ and conclusion $q \\rightarrow r$ is valid iff the argument form with premises $p_1, p_2, \\ldots, p_n, \\sim r$, and conclusion $\\sim q$ is valid.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq4,goclasses,mathematical-logic,propositional-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "401305",
+          "text": "<p>The “implies” connective “$\\rightarrow$” is one of the stranger connectives in propositional logic. Below are a series of statements regarding implications.</p>\n\n<p>Which of the following statements is/are TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>For any propositions $P$ and $Q,$ the following is always true: $(P \\rightarrow Q) \\vee (Q \\rightarrow P).$</li>\n\t<li>For any propositions $P, Q$ and $R$, the following statement is always true: $(P\\rightarrow Q) \\vee (Q \\rightarrow R).$</li>\n\t<li>For any propositions $P, Q$ and $R$, the following statement is always true: $(P\\rightarrow Q) \\vee (\\neg P \\rightarrow R).$</li>\n\t<li>For any propositions $P, Q$&nbsp;and $R,$ the following statement is always true: $(P \\rightarrow Q) \\vee (R \\rightarrow Q)$.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq4,goclasses,mathematical-logic,propositional-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "401300",
+          "text": "<p>The Logic Problem, taken from $\\text{\"WFF'N PROOF,&nbsp;The Game of Logic\"}$ has these two assumptions:</p>\n\n<ol>\n\t<li>\"Logic is difficult or not many students like logic.\"</li>\n\t<li>\"If mathematics is easy, then logic is not difficult.\"</li>\n</ol>\n\n<p>By translating these assumptions into statements involving propositional variables and logical connectives, Find out which of the following are valid conclusions of these assumptions:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\"Mathematics is not easy, if many students like logic.\"</li>\n\t<li>\"Not many students like logic, if mathematics is not easy.\"</li>\n\t<li>\"Mathematics is not easy or logic is difficult.\"</li>\n\t<li>\"Logic is not difficult or mathematics is not easy.\"</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq4,goclasses,mathematical-logic,propositional-logic,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        }
+      ]
+    }
+  ]
+}

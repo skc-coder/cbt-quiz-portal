@@ -1,0 +1,60 @@
+{
+  "name": "Day 235 [Set Theory & Algebra]",
+  "duration": 12,
+  "total_qs": 4,
+  "total_qs_one": 4,
+  "total_qs_two": 0,
+  "total_marks": 4,
+  "apti_num_qs": 0,
+  "technical_num_qs": 4,
+  "technical_marks": 4,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 4,
+      "marks": 4,
+      "question": [
+        {
+          "post_id": "527152",
+          "text": "<p>How many of the following equalities are true?</p><ol start=\"1\" style=\"list-style-type: lower-roman;\"><li>$\\varnothing=\\{ \\}$</li><li>$\\varnothing=\\{x \\in \\mathbb{Z} \\mid 2 x=3\\}$</li><li>$\\varnothing=\\{\\{ \\}\\}$</li><li>$\\varnothing=\\left\\{x \\in \\mathbb{R} \\mid x^2+2=0\\right\\}$</li><li>$\\varnothing=\\{\\varnothing\\}$</li></ol>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 235"
+        },
+        {
+          "post_id": "527155",
+          "text": "<p>Let $A=\\{x \\mid x$ is an odd integer and $2 x+5&gt;20\\}$</p><p>Which of the following correctly describes the elements of $A$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>All odd integers greater than 7</li><li>All odd integers greater than or equal to 8</li><li>All odd positive integers greater than 7</li><li>All integers greater than 7</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 235"
+        },
+        {
+          "post_id": "527150",
+          "text": "<p>Let $A=$ the set of people who speak English, and $B=$ the set of people who speak English with an Australian accent. Which of the following correctly describes the subset relationship between $A$ and $B$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A \\subseteq B$, because everyone who speaks English speaks with an Australian accent&nbsp;</li><li>$B \\subseteq A$, because everyone who speaks English with an Australian accent also speaks English&nbsp;</li><li>$A=B$, because speaking English and speaking English with an Australian accent are the same&nbsp;</li><li>Neither $A \\subseteq B$ nor $B \\subseteq A$, because the two sets are completely disjoint</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 235"
+        },
+        {
+          "post_id": "527151",
+          "text": "<p>Let $A=$ the set of students studying discrete mathematics, and $B=$ the set of students studying data structures. Which of the following correctly describes the subset relationship between $A$ and $B$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A \\subseteq B$, because every discrete mathematics student also studies data structures&nbsp;</li><li>$B \\subseteq A$, because every data structures student also studies discrete mathematics&nbsp;</li><li>$A= B$, because discrete mathematics and data structures are the same course&nbsp;</li><li>Neither $A \\subseteq B$ nor $B \\subseteq A$, because a student can study one without the other</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 235"
+        }
+      ]
+    }
+  ]
+}

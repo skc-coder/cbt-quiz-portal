@@ -1,0 +1,70 @@
+{
+  "name": "Day 107 [Theory of Computation]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "491500",
+          "text": "<p>Consider the language $L$ of arithmetic expressions over the alphabet $\\{i d,+, *,()$,$\\} , where id$ represents any identifier or number. An example string in the language is id * (id + id) .</p><p>Which of the following Context-Free Grammars that generate $L$ is ambiguous?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\begin{aligned}<br>& E \\rightarrow E+T \\mid T \\\\<br>& T \\rightarrow T * F \\mid F \\\\<br>& F \\rightarrow(E) \\mid i d<br>\\end{aligned}$<br><br>&nbsp;</li><li>$\\begin{aligned}<br>& E \\rightarrow T E^{\\prime} \\\\<br>& E^{\\prime} \\rightarrow+T E^{\\prime} \\mid \\epsilon \\\\<br>& T \\rightarrow F T^{\\prime} \\\\<br>& T^{\\prime} \\rightarrow * F T^{\\prime} \\mid \\epsilon \\\\<br>& F \\rightarrow(E) \\mid i d<br>\\end{aligned}$<br><br>&nbsp;</li><li>$E \\rightarrow E+E|E * E|(E) \\mid i d$<br><br>&nbsp;</li><li>$E \\rightarrow E+i d|E * i d| i d$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 107"
+        },
+        {
+          "post_id": "491497",
+          "text": "Consider the language $L$ over the alphabet $\\Sigma=\\{a, b\\}$ defined as follows:<br>\n$L=\\left\\{w \\in\\{a, b\\}^* \\mid\\left(2 \\cdot n_a(w)+3 \\cdot n_b(w)\\right)\\right.$ is a multiple of 7$\\}$<br>\nwhere $n_a(w)$ is the number of occurrences of the symbol ' a ' in $w$, and $n_b(w)$ is the number of occurrences of the symbol ' $b$ ' in $w$.<br>\n<br>\nThe minimum number of states in a DFA that accepts $L$ is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 107"
+        },
+        {
+          "post_id": "491495",
+          "text": "<p>Given a language $L$ over the alphabet $\\{a, b, c\\}$, let $L^R$ denote the language of the reversal of all strings in $L$ (e.g., if $w=w_1 w_2 \\ldots w_k$, then its reversal is $w^R=w_k w_{k-1} \\ldots w_1$ ). Let $L^{+}$denote the language formed by one or more concatenations of strings from $L$, and $L^*$ denote zero or more concatenations.</p><p>Given the language $L=\\{b, c a, a c b\\}$, which of the following strings belong to the language $M=L^{+}\\left(L^R\\right)^*$ ?<br><br>1. $cacab$<br><br>2. $a c b b c a$<br><br>3. $bcacb$<br><br>4. $caacbb$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>1, 2 and 3<br>&nbsp;</li><li>1 and 4 only<br>&nbsp;</li><li>1, 2 and 4<br>&nbsp;</li><li>2 and 3 only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 107"
+        },
+        {
+          "post_id": "491492",
+          "text": "<p>If $s$ is a string over the alphabet $\\{0,1\\}^*$, let $n_x(s)$ denote the number of occurrences of a symbol $x \\in\\{0,1\\}$ in $s$. Further, let $n_{x y}(s)$ denote the number of (possibly overlapping) occurrences of the substring $x y$ in $s$, where $x, y \\in\\{0,1\\}$. For example, if $s=0010$, then $n_0(s)=3, n_1(s)=1, n_{00}(s)=1, n_{01}(s)=1$, and $n_{10}(s)=1$.</p><p>Which one of the following languages is not regular?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$L=\\left\\{s \\in\\{0,1\\}^* \\mid n_0(s) \\equiv n_{01}(s)(\\bmod 2)\\right\\}$<br>&nbsp;</li><li>$L=\\left\\{s \\in\\{0,1\\}^* \\mid\\right.$ for every prefix $s^{\\prime}$ of $\\left.s,\\left|n_0\\left(s^{\\prime}\\right)-2 \\cdot n_1\\left(s^{\\prime}\\right)\\right| \\leq 10\\right\\}$<br>&nbsp;</li><li>$L=\\left\\{s \\in\\{0,1\\}^* \\mid n_{01}(s)=n_{10}(s)\\right\\}$<br>&nbsp;</li><li>$L=\\left\\{s \\in\\{0,1\\}^* \\mid n_{00}(s)=n_{11}(s)\\right\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 107"
+        },
+        {
+          "post_id": "491490",
+          "text": "<p>Consider the following languages over their respective alphabets:</p><ul><li>$L_1=\\left\\{w \\in\\{0,1\\}^* \\mid w\\right.$ does not contain the substring 101}<br>&nbsp;</li><li>$L_2=\\left\\{a^n b^m c^{n+m} \\mid n \\geq 1, m \\geq 1\\right\\}$<br>&nbsp;</li><li>$L_3=\\left\\{a^p \\mid p\\right.$ is a prime number $\\}$</li></ul><p>Which of these languages are regular?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Only $L_1$<br>&nbsp;</li><li>Only $L_2$<br>&nbsp;</li><li>$L_1$ and $L_3$<br>&nbsp;</li><li>None of the languages are regular</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Theory of Computation",
+          "day": "Day 107"
+        }
+      ]
+    }
+  ]
+}

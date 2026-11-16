@@ -1,0 +1,352 @@
+{
+  "name": "GATE Overflow CS Test Series 2025 | Linear Algebra | Shallow Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "440875",
+          "text": "The matrix<br />$$<br />B = \\begin{bmatrix} 4 & 1 & 1 \\\\ 1 & 4 & 1 \\\\ 1 & 1 & 4 \\end{bmatrix}<br />$$<br />has three distinct eigenvalues, and one of its eigenvectors is<br />$$<br />\\begin{bmatrix} 1 \\\\ 1 \\\\ 1 \\end{bmatrix}.<br />$$<br />Which one of the following can be another eigenvector of $ B $?<br /><ol style=\"list-style-type:upper-alpha\"><li> $ \\begin{bmatrix} -1 \\\\ 1 \\\\ 1 \\end{bmatrix} $</li><li> $ \\begin{bmatrix} 1 \\\\ -1 \\\\ 1 \\end{bmatrix} $</li> <li>$ \\begin{bmatrix} 0 \\\\ -1 \\\\ 1 \\end{bmatrix} $</li>  <li>$ \\begin{bmatrix} -1 \\\\ 1 \\\\ -1 \\end{bmatrix} $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-linear-algebra-shallow-1,eigenvalues-and-eigenvectors,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440924",
+          "text": "The value of the Determinant D_4 is ______<br />$$<br />D_4 = \\begin{vmatrix}<br />x & y & z & w \\\\<br />2x & 2y & 2z & 2w \\\\<br />3x + 1 & 3y + 1 & 3z + 1 & 3w + 1 \\\\<br />4x + 2 & 4y + 2 & 4z + 2 & 4w + 2<br />\\end{vmatrix}<br />$$",
+          "type": "Numerical",
+          "answer": "0:0",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,matrix,determinant,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440905",
+          "text": "<p>Let $\\omega$ be a cube root of unity (such that $\\omega^3 = 1$ and $\\omega \\neq 1$), and let $A = [a_{ij}]$ be an $3 \\times 3$ matrix, where $a_{ij} = \\omega^{i + j}$. Then, $A^k = I$ for some integer $k$ when $k$ is equal to _______.</p><ol style=\"list-style-type:upper-alpha\"><li>2</li><li>3</li><li>4</li><li>6</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,matrix,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440920",
+          "text": "If  $\nP = \\begin{bmatrix}\n1 & 2 & 0 \\\\\n0 & 1 & 3 \\\\\n4 & 0 & 1\n\\end{bmatrix},\n$\n\nthe value of $\\text{Adj}\\; P$ is _____ \n\n(Mark all the appropriate choices)\n\nA. $\\dfrac{P^{-1}}{\\det P^{-1}}$\n\nB. $\\begin{bmatrix}\n-1 & 6 & -6 \\\\\n12 & -1 & -8 \\\\\n-6 & 3 & 1\n\\end{bmatrix}$\n\nC. $\\det(P) P^{-1}$\n\nD. $\\begin{bmatrix}\n1 & 0 & 0 \\\\\n0 & 1 & 0 \\\\\n0 & 0 & 1\n\\end{bmatrix}$",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,matrix,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440893",
+          "text": "<p>For the system of equations:<br>$$<br>x + 2y + 3z = 1$$</p><p>$$<br>2x + y + 3z = 2 $$</p><p>$$<br>5x + 5y + 9z = 4<br>$$<br>Mark all the appropriate choices:</p><ol style=\"list-style-type:upper-alpha\"><li>there is only one solution</li><li>there exist infinitely many solutions</li><li>there is no solution</li><li>$x = 0, y = -1, z = 1$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,system-of-linear-equations,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440873",
+          "text": "Which of the following matrices have an LU decomposition? (Mark all the appropriate choices)\n\nA. $\\begin{bmatrix} 2 & 3 & 5 \\\\ 6 & 13 & 23 \\\\ 4 & 10 & 19 \\end{bmatrix}$\n\nB. $\\begin{bmatrix} 1 & 3 & 5 \\\\ 2 & 6 & 10 \\\\ 3 & 9 & 14 \\end{bmatrix}$\n\nC. $\\begin{bmatrix} 1 & 4 & 7 \\\\ 2 & 5 & 8 \\\\ 3 & 6 & 9 \\end{bmatrix}$\n\nD. $\\begin{bmatrix} 2 & 3 & 1 \\\\ 4 & 6 & 3 \\\\ 1 & 2 & 0 \\end{bmatrix}$",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,lu-decomposition,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440869",
+          "text": "For the matrix  <br />$$<br />M = \\begin{bmatrix} 4 & 8 \\\\ 2 & 6 \\end{bmatrix},<br />$$<br />find the value of $ u_{22} $ in its $ LU $ decomposition, where $ L $ is a lower triangular matrix with ones on the diagonal, and $ U $ is an upper triangular matrix.",
+          "type": "Numerical",
+          "answer": "2:2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,lu-decomposition,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440885",
+          "text": "The matrix $ C = \\begin{bmatrix}<br />5 & 5 & 5 & 5 & 5 \\\\<br />5 & 5 & 5 & 5 & 5 \\\\<br />5 & 5 & 5 & 5 & 5 \\\\<br />5 & 5 & 5 & 5 & 5 \\\\<br />5 & 5 & 5 & 5 & 5<br />\\end{bmatrix} $ has eigenvalues that are _______<br /><ol style=\"list-style-type:upper-alpha\"><li> $ 0, 0, 0, 25, 0 $</li><li> $ 0, 0, 0, 5, 20 $</li> <li>$ 5, 5, 5, 5, 5 $</li>  <li>$ 10, 10, 10, 10, 10 $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-linear-algebra-shallow-1,eigen-value,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440912",
+          "text": "Which of the following is/are correct? (Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> The sum of two skew-symmetric matrices yields a skew-symmetric matrix.</li><li> If $ M $ and $ N $ are two skew-symmetric matrices such that $ MN = NM $, then the product $ MN $ is skew-symmetric.</li> <li>If matrix $ M $ is skew-symmetric, then $ M^{k} $ is also skew-symmetric for any positive integer $ k $.</li>  <li>If $ M $ is a non-singular skew-symmetric matrix, then $ M^{-1} $ is skew-symmetric.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,matrix,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440903",
+          "text": "The determinant of the matrix  <br />$$<br />C = \\begin{pmatrix}<br />2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\<br />3 & 4 & 0 & 0 & 0 & 0 & 0 & 0 \\\\<br />-1 & 1 & \\dfrac{1}{4} & 0 & 0 & 0 & 0 & 0 \\\\<br />0 & 2 & 0 & \\dfrac{1}{2} & 0 & 0 & 0 & 0 \\\\<br />0 & 0 & 4 & 0 & \\dfrac{2}{5} & 0 & 0 & 0 \\\\<br />0 & 0 & 0 & -1 & 2 & \\dfrac{5}{2} & 0 & 0 \\\\<br />0 & 1 & 0 & 0 & 0 & 3 & \\dfrac{1}{2} & 0 \\\\<br />1 & 0 & 0 & 0 & 0 & 0 & 0 & 2<br />\\end{pmatrix}<br />$$<br />is _________",
+          "type": "Numerical",
+          "answer": "1:1",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,matrix,determinant,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440901",
+          "text": "The value of\n\n\\begin{vmatrix}\ncosec^2 \\theta & \\cot^2 \\theta & 1 \\\\\n\\cot^2 \\theta & cosec^2 \\theta & -1 \\\\\n36 & 34 & 2\n\\end{vmatrix}\n$$+$$\n\\begin{vmatrix}\n\\sin \\alpha & \\cos \\alpha & \\sin(\\alpha + \\delta) \\\\\n\\sin \\beta & \\cos \\beta & \\sin(\\beta + \\delta) \\\\\n\\sin \\gamma & \\cos \\gamma & \\sin(\\gamma + \\delta)\n\\end{vmatrix}\nequals to ______________ .\n ",
+          "type": "Numerical",
+          "answer": "0:0",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,matrix,determinant,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440926",
+          "text": "Determine the rank of the following matrix: <br />$$<br />B = \\begin{bmatrix}<br />3 & 1 & 4 \\\\<br />0 & 2 & 6 \\\\<br />1 & 0 & 2 \\\\<br />2 & 3 & 8<br />\\end{bmatrix}<br />$$",
+          "type": "Numerical",
+          "answer": "3:3",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,rank-of-matrices,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440897",
+          "text": "There are two values of $ a $ which make the determinant<br />$$<br />A = \\begin{vmatrix} 1 & -2 & 5 \\\\ 2 & a & -1 \\\\ 0 & 4 & 2a \\end{vmatrix}<br />$$<br />equal to 86. The sum of these two values is<br /><ol style=\"list-style-type:upper-alpha\"><li> 4</li><li> 5</li> <li>-4</li>  <li>9</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-linear-algebra-shallow-1,matrix,determinant,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440916",
+          "text": "Let $ X $ be an $ n \\times n $ invertible, orthogonal matrix (i.e., $ X^T = X^{-1} $) such that $ X^3 = X^T $. Define $ Y = X^{-1} X^T $. Then $ Y^2 $ is equal to _____ (Mark all the appropriate choices).<br /> <br /><ol style=\"list-style-type:upper-alpha\"><li> $ I $</li><li> $ Y^{-1} $</li> <li>$ (Y^{-1})^T $</li>  <li>$ X $</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,matrix,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440907",
+          "text": "If $ E = \\begin{bmatrix}\n0 & 1 & 0\\\\\n1 & 0 & 0\\\\\n0 & 0 & 1\n\\end{bmatrix} $ is an involutory matrix, its index is _______.",
+          "type": "Numerical",
+          "answer": "2:2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,matrix,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440871",
+          "text": "P: The matrix   \n$$\nA = \\begin{bmatrix} 2 & 4 \\\\\n1 & 3 \\end{bmatrix}\n$$\nhas exactly one LU factorization, where L is a lower triangular matrix and U is an upper triangular matrix, diagonal of L(or U) consists of ones.\n\nQ: The matrix   \n$$\nB = \\begin{bmatrix} 2 & 4 \\\\\n2 & 4 \\end{bmatrix}\n$$\nhas no LU factorization where L is a lower triangular matrix and U is an upper triangular matrix.\n\nFor the given statements P and Q,\n\nA. P is true and Q is false\n\nB. Both P and Q are true\n\nC. P is false and Q is true\n\nD. Both P and Q are false",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-linear-algebra-shallow-1,lu-decomposition,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440895",
+          "text": "Let $ R $ be the following matrix:\n$$\nR = \\begin{pmatrix}\n0 & 1 & 0 & 0 \\\\\n1 & 0 & 0 & 0 \\\\\n0 & 0 & 0 & 1 \\\\\n0 & 0 & 1 & 0\n\\end{pmatrix}\n$$\nFind the determinant of $ R $.",
+          "type": "Numerical",
+          "answer": "1:1",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,matrix,determinant,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440879",
+          "text": "Given the matrix $ B = \\begin{pmatrix} 4 & 3 \\\\ 3 & 4 \\end{pmatrix}, $ which of the following are the eigenvectors of $ B $? (Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> $ \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix} \\; \\text{and} \\; \\begin{pmatrix} -3 \\\\ 0 \\end{pmatrix} $</li><li> $ \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} \\; \\text{and} \\; \\begin{pmatrix} -3 \\\\ 3 \\end{pmatrix} $</li> <li>$ \\begin{pmatrix} -1 \\\\ 0 \\end{pmatrix} \\; \\text{and} \\; \\begin{pmatrix} 0 \\\\ -3 \\end{pmatrix} $</li>  <li>$ \\begin{pmatrix} -1 \\\\ 1 \\end{pmatrix} \\; \\text{and} \\; \\begin{pmatrix} 2 \\\\ 2 \\end{pmatrix} $</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,eigenvalues-and-eigenvectors,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440899",
+          "text": "If $ a $, $ b $, $ c $ are positive and unequal, then the value of the determinant<br />$$\\mid A \\mid =\\begin{vmatrix}<br />a & b & c \\\\<br />b & c & a \\\\<br />c & a & b \\\\<br />\\end{vmatrix}<br />$$<br />is ______.<br />(Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> Always Negative</li><li> Always positive</li> <li>If a=1,b=2,c=3, $\\mid A \\mid = -18$</li>  <li>If a=1,b=2,c=3, $\\mid A \\mid = -3$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,matrix,determinant,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440909",
+          "text": "Which of the following is/are correct? (Mark all the appropriate choices) <br /><br /><ol style=\"list-style-type:upper-alpha\"><li> The product of two orthogonal matrices results in a matrix whose determinant is $ 1 $.</li><li> The inverse of an orthogonal matrix is equal to its transpose, which implies $ A^{-1} = A^T $.</li> <li>The inverse of an orthogonal matrix is equal to its adjugate.</li>  <li>If $ A $ is an orthogonal matrix, then $ A^3 $ is orthogonal.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,matrix,determinant,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440887",
+          "text": "Find the value of $ x $ that makes the matrix $A$ Hermitian.  <br />$$<br />A = \\begin{bmatrix} 3 & 2 - i & 4 \\\\ 2 + i & x & 5 \\\\ 4 & 5 & 7 \\end{bmatrix}<br />$$<br /><ol style=\"list-style-type:upper-alpha\"><li> $ 2 + i $</li><li> $ 1 - 2i $</li> <li>$ 2 - i $</li>  <li>$ 1 - 2i^2 $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-linear-algebra-shallow-1,eigen-value,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440877",
+          "text": "Let $ A = \\begin{bmatrix} 2 & 1 & 3 \\\\ 1 & 4 & 2 \\\\ 2 & 1 & 5 \\end{bmatrix} $. For what value of $ k $, the vector $ \\begin{bmatrix} k \\\\ 1 \\\\ 1 \\end{bmatrix} $ is an eigenvector of matrix $ A $? Then, calculate the value of $ k^3 + 3k + 2 $.",
+          "type": "Numerical",
+          "answer": "2:2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,eigenvalues-and-eigenvectors,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440891",
+          "text": "<p>The following system of equations given below has:<br>$$2x + 3y - z = 0$$<br>$$x - y - 2z = 0$$<br>$$3x + y + 3z = 0$$</p><ol style=\"list-style-type:upper-alpha\"><li>No Solution</li><li>Only Trivial Solution</li><li>Infinitely many non-trivial solutions</li><li>Exactly two solutions</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-linear-algebra-shallow-1,system-of-linear-equations,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440889",
+          "text": "Which of the following is/are correct? (Mark all the appropriate choices)<br /> <br /><ol style=\"list-style-type:upper-alpha\"><li> If a matrix $ A $ has an eigenvalue $ \\lambda $ with corresponding eigenvector $ x $, then for any scalar $ c $, the matrix $ A + cI $ (where $ I $ is the identity matrix) has eigenvalue $ \\lambda + c $ corresponding to the same eigenvector $ x $.</li><li> The determinant of a matrix $ A $ is the product of its eigenvalues (counted with multiplicity).</li> <li>If a matrix $ A $ is diagonalizable, then the eigenvalues of $ A $ are the entries on the diagonal of the diagonal matrix $ D $ such that $ A = PDP^{-1} $, where $ P $ is the matrix of eigenvectors.</li>  <li>If two matrices $ A $ and $ B $ are similar (i.e., $ A = PBP^{-1} $ for some invertible matrix $ P $), then $ A $ and $ B $ have the same eigenvalues.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,eigenvalues-and-eigenvectors,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440883",
+          "text": "If the eigenvalues of a $ 2 \\times 2 $ matrix $ B $ are $ 2 $ and $ 5 $, the sum of the eigenvalues of the matrices $ (B + 3I)^{-1} $ and $ (B + 7I)^2 $ is ______.",
+          "type": "Numerical",
+          "answer": "225.32:225.33",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,eigen-value,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440918",
+          "text": "Which of the following is/are correct? (Mark all the appropriate choices.)<br /><ol style=\"list-style-type:upper-alpha\"><li> The determinant of a triangular matrix is equal to the product of its diagonal entries. </li><li> The determinant of a matrix remains unchanged if a multiple of one row is added to another row. </li> <li>The determinant of a block diagonal matrix is equal to the product of the determinants of its diagonal blocks.</li>  <li>The value of the determinant remains the same if a scalar multiple of one row is added to another row, provided no rows are swapped.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,matrix,determinant,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440881",
+          "text": "Let $ B $ be a real $ 2 \\times 2 $ matrix. If $ 4 - 3i $ is an eigenvalue of $ B $, $ \\text{det}(B) = \\gamma $, and $ \\text{trace}(B) = \\delta $, then the value of $ 3\\gamma + 2\\delta $ is _______.",
+          "type": "Numerical",
+          "answer": "91:91",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,eigen-value,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440914",
+          "text": "If $ B $ is an antisymmetric matrix of order $ 4 $, what can be said about the matrix $ B^8 $? <br /><br /><ol style=\"list-style-type:upper-alpha\"><li> It is a diagonal matrix.</li><li> It remains an antisymmetric matrix.</li> <li>It transforms into a symmetric matrix.</li>  <li>None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-linear-algebra-shallow-1,matrix,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440928",
+          "text": "Consider the matrix $ B = [b_{ij}] $ defined for $ 1 \\leq i, j \\leq n $ by the formula $ b_{ij} = i + 2j $ for all $ i $ and $ j $, where $ n > 2 $. The rank of matrix $ B $ is _______.",
+          "type": "Numerical",
+          "answer": "2:2",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-linear-algebra-shallow-1,numerical-answers,rank-of-matrices,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "440922",
+          "text": "Given a matrix  <br />$$<br />G = \\frac{1}{\\sqrt{2}} \\begin{bmatrix} 1 & 1 & 0 & 0 \\\\ -1 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 1 \\\\ 0 & 0 & -1 & 1 \\end{bmatrix}<br />$$<br />if $ G^T G = I $, then $ \\det(G)^3 $ is:<br /><ol style=\"list-style-type:upper-alpha\"><li>  0</li><li>  1</li> <li> 4</li>  <li>-1</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-linear-algebra-shallow-1,matrix,one-mark",
+          "category": "Linear Algebra"
+        }
+      ]
+    }
+  ]
+}

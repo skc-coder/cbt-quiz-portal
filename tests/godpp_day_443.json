@@ -1,0 +1,70 @@
+{
+  "name": "Day 307 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "536858",
+          "text": "<p>A T flip-flop is to be converted into a D flip-flop. Which input equation should be applied to the T input?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$T=D\\oplus Q_n$<br>&nbsp;</li><li>$T=D$<br>&nbsp;</li><li>$T=DQ_n$<br>&nbsp;</li><li>$T=D+Q_n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 307"
+        },
+        {
+          "post_id": "536856",
+          "text": "<p>A D flip-flop is to be converted into a JK flip-flop. Which expression should be connected to the D input?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$D=JQ_n'+K'Q_n$<br>&nbsp;</li><li>$D=JQ_n+KQ_n'$<br>&nbsp;</li><li>$D=J+K+Q_n$<br>&nbsp;</li><li>$D=JKQ_n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 307"
+        },
+        {
+          "post_id": "536855",
+          "text": "<p>A D flip-flop is to be converted into a T flip-flop. Which input equation should be applied to the D input?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$D=T\\oplus Q_n$<br>&nbsp;</li><li>$D=TQ_n$<br>&nbsp;</li><li>$D=T+Q_n$<br>&nbsp;</li><li>$D=T'Q_n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 307"
+        },
+        {
+          "post_id": "536854",
+          "text": "<p>A JK flip-flop is to be converted into a T flip-flop. What should be the input connections for J and K?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$J=T,\\ K=T$<br>&nbsp;</li><li>$J=T,\\ K=T'$<br>&nbsp;</li><li>$J=T',\\ K=T$<br>&nbsp;</li><li>$J=0,\\ K=T$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 307"
+        },
+        {
+          "post_id": "536857",
+          "text": "<p>An SR flip-flop is to be converted into a T flip-flop. Which pair of input equations correctly makes the SR flip-flop behave like a T flip-flop?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$S=TQ_n',\\ R=TQ_n$<br>&nbsp;</li><li>$S=TQ_n,\\ R=TQ_n'$<br>&nbsp;</li><li>$S=T,\\ R=T$<br>&nbsp;</li><li>$S=T',\\ R=T$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 307"
+        }
+      ]
+    }
+  ]
+}

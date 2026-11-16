@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_79",
+  "name": "GO Classes GATE CS | Operating System | File Systems | Weekly Quiz 4",
+  "duration": "30",
+  "total_qs": "15",
+  "total_qs_one": 15,
+  "total_qs_two": 0,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "497619",
+          "text": "<p>Consider a file stored using $\\textbf{linked allocation}$.<br>The file contains $\\textbf{100 blocks}$.<br>A new block is to be inserted after the $\\mathbf{5 0}^{\\text {th }}$ block.<br>Assume the file control block (FCB) is already in memory.<br>Let the number of disk accesses required be $\\mathbf{n}$.<br><br>Which of the following is the correct value of $\\mathbf{n}$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$50$<br> </li><li>$51$<br> </li><li>$52$<br> </li><li>$100$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497605",
+          "text": "<p style=\"font-family:'Latin Modern Roman','Segoe UI',sans-serif; font-size:16px; line-height:1.7;\">A file stored using <b>linked allocation</b> contains <b>100 blocks</b>.<br>Block positions are numbered from <b>0 to 99</b>, as is standard.<br><br>We want to <b>remove the block at position 50</b>.<br>Only the <b>actual reads and writes of data blocks</b> are counted as disk accesses.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha; font-family:'Latin Modern Roman','Segoe UI',sans-serif; font-size:16px; line-height:1.7;\"><li>50</li><li>51</li><li>52</li><li>100</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497618",
+          "text": "<p>Consider a file system using $\\textbf{single-level indexed allocation}$.<br>A file has $\\textbf{100 blocks}$, and its index block is in memory.<br>To insert a block at position $50$, pointer shifting happens entirely in memory.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha\"><li>$1$<br> </li><li>$2$<br> </li><li>$100$<br> </li><li>$101$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497621",
+          "text": "<p>Consider a file system that uses $\\textbf{contiguous allocation}$.<br>A file of size $\\textbf{100 blocks}$ is already stored on disk.<br>A new block must be inserted between the $\\mathbf{5 0}^{\\text {th }}$ and $\\mathbf{5 1}^{\\text {st }}$ blocks.<br>Assume the file control block (FCB) is already in memory.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha\"><li>$50$<br> </li><li>$100$<br> </li><li>$101$<br> </li><li>$150$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497623",
+          "text": "<p>Consider a file system using $\\textbf{single-level indexed allocation}$.<br>A file consists of $\\mathbf{1 0 0}$ blocks, and its index block is already in memory.<br>To insert a new block at the beginning, the index entries must shift in memory, and the new block must be written to disk.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha\"><li>$1$<br> </li><li>$2$<br> </li><li>$100$<br> </li><li>$101$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497616",
+          "text": "<p style=\"font-family:'Latin Modern Roman','Segoe UI',sans-serif; font-size:16px; line-height:1.7;\">Consider a file stored using <b>linked allocation</b>.<br>The file currently consists of <b>100 blocks</b>.</p><p style=\"font-family:'Latin Modern Roman','Segoe UI',sans-serif; font-size:16px; line-height:1.7;\">If you want to insert a new block at the <b>end</b> of the file, how many <b>disk accesses</b> will be required?</p><ol style=\"list-style-type:upper-alpha; font-family:'Latin Modern Roman','Segoe UI',sans-serif; font-size:16px; line-height:1.7;\"><li>100</li><li>101</li><li>102</li><li>103</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497614",
+          "text": "<p>A file stored using $\\textbf{linked allocation}$ has $\\textbf{100 blocks}$.<br>We want to remove the&nbsp; $\\textbf{50}^{\\text{th}}$ block.<br>Only actual data block reads/writes count as disk accesses.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha\"><li>$50$<br> </li><li>$51$<br> </li><li>$52$<br> </li><li>$100$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497615",
+          "text": "<p>Consider a file stored contiguously with $\\textbf{100 blocks}$.<br>Removing the first block requires shifting the remaining $\\textbf{99 blocks}$ one position left.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha\"><li>$198$<br> </li><li>$199$<br> </li><li>$200$<br> </li><li>$201$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497609",
+          "text": "<p>Consider a file stored using $\\textbf{single-level indexed allocation}$.<br>The file contains $\\textbf{100 blocks}$, and the $\\textbf{index block is already in memory}$.<br>We want to $\\textbf{remove the first block}$ from the file.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha\"><li>$0$<br> </li><li>$1$<br> </li><li>$50$<br> </li><li>$100$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497603",
+          "text": "<p>A file stored using $\\textbf{linked allocation}$ contains $\\textbf{100 blocks}$.<br>We want to $\\textbf{remove the last block}$ of the file.<br>Only disk block reads/writes count as disk accesses.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha\"><li>$1$<br> </li><li>$99$<br> </li><li>$100$<br> </li><li>$101$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497617",
+          "text": "<p>Consider a file stored using $\\textbf{contiguous allocation}$.<br>The file occupies $\\textbf{100 blocks}$, and free space exists immediately after it.<br>A new block must be appended at the end.<br>The new block's data is already in memory.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha\"><li>$1$<br> </li><li>$2$<br> </li><li>$100$<br> </li><li>$101$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497612",
+          "text": "<p>Consider a file stored using $\\textbf{linked allocation}$.<br>The file consists of $\\textbf{100 blocks}$.<br>We want to $\\textbf{remove the first block}$ of the file.<br>Assume the directory entry points to the first block, and only actual block reads/writes count as disk accesses.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha\"><li>$1$<br> </li><li>$2$<br> </li><li>$100$<br> </li><li>$101$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497625",
+          "text": "<p>Consider a file system that uses $\\textbf{linked allocation}$.<br>A file containing $\\textbf{100 blocks}$ is stored on disk.<br>A new block must be inserted at the $\\textbf{beginning}$ of the file.<br>Only actual block reads/writes count as disk accesses.<br><br>Assume:</p><ul><li>The file control block (FCB) is already in memory.<br> </li><li>New block's content is already in memory.</li></ul><p>How many disk accesses (read+write) are required?</p><ol style=\"list-style-type:upper-alpha\"><li>$1$<br> </li><li>$2$<br> </li><li>$100$<br> </li><li>$101$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497607",
+          "text": "<p style=\"font-family:'Latin Modern Roman','Segoe UI',sans-serif; font-size:16px; line-height:1.7;\">A file is stored using <b>contiguous allocation</b> and occupies <b>100 blocks</b>.<br>Block positions are numbered from <b>0 to 99</b> (as usual).<br><br>We want to <b>remove the block at position 50</b>. To maintain contiguity, all blocks after it will be shifted one position to the left.<br>Only the <b>actual reads and writes of file data blocks</b> are counted as disk accesses.<br><br>How many disk accesses are required?</p><ol style=\"list-style-type:upper-alpha; font-family:'Latin Modern Roman','Segoe UI',sans-serif; font-size:16px; line-height:1.7;\"><li>49</li><li>50</li><li>98</li><li>100</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "497627",
+          "text": "<div style=\"line-height:1.7; font-size:16px;\"><p>Consider a file system that uses <b>contiguous allocation</b>.<br>A file of size <b>100 blocks</b> is already stored contiguously on disk.<br>A new block must be inserted at the <b>beginning</b> of the file, but the disk block at the start of the file is <b>not free</b>, so the file cannot remain at its current location.<br><br>Assume:</p><ul><li>The data of the new block is already in memory.</li><li>The file control block (FCB) is already in memory.</li></ul><p>Only the reads and writes of <b>actual file data blocks</b> are counted as disk accesses.<br>How many disk accesses (read + write) are required to perform this insertion?</p><ol style=\"list-style-type:upper-alpha;\"><li>100</li><li>200</li><li>201</li><li>101</li></ol></div>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq60,goclasses,operating-system,file-system,one-mark",
+          "category": "Operating System"
+        }
+      ]
+    }
+  ]
+}

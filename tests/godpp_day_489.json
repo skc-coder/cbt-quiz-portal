@@ -1,0 +1,70 @@
+{
+  "name": "Day 336 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "542156",
+          "text": "<p data-start=\"0\" data-end=\"97\">Which of the following statements are correct for a correctly synchronized bounded-buffer system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"99\" data-end=\"173\">$\\texttt{empty}$ prevents producers from inserting into a full buffer.<br>&nbsp;</li><li data-start=\"175\" data-end=\"249\">$\\texttt{full}$ prevents consumers from removing from an empty buffer.<br>&nbsp;</li><li data-start=\"251\" data-end=\"326\">$\\texttt{mutex}$ protects shared buffer data and shared buffer indices.<br>&nbsp;</li><li data-start=\"328\" data-end=\"427\" data-is-last-node=\"\" data-is-only-node=\"\">Different producers may update the same insertion index simultaneously without synchronization.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 336"
+        },
+        {
+          "post_id": "542155",
+          "text": "<p data-start=\"7791\" data-end=\"7848\">A bounded buffer has capacity $5$ and is initially empty.</p><p data-start=\"7850\" data-end=\"7870\">During an execution:</p><ul data-start=\"7872\" data-end=\"7941\"><li data-section-id=\"j12rub\" data-start=\"7872\" data-end=\"7907\">$8$ producer insertions complete.<br>&nbsp;</li><li data-section-id=\"fj613t\" data-start=\"7908\" data-end=\"7941\">$5$ consumer removals complete.</li></ul><p data-start=\"7943\" data-end=\"7980\">Assume no insertion or removal fails.</p><p data-start=\"7982\" data-end=\"8042\">What is the number of items currently present in the buffer?</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 336"
+        },
+        {
+          "post_id": "542152",
+          "text": "<p data-start=\"0\" data-end=\"62\">A producer-consumer system uses a buffer containing $N$ slots.</p><p data-start=\"64\" data-end=\"83\">The semaphores are:</p><ul data-start=\"85\" data-end=\"219\"><li data-section-id=\"1cb9ts8\" data-start=\"85\" data-end=\"129\">$\\texttt{empty}$, representing empty slots<br>&nbsp;</li><li data-section-id=\"1adus51\" data-start=\"130\" data-end=\"174\">$\\texttt{full}$, representing filled slots<br>&nbsp;</li><li data-section-id=\"79ewf1\" data-start=\"175\" data-end=\"219\">$\\texttt{mutex}$, protecting buffer access<br>&nbsp;</li></ul><p data-start=\"221\" data-end=\"288\">Which initialization is correct when the buffer is initially empty?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"290\" data-end=\"357\">$\\texttt{empty = 0}$, $\\texttt{full = N}$, $\\texttt{mutex = 1}$<br>&nbsp;</li><li data-start=\"359\" data-end=\"426\">$\\texttt{empty = N}$, $\\texttt{full = 0}$, $\\texttt{mutex = 1}$<br>&nbsp;</li><li data-start=\"428\" data-end=\"495\">$\\texttt{empty = N}$, $\\texttt{full = 1}$, $\\texttt{mutex = 0}$<br>&nbsp;</li><li data-start=\"497\" data-end=\"564\" data-is-last-node=\"\" data-is-only-node=\"\">$\\texttt{empty = 1}$, $\\texttt{full = N}$, $\\texttt{mutex = 0}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 336"
+        },
+        {
+          "post_id": "542154",
+          "text": "<p data-start=\"0\" data-end=\"20\">A producer executes:</p><p data-start=\"22\" data-end=\"45\">$\\texttt{wait(mutex);}$</p><p data-start=\"49\" data-end=\"72\">$\\texttt{wait(empty);}$</p><p data-start=\"76\" data-end=\"102\">$\\texttt{insert_item();}$</p><p data-start=\"106\" data-end=\"130\">$\\texttt{signal(full);}$</p><p data-start=\"134\" data-end=\"159\">$\\texttt{signal(mutex);}$</p><p data-start=\"163\" data-end=\"228\">A consumer must acquire $\\texttt{mutex}$ before removing an item.</p><p data-start=\"230\" data-end=\"276\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"278\" data-end=\"379\">If the buffer is full, the producer may block on $\\texttt{empty}$ while holding $\\texttt{mutex}$.<br>&nbsp;</li><li data-start=\"381\" data-end=\"458\">The consumer may be unable to acquire $\\texttt{mutex}$ to remove an item.<br>&nbsp;</li><li data-start=\"460\" data-end=\"494\">The system can enter deadlock.<br>&nbsp;</li><li data-start=\"496\" data-end=\"551\" data-is-last-node=\"\" data-is-only-node=\"\">The ordering guarantees that producers never block.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 336"
+        },
+        {
+          "post_id": "542153",
+          "text": "<p data-start=\"0\" data-end=\"83\">Which of the following is the correct order of semaphore operations for a producer?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"85\" data-end=\"210\">$\\texttt{wait(mutex)}$, $\\texttt{wait(empty)}$, insert item, $\\texttt{signal(full)}$, $\\texttt{signal(mutex)}$<br>&nbsp;</li><li data-start=\"212\" data-end=\"337\">$\\texttt{wait(empty)}$, $\\texttt{wait(mutex)}$, insert item, $\\texttt{signal(mutex)}$, $\\texttt{signal(full)}$<br>&nbsp;</li><li data-start=\"339\" data-end=\"464\">$\\texttt{wait(full)}$, $\\texttt{wait(mutex)}$, insert item, $\\texttt{signal(mutex)}$, $\\texttt{signal(empty)}$<br>&nbsp;</li><li data-start=\"466\" data-end=\"591\" data-is-last-node=\"\" data-is-only-node=\"\">$\\texttt{wait(empty)}$, insert item, $\\texttt{wait(mutex)}$, $\\texttt{signal(full)}$, $\\texttt{signal(mutex)}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 336"
+        }
+      ]
+    }
+  ]
+}

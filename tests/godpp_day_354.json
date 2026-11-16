@@ -1,0 +1,70 @@
+{
+  "name": "Day 263 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530765",
+          "text": "<p data-start=\"0\" data-end=\"194\">From a standard $52$-card deck, what is the minimum number of cards that must be dealt to guarantee that there are two cards of the same rank, with one red card and one black card?</p>",
+          "type": "Numerical",
+          "answer": "27",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 263"
+        },
+        {
+          "post_id": "530767",
+          "text": "<p data-start=\"0\" data-end=\"162\">How many $5$-digit even numbers can be formed using the digits $0$ through $9$ if all digits are distinct and the number must contain the digit $0$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"164\" data-end=\"173\">$7056$<br>&nbsp;</li><li data-start=\"175\" data-end=\"184\">$6048$<br>&nbsp;</li><li data-start=\"186\" data-end=\"195\">$3024$<br>&nbsp;</li><li data-start=\"197\" data-end=\"206\">$8064$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 263"
+        },
+        {
+          "post_id": "530771",
+          "text": "Eight couples are invited to a party. A group of exactly $10$ people is to be selected. The rule is that if a husband is selected, then his wife must also be selected. However, a wife may be selected without her husband. Also, a particular wife $W_1$ must be selected, and at least $3$ husbands must be selected. How many different groups are possible?",
+          "type": "Numerical",
+          "answer": "595",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 263"
+        },
+        {
+          "post_id": "530769",
+          "text": "<p data-start=\"0\" data-end=\"159\">Let $A$ be a sequence of $12$ distinct integers sorted in ascending order. How many distinct ordered triples of sequences $B$, $C$, and $D$ are there such that</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li data-start=\"161\" data-end=\"219\">each of $B$, $C$, and $D$ is sorted in ascending order,<br>&nbsp;</li><li data-start=\"221\" data-end=\"294\">$B$ has $5$ elements, $C$ has $4$ elements, and $D$ has $3$ elements,<br>&nbsp;</li><li data-start=\"296\" data-end=\"351\">the result of merging $B$, $C$, and $D$ gives $A$,<br>&nbsp;</li><li data-start=\"353\" data-end=\"401\">the first element of $A$ must be in $B$, and<br>&nbsp;</li><li data-start=\"403\" data-end=\"461\">no two elements of $D$ are consecutive elements of $A$</li></ol>",
+          "type": "Numerical",
+          "answer": "5880",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 263"
+        },
+        {
+          "post_id": "530763",
+          "text": "<p data-start=\"0\" data-end=\"215\">A signal generator produces the expression $(2x^2+x^{-1})^n$. In the expanded expression, the signal strength at level $x^{13}$ is equal to the signal strength at level $x^{10}$. Find the value of $n$</p>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 263"
+        }
+      ]
+    }
+  ]
+}

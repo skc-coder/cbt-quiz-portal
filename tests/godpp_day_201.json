@@ -1,0 +1,70 @@
+{
+  "name": "Day 197 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "521771",
+          "text": "<p>Consider the <strong>IEEE $\\mathbf{754}$ Single Precision $\\mathbf{(32}$-bit$\\mathbf{)}$</strong> floating-point representation of a number. The bit pattern is given in hexadecimal as:</p><p>$$<br>\\verb|0xC0A00000|<br>$$</p><p><br>What is the decimal value represented by this bit pattern?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$-5.0$<br>&nbsp;</li><li>$-1.25$<br>&nbsp;</li><li>$-2.5$<br>&nbsp;</li><li>$-10.0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 197"
+        },
+        {
+          "post_id": "521767",
+          "text": "<p>Consider a function $F(A, B, C, D)=\\sum m(0,1,2,5,8,9,10)$. Which of the following represents the <strong>minimal Sum of Products (SOP)</strong> form for the given function?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\bar{B} \\bar{D}+\\bar{B} \\bar{C}+\\bar{A} \\bar{C} D$<br>&nbsp;</li><li>$B \\bar{D}+B \\bar{C}+\\bar{A} \\bar{C} D$<br>&nbsp;</li><li>$\\bar{B} \\bar{D}+\\bar{B} \\bar{C}+\\bar{A} B D$<br>&nbsp;</li><li>$\\bar{B} \\bar{D}+B \\bar{C}+\\bar{A} \\bar{C} \\bar{D}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 197"
+        },
+        {
+          "post_id": "521776",
+          "text": "<p>Consider a logic circuit consisting of two $\\mathbf{2}$<strong>-to-</strong>$\\mathbf{4}$ decoders and one $\\mathbf{2}$<strong>-input OR gate.</strong></p><ul><li>The first decoder $\\left(D_1\\right)$ has select lines $A$ (MSB) and $B$ (LSB). Its outputs are $Y_0, Y_1, Y_2, Y_3$.<br>&nbsp;</li><li>The second decoder $(D_2)$&nbsp;has select lines $B$ (MSB) and $C$ (LSB). Its outputs are $W_0, W_1, W_2, W_3$.<br>&nbsp;</li><li>Both decoders are active-high and have their <strong>Enable</strong> $(E)$&nbsp;inputs connected to logic $\\mathbf{1}$.<br>&nbsp;</li></ul><p>The final output function $F(A, B, C)$ is obtained by feeding the output $Y_1$ from $D_1$ and $W_2$ from $D_2$ into the $\\mathbf{2}$<strong>-input OR gate.</strong></p><p>Calculate the number of <strong>minterms</strong> present in the simplified expression of $F(A, B, C)$.</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 197"
+        },
+        {
+          "post_id": "521774",
+          "text": "<p>A Boolean function $F(X, Y, Z)$ is implemented using a $\\mathbf{4}$<strong>-to-$\\mathbf{1}$ Multiplexer</strong> as shown below. The select lines $S_1$ and $S_0$ are connected to $X$ and $Y$ respectively. The inputs to the MUX are $I_0=Z, I_1=\\bar{Z}, I_2=1$, and $I_3=0$.</p><p>How many <strong>minterms</strong> are present in the canonical Sum of Products (SOP) form of the function $F(X, Y, Z)$?</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 197"
+        },
+        {
+          "post_id": "521769",
+          "text": "<p>A 3-bit synchronous counter is designed using <strong>T flip-flops.</strong> The state transitions are defined as follows: $000 \\rightarrow 001 \\rightarrow 011 \\rightarrow 111 \\rightarrow 000 \\ldots$</p><p>The unused states $(010,100,101,110)$ are \"Don't Care\" conditions. If the current state of the counter is represented as $Q_2 Q_1 Q_0$, what is the simplified Boolean expression for the input to the MSB flip-flop $(T_2)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$Q_1$<br>&nbsp;</li><li>$Q_1Q_0$<br>&nbsp;</li><li>$Q_2Q_0$<br>&nbsp;</li><li>$Q_2Q_1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 197"
+        }
+      ]
+    }
+  ]
+}

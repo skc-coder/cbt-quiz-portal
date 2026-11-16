@@ -1,0 +1,70 @@
+{
+  "name": "Day 250 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "529514",
+          "text": "<p>Ten tickets numbered $1$ to $10$ are sampled one at a time with replacement. The sampling is repeated $7$ times. Find the probability that the second largest number among the selected tickets is exactly $8$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li><p>$\\frac{(8^7-7^7)+14(8^6-7^6)}{10^7}$<br>&nbsp;</p></li><li><p>$\\frac{14(8^6-7^6)}{10^7}$<br>&nbsp;</p></li><li><p>$\\frac{8^7-7^7+14\\cdot 8^6}{10^7}$<br>&nbsp;</p></li><li><p>$\\frac{8^7-7^7}{10^7}$</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "529512",
+          "text": "<p>A college cricket squad has $11$ players consisting of $4$ batsmen, $3$ all-rounders, $3$ bowlers and $1$ wicket keeper. Four players are selected randomly. Given that the selection contains at least one batsman and at least one bowler, find the probability that it contains exactly one all-rounder.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{56}{113}$<br>&nbsp;</li><li>$\\frac{63}{113}$<br>&nbsp;</li><li>$\\frac{14}{25}$<br>&nbsp;</li><li>$\\frac{21}{37}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "529508",
+          "text": "<p>A bag contains $10$ blue marbles, $20$ green marbles, $30$ red marbles and $40$ yellow marbles. A marble is drawn from the bag, its colour is recorded, and then it is replaced in the bag. This process is repeated $4$ times. Find the probability that exactly $3$ distinct colours appear in the $4$ draws and the colour that appears twice is not yellow.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{171}{625}$<br>&nbsp;</li><li>$\\frac{189}{625}$<br>&nbsp;</li><li>$\\frac{303}{625}$<br>&nbsp;</li><li>$\\frac{81}{250}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "529506",
+          "text": "<p data-path-to-node=\"3\">A sample space has three events, $A$, $B$, and $C$. You are given the following probabilities regarding these events:</p><ul><li data-path-to-node=\"3\">$P(A') = 1/2$<br>&nbsp;</li><li data-path-to-node=\"3\">$P(B') = 2/3$<br>&nbsp;</li><li data-path-to-node=\"3\">$P(C) = 1/4$</li></ul><p data-path-to-node=\"4\">You are also given that the probability of <b data-path-to-node=\"4\" data-index-in-node=\"43\">exactly two</b> of these three events occurring is $1/4$, and the probability of all three events occurring simultaneously is $1/12$.</p><p data-path-to-node=\"5\">What is the probability that at least one of the three events occurs, $P(A \\cup B \\cup C)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-path-to-node=\"6\">$7/12$<br>&nbsp;</li><li data-path-to-node=\"6\">$5/8$<br>&nbsp;</li><li data-path-to-node=\"6\">$2/3$<br>&nbsp;</li><li data-path-to-node=\"6\">$3/4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 250"
+        },
+        {
+          "post_id": "529503",
+          "text": "<p>Let $A$ and $B$ be two events in a sample space such that $P(A' \\cap B')=\\frac{1}{6}$, $P(A \\mid B)=\\frac{3}{4}$, and $P(B \\mid A')=\\frac{2}{5}$. Find $P(A)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{11}{18}$<br>&nbsp;</li><li>$\\frac{13}{18}$<br>&nbsp;</li><li>$\\frac{5}{6}$<br>&nbsp;</li><li>$\\frac{7}{9}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 250"
+        }
+      ]
+    }
+  ]
+}

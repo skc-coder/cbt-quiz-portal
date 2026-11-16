@@ -1,0 +1,70 @@
+{
+  "name": "Day 221 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525128",
+          "text": "<p>Which of the following is the correct negation of the statement \"There exists a living person who is 150 years old\"?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>There exists a living person who is not 150 years old.</li><li>No living person is exactly 150 years old.</li><li>There exists a living person who is at most 149 years old.</li><li>Every living person is 150 years old.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 221"
+        },
+        {
+          "post_id": "525126",
+          "text": "<p>Which of the following is the correct negation of the statement \"For all positive integers n, $\\mathrm{n}+2&gt;8^{\\prime \\prime}$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>For all positive integers $n, n+2 \\leqslant 8$.</li><li>There exists a positive integer n such that $\\mathrm{n}+2&gt;8$.</li><li>There exists a positive integer n such that $\\mathrm{n}+2 \\leqslant 8$.</li><li>For no positive integer n do we have $\\mathrm{n}+2&gt;8$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 221"
+        },
+        {
+          "post_id": "525103",
+          "text": "<p>Let $\\mathrm{p}=$ \"It is below freezing\" and $\\mathrm{q}=$ \"It is snowing.\" Which of the following correctly translates: \"That it is below freezing is necessary and sufficient for it to be snowing\"?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{p} \\rightarrow \\mathrm{q}$</li><li>$\\mathrm{q} \\rightarrow \\mathrm{p}$</li><li>$p \\leftrightarrow q$</li><li>$\\mathrm{p} \\wedge \\mathrm{q}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 221"
+        },
+        {
+          "post_id": "525110",
+          "text": "<p>A formula of the form $\\mathrm{P} \\rightarrow \\mathrm{Q}$ is said to be valid (a tautology) when its antecedent P is always FALSE - this is called a vacuous truth. In the formula $\\neg(\\neg \\mathrm{A} \\rightarrow \\mathrm{B}) \\wedge \\mathrm{A} \\wedge \\mathrm{C} \\rightarrow \\mathrm{Q}$, the antecedent $\\neg(\\neg \\mathrm{A} \\rightarrow \\mathrm{B}) \\wedge \\mathrm{A} \\wedge \\mathrm{C}$ is always FALSE because:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\neg(\\neg \\mathrm{A} \\rightarrow \\mathrm{B}) \\wedge \\mathrm{A}$ is itself a contradiction for all values of A and B .</li><li>C is always FALSE.</li><li>The consequent Q is always TRUE.</li><li>$\\neg(\\neg \\mathrm{A} \\rightarrow \\mathrm{B}) \\wedge \\mathrm{A} \\wedge \\mathrm{C}$ requires $\\mathrm{A} \\wedge \\neg \\mathrm{A}$ to hold simultaneously.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 221"
+        },
+        {
+          "post_id": "525102",
+          "text": "<p>Let p = \"It is below freezing\" and q = \"It is snowing.\" Which of the following correctly translates: \"Either it is below freezing or it is snowing, but it is not snowing if it is below freezing\"?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(\\mathrm{p} \\vee \\mathrm{q}) \\wedge(\\mathrm{q} \\rightarrow \\neg \\mathrm{p})$</li><li>$(\\mathrm{p} \\vee \\mathrm{q}) \\wedge \\neg(\\mathrm{p} \\wedge \\mathrm{q})$</li><li>$(\\mathrm{p} \\vee \\mathrm{q}) \\wedge(\\mathrm{p} \\rightarrow \\neg \\mathrm{q})$</li><li>$(\\mathrm{p} \\oplus \\mathrm{q}) \\wedge(\\mathrm{p} \\rightarrow \\mathrm{q})$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 221"
+        }
+      ]
+    }
+  ]
+}

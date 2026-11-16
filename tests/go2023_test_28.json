@@ -1,0 +1,352 @@
+{
+  "name": "GATE Overflow Test Series 2023 | Mix Subjects | Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "341797",
+          "text": "<p>Evaluate $i^{2023} + i^{2022} + i^{2021} + i^{2020}$, where $i = \\sqrt{-1}.$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$0$</li>\n\t<li>$2$</li>\n\t<li>$-2i$</li>\n\t<li>$2i$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,complex-number,quantitative-aptitude",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "341803",
+          "text": "<p>Let $f:R\\rightarrow R$ be defined by $f(x)=\\dfrac{x}{4+x^{2}},x\\in R.$<br>\nThen the range of $f$ is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\:R-\\left[-\\frac{1}{4},\\frac{1}{4}\\right]$</li>\n\t<li>$\\:R-\\left[-2,2\\right]$</li>\n\t<li>$\\:(-2,2)-\\{0\\}$</li>\n\t<li>$\\:\\left[-\\frac{1}{4},\\frac{1}{4}\\right]$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,set-theory&algebra,functions",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341843",
+          "text": "<p>The $\\underline{\\text{sanctimonious}}$ priest would only believe himself.</p>\n\n<p>Which of the following does the underlined word NOT mean?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>self-righteous</li>\n\t<li>pharisaic</li>\n\t<li>older</li>\n\t<li>morally superior</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-mix-1,normal,verbal-aptitude,word-meaning",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "341825",
+          "text": "<p>Which of the following statements is VALID?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\neg \\forall x\\exists y[(x\\leq y)\\rightarrow(x+y)&lt;0]\\Longleftrightarrow \\exists x\\forall y[(x&gt;y)\\wedge(x+y)\\leq 0]$</li>\n\t<li>$\\forall x\\exists y[(x\\leq y)\\rightarrow(x+y)&lt;0]\\Longleftrightarrow \\exists x\\forall y[(x&gt;y)\\vee(x+y)\\leq 0]$</li>\n\t<li>$\\neg \\forall x\\exists y[(x\\geq y)\\rightarrow(x+y)&gt;0]\\Longleftrightarrow \\exists x\\forall y[(x&gt;y)\\wedge(x+y)\\leq 0]$</li>\n\t<li>$\\neg \\exists x \\forall y[(x&lt;y)\\rightarrow\\forall z(x&lt;z&lt;y)]\\Longleftrightarrow \\forall x \\exists y &nbsp;\\exists z [(z\\leq x&lt;y)\\vee (x&lt;y\\leq&nbsp;z)]$&nbsp;</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,first-order-logic,mathematical-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "341799",
+          "text": "<p>In the event of an emergency, the pilot was trained to $\\underline{\\text{jettison}}$ excess fuel from the aircraft.<br>\nThe underlined word is closest in meaning to:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>plummet</li>\n\t<li>whip</li>\n\t<li>abandon</li>\n\t<li>sleep</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,normal,verbal-aptitude,word-meaning",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "341811",
+          "text": "<p>Let $X$ and $Y$ be two sets containing four and three elements respectively. Then the number of subsets of the set $X\\times Y,$ each having at least four elements?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$2048$</li>\n\t<li>$4096$</li>\n\t<li>$3797$</li>\n\t<li>$3410$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,combinatory",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "341829",
+          "text": "<p>What is the solution to the following recurrence relation?</p>\n\n<ul>\n\t<li>$T(n) = 3T(n-1) + 1$</li>\n\t<li>$T(1) = 1$</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$3^{n}$</li>\n\t<li>$3^{n-1}$</li>\n\t<li>$3^{n}-1$</li>\n\t<li>$\\frac{3^{n}-1}{2}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,recurrence-relation,combinatory",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "341805",
+          "text": "If $f(x)=5x+2$ and $g(x)=3x-4$, what is the value of $a$ if $(f\\circ g^{-1}\\circ f^{-1})(a) = 4?$",
+          "type": "Numerical",
+          "answer": "-12",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-mix-1,numerical-answers,set-theory&algebra,functions,function-inverse,function-composition",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341831",
+          "text": "<p>How many permutations of the letters ABCDEFGHIJKL contain the string ACDKL?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$7!$</li>\n\t<li>$\\frac{12!}{5!}$</li>\n\t<li>$8!$</li>\n\t<li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-mix-1,combinatory",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "341817",
+          "text": "<p>You are at a party with $8$ of your friends and you order a $16$-cut pizza ($16$ identical slices). How many distributions of pizza slices are there if each person gets at least one slice of pizza?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$6435$</li>\n\t<li>$6433$</li>\n\t<li>$6437$</li>\n\t<li>$6439$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,combinatory,balls-in-bins",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "341847",
+          "text": "<p>Which of the following posets is not a boolean algebra, where $D_n$ is set of all divisors of integer $n$ and $(D_n, /)$ is partial order with division operator?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$(D_{10}, /)$</li>\n\t<li>$(D_{33}, /)$</li>\n\t<li>$(D_{30}, /)$</li>\n\t<li>$(D_{20}, /)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-mix-1,easy,boolean-algebra,partial-order",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341795",
+          "text": "<p>In what ratio must milk $A$ at $Rs.\\,21.50$ per litre be mixed with milk $B$ at $Rs.\\,32.30$ per litre, so that the mixture be worth&nbsp;$Rs. 23$ per litre?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$93:15$</li>\n\t<li>$15:93$</li>\n\t<li>$3:5$</li>\n\t<li>$9:5$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,numerical-computation,quantitative-aptitude,mixtures",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "341835",
+          "text": "<p>The following propositional statement is a<br>\n$\\ \\neg(\\neg A \\wedge B)\\leftrightarrow (A\\rightarrow B)$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Tautology</li>\n\t<li>Contradiction</li>\n\t<li>Contingent</li>\n\t<li>More than one of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-mix-1,propositional-logic,mathematical-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "341801",
+          "text": "What is the number of relations which are either symmetric or asymmetric on the set $A=\\{1,2,3,4\\}$?",
+          "type": "Numerical",
+          "answer": "1752",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-mix-1,numerical-answers,set-theory,set-theory&algebra",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341821",
+          "text": "The total number of ways in which $4$ notes of different denominations can be put into the purses of $3$ persons so that no purse is empty is ________",
+          "type": "Numerical",
+          "answer": "36",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-mix-1,numerical-answers,combinatory,balls-in-bins",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "341791",
+          "text": "The number of generators for the cyclic group of order $2020$ is ________",
+          "type": "Numerical",
+          "answer": "800",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-mix-1,numerical-answers,group-theory,set-theory&algebra,cyclic-group",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341807",
+          "text": "Let $A$ be the set consisting of the first $2020$ terms of the arithmetic progression $1,3, 5,7,9,\\ldots,$ and $B$ be the set consisting of the first $2020$ terms of the arithmetic progression $5,10,15,20,25,30,\\ldots $. The number of elements in the set $A\\cup B$ is ________",
+          "type": "Numerical",
+          "answer": "3636",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-mix-1,numerical-answers,quantitative-aptitude,arithmetic-series",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "341841",
+          "text": "If $f(x) =3x-6$, what is the value of $f(f(f^{-1}(3)))?$",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-mix-1,numerical-answers,functions,function-inverse",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341845",
+          "text": "<p>Which of the following is/are correct? (Mark all the appropriate choices)</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>In a distributive lattice, every element should have at most one complement.</li>\n\t<li>In a complemented lattice, every element should have at least one complement.</li>\n\t<li>In a boolean lattice, every element should have exactly one complement.</li>\n\t<li>In a boolean lattice, every element should have at least&nbsp;one complement.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-mix-1,lattice,multiple-selects",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341849",
+          "text": "<p>If the size (path length) of the longest chain in the following Hasse diagram is denoted by $a$ and that of the longest antichain is denoted by $b,$ then $a+b =$__________<br>\n<img alt=\"\" height=\"298\" src=\"data:image/png;base64,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\" width=\"242\"></p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-mix-1,numerical-answers,partial-order",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341837",
+          "text": "<p>In recent months, Mr. Trump and other officials in the US administration had attacked China _______&nbsp;its handling of the COVID-$19$ pandemic.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>from</li>\n\t<li>over</li>\n\t<li>of</li>\n\t<li>across</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-mix-1,prepositions,verbal-aptitude,normal",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "341793",
+          "text": "<p>The number of topological orderings possible for the following hasse diagram is _________<br>\n<img alt=\"\" height=\"313\" src=\"data:image/png;base64,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\" width=\"169\"></p>",
+          "type": "Numerical",
+          "answer": "12",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-mix-1,numerical-answers,topological-ordering,lattice,partial-order",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341809",
+          "text": "<p>Let $A=\\{a,b,c,d,e\\}$. The total number of unordered pairs of disjoint subsets of $A$ is equal to?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$3^{5}$</li>\n\t<li>$5^{3}$</li>\n\t<li>$102$</li>\n\t<li>$122$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,set-theory&algebra,set-theory",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341827",
+          "text": "<p>How many triangles can be formed by $15$ points of which $6$ are collinear?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$455$</li>\n\t<li>$445$</li>\n\t<li>$452$</li>\n\t<li>$435$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,combinatory",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "341839",
+          "text": "<p>The following propositional statement simplifies to<br>\n$\\ (\\neg P\\leftrightarrow \\neg Q)\\vee (\\neg P\\leftrightarrow Q)$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$P\\wedge Q$</li>\n\t<li>True</li>\n\t<li>$P\\rightarrow Q$</li>\n\t<li>False</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-mix-1,propositional-logic,mathematical-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "341819",
+          "text": "<p>The generating function corresponding to $4,5,7,10,14,19,25,\\dots $ is ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\frac{4}{1-x} + \\frac{x}{(1-x)^3}$</li>\n\t<li>$\\frac{2}{1-x} + \\frac{x}{(1-x)^3}$</li>\n\t<li>$\\frac{4}{1-x} + \\frac{x}{(1-x)^2}$</li>\n\t<li>$\\frac{x}{(1-x)^3}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,generating-functions,combinatory",
+          "category": "Combinatory"
+        },
+        {
+          "contents": "",
+          "post_id": "341823",
+          "text": "<p>Let the universe be a school, and let $x$ and $y$ range over<br>\nthe students of a class. Define the predicate $P(x, y)$ as<br>\n$$P(x, y) :x\\ \\text{loves}\\ y.$$<br>\nMatch the following English sentences into Quantified predicates.<br>\n$$\\begin{array}{|cl|cc|}&nbsp;\\hline<br>\n&amp; \\textbf{English sentences} &amp; &amp; \\textbf{Quantified predicates}\\\\ \\hline&nbsp;<br>\n(i)&amp; \\text{All students love some student} &amp;(1) &amp; \\forall x\\forall y &nbsp;P(x,y)\\\\ \\hline&nbsp;<br>\n(ii)&amp; \\text{There are some students who love all of the other students}&amp;(2) &amp;\\exists x\\exists y &nbsp;P(x,y) \\\\ \\hline<br>\n(iii)&amp; \\text{All students love each other}&amp; (3)&amp;\\forall x\\exists y P(x,y) \\\\ \\hline&nbsp;<br>\n(iv)&amp;\\text{There are some students who love some of the other students} &amp; (4)&amp;\\exists x\\forall y &nbsp;P(x,y)\\\\ \\hline \\end{array}$$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>i-3, ii-4, iii-1, iv-2</li>\n\t<li>i-4, ii-3, iii-1, iv-2</li>\n\t<li>i-2, ii-1, iii-4, iv-3</li>\n\t<li>i-3, ii-3, iii-1, iv-2</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,first-order-logic,mathematical-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "341815",
+          "text": "<p>Which of the following is/are correct? $(P(S)$ denotes the power set of $S)$</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>$P(\\phi) = \\{\\phi\\} $</li>\n\t<li>$P(P(\\phi)) = \\{\\phi,\\{\\phi\\}\\} $</li>\n\t<li>The power set of $\\{1,2,3,\\phi\\}$ contains $16$ elements</li>\n\t<li>All the subsets of the set $\\{\\phi,1,2\\}=\\{\\phi,\\{\\phi\\},\\{1\\},\\{2\\},\\{\\phi,1\\},\\{\\phi,2\\},\\{1,2\\},\\{\\phi,1,2\\}\\}$</li>\n\t<li>$P(P(P(\\phi)))=\\{\\phi,\\{\\phi\\},\\{\\{\\phi\\}\\}, \\{\\phi,\\{\\phi\\}\\}\\}$</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Only i, iii, v</li>\n\t<li>Only ii, iv, v</li>\n\t<li>Only i, ii, iii and iv</li>\n\t<li>All of these are correct</li>\n</ol>\n\n<p>&nbsp;</p>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-mix-1,set-theory&algebra,set-theory,power-set",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341813",
+          "text": "<p>Given the following two sets</p>\n\n<ul>\n\t<li>$A=\\{1,a^{2}-2a+3\\}$</li>\n\t<li>$B=\\{a+2,a^{2}+2,a^{2}-3\\}$</li>\n</ul>\n\n<p>If $A\\cap B=\\{6\\}, a$ is ________</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-mix-1,numerical-answers,set-theory&algebra,set-theory",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "341833",
+          "text": "<p>Read the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>If Raju spends two hours playing cricket, then he can not finish his Discrete Mathematics homework.</li>\n\t<li>If Raju finishes his Discrete Mathematics homework, then he will do well in his next test.</li>\n</ol>\n\n<p>Based on the information above, which of the following is logically correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>If Raju does not finish his Discrete Mathematics homework, then he spent two hours playing cricket.</li>\n\t<li>If Raju finishes his Discrete Mathematics homework, then he did not spend two hours playing cricket.</li>\n\t<li>If Raju does well in his next test, then he did not spend two hours playing cricket.</li>\n\t<li>If Raju does not finish his Discrete Mathematics homework, then he does not do well in his next test.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-mix-1,propositional-logic",
+          "category": "Mathematical Logic"
+        }
+      ]
+    }
+  ]
+}

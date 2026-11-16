@@ -1,0 +1,352 @@
+{
+  "name": "GATE Overflow CS Test Series 2025 | Probability | Shallow Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "435555",
+          "text": "Consider that a computer hard drive has an average lifespan of 500 days. Assuming exponential distribution, what is the absolute value of the difference in probability that it lasts more than 600 days and the probability that it lasts less than 400 days? Provide your answer rounded to two decimal points.",
+          "type": "Numerical",
+          "answer": "0.25:0.25",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,exponential-distribution,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435577",
+          "text": "<p>A biased coin is flipped \\( 7 \\) times. The probability of getting heads on any flip is \\( \\dfrac{2}{3} \\) and tails is \\( \\dfrac{1}{3} \\). If the probability of getting either <strong>all heads</strong>&nbsp;or <strong>all tails</strong>&nbsp;is \\( Y \\), then \\( 1000Y = \\) ____ (Rounded to nearest integer).</p>",
+          "type": "Numerical",
+          "answer": "59.0:59.0",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435533",
+          "text": "A bakery has $ 15 $ different types of pastries, consisting of $ 6 $ fruit pastries and $ 9 $ cream pastries. Assuming that all selections are equally likely, what is the probability that the $ 5 $ pastries chosen for the display case are all fruit pastries? (Answer Up to $ 3 $ decimal places)",
+          "type": "Numerical",
+          "answer": "0.001:0.002",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435543",
+          "text": "<p>A university has two departments: the Science Department and the Arts Department. The Science Department enrolls $70\\%$ of the total students, while the Arts Department enrolls $30\\%.$ The average pass rate for the Science Department is $90\\%,$ whereas the Arts Department has a pass rate of $80\\%.$<br>You randomly select a student who has failed their course. What is the probability that this student is from the Arts Department?</p><ol style=\"list-style-type:upper-alpha\"><li>$ \\dfrac{2}{5} $</li><li>$ \\dfrac{3}{7} $</li><li>$ \\dfrac{6}{13} $</li><li>$ \\dfrac{1}{2} $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-probability-shallow-1,conditional-probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435569",
+          "text": "Assume there are at least $ n $ different people in a room. If the probability that at least two of them have the same favorite color is greater than 15%, what is the least possible value of $ n $ given that there are 10 different colors available?<br /><ol style=\"list-style-type:upper-alpha\"><li> 2</li><li> 5</li> <li>3</li>  <li>4</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-probability-shallow-1,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435537",
+          "text": "An unbiased die is rolled repeatedly, and the outcome is recorded. What is the expected number of rolls to get a specific number, say 4, twice in a row?",
+          "type": "Numerical",
+          "answer": "42:42",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,expectation,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435575",
+          "text": "A collection contains $ 8 $ slips of paper, each marked with a letter from the word $\\text{GATE2025}$. What is the probability that if the letters are drawn in sequence with replacement, they will form the exact word $\\text{GATE2025}$? If this probability is denoted as $ Z, \\; 10000000Z = $ _____ (rounded to two decimal places).",
+          "type": "Numerical",
+          "answer": "2.38:2.39",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435565",
+          "text": "A baker keeps mixing batches of dough, intending to continue until he has produced at least one loaf of bread and at most one batch of cookies. If the probability of each batch being a loaf of bread or cookies is equal, and he can keep mixing indefinitely, what is the expected number of batches he will mix?<br /><ol style=\"list-style-type:upper-alpha\"><li> 3</li><li> 2</li> <li>6</li>  <li>5</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-probability-shallow-1,probability,expectation,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435561",
+          "text": "Suppose that on a given day, the number of emails received by a customer service desk follows a Poisson distribution with a mean of 3.2 emails per day. The probability that the customer service desk will receive at most 5 emails in a day, in percentage, is ______ (up to one decimal point).",
+          "type": "Numerical",
+          "answer": "89.5:89.5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,poisson-distribution,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435541",
+          "text": "A job recruitment agency has two types of job listings: $Remote$ and $On-Site$. Suppose that $60\\%$ of all job listings are Remote. In $15\\%$ of the Remote job listings, the phrase \"flexible hours\" is used, whereas this phrase is only used in $5\\%$ of On-Site job listings. A new job listing has just been posted, which mentions \"flexible hours\". What is the probability that it is a Remote listing? (Answer up to 2 decimal places)",
+          "type": "Numerical",
+          "answer": "0.81:0.82",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435557",
+          "text": "Assume that a random variable $ X $ is normally distributed with mean $ \\mu = 10 $ and variance $ \\sigma^2 = 25 $. The probability that $ X $ is between $ 8 $ and $ 12 $ is ____. (Rounded to 2 decimal points)<br />$$<br />\\left( \\phi(0.4) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{0.4} e^{-x^2/2}dx = 0.6554 \\right)<br />$$",
+          "type": "Numerical",
+          "answer": "0.31:0.31",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,normal-distribution,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435563",
+          "text": "A ribbon measuring 5 meters is cut into two segments by selecting a point uniformly at random along its length. What is the expected length of the longest segment (in meters)?",
+          "type": "Numerical",
+          "answer": "3.75:3.75",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,expectation,uniform-distribution,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435531",
+          "text": "A fair coin is flipped repeatedly until it lands on heads. If the total number of flips $ n $ is odd, what is the probability that $ n = 5 $?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\dfrac{3}{64}$</li><li> $\\dfrac{5}{32}$</li> <li>$\\dfrac{1}{2^5}$</li>  <li>$\\text{None of the above}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-probability-shallow-1,conditional-probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435553",
+          "text": "In a toy factory, types of toys $A,$ $B,$ $C,$ and $D$ account for $40\\%,$ $25\\%,$ $20\\%,$ and $15\\%$ of the total production, respectively. Of their output, $3\\%,$ $1\\%,$ $4\\%,$ and $2\\%$ respectively are found to be defective. If a toy is randomly selected from the production and is found to be defective, what is the probability that it was manufactured as type $D$? (Answer Rounded to 2 decimal points)",
+          "type": "Numerical",
+          "answer": "0.11:0.12",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,conditional-probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435583",
+          "text": "Which of the following statements about the Poisson distribution is/are correct? (Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> The cumulative probability for a Poisson random variable $ X $ with parameter $ \\lambda $ for at most $ k $ values is given by $ P(X \\leq k) = \\sum_{i=0}^{k} \\frac{\\lambda^i e^{-\\lambda}}{i!} $.</li><li> For a Poisson random variable with parameter $ \\lambda $, if $ \\lambda $ is a non-integer, the probabilities for all integer values of $ k $ can still be computed using $ P(X = k) = \\frac{\\lambda^k e^{-\\lambda}}{k!} $.</li> <li>If $ X $ is a Poisson random variable with parameter $ \\lambda $, then the distribution of $ X $ approaches a normal distribution as $ \\lambda $ increases.</li>  <li>A Poisson random variable can take on negative values if the rate $ \\lambda $ is negative.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,poisson-distribution,multiple-selects,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435571",
+          "text": "The expected value of the number of tails when flipping three fair coins is _____.",
+          "type": "Numerical",
+          "answer": "1.5:1.5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,probability,expectation,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435551",
+          "text": "A researcher collected two sets of data representing the growth rates of two different plant species over a month: $2.5\\%,$ $3.0\\%,$ $4.5\\%,$ and $5.0\\%$ for species $A$, and $2.0\\%,$ $2.8\\%,$ $4.0\\%,$ and $4.2\\%$ for species $B$. Let the geometric mean of the growth rates for species $A$ be $ g_1 $ and for species $B$ be $ g_2 $. Instead of calculating the geometric mean uplift $ g_u $ as $ g_1/g_2 $, the researcher computed the geometric mean of the ratios of the two species' growth rates: $ 2.5/2.0, 3.0/2.8, 4.5/4.0, $ and $ 5.0/4.2 $. The percentage deviation of the value obtained from $ g_u $ is _____ (Rounded to one decimal point).",
+          "type": "Numerical",
+          "answer": "0:0",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,geometric-mean,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435549",
+          "text": "In a series of $3$ distinct values $a < b < c$ where $a$, $b$, and $c$ are in arithmetic progression, the values of $a$ and $c$ are both increased by $100\\%$. Which of the following statements is/are TRUE? (Mark all the appropriate choices)                                                    \n\nA. The arithmetic mean increases by $66.67\\%$\n\nB. The geometric mean increases by $41.4\\%$  \n\nC. The arithmetic mean increases by $100\\%$   \n\nD. The geometric mean increases by $50\\%$",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-probability-shallow-1,probability,statistics,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435579",
+          "text": "Three dice are rolled. The probability of getting at least one die showing a number greater than 4 is ____. (Rounded to two decimal points)",
+          "type": "Numerical",
+          "answer": "0.70:0.70",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435585",
+          "text": "If each value in a dataset of 8 values is multiplied by 7, the percentage change in the standard deviation will be _________.",
+          "type": "Numerical",
+          "answer": "600:600",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,probability,statistics,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435589",
+          "text": "A company has 7 departments and 6 tasks to assign in a particular day. Assume that the tasks are assigned randomly to departments, with all possibilities for which task goes to which department equally likely. What is the probability percentage that some department gets more than 1 task?<br /><ol style=\"list-style-type:upper-alpha\"><li> more than $85\\%$<br />  </li><li> more than $95\\%$<br />  </li> <li>less than $85\\%$<br />  </li>  <li>less than $95\\%$ and more than $90\\%$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-probability-shallow-1,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435535",
+          "text": "Which of the following statements is/are TRUE? (Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> Dividing each number in a series by a constant decreases its arithmetic mean by the same constant.</li><li> Subtracting a constant from each number in a series decreases its geometric mean by the same constant.</li> <li>Adding a constant to each number in a series does not change its standard deviation.</li>  <li>Multiplying each number in a series by a negative constant reverses the order of the data points.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,statistics,mean-mode-standard-deviation,multiple-selects,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435581",
+          "text": "<p>Which of the following statements with respect to the random variable $ X $ following binomial distribution is/are correct?<br>&nbsp;&nbsp;<br>Here, $ p $ and $ n $ represent the probability of success, and the number of trials, respectively. &nbsp;<br>(Mark all the appropriate choices)</p><ol style=\"list-style-type:upper-alpha\"><li>The sum of two independent binomial random variables with different $ p $ values is also a binomial random variable &nbsp;</li><li>The expected value of $ X $ is always greater than its variance</li><li>The binomial distribution can only be used when the trials are independent. &nbsp;</li><li>For a binomial random variable $ X $, as $ n $ increases and $ p $ stays fixed, the distribution of $ X $ approaches a normal distribution (under certain conditions).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,binomial-distribution,multiple-selects,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435559",
+          "text": "Suppose the probability that a light bulb will fail during any one hour period is 0.05. The probability that a given light bulb will work for 4 consecutive hours is _____?<br /><ol style=\"list-style-type:upper-alpha\"><li> 0.90</li><li> 0.82</li> <li>0.81</li>  <li>0.80</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-probability-shallow-1,binomial-distribution,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435587",
+          "text": "Consider the following series of numbers:<br />$$ 2, 5, 17, 9, 17, 7, 11 $$<br />If $ a $ denotes the mean, $ b $ denotes the mode, and $ c $ denotes the median of these numbers, what is the value of $ 3c + b - 2a $?",
+          "type": "Numerical",
+          "answer": "24.57:24.58",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,probability,statistics,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435539",
+          "text": "<p>Two bags of weights are in a room. Bag A contains $4$ light weights (each weighing $1$ kg) and $6$ heavy weights (each weighing $5$ kg). Bag B contains $7$ light weights ($1$ kg each) and $3$ heavy weights ($5$ kg each). One of the bags is randomly chosen, and two weights are randomly picked from this bag without replacement. Both weights are light ($1$ kg each). What is the probability that the chosen bag is Bag B, given that both weights are light?</p><ol style=\"list-style-type:upper-alpha\"><li>$ \\dfrac{5}{9} $</li><li>$ \\dfrac{6}{9} $</li><li>$ \\dfrac{7}{9} $</li><li>$ \\dfrac{8}{9} $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-probability-shallow-1,conditional-probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435573",
+          "text": "A biased coin is flipped six times, and the probability of getting a head on a single flip is 0.3. What is the probability of getting exactly 4 heads in these 6 flips?<br /><ol style=\"list-style-type:upper-alpha\"><li> $ \\frac{15}{28} $</li><li> $ \\binom{6}{4} $</li> <li>$ 0.0595 $</li>  <li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-probability-shallow-1,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435545",
+          "text": "In a bag of fruit, there are $16$ pieces in total, consisting of apples and oranges. The probability that two randomly selected pieces of fruit are the same type is equal to the probability that they are of different types. Which of the following are the correct combinations for the number of apples ($a$) and grapes ($g$) in the bag? (Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> $ a = 4, g = 12 $</li><li> $ a = 10, g = 6 $</li> <li>$ a = 6, g = 10 $</li>  <li>$ a = 12, g = 4 $</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,probability,multiple-selects,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435567",
+          "text": "If you randomly select four points along the circumference of a unit circle, creating four distinct arcs, what is the expected length of the arc that includes the point $(0, 1)$?<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> $\\dfrac{2\\pi}{5}$<br />  </li><li> $\\dfrac{3\\pi}{2}$<br />  </li> <li>$\\pi$<br />  </li>  <li>$\\dfrac{4\\pi}{5}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-probability-shallow-1,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "435547",
+          "text": "A factory has two production lines: Line 1 and Line 2. Line 1 produces $60\\%$ of the factory's total widgets, while Line 2 produces $40\\%.$ Line 1 has a defect rate of $5\\%,$ whereas Line 2 has a defect rate of $10%\\.$ A quality inspector randomly selects a widget from the factory's total production. After testing, the inspector finds that the selected widget is defective.\nGiven that the widget is defective, what is the probability that it was produced by Line 1?",
+          "type": "Numerical",
+          "answer": "0.42:0.43",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-probability-shallow-1,numerical-answers,conditional-probability,two-marks",
+          "category": "Probability"
+        }
+      ]
+    }
+  ]
+}

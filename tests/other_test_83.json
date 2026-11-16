@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 CN2: Network Layer",
+  "duration": "72",
+  "total_qs": "20",
+  "total_qs_one": 0,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "258414",
+          "text": "<p>Consider the network of shown below. Distance vector routing is used, and the following vectors have just come in to router C: from B: $(5, 0, 8, 12, 6, 2)$; from D: $(16, 12, 6, 0, 9, 10)$; and from E: $(7, 6, 3, 9, 0, 4)$. The cost of the links from C to B, D, and E, are $6$, $3$, and $5$, respectively. What is C’s new routing table? Give both the outgoing line to use and the cost.</p>\n\n<p><img alt=\"temp\" height=\"206\" src=\"http://forum.thegatebook.in/uploads/default/original/2X/8/8f06d18779871a8fe17c75d5128f27114607ab26.png\" width=\"248\"></p>\n\n<p>&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$(3, 6, 0, 3, 5, 8)$ and the out going lines are (B, B, –, D, E, B)</li>\n    <li>$(2, 6, 0, 3, 5, 8)$ and the out going lines are (B, B, –, D, E, B)</li>\n    <li>$(11, 6, 0, 3, 5, 8)$ and the out going lines are (A, B, –, D, E, B)</li>\n    <li>$(11, 6, 0, 3, 5, 8)$ and the out going lines are (B, B, –, D, E, B)</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,distance-vector-routing,routing",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258413",
+          "text": "<p>A datagram network allows routers to drop packets whenever they need to. The probability of a router discarding a packet is p. Consider the case of a source host connected to the source router, which is connected to the destination router, and then to the destination host. If either of the routers discards a packet, the source host eventually times out and tries again. If both host-router and router-router lines are counted as hops, what is the mean number of hops a packet makes per transmission?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$p^2-3p+3$</li>\n    <li>$p^2+3$</li>\n    <li>$3p+3$</li>\n    <li>$p+3$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,network-layer,routing",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258412",
+          "text": "A token bucket scheme is used for traffic shaping. A new token is put into the bucket every $5$ μsec. Each token is good for one short packet, which contains $48$ bytes of data. The maximum sustainable data rate is _____  $\\times 10^5$ bps ?",
+          "type": "Numerical",
+          "answer": "768",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cn2,computer-networks,numerical-answers,congestion-control,token-bucket",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258411",
+          "text": "<p>A computer on a $6$-Mbps network is regulated by a token bucket. The token bucket is filled at a rate of $1$ Mbps. It is initially filled to capacity with $8$ megabits. How long can the computer transmit at the full $6$ Mbps?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1.6$ sec</li>\n    <li>$2.3$ sec</li>\n    <li>$3.4$ sec</li>\n    <li>$4.5$ sec</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,traffic-shapping-techniques,token-bucket,transport-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258410",
+          "text": "<p>Suppose that host A is connected to a router R1, R1 is connected to another router R2, and R2 is connected to host B. Suppose that a TCP message that contains $900$ bytes of data and $20$ bytes of TCP header is passed to the IP code at host A for delivery to B. Assume that link A-R1 can support a maximum frame size of $1024$ bytes including a $14$-byte frame header, link R1-R2 can support a maximum frame size of $512$ bytes, including an $8$-byte frame header, and link R2-B can support a maximum frame size of $512$ bytes including a $12$-byte frame header. The sum of length field values of all packets which are received at B related to this message?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$900$</li>\n    <li>$940$</li>\n    <li>$920$</li>\n    <li>$960$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,routing",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258409",
+          "text": "<p>A router is emitting out IP packets whose total length (data plus header) is $1024$ bytes.Assuming that packets live for $10$ sec, what is the maximum line speed the router can operate at without danger of cycling through the IP datagram identification number space?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$53.6$ Mbps</li>\n    <li>$3.5$&nbsp;Tbps</li>\n    <li>$5.36$ Mbps</li>\n    <li>$35$&nbsp;Tbps</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,network-layering,ip-packet",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258408",
+          "text": "<p>Which of the following statement is FALSE about IP protocol ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>If an IP datagram using the strict source routing option has to be fragmented then the option is copied into each fragment</li>\n    <li>Routers reassemble IP fragments if the next link can handle the full datagram</li>\n    <li>IPv6 communication across IPv4 networks uses tunneling</li>\n    <li>TTL field can be initialized by other protocols</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,network-layering",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258407",
+          "text": "<p>Suppose that instead of using $16$ bits for the network part of a class B address originally, $20$ bits had been used. How many class B networks would there have been?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$262144$</li>\n    <li>$262142$</li>\n    <li>$1048756$</li>\n    <li>$1048754$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,ip-addressing,network-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258406",
+          "text": "<p>A network on the Internet has a subnet mask of $255.255.240.0$. What is the maximum number of hosts it can handle?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$8190$</li>\n    <li>$4094$</li>\n    <li>$8192$</li>\n    <li>$4096$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,subnetting,network-layer,ip-addressing",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258405",
+          "text": "<p>A router has the following (CIDR) entries in its routing table:</p>\n\n<p><strong>Address/mask</strong> <strong>Next hop</strong></p>\n\n<p>$135.46.56.0/22$ Interface 0</p>\n\n<p>$135.46.60.0/22$ Interface 1</p>\n\n<p>$192.53.40.0/23$ Router 1</p>\n\n<p>default Router 2</p>\n\n<p>For each of the following IP addresses, the packets are routed to following interfaces respectively ?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>$135.46.63.10$</li>\n    <li>$135.46.57.14$</li>\n    <li>$135.46.52.2$</li>\n    <li>$192.53.40.7$</li>\n    <li>$192.53.56.7$</li>\n</ol>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Interface 1, Interface 0, Router 1, Router 1, Router 2</li>\n    <li>Interface 0, Interface 1, Router 2, Router 1, Router 2</li>\n    <li>Interface 1, Interface 0, Router&nbsp;2, Router 1, Router 2</li>\n    <li>Interface 1, Interface 1, Interface 2, Router 1, Router 2</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,ip-addressing,routing,network-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258404",
+          "text": "<p>$IPv6$ uses $16$-byte addresses. If a block of $1$ million addresses is allocated every picosecond, how long will the addresses last?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>$10^{13}$ years</li>\n    <li>$10^{14}$ years</li>\n    <li>$10^{15}$ years</li>\n    <li>$10^{16}$ years</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,ipv6,network-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258403",
+          "text": "<p>Consider sending a $2400$-byte datagram into a link that has an MTU of $700$ bytes. Suppose the original datagram is stamped with the identification number $422$. How many fragments are generated?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2$</li>\n    <li>$3$</li>\n    <li>$4$</li>\n    <li>$5$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,fragmentation,network-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258402",
+          "text": "The number of addresses in a range, if the first address is $146.102.29.0$ and the last address is $146.102.32.255$ is ___",
+          "type": "Numerical",
+          "answer": "1024",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cn2,computer-networks,ip-addressing,numerical-answers,network-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258401",
+          "text": "<p>Which of the following cannot be a mask in CIDR?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$255.224.0.0$</li>\n    <li>$255.192.0.0$</li>\n    <li>$255.255.255.6$</li>\n    <li>$255.0.0.0$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,ip-addressing,network-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258400",
+          "text": "<p>A block of addresses is granted to a small organization. We know that one of the addresses is $205.16.37.39/28$. Which of the following address can not be part of that organization?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$205.16.37.37$</li>\n    <li>$205.16.37.47$</li>\n    <li>$205.16.37.52$</li>\n    <li>$205. 16.37. 43$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,ip-addressing,network-layer",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258399",
+          "text": "<p>A host is sending $100$&nbsp;datagrams each of size $100$ bytes to another host. If the identification number of the first datagram is $1024$, what is the identification number of the last?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1124$</li>\n    <li>$11023$</li>\n    <li>$11024$</li>\n    <li>$1123$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,ip-packet",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258398",
+          "text": "<p>An IP fragment has arrived with an offset value of $100$. How many bytes of data were originally sent by the source before the data in this fragment?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$100$</li>\n    <li>$800$</li>\n    <li>$400$</li>\n    <li>$200$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,fragmentation,ip-packet",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258397",
+          "text": "<p>In an IPv4 datagram, the value of the header-length (HLEN) field is $(6)_{16}.$ How many bytes of options have been added to the packet?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$4$ bytes</li>\n    <li>$24$ bytes</li>\n    <li>$2$ bytes</li>\n    <li>$1$ byte</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,ip-packet,ipv4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258396",
+          "text": "<p>Which of the following value can not be a valid value to keep in header-length(HLEN) field ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$4$</li>\n    <li>$5$</li>\n    <li>$10$</li>\n    <li>$15$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,ip-packet",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "258395",
+          "text": "<p>An IP datagram has arrived with the following partial information in the header (in hexadecimal): $^{**}45000054 \\: 00030000 \\: 2006 \\dots ^{**}$&nbsp;How many more routers can the packet travel to?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$32$</li>\n    <li>$64$</li>\n    <li>$0$</li>\n    <li>$5$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn2,computer-networks,ip-packet,routing",
+          "category": "Computer Networks"
+        }
+      ]
+    }
+  ]
+}

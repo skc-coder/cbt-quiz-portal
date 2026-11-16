@@ -1,0 +1,70 @@
+{
+  "name": "Day 222 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525314",
+          "text": "<p>Consider the following matrix:&nbsp;$$A = \\begin{bmatrix} 1.5&0 &1 \\\\ -0.5 & 0.5& -0.5\\\\ -0.5& 0 & 0 \\end{bmatrix}$$</p><p>The eigen values of the above matrix are:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$-0.5,&nbsp; ~0.5, ~1.5$<br>&nbsp;</li><li>$0.5, ~0.5, ~1$<br>&nbsp;</li><li>$1.75, ~-1, ~0.5$<br>&nbsp;</li><li>$-0.5,&nbsp; ~0.5, ~-1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 222"
+        },
+        {
+          "post_id": "525319",
+          "text": "Consider a matrix $A=\\begin{bmatrix} a&a^{2} &a^{3}-1 \\\\ b& b^{2} &b^{3}-1 \\\\ c& c^{2}&c^{3}-1 \\end{bmatrix}$<br>\n&nbsp;<br>\n<br>\nif $|A|=0$, then the value of $abc$ is _______________.",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 222"
+        },
+        {
+          "post_id": "525302",
+          "text": "<p>A matrix $M$ has Eigen values $1$ & $4$ with Eigen vectors $\\begin{pmatrix} 1\\\\ -1 \\end{pmatrix}$ and $\\begin{pmatrix} 2\\\\ 1 \\end{pmatrix}$ respectively. The matrix $M$ is ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\left(\\begin{array}{ll}2 & 1 \\\\ 1 & 2\\end{array}\\right)$<br><br>&nbsp;</li><li>$\\left(\\begin{array}{cc}3 & 2&nbsp;\\\\ 1 & 2\\end{array}\\right)$<br><br>&nbsp;</li><li>$\\left(\\begin{array}{cc}2 & 2 \\\\ -1 & 3\\end{array}\\right)$<br><br>&nbsp;</li><li>$\\left(\\begin{array}{cc}3 & 2 \\\\ -2 & 1\\end{array}\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 222"
+        },
+        {
+          "post_id": "525308",
+          "text": "Let $A$ be a $3 \\times 3$ matrix with integer entries such that $|A| =1$. What is the maximum possible number of entries of $A$ that are even?",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 222"
+        },
+        {
+          "post_id": "525322",
+          "text": "<p>If rank of a $3 \\times 4$ matrix $A$ is $2$ and $P$ is a non-singular matrix of order $4$ then rank of the matrix $AP$ is $\\_\\_\\_\\_$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2$<br>&nbsp;</li><li>$&lt;2$<br>&nbsp;</li><li>$\\leq 2$<br>&nbsp;</li><li>$&gt;2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 222"
+        }
+      ]
+    }
+  ]
+}

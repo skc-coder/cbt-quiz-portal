@@ -1,0 +1,70 @@
+{
+  "name": "Day 178 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "513435",
+          "text": "<p>A system uses demand paging with the following parameters:</p><ul><li>Page size $=4 \\mathrm{~KB}$<br>&nbsp;</li><li>Main memory size $=64 \\mathrm{~KB}$<br>&nbsp;</li><li>Replacement policy $=$ LRU<br>&nbsp;</li><li>Initially, memory is empty<br>&nbsp;</li></ul><p>A process generates the following<strong> page reference string</strong> (page numbers):</p><p>$$<br>1,2,3,4,1,2,5,1,2,3,4,5<br>$$</p><p><br>What is the <strong>total number of page faults?</strong></p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 178"
+        },
+        {
+          "post_id": "513430",
+          "text": "<p>A system uses a $48$-bit virtual address space and a page size of $4$ KB . The page table is single-level and stored in main memory. The Page Table Entry size is $8$ bytes.<br>The system has a TLB with $128$ entries, and each TLB lookup takes $1$ cycle. Memory access time is $100$ cycles.<br><br>Assume:</p><ul><li>TLB hit ratio $=95 \\%$<br>&nbsp;</li><li>Page table is always resident in memory<br>&nbsp;</li><li>No page faults occur<br>&nbsp;</li></ul><p>What is the <strong>effective memory access time (in cycles)</strong> for this system?</p>",
+          "type": "Numerical",
+          "answer": "106",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 178"
+        },
+        {
+          "post_id": "513428",
+          "text": "<p>A system uses a $32$-bit virtual address space with a page size of $8$ KB. The system employs a <strong>Two-Level Paging</strong> scheme. The Page Table Entry (PTE) size at both levels is $4$ bytes.</p><p>To optimize space, the inner page tables are only allocated when needed. If a process currently has a total of $16$ MB of its virtual address space mapped to physical memory, and this $16$ MB is stored in one <strong>contiguous</strong> block of virtual addresses, what is the total size (in KB) of the page tables (outer + inner) required for this process?</p><p>Assuming that process creates an outer table page upon process creation</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$12$ KB<br>&nbsp;</li><li>$16$ KB<br>&nbsp;</li><li>$20$ KB<br>&nbsp;</li><li>$24$ KB</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 178"
+        },
+        {
+          "post_id": "513426",
+          "text": "<p>Consider a system with a single processor and three processes $P 1, P 2$, and $P 3$ that arrive at time $t=0$. The burst times are $10$,$20$, and $30$ units, respectively. The system uses a <strong>Non-Preemptive Priority Scheduling</strong> algorithm.</p><p>Each process $P i$ has a priority $P r_i$ calculated by the following formula, where $W_i$ is the time the process has been waiting in the ready queue:</p><p>$$<br>P r_i=\\frac{W_i+\\text { Burst Time }_i}{\\text { Burst Time }_i}<br>$$</p><p><br>The process with the <strong>HIGHEST </strong>$P r_i$ value is selected to run. If there is a tie, the process with the lowest ID (e.g., $P 1&lt;P 2$ ) is chosen.</p><p>What is the average waiting time for these three processes?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10.0$ UNITS<br>&nbsp;</li><li>$13.33$ UNITS<br>&nbsp;</li><li>$20.0$ UNITS<br>&nbsp;</li><li>$23.33$ UNITS</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 178"
+        },
+        {
+          "post_id": "513433",
+          "text": "<p>A disk has cylinders numbered from $0$ to $4999$. The disk arm is currently at cylinder $2150$ and moving towards higher-numbered cylinders.</p><p>The pending disk I/O request queue is:</p><p>$$<br>1800,2300,150,3200,4100,2000,4900<br>$$</p><p><br>Assume the <strong>SCAN (Elevator) disk scheduling algorithm</strong> is used.</p><p>What is the<strong> total number of cylinders moved</strong> by the disk arm to service all requests?</p>",
+          "type": "Numerical",
+          "answer": "7698",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 178"
+        }
+      ]
+    }
+  ]
+}

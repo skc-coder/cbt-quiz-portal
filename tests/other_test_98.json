@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 DM5: Graph Theory",
+  "duration": "36",
+  "total_qs": "20",
+  "total_qs_one": 20,
+  "total_qs_two": 0,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "259236",
+          "text": "<p>A graph is called hamiltonian if it has hamiltonian cycle.</p>\n\n<p><img alt=\"\" src=\"data:image/png;base64,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\"></p>\n\n<p>Which of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$G$ is Eulerian Hamiltonian but not bipaartite</li>\n    <li>$G$ is Hamiltonian Eulerian but not bipaartite</li>\n    <li>$G$ is neither&nbsp;Eulerian&nbsp;nor Hamiltonian</li>\n    <li>$G$ is Hamiltonian but not Eulerian</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259235",
+          "text": "<p>Which of the following integer sequence if used as degree sequence would represent the tree?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>1, 1, 1, 1, 1, 1, 4, 4</li>\n    <li>1, 1, 1, 1, 2, 2, 2, 2</li>\n    <li>1, 1, 1, 2, 3, 3, 3</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only I</li>\n    <li>Only II</li>\n    <li>Only I and III</li>\n    <li>Only II and III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259234",
+          "text": "<p>A simple graph $G$ has $20$ vertices. Any two distinct vertices $u$ and $v$ are such that&nbsp;&nbsp;$ deg(u) + deg(v) \\geq 19.$ Which of the following statements is FALSE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$G$ must have a cycle</li>\n    <li>$G$ can be a disconnected graph</li>\n    <li>$G$ may not have a bridge</li>\n    <li>$G$ may not have a cut-vertex\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5,graph-connectivity",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259233",
+          "text": "The edge graph of a graph $G$ is the graph with vertex set $E(G)$ in which two vertices are joined iff they are adjacent edges in $G.$ The no. of edges in the edge graph of complete graph $ K_{10} $ is _____",
+          "type": "Numerical",
+          "answer": "360",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm5,numerical-answers,graph-connectivity",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259232",
+          "text": "<p>How many paths of length $4$ are there in complete graph $K_7$?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$1260$</li>\n    <li>$420$</li>\n    <li>$35$</li>\n    <li>$210$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259231",
+          "text": "<p>Which of the following statements is false?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>if G(V,E) is a simple graph and&nbsp;$ \\delta \\geq K $, then G has a simple path of length K</li>\n    <li>if G(V,E) is a simple graph and $ |E| &gt; \\binom{|V|-1}{2} $&nbsp;then G is connected</li>\n    <li>If G is a simple graph and&nbsp;$ \\delta &gt; [\\frac{V}{2}]-1 $, then G is connected</li>\n    <li>There can be two vertex disjoint longest paths in connected graph</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259230",
+          "text": "<p>&nbsp;</p>\n\n<p>A sequence $d=(d1, d2, d3, \\dots, dn)$ is <strong>graphic </strong>if there is a simple graph with sequence $d$.</p>\n\n<p>S1: Sequence $(7, 6, 5, 4, 3, 3, 2)$ is graphic</p>\n\n<p>S2: Sequence $(6, 6, 5, 4, 3, 3, 1)$&nbsp;is graphic</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only S1 is true</li>\n    <li>Only S2 is true</li>\n    <li>Both S1 and S2 are true</li>\n    <li>Neither S1 nor&nbsp;S2 are true</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259229",
+          "text": "<p>Let $\\delta$ be the smallest degree of a vertex of $G$.</p>\n\n<p>S1: If $2$ distinct circuits of a graph $G$ contain an edge $e$, then there exists a circuit of $G$ not containing $e$</p>\n\n<p>S2: Let $\\delta$ be the smallest degree of a vertex of $G$. If $\\delta \\geq 2$, then $G$ contains a cycle</p>\n\n<p>Which of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only S1</li>\n    <li>Only S2</li>\n    <li>Both S1 and S2</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259228",
+          "text": "<p>Let $G$ be a graph containing a cycle $v1, \\dots , vk$. If there is an edge $e$ in this cycle with weight strictly larger than all other edges. Which of the following statements is always true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>There exist at least $2$ minimum spanning trees</li>\n    <li>$e \\notin E(T)$ for any minimum weight spanning tree $T$</li>\n    <li>$e \\in E(T)$ for some minimum weight spanning $T$</li>\n    <li>There is a unique minimum spanning tree for the graph $G$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259227",
+          "text": "<p>For which of the following does there exist a graph $G = (V, E)$&nbsp; satisfying the specified conditions ?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>A tree with $9$ vertices and the sum of the degrees of all the vertices is $18$ .</li>\n    <li>A graph with $5$ components, $12$ vertices and $7$ edges.</li>\n    <li>A graph with $5$ components, $30$ vertices and $24$ edges.</li>\n    <li>A graph with $9$ vertices, $9$ edges, and no cycles.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259226",
+          "text": "<p>The number of directed simple graphs with labelled&nbsp;vertices with $\\mid V \\mid =3$ is</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$27$</li>\n    <li>$64$</li>\n    <li>$21$</li>\n    <li>$48$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259225",
+          "text": "The largest possible number of vertices in a graph with $19$ edges and all vertices of degree at least $3$ is _______",
+          "type": "Numerical",
+          "answer": "12",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm5,numerical-answers,graph-connectivity",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259224",
+          "text": "The line graph $L(G)$ of a simple graph $G$ is the graph whose vertices are in one-to-one correspondence with edges of $G,$ two vertices of $L(G)$ are adjacent if and only if the corresponding edges of $G$ are adjacent. If $G$ is regular graph with degree $10$ then $L(G)$ is regular with degree _____",
+          "type": "Numerical",
+          "answer": "18",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm5,numerical-answers",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259223",
+          "text": "<p>A certain tree of order $n$ has only vertices of degree $3$ and degree $1$. How many degree $3$ vertices does the tree have?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$ \\frac{n-1}{2} $</li>\n    <li>$ \\frac{n-2}{2} $</li>\n    <li>$ \\frac{n}{2} $</li>\n    <li>$ \\frac{n-1}{3} $</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259222",
+          "text": "<p>A graph is&nbsp;<em>critical</em>&nbsp;if the removal of any one of its vertices (and the edges adjacent to that vertex) results in a graph with a lower chromatic number. Which of the following graph is k-critical graph?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>$ K_5 $</li>\n    <li>$ K_{3,4} $</li>\n    <li>Cycle graph with 4 vertices</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only I</li>\n    <li>Only I and II</li>\n    <li>Only I and III</li>\n    <li>All of I, II and III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259221",
+          "text": "Maximum number of edges a graph with $10$ vertices and $4$ components can have is",
+          "type": "Numerical",
+          "answer": "21",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm5,numerical-answers,graph-connectivity",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259220",
+          "text": "$G(V,E)$ is a simple graph with $8$ vertices. The edges of $G$ are decided by tossing the coin for each $2$ vertices combination. Edge is added between any two vertices iff head is turned up. Expected number of edges in the Graph $G(V,E)$ is _____",
+          "type": "Numerical",
+          "answer": "14",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm5,numerical-answers",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259219",
+          "text": "How many different colorings are possible for a cycle graph on three vertices with $5$ colors?",
+          "type": "Numerical",
+          "answer": "60",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm5,numerical-answers,graph-coloring",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259218",
+          "text": "<p>&nbsp;</p>\n\n<p>S1: A tree with $n$ vertices which has no vertex of degree $2$ must have at least $(n+2)/2$ leaves.</p>\n\n<p>S2: The no of trees on $5$ labelled vertices is $125$</p>\n\n<p>Which of the following statements is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only S1</li>\n    <li>Only S2</li>\n    <li>Only S1 and S2</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "259217",
+          "text": "<p>The size of a Maximum independent set of the complete&nbsp;bipartite graph&nbsp;$ K_{m,n} (m&gt;0,n&gt;0)$ is</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\text{max} (m,n)$</li>\n    <li>$\\text{min}(m,n)$</li>\n    <li>$2$</li>\n    <li>$ \\left \\lceil (m+n)/2 \\right \\rceil $</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm5",
+          "category": "Graph Theory"
+        }
+      ]
+    }
+  ]
+}

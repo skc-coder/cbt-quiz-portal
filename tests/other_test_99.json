@@ -1,0 +1,297 @@
+{
+  "name": "GATEBOOK-2019 DBMS1: ER Diagrams, SQL, Relational Algebra",
+  "duration": "90",
+  "total_qs": "25",
+  "total_qs_one": 0,
+  "total_qs_two": 25,
+  "apti_num_qs": 0,
+  "technical_num_qs": 25,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 25,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "272685",
+          "text": "<p>Given two relations $R_1$ and $R_2,$ where $R_1$ contains $N_1$ tuples, $R_2$ contains $N_2$ tuples, and $N_2 &gt; N_1 &gt; 0,$ give the minimum possible sizes (in tuples) for the resulting relation produced by each of the following relational algebra expressions.&nbsp;In each case, state any assumptions about the schemas for $R_1$ and $R_2$ that are needed to make the expression meaningful.</p>\n\n<ol>\n    <li>$R_1\\cup R_2$</li>\n    <li>$R_1\\cap R_2$</li>\n    <li>$R_1−R_2$</li>\n    <li>$R_1\\times R_2$</li>\n    <li>$\\Pi a(R_1)$</li>\n</ol>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$(1) – N_1+N_2; (2) – 0; (3) – 0; (4) – N_1 \\times N_2;&nbsp; (5) – 1$</li>\n    <li>$(1) – N_2; (2)&nbsp;– 0; (3) – 0; (4) – N_2; (5) – N_1$</li>\n    <li>$(1) – N_2; (2) – 0; (3) – 0; (4) – N_1 \\times N_2; (5) – 1$</li>\n    <li>$(1) – N_2; (2) – 0; (3) – 0; (4) – N_1 \\times N_2; (5) – N_1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1,relational-algebra",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272684",
+          "text": "<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSuppliers(sid: integer, sname: string, address: string)\nParts(pid: integer, pname: string, color: string)\nCatalog(sid: integer, pid: integer, cost: real)</pre>\n\n<p>Suppose we want to find names of those suppliers who supply all the parts. Consider the following&nbsp; two queries:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nQ1: select S.sname from Suppliers S\nwhere S.sid IN (Select * from Suppliers) ;</pre>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nQ2: select S.sname from Suppliers S\nwhere NOT EXISTS ( select * from parts P\nwhere NOT EXISTS ( select * from Catalog C\nwhere C.pid = P.pid and C.sid = S.sid)</pre>\n\n<p>Which of the following query is the correct implementation of above requirement ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only Q1</li>\n    <li>Only Q2</li>\n    <li>Both Q1 and Q2</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272683",
+          "text": "<p>Suppose that two relations $R(A, B)$ and $S(A, B)$&nbsp;have exactly the same schema. Consider the following equalities in relational algebra?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>$R \\cap S = R - (R - S)$</li>\n    <li>$R \\cap S = S - (S - R)$</li>\n    <li>$R \\cap S&nbsp;= R \\text{ NATURAL-JOIN }S$</li>\n    <li>$R \\cap S = R \\times S$</li>\n</ol>\n\n<p>Which of the equalities hold in relational algebra?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>I only</li>\n    <li>I and II only</li>\n    <li>I, II and III</li>\n    <li>I, II, III and IV</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272682",
+          "text": "<p>The table Arc(x,y) currently has the following tuples (note there are duplicates): $(1,2), (1,2), (2,3), (3,4), (3,4), (4,1), (4,1), (4,1), (4,2).$<br>\nCompute the result of the query:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT a1.x, a2.y, COUNT(*)\nFROM Arc a1, Arc a2\nWHERE a1.y = a2.x\nGROUP BY a1.x, a2.y;</pre>\n\n<p><br>\nWhich of the following tuples is in the result?</p>\n\n<ol style=\"list-style-type:upper-roman\" type=\"I\">\n    <li>$(1,3,2)$</li>\n    <li>&nbsp;$(2,4,6)$</li>\n    <li>$(3,1,4)$</li>\n    <li>$(3,1,6)$</li>\n</ol>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>I and III</li>\n    <li>I and II</li>\n    <li>I and IV</li>\n    <li>II and III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1,sql",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272681",
+          "text": "<p>The relation $R(a,b)$&nbsp;may have duplicate tuples. Which of the following queries has a result that is guaranteed not to have duplicates, regardless of what tuples $R$ contains?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT a FROM R WHERE a = 1\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT MAX(b) FROM R GROUP BY a\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT a, b FROM R GROUP BY a, b\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT a FROM R WHERE a NOT IN (SELECT a FROM R)</pre>\n    </li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>III and IV</li>\n    <li>I and II</li>\n    <li>III only</li>\n    <li>I and III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272680",
+          "text": "<p>Consider the following database schema:</p>\n\n<ul>\n    <li>Frequents(kid, store)</li>\n    <li>Sells(store, candy)</li>\n    <li>Likes(kid, candy)</li>\n</ul>\n\n<p>Table&nbsp;Frequents&nbsp;indicates what candy stores a kid likes to visit. Table&nbsp;Sells&nbsp;shows which candy each store sells. Table&nbsp;Likes&nbsp;tells which candy a kid likes.</p>\n\n<p>Consider the following query:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\n(Select kid from&nbsp;likes) EXCEPT\n(select kid from&nbsp;likes&nbsp;where candy NOT in (select candy from&nbsp;sells&nbsp;where store = ‘Starbucks’);</pre>\n\n<p><br>\nThe query prints</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>the kids whose liked candies are not all sold by the 'Starbucks'.</li>\n    <li>the kids whose liked candies are only sold by the 'Starbucks'.</li>\n    <li>the kids whose liked candies are all sold by the store 'Starbucks'.</li>\n    <li>the kids whose liked candies are sold by stores other than 'Starbucks'</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1,sql",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272679",
+          "text": "<p>Consider a relation $R(A,B)$, and the following two sequences of queries.</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nQ1:&nbsp;UPDATE R SET B = 3 WHERE B = 2;</pre>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nQ2:&nbsp;INSERT INTO R\nSELECT A, 3 FROM R WHERE B = 2;\nDELETE FROM R WHERE B = 2;</pre>\n\n<p>Which of the following statements is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Q1 and Q2 always produce different answers.</li>\n    <li>Q1 and Q2 always produce the same answer.</li>\n    <li>The answer to Q1 is always contained in the answer to Q2</li>\n    <li>The answer to Q2 is always contained in the answer to Q1.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272678",
+          "text": "<p>Suppose we have a relation declared by:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nCREATE TABLE&nbsp;R(name VARCHAR(50) PRIMARY KEY, salary INT CHECK(salary \\leq 40000) );</pre>\n\n<p>Initially, the relation has three records:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:200px; border-spacing: 1px;\">\n    <tbody>\n        <tr>\n            <td><strong>Name</strong></td>\n            <td><strong>Salary</strong></td>\n        </tr>\n        <tr>\n            <td>Tom</td>\n            <td>10000</td>\n        </tr>\n        <tr>\n            <td>Joe</td>\n            <td>20000</td>\n        </tr>\n        <tr>\n            <td>Sue</td>\n            <td>30000</td>\n        </tr>\n    </tbody>\n</table>\n\n<p><br>\nWe execute the following sequence of modifications. Some of them may be rejected due to the constraints in the relation.</p>\n\n<ol>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nINSERT INTO R VALUES ('Fred', 12000);\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nUPDATE R SET salary = 50000 WHERE name = 'Sue';</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nINSERT INTO R VALUES ('Tom', 13000);\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nDELETE FROM R WHERE name = 'Joe';\n</pre>\n    </li>\n</ol>\n\n<p>At the end of these statements, the sum of the salaries over all the tuples in $R$ is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$52,000$</li>\n    <li>$62,000$</li>\n    <li>$65,000$</li>\n    <li>$72,000$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272677",
+          "text": "<p>Suppose relation $R(A,B)$ has tuples $\\{(1,2), (1,2), (3,4)\\}$, and relation $S(B,C)$ has ${(2,5), (2,5), (4,6), (7,8)}$. What is the number of tuples in the result of the SQL query:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT * FROM R NATURAL RIGHT OUTER JOIN S;</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2$</li>\n    <li>$3$</li>\n    <li>$5$</li>\n    <li>$6$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272676",
+          "text": "<p>Given two relations $R(A,B)$ and $S(C)$, consider two queries:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nQ1: SELECT A FROM R\nWHERE R.B &gt; ALL (SELECT C FROM S);</pre>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nQ2: SELECT A FROM R\nWHERE R.B &gt; ANY (SELECT C FROM S);</pre>\n\n<p>Which of the following statements is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Q1 and Q2 always produce the same answer.</li>\n    <li>The answer to Q1 is always contained in the answer to Q2.</li>\n    <li>The answer to Q2 is always contained in the answer to Q1.</li>\n    <li>None of the above.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272675",
+          "text": "<p>Consider a relation $R(A)$ and the following two queries.</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nQ1: SELECT A FROM R r1\nWHERE NOT EXISTS (SELECT * FROM R WHERE A &gt; r1.A);</pre>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nQ2: SELECT MAX(A) FROM R;</pre>\n\n<p>Let $\\mid Q1 \\mid$ and $\\mid Q2 \\mid$ be the number of the tuples in the results of Q1 and Q2, respectively. Which of the following statements is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\mid Q1 \\mid = \\mid Q2 \\mid$ is always true.</li>\n    <li>$\\mid Q1 \\mid \\geq \\mid Q2 \\mid$ is always true.</li>\n    <li>$\\mid Q1 \\mid \\leq \\mid Q2 \\mid$ is always true.</li>\n    <li>$\\text{None of the above}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272674",
+          "text": "The SQL statement 'DELETE from R;'<br />\n<ol style=\"list-style-type:upper-alpha\"><li> is guaranteed to remove all the tuples from R.<br /> </li><li> may remove just some tuples from R.<br /> </li> <li>may also remove tuples in tables other than R.<br /> </li>  <li>will drop table R from the database.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272673",
+          "text": "It is not possible to capture which E-R concept in a relational schema?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> One-to-one relationships.<br /> </li><li> One-many mandatory participation.<br /> </li> <li>Many-many mandatory participation.<br /> </li>  <li>Ternary relationships.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272672",
+          "text": "<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nEMPLOYEE:&nbsp;ename, eid, dno, salary\nDEPARTMENT:&nbsp;dno, dname</pre>\n\n<p>Consider the below tuple relational calculus query</p>\n\n<p>$\\{\\text{e.name&nbsp;| EMPLOYEE(e) AND }(\\exists b) \\text{(EMPLOYEE (b) AND e.dno = b.dno} \\wedge \\text{NOT }(\\exists a)\\text{ (EMPLOYEE(a) AND&nbsp;a.Salary &gt; b.Salary))}&nbsp;\\}$</p>\n\n<p>The query retrieves names of all employees</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Who have highest salary in the company</li>\n    <li>Who have highest salary in their department</li>\n    <li>Who work in the department that has the employee with the highest salary among all employees.</li>\n    <li>Who work in the department that has the employee with the lowest salary among all employees</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272671",
+          "text": "<p>Consider the relation employee(name, sex, supervisorName, salary) with name as the key, supervisorName gives the name of the supervisor of the employee under consideration. What does the following Tuple Relational Calculus query produce?</p>\n\n<p>$\\{\\text{e.name \\mid employee(e)} \\wedge \\text{e.sex= ‘female’} \\wedge (\\forall x) \\text{[employee(x)} \\wedge \\text{x.supervisorName&nbsp;=&nbsp;e.ename} \\implies \\text{x.salary &lt; e.salary ]}$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Names of employees whose salary is less than salaries of female subordinates.</li>\n    <li>Names of female employees whose salary is less than salaries of their female subordinates</li>\n    <li>Names of female employees whose salary is less than salaries of their subordinates.</li>\n    <li>Names of female employees whose salary is greater than the salaries of their subordinates.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272670",
+          "text": "<p>Which of the following tuple relational calculus query is unsafe query?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>$\\{x\\mid \\exists x\\in T(x.A\\neq 500)\\}$</li>\n    <li>$\\{x\\mid \\forall x\\in T(x.A\\neq 500)\\}$</li>\n    <li>$\\{x\\mid \\neg (\\forall x\\in T(x.A\\neq 500))\\}$</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only III</li>\n    <li>Only II and III</li>\n    <li>Only I and III</li>\n    <li>All of I,II and III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272669",
+          "text": "<p><img alt=\"GATEBOOK-2019-DBMS1-17\" src=\"data:image/png;base64,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\"></p>\n\n<p>Which of the following entity sets or relationships does not get converted to a relation?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>B</li>\n    <li>C</li>\n    <li>R</li>\n    <li>S</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1,er-diagram",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272668",
+          "text": "Which of the following is not a property of ACID transactions ?<br />\n<ol style=\"list-style-type:upper-alpha\"><li> Atomicity<br /> </li><li> Concurrency<br /> </li> <li>Durability<br /> </li>  <li>Isolation  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272667",
+          "text": "<p>Consider the following SQL queries:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nQ1: Select distinct a from R where b&gt;0;</pre>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nQ2: Select distinct a from R where b&gt;0 group by a;</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Q1 and Q2 produce the same answer.</li>\n    <li>The answer to Q1 is always contained in the answer to Q2.</li>\n    <li>The answer to Q2 is always contained in the answer to Q1.</li>\n    <li>Q1 and Q2 produce different answers.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272666",
+          "text": "<p>Which of the following queries might produce different results when evaluated using set semantics and bag (multi-set) semantics, even if the relations $R$ and $S$ are themselves sets (i.e., they contain no duplicate tuples)?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>&nbsp;$R−S$</li>\n    <li>&nbsp;$R\\bowtie S − S \\bowtie R$</li>\n    <li>$R \\cup S$</li>\n    <li>&nbsp;$\\sigma_{a=5}(R)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1,relational-algebra",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272665",
+          "text": "<p>Which of the following tuple relational calculus expressions is equivalent to $\\exists t \\in r&nbsp;F(t)$ ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>&nbsp;$\\neg (\\forall t \\in r&nbsp;\\neg F(t))$</li>\n    <li>&nbsp;$\\neg (\\forall t \\in r&nbsp;F(t))$</li>\n    <li>&nbsp;$\\exists t \\in r&nbsp;\\neg F(t))$</li>\n    <li>&nbsp;$\\exists t \\notin r&nbsp;F(t))$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272664",
+          "text": "<p>Graph&nbsp;$(V_i,V_j)$&nbsp;is a relation which records adjacency information of an un-directed graph. Tuple (a,b) represents the adjacency between vertices a and b.&nbsp;Consider the following statements</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>There is a route from some vertex A to some vertex B in the graph.</li>\n    <li>There is a cycle in the graph</li>\n    <li>There is a triangle in the graph</li>\n</ol>\n\n<p>Which of the above statements can be represented in Tuple Relational Calculus ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only I</li>\n    <li>Only II and III</li>\n    <li>Only I and III</li>\n    <li>Only III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272663",
+          "text": "<p>Consider a relation R(A,B) that contains r tuples, and a relation S(B,C) that contains s tuples. Assume $r&gt;0, s&gt;0.$ Make no assumptions about keys. Consider the below query.<br>\n$\\Pi_B(R)−(\\Pi_B(R)−\\Pi_B(S))$<br>\nMinimum and Maximum no of tuples above query can produce ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Max&nbsp;(r,s),&nbsp;r+s</li>\n    <li>&nbsp;$0,r \\times s$</li>\n    <li>&nbsp;0, Min&nbsp;(r,s)</li>\n    <li>&nbsp;r,r</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272662",
+          "text": "<p>Consider the following relation:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nFamily(parent, child, childDOB)</pre>\n\n<p>The intent is that a tuple (p,c,d) means that parent p has child c, who was born on date d. You may assume that parents do not have two children of the same name, and that there are no twins; i.e., no parent has two or more children born on the same day. Here are three queries we might ask about this data:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>Find for each parent, the youngest child, i.e., the set of (p,c) such that p has child c, and no other child of p has a smaller date of birth than c does.</li>\n    <li>Find the set of great grandparents of 'Raju.'</li>\n    <li>Find all the descendants of 'Raju.'</li>\n</ol>\n\n<p>Which of the above queries are expressible in relational algebra?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>I only</li>\n    <li>I and II only</li>\n    <li>III only</li>\n    <li>I, II and III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "272661",
+          "text": "<p>Consider the following E/R diagram:</p>\n\n<p style=\"text-align:center\"><img alt=\"GATEBOOK-2019-DBMS1-25\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOoAAADpCAAAAAAPa/Q8AAAEBklEQVR42u3dq3LbQBSA4YWBgWEFeoCEtaguEzVrWM06YoZFNuwI+Q1cFr2BDQsEAg2DNIaGhoJbSVU80c1aeXTb1b8zrScG6/18jlary7GEnEwTUKFChQoVKlSoUKFChQoVKlSoUKFChQoVaovtSai1J/2pYrhxQYUKFSpUqFChQoUKFSrUFj4vPjz1pGM+1RUikNIRtvFUL5FGr+ZTrfdwGp/AvhDuRKYlD6qB1EDkp15zpyUnnYGlZ/5+1RYiiW4wgdWSH6+WLNbAUKFChQoVKlSoUKFC1Yd6r3jf0r3+1JIWPoWjSqgO20ZsJkINH8RDOA3qJtoyN5OgRkEV/YRVjCGo/YRVjCGo/YR1aOrber0W0b+3Sexs+hoDVKhQoUKFChUqVKhQoUJtoR1+jozaWY3tYTY7jIva1RWIw+x8bmK9/SsfmhpJpWxivX0cA1P3X87xy/nxaDp1P0/PFB6/Hc2mXqQNrHpSP0jVrVpSM1Jlq47UnFTVqiG1IFW06kfd2iVXaY6PZ/Oo20X1gsIsaoVUxaoZtVKqYNWLekVab9WKelVaax2Garm3DKVGWmfN9e+mx2xep1S/WB2j0OFqUftRh89hg3EI4cdgv0uqU+y/vsPVKvu3nUYlUxm3m4fNqNF/TsdUuyk1L02Kp4J4qKrWIaiefyndy37ylfZpJcupbq6r3fxrVR9lVKfk7RapTnlJsWg4JV2o2bd//FGPqihLrxapgRsXilsNOyxa3xPYq0n0qwkcFL/0FqnO/3TyG3ZYsPpl+4pqacW2WszgFqlxygTF2aC2w82yGFUrt6UuVw13NvFEHnRFtf2K/U1th7mIxdRcGfZiIxtSvQ5nYCvp2y7JvfoOs9ZkW81U1y+2Db7y99WSO87lfsbqpz9sckmP61LdDuI+WJPEcJI0sVWk2h2aV8+wdVL9TrhUWWulGp5G+/W75M3w+1aaRy2LXzj3pInUojWc76WZ1LxVTarp5amMVVGq60XHD1ZVqbaXki9WZam+Nwg8vyQvZ3svTaeG810snf2VxlMTa6ObeXqgdlVOHM5fGt2idfs4RlC/+tzPzWhjuMdwLSdDFVChQoUKFSpUqFChQoWqNfU1/V2TV/Opp7vklMHdaQIJvEyoyylsq0lYewnq8NPSsq+gDk+NwtpPUEews1n2FNQRUE/3JyOpAz4/uG/qgL+uChUqVKhQoUKFChUqVKhQoUItlptV1KSaGFU/LjTzVUoyzaCWVMUbSy0WhxpLlYWnkppLtaCyrWpM9SYzAwdT2K+mqyWrl2GxBoYKFSpUqFChQoUKtdM24KOSR/Hkk5FlFFSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChWpe+we0X72evECozwAAAABJRU5ErkJggg==\"></p>\n\n<p>Below are three possible relationship sets for this E/R diagram:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>\n    <table border=\"1\" cellpadding=\"1\" style=\"width:200px; border-spacing: 1px;\">\n        <tbody>\n            <tr>\n                <td>$A$</td>\n                <td>$B$</td>\n                <td>$C$</td>\n                <td>$D$</td>\n            </tr>\n            <tr>\n                <td>$a_1$</td>\n                <td>$b_1$</td>\n                <td>$c_1$</td>\n                <td>$d_1$</td>\n            </tr>\n            <tr>\n                <td>$a_1$</td>\n                <td>$b_1$</td>\n                <td>$c_1$</td>\n                <td>$d_2$</td>\n            </tr>\n        </tbody>\n    </table>\n    </li>\n    <li>\n    <table border=\"1\" cellpadding=\"1\" style=\"width:200px; border-spacing: 1px;\">\n        <tbody>\n            <tr>\n                <td style=\"height:20px\">$A$</td>\n                <td style=\"height:20px\">$B$</td>\n                <td style=\"height:20px\">$C$</td>\n                <td style=\"height:20px\">$D$</td>\n            </tr>\n            <tr>\n                <td>$a_1$</td>\n                <td>$b_1$</td>\n                <td>$c_1$</td>\n                <td>$d_1$</td>\n            </tr>\n            <tr>\n                <td>$a_1$</td>\n                <td>$b_1$</td>\n                <td>$c_2$</td>\n                <td>$d_2$</td>\n            </tr>\n        </tbody>\n    </table>\n    </li>\n    <li>\n    <table border=\"1\" cellpadding=\"1\" style=\"width:200px; border-spacing: 1px;\">\n        <tbody>\n            <tr>\n                <td style=\"height:20px\">$A$</td>\n                <td style=\"height:20px\">$B$</td>\n                <td style=\"height:20px\">$C$</td>\n                <td style=\"height:20px\">$D$</td>\n            </tr>\n            <tr>\n                <td>$a_1$</td>\n                <td>$b_1$</td>\n                <td>$c_1$</td>\n                <td>$d_1$</td>\n            </tr>\n            <tr>\n                <td>$a_1$</td>\n                <td>$b_2$</td>\n                <td>$c_2$</td>\n                <td>$d_2$</td>\n            </tr>\n        </tbody>\n    </table>\n    </li>\n</ol>\n\n<p>You may assume that different symbols stand for different values, e.g., $d_1$ is definitely not equal to $d_2$. Which of the above could not be the relationship set for the E/R diagram?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>I Only</li>\n    <li>I and II Only</li>\n    <li>II Only</li>\n    <li>I,II and III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms1",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

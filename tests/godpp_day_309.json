@@ -1,0 +1,70 @@
+{
+  "name": "Day 244 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528612",
+          "text": "<p data-start=\"57\" data-end=\"170\">Let $P$ be a $3 \\times 3$ real matrix such that $P^3-6P^2+11P-6I=0$ and $\\operatorname{tr}(P)=7$. Then $\\det(P)=$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"172\" data-end=\"178\">$8$<br>&nbsp;</li><li data-start=\"180\" data-end=\"187\">$10$<br>&nbsp;</li><li data-start=\"189\" data-end=\"196\">$12$<br>&nbsp;</li><li data-start=\"198\" data-end=\"205\">$18$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 244"
+        },
+        {
+          "post_id": "528611",
+          "text": "<p data-start=\"69\" data-end=\"175\">Consider the matrix $A=\\begin{bmatrix}4&1&0&0&1\\\\1&4&1&0&0\\\\0&1&4&1&0\\\\0&0&1&4&1\\\\1&0&0&1&4\\end{bmatrix}$.</p><p data-start=\"177\" data-end=\"217\">The largest eigenvalue of $A$ is ______.</p>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 244"
+        },
+        {
+          "post_id": "528609",
+          "text": "Suppose that $Q$ is a $6\\times 8$ matrix such that every solution of the equation $Qx=0$ is of the form $x=s(1,0,-1,2,0,3,1,-2)^T+t(0,1,2,-1,1,0,4,3)^T+u(2,-1,0,1,3,-2,0,5)^T$, where $s,t,u \\in \\mathbb{R}$, and the three vectors are linearly independent. The rank of $Q$ is ______.",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 244"
+        },
+        {
+          "post_id": "528607",
+          "text": "<p>Perform the following operations on the matrix $\\begin{bmatrix} 3 & 4 & 45 \\\\ 7 & 9 & 105 \\\\ 13 & 2 & 195 \\end{bmatrix}$</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>Add the third row to the second row<br>&nbsp;</li><li>Subtract the third column from the first column.<br>&nbsp;</li></ol><p>The determinant of the resultant matrix is _____.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$<br>&nbsp;</li><li>$1$<br>&nbsp;</li><li>$15$<br>&nbsp;</li><li>None of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 244"
+        },
+        {
+          "post_id": "528605",
+          "text": "<p>What values of $x, y$ and $z$ satisfy the following system of linear equations?</p><p>$$\\begin{bmatrix} 1 &2 &3 \\\\ 1& 3 &4 \\\\ 2& 2 &3 \\end{bmatrix} \\begin{bmatrix} x\\\\y \\\\ z \\end{bmatrix} = \\begin{bmatrix} 6\\\\8 \\\\ 12 \\end{bmatrix}$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$x = 6$, $y = 3$, $z = 2$<br>&nbsp;</li><li>$x = 12$, $y = 3$, $z = - 4$<br>&nbsp;</li><li>$x = 6$, $y = 6$, $z = - 4$<br>&nbsp;</li><li>$x = 12$, $y = - 3$, $z = 0$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 244"
+        }
+      ]
+    }
+  ]
+}

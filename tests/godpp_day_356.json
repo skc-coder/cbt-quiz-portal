@@ -1,0 +1,70 @@
+{
+  "name": "Day 264 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530861",
+          "text": "<p data-start=\"0\" data-end=\"111\">Choose the largest interval of $x$ on which the function $f(x)=x^2\\ln x$, where $x&gt;0$, is convex.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"113\" data-end=\"130\">$(0,e^{-3/2})$<br>&nbsp;</li><li data-start=\"132\" data-end=\"154\">$[e^{-3/2},\\infty)$<br>&nbsp;</li><li data-start=\"156\" data-end=\"171\">$(0,\\infty)$<br>&nbsp;</li><li data-start=\"173\" data-end=\"193\">$[e^{-1},\\infty)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 264"
+        },
+        {
+          "post_id": "530858",
+          "text": "A research team has $60$ hours to divide between technical validation and market validation. If $x$ hours are spent on technical validation, then $60-x$ hours are spent on market validation. The project success score is modeled by $S(x)=x^2(60-x)^3$, where $0&lt;x&lt;60$. How many hours should be spent on technical validation to maximize the success score?",
+          "type": "Numerical",
+          "answer": "24",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 264"
+        },
+        {
+          "post_id": "530867",
+          "text": "<p data-start=\"0\" data-end=\"79\">Find the minimum value of $f(x,y)=xy+x+y$ subject to $x^2+y^2=1$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"81\" data-end=\"88\">$-1$<br>&nbsp;</li><li data-start=\"90\" data-end=\"104\">$-\\sqrt{2}$<br>&nbsp;</li><li data-start=\"106\" data-end=\"115\">$-1/2$<br>&nbsp;</li><li data-start=\"117\" data-end=\"124\">$-2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 264"
+        },
+        {
+          "post_id": "530859",
+          "text": "<p data-start=\"111\" data-end=\"394\">A company splits $12$ research hours between two tasks. If $x$ hours are spent on task A, then $12-x$ hours are spent on task B. The total difficulty score is $D(x)=x^2+(12-x)^2+\\frac{16}{x}+\\frac{16}{12-x}$, where $0&lt;x&lt;12$. Find the value of $x$ that minimizes $D(x)$.</p>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 264"
+        },
+        {
+          "post_id": "530856",
+          "text": "<p data-start=\"0\" data-end=\"184\">A company models its total production cost by $C(x)=x^2+\\frac{16}{x}$, where $x&gt;0$ is the number of units produced in hundreds. Find the minimum possible value of $C(x)$.</p>",
+          "type": "Numerical",
+          "answer": "12",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Calculus",
+          "day": "Day 264"
+        }
+      ]
+    }
+  ]
+}

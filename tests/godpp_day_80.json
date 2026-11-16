@@ -1,0 +1,70 @@
+{
+  "name": "Day 77 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "484583",
+          "text": "<p>You are given two sorted arrays, each of length $n$. What is the best possible time complexity (in the worst case) to find the median of the combined $2 n$ elements?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$O(n)$<br>&nbsp;</li><li>$O(\\log n)$<br>&nbsp;</li><li>$O(n \\log n)$<br>&nbsp;</li><li>$O(1)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 77"
+        },
+        {
+          "post_id": "484579",
+          "text": "<p>Consider the following functions:</p><ul><li>$p(n)=5^{n^2}$<br>&nbsp;</li><li>$q(n)=n^{1000}$<br>&nbsp;</li><li>$r(n)=2^{\\log _2 n}$</li></ul><p>Which of the following statements about the asymptotic relationships among $p(n), q(n)$, and $r(n)$ is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$p(n)=O(q(n))$ and $q(n)=O(r(n))$<br>&nbsp;</li><li>$p(n)=\\Omega(q(n))$ and $q(n)=O(r(n))$<br>&nbsp;</li><li>$q(n)=O(p(n))$ and $r(n)=O(p(n))$<br>&nbsp;</li><li>$q(n)=\\Omega(p(n))$ and $r(n)=\\Omega(q(n))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 77"
+        },
+        {
+          "post_id": "484581",
+          "text": "<p>The asymptotic complexity of 4 functions $f_1, f_2, f_3, f_4$ are</p><ol><li>$f_1(n)=2^n$<br>&nbsp;</li><li>$f_2(n)=n^{(3 / 2)}$<br>&nbsp;</li><li>$f_3(n)=n \\log n$<br>&nbsp;</li><li>$f_4(n)=n^{(\\log n)}$</li></ol><p>Arrange them in increasing order of complexity.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$f_2, f_3, f_4, f_1$<br>&nbsp;</li><li>$f_1, f_2, f_3, f_4$<br>&nbsp;</li><li>$f_3, f_2, f_4, f_1$<br>&nbsp;</li><li>$f_3, f_1, f_2, f_4$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 77"
+        },
+        {
+          "post_id": "484582",
+          "text": "<p>Consider the recurrence relation:</p><p>$$<br>T(n)=3 T\\left(\\frac{n}{2}\\right)+n, \\quad T(1)=1<br>$$</p><p><br>The asymptotic complexity of this recurrence is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$O(n \\log n)$<br>&nbsp;</li><li>$O\\left(n^{\\log _2 3}\\right)$<br>&nbsp;</li><li>$O\\left(n^2\\right)$<br>&nbsp;</li><li>$O\\left(\\log ^2 n\\right)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 77"
+        },
+        {
+          "post_id": "484578",
+          "text": "<p>Which of the following statements is/are true for all positive functions $f(n)$ ?<br>(Multiple options may be correct.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$f(2 n)=\\Theta(f(n))$<br>&nbsp;</li><li>$f(2 n)=o\\left(f(n)^2\\right)$<br>&nbsp;</li><li>$f(2 n)=O(f(n))$<br>&nbsp;</li><li>$f(n)^2=O\\left(f(n)^2\\right)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 77"
+        }
+      ]
+    }
+  ]
+}

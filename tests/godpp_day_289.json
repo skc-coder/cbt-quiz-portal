@@ -1,0 +1,70 @@
+{
+  "name": "Day 237 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "527465",
+          "text": "<p>Which of the following collection of subsets is a partition of $S=\\{a, b, c, d\\}$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\{a, d\\},\\{b, c, d\\}$</li><li>$\\{a\\},\\{b\\},\\{c\\},\\{d\\}$</li><li>$\\{a, b, d\\}$</li><li>$\\{b, d\\},\\{a, c\\},\\{b\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 237"
+        },
+        {
+          "post_id": "527462",
+          "text": "Let $M$ be a matrix of relation $\\mathcal{R}$ and $M^T$ is transpose of the matrix $M$. Then $M=M^T$ is a condition for relation to be anti-symmetric. (Enter 1 for True & $0$ for false)",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 237"
+        },
+        {
+          "post_id": "527460",
+          "text": "<p>Which of the following is NOT a relation from $M=\\{a, b, c\\}$ to $N=\\{1,10,100\\}$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\{\\}$</li><li>$\\{(a, 1),(a, 10),(a, 100)\\}$</li><li>$\\{(a, 10),(1, b),(c, 100)\\}$</li><li>$\\{(c, 10),(b, 100)\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 237"
+        },
+        {
+          "post_id": "527458",
+          "text": "<p>Let S be a set having n elements. How many relations on $S$ are both reflexive and symmetric?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2^{\\frac{n(n-1)}{2}}$</li><li>$2^{n^2-n}$</li><li>$2^{\\frac{n(n+1)}{2}}$</li><li>$2^{n^2-1}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 237"
+        },
+        {
+          "post_id": "527457",
+          "text": "<p>Let $\\mathcal{R}$ be a relation on a set $A$ with $n$ elements. $\\mathcal{R}$ is reflexive implies</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If $(a, b) \\in \\mathcal{R}$, then $(b, a) \\in \\mathcal{R}$</li><li>$(a, a) \\in \\mathcal{R}, \\forall a \\in A$</li><li>If $(a, b) \\in \\mathcal{R}$, then $(b, a) \\notin \\mathcal{R}$.</li><li>$(a, a) \\in R$, for some $a \\in A$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 237"
+        }
+      ]
+    }
+  ]
+}

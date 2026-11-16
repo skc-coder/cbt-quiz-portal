@@ -1,0 +1,70 @@
+{
+  "name": "Day 334 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "542144",
+          "text": "<p data-start=\"2102\" data-end=\"2215\">The atomic operation $\\texttt{compare_and_swap(x, old, new)}$ changes $x$ to $\\texttt{new}$ only if its current value equals $\\texttt{old}$.</p><p data-start=\"2217\" data-end=\"2227\">Initially,</p><p data-start=\"2229\" data-end=\"2234\">$x=5$</p><p data-start=\"2236\" data-end=\"2276\">The following operations occur in order:</p><p data-start=\"2278\" data-end=\"2312\">$P_2:$ $\\texttt{compare_and_swap(x, 5, 7)}$</p><p data-start=\"2314\" data-end=\"2348\">$P_1:$ $\\texttt{compare_and_swap(x, 5, 9)}$<br>&nbsp;</p><p data-start=\"2350\" data-end=\"2384\">Which of the following is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2386\" data-end=\"2448\">Both operations succeed, and the final value of $x$ is $9$<br>&nbsp;</li><li data-start=\"2450\" data-end=\"2508\">Only $P_1$ succeeds, and the final value of $x$ is $9$<br>&nbsp;</li><li data-start=\"2510\" data-end=\"2568\">Only $P_2$ succeeds, and the final value of $x$ is $7$<br>&nbsp;</li><li data-start=\"2570\" data-end=\"2629\">Both operations fail, and the final value of $x$ is $5$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 334"
+        },
+        {
+          "post_id": "542140",
+          "text": "<p data-start=\"930\" data-end=\"970\">Consider the following atomic operation:</p><p data-start=\"972\" data-end=\"1037\">$\\texttt{test_and_set(x)}$ sets $x$ to $1$ and returns its previous value.</p><p data-start=\"1039\" data-end=\"1049\">Initially,</p><p data-start=\"1051\" data-end=\"1056\">$x=0$</p><p data-start=\"1058\" data-end=\"1154\">Process $P_1$ executes $\\texttt{test_and_set(x)}$, followed by process $P_2$ executing $\\texttt{test_and_set(x)}$.</p><p data-start=\"1156\" data-end=\"1190\"><br>Which of the following is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1192\" data-end=\"1267\">$P_1$ returns $0$, $P_2$ returns $1$, and the final value of $x$ is $1$<br>&nbsp;</li><li data-start=\"1269\" data-end=\"1344\">$P_1$ returns $1$, $P_2$ returns $0$, and the final value of $x$ is $0$<br>&nbsp;</li><li data-start=\"1346\" data-end=\"1410\">Both processes return $0$, and the final value of $x$ is $1$<br>&nbsp;</li><li data-start=\"1412\" data-end=\"1476\">Both processes return $1$, and the final value of $x$ is $0$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 334"
+        },
+        {
+          "post_id": "542145",
+          "text": "<p data-start=\"2723\" data-end=\"2775\">Two processors $CPU_0$ and $CPU_1$ share a variable.</p><p data-start=\"2777\" data-end=\"2888\">$CPU_0$ disables its local interrupts and enters a critical section without acquiring any shared hardware lock.</p><p data-start=\"2890\" data-end=\"2949\">At the same time, $CPU_1$ enters the same critical section.</p><p data-start=\"2951\" data-end=\"2998\">Which critical-section requirement is violated?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3000\" data-end=\"3020\">Mutual exclusion<br>&nbsp;</li><li data-start=\"3022\" data-end=\"3034\">Progress<br>&nbsp;</li><li data-start=\"3036\" data-end=\"3055\">Bounded waiting<br>&nbsp;</li><li data-start=\"3057\" data-end=\"3087\">No requirement is violated</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 334"
+        },
+        {
+          "post_id": "542143",
+          "text": "<p data-start=\"1552\" data-end=\"1580\">Consider the following lock:</p><p data-start=\"1582\" data-end=\"1604\">Initially,&nbsp;$\\texttt{lock = 0.}$</p><p data-start=\"1606\" data-end=\"1636\">$\\texttt{while(test_and_set(\\&lock));}$</p><p data-start=\"1638\" data-end=\"1656\">$\\texttt{Critical Section}$</p><p data-start=\"1658\" data-end=\"1669\">$\\texttt{lock = 0;}$</p><p data-start=\"1671\" data-end=\"1717\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1719\" data-end=\"1793\">At most one process can execute inside the critical section at a time.<br>&nbsp;</li><li data-start=\"1795\" data-end=\"1870\">A waiting process repeatedly consumes CPU time while checking the lock.<br>&nbsp;</li><li data-start=\"1872\" data-end=\"1934\">The solution guarantees bounded waiting for every process.<br>&nbsp;</li><li data-start=\"1936\" data-end=\"2018\">A process may starve if other processes repeatedly acquire the lock before it.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 334"
+        },
+        {
+          "post_id": "542139",
+          "text": "<p data-start=\"315\" data-end=\"388\">Which of the following statements about disabling interrupts are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"390\" data-end=\"531\">On a uniprocessor system, disabling interrupts can prevent the running process from being preempted while executing its critical section.<br>&nbsp;</li><li data-start=\"533\" data-end=\"677\">Disabling interrupts on one processor is sufficient to prevent all other processors from accessing shared memory in a multiprocessor system.<br>&nbsp;</li><li data-start=\"679\" data-end=\"755\">Allowing ordinary user processes to disable interrupts can be dangerous.<br>&nbsp;</li><li data-start=\"757\" data-end=\"843\">Keeping interrupts disabled for a long duration may affect timer and I/O services.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 334"
+        }
+      ]
+    }
+  ]
+}

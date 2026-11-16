@@ -1,0 +1,70 @@
+{
+  "name": "Day 227 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525982",
+          "text": "<p>The compound statement $(\\sim(P \\wedge Q)) \\vee((\\sim P) \\wedge Q) \\Rightarrow((\\sim P) \\wedge(\\sim Q))$ is equivalent to</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$((\\sim P) \\vee Q) \\wedge(\\sim Q)$</li><li>$(\\sim Q) \\vee P$</li><li>$((\\sim P) \\vee Q) \\wedge((\\sim Q) \\vee P)$</li><li>$(\\sim P) \\vee Q$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 227"
+        },
+        {
+          "post_id": "525978",
+          "text": "<p>Let $\\Delta, \\nabla \\in\\{\\wedge, \\vee\\}$ be such that $(\\mathrm{p} \\rightarrow \\mathrm{q}) \\Delta(\\mathrm{p} \\nabla \\mathrm{q})$ is a tautology. Then</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\Delta=\\vee, \\nabla=\\vee$</li><li>$\\Delta=\\vee, \\nabla=\\wedge$</li><li>$\\Delta=\\wedge, \\nabla=\\wedge$</li><li>$\\Delta=\\wedge, \\nabla=\\vee$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 227"
+        },
+        {
+          "post_id": "525964",
+          "text": "<p>Consider the following statements:<br>P : I have fever<br>Q: I will not take medicine<br>R : I will take rest.<br>The statement \"If I have fever, then I will take medicine and I will take rest\" is equivalent to :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$((\\sim P) \\vee \\sim Q) \\wedge((\\sim P) \\vee \\sim R)$</li><li>$(P \\vee \\sim Q) \\wedge(P \\vee \\sim R)$</li><li>$((\\sim P) \\vee \\sim Q) \\wedge((\\sim P) \\vee R)$</li><li>$(P \\vee Q) \\wedge((\\sim P) \\vee R)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 227"
+        },
+        {
+          "post_id": "525973",
+          "text": "<p>If $p, q$ and $r$ are three propositions, then which of the following combination of truth values of $p, q$ and $r$ makes the logical expression $\\{(p \\vee q) \\wedge((\\sim p) \\vee r)\\} \\rightarrow((\\sim q) \\vee r)$ false?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$p=F, q=T, r=F$</li><li>$p=T, q=T, r=F$</li><li>$p=T, q=F, r=T$</li><li>$p=T, q=F, r=F$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 227"
+        },
+        {
+          "post_id": "525960",
+          "text": "<p>Among the two statements<br>(S1) : $(p \\Rightarrow q) \\wedge(p \\wedge(\\sim q))$ is a contradiction and<br>(S2) : $(p \\wedge q) \\vee((\\sim p) \\wedge q) \\vee(p \\wedge(\\sim q)) \\vee((\\sim p) \\wedge(\\sim q))$ is a tautology</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>both are false.</li><li>only (S1) is true.</li><li>both are true.</li><li>only (S2) is true.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 227"
+        }
+      ]
+    }
+  ]
+}

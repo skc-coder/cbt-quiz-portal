@@ -1,0 +1,70 @@
+{
+  "name": "Day 211 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "523812",
+          "text": "<ul><li>p = \"Jones told the truth.\"</li><li>q = \"The butler did it.\"</li><li>r = \"I'll eat my hat.\"&nbsp;</li><li>s = \"The moon is made of green cheese.\"</li><li>t = \"If water is heated to 100°C, it turns to vapor.\"</li></ul><div><p><strong>\"If the butler did it, then either Jones told the truth or the moon is made of green cheese, but not both.\"</strong></p><p>Which of the following are correct representations? <em>(Select all that apply)</em></p><p>A. q → (p ⊕ s)</p><p>B. q → ((p ∨ s) ∧ ¬(p ∧ s))</p><p>C. q → (p ∨ s)</p><p>D. q → ¬(p ↔ s)</p></div>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 211"
+        },
+        {
+          "post_id": "523818",
+          "text": "<ul><li>p = \"Jill plays basketball\"</li><li>q = \"Jim plays soccer\"</li></ul><div><p><strong>Which of the following is the correct English interpretation of the proposition p ↔ q ?</strong></p><p>A. If Jill plays basketball, then Jim plays soccer</p><p>B. Jill plays basketball if and only if Jim plays soccer</p><p>C. Jill plays basketball or Jim plays soccer, but not both</p><p>D. If Jim plays soccer, then Jill plays basketball</p></div>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 211"
+        },
+        {
+          "post_id": "523820",
+          "text": "<ul><li>p = \"Jill plays basketball\"</li><li>q = \"Jim plays soccer\"</li></ul><div><p><strong>Which of the following propositions correctly capture the meaning: <em>\"Jill does not play basketball, but Jim plays soccer\"</em> ?</strong></p><p><em>(Select all that apply)</em></p><p>A. ¬p ∧ q</p><p>B. ¬(p ∨ ¬q)</p><p>C. ¬p ∧ ¬¬q</p><p>D. q ∧ ¬p</p><p>E. ¬(p → ¬q)</p></div>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D;E",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 211"
+        },
+        {
+          "post_id": "523810",
+          "text": "<ul><li>p = \"Jones told the truth.\"</li><li>q = \"The butler did it.\"</li><li>r = \"I'll eat my hat.\"&nbsp;</li><li>s = \"The moon is made of green cheese.\"</li><li>t = \"If water is heated to 100°C, it turns to vapor.\"</li></ul><div><strong>\"If Jones told the truth, then if the butler did it, I'll eat my hat.\"</strong>&nbsp;Which of the following correctly represents this statement?</div><div><p>&nbsp;</p><p>A. p → (q → r)</p><p>B. (p → q) → r</p><p>C. p → (q ∧ r)</p><p>D. (p ∧ q) → r</p></div>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 211"
+        },
+        {
+          "post_id": "523816",
+          "text": "<ul><li>p = \"Jones told the truth.\"</li><li>q = \"The butler did it.\"</li><li>r = \"I'll eat my hat.\"&nbsp;</li><li>s = \"The moon is made of green cheese.\"</li><li>t = \"If water is heated to 100°C, it turns to vapor.\"</li></ul><div>\"It is not the case that both Jones told the truth and the moon is made of green cheese.\"&nbsp;Which of the following are correct representations? <em>(Select all that apply)</em></div><div>&nbsp;</div><div><p>A. ¬p ∧ ¬s</p><p>B. ¬(p ∨ s)</p><p>C. ¬(p ∧ s)</p><p>D. ¬p ∨ ¬s</p></div>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 211"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 326 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "540457",
+          "text": "<p data-start=\"6971\" data-end=\"7079\">According to the standard process-state model, which of the following transitions are valid?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"7081\" data-end=\"7094\">A RUNNING process may move to the WAITING state when it blocks for an event such as I/O.<br>&nbsp;</li><li data-start=\"7190\" data-end=\"7276\">A RUNNING process may move to the READY state when its allocated CPU time expires.<br>&nbsp;</li><li data-start=\"7278\" data-end=\"7389\">When the event awaited by a WAITING process occurs, the process must move directly from WAITING to RUNNING.<br>&nbsp;</li><li data-start=\"7391\" data-end=\"7463\">A READY process may move to RUNNING when selected for CPU execution.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 326"
+        },
+        {
+          "post_id": "540447",
+          "text": "<p data-start=\"2563\" data-end=\"2635\">Consider a single-CPU system with processes $A$, $B$, and $C$.</p><p data-start=\"2637\" data-end=\"2672\">The following events have occurred:</p><ol data-start=\"2674\" data-end=\"2906\"><li data-section-id=\"sd0g8j\" data-start=\"2674\" data-end=\"2696\">$A$ begins execution.<br>&nbsp;</li><li data-section-id=\"es9s71\" data-start=\"2697\" data-end=\"2732\">$A$ creates $B$, and $B$ is scheduled.<br>&nbsp;</li><li data-section-id=\"1pcdrx\" data-start=\"2733\" data-end=\"2774\">The running process requests disk I/O.<br>&nbsp;</li><li data-section-id=\"7hb81m\" data-start=\"2775\" data-end=\"2836\">The running process creates $C$, but $C$ is not yet scheduled.<br>&nbsp;</li><li data-section-id=\"1q2lrvz\" data-start=\"2837\" data-end=\"2906\">The time slice of the running process expires, and $C$ is scheduled.<br>&nbsp;</li></ol><p data-start=\"2908\" data-end=\"2982\">Immediately after Step $5$, what are the states of $A$, $B$, and $C$ respectively?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2984\" data-end=\"3139\">$A:$ RUNNING, $B:$ BLOCKED, $C:$ READY<br>&nbsp;</li><li data-start=\"2984\" data-end=\"3139\">$A:$ READY, $B:$ BLOCKED, $C:$ RUNNING<br>&nbsp;</li><li data-start=\"2984\" data-end=\"3139\">$A:$ BLOCKED, $B:$ READY, $C:$ RUNNING<br>&nbsp;</li><li data-start=\"2984\" data-end=\"3139\">$A:$ READY, $B:$ RUNNING, $C:$ BLOCKED</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 326"
+        },
+        {
+          "post_id": "540455",
+          "text": "<p data-start=\"5256\" data-end=\"5352\">Which of the following statements about operating-system schedulers are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5354\" data-end=\"5367\">The long-term scheduler selects jobs from the job pool and admits them for execution.<br>&nbsp;</li><li data-start=\"5460\" data-end=\"5556\">The short-term scheduler selects a process from the ready queue and allocates the CPU to it.<br>&nbsp;</li><li data-start=\"5558\" data-end=\"5664\">The medium-term scheduler swaps processes out of memory and can reduce the degree of multiprogramming.<br>&nbsp;</li><li data-start=\"5666\" data-end=\"5800\">Once a process has been swapped out by the medium-term scheduler, it cannot later be reintroduced into memory to resume execution.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 326"
+        },
+        {
+          "post_id": "540452",
+          "text": "<p>A single-CPU system contains three processes with priorities:</p><p>$$X &gt; Y &gt; Z$$</p><p>The scheduler always runs the highest-priority runnable process and performs preemption when necessary.</p><p>At a particular point:</p><ul><li>$X$ is BLOCKED waiting for disk I/O.<br>&nbsp;</li><li>$Y$ is RUNNING.<br>&nbsp;</li><li>$Z$ is READY.</li></ul><p>The disk I/O requested by $X$ now completes.</p><p>What are the states immediately after the scheduler reacts?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$X$: READY, $Y$: RUNNING, $Z$: READY<br>&nbsp;</li><li>$X$: RUNNING, $Y$: READY, $Z$: READY<br>&nbsp;</li><li>$X$: RUNNING, $Y$: BLOCKED, $Z$: READY<br>&nbsp;</li><li>$X$: READY, $Y$: READY, $Z$: RUNNING</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 326"
+        },
+        {
+          "post_id": "540445",
+          "text": "<p data-start=\"758\" data-end=\"820\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"822\" data-end=\"835\">The CPU dispatcher determines the policy for which process should be run and when.<br>&nbsp;</li><li data-start=\"925\" data-end=\"1042\">With cooperative multitasking, it is possible for a process to keep running on the CPU for as long as it chooses.<br>&nbsp;</li><li data-start=\"1044\" data-end=\"1229\">When executing a return-from-trap instruction, the hardware restores the user process's registers, changes to user mode, and transfers control back to the appropriate code location.<br>&nbsp;</li><li data-start=\"1231\" data-end=\"1349\">When an I/O operation completes, the previously blocked process necessarily moves directly into the RUNNING state.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 326"
+        }
+      ]
+    }
+  ]
+}

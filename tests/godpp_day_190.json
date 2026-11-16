@@ -1,0 +1,70 @@
+{
+  "name": "Day 186 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "518282",
+          "text": "<p>Which of the following is a primary disadvantage of the 'Translation Lookaside Buffer' (TLB)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It increases the number of memory accesses<br>&nbsp;</li><li>It causes more frequent page faults<br>&nbsp;</li><li>It requires expensive associative memory hardware<br>&nbsp;</li><li>It prevents the use of multilevel page tables</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 186"
+        },
+        {
+          "post_id": "518278",
+          "text": "A disk has $200$ tracks ($0-199$). The disk head is currently at track $100$ and was previously at track $90$. The queue of pending requests is $20, 150, 70, 110,$ and $180$.<br>\n<br>\nUsing the C-SCAN scheduling algorithm, what is the total head movement (in number of tracks) required to satisfy all requests?",
+          "type": "Numerical",
+          "answer": "368",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 186"
+        },
+        {
+          "post_id": "518276",
+          "text": "<p>Consider two processes, $P_1$ and $P_2$, sharing a common variable count (initialized to 10) and using a binary semaphore S (initialized to 1). The processes execute the following code:</p><p>Process $P_1$ :</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">wait(S);\ncount = count + 5;\nsignal(S);</pre><p><br>Process $P_2$ :</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">wait(S);\ncount = count * 2;\nsignal(S);</pre><p><br>If these processes are executed concurrently, what is the difference between the maximum possible value and the minimum possible value of count after both processes complete?</p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 186"
+        },
+        {
+          "post_id": "518271",
+          "text": "Consider a system with three processes $P_1, P_2$, and $P_3$ that arrive at time $t=0$ in that order. The total CPU burst time for each process is $10$ units. However, each process follows a specific execution pattern: it executes on the CPU for $2$ units, then performs an I/O operation for $5$ units, and finally returns for its remaining $8$ units of CPU burst.<br>\n<br>\nIf the system uses Preemptive Shortest Remaining Time First (SRTF) scheduling and I/O operations can happen in parallel, what is the finish time of the last process to complete?",
+          "type": "Numerical",
+          "answer": "31",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 186"
+        },
+        {
+          "post_id": "518273",
+          "text": "<p>A system uses a $2$-level hierarchical paging scheme for a $32$-bit logical address space. The page size is $4$ KB ( $2^{12}$ bytes). Each page table entry (PTE) at both levels occupies 4 bytes. To optimize the translation lookaside buffer (TLB) performance, the OS designer decides that the outer page table must fit exactly within a single page frame.</p><p>Which of the following is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>THE INNER PAGE TABLE REQUIRES 10 BITS FOR INDEXING.<br>&nbsp;</li><li>THE NUMBER OF ENTRIES IN THE OUTER PAGE TABLE IS 1024.<br>&nbsp;</li><li>THE TOTAL NUMBER OF BITS USED FOR PAGING INDEXES (OUTER + INNER) IS 22 BITS.<br>&nbsp;</li><li>EACH INNER PAGE TABLE FITS WITHIN A SINGLE PAGE FRAME.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 186"
+        }
+      ]
+    }
+  ]
+}

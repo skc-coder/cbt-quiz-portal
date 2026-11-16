@@ -1,0 +1,70 @@
+{
+  "name": "Day 157 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "503434",
+          "text": "Consider the following expression grammar with three operators: ⊕, $\\ominus$, and $\\odot$. A Syntax-Directed Translation (SDT) scheme is defined for the grammar using synthesized attribute val (value). All operators are assumed to be left-to-right associative for this SDT scheme, regardless of the grammar's structure, and their precedence is determined by the grammar's hierarchy.<br>\n<br>\nThe rules for evaluation are:<br>\n<br>\n1. Precedence: $\\odot$ (Highest) $&gt;\\ominus$ (Middle) $&gt;\\oplus$ (Lowest).<br>\n<br>\n2. Associativity: All operators evaluate from left-to-right (Left Associative).<br>\n<br>\n\\[<br>\n\\begin{array}{ll}<br>\n\\text{Production Rule} & \\text{Semantic Rule (Action)} \\\\[6pt]<br>\nP \\rightarrow Q \\oplus P_1 & P.\\mathrm{val} = Q.\\mathrm{val} + P_1.\\mathrm{val} \\\\[4pt]<br>\nP \\rightarrow Q & P.\\mathrm{val} = Q.\\mathrm{val} \\\\[4pt]<br>\nQ \\rightarrow Q_1 \\ominus R & Q.\\mathrm{val} = Q_1.\\mathrm{val} - R.\\mathrm{val} \\\\[4pt]<br>\nQ \\rightarrow R & Q.\\mathrm{val} = R.\\mathrm{val} \\\\[4pt]<br>\nR \\rightarrow \\text{value} \\odot R_1 & R.\\mathrm{val} = \\text{value}.\\mathrm{val} \\times R_1.\\mathrm{val} \\\\[4pt]<br>\nR \\rightarrow \\text{value} & R.\\mathrm{val} = \\text{value}.\\mathrm{val}<br>\n\\end{array}<br>\n\\]<br>\n<br>\nAssuming the terminal value is an integer, what is the computed value of the expression $10 \\ominus 5 \\oplus 3 \\odot 2 ?$",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 157"
+        },
+        {
+          "post_id": "503437",
+          "text": "<p>Consider the following grammar for a simplified block structure. The translation scheme uses : synthesized attribute $L$.count to track the total number of statements and an inherited attribute start_index to denote the beginning index of the block.</p><p>Evaluation Rule: Inherited attributes (start_index) are computed and passed top-down before any synthesized attributes (count) are computed bottom-up. Actions (print statements) fire when the associated production is reduced.</p><p>\\[<br>\\begin{array}{ll}<br>\\text{Production Rule} & \\text{Semantic Rule (Action)} \\\\[6pt]<br>S \\rightarrow \\text{BEGIN } L \\text{ END} & L.\\text{start index} = S.\\text{start index},\\ \\text{print(\"Total statements:\", } L.\\text{count)} \\\\[6pt]<br>L \\rightarrow L_1\\ \\text{STMT} & L_1.\\text{start index} = L.\\text{start index},\\ L.\\text{count} = L_1.\\text{count} + 1 \\\\[6pt]<br>L \\rightarrow \\text{STMT} & \\text{print(\"Statement index:\", } L.\\text{start index)},\\ L.\\text{count} = 1<br>\\end{array}<br>\\]</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>STATEMENT INDEX: 5, TOTAL STATEMENTS: 1<br>&nbsp;</li><li>STATEMENT INDEX: 5, STATEMENT INDEX: 6, TOTAL STATEMENTS: 2<br>&nbsp;</li><li>STATEMENT INDEX: 5, TOTAL STATEMENTS: 2<br>&nbsp;</li><li>STATEMENT INDEX: 6, STATEMENT INDEX: 5, TOTAL STATEMENTS: 2</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 157"
+        },
+        {
+          "post_id": "503428",
+          "text": "<p>Consider the grammar defined by the following production rules, with two operators ★ (star) and $\\dagger$ (dagger):</p><ul><li>$A \\rightarrow B \\dagger C$<br>&nbsp;</li><li>$B \\rightarrow B \\star D \\mid D$<br>&nbsp;</li><li>$C \\rightarrow E \\dagger C \\mid E$<br>&nbsp;</li><li>$D \\rightarrow$ num<br>&nbsp;</li><li>$E \\rightarrow$ num</li></ul><p>Which one of the following statements about the associativity of the operators $\\star$ and $\\dagger$ is TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>★ is right associative, while † is left associative&nbsp;<br>&nbsp;</li><li>Both ★ and † are left associative&nbsp;<br>&nbsp;</li><li>★ is left associative, while † is right associative&nbsp;<br>&nbsp;</li><li>Both * and † are right associative</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 157"
+        },
+        {
+          "post_id": "503439",
+          "text": "<p>Consider a simplified programming language where the following rules define tokens:<br><br>1. Identifier (ID): A sequence of one or more letters (A-Z, a-z).<br><br>2. Number (NUM): A sequence of one or more digits (0-9).<br><br>3. Operator (OP): The symbols $+,-, *, /$.<br><br>4. Assignment Operator (ASSIGN): The symbol :=.<br><br>5. Separator (SEP): The symbol ;.<br><br>6. Comparison Operator (COMP): The symbol $&lt;=$.<br><br>7. Parenthesis (PAREN): The symbols ( and ).<br><br>8. Whitespace: Ignored.</p><p>The lexical analyzer uses the longest match rule and prioritizes multi-character tokens (like := , &lt;=) over single-character tokens (like $=\\ll$ ).</p><p>How many tokens are generated from the following input expression?</p><p>$$<br>\\operatorname{var} 1:=\\mathrm{x}&lt;=10^*(\\mathrm{y}+2) ;<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathbf{1 2}$&nbsp;<br>&nbsp;</li><li>$\\mathbf{1 3}$&nbsp;<br>&nbsp;</li><li>$\\mathbf{1 4}$&nbsp;<br>&nbsp;</li><li>$\\mathbf{1 5}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 157"
+        },
+        {
+          "post_id": "503430",
+          "text": "<p>Consider the grammar defined by the following production rules, with three operators: ⊕ (circle plus), $\\ominus$ (circle minus), and $\\odot$ (dot operator). The terminal value represents a numerical value.</p><ul><li>$P \\rightarrow Q \\oplus P \\mid Q$<br>&nbsp;</li><li>$Q \\rightarrow Q \\ominus R \\mid R$<br>&nbsp;</li><li>$R \\rightarrow$ value $\\odot R \\mid$ value</li></ul><p>Which one of the following statements about the operators $\\oplus, \\ominus$, and $\\odot$ is TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The $\\ominus$ operator has the lowest precedence (is evaluated last).&nbsp;<br>&nbsp;</li><li>The $\\oplus$ operator is left associative.&nbsp;<br>&nbsp;</li><li>The precedence order is $\\odot&gt;\\ominus&gt;\\oplus$.&nbsp;<br>&nbsp;</li><li>The $\\odot$ operator is left associative.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 157"
+        }
+      ]
+    }
+  ]
+}

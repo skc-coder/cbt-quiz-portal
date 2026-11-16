@@ -1,0 +1,132 @@
+{
+  "name": "GO Classes CS/DA | DBMS | Relational Model | Weekly Quiz 1",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 10,
+  "total_qs_two": 0,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 10,
+  "total_marks": 10,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 10,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "428434",
+          "text": "<p>If every functional dependency in set $E$ is also in closure of $F$ then this is classified as</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$FD$ is covered by $E$</li><li>$E$ is covered by $F$</li><li>$F$ is covered by $E$</li><li>$F$ plus is covered by $E$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq11,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428429",
+          "text": "The maximum number of superkeys for the relation schema $R(E,F,G,H)$ with $E$ as the key is ---",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_csda_wq11,numerical-answers,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428431",
+          "text": "<p>The employee salary should not be greater than Rs.$2000$. This is</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>integrity constraint</li><li>referential constraint</li><li>over-defined constraint</li><li>feasible constraint</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq11,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428433",
+          "text": "<p>Rule which states that addition of same attributes to right side and left side will result in other valid dependency is classified as</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>referential rule</li><li>inferential rule</li><li>augmentation rule</li><li>reflexive rule</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq11,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428430",
+          "text": "<p>A primary key, if combined with a foreign key creates</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>parent child relationship between the tables that connect them</li><li>many-to-many relationship between the tables that connect them</li><li>network model&nbsp;between the tables that connect them</li><li>none of these</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq11,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428439",
+          "text": "<p>The primary key is selected from the:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Composite keys</li><li>Determinants</li><li>Candidate keys</li><li>Foreign keys</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq11,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428432",
+          "text": "<p>If $R$ is a relation in Relational Data Model and $A_1,A_2,\\dots&nbsp;A_n$ are the attributes of relation $R$, what is the cardinality of $R$ expressed in terms of domain of attributes?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$\\mid&nbsp;R\\mid\\leq\\mid \\text{ dom }(A_1) \\times \\text{ dom }(A_2)\\dots&nbsp;\\text{ dom }(A_n)\\mid$</li><li>$\\mid&nbsp;R\\mid\\geq\\mid&nbsp;\\text{ dom }(A_1)\\times \\text{ dom }​​​​​​​(A_2)\\dots&nbsp;\\text{ dom }​​​​​​​(A_n)\\mid$</li><li>$\\mid R \\mid = \\text{ max } ( \\mid \\text{dom}(A_1 ) \\mid, \\mid \\text{ dom }(A_2) \\mid , \\dots \\mid \\text{ dom } (A_n) \\mid) $</li><li>$\\mid R \\mid = \\text{ min } ( \\mid \\text{dom}(A_1 ) \\mid, \\mid \\text{ dom }(A_2) \\mid , \\dots \\mid \\text{ dom } (A_n) \\mid)$​​​​​​​</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq11,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428437",
+          "text": "<p>Let $\\text{R=(A,B,C,D,E)}$ having following $\\text{FDs}.\\;\\text{F}=\\{\\text{A}\\rightarrow&nbsp;\\text{BC, CD} \\rightarrow&nbsp;\\text{E, B}\\rightarrow&nbsp;\\text{D, E}\\rightarrow&nbsp;\\text{A}\\}.$</p><p>Which of the following is not a Candidate key?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$\\text{A}$</li><li>$\\text{B}$</li><li>$\\text{E}$</li><li>$\\text{BC}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq11,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428436",
+          "text": "<p>A minimal super key (i.e, one of the super keys for which no proper subset is a superkey) is called:</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>Super Key</li><li>Candidate Key</li><li>Primary Key</li><li>Both Candidate and Primary Key</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq11,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428435",
+          "text": "<p>A functional dependency of the form $x\\to&nbsp;y$ is trivial if</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$y\\subseteq x$</li><li>$y\\subset x$</li><li>$x\\subseteq y$</li><li>$x\\subset y\\:\\text{and}\\:y\\subset x$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_csda_wq11,goclasses,databases,one-mark",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "name": "GO Classes Test Series 2023 | Data Structures | Test 5",
+  "duration": "75",
+  "total_qs": "25",
+  "total_qs_one": 10,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 25,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 25,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "376400",
+          "text": "<p>Consider a $k$-bit hash function $h:\\{0,1\\}^\\ast \\rightarrow\\{0,1\\}^ \\mathrm{k}$. Where $\\{0,1\\}^\\ast $ represents a set of all binary bit strings and $\\{0,1\\}^ \\mathrm{k}$ represents a set of binary bit strings of length $\\mathrm{k}$.<br>\nAssume h operates ideally in the sense that each distinct input to h is mapped to a random member of $\\{0,1\\}^ \\mathrm{k}$. Assume an attacker has some k-bit binary string $\\mathrm{c}$ and is trying to find a message $m$, such that $h(m)=c$. How does the expected number of tries (evaluations of h) before the attacker succeeds grow with respect to k?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$O\\left(2^{\\mathrm{k}}\\right)$</li>\n\t<li>$O\\left(2^{\\sqrt{k}}\\right)$</li>\n\t<li>$O\\left(2^{(\\mathrm{k} / 2)}\\right)$</li>\n\t<li>$O\\left(2^{\\log k}\\right)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376394",
+          "text": "<p>Consider the following hash table implemented with linear probing and hash function $h(x)=$ $x \\bmod 11 .$</p>\n\n<p><img alt=\"\" height=\"69\" src=\"data:image/png;base64,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\" width=\"452\"><br>\nWhat will be the average number of probes in search of keys in sequence $2,13,35 ?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$7 / 3$</li>\n\t<li>$8 / 3$</li>\n\t<li>$3$</li>\n\t<li>$1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,linear-probing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376402",
+          "text": "<p>Consider a hash table with $m$ slots that uses chaining for collision resolution. The table is initially empty. What is the probability that after $4$ keys are inserted that at least a chain of size $3$ is created?</p>\n\n<ol class=\"shrink-inline-options\" style=\"list-style-type:upper-alpha\">\n\t<li>$\\dfrac{4 m-3}{m^{3}}$</li>\n\t<li>$m^{-4}$</li>\n\t<li>$m^{-3}(m-1)$</li>\n\t<li>$m^{-2}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-cs-ds-5,goclasses,algorithms,hashing,chaining,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376411",
+          "text": "<p>Consider a hash table of $9$ slots implemented with linear probing. Suppose we insert $2$ elements in a sequence to a hash table with a simple uniform hashing assumption. What is the probability that we end up with $2$ consecutive slots of the hash table filled?<br>\n<br>\nSlot $i$ and $(i+1) \\text{mod m}$ are defined to be consecutive slots.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$1/2$</li>\n\t<li>$1/3$</li>\n\t<li>$1/4$</li>\n\t<li>$2/3$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-cs-ds-5,goclasses,algorithms,hashing,linear-probing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376419",
+          "text": "<p>Suppose $\\mathrm{M}$ randomly selected keys are hashed into the range $[0\\ldots&nbsp;\\text{N}-1]$ using a uniformly distributed hashing function. What is the probability that all $\\text{M}$ keys yield the same hash value (so all $\\text{M}$ keys collide at the same slot$)?$</p>\n\n<ol class=\"shrink-inline-options\" style=\"list-style-type:upper-alpha\">\n\t<li>$\\dfrac{1}{\\text{N}^{\\text{M}-1}}$</li>\n\t<li>$\\dfrac{1}{\\text{N}^{\\text{M}}}$</li>\n\t<li>$\\dfrac{\\text{M}}{\\text{N}^{\\text{M}}}$</li>\n\t<li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-cs-ds-5,goclasses,algorithms,hashing,uniform-hashing,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376413",
+          "text": "Assuming the simple uniform hashing is implemented into a hash table with $m= 3$ slots. What is the probability for a key to map to slot $1$ given that key does not map to slot $0?$",
+          "type": "Numerical",
+          "answer": "0.5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-ds-5,numerical-answers,goclasses,algorithms,hashing,uniform-hashing,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376388",
+          "text": "<p>Let $|U|=\\mathrm{m}^ 2$ and consider hashing with chaining. Where $\\mathrm{m}$ is size of hashtable.<br>\nFor any randomly picked hash function (need not to be uniform) $\\mathrm{h}: U&nbsp;\\rightarrow\\{0,1,2, \\ldots, \\mathrm{m}-1\\}$, which of the following is/are true?<br>\n(Hint: pigeonhole principle)</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>There exists a sequence of $m$ insertions that leads to a chain of length $m$.</li>\n\t<li>There exists a sequence of $m+1$ insertions that leads to a chain of length $m+1$.</li>\n\t<li>There exists a sequence of $m-1$ insertions that leads to a chain of length $m-1$.</li>\n\t<li>There exists a sequence of $m$ insertions that leads to a chain of length $m-1$.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,chaining,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376390",
+          "text": "<p>Suppose that you store $\\mathrm{n}$ records in a hash table of size $\\mathrm{m}$ by chaining, where $\\mathrm{m}&gt;\\mathrm{n}$, and suppose that you have a good hash function so that the probability that a key is hashed into any of the $\\mathrm{m}$ slots is $1 / \\mathrm{m}$. Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>For a particular slot in the hash table, the probability that a particular key does not hash into that slot is $1-1 / \\mathrm{m}$</li>\n\t<li>For a particular slot in the hash table, the probability that this slot is empty, that is, none of the $n$ keys hashes into this slot is $(1-1 / \\mathrm{m})^ \\mathrm{n}$</li>\n\t<li>If $k_{i} \\geq 1$ is the length of the chain in ith slot then the total number of collisions in ith slot is $k_{i}$.</li>\n\t<li>If open addressing is used and we randomly hit one of the slot, the probability that a hitted slot is empty is $(m-n) / m$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,chaining,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376417",
+          "text": "<p>Suppose $k$ randomly selected keys are hashed into the range $[0 \\ldots n-1]$ using a uniformly distributed hashing function. Assume that $k \\leq n$. What is the probability that all $k$ keys yield distinct hash values (so no collisions occur)?</p>\n\n<ol class=\"shrink-inline-options\" style=\"list-style-type:upper-alpha\">\n\t<li>$\\dfrac{(n-1) !}{(n-k) ! n^{k-1}}$</li>\n\t<li>$\\dfrac{(n-1) !}{(n-(k-1)) ! n^{k}}$</li>\n\t<li>$\\dfrac{n !(k-1)}{(n-(k-1)) ! n^{k}}$</li>\n\t<li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-cs-ds-5,goclasses,algorithms,hashing,uniform-hashing,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376404",
+          "text": "<p>Suppose you insert three keys into a hash table with $m$ slots. Assuming the simple uniform hashing assumption, and given that collisions are resolved by chaining, what is the probability that both slots $0$ and $1$ are empty?</p>\n\n<ol class=\"shrink-inline-options\" style=\"list-style-type:upper-alpha\">\n\t<li>$((m-2) / m)^ 3$</li>\n\t<li>$((m-3) / m)^ 3$</li>\n\t<li>$(m / m-1)^ 3$</li>\n\t<li>$((m-2) /(m-1))^ 3$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-cs-ds-5,goclasses,algorithms,hashing,uniform-hashing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376403",
+          "text": "<p>Mark all the CORRECT options.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>If there are empty slots in hash table, Upon insertion into a linear probing hash table, we always find a place to insert in some probe number.</li>\n\t<li>If there are empty slots in hash table, Upon insertion into a quadratic probing hash table, we always find a place to insert in some probe number.</li>\n\t<li>If there are empty slots in hash table, Upon insertion into a separate chaining hash table, we always find a place to insert in some probe number.</li>\n\t<li>The load factor of a hash table is always $\\leq 1.$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,linear-probing,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376378",
+          "text": "<p>Consider the below code which is an implementation of separate chaining, where st is a&nbsp;hashtable containing pointers to chain (linked list).<br>\nEvery node of the linked list is of type struct Node containing a pointer to the next node along with the key, and value pair.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nstruct Node {\n    int key;\n    int val;\n    struct Node *next;\n};\nstruct Node* st[50];\n</pre>\n\n<p>Let sizes be as follows:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nsizeof(struct Node) = 16\nsizeof(struct Node*) = 8\nsizeof(int) = 4\n</pre>\n\n<p>After $N$ number of keys has&nbsp;been inserted into the hash table implementation, it is observed that the average chain length in the implementation is $4.0.$<br>\nNow consider we implement a linear-probing hash table with the same amount of memory as a separate chaining hash table has after $N$ insertions.<br>\nThe linear-probing hash table is implemented with $2 D$ array with $2$ columns for key and value respectively.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint LP[M][2];</pre>\n\n<p>What will be the value of $M$?</p>",
+          "type": "Numerical",
+          "answer": "450",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-ds-5-weekly-quiz,numerical-answers,goclasses,algorithms,hashing,chaining,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376406",
+          "text": "<p>An open-addressing hash table(with $m$ slots)&nbsp;that resolves collisions using linear probing is initially empty. Key $k 1$ is inserted into the table first, followed by $k 2,$ and then $k 3$ (the keys themselves are drawn randomly from a universal set of keys).</p>\n\n<p>What is the probability that searching for $k 1$ takes exactly two probes?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$(m-2) / m)^ 3$</li>\n\t<li>$3 / m^ 2$</li>\n\t<li>$2 / m^ 2$</li>\n\t<li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-cs-ds-5,goclasses,algorithms,hashing,linear-probing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376421",
+          "text": "Consider an open-address hash table with uniform hashing. What is the minimum integer upper bound on the expected number of probes in an unsuccessful search when the load factor is $3 / 4$.",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-ds-5,numerical-answers,goclasses,algorithms,hashing,uniform-hashing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376396",
+          "text": "<p>Consider an implementation of a hash table of $n$&nbsp;slots with linear probing. Suppose we insert three keys in a row then, what is the probability that the $4$th element requires $4$ probes (3 unsuccessful and last one successful)?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$12/n^2$</li>\n\t<li>$16/n^3$</li>\n\t<li>$16/n^2$</li>\n\t<li>$4/n^2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,linear-probing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376386",
+          "text": "<p>Suppose that the universe $U$ of possible keys is $\\left\\{0,1, \\ldots, n^{2}-1\\right\\}$.<br>\nFor a hash table of size $n$, and a given key k, what is the greatest number of possible probe sequences with each of these collision resolution strategies in open addressing?<br>\nA probe sequence is a sequence of probes during insertion of a key. For example, suppose, in linear probing, for a given key $h(k)=3$ then the probe sequence will be $3,4,5, \\ldots \\ldots . n, 0,1,2$.<br>\nMark all options which are TRUE.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>For any given key, Linear probing can have at most $n$ probe sequences possible.</li>\n\t<li>For any given key, Quadratic probing can have at most $2 n$ probe sequences possible.</li>\n\t<li>For any given key, Double hashing can have at most $n^ 2$ probe sequences possible.</li>\n\t<li>For any given key, Quadratic probing can have at most $\\mathrm{n}^ 2$ probe sequences possible.</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,linear-probing,multiple-selects,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376398",
+          "text": "<p>Suppose we implement linear probing with the hash function $h(x) = x \\mod 9.$ After inserting $7$ keys, the table is shown as below:<br>\n<strong><img alt=\"\" height=\"121\" src=\"https://lh4.googleusercontent.com/rvuD_mCCvueoSLskOknfT5OlHrS84O0oGbNy_LSi7DuMLTlv7_1gw4bDfRj3ZoDSeIWA-ADc2CbkP8aq-3MfbLeJjAliChUceiVyhkaQ6jDIGwtKSt50jkP0EM-sDkfctRcuMhcmxx21D6FBNQ\"></strong><br>\nHow many total insertion orders of keys are possible to reach the above state of the hash table?</p>\n\n<p>For example, two possible insertion orders are -</p>\n\n<ul>\n\t<li>$12, 14, 3, 9, 4, 18, 21$ and</li>\n\t<li>$9, 12, 14, 3, 4, 21, 18$</li>\n</ul>",
+          "type": "Numerical",
+          "answer": "63",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-ds-5,numerical-answers,goclasses,algorithms,hashing,linear-probing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376380",
+          "text": "<p>Under the simple uniform hashing assumption, the probability that three specific data elements (say $1, 2$ and $3$) hash to the same slot $(i.e., h(1) = h(2) = h(3))$ is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$1/m^2$</li>\n\t<li>$1/m^3$</li>\n\t<li>$3/m^2$</li>\n\t<li>$3/m^3$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,uniform-hashing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376415",
+          "text": "If we have a linear probe hash table of size $\\text{M}=30,$ and a cluster of size $\\text{C}=14,$ the probability that a random key will be inserted into the location immediately after the cluster is __________.",
+          "type": "Numerical",
+          "answer": "0.5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-cs-ds-5,numerical-answers,goclasses,algorithms,hashing,linear-probing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376408",
+          "text": "<p>The collision resolution strategy of using auxiliary linked lists for bucket overflows is which of the following?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Linear probing</li>\n\t<li>Quadratic probing</li>\n\t<li>Double hashing</li>\n\t<li>Separate chaining</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,linear-probing,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376382",
+          "text": "A hash function $h$ maps $16$-bit inputs to $8$-bit hash values. What is the largest $k$ such that in any set of $1,000$ inputs, there are at least $k$ inputs that $h$ maps to the same hash value?\n(Hint Pigeonhole principle)",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2024-ds-5-weekly-quiz,numerical-answers,goclasses,algorithms,hashing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376409",
+          "text": "<p>Suppose we hash $n=10$ items into $m=5$ buckets with a perfect hash function. What is the probability that exactly one items maps to slot $1?$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$2\\left(\\frac{4}{5}\\right)^{9}$</li>\n\t<li>$\\frac{1}{5}\\left(\\frac{4}{5}\\right)^{9}$</li>\n\t<li>$\\frac{1}{2}\\left(\\frac{4}{5}\\right)^{9}$</li>\n\t<li>$\\frac{1}{10}\\left(\\frac{4}{5}\\right)^{9}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,one-mark",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376379",
+          "text": "<p>Suppose a chaining strategy is being used for collision resolution.<br>\nWhat Is The Expected Number Of Empty Slots When We Hash $3$ Items Into A Hash Table With $5$ Slots? Assume simple uniform hashing is used.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$5\\left(\\frac{4}{5}\\right)^{3}$</li>\n\t<li>$5\\left(\\frac{1}{5}\\right)^{3}$</li>\n\t<li>$4\\left(\\frac{4}{5}\\right)^{3}$</li>\n\t<li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,uniform-hashing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376384",
+          "text": "<p>Consider a hash function $\\mathrm{h}: \\mathrm{U} \\rightarrow\\{0,1,2, \\ldots, \\mathrm{m}-1\\}$ which is selected uniformly randomly from a set of hash functions possible from $U \\rightarrow\\{0,1,2, \\ldots, m-1\\}$. Let $m=2$ and $|U|=4$. What is the probability that it is a perfectly balanced hash function? perfectly balanced hash function is a function which maps $|U| / m$ keys to every slot.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$1 / 2$</li>\n\t<li>$3 / 8$</li>\n\t<li>$1 / 16$</li>\n\t<li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2024-ds-5-weekly-quiz,goclasses,algorithms,hashing,uniform-hashing,two-marks",
+          "category": "Algorithms"
+        },
+        {
+          "contents": "",
+          "post_id": "376392",
+          "text": "<p>Consider a hash table with $n$ buckets, where external (overflow) Chaining is used to resolve collisions. The hash function is such that the probability that a key value is hashed to a particular bucket is $1/n $.</p>\n\n<p>The hash table is initially empty and $k$ distinct values are inserted in the table. What is the probability that the first collision occurs at the $k^{\\text{th}}$&nbsp;insertions?</p>\n\n<ol class=\"shrink-inline-options\" style=\"list-style-type:upper-alpha\">\n\t<li>$\\dfrac{(n-1) !}{(n-k) ! \\;n^{k-1}}$</li>\n\t<li>$\\dfrac{(n-1) !}{(n-(k-1)) ! \\;n^{k}}$</li>\n\t<li>$\\dfrac{n !(k-1)}{(n-(k-1)) ! \\;n^{k}}$</li>\n\t<li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-cs-ds-5,goclasses,algorithms,hashing,chaining,two-marks",
+          "category": "Algorithms"
+        }
+      ]
+    }
+  ]
+}

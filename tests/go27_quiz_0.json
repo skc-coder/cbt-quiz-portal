@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_0",
+  "name": "GO Classes CS/DA | Linear Algebra | Weekly Quiz 5",
+  "duration": "40",
+  "total_qs": "15",
+  "total_qs_one": 9,
+  "total_qs_two": 6,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 21,
+  "total_marks": 21,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 21,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "474190",
+          "text": "<p>Pick out the true statements from the following:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>For any two $n \\times n$ matrices $A$ and $B$,<br>$$<br>(A+B)^{2}=A^{2}+2 A B+B^{2}<br>$$</li><li>There exist $n \\times n$ matrices $A$ and $B$ such that<br>$$<br>A B-B A=I<br>$$</li><li>For any invertible $n \\times n$ matrix $B$, and any matrix $A$.<br>$$<br>\\operatorname{tr}(A)=\\operatorname{tr}\\left(B^{-1} A B\\right)<br>$$</li><li>If $A$ is a real symmetric matrix, then all its eigenvalues are real.</li></ol><p> </p>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq23,goclasses,linear-algebra,two-marks,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474178",
+          "text": "<p>Let $A \\in \\mathbb{R}^{m \\times n}$ be a real matrix of rank $m$, where $n&gt;m$. Suppose that for some real number $\\alpha$, the following holds:<br>$$<br>A A^{\\top}=\\alpha I_{m}<br>$$<br>Then, which of the following statements about<br>$A^{\\top} A \\in \\mathbb{R}^{n \\times n}$ are true?</p><ol style=\"list-style-type:upper-alpha\"><li>$A^{\\top} A$ has exactly zero distinct eigenvalues<br> </li><li>$A^{\\top} A$ has eigenvalue 0 with multiplicity$n-m$<br> </li><li>$\\alpha$ is an eigenvalue of $A^{\\top} A$ with multiplicity at least $n-2$<br> </li><li>$A^{\\top} A$ has exactly two distinct eigenvalues</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq23,goclasses,linear-algebra,one-mark,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474199",
+          "text": "<p>Which of the following statements are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>There exists a $2 \\times 2$ real orthogonal matrix that has 2 as an eigenvalue.<br> </li><li>There exists a $2 \\times 2$ real orthogonal matrix&nbsp; that has $i$ as an eigenvalue.<br> </li><li>If $A \\in \\mathbb{R}^{2 \\times 2}$ is orthogonal, then $\\|A x\\|=\\|x\\|$ for every $x \\in \\mathbb{R}^{2}$, where $\\|\\cdot\\|$ denotes the length of a vector.<br> </li><li>If $A \\in \\mathbb{R}^{2 \\times 2}$ is orthogonal, then all its eigenvalues are real.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq23,goclasses,linear-algebra,two-marks,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474184",
+          "text": "<p>Let $A$ be a $4 \\times 4$ real matrix with eigenvalues $-1,1,1,-2$. Define<br>$$<br>B=A^{4}-5 A^{2}+5 I<br>$$<br>Then the value of $\\operatorname{tr}(A+B)$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>&nbsp;$0$<br> </li><li>$-12$<br> </li><li>$3$<br> </li><li>$9$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq23,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474182",
+          "text": "<p>Let $A$ be an $n \\times n$ real matrix such that the set of all its non-zero eigenvalues has exactly $r$ elements. Which of the following statements is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\operatorname{rank}(A) \\leq r$<br> </li><li>If $r=0$, then $\\operatorname{rank}(A)&lt;n-1$<br> </li><li>$\\operatorname{rank}(A) \\geq r$<br> </li><li>$A^2$ has $r$ non-zero eigenvalues</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq23,linear-algebra,two-marks,goclasses",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474180",
+          "text": "<p>Let $A$ and $B$ be $n \\times n$ real matrices, and let<br>$$<br>C=\\left(\\begin{array}{ll}<br>A &amp; B \\\\<br>B &amp; A<br>\\end{array}\\right)<br>$$<br>Which of the following statements are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If $\\lambda$ is an eigenvalue of $A+B$, then $\\lambda$ is an eigenvalue of $C$.</li><li>If $\\lambda$ is an eigenvalue of $A-B$, then $\\lambda$ is an eigenvalue of $C$.</li><li>If $\\lambda$ is an eigenvalue of $A$ or $B$, then $\\lambda$ is an eigenvalue of $C$.</li><li>All eigenvalues of $C$ are real.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq23,goclasses,linear-algebra,two-marks,multiple-selects",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474205",
+          "text": "<p>Let<br>$$<br>A=\\left[\\begin{array}{ll}<br>a &amp; b \\\\<br>c &amp; d<br>\\end{array}\\right]<br>$$<br>be a $2 \\times 2$ real matrix. Which of the following is a necessary and sufficient condition for $A$ not to have a real eigenvalue?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(a-d)^{2}+&nbsp;b c&lt;0$<br> </li><li>$(a+d)^{2}-4(a d-b c)&lt;0$<br> </li><li>$a d-b c&lt;0$<br> </li><li>$a^{2}+d^{2}&lt;4 b c$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq23,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474196",
+          "text": "<p>Let $\\mathbf{x}$ and $\\mathbf{y}$ be two non-zero $n \\times 1$ column vectors. Let $A=\\mathbf{x} \\mathbf{y}^{T}$ be an $n \\times n$ matrix. What are the eigenvalues of $A$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>All eigenvalues are zero.<br> </li><li>Exactly one eigenvalue is $\\mathbf{y}^{T} \\mathbf{x}$, and the rest are zero.<br> </li><li>All eigenvalues are equal to $\\mathbf{y}^{T} \\mathbf{x}$.<br> </li><li>The eigenvalues are $\\|\\mathbf{x}\\|\\|\\mathbf{y}\\|$ and $n-1$ zeros.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq23,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474201",
+          "text": "<p>Let $A=\\left(a_{i j}\\right)$ be a real $3 \\times 3$ matrix such that<br>$$<br>a_{i j}=-a_{j i} \\quad \\text { for all } 1 \\leq i, j \\leq 3<br>$$<br>Suppose $3 i$ is an eigenvalue of $A$. What are the other eigenvalues of $A$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$-3 i$ and $0$<br> </li><li>$3 i$ and $-3 i$<br> </li><li>$-3 i$ and $3$<br> </li><li>$3$ and $-3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq23,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474194",
+          "text": "<p>Let $M$ be a real symmetric $3 \\times 3$ matrix that admits the vectors<br>$$<br>\\mathbf{v}_{1}=(1,2,3)^{T} \\quad \\text { and } \\quad \\mathbf{v}_{2}=(1,1,-1)^{T}<br>$$<br>as eigenvectors.<br><br>Which of the following vectors is surely an eigenvector of $M$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(1,-1,0)^{T}$<br> </li><li>$(-5,1,1)^{T}$<br> </li><li>$(3,2,1)^{T}$<br> </li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq23,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474203",
+          "text": "<p>Find the values of $\\alpha \\in \\mathbb{R}$ such that the matrix<br>$$<br>\\left[\\begin{array}{ll}<br>3 &amp; \\alpha \\\\<br>\\alpha &amp; 5<br>\\end{array}\\right]<br>$$<br>has 2 as an eigenvalue.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\alpha= \\pm 1$<br> </li><li>$\\alpha= \\pm \\sqrt{2}$<br> </li><li>$\\alpha= \\pm \\sqrt{3}$<br> </li><li>$\\alpha= \\pm 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq23,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474186",
+          "text": "Let $A$ be a real $3 \\times 3$ upper triangular matrix with diagonal entries $1,2,-3$.\nSuppose $A^{-1}$ can be written as a linear combination of $I, A, A^{2}$, i.e.,\n$$\nA^{-1}=\\alpha I+\\beta A+\\gamma A^{2}\n$$\nFind the value of $12(\\alpha+\\beta+\\gamma)$.",
+          "type": "Numerical",
+          "answer": "12",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq23,numerical-answers,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474188",
+          "text": "Let $A$ be a $3 \\times 3$ matrix with eigenvalues $-1,1,2$.\nSuppose there exist real scalars $\\alpha, \\beta, \\gamma$ such that:\n$$\nA^{-1}=\\alpha A^{2}+\\beta A+\\gamma I\n$$\nThen find the value of:\n$$\n\\alpha+\\beta+\\gamma=?\n$$",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_wq23,numerical-answers,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474197",
+          "text": "<p>Let $x \\in \\mathbb{R}^{n}$ be a non-zero column vector, and define<br>$$<br>A=x x^{T}<br>$$<br>What is the necessary and sufficient condition for the matrix<br>$$<br>Q=I-2 A<br>$$<br>to be an orthogonal matrix?</p><ol style=\"list-style-type:upper-alpha\"><li>$x$ is an eigenvector of $A$</li><li>$x$ is a unit vector (i.e., $\\|x\\|=1$ )</li><li>$x$ has all entries equal to $1$</li><li>$\\|x\\|=0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq23,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "474192",
+          "text": "<p>Given that the matrix<br>$$<br>A=\\left(\\begin{array}{ll}<br>\\alpha &amp; 1 \\\\<br>2 &amp; 3<br>\\end{array}\\right)<br>$$<br>has 1 as one of its eigenvalues, what are the trace and determinant of the matrix?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Trace $=4$, Determinant $=5$<br> </li><li>Trace $=5$, Determinant $=4$<br> </li><li>Trace $=6$, Determinant $=3$<br> </li><li>Trace $=3$, Determinant $=6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq23,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        }
+      ]
+    }
+  ]
+}

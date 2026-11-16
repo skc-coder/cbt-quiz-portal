@@ -1,0 +1,70 @@
+{
+  "name": "Day 76 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "484339",
+          "text": "<p>A magnetic disk has the following specifications:</p><ul><li>Number of recording surfaces $=8$</li><li>Number of tracks per surface $=20,000$</li><li>Number of sectors per track = 400</li><li>Sector size $=1 \\mathrm{~KB}$</li><li>Disk rotation speed $=6000 \\mathrm{rpm}$</li></ul><p>The disk controller uses cycle stealing DMA mode. In this mode, whenever a byte is ready, it transfers it to memory directly (or reads a byte from memory in case of a write). The memory has a cycle time of $100$ ns.</p><p>Assume continuous data transfer is possible once the head is positioned at the beginning of a track.</p><p>The maximum fraction of CPU time that can be blocked during a DMA transfer is ____________ $\\%$.</p>",
+          "type": "Numerical",
+          "answer": "100",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 76"
+        },
+        {
+          "post_id": "484344",
+          "text": "<p>Which of the following addressing modes is best suited to access elements of an array of contiguous memory locations?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Indexed addressing mode<br>&nbsp;</li><li>Base Register addressing mode<br>&nbsp;</li><li>Relative address mode<br>&nbsp;</li><li>Displacement mode</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 76"
+        },
+        {
+          "post_id": "484337",
+          "text": "<p>The range of representable normalized numbers in IEEE-754 floating-point binary fractional representation but with <strong>bias=128 </strong>using a $32$-bit word is $$2^a to \\left(2-2^b\\right) \\times 2^c$$</p><p>The value of $a+b+c$ is ______________ .</p>",
+          "type": "Numerical",
+          "answer": "-24",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 76"
+        },
+        {
+          "post_id": "484336",
+          "text": "<p>The decimal floating-point number $-40.1$, when represented using the IEEE-754 single-precision $(32-bit)$ format and expressed in hexadecimal notation, equals:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0 x \\mathrm{C}2206000$<br>&nbsp;</li><li>$0 x \\mathrm{C}2006666$<br>&nbsp;</li><li>$0 x \\mathrm{C}2006000$<br>&nbsp;</li><li>$0 x \\mathrm{C} 2206666$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 76"
+        },
+        {
+          "post_id": "484342",
+          "text": "A computer system uses DMA in cycle stealing mode. The DMA controller transfers one $8$-bit character in a single memory cycle from an I/O device to main memory at fixed intervals. The processor clock cycle is $20$ ns. If every $50$ processor cycles, one cycle is stolen by the DMA for data transfer, the effective data transfer rate of the device is ___________ $\\mathrm{X} 10^6$ bytes per second.",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 76"
+        }
+      ]
+    }
+  ]
+}

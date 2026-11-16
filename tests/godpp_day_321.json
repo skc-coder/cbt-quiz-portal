@@ -1,0 +1,70 @@
+{
+  "name": "Day 248 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543765",
+          "text": "<p data-start=\"669\" data-end=\"700\">You are given an initial array:</p><p data-start=\"702\" data-end=\"724\">$[22,10,14,37,14,4,3]$</p><p data-start=\"726\" data-end=\"842\">For the following array, indicate which sorting algorithm could produce this state after an iteration has completed:</p><p data-start=\"844\" data-end=\"866\">$[3,4,14,37,14,10,22]$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"868\" data-end=\"931\">Insertion sort<br>&nbsp;</li><li data-start=\"868\" data-end=\"931\">Selection sort<br>&nbsp;</li><li data-start=\"868\" data-end=\"931\">Radix sort<br>&nbsp;</li><li data-start=\"868\" data-end=\"931\">None</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 248"
+        },
+        {
+          "post_id": "543754",
+          "text": "<p data-start=\"723\" data-end=\"851\">After the first complete pass of Bubble Sort on an array of size $n$, which element is guaranteed to be in its correct position?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"853\" data-end=\"956\">The smallest element<br>&nbsp;</li><li data-start=\"853\" data-end=\"956\">The largest element<br>&nbsp;</li><li data-start=\"853\" data-end=\"956\">A randomly chosen element<br>&nbsp;</li><li data-start=\"853\" data-end=\"956\">The middle element</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 248"
+        },
+        {
+          "post_id": "543761",
+          "text": "<p data-start=\"5082\" data-end=\"5152\">Which algorithm-design strategies can reasonably describe Bubble Sort?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5154\" data-end=\"5255\">Greedy<br>&nbsp;</li><li data-start=\"5154\" data-end=\"5255\">Brute force<br>&nbsp;</li><li data-start=\"5154\" data-end=\"5255\">Decrease-and-conquer<br>&nbsp;</li><li data-start=\"5154\" data-end=\"5255\">Divide-and-conquer<br>&nbsp;</li><li data-start=\"5154\" data-end=\"5255\">Dynamic programming</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 248"
+        },
+        {
+          "post_id": "543758",
+          "text": "<p data-start=\"3670\" data-end=\"3794\">What effect does the initial ordering of the records have on the number of comparisons performed by standard Selection Sort?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3796\" data-end=\"3905\">No effect<br>&nbsp;</li><li data-start=\"3796\" data-end=\"3905\">Only a constant-factor difference<br>&nbsp;</li><li data-start=\"3796\" data-end=\"3905\">The asymptotic running time can change significantly</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 248"
+        },
+        {
+          "post_id": "543756",
+          "text": "<p data-start=\"2079\" data-end=\"2211\">Suppose Binary Search is used in Insertion Sort to locate where the $i$th element should be inserted among the first $i-1$ elements.</p><p data-start=\"2213\" data-end=\"2272\">What is the worst-case running time of this implementation?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2274\" data-end=\"2352\">$\\Theta(n^2)$<br>&nbsp;</li><li data-start=\"2274\" data-end=\"2352\">$\\Theta(n\\log n)$<br>&nbsp;</li><li data-start=\"2274\" data-end=\"2352\">$\\Theta(n)$<br>&nbsp;</li><li data-start=\"2274\" data-end=\"2352\">$\\Theta(\\log n)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 248"
+        }
+      ]
+    }
+  ]
+}

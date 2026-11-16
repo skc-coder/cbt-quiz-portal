@@ -1,0 +1,70 @@
+{
+  "name": "Day 114 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "493297",
+          "text": "A university department is setting up a new network that uses the CSMA/CD protocol for media access. The network operates at a bandwidth of $100$ Mbps. The design specifies that the minimum size for any frame sent on the network is $128$ bytes. The signal propagation speed through the network cable is $2 \\times 10^8$ meters/second.<br>\n<br>\nTo ensure that the collision detection mechanism works correctly, the maximum permissible length of the cable segment (in meters) is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "1024",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 114"
+        },
+        {
+          "post_id": "493296",
+          "text": "A network link uses the Stop-and-Wait ARQ protocol to transmit data frames. The size of a data frame is $1500$ bytes. The transmission rate from the sender to the receiver is $400$ Kbps. The size of an acknowledgement frame is $100$ bytes, and the transmission rate from the receiver back to the sender is $80$ Kbps. The one-way propagation delay for the link is $80$ milliseconds.<br>\n<br>\nAssuming no frames or acknowledgements are lost, the sender's throughput is $\\_\\_\\_\\_$ bytes/second.<br>\n<br>\n(Note: $1 \\mathrm{Kbps}=10^3$ bits per second)",
+          "type": "Numerical",
+          "answer": "7500",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 114"
+        },
+        {
+          "post_id": "493294",
+          "text": "A client and server establish a TCP connection. The connection has the following characteristics: the round trip time (RTT) is $10$ ms , the slow-start threshold is initially $24$ KB , the receiver's advertised window is $60$ KB, and the maximum segment size (MSS) is $1$ KB . The connection starts at time $t=0$. Assume the connection is always active and there are no packet losses or timeouts.<br>\n<br>\nThe size of the congestion window (in KB) at time $t=70 \\mathrm{~ms}$ will be $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "26",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 114"
+        },
+        {
+          "post_id": "493292",
+          "text": "<p>Two hosts, $X$ and $Y$, have IP addresses $192.168.10.150$ and $192.168.10.175$, respectively. They are on a network that uses a single subnet mask $M$. For $X$ and $Y$ to be on the same subnet, which of the following values for M is/are invalid?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$255,255,255,192$<br>&nbsp;</li><li>$255.255 .255 .224$<br>&nbsp;</li><li>$255.255 .255 .128$<br>&nbsp;</li><li>$255.255 .255 .240$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 114"
+        },
+        {
+          "post_id": "493290",
+          "text": "<p>An Internet Service Provider (ISP) holds a large block of CIDR-based IP addresses: $150.100.0.0/18$. The ISP decides to allocate one-fourth of this block to Organization A and another one-fourth to Organization B, retaining the remaining half for its own customers. Which of the following represents a valid and non-overlapping allocation of address blocks to Organizations A and B ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$150.100 .32 .0 / 20$ and $150.100 .48 .0 / 20$<br>&nbsp;</li><li>$150.100 .32 .0 / 20$ and $150.100 .40 .0 / 22$<br>&nbsp;</li><li>$150.100 .32 .0 / 21$ and $150.100 .48 .0 / 21$<br>&nbsp;</li><li>$150.100.16.0 / 20$ and $150.100.40.0 / 20$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 114"
+        }
+      ]
+    }
+  ]
+}

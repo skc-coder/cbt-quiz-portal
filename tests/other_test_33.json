@@ -1,0 +1,352 @@
+{
+  "name": "Test by Bikram | Databases | Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 0,
+  "total_qs_two": 30,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 60,
+  "total_marks": 60,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 60,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "86626",
+          "text": "<p>&nbsp;<strong><img alt=\"\" height=\"52\" src=\"https://docs.google.com/drawings/d/sHK1PAhdWDF0LUeJdrYGomQ/image?w=73&amp;h=52&amp;rev=1&amp;ac=1\" width=\"73\"></strong><img alt=\"\" height=\"17\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAAbAQMAAADLfHrPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURf///39/f2Jy9YcAAAAaSURBVHjaY6AlkP8PBQ0MAwTsYS54MDD2AwDhqRGvSkVllQAAAABJRU5ErkJggg==\" width=\"58\"><strong><img alt=\"\" height=\"85\" src=\"https://docs.google.com/drawings/d/sg3pYMtYr9mEZEV9y8iuUgA/image?w=59&amp;h=84&amp;rev=1&amp;ac=1\" width=\"59\"></strong><img alt=\"\" height=\"16\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAAbAQMAAADLfHrPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURf///39/f2Jy9YcAAAAaSURBVHjaY6AlkP8PBQ0MAwTsYS54MDD2AwDhqRGvSkVllQAAAABJRU5ErkJggg==\" width=\"55\"><strong><img alt=\"\" height=\"52\" src=\"https://docs.google.com/drawings/d/sGXwvW-98BPNp1_QhsNajUQ/image?w=73&amp;h=52&amp;rev=1&amp;ac=1\" width=\"73\"><img alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAaAQAAAABgWmQyAAAABGdBTUEAALGPC/xhBQAAACFJREFUeNpj+I8EGAaG08AABcxADgMMMOLmoOtBgEHAAQDKqQYTbEqvdwAAAABJRU5ErkJggg==\"> <img alt=\"\" height=\"87\" src=\"https://docs.google.com/drawings/d/srpA7h_3oGtJR7ThfotYIJg/image?w=61&amp;h=79&amp;rev=1&amp;ac=1\" width=\"67\"><img alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAaAQAAAABgWmQyAAAABGdBTUEAALGPC/xhBQAAACFJREFUeNpj+I8EGAaG08AABcxADgMMMOLmoOtBgEHAAQDKqQYTbEqvdwAAAABJRU5ErkJggg==\"><img alt=\"\" height=\"60\" src=\"https://docs.google.com/drawings/d/shE0VGYLUmF2JdZo-LT8rDQ/image?w=63&amp;h=60&amp;rev=1&amp;ac=1\" width=\"63\"></strong></p>\n\n<p>What is the minimum number of tables required to represent this E-R diagram in the relational model? Considering that &nbsp;for both R1 and R2 cardinality is $1:1$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2$</li>\n    <li>$3$</li>\n    <li>$4$</li>\n    <li>$5$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,er-diagram,relational-model,database-design",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86627",
+          "text": "<p>Under what condition does the selection operation distribute over theta join operation?</p>\n\n<p>Let $R$ and $S$ are two relations then which one of the following statements about the above condition is TRUE?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>$\\sigma C&nbsp;(R \\bowtie&nbsp;S) \\equiv&nbsp; (\\sigma C1&nbsp;(R)) \\bowtie (\\sigma C2&nbsp;(S))$</li>\n    <li>$\\sigma C&nbsp;(R \\bowtie S) \\equiv (\\sigma C&nbsp;(R)) \\bowtie&nbsp;S$</li>\n    <li>$\\sigma C&nbsp;(R \\bowtie S ) \\equiv \\sigma C2&nbsp;( (\\sigma C1&nbsp;(R)) \\bowtie S)$</li>\n    <li>$\\sigma C&nbsp;(R \\bowtie&nbsp;S ) \\equiv &nbsp;\\sigma C1&nbsp;( &nbsp;R \\bowtie (\\sigma C2&nbsp; (S)))$</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>i, iii</li>\n    <li>i, ii, iii, iv</li>\n    <li>ii, iii</li>\n    <li>i, ii</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,relational-algebra,databases,query",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86628",
+          "text": "<p>Suppose that the transaction T1 and T2 access the same database items.</p>\n\n<p>$$\\begin{array}{|l|l|} \\hline T1 &amp; T2 \\\\ \\hline \\text{read(X)} &amp; {} \\\\&nbsp;X=X-N &amp; {} \\\\ \\hline {} &amp; \\text{read(X)} \\\\ {} &amp; X=X+N \\\\ \\hline \\text{write(X)} &amp; {} \\\\ \\hline {} &amp; \\text{write (X)} \\\\ \\hline \\end{array}$$</p>\n\n<p>Which one of the following statements is correct about these two transactions?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Dirty Read will occur</li>\n    <li>Lost update will occur</li>\n    <li>Both T1 and T2 are serial schedule</li>\n    <li>This is an example of uncommitted data problem</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,transaction-and-concurrency",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86629",
+          "text": "<p><img alt=\"\" src=\"data:image/png;base64,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\"></p>\n\n<p>Each dealer owns one or more cars and each car is owned by at-most one dealer. If Dealer table&nbsp;has $20$ tuples and Cars table has $60$ tuples then owns table can have maximum _____ number of tuples</p>",
+          "type": "Numerical",
+          "answer": "60",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "tbb-dbms-1,numerical-answers,databases,relational-model,maximum,cardinality",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86630",
+          "text": "<p>Two transactions of $T1$ and $T2$ are given as follows:<br>\n$T1: \\text{R1(A) W1(A) &nbsp;R1(B) &nbsp;W1(B)}$<br>\n$T2 : \\text{ R2(B) W2(B) &nbsp;R2(C) &nbsp;W2(C)}$</p>\n\n<p>Total number of Conflict Serializable schedules &nbsp;formed by $T1$ and $T2$ are</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$2$</li>\n    <li>$70$</li>\n    <li>$54$</li>\n    <li>$12$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,conflict-serializable,transaction-and-concurrency,scheduling",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86631",
+          "text": "<p>In SQL the statement</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\n→ Select * from R ,S </pre>\n\n<p>&nbsp;&nbsp;is equivalent to:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nselect * from R natural join S\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nselect * from R inner join S\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nselect * from R cross join S\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nselect * from R union join S\n</pre>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,sql,databases,relational-algebra,query",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86632",
+          "text": "<p>Consider the following schedule for transactions T1, T2 , these transactions have two phase locking:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:500px\">\n    <tbody>\n        <tr>\n            <td>T1:</td>\n            <td>lock- S(A)<br>\n            Read (A)<br>\n            Lock –X (B)<br>\n            Read (B)<br>\n            B = A +B<br>\n            Write (B)<br>\n            Unlock (A) &nbsp;&nbsp;&nbsp;<br>\n            &nbsp;Unlock(B)</td>\n        </tr>\n        <tr>\n            <td>T2</td>\n            <td>lock-X(A)<br>\n            Lock- S(B)<br>\n            write (A)<br>\n            Read (B)<br>\n            Unlock(A)<br>\n            Unlock(B)</td>\n        </tr>\n    </tbody>\n</table>\n\n<p>$$\\begin{array}{||l|} \\hline T1: &amp; \\text{Lock_S(A)} \\\\ &amp; \\text{Read (A)} \\\\ &amp; \\text{Lock _X (B)} \\\\ &amp; \\text{Read (B)} \\\\ &amp; \\text{B = A + B} \\\\ &amp; \\text{Write (B)} \\\\ &amp; \\text{Unlock (A)} \\\\ &amp;&nbsp;&nbsp;\\text{Unlock(B)}&nbsp; \\\\ \\hline T2: &amp; \\text{Lock_X(A)} \\\\ &amp; \\text{Lock_S(B)} \\\\&amp;\\text{Write(A)} \\\\ &amp; \\text{Read(B)} \\\\ &amp; \\text{Unlock(A)} \\\\ &amp; \\text{Unlock(B)}&nbsp; \\\\ \\hline \\end{array}$$</p>\n\n<p>Which one of the statements below is the correct statement about T1 and T2?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>T1 and T2 are deadlock free</li>\n    <li>T1 and T2 results in a deadlock</li>\n    <li>T1 and T2 are serial schedule</li>\n    <li>none of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,transaction-and-concurrency,deadlock-prevention-avoidance-detection,process-synchronization,locking",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86634",
+          "text": "<p>The rule that a value of a foreign key must appear as a value of some specific table is called a</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>Referential constraint</li>\n    <li>Index</li>\n    <li>Integrity constraint</li>\n    <li>Functional dependency</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,referential-integrity,relational-model",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86635",
+          "text": "<p>Consider the following database with primary keys in <strong>Bold</strong></p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nProject(<strong>P_No</strong>, &nbsp;P_Name, P_Incharge) Employee(<strong>E_No</strong>, E_Name)&nbsp;Assigned_To(<strong>P_No</strong>, <strong>E_No</strong>)</pre>\n\n<p>Which &nbsp;sentence &nbsp;represent the following &nbsp;relational algebra?</p>\n\n<p>Employee $\\bowtie$ (Assigned_To) $\\div$ ( $\\Pi$ P_No (Project) )</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>List names of the employees working on all projects.</li>\n    <li>List project number of &nbsp;all the employees working on &nbsp;projects.</li>\n    <li>List details of the employees working on at least one &nbsp;projects.</li>\n    <li>List details of the employees working on all the projects.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,relational-algebra",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86636",
+          "text": "<p>Consider the relation $R(A, B, C, D, E)$ with the set of function dependencies: $F = \\{ AB \\rightarrow C, \\ \\&nbsp; &nbsp;D \\rightarrow E, \\ \\&nbsp; A \\rightarrow D \\}$&nbsp; The candidate Key is _____</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>BC &nbsp;&nbsp;&nbsp;&nbsp;</li>\n    <li>AB &nbsp;&nbsp;&nbsp;</li>\n    <li>BAC &nbsp;&nbsp;&nbsp;&nbsp;</li>\n    <li>AD</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,functional-dependency,candidate-key,relational-model",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86637",
+          "text": "<p>Consider the following database schedule with $3$ transactions, $T1$ ,$T2$ and $T3$. Where $r$ stands for READ, w for WRITE.</p>\n\n<p>$S : r2 (A); r1 (B); w2 (A); r2 (B); r3 (A); w1 (B); w3(A); w2 (B)$</p>\n\n<p>Which one of the following statements about the above schedule is TRUE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>the schedule is &nbsp;serializable</li>\n    <li>the schedule is not &nbsp;serializable</li>\n    <li>schedule will not execute</li>\n    <li>this schedule have deadlock</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,serializability,concurrency",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86638",
+          "text": "<p>Which one is NOT True among these statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>In B+-tree, data pointers are stored only at the leaf nodes of the tree</li>\n    <li>Any&nbsp;B-tree is a search tree may not be always balanced</li>\n    <li>In a B-tree, every value of the search field appears once at some level in the tree</li>\n    <li>The leaf nodes of the B+-tree are linked together to provide ordered access on the search field to the records</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,b-tree,bplustrees,data-structures",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86640",
+          "text": "<p>A student can register for at most $p$&nbsp;courses and each course can have at most $v$ students. Each student is enrolled to at least one course and each course has at least one student.</p>\n\n<p>This schema is normalized into three tables:<br>\n$\\textbf{Student, Registers, Courses}$</p>\n\n<p>The number of tuples in student and course tables are $X$ and $Y$ respectively. Which of the following need not be<strong> </strong>correct?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$Y \\geq 1$</li>\n    <li>$Y \\leq p ^*&nbsp;X$</li>\n    <li>$X \\geq v ^* &nbsp;Y$</li>\n    <li>$X &gt; 0$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,database-normalization,relational-model,query",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86641",
+          "text": "Let there is a Table named Stud_records  with $3000$ records of fixed length, each record size is $50$ Bytes and records are stored in a block of size $512$ Bytes, If secondary index is built on the key field of size $10$ Bytes and a block pointer of size $5$ Bytes , then the number of first level index blocks are ______",
+          "type": "Numerical",
+          "answer": "89",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "tbb-dbms-1,numerical-answers,databases,indexing,block-pointer",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86643",
+          "text": "<p>Let $R = (A,B,C)$, and let $r1$ and $r2$ both be relations on schema $R$.&nbsp;Select&nbsp;a&nbsp;SQL expression&nbsp;among these options that is equivalent to the following query. $ \\Pi AB(r1) \\bowtie \\Pi BC(r2)$</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nselect r1.A, r2.B, r2.C&nbsp;from r1, r2&nbsp;where r1.B = r2.B\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nselect * from r1 where (A, B, C) in (select *from r2)\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nselect r1.A &nbsp;from r1 where (A, B, C) not in (select ∗ from r2)</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nselect r1.A&nbsp;, r2.B , r1.C&nbsp; from r1, r2 where r1.B = r2.B</pre>\n\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,sql,relational-algebra,query",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86644",
+          "text": "<p>The FD $A \\rightarrow B, \\ \\&nbsp;&nbsp;DB \\rightarrow&nbsp;C$ implies</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$DA \\rightarrow C$</li>\n    <li>$A \\rightarrow C$</li>\n    <li>$B \\rightarrow A$</li>\n    <li>$DB \\rightarrow A$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,functional-dependency",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86645",
+          "text": "<p>This is an Instance of Sailors Relation</p>\n\n<p>$$\\overset{\\text{Sailors Table}} {&nbsp;\\begin{array}{|l|l|} \\hline \\text{S_ID} &amp; \\text{S_Name} &amp; \\text{Rating} &amp; \\text{Age}&nbsp;\\\\ \\hline 18 &amp; \\text{Jones} &amp; 3 &amp; 30.00&nbsp; \\\\ \\hline 41&nbsp;&amp; \\text{Jonah} &amp; 6&nbsp;&amp; 56.00&nbsp;&nbsp;&nbsp;\\\\ \\hline 22&nbsp;&amp; \\text{Ahab} &amp; 7&nbsp;&amp; 44.00&nbsp; \\\\ \\hline 63&nbsp;&amp; \\text{Moby} &amp; \\text{Null}&nbsp;&amp; 15.00&nbsp; \\\\ \\hline \\end{array}}$$</p>\n\n<p>Consider the following query:</p>\n\n<p>&nbsp;Find the names of sailors with a higher rating than all sailors with age &lt; 21.</p>\n\n<p>Which one among these SQL queries attempt to obtain the answer to this question?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>\n    <pre class=\"prettyprint lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT S.sname FROM Sailors S WHERE NOT EXISTS ( SELECT * FROM Sailors S2 WHERE S2.age &lt; 21 &nbsp;AND S.rating &lt;= S2.rating )</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT * FROM Sailors S WHERE S.rating &gt; ANY ( SELECT S2.rating FROM Sailors S2 WHERE S2.age &lt; 21 )\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT S.sname FROM Sailors S WHERE EXISTS ( SELECT * FROM Sailors S2 WHERE S2.age &lt; 21 AND S.rating &lt;= S2.rating )</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT S.sname FROM Sailors S WHERE S.rating &gt;ALL ( SELECT S2.rating &nbsp;FROM Sailors S2 WHERE S2.age &lt; 21 )\n</pre>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,sql,relational-algebra,query",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86646",
+          "text": "<p>$R (A,B,C,D)$ is a relation.&nbsp;Which of the following does not have a lossless join dependency preserving BCNF decomposition</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$A \\rightarrow B, \\ B \\rightarrow CD$</li>\n    <li>$A \\rightarrow B, \\ B \\rightarrow C, \\ C \\rightarrow D$</li>\n    <li>$AB \\rightarrow C,\\&nbsp; C \\rightarrow AD$</li>\n    <li>$A \\rightarrow BCD$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,bcnf,functional-dependency,database-design",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86647",
+          "text": "<p>Which is the best file organization when data is frequently added or deleted from a file?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>Sequential</li>\n    <li>Direct</li>\n    <li>Index sequential</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,file-organization",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86648",
+          "text": "<p>What is the Minimum space utilization for a $B+$ Tree index node:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$80 \\%$</li>\n    <li>$60 \\%$</li>\n    <li>$50 \\%$</li>\n    <li>$75 \\%$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,b-tree",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86649",
+          "text": "<p>A transaction is in __________ state after the final statement has been executed.</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>partially committed</li>\n    <li>active</li>\n    <li>committed</li>\n    <li>aborted</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,transaction-and-concurrency",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86650",
+          "text": "<p>Consider the following set of relations: &nbsp;&nbsp;<br>\nEMP(<strong>eno</strong>, ename, dno)<br>\nDEPT(<strong>dno</strong>,dname)<br>\nPrimary key columns are in <strong>bold</strong>&nbsp;and dno in EMP is a <em>foreign key</em> referring primary key of DEPT table.</p>\n\n<p>Now consider the following queries:</p>\n\n<p><strong>QUERY : 1</strong></p>\n\n<pre class=\"prettyprint lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT * FROM emp e, dept d WHERE e.dno = d.dno;</pre>\n\n<p><strong>QUERY : 2</strong></p>\n\n<pre class=\"prettyprint lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nSELECT * FROM emp NATURAL JOIN dept ;</pre>\n\n<p>Then which of the following statements are <strong>TRUE</strong> regarding the above queries?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-roman;\">\n    <li>Both Query:1 and Query:2 returns same no of rows.</li>\n    <li>Both Query:1 and Query:2 returns same no of columns.</li>\n    <li>Both Query:1 and Query:2 returns different no of rows.</li>\n    <li>Both Query:1 and Query:2 returns different no of columns.</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>I, II only</li>\n    <li>I, IV only</li>\n    <li>II, III only</li>\n    <li>III, IV only</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,natural-join,databases,relational-algebra,sql",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86651",
+          "text": "<p>Given R(A,B,C,D,E) with the set of FDs,<br>\nF{AB→CD, &nbsp;ABC → E, C → A}<br>\nthe normal form of R is</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>2NF</li>\n    <li>BCNF</li>\n    <li>4NF</li>\n    <li>3NF</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,normal-forms,functional-dependency",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86652",
+          "text": "Let the search key field of a B+ tree is 4 Bytes , the disk block size is 199 Bytes , and the index pointer is 3 Bytes, then the order of B+ tree is _______",
+          "type": "Numerical",
+          "answer": "29",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "tbb-dbms-1,numerical-answers,bplustrees,databases",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86654",
+          "text": "<p>Checkpoints are a part of</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>Recovery measures</li>\n    <li>Security measures</li>\n    <li>Concurrency measures</li>\n    <li>Authorization measures</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,recovery",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86655",
+          "text": "<p>Consider the following relations<br>\nEmployee (E#, Ename, salary, Bdate, D#)<br>\nDepartment (D#, Dname, mgremp#, Location)<br>\nDependent (E#, DependentName)</p>\n\n<p>Which among these tuple calculus queries represent the following condition:</p>\n\n<p>List the names of mangers who have at least one dependent.</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>{m[Ename] | m ∈ EMPLOYEE ∧ ∃u, t (t ∈ DEPENDENT ∧ u ∈ DEPARTMENT ∧ t[E#] = u[mgremp#] ∧ m[E#] = u[mgremp#])}</li>\n    <li>{e[Ename] | e ∈ EMPLOYEE ∧ ∃d (d ∈ DEPARTMENT ∧ d[Ename] = ‘manager’ ∧ e[D#] = d[D#])}</li>\n    <li>{m[Ename] | m ∈ EMPLOYEE ∧ ∃u, t (t ∈ DEPENDENT ∧ u ∈ DEPARTMENT ∧ e[E#] = u[mgremp#] ∧ m[D#] = u[mgremp#])}</li>\n    <li>{e[Ename] | m ∈ EMPLOYEE ∧ ∃u, t (t ∈ DEPENDENT ∧ u ∈ DEPARTMENT ∧ t[E#] = u[D#] ∧ m[E#] = u[D#])}</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,relational-model,tuple-relational-calculus",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86656",
+          "text": "<p>What does the following relational algebra expression represent ?</p>\n\n<p>Consider the relations given below with keys in <strong>Bold</strong> :<br>\nBranch (<strong>branch no</strong>, street, &nbsp;city)<br>\nStaff (<strong>staff No</strong>, name, salary, branch No, position, DOB)<br>\npropertyForRent (<strong>property No, staff No</strong>, rent)</p>\n\n<p>Answer this &nbsp;query in relational algebra :</p>\n\n<p>List the Staff Numbers of &nbsp;Staffs who have not rent any property</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>ΠstaffNo (Staff) - Π propertyNo (propertyForRent)</li>\n    <li>Π staffNo (Staff) U Π staffNo (propertyForRent)</li>\n    <li>Π staffNo (Staff) - &nbsp;Π staffNo (propertyForRent)</li>\n    <li>Π staffNo (Staff) * ΠstaffNo(rent)</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,relational-algebra,databases,set-theory",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86657",
+          "text": "<p>What does the following Tuple Relational Calculus query produce?</p>\n\n<p>The expression σ<sub>θ1&nbsp;</sub>(E1 ⋈<sub>θ2&nbsp;</sub>E2) is the same as:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>&nbsp;E1 ⋈<sub>θ1^ θ2&nbsp;</sub>E2</li>\n    <li>&nbsp;(σ<sub>θ1</sub> E1) ∧&nbsp;(σ<sub>θ2</sub> E2 )</li>\n    <li>&nbsp;E1 ⋈ <sub>θ1∨ θ2&nbsp;</sub>E2</li>\n    <li>&nbsp;None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,relational-algebra,databases",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86658",
+          "text": "<p>A functional dependency of the form x → y is trivial if</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>y ⊆ x</li>\n    <li>y ⊂ x</li>\n    <li>x ⊆ y</li>\n    <li>x ⊂ y</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,functional-dependency",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "86659",
+          "text": "<p>Consider the join of relation <strong>R</strong> with a relation <strong>S</strong>. If <strong>R</strong> has $m$ tuples and <strong>S</strong> has $n$ tuples, then the maximum and minimum sizes of the join, respectively,&nbsp;are __________.</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$m+n$ and $0$</li>\n    <li>$m+n$ and $|m-n|$</li>\n    <li>$mn$ and $0$</li>\n    <li>$mn$ and $m+n$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "tbb-dbms-1,databases,relational-algebra,joins",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

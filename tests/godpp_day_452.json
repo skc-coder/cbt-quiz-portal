@@ -1,0 +1,60 @@
+{
+  "name": "Day 311 [Programming in C]",
+  "duration": 12,
+  "total_qs": 4,
+  "total_qs_one": 4,
+  "total_qs_two": 0,
+  "total_marks": 4,
+  "apti_num_qs": 0,
+  "technical_num_qs": 4,
+  "technical_marks": 4,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 4,
+      "marks": 4,
+      "question": [
+        {
+          "post_id": "538121",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  void func(int a, int *bptr) {     a = 42;     *bptr = 42;     return; }  int main(void) {     int x = 100, y = 100;      func(x, &y);      printf(&quot;x = %d, y = %d\\n&quot;, x, y);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nvoid func(int a, int *bptr)\n{\n    a = 42;\n    *bptr = 42;\n    return;\n}\n\nint main(void)\n{\n    int x = 100, y = 100;\n\n    func(x, &y);\n\n    printf(\"x = %d, y = %d\\n\", x, y);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{x = 42, y = 42}$<br>&nbsp;</li><li>$\\texttt{x = 100, y = 100}$<br>&nbsp;</li><li>$\\texttt{x = 100, y = 42}$<br>&nbsp;</li><li>$\\texttt{x = 42, y = 100}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 311"
+        },
+        {
+          "post_id": "538107",
+          "text": "<p>Consider the following program:</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main(void) {     char ch;      printf(&quot;Enter your input: &quot;);      while ((ch = getchar()) != 'C')     {         putchar(ch);     }      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main(void)\n{\n    char ch;\n\n    printf(\"Enter your input: \");\n\n    while ((ch = getchar()) != 'C')\n    {\n        putchar(ch);\n    }\n\n    return 0;\n}</pre><p>For the input:</p><pre dir=\"ltr\"><code dir=\"ltr\">In 1983, a committee was formed to standardize the C programming language.</code></pre><p>What will be printed?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{Enter your input: In 1983, a committee was formed to standardize the}$<br>&nbsp;</li><li>$\\texttt{Enter your input: In 1983, a committee was formed to standardize the C}$<br>&nbsp;</li><li>$\\texttt{Enter your input: C programming language.}$<br>&nbsp;</li><li>Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 311"
+        },
+        {
+          "post_id": "538109",
+          "text": "<p>What does the following code do?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     char c;      while ((c = getchar()) != EOF)     {         if (c &gt;= 'A' && c &lt;= 'Z')             c = c - 'A' + 'a';          putchar(c);     }      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main()\n{\n    char c;\n\n    while ((c = getchar()) != EOF)\n    {\n        if (c &gt;= 'A' && c &lt;= 'Z')\n            c = c - 'A' + 'a';\n\n        putchar(c);\n    }\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It converts lowercase letters to uppercase<br>&nbsp;</li><li>It converts uppercase letters to lowercase and prints the input<br>&nbsp;</li><li>It prints only uppercase letters<br>&nbsp;</li><li>It stops when newline is found</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 311"
+        },
+        {
+          "post_id": "538119",
+          "text": "<p>Consider the macro:</p><pre dir=\"ltr\" data-rawcode=\"#define square(x) (x*x)\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#define square(x) (x*x)</pre><p>Now consider the statement:</p><pre dir=\"ltr\" data-rawcode=\"c = square(a + b);\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">c = square(a + b);</pre><p>After macro expansion, which expression is produced?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{c = ((a + b) * (a + b));}$<br>&nbsp;</li><li>$\\texttt{c = (a + b * a + b);}$<br>&nbsp;</li><li>$\\texttt{c = (a + b) * a + b;}$<br>&nbsp;</li><li>Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 311"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 316 [Data Structures]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "538967",
+          "text": "<p data-start=\"382\" data-end=\"461\">Convert the following infix expression into postfix expression:</p><p data-start=\"463\" data-end=\"510\">$$\\texttt{a + (b - c) - d * ((e - f) / g + h)}$$</p><p data-start=\"512\" data-end=\"546\">Which of the following is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"548\" data-end=\"550\">$\\texttt{a b c - + d e f - g / h + * -}$<br>&nbsp;</li><li data-start=\"595\" data-end=\"597\">$\\texttt{a b c - d e f - g / h + * - +}$<br>&nbsp;</li><li data-start=\"642\" data-end=\"644\">$\\texttt{a b + c - d e f - g / h + * -}$<br>&nbsp;</li><li data-start=\"689\" data-end=\"691\">$\\texttt{a b c - + d e f - g h + / * -}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 316"
+        },
+        {
+          "post_id": "538965",
+          "text": "<p data-start=\"3675\" data-end=\"3762\">Which of the following statements is true about arithmetic expressions?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3764\" data-end=\"4047\">Parentheses are needed in all arithmetic expressions.<br>&nbsp;</li><li data-start=\"3764\" data-end=\"4047\">Infix expressions do not require precedence rules.<br>&nbsp;</li><li data-start=\"3764\" data-end=\"4047\">Postfix and prefix expressions do not require precedence rules.<br>&nbsp;</li><li data-start=\"3764\" data-end=\"4047\">Fully parenthesized expressions are difficult to recognize and evaluate.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 316"
+        },
+        {
+          "post_id": "538963",
+          "text": "<p data-start=\"2850\" data-end=\"2982\">Which of the following permutations can be obtained in the same order using a stack, assuming the input sequence is:</p><p data-start=\"2984\" data-end=\"3009\">$$5, 6, 7, 8, 9$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3011\" data-end=\"3092\">$7, 8, 9, 5, 6$<br>&nbsp;</li><li data-start=\"3011\" data-end=\"3092\">$5, 9, 6, 7, 8$<br>&nbsp;</li><li data-start=\"3011\" data-end=\"3092\">$7, 8, 9, 6, 5$<br>&nbsp;</li><li data-start=\"3011\" data-end=\"3092\">$9, 8, 7, 5, 6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 316"
+        },
+        {
+          "post_id": "538961",
+          "text": "<p data-start=\"1814\" data-end=\"1911\">If the following sequence of operations is performed on an initially empty stack:</p><pre data-start=\"1913\" data-end=\"1993\"><code>push(1), push(2), pop,\npush(1), push(2), pop,\npop, pop,\npush(2), pop</code></pre><p data-start=\"1995\" data-end=\"2037\">what is the sequence of popped out values?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2039\" data-end=\"2120\">$2, 2, 1, 1, 2$<br>&nbsp;</li><li data-start=\"2039\" data-end=\"2120\">$2, 2, 1, 2, 2$<br>&nbsp;</li><li data-start=\"2039\" data-end=\"2120\">$2, 1, 2, 2, 1$<br>&nbsp;</li><li data-start=\"2039\" data-end=\"2120\">$2, 1, 2, 2, 2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 316"
+        },
+        {
+          "post_id": "538957",
+          "text": "<p data-start=\"685\" data-end=\"761\">An initially empty stack undergoes the following operations:</p><pre data-start=\"763\" data-end=\"858\"><code>push(40)\npush(10)\npush(10)\npush(pop() + pop())\npush(20)\npush(5)\npush(pop() / pop())</code></pre><p data-start=\"860\" data-end=\"1044\">Assume the division operation follows the source convention, where the value below the top is divided by the top value. What will be the contents of the stack after the last operation?</p><p data-start=\"1046\" data-end=\"1085\">Give the answer from <strong data-start=\"1067\" data-end=\"1084\">bottom to top</strong>.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$40, 20, 4$<br>&nbsp;</li><li>$40, 10, 4$<br>&nbsp;</li><li>$4, 20, 40$<br>&nbsp;</li><li>$10, 20, 4$</li></ol><div>&nbsp;</div>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 316"
+        }
+      ]
+    }
+  ]
+}

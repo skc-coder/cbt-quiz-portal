@@ -1,0 +1,70 @@
+{
+  "name": "Day 246 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528864",
+          "text": "<p data-start=\"61\" data-end=\"196\">Let $A$ be an $m \\times n$ matrix, $B$ be an $n \\times m$ matrix, and $C$ be an $m \\times m$ matrix. Which of&nbsp;the following statement(s) is(are) <strong>true</strong>?</p><ol data-start=\"198\" data-end=\"373\" start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-section-id=\"fjv47b\" data-start=\"198\" data-end=\"246\">$\\operatorname{tr}(AB)=\\operatorname{tr}(BA)$<br>&nbsp;</li><li data-section-id=\"vxbov8\" data-start=\"248\" data-end=\"298\">$\\operatorname{tr}(CAB)=\\operatorname{tr}(BCA)$<br>&nbsp;</li><li data-section-id=\"183p2b0\" data-start=\"300\" data-end=\"325\">If $AB=0$, then $BA=0$<br>&nbsp;</li><li data-section-id=\"dyxnt3\" data-start=\"327\" data-end=\"373\">If $AB=I_m$, then $\\operatorname{tr}(BA)=m$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "528856",
+          "text": "<p data-start=\"71\" data-end=\"248\">Let $A=\\begin{bmatrix}2&-1&3\\\\4&2&11\\\\-2&13&10\\end{bmatrix}$. In the $LU$ decomposition $A=LU$, where $L$ is unit lower triangular and $U$ is upper triangular, the matrix $U$ is<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"250\" data-end=\"304\">$\\begin{bmatrix}2&-1&3\\\\0&4&5\\\\0&0&-2\\end{bmatrix}$<br>&nbsp;</li><li data-start=\"306\" data-end=\"359\">$\\begin{bmatrix}2&-1&3\\\\0&4&5\\\\0&0&2\\end{bmatrix}$<br>&nbsp;</li><li data-start=\"361\" data-end=\"416\">$\\begin{bmatrix}2&-1&3\\\\0&4&-5\\\\0&0&-2\\end{bmatrix}$<br>&nbsp;</li><li data-start=\"418\" data-end=\"472\">$\\begin{bmatrix}2&-1&3\\\\0&2&5\\\\0&0&-2\\end{bmatrix}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "528853",
+          "text": "<p data-start=\"61\" data-end=\"176\">The eigenvalues of a $3 \\times 3$ matrix $A$ are $-2$, $4$, and $5$. Then the trace of the matrix $A^3-2A^2+3A$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"178\" data-end=\"185\">$93$<br>&nbsp;</li><li data-start=\"187\" data-end=\"194\">$99$<br>&nbsp;</li><li data-start=\"196\" data-end=\"204\">$112$<br>&nbsp;</li><li data-start=\"206\" data-end=\"214\">$117$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "528851",
+          "text": "<p data-start=\"61\" data-end=\"147\">Which one of the following statements is NOT always true for a real square matrix $A$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"149\" data-end=\"234\">If $A$ is diagonalizable and all eigenvalues of $A$ are equal to $2$, then $A=2I$.<br>&nbsp;</li><li data-start=\"236\" data-end=\"342\">If $A$ is real orthogonal and upper triangular, then every diagonal entry of $A$ is either $1$ or $-1$.<br>&nbsp;</li><li data-start=\"344\" data-end=\"432\">If $A$ is real and has distinct eigenvalues, then $A$ is orthogonally diagonalizable.<br>&nbsp;</li><li data-start=\"434\" data-end=\"598\">If $A$ is similar to an upper triangular matrix, then the eigenvalues of $A$ are the diagonal entries of that upper triangular matrix, counted with multiplicity.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "528847",
+          "text": "<p data-start=\"61\" data-end=\"192\">The determinant of the matrix $A=\\begin{bmatrix} 1&1&1&1 \\\\ p&q&r&s \\\\ p^2&q^2&r^2&s^2 \\\\ p^3&q^3&r^3&s^3 \\end{bmatrix}$ is&nbsp;<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"194\" data-end=\"229\">$(q-p)(r-p)(s-p)(r-q)(s-q)(s-r)$<br>&nbsp;</li><li data-start=\"231\" data-end=\"266\">$(q-p)(r-p)(s-p)(q-r)(q-s)(r-s)$<br>&nbsp;</li><li data-start=\"268\" data-end=\"292\">$(p+q+r+s)(p-q)(r-s)$<br>&nbsp;</li><li data-start=\"294\" data-end=\"300\">$0$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 246"
+        }
+      ]
+    }
+  ]
+}

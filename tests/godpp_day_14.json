@@ -1,0 +1,70 @@
+{
+  "name": "Day 13 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "472318",
+          "text": "A bakery sells exactly $5$ kinds of cookies including chocolate-chip cookies and shortbread cookies. Assuming that the bakery has at least $10$ cookies of each kind, how many different options are there for a box of $10$ cookies if we require that the box contains at least $1$ chocolate-chip cookie and at least $2$ shortbread cookies?",
+          "type": "Numerical",
+          "answer": "330",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 13"
+        },
+        {
+          "post_id": "472329",
+          "text": "How many $8-permutations$ are there of the $10$ $letters$ of the word $CALIFORNIA$ (with repeated letters)?<br>\n<br>\nA. $\\frac{47}{4} \\cdot 8$ !<br>\n<br>\nB. $\\frac{47}{2} \\cdot 8$ !<br>\n<br>\nC. $8!\\cdot 15$<br>\n<br>\nD. $8!\\cdot 12$",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 13"
+        },
+        {
+          "post_id": "472304",
+          "text": "How many ways are there to form a $3-letter$ word (i.e. sequence) containing the letter $C$ using the letters $A, B, C, D, E$ with repetitions of letters allowed?",
+          "type": "Numerical",
+          "answer": "61",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 13"
+        },
+        {
+          "post_id": "472311",
+          "text": "Seven people, including two who do not want to sit next to each other, are to be seated at a round table. How many (circular) arrangements are there?",
+          "type": "Numerical",
+          "answer": "480",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 13"
+        },
+        {
+          "post_id": "472324",
+          "text": "<p>Is it $True$ or $False$, if $51$ integers are chosen from the set $S=\\{1,2, \\ldots, 100\\}$, then there is always a pair of chosen integers which differ by $1$ .&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$True$</li><li>$False$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 13"
+        }
+      ]
+    }
+  ]
+}

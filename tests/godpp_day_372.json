@@ -1,0 +1,30 @@
+{
+  "name": "Day 271 [Discrete Mathematics]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "531832",
+          "text": "Let $A=\\{a_1,a_2,a_3,a_4,a_5\\}$ and $B=\\{b_1,b_2,b_3,b_4,b_5,b_6,b_7\\}$. Find the number of injective functions $f:A\\to B$ such that for every $i=1,2,3,4,5$, $f(a_i)\\neq b_i$ and $f(a_i)\\neq b_{i+1}$. The required number of functions is ________.",
+          "type": "Numerical",
+          "answer": "507",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Discrete Mathematics",
+          "day": "Day 271"
+        }
+      ]
+    }
+  ]
+}

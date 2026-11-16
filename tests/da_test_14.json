@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2025 | Linear Algebra | Topic Wise Test 5",
+  "duration": "70",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "426906",
+          "text": "Suppose $A$ (3 by 4) has the Singular Value Decomposition<br />$A=U \\Sigma V^{\\mathrm{T}}=\\left[\\begin{array}{lll}u_{1} & u_{2} & u_{3}\\end{array}\\right]\\left[\\begin{array}{llll}2 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 0 & 0\\end{array}\\right]\\left[\\begin{array}{llll}v_{1} & v_{2} & v_{3} & v_{4}\\end{array}\\right]^{\\mathrm{T}}$.<br />What is the value of $\\left\\|A v_{1}\\right\\|$ ?",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,numerical-answers,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426901",
+          "text": "<p>Consider a matrix A, which is just a column vector, and its Singular Value Decomposition (SVD) as follows:<br>$$<br>A=\\binom{1}{0}=\\left(\\begin{array}{lll}<br>1 &amp; \\vdots &amp; 0 \\\\<br>0 &amp; \\vdots &amp; 1<br>\\end{array}\\right)\\left(\\begin{array}{c}<br>1 \\\\<br>\\cdots \\\\<br>0<br>\\end{array}\\right)(1)<br>$$<br>What will be the projection matrix on the row space of $A$ ?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$P_{\\mathcal{R}(A)}=(1)$</li><li>$P_{\\mathcal{R}(A)}=\\left(\\begin{array}{ll}0 &amp; 0 \\\\ 0 &amp; 1\\end{array}\\right)$</li><li>$P_{\\mathcal{R}(A)}=(0)$</li><li>$P_{\\mathcal{R}(A)}=\\left(\\begin{array}{ll}0 &amp; 0 \\\\ 0 &amp; 1\\end{array}\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426902",
+          "text": "Consider the $2 \\times 2$ matrix<br />$$<br />A=\\frac{1}{\\sqrt{10}}\\binom{2}{1}\\left(\\begin{array}{ll}<br />1 & -1<br />\\end{array}\\right)+\\frac{2}{\\sqrt{10}}\\binom{-1}{2}\\left(\\begin{array}{ll}<br />1 & 1<br />\\end{array}\\right) .<br />$$<br />Which of the following statements is true about the singular values of matrix $A$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $A$ has singular values $\\sigma_{1}=2$ and $\\sigma_{2}=1$.</li><li> $A$ has singular values $\\sigma_{1}=\\frac{1}{\\sqrt{10}}$ and $\\sigma_{2}=\\frac{2}{\\sqrt{10}}$.</li> <li>$A$ has singular values $\\sigma_{1}=\\frac{1}{\\sqrt{10}}$ and $\\sigma_{2}=1$.</li>  <li>$A$ has singular values $\\sigma_{1}=\\frac{2}{\\sqrt{5}}$ and $\\sigma_{2}=\\frac{1}{\\sqrt{5}}$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426898",
+          "text": "Let $\\mathbf{A} \\in \\mathbb{R}^{n \\times n}$ be a square, invertible matrix and the Singular Value Decomposition (SVD) of $\\mathbf{A}$ be<br />$$<br />\\mathbf{A}=\\sum_{i=1}^{n} \\sigma_{i} \\mathbf{u}_{i} \\mathbf{v}_{i}^{T}<br />$$<br />Which of the following steps are correct statements? (Select all that apply.)<br />In all options, $\\mathbf{U}=\\left[\\mathbf{u}_{1} \\mathbf{u}_{2} \\ldots \\mathbf{u}_{n}\\right]$ and $\\mathbf{V}=\\left[\\mathbf{v}_{1} \\mathbf{v}_{2} \\ldots \\mathbf{v}_{n}\\right]$ are orthogonal matrices, and $\\boldsymbol{\\Sigma}$ is a diagonal matrix with singular values $\\sigma_{i}$ on the diagonal.<br /><ol style=\"list-style-type:upper-alpha\"><li> The SVD of $\\mathbf{A}$ can be written in matrix form as $\\mathbf{A}=\\mathbf{U} \\boldsymbol{\\Sigma} \\mathbf{V}^{T}$.</li><li> The inverse of $\\mathbf{A}$, denoted as $\\mathbf{A}^{-1}$, can be found by taking the inverse of each component in the SVD: $\\mathbf{A}^{-1}=\\left(\\mathbf{U} \\boldsymbol{\\Sigma} \\mathbf{V}^{T}\\right)^{-1}=\\mathbf{V}\\left(\\boldsymbol{\\Sigma}^{-1}\\right) \\mathbf{U}^{T}$.</li> <li>The expression for $\\mathbf{A}^{-1}$ can be rewritten as $\\mathbf{A}^{-1}=\\sum_{i=1}^{n} \\frac{1}{\\sigma_{i}} \\mathbf{u}_{i} \\mathbf{v}_{i}^{T}$, using the outer product of the columns of $\\mathbf{V}$ and $\\mathbf{U}$.</li>  <li>The expression for $\\mathbf{A}^{-1}$ can be rewritten as $\\mathbf{A}^{-1}=\\sum_{i=1}^{n} \\frac{1}{\\sigma_{i}} \\mathbf{v}_{i} \\mathbf{u}_{i}^{T}$, using the outer product of the columns of $\\mathbf{V}$ and $\\mathbf{U}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426899",
+          "text": "<p>Consider the following statements regarding singular value decomposition (SVD) and related matrix properties. Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>Let $A=U \\Sigma V^{T}$ be the singular value decomposition (SVD) of a square matrix $A$. Then $A+$ $I=U(\\Sigma+I) V^{T}$ necessarily represents the SVD of $A+I$, where $I$ is the identity matrix of appropriate dimensions.</li><li>If $A$ is an invertible matrix and $\\sigma$ is a singular value of $A$, then $\\frac{1}{\\sigma}$ is a singular value of $A^{-1}$.</li><li>For an $m \\times n$ matrix $A$, the number of pivot columns in the row echelon form (REF) of $A$ is equal to the number of nonzero singular values of $A$.</li><li>Suppose $Z$ is an orthogonal matrix and $A=Z B$, where $A$ and $B$ are real matrices. Then, $A$ and $B$ have identical singular values because pre-multiplication by an orthogonal matrix preserves the&nbsp;singular values.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426890",
+          "text": "Consider $H$, a symmetric matrix satisfying $H^{2}=4 I$, where $I$ denotes the 4x4 identity matrix. What is the product of all singular values of $H$ ?",
+          "type": "Numerical",
+          "answer": "16",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,numerical-answers,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426905",
+          "text": "An invertible $\\boldsymbol{n} \\times \\boldsymbol{n}$ matrix $\\boldsymbol{A}$ has $\\boldsymbol{n}$ distinct non-zero singular values. How many singular value decompositions $A=U \\Sigma V^{\\top}$ does A have?<br /><ol style=\"list-style-type:upper-alpha\"><li> $2^{n-1}$</li><li> $n^2$</li> <li>$n!$</li>  <li>$2^n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426888",
+          "text": "<p>Select the statement(s) that are true regarding the properties of matrices and their singular values and eigenvalues:</p><ol style=\"list-style-type:upper-alpha\"><li>The left singular vectors of $A$ are eigenvectors of $A^{T} A$ and the right singular vectors are eigenvectors of $A A^{T}$.</li><li>For any matrix $A$, the matrices $A A^{T}$ and $A^{T} A$ have the same eigenvalues.</li><li>If $S$ is symmetric, then the nonzero eigenvalues of $S$ are its singular values.</li><li>If $A$ does not have full column rank, then 0 is eigenvalue of $A$. (Consider A as a square matrix)</li></ol>",
+          "type": "Multiple Select",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426892",
+          "text": "For each of the following, determine whether a real $2 \\times 2$ matrix $A$ exists that satisfies the given conditions.<br />Select all options that are possible:<br /><ol style=\"list-style-type:upper-alpha\"><li> There exists a matrix $A$ such that $A$ has determinant -1 and singular values 1 and 1 .</li><li> There exists a matrix $A$ such that $A$ has eigenvalues 1 and 1 and singular values 1 and 0 .</li> <li>There exists a matrix $A$ such that $A$ has eigenvalues 0 and 0 and singular values 0 and 1 .</li>  <li>There exists a matrix $A$ such that $A$ has rank $r=1$ and determinant 1 .</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426904",
+          "text": "Let $A$ be an $m \\times n$ real matrix, and let $A=U \\Sigma V^{T}$ be any Singular Value Decomposition (SVD) for $A$, with $U$ and $V$ representing orthogonal matrices of sizes $m \\times m$ and $n \\times n$ respectively.<br />Let<br />$U=\\left[\\begin{array}{lllll}\\mathbf{u}_{1} & \\cdots & \\mathbf{u}_{r} & \\cdots & \\mathbf{u}_{m}\\end{array}\\right]$<br />$V=\\left[\\begin{array}{lllll}\\mathbf{v}_{1} & \\cdots & \\mathbf{v}_{r} & \\cdots & \\mathbf{v}_{n}\\end{array}\\right]$<br />Let $r=\\operatorname{rank}(A)$.<br />Which of the following assertions concerning the fundamental subspaces of $A$ is accurate?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\left\\{\\mathbf{u}_{1}, \\ldots, \\mathbf{u}_{r}\\right\\}$ forms an orthonormal basis for the column space of $A$.</li><li> $\\left\\{\\mathbf{u}_{r+1}, \\ldots, \\mathbf{u}_{m}\\right\\}$ forms an orthonormal basis for the <br />null space of $A$.</li> <li>$\\left\\{\\mathbf{v}_{r+1}, \\ldots, \\mathbf{v}_{n}\\right\\}$ forms an orthonormal basis for the null space of $A^{T}$.</li>  <li>$\\left\\{\\mathbf{v}_{1}, \\ldots, \\mathbf{v}_{r}\\right\\}$ forms an orthonormal basis for the row space of $A$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426896",
+          "text": "Given an orthonormal basis $q_{1}, \\ldots, q_{4}$ for $\\mathbf{R}^{4}$ and an orthonormal basis $z_{1}, \\ldots, z_{6}$ for $\\mathbf{R}^{6}$, you create the $6 \\times 4$ matrix $A=z_{1} q_{1}^{T}+z_{2} q_{2}^{T}$.<br />Which of the following is/are solutions of $A x=z_{1}$ ? (Select all that apply.)<br /><ol style=\"list-style-type:upper-alpha\"><li> $x=q_{1}$</li><li> $x=q_{1}+q_{3}$</li> <li>$x=q_{1}+q_{4}$</li>  <li>$x=q_{1}+q_{3}+q_{4}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426908",
+          "text": "If $A$ is a $3 \\times 3$ non-singular real matrix with singular values $\\sigma_{1}, \\sigma_{2}, \\sigma_{3}$, then which of the following options correctly provides the formulas for $|\\operatorname{det}(A)|$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $|\\operatorname{det}(A)|=\\sigma_{1} \\sigma_{2} \\sigma_{3}$</li><li> $|\\operatorname{det}(A)|=\\sigma_{1}^{2} \\sigma_{2}^{2} \\sigma_{3}^{2}$</li> <li>$|\\operatorname{det}(A)|=\\sqrt{\\sigma_{1} \\sigma_{2} \\sigma_{3}}$</li>  <li>$|\\operatorname{det}(A)|=\\left(\\sigma_{1} \\sigma_{2} \\sigma_{3}\\right)^{1 / 3}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,two-marks",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426886",
+          "text": "Let $A$ be a $3 \\times 3$ real matrix which transforms the following unit vectors:<br />$$<br />\\begin{gathered}<br />x=\\frac{1}{\\sqrt{2}}(1,1,0) \\mapsto A x=(2,0,0) \\\\<br />x=\\frac{1}{\\sqrt{2}}(-1,1,0) \\mapsto A x=(0,-5,0) \\\\<br />x=(0,0,1) \\mapsto A x=(0,0,1)<br />\\end{gathered}<br />$$<br />Which of the following are the singular values of $A$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> 2</li><li> 5</li> <li>1</li>  <li>-2</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,multiple-selects,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426910",
+          "text": "If $A$ is a $10 \\times 3$ matrix that has a singular value decomposition (SVD) $U \\Sigma V^{T}$, with$$<br />\\Sigma=\\left(\\begin{array}{ccc}<br />100 & 0 & 0 \\\\<br />0 & 10 & 0 \\\\<br />0 & 0 & 1<br />\\end{array}\\right) \\text {, then what is the rank of matrix } A \\text { ? }<br />$$",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,numerical-answers,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "426894",
+          "text": "The matrix $A=\\left(\\begin{array}{ll}1 & 0 \\\\ C & 1\\end{array}\\right)$.<br />Suppose $\\sigma_{1}$ and $\\sigma_{2}$ are the two singular values of $A$. What is $\\sigma_{1}^{2}+\\sigma_{2}^{2}$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $1+C^{2}$</li><li> $2+C^{2}$</li> <li>$1+2 C^{2}$</li>  <li>$C^{2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_la_tw_5,goclasses-testseries-2026,goclasses,linear-algebra,one-mark",
+          "category": "Linear Algebra"
+        }
+      ]
+    }
+  ]
+}

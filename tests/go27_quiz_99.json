@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_99",
+  "name": "GO Classes GATE CS | DBMS | Disk | Weekly Quiz 12",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "534966",
+          "text": "Assume the disk head is at cylinder $18$ and moving towards higher cylinders. Assume a stream of requests arrives for the following cylinders:\n\n$5,\\ 20,\\ 1,\\ 60,\\ 3,\\ 8,\\ 90,\\ 2,\\ 20,\\ 40,\\ 6,\\ 70$\n\nLet $A$ and $B$ be the total seek distances to service all requests using FCFS and SSTF scheduling policies, respectively. What is the value of $A-B$?",
+          "type": "Numerical",
+          "answer": "364",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,numerical-answers,goclasses,databases,disk,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534971",
+          "text": "<p>Consider a disk with the following characteristics:</p><ul><li>Number of surfaces: $8\\;(=2^3)$<br> </li><li>Number of tracks/surface: $512K\\;(=2^{19})$<br> </li><li>Number of bytes/track: $8MB\\;(=2^{23}\\text{ bytes})$<br> </li><li>Number of sectors/track: $8K\\;(=2^{13})$</li></ul><p>What is the total capacity of this disk?</p><ol style=\"list-style-type:upper-alpha\"><li>$2^{42}$ Bytes<br> </li><li>$2^{45}$ Bytes<br> </li><li>$2^{35}$ Bytes<br> </li><li>$2^{38}$ Bytes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq80,goclasses,databases,disk,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534954",
+          "text": "A hard disk has the following specification: $52$ sectors per track, $8$ platters each with $2$ recording surfaces, and $500$ cylinders. The address of a sector is given as a triple $(c,p,s)$, where $c$ is the cylinder number, $p$ is the surface number and $s$ is the sector number. Thus, the $0$th sector is addressed as $(0,0,0)$, the $1$st sector as $(0,0,1)$ and so on. The sector number that corresponds to the address $<300,6,27>$ is",
+          "type": "Numerical",
+          "answer": "249939",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,numerical-answers,goclasses,databases,disk,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534964",
+          "text": "Assume a hard drive that has a $6{,}000$ rpm rotational speed, a $3$ ms average seek time, and that overhead is negligible. Each disk track has $64$ sectors, and each sector holds $1$ KB of data. The drive can read or write data as fast as it rotates. You may assume that $1$ KB $= 1{,}000$ bytes and $1$ MB $= 1{,}000$ KB and $1$ GB $= 1{,}000$ MB. Compute the time (in sec) to read a $1$ GB file if the file is randomly spread across disk sectors. (Answer should be rounded off to $2$ decimal places)",
+          "type": "Numerical",
+          "answer": "8156.25",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,numerical-answers,goclasses,databases,disk,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534967",
+          "text": "<p>Consider the following two statements:<br><br>$\\mathbf{S_1}$: Compared to FIFO, disk scheduling using shortest-seek-time first reduces average seek time but also reduces fairness<br><br>$\\mathbf{S_2}$: The disk scheduling algorithm is attempting to minimize overall time wasted to moving the disk arm<br><br>Which of the following is true?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\mathbf{S_1}$ is correct<br> </li><li>Only $\\mathbf{S_2}$ is correct<br> </li><li>Both are correct<br> </li><li>None are correct</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq80,goclasses,databases,disk,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534965",
+          "text": "<p>Which of the following is/are FALSE?</p><ol style=\"list-style-type:upper-alpha\"><li>With a $15000$ RPM disk, the expected rotation time for a random access is $4$ ms.<br> </li><li>Transfer time for disk sectors is significantly longer for random accesses than for sequential accesses.<br> </li><li>Doubling the rotation speed of a disk also doubles the transfer rate.<br> </li><li>The elevator algorithm does not take rotational time into account when scheduling I/O requests.&nbsp;</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,goclasses,databases,disk,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534955",
+          "text": "Suppose that we are scheduling I/O requests for the disk. The average seek, latency and transfer times are $6.5$, $7.8$, and $0.5$ milliseconds. The time it takes the head to move $n$ tracks is $1 + \\frac{n}{500}$ ms.\n\nInitially the head is at cylinder $4000$, and then the following requests come in this order:\n\n$4000,\\ 6000,\\ 1000,\\ 7000,\\ 3000$\n\nIf we use the FCFS algorithm, what is the total time (in ms) required to completely service all the requests? (Consider the seek time, rotational latency, and data transfer time wherever applicable).",
+          "type": "Numerical",
+          "answer": "79.5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,goclasses,databases,disk,numerical-answers,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534968",
+          "text": "<p>Suppose you are given a disk with $5000$ cylinders (numbered $0$ - $4999$). Suppose also that the drive is currently servicing cylinder $143$, and previously serviced cylinder $125$.<br><br>Requests to the following cylinders have been made to the disk in the following time sequence order and are all pending (i.e. they have not been done yet).<br><br>$86,\\ 1470,\\ 913,\\ 1774,\\ 948,\\ 1509,\\ 1022,\\ 1750,\\ 130$<br><br>If we use the C-SCAN algorithm to service the requests, then what is the order in which the requests are serviced for the requests listed above?</p><ol style=\"list-style-type:upper-alpha\"><li>$913,\\ 948,\\ 1022,\\ 1470,\\ 1509,\\ 1750,\\ 1774,\\ 86,\\ 130$<br> </li><li>$913,\\ 948,\\ 1022,\\ 1470,\\ 1509,\\ 1750,\\ 1774,\\ 130,\\ 86$<br> </li><li>$130,\\ 86,\\ 913,\\ 948,\\ 1022,\\ 1470,\\ 1509,\\ 1750,\\ 1774$<br> </li><li>$130,\\ 86,\\ 1774,\\ 1750,\\ 1509,\\ 1470,\\ 1022,\\ 948,\\ 913$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq80,goclasses,databases,disk,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534960",
+          "text": "<p>Consider a hard disk that has $500$ GB of hard disk space. It has the following performance characteristics:</p><ul><li>$5000$ RPM rotation rate<br> </li><li>$200$ cylinders, numbered from $1$ to $200$<br> </li><li>Takes $1 + (\\tau/20)$ milliseconds to move heads across $\\tau$ cylinders (e.g., from $i$ to $i+\\tau$)<br> </li><li>A constant transfer rate of $100$ MB/s on all tracks</li></ul><p>Calculate the average time taken to read a $1$ MB block from the hard disk. Assume that, for an average read, the head travels half the cylinders and half a revolution.</p>",
+          "type": "Numerical",
+          "answer": "22",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,numerical-answers,goclasses,databases,disk,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534959",
+          "text": "A disk contains $100$ cylinders numbered from $0$ to $99$. Each cylinder has $10$ tracks, and each track contains $20$ sectors. The sectors on the disk are numbered sequentially starting from sector $0$, beginning at cylinder $0$.\n\nAssume the disk head is currently positioned at sector number $7198$ and is moving towards higher numbered cylinders. A stream of requests arrives for the following sector numbers:\n\n$4268,\\ 8111,\\ 2146,\\ 18009,\\ 15100$\n\nUsing the SSTF disk scheduling policy, find the total seek distance (in cylinders) required to service all the requests.",
+          "type": "Numerical",
+          "answer": "115",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,numerical-answers,goclasses,databases,disk,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534962",
+          "text": "Assume a hard drive that has a $6{,}000$ rpm rotational speed, a $3$ ms average seek time, and that overhead is negligible. Each disk track has $64$ sectors, and each sector holds $1$ KB of data. The drive can read or write data as fast as it rotates. Compute the time (in ms) to read a $1$ GB file if the file is written sequentially onto sequential tracks. You can assume it takes only $1$ ms to seek to a neighboring track. Assume that rotational delay is required only once. (Here, $1$ KB $= 1{,}000$ bytes, $1$ MB $= 1{,}000$ KB and $1$ GB $= 1,000$ MB.)",
+          "type": "Numerical",
+          "answer": "171882",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,numerical-answers,goclasses,databases,disk,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534963",
+          "text": "Assume a hard drive that has a $6{,}000$ rpm rotational speed, a $3$ ms average seek time, and that overhead is negligible. Each disk track has $64$ sectors, and each sector holds $1$ KB of data. The drive can read or write data as fast as it rotates. Compute the time (in ms) to read a $1$ GB file if the file is written sequentially onto tracks, but the tracks are spread randomly across the disk. Assume that for each seek to a track, wait for rotational delay. (Here, $1$ KB $= 1{,}000$ bytes, $1$ MB $= 1{,}000$ KB and $1$ GB $= 1{,}000$ MB.)",
+          "type": "Numerical",
+          "answer": "281250",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,numerical-answers,goclasses,databases,disk,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534969",
+          "text": "Consider a disk with a sector size of $512$ bytes, $2000$ tracks per surface, $50$ sectors per track, five double sided platters, and average seek time of $10$ msec. The disk platters rotate at $5400$ rpm. What is maximum rotational delay in seconds (answer should be rounded off to $2$ decimal places)?",
+          "type": "Numerical",
+          "answer": "0.01",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,numerical-answers,goclasses,databases,disk,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534957",
+          "text": "Consider the following disk: Assume a hard drive that has a $10,000$ rpm rotational speed, a $3$ ms average seek time, and a negligible amount of overhead. The disk track has $600$ sectors, and each sector holds $8$ kB of data. The drive can read or write data as fast as it rotates. How long does it take to read a random single sector on average? (You may assume that $1$ kB $= 1,000$ bytes and $1$ MB $= 1,000,000$ bytes.)",
+          "type": "Numerical",
+          "answer": "6.01",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,numerical-answers,goclasses,databases,disk,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "534970",
+          "text": "A disk spins at $10,000$ rpm, has $256K$ tracks per surface, an average of $512$ sectors per track, and four platters; data is stored on both sides of the platters. The average seek time is $5$ ms but the time to seek from one track to an adjacent track is $1$ ms. Assume the sector size is $512$ bytes and the block size is $16$ sectors. How many I/Os are required to read the file of size $500$ MB? (Here $K=1024$)",
+          "type": "Numerical",
+          "answer": "64000",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq80,numerical-answers,goclasses,databases,disk,one-mark",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

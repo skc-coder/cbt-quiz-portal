@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019-Discrete Mathematics 1: Mathematical Logic",
+  "duration": "54",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "258330",
+          "text": "<p>Which of the following first order&nbsp;logic&nbsp;statement is equivalent to below statement?&nbsp;</p>\n\n<blockquote>\n<p><strong>If anyone cheats, everyone suffers.&nbsp;&nbsp;</strong></p>\n</blockquote>\n\n<ul>\n    <li>$S_1&nbsp;\\forall x (\\text{cheat}(x) \\to&nbsp;\\forall y \\text{ suffer}(y))$</li>\n    <li>$S_2: \\forall x\\forall y (\\text{cheat}(x) \\to \\text{ suffer}(y))$</li>\n</ul>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only $S1$</li>\n    <li>Only $S2$</li>\n    <li>Both $S1$ and $S2$</li>\n    <li>None&nbsp;</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm1,first-order-logic,discrete-mathematics,mathematical-logic,quantifiers",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258329",
+          "text": "<p>Which of the following first order logic statements is VALID?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\neg\\forall x \\{ P(x) \\vee ∃y [Q(y) \\wedge P(y)] \\} ≡ ∃x \\{ \\neg P(x) \\wedge&nbsp;\\forall y [(P(y) → \\neg Q(y)) \\vee (Q(y) → \\neg P(y))] \\}$</li>\n    <li>$\\neg\\forall x \\{ P(x) \\vee ∃y [Q(y) \\wedge&nbsp;P(y)] \\} ≡ ∃x \\{ \\neg P(x) \\wedge&nbsp;\\forall y [\\neg(P(y) → \\neg Q(y)) \\vee (\\neg Q(y) → \\neg P(y))] \\}$</li>\n    <li>$\\neg\\forall x \\{ P(x) \\vee ∃y [Q(y) \\wedge&nbsp;P(y)] \\} ≡ ∃x \\{ \\neg P(x) \\wedge&nbsp;\\forall y [(P(y) → \\neg Q(y)) \\vee (\\neg Q(y) → \\neg P(y))] \\}$</li>\n    <li>$\\neg\\forall x \\{ P(x) \\vee ∃y [Q(y) \\wedge&nbsp;P(y)] \\} ≡ ∃x \\{ \\neg P(x) \\wedge&nbsp;\\forall y [\\neg(P(y) → \\neg Q(y)) \\vee (Q(y) → \\neg P(y))] \\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,first-order-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258328",
+          "text": "<p>Which of the following formulae&nbsp;is a formalization of the sentence: \"There is a $\\text{Computer}$ which is not used by any $\\text{Student}$\"</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$ \\exists &nbsp;x (\\text{Computer}(x) \\wedge \\forall y. (\\sim \\text{Student}(y) \\wedge \\sim \\text{Uses}(y,x))) $</li>\n    <li>$ \\exists x (\\text{Computer} (x) \\rightarrow \\forall y. (\\text{Student} (y) \\rightarrow \\sim \\text{Uses} (y,x)))$</li>\n    <li>$ \\exists x (\\text{Computer} (x) \\wedge \\forall y. (\\text{Student} (y) \\rightarrow \\sim \\text{Uses}(y,x)))$</li>\n    <li>$ \\exists x (\\text{Computer} (x) \\rightarrow \\forall y . (\\sim \\text{Student} (y) \\wedge \\sim \\text{Uses}(y,x)))$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,quantifiers",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258327",
+          "text": "<p>Minesweeper is a single-player computer game invented by Robert Donner in 1989. A unary predicate mine is defined, where $\\text{mine}(x)$ means that the cell $x$ contains a mine</p>\n\n<p>$$\\exists x_1, \\dots , \\exists x_n \\left(\\bigwedge_{i=1}^{n} \\text{mine}(x_i) \\wedge \\forall y \\left( \\text{mine}(y) \\to \\bigvee_{i=1}^{n} y = x_i\\right)&nbsp;\\right)$$</p>\n\n<p>Which of the following statements is the correct interpretation of the above formula?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>There are exactly $n$ mines in the game</li>\n    <li>There are at least $n$ mines in the game</li>\n    <li>There are at most $n$ mines in the game</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,quantifiers",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258326",
+          "text": "<p>Which of the below first order logic formulae represent the sentence</p>\n\n<blockquote>\n<p>There is a student who is loved by every other student</p>\n</blockquote>\n\n<p>Here, $\\text{Loves}(x,y)$ means $x$ loves $y$</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\exists x (\\text{Student} (x) \\wedge \\forall y (\\text{Student} (y) \\wedge \\neg (x=y) \\rightarrow \\text{Loves} (y,x))) $</li>\n    <li>$\\exists x (\\text{Student} (x) \\rightarrow&nbsp; \\forall y (\\text{Student} (y) \\wedge \\neg (x=y) \\wedge \\text{Loves} (y,x))) $</li>\n    <li>$\\exists x (\\text{Student} (x) \\wedge \\forall y (\\text{Student} (y) \\wedge \\neg (x=y) \\vee \\text{Loves} (y,x))) $</li>\n    <li>$\\exists x (\\text{Student} (x) \\wedge \\forall y (\\text{Student} (y) \\to \\neg (x=y) \\rightarrow \\text{Loves} (y,x))) $</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,quantifiers",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258325",
+          "text": "<p>Which of the following propositional formulae&nbsp;represents the sentence, 'He will come in the $8:15$ or the $9:15$ train; if the former, he will have time to visit us', where</p>\n\n<ul>\n    <li>&nbsp;$p$ means 'He will come in the $8:15$ train'</li>\n    <li>$q$ means 'He will come in the $9:15$ train'</li>\n    <li>$r$ means 'He will have time to visit us'</li>\n</ul>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$ p \\rightarrow q \\vee r$</li>\n    <li>$ p \\vee q \\rightarrow r $</li>\n    <li>$ ( p \\rightarrow q) \\wedge ( p \\vee r )$</li>\n    <li>$ (p \\vee q ) \\wedge (p \\rightarrow r)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,propositional-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258324",
+          "text": "<p>Which of the following propositional formulae&nbsp;is a tautology?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$(\\neg&nbsp; p \\vee r ) \\rightarrow (p \\vee \\neg r)$</li>\n    <li>$ \\neg ( p \\rightarrow (p&nbsp; \\wedge q ))$</li>\n    <li>$ r \\rightarrow ( p \\wedge \\neg r )$</li>\n    <li>$ ( p \\leftrightarrow q ) \\vee (p \\leftrightarrow \\neg q)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm1,discrete-mathematics,propositional-logic,mathematical-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258323",
+          "text": "<p>Which of the following inference system is valid?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$ (p \\vee q ) \\rightarrow r, r \\models&nbsp; \\neg p &nbsp; $</li>\n    <li>$ p, \\neg p \\leftrightarrow q \\models \\neg q$</li>\n    <li>$ (p \\wedge q) \\rightarrow r, \\neg r \\models p \\vee q$</li>\n    <li>$ p \\wedge q \\models p \\leftrightarrow \\neg q$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258322",
+          "text": "<p>Which of the following formulas represents the sentence, 'Share prices will go up, and if interest rates go up too, there will be a recession', where ;&nbsp;</p>\n\n<ul>\n    <li>$p$ means 'share prices will go up'</li>\n    <li>$q$ means 'interest rates will go up'</li>\n    <li>$r$ means 'there will be a recession'.</li>\n</ul>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$ p \\wedge q \\rightarrow r$</li>\n    <li>$ p \\wedge (q \\rightarrow r)$</li>\n    <li>$ p \\rightarrow q \\wedge r$</li>\n    <li>$ (p \\rightarrow q) \\vee r$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,propositional-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258321",
+          "text": "<p>Assuming a non-empty universe, the formula $(\\forall x P(x) \\vee \\exists y P(y))$ is equivalent to</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\exists x (P(x))$</li>\n    <li>$ (\\forall x P(x))$</li>\n    <li>$ \\neg&nbsp;(\\forall x P(x))$</li>\n    <li>$ \\neg&nbsp;(\\exists x (P(x))$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-dm1,discrete-mathematics,propositional-logic,mathematical-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258320",
+          "text": "<p>Suppose that $P(x,y)$ means \"x is a parent of y\" and $M(x)$ means \"x is a male\".</p>\n\n<p>If $F(v,w)$ equals $M(v) \\wedge \\exists x \\exists y (P(x,y) \\wedge P(x,v) \\wedge (y \\neq v ) \\wedge P(y,w)), $ the meaning of the expression $F(v,w)$ is</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$v$ is a brother of $w$</li>\n    <li>$v$ is an uncle of $w$</li>\n    <li>$v$ is a grandfather of $w$</li>\n    <li>$v$ is a nephew of $w$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,propositional-logic,quantifiers",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258319",
+          "text": "<p>Translate the following logic statement to&nbsp;English&nbsp;where, $A(x)$: $x$ is African, $F(x,y)$: x and y are friends. The universe for $x$&nbsp;and $y$ is all the people in the world.</p>\n\n<p>$$\\forall x \\exists y((A(x) \\vee (F(x,y)))$$</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Every African has some African friend</li>\n    <li>Every person who is not African has at least one friend</li>\n    <li>Every person who has friend is not African</li>\n    <li>None of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,propositional-logic,quantifiers",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258318",
+          "text": "<p>Consider the following statement&nbsp;</p>\n\n<p>$ \\exists x \\: \\exists y (\\text{PARENT}(x, \\text{Ramu}) \\wedge \\text{PARENT}(y, \\text{Ramu}))$</p>\n\n<p>where $\\text{PARENT}(x,y)$ means $x$ is a parent of $y.$&nbsp;Which of the following statement is true about above first order logic statement ?&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Ramu has at least one parent</li>\n    <li>Ramu has at least two parents</li>\n    <li>Ramu has at most one parent</li>\n    <li>Ramu has at most two parents</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,first-order-logic,quantifiers",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258317",
+          "text": "<p>Consider the following inference system:</p>\n\n<ul>\n    <li>$P$</li>\n    <li>$\\neg P \\vee Q$</li>\n    <li>$\\neg Q \\vee R$</li>\n</ul>\n\n<p>Which of the following is a valid conclusion ?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$R$</li>\n    <li>$ \\neg R$</li>\n    <li>$ \\neg Q$</li>\n    <li>$ \\neg R \\wedge Q$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,propositional-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258316",
+          "text": "<p>Let $I$ denote the formula $ (q \\rightarrow p) \\rightarrow (p \\rightarrow q)$ and&nbsp;$II$ denote the formula $(p\\rightarrow q) \\wedge q$</p>\n\n<p>Which of the following is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$I$ is not tautology and $II$&nbsp;is not satisfiable</li>\n    <li>$I$ is not tautology and $II$ is satisfiable</li>\n    <li>$I$ is satisfiable and $II$ is not satisfiable</li>\n    <li>$I$ is tautology and $II$ is satisfiable</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,propositional-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258315",
+          "text": "<p>Which of the following statements is not necessarily true ?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\forall x \\: \\forall y P(x,y) \\Leftrightarrow&nbsp; \\forall y \\: \\forall x P(x,y)$</li>\n    <li>$ \\exists x&nbsp;\\: \\exists y P(x,y) \\Leftrightarrow \\exists y \\: \\exists x P(x,y)$</li>\n    <li>$\\forall x \\: \\exists y P(x,y) \\Rightarrow \\exists y&nbsp;\\: \\forall x P(x,y) $</li>\n    <li>$ \\exists y \\:\\forall x P(x,y) \\Rightarrow \\forall x \\:&nbsp;\\exists y P(x,y)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,propositional-logic,quantifiers",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258314",
+          "text": "<blockquote>\n<p>Every true Indian thinks about politics and Jayaprakash&nbsp;Narayana thinks about politics</p>\n</blockquote>\n\n<p>Which of the following is valid conclusion?</p>\n\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n    <li>Jayaprakash Narayana is true Indian</li>\n    <li>Jayaprakash Narayana is politician</li>\n    <li>Jayaprakash Narayana is not true Indian</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258313",
+          "text": "<p>&nbsp;</p>\n\n<blockquote>\n<p>Everyone has exactly one best friend</p>\n</blockquote>\n\n<p>Which of the following first order logic statements correctly represents above English statement? $BF(x,y)$&nbsp; means&nbsp;$x$ and $y$ are best friends</p>\n\n<ul>\n    <li>$S1 : \\forall x \\exists y \\forall z (BF(x,y) \\wedge \\sim BF(x,z) \\rightarrow (y \\neq z))$</li>\n    <li>$S2 : \\forall x \\exists y (BF(x,y)\\rightarrow \\forall z [(y \\neq z)] \\rightarrow \\sim BF(x,z))$</li>\n</ul>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only $S1$</li>\n    <li>Only $S2$</li>\n    <li>Both $S1$ and $S2$</li>\n    <li>None of the two</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,first-order-logic",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258312",
+          "text": "<p>Which of the following statements is FALSE</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\exists x (P(x) \\rightarrow Q(x)) \\equiv \\forall x P(x) \\rightarrow \\exists x Q(x)&nbsp;$</li>\n    <li>$\\exists x (P(x)&nbsp;\\vee Q(x)) \\equiv \\exists x P(x) \\vee \\exists x Q(x)&nbsp;$</li>\n    <li>$\\forall x (P(x)\\wedge Q(x)) \\equiv \\forall x P(x) \\wedge \\forall x Q(x)&nbsp;$</li>\n    <li>$\\exists x (P(x)\\wedge Q(x)) \\equiv \\exists x P(x) \\wedge \\exists x Q(x)&nbsp;$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,quantifiers",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "258311",
+          "text": "<p>A binary operator is defined as follows</p>\n\n<p>$P \\Updownarrow Q = \\sim P \\wedge Q$</p>\n\n<p>Which of the following statement is equivalent to $P \\rightarrow Q $</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\sim P \\Updownarrow Q$</li>\n    <li>$\\sim( P \\Updownarrow Q)$</li>\n    <li>$\\sim( \\sim&nbsp; P \\Updownarrow Q)$</li>\n    <li>$\\sim ( \\sim P \\Updownarrow \\sim Q)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm1,discrete-mathematics,mathematical-logic,propositional-logic",
+          "category": "Mathematical Logic"
+        }
+      ]
+    }
+  ]
+}

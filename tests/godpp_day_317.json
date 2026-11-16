@@ -1,0 +1,70 @@
+{
+  "name": "Day 246 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528825",
+          "text": "<p>What is the identity element of the group of non-zero real numbers under multiplication?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>0</li><li>1</li><li>-1</li><li>10</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "528823",
+          "text": "<p>Which of the following sets with the given operation is a group?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The set of all integers with addition.</li><li>The set of all natural numbers with multiplication.</li><li>The set of all rational numbers with multiplication.</li><li>The set of all real numbers with multiplication.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "528815",
+          "text": "<p>Which of the following is an abelian group?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The group of all permutations of a set.</li><li>The group of all $\\mathbf{2} \\times \\mathbf{2}$ invertible matrices.</li><li>The group of all rotations in $3 D$ space.</li><li>The group of all integers under addition.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "528821",
+          "text": "<p>Which of the following is an example of a group</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(R,-)$</li><li>$(Z,-)$</li><li>$(R,+)$</li><li>$(Q,-)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "528814",
+          "text": "<p>If $G$ is a group and $g \\in G$, the order of $g$ is defined as:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The smallest positive integer $n$ such that $g^n=e$.</li><li>The largest positive integer $n$ such that $g^n=e$.</li><li>The smallest positive integer $n$ such that $g^n=g$..</li><li>The largest positive integer $n$ such that $g^n=g$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 246"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 83 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "486524",
+          "text": "<p>Consider the following recurrence:</p><p>$$<br>\\begin{aligned}<br>& T(n)=2 T(\\sqrt{n})+1 \\\\<br>& T(1)=1<br>\\end{aligned}<br>$$</p><p><br>Which of the following is NOT true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$T(n)=O(\\log \\log n)$<br>&nbsp;</li><li>$T(n)=O(\\log n)$<br>&nbsp;</li><li>$T(n)=O(\\sqrt{n})$<br>&nbsp;</li><li>$T(n)=O(n)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 83"
+        },
+        {
+          "post_id": "486523",
+          "text": "<p>The recurrence relation that arises in relation with the complexity of binary search is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$T(n)=2 T(n / 2)+k$, where k is constant<br>&nbsp;</li><li>$T(n)=T(n / 2)+k$, where k is constant<br>&nbsp;</li><li>$T(n)=T(n / 2)+\\log n$<br>&nbsp;</li><li>$T(n)=T(n / 2)+n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 83"
+        },
+        {
+          "post_id": "486528",
+          "text": "<p>A file contains the following characters with the given frequencies:</p><ul><li>a: $45$</li><li>b: $13$</li><li>c: $12$</li><li>d: $16$</li><li>e: $9$</li><li>f: $5$</li></ul><p>What is the total number of bits required to encode the message <strong>'bad'</strong> using a Huffman code generated from these frequencies?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$9$<br>&nbsp;</li><li>$7$<br>&nbsp;</li><li>$6$<br>&nbsp;</li><li>$8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 83"
+        },
+        {
+          "post_id": "486527",
+          "text": "<p>Consider the following weighted, directed graph. If Dijkstra's single-source shortest path algorithm is run with source vertex 'S', what is the order in which the vertices are finalised (i.e., extracted from the priority queue)?</p><ul><li>S to A: weight 5<br>&nbsp;</li><li>S to B: weight 2<br>&nbsp;</li><li>B to A: weight 2<br>&nbsp;</li><li>B to C: weight 4<br>&nbsp;</li><li>A to C: weight 1<br>&nbsp;</li><li>A to D: weight 6<br>&nbsp;</li><li>C to D: weight 3<br><br>&nbsp;</li></ul><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$S, B, A, C, D$<br>&nbsp;</li><li>$S, A, B, C, D$<br>&nbsp;</li><li>$S, B, C, A, D$<br>&nbsp;</li><li>$S, B, A, D, C$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 83"
+        },
+        {
+          "post_id": "486525",
+          "text": "<p>Consider a connected, undirected graph $G=(V, E)$ with a weight function $w: E \\rightarrow \\mathbb{R}^{+}$ where all edge weights are distinct. Let $T$ be the Minimum Spanning Tree (MST) of $G$. A new graph $G^{\\prime}=(V, E)$ is created with a new weight function $w^{\\prime}(e)=(w(e))^2+c$ for every edge $e \\in E$, where $c$ is a positive constant. Let $T^{\\prime}$ be the MST of $G^{\\prime}$.</p><p>Which of the following is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$T$ is always identical to $T^{\\prime}$.<br>&nbsp;</li><li>$T$ is never identical to $T^{\\prime}$.<br>&nbsp;</li><li>$T$ is identical to $T^{\\prime}$ only if the graph has no cycles.<br>&nbsp;</li><li>Whether $T$ is identical to $T^{\\prime}$ depends on the value of the constant $c$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 83"
+        }
+      ]
+    }
+  ]
+}

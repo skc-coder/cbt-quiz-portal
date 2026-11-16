@@ -1,0 +1,70 @@
+{
+  "name": "Day 256 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530092",
+          "text": "<p data-start=\"85\" data-end=\"327\">Suppose $Z_1,Z_2,Z_3,Z_4$ are i.i.d.(independent & identically distributed) Bernoulli random variables with parameter $p=\\frac12$.</p><div><p data-start=\"172\" data-end=\"374\">The random variable, $S=Z_2Z_3+Z_4$ if $Z_1=1$, and $S=Z_2+Z_3Z_4$ if $Z_1=0$. Find $P(Z_1=1\\mid S=1)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"376\" data-end=\"433\">$\\frac13$<br>&nbsp;</li><li data-start=\"376\" data-end=\"433\">$\\frac25$<br>&nbsp;</li><li data-start=\"376\" data-end=\"433\">$\\frac12$<br>&nbsp;</li><li data-start=\"376\" data-end=\"433\">$\\frac35$</li></ol></div>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 256"
+        },
+        {
+          "post_id": "530102",
+          "text": "<p data-start=\"73\" data-end=\"504\">A class has $120$ students. There are $64$ students in club $C$, $58$ students in club $T$, and $52$ students in club $M$. Also, $30$ students are in both $C$ and $T$, $26$ students are in both $C$ and $M$, and $24$ students are in both $T$ and $M$. These pairwise counts include students who may be in all three clubs. For a randomly chosen student, what is the range of possible values for $p=P((C\\cup T)\\cap M^c)$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"506\" data-end=\"670\">$\\frac{7}{20}\\le p\\le \\frac{11}{20}$<br>&nbsp;</li><li data-start=\"506\" data-end=\"670\">$\\frac{47}{60}\\le p\\le \\frac{59}{60}$<br>&nbsp;</li><li data-start=\"506\" data-end=\"670\">$\\frac{1}{3}\\le p\\le \\frac{3}{5}$<br>&nbsp;</li><li data-start=\"506\" data-end=\"670\">$\\frac{3}{10}\\le p\\le \\frac{7}{12}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 256"
+        },
+        {
+          "post_id": "530097",
+          "text": "<p data-start=\"96\" data-end=\"665\">You have three six-sided dice. Die $D_1$ has $1$ red face and $5$ black faces, die $D_2$ has $3$ red faces and $3$ black faces, and die $D_3$ has $5$ red faces and $1$ black face. You choose one die at random, with all three dice equally likely, and roll the same die repeatedly. If the first roll is red, you roll exactly $3$ more times. If the first roll is black, you roll exactly $4$ more times. Let $E$ be the event that the total number of red rolls is exactly $3$, the final roll is red, and no two black rolls are consecutive. Find $P(D_2\\mid E)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"667\" data-end=\"760\">$\\frac{55}{398}$<br>&nbsp;</li><li data-start=\"667\" data-end=\"760\">$\\frac{243}{553}$<br>&nbsp;</li><li data-start=\"667\" data-end=\"760\">$\\frac{875}{2388}$<br>&nbsp;</li><li data-start=\"667\" data-end=\"760\">$\\frac{1458}{3511}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 256"
+        },
+        {
+          "post_id": "530099",
+          "text": "<p data-start=\"125\" data-end=\"864\">In a professional league, $60%$ of players are in Group A and $40%$ are in Group B. In Group A, $2%$ actually use an illegal drug, $8%$ use a legal supplement that can affect the test, and $90%$ use neither. In Group B, $7%$ actually use the illegal drug, $13%$ use the legal supplement, and $80%$ use neither. No player is in more than one of these three categories. A player is chosen at random and given a screening test $T$. If $T$ is positive, the sample is sent to Lab $L$ with probability $\\frac34$ and to Lab $M$ with probability $\\frac14$ for confirmation. The lab choice is independent of the player type. A player is reported positive only if both the screening test and the confirmation test are positive.</p><ul><li data-start=\"866\" data-end=\"1127\">For an actual drug user, $P(T+)=0.96$, $P(L+\\mid T+)=0.93$, and $P(M+\\mid T+)=0.88$.&nbsp;<br>&nbsp;</li><li data-start=\"866\" data-end=\"1127\">For a legal-supplement user, $P(T+)=0.18$, $P(L+\\mid T+)=0.40$, and $P(M+\\mid T+)=0.55$.&nbsp;<br>&nbsp;</li><li data-start=\"866\" data-end=\"1127\">For a player using neither, $P(T+)=0.03$, $P(L+\\mid T+)=0.12$, and $P(M+\\mid T+)=0.20$.</li></ul><p data-start=\"1129\" data-end=\"1258\">Given that a randomly chosen player is reported positive, what is the probability that the player actually uses the illegal drug?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1260\" data-end=\"1309\">$0.754$<br>&nbsp;</li><li data-start=\"1260\" data-end=\"1309\">$0.776$<br>&nbsp;</li><li data-start=\"1260\" data-end=\"1309\">$0.842$<br>&nbsp;</li><li data-start=\"1260\" data-end=\"1309\">$0.881$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 256"
+        },
+        {
+          "post_id": "530095",
+          "text": "<p data-start=\"97\" data-end=\"688\">There are $12$ cards in a hat. For each rank $1,2,3,4$, there are exactly $3$ cards of that rank. You draw one card at random. If the first card has rank $1$, you draw $1$ more card. If the first card has rank $2$, you draw $2$ more cards. If the first card has rank $3$, you draw $1$ more card, and then you draw one additional card only if that second card has even rank. If the first card has rank $4$, you draw $2$ more cards, and then you draw one additional card only if those two cards have the same rank. Let $X$ be the sum of the ranks of all cards drawn. Find $E(X)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"690\" data-end=\"780\">$\\frac{711}{110}$<br>&nbsp;</li><li data-start=\"690\" data-end=\"780\">$\\frac{733}{110}$<br>&nbsp;</li><li data-start=\"690\" data-end=\"780\">$\\frac{747}{110}$<br>&nbsp;</li><li data-start=\"690\" data-end=\"780\">$\\frac{381}{55}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 256"
+        }
+      ]
+    }
+  ]
+}

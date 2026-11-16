@@ -1,0 +1,70 @@
+{
+  "name": "Day 281 [Graph Theory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "532888",
+          "text": "<p>A vertex that is adjacent to exactly one other vertex is called a $\\_\\_\\_\\_$ vertex.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Isolated</li><li>Pendant</li><li>Incident</li><li>Simple</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 281"
+        },
+        {
+          "post_id": "532896",
+          "text": "<p>A cycle on $n$ vertices is isomorphic to its complement. The value of $n$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>3</li><li>4</li><li>5</li><li>6</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 281"
+        },
+        {
+          "post_id": "532893",
+          "text": "<p>For a given graph G having v vertices and e edges which is connected and has no cycles, which of the following statements is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$v=e$</li><li>$v=e+1$</li><li>$v+1=e$</li><li>$v=e-1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 281"
+        },
+        {
+          "post_id": "532895",
+          "text": "<p>Which of the following statements is/are TRUE for undirected graphs?</p><p>P: Number of odd degree vertices is even.<br>Q: Sum of degrees of all vertices is even.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>P only</li><li>Q only</li><li>Both P and Q</li><li>Neither P and Q</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 281"
+        },
+        {
+          "post_id": "532889",
+          "text": "<p>Let $G_1$ and $G_2$ be two disjoint graphs having $p_1$ and $p_2$ vertices and $n_1$, $n_2$ edges respectively. Then the number of edges in $G_1 \\vee G_2$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$n_1+n_2$</li><li>$n_1+n_2+p_1p_2$</li><li>$n_1p_2+n_2p_1$</li><li>$p_1+p_2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 281"
+        }
+      ]
+    }
+  ]
+}

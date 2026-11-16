@@ -1,0 +1,382 @@
+[
+  {
+    "id": "da_test_0",
+    "name": "GO Classes CS/DA 2025 | Weekly Quiz 1 | Fundamental Course"
+  },
+  {
+    "id": "da_test_1",
+    "name": "GO Classes CS/DA 2025 | Weekly Quiz 2 | Fundamental Course"
+  },
+  {
+    "id": "da_test_2",
+    "name": "GO Classes CS/DA 2025 | Weekly Quiz 3 | Fundamental Course and Linear Algebra"
+  },
+  {
+    "id": "da_test_3",
+    "name": "GO Classes CS/DA 2025 | Weekly Quiz 4 | Linear Algebra"
+  },
+  {
+    "id": "da_test_4",
+    "name": "GO Classes CS/DA 2025 | Common Weekly Quiz 5 | Linear Algebra"
+  },
+  {
+    "id": "da_test_5",
+    "name": "GO Classes DA 2025 | Weekly Quiz 6 | Change of Basis & Linear Transformation"
+  },
+  {
+    "id": "da_test_6",
+    "name": "GO Classes CS/DA 2025 | Monthly Quiz 1 | General Aptitude"
+  },
+  {
+    "id": "da_test_7",
+    "name": "GO Classes DA 2025 | Weekly Quiz 2 | Singular Value Decomposition (SVD)"
+  },
+  {
+    "id": "da_test_8",
+    "name": "GO Classes CS/DA 2025 | Weekly Quiz 6 | Conditional Probability"
+  },
+  {
+    "id": "da_test_9",
+    "name": "GO Classes DA Test Series 2025 | Linear Algebra | Topic Wise Test 1"
+  },
+  {
+    "id": "da_test_10",
+    "name": "GO Classes DA 2025 | Weekly Quiz 9 | Orthogonal Projections and Projection Matrix"
+  },
+  {
+    "id": "da_test_11",
+    "name": "GO Classes CS/DA 2025 | Monthly Quiz 2 | General Aptitude"
+  },
+  {
+    "id": "da_test_12",
+    "name": "GO Classes DA Test Series 2025 | Linear Algebra | Topic Wise Test 3"
+  },
+  {
+    "id": "da_test_13",
+    "name": "GO Classes DA Test Series 2025 | Linear Algebra | Topic Wise Test 4"
+  },
+  {
+    "id": "da_test_14",
+    "name": "GO Classes DA Test Series 2025 | Linear Algebra | Topic Wise Test 5"
+  },
+  {
+    "id": "da_test_15",
+    "name": "GO Classes DA 2025 | Weekly Quiz 10 | Probability"
+  },
+  {
+    "id": "da_test_16",
+    "name": "GO Classes DA Test Series 2025 | Probability and Statistics | Topic Wise Test 4"
+  },
+  {
+    "id": "da_test_17",
+    "name": "GO Classes CS/DA Test Series 2025 | Databases | Test 1"
+  },
+  {
+    "id": "da_test_18",
+    "name": "GO Classes CS/DA Test Series 2025 | Probability and Statistics | Topic Wise Test 3"
+  },
+  {
+    "id": "da_test_19",
+    "name": "GO Classes CS/DA Test Series 2025 | Databases | Test 2"
+  },
+  {
+    "id": "da_test_20",
+    "name": "GO Classes CS/DA Test Series 2025 | Databases | Test 3"
+  },
+  {
+    "id": "da_test_21",
+    "name": "GO Classes CS/DA 2025 | Monthly Quiz 3 | General Aptitude"
+  },
+  {
+    "id": "da_test_22",
+    "name": "GO Classes CS/DA Test Series 2025 | Probability and Statistics | Bayes Theorem, Conditional Probability"
+  },
+  {
+    "id": "da_test_23",
+    "name": "GO Classes CS/DA Test Series 2025 | Calculus and Optimization | Limit, Continuity"
+  },
+  {
+    "id": "da_test_24",
+    "name": "GO Classes DA 2025 | Weekly Quiz 12 | Probability"
+  },
+  {
+    "id": "da_test_25",
+    "name": "GO Classes CS/DA Test Series 2025 | Databases | Transaction management"
+  },
+  {
+    "id": "da_test_26",
+    "name": "GO Classes DA Test Series 2025 | Calculus and Optimization | Differentiability, Maxima and Minima"
+  },
+  {
+    "id": "da_test_27",
+    "name": "GO Classes CS Test Series 2025 | Theory of Computation | CFL, PDA"
+  },
+  {
+    "id": "da_test_28",
+    "name": "GO Classes DA Test Series 2025 | Python Programming | Topic Wise Test 1"
+  },
+  {
+    "id": "da_test_29",
+    "name": "GO Classes DA Test Series 2025 | Python Programming | Topic Wise Test 2"
+  },
+  {
+    "id": "da_test_30",
+    "name": "GO Classes DA Test Series 2025 | Machine Learning | Topic Wise Test 1"
+  },
+  {
+    "id": "da_test_31",
+    "name": "GO Classes DA Test Series 2025 | Calculus and Optimization | Taylor Series"
+  },
+  {
+    "id": "da_test_32",
+    "name": "GO Classes DA Test Series 2025 | Data Structures and Alogorithms | Topic Wise Test 1"
+  },
+  {
+    "id": "da_test_33",
+    "name": "GO Classes DA Test Series 2025 | Data Structures and Algorithms | Topic Wise Test 2"
+  },
+  {
+    "id": "da_test_34",
+    "name": "GO Classes DA Test Series 2025 | Machine Learning | Topic Wise Test 2"
+  },
+  {
+    "id": "da_test_35",
+    "name": "GO Classes DA Test Series 2025 | Data Structures and Algorithms | Topic Wise Test 3"
+  },
+  {
+    "id": "da_test_36",
+    "name": "GO Classes DA Test Series 2025 | Machine Learning | Topic Wise Test 3"
+  },
+  {
+    "id": "da_test_37",
+    "name": "GO Classes DA Test Series 2025 | Machine Learning | Topic Wise Test 4"
+  },
+  {
+    "id": "da_test_38",
+    "name": "GO Classes DA Test Series 2025 | Data Structures and Algorithms | Basic graph algorithms: traversals and Shortest path"
+  },
+  {
+    "id": "da_test_39",
+    "name": "GO Classes DA Test Series 2025 | Artificial Intelligence | Topic Wise Test 2"
+  },
+  {
+    "id": "da_test_40",
+    "name": "GO Classes DA Test Series 2025 | Machine Learning | Decision Trees | Topic Wise Test 5"
+  },
+  {
+    "id": "da_test_41",
+    "name": "GO Classes DA Test Series 2025 | Machine Learning | Principal Component Analysis | Topic Wise Test 6"
+  },
+  {
+    "id": "da_test_42",
+    "name": "GO Classes DA Test Series 2025 | Machine Learning | Precision Recall and Bias Variance Test | Topic Wise Test 7"
+  },
+  {
+    "id": "da_test_43",
+    "name": "GO Classes DA Test Series 2025 | Machine Learning | Topic Wise Test 9"
+  },
+  {
+    "id": "da_test_44",
+    "name": "GO Classes DA Test Series 2025 | Machine Learning | Clustering | Topic Wise Test 8"
+  },
+  {
+    "id": "da_test_45",
+    "name": "GO Classes DA Test Series 2025 | MOCK GATE | Test 1"
+  },
+  {
+    "id": "da_test_46",
+    "name": "GO Classes DA Test Series 2025 | MOCK GATE | Test 2"
+  },
+  {
+    "id": "da_test_47",
+    "name": "GO Classes DA Test Series 2025 | MOCK GATE | Test 3"
+  },
+  {
+    "id": "da_test_48",
+    "name": "GO Classes DA 2025 | ALL INDIA MOCK TEST 1"
+  },
+  {
+    "id": "da_test_49",
+    "name": "GO Classes DA Test Series 2025 | Artificial Intelligence | A star Algorithm"
+  },
+  {
+    "id": "da_test_50",
+    "name": "GO Classes DA Test Series 2025 | Artificial Intelligence | Propositional and Predicate logic"
+  },
+  {
+    "id": "da_test_51",
+    "name": "GO Classes DA Test Series 2025 | Probability and Statistics | Counting"
+  },
+  {
+    "id": "da_test_52",
+    "name": "GO Classes DA 2025 | ALL INDIA MOCK TEST 2"
+  },
+  {
+    "id": "da_test_53",
+    "name": "GO Classes DA 2025 | ALL INDIA MOCK TEST 3"
+  },
+  {
+    "id": "da_test_54",
+    "name": "GO Classes DA Test Series 2025 | Probability and Statistics | Hypothesis Testing"
+  },
+  {
+    "id": "da_test_55",
+    "name": "GO Classes DA 2025 | ALL INDIA MOCK TEST 4"
+  },
+  {
+    "id": "da_test_56",
+    "name": "GO Classes DA Test Series 2025 | Neural Networks and LDA"
+  },
+  {
+    "id": "da_test_57",
+    "name": "GO Classes DA 2025 | ALL INDIA MOCK TEST 6"
+  },
+  {
+    "id": "da_test_58",
+    "name": "GO Classes DA 2025 | ALL INDIA MOCK TEST 5"
+  },
+  {
+    "id": "da_test_59",
+    "name": "GO Classes DA Test Series 2025 | Database Management and Warehousing | Topic Wise Test 5"
+  },
+  {
+    "id": "da_test_60",
+    "name": "GO Classes DA 2025 | ALL INDIA MOCK TEST 7"
+  },
+  {
+    "id": "da_test_61",
+    "name": "GO Classes CS/DA 2026| Linear Algebra | Weekly Quiz 1"
+  },
+  {
+    "id": "da_test_62",
+    "name": "GO Classes CS/DA 2026 | Linear Algebra| Weekly Quiz 2"
+  },
+  {
+    "id": "da_test_63",
+    "name": "GO Classes CS/DA 2026 | Linear Algebra| Weekly Quiz 3"
+  },
+  {
+    "id": "da_test_64",
+    "name": "GO Classes CS&DA Test Series 2026 | Linear Algebra | Topic Wise Test 1"
+  },
+  {
+    "id": "da_test_65",
+    "name": "GO Classes GATE CS/DA | Linear Algebra | Weekly Quiz 4"
+  },
+  {
+    "id": "da_test_66",
+    "name": "GO Classes CS&DA Test Series 2026 | Linear Algebra | Topic Wise Test 2"
+  },
+  {
+    "id": "da_test_67",
+    "name": "GO Classes GATE DA | Linear Algebra| Weekly Quiz 5"
+  },
+  {
+    "id": "da_test_68",
+    "name": "GO Classes DA Test Series 2026 | Linear Algebra | Topic Wise Test 3"
+  },
+  {
+    "id": "da_test_69",
+    "name": "GO Classes DA Test Series 2026 | Linear Algebra | Topic Wise Test 4"
+  },
+  {
+    "id": "da_test_70",
+    "name": "GO Classes DA Test Series 2026 | Linear Algebra | Topic Wise Test 5"
+  },
+  {
+    "id": "da_test_71",
+    "name": "GATE DA 2025"
+  },
+  {
+    "id": "da_test_72",
+    "name": "GO Classes GATE  DA | Singular Value Decomposition (SVD)| Weekly Quiz 6"
+  },
+  {
+    "id": "da_test_73",
+    "name": "GO Classes GATE CS/DA |Combinatorics | Weekly Quiz 1"
+  },
+  {
+    "id": "da_test_74",
+    "name": "GO Classes GATE CS/DA |Combinatorics | Weekly Quiz 2"
+  },
+  {
+    "id": "da_test_75",
+    "name": "GO Classes GATE DA | Orthogonal Projections and Projection Matrix | Weekly Quiz 7"
+  },
+  {
+    "id": "da_test_76",
+    "name": "GO Classes CS/DA Test Series 2026 | Probability and Statistics | Bayes Theorem, Conditional Probability | Topic Wise Test 2"
+  },
+  {
+    "id": "da_test_77",
+    "name": "GO Classes CS/DA Test Series 2026 | Probability and Statistics | Counting | Topic Wise Test 1"
+  },
+  {
+    "id": "da_test_78",
+    "name": "GO Classes GATE CS/DA | Combinatorics | Weekly Quiz 3"
+  },
+  {
+    "id": "da_test_79",
+    "name": "GO Classes DA Test Series 2026 | Probability and Statistics | Topic Wise Test 3"
+  },
+  {
+    "id": "da_test_80",
+    "name": "GO Classes CS/DA Test Series 2026 | Combinatorics | Counting | Extra Topic Wise Test 1"
+  },
+  {
+    "id": "da_test_81",
+    "name": "GO Classes DA Test Series 2026 | Probability and Statistics | Topic Wise Test 4"
+  },
+  {
+    "id": "da_test_82",
+    "name": "GO Classes DA Test Series 2026 | Probability and Statistics | Hypothesis Testing | Topic Wise Test 1"
+  },
+  {
+    "id": "da_test_83",
+    "name": "GO Classes CS/DA | Probability Distributions | Weekly Quiz 2"
+  },
+  {
+    "id": "da_test_84",
+    "name": "GO Classes CS/DA | Conditional Probability | Weekly Quiz 1"
+  },
+  {
+    "id": "da_test_85",
+    "name": "GO Classes DA Test Series 2026 | Calculus and Optimization | Limit, Continuity | Topic Wise Test 1"
+  },
+  {
+    "id": "da_test_86",
+    "name": "GO Classes DA Test Series 2026 | Linear Algebra | Subject Wise Test 1"
+  },
+  {
+    "id": "da_test_87",
+    "name": "GO Classes CS/DA | Calculus | Weekly Quiz 1"
+  },
+  {
+    "id": "da_test_88",
+    "name": "GO Classes DA Test Series 2026 | Calculus and Optimization | Differentiability, maxima and minima | Topic Wise Test 2"
+  },
+  {
+    "id": "da_test_89",
+    "name": "GO Classes CS/DA | DBMS | Relational Model | Weekly Quiz 1"
+  },
+  {
+    "id": "da_test_90",
+    "name": "GO Classes CS/DA | DBMS | Functional Dependency | Weekly Quiz 2"
+  },
+  {
+    "id": "da_test_91",
+    "name": "GO Classes CS/DA | DBMS | Normalization, Relational Model | Weekly Quiz 3"
+  },
+  {
+    "id": "da_test_92",
+    "name": "GO Classes DA Test Series 2026 | Probability | Topic Wise Test 4"
+  },
+  {
+    "id": "da_test_93",
+    "name": "GO Classes DA Test Series 2026 | Probability | Topic Wise Test 5"
+  },
+  {
+    "id": "da_test_94",
+    "name": "GO Classes DA Test Series 2026 | Probability | Subject Wise Test 1"
+  }
+]

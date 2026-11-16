@@ -1,0 +1,70 @@
+{
+  "name": "Day 171 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "509706",
+          "text": "<p>Consider the intermediate code given below:<br>&nbsp;</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">(1) i = 0\n(2) sum = 0\n(3) t1 = i * 4\n(4) sum = sum + t1\n(5) i = i + 1\n(6) if i &lt; 10 goto (3)\n(7) return sum</pre><p>The number of nodes and edges in the control-flow graph constructed for the above code, respectively, are:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4$ AND&nbsp;$5$<br>&nbsp;</li><li>$4$ AND $4$<br>&nbsp;</li><li>$5$ AND $5$<br>&nbsp;</li><li>$5$ AND&nbsp;$6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 171"
+        },
+        {
+          "post_id": "509722",
+          "text": "Consider the following grammar:<br>\n<br>\n$(1) ~S \\rightarrow a A b$<br>\n<br>\n$(2) ~A \\rightarrow a A b$<br>\n<br>\n$(3) ~A \\rightarrow c$<br>\n&nbsp;<br>\n<br>\nThe number of reduction steps taken by a bottom-up parser while accepting the string $aaacbbb$ is:",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 171"
+        },
+        {
+          "post_id": "509712",
+          "text": "<p>Consider the intermediate code given below:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">(1) x = 10\n(2) if x &gt; 0 goto (5)\n(3) x = x + 1\n(4) goto (6)\n(5) x = x - 1\n(6) y = x</pre><p>The number of nodes and edges in the control-flow graph constructed for the above code, respectively, are:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$6$ AND $6$<br>&nbsp;</li><li>$7$ AND $8$<br>&nbsp;</li><li>$6$ AND $7$<br>&nbsp;</li><li>$4$&nbsp;AND $5$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 171"
+        },
+        {
+          "post_id": "509724",
+          "text": "<p>Consider the following snippet of a specialized programming language:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">printf(\"Result: %d\\n\", x+++--y); // Process result\n/* Update count\n&nbsp; &nbsp; count = count * 2; */</pre><p>the number of tokens in the code is $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 171"
+        },
+        {
+          "post_id": "509716",
+          "text": "<p>A canonical set of items in an $\\operatorname{LR}(0)$ parser is given below:<br><br>$(1) ~E \\rightarrow T .+E$<br><br>$(2) ~F \\rightarrow T$.<br><br>$(3) ~T \\rightarrow i d$<br><br><br>On input symbol $+$, the set has:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A SHIFT-REDUCE CONFLICT AND A REDUCE-REDUCE CONFLICT<br>&nbsp;</li><li>A SHIFT-REDUCE CONFLICT BUT NOT A REDUCE-REDUCE CONFLICT<br>&nbsp;</li><li>A REDUCE-REDUCE CONFLICT BUT NOT A SHIFT-REDUCE CONFLICT<br>&nbsp;</li><li>NEITHER A SHIFT-REDUCE NOR A REDUCE-REDUCE CONFLICT</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 171"
+        }
+      ]
+    }
+  ]
+}

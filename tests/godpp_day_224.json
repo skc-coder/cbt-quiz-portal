@@ -1,0 +1,70 @@
+{
+  "name": "Day 214 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524458",
+          "text": "<p><strong>Statement 1&nbsp;</strong>— Mother to son<strong>:</strong> <em>\"If you don't do your homework, then you can't watch TV.\"</em></p><ul><li>H = \"Do your homework\"</li><li>T = \"Can watch TV\"</li></ul><div><p>The mother's statement \"If you don't do your homework, you can't watch TV\" is translated as H IFF T, not merely ¬H → ¬T. Which of the following best explains why?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>¬H → ¬T and H ↔ T are always logically equivalent</li><li>The mother implicitly also means \"if you DO your homework, you CAN watch TV\", making it a biconditional in context</li><li>Natural language IF-THEN always means biconditional</li><li>¬H → ¬T is the contrapositive of H → T, which equals H ↔ T</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 214"
+        },
+        {
+          "post_id": "524457",
+          "text": "<p><strong>Statement 1 </strong>— Mathematician to student<strong>:</strong> <em>\"If a function is not continuous, then it is not differentiable.\"</em></p><ul><li>C = \"The function is continuous\"</li><li>D = \"The function is differentiable\"</li></ul><div><p>The mathematician's statement \"If a function is not continuous, then it is not differentiable\" is best symbolized as:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>C → D</li><li>¬C → ¬D</li><li>D → C&nbsp;</li><li>Both B and C</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 214"
+        },
+        {
+          "post_id": "524454",
+          "text": "<ul><li>P = \"You get an A on the final exam\"</li><li>Q = \"You do every exercise in the book\"</li><li>R = \"You get an A in the class\"</li></ul><div><p>Which of the following correctly translates: <em>\"To get an A in the class, it is necessary for you to get an A on the final.\"</em></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A. P → R</li><li>B. R → P</li><li>C. ¬P → ¬R</li><li>D. Both B and C</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 214"
+        },
+        {
+          "post_id": "524453",
+          "text": "<ul><li>P = \"You get an A on the final exam\"</li><li>Q = \"You do every exercise in the book\"</li><li>R = \"You get an A in the class\"</li></ul><div><p>Which of the following symbolic forms correctly translate the statement<strong>:</strong> <em>\"You get an A in the class, but you do not do every exercise in the book.\"</em> <em>(Select all that apply)</em></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>R ∧ ¬Q</li><li>¬Q ∧ R</li><li>¬(Q ∨ ¬R)</li><li>R ∧ ¬Q ∧ (P ∨ ¬P)</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 214"
+        },
+        {
+          "post_id": "524455",
+          "text": "<ul><li>P = \"You get an A on the final exam\"</li><li>Q = \"You do every exercise in the book\"</li><li>R = \"You get an A in the class\"</li></ul><div>Which of the following correctly translates: <em>\"You get an A on the final, but you don't do every exercise in the book; nevertheless, you get an A in the class.\"</em></div><div><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>P ∧ ¬Q ∧ R</li><li>P → (¬Q → R)</li><li>(P ∧ ¬Q) → R</li><li>P ∧ ¬Q ∧ ¬R</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 214"
+        }
+      ]
+    }
+  ]
+}

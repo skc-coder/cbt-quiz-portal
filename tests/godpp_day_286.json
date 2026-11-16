@@ -1,0 +1,70 @@
+{
+  "name": "Day 236 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "527321",
+          "text": "<p>The empty relation on set $X=\\{a, b, c\\}$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Neither reflexive nor symmetric</li><li>Symmetric and reflexive</li><li>Transitive and reflexive</li><li>Transitive and symmetric</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "527320",
+          "text": "<p>Let $A$ be a set with cardinality $n$. There are total 1024 symmetric relations on $A$. Then value of n is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>3</li><li>6</li><li>10</li><li>4</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "527322",
+          "text": "<p>Let A be a set with $n$ elements. Let $a, b \\in A$, be two distinct elements. Then the total number of relations on A that contain $(a, b)$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2^{n^2}-1$</li><li>$2^{n-1}$</li><li>$2^{n^2-n}$</li><li>$2^{n^2-1}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "527324",
+          "text": "<p>Let $\\mathcal{R}$ be a relation on natural numbers defined as $\\mathcal{R}=\\left\\{\\left(n, n^2\\right) \\mid n \\in \\mathbb{N}\\right\\}$. Then $\\mathcal{R}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Reflexive</li><li>Transitive</li><li>Equivalence relation</li><li>Anti-symmetric</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 236"
+        },
+        {
+          "post_id": "527325",
+          "text": "<p>Let $A$ and $B$ be two sets such that $|A|=m$ and $|B|=n$. The number of elements in power set of $A \\times B$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2^{m+n}$</li><li>$2^{m n}$</li><li>$2^{m^n}$</li><li>$2^{n^m}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 236"
+        }
+      ]
+    }
+  ]
+}

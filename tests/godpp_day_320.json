@@ -1,0 +1,70 @@
+{
+  "name": "Day 247 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528978",
+          "text": "<p>Identity element of the group $R$ under addition is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>1</li><li>2</li><li>0</li><li>-1</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "528977",
+          "text": "<p>A subgroup $H$ of a group $G$ is normal if:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$a H=H a$ for all $a \\in G$.</li><li>$H$ is commutative.</li><li>$H$ has the same order as $G$.</li><li>$H$ is the center of $G$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "528969",
+          "text": "<p>Which of the following groups is not cyclic?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathbb{Z} / 6 \\mathbb{Z}$</li><li>$\\mathbb{Z} / 2 \\mathbb{Z} \\times \\mathbb{Z} / 2 \\mathbb{Z}$</li><li>$\\mathbb{Z} / 4 \\mathbb{Z}$</li><li>$\\mathbb{Z}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "528970",
+          "text": "<p>In a group $G$, an element a has order 2 if:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$a^2=a$.</li><li>$a^2=e$.</li><li>$a=e$.</li><li>none of these.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 247"
+        },
+        {
+          "post_id": "528942",
+          "text": "<p>Which of the following is a cyclic group?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The set of all integers under addition.</li><li>The set of all real numbers under addition.</li><li>The set of all integers under multiplication.</li><li>The set of all rational numbers under addition.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 247"
+        }
+      ]
+    }
+  ]
+}

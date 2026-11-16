@@ -1,0 +1,70 @@
+{
+  "name": "Day 231 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "526538",
+          "text": "<p>Let $A$ have eigenvalues $\\lambda_1,\\lambda_2,\\ldots,\\lambda_n$ and suppose $P$ diagonalises $A$. Then for any positive integer $k$, $A^k=$<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P\\begin{bmatrix}<br>\\lambda_1 & 0 & \\cdots & 0\\\\<br>0 & \\lambda_2 & \\cdots & 0\\\\<br>\\vdots & \\vdots & \\ddots & \\vdots\\\\<br>0 & 0 & \\cdots & \\lambda_n<br>\\end{bmatrix}P^{-1}$<br><br>&nbsp;</li><li>$P\\begin{bmatrix}<br>\\lambda_1^k & 0 & \\cdots & 0\\\\<br>0 & \\lambda_2^k & \\cdots & 0\\\\<br>\\vdots & \\vdots & \\ddots & \\vdots\\\\<br>0 & 0 & \\cdots & \\lambda_n^k<br>\\end{bmatrix}P^{-1}$<br><br>&nbsp;</li><li>$P^{-1}\\begin{bmatrix}<br>\\lambda_1 & 0 & \\cdots & 0\\\\<br>0 & \\lambda_2 & \\cdots & 0\\\\<br>\\vdots & \\vdots & \\ddots & \\vdots\\\\<br>0 & 0 & \\cdots & \\lambda_n<br>\\end{bmatrix}$<br><br>&nbsp;</li><li>None of these.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 231"
+        },
+        {
+          "post_id": "526536",
+          "text": "<p>If $e$ is the rank of matrix $A_{m \\times n}$, then rank of matrix $A A^{T}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$e$<br>&nbsp;</li><li>$m-e$<br>&nbsp;</li><li>$n-e$<br>&nbsp;</li><li>$m+n-2 e$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 231"
+        },
+        {
+          "post_id": "526531",
+          "text": "<p>Consider the set of vectors $S=\\{v_1,v_2,v_3\\}$, where</p><p>$$v_1=\\begin{pmatrix}1\\\\0\\\\2\\end{pmatrix}, \\qquad<br>v_2=\\begin{pmatrix}2\\\\1\\\\1\\end{pmatrix}, \\qquad<br>v_3=\\begin{pmatrix}t\\\\1\\\\t+1\\end{pmatrix}$$</p><p>and $t$ is a parameter. Which statement is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$S$ is a linearly independent set of vectors for all $t$<br>&nbsp;</li><li>$S$ is a linearly independent set of vectors exactly when $t\\ne 4$<br>&nbsp;</li><li>$S$ is a linearly independent set of vectors exactly when $t=4$<br>&nbsp;</li><li>$S$ is a linearly independent set of vectors exactly when $t\\ne -4$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 231"
+        },
+        {
+          "post_id": "526527",
+          "text": "<p>Let $\\mathrm{A}$ be an&nbsp;$\\mathrm{n}$ $\\times$ $\\mathrm{n}$ real matrix for which two distinct non-zero $\\mathrm{n}$-dimensional real column vectors $\\mathrm{v}_1$ and $\\mathrm{v}_2$ satisfy the relation $\\mathrm{A}{\\mathrm{v}_1} =\\mathrm{Av}_2 $.<br><br>Which of the folllowing statement(s) about&nbsp;$\\mathrm{A}$ is(are) true?</p><ol style=\"list-style-type: upper-alpha;\" start=\"1\"><li>At least one eigenvalue of&nbsp;$\\mathrm{A}$ is zero.<br>&nbsp;</li><li>$\\mathrm{A}$&nbsp;is not full rank.<br>&nbsp;</li><li>Columns of&nbsp;$\\mathrm{A}$ are linearly independent.<br>&nbsp;</li><li>The determinant of&nbsp;$\\mathrm{A}$ is zero.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 231"
+        },
+        {
+          "post_id": "526534",
+          "text": "<p>The Eigen values of a unitary matrix must satisfy the condition that</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Always lie inside the unit circle<br>&nbsp;</li><li>Always lie outside the unit circle<br>&nbsp;</li><li>Always lie on the unit circle<br>&nbsp;</li><li>None of these</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 231"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 300 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "535796",
+          "text": "<p data-start=\"4807\" data-end=\"5117\">A $4:2$ priority encoder has active-high inputs $\\mathrm{D}_0,\\mathrm{D}_1,\\mathrm{D}_2,\\mathrm{D}_3$, where $\\mathrm{D}_3$ has the highest priority and $\\mathrm{D}_0$ has the lowest priority. Outputs are $\\mathrm{Y}_1,\\mathrm{Y}_0$ and valid output $\\mathrm{V}$. Which set of equations is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5119\" data-end=\"5268\">$\\mathrm{Y}_1=\\mathrm{D}_1+\\mathrm{D}_3,\\ \\mathrm{Y}_0=\\mathrm{D}_2+\\mathrm{D}_3,\\ \\mathrm{V}=\\mathrm{D}_0+\\mathrm{D}_1+\\mathrm{D}_2+\\mathrm{D}_3$<br>&nbsp;</li><li data-start=\"5270\" data-end=\"5380\">$\\mathrm{Y}_1=\\mathrm{D}_2+\\mathrm{D}_3,\\ \\mathrm{Y}_0=\\mathrm{D}_1+\\mathrm{D}_3,\\ \\mathrm{V}=\\mathrm{D}_3$<br>&nbsp;</li><li data-start=\"5382\" data-end=\"5544\">$\\mathrm{Y}_1=\\mathrm{D}_2+\\mathrm{D}_3,\\ \\mathrm{Y}_0=\\mathrm{D}_3+\\mathrm{D}_2'\\mathrm{D}_1,\\ \\mathrm{V}=\\mathrm{D}_0+\\mathrm{D}_1+\\mathrm{D}_2+\\mathrm{D}_3$<br>&nbsp;</li><li data-start=\"5546\" data-end=\"5692\">$\\mathrm{Y}_1=\\mathrm{D}_0+\\mathrm{D}_1,\\ \\mathrm{Y}_0=\\mathrm{D}_2+\\mathrm{D}_3,\\ \\mathrm{V}=\\mathrm{D}_0\\mathrm{D}_1\\mathrm{D}_2\\mathrm{D}_3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 300"
+        },
+        {
+          "post_id": "535792",
+          "text": "<p data-start=\"2015\" data-end=\"2166\">A $1:4$ DEMUX has data input $\\mathrm{D}$ and select lines $\\mathrm{S}_1,\\mathrm{S}_0$. Which of the following output equations is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2168\" data-end=\"2374\">$\\mathrm{Y}_0=\\mathrm{S}_1\\mathrm{S}_0\\mathrm{D},\\ \\mathrm{Y}_1=\\mathrm{S}_1\\mathrm{S}_0'\\mathrm{D},\\ \\mathrm{Y}_2=\\mathrm{S}_1'\\mathrm{S}_0\\mathrm{D},\\ \\mathrm{Y}_3=\\mathrm{S}_1'\\mathrm{S}_0'\\mathrm{D}$<br>&nbsp;</li><li data-start=\"2376\" data-end=\"2582\">$\\mathrm{Y}_0=\\mathrm{S}_1'\\mathrm{S}_0'\\mathrm{D},\\ \\mathrm{Y}_1=\\mathrm{S}_1\\mathrm{S}_0'\\mathrm{D},\\ \\mathrm{Y}_2=\\mathrm{S}_1'\\mathrm{S}_0\\mathrm{D},\\ \\mathrm{Y}_3=\\mathrm{S}_1\\mathrm{S}_0\\mathrm{D}$<br>&nbsp;</li><li data-start=\"2584\" data-end=\"2790\">$\\mathrm{Y}_0=\\mathrm{S}_1'\\mathrm{S}_0'\\mathrm{D},\\ \\mathrm{Y}_1=\\mathrm{S}_1'\\mathrm{S}_0\\mathrm{D},\\ \\mathrm{Y}_2=\\mathrm{S}_1\\mathrm{S}_0'\\mathrm{D},\\ \\mathrm{Y}_3=\\mathrm{S}_1\\mathrm{S}_0\\mathrm{D}$<br>&nbsp;</li><li data-start=\"2792\" data-end=\"2948\">$\\mathrm{Y}_0=\\mathrm{S}_0'\\mathrm{D},\\ \\mathrm{Y}_1=\\mathrm{S}_0\\mathrm{D},\\ \\mathrm{Y}_2=\\mathrm{S}_1'\\mathrm{D},\\ \\mathrm{Y}_3=\\mathrm{S}_1\\mathrm{D}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 300"
+        },
+        {
+          "post_id": "535788",
+          "text": "<p data-start=\"307\" data-end=\"381\">How many $4:1$ MUXes are required to implement one $16:1$ MUX?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"383\" data-end=\"416\">$4$<br>&nbsp;</li><li data-start=\"383\" data-end=\"416\">$5$<br>&nbsp;</li><li data-start=\"383\" data-end=\"416\">$6$<br>&nbsp;</li><li data-start=\"383\" data-end=\"416\">$8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 300"
+        },
+        {
+          "post_id": "535794",
+          "text": "<p data-start=\"3608\" data-end=\"3844\">For a $4:2$ binary encoder with active-high inputs $\\mathrm{I}_0,\\mathrm{I}_1,\\mathrm{I}_2,\\mathrm{I}_3$ and outputs $\\mathrm{Y}_1,\\mathrm{Y}_0$, assume exactly one input is $1$ at a time. Which output equations are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3846\" data-end=\"3930\">$\\mathrm{Y}_1=\\mathrm{I}_1+\\mathrm{I}_3,\\ \\mathrm{Y}_0=\\mathrm{I}_2+\\mathrm{I}_3$<br>&nbsp;</li><li data-start=\"3932\" data-end=\"4016\">$\\mathrm{Y}_1=\\mathrm{I}_2+\\mathrm{I}_3,\\ \\mathrm{Y}_0=\\mathrm{I}_1+\\mathrm{I}_3$<br>&nbsp;</li><li data-start=\"4018\" data-end=\"4102\">$\\mathrm{Y}_1=\\mathrm{I}_0+\\mathrm{I}_1,\\ \\mathrm{Y}_0=\\mathrm{I}_2+\\mathrm{I}_3$<br>&nbsp;</li><li data-start=\"4104\" data-end=\"4162\">$\\mathrm{Y}_1=\\mathrm{I}_3,\\ \\mathrm{Y}_0=\\mathrm{I}_1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 300"
+        },
+        {
+          "post_id": "535790",
+          "text": "<p data-start=\"851\" data-end=\"1120\">A $2:1$ MUX has inputs $\\mathrm{I}_0,\\mathrm{I}_1$, select line $\\mathrm{S}$, and active-low enable input $\\mathrm{E}$. When $\\mathrm{E}=1$, the output is $0$. When $\\mathrm{E}=0$, the MUX works normally. Which expression represents the output $\\mathrm{F}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1122\" data-end=\"1416\">$\\mathrm{F}=\\mathrm{E}(\\mathrm{S}'\\mathrm{I}_0+\\mathrm{S}\\mathrm{I}_1)$<br>&nbsp;</li><li data-start=\"1122\" data-end=\"1416\">$\\mathrm{F}=\\mathrm{E}'+\\mathrm{S}'\\mathrm{I}_0+\\mathrm{S}\\mathrm{I}_1$<br>&nbsp;</li><li data-start=\"1122\" data-end=\"1416\">$\\mathrm{F}=\\mathrm{E}'(\\mathrm{S}'\\mathrm{I}_0+\\mathrm{S}\\mathrm{I}_1)$<br>&nbsp;</li><li data-start=\"1122\" data-end=\"1416\">$\\mathrm{F}=\\mathrm{S}'\\mathrm{I}_0+\\mathrm{S}\\mathrm{I}_1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 300"
+        }
+      ]
+    }
+  ]
+}

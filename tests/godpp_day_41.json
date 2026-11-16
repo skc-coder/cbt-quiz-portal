@@ -1,0 +1,70 @@
+{
+  "name": "Day 39 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "475520",
+          "text": "<p>If the access time of a cache is 1 nS and the access time of a main memory is 15 nS, assuming that the cache hit rate is 0.9 and the total number of accesses is 100, then the average access times of the access with cache and without cache will be $-----$ and $-----$.</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>250 nS and 1500 nS<br>&nbsp;</li><li>250 mS and 150 nS<br>&nbsp;</li><li>25 nS and 1500 nS<br>&nbsp;</li><li>250 mS and 1500 mS</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 39"
+        },
+        {
+          "post_id": "475517",
+          "text": "<p>A 5-stage pipelined processor has the following stage latencies:</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px;\"><thead><tr><th scope=\"col\">Stage</th><th scope=\"col\">Latency</th></tr></thead><tbody><tr><td>Fetch</td><td>300 ps</td></tr><tr><td>Decode</td><td>400 ps</td></tr><tr><td>Execute</td><td>350 ps</td></tr><tr><td>Memory</td><td>550 ps</td></tr><tr><td>Writeback</td><td>100 ps</td></tr></tbody></table><p>Each pipeline register adds 20 ps overhead. If a stage is split into two halves, which half should be split to minimise cycle time?</p><p>What are the new cycle&nbsp;time, latency, and throughput?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Split Memory $\\rightarrow$ Cycle time $=420 \\mathrm{ps}$, Latency $=2520 \\mathrm{ps}$, Throughput $=1$ instruction $/ 420 \\mathrm{ps}$<br>&nbsp;</li><li>Split Decode $\\rightarrow$ Cycle time $=370$ ps, Latency $=2220$ ps, Throughput $=1 $ instruction $/ 370$ ps<br>&nbsp;</li><li>Split Execute $\\rightarrow$ Cycle time $=350$ ps, Latency $=2100$ ps, Throughput $=1 $ instruction $/ 350$ ps<br>&nbsp;</li><li>Split Fetch $\\rightarrow$ Cycle time $=300$ ps, Latency $=1800$ ps, Throughput $=1 $ instruction $/ 300$ ps</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 39"
+        },
+        {
+          "post_id": "475510",
+          "text": "<p>Which of the following instructions is NOT typically an arithmetic instruction?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>ADD<br>&nbsp;</li><li>SUB<br>&nbsp;</li><li>MOV<br>&nbsp;</li><li>MUL</li></ol>",
+          "type": "Numerical",
+          "answer": "X",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 39"
+        },
+        {
+          "post_id": "475512",
+          "text": "<p>A processor has a clock rate of 1 GHz and an average CPI of 2. How many instructions can it execute per second?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>0.5 billion<br>&nbsp;</li><li>1 billion<br>&nbsp;</li><li>2 billion<br>&nbsp;</li><li>4 billion</li></ol>",
+          "type": "Numerical",
+          "answer": "X",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 39"
+        },
+        {
+          "post_id": "475514",
+          "text": "A machine has a base CPI of 2 clock cycles. Measurements obtained show that the instruction miss rate is $12 \\%$ and the data miss rate is $6 \\%$, and that on average, $30 \\%$ of all instructions contain one data reference. The miss penalty for the cache is 10 cycles. What is the total CPI?",
+          "type": "Numerical",
+          "answer": "3.38",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 39"
+        }
+      ]
+    }
+  ]
+}

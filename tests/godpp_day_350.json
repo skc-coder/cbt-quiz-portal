@@ -1,0 +1,70 @@
+{
+  "name": "Day 261 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530649",
+          "text": "<p>Let $S$ be the set of permutations of the sequence $1,2,3,4,5$ for which the first term is not 1 . A permutation is chosen randomly from $S$. The probability that the second term is 2 , in lowest terms, is $a / b$. What is $a+b$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>5</li><li>6</li><li>19</li><li>16</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 261"
+        },
+        {
+          "post_id": "530657",
+          "text": "<p>Select numbers $a$ and $b$ between 0 and 1 independently and at random, and let $c$ be their sum. Let $A, B$ and $C$ be the results when $a, b$ and $c$, respectively, are rounded to the nearest integer. What is the probability that $A+B=C$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{1}{4}$</li><li>$\\frac{1}{3}$</li><li>$\\frac{1}{2}$</li><li>$\\frac{3}{4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 261"
+        },
+        {
+          "post_id": "530653",
+          "text": "<p>Henry's Hamburger Haven offers its hamburgers with the following condiments: ketchup, mustard, mayonnaise, tomato, lettuce, pickles, cheese, and onions. A customer can choose one, two,or three meat patties and any collection of condiments. How many different kinds of hamburgers can be ordered?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>24</li><li>256</li><li>768</li><li>40,320</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 261"
+        },
+        {
+          "post_id": "530655",
+          "text": "<p>The $5 \\times 5$ grid shown contains a collection of squares with sizes from $1 \\times 1$ to $5 \\times 5$. How many of these squares contain the black center square?</p><p><img alt=\"\" width=\"87\" height=\"88\" src=\"data:image/png;base64,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\"></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>12</li><li>15</li><li>17</li><li>19</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 261"
+        },
+        {
+          "post_id": "530651",
+          "text": "<p>Coin $A$ is flipped three times and coin $B$ is flipped four times. What is the probability that the number of heads obtained from flipping the two fair coins is the same?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{19}{128}$</li><li>$\\frac{23}{128}$</li><li>$\\frac{1}{4}$</li><li>$\\frac{35}{128}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 261"
+        }
+      ]
+    }
+  ]
+}

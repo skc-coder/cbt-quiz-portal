@@ -1,0 +1,70 @@
+{
+  "name": "Day 112 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "492615",
+          "text": "<p>A network designer is configuring a time-slotted MAC protocol for a dedicated system with exactly 8 hosts. Each host will use the same transmission probability, $p$, in every time slot. The designer's goal is to configure the system for the maximum possible performance.</p><p>What value of transmission probability $p$ should be chosen to maximize the total throughput (efficiency) of the channel?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.080$<br>&nbsp;</li><li>$0.125$<br>&nbsp;</li><li>$0.250$<br>&nbsp;</li><li>$0.500$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 112"
+        },
+        {
+          "post_id": "492610",
+          "text": "<p>The processing engine of a new router is benchmarked and found to have a maximum, fixed processing time of $0.5376$ microseconds for any single packet. The router is being equipped with a new full-duplex interface and must be able to forward a continuous stream of minimum-sized Ethernet frames (totalling $84$ bytes on the wire, including all overhead) without dropping any.</p><p>What is the minimum link speed that the new interface must support to allow for wirespeed forwarding?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$100 \\mathrm{Mb} / \\mathrm{s}$<br>&nbsp;</li><li>$1000 \\mathrm{Mb} / \\mathrm{s}$<br>&nbsp;</li><li>$1250 \\mathrm{Mb} / \\mathrm{s}$<br>&nbsp;</li><li>$2500 \\mathrm{Mb} / \\mathrm{s}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 112"
+        },
+        {
+          "post_id": "492612",
+          "text": "<p>In a time-slotted MAC protocol system, there are 5 hosts competing for the channel. Each host always has data to send and attempts to transmit in any given time slot with a probability of $p=$ 0.25 . There is no backoff, and a collision occurs if more than one host transmits simultaneously.</p><p>What is the overall efficiency of the channel, defined as the probability that a time slot contains exactly one successful transmission?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.250$<br>&nbsp;</li><li>$0.316$<br>&nbsp;</li><li>$0.395$<br>&nbsp;</li><li>$0.781$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 112"
+        },
+        {
+          "post_id": "492608",
+          "text": "<p>A line card on a modern switch has several Gigabit Ethernet ports, each operating at $1 \\mathrm{~Gb} / \\mathrm{s}\\left(10^9\\right.$ bits per second). The switch must be able to handle a continuous \"worst-case\" stream of minimum-sized Ethernet frames without any drops. For this calculation, assume a minimum frame on the wire consists of a $64$-byte frame, an $8$-byte preamble, and a $12$-byte Inter-Packet Gap (IPG).</p><p>What is the theoretical forwarding rate (in Millions of packets per second, Mpps) that a single port's processing logic must support to achieve wirespeed performance?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.148$ Mpps<br>&nbsp;</li><li>$1.488$ Mpps<br>&nbsp;</li><li>$8.125$ Mpps<br>&nbsp;</li><li>$14.880$ Mpps</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 112"
+        },
+        {
+          "post_id": "492607",
+          "text": "An IT technician is tasked with setting up a new Local Area Network (LAN) using a budget that allows for exactly four $8$-port Ethernet switches. The switches provided do not have any dedicated uplink ports, meaning standard ports must be used to interconnect them.<br>\n<br>\nWhat is the absolute maximum number of machines that can be connected to this network?",
+          "type": "Numerical",
+          "answer": "26",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 112"
+        }
+      ]
+    }
+  ]
+}

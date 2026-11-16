@@ -1,0 +1,70 @@
+{
+  "name": "Day 150 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "501374",
+          "text": "<p>Consider a distributed file system with $\\mathbf{5}$ <strong>processes</strong> that share $\\mathbf{11}$ <strong>File Handle (FH)</strong> instances. Each process can request a maximum of $\\boldsymbol{K}$ instances. Currently, each of the $\\mathbf{5}$ <strong>processes holds</strong>&nbsp;$\\mathbf{2}$&nbsp;<strong>FH instances.</strong></p><p>The <strong>smallest integer value of</strong> $\\boldsymbol{K}$ (the maximum a process can request) such that this current state is <strong>always an unsafe state</strong> (meaning deadlock is possible) is $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 150"
+        },
+        {
+          "post_id": "501373",
+          "text": "<p>Consider a system with $\\mathbf{4 ~processes}$ ( $P_1, P_2, P_3, P_4$ ) that share a single pool of <strong>Memory Buffer</strong> instances. Each process requires a maximum of $\\mathbf{6 ~instances}$ to complete its task. Resources are requested and released one at a time.</p><p>The <strong>minimum total number of Memory Buffer instances</strong> the system must have to <strong>always</strong> guarantee a deadlock-free state is $\\_\\_\\_\\_$ . (Answer in integer)</p>",
+          "type": "Numerical",
+          "answer": "21",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 150"
+        },
+        {
+          "post_id": "501370",
+          "text": "<p>A $\\mathbf{2000 ~Kbyte}$ memory is managed using variable partitions but no compaction. It currently has three partitions of sizes $\\mathbf{300 ~Kbyte}$, $\\mathbf{450 ~Kbyte}$, and $\\mathbf{650 ~Kbyte}$ respectively.</p><p>Assuming the system uses the <strong>Worst Fit</strong> allocation strategy, the <strong>smallest allocation request (in $\\textbf{Kbyte}$) that could be denied</strong> is for $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "201",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 150"
+        },
+        {
+          "post_id": "501368",
+          "text": "<p>A $\\mathbf{1500 ~Kbyte}$ memory is managed using variable partitions but no compaction. It currently has three partitions of sizes $\\mathbf{100 ~Kbyte, 200 ~Kbyte,}$ and $\\mathbf{400 ~Kbyte}$ respectively.</p><p>A request for $\\mathbf{250 ~Kbyte}$ is received and satisfied using the <strong>Best Fit</strong> allocation strategy.<br><br>The<strong> total amount of unused memory space</strong> remaining in the system (in Kbyte) is $\\_\\_\\_\\_$ .<br>(Answer in integer)</p>",
+          "type": "Numerical",
+          "answer": "550",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 150"
+        },
+        {
+          "post_id": "501365",
+          "text": "<p>A disk of size $\\textbf{1024 M}$ bytes is divided into blocks of $\\textbf{32 K}$ bytes. A file is stored in the disk using <strong>linked allocation</strong>. In linked allocation, each data block reserves $\\textbf{8 bytes}$ to store the pointer to the next data block. The link part of the last data block contains a NULL pointer (also of $\\text{8 bytes}$).</p><p>Suppose a file of $\\mathbf{4 ~M}$ bytes needs to be stored in the disk. Assume, $1 \\mathrm{~K}=2^{10}$ and $1 \\mathrm{~M}=2^{20}$.</p><p>The <strong>total number of disk blocks</strong> that will be allocated to store this file is $\\_\\_\\_\\_$ . Answer in integer)</p>",
+          "type": "Numerical",
+          "answer": "129",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 150"
+        }
+      ]
+    }
+  ]
+}

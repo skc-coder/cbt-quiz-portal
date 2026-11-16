@@ -1,0 +1,70 @@
+{
+  "name": "Day 151 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "501500",
+          "text": "$\\text { The number of tokens in the following three lines of } C \\text { code is: }$<br>\n<br>\n$\\verb|int calculate(double r) { return (int)(2 * PI * r) - 1; }|$",
+          "type": "Numerical",
+          "answer": "22",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 151"
+        },
+        {
+          "post_id": "501498",
+          "text": "<p>Consider the following grammar.</p><ul><li>$S \\rightarrow X Y \\mid a$<br>&nbsp;</li><li>$X \\rightarrow c X \\mid c$<br>&nbsp;</li><li>$Y \\rightarrow Y b \\mid b$<br>&nbsp;</li></ul><p>The number of <strong>reduction steps</strong> taken by a bottom-up parser while accepting the string $\\textbf{ccccbb}$ is $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 151"
+        },
+        {
+          "post_id": "501496",
+          "text": "<p>What is the <strong>maximum</strong> number of <strong>reduce moves</strong> that can be taken by a bottom-up parser for a grammar with <strong>no epsilon and no unit-production</strong> (i.e., of type $A \\rightarrow \\epsilon$ and $A \\rightarrow \\alpha$ ) to parse a string with $\\textbf{7}$ <strong>tokens</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3$<br>&nbsp;</li><li>$6$<br>&nbsp;</li><li>$13$<br>&nbsp;</li><li>$2^7$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 151"
+        },
+        {
+          "post_id": "501493",
+          "text": "<p>Consider the following two sets of $\\mathrm{LR}(1)$ items of an $\\mathrm{LR}(1)$ grammar.<br><br>\\[<br>\\begin{array}{l|l}<br>\\text{Set } I_1 & \\text{Set } I_2 \\\\<br>\\hline<br>S \\rightarrow A \\cdot b,\\ \\mathbf{c} / d & S \\rightarrow A \\cdot b,\\ \\mathbf{a} / \\mathbf{s} \\\\<br>A \\rightarrow \\cdot e,\\ \\mathbf{b} & A \\rightarrow \\cdot e,\\ \\mathbf{b} \\\\<br>A \\rightarrow \\cdot f,\\ \\mathbf{b} & A \\rightarrow \\cdot f,\\ \\mathbf{b}<br>\\end{array}<br>\\]</p><p><br>Which of the following statements related to merging of the two sets in the corresponding <strong>LALR</strong> parser is/are <strong>FALSE</strong>?</p><ol><li>Cannot be merged since the kernel items have different look-ahead sets.<br>&nbsp;</li><li>Can be merged and will not result in any Shift-Reduce (S-R) or Reduce-Reduce (R-R) conflicts.<br>&nbsp;</li><li>Can be merged but will result in a <strong>Reduce-Reduce (R-R) conflict </strong>on look-ahead symbol b.<br>&nbsp;</li><li>Cannot be merged because the <strong>GOTO</strong> action on symbol $\\mathbf{b}$ from $I_1$ and $I_2$ would lead to different target LR(1) states.</li></ol><div><br><br>&nbsp;</div><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>1, 2 and 4 only<br>&nbsp;</li><li>3 only<br>&nbsp;</li><li>1 and 2 only<br>&nbsp;</li><li>1, 3 and 4 only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 151"
+        },
+        {
+          "post_id": "501492",
+          "text": "<p>The number of tokens in the following C statement is:<br><br>\\[<br>\\begin{array}{l}<br>\\texttt{for (int k = 0; k &lt; SIZE_MAX - 1; k = ((k + 1) * 2 - 1) % MAX_VAL)} \\\\<br>\\texttt{\\{} \\\\<br>\\texttt{&nbsp; &nbsp; if (k == 0) break;} \\\\<br>\\texttt{\\}}<br>\\end{array}<br>\\]<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$35$<br>&nbsp;</li><li>$37$<br>&nbsp;</li><li>$38$<br>&nbsp;</li><li>$39$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 151"
+        }
+      ]
+    }
+  ]
+}

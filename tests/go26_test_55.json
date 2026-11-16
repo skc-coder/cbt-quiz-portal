@@ -1,0 +1,352 @@
+{
+  "name": "GO Classes CS Test Series 2026 | C programming | Subject Wise Test 3",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 15,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 45,
+  "total_marks": 45,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 45,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "476683",
+          "text": "<p>Consider the following C program:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">struct Data {\n    int x;\n    int y;\n};\nint main() {\n    struct Data d = {10, 20};\n    struct Data *p = &amp;d;\n    printf(\"%d\\n\", *((int *)p + 1));\n    return 0;\n}</pre><p><strong>What will be the output of the program?</strong></p><ol style=\"list-style-type:upper-alpha\"><li>$10$<br> </li><li>$20$<br> </li><li>Garbage value<br> </li><li>Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476681",
+          "text": "<p>Consider the following C program:</p><p><strong>Code&nbsp;</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">void recurse(int n) {\n    if (n != 0)\n        recurse(n--);\n    printf(\"%d \", n);\n}</pre><p>What will be the output or behaviour of the function if called as such&nbsp;<code>recurse(5);</code>?</p><ol type=\"A\"><li>It prints the numbers from $5$ to $1$ in reverse order<br> </li><li>It prints nothing and causes a stack overflow<br> </li><li>It prints the numbers from $1$ to $5$ in same order<br> </li><li>It will lead to infinite recursion but no stack overflow</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476679",
+          "text": "<p><strong>Code&nbsp;</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int main() {\n    int *p;\n    for (int i = 0; i &lt; 1000; i++) {\n        p = malloc(sizeof(int) * 10);\n        p[0] = i;\n    }\n    free(p);\n    return 0;\n}</pre><p>Which of the following best describes the behaviour of the above program?</p><ol style=\"list-style-type: upper-alpha;\"><li>No memory leak; <code>p</code> is freed properly<br> </li><li>Only the last allocated block is freed; the rest are leaked<br> </li><li><code>p</code> becomes a dangling pointer before <code>free()</code><br> </li><li>All 1000 allocations are freed correctly</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476675",
+          "text": "<p>Consider the following C code:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int x[2][3] = { {10, 20, 30}, {40, 50, 60} };\nint *p = *(x + 1); \nprintf(\"%d\", *(p + 2));</pre><p>What will be the output of the above program?<br> </p><ol style=\"list-style-type: upper-alpha;\"><li>$30$<br> </li><li>$50$<br> </li><li>$60$<br> </li><li>Segmentation fault</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476674",
+          "text": "<p>Consider the following function<code>foo</code>:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int foo(int a, int b) {\n    if (a &lt; b) {\n        return b;\n    }\n    int diff = a - b;\n    return foo(diff, b - 1) + foo(diff, b + 1);\n}</pre><p>Which one of the following statements best describes the function <code>foo</code>in the above code?</p><ol type=\"A\"><li>Causes a runtime error because functions in C cannot be recursive.<br> </li><li>The function <code>foo</code>is an example of an iterative method.<br> </li><li>The value of <code>diff</code> is shared across all recursive calls.<br> </li><li>Each recursive call to <code>foo</code> has its own local, temporary variable <code>diff</code>.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476671",
+          "text": "<p>Consider the following C code snippet:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">char *p = malloc(10);\nif (x &gt;= 10)\n    free(p);\nif (x &lt; 11)\n    free(p);</pre><p>Which of the following combinations of <code>x</code> value and bug name correctly describes the dangerous behavior in this code?</p><ol type=\"A\"><li><code>x = 9</code>, Bug: Memory Leak<br> </li><li><code>x = 10</code>, Bug: Double Free (i.e., the pointer <code>p</code> is freed twice)<br> </li><li><code>x = 11</code>, Bug: Dangling Pointer<br> </li><li><code>x = 5</code>, Bug: Invalid Allocation</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476667",
+          "text": "<p><strong>The following <code>C</code>program compiles and runs without errors. What is the output the program produces?</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint main(void)\n{\n    char test_str[50] = \"1010_fighting\";\n    char *str_ptr = &amp;test_str[2];\n    while (*str_ptr != '\\0')\n    {\n        printf(\"%c\", *(str_ptr++));\n    }\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$_fighting<br> </li><li>$10$_fighting<br> </li><li><span style=\"font-family: sans-serif, Arial, Verdana, Trebuchet MS, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;\">$1$</span><br> </li><li>$1010$_fighting</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476666",
+          "text": "<p>The following <code>C</code> program compiles and runs without errors. What is the output the program produces?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint main(void)\n{\n    int x = 7;\n    switch(x / 2)\n    {\n        case 1: printf(\"hangman\\n\");\n                break;\n        case 3: printf(\"pacman\\n\");\n                break;\n        case 7: printf(\"dave\\n\");\n                break;\n        default: printf(\"mario\\n\");\n    }\n}</pre><ol type=\"A\"><li>hangman<br> </li><li>pacman<br> </li><li>dave<br> </li><li>mario</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476665",
+          "text": "<p>The following <code>C</code> program compiles and runs without errors. What is the output?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint main(void)\n{\n    int i = 3, j = 2;\n    int x = (i++) * (--j);\n    int y = -(--j);\n    int z = (++i) * 5;\n    printf(\"%d %d %d\\n\", x, y, z);\n}</pre><ol type=\"A\"><li>$3$&nbsp; &nbsp;$0$&nbsp; &nbsp;$25$<br> </li><li>$3$&nbsp; &nbsp;$-1$&nbsp; &nbsp;$20$<br> </li><li>$6$&nbsp; &nbsp;$-2$&nbsp; &nbsp;$15$<br> </li><li>$4$&nbsp; &nbsp;$-1$&nbsp; &nbsp;$20$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476663",
+          "text": "<p>You compile and run the following <code>C</code> program. What is the output?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint i; /* global variable */\nvoid plusplus(int i)\n{\n    i++;\n}\nint main(void)\n{\n    for (i = 0; i &lt; 10; plusplus(i))\n    {\n    }\n    printf(\"i = %d\\n\", i);\n    return 0;\n}</pre><ol type=\"A\"><li>i = $9$<br> </li><li>i = $10$<br> </li><li>i = $11$<br> </li><li>There will be an infinite loop.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476662",
+          "text": "<p>Given an incomplete C program shown below,&nbsp;which one of the following answer choices can NOT be a valid prototype for myfunc?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include&lt;stdio.h&gt;\n/* missing prototype */\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int result;\n&nbsp;&nbsp;&nbsp;&nbsp;int a[5][5] = {{1}};\n&nbsp;&nbsp;&nbsp;&nbsp;result = myfunc(a);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"result = %i \\n\", result);\n}\n/* code for myfunc goes here */\n</pre><ol style=\"list-style-type:upper-alpha;\"><li>$int \\quad myfunc (int \\quad a[][5]);$<br> </li><li>$int \\quad myfunc (int\\quad a[5][]);$<br> </li><li>$int \\quad myfunc&nbsp;(int\\quad b[5][5]);$<br> </li><li>$int \\quad myfunc (int\\quad [5][5]);$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476661",
+          "text": "<p>The following <code>C</code> program compiles and runs without errors. What is the output?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nint i = -12; /* global variable */\nvoid myfunc(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int i = -10;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", i);\n}\nvoid myfunc2(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;i = -10;\n}\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", i);\n&nbsp;&nbsp;&nbsp;&nbsp;myfunc();\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", i);\n&nbsp;&nbsp;&nbsp;&nbsp;myfunc2();\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", i);\n}</pre><ol style=\"list-style-type:upper-alpha;\"><li>$-12$,<br>$-10$,<br>$-10$,<br>$-10$<br> </li><li>$-12$,<br>$-10$,<br>$-12$,<br>$-10$<br> </li><li>$-12$,<br>$-12$,<br>$-12$,<br>$-10$<br> </li><li>$-12$,<br>$-12$,<br>$-12$,<br>$-12$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476659",
+          "text": "<p>Assume that the code fragment shown below is put in a complete C program that compiles and runs without errors. Further assume that when the program is running, the address of the variable named ptr is \\(1000\\) and the address of the variable named \\(\\mathbf{x}[\\mathbf{0}]\\) is \\(1008\\). After the code fragment executes, what is the value of *ptr?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int *ptr;\nint x[3] = {1016, 1024, 1032};\nptr = x;</pre><ol style=\"list-style-type:upper-alpha;\"><li>$1000$<br> </li><li>$1008$<br> </li><li>$1016$<br> </li><li>$1024$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476656",
+          "text": "<p>The following C program compiles and runs without errors. What is the output produced by this program?<br> </p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int x = 0;\nvoid swap(int x, int *y) {\n&nbsp;&nbsp;&nbsp;&nbsp;int temp = x;\n&nbsp;&nbsp;&nbsp;&nbsp;x = *y;\n&nbsp;&nbsp;&nbsp;&nbsp;* y = temp;\n}\nint main(void) {\n&nbsp;&nbsp;&nbsp;&nbsp;int x = 1;\n&nbsp;&nbsp;&nbsp;&nbsp;int y = 2;\n&nbsp;&nbsp;&nbsp;&nbsp;swap(x, &amp;y);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"x = %d y = %d \\n\", x, y);\n&nbsp;&nbsp;&nbsp;&nbsp;return 0;\n}</pre><ol style=\"list-style-type:upper-alpha;\"><li>$x=1 \\quad y=1$<br> </li><li>$x=1 \\quad y=2$<br> </li><li>$x=2 \\quad y=1$<br> </li><li>$x=2 \\quad y=2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476655",
+          "text": "<p>The following program compiles and runs without errors. What is the output of the program?<br> </p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include&lt;stdio.h&gt;\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int arr[5] = {2, 4, 6, 8, 10};\n&nbsp;&nbsp;&nbsp;&nbsp;int *ptr = arr;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d \", *ptr + 1);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", *(ptr + 1));\n}\n</pre><ol style=\"list-style-type:upper-alpha;\"><li>$44$<br> </li><li>$35$<br> </li><li>$34$<br> </li><li>$46$</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476690",
+          "text": "<p>What will be the output of this program?<code> </code></p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nint main() {\n    char string[10] = \"abcdefgh\", *p = string, ch;\n    while (*p != '\\0') {\n        ch = *p++;\n        *p++ = ch;\n    }\n    printf(\"%s\\n\", string);\n    return 0;\n}</pre><ol style=\"list-style-type:upper-alpha\"><li>abcdefgh<br> </li><li>aacceegg<br> </li><li>bbcddffh<br> </li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476689",
+          "text": "<p>Consider the following number line showing a specific range where the line is bold. Filled circles represent points that are included in the range, and hollow circles represent points that are not included.</p><p> </p><p><img alt=\"\" width=\"361\" height=\"33\" src=\"data:image/png;base64,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\"><br><br>Which one of the following conditions results in true if n is in the range shown and false otherwise?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{n}&gt;-7| | \\mathrm{n}&lt;3 \\&amp; \\&amp; \\mathrm{n}==5 \\&amp; \\&amp; \\mathrm{n}==7$<br> </li><li>$\\mathrm{n}&gt;-7| | \\mathrm{n}&lt;3| | \\mathrm{n}==5| | \\mathrm{n}==7$<br> </li><li>$\\mathrm{n}&gt;-7 \\&amp; \\&amp; \\mathrm{n}&lt;3 \\&amp; \\&amp; \\mathrm{n}==5| | \\mathrm{n}==7$<br> </li><li>$\\mathrm{n}&gt;-7 \\&amp; \\&amp; \\mathrm{n}&lt;3$ || $\\mathrm{n}==5$ || $\\mathrm{n}==7$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476687",
+          "text": "<p>Consider the following C function:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">char* func(char* str) {\n    char* ret = (char*) ((long*) ((int*) str + 2) + 1) + 3;\n    return ret;\n}</pre><p>Assume the following:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">sizeof(char) = 1 byte\nsizeof(int) = 4 bytes\nsizeof(long) = 8 bytes</pre><p>Which of the following expressions is/are equivalent to the \"ret\" variable?</p><ol style=\"list-style-type:upper-alpha\"><li>str + $6$<br> </li><li>str + $19$<br> </li><li>&amp;(str[$19$])<br> </li><li>str[$19$]</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks,multiple-selects",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476685",
+          "text": "<p>Consider the following two blocks of code, which are contained in separate files:</p><p><strong>main.c&nbsp;</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">\nvoid foo(); \n\nint i = 0;\nint main() {\n    foo();\n    return 0;\n}</pre><p><strong>foo.c&nbsp;</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int i = 1;\nvoid foo() {\n    printf(\"%d\", i);\n}</pre><p>What will happen when you attempt to compile, link, and run this code?</p><ol style=\"list-style-type:upper-alpha\"><li>It will fail to compile.<br> </li><li>It will fail to link.<br> </li><li>It will print \"$0$\".<br> </li><li>It will print \"$1$\".</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476677",
+          "text": "<p><strong>Code&nbsp;</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int main() {\n    int i = 0, j, count = 0;\n    for (j = -2; j &lt;= 4; j++) {\n        if ((j &gt; 1) || (i++ &amp;&amp; j == 0))\n            count += j;\n    }\n    count += i;\n    printf(\"%d\\n\", count);\n    return 0;\n}</pre><p>What is the output of the program?</p><ol type=\"A\"><li>$10$<br> </li><li>$12$<br> </li><li>$13$<br> </li><li>$15$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476673",
+          "text": "<p>Consider the following C program:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int mystery(int a[]) {\n    a[1] = -3;\n    a = malloc(4 * sizeof(int));\n    a[3] = -2;\n    return a[2];\n}\nint main() {\n    int array[] = {9, 8, 7, 6};\n    array[2] = mystery(array);\n    for (int i = 0; i &lt; 4; i++)\n        printf(\"%d \", array[i]);\n}</pre><p>What will be the output of the above program?</p><ol type=\"A\"><li>$9$ $-3$ $0$ $6$<br> </li><li>$9$ $-3$ $7$ $-2$<br> </li><li>$9$ $-3$ $7$ $6$<br> </li><li>$9$ $8$ $0$&nbsp; $6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476672",
+          "text": "<p>What will be the output of the following program?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">void g(int **x, int *y, int *z) {\n    **x = 10;\n    *x = z;\n    printf(\"%d %d %d\", **x, *y, *z);\n}\nvoid f(int *q, int n, int *p) {\n    n = n + 2;\n    *p = *p * *q;\n    g(&amp;q, &amp;n, p);\n}\nint main() {\n    int a = 7, b = 2;\n    f(&amp;a, b, &amp;b);\n}</pre><ol type=\"A\"><li>$14$&nbsp; $4$&nbsp; $14$<br> </li><li>$10$&nbsp; $4$&nbsp; $14$<br> </li><li>$14$&nbsp; $2$&nbsp; $14$<br> </li><li>$10$&nbsp; $2$&nbsp; $14$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476669",
+          "text": "<p>You are given the following variable declarations of <code>p</code> and <code>q</code>:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">/* Declaration */\n\ndouble p = 25.50, q = 10.00;</pre><p>Which of the following <code>if</code> statements will <strong>NOT</strong> print&nbsp;<code>Yes</code>?<br><br><em>Hint: Look carefully at the semicolons (;)</em></p><ol type=\"A\"><li><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">if (p &gt;= 30 &amp;&amp; q &lt; 30);\n    printf(\"Yes\");</pre></li><li><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">if (q == 25.00 || 10.00)\n    printf(\"Yes\");</pre></li><li><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">if (!p &amp;&amp; q &lt; 30)\n    printf(\"Yes\");</pre></li><li><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">if (p == 10.00 || q != 25.50)\n    printf(\"Yes\");</pre></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476668",
+          "text": "<p>The following C program compiles and runs without errors. What is the output the program produces?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint main(void)\n{\n    int test[3][2] = {{2, 3}, {4, 5}, {6, 7}};\n    int i = 0, j = 0;\n    printf(\"%d \", test[++i][j++]);\n    printf(\"%d\", test[i++][--j]);\n}</pre><ol type=\"A\"><li>$3$&nbsp; $0$<br> </li><li>$4$&nbsp; $0$<br> </li><li>$4$&nbsp; $3$<br> </li><li>$4$&nbsp; $4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476664",
+          "text": "<p>The following <code>C</code>program compiles and runs without error. What is the output?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint main(void)\n{\n    int x = 10, y = 5;\n    switch(x + y)\n    {\n        case 10: x += 5;\n                 y += 5;\n        case 15: x -= 5;\n                 y += 5;\n        case 5:  x += 5;\n                 y += 5;\n        default: x = 5;\n                 y = 10;\n    }\n    printf(\"%d %d\", x, y);\n}</pre><ol type=\"A\"><li>$10$&nbsp; &nbsp;$15$<br> </li><li>$10$&nbsp; &nbsp;$5$<br> </li><li>$5$&nbsp; &nbsp;$10$<br> </li><li>$15$&nbsp; &nbsp;$20$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476660",
+          "text": "<p>The following <code>C</code> program compiles and runs without errors. What is the output?<br> </p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nvoid swap(int* a, int* b, int* c)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int* temp = c;\n&nbsp;&nbsp;&nbsp;&nbsp;* c = *b;\n&nbsp;&nbsp;&nbsp;&nbsp;* b = *a;\n&nbsp;&nbsp;&nbsp;&nbsp;* a = *temp;\n}\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int x, y, z;\n&nbsp;&nbsp;&nbsp;&nbsp;x = 1;\n&nbsp;&nbsp;&nbsp;&nbsp;y = 2;\n&nbsp;&nbsp;&nbsp;&nbsp;z = 3;\n&nbsp;&nbsp;&nbsp;&nbsp;swap(&amp;x, &amp;y, &amp;z);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"x = %d y = %d z = %d\\n\", x, y, z);\n}</pre><ol style=\"list-style-type:upper-alpha;\"><li>$x=3 \\quad y=2 \\quad z=1$<br> </li><li>$x=3 \\quad y=2 \\quad z=2$<br> </li><li>$x=1 \\quad y=2 \\quad z=3$<br> </li><li>$x=2 \\quad y=1 \\quad z=2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476658",
+          "text": "<p>The following C program compiles and runs without errors. What is the output?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\nvoid swap(int count, int A[], int B[])\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int i, temp;\n&nbsp;&nbsp;&nbsp;&nbsp;for (i = 0; i &lt; count; ++i)\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;temp = A[i];\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A[i] = B[i];\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B[i] = temp;\n&nbsp;&nbsp;&nbsp;&nbsp;}\n}\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int A[5] = {1, 6, 4, 5, 9};\n&nbsp;&nbsp;&nbsp;&nbsp;int B[5] = {2, 7, 11, 14, 3};\n&nbsp;&nbsp;&nbsp;&nbsp;int C[7] = {1, 8, 15, 22, 29, 2, 9};\n&nbsp;&nbsp;&nbsp;&nbsp;swap(3, A, B);\n&nbsp;&nbsp;&nbsp;&nbsp;swap(4, B, C);\n&nbsp;&nbsp;&nbsp;&nbsp;swap(5, A, C);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d %d %d\\n\", A[3], B[4], C[5]);\n&nbsp;&nbsp;&nbsp;&nbsp;return;\n}</pre><ol style=\"list-style-type:upper-alpha;\"><li>&nbsp;$4\\quad22\\quad9$<br> </li><li>&nbsp;$14\\quad3\\quad2$<br> </li><li>&nbsp;$5\\quad3\\quad2$<br> </li><li>&nbsp;$14\\quad29\\quad2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476657",
+          "text": "<p>Which of the following loops produces the same value for the variable x as the loop shown below?<br> </p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int i, x = 0;\nfor(i = 0; i &lt;= 100; ++i)\n&nbsp;&nbsp;&nbsp;&nbsp;x += i;\nprintf(\"x = %d \\n\", x); /* prints x = 5050 */\n</pre><ol style=\"list-style-type:upper-alpha;\"><li><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int i = 0, x = 0;\nwhile (i &lt;= 100)\n&nbsp;&nbsp;&nbsp;&nbsp;x += i;\nprintf(\"x = %d\\n\", x);</pre></li><li><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int i = 0, x = 0;\ndo {\n&nbsp;&nbsp;&nbsp;&nbsp;x += i;\n} while (i &lt;= 100);\n++i;\nprintf(\"x = %d\\n\", x);</pre></li><li><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int i = 0, x = 0;\nwhile (i &lt;= 100) {\n&nbsp;&nbsp;&nbsp;&nbsp;x += i++;\n}\nprintf(\"x = %d\\n\", x);</pre></li><li><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int i = 0, x = 0;\nwhile (i &lt;= 100) {\n&nbsp;&nbsp;&nbsp;&nbsp;x += ++i;\n}\nprintf(\"x = %d\\n\", x);</pre></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476654",
+          "text": "<p>The following program compiles and runs without errors. What is the output of the program?<br> </p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\nvoid rec(char str[], int n)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;if(n &lt; 1)\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%c\", str[n - 1]);\n&nbsp;&nbsp;&nbsp;&nbsp;rec(str, n - 1);\n}\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;char str[] = \"0123456789\";\n&nbsp;&nbsp;&nbsp;&nbsp;rec(str, 5);\n}</pre><ol style=\"list-style-type:upper-alpha;\"><li>$01234$<br> </li><li>$56789$<br> </li><li>$98765$<br> </li><li>$43210$</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "476653",
+          "text": "<p>The following <code>C</code>program compiles and runs without errors. What is the output produced by this program?<br> </p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int a[] = {10, 20, 30, 40, 50};\n&nbsp;&nbsp;&nbsp;&nbsp;int *c;\n&nbsp;&nbsp;&nbsp;&nbsp;int *b = a;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d \", *(b++));\n&nbsp;&nbsp;&nbsp;&nbsp;c = b;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d \", ++(*c));\n}</pre><ol style=\"list-style-type:upper-alpha;\"><li>$10\\quad21$<br> </li><li>$20\\quad21$<br> </li><li>$10\\quad20$<br> </li><li>$11\\quad20$</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_programming_sw_3,goclasses,goclasses-testseries-2026,two-marks",
+          "category": "Programming in C"
+        }
+      ]
+    }
+  ]
+}

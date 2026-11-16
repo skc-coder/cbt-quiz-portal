@@ -1,0 +1,70 @@
+{
+  "name": "Day 346 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543744",
+          "text": "<p data-start=\"7104\" data-end=\"7139\">Consider the page-reference string:</p><p data-start=\"7141\" data-end=\"7188\">$5,\\ 4,\\ 3,\\ 2,\\ 5,\\ 4,\\ 6,\\ 5,\\ 4,\\ 3,\\ 2,\\ 6$</p><p data-start=\"7190\" data-end=\"7248\">Initially, memory is empty and contains $\\textbf{4}$<strong data-start=\"7230\" data-end=\"7247\">&nbsp;page frames</strong>.</p><p data-start=\"7250\" data-end=\"7338\">If the <strong data-start=\"7257\" data-end=\"7274\">Optimal (OPT)</strong> page-replacement algorithm is used, how many page faults occur?</p>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 346"
+        },
+        {
+          "post_id": "543737",
+          "text": "<p data-start=\"2216\" data-end=\"2282\">Which of the following statements about virtual memory is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2284\" data-end=\"2397\">The LRU algorithm selects for replacement the page for which the longest time has elapsed since its last use.<br>&nbsp;</li><li data-start=\"2399\" data-end=\"2518\">When indexed address translation is used, a page table is required only for pages currently present in main memory.<br>&nbsp;</li><li data-start=\"2520\" data-end=\"2591\">Whenever a page fault occurs, garbage collection must be performed.<br>&nbsp;</li><li data-start=\"2593\" data-end=\"2702\">The creation of many small free-memory regions as paging is repeatedly performed is called fragmentation.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 346"
+        },
+        {
+          "post_id": "543739",
+          "text": "<p data-start=\"3880\" data-end=\"3950\">A system makes an average of $2$ main-memory accesses per instruction.</p><p data-start=\"3952\" data-end=\"4007\">Whenever a page fault occurs, it causes an overhead of $40$ milliseconds</p><p data-start=\"4028\" data-end=\"4145\">What is the maximum allowable page-fault rate if the average instruction delay caused by page faults must not exceed $0.4$ microseconds per instruction? (<em>Ignore all other overheads.)</em></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4213\" data-end=\"4233\">$5\\times10^{-6}$<br>&nbsp;</li><li data-start=\"4235\" data-end=\"4255\">$1\\times10^{-5}$<br>&nbsp;</li><li data-start=\"4257\" data-end=\"4277\">$5\\times10^{-5}$<br>&nbsp;</li><li data-start=\"4279\" data-end=\"4299\">$1\\times10^{-4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 346"
+        },
+        {
+          "post_id": "543741",
+          "text": "<p data-start=\"5542\" data-end=\"5587\">Consider the following page-reference string:</p><p data-start=\"5589\" data-end=\"5636\">$1,\\ 2,\\ 3,\\ 4,\\ 1,\\ 2,\\ 5,\\ 1,\\ 2,\\ 3,\\ 4,\\ 5$</p><p data-start=\"5638\" data-end=\"5705\">The FIFO page-replacement algorithm is used with $\\textbf{4}$<strong data-start=\"5687\" data-end=\"5704\">&nbsp;page frames</strong>.</p><p data-start=\"5707\" data-end=\"5739\">Initially, all frames are empty. How many page faults occur?</p>",
+          "type": "Numerical",
+          "answer": "10",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 346"
+        },
+        {
+          "post_id": "543602",
+          "text": "<p data-start=\"791\" data-end=\"863\">In a virtual-memory system, the FIFO page-replacement algorithm is used.</p><p data-start=\"865\" data-end=\"902\">The virtual-page reference string is :&nbsp;$1,\\ 4,\\ 2,\\ 4,\\ 1,\\ 3$</p><p data-start=\"929\" data-end=\"955\">There are $3$ page frames.</p><p data-start=\"957\" data-end=\"1010\">After the first three references, the frames contain : $1,\\ 4,\\ 2$</p><p data-start=\"1025\" data-end=\"1123\">What is the state of the three page frames after all the remaining references have been processed?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1125\" data-end=\"1140\">$1,\\ 3,\\ 4$<br>&nbsp;</li><li data-start=\"1142\" data-end=\"1157\">$1,\\ 4,\\ 3$<br>&nbsp;</li><li data-start=\"1159\" data-end=\"1174\">$3,\\ 4,\\ 2$<br>&nbsp;</li><li data-start=\"1176\" data-end=\"1191\">$4,\\ 1,\\ 3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 346"
+        }
+      ]
+    }
+  ]
+}

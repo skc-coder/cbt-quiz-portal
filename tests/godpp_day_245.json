@@ -1,0 +1,70 @@
+{
+  "name": "Day 223 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "525442",
+          "text": "<p>$A$ is $m \\times n$ full rank matrix with $m&gt;n$ and $I$ is an identity matrix. Let matrix $A’ = (A^TA)^{-1} A^T$. Then which of the following statement(s) is(are) FALSE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$AA’A = A $<br>&nbsp;</li><li>$(AA')^2 = AA'$<br>&nbsp;</li><li>$AA’A = I$<br>&nbsp;</li><li>$AA’A = A’$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 223"
+        },
+        {
+          "post_id": "525448",
+          "text": "Consider matrix $A =$ $\\begin{bmatrix} k &2k \\\\ k^{2}-k &k^{2} \\end{bmatrix}$ and $x =$ $\\begin{bmatrix} x1\\\\x2 \\end{bmatrix}$<br>\n<br>\nThe number of distinct real values of $k$ &nbsp;for which the equation &nbsp;$Ax = 0$ has infinitely many solutions is _______.",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 223"
+        },
+        {
+          "post_id": "525438",
+          "text": "<p>Let A be a $4 \\times 4$ matrix with real entries such that $-1,1,2,-2$ are its eigen values. If $B=A^4- 5 \\mathrm{~A}^2+5 I$ where $I$ denotes $4 \\times 4$ identity matrix, then which of the following is correct? $[\\operatorname{det}(\\mathrm{X})$ represents determinant of $X]$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\operatorname{det}(A+B)=0$<br>&nbsp;</li><li>$\\operatorname{det}(B)=1$<br>&nbsp;</li><li>trace of $A+B$ is $4$<br>&nbsp;</li><li>all of these</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 223"
+        },
+        {
+          "post_id": "525444",
+          "text": "<p>An arbitrary vector $X$ is an eigen vector of the vector of the matrix $A = \\begin{pmatrix}<br>1 & 0 & 0 \\\\<br>0 & a & 0 \\\\<br>0 & 0 & b<br>\\end{pmatrix}$, if $(a, b)=$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(0, 0)$<br>&nbsp;</li><li>$(1, 1)$<br>&nbsp;</li><li>$(0, 1)$<br>&nbsp;</li><li>$(1, 2)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 223"
+        },
+        {
+          "post_id": "525440",
+          "text": "<p>Let $A$ be $n \\times n$ matrix, $A^{n}$ = $A^{n-1}$ for $n \\geq 1$ and $A^{0}=I$, Which of following is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A^{m}$ .$A^{n}$ =$A^{m+n}$<br>&nbsp;</li><li>$(A^{m})^{n}=A^{mn}$<br>&nbsp;</li><li>both A&nbsp;and B<br>&nbsp;</li><li>none</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 223"
+        }
+      ]
+    }
+  ]
+}

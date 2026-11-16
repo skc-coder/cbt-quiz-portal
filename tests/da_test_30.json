@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2025 | Machine Learning | Topic Wise Test 1",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "433220",
+          "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a continuous, smooth function whose derivative $f^{\\prime}(x)$ is also continuous. Suppose $f$ has a unique global minimum $x^{*} \\in(-\\infty, \\infty)$, and you are using gradient descent to find $x^{*}$. You fix some $x^{(0)} \\in \\mathbb{R}$ and $\\epsilon>0$, and run $x^{(t)}=x^{(t-1)}-\\epsilon f^{\\prime}\\left(x^{(t-1)}\\right)$ repeatedly. Which of the following statements are true?<br /><ol style=\"list-style-type:upper-alpha\"><li> Gradient descent is sure to converge, to some value, for any step size $\\epsilon>0$</li><li> If $f$ has a local minimum $x^{\\prime}$ different from the global one, i.e., $x^{\\prime} \\neq x^{*}$, and $x^{(t)}=x^{\\prime}$ for some $t$, gradient descent will not converge to $x^{*}$</li> <li>Assuming gradient descent converges, it converges to $x^{*}$ if and only if $f$ is convex</li>  <li>If, additionally, $f$ is the objective function of logistic regression, and gradient descent converges, then it converges to $x^{*}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,two-marks,multiple-selects",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433233",
+          "text": "What is the general model for $\\mathbb{P}(Y=1 \\mid X=x, \\theta)$ in logistic regression, where $X=\\left(X_{0}, X_{1}, \\ldots, X_{n}\\right)$ is the features, $Y$ is the predictions, and $\\theta$ is the parameters? Assume that a bias term has already been appended to $X$ (i.e., $X_{0}=\\mathbf{1}$ ).<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\mathbb{P}(Y=1 \\mid X=x, \\theta)=\\frac{1}{1+e^{-\\theta^{\\top} x}}$</li><li> $\\mathbb{P}(Y=1 \\mid X=x, \\theta)=\\theta^{\\top} x$</li> <li>$\\mathbb{P}(Y=1 \\mid X=x, \\theta)=\\log \\left(1+e^{-\\theta^{\\top} x}\\right)$</li>  <li>$\\mathbb{P}(Y=1 \\mid X=x, \\theta)=\\log \\left(1+e^{\\theta^{\\top} x}\\right)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,one-mark",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433230",
+          "text": "Consider a trained logistic regression model with a weight vector $W$ and a test accuracy $A$ on a given dataset. Assume there is no bias term in the model. If the weight vector $W$ is divided by 2 , which of the following statements is correct?<br /><ol style=\"list-style-type:upper-alpha\"><li> The test accuracy will double.</li><li> The test accuracy will halve.</li> <li>The test accuracy will remain the same.</li>  <li>The test accuracy will be unpredictable.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,one-mark",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433229",
+          "text": "Suppose you have a logistic regression classifier. Consider a point that is currently classified correctly and is far away from the decision boundary. If you remove this point from the training set and re-train the classifier, which of the following statements is correct regarding the decision boundary?<br /><ol style=\"list-style-type:upper-alpha\"><li> The decision boundary will always change.</li><li> The decision boundary will never change.</li> <li>The decision boundary will always remain the same.</li>  <li>The decision boundary may change, depending on the data.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,one-mark",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433221",
+          "text": "We are fitting a linear function to data in which some features are known to be much noisier than others. We account for this by applying an asymmetric penalty in ridge regression: in the normal equations, we replace the identity matrix with a different diagonal matrix, where each entry on the diagonal is a hyperparameter. Although there are many hyperparameters, suppose that we magically find the best hyperparameter values for our validation set. How is the result likely to differ from the result of standard ridge regression?<br /><ol style=\"list-style-type:upper-alpha\"><li> Lower validation error.</li><li> Higher training error.</li> <li>The number of weights equal to zero tends to be greater.</li>  <li>The difference is usually small, as the hyperparameters will tend to have almost the same value.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,one-mark",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433231",
+          "text": "In Lasso regression, what does the L1 regularization term primarily encourage?<br /><ol style=\"list-style-type:upper-alpha\"><li> Encourages the model to fit the training data more closely.</li><li> Encourages the model to have large coefficients for all features.</li> <li>Encourages the model to have small but non-zero coefficients for all features.</li>  <li>Encourages sparsity by driving some feature coefficients to zero.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,one-mark",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433218",
+          "text": "We trained the logistic regression model on a set of labeled examples $\\mathcal{D}$. We obtained some weight vector $\\mathbf{w}$ and bias $w_{0}=0.15$. For the so-obtained model, an example $\\mathbf{x}$, whose label is $y=0$, inflicts a cross-entropy loss of $L(0, h(\\mathbf{x}))=0.274$. What would be the value of the cross-entropy loss for the example $\\mathbf{x}$ if we multiplied its features by two and changed its label?<br /><ol style=\"list-style-type:upper-alpha\"><li> 2.54</li><li> 4.03</li> <li>7.11</li>  <li>1.19</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,two-marks",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433216",
+          "text": "Suppose you have a dataset where the label is binary and generated by a fair coin toss and the input features are generated by sampling i.i.d. , independently of the label. Let n denote the number of examples in your dataset and d the number of input features. You perform logistic regression using a random 70/30 train-validation split. Let Acctrain denote the training accuracy and Accval the validation accuracy. Select the TRUE statements.<br /><ol style=\"list-style-type:upper-alpha\"><li> As $\\mathrm{n} \\rightarrow \\infty$, Acctrain approaches $50 \\%$.</li><li> As $\\mathrm{n} \\rightarrow \\infty$, Accval approaches $50 \\%$.</li> <li>As $\\mathrm{d} \\rightarrow \\infty$, Acctrain approaches $100 \\%$.</li>  <li>As $d \\rightarrow \\infty$, Accval approaches $100 \\%$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,two-marks,multiple-selects",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433225",
+          "text": "Suppose you train a logistic regression model with cross-entropy loss. Assume that you're updating the model using gradient descent with a sufficiently low learning rate. Which of the following are valid ways to initialize the parameters? Assume that numerical stability is not an issue (i.e. when running the model, you don't pass in an invalid argument to a function, such as 0 to $\\log$ ).<br /><ol style=\"list-style-type:upper-alpha\"><li> Initialize all parameters with 0 's</li><li> Initialize all parameters with 1's</li> <li>Randomly initialize parameters</li>  <li>All of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,one-mark",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433232",
+          "text": "Which of the following statements about logistic regression is true?<br /><ol style=\"list-style-type:upper-alpha\"><li> The loss function of logistic regression without regularization is convex, and the loss function of logistic regression with L2 regularization is convex.</li><li> Neither the loss function of logistic regression without regularization is convex nor the loss function of logistic regression with L2 regularization is convex.</li> <li>The loss function of logistic regression without regularization is convex, but the loss function of logistic regression with L2 regularization is non-convex.</li>  <li>The loss function of logistic regression without regularization is non-convex, but the loss function of logistic regression with L2 regularization is convex.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,one-mark",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433222",
+          "text": "<p>Which of the following statements are true about Lasso and ridge regression?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>Both ridge regression and Lasso are methods used to reduce overfitting that might occur in standard linear regression.</li><li>The $\\ell_{1}$-norm regularization used in Lasso has a tendency to induce sparsity in the weight vector.</li><li>Both ridge regression and Lasso have a cost function with a minimizing weight vector $w^{*}$ that we can write as a&nbsp;closed-form algebraic expression.</li><li>Ridge regression shrinks the weight vector but rarely drives its components to exactly zero.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,one-mark,multiple-selects",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433219",
+          "text": "<p>Although linear regression is a linear model, it can still represent non-linear functions by applying a non-linear feature transformation $\\phi$, which maps input data to a higher-dimensional feature space.What key assumption underlies this approach?</p><ol style=\"list-style-type:upper-alpha\"><li>Data points that lie on a non-linear surface in the original input space are mapped to a hyperplane in the feature space.</li><li>Data that is linearly separable in the input space becomes linearly inseparable in a higher-dimensional feature space.</li><li>Data points that are near a non-linear surface in the input space are mapped close to a hyperplane in the feature space.</li><li>A hyperplane that minimizes prediction error in the input space corresponds directly to a non-linear surface in the feature space.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,two-marks",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433217",
+          "text": "<p>Consider using linear regression with the following training data:</p><table border=\"1\" cellpadding=\"1\" style=\"margin: auto; border-spacing: 1px; width: 239px;\"><thead><tr><th scope=\"col\">$\\textbf{x}$</th><th scope=\"col\">$\\textbf{y}$</th></tr></thead><tbody><tr><td>-1</td><td>-1</td></tr><tr><td>0</td><td>0</td></tr><tr><td>1</td><td>2</td></tr></tbody></table><p><br><br>Suppose you model the response as $\\textbf{y}=\\theta_{0}+\\theta_{1} \\textbf{x}$. Using least squares linear regression, what are the parameters $\\theta_{0}$ and $\\theta_{1}$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\theta_{0}=\\frac{1}{3}, \\theta_{1}=\\frac{3}{2}$</li><li>$\\theta_{0}=\\frac{1}{3}, \\theta_{1}=\\frac{1}{2}$</li><li>$\\theta_{0}=0, \\theta_{1}=2$</li><li>$\\theta_{0}=\\frac{2}{3}, \\theta_{1}=1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,two-marks",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433223",
+          "text": "<p>Consider adding the elastic net regularization term $\\lambda_{1}\\|w\\|_{2}^{2}+\\lambda_{2}\\|w\\|_{1}$ to linear regression. If we want our weights to be smaller, but dislike having many completely zero weights, what is most likely to be the best choice?</p><ol style=\"list-style-type:upper-alpha\"><li>Increase $\\lambda_{1}$, Decrease $\\lambda_{2}$</li><li>Decrease $\\lambda_{1}$, Increase $\\lambda_{2}$</li><li>Decrease $\\lambda_{1}$,&nbsp;Decrease $\\lambda_{2}$</li><li>Increase $\\lambda_{1}$, Increase $\\lambda_{2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,one-mark",
+          "category": "AI/ML"
+        },
+        {
+          "contents": "",
+          "post_id": "433227",
+          "text": "Which statements are true about ridge regression and Lasso (with $\\lambda>0$ for both).<br /><ol style=\"list-style-type:upper-alpha\"><li> Ridge regression has a unique solution if and only if the design matrix has full rank.</li><li> There are points in feature space where the gradient of Lasso's cost function is not defined.</li> <li>Ridge regression can be formulated as a linear programming problem.</li>  <li>One of Lasso's virtues is its tendency to set some weights to zero.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-ml-1,goclasses,machine-learning,multiple-selects,one-mark",
+          "category": "AI/ML"
+        }
+      ]
+    }
+  ]
+}

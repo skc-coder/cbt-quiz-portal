@@ -1,0 +1,70 @@
+{
+  "name": "Day 82 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "486326",
+          "text": "<p>A computer system features a two-level cache. The L1 cache has an access time of $10$ ns and a hit rate of $90 \\%$. The L2 cache has an access time of $40$ ns and a local hit rate of $95 \\%$ (for misses from L1). The main memory has an access time of $200$ ns. What is the average memory access time (AMAT) for this system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$15$ ns<br>&nbsp;</li><li>$34$ ns<br>&nbsp;</li><li>$13.8$ ns<br>&nbsp;</li><li>$50$ ns</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 82"
+        },
+        {
+          "post_id": "486324",
+          "text": "<p>A four-way set associative cache memory unit with a capacity of $32$ KB is built using a block size of $16$ words. The word length is $32$ bits. The physical address space is $4$ GB . The number of bits in the TAG, SET fields are</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$19,7$<br>&nbsp;</li><li>$17,9$<br>&nbsp;</li><li>$21,7$<br>&nbsp;</li><li>$19,8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 82"
+        },
+        {
+          "post_id": "486322",
+          "text": "<p>A particular parallel program computation requires $100$ sec when executed on a single processor. If $40 \\%$ of this computation is inherently sequential (i.e., will not benefit from additional processors), then theoretically best possible elapsed times of this program running with 2 and 4 processors, respectively, are</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$20$ sec and $10$ sec<br>&nbsp;</li><li>$30$ sec and $15$ sec<br>&nbsp;</li><li>$50$ sec and $25$ sec<br>&nbsp;</li><li>$70$ sec and $55$ sec</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 82"
+        },
+        {
+          "post_id": "486325",
+          "text": "<p>A machine has a $32$-bit architecture with $1$-word-long instructions. It has $64$ registers, each of which is $32$ bits long. It needs to support $45$ instructions, which have an immediate operand in addition to two register operands. Assuming that the immediate operand is an unsigned integer, the maximum value of the immediate operand is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$16383$<br>&nbsp;</li><li>$32767$<br>&nbsp;</li><li>$65535$<br>&nbsp;</li><li>$131071$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 82"
+        },
+        {
+          "post_id": "486323",
+          "text": "<p>A byte addressable computer has a memory capacity of $2^m \\mathrm{~KB}$ (kbytes) and can perform $2^n$ operations. An instruction involving 3 operands and one operator needs maximum of</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3m$ bits<br>&nbsp;</li><li>$3 m+n$ bits<br>&nbsp;</li><li>$m+n$ bits<br>&nbsp;</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 82"
+        }
+      ]
+    }
+  ]
+}

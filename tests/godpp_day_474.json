@@ -1,0 +1,70 @@
+{
+  "name": "Day 323 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "540092",
+          "text": "<p data-start=\"243\" data-end=\"334\">Consider the following C program. Assume that every $\\texttt{fork()}$ call succeeds.</p><pre data-start=\"336\" data-end=\"496\" data-rawcode=\"int main(void) {     unsigned long int i;      for (i = 0; i &lt; 6; i++)         if (fork() &gt;= 0)             continue;         else             break; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int main(void) {\n    unsigned long int i;\n\n    for (i = 0; i &lt; 6; i++)\n        if (fork() &gt;= 0)\n            continue;\n        else\n            break;\n}</pre><p data-start=\"498\" data-end=\"602\">What is the total number of processes present after the loop terminates, including the original process?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"604\" data-end=\"646\">$7$<br>&nbsp;</li><li data-start=\"604\" data-end=\"646\">$8$<br>&nbsp;</li><li data-start=\"604\" data-end=\"646\">$32$<br>&nbsp;</li><li data-start=\"604\" data-end=\"646\">$64$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 323"
+        },
+        {
+          "post_id": "540060",
+          "text": "<p data-start=\"210\" data-end=\"372\">Consider the following C program. When the execution reaches line $5$, how many processes and threads, respectively, exist in the process hierarchy?</p><pre data-start=\"374\" data-end=\"469\" data-rawcode=\"int main() {     int i;      for (i = 0; i &lt; 3; i++)         fork();      while (1); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int main() {\n    int i;\n    for (i = 0; i &lt; 3; i++)\n        fork();\n\n    while (1);\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"471\" data-end=\"627\">$1$ process and $0$ threads<br>&nbsp;</li><li data-start=\"471\" data-end=\"627\">$3$ processes and $0$ threads<br>&nbsp;</li><li data-start=\"471\" data-end=\"627\">$7$ processes and $7$ threads<br>&nbsp;</li><li data-start=\"471\" data-end=\"627\">$8$ processes and $8$ threads</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 323"
+        },
+        {
+          "post_id": "540090",
+          "text": "<p data-start=\"1413\" data-end=\"1470\">Assume that every $\\texttt{fork()}$ call succeeds.</p><pre data-start=\"1472\" data-end=\"1656\" data-rawcode=\"int main() {     int a = 0;     int rc = fork();      a++;      if (rc == 0) {         rc = fork();         a++;     } else {         a++;     }      printf(&quot;a is %d\\n&quot;, a); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int main() {\n    int a = 0;\n    int rc = fork();\n\n    a++;\n\n    if (rc == 0) {\n        rc = fork();\n        a++;\n    } else {\n        a++;\n    }\n\n    printf(\"a is %d\\n\", a);\n}</pre><p data-start=\"1658\" data-end=\"1714\">What is the largest value of $\\texttt{a}$&nbsp;printed by the program?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1716\" data-end=\"1816\">The value may vary because of a race condition<br>&nbsp;</li><li data-start=\"1716\" data-end=\"1816\">$2$<br>&nbsp;</li><li data-start=\"1716\" data-end=\"1816\">$3$<br>&nbsp;</li><li data-start=\"1716\" data-end=\"1816\">None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 323"
+        },
+        {
+          "post_id": "540064",
+          "text": "<p data-start=\"2549\" data-end=\"2606\">Assume that every $\\texttt{fork()}$ call succeeds.</p><pre data-start=\"2608\" data-end=\"2758\" data-rawcode=\"int main() {     int pid;      pid = fork() && fork();      if (!pid)         printf(&quot;A\\n&quot;);     else         printf(&quot;B\\n&quot;);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int main() {\n    int pid;\n\n    pid = fork() && fork();\n\n    if (!pid)\n        printf(\"A\\n\");\n    else\n        printf(\"B\\n\");\n\n    return 0;\n}</pre><p data-start=\"2760\" data-end=\"2813\">How many times are $\\texttt{A}$&nbsp;and $\\texttt{B}$&nbsp;printed, respectively?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2815\" data-end=\"3074\">$\\texttt{A}$ is printed once and $\\texttt{B}$&nbsp;is printed once<br>&nbsp;</li><li data-start=\"2815\" data-end=\"3074\">$\\texttt{A}$&nbsp;is printed once and $\\texttt{B}$&nbsp;is printed twice<br>&nbsp;</li><li data-start=\"2815\" data-end=\"3074\">$\\texttt{A}$&nbsp;is printed twice and $\\texttt{B}$&nbsp;is printed once<br>&nbsp;</li><li data-start=\"2815\" data-end=\"3074\">$\\texttt{A}$&nbsp;is printed twice and $\\texttt{B}$&nbsp;is printed twice</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 323"
+        },
+        {
+          "post_id": "540062",
+          "text": "<p data-start=\"4127\" data-end=\"4216\">Consider the following program. Assume that every $\\texttt{fork()}$ call succeeds.</p><pre data-start=\"4218\" data-end=\"4382\" data-rawcode=\"int main() {     int p1 = 1, p2 = 2, p3 = 3;      p1 = fork();      if (p2 &gt; 0)         p2 = fork();      if (p1 &gt; 0)         p3 = fork();      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int main() {\n    int p1 = 1, p2 = 2, p3 = 3;\n\n    p1 = fork();\n\n    if (p2 &gt; 0)\n        p2 = fork();\n\n    if (p1 &gt; 0)\n        p3 = fork();\n\n    return 0;\n}</pre><p data-start=\"4384\" data-end=\"4469\">Including the original process, how many processes exist when the program terminates?</p>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 323"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 245 [Set Theory & Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528707",
+          "text": "<p>If $f: A \\rightarrow B$ is an onto function, then -</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$|\\mathrm{A}|=|\\mathrm{B}|$</li><li>$|A| \\geq|B|$</li><li>$|A| \\leq|B|$</li><li>Cannot say</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "528706",
+          "text": "<p>If $f$ and $g$ are functions from $\\mathbb{R}$ to $\\mathbb{R}$ and $f(x)=3 x+5$ and $g(x)=1-2 x$, then $(f \\circ g)(1)$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$-1$</li><li>$2$</li><li>$-15$</li><li>$17$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "528704",
+          "text": "$f: \\mathbb{Z} \\rightarrow \\mathbb{Z}$, defined as $f(x)=x^{10}$ is a bijection. (Enter $1$ for True and $0$ for false)<br>\n&nbsp;",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "528703",
+          "text": "<p>$f$ be a function from $\\mathbb{R}-\\{0\\}$ to $\\mathbb{R}-\\{0\\}$ defined as $f(x)=2 x$. What is $\\left(f^{-1} \\circ f\\right)(2)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>4</li><li>2</li><li>1</li><li>1/2</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "528702",
+          "text": "<p>Let $f: X \\rightarrow Y$ be a function, A and B be subsets of X . Which of the following conditions are true?</p><ol><li>If $A \\subseteq B$ then $f(A) \\subseteq f(B)$</li><li>$f(A) \\cap f(B) \\subseteq f(A \\cap B)$</li></ol><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Only 1 is true.</li><li>1 and 2 are true.</li><li>2 is true, 1 is false.</li><li>Both are false.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Set Theory & Algebra",
+          "day": "Day 245"
+        }
+      ]
+    }
+  ]
+}

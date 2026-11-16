@@ -1,0 +1,70 @@
+{
+  "name": "Day 337 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "542688",
+          "text": "<p data-start=\"0\" data-end=\"43\">In the standard reader-preference solution:</p><ul data-start=\"45\" data-end=\"147\"><li data-section-id=\"1xaiiqm\" data-start=\"45\" data-end=\"94\">$\\texttt{mutex}$ protects $\\texttt{readcount}$.<br>&nbsp;</li><li data-section-id=\"vznpx7\" data-start=\"95\" data-end=\"147\">$\\texttt{wrt}$ controls access to the shared data.</li></ul><p data-start=\"149\" data-end=\"195\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"197\" data-end=\"248\">The first reader executes $\\texttt{wait(wrt)}$.<br>&nbsp;</li><li data-start=\"250\" data-end=\"325\">Every reader individually executes $\\texttt{wait(wrt)}$ before reading.<br>&nbsp;</li><li data-start=\"327\" data-end=\"379\">The last reader executes $\\texttt{signal(wrt)}$.<br>&nbsp;</li><li data-start=\"381\" data-end=\"455\" data-is-last-node=\"\" data-is-only-node=\"\">Updates to $\\texttt{readcount}$ must be protected by $\\texttt{mutex}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 337"
+        },
+        {
+          "post_id": "542691",
+          "text": "<p data-start=\"0\" data-end=\"85\">In a reader-preference solution, a writer is waiting while readers continue arriving.</p><p data-start=\"87\" data-end=\"120\">Which of the following may occur?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"122\" data-end=\"139\">Reader starvation<br>&nbsp;</li><li data-start=\"141\" data-end=\"158\">Writer starvation<br>&nbsp;</li><li data-start=\"160\" data-end=\"196\">Immediate deadlock among all readers<br>&nbsp;</li><li data-start=\"198\" data-end=\"230\" data-is-last-node=\"\" data-is-only-node=\"\">Two writers enter simultaneously</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 337"
+        },
+        {
+          "post_id": "542689",
+          "text": "<p data-start=\"0\" data-end=\"37\">Consider a modified reader algorithm:</p><p data-start=\"39\" data-end=\"62\">$\\texttt{wait(mutex);}$</p><p data-start=\"64\" data-end=\"87\">$\\texttt{readcount++;}$</p><p data-start=\"89\" data-end=\"114\">$\\texttt{signal(mutex);}$</p><p data-start=\"116\" data-end=\"146\">$\\texttt{if(readcount == 1)}$</p><p data-start=\"148\" data-end=\"169\">$\\texttt{wait(wrt);}$</p><p data-start=\"171\" data-end=\"269\">Two readers may increment $\\texttt{readcount}$ before either executes the $\\texttt{if}$ statement.</p><p data-start=\"271\" data-end=\"294\">What problem can occur?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"296\" data-end=\"323\">Both readers must deadlock.<br>&nbsp;</li><li data-start=\"325\" data-end=\"434\">No reader may acquire $\\texttt{wrt}$, allowing a writer and readers to access the shared data simultaneously.<br>&nbsp;</li><li data-start=\"436\" data-end=\"481\">The writer permanently owns $\\texttt{mutex}$.<br>&nbsp;</li><li data-start=\"483\" data-end=\"538\" data-is-last-node=\"\" data-is-only-node=\"\">$\\texttt{readcount}$ can never become greater than $1$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 337"
+        },
+        {
+          "post_id": "542692",
+          "text": "<section dir=\"auto\" data-turn-id=\"request-WEB:c072c26a-a164-48e0-9280-778d9121035d-4\" data-turn-id-container=\"request-WEB:c072c26a-a164-48e0-9280-778d9121035d-4\" data-testid=\"conversation-turn-10\" data-turn=\"assistant\"><p data-start=\"0\" data-end=\"90\">Which of the following techniques can prevent deadlock in the dining-philosophers problem?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"92\" data-end=\"180\">Allow at most four of five philosophers to attempt to acquire chopsticks simultaneously.<br>&nbsp;</li><li data-start=\"182\" data-end=\"292\">Require some philosophers to acquire the left chopstick first and others to acquire the right chopstick first.<br>&nbsp;</li><li data-start=\"294\" data-end=\"361\">Allow a philosopher to acquire both required chopsticks atomically.<br>&nbsp;</li><li data-start=\"363\" data-end=\"463\" data-is-last-node=\"\" data-is-only-node=\"\">Require every philosopher to acquire the left chopstick first and then wait for the right chopstick.</li></ol></section>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 337"
+        },
+        {
+          "post_id": "542693",
+          "text": "<p data-start=\"10820\" data-end=\"10866\">Five philosophers sit around a circular table.</p><p data-start=\"10868\" data-end=\"10994\">There is one chopstick between each pair of adjacent philosophers, and a philosopher requires both adjacent chopsticks to eat.</p><p data-start=\"10996\" data-end=\"11066\" data-is-last-node=\"\" data-is-only-node=\"\">What is the maximum number of philosophers who can eat simultaneously?</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 337"
+        }
+      ]
+    }
+  ]
+}

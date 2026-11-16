@@ -1,0 +1,352 @@
+{
+  "name": "GATEBOOK-2019 DS1: C Programming, Basic DS",
+  "duration": "108",
+  "total_qs": "30",
+  "total_qs_one": 0,
+  "total_qs_two": 30,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 60,
+  "total_marks": 60,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 60,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "257806",
+          "text": "<p>A C file, named as $A$, contains a definition of an &nbsp;array as follows:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nchar a[10];</pre>\n\n<p>Another file, named as $B$, wants to use this array and declares an extern variable as follows:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nchar *a;</pre>\n\n<p>The program in file $B$ is to be compiled. What could be the result of compilation?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>It generates $\\text{array index out of bound}$ error.</li>\n    <li>It generates undefined reference to $\\text{a}$ error.</li>\n    <li>It generates $\\text{type mismatch}$ error.</li>\n    <li>It compiles successfully.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257805",
+          "text": "<p>Consider a C declaration as follows:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nchar* (*(*f [16])(char* a,char b,char c))[32];</pre>\n\n<p>Which of the following best interprets this declaration?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{f}$ is an array of $16$ pointers to a function that accepts three char type variables $a,b$ and $c$ and returns a pointer to an array of pointers to $32$ char.</li>\n    <li>$\\text{f}$ is an array of $16$ pointers to a function that accepts three char type variables $a,b$, and $c$ and returns a pointer to an array $32$ char.</li>\n    <li>$\\text{f}$&nbsp;is an array of $16$ pointers to a function that accepts a pointer to a&nbsp;char and two char variables $b$ and $c$ and returns a pointer to an array of pointers to $32$ char.</li>\n    <li>$\\text{f}$ is an array of $16$ pointers to a function that accepts a pointer to a char and two char variables $b$ and $c$ and returns a pointer to an array of $32$ pointers to a char.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257804",
+          "text": "<p>Consider following array declaration in C:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nfloat f_array ['G']['A']['T']['E'][2019]</pre>\n\n<p>Assuming that the main memory is byte-addressable and that the array is stored starting from memory address $0$, the address of array element $a[2][4][6][8][10]$ is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1568936644$</li>\n    <li>$1586936644$</li>\n    <li>$4483560464$</li>\n    <li>$6275746576$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257803",
+          "text": "<p>Consider following C program:</p>\n\n<pre>\n#include &lt;stdio.h&gt;\nint main()\n{\n    int i;\n    int arr[6] = {2,0,4};\n    for (i = 0; i &lt;= 5; i++)\n        printf(\"%d \", arr[i]);\n    return 0;\n}\n</pre>\n\n<p>The output of the code is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0 \\: 2 \\: 0 \\: 4 \\: 0 \\: 0$</li>\n    <li>$0 \\: 0 \\: 0 \\: 2 \\: 0 \\: 4$</li>\n    <li>$2 \\:&nbsp; 0 \\: 4 \\: 2 \\: 0 \\: 4$</li>\n    <li>$2 \\: 0 \\: 4 \\: 0 \\: 0 \\: 0$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257802",
+          "text": "<p>Consider following C program:</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\n#include &lt;stdio.h&gt;\nint main()\n{\n    int i,j;\n    int arr['A']['B'] = {{2,10},{4},2,2,3,{1},{4},{5}};\n    for (i = 0; i &lt; 'A'; i++)\n    {\n        for (j = 0; j &lt; 'B'; j++)\n        printf(\"%d \", arr[i][j]);\n        printf(\"\\n\");\n    }\n    return 0;\n}</pre>\n\n<p><br>\nHow many rows of this $2-D$ array contain at least one nonzero entry? (Assume that the character code of ‘A’ starts from $65$)</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3$</li>\n    <li>$5$</li>\n    <li>$6$</li>\n    <li>$8$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,programming-in-c",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257801",
+          "text": "<p>Consider following C code fragment, assuming the size of long double is 96 bits and all address are of size 4 bytes:</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nlong double *random_pointer;\nrandom_pointer = malloc(20 * sizeof(long double));\nif(random_pointer !=NULL)\n    printf(\"%d \\n\", strlen(random_pointer)-sizeof(*random_pointer));</pre>\n\n<p>If the desired space in memory is allocated to this program and $\\text{random_pointer}$ is set to point this region, what would be printed once this code is executed?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0$</li>\n    <li>$-4$</li>\n    <li>$\\text{Unexpected Result or Memory Error}$</li>\n    <li>$236$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,programming-in-c,pointers",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257800",
+          "text": "<p>An array A of dimensions $n*n$ is defined as follows:</p>\n\n<p>$A[i,j]=(-1)^{i+j}&nbsp;(i * j),$&nbsp; &nbsp; for all $i,j,$&nbsp; where $1\\le&nbsp;i \\le&nbsp;n; 1\\le&nbsp;j\\le&nbsp;n;$</p>\n\n<p>The sum of the diagonal elements of the array A is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0$</li>\n    <li>$\\frac{n(n+1)(2n+1)}{6}$</li>\n    <li>$\\frac{n^2-n}{2}$ &nbsp;&nbsp;</li>\n    <li>$\\frac{n^2+1}{2}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,arrays",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257799",
+          "text": "<p>Suppose you are given an array $S[1...n]$ and a procedure $\\text{reverse}(S,i,j)$ which reverses the order of elements in $S$ between positions $i$ and $j$ (both inclusive). What does the following sequence do, where $1 &lt; k \\le n$:</p>\n\n<ul>\n    <li>$\\text{reverse} (S, k, n)$;</li>\n    <li>$\\text{reverse} (S, 1, k-1)$;</li>\n    <li>$\\text{reverse} (S, 1, n)$;</li>\n    <li>$\\text{reverse}(S, k, n)$;</li>\n    <li>$\\text{reverse}(S, 1, k-1)$;</li>\n    <li>$\\text{reverse}(S, 1, n)$;</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Rotates $S$ left by $k$ positions</li>\n    <li>Leaves $S$ unchanged</li>\n    <li>Reverses all elements of $S$</li>\n    <li>Rotates $S$ right by $2k-1$ positions</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,arrays",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257798",
+          "text": "<p>Consider following C program:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\n#include&lt;stdio.h&gt;\nint main()\n{\n    int a[3][3][3]= {11,12,13,21,22,23,31,32,33,41,42,43,51,52,53,61,62,63};\n    printf(\"%d \",a[2]-a[0]);\n    printf(\"%d \",a[2][2]-a[0][1]);\n    return 0;\n}</pre>\n\n<p>What is the output of this code?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3, \\: 12$</li>\n    <li>$3, \\: 6$</li>\n    <li>$6, \\:12$</li>\n    <li>$6,\\:&nbsp; 21$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257797",
+          "text": "<p>Consider following C program:</p>\n\n<pre>\n#include &lt;stdio.h&gt;\nint main()\n{\nint a[3][4][2]={11,12,13,21,22,23,31,32,33,41,42,43,51,52,53,61,62,63};\nprintf(\"%d \",*((*(a+2)-3))[2]);\nreturn 0;\n}</pre>\n\n<p>What is the output of this code?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$41$</li>\n    <li>$42$</li>\n    <li>$53$</li>\n    <li>$62$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257796",
+          "text": "<p>Let A be a two-dimensional array declared as follows:</p>\n\n<p>$\\text{A: array} [1 …. 10] [1 …… 15] \\text{ of integer}; $</p>\n\n<p>Assuming that each integer takes one memory location, the array is stored in row-major order and the first element of the array is stored at location 100, what is the address of the element $A[i][j]$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$15i + j + 94&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$</li>\n    <li>$15j + i + 89&nbsp; &nbsp; &nbsp; &nbsp;$</li>\n    <li>$10j + i + 89$</li>\n    <li>$15i + j + 84$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257795",
+          "text": "<p>Let the minimum number of stack(s) required to evaluate a prefix expression is $A$ and the value of the&nbsp;prefix expression $--+2*34+/8215$ (all numbers are unit digit) evaluated using the same number of stack(s) is $B$. What are the values of $A$ and $B$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1,4$</li>\n    <li>$2,6$</li>\n    <li>$1,6$</li>\n    <li>$2,4$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,stack",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "257794",
+          "text": "There are eight data items: A,B,C,D,E,F,G and H which are pushed in a stack S, one after the other starting from H to A. Elements in stack S are popped but in three rounds as follows: In first round 2 elements are popped and enqueued in a queue Q. In second round three more elements are popped from S and enqueued in Q followed by dequeue operations performed on Q three times and all of these dequeued data items are pushed back in S. In third round pop(S) operation is called four times and only second and fourth elements are enqueued in Q. Which of the following data items is pointed by $REAR$ pointer of Q at the end of above sequence of operations.<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  B<br /> </li><li>  F<br /> </li> <li> G<br /> </li>  <li> A  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming and DS"
+        },
+        {
+          "contents": "",
+          "post_id": "257793",
+          "text": "<p>The pseudo code of a function is given below which takes an integer $n$ as its argument, and uses a stack $S$ to process the number.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid foo(int n)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;stack S;\n&nbsp;&nbsp;&nbsp;&nbsp;while (n &gt;= 1)\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;push(&amp;S, n%2);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n = n/2;\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;while (!isEmpty(&amp;S))\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(“%d”, pop(&amp;S));\n}</pre>\n\n<p>Which of the following statements about the functionality of $foo(n)$ is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Prints binary representation of $n$ in reverse order</li>\n    <li>Prints binary representation of $n$</li>\n    <li>Prints the binary value of $\\log n$ in reverse order</li>\n    <li>Prints the binary value of $2^n$ in reverse order</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,stack",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257792",
+          "text": "<p>Which of the following is NOT TRUE about applications of stack?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Shallow access makes use of call stack depth to access nonlocal variables.</li>\n    <li>Stack is used to implement deep access of variables</li>\n    <li>Dynamic scoping rules make use of stack.</li>\n    <li>It can be used to generate a sequence of Fibonacci numbers.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,runtime-environments",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257791",
+          "text": "<p>Which of the following permutations of data items (as a result of pop operations), can not be obtained in the output using a stack, applying push and pop repeatedly, assuming that the input contains a sequence of 8 integers $1,2,3,4,5,6,7,8$ pushed in that order?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$3,4,5,2,7,6,1,8$</li>\n    <li>$3,4,5,2,8,7,6,1$</li>\n    <li>$1,5,4,6,8,7,3,2$&nbsp;</li>\n    <li>$5,4,3,2,7,1,6,8$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257790",
+          "text": "<p>Consider following function for a given Linked List $L$ as: $head\\rightarrow[1]\\rightarrow[2]\\rightarrow[3]\\rightarrow[4]\\rightarrow[6]\\rightarrow[5]\\rightarrow[7]$, which is pointed to by a&nbsp; $\\text{head}$ pointer.<br>\n(Assume&nbsp;the type of&nbsp;$\\text{head}$ as&nbsp;$\\text{struct node *}$ which is already defined.)</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid foo(struct node* head)\n{\n    if(head == NULL)\n        return;\n    if (head -&gt; next!=NULL)\n    {\n        foo(head -&gt; next -&gt; next);\n    }\n    printf(\"\\%d  \", head -&gt; data);\n}</pre>\n\n<p><br>\nWhat does the above function print?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1 \\: 2 \\: 3 \\: 4 \\: 5 \\: 6 \\: 7$</li>\n    <li>$7 \\: 6 \\:&nbsp; 3 \\:&nbsp;1$</li>\n    <li>$7 \\: 5 \\: 3 \\: 1$</li>\n    <li>$7 \\: 6 \\: 5 \\: 4 \\: 3 \\: 2 \\: 1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,linked-lists",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257789",
+          "text": "<p>Consider the following function processing a doubly linked list.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid magic(struct node **headptr)\n{\n    struct node *temp = NULL;\n    struct node *curr = *headptr;\n    while (curr !=  NULL)\n    {\n        temp = curr -&gt; prev;\n        curr -&gt;  prev = curr -&gt; next;\n        curr -&gt; next = temp;\n        curr = curr  -&gt;  prev  -&gt;  next;\n    }\n    if(temp != NULL )\n        *headptr = temp -&gt; prev;\n}\n</pre>\n\n<p>Assume that address&nbsp;of head of following doubly linked list is passed to above function:<br>\n$[1] \\leftrightarrow [2] \\leftrightarrow [3] \\leftrightarrow [4] \\leftrightarrow [5] \\leftrightarrow [6] $.<br>\nWhat should be the modified linked list after the function call?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$Head \\rightarrow [2] \\leftrightarrow [1] \\leftrightarrow [4] \\leftrightarrow [3] \\leftrightarrow [6] \\leftrightarrow [5] $</li>\n    <li>$Head \\rightarrow [5] \\leftrightarrow [4] \\leftrightarrow [3] \\leftrightarrow [2] \\leftrightarrow [1] \\leftrightarrow [6]$</li>\n    <li>$Head \\rightarrow [6] \\leftrightarrow [5] \\leftrightarrow [4] \\leftrightarrow [3] \\leftrightarrow [2] \\leftrightarrow [1] $</li>\n    <li>$\\text{None of the above}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,linked-lists",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257788",
+          "text": "<p>Which of the following sorting algorithms best suits to sort a set of integer data items stored in nodes of a doubly linked list, with minimum worst case time complexity?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Merge Sort</li>\n    <li>Heap Sort</li>\n    <li>Quick Sort</li>\n    <li>Insertion Sort</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,linked-lists",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257787",
+          "text": "Pointers to first and last nodes of a singly linked list are provided. Which of the following operations require a time complexity of $O(n)$ where $n$ is the size (number of elements) of linked list.<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Deleting the last node of the list.<br /> </li><li>  Insertion of a new node before first node of linked list.<br /> </li> <li> Addition of a new node at the end of the list. <br /> </li>  <li> Deleting &nbsp;first node of linked list.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming and DS"
+        },
+        {
+          "contents": "",
+          "post_id": "257786",
+          "text": "<p>Consider a singly circular linked list with a pointer $ \\text{head} $ pointing to the first node of the linked list. What are the time complexities of finding $k^{th}$ element from beginning and $k^{th}$ element from end in a singly linked list (where $k$ is some number less than the size of linked list, i.e. $k&lt;n$)?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$O(n) \\text{and } O(n)$</li>\n    <li>$O(1) \\text{and }O(1)$</li>\n    <li>$O(n) \\text{and } O(1)$</li>\n    <li>$O(1) \\text{and } O(n)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,linked-lists",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257785",
+          "text": "<p>Which of the following statements about construction of a doubly linked list is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>A doubly linked list can not be created using only one pointer at every node.</li>\n    <li>A doubly linked list can only be constructed using two pointers known as $\\text{prev}$ and $\\text{next}$ and there is no other way to implement it.</li>\n    <li>EXNORing the data values at current node and next node can enable the construction of a doubly linked list with only one pointer.</li>\n    <li>EXORing the addresses of current node and next node can enable the construction of a doubly linked list with only one pointer.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257784",
+          "text": "<p>Consider a doubly linked list shown below:<br>\n$\\text{head} \\rightarrow [1] \\leftrightarrow [2] \\leftrightarrow [3] \\leftrightarrow [4] \\leftrightarrow [5] \\leftrightarrow [6] \\leftrightarrow [7] $.<br>\nConsider the function $change()$ defined below, where $ \\text{head}$ points to the first node in the linked list:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid change(struct node* head)\n{\n    if(head == NULL)\n&nbsp;&nbsp;&nbsp;&nbsp;return;\n&nbsp;&nbsp;&nbsp;&nbsp;if(head → next != NULL )\n&nbsp;&nbsp;&nbsp;    change(head → next → next);\n&nbsp;&nbsp;&nbsp;&nbsp;else \n       printf(“%d “, head → prev →  data);\n&nbsp;&nbsp;  printf(“%d “, head → data);\n}</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$7 \\: 6 \\: 5 \\: 4 \\: 3 \\: 2 \\:1$</li>\n    <li>$1 \\:&nbsp; 3\\:&nbsp; 5 \\:&nbsp; 7 \\: 6 \\: 4 \\: 2$</li>\n    <li>$7 \\:&nbsp; 6 \\: 5 \\: 3 \\:1$</li>\n    <li>$6\\: 7&nbsp;\\: 5&nbsp;\\: 3&nbsp;\\: 1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,linked-lists",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257783",
+          "text": "<p>Consider the function foo defined below.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nbool foo(struct node *p)\n{\n&nbsp;if (p == NULL) || (p → next == NULL) || (( P→ data &lt; p → next→ data) &amp;&amp; foo(p → next))\n&nbsp;return true;\n&nbsp;else return false;\n&nbsp;}</pre>\n\n<p>For a given linked list p, the function foo returns true if and only if:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>the list is empty or has exactly one element</li>\n    <li>the elements in the list are sorted in non-decreasing order of data value</li>\n    <li>the elements in the list are sorted in non-increasing order of data value</li>\n    <li>the elements in the list are sorted in strictly increasing order of data value</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,linked-lists",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257782",
+          "text": "<p>A stack is implemented using two queues. Initially the stack is empty. Then following sequence of operations are performed on stack: $\\text{push}(3), \\text{push}(2), \\text{push}(4), \\text{push}(5), \\text{push}(1), \\text{pop}(), pop(), \\text{push}(1), \\text{pop}(), \\text{pop}(), \\text{pop}()$.<br>\nTotal number of operations $(\\text{enqueue, dequeue})$ which are to be performed on queues in order to simulate these stack operations is, (assuming $\\text{pop}()$ is less costly between the two operations.):</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$28$</li>\n    <li>$31$</li>\n    <li>$35$</li>\n    <li>$37$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,stack",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257781",
+          "text": "<p>Which of the following option is not correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>If a&nbsp;queue is implemented with a linked list, keeping track of a front pointer, only rear pointer&nbsp;will change during an insertion into a&nbsp;non-empty queue.</li>\n    <li>Queue data structure can be used to implement least recently used (LRU) page fault algorithm and Quick sort algorithm.</li>\n    <li>Queue data structure can be used to implement Quick sort algorithm but not least recently used (LRU) page fault algorithm.</li>\n    <li>Both (A) and (C)</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,queues",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257780",
+          "text": "<p>Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>First-in-first out types of computations can be supported by two &nbsp;STACKS.</li>\n    <li>Implementing LISTS on linked lists is more efficient than implementing LISTS on an array for almost all the basic LIST operations.</li>\n    <li>Implementing QUEUES on a circular array is more efficient than implementing QUEUES on a linear array with two indices.</li>\n    <li>Last-in-first-out type of computations are efficiently supported by QUEUES.</li>\n</ol>\n\n<p>Which of the following statements is correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(ii) and (iii) are true</li>\n    <li>(i), (ii) and (iii) are true</li>\n    <li>(i), (iii) and (iv) are true</li>\n    <li>(ii), (iii) and (iv) are true</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "257779",
+          "text": "<p>Consider following pseudo code.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid random_foo(int n)\n{\n    Queue q;\n&nbsp;&nbsp;&nbsp;&nbsp;int i;\n&nbsp;&nbsp;&nbsp;&nbsp;enqueue(q,0);\n&nbsp;&nbsp;&nbsp;&nbsp;enqueue(q,1);\n&nbsp;&nbsp;&nbsp;&nbsp;for (i = 0; i &lt; n; i++)\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int a = dequeue(q);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int b = dequeue(q);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enqueue(q,b);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enqueue(q,a + b);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(a);\n&nbsp;&nbsp;&nbsp;&nbsp;}\n}</pre>\n\n<p>If q accepts all its elements as non-negative integers, the function $\\text{random_foo}$,</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>prints numbers from $0$ to $n-1$</li>\n    <li>prints numbers from $n-1$ to $0$</li>\n    <li>prints first $n-1$ Fibonacci numbers</li>\n    <li>prints first $n$ Fibonacci numbers</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1,queues",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "257778",
+          "text": "Suppose implementation supports an instruction REVERSE, which reverses the order of elements on the stack, in addition to the PUSH and POP instructions. Which one of the following statements is TRUE with respect to this modified stack?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  A queue cannot be implemented using this stack.<br /> </li><li>  A queue can be implemented where ENQUEUE takes a single instruction and DEQUEUE takes a sequence of three instructions.<br /> </li> <li> A queue can be implemented where ENQUEUE takes a sequence of two instructions and DEQUEUE takes a single instruction.<br /> </li>  <li> A queue can be implemented where both ENQUEUE and DEQUEUE take a single instruction each.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming and DS"
+        },
+        {
+          "contents": "",
+          "post_id": "257777",
+          "text": "<p>Suppose you are given an implementation of a queue of integers. The operations that can be performed on the queue are:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>isEmpty (Q) := returns true if the queue is empty, false otherwise.</li>\n    <li>delete (Q) := deletes the element at the front of the queue and returns its value.</li>\n    <li>insert (Q, i) := inserts the integer i at the rear of the queue.</li>\n</ol>\n\n<p>Consider the following function:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid fun (queue Q)\n{\n    int i ;\n    if (!isEmpty(Q))\n    {\n&nbsp;&nbsp;&nbsp;     i = delete(Q);\n&nbsp;&nbsp;&nbsp;     j = delete(Q);\n&nbsp;&nbsp;&nbsp;     fun(Q);\n&nbsp;&nbsp;&nbsp;     insert(Q, j);\n&nbsp;&nbsp;&nbsp;     insert(Q, i);\n&nbsp;&nbsp;  }\n}</pre>\n\n<p>What operation is performed by the above function $fun$ ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Leaves the queue Q unchanged</li>\n    <li>Reverses the order of the elements in the queue Q and then reverses order of every pair</li>\n    <li>Deletes the element at the front of the queue Q and inserts it at the rear keeping the other elements in the same order</li>\n    <li>Reverses the order of the elements in the queue Q</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-ds1",
+          "category": "Programming in C"
+        }
+      ]
+    }
+  ]
+}

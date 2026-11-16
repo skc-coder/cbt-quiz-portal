@@ -1,0 +1,70 @@
+{
+  "name": "Day 297 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "535182",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  void fun(int n) {     if (n == 0)         return;      fun(n - 1);     printf(&quot;%d &quot;, n); }  int main() {     fun(4);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nvoid fun(int n) {\n    if (n == 0)\n        return;\n\n    fun(n - 1);\n    printf(\"%d \", n);\n}\n\nint main() {\n    fun(4);\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{4\\ 3\\ 2\\ 1}$<br>&nbsp;</li><li>$\\texttt{1\\ 2\\ 3\\ 4}$<br>&nbsp;</li><li>$\\texttt{0\\ 1\\ 2\\ 3\\ 4}$<br>&nbsp;</li><li>$\\texttt{4\\ 3\\ 2\\ 1\\ 0}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 297"
+        },
+        {
+          "post_id": "535184",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int sum(int n) {     if (n == 1)         return 1;      return n + sum(n - 1); }  int main() {     printf(&quot;%d&quot;, sum(5));     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint sum(int n) {\n    if (n == 1)\n        return 1;\n\n    return n + sum(n - 1);\n}\n\nint main() {\n    printf(\"%d\", sum(5));\n    return 0;\n}\n</pre>",
+          "type": "Numerical",
+          "answer": "15",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 297"
+        },
+        {
+          "post_id": "535187",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int fact(int n) {     if (n == 0)         return 1;      return n * fact(n - 1); }  int main() {     printf(&quot;%d&quot;, fact(4));     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint fact(int n) {\n    if (n == 0)\n        return 1;\n\n    return n * fact(n - 1);\n}\n\nint main() {\n    printf(\"%d\", fact(4));\n    return 0;\n}\n</pre>",
+          "type": "Numerical",
+          "answer": "24",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 297"
+        },
+        {
+          "post_id": "535180",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  void fun(int n) {     if (n == 0)         return;      printf(&quot;%d &quot;, n);     fun(n - 1); }  int main() {     fun(4);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nvoid fun(int n) {\n    if (n == 0)\n        return;\n\n    printf(\"%d \", n);\n    fun(n - 1);\n}\n\nint main() {\n    fun(4);\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{1\\ 2\\ 3\\ 4}$<br>&nbsp;</li><li>$\\texttt{4\\ 3\\ 2\\ 1}$<br>&nbsp;</li><li>$\\texttt{4\\ 3\\ 2\\ 1\\ 0}$<br>&nbsp;</li><li>$\\texttt{0\\ 1\\ 2\\ 3\\ 4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 297"
+        },
+        {
+          "post_id": "535190",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int fun(int n) {     static int count = 0;      if (n == 0)         return count;      count = count + n;     return fun(n - 1); }  int main() {     printf(&quot;%d&quot;, fun(3));     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint fun(int n) {\n    static int count = 0;\n\n    if (n == 0)\n        return count;\n\n    count = count + n;\n    return fun(n - 1);\n}\n\nint main() {\n    printf(\"%d\", fun(3));\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 297"
+        }
+      ]
+    }
+  ]
+}

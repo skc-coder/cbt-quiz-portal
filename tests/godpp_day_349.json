@@ -1,0 +1,70 @@
+{
+  "name": "Day 260 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530494",
+          "text": "<p data-start=\"0\" data-end=\"313\">Let $X_1,X_2,\\ldots,X_n$ be independent discrete uniform random variables on ${1,2,\\ldots,n}$. That is, $P(X_i=j)=\\frac{1}{n}$ for each $i$ and each $j\\in{1,2,\\ldots,n}$. Let $Y$ be the second smallest value among $X_1,X_2,\\ldots,X_n$. Find $P(Y&gt;k)$ for an integer $k$ such that $1\\le k\\le n-1$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"315\" data-end=\"450\">$\\left(\\frac{n-k}{n}\\right)^n$<br>&nbsp;</li><li data-start=\"315\" data-end=\"450\">$\\left(\\frac{n-k}{n}\\right)^n+n\\left(\\frac{k}{n}\\right)\\left(\\frac{n-k}{n}\\right)^{n-1}$<br>&nbsp;</li><li data-start=\"315\" data-end=\"450\">$1-\\left(\\frac{k}{n}\\right)^n$<br>&nbsp;</li><li data-start=\"315\" data-end=\"450\">$1-\\left(\\frac{n-k}{n}\\right)^n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 260"
+        },
+        {
+          "post_id": "530496",
+          "text": "<p data-start=\"0\" data-end=\"256\">Suppose that $X$ and $Y$ are independent random variables, such that :</p><p data-start=\"0\" data-end=\"256\">$P(X=x)=\\frac{1}{4}\\left(\\frac{3}{4}\\right)^{x-1}$ for integers $x\\ge 1$, and&nbsp;</p><p data-start=\"0\" data-end=\"256\">$P(Y=y)=\\frac{1}{2}\\left(\\frac{1}{2}\\right)^{y-1}$ for integers $y\\ge 1$.&nbsp;</p><p data-start=\"0\" data-end=\"256\">&nbsp;</p><p data-start=\"0\" data-end=\"256\">Find $P(X&lt;Y \\text{ and } X \\text{ is odd})$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"258\" data-end=\"337\">$\\frac{4}{55}$<br>&nbsp;</li><li data-start=\"258\" data-end=\"337\">$\\frac{8}{55}$<br>&nbsp;</li><li data-start=\"258\" data-end=\"337\">$\\frac{1}{5}$<br>&nbsp;</li><li data-start=\"258\" data-end=\"337\">$\\frac{16}{55}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 260"
+        },
+        {
+          "post_id": "530489",
+          "text": "<p data-start=\"396\" data-end=\"552\">Let $X_1,X_2,X_3$ be independent continuous uniform random variables on $[0,1]$. Let $k\\in[0,1]$ be a constant. Find $P(\\max(X_1,X_2,X_3)&gt;k)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"554\" data-end=\"603\">$1-k$<br>&nbsp;</li><li data-start=\"554\" data-end=\"603\">$1-k^2$<br>&nbsp;</li><li data-start=\"554\" data-end=\"603\">$1-k^3$<br>&nbsp;</li><li data-start=\"554\" data-end=\"603\">$(1-k)^3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 260"
+        },
+        {
+          "post_id": "530485",
+          "text": "<p data-start=\"0\" data-end=\"132\">Let $X$ be a random variable with PDF :</p><p data-start=\"0\" data-end=\"132\">$$f(x)= \\begin{cases}C x^2(1-x)^3 & 0 &lt;x&lt;1\\\\\\\\ 0 & \\text{otherwise} \\end{cases}$$</p><p data-start=\"0\" data-end=\"132\">What is $C$?</p>",
+          "type": "Numerical",
+          "answer": "60",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 260"
+        },
+        {
+          "post_id": "530491",
+          "text": "<p data-start=\"0\" data-end=\"297\">Suppose that $X$, $Y$, and $Z$ are independent random variables such that :&nbsp;</p><ul><li data-start=\"0\" data-end=\"297\">$P(X=x)=\\frac{1}{2}\\left(\\frac{1}{2}\\right)^{x-1}$ for integers $x\\ge 1$,&nbsp;<br>&nbsp;</li><li data-start=\"0\" data-end=\"297\">$P(Y=y)=\\frac{1}{3}\\left(\\frac{2}{3}\\right)^{y-1}$ for integers $y\\ge 1$, and&nbsp;<br>&nbsp;</li><li data-start=\"0\" data-end=\"297\">$P(Z=z)=\\frac{1}{4}\\left(\\frac{3}{4}\\right)^{z-1}$ for integers $z\\ge 1$.&nbsp;<br>&nbsp;</li></ul><p data-start=\"0\" data-end=\"297\">Find $P(X+Y=Z)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"299\" data-end=\"377\">$\\frac{1}{12}$<br>&nbsp;</li><li data-start=\"299\" data-end=\"377\">$\\frac{1}{10}$<br>&nbsp;</li><li data-start=\"299\" data-end=\"377\">$\\frac{2}{15}$<br>&nbsp;</li><li data-start=\"299\" data-end=\"377\">$\\frac{1}{8}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 260"
+        }
+      ]
+    }
+  ]
+}

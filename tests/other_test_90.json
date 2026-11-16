@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 COA5: Memory and IO",
+  "duration": "54",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "270881",
+          "text": "Usage of cache memory can be justified by:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  To increase the speed of CPU clock. <br /> </li><li>  To improve memory cycle time.<br /> </li> <li> To hold as many blocks of data as possible.<br /> </li>  <li> To match the speed of processor.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa5",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270879",
+          "text": "<p>Consider following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>A special bit is provided in write back cache memory in order to show that an entry is modified.</li>\n    <li>Hierarchical memory organizations are used so that processor's read/write time can be saved.</li>\n    <li>Parallel access to all levels of memory hierarchy is less costlier than that of hierarchical memory organization.</li>\n</ol>\n\n<p>Which of the above statements are true:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(i) only</li>\n    <li>(i) and (ii) only</li>\n    <li>(iii) only</li>\n    <li>All of (i), (ii) and (iii)</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa5",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270877",
+          "text": "<p>Consider a direct mapped cache of size $128&nbsp;\\text {KB}$ with block size $32 \\text{ bytes}.$ The CPU generates $40 \\text { bit}$ addresses. The number of bits needed for cache index field and the number of bits for tag field respectively, are:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$10, 17$</li>\n    <li>$11, 24$</li>\n    <li>$12, 23$</li>\n    <li>$13, 22$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa5,cache-memory",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270875",
+          "text": "<p>Consider a direct &nbsp;mapped cache with $256$ cache blocks. A block contains $64$ bytes. If an address &nbsp;for $20$-bit main memory is represented as: $76AB8_{16}$ then the number ( in decimal ) of the line where this address will be mapped to is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$48$</li>\n    <li>$134$</li>\n    <li>$170$</li>\n    <li>$202$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa5,cache-memory",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270873",
+          "text": "<p>A computer has a $1$MBytes, $16$-way set associative, write back data cache with block size of $64$ bytes. The processor sends $40$ bit addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, $2$ valid bits, a modified bit and a replacement bit. The size of the cache tag directory in KBytes is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$48$</li>\n    <li>$56$</li>\n    <li>$192$</li>\n    <li>$384$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa5",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270871",
+          "text": "<p>Which of the following is not true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Modify bit is used only by write through protocol.</li>\n    <li>In Write through access memory is updated periodically or when a dirty block is to be replaced.</li>\n    <li>In Write back access cache and memory are updated simultaneously.</li>\n    <li>All of the above.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa5",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270869",
+          "text": "Consider a memory organization where $L_1$ cache is sixteen times faster than main memory and $L_2$ is 4 times slower than $L_1$ cache. The $L_1$ cache is useful 79 percent of the time while $28$ percent of the time $L_2$ refers to main memory then the overall speedup achieved by using cache-system, accurate to two decimal places, is __________",
+          "type": "Numerical",
+          "answer": "5.75 : 5.76",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-coa5,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270867",
+          "text": "<p>Consider a K-way set associative cache with L cache lines and $512$ bytes lines. The number of bits used for TAG field is denoted by T. If out of total $2^{23}$ blocks at max $32768$ main memory blocks can be mapped to any of the cache set then the value of K is given by:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$4$</li>\n    <li>$8$</li>\n    <li>$16$</li>\n    <li>$\\text{Cannot be determined}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa5,cache-memory",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270865",
+          "text": "A DMA is transferring characters to processor from a device transmitting at $4000$ bits per second. If processor access memory once per microsecond and cycle stealing mode is being used, the percentage by which processor is slowed down due to DMA activity, is ______",
+          "type": "Numerical",
+          "answer": "0.05",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-coa5,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270863",
+          "text": "<p>If the associativity of a processor cache is doubled while keeping the capacity and block size unchanged, which one of the following is guaranteed to be NOT affected?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Width of tag comparator</li>\n    <li>Width of set index decoder</li>\n    <li>Width of way selection multiplexer</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-coa5",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270861",
+          "text": "<p>The access time for write back cache memory and main memory are $50$ and $500$ ns respectively. There are $60$ percent write requests and remaining are read requests. Miss ratio for cache read is $0.3$ and that for cache write is $0.25$. The effective memory access time (in ns) is given by:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$185$</li>\n    <li>$162.5$</li>\n    <li>$171.5$</li>\n    <li>$\\text{Cannot be determined}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa5,cache-memory",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270859",
+          "text": "<p>Consider a small two-way set-associative cache memory, consisting of $8$ blocks. For choosing the block to be replaced, use the least recently used (LRU) scheme. The percentage of cache misses for the following sequence of block addresses is<br>\n$8,10,12,14,6,14,8,0,5,13,5,9$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$50$</li>\n    <li>$45$</li>\n    <li>$75$</li>\n    <li>$95$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa5",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270857",
+          "text": "<p>Consider a computer with a 8-way set-associative cache and the following characteristics: a total of $4$ GB of main memory, a word size of $4$ bytes, a block size of $128$ words and the cache contains $2048$ blocks. While accessing the physical memory location $A1B2C743$ (in Hex) by the CPU, the contents of the set index field of the corresponding cache line is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$01100011$</li>\n    <li>$01011001$</li>\n    <li>$00011000$</li>\n    <li>$11001011$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa5,cache-memory",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270855",
+          "text": "<p>Consider a two-level cache hierarchy with $L_1$ and $L_2$ caches. An application incurs 4 memory accesses per three instructions on average. For this application, the miss ratio of $L_1$ cache is 0.2; the $L_2$ cache experiences, on average, 60 misses per 1500 instructions. The miss ratio of $L_2$ expressed correct to four decimal places is :</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0.0875$</li>\n    <li>$0.0667$</li>\n    <li>$0.1755$</li>\n    <li>$0.1500$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa5",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270853",
+          "text": "<p>A set associative cache memory consists of $512$ blocks divided into eight block sets. The main memory consists of $2^{18}$ &nbsp;blocks and each block contains $64$ eight bit words. Number of bits required for addressing the main memory, TAG, SET and WORD fields respectively are?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$22, 11, 5, 6$</li>\n    <li>$23, 10, 6, 7$</li>\n    <li>$24, 13, 5, 6$</li>\n    <li>$24, 12, 6, 6$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa5,cache-memory",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270851",
+          "text": "<p>A CPU has $64$-bit memory address and a $16$ MB cache memory. The cache is organized as a $16$-way set associative cache with cache block size of $512$ bytes. What is the number and size of comparators required for tag matching?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$32$ comparators of size $46$ bits.</li>\n    <li>$16$ comparators of size $44$ bits.</li>\n    <li>$32$ comparators of size $46$ bits.</li>\n    <li>$16$ comparators of size $40$ bits.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa5",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270849",
+          "text": "A cache line is $128$ bytes. The main memory has latency $10ns$ per word while the word is of size four bytes and bandwidth $8Gbits/s$. If the request-data-bus and response-data-bus work independently the time in nanoseconds required to fetch the entire continuous cache line from the main memory is ______",
+          "type": "Numerical",
+          "answer": "324",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-coa5,numerical-answers",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270847",
+          "text": "<p>Consider a fully associative cache with $8$ cache blocks (numbered $0-7$) and the following sequence of memory block requests: $$4, 3, 25, 8, 19, 6, 25, 8, 16, 35, 45, 22, 8, 3, 16, 25, 7$$</p>\n\n<p>If MRU replacement policy is used, which cache block will have memory block $7$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2$</li>\n    <li>$3$</li>\n    <li>$5$</li>\n    <li>$22$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa5,cache-memory",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270845",
+          "text": "<p>Consider a $4$-way set associative cache memory with $8$ sets and total $32$ cache blocks and a main memory with $256$ blocks. Which memory blocks will not be present in the cache after the following sequence of memory block references if MRU policy is used for cache block replacement. Assume that initially the cache did not have any memory block from the current job.<br>\n$$16,48,74,135,199,231,56,224,31,12,247,74,231,112,255$$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$31, 112, 224, 231$</li>\n    <li>$199, 231, 247$</li>\n    <li>$74, 112, 224, 231$</li>\n    <li>$31, 224, 231$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa5,cache-memory",
+          "category": "CO & Architecture"
+        },
+        {
+          "contents": "",
+          "post_id": "270843",
+          "text": "<p>In a C program, an array is declared as: $'\\text{float }A[8000]$'. Each array element is $4$ Bytes in size, and the starting address of the array is $0 \\times 00000000$. This program is run on a computer that has a direct mapped data cache of size $8$ Kbytes, with block (line) size of $16$ Bytes. Which of the following elements of the array conflict with element $A[111]$ in the data cache?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$A[4203]$</li>\n    <li>$A[2159]$</li>\n    <li>$A[6259]$</li>\n    <li>$A[4303]$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-coa5",
+          "category": "CO & Architecture"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 122 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "495109",
+          "text": "A TCP connection has a congestion window size of $\\mathbf{64} \\mathbf{~ KB}$ when a packet loss is detected via timeout. The connection's round trip time (RTT) is $\\mathbf{5 0 ~ msec}$, and the Maximum Segment Size (MSS) is $\\mathbf{1}$ KB.<br>\n<br>\nThe time taken (in msec) for the congestion window to reach 64 KB again is $\\_\\_\\_\\_$",
+          "type": "Numerical",
+          "answer": "1850",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 122"
+        },
+        {
+          "post_id": "495118",
+          "text": "<p>The subnet mask for a particular network is $255.255.240.0$. Which of the following pairs of IP addresses could belong to this network?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$172.16.5.5$ AND $172.17.5.5$<br>&nbsp;</li><li>$130.20.100.5$ AND $130.20.110.254$<br>&nbsp;</li><li>$192.168.1.1$ AND $193.168.1.2$<br>&nbsp;</li><li>$200.10.35.10$ AND $200.10.50.20$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 122"
+        },
+        {
+          "post_id": "495112",
+          "text": "<p>Consider a network that uses Ethernet and IPv4. Assume that the IPv4 headers do not use any options field. Each Ethernet frame can carry a maximum of 1400 bytes in its data field (MTU). A UDP segment is to be transmitted. The payload (data) in the UDP segment is 4320 bytes.</p><p>Which ONE of the following choices has the CORRECT total number of fragments transmitted and the size of the last fragment, including its IPv4 header?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>3 FRAGMENTS, 1396 BYTES<br>&nbsp;</li><li>4 FRAGMENTS, 200 BYTES<br>&nbsp;</li><li>4 FRAGMENTS, 220 BYTES<br>&nbsp;</li><li>5 FRAGMENTS, 220 BYTES</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 122"
+        },
+        {
+          "post_id": "495116",
+          "text": "A link has a transmission speed of $2 \\times 10^6$ bits/sec. It uses data packets of size 500 bytes each. Assume that the acknowledgment has negligible transmission delay and that its propagation delay is the same as the data propagation delay. Also, assume that the processing delays at nodes are negligible. The efficiency of the stop-and-wait protocol in this setup is exactly $20 \\%$. The value of the one-way propagation delay (in milliseconds) is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 122"
+        },
+        {
+          "post_id": "495104",
+          "text": "<p>Consider a network path $\\mathbf{P} \\rightarrow \\mathbf{Q} \\rightarrow \\mathbf{R}$ between nodes $\\mathbf{P}$ and $\\mathbf{R}$ via router $\\mathbf{Q}$. Node $\\mathbf{P}$ sends a file of $2 \\times 10^6$ bytes to $\\mathbf{R}$ by splitting the file into chunks of $10^3$ bytes each. Node $\\mathbf{P}$ sends these chunks one after the other without any wait time between successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible.</p><p>The link $\\mathbf{P} \\rightarrow \\mathbf{Q}$ has a bandwidth of $2 \\times 10^6$ bits/sec and a propagation delay of 2 ms . The link $\\mathbf{Q} \\rightarrow \\mathbf{R}$ has a bandwidth of $1 \\times 10^6$ bits/sec and a propagation delay of 4 ms .</p><p>Router $\\mathbf{Q}$ is a store-and-forward router. It immediately begins to transmit a packet on link $\\mathbf{Q} \\rightarrow \\mathbf{R}$ as soon as it has fully received the packet on link $\\mathbf{P} \\rightarrow \\mathbf{Q}$, provided the $\\mathbf{Q} \\rightarrow \\mathbf{R}$ link is free. Router $\\mathbf{Q}$ can simultaneously receive on link $\\mathbf{P} \\rightarrow \\mathbf{Q}$ and transmit on link $\\mathbf{Q} \\rightarrow \\mathbf{R}$ (i.e., it supports pipelining).</p><p>Assume $\\mathbf{P}$ starts transmitting the first chunk at $t=0$.<br><br>Which one of the following options gives the time (in seconds, rounded off to 3 decimal places) at which $\\mathbf{R}$ receives the last bit of the entire file?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$8.014$<br>&nbsp;</li><li>$16.000$<br>&nbsp;</li><li>$16.004$<br>&nbsp;</li><li>$16.010$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 122"
+        }
+      ]
+    }
+  ]
+}

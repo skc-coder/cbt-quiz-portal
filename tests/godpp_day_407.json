@@ -1,0 +1,70 @@
+{
+  "name": "Day 288 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "533878",
+          "text": "<p data-start=\"116\" data-end=\"173\">What is the output of the following code?</p><pre data-start=\"175\" data-end=\"488\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int x = 2, y = 0;      switch (x) {         case 1:             y = y + 1;         case 2:             y = y + 2;         case 3:             y = y + 3;             break;         default:             y = y + 4;     }      printf(&quot;%d&quot;, y);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int x = 2, y = 0;\n\n    switch (x) {\n        case 1:\n            y = y + 1;\n        case 2:\n            y = y + 2;\n        case 3:\n            y = y + 3;\n            break;\n        default:\n            y = y + 4;\n    }\n\n    printf(\"%d\", y);\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 288"
+        },
+        {
+          "post_id": "533889",
+          "text": "<p data-start=\"1408\" data-end=\"1465\">What is the output of the following code?</p><pre data-start=\"1467\" data-end=\"1787\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int i, j, sum = 0;      for (i = 1; i &lt;= 4; i++) {         for (j = 1; j &lt;= 4; j++) {             if (j == i)                 continue;              if (i + j &gt; 5)                 break;              sum = sum + i + j;         }     }      printf(&quot;%d&quot;, sum);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int i, j, sum = 0;\n\n    for (i = 1; i &lt;= 4; i++) {\n        for (j = 1; j &lt;= 4; j++) {\n            if (j == i)\n                continue;\n\n            if (i + j &gt; 5)\n                break;\n\n            sum = sum + i + j;\n        }\n    }\n\n    printf(\"%d\", sum);\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "34",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 288"
+        },
+        {
+          "post_id": "533884",
+          "text": "<p data-start=\"120\" data-end=\"177\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a = 1, b = 2, c = 3;      if (a++ &gt; 1 && ++b &gt; 2 || c++ == 3)         printf(&quot;%d %d %d&quot;, a, b, c);     else         printf(&quot;%d %d %d&quot;, c, b, a);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a = 1, b = 2, c = 3;\n\n    if (a++ &gt; 1 && ++b &gt; 2 || c++ == 3)\n        printf(\"%d %d %d\", a, b, c);\n    else\n        printf(\"%d %d %d\", c, b, a);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"392\" data-end=\"485\">$\\texttt{2\\ 3\\ 4}$<br>&nbsp;</li><li data-start=\"392\" data-end=\"485\">$\\texttt{2\\ 2\\ 4}$<br>&nbsp;</li><li data-start=\"392\" data-end=\"485\">$\\texttt{4\\ 2\\ 2}$<br>&nbsp;</li><li data-start=\"392\" data-end=\"485\">$\\texttt{1\\ 2\\ 3}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 288"
+        },
+        {
+          "post_id": "533882",
+          "text": "<p data-start=\"1878\" data-end=\"1935\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int x = 3, y = 4, z;      z = x++ + ++y;      printf(&quot;%d %d %d&quot;, x, y, z);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int x = 3, y = 4, z;\n\n    z = x++ + ++y;\n\n    printf(\"%d %d %d\", x, y, z);\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2087\" data-end=\"2180\">$\\texttt{4\\ 5\\ 8}$<br>&nbsp;</li><li data-start=\"2087\" data-end=\"2180\">$\\texttt{3\\ 5\\ 8}$<br>&nbsp;</li><li data-start=\"2087\" data-end=\"2180\">$\\texttt{4\\ 4\\ 7}$<br>&nbsp;</li><li data-start=\"2087\" data-end=\"2180\">$\\texttt{4\\ 5\\ 9}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 288"
+        },
+        {
+          "post_id": "533880",
+          "text": "<p data-start=\"1054\" data-end=\"1111\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int i, j, count = 0;      for (i = 1; i &lt;= 3; i++) {         for (j = 1; j &lt;= i; j++) {             count = count + j;         }     }      printf(&quot;%d&quot;, count);     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int i, j, count = 0;\n\n    for (i = 1; i &lt;= 3; i++) {\n        for (j = 1; j &lt;= i; j++) {\n            count = count + j;\n        }\n    }\n\n    printf(\"%d\", count);\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "10",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 288"
+        }
+      ]
+    }
+  ]
+}

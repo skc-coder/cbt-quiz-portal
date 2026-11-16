@@ -1,0 +1,70 @@
+{
+  "name": "Day 245 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "528732",
+          "text": "<p data-start=\"57\" data-end=\"170\">Mark all the correct statements given below. Let $P$ be an $l \\times m$ matrix and $Q$ be an $m \\times n$ matrix.</p><ol data-start=\"172\" data-end=\"482\" start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-section-id=\"1mjgud9\" data-start=\"172\" data-end=\"225\">$\\operatorname{rank}(P^TP)=\\operatorname{rank}(P)$<br>&nbsp;</li><li data-section-id=\"1yc8vve\" data-start=\"227\" data-end=\"319\">If $P$ has full row rank, then there exists an $m \\times l$ matrix $R$ such that $PR=I_l$<br>&nbsp;</li><li data-section-id=\"8zaer6\" data-start=\"321\" data-end=\"392\">If $PQ=0$, then $\\operatorname{rank}(P)+\\operatorname{rank}(Q)\\le m$<br>&nbsp;</li><li data-section-id=\"405r24\" data-start=\"394\" data-end=\"482\">If $\\operatorname{rank}(PQ)=\\operatorname{rank}(P)$, then $Q$ must have full row rank</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "528730",
+          "text": "<p data-start=\"57\" data-end=\"161\">Suppose that $Q$ is a $6 \\times 9$ matrix such that every solution of the equation $Qx=0$ is of the form</p><p data-start=\"163\" data-end=\"267\">$x=a(1,0,2,-1,3,0,1,4,-2)^T+b(0,1,-1,2,0,3,-2,1,5)^T+c(2,-1,0,1,4,-3,0,2,1)^T+d(1,1,1,0,-2,2,3,-1,0)^T$,</p><p data-start=\"269\" data-end=\"374\">where $a,b,c,d \\in \\mathbb{R}$, and the four vectors are linearly independent. The rank of $Q$ is ______.</p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "528728",
+          "text": "<p data-start=\"57\" data-end=\"131\">Let $A$ be an $n \\times n$ real matrix. Which of&nbsp;the following statement(s) is(are) <strong>true</strong>?</p><ol data-start=\"133\" data-end=\"377\" start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-section-id=\"156e63q\" data-start=\"133\" data-end=\"195\">If $A^2=I$ and $A$ has only one eigenvalue, then $A=\\pm I$.<br>&nbsp;</li><li data-section-id=\"gtr4cu\" data-start=\"197\" data-end=\"223\">If $A^3=0$, then $A=0$.<br>&nbsp;</li><li data-section-id=\"1dwbhfq\" data-start=\"225\" data-end=\"273\">If $A$ is invertible and $A^2=A$, then $A=I$.<br>&nbsp;</li><li data-section-id=\"mxn8v2\" data-start=\"275\" data-end=\"377\">If $A$ is orthogonal and upper triangular, then $A$ is diagonal and each diagonal entry is $\\pm 1$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "528725",
+          "text": "<p data-start=\"61\" data-end=\"131\">Let $M$ be an $n \\times m$ real matrix. Define the following integers:</p><ul><li data-start=\"133\" data-end=\"263\">$k_1$ is the smallest positive integer such that $M=AB$, where $A$ is an $n \\times k_1$ matrix and $B$ is a $k_1 \\times m$ matrix.<br>&nbsp;</li><li data-start=\"265\" data-end=\"369\">$k_2$ is the smallest positive integer such that $M$ can be written as a sum of $k_2$ rank-$1$ matrices.<br>&nbsp;</li><li data-start=\"371\" data-end=\"418\">$k_3$ is the dimension of the row space of $M$.<br>&nbsp;</li><li data-start=\"420\" data-end=\"511\">$k_4$ is the largest integer $r$ such that $M$ has at least one nonzero $r \\times r$ minor.<br>&nbsp;</li></ul><p data-start=\"513\" data-end=\"544\">Which of the following is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"546\" data-end=\"566\">$k_1&lt;k_2=k_3&lt;k_4$<br>&nbsp;</li><li data-start=\"568\" data-end=\"588\">$k_1=k_2=k_3=k_4$<br>&nbsp;</li><li data-start=\"590\" data-end=\"610\">$k_1=k_3&lt;k_2=k_4$<br>&nbsp;</li><li data-start=\"612\" data-end=\"632\">$k_2&lt;k_1=k_4&lt;k_3$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "528722",
+          "text": "<p data-start=\"57\" data-end=\"144\">If the eigenvalues of a $3 \\times 3$ matrix $A$ are $2$, $3$, and $5$, then $A^{-1}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"146\" data-end=\"176\">$\\frac{1}{30}(A^2-10A+31I)$<br>&nbsp;</li><li data-start=\"178\" data-end=\"208\">$\\frac{1}{30}(A^2+10A+31I)$<br>&nbsp;</li><li data-start=\"210\" data-end=\"240\">$\\frac{1}{30}(A^2-10A-31I)$<br>&nbsp;</li><li data-start=\"242\" data-end=\"271\">$\\frac{1}{30}(A^2-8A+15I)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 245"
+        }
+      ]
+    }
+  ]
+}

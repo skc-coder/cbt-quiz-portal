@@ -1,0 +1,70 @@
+{
+  "name": "Day 102 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "490544",
+          "text": "<p>A network administrator needs to create a single, efficient summary route that advertises a block of networks to a neighboring router. The summary route must precisely cover the following four network addresses and no more.</p><ul><li>$192.168 .16 .0 / 24$<br>&nbsp;</li><li>$192.168.17.0/24$<br>&nbsp;</li><li>$192.168.18.0/24$<br>&nbsp;</li><li>$192.168.19.0/24$</li></ul><p>Which of the following represents the most efficient summary route for these networks?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$192,168,16,0 / 23$<br>&nbsp;</li><li>$192.168 .19 .0 / 22$<br>&nbsp;</li><li>$192.168 .16 .0 / 22$<br>&nbsp;</li><li>$192.168.0.0 / 16$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 102"
+        },
+        {
+          "post_id": "490542",
+          "text": "<p>A server ($S$) and a workstation ($W$) are configured on a network as follows:</p><ul><li>Server S has the IP address $172.16.70.20$ and the netmask $255.255.240.0$.<br>&nbsp;</li><li>Workstation W has the IP address $172.16.10.100$ and the netmask $255.255.0.0$.</li></ul><p>Which one of the following statements is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$S$ and $W$ both assume they are on the same network.<br>&nbsp;</li><li>$S$ assumes $W$ is on the same network, but $W$ assumes $S$ is on a different network.<br>&nbsp;</li><li>$S$ assumes $W$ is on a different network, but $W$ assumes $S$ is on the same network.<br>&nbsp;</li><li>$S$ and $W$ both assume they are on different networks.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 102"
+        },
+        {
+          "post_id": "490541",
+          "text": "<p>The routing table of a corporate router is shown below:</p><p>\\[<br>\\begin{array}{l l l}<br>\\textbf{Destination} & \\textbf{Subnet Mask} & \\textbf{Interface} \\\\<br>203.0.113.0 & 255.255.255.0 & \\text{igb0} \\\\<br>203.0.113.128 & 255.255.255.192 & \\text{igb1} \\\\<br>10.10.20.0 & 255.255.255.0 & \\text{em0} \\\\<br>\\text{Default} &&nbsp; & \\text{em1} \\\\<br>\\end{array}<br>\\]</p><p>On which interface will the router forward packets addressed to the destinations $203.0.113.140$ and $10.10 .30 .55$ , respectively?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>igb1 and em1<br>&nbsp;</li><li>igb0 and em1<br>&nbsp;</li><li>igb1 and em0<br>&nbsp;</li><li>igb0 and em0</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 102"
+        },
+        {
+          "post_id": "490536",
+          "text": "<p>Host $X$ uses $64$ -byte packets to send data to Host $Y$ via a sliding window protocol. The round trip time (RTT) between X and Y is measured to be $100$ milliseconds, and the bottleneck bandwidth of the path is $512$ kbps . To achieve maximum throughput, what is the optimal window size (in packets) that Host $X$ should configure?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$50$<br>&nbsp;</li><li>$100$<br>&nbsp;</li><li>$200$<br>&nbsp;</li><li>$800$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 102"
+        },
+        {
+          "post_id": "490534",
+          "text": "<p>Server S is transmitting data to client C over a full-duplex connection. S and C use the sliding window protocol for flow control. The send and receive window sizes are $8$ packets each. Data packets (sent from S to C) are $1500$ bytes long, and the connection's bandwidth is $200$ Mbps. Acknowledgement packets (sent from C to S ) are very small and have a negligible transmission time. The propagation delay for the connection is $270 \\mu \\mathrm{~s}$. What is the maximum possible throughput for this data transmission?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$125.50 \\times 10^6 \\mathrm{Bps}$<br>&nbsp;</li><li>$160.00 \\times 10^6 \\mathrm{Bps}$<br>&nbsp;</li><li>$177.78 \\times 10^6 \\mathrm{Bps}$<br>&nbsp;</li><li>$200.00 \\times 10^6 \\mathrm{Bps}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 102"
+        }
+      ]
+    }
+  ]
+}

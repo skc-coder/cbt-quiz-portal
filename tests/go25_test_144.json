@@ -1,0 +1,352 @@
+{
+  "name": "GATE Overflow CS Test Series 2025 | Operating Systems | Shallow Test 2",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "447300",
+          "text": "In a system with byte-addressable memory, the logical address is of $32 bits,$ the page size is $16 KB,$ and each page table entry is $4 bytes.$ What is the size of the page table in megabytes?",
+          "type": "Numerical",
+          "answer": "1:1",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,paging,virtual-memory,memory-management,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447314",
+          "text": "Which of the following is/are correct? (Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> First-fit strategy tends to suffer more from fragmentation as it allocates the first available block, potentially leaving large, unused gaps.</li><li> Next-fit strategy can lead to external fragmentation similar to first-fit, but with a slightly better performance in some cases due to its search pattern.</li> <li>Worst-fit allocation strategy minimizes external fragmentation by always allocating the largest available block, leading to more evenly distributed free memory.</li>  <li>Best-fit allocation minimizes both external and internal fragmentation by always allocating the smallest block that fits the request.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,memory-management,multiple-selects,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447273",
+          "text": "A computer uses a $48-bit$ virtual address and a $32-bit$ physical address, with a two-level page table organization. The page size is $16 KB.$ The processor uses an $8 MB$ direct-mapped, virtually indexed, physically tagged cache. The cache block size is $64$ bytes.\nThe minimum number of page colours required to guarantee that no two synonyms map to different sets in the processor cache of this computer is _________?",
+          "type": "Numerical",
+          "answer": "512:512",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,paging,virtual-memory,memory-management,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447308",
+          "text": "A $4096 Kbyte$ memory system is managed using variable partitions with no compaction. Currently, there are three partitions of sizes $1200 Kbyte,$ $800 Kbyte,$ and $600 Kbyte$. What is the upper bound of the smallest allocation request in $\\text{Kbyte}$ that cannot be denied?",
+          "type": "Numerical",
+          "answer": "374:374",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,memory-management,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447292",
+          "text": "A processor uses $64-bit$ virtual addresses with a page size of $8 KB.$ The system includes a Translation Lookaside Buffer (TLB) that can store $256$ entries and is organized as direct-mapped ($1-way$ set associative).  \nWhat is the minimum size, in bytes, required to store the tag memory for this TLB?",
+          "type": "Numerical",
+          "answer": "1376:1376",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,memory-management,virtual-memory,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447326",
+          "text": "Consider a file system with $1024-byte$ blocks. Assume an inode of a file holds pointers to $10$ direct data blocks and a pointer to a double indirect block. Further, assume that the double indirect block can hold pointers to $6$ other blocks, and each of those blocks can point to $10$ data blocks. The maximum file size in $KB$ that can be supported by such an inode design will be ________.",
+          "type": "Numerical",
+          "answer": "70:70",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,inode,file-system,file-organization,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447330",
+          "text": "Consider a $12-TB$ disk that uses $4-KB$ blocks and employs the grouping method for managing free blocks. If each block can store $1024$ block addresses, what is the size (in bytes) of each block address?",
+          "type": "Numerical",
+          "answer": "4:4",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,file-system,file-organization,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447324",
+          "text": "Which of the following statements is/are correct regarding thrashing in a system with virtual memory? (Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> Thrashing occurs when the operating system spends more time swapping pages in and out of memory than executing processes.</li><li> Increasing the number of page frames allocated to a process will always eliminate thrashing.</li> <li>Thrashing is more likely to occur when the degree of multiprogramming is high and there is insufficient memory for active processes.</li>  <li>Effective page replacement algorithms, such as Optimal or LRU, can prevent thrashing by reducing the number of page faults.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,page-replacement,thrashing,multiple-selects,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447290",
+          "text": "In a system with paging hardware and a TLB, assume that the entire page table and all pages are present in physical memory (no page faults) and there is no cache. The time taken to search the TLB is $30$ nanoseconds, and the time to access physical memory is $400$ nanoseconds. If the TLB miss ratio is $0.2,$ what is the effective memory access time (in nanoseconds)?",
+          "type": "Numerical",
+          "answer": "510:510",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,memory-management,virtual-memory,translation-lookaside-buffer,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447332",
+          "text": "<p>In stack-based page replacement algorithms $(e.g.,$ $LRU,$ $Optimal$$),$ which of the following statements is true regarding the calculation of the miss (or hit) ratio for different numbers of page frames? (Mark all the appropriate choices)</p><ol style=\"list-style-type:upper-alpha\"><li>The hit or miss ratio can be computed for any number of frames in one pass through the reference string without needing to reset or re-simulate the algorithm for each frame count.</li><li>The number of page frames does not affect the miss ratio when using stack-based algorithms.</li><li>The miss ratio is the same for all numbers of frames when simulating a stack-based page replacement algorithm.</li><li>A single pass through the reference string allows for the calculation of the miss ratio for all frame sizes from $1$ to $ k $ without needing to restart the simulation.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,page-replacement,multiple-selects,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447284",
+          "text": "<p>Consider a demand paging system with the following characteristics:</p><ul><li>Page fault service time: $120$ time units</li><li>Time to replace a dirty page: $250$ time units</li><li>Memory access time: $2$ time units</li><li>The probability of encountering a page fault is $0.4.$</li><li>If a page fault occurs, the probability that the page is dirty is $0.3.$</li></ul><p>Given these parameters, calculate the Effective Memory Access Time (EMAT) for the system.</p>",
+          "type": "Numerical",
+          "answer": "66:66",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,page-faults,demand-paging,page-replacement,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447294",
+          "text": "<p>A computer system supports a virtual address space of $ 2^{60} $ bits, with a page size of $ 8 \\, \\text{Kbyte} $. The physical memory size is $ 4 \\, \\text{GB} $, and the size of a page table entry (PTE) is $8 \\ \\text{bytes}$ for a standard page table and $16\\ \\text{bytes}$ for an inverted page table. The system performs byte-level addressing. What are the sizes of the page tables (assuming single-level) required for both standard and inverted page tables, respectively?</p><ol style=\"list-style-type:upper-alpha\"><li>$ 2^{56} \\, \\text{bytes}, \\, 2^{24} \\, \\text{bytes} $</li><li>$ 2^{54} \\, \\text{bytes}, \\, 2^{30} \\, \\text{bytes} $</li><li>$ 2^{47} \\, \\text{bytes}, \\, 2^{23} \\, \\text{bytes} $</li><li>$ 2^{50} \\, \\text{bytes}, \\, 2^{26} \\, \\text{bytes} $</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-os-shallow-2,paging,virtual-memory,memory-management,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447282",
+          "text": "Consider a computer system with 30 physical page frames. The system is provided with an access sequence $ (a_1, a_2, \\ldots, a_{1500}, a_1, a_2, \\ldots, a_{1500}) $, where each $ a_i $ is a distinct virtual page number. <br />What is the difference in the number of page faults between the First-In-First-Out (FIFO) page replacement policy and the Least Recently Used (LRU) page replacement policy?",
+          "type": "Numerical",
+          "answer": "0:0",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,page-fault,page-replacement,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447302",
+          "text": "In a system with virtual memory, the virtual address is $48 bits,$ and the physical address is $42 bits.$ The page size is $8 KB,$ and each page table entry is $128 bits.$ The main memory is byte-addressable. What is the maximum number of bits that can be used to store protection and other control information in each page table entry?",
+          "type": "Numerical",
+          "answer": "99:99",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,paging,virtual-memory,memory-management,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447298",
+          "text": "A system uses large pages of $2$ megabytes and has a $48-bit$ physical address space. Each page table entry holds a valid bit, a dirty bit, three permission bits, and a address translation bit. If the largest page table size that can be allocated for a process is $64$ megabytes, what is the number of bits in the virtual address used by the system?",
+          "type": "Numerical",
+          "answer": "45:45",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,paging,virtual-memory,memory-management,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447296",
+          "text": "A computer system uses a $37-bit$ virtual address space and a $28-bit$ physical address space. The system implements a four-level paging scheme. The page table base register holds the base address of the first-level table $ T_1 $, which occupies one page. Each entry in $ T_1 $ points to the base address of a page of the second-level table $ T_2 $. Each entry in $ T_2 $ stores the base address of a page of the third-level table $ T_3 $, and each entry in $ T_3 $ points to the base address of a page of the fourth-level table $ T_4 $. Each entry in $ T_4 $ stores the page table entry (PTE), which is $32 \\text{ bits}$ in size.\nWhat is the size of a page in $KB$ in this computer system?",
+          "type": "Numerical",
+          "answer": "0.5:0.5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,paging,virtual-memory,memory-management,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447312",
+          "text": "In a computer system capable of holding $5$ programs in memory, each program spends $60\\%$ of its time waiting for I/O. If the average fraction of CPU time that remains unused is denoted by $ c $, and the required number of programs to achieve at least $90\\%$ CPU utilization is denoted by $ d $, what is the value of $ 80c + d $?",
+          "type": "Numerical",
+          "answer": "11.22:11.22",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,process-scheduling,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447286",
+          "text": "Consider the following page reference string:<br />$$1, 3, 4, 2, 1, 5, 3, 6, 1, 3.$$<br />Assume demand paging with four frames, and all frames being initially empty. If $\\alpha$ is the number of page faults in the First-In-First-Out(FIFO) algorithm, $\\beta$ is the number of page faults in the most-frequently-used (MFU) page replacement algorithm, and $\\gamma$ is the number of page faults in the longest-distance-first (LDF) page replacement algorithm, the value of $3\\alpha + 2\\beta + 4\\gamma$ is ________.",
+          "type": "Numerical",
+          "answer": "64:64",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,page-replacement,demand-paging,page-faults,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447328",
+          "text": "<p>Select the correct order of operations for a stack page replacement policy (e.g., LRU or Optimal), where the stack property is maintained:</p><ol style=\"list-style-type:upper-roman\"><li>The priority structure is updated to reflect the new state.</li><li>If the page is not in memory, the page is replaced according to&nbsp;the policy's priority criteria (e.g., least recently used or longest time until next use).</li><li>The desired page is loaded into the available frame.</li><li>If the page is already in memory, it is given the highest priority.</li></ol><p>A. <strong>IV, II, III, I&nbsp;</strong></p><p>B.<strong> II, III, I, IV&nbsp;</strong></p><p>C. <strong>I, IV, II, III&nbsp;</strong></p><p>D.<strong> II, IV, I, III</strong>&nbsp;</p><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-os-shallow-2,page-replacement,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447316",
+          "text": "Which of the following is/are correct? (Mark all the appropriate choices) <br /><br /><ol style=\"list-style-type:upper-alpha\"><li> Dynamic linking allows shared libraries to be loaded into memory only when needed, reducing the initial load time of applications.</li><li> Static linking embeds all library code directly into the application at compile time, leading to larger executables.</li> <li>Static linking allows for faster program startup since there is no need for the operating system to resolve symbols at runtime.</li>  <li>Dynamic loading can increase memory usage since multiple programs may load the same library into memory multiple times.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,memory-management,runtime-environment,multiple-selects,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447278",
+          "text": "Suppose a disk drive has $5000$ cylinders, numbered from $0$ to $4999.$ The disk head is currently at cylinder $2150,$ and the previous request was at cylinder $1805.$ The queue of pending requests, in FIFO order, is:\n$$\n2069; 1212; 2296; 2800; 544; 1618; 356; 1523;\n$$\nUsing the SSTF (Shortest Seek Time First) and the LOOK disk scheduling algorithm, calculate the total distance (in cylinders) the disk arm moves to service all the pending requests, starting from the current head position at cylinder $2150.$  If the total distance moved by the head under SSTF is $a$ and the total distance moved under LOOK is $b,$ compute $ 3a - 2b $.",
+          "type": "Numerical",
+          "answer": "3580:3580",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,file-system,disk-scheduling,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447288",
+          "text": "A typical program has $15\\%$ memory instructions. Assume there are $3\\%$ data TLB misses, each requiring $120$ extra cycles to be handled. Also assume that each instruction requires $2$ cycles to execute, data TLB access takes $2$ cycles, each memory operation in the physically addressed cache takes $2$ cycles, $12\\%$ of data accesses are cache misses, and each cache miss takes $50$ extra cycles to be handled.  \nHow long (in cycles) would it take to execute $200$ instructions?",
+          "type": "Numerical",
+          "answer": "808:808",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,cache-memory,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447280",
+          "text": "<p>A computer system has $15$ physical page frames. Initially, these frames are empty. A program follows an access sequence: $ P_1, P_2, P_3, \\dots, P_{30} $, where each $ P_i $ represents a unique page number. After accessing these $30$ pages in order, the program then accesses pages in the same order but starting from page $ P_{30} $ back to $ P_1 $.<br>Which of the following page replacement algorithms will incur the fewest page faults in this scenario?</p><ol style=\"list-style-type:upper-alpha\"><li>First-In-First-Out (FIFO)</li><li>Least Recently Used (LRU)</li><li>Optimal page replacement</li><li>Only B and C</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,page-fault,page-replacement,multiple-selects,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447276",
+          "text": "Consider a disk drive with $7000$ cylinders, labeled from $0$ to $6999.$ The disk head is currently positioned at cylinder $2350,$ and the previous position was at cylinder $800.$ The list of pending requests in the order they were received is:\n$$ 452, 3250, 1245, 1789, 1050, 5678, 3121 $$\nYou are asked to compute the total distance the disk arm moves to fulfill all the requests using C-SCAN and C-LOOK disk scheduling algorithms, starting from the current head position at cylinder $2350.$\nLet the total distances traveled by the disk arm using C-SCAN and C-LOOK be denoted by $ D_{\\text{CS}} $ and $ D_{\\text{CL}} $, respectively.\nFinally, calculate the value of $ 3D_{\\text{CS}} + 2D_{\\text{CL}} $",
+          "type": "Numerical",
+          "answer": ":",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,file-system,disk-scheduling,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447310",
+          "text": "<p>Consider a memory management system where the available memory holes, in order, have sizes: $10K,$ $15K,$ $25K,$ $30K,$ $5K,$ $8K,$ $18K,$ and $22K.$ Given successive segment size requests of $6K,$ $10K,$ and $14K,$ which holes will be allocated based on the following allocation strategies? (Mark all the appropriate choices)</p><ol style=\"list-style-type:upper-alpha\"><li>$15K,$ $18K,$ and $22K$ for Worst-Fit</li><li>$10K,$ $15K,$ and $25K$ for First-Fit</li><li>$10K,$ $15K,$ and $25K$ for Next-Fit</li><li>$8K,$ $10K,$ and $18K$ for Best-Fit</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,memory-management,multiple-selects,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447306",
+          "text": "In a demand-paging system, a program generates the following address sequence with $150$ records per page and $3$ free main memory frames. The system uses the Least Recently Used (LRU) page replacement policy. The address sequence is as follows:\n$0500, 0342, 0201, 0712, 0302, 0303, 0304, 0201, 0711, 0302, 0303, 0304, 0201$\nHow many page faults will occur?",
+          "type": "Numerical",
+          "answer": "4:4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,numerical-answers,page-replacement,demand-paging,page-faults,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447322",
+          "text": "<p>For the following access-modify ordered pair, match the following columns:<br>$$<br>\\begin{array}{|ll|ll|}<br>\\hline \\text{I.&nbsp; &nbsp;(Access bit = 0, Dirty bit = 0)} &amp;&amp; \\text{P. Page is not likely to be used again soon} \\\\&amp;&amp; \\text{and no write-out needed.} \\\\<br>\\hline \\text{II.&nbsp; (Access bit = 0, Dirty bit = 1)}&amp;&amp; \\text{Q. Page needs to be written out before replacement.} \\\\<br>\\hline \\text{III. (Access bit = 1, Dirty bit = 0)}&amp;&amp; \\text{R. Page is likely to be used again soon} \\\\&amp;&amp; \\text{but does not require a write-out.} \\\\<br>\\hline \\text{IV. (Access bit = 1, Dirty bit = 1)}&amp;&amp; \\text{S. Page will probably be used again soon} \\\\&amp;&amp; \\text{and requires write-out before replacement.} \\\\<br>\\hline<br>\\end{array}<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>I - R, II - Q, III - P, IV - S</li><li>I - P, II - Q, III - R, IV - S</li><li>I - P, II - Q, III - S, IV - R</li><li>I - R, II - P, III - S, IV - Q</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-os-shallow-2,page-replacement,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447318",
+          "text": "<p>Which of the following is/are correct?.(Mark all the appropriate choices)</p><ol style=\"list-style-type:upper-alpha\"><li>Compaction reduces external fragmentation and is possible only if relocation is dynamic, and is done at execution time.</li><li>In paging, Worst case fragmentation $= N frames +&nbsp;1 byte$ $= (N + 1)$ frames.</li><li>First fit analysis reveals that given $N$ blocks allocated, $0.5N$ blocks lost to fragmentation</li><li>Buddy System can help reduce external fragmentation in memory management.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,paging,virtual-memory,memory-management,multiple-selects,one-mark",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447304",
+          "text": "<p>Consider a system with $16 GB$ of physical memory and a $36-bit$ virtual address space. If the page size is $8 KB,$ and each page table entry has an average of $4$ auxiliary bits (for protection, page replacement information, etc.), what is the approximate size of the page table?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{16 MB}$</li><li>$\\text{12 MB}$</li><li>$\\text{20 MB}$</li><li>$\\text{25 MB}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-os-shallow-2,paging,virtual-memory,memory-management,two-marks",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "447320",
+          "text": "Which of the following page replacement algorithms can suffer from thrashing but does not suffer from Belady's anomaly? (Mark all the appropriate choices)<br /><ol style=\"list-style-type:upper-alpha\"><li> Optimal page replacement</li><li> First in First out (FIFO)</li> <li>Least Recently Used (LRU)</li>  <li>Clock page replacement</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "go2026-os-shallow-2,page-replacement,multiple-selects,one-mark",
+          "category": "Operating System"
+        }
+      ]
+    }
+  ]
+}

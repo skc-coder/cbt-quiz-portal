@@ -1,0 +1,255 @@
+{
+  "id": "go27_quiz_14",
+  "name": "GO Classes GATE CS | Discrete Mathematics | Group Theory | Weekly Quiz 13",
+  "duration": "60",
+  "total_qs": "21",
+  "total_qs_one": 7,
+  "total_qs_two": 14,
+  "apti_num_qs": 0,
+  "technical_num_qs": 21,
+  "apti_marks": 0,
+  "technical_marks": 35,
+  "total_marks": 35,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 21,
+      "marks": 35,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "404867",
+          "text": "<p>Let $\\mathrm{G}$ be a group.</p><p>Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If for every choice of elements in group $\\text{G}, axb=cxd$ implies $a b=c d$. Then $\\mathrm{G}$ is Abelian.<br> </li><li>In a group, $(a b)^2=a^2 b^2$ if and only if $a b=b a$.<br> </li><li>In a group, $(a b)^{-2}=b^{-2} a^{-2}$ if and only if $a b=b a$.<br> </li><li>A group $\\text{G}$ is Abelian if and only if $(a b)^{-1}=a^{-1} b^{-1}$ for all $a$ and $b$ in $\\text{G}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,abelian-group,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404889",
+          "text": "Suppose that $\\mathrm{G}$ is a finite group with $60$ elements. The size of the largest possible proper subgroup of $\\text{G}$ is ________",
+          "type": "Numerical",
+          "answer": "30",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,numerical-answers,goclasses,set-theory&algebra,group-theory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "404861",
+          "text": "<p>Let $\\mathrm{G}$ be a finite group.</p><p>Which of the following statements are true?</p><ol style=\"list-style-type:upper-alpha\"><li>The number of elements $x$ of $\\text{G}$ such that $x^3=e$ is odd.<br> </li><li>The number of elements $x$ of $\\text{G}$ such that $x^3=e$ is even.<br> </li><li>The number of elements $x$ of $\\text{G}$ such that $x^2 \\neq e$ is odd.<br> </li><li>The number of elements $x$ of $\\text{G}$ such that $x^2 \\neq e$ is even.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404892",
+          "text": "<p>The multiplication table $(\\ast)$ for a group $\\mathrm{G}=\\{\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d}\\}$ is given below.<br>$$<br>\\begin{array}{|c|c|c|c|c|}<br>\\hline * &amp; a &amp; b &amp; c &amp; d \\\\<br>\\hline a &amp; a &amp; b &amp; c &amp; d \\\\<br>\\hline b &amp; b &amp; a &amp; &amp; \\\\<br>\\hline c &amp; c &amp; &amp; a &amp; \\\\<br>\\hline d &amp; &amp; &amp; &amp; a \\\\<br>\\hline<br>\\end{array}$$<br>Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>The identity element is $b$.</li><li>$\\text{G}$ is a cyclic group.</li><li>$\\mathrm{G}$ is an abelian group.</li><li>The order of $d$ is $4.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,abelian-group,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404879",
+          "text": "<p>Let $\\text{G}$ be a group and let $a, b, c \\in \\text{G}.$</p><p>Consider the following statements:</p><ol><li>If $b a c=a^{-1}$, then $c a b=a^{-1}$.<br> </li><li>The elements \"$bab$\" and \"$abb$\" have the same order.<br> </li></ol><p>Which of the above statements is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>$1$ Only<br> </li><li>$2$ Only<br> </li><li>Both $1 \\;&nbsp;\\&amp;\\; 2$.<br> </li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404884",
+          "text": "<p>Suppose the table below is a group table for group $\\left(\\mathrm{G},{ }^{\\star}\\right).$&nbsp;Fill in the blank entries.<br>$$\\begin{array}{l|lllll}<br>&amp; \\boldsymbol{e} &amp; \\boldsymbol{a} &amp; \\boldsymbol{b} &amp; \\boldsymbol{c} &amp; \\boldsymbol{d} \\\\<br>\\hline \\boldsymbol{e} &amp; e &amp; - &amp; - &amp; - &amp; - \\\\<br>\\boldsymbol{a} &amp; - &amp; b &amp; - &amp; - &amp; e \\\\<br>\\boldsymbol{b} &amp; - &amp; c &amp; d &amp; e &amp; - \\\\<br>\\boldsymbol{c} &amp; - &amp; d &amp; - &amp; a &amp; b \\\\<br>\\boldsymbol{d} &amp; - &amp; - &amp; - &amp; - &amp; -<br>\\end{array}$$<br>Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>$d * b=a$</li><li>$b\\ast d=a$</li><li>$d* d^* d* d=e$</li><li>$a * b * c * d=e$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404882",
+          "text": "<p>Let $(\\mathrm{G}, \\ast)$ be a group with identity element e. Suppose that $a, b,$&nbsp;and $c$ are elements of $G$ satisfying $(a \\ast b) \\ast c=e.$</p><p>Which of the following is/are necessarily true?</p><ol style=\"list-style-type:upper-alpha\"><li>$a \\ast(b&nbsp;\\ast c)=e$</li><li>$(b \\ast c) \\ast a=e$</li><li>$c \\ast(a \\ast&nbsp;b)=e$</li><li>$b \\ast(c \\ast a)=e$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404891",
+          "text": "<p>Which of the following binary operations are closed?</p><ol style=\"list-style-type:upper-alpha\"><li>subtraction of positive integers<br> </li><li>division of nonzero integers<br> </li><li>multiplication of $2 \\times 2$ matrices with integer entries<br> </li><li>exponentiation of integers</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404869",
+          "text": "<p>Let $\\mathrm{G}$ be a group.</p><p>Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If for any $x, y, z$ in the group $\\mathrm{G}, xy=zx$ implies $y=z$. Then $\\mathrm{G}$ is Abelian.<br> </li><li>If for any $x, y, z$ in the group $\\text{G}, x y=x z$ implies $y=z$. Then $\\text{G}$ is Abelian.<br> </li><li>If for any $x, y, z$ in the group $\\text{G}, y x=z x$ implies $y=z$. Then $\\text{G}$ is Abelian.<br> </li><li>If for any $x, y, z$ in the group $\\mathrm{G}, yx= xz$ implies $y=z$. Then $\\mathrm{G}$ is Abelian.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,abelian-group,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404885",
+          "text": "<p>Which of the following sets are closed under the given operation?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\{0,4,8,12\\}$ addition $\\bmod 16$<br> </li><li>$\\{0,4,8,12\\}$ addition $\\bmod 15$<br> </li><li>$\\{1,4,7,13\\}$ multiplication $\\bmod 15$<br> </li><li>$\\{1,4,5,7\\}$ multiplication $\\bmod 9$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404876",
+          "text": "<p>For which of the following partially filled Cayley tables, it is impossible to complete the Cayley table to make a group?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\begin{array}{r|llll}<br>\\circ &amp; a &amp; b &amp; c &amp; d \\\\<br>\\hline a &amp; - &amp; - &amp; - &amp; - \\\\<br>b &amp; b &amp; - &amp; - &amp; - \\\\<br>c &amp; d &amp; - &amp; - &amp; - \\\\<br>d &amp; c &amp; - &amp; - &amp; -<br>\\end{array}$<p> </p></li><li>$\\begin{array}{c|cccc}<br>\\circ &amp; a &amp; b &amp; c &amp; d \\\\<br>\\hline a &amp; a &amp; - &amp; - &amp; - \\\\<br>b &amp; - &amp; b &amp; - &amp; - \\\\<br>c &amp; - &amp; - &amp; - &amp; - \\\\<br>d &amp; - &amp; - &amp; - &amp; -<br>\\end{array}$<p> </p></li><li>$\\begin{array}{c|cccc}<br>\\circ &amp; a &amp; b &amp; c &amp; d \\\\<br>\\hline a &amp; a &amp; - &amp; - &amp; - \\\\<br>b &amp; - &amp; c &amp; - &amp; - \\\\<br>c &amp; - &amp; - &amp; b &amp; - \\\\<br>d &amp; - &amp; - &amp; - &amp; -<br>\\end{array}$<p> </p></li><li>$\\begin{array}{c|cccc}<br>\\circ &amp; a &amp; b &amp; c &amp; d \\\\<br>\\hline a &amp; b &amp; - &amp; - &amp; - \\\\<br>b &amp; - &amp; c &amp; - &amp; - \\\\<br>c &amp; - &amp; - &amp; d &amp; - \\\\<br>d &amp; - &amp; - &amp; - &amp; -<br>\\end{array}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "404871",
+          "text": "<p>Let $\\mathrm{G}$ be a group. Let $\\mathrm{a}, \\mathrm{b} \\in \\mathrm{G}$.</p><p>Which of the following statements is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>The order of $a$ is the same as the order of $a^{-1}$.<br> </li><li>For all $g \\in G,|a|=\\left|g^{-1} a g\\right|$.<br> </li><li>The order of $ab$ is the same as the order of $ba.$<br> </li><li>In any group $\\text{G},$ there is exactly one element of order $1.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404894",
+          "text": "<p>Let $\\text{G}$ be the group defined by the following Cayley table.<br>$$\\begin{array}{l||r|r|r|r|r|r|r|r|}<br>&amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 \\\\<br>\\hline 1 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 \\\\<br>\\hline 2 &amp; 2 &amp; 5 &amp; 4 &amp; 7 &amp; 6 &amp; 1 &amp; 8 &amp; 3 \\\\<br>\\hline 3 &amp; 3 &amp; 8 &amp; 5 &amp; 2 &amp; 7 &amp; 4 &amp; 1 &amp; 6 \\\\<br>\\hline 4 &amp; 4 &amp; 3 &amp; 6 &amp; 5 &amp; 8 &amp; 7 &amp; 2 &amp; 1 \\\\<br>\\hline 5 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\\\<br>\\hline 6 &amp; 6 &amp; 1 &amp; 8 &amp; 3 &amp; 2 &amp; 5 &amp; 4 &amp; 7 \\\\<br>\\hline 7 &amp; 7 &amp; 4 &amp; 1 &amp; 6 &amp; 3 &amp; 8 &amp; 5 &amp; 2 \\\\<br>\\hline 8 &amp; 8 &amp; 7 &amp; 2 &amp; 1 &amp; 4 &amp; 3 &amp; 6 &amp; 5 \\\\<br>\\hline\\end{array}$$<br>Which of the following is/are true about $\\text{G}?$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{G}$ is an abelian group.<br> </li><li>Inverse of $6$ is $2.$<br> </li><li>Order of $6$ is $8.$<br> </li><li>Order of $5$ is $2.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,abelian-group,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404880",
+          "text": "The following is a Cayley table for a group $\\mathrm{G}$. The order of $4 * 4$ is:\n$$\n\\begin{array}{r|r|r|r|r|r|}\n* & 1 & 2 & 3 & 4 & 5 \\\\\n\\hline 1 & 2 & 3 & 4 & 5 & 1 \\\\\n\\hline 2 & 3 & 4 & 5 & 1 & 2 \\\\\n\\hline 3 & 4 & 5 & 1 & 2 & 3 \\\\\n\\hline 4 & 5 & 1 & 2 & 3 & 4 \\\\\n\\hline 5 & 1 & 2 & 3 & 4 & 5 \\\\\n\\hline\n\\end{array}$$",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,numerical-answers,goclasses,set-theory&algebra,group-theory,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404886",
+          "text": "<p>Let $\\text{G}=\\{e, a, b, c\\}$ be a group with the following Cayley table.<br>$$<br>\\begin{array}{c|cccc}<br>* &amp; e &amp; a &amp; b &amp; c \\\\<br>\\hline e &amp; e &amp; a &amp; b &amp; c \\\\<br>a &amp; a &amp; e &amp; c &amp; b \\\\<br>b &amp; b &amp; c &amp; e &amp; a \\\\<br>c &amp; c &amp; b &amp; a &amp; e<br>\\end{array}<br>$$<br>Which of the following is/are true for $\\text{G}?$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{G}$ has exactly $1$ subgroup of $1$ element.</li><li>$\\text{G}$ has exactly $3$ subgroups of $2$ elements.</li><li>$\\mathrm{G}$ has exactly $3$ subgroups of $3$ elements.</li><li>$\\text{G}$ has exactly $1$ subgroup of $4$ elements.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404888",
+          "text": "<p>Which of the following algebraic structures is&nbsp;a group?</p><ol style=\"list-style-type:upper-alpha\"><li>$(\\mathbb{Z},-)$<br> </li><li>$(\\mathbb{Q}-\\{0\\}, \\div)$<br> </li><li>$(\\mathbb{R}, \\star)$, where $a \\star b=a+b+a b$.<br> </li><li>None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404865",
+          "text": "<p>The following question is based on “Isomorphisms of Algebraic Structures”.</p><p>Structure Isomorphism is ${\\color{Red} \\textbf{NOT}}$ part of $\\text{GATE CSE 2024}$ syllabus. But in Goclasses Group Theory Lectures, we have studied the basic idea of Structure Isomorphism.</p><p>In simple words, we’ll say two algebraic structures $\\text{A}$ and $\\text{B}$ are<br>isomorphic if they have exactly the same structure, but their elements may be different.<br>Isomorphic structures are exactly the same except for the names of the elements and the name of the binary operation.<br>With the basic idea of isomorphism that we have studied in Goclasses Group Theory Lectures, Try the following Berkeley University question. (If you don’t get the correct answer, don’t worry about it.)</p><p>Consider the following multiplication tables. Find the binary operations that are isomorphic.<br>$$<br>\\begin{array}{c||c|c}<br>*_1 &amp; \\mathrm{a} &amp; \\mathrm{b} \\\\<br>\\hline \\hline \\mathrm{a} &amp; \\mathrm{a} &amp; \\mathrm{a} \\\\<br>\\hline \\mathrm{b} &amp; \\mathrm{a} &amp; \\mathrm{b}<br>\\end{array} \\qquad<br>\\begin{array}{c||c|c}<br>*_2 &amp; \\mathrm{c} &amp; \\mathrm{d} \\\\<br>\\hline \\hline \\mathrm{c} &amp; \\mathrm{d} &amp; \\mathrm{c} \\\\<br>\\hline \\mathrm{d} &amp; \\mathrm{d} &amp; \\mathrm{d}<br>\\end{array} \\qquad<br>\\begin{array}{c||c|c}<br>*_3 &amp; e &amp; f \\\\<br>\\hline \\hline e &amp; e &amp; f \\\\<br>\\hline \\mathrm{f} &amp; \\mathrm{f} &amp; \\mathrm{f}<br>\\end{array}\\qquad<br>\\begin{array}{c||c|c}<br>*_4 &amp; \\mathrm{~g} &amp; \\mathrm{~h} \\\\<br>\\hline \\hline \\mathrm{g} &amp; \\mathrm{g} &amp; \\mathrm{h} \\\\<br>\\hline \\mathrm{h} &amp; \\mathrm{g} &amp; \\mathrm{h}<br>\\end{array}<br>$$<br>Which of the following is/are correct?</p><ol style=\"list-style-type:upper-alpha\"><li>$1$ and $2$ are not isomorphic.<br> </li><li>$1$ and $3$ are not isomorphic.<br> </li><li>$2$ and $3$ are isomorphic.<br> </li><li>$3$ and $4$ are not isomorphic.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Mathematical Logic"
+        },
+        {
+          "contents": "",
+          "post_id": "404878",
+          "text": "<p>Let $\\text{G}$ be an abelian group with identity element $e$.<br>$$\\text{H}=\\left\\{x \\in G \\mid x^4=e\\right\\}$$<br>Which of the following is true about $\\mathrm{H}?$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{H}$ is a subgroup of $\\text{G}$.<br> </li><li>$\\text{H}$ is not a subgroup of $\\text{G}$ because the identity element doesn't belong to $\\mathrm{H}$.<br> </li><li>$\\mathrm{H}$ is not a subgroup of $\\mathrm{G}$ because $\\mathrm{H}$ doesn't satisfy closure property.<br> </li><li>$\\text{H}$ is not a subgroup of $\\text{G}$ because $\\text{H}$ doesn't satisfy inverse property.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,abelian-group,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "404863",
+          "text": "<p>Let $\\mathrm{G}$ be a finite group. Let \"$1$\" denote the identity element of $\\text{G}.$ If $g$ is an element of a finite group $\\mathrm{G},$&nbsp;then the order of $g$ is the smallest positive integer $n$ such that $g^ n=1$, and it is denoted $o(g)=n$. The order of group $\\mathrm{G}$ is denoted by $o(\\mathrm{G})$ or $|\\mathrm{G}|.$</p><p>Which of the following statements is necessarily true?</p><ol style=\"list-style-type:upper-alpha\"><li>If $g^m=1,$&nbsp;for some $g \\in \\mathrm{G},$&nbsp;then $o(g) \\mid m$.<br> </li><li>If $g^m=1,$&nbsp;for some $g \\in \\mathrm{G},$&nbsp;then $o(g)=m$.<br> </li><li>If $g^m=1,$&nbsp;for some $\\mathrm{g} \\in \\mathrm{G},$&nbsp;then $m \\mid o(\\mathrm{g})$.<br> </li><li>If $g^m=1,$&nbsp;for some $g \\in \\mathrm{G},$&nbsp;then $m \\mid o(\\mathrm{G})$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404874",
+          "text": "<p>Consider the set $\\mathrm{H}=\\{4,8,12,16)$. Complete the Cayley table of the operation multiplication modulo $20$ over that set and answer the following questions.<br>$$<br>\\begin{array}{|c||c|c|c|c|}<br>\\hline &amp; 4 &amp; 8 &amp; 12 &amp; 16 \\\\<br>\\hline \\hline 4 &amp; 16 &amp; 12 &amp; 8 &amp; 4 \\\\<br>\\hline 8 &amp; &amp; &amp; &amp; \\\\<br>\\hline 12 &amp; &amp; &amp; &amp; \\\\<br>\\hline 16 &amp; 4 &amp; 8 &amp; 12 &amp; 16 \\\\<br>\\hline<br>\\end{array}$$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{H}$ is a group But not cyclic.<br> </li><li>$\\mathrm{H}$ is commutative.<br> </li><li>$\\mathrm{H}$ is a cyclic group.<br> </li><li>Order of $12$ is $4.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,cyclic-group,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "404872",
+          "text": "<p>If $\\text{G}$ is a group and $g&nbsp;\\in \\text{G},$&nbsp;then the subgroup generated by $g$ is<br>$$<br>\\langle g\\rangle=\\left\\{g^n \\mid n \\in \\mathbb{Z}\\right\\} .<br>$$<br>The set of all positive integers less than $n$ and relatively prime to $n$ with multiplication $\\bmod n$ is a group denoted $\\text{U}_n$.<br>i.e. $\\text{U}_n =\\left\\{g \\in Z _n \\mid \\operatorname{gcd}(g, n)=1\\right\\}$.</p><p>Which of the following is/are true about $\\text{U}_{24}?$</p><ol style=\"list-style-type:upper-alpha\"><li>In $\\text{U}_{24},$ the size of the subgroup generated by $13$ is $2.$<br> </li><li>$\\text{U}_{24}$ is an abelian group.<br> </li><li>$\\text{U}_{24}$ is a cyclic group.<br> </li><li>The order of an element $y$ in a group $\\text{G}$ is equal to the size of the subgroup generated by $y.$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq63,goclasses,set-theory&algebra,group-theory,abelian-group,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        }
+      ]
+    }
+  ]
+}

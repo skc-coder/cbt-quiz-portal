@@ -1,0 +1,70 @@
+{
+  "name": "Day 249 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "529142",
+          "text": "<p>The coefficient of $x^7$ in the polynomial expansion of</p><p>$$<br>\\left(1+2 x-x^2\\right)^4<br>$$&nbsp;<br>is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>-8</li><li>12</li><li>6</li><li>-12</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 249"
+        },
+        {
+          "post_id": "529140",
+          "text": "<p>A fair die is rolled six times. The probability of rolling at least a five at least five times is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{13}{729}$</li><li>$\\frac{12}{729}$</li><li>$\\frac{2}{729}$</li><li>$\\frac{3}{729}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 249"
+        },
+        {
+          "post_id": "529139",
+          "text": "<p>One thousand unit cubes are fastened together to form a large cube with edge length 10 units; this is painted and then separated into the original cubes. The number of these unit cubes which have at least one face painted is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>600</li><li>520</li><li>488</li><li>480</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 249"
+        },
+        {
+          "post_id": "529133",
+          "text": "<p>Six straight lines are drawn in a plane with no two parallel and no three concurrent. The number of regions into which they divide the plane is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>16</li><li>20</li><li>22</li><li>24</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 249"
+        },
+        {
+          "post_id": "529128",
+          "text": "<p>The number of diagonals that can be drawn in a polygon of 100 sides is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>4850</li><li>4950</li><li>9900</li><li>8800</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 249"
+        }
+      ]
+    }
+  ]
+}

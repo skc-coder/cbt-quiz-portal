@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2025 | Data Structures and Algorithms | Topic Wise Test 3",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "435086",
+          "text": "<p>Consider the following pseudocode of function mystery() which takes one stack orig_stack as input and modify its content using another stack calles helper_stack</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">def mystery(orig_stack): \n      helper_stack = Stack()\n      while orig_stack: # not empty\n             element = orig_stack.pop() \n             while helper_stack and helper_stack.top() &lt; element:\n                         orig_stack.push(helper_stack.pop()) \n             helper_stack.push(element)\n \n      while helper_stack: \n             orig_stack.push(helper_stack.pop())</pre><p><br>Suppose the content of orig_stack initially is $-1, 7, 0, 3, -2,$ where $-1$ is on the top.</p><p>What will be the content of orig_stack() after the function call mystery()?</p><ol style=\"list-style-type:upper-alpha\"><li>$7, 3, 0, -1, -2$ where $7$ is on the top.</li><li>$7, -1, 0, 3, -2,$ where $7$ is on the top.</li><li>$7, -1, 0, -2, 3,$ where $7$ is on the top.</li><li>$-2, -1, 0, 3, 7,$ where $-2$ is on the top.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,two-marks,stack",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435093",
+          "text": "<p>Consider a data structure StackWithMax that supports all operations of a stack, and in addition supports getMax.</p><ul><li>getMax() is a function that returns the maximum without deleting it.</li><li>StackWithMax is implemented using a singly linked list, and each node of the linked list has $3$ fields to store.</li></ul><p>Two fields are the usual element and next pointer, one extra field is there to facilitate getMax operation in efficient time.<br>We can efficiently implement getMax of such data structure in -</p><ol style=\"list-style-type:upper-alpha\"><li>$\\theta(1)$ time</li><li>$\\theta(n)$ time</li><li>$\\theta(n \\log n)$ time</li><li>$\\theta(\\log n)$ time</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,linked-list,time-complexity,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435085",
+          "text": "<p><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\" id=\"docs-internal-guid-bb985802-7fff-dca7-8527-c745e0c2419c\">A queue of int is implemented using a circular array as the following class:</span><br><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Fill up the missing codes in the IsEmpty and IsFull operations of the Queue. q-&gt;front and q-&gt;rear both have been initialized to $-1.$</span></p><p> </p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">class Queue: \n        def __init__(self): \n                self.SIZE = 20 \n                self.data = [None] * self.SIZE \n                self.front = -1\n                self.rear = -1 \n\n\n        def is_empty(self): \n                      # Line X \n\n\n        def is_full(self): \n                     # Line Y return \n</pre><ol style=\"list-style-type:upper-alpha\"><li><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">Line X is return self.front == self.rear</pre></li><li><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">Line X is return self.front == -1</pre></li><li><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">Line X is return self.rear == -1</pre></li><li><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">Line Y is return (self.rear + 1) % self.SIZE == self.front</pre></li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,two-marks,multiple-selects",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435097",
+          "text": "<p>Let $s$ be a sorted array of $n$ integers. Let $t(n)$ denote the time taken for the most efficient algorithm to determine if there are two elements with sum less than $1000$ in $s.$</p><p>Which of the following statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>$t(n)$ is $O(1)$</li><li>$n &lt; t(n) &lt; n \\log_{2} n$</li><li>$n \\log_{2} n &lt; t(n) &lt; \\;^{n}\\text{C}_{2}$</li><li>$t(n) = \\;^{n}\\text{C}_{2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-dsa-3,goclasses,algorithms,time-complexity,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435095",
+          "text": "<p>Consider the following pseudocode:</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">Declare a stack of characters\nwhile ( there are more characters in the word to read )\n{\n    read a character\n    push the character on the stack\n}\nwhile ( the stack is not empty )\n{\n    pop a character off the stack\n    write the character to the screen\n}\n</pre><p><br>What is written to the screen for the input \"carpets\"?</p><ol style=\"list-style-type:upper-alpha\"><li>serc</li><li>carpets</li><li>steprac</li><li>ccaarrppeettss</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,stack,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435090",
+          "text": "<p>Consider a problem: Given an array of elements, replace every element with the nearest greater element on the right of that element. You have to solve this problem with the use of stack.<br>Which of the following is/are correct ?</p><ol style=\"list-style-type:upper-alpha\"><li>Minimum number of extra stack(s) is $1$</li><li>Time Complexity is $O(n)$</li><li>Space Complexity is $O(1)$</li><li>Space Complexity is $O(n)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,stack,time-complexity,space-complexity,multiple-selects,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435099",
+          "text": "<p>Suppose we have a queue $= [3, 14, 1, 20]$ (here $3$ is on the front ) and an empty stack. We are allowed to make only two actions:</p><ol><li>Action ”$x$”: Dequeue an element from the queue and push it to the stack.</li><li>Action ”$o$”: Pop an element from the stack and enqueue it in the queue.</li></ol><p>Which of the following sequences sort the queue in ascending order:</p><ol style=\"list-style-type:upper-alpha\"><li>$xxoxooxoxo$</li><li>$xxoxoxooxo$</li><li>$xoxxooxoxo$</li><li>$xxoxooxxoo$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,stack,queue,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435102",
+          "text": "<p>The following operations are performed on an initially empty queue of ints. What is the contents of the queue afterwards? The queue is displayed with the front to the left.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">q.enqueue (1)\nq.enqueue (2)\ni=q.getfront ()\nq.enqueue (3)\nq.enqueue (4)\nq.enqueue (5)\ni=q.dequeue ()\nq.enqueue (6)</pre><p><br>Notes: getfront operates analogously to the stack method \"top()\".</p><p>enqueue and dequeue operate as one would expect standard queue operations with those names.</p><ol style=\"list-style-type:upper-alpha\"><li>$1\\;2\\;3\\;4\\;5\\;6$</li><li>$6\\;5\\;4\\;3\\;1$</li><li>$2\\;3\\;4\\;5\\;6$</li><li>$1\\;2\\;3\\;4\\;6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435088",
+          "text": "<p>Suppose we want to implement a stack data structure using just one queue. push() and pop() are two functions on stack that may use enqueue() and dequeue() functions of queue Q.</p><p>Which of the following pair(s) of implementations for push() and pop() work?</p><ol style=\"list-style-type:upper-alpha\"><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">def push(x, Q): \n        Q.enqueue(x) \n\n\n def pop(Q): \n        for k in range(1, len(Q)):\n                Q.enqueue(Q.dequeue())\n                return Q.dequeue()</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">def push(x, Q): \n        Q.enqueue(x) \n        for k in range(1, len(Q)):\n                Q.enqueue(Q.dequeue())\n\n\n def pop(Q): \n        return Q.dequeue()</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">def push(x, Q): \n        Q.enqueue(x) \n        for k in range(1, len(Q)):\n                Q.enqueue(Q.dequeue())\n\n\ndef pop(Q): \n        for k in range(1, len(Q)):\n                Q.enqueue(Q.dequeue())\n                return Q.dequeue()\n</pre></li><li><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">def push(x, Q): \n        Q.enqueue(x) \n\n\ndef pop(Q): \n        return Q.dequeue()\n</pre></li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,stack,queue,multiple-selects,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435092",
+          "text": "<p>Consider the following pseudo-code that uses a stack. What will be the output of $n = 50.$</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">while n &gt; 0: \n    stack.push (n % 2)\n    n //= 2 # Integer division\n\n\n while stack:\n    print(stack.pop(), end='')</pre>",
+          "type": "Numerical",
+          "answer": "110010",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-da-dsa-3,numerical-answers,goclasses,data-structures,stack,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435087",
+          "text": "Consider a queue which supports print() function in addition to enqueue() and dequeue().\nprint() is a function that prints an element of the head of the queue without removing the element.\n\nSuppose the initial content of the queue is $1,2,3,4,5$ where $1$ is on the head.\nHow Many number of calls to enqueue(), dequeue() or print() is required to print queue content in reverse order (output should be printed as $5,4,3,2,1)$ such that the final content of the queue should be the same as the initial content. We are not allowed to use anything else other than enqueue(), dequeue() or print() function calls.",
+          "type": "Numerical",
+          "answer": "45",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-da-dsa-3,numerical-answers,goclasses,data-structures,queue,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435100",
+          "text": "<p><span style=\"display: none;\" id=\"cke_bm_99S\">&nbsp;</span>&nbsp;</p><p>A $\\textit{double}$ stack is a variation of a stack that allows access to the top and to the bottom of the stack. A double stack ADT provides operations $\\textsf{pushTop} (\\text{T}\\; x)$ that adds $x$ to the top of the stack, $\\textsf{pushBottom} (\\mathrm{T}\\; x)$ that adds $x$ to the bottom of the stack, $\\textsf{popTop()}$ that removes the element at the top of the stack, and $\\textsf{popBottom()}$ that removes the element at the bottom of the stack.</p><p>Consider a double-stack ds implemented using an array as shown in the following figure.</p><p style=\"text-align:center\"><img alt=\"\" height=\"106\" width=\"360\" src=\"data:image/png;base64,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\"></p><p>When $\\textsf{pushTop} (\\text{T}\\; x)\\; \\textsf{(popTop ())}$ is executed the value of $\\textsf{top}$ is increased (decreased); similarly when $\\textsf{pushBottom} (\\text{T}\\; x )\\; \\textsf{(popBottom ( ))}$ is executed the value of $\\textsf{bottom}$ is decreased (increased). Consider the following code fragment.</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">for i in range(3):\n        ds.pushTop(ds.popBottom());\nfor i in range(2):\n        x= ds. popTop();\nds.pushBottom(x)</pre><p><br>After this code fragment is executed on the double stack $\\textsf{ds}$ represented by the above figure which are the final values for $\\text{top}$ and $\\textsf{bottom}?$</p><ol style=\"list-style-type:upper-alpha\"><li>top $=8,$ bottom $=4$</li><li>top $=9,$ bottom $=5$</li><li>top $=7,$ bottom $=3$</li><li>top $=10,$ bottom $=3$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,one-mark",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435089",
+          "text": "<p>A function $f$ defined on stacks of integers which is considered as a set with an order and it satisfies the following properties:</p><p>$f(\\phi)=0$ and<br>$$<br>f(\\operatorname{push}(S, i))=\\left\\{\\begin{array}{ll}<br>2^{\\max (f(S), 0)}+i, &amp; \\text { if }, i=\\text { even } \\\\<br>2^{\\max (f(S), 0)}-i, &amp; \\text { if }, i=\\text { odd }<br>\\end{array}\\right\\}<br>$$</p><p>for all stacks $\\text{S}$ and integers $i.$</p><p>Here, $\\phi$ stands for an empty set and $\\text{push(S, i)}$ also denotes the stack of integers which is a set with a order and it can be obtained when we push an element $i$ on the stack $\\text{S}$ and after pushing element $i,$ stack $\\text{S}$ has a top element $i.$ With respect to set, say, if $\\text{S} = \\{2, 5, 4\\}$ denotes the stack of integers with bottom element as $2$ and top element as $4$ at a particular instance then set $\\text{push(S, 7)} = \\{2, 5, 4, 7\\}$ denotes the stack of integers with bottom element as $2$ and top element as $7.$ and now, $\\text{S}$ becomes $\\{2, 5, 4, 7\\}.$</p><p>If a stack $\\text{S}$ contains the integers $2,1,2$ in order from bottom to top, what is $f\\text{(S)}?$</p><ol style=\"list-style-type:upper-alpha\"><li>$7$</li><li>$9$</li><li>$128$</li><li>$130$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,stack,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435094",
+          "text": "<p><span style=\"display: none;\" id=\"cke_bm_77S\">&nbsp;</span>&nbsp;</p><p>Consider an array $\\mathrm{A}$ storing $m&gt;1$ different integer values sorted in increasing order. At least one value in $\\mathrm{A}$ is negative and at least one of them is positive. We want to change the positions of the positive values stored in $\\mathrm{A}$ so the positive values appear in decreasing order. So, for example, if the array $\\mathrm{A}$ is as in the figure on the left, the modified array is as in the figure on the right.</p><p style=\"text-align:center\"><img alt=\"\" height=\"100\" width=\"703\" src=\"data:image/png;base64,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\"></p><p>If we use stack or queue but not both to accomplish this task. Which of the following is/are true?<br>Let $n$ be the number of positive values.</p><ol style=\"list-style-type:upper-alpha\"><li>For a queue, we need a minimum of $n$ enqueues and $n$ dequeues operations.</li><li>For a stack, we need a minimum of $n$ push and&nbsp;$n$ pop operations.</li><li>For a queue, we need a minimum of $n+1$ enqueues and $n+1$ dequeues operations.</li><li>For a stack, we need a minimum of $n+1$ push and $n+1$ pop operations.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,stack,multiple-selects,two-marks",
+          "category": "Data Structures"
+        },
+        {
+          "contents": "",
+          "post_id": "435091",
+          "text": "<p>A queue can be simulated using two stacks. If $n$ enqueue and $1$ dequeue has been performed in some sequence then the minimum and maximum number of pop operations needed:</p><p>(Maximum pop means there exists a sequence of enqueue and dequeue operations for which number of pops can not be lesser than maximum pop number)</p><ol style=\"list-style-type:upper-alpha\"><li>Minimum pop $= 1,$ Maximum pop $= n$</li><li>Minimum pop $= 1,$ Maximum pop $= n+1$</li><li>Minimum pop $= n,$ Maximum pop $= 2n$</li><li>Minimum pop $= n,$ Maximum pop $= 2n-1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-da-dsa-3,goclasses,data-structures,queue,stack,two-marks",
+          "category": "Data Structures"
+        }
+      ]
+    }
+  ]
+}

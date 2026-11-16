@@ -1,0 +1,70 @@
+{
+  "name": "Day 140 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "499395",
+          "text": "<p>In a Go-Back-N ARQ protocol with a window size of $7$, every $\\mathbf{4th}$ <strong>packet</strong> is lost in the forward path.<br>If the sender sends $12$ packets, how many <strong>total transmissions</strong> (including retransmissions) are made for all $12$ packets to be transmitted successfully ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$39$<br>&nbsp;</li><li>$20$<br>&nbsp;</li><li>$22$<br>&nbsp;</li><li>$24$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 140"
+        },
+        {
+          "post_id": "499392",
+          "text": "<p>A token bucket regulator has a bucket capacity of $\\mathrm{1 ~MB}$ and a token arrival rate of $\\mathrm{10 ~Mbps}$ .<br><br>If the bucket is initially full, what is the maximum time duration for which the output can transmit at a peak rate of $\\mathrm{40 ~Mbps}$ continuously?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.15 ~\\text{sec}$<br>&nbsp;</li><li>$0.26 ~\\text{sec}$<br>&nbsp;</li><li>$0.32 ~\\text{sec}$<br>&nbsp;</li><li>$0.4 ~\\text{sec}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 140"
+        },
+        {
+          "post_id": "499391",
+          "text": "<p>Consider a Selective Repeat sliding window protocol that uses a frame size of $\\mathbf{2 ~KB}$ to send data on a $\\mathbf{2 ~Mbps}$ link with a one-way latency of $\\mathbf{40 ~msec}$. To achieve a link utilization of $\\mathbf{7 5 \\%}$, the minimum number of bits required to represent the sequence number field is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$6 ~\\text{bits}$<br>&nbsp;</li><li>$5 ~\\text{bits}$<br>&nbsp;</li><li>$8 ~\\text{bits}$<br>&nbsp;</li><li>$7 ~\\text{bits}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 140"
+        },
+        {
+          "post_id": "499388",
+          "text": "<p>If the data from the upper layer is $40 ~\\text{bytes}$, how many bytes of<strong> padding</strong> are added at the Data Link Layer to form a valid Ethernet frame (excluding Preamble and SFD)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4 ~\\text{bytes}$<br>&nbsp;</li><li>$6 ~\\text{bytes}$<br>&nbsp;</li><li>$18 ~\\text{bytes}$<br>&nbsp;</li><li>$26 ~\\text{bytes}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 140"
+        },
+        {
+          "post_id": "499390",
+          "text": "<p>An IP datagram of $4000 ~\\text{bytes}$ (including $20$-$\\text{byte}$&nbsp;IP header) passes through a network with $\\text{MTU} = 1500 ~\\text{bytes}$<br>How many fragments are created, and what is the <strong>total size</strong> (sum of all fragments including headers) after fragmentation?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3 ~\\text{fragments}, 4020 ~\\text{bytes}$<br>&nbsp;</li><li>$3 ~\\text{fragments}, 4040 ~\\text{bytes}$<br>&nbsp;</li><li>$4 ~\\text{fragments}, 4040 ~\\text{bytes}$<br>&nbsp;</li><li>$4 ~\\text{fragments}, 4060 ~\\text{bytes}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Computer Networks",
+          "day": "Day 140"
+        }
+      ]
+    }
+  ]
+}

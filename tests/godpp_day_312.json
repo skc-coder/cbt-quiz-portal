@@ -1,0 +1,70 @@
+{
+  "name": "Day 245 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543410",
+          "text": "<p data-start=\"7558\" data-end=\"7756\">While sorting the numbers $\\text{(70, 48, 76, 58, 43, 47, 78, 53)}$ using quicksort, the last number is chosen as pivot, what will be the permutation of the numbers after partition function has been applied?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"7758\" data-end=\"7875\">$\\text{48 43 47 53 70 76 78 58}$<br>&nbsp;</li><li data-start=\"7758\" data-end=\"7875\">$\\text{43 47 48 53 58 70 76 78}$<br>&nbsp;</li><li data-start=\"7758\" data-end=\"7875\">$\\text{48 47 43 53 70 78 76 58}$<br>&nbsp;</li><li data-start=\"7758\" data-end=\"7875\">$\\text{47 48 43 53 78 76 70 58}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "543282",
+          "text": "<p data-start=\"5501\" data-end=\"5595\">The best case behaviour occurs for quick sort is, if partition splits the array of size $n$ into</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5597\" data-end=\"5664\">$n/2:(n/2)-1$<br>&nbsp;</li><li data-start=\"5597\" data-end=\"5664\">$n/2:n/3$<br>&nbsp;</li><li data-start=\"5597\" data-end=\"5664\">$n/4:3n/2$<br>&nbsp;</li><li data-start=\"5597\" data-end=\"5664\">$n/4:3n/4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "543408",
+          "text": "<p data-start=\"6348\" data-end=\"6581\">Consider the Quick sort algorithm which sorts elements in ascending order using the first element as pivot.&nbsp;</p><p data-start=\"6348\" data-end=\"6581\">Then which of the following input sequence will require a maximum number of comparisons when this algorithm is applied on it?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"6583\" data-end=\"6664\">$\\text{22 25 56 67 89}$<br>&nbsp;</li><li data-start=\"6583\" data-end=\"6664\">$\\text{52 25 76 67 89}$<br>&nbsp;</li><li data-start=\"6583\" data-end=\"6664\">$\\text{22 25 76 67 50}$<br>&nbsp;</li><li data-start=\"6583\" data-end=\"6664\">$\\text{52 25 89 67 76}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "543412",
+          "text": "<p data-start=\"8600\" data-end=\"8685\">Which of the following algorithms is better when dealing with reverse sorted numbers?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"8687\" data-end=\"8764\">Quicksort<br>&nbsp;</li><li data-start=\"8687\" data-end=\"8764\">Heap sort<br>&nbsp;</li><li data-start=\"8687\" data-end=\"8764\">Insertion sort<br>&nbsp;</li><li data-start=\"8687\" data-end=\"8764\">all are equally good</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 245"
+        },
+        {
+          "post_id": "543280",
+          "text": "<p data-start=\"4615\" data-end=\"4679\">Which of the following is correct with regard to insertion sort?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4681\" data-end=\"4910\">insertion sort is stable and it sorts In-place<br>&nbsp;</li><li data-start=\"4681\" data-end=\"4910\">insertion sort is unstable and it sorts In-place<br>&nbsp;</li><li data-start=\"4681\" data-end=\"4910\">insertion sort is stable and it does not sort In-place<br>&nbsp;</li><li data-start=\"4681\" data-end=\"4910\">insertion sort is unstable and it does not sort In-place</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 245"
+        }
+      ]
+    }
+  ]
+}

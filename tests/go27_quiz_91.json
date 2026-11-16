@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_91",
+  "name": "GO Classes GATE CS/DA | DBMS | Normal Forms | Weekly Quiz 4",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "428941",
+          "text": "<p>In relational database management, which of the following is/are property/properties of candidate key?</p><p>P: Uniqueness</p><p>Q: Irreducibility</p><ol style=\"list-style-type:upper-alpha\" type=\"A\"><li>P only</li><li>Q only</li><li>Both P and Q</li><li>Neither P nor Q</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq14,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428930",
+          "text": "<p>Consider the following relational schemes for a library database:</p><pre class=\"sql\">Book (Title, Author, Catalog_no, Publisher, Year, Price)\nCollection(Title, Author, Catalog_no)\n</pre><p>with the following functional dependencies:</p><ol style=\"list-style-type:upper-roman\"><li><p>$\\text{Title Author }\\rightarrow\\text{&nbsp;Catalog_no}$</p></li><li><p>$\\text{Catalog_no }\\rightarrow\\text{&nbsp;Title Author Publisher Year}$</p></li><li><p>$\\text{Publisher Title Year}\\rightarrow\\text{&nbsp;Price}$</p></li></ol><p>Assume $\\left\\{\\text{ Author, Title }\\right\\}$ is the key for both schemes. Which of the following statements is $\\text{true}$?</p><ol style=\"list-style-type:upper-alpha\"><li><p>Both Book and Collection are in $\\text{BCNF}$</p></li><li><p>Both Book and Collection are in $\\text{3NF}$ only</p></li><li><p>Book is in $\\text{2NF}$ and Collection in $\\text{3NF}$</p></li><li><p>Both Book and Collection are in $\\text{2NF}$ only</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq14,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428939",
+          "text": "<p>Which of the following is true?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>A relation in BCNF is always in 3NF</li><li>A relation in 3NF is always in BCNF</li><li>BCNF and 3NF are same</li><li>A relation in BCNF is not in 3NF</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq14,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428934",
+          "text": "<p>Identify the minimal key for relational scheme $R(A, B, C, D, E)$ with functional dependencies $F = \\left\\{A \\rightarrow B, B \\rightarrow C, AC \\rightarrow D\\right\\}$&nbsp;</p><ol style=\"list-style-type:upper-alpha\"><li>$A$&nbsp;</li><li>$AE$</li><li>$BE$</li><li>$CE$&nbsp;</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq14,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428943",
+          "text": "<p>Which of the following statements is true?</p><p>$D_1$: The decomposition of the schema R(A, B, C) into R$_1$(A,B) and R$_2$(A,C) is always lossless</p><p>$D_2$: The decomposition of the schema R(A, B, C, D, E) having AD $\\rightarrow$ B, C&nbsp;$\\rightarrow$ DE, B&nbsp;$\\rightarrow$ AE, and AE&nbsp;$\\rightarrow$ C, into R$_1$(A,B, D) and R$_2$(A, C, D, E) is lossless</p><ol style=\"list-style-type:upper-alpha\"><li>Both $D_1$ and $D_2$</li><li>Neither $D_1$ nor $D_2$</li><li>Only $D_1$</li><li>Only $D_2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq14,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428931",
+          "text": "<p>For a database relation $R(a, b, c, d)$, where the domains $a, b, c, d$ include only atomic values, only the following functional dependencies and those that can be inferred from them hold</p><ul><li>$a \\rightarrow c$</li><li>$b \\rightarrow d$</li></ul><p>This relation is</p><ol style=\"list-style-type: upper-alpha;\"><li><p>in first normal form but not in second normal form</p></li><li><p>in second normal form but not in first normal form</p></li><li><p>in third normal form</p></li><li><p>none of the above</p></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq14,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428940",
+          "text": "<p>Suppose R is a relation schema and F is a set of functional dependencies on R. Further, suppose R1&nbsp;and R2&nbsp;form a decomposition of R. Then the decomposition is a lossless join decomposition of R provided that:</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>R1∩R2→R1&nbsp;is in F+</li><li>R1∩R2→R2&nbsp;is in F+</li><li>both R1∩R2→R1&nbsp;and R1∩R2→R2&nbsp;functional dependencies are in F+</li><li>at least one from R1∩R2→R1&nbsp;and R1∩R2→R2&nbsp;is in F+</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq14,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428938",
+          "text": "<p>The third normal form is based on the concept of_____</p><ol style=\"list-style-type:upper-alpha\"><li>Closure Dependency</li><li>Transitive Dependency</li><li>Normal Dependency</li><li>Functional Dependency</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq14,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428933",
+          "text": "<p>Let $R = ABCDE$ is a relational scheme with functional dependency set $F = \\left\\{A \\rightarrow B, B \\rightarrow C, AC \\rightarrow D\\right\\}$. The attribute closures of $A$ and $E$ are&nbsp;</p><ol style=\"list-style-type:upper-alpha\"><li>$ABCD,&nbsp;\\phi$</li><li>$ABCD, E$&nbsp;</li><li>$\\Phi,&nbsp;\\phi$&nbsp;</li><li>$ABC, E$&nbsp;</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq14,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428936",
+          "text": "<p>Consider a relational schema $S=(U,V,W,X,Y,Z)$ on which the following functional dependencies hold:</p><p>$(U \\rightarrow V, VW \\rightarrow X, Y \\rightarrow&nbsp;W, X \\rightarrow U)$</p><p>Which are the candidate keys among following options?</p><ol class=\"noshrink-inline-options\" style=\"list-style-type:upper-alpha\"><li>$UY, VY$</li><li>$UY, VY, XY$</li><li>$UYZ, VYZ, VWZ$</li><li>$UYZ, VYZ, XYZ$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq14,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428942",
+          "text": "<p>Which one is correct w.r.t. RDBMS?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>primary key&nbsp;$\\subseteq$ super key $\\subseteq$&nbsp;candidate key</li><li>primary key&nbsp;$\\subseteq$ candidate key&nbsp;$\\subseteq$ super key&nbsp;</li><li>super key&nbsp;$\\subseteq$ candidate key $\\subseteq$&nbsp;primary key&nbsp;&nbsp;</li><li>super key&nbsp;$\\subseteq$ primary key $\\subseteq$ candidate key</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq14,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428944",
+          "text": "<p>Match the following :</p><p>$\\begin{array}{clcl} &nbsp;\\text{(1)} &amp; \\text{Determinants} &nbsp;&amp; \\text{(a)}\\ &amp; \\text{No attribute can be added} \\\\ &nbsp; \\text{(2)} &amp; \\text{Candidate key} &nbsp;&amp; \\text{(b)}\\ &amp; \\text{Uniquely identified a row} \\\\&nbsp; \\text{(3)} &amp; \\text{Non-redundancy} &nbsp;&amp; \\text{(c)}\\ &amp; \\text{A constraint between two attribute} \\\\ &nbsp; \\text{(4)} &amp; \\text{Functional Dependency} &nbsp;&amp; \\text{(d)}\\ &amp; \\text{Group of attributes on the left hand} \\\\ &amp;&amp;&amp; &nbsp;\\text{side of arrow of function dependency.} \\\\ &nbsp;\\end{array}$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\text{1-d, 2-b, 3-a, 4-c}$</li><li>$\\text{2-d, 3-a, 1-b, 4-c}$</li><li>$\\text{4-a, 3-b, 2-c, 1-d}$</li><li>$\\text{3-a, 4-b, 1-c, 2-d}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_wq14,goclasses,databases,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428932",
+          "text": "<p>A relation R={A,B,C,D,E,F,G} is given with following set of functional dependencies:&nbsp;F={AD→E, BE→F, B→C, AF→G}.&nbsp;Which of the following is a candidate key?</p><ol style=\"list-style-type:upper-alpha\"><li>A</li><li>AB</li><li>ABC</li><li>ABD</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq14,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428937",
+          "text": "<p>Armstrong $(1974)$ proposed systematic approach to derive functional dependencies. Match the following w.r.t functional dependencies:</p><p>$$\\begin{array}{}&nbsp;&nbsp;&amp; \\textbf{List-I}&nbsp; &amp;&amp; \\textbf{List -II} \\\\ &nbsp;\\text{a.} &amp;&nbsp; \\text{Decomposition Rule} &amp; \\text{i.} &amp; \\text{If $X \\rightarrow Y$ and $Z \\rightarrow W$ then $\\{X,Z\\} \\rightarrow \\{Y, W\\}$}&nbsp;\\\\ &nbsp;\\text{b.} &amp;&nbsp; \\text{Union rule} &amp; \\text{ii.} &amp; \\text{If $X \\rightarrow Y$ and $\\{Y, W\\} \\rightarrow Z$ then $\\{X, W\\} \\rightarrow Z$}&nbsp;\\\\ &nbsp;\\text{c.} &amp;&nbsp; \\text{Composition rule} &amp; \\text{iii.} &amp; \\text{If $X \\rightarrow Y$ and $X \\rightarrow Z$ then $X \\rightarrow \\{Y, Z\\}$}&nbsp;\\\\ &nbsp;\\text{d.} &amp;&nbsp; \\text{Psedudo transitivity rule} &amp; \\text{iv.} &amp; \\text{ If $X \\rightarrow \\{Y, Z\\}$ then $X \\rightarrow Y$ and $X \\rightarrow Z$}&nbsp;\\\\ &nbsp;\\end{array}$$</p><p><strong>Codes:</strong></p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{a-iii, b-ii, c-iv, d-i}$</li><li>$\\text{a-i, b-iii, c-iv, d-ii}$</li><li>$\\text{a-ii, b-i, c-iii, d-iv}$</li><li>$\\text{a-iv, b-iii, c-i, d-ii}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq14,goclasses,databases,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "428935",
+          "text": "<p>The best normal form of relation scheme $R(A, B, C, D)$ along with the set of functional dependencies $F = \\left\\{AB \\rightarrow C, AB \\rightarrow D, C \\rightarrow A, D \\rightarrow B\\right\\}$ is</p><ol style=\"list-style-type:upper-alpha\"><li>Boyce-Codd Normal form</li><li>Third Normal form</li><li>Second Normal form</li><li>First Normal form&nbsp;</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_wq14,goclasses,databases,two-marks",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

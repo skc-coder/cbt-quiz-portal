@@ -1,0 +1,60 @@
+{
+  "name": "Day 224 [Data Structures]",
+  "duration": 12,
+  "total_qs": 4,
+  "total_qs_one": 4,
+  "total_qs_two": 0,
+  "total_marks": 4,
+  "apti_num_qs": 0,
+  "technical_num_qs": 4,
+  "technical_marks": 4,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 4,
+      "marks": 4,
+      "question": [
+        {
+          "post_id": "539912",
+          "text": "<p data-start=\"1797\" data-end=\"1846\">Consider the following statement:</p><p data-start=\"1848\" data-end=\"1972\">“$\\text{Searching for an element in a balanced Binary Search Tree with N&nbsp;nodes will require exactly}$ $\\mathrm{\\log (N)}$ $\\text{compare operations.}$”</p><p data-start=\"1974\" data-end=\"2008\">Which of the following is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2010\" data-end=\"2302\">The statement is true for every successful search.<br>&nbsp;</li><li data-start=\"2010\" data-end=\"2302\">The statement is false because the search cost is $\\mathrm{O(\\log N)}$, not necessarily exactly $\\mathrm{\\log N}$.<br>&nbsp;</li><li data-start=\"2010\" data-end=\"2302\">The statement is true only when the tree is skewed.<br>&nbsp;</li><li data-start=\"2010\" data-end=\"2302\">The statement is false because searching in a balanced BST is always $\\mathrm{O(N)}$.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "539907",
+          "text": "<p data-start=\"505\" data-end=\"653\">The following strings are inserted into an empty Binary Search Tree in the given order, using normal lexicographic dictionary order:</p><p data-start=\"655\" data-end=\"723\">$\\text{Paris, London, Rome, Vienna, Dubai, Madrid, Lisbon, Prague, Beirut}$</p><p data-start=\"725\" data-end=\"822\">While searching for \"$\\text{Prague}$\" in the resulting BST, which sequence of nodes will be encountered?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"824\" data-end=\"957\">$\\text{Paris, London, Madrid, Prague}$<br>&nbsp;</li><li data-start=\"824\" data-end=\"957\">$\\text{Paris, Rome, Prague}$<br>&nbsp;</li><li data-start=\"824\" data-end=\"957\">$\\text{Paris, Rome, Vienna, Prague}$<br>&nbsp;</li><li data-start=\"824\" data-end=\"957\">$\\text{London, Madrid, Paris, Prague}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "539895",
+          "text": "<p data-start=\"500\" data-end=\"587\">Which of the following statements about Binary Search Trees is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"589\" data-end=\"719\">If $\\texttt{y}$ is in the left subtree of node $\\texttt{x}$, then $\\texttt{y.key &gt;= x.key}$. If $\\texttt{y}$ is in the right subtree of $\\texttt{x}$, then $\\texttt{x.key &lt;= y.key}$.<br>&nbsp;</li><li data-start=\"721\" data-end=\"806\">The traversal that prints all keys of a BST in sorted order is preorder traversal.<br>&nbsp;</li><li data-start=\"808\" data-end=\"909\">To delete a node $\\texttt{z}$ having exactly one child, we remove $\\texttt{z}$&nbsp;by making its parent point to $\\texttt{NULL}$<br>.</li><li data-start=\"911\" data-end=\"1022\">To delete a node $\\texttt{z}$&nbsp;having two children, we directly promote the first child of $\\texttt{z}$&nbsp;to the position of $\\texttt{z}$.<br>&nbsp;</li><li data-start=\"1024\" data-end=\"1151\">To find the minimum key in a BST, we start at the root and repeatedly follow the left-child pointer until $\\texttt{NULL}$ is reached.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "E",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 224"
+        },
+        {
+          "post_id": "539904",
+          "text": "<p data-start=\"3500\" data-end=\"3597\">Assume height is counted as the number of nodes on the longest root-to-leaf path.</p><p data-start=\"3599\" data-end=\"3649\">A Binary Search Tree contains exactly $403$ nodes.</p><p data-start=\"3651\" data-end=\"3739\">Which option gives the minimum possible height and maximum possible height respectively?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3741\" data-end=\"3795\">$8, ~402$<br>&nbsp;</li><li data-start=\"3741\" data-end=\"3795\">$9, ~403$<br>&nbsp;</li><li data-start=\"3741\" data-end=\"3795\">$9, ~402$<br>&nbsp;</li><li data-start=\"3741\" data-end=\"3795\">$10, ~403$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Data Structures",
+          "day": "Day 224"
+        }
+      ]
+    }
+  ]
+}

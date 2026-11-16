@@ -1,0 +1,132 @@
+{
+  "name": "GO Classes 2024 | Weekly Quiz 12 | Programming",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "374135",
+          "text": "<p>What is the output of the following code? Assume that int is $32$ bits, short is $16$ bits, and the representation is two’s complement.&nbsp;</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nsigned short ix = -2;\nprintf( \"%u\", ix );\n</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$-2$</li>\n    <li>$2^{32}-2$</li>\n    <li>$2^{32}-1$</li>\n    <li>$2^{16}-1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_wq21,goclasses,programming,programming-in-c,number-representation,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374834",
+          "text": "<p>Consider $k$ bit binary pattern.</p>\n\n<ul>\n    <li>$T_{\\text{max}}$ and $T_{\\text{min}}$ are maximum and minimum signed numbers we can represent using $k$ bits.</li>\n    <li>$U_{\\text{max}}$ and $U_{\\text{min}}$ are maximum and minimum unsigned numbers we can represent using $k$ bits.</li>\n</ul>\n\n<p>Which of the following(s) is/are true for $k =16?$</p>\n\n<p>Here $|.|$ represents absolute value of a number i.e., $|r| = -r$ if $r&lt;0$ otherwise $|r| = r.$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$|T_{\\text{min}}| = T_{\\text{max}} + 1$</li>\n    <li>$U_{\\text{max}} = 2*T_{\\text{max}} +1$</li>\n    <li>$U_{\\text{max}} = |T_{\\text{min}}| +T_{\\text{max}} + 1$</li>\n    <li>$U_{\\text{min}} = |T_{\\text{min}}|$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq21,goclasses,programming,programming-in-c,number-representation,multiple-selects,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "403572",
+          "text": "Consider  the number $1001$ in $2's$ Complement number system _________",
+          "type": "Numerical",
+          "answer": "-7",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq21,numerical-answers,goclasses,programming,programming-in-c,number-representation,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "403569",
+          "text": "<p>Consider a $2's$ complement system with $16$-bit short integer size. What is the smallest value that can be stored in a signed short?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$-2^{15}$</li>\n    <li>$-2^{15}-1$</li>\n    <li>$-2^{16}$</li>\n    <li>$-2^{16}-1$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq21,goclasses,programming,programming-in-c,number-representation,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "403570",
+          "text": "Minimum Number of bits to present $+14$ in binary in $2's$ complement system?",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq21,numerical-answers,goclasses,programming,programming-in-c,number-representation,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "403568",
+          "text": "<p>What will be the output of the following program?</p>\n\n<p>(Assume $2’s$ complement system for signed numbers)</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint main() {\n    int i = -1;\n    int x = (unsigned char)i;\n    printf(\"%d\", x);\n}\n</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$-1$</li>\n    <li>$255$</li>\n    <li>A huge number</li>\n    <li>$11111111$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq21,goclasses,programming,programming-in-c,number-representation,output,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374824",
+          "text": "<p>Consider two program fragments given below. $\\text{UINT_MAX}$ is the maximum unsigned number in the system<br>\n<strong><img alt=\"\" height=\"222\" src=\"https://lh5.googleusercontent.com/_CTvNZTFwDVm9CyxZHQN8Ne7GG_chkcxldxiWkg_8A3fHVAlivQd9spJJjwygX3iO-LvVmqpcpFw1TKvvrQTW-zZqKr3XuTVgsc-u-VVl7Wk8C8IILva4QJp3gCgKDVoPrZWblt8\" width=\"708\"></strong></p>\n\n<p>Which of the following(s) is/are true? All the prints are without double commas.</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Program $1$ prints \"GO Classes”</li>\n    <li>Program $2$ prints \"GATE Overflow\"</li>\n    <li>Program $1$ does not print \"GO Classes\"</li>\n    <li>Program $2$ does not print \"GATE Overflow\"</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq21,goclasses,programming,programming-in-c,multiple-selects,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374826",
+          "text": "<p>Consider Figure $A$ and Figure $B$ which represent $4$ bit signed and unsigned numbers respectively in $2’s$ complement system.<br>\n<strong><img alt=\"\" height=\"304\" src=\"https://lh4.googleusercontent.com/WrNyKlC1oUregllkie0AwvMHo36K-GEfFA17tmVgVWXz4J37f0WOsv5PKZrkwJwMGR9BVf8bNSiDmHH1AvUA8DCs2hUz0-CLyEvCoPjzMuunPcCajHnLFPlAqE8UxZgjf_1hHm0J\" width=\"791\"></strong><br>\nAssume that a few variables are defined below and initialized in such a way that places them in the spot shown in Figure $C$.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint s1, s2, s3;\nunsigned int u1, u2, u3;\n</pre>\n\n<p>Which of the following(s) is/are true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$s3 &gt; u3$</li>\n    <li>$s1 &gt; s3$</li>\n    <li>$u1 &gt; u3$</li>\n    <li>$s1 &gt; u3$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq21,goclasses,programming,programming-in-c,number-representation,multiple-selects,two-marks",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374143",
+          "text": "<p>In C programming, constant integers are considered to be signed integers by default. One way to represent them as an unsigned constant is by appending $\\text{U}$ as a suffix. For example, $-1$ is signed, whereas $-1\\text{U}$ is unsigned.</p>\n\n<p>Which of the following condition(s) is/are TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$-3 &gt; -4\\text{U}$</li>\n    <li>$-1\\text{U} &gt; -2$</li>\n    <li>$-1\\text{U} &gt; 0\\text{U}$</li>\n    <li>$-1 &gt; 1$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq21,goclasses,programming,number-representation,multiple-selects,one-mark",
+          "category": "Programming in C"
+        },
+        {
+          "contents": "",
+          "post_id": "374836",
+          "text": "<p>What will be the output on the execution of the following code segment?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nmain()\n{\n    unsigned num1=-1;\n    signed num2=1;\n    if(num1 &lt; num2)\n        printf(\"less\");\n    else if(num1&gt;num2)\n        printf(\"greater\");\n    else if(num1==num2)\n        printf(\"equal\");\n}\n</pre>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>greater</li>\n    <li>less</li>\n    <li>equal</li>\n    <li>error</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_wq21,goclasses,programming,programming-in-c,output,two-marks",
+          "category": "Programming in C"
+        }
+      ]
+    }
+  ]
+}

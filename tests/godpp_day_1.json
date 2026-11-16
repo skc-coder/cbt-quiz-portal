@@ -1,0 +1,70 @@
+{
+  "name": "Day 2 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "470835",
+          "text": "<p>The BCD code of the decimal number $937.25$ is $\\qquad$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$100011111.010101$</li><li>$100100110111.00100101$</li><li>$1110101001.11001$</li><li>$None$ $of$ $the$ $above$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 2"
+        },
+        {
+          "post_id": "470833",
+          "text": "<p>Which of the following is/are boolean algebra property?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{a}+\\mathrm{b}=\\mathrm{b}+\\mathrm{a}$</li><li>$(\\mathrm{a} \\bullet \\mathrm{b})^{\\prime}=\\mathrm{a}^{\\prime}+\\mathrm{b}^{\\prime}$</li><li>$a+a=a$</li><li>$1 \\cdot a=a \\cdot 1=a$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A,B,C,D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 2"
+        },
+        {
+          "post_id": "470837",
+          "text": "<p>From the truth table below, determine the standard <strong>SOP</strong> expression.</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; text-align: center; border-spacing: 1px;\"><thead><tr><th scope=\"col\" colspan=\"3\">Inputs</th><th scope=\"col\" colspan=\"1\">Output</th></tr></thead><tbody><tr><td>A</td><td>B</td><td>C</td><td>X</td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><td>1</td><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td><td>0</td></tr></tbody></table><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$ X=\\bar{A} \\bar{B} \\bar{C}+A B C+A \\bar{B} C$</li><li>$ X=A B C+A B C+A B C$</li><li>$X=A \\bar{B} C+\\bar{A} B C+A B \\bar{C}$</li><li>$X=\\bar{A} \\bar{B} C+\\bar{A} B C+A B \\bar{C}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 2"
+        },
+        {
+          "post_id": "470839",
+          "text": "<p>Minimize the below expression</p><p>$$<br>F(a, b, c, d)=\\left(\\left(a+b^{\\prime}+d^{\\prime}\\right) \\cdot(c+d) \\cdot\\left(a^{\\prime}+c+d\\right) \\cdot\\left(a+b+d^{\\prime}\\right)\\right)^{\\prime}<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$a^{\\prime} d+c d^{\\prime}$<br>&nbsp;</li><li>$a^{\\prime} d^{\\prime}+c^{\\prime} d^{\\prime}$<br>&nbsp;</li><li>$a^{\\prime} d+c^{\\prime} d^{\\prime}$<br>&nbsp;</li><li>$a^{\\prime} d+c d$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 2"
+        },
+        {
+          "post_id": "470841",
+          "text": "<p>An 8-to-1 multiplexer has inputs $\\mathbf{A}, \\mathbf{B}$, and $\\mathbf{C}$ connected to the selection inputs $\\mathbf{S2}, \\mathbf{S1}$, and $\\mathbf{S0}$, respectively. The data inputs $\\boldsymbol{I}_0$ through $\\boldsymbol{I}_7$ are as follows:</p><p>$$<br>I_1=I_2=0 ; \\quad I_3=I_5=I_7=1 ; \\quad I_0=I_4=\\bar{D} \\quad \\text { and } \\quad I_6=D<br>$$</p><p><br>The Boolean function that the multiplexer implements is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$F=\\Sigma m(0,6,7,8,10,11,13,14,15) $<br>&nbsp;</li><li>$F=\\Sigma m(1,2,3,4,5,9,12)$<br>&nbsp;</li><li>$&nbsp;F=\\Sigma m(0,6,7,8,9,11,13,14,15) $<br>&nbsp;</li><li>$&nbsp;F=\\Sigma m(0,6,7,9,11,14,15) $</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 291 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534438",
+          "text": "<p>Simplify $F=(A+B)(\\overline{A}+C)(B+C)+AB$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$B+AC$<br>&nbsp;</li><li>$AB+BC$<br>&nbsp;</li><li>$AC+\\overline{A}B$<br>&nbsp;</li><li>$A+B+C$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 291"
+        },
+        {
+          "post_id": "534444",
+          "text": "Let $X$ be an $8$-bit integer stored in $2$'s complement representation. If the hexadecimal value of $X$ is given as $(E4)_{16}$, what is the decimal equivalent of the value obtained by performing an arithmetic right shift by $2$ bits on $X$?",
+          "type": "Numerical",
+          "answer": "-7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 291"
+        },
+        {
+          "post_id": "534442",
+          "text": "Consider the valid base conversion equation $(123)_5 = (x8)_y$, where $x$ and $y$ are positive integers. What is the minimum possible decimal value of $x + y$?",
+          "type": "Numerical",
+          "answer": "13",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 291"
+        },
+        {
+          "post_id": "534446",
+          "text": "<p data-path-to-node=\"3\">Consider the Boolean function $F(w, x, y, z)$ given by the following expression:</p><p>$$F = wxy + \\bar{w}z + xyz + w\\bar{x}y$$</p><p data-path-to-node=\"5\">If this expression is minimized using Boolean algebraic laws, which of the following represents the most simplified form?</p><ol data-path-to-node=\"6\" start=\"1\" style=\"list-style-type: upper-alpha;\"><li><p data-path-to-node=\"6,0,0\">$wy + \\bar{w}z$</p></li><li><p data-path-to-node=\"6,1,0\">$wy + yz$</p></li><li><p data-path-to-node=\"6,2,0\">$wz + \\bar{w}y$</p></li><li><p data-path-to-node=\"6,3,0\">$wy + \\bar{w}z + xyz$</p></li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 291"
+        },
+        {
+          "post_id": "534448",
+          "text": "<p data-path-to-node=\"11\">Which of the following Boolean algebraic equations represent valid mathematical identities? (Select all that apply)</p><ol data-path-to-node=\"12\" start=\"1\" style=\"list-style-type: upper-alpha;\"><li><p data-path-to-node=\"12,0,0\">$A \\oplus B \\oplus AB = A + B$</p></li><li><p data-path-to-node=\"12,1,0\">$A + \\bar{A}B + \\bar{A}\\bar{B}C = A + B + C$</p></li><li><p data-path-to-node=\"12,2,0\">$(A + B)(\\bar{A} + C) = AC + \\bar{A}B$</p></li><li><p data-path-to-node=\"12,3,0\">$(A + B)\\overline{(AB)} = A \\odot B$</p></li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Digital Logic",
+          "day": "Day 291"
+        }
+      ]
+    }
+  ]
+}

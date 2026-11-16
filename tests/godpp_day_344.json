@@ -1,0 +1,70 @@
+{
+  "name": "Day 258 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530222",
+          "text": "<p>How many different integers can be expressed as the sum of three distinct members of the set $\\{1,4,7,10,13,16,19\\}$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>13</li><li>16</li><li>24</li><li>30</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 258"
+        },
+        {
+          "post_id": "530226",
+          "text": "<p>Juan rolls a fair regular octahedral die marked with the numbers 1 through 8 . Then Amal rolls a fair six-sided die. What is the probability that the product of the two rolls is a multiple of 3 ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{1}{12}$</li><li>$\\frac{1}{3}$</li><li>$\\frac{1}{2}$</li><li>$\\frac{7}{12}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 258"
+        },
+        {
+          "post_id": "530224",
+          "text": "<p>Four distinct circles are drawn in a plane. What is the maximum number of points where at least two of the circles intersect?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>8</li><li>9</li><li>10</li><li>12</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 258"
+        },
+        {
+          "post_id": "530220",
+          "text": "<p>According to the standard convention for exponentiation,</p><p>$$<br>2^{2^{2^2}}=2^{\\left(2^{\\left(2^2\\right)}\\right)}=2^{16}=65536 .<br>$$</p><p><br>If the order in which the exponentiations are performed is changed, how many other values are possible?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>0</li><li>1</li><li>2</li><li>3</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 258"
+        },
+        {
+          "post_id": "530228",
+          "text": "<p>There are 1001 red marbles and 1001 black marbles in a box. Let $P_s$ be the probability that two marbles drawn at random from the box are the same color, and let $P_d$ be the probability that they are different colors. Find $\\left|P_s-P_d\\right|$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>0</li><li>$\\frac{1}{2002}$</li><li>$\\frac{1}{2001}$</li><li>$\\frac{2}{2001}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Combinatory",
+          "day": "Day 258"
+        }
+      ]
+    }
+  ]
+}

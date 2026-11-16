@@ -1,0 +1,70 @@
+{
+  "name": "Day 170 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "508379",
+          "text": "<p>A system manages $\\mathbf{12}$ <strong>IDENTICAL PRINTING UNITS.</strong> There are three processes $(P_1, P_2, P_3)$ currently utilizing these units. The current state of the system is described by the table below:</p><p>\\[<br>\\begin{array}{|c|c|c|}<br>\\hline<br>\\text{Process} & \\text{Current Allocation} & \\text{Maximum Requirement} \\\\<br>\\hline<br>P1 & 4 & 8 \\\\<br>P2 & 2 & 7 \\\\<br>P3 & 4 & 6 \\\\<br>\\hline<br>\\end{array}<br>\\]<br>Based on this state, which of the following best describes the <strong>CURRENT CONDITION</strong> of the system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Safe and Not Deadlocked<br>&nbsp;</li><li>Safe and Deadlocked<br>&nbsp;</li><li>Not Safe and Not Deadlocked<br>&nbsp;</li><li>Not Safe and Deadlocked</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 170"
+        },
+        {
+          "post_id": "508381",
+          "text": "<p>A system consists of four active processes $P=\\left\\{P_1, P_2, P_3, P_4\\right\\}$ and four distinct singleinstance resource types $R=\\left\\{R_1, R_2, R_3, R_4\\right\\}$. The current state is defined by the following <strong>ASSIGNMENT</strong> and <strong>REQUEST</strong> edges:</p><ul><li><strong>ASSIGNMENT EDGES:</strong> $R_1 \\rightarrow P_2, R_2 \\rightarrow P_3, R_3 \\rightarrow P_4, R_4 \\rightarrow P_1$<br>&nbsp;</li><li><strong>REQUEST (WAITING) EDGES:</strong> $P_1 \\rightarrow R_1, P_2 \\rightarrow R_3, P_3 \\rightarrow R_4, P_4 \\rightarrow R_2$</li></ul><p><br>Which of the following statements is/are<strong> CORRECT </strong>regarding the deadlock status of this system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The system is deadlock-free because there are no circular dependencies.<br>&nbsp;</li><li>Only processes $P_1$ and $P_2$ are deadlocked.<br>&nbsp;</li><li>There is a global deadlock involving all four processes $(P_1, P_2, P_3, P_4)$.<br>&nbsp;</li><li>Aborting $P_4$ alone will not resolve the deadlock for $P_1$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 170"
+        },
+        {
+          "post_id": "508376",
+          "text": "<p>A computer system contains $\\mathbf{10}$ <strong>IDENTICAL MAGNETIC TAPE DRIVES.</strong> There are $N$ processes currently running in the system, and each process has a <strong>MAXIMUM NEED</strong> of $\\mathbf{3}$ <strong>DRIVES</strong> to complete its execution.</p><p>What is the <strong>SMALLEST VALUE</strong> of $N$ such that the system could potentially enter a <strong>DEADLOCK</strong> state?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4$<br>&nbsp;</li><li>$5$<br>&nbsp;</li><li>$6$<br>&nbsp;</li><li>$11$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 170"
+        },
+        {
+          "post_id": "508386",
+          "text": "<p>Consider a computer system with $\\mathbf{2 5 6 ~ M B}$ <strong>of PHYSICAL MEMORY</strong> and a $\\mathbf{40-}$<strong>bit VIRTUAL ADDRESS SPACE.</strong> The system utilizes a paging scheme where the <strong>PAGE SIZE</strong> is set to $\\mathbf{16 ~KB}$.</p><p>If each <strong>PAGE TABLE ENTRY (PTE)</strong> must store the frame number plus $\\mathbf{2}$ <strong>BITS</strong> for protection and status, what is the <strong>TOTAL SIZE</strong> of the page table for a single process?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$64$ MB<br>&nbsp;</li><li>$128$ MB<br>&nbsp;</li><li>$160$ MB<br>&nbsp;</li><li>$256$ MB</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 170"
+        },
+        {
+          "post_id": "508383",
+          "text": "<p>Consider a <strong>NON-NEGATIVE COUNTING SEMAPHORE</strong> $S$. The operation $P(S)$ (wait) attempts to decrement $S$, and the operation $V(S)$ (signal) increments $S$. A process executing a $P(S)$ operation will <strong>BLOCK</strong> if the current value of $S$ is $0$ .</p><p>During a specific execution sequence, $\\mathbf{35}$ $P(S)$ <strong>OPERATIONS</strong> and $\\mathbf{18}$ $V(S)$ <strong>OPERATIONS</strong> are issued in an arbitrary order. What is the <strong>LARGEST INITIAL VALUE</strong> of $S$ for which at least <strong>THREE</strong> $P(S)$ operations will remain blocked at the end of the sequence?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$13$<br>&nbsp;</li><li>$14$<br>&nbsp;</li><li>$15$<br>&nbsp;</li><li>$16$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 170"
+        }
+      ]
+    }
+  ]
+}

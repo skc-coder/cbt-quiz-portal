@@ -1,0 +1,70 @@
+{
+  "name": "Day 290 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "534187",
+          "text": "<p data-start=\"3143\" data-end=\"3200\">What is the output of the following code?</p><pre data-start=\"3202\" data-end=\"3476\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int i, j, count = 0;      for (i = 1; i &lt;= 4; i++) {         for (j = 1; j &lt;= 4; j++) {             if (i * j &gt; 6)                 break;              count = count + j;         }     }      printf(&quot;%d&quot;, count);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int i, j, count = 0;\n\n    for (i = 1; i &lt;= 4; i++) {\n        for (j = 1; j &lt;= 4; j++) {\n            if (i * j &gt; 6)\n                break;\n\n            count = count + j;\n        }\n    }\n\n    printf(\"%d\", count);\n\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "20",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 290"
+        },
+        {
+          "post_id": "534189",
+          "text": "<p data-start=\"4865\" data-end=\"4922\">What is the output of the following code?</p><pre data-rawcode=\"#include &lt;stdio.h&gt;  void change(int *p, int *q) {     *p = *p + 4;     *q = *p + *q;     p = q;     *p = *p - 3; }  int main() {     int a = 6, b = 10;      change(&a, &b);      printf(&quot;%d %d&quot;, a, b);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nvoid change(int *p, int *q) {\n    *p = *p + 4;\n    *q = *p + *q;\n    p = q;\n    *p = *p - 3;\n}\n\nint main() {\n    int a = 6, b = 10;\n\n    change(&a, &b);\n\n    printf(\"%d %d\", a, b);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5152\" data-end=\"5240\">$\\texttt{10\\ 17}$<br>&nbsp;</li><li data-start=\"5152\" data-end=\"5240\">$\\texttt{10\\ 20}$<br>&nbsp;</li><li data-start=\"5152\" data-end=\"5240\">$\\texttt{6\\ 17}$<br>&nbsp;</li><li data-start=\"5152\" data-end=\"5240\">$\\texttt{13\\ 17}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 290"
+        },
+        {
+          "post_id": "534183",
+          "text": "<p data-start=\"1233\" data-end=\"1290\">What is the output of the following code?</p><pre data-start=\"1292\" data-end=\"1490\" data-rawcode=\"#include &lt;stdio.h&gt;  void fun() {     static int x = 3;     int y = 2;      x = x + y;     y = y + x;      printf(&quot;%d &quot;, x); }  int main() {     fun();     fun();     fun();      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nvoid fun() {\n    static int x = 3;\n    int y = 2;\n\n    x = x + y;\n    y = y + x;\n\n    printf(\"%d \", x);\n}\n\nint main() {\n    fun();\n    fun();\n    fun();\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1492\" data-end=\"1587\">$\\texttt{5\\ 5\\ 5}$<br>&nbsp;</li><li data-start=\"1492\" data-end=\"1587\">$\\texttt{5\\ 7\\ 9}$<br>&nbsp;</li><li data-start=\"1492\" data-end=\"1587\">$\\texttt{3\\ 5\\ 7}$<br>&nbsp;</li><li data-start=\"1492\" data-end=\"1587\">$\\texttt{5\\ 10\\ 15}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 290"
+        },
+        {
+          "post_id": "534181",
+          "text": "<p data-start=\"198\" data-end=\"255\">What is the output of the following code?</p><pre data-start=\"257\" data-end=\"447\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a = 8, b = 12;     int *p = &a;     int *q = &b;      *p = *p + *q;     q = p;     *q = *q - 5;      printf(&quot;%d %d&quot;, a, b);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a = 8, b = 12;\n    int *p = &a;\n    int *q = &b;\n\n    *p = *p + *q;\n    q = p;\n    *q = *q - 5;\n\n    printf(\"%d %d\", a, b);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"449\" data-end=\"537\">$\\texttt{15\\ 12}$<br>&nbsp;</li><li data-start=\"449\" data-end=\"537\">$\\texttt{20\\ 12}$<br>&nbsp;</li><li data-start=\"449\" data-end=\"537\">$\\texttt{15\\ 15}$<br>&nbsp;</li><li data-start=\"449\" data-end=\"537\">$\\texttt{8\\ 12}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 290"
+        },
+        {
+          "post_id": "534185",
+          "text": "<p data-start=\"2374\" data-end=\"2431\">What is the output of the following code?</p><pre data-start=\"2433\" data-end=\"2601\" data-rawcode=\"#include &lt;stdio.h&gt;  int calc(int n) {     if (n == 1)         return 2;      return n + calc(n - 1); }  int main() {     printf(&quot;%d&quot;, calc(4));     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint calc(int n) {\n    if (n == 1)\n        return 2;\n\n    return n + calc(n - 1);\n}\n\nint main() {\n    printf(\"%d\", calc(4));\n    return 0;\n}\n</pre>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 290"
+        }
+      ]
+    }
+  ]
+}

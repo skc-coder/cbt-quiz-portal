@@ -1,0 +1,70 @@
+{
+  "name": "Day 210 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "523924",
+          "text": "The number $\\frac{2}{\\log _4 2000^6}+\\frac{3}{\\log _5 2000^6}$ can be written as $\\frac{m}{n}$ where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 210"
+        },
+        {
+          "post_id": "523922",
+          "text": "<p>$$<br>\\sum_{m=1}^4 8 k-6 m=?<br>$$<br><br>Choose 1 answer:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$8 k-6+8 k-12+8 k-18+8 k-24$</li><li>$2+4+6+8$</li><li>$8-6 m+16-6 m+24-6 m+32-6 m$</li><li>$0+2+4+6$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 210"
+        },
+        {
+          "post_id": "523921",
+          "text": "<p>$$<br>\\sum_{j=1}^4(2 i j+8 j)^2=?<br>$$</p><p><br>Which are equivalent to above summation:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10^2+24^2+42^2+64^2$</li><li>$(2 i+16)^2+(6 i+32)^2+(10 i+48)^2+(14 i+64)$</li><li>$(2 i+8)^2+(4 i+16)^2+(6 i+24)^2+(8 i+32)^2$</li><li>$(10 j)^2+(12 j)^2+(14 j)^2+(16 j)^2$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 210"
+        },
+        {
+          "post_id": "523918",
+          "text": "<p data-start=\"41\" data-end=\"221\">In year $N$, the $300th$ day of the year is a Tuesday. In year $N+1$, the $200th$ day is also a Tuesday. On what day of the week did the $100th$ day of the year $N-1$ occur?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"223\" data-end=\"296\">Friday</li><li data-start=\"223\" data-end=\"296\">Tuesday</li><li data-start=\"223\" data-end=\"296\">Wednesday</li><li data-start=\"223\" data-end=\"296\">Thursday</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 210"
+        },
+        {
+          "post_id": "523919",
+          "text": "If $n!$ denotes the product of the integers $1$ through $n$, what is the remainder when $(1! + 2! + 3! + 4! + 5! + 6! + ...)$ is divided by $9$?",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 210"
+        }
+      ]
+    }
+  ]
+}

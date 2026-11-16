@@ -1,0 +1,486 @@
+[
+  {
+    "id": "go27_quiz_0",
+    "name": "GO Classes CS/DA | Linear Algebra | Weekly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_1",
+    "name": "GO Classes CS/DA | Linear Algebra | Rank, System of equation"
+  },
+  {
+    "id": "go27_quiz_2",
+    "name": "GO Classes CS/DA | Conditional Probability | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_3",
+    "name": "GO Classes CS/DA | Probability Distributions | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_4",
+    "name": "GO Classes GATE CS/DA | Calculus | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_5",
+    "name": "GO Classes GATE CS | Calculus | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_6",
+    "name": "GO Classes GATE CS | Calculus | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_7",
+    "name": "GO Classes GATE CS | Propositional Logic| Weekly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_8",
+    "name": "GO Classes CS | Discrete Mathematics | Set theory | Weekly Quiz 8"
+  },
+  {
+    "id": "go27_quiz_9",
+    "name": "GO Classes CS | Discrete Mathematics | Set theory | Weekly Quiz 9"
+  },
+  {
+    "id": "go27_quiz_10",
+    "name": "GO Classes CS | Discrete Mathematics | Relations | Weekly Quiz 10"
+  },
+  {
+    "id": "go27_quiz_11",
+    "name": "GO Classes CS | Discrete Mathematics | Relations, Lattice & Poset | Weekly Quiz 11"
+  },
+  {
+    "id": "go27_quiz_12",
+    "name": "GO Classes CS | Discrete Mathematics | Functions | Weekly Quiz 12"
+  },
+  {
+    "id": "go27_quiz_13",
+    "name": "GO Classes CS | Discrete Mathematics | Functions | Weekly Quiz 12"
+  },
+  {
+    "id": "go27_quiz_14",
+    "name": "GO Classes GATE CS | Discrete Mathematics | Group Theory | Weekly Quiz 13"
+  },
+  {
+    "id": "go27_quiz_15",
+    "name": "GO Classes CS/DA | Discrete Mathematics | Combinatorics | Weekly Quiz 14"
+  },
+  {
+    "id": "go27_quiz_16",
+    "name": "GO Classes CS/DA | Discrete Mathematics | Combinatorics | Weekly Quiz 15"
+  },
+  {
+    "id": "go27_quiz_17",
+    "name": "GO Classes CS/DA | Discrete Mathematics | Combinatorics | Weekly Quiz 16"
+  },
+  {
+    "id": "go27_quiz_18",
+    "name": "GO Classes CS/DA | Discrete Mathematics | Combinatorics | Weekly Quiz 17"
+  },
+  {
+    "id": "go27_quiz_19",
+    "name": "GO Classes GATE CS | Discrete Mathematics | Combinatorics | Weekly Quiz 18"
+  },
+  {
+    "id": "go27_quiz_20",
+    "name": "GO Classes CS | Discrete Mathematics | Graph Theory | Weekly Quiz 19"
+  },
+  {
+    "id": "go27_quiz_21",
+    "name": "GO Classes GATE CS | C-Programming | Number representation & Integer promotion | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_22",
+    "name": "GO Classes GATE CS | C-Programming | Functions, Storage classes & Loops | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_23",
+    "name": "GO Classes GATE CS | C-Programming | Pointers, Storage classes & Recursion | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_24",
+    "name": "GO Classes GATE CS | C-Programming | Structures, Pointers & Storage Classes | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_25",
+    "name": "GO Classes CS | DS | Asymptotic Notation & Loop Time Complexity | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_26",
+    "name": "GO Classes CS/DA | DS | Linked List, Asymptotic Notation & Loop Time Complexity | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_27",
+    "name": "GO Classes CS/DA | DS | Stack, Queue, Asymptotic Notation & Loop Time Complexity | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_28",
+    "name": "GO Classes CS/DA | DS | Complete Data structure Syllabus | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_29",
+    "name": "GO Classes CS/DA | DS | Complete Data structure Syllabus | Weekly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_30",
+    "name": "GO Classes CS/DA | Algorithms | Sorting Algorithms | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_31",
+    "name": "GO Classes CS/DA | Algorithms | DFS BFS Algorithms | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_32",
+    "name": "GO Classes CS/DA | Algorithms | Shortest Paths | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_33",
+    "name": "GOClasses CS/DA | Aptitude | Monthly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_34",
+    "name": "GOClasses CS/DA | Aptitude | Monthly Quiz 6"
+  },
+  {
+    "id": "go27_quiz_35",
+    "name": "GO Classes CS | Digital Logic | Boolean Algebra | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_36",
+    "name": "GO Classes CS | Digital Logic | Boolean Algebra | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_37",
+    "name": "GO Classes CS | Digital Logic | Boolean Algebra | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_38",
+    "name": "GO Classes CS | Digital Logic | Boolean Algebra | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_39",
+    "name": "GO Classes | Digital Logic | Boolean Algebra, Minimization, Number System | Weekly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_40",
+    "name": "GO Classes GATE CS | Digital Logic | Number System | Weekly Quiz 6"
+  },
+  {
+    "id": "go27_quiz_41",
+    "name": "GO Classes GATE CS | Digital Logic | Number System | Weekly Quiz 7"
+  },
+  {
+    "id": "go27_quiz_42",
+    "name": "GO Classes GATE CS | Digital Logic | Number System | Weekly Quiz 8"
+  },
+  {
+    "id": "go27_quiz_43",
+    "name": "GO Classes GATE CS | Digital Logic | Number System | Weekly Quiz 9"
+  },
+  {
+    "id": "go27_quiz_44",
+    "name": "GO Classes CS | Digital Logic | Multiplexer | Weekly Quiz 10"
+  },
+  {
+    "id": "go27_quiz_45",
+    "name": "GO Classes CS | Digital Logic | Combinational Circuits, Number System | Weekly Quiz 11"
+  },
+  {
+    "id": "go27_quiz_46",
+    "name": "GO Classes CS | Digital Logic | Combinational Circuits | Weekly Quiz 12"
+  },
+  {
+    "id": "go27_quiz_47",
+    "name": "GO Classes CS | Digital Logic | K-map | Weekly Quiz 13"
+  },
+  {
+    "id": "go27_quiz_48",
+    "name": "GO Classes CS | Digital Logic | K-map | Weekly Quiz 14"
+  },
+  {
+    "id": "go27_quiz_49",
+    "name": "GO Classes GATE CS | CO and Architecture | Addressing Modes | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_50",
+    "name": "GO Classes GATE CS | CO and Architecture | Instruction Set Architecture | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_51",
+    "name": "GO Classes CS | CO and Architecture | Cache Memory | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_52",
+    "name": "GO Classes CS | CO and Architecture | Cache Memory | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_53",
+    "name": "GO Classes CS | CO and Architecture | Cache Memory | Weekly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_54",
+    "name": "GO Classes CS | CO and Architecture | Cache Memory | Weekly Quiz 6"
+  },
+  {
+    "id": "go27_quiz_55",
+    "name": "GO Classes CS | CO and Architecture | Cache Memory | Weekly Quiz 7"
+  },
+  {
+    "id": "go27_quiz_56",
+    "name": "GO Classes GATE CS | CO and Architecture | Pipelining | Weekly Quiz 8"
+  },
+  {
+    "id": "go27_quiz_57",
+    "name": "GO Classes GATE CS | CO and Architecture | IO Interfacing | Weekly Quiz 9"
+  },
+  {
+    "id": "go27_quiz_58",
+    "name": "GO Classes CS | CO and Architecture | Floating Point Rep & Booth's Algo | Weekly Quiz 10"
+  },
+  {
+    "id": "go27_quiz_59",
+    "name": "GO Classes GATE CS | Theory of Computation | Finite Automata | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_60",
+    "name": "GO Classes GATE CS | Theory of Computation | Finite Automata and Regular Expression | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_61",
+    "name": "GO Classes GATE CS | Theory of Computation | Finite Automata and Regular Expression | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_62",
+    "name": "GO Classes GATE CS | Theory of Computation | Context Free Grammar | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_63",
+    "name": "GO Classes GATE CS | Theory of Computation | FA, CFL, DCFL | Weekly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_64",
+    "name": "GO Classes GATE CS | Theory of Computation | Decidability | Weekly Quiz 6"
+  },
+  {
+    "id": "go27_quiz_65",
+    "name": "GO Classes GATE CS | Theory of Computation | Decidability | Weekly Quiz 7"
+  },
+  {
+    "id": "go27_quiz_66",
+    "name": "GO Classes GATE CS | Theory of Computation | Identify Class Language | Weekly Quiz 8"
+  },
+  {
+    "id": "go27_quiz_67",
+    "name": "GO Classes GATE CS | Theory of Computation | Closure Properties | Weekly Quiz 9"
+  },
+  {
+    "id": "go27_quiz_68",
+    "name": "GO Classes GATE CS | Theory of Computation | Context Free Grammar | Weekly Quiz 10"
+  },
+  {
+    "id": "go27_quiz_69",
+    "name": "GO Classes GATE CS | Theory of Computation |  Countability | Weekly Quiz 11"
+  },
+  {
+    "id": "go27_quiz_70",
+    "name": "GO Classes GATE CS | Theory of Computation | Pumping Lemma | Weekly Quiz 12"
+  },
+  {
+    "id": "go27_quiz_71",
+    "name": "GO Classes CS | Compiler Design | Lexical Analysis | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_72",
+    "name": "GO Classes GATE CS | Compiler Design | Syntax Analysis and Top-Down Parser | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_73",
+    "name": "GO Classes GATE CS | Compiler Design | Bottom Up Parsing | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_74",
+    "name": "GO Classes GATE CS | Compiler Design | Syntax Directed Translation & SDD | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_75",
+    "name": "GO Classes GATE CS | Compiler Design | Intermediate Code Generation and Optimization | Weekly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_76",
+    "name": "GO Classes GATE CS | Operating System | Process Synchronization | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_77",
+    "name": "GO Classes GATE CS | Operating System | Multi Level Paging | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_78",
+    "name": "GO Classes GATE CS | Operating System | Deadlock | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_79",
+    "name": "GO Classes GATE CS | Operating System | File Systems | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_80",
+    "name": "GO Classes GATE CS | Operating System | Threads, System Calls & Fork | Weekly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_81",
+    "name": "GO Classes GATE CS | Computer Networks | Subnetting | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_82",
+    "name": "GO Classes GATE CS | Computer Networks | Subnetting | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_83",
+    "name": "GO Classes GATE CS | Computer Networks | Hamming Codes and CRC | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_84",
+    "name": "GO Classes GATE CS | Computer Networks | Flow control | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_85",
+    "name": "GO Classes GATE CS | Computer Networks | Network layer | Weekly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_86",
+    "name": "GO Classes GATE CS | Computer Networks | TCP Protocol | Weekly Quiz 6"
+  },
+  {
+    "id": "go27_quiz_87",
+    "name": "GO Classes GATE CS | Computer Networks | Complete Computer Networks | Weekly Quiz 7"
+  },
+  {
+    "id": "go27_quiz_88",
+    "name": "GO Classes GATE CS/DA | DBMS | Relational Model | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_89",
+    "name": "GO Classes GATE CS/DA | DBMS | Functional Dependency | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_90",
+    "name": "GO Classes GATE CS/DA | DBMS | Normalization, Relational Model | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_91",
+    "name": "GO Classes GATE CS/DA | DBMS | Normal Forms | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_92",
+    "name": "GO Classes GATE CS/DA | DBMS | Normalization | Weekly Quiz 5"
+  },
+  {
+    "id": "go27_quiz_93",
+    "name": "GO Classes GATE CS/DA | DBMS | Normalization | Weekly Quiz 6"
+  },
+  {
+    "id": "go27_quiz_94",
+    "name": "GO Classes GATE CS/DA | DBMS | Relational Algebra | Weekly Quiz 7"
+  },
+  {
+    "id": "go27_quiz_95",
+    "name": "GO Classes GATE CS/DA | DBMS | Relational Algebra | Weekly Quiz 8"
+  },
+  {
+    "id": "go27_quiz_96",
+    "name": "GO Classes GATE CS/DA | DBMS | SQL | Weekly Quiz 9"
+  },
+  {
+    "id": "go27_quiz_97",
+    "name": "GO Classes GATE CS/DA | DBMS | SQL | Weekly Quiz 10"
+  },
+  {
+    "id": "go27_quiz_98",
+    "name": "GO Classes GATE CS/DA | DBMS | SQL | Weekly Quiz 11"
+  },
+  {
+    "id": "go27_quiz_99",
+    "name": "GO Classes GATE CS | DBMS | Disk | Weekly Quiz 12"
+  },
+  {
+    "id": "go27_quiz_100",
+    "name": "GO Classes GATE CS/DA | DBMS | File Organization | Weekly Quiz 13"
+  },
+  {
+    "id": "go27_quiz_101",
+    "name": "GO Classes GATE CS/DA | DBMS | Indexing | Weekly Quiz 14"
+  },
+  {
+    "id": "go27_quiz_102",
+    "name": "GO Classes GATE CS/DA | DBMS | B Tree and B+ Tree | Weekly Quiz 15"
+  },
+  {
+    "id": "go27_quiz_103",
+    "name": "GO Classes GATE CS | DBMS | Transaction and Concurrency | Weekly Quiz 16"
+  },
+  {
+    "id": "go27_quiz_104",
+    "name": "GO Classes GATE CS/DA | DBMS | ER Model | Weekly Quiz 17"
+  },
+  {
+    "id": "go27_quiz_105",
+    "name": "GO Classes GATE CS | Propositional Logic | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_106",
+    "name": "GO Classes GATE CS | Propositional Logic | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_107",
+    "name": "GO Classes GATE CS | Propositional Logic | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_108",
+    "name": "GO Classes GATE CS | Propositional Logic | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_109",
+    "name": "GO Classes GATE CS/DA | Fundamental Course | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_110",
+    "name": "GO Classes GATE CS | First Order Logic | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_111",
+    "name": "GO Classes GATE CS | First Order Logic | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_112",
+    "name": "GO Classes GATE CS/DA | Linear Algebra | Weekly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_113",
+    "name": "GO Classes GATE CS/DA | Linear Algebra | Weekly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_114",
+    "name": "GO Classes GATE CS/DA | Linear Algebra | Weekly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_115",
+    "name": "GO Classes GATE CS/DA | Linear Algebra | Weekly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_116",
+    "name": "GOClasses CS/DA  | Aptitude | Monthly Quiz 1"
+  },
+  {
+    "id": "go27_quiz_117",
+    "name": "GOClasses CS/DA | Aptitude | Monthly Quiz 2"
+  },
+  {
+    "id": "go27_quiz_118",
+    "name": "GOClasses CS/DA | Aptitude | Monthly Quiz 3"
+  },
+  {
+    "id": "go27_quiz_119",
+    "name": "GOClasses CS/DA | Aptitude | Monthly Quiz 4"
+  },
+  {
+    "id": "go27_quiz_120",
+    "name": "GO Classes GATE CS | Proof Techniques | Weekly Quiz"
+  }
+]

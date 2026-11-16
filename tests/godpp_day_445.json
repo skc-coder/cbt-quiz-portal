@@ -1,0 +1,70 @@
+{
+  "name": "Day 308 [Digital Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "537100",
+          "text": "<p>How does a master-slave JK flip-flop help in avoiding race around condition?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>It removes the clock input completely<br>&nbsp;</li><li>It uses two latches controlled in opposite clock phases so that output changes only once per clock cycle<br>&nbsp;</li><li>It makes $\\mathrm{J}$ and $\\mathrm{K}$ always equal to $0$<br>&nbsp;</li><li>It converts the JK flip-flop into a decoder</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 308"
+        },
+        {
+          "post_id": "537095",
+          "text": "<p>Which statement correctly describes the difference between a level-sensitive D latch and an edge-triggered D flip-flop?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A level-sensitive latch responds throughout the active clock level, while an edge-triggered flip-flop responds only at the clock edge<br>&nbsp;</li><li>A level-sensitive latch responds only at the falling edge, while an edge-triggered flip-flop responds throughout the clock level<br>&nbsp;</li><li>Both respond continuously whenever clock is low<br>&nbsp;</li><li>Both ignore the clock signal</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 308"
+        },
+        {
+          "post_id": "537093",
+          "text": "<p>A flip-flop has active-low direct inputs $\\mathrm{Preset}_n$ and $\\mathrm{Clear}_n$. What will be the output when $\\mathrm{Preset}_n=1$ and $\\mathrm{Clear}_n=0$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{Q}=1$<br>&nbsp;</li><li>$\\mathrm{Q}=0$<br>&nbsp;</li><li>Output toggles<br>&nbsp;</li><li>Output depends only on clock</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 308"
+        },
+        {
+          "post_id": "537091",
+          "text": "<p>Which statement correctly describes preset and clear inputs in a flip-flop?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Preset forces the flip-flop to $0$, and clear forces the flip-flop to $1$<br>&nbsp;</li><li>Preset forces the flip-flop to $1$, and clear forces the flip-flop to $0$<br>&nbsp;</li><li>Preset and clear work only when clock is high<br>&nbsp;</li><li>Preset and clear are the same as normal data inputs</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 308"
+        },
+        {
+          "post_id": "537098",
+          "text": "<p>In a level-triggered JK flip-flop, race around condition occurs when:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{J}=0,\\mathrm{K}=0$ and clock pulse width is very small<br>&nbsp;</li><li>$\\mathrm{J}=1,\\mathrm{K}=1$ and clock pulse width is greater than propagation delay<br>&nbsp;</li><li>$\\mathrm{J}=1,\\mathrm{K}=0$ and the output is set<br>&nbsp;</li><li>$\\mathrm{J}=0,\\mathrm{K}=1$ and the output is reset</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Digital Logic",
+          "day": "Day 308"
+        }
+      ]
+    }
+  ]
+}

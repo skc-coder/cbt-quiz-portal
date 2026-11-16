@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 OS4: File Systems",
+  "duration": "54",
+  "total_qs": "20",
+  "total_qs_one": 10,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "270668",
+          "text": "The FAT approach is an optimization of which following approach?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Linked<br /> </li><li>  Indexed<br /> </li> <li> Contiguous<br /> </li>  <li> Multi-level Indexed  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270666",
+          "text": "Which approach has the worst support for reading/writing files with a random-access pattern?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Linked <br /> </li><li>  Indexed<br /> </li> <li> Contiguous<br /> </li>  <li> Multi-level Indexed  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270664",
+          "text": "Which allocation schemes suffer from internal fragmentation?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Linked but not Indexed<br /> </li><li>  Indexed but not Linked<br /> </li> <li> Both Linked and Indexed<br /> </li>  <li> None of the two.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270662",
+          "text": "Certain moving arm disk-storage device has following specifications:\nTrack storage capacity= $256$ Mbytes.\nDisk rotational speed= $6400$ rpm\nAverage seek time= $35$ m secs.\nThe average rotational latency in ms, of the disk can be given by ____",
+          "type": "Numerical",
+          "answer": "4.6875",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "gb2019-os4,numerical-answers",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270660",
+          "text": "<p>On receiving an interrupt from an I/O device the CPU:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Halts for a predetermined time</li>\n    <li>Branches off to the interrupt service routine after completion of the current instruction</li>\n    <li>Branches off to the interrupt service routine immediately</li>\n    <li>Hands over control of address bus and data bus to the interrupting device</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270657",
+          "text": "Using a smaller block size in a fixed block size file system leads to:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  better disk throughput but poorer disk space utilization<br /> </li><li>  better disk throughput and better disk space utilization<br /> </li> <li> poorer disk throughput but better disk space utilization<br /> </li>  <li> poorer disk throughput and poorer disk space utilization  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270655",
+          "text": "Which of the following disk scheduling strategies results in best throughput:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Elevator algorithm<br /> </li><li>  Farthest track next policy<br /> </li> <li> Nearest track next policy<br /> </li>  <li> First Come first serve policy  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270653",
+          "text": "Which of the following is not true:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Loop instructions can be interrupted anytime in their execution. <br /> </li><li>  A CPU checks for a new interrupt at the end of every instruction.<br /> </li> <li> Only edge triggered interrupts are possible on processor.<br /> </li>  <li> None of the above.  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270651",
+          "text": "<p>A single level page table is preferred instead of a multilevel page table for translating virtual address to physical address in cases where</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>size of pages is small enough.</li>\n    <li>size of page table is quite large.</li>\n    <li>the size of translation look-aside buffer is quite small.</li>\n    <li>number of pages is small enough.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270649",
+          "text": "Which of the following interrupts from various I/O devices has the lowest priority?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Interrupt from CPU temperature sensor (raises interrupt if CPU temperature is too high).<br /> </li><li>  Interrupt from DMA (raises interrupt when the memory read/write is finished).<br /> </li> <li> Interrupt from Keyboard(raises interrupt when a key is pressed or released).<br /> </li>  <li> Interrupt from Hard Disk(raises interrupt when a disk read is completed).  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270647",
+          "text": "Suppose a disk has $200$ cylinders, numbered from $0$ to $199$. At some time the disk arm is at cylinder $100$, and there is a queue of disk access requests for cylinders $10, 15, 20, 32, 87, 100, 102, 112, 138$ and $167$. If Shortest-Seek Time First (SSTF) is being used for scheduling the disk access, the request for cylinder $32$ is serviced after going through $X$ number of cylinders. The value of $X$ is ______",
+          "type": "Numerical",
+          "answer": "252",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-os4,numerical-answers",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270645",
+          "text": "<p>A FAT based file system is being used and the total overhead of each entry in the FAT is $8$ bytes in size. Given a $512$ MBytes disk on which the file system is stored and data block size is $512$ bytes, the maximum size of a file that can be stored on this disk in units in Mbytes is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$450$</li>\n    <li>$490$</li>\n    <li>$501$</li>\n    <li>$504$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270643",
+          "text": "An application loads $300$ libraries at startup. Loading each library requires on an average one and a half disk accesses. The seek time of the disk to a random location is given as $5$ ms. Rotational speed of disk is $12000$ rpm. If all $300$ libraries are loaded from random locations on the disk, on an average how long does it take to load all libraries if data transfer time can be ignored(in secs) _____",
+          "type": "Numerical",
+          "answer": "3.375",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-os4,numerical-answers",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270641",
+          "text": "<p>In a certain disk the overhead for formatting the disk is $256$ bytes for a $4096$ byte sector. Number of sectors per track is $32$. If the disk is rotating at $6000$ rpm the effective data transfer rate which is defined as the number of kilobytes transferred per second between disk and memory is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$8000$</li>\n    <li>$9000$</li>\n    <li>$10000$</li>\n    <li>$12000$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270639",
+          "text": "<p>A unix-style I-node has $6$ direct pointers and $5$ single and $2$ double indirect pointers. Disk block size is $4$&nbsp;Kbyte, disk block address is $32$ bits, and $48$-bit integers are used. What is the approximate maximum possible file size?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2$ GB</li>\n    <li>$4$ GB</li>\n    <li>$6$ GB</li>\n    <li>$8$ GB</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270637",
+          "text": "A disk with $4$ surfaces (all active simultaneously) rotates at $4800$RPM. There are $400$ Cylinders, $512$ sectors per track and $1024$ bytes per sector. The average data transfer rate in Mbits per second is ______",
+          "type": "Numerical",
+          "answer": "1280",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-os4,numerical-answers",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270635",
+          "text": "<p>Consider a disk pack with $64$ surfaces, $512$ tracks per surface and $256$ sectors per track.&nbsp; $512$ bytes of data are stored in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$256$&nbsp;Mbyte, $19$ bits</li>\n    <li>$2$ Gbyte, $28$ bits</li>\n    <li>$4$&nbsp;Gbyte, $23$ bits</li>\n    <li>$8$ Gbyte, $28$ bits</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270633",
+          "text": "<p>A file system has $128$&nbsp;GBytes of disk. The system uses a file descriptor with $8$ direct block addresses, $4$ indirect block address and $1$ doubly indirect block address while a block size is $256$ Bytes . If maximum possible size of file in this system is $290$&nbsp;KBytes &nbsp;what is the width of disk block address in this system?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$24$ bits</li>\n    <li>$32$ bits</li>\n    <li>$48$ bits</li>\n    <li>$64$ bits</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270631",
+          "text": "<p>Consider following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n    <li>Multiple devices may share a level-triggered interrupt line if they are designed to.</li>\n    <li>Multiple devices may share an edge-triggered interrupt line if they are designed to.</li>\n    <li>TRAP is a nonmaskable interrupt which can be both a level-triggered or an edge-triggered.</li>\n</ol>\n\n<p>Which of the above statements are correct:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>(i) and (iii) only</li>\n    <li>(ii) only</li>\n    <li>(ii) and (iii) only</li>\n    <li>(i), (ii) and (iii) only</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        },
+        {
+          "contents": "",
+          "post_id": "270629",
+          "text": "<p>A disk track has $8$ sectors of size $512$ Bytes. The disk is doubly interleaved with a rotation speed of&nbsp; $6000$ RPM. The effective data transfer rate in Kbytes is:</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$110$</li>\n    <li>$132$</li>\n    <li>$145$</li>\n    <li>$152$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-os4",
+          "category": "Operating System"
+        }
+      ]
+    }
+  ]
+}

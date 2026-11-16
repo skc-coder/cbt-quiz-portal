@@ -1,0 +1,70 @@
+{
+  "name": "Day 160 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "504041",
+          "text": "<p dir=\"ltr\"><strong>Consider a system with $\\mathbf{2}$ processes that share $\\mathbf{5}$ instances of the same resource type.</strong> Each process can request a maximum of $\\mathbf{k}$ instances. Resources can be requested and released only one at a time. The largest value of $\\mathbf{K}$ that will always avoid deadlock is $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 160"
+        },
+        {
+          "post_id": "504047",
+          "text": "<p>Disk requests come to disk driver for cylinders $\\mathbf{15, 80, 5, 25, 60,}$ and $\\mathbf{30}$ in that order at a time when the disk drive is reading from cylinder $\\mathbf{7 0}$. The seek time is $\\mathbf{5 msec}$ per cylinder. Assume the disk has $100$ cylinders ($0$ to $99$), and the head is currently moving towards $99$. Compute the total seek time (in msec) if the disk arm scheduling algorithm is <strong>SCAN (ELEVATOR).</strong></p>",
+          "type": "Numerical",
+          "answer": "615",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 160"
+        },
+        {
+          "post_id": "504042",
+          "text": "<p><strong>Consider a system where a single resource type has&nbsp;$\\mathbf{5}$ instances.</strong> Each process can request a maximum of $\\mathbf{4}$ <strong>instances.</strong> Resources can be requested and released only one at a time. The largest number of processes (N) that the system can support while always avoiding deadlock is $\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 160"
+        },
+        {
+          "post_id": "504053",
+          "text": "<p>Disk requests come to the disk driver for cylinders $\\mathbf{8 , 9 0 , 1 5 , 6 5 , 4 0}$, and $\\mathbf{7 5}$ in that order at a time when the disk drive is reading from cylinder $\\mathbf{5 5}$. The seek time is $\\mathbf{7 ~ m s e c}$ per cylinder. Assume the head is currently moving towards $\\mathbf{0}$ <strong>(INWARD).</strong> Compute the total seek time ( in msec) if the disk arm scheduling algorithm is<strong> LOOK.</strong></p>",
+          "type": "Numerical",
+          "answer": "903",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 160"
+        },
+        {
+          "post_id": "504055",
+          "text": "<p>A computer system supports a logical address space of $2^{36}$ bytes. It uses <strong>two-level hierarchical paging</strong> with a page size of $\\mathbf{8 1 9 2}$ <strong>bytes</strong>. A logical address is divided into a c-bit index to the <strong>outer page table</strong>, an offset within the page of the <strong>inner page table</strong>, and an offset within the desired page. Each entry of the <strong>inner page table</strong> uses <strong>four bytes</strong>. All the pages in the system have the same size.<br><br>The value of $\\mathbf{c}$ is $\\_\\_\\_\\_$ (Answer in integer).</p>",
+          "type": "Numerical",
+          "answer": "12",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 160"
+        }
+      ]
+    }
+  ]
+}

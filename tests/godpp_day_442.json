@@ -1,0 +1,70 @@
+{
+  "name": "Day 306 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "536645",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  void fun(int *p) {     *p = *p + 1;     p++;     *p = *p + 2; }  int main() {     int arr[] = {5, 10, 15};      fun(arr + 1);      printf(&quot;%d %d %d&quot;, arr[0], arr[1], arr[2]);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nvoid fun(int *p) {\n    *p = *p + 1;\n    p++;\n    *p = *p + 2;\n}\n\nint main() {\n    int arr[] = {5, 10, 15};\n\n    fun(arr + 1);\n\n    printf(\"%d %d %d\", arr[0], arr[1], arr[2]);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{5 10 15}$<br>&nbsp;</li><li>$\\texttt{5 11 15}$<br>&nbsp;</li><li>$\\texttt{5 11 17}$<br>&nbsp;</li><li>$\\texttt{6 12 15}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 306"
+        },
+        {
+          "post_id": "536641",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  void update(int a[]) {     a[0] = a[0] + a[2];     *(a + 1) = *(a + 1) + 5; }  int main() {     int arr[] = {2, 4, 6};      update(arr);      printf(&quot;%d %d %d&quot;, arr[0], arr[1], arr[2]);      return 0; }\" data-pbcklang=\"\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\n\nvoid update(int a[]) {\n    a[0] = a[0] + a[2];\n    *(a + 1) = *(a + 1) + 5;\n}\n\nint main() {\n    int arr[] = {2, 4, 6};\n\n    update(arr);\n\n    printf(\"%d %d %d\", arr[0], arr[1], arr[2]);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{2 4 6}$<br>&nbsp;</li><li>$\\texttt{8 9 6}$<br>&nbsp;</li><li>$\\texttt{8 4 6}$<br>&nbsp;</li><li>$\\texttt{2 9 6}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 306"
+        },
+        {
+          "post_id": "536626",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     char str[] = {'C', 'S', 'E', '\\0', 'X'};      printf(&quot;%s %c&quot;, str, str[4]);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    char str[] = {'C', 'S', 'E', '\\0', 'X'};\n\n    printf(\"%s %c\", str, str[4]);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{CSE X}$<br>&nbsp;</li><li>$\\texttt{CSEX X}$<br>&nbsp;</li><li>$\\texttt{CSE \\textbackslash0}$<br>&nbsp;</li><li>$\\texttt{Compilation error}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 306"
+        },
+        {
+          "post_id": "536638",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  void change(char *p) {     p[1] = 'X';     *(p + 3) = '\\0'; }  int main() {     char str[] = &quot;GATE&quot;;      change(str);      printf(&quot;%s&quot;, str);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nvoid change(char *p) {\n    p[1] = 'X';\n    *(p + 3) = '\\0';\n}\n\nint main() {\n    char str[] = \"GATE\";\n\n    change(str);\n\n    printf(\"%s\", str);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{GATE}$<br>&nbsp;</li><li>$\\texttt{GXTE}$<br>&nbsp;</li><li>$\\texttt{GXT}$<br>&nbsp;</li><li>$\\texttt{GX}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 306"
+        },
+        {
+          "post_id": "536631",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     char str[] = &quot;HELLO&quot;;     char *p = str + 1;      *(p + 2) = 'A';      printf(&quot;%s %c&quot;, str, *p);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    char str[] = \"HELLO\";\n    char *p = str + 1;\n\n    *(p + 2) = 'A';\n\n    printf(\"%s %c\", str, *p);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{HELLO E}$<br>&nbsp;</li><li>$\\texttt{HELAO E}$<br>&nbsp;</li><li>$\\texttt{HALLO A}$<br>&nbsp;</li><li>$\\texttt{HELAO A}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 306"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 70 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "483263",
+          "text": "A PC-relative mode branch instruction is stored in memory at address $620_{10}$ The size of the instruction is $2$ bytes. The branch is made to location $530_{10}$ and the address field in the instruction is $16$ bits long.<br>\n<br>\nThe value of displacement (in decimal) in the instruction is ____________",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 70"
+        },
+        {
+          "post_id": "483265",
+          "text": "<p>A two-way set-associative cache has a line size of $16$ bytes and a total capacity of $8$ KB . The main memory is $64$ MB and byte-addressable. What is the format of a main memory address (Tag, Set Index, Block Offset)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$13$ bits Tag, $9$ bits Set, $4$ bits Offset<br>&nbsp;</li><li>$14$ bits Tag, $8$ bits Set, $4$ bits Offset<br>&nbsp;</li><li>$13$ bits Tag, $8$ bits Set, $4$ bits Offset<br>&nbsp;</li><li>$14$ bits Tag, $9$ bits Set, $4$ bits Offset</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 70"
+        },
+        {
+          "post_id": "483260",
+          "text": "<p>A computer system has a main memory of $32$ K $16$-bit words and a cache of $4$ K words, organised into four-word lines with $64$ words per line. The cache is initially empty. A processor fetches words from memory locations $0,1,2, \\ldots$, $4351$ in order, and then repeats this sequence $9$ more times. The cache is $10$ times faster than main memory. Assume an LRU block replacement policy.</p><p>What is the approximate performance improvement due to the cache?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>&nbsp;$4 x$<br>&nbsp;</li><li>$6 x$<br>&nbsp;</li><li>$7 x$<br>&nbsp;</li><li>$10 x$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 70"
+        },
+        {
+          "post_id": "483258",
+          "text": "Consider a processor that includes a base with an indexing addressing mode. Suppose an instruction is encountered that employs this addressing mode and specifies a displacement of $1970$, in decimal. Currently the base and index registers contain the decimal numbers $48022$ and $8$, respectively.<br>\n<br>\nThe address of the operand (in decimal) is ____________.",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 70"
+        },
+        {
+          "post_id": "483256",
+          "text": "<p>A program iterates over a one-dimensional array of $1024$ integers stored in memory. Each integer occupies $4$ bytes. The system has a direct-mapped L1 cache with the following characteristics:</p><ul><li>Cache size $=256$ bytes<br>&nbsp;</li><li>Block size $=16$ bytes<br>&nbsp;</li><li>Cache miss penalty $=50 \\mathrm{~ns}$<br>&nbsp;</li><li>Cache hit time $=2 \\mathrm{~ns}$</li></ul><p>Consider the following program:<br><br>For(i=0 to length(array)-1 )<br>{<br><br>&nbsp; &nbsp; &nbsp; &nbsp; Print(array[i])<br><br>}<br><br>What is the affective memory access time of the cache approximately (in $\\mu \\mathrm{s}$ ) for this loop?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$14.5$<br>&nbsp;</li><li>$19.37$<br>&nbsp;</li><li>$0.0145$<br>&nbsp;</li><li>$15$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 70"
+        }
+      ]
+    }
+  ]
+}

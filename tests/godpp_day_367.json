@@ -1,0 +1,30 @@
+{
+  "name": "Day 269 [Discrete Mathematics]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "531538",
+          "text": "<p data-start=\"1706\" data-end=\"1804\">Let $f:\\mathbb{Z}\\times\\mathbb{Z}\\to\\mathbb{Z}$. Consider the following functions:</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li data-start=\"1806\" data-end=\"1823\">$f(m,n)=4m+8n$<br>&nbsp;</li><li data-start=\"1825\" data-end=\"1841\">$f(m,n)=m-n$<br>&nbsp;</li><li data-start=\"1843\" data-end=\"1864\">$f(m,n)=m^2-n^2$<br>&nbsp;</li><li data-start=\"1866\" data-end=\"1888\">$f(m,n)=2m^2+2n+1$<br>&nbsp;</li></ol><p data-start=\"1890\" data-end=\"1936\">Which one of the following options is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1938\" data-end=\"2048\">Only II is onto.<br>&nbsp;</li><li data-start=\"1938\" data-end=\"2048\">Only III is onto.<br>&nbsp;</li><li data-start=\"1938\" data-end=\"2048\">Only II and III are onto.<br>&nbsp;</li><li data-start=\"1938\" data-end=\"2048\">I, II, III and IV are all onto.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Discrete Mathematics",
+          "day": "Day 269"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 1 [Combinatory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "470752",
+          "text": "In a school annual day function a variety programme was organised. It was planned that there would be $3$ short plays, $6$ recitals and $4$ dance programmes. However, the chief guest invited for the function took much longer time than expected to finish his speech. To finish in time, it was decided that only $2$ short plays,$4$ recitals and $3$ dance programmes would be performed. How many choices were available to them if the programmes of the same kind were performed at a stretch (the order of performance of the programmes of the same kind doesn't matter) ??",
+          "type": "Numerical",
+          "answer": "1080",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 1"
+        },
+        {
+          "post_id": "470756",
+          "text": "<p>The total number of ways in which $5$ balls of different colours can be distributed among $3$ persons so that each person gets at least one ball is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$75$</li><li>$150$</li><li>$210$</li><li>$243$</li></ol>",
+          "type": "Numerical",
+          "answer": "150",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 1"
+        },
+        {
+          "post_id": "470758",
+          "text": "Let $n$ be the number of ways in which $5$ boys and $5$ girls can stand in a queue in such a way that all the girls stand consecutively in the queue. Let $m$ be the number of ways in which $5$ boys and $5$ girls can stand in a queue in such a way that exactly four girls stand consecutively in the queue. Then the value of $\\frac{m}{n}$ is",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 1"
+        },
+        {
+          "post_id": "470749",
+          "text": "In a school annual day function a variety programme was organised. It was planned that there would be $3$ short plays, $6$ recitals and $4$ dance programmes. However, the chief guest invited for the function took much longer time than expected to finish his speech. To finish in time, it was decided that only $2$ short plays, $4$ recitals and $3$ dance programmes would be performed. How many choices were available to them if the programmes can be performed in any order?",
+          "type": "Numerical",
+          "answer": "65318400",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 1"
+        },
+        {
+          "post_id": "470754",
+          "text": "In a school annual day function a variety programme was organised. It was planned that there would be $3$ short plays, $6$ recitals and $4$ dance programmes. However, the chief guest invited for the function took much longer time than expected to finish his speech. To finish in time, it was decided that only $2$ short plays, $4$ recitals and $3$ dance programmes would be performed. How many choices were available to them if the programmes of the same kind were performed at a stretch (the order of performance of the programmes of the same kind also matters) ??",
+          "type": "Numerical",
+          "answer": "311040",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Combinatory",
+          "day": "Day 1"
+        }
+      ]
+    }
+  ]
+}

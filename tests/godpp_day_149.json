@@ -1,0 +1,70 @@
+{
+  "name": "Day 146 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "500702",
+          "text": "<p>A disk pack has the following specifications:</p><ul><li>$8$ platters ( $16$ recording surfaces)<br>&nbsp;</li><li>$256$ cylinders<br>&nbsp;</li><li>$128$ sectors per track<br>&nbsp;</li><li>$1$ KB per sector ($1024$ bytes)</li></ul><p>Calculate:<br>(a) The total capacity of the disk in GB.<br>(b) The number of bits required to uniquely address any sector.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.5 \\mathrm{~GB}, 19$ bits<br>&nbsp;</li><li>$1 \\mathrm{~GB}, 20$ bits<br>&nbsp;</li><li>$2 \\mathrm{~GB}, 21$ bits<br>&nbsp;</li><li>$4 \\mathrm{~GB}, 22$ bits</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 146"
+        },
+        {
+          "post_id": "500700",
+          "text": "<p>A cloud storage company uses a custom disk array where each disk module has:</p><ul><li>$10$ double-sided platters</li><li>$5000$ tracks per surface</li><li>Average $400$ sectors per track</li><li>Sector size $=4096$ bytes</li></ul><p>To optimize addressing in their distributed file system, they need to assign a unique binary ID to each sector within a single disk module.</p><p>What is the total storage per disk module in TB, and how many bits are needed for the sector address?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$160 \\mathrm{~TB}, 30$ bits<br>&nbsp;</li><li>$1.6 \\mathrm{~TB}, 29$ bits<br>&nbsp;</li><li>$16 \\mathrm{~TB}, 28$ bits<br>&nbsp;</li><li>$0.16 \\mathrm{~TB}, 27$ bits</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 146"
+        },
+        {
+          "post_id": "500697",
+          "text": "<p>A Unix-style i-node has the following pointers:</p><ul><li>$12$ direct pointers</li><li>$1$ single indirect pointer</li><li>$1$ double indirect pointer</li><li>$1$ triple indirect pointer</li></ul><p>The disk block size is $2^{14}$ bytes ($16384$ bytes).<br><br>A disk block address is $64$ bits ($8$ bytes).<br><br>File offsets and file sizes use $64$-bit integers.</p><p>What is the maximum possible file size in bytes?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2^{46}$ bytes<br>&nbsp;</li><li>$2^{47}$ bytes<br>&nbsp;</li><li>$2^{48}$ bytes<br>&nbsp;</li><li>$2^{50}$ bytes</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 146"
+        },
+        {
+          "post_id": "500695",
+          "text": "<p>In a system, there are three resource types: $X, Y$, and $Z$.<br><br>Four processes $P_0, P_1, P_2, P_3$ run concurrently.<br><br>The Max matrix indicates the maximum demand of each resource type by each process.<br><br>The Allocation matrix shows the number of instances of each resource currently allocated to each process.</p><p>\\[<br>\\begin{array}{c|ccc|ccc}<br>&nbsp;& \\textbf{Allocation} & & & \\textbf{Max} & & \\\\<br>&nbsp;& X & Y & Z & X & Y & Z \\\\<br>\\hline<br>P_0 & 1 & 0 & 1 & 2 & 1 & 1 \\\\<br>P_1 & 1 & 1 & 0 & 1 & 2 & 2 \\\\<br>P_2 & 1 & 0 & 2 & 2 & 1 & 3 \\\\<br>P_3 & 0 & 1 & 1 & 1 & 1 & 2 \\\\<br>\\end{array}<br>\\]</p><p>Available resources $=\\left(\\begin{array}{lll}1 & 1 & 1\\end{array}\\right)$ [1 instance of $\\mathrm{X}, 1$ of $\\mathrm{Y}, 1$ of Z available]<br><br>From the perspective of deadlock avoidance, which one of the following is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The system is in a safe state.<br>&nbsp;</li><li>The system is not safe, but would be safe if one more instance of $X$ were available.<br>&nbsp;</li><li>The system is not safe, but would be safe if one more instance of $Y$ were available.<br>&nbsp;</li><li>The system is not safe, but would be safe if one more instance of $Z$ were available.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 146"
+        },
+        {
+          "post_id": "500692",
+          "text": "A system has $4$ processes that share $10$ instances of a single resource type. Each process can request a maximum of $M$ instances of the resource. Resources are requested and released one at a time.<br>\n<br>\nWhat is the largest value of $M$ that guarantees the system is deadlock-free?",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 146"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 217 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524744",
+          "text": "<p>Two restaurants display the following signs:</p><p>Restaurant 1<strong>:</strong> \"Good food is not cheap.\"</p><p>Restaurant 2<strong>:</strong> \"Cheap food is not good.\"</p><p>$g=$ \"The food is good\" and $c=$ \"The food is cheap.\"</p><p>Which of the following correctly analyzes whether the two restaurants are saying the same thing?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Yes - both statements are logically equivalent as they are contrapositives of each other</li><li>No - Restaurant 1 says $g \\rightarrow \\neg c$ while Restaurant 2 says $c \\rightarrow \\neg g$, which are converses and not equivalent</li><li>Yes - both statements simplify to $\\neg(g \\wedge c)$, meaning food cannot be both good and cheap simultaneously</li><li>No - Restaurant 1 makes a claim about good food while Restaurant 2 makes a claim about cheap food, so they have different logical subjects</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 217"
+        },
+        {
+          "post_id": "524737",
+          "text": "<p>There are two troll tribes - Glums (always tell truth) and Plogs (always lie). You meet two trolls, Kim and Coin:</p><p>Kim says: \"We are from different clans.\"<br>Coin says: \"Kim is a liar.\"</p><p>Which of the following correctly identifies the tribes of Kim and Coin?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Kim is a Glum, Coin is a Glum</li><li>Kim is a Glum, Coin is a Plog</li><li>Kim is a Plog, Coin is a Glum</li><li>Kim is a Plog, Coin is a Plog</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 217"
+        },
+        {
+          "post_id": "524735",
+          "text": "<p>A tennis magazine advertisement states:<br>\"IfI'm not playing tennis, I'm watching tennis. And if I'm not watching tennis, I'm reading about tennis.\"</p><p>The speaker can only do one activity at a time (mutually exclusive).<br>Let $p=$ \"playing tennis\", $w=$ \"watching tennis\", $r=$ \"reading about tennis.\"</p><p>What is the speaker doing?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Playing tennis</li><li>Watching tennis</li><li>Reading about tennis</li><li>Cannot be determined</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 217"
+        },
+        {
+          "post_id": "524731",
+          "text": "<p>$p=$ \"It is raining\", $q=$ \"I have a headache\", $r=$ \"I attend the lecture\"</p><p>The statement $S$ : \"If it is not raining and I do not have a headache, then I attend the lecture\" translates to:</p><p>$$<br>S:(\\neg p \\wedge \\neg q) \\rightarrow r<br>$$</p><p>Which of the following is the correct converse of $S$ in English?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If I do not attend the lecture, then it is not raining and I do not have a headache</li><li>If I attend the lecture, then it is not raining and I do not have a headache</li><li>If it is raining or I have a headache, then I do not attend the lecture</li><li>If I attend the lecture, then it is raining or I have a headache</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 217"
+        },
+        {
+          "post_id": "524729",
+          "text": "<p>p = \"It is raining\"</p><p>q = \"I have a headache\"</p><p>r = \"I attend the lecture\"</p><p>The statement $S$ : \"If it is not raining and I do not have a headache, then I attend the lecture\" translates to:</p><p>$$<br>S:(\\neg p \\wedge \\neg q) \\rightarrow r<br>$$</p><p>Which of the following is the correct negation of&nbsp; $S$ in English?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If it is not raining and I do not have a headache, then I do not attend the lecture</li><li>It is not raining and I do not have a headache, but I do not attend the lecture</li><li>It is raining or I have a headache, or I attend the lecture</li><li>If it is raining or I have a headache, then I do not attend the lecture</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 217"
+        }
+      ]
+    }
+  ]
+}

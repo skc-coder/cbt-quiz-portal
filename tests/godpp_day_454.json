@@ -1,0 +1,70 @@
+{
+  "name": "Day 312 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "538218",
+          "text": "<p>Assume:</p><p>$\\texttt{short = 2 bytes}$, $\\texttt{int = 4 bytes}$, $\\texttt{char = 1 byte}$</p><p>$\\texttt{int}$ needs $4$-byte alignment and the final structure size is rounded to a multiple of $4$.</p><p>Find the size of each structure in order: $\\texttt{struct X}$, $\\texttt{struct Y}$, and $\\texttt{struct Z}$.</p><pre dir=\"ltr\" data-rawcode=\"struct X {     short s;     int i;     char c; };  struct Y {     int i;     char c;     short s; };  struct Z {     int i;     short s;     char c; };\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">struct X {\n    short s;\n    int i;\n    char c;\n};\n\nstruct Y {\n    int i;\n    char c;\n    short s;\n};\n\nstruct Z {\n    int i;\n    short s;\n    char c;\n};</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{7 7 7}$<br>&nbsp;</li><li>$\\texttt{8 8 8}$<br>&nbsp;</li><li>$\\texttt{12 8 8}$<br>&nbsp;</li><li>$\\texttt{12 12 8}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 312"
+        },
+        {
+          "post_id": "538216",
+          "text": "<p>Assume:</p><pre dir=\"ltr\" data-rawcode=\"struct Student {     double gpa; };  struct Student alice; struct Student *sptr = &alice;\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">struct Student {\n    double gpa;\n};\n\nstruct Student alice;\nstruct Student *sptr = &alice;</pre><p>Which of the following correctly assigns $\\texttt{4.0}$ to $\\texttt{alice.gpa}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{*sptr.gpa = 4.0;}$<br>&nbsp;</li><li>$\\texttt{(*sptr).gpa = 4.0;}$<br>&nbsp;</li><li>$\\texttt{sptr-&gt;gpa = 4.0;}$<br>&nbsp;</li><li>$\\texttt{sptr.gpa = 4.0;}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 312"
+        },
+        {
+          "post_id": "538214",
+          "text": "<p>Consider the following code idea from the source:</p><pre dir=\"ltr\" data-rawcode=\"typedef struct {     double x, y; } Point;  void reset(Point p) {     p.x = p.y = 0; }  int main() {     Point a = {12.0, 42.0};     Point b = a;      reset(a);     b.x = 0;      printf(&quot;a: %.0f,%.0f\\n&quot;, a.x, a.y);     printf(&quot;b: %.0f,%.0f\\n&quot;, b.x, b.y); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">typedef struct {\n    double x, y;\n} Point;\n\nvoid reset(Point p) {\n    p.x = p.y = 0;\n}\n\nint main() {\n    Point a = {12.0, 42.0};\n    Point b = a;\n\n    reset(a);\n    b.x = 0;\n\n    printf(\"a: %.0f,%.0f\\n\", a.x, a.y);\n    printf(\"b: %.0f,%.0f\\n\", b.x, b.y);\n}</pre><p>What is the output?</p><p>A.</p><pre dir=\"ltr\"><code dir=\"ltr\">a: 0,0\nb: 0,42</code></pre><p>B.</p><pre dir=\"ltr\"><code dir=\"ltr\">a: 12,42\nb: 0,42</code></pre><p>C.</p><pre dir=\"ltr\"><code dir=\"ltr\">a: 12,42\nb: 12,42</code></pre><p>D.</p><pre dir=\"ltr\"><code dir=\"ltr\">a: 0,42\nb: 0,42</code></pre>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 312"
+        },
+        {
+          "post_id": "538212",
+          "text": "<p>What is printed by the following program?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Student {     int id, year;     char grade; };  int main() {     struct Student s;      s.id = 10001;     s.year = 2010;     s.grade = 'B';      printf(&quot;%d %d %c\\n&quot;, s.id, s.year, s.grade); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Student {\n    int id, year;\n    char grade;\n};\n\nint main() {\n    struct Student s;\n\n    s.id = 10001;\n    s.year = 2010;\n    s.grade = 'B';\n\n    printf(\"%d %d %c\\n\", s.id, s.year, s.grade);\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{10001 2010 B}$<br>&nbsp;</li><li>$\\texttt{2010 10001 B}$<br>&nbsp;</li><li>$\\texttt{10001 B 2010}$<br>&nbsp;</li><li>Compilation error</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 312"
+        },
+        {
+          "post_id": "538210",
+          "text": "<p>Which option correctly completes the given exercise?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  /* define the person struct here using the typedef syntax */  int main() {     person john;      john.name = &quot;John&quot;;     john.age = 27;      printf(&quot;%s is %d years old.&quot;, john.name, john.age); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\n/* define the person struct here using the typedef syntax */\n\nint main() {\n    person john;\n\n    john.name = \"John\";\n    john.age = 27;\n\n    printf(\"%s is %d years old.\", john.name, john.age);\n}</pre><p>A.</p><pre dir=\"ltr\" data-rawcode=\"struct person {    char *name;    int age; };\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">struct person {\n   char *name;\n   int age;\n};</pre><p>B.</p><pre dir=\"ltr\" data-rawcode=\"typedef struct { char *name; int age; } person;\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">typedef struct {\n   char *name;\n   int age;\n} person;</pre><p>C.</p><pre dir=\"ltr\" data-rawcode=\"typedef struct person {    char name;    int age; };\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">typedef struct person {\n   char name;\n   int age;\n};</pre><p>D.</p><pre dir=\"ltr\" data-rawcode=\"struct {     char *name;     int age; } person;\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">struct {\n    char *name;\n    int age;\n} person;</pre>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming in C",
+          "day": "Day 312"
+        }
+      ]
+    }
+  ]
+}

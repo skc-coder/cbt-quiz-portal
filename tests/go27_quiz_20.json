@@ -1,0 +1,189 @@
+{
+  "id": "go27_quiz_20",
+  "name": "GO Classes CS | Discrete Mathematics | Graph Theory | Weekly Quiz 19",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "531285",
+          "text": "<p>Consider the following two graphs $G$ (on left), $H$(on right):</p><p style=\"text-align:center\"><img alt=\"\" width=\"550\" height=\"258\" src=\"data:image/png;base64,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\"></p><p><br>Which of the following statements is/are true for $G$, $H$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>The above two graphs have the same number of vertices.<br> </li><li>The above two graphs have the same number of edges.<br> </li><li>The above two graphs have the same degree sequences.<br> </li><li>The above two graphs are isomorphic.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,goclasses,discrete-mathematics,graph-theory,multiple-selects,two-marks",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531289",
+          "text": "What is the maximum number of vertices on a graph that has $35$ edges and every vertex has degree $\\geq 3$ ?",
+          "type": "Numerical",
+          "answer": "23",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,numerical-answers,goclasses,discrete-mathematics,graph-theory,one-mark",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531271",
+          "text": "<p>Which of the following statements is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If two graphs have the same number of vertices and the same number of cycles of each order, then they are isomorphic.</li><li>Two isomorphic graphs must have the same number of edges and vertices.</li><li>Two isomorphic graphs always look exactly the same.</li><li>Isomorphism is an equivalence relation on all graphs.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,goclasses,discrete-mathematics,graph-theory,multiple-selects,two-marks",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531273",
+          "text": "If a simple graph $G$ has $15$ edges and all vertices of the same degree d , find what are the possible values of d. How many different values are possible for d ?",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,numerical-answers,goclasses,discrete-mathematics,graph-theory,two-marks",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531295",
+          "text": "If a graph $G$ has $10$ vertices, what is the max number of triangles in $G$ ?",
+          "type": "Numerical",
+          "answer": "120",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,numerical-answers,goclasses,discrete-mathematics,graph-theory,one-mark",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531281",
+          "text": "A graph has $26$ vertices and $58$ edges. There are five vertices of degree $4$ , six vertices of degree $5$ , and seven vertices of degree $6$ . If the remaining vertices all have the same degree, what is this degree?",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,numerical-answers,goclasses,discrete-mathematics,graph-theory,two-marks",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531287",
+          "text": "How many non-isomorphic graphs are there with $3$ vertices?",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,numerical-answers,goclasses,discrete-mathematics,graph-theory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "531268",
+          "text": "<p>Which of the following statements is/are false?</p><ol style=\"list-style-type:upper-alpha\"><li>The degree sequence of two isomorphic graphs must be the same.<br> </li><li>$K_{3,2}$ is isomorphic to $C_{5}$.<br> </li><li>$K_{4,2}$ is isomorphic to $K_{2,4}$.<br> </li><li>If $G$ contains no cycles, all graphs isomorphic to $G$ also have no cycles.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,goclasses,discrete-mathematics,graph-theory,multiple-selects,two-marks",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531266",
+          "text": "Let $G$ be the graph with vertices labelled by $\\{1,2,3, \\ldots, 7\\}$, two distinct vertices $i$ and $j$ are adjacent if $|i-j|$ is even. How many connected components does $G$ have?",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,numerical-answers,goclasses,discrete-mathematics,graph-theory,two-marks",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531277",
+          "text": "If $G$ is a graph with $20$ vertices and $20$ edges with no vertices of degree $0$ or $1$ , then the degree of every vertex is ?",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,numerical-answers,goclasses,discrete-mathematics,graph-theory,two-marks",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531283",
+          "text": "<p>Which of the following graphs cannot exist ? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>A graph with an isolated vertex and a universal vertex. (Note: A universal vertex is a vertex of an undirected graph that is adjacent to all other vertices of the graph.)<br> </li><li>A cubic graph of order 5. (Note: A cubic graph is a graph in which all vertices have degree three.)<br> </li><li>A bipartite graph of order 5 and size 7.<br> </li><li>A bipartite graph of order 8 and size 10.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,goclasses,discrete-mathematics,graph-theory,multiple-selects,two-marks",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531275",
+          "text": "<p>Which of the following graphs cannot exist ? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>All vertices of the graph have different degrees.<br> </li><li>A graph where the degree of each vertex is even.<br> </li><li>Each person, in a group of 15 individuals, has exactly three friends. (Assume that friendship is a symmetric relation, i.e. friendship goes both ways.)<br> </li><li>A simple graph with four vertices and degree sequence (1, 2, 3, 4)</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,goclasses,discrete-mathematics,graph-theory,multiple-selects,two-marks",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "531291",
+          "text": "If a graph has five vertices of degree $4$ and four vertices of degree $3$, how many edges does it have?",
+          "type": "Numerical",
+          "answer": "16",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,numerical-answers,goclasses,discrete-mathematics,graph-theory,one-mark",
+          "category": "Discrete Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "531279",
+          "text": "<p>The complement of a graph, $G$, of order $n$, denoted $\\bar{G}$, has the same vertex set as $G$ with $E(\\bar{G})=E\\left(K_{n}\\right)-E(G)$. If every vertex of $G$ has an odd degree, except for one, how many vertices have odd degree in $\\bar{G}$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$n$</li><li>1</li><li>$n-1$</li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq66,goclasses,discrete-mathematics,graph-theory,two-marks",
+          "category": "Graph Theory"
+        },
+        {
+          "contents": "",
+          "post_id": "531293",
+          "text": "A graph has seven vertices: two vertices of degree $6$ , four vertices of degree $5$ , and one vertex of degree $2$. The number of edges in the graph is?",
+          "type": "Numerical",
+          "answer": "17",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq66,numerical-answers,goclasses,discrete-mathematics,graph-theory,one-mark",
+          "category": "Graph Theory"
+        }
+      ]
+    }
+  ]
+}

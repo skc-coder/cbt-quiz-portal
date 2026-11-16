@@ -1,0 +1,352 @@
+{
+  "name": "GATE Overflow Test Series | Verbal Aptitude | Shallow Test 1",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 30,
+  "technical_num_qs": 0,
+  "apti_marks": 50,
+  "technical_marks": 0,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Aptitude",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "429671",
+          "text": "Choose the most appropriate alternative from the options given below to complete the sentence:<br /><br />The charity organization focuses on ________ hunger in impoverished communities.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> addressing</li><li> ignoring</li> <li>exacerbating</li>  <li>advocating</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-verbal-aptitude-shallow-1,most-appropriate-word,normal,one-mark",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429649",
+          "text": "From among the given sentences, pick the grammatically correct one:<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> Blowing out the candles, she made a wish.</li><li> The test results showed that she scored more higher than her classmates.</li> <li>His actions in the game were more skillful then his opponents.</li>  <li>Running quickly, he reached the finish line ahead of the other competitors.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-verbal-aptitude-shallow-1,english-grammar,normal,multiple-selects,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429665",
+          "text": "Which of the following cannot be logically inferred from the given passage?<br /><br />Recent studies have shown that regular exercise can improve cardiovascular health and reduce the risk of chronic diseases such as diabetes and hypertension. <br />Eating a balanced diet rich in fruits, vegetables, and lean proteins is also essential for maintaining overall health. Additionally, adequate sleep and stress management techniques play a crucial role in promoting well-being.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> Regular exercise can decrease the risk of chronic diseases.</li><li> Consuming a balanced diet can improve cardiovascular health.</li> <li>Sleep has no impact on overall health.</li>  <li>Stress management techniques are ineffective in promoting well-being.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,passage-reading,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429633",
+          "text": "<ol style=\"list-style-type:upper-roman\"><li> All lions are carnivores.</li><li> Some animals are carnivores.</li> <li>All animals are lions.</li>  </ol><br />If statements (I) and (II) are TRUE, then (III) will be:<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> Insufficient data</li><li> True</li> <li>Not applicable</li>  <li>False</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,logical-reasoning,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429643",
+          "text": "From among the given sentences, pick the grammatically correct one.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> He suggested me to try it.</li><li> They were happy on hearing the news.</li> <li>We discussed about the plan.</li>  <li>She avoids to eat sweets.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,english-grammar,prepositions,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429667",
+          "text": "A rapidly $\\underline{river}$ had carved its way through the ancient $\\underline{valley}$. The underlined words are ________. <br />                       <br /><ol style=\"list-style-type:upper-alpha\"><li> prepositions</li><li> pronouns</li> <li>conjunctions</li>  <li>nouns</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-verbal-aptitude-shallow-1,easy,one-mark",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429637",
+          "text": "Fact: All birds can fly.<br /><br />Which of the following is a logically valid conclusion based on the above statement?<br /><br /><ol style=\"list-style-type:upper-roman\"><li> It is a bird.</li><li> It cannot fly.</li> <li>It can fly.</li>  <li>It is not a bird.</li></ol><br /><br /><ol style=\"list-style-type:upper-alpha\"><li> If (I), then (III).</li><li> If (III), then (I).</li> <li>If (II), then (IV).</li>  <li>If (IV), then (II).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-verbal-aptitude-shallow-1,logical-reasoning,multiple-selects,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429651",
+          "text": "Fill in the blank with the most appropriate word:<br />After years of collaboration, he finally decided to ____ with his business partner.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> dissolve ties</li><li> end collaboration</li> <li>terminate the partnership</li>  <li>conclude the association</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,phrasal-verb,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429683",
+          "text": "<p>___________________ he not called you in advance, you would have been late.<br> </p><ol style=\"list-style-type:upper-alpha\"><li>If</li><li>Were</li><li>Had</li><li>Could</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-verbal-aptitude-shallow-1,easy,one-mark",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429659",
+          "text": "Choose from the options the word most similar in meaning to the given one:<br />Ebullient<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> exuberant</li><li> restrained</li> <li>cavernous</li>  <li>ebbed</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,word-meaning,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429645",
+          "text": "From among the given sentences, pick the grammatically INCORRECT one:<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> She suggested to visit the museum.</li><li> They arrived at the station early.</li> <li>We enjoyed the concert thoroughly.</li>  <li>He can speak three languages fluently.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,english-grammar,prepositions,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429681",
+          "text": "The teacher does not agree ______ the proposal put forward by the students.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> with</li><li> in</li> <li>to</li>  <li>by</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-verbal-aptitude-shallow-1,easy,one-mark",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429675",
+          "text": "Choose from the options the word most similar in meaning to the given one:<br />Convincing<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> persuasive</li><li> uncertain</li> <li>ambiguous</li>  <li>hesitant</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-verbal-aptitude-shallow-1,word-meaning,easy,one-mark",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429653",
+          "text": "<p data-start=\"74\" data-end=\"163\"><strong data-start=\"74\" data-end=\"163\">Choose the best alternative to replace the underlined part in the following sentence:</strong></p><p data-start=\"165\" data-end=\"233\"><em data-start=\"165\" data-end=\"179\">The sunlight</em> $\\underline{\\text{streamed through}}$ <em data-start=\"218\" data-end=\"233\">the curtains.</em></p><ol style=\"list-style-type:upper-alpha\"><li>filtering into</li><li>bouncing off</li><li>melting onto</li><li>shining through</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,phrasal-verb,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429641",
+          "text": "From among the given sentences, pick the grammatically INCORRECT one:<br />   <br /><ol style=\"list-style-type:upper-alpha\"><li> She is good at playing piano.</li><li> He is interested in learning Spanish.</li> <li>I look forward to meet you.</li>  <li>They decided to stay at home.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,english-grammar,prepositions,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429669",
+          "text": "When he started his business, he was hardly the ________entrepreneur he later proved to be, as he had strong support from experienced mentors.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> fledgling</li><li> audacious</li> <li>amateurish</li>  <li>hesitant</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-verbal-aptitude-shallow-1,normal,one-mark",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429635",
+          "text": "The employee ____to the day when he could leave his current job.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> had envisioned</li><li> envisions</li> <li>is envisioning</li>  <li>will envision</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429657",
+          "text": "Choose the most appropriate alternative from the options given below to complete the sentence:<br /><br />The family chose to _________ during their vacation to save money for their future plans.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> indulge</li><li> economize</li> <li>squander</li>  <li>lavish</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,most-appropriate-word,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429627",
+          "text": "<p>The questions given below consist of a pair(s) of related words followed by four pairs of words. Select the pair that best expresses the relation to the original pair.<br><br>Radiology: Medicine<br> </p><ol style=\"list-style-type:upper-alpha\"><li>Botany: Plants</li><li>Optometry: Vision</li><li>Zoology: Animals</li><li>Geology: Rocks</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "go2026-verbal-aptitude-shallow-1,word-pairs,multiple-selects,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429631",
+          "text": "If \"NSTHGRB\" stands for 'bright sun' and \"YKSLB\" stands for 'blue sky', which of the following stands for 'warm breeze'?<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> ZBRMRW</li><li> EEEAAA</li> <li>ZRBMRW</li>  <li>WRMBRZ</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429677",
+          "text": "Fill in the blank with the most appropriate choice.<br />Emma has planned to _______her job in New York and relocate to California.<br /><ol style=\"list-style-type:upper-alpha\"><li> transition</li><li> resign</li> <li>withdraw</li>  <li>excel</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-verbal-aptitude-shallow-1,normal,one-mark",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429661",
+          "text": "If \"tessklo\" means \"bookshelf\" and \"klotin\" means \"bookstore\" and \"sintin\" means \"storefront\", which of the following would mean \"library\"?<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> sklosin</li><li> tinsint</li> <li>tessin</li>  <li>klotess</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429673",
+          "text": "Your decision should be based on facts and not on ________.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> opinions</li><li> conjectures</li> <li>assumptions</li>  <li>prejudices</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-verbal-aptitude-shallow-1,most-appropriate-word,normal,one-mark",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429647",
+          "text": "From among the given sentences, pick the grammatically correct one:<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> She has been studying for two months.</li><li> She has been studying since two months.</li> <li>She has been studying from two months.</li>  <li>She has been studying over two months.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,english-grammar,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429685",
+          "text": "The security personnel were directed to $\\underline{restrict}$ the protesters until the situation was resolved.<br />The underlined word is closest in meaning to:<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> release</li><li> isolate</li> <li>overlook</li>  <li>liberate</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-verbal-aptitude-shallow-1,easy,one-mark",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429655",
+          "text": "Choose the most appropriate alternative from the options given below to complete the sentence:<br /><br />Stealing from one's employer can be considered __________.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> perjury</li><li> embezzlement</li> <li>homicide</li>  <li>arson</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,most-appropriate-word,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429629",
+          "text": "The questions given below consist of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation to the original pair.<br />Chef: Cuisine<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> Painter: Palette</li><li> Author: Book</li> <li>Musician: Instrument</li>  <li>Sommelier: Wine</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,word-pairs,normal,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429663",
+          "text": "<p>In the following sentence, phrases are marked as P, Q, and R. One of the parts may contain an error or may not be acceptable in standard written communication.<br>Select the part containing an error.Choose D as your answer if there is no error.</p><p><strong>After&nbsp; a long day at work, Sarah decided to unwind by watching her favorite TV show</strong> (P), <strong>reading a book, and </strong>(Q) <strong>to take a warm bath</strong>&nbsp;(R).</p><ol style=\"list-style-type:upper-alpha\"><li>P</li><li>Q</li><li>R</li><li>No error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,errors,tricky,two-marks",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429679",
+          "text": "The decision to implement the new policy came from the board of directors, ______?<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> didn't it</li><li> did it</li> <li>didn't they</li>  <li>hasn't it</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "go2026-verbal-aptitude-shallow-1,easy,one-mark",
+          "category": "Verbal Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "429639",
+          "text": "If you don't practice regularly, it will be difficult to ____.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> keep up</li><li> keep in</li> <li>keep on</li>  <li>keep at</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "go2026-verbal-aptitude-shallow-1,english-grammar,phrasal-verb,normal,two-marks",
+          "category": "Verbal Aptitude"
+        }
+      ]
+    }
+  ]
+}

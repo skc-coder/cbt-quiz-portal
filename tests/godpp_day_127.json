@@ -1,0 +1,70 @@
+{
+  "name": "Day 124 [Computer Networks]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "495579",
+          "text": "<p>Suppose computers $A$ and $B$ have IP addresses $192.168.10.5$ and $192.168.12.70$, respectively.</p><p>Which of the following netmasks, if used by both computers, will place them on the same network?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$255.255 .252 .0$<br>&nbsp;</li><li>$255.255 .254 .0$<br>&nbsp;</li><li>$255.255 .255 .0$<br>&nbsp;</li><li>$255.255 .248 .0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 124"
+        },
+        {
+          "post_id": "495569",
+          "text": "A CSMA/CD network is set up with a maximum cable length of $2.5$ km . The network bandwidth is $500$ Mbps, and the signal propagation speed in the cable is $200,000 \\mathrm{~km} / \\mathrm{s}$. To ensure that collision detection works correctly, what must be the minimum frame size (in bits)?",
+          "type": "Numerical",
+          "answer": "12500",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 124"
+        },
+        {
+          "post_id": "495577",
+          "text": "Consider a Go-Back-N sliding window protocol that uses a frame size of 1000 bytes to send data on an $8$ Mbps link. The protocol uses $5$ bits for the sequence number field. To achieve a link utilization of exactly $\\mathbf{5 0} \\boldsymbol{\\%}$, the maximum possible one-way latency (in milliseconds) is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "30.5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 124"
+        },
+        {
+          "post_id": "495575",
+          "text": "<p>An IP router using CIDR has the following entries in its routing table. A packet with the destination IP address $172.29.140.92$ arrives.</p><p>\\[<br>\\begin{array}{ll}<br>\\text{Prefix} & \\text{Output Interface} \\\\<br>172.16.0.0/12 & 1 \\\\<br>172.30.0.0/16 & 2 \\\\<br>172.29.128.0/20 & 3 \\\\<br>0.0.0.0/0 & 4 \\\\<br>\\end{array}<br>\\]</p><p>Which output interface will the router select?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1$<br>&nbsp;</li><li>$2$<br>&nbsp;</li><li>$3$<br>&nbsp;</li><li>$4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 124"
+        },
+        {
+          "post_id": "495571",
+          "text": "<p>Consider a network that uses Ethernet and IPv4. Assume that the IPv4 headers do not use any options field. Each Ethernet frame can carry a maximum of $1000$ bytes in its data field (MTU). A UDP segment is to be transmitted. The payload (data) in the UDP segment is $4000$ bytes.</p><p>Which ONE of the following choices has the CORRECT total number of fragments transmitted and the size of the last fragment, including its IPv4 header?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4$ FRAGMENTS, $1000$ BYTES<br>&nbsp;</li><li>$5$ FRAGMENTS, $104$ BYTES<br>&nbsp;</li><li>$5$ FRAGMENTS, $124$ BYTES<br>&nbsp;</li><li>$6$ FRAGMENTS, $124$ BYTES</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Computer Networks",
+          "day": "Day 124"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 258 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "530327",
+          "text": "<p data-start=\"0\" data-end=\"216\">Suppose $X$, $Y$, and $Z$ are independent random variables with $E[X]=2$, $E[Y]=-1$, $E[Z]=3$, $\\operatorname{Var}(X)=5$, $\\operatorname{Var}(Y)=4$, and $\\operatorname{Var}(Z)=2$. Compute the value of :</p><p data-start=\"218\" data-end=\"277\">$$E[(2X-3Y+Z-8)^2]+\\operatorname{Var}(XY+2Z)-E[(X+Y-2Z)^2]$$</p>",
+          "type": "Numerical",
+          "answer": "69",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 258"
+        },
+        {
+          "post_id": "530325",
+          "text": "<p data-start=\"0\" data-end=\"259\">A reliability engineer tests two independent machines. Machine $A$ has $7$ identical safety sensors, and machine $B$ has $11$ identical safety sensors. Each sensor independently fails during a stress test with the same unknown probability $p$.</p><p data-start=\"261\" data-end=\"422\">Let $X$ be the number of failed sensors in machine $A$, and let $Y$ be the number of failed sensors in machine $B$. Thus, $X\\sim Bin(7,p)$ and $Y\\sim Bin(11,p)$.</p><p data-start=\"424\" data-end=\"519\">Let $Z=X+Y$. It is known that $P(Z=4)=3P(Z=5)$. Which of the following correctly describes $Z$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"521\" data-end=\"624\">$Z\\sim Bin(18,5/47)$<br>&nbsp;</li><li data-start=\"521\" data-end=\"624\">$Z\\sim Bin(18,42/47)$<br>&nbsp;</li><li data-start=\"521\" data-end=\"624\">$Z\\sim Bin(11,5/47)$<br>&nbsp;</li><li data-start=\"521\" data-end=\"624\">$Z$ is not binomial</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 258"
+        },
+        {
+          "post_id": "530330",
+          "text": "<p data-start=\"455\" data-end=\"675\">Let $A$, $B$, and $C$ be events such that $P(A)=a$, $P(B\\mid A)=b$, $P(B\\mid A^c)=c$, $P(C\\mid A\\cap B)=d$, and $P(C\\mid A^c\\cap B)=e$. Suppose $C$ can occur only when $B$ occurs. Find $P(A\\mid B\\cap C)$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"677\" data-end=\"782\">$\\frac{abd}{abd+(1-a)ce}$<br>&nbsp;</li><li data-start=\"677\" data-end=\"782\">$\\frac{ad}{ad+(1-a)e}$<br>&nbsp;</li><li data-start=\"677\" data-end=\"782\">$\\frac{ab}{ab+(1-a)c}$<br>&nbsp;</li><li data-start=\"677\" data-end=\"782\">None of these</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 258"
+        },
+        {
+          "post_id": "530321",
+          "text": "<p data-start=\"0\" data-end=\"359\">In a cyber-security control room, six independent scanners report integer threat scores. Scanner $A$ reports uniformly from $1$ to $5$, scanner $B$ reports uniformly from $1$ to $9$, scanners $C$ and $D$ each report uniformly from $1$ to $12$, scanner $E$ reports uniformly from $1$ to $18$, and scanner $F$ reports uniformly from $1$ to $30$.</p><p data-start=\"361\" data-end=\"624\">Let $M$ be the highest threat score reported by any scanner. The control room log shows that $M=12$ and that the sum of the scores from scanners $A$ and $B$ is odd. Given this information, what is the probability that exactly two scanners reported the score $12$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"626\" data-end=\"693\">$726/6095$<br>&nbsp;</li><li data-start=\"626\" data-end=\"693\">$121/6095$<br>&nbsp;</li><li data-start=\"626\" data-end=\"693\">$726/20736$<br>&nbsp;</li><li data-start=\"626\" data-end=\"693\">None of these</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 258"
+        },
+        {
+          "post_id": "530337",
+          "text": "<p data-start=\"325\" data-end=\"559\">A number $X$ is chosen from ${1,2,3,4,5,6}$ with $P(X=x)=x/21$.</p><p data-start=\"325\" data-end=\"559\">After $X=x$ is chosen, a second number $Y$ is chosen uniformly from ${1,2,\\ldots,x}$.</p><p data-start=\"325\" data-end=\"559\">Given this setup, which of the following statements is/are <strong>true</strong>?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"561\" data-end=\"577\">$P(Y=3)=4/21$<br>&nbsp;</li><li data-start=\"579\" data-end=\"602\">$P(X=6\\mid Y=3)=1/4$<br>&nbsp;</li><li data-start=\"604\" data-end=\"624\">$P(X=5,Y=3)=1/21$<br>&nbsp;</li><li data-start=\"626\" data-end=\"647\">$P(X=6\\mid Y=6)=1$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Probability",
+          "day": "Day 258"
+        }
+      ]
+    }
+  ]
+}

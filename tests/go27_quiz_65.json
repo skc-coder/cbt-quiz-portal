@@ -1,0 +1,134 @@
+{
+  "id": "go27_quiz_65",
+  "name": "GO Classes GATE CS | Theory of Computation | Decidability | Weekly Quiz 7",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "531161",
+          "text": "<p>Let $G$ be an arbitrary Context-Free Grammar ($CFG$) over a terminal alphabet $\\Sigma$. Consider the following decision problems represented as languages:<br><br>$$<br>\\begin{aligned}<br>L_{\\text {empty }} &amp; =\\{\\langle G\\rangle \\mid G \\text { is a CFG and } L(G)=\\emptyset\\} \\\\<br>L_{\\text {all }} &amp; =\\left\\{\\langle G\\rangle \\mid G \\text { is a CFG and } L(G)=\\Sigma^{*}\\right\\}<br>\\end{aligned}<br>$$</p><p>Which of the following statements is/are correct?</p><p> </p><ol style=\"list-style-type:upper-alpha\"><li>$L_{\\text {empty }}$ is a decidable language.<br> </li><li>$L_{\\text {all }}$ is an undecidable language.<br> </li><li>There exists a Turing Machine that always halts and accepts the language $L_{\\text {empty }}$.<br> </li><li>The problem of determining whether a given $CFG$ generates every possible string over $\\Sigma$ can be solved by a halting Turing Machine.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq65,goclasses,theory-of-computation,decidability,multiple-selects,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531160",
+          "text": "<p>Here is the state diagram of a simple TM, where $\\Sigma=\\{0,1\\}$ and $\\Gamma=\\{0,1, x, \\#, B\\}$. The accept state is $q_{a c c}$. Any transition not shown in the diagram is assumed to go to the reject state, $q_{\\text {rej }}$<br> </p><p style=\"text-align:center\"><img alt=\"\" width=\"450\" height=\"356\" src=\"data:image/png;base64,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\"></p><p>Each step of the Turing machine first reads the symbol on the cell of the tape under the head. Depending on the symbol and the current state of the controller, it then</p><ul><li>(optionally) writes a new symbol at the current tape position,<br> </li><li>moves either left or right, and<br> </li><li>(optionally) changes to a new state.</li></ul><p>For example, the following transition is taken if the controller is in state $q$ and the symbol under the read head is a. It replaces the b with the character c and then moves right, switching the controller to the state $r$.<br>$$<br>q \\quad \\mathrm{~b} \\rightarrow \\mathrm{c}, R \\quad r<br>$$</p><p>Which of the following statements is/are false?</p><ol style=\"list-style-type:upper-alpha\"><li>The string $000111$ is accepted by TM<br> </li><li>TM enters into an infinite loop on input $00111$<br> </li><li>The language recognized by TM is $\\{0^n 1^m \\mid n,m \\geq 1\\}$<br> </li><li>TM rejects the string $0011$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq65,goclasses,theory-of-computation,decidability,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531164",
+          "text": "<p>Consider the language of the Acceptance Problem for Turing Machines:<br><br>$$<br>A_{T M}=\\{\\langle M, w\\rangle \\mid M \\text { is a TM and } w \\text { is in } L(M)\\}<br>$$<br>Define a Turing Machine $N$ with the following behavior:<br><br>$N=$ \"On input $\\langle M, w\\rangle$ :<br><br>1. Simulate $M$ on input $w$.<br><br>2. If $M$ accepts, accept. If $M$ rejects, reject.\"<br><br>Which of the following statements is/are TRUE regarding the Turing Machine $N$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$N$ decides $A_{T M}$<br> </li><li>$N$ recognizes $A_{T M}$<br> </li><li>$N$ always halts on any given valid input $\\langle M, w\\rangle$<br> </li><li>$N$ decides the complement of $A_{T M}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq65,goclasses,theory-of-computation,decidability,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531156",
+          "text": "<p>Consider two languages, $L_1$ and $L_2$, containing encodings of Turing machines:<br>$$<br>\\begin{aligned}<br>L_1 &amp;= \\{\\langle M\\rangle \\mid M \\text{ halts on a blank tape within at most 20 steps}\\} \\\\<br>L_2 &amp;= \\{\\langle M\\rangle \\mid \\forall w\\in\\Sigma^{*},\\, M \\text{ halts on input } w \\text{ within at most 20 steps}\\}<br>\\end{aligned}<br>$$<br>Which of the following is correct regarding the decidability of language $L_1$ and language $L_2$?</p><ol style=\"list-style-type:upper-alpha\"><li>Both $L_{1}$ and $L_{2}$ are decidable.<br> </li><li>$L_{1}$ is decidable, but $L_{2}$ is undecidable.<br> </li><li>$L_{1}$ is undecidable, but $L_{2}$ is decidable.<br> </li><li>Neither $L_{1}$ nor $L_{2}$ is decidable.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq65,goclasses,theory-of-computation,decidability,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531158",
+          "text": "<p>Let $E_{D F A}=\\{\\langle A\\rangle \\mid A$ is a DFA and $L(A)=\\emptyset\\}$. When proving the decidability of $E_{D F A}$, we look for an algorithmic condition to distinguish between a DFA that accepts some string and one that accepts no strings.<br><br>Which of the following statements provides a universally true \"if and only if\" (iff) condition for $\\langle A\\rangle \\in E_{D F A}$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\langle A\\rangle \\in E_{D F A}$ iff $A$ 's initial state is not an accepting state.<br> </li><li>$\\langle A\\rangle \\in E_{D F A}$ iff $A$ 's set of accepting states is empty ( $F=\\emptyset$ ).<br> </li><li>$\\langle A\\rangle \\in E_{D F A}$ iff the set of states in $A$ is the empty set.<br> </li><li>None of the above.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq65,goclasses,theory-of-computation,decidability,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531167",
+          "text": "<p>For a deterministic Turing machine, a configuration is represented as $u q v$, where $q$ is the current state, $u v$ is the current tape contents, and the head is currently on the first symbol of $v$.<br><br>A configuration $C_{1}$ yields configuration $C_{2}$ (denoted $C_{1} \\vdash C_{2}$ ) if the machine can legally go from $C_{1}$ to $C_{2}$ in a single step. Formally, for symbols $a, b, c \\in \\Gamma$, strings $u, v \\in \\Gamma^{*}$, and states $q_{i}, q_{j} \\in Q$ :</p><ul><li>Leftward move: $u a q_{i} b v \\vdash u q_{j} a c v$ if $\\delta\\left(q_{i}, b\\right)=\\left(q_{j}, c, \\mathrm{~L}\\right)$<br> </li><li>Rightward move: $u a q_{i} b v \\vdash u a c q_{j} v$ if $\\delta\\left(q_{i}, b\\right)=\\left(q_{j}, c, \\mathrm{R}\\right)$</li></ul><p>Based strictly on these formal definitions, which of the following configuration transitions is/are NOT valid for any Turing machine?</p><ol style=\"list-style-type:upper-alpha\"><li>$q_{1} 0110 \\vdash 0 q_{1} 110$<br> </li><li>$01 q_{1} 10 \\vdash 0 q_{2} 110$<br> </li><li>$011 q_{2} 0 \\vdash 0 q_{2} 110$<br> </li><li>$01 q_{1} 10 \\vdash 0 q_{2} 111$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq65,goclasses,theory-of-computation,decidability,multiple-selects,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531163",
+          "text": "<p>Which of the following is decidable?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>Given two Turing machines $M_{1}$ and $M_{2}$, decide if $L \\left(M_{1} \\right) = L \\left(M_{2}\\right)$.<br> </li><li>Given a Turing machine $M$, decide if $L(M)$ is regular.<br> </li><li>Given a Turing machine $M$, decide if $M$ accepts all strings.<br> </li><li>Given a Turing machine $M$, decide if $M$ takes more than $1073$ steps on every string.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq65,goclasses,theory-of-computation,decidability,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531154",
+          "text": "<p>In number theory, a number is said to be perfect if it is equal to the sum of its proper divisors. For example, 6 is perfect ( $6=1+2+3$ ), while 15 is not ( $1+3+5 \\neq 15$ ). There is a famous, long-standing mathematical conjecture that states: \"There are no odd perfect numbers.\" To date, no one knows if this conjecture is true or false.<br><br>Consider the language $L$ defined as:<br><br>$$<br>L=\\{x \\mid x \\text { is an odd perfect number in decimal representation }\\}<br>$$<br><br>Which of the following statements is correct regarding the classification of language $L$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$L$ is Turing decidable.<br> </li><li>$L$ is Turing recognizable but not Turing decidable.<br> </li><li>$L$ is not Turing recognizable.<br> </li><li>The decidability of $L$ cannot be determined until the mathematical conjecture is proven true or false.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq65,goclasses,theory-of-computation,decidability,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531166",
+          "text": "<p>Consider the following two statements:</p><p><br>Statement $\\mathbf{I}\\left(S_{1}\\right)$ : For any $k&gt;1$, there is no language that is decided by a TM with $k$ tapes, but is undecidable by any TM having $k-1$ (or less) tapes.</p><p><br>Statement $\\mathbf{II}\\left(S_{2}\\right)$ : Suppose $L$ is TM recognizable but not TM decidable. Then any TM that recognizes $L$ must fail to halt on at least one string.</p><p><br>Which of the following options is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>Both $S_{1}$ and $S_{2}$ are true.<br> </li><li>$S_{1}$ is true, but $S_{2}$ is false.<br> </li><li>$S_{1}$ is false, but $S_{2}$ is true.<br> </li><li>Both $S_{1}$ and $S_{2}$ are false.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq65,goclasses,theory-of-computation,decidability,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "531162",
+          "text": "<p>Define languages $L_{1}$ and $L_{2}$ as follows :<br><br>$L_{1} =\\{\\langle M, w, 0 \\rangle \\mid M$ accepts $w\\}$<br><br>$L_{2} =\\{\\langle M, w, 1 \\rangle \\mid M$ does not accept $w\\}$<br><br>Here $\\langle M,w,i \\rangle $ is a triplet, whose first component $M$ is an encoding of a Turing Machine, second component $w$ is a string, and third component $i$ is a bit.<br><br>Let $L = L_{1} \\cup L_{2}$. Which of the following is/are false?</p><ol style=\"list-style-type:upper-alpha\"><li>$L$ is regular because $L=\\Sigma^{*}$<br> </li><li>$L$ is recursive<br> </li><li>$L_{1}$ is recursively enumerable but $L_2$ is not<br> </li><li>Neither $L$ nor $L$ ' is recursively enumerable</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq65,goclasses,theory-of-computation,decidability,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        }
+      ]
+    }
+  ]
+}

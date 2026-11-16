@@ -1,0 +1,70 @@
+{
+  "name": "Day 309 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "537790",
+          "text": "<p>What will happen when the following code is compiled?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Point {     int x;     int y; };  int main() {     struct Point p1 = {2, 4};     struct Point p2;      p2 = p1;     p2.x = 10;      if (p1 == p2)         printf(&quot;Same&quot;);     else         printf(&quot;%d %d&quot;, p1.x, p2.x);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Point {\n    int x;\n    int y;\n};\n\nint main() {\n    struct Point p1 = {2, 4};\n    struct Point p2;\n\n    p2 = p1;\n    p2.x = 10;\n\n    if (p1 == p2)\n        printf(\"Same\");\n    else\n        printf(\"%d %d\", p1.x, p2.x);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{Same}$<br>&nbsp;</li><li>$\\texttt{2 10}$<br>&nbsp;</li><li>$\\texttt{10 10}$<br>&nbsp;</li><li>Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 309"
+        },
+        {
+          "post_id": "537786",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Box {     int width;     int height; };  int main() {     struct Box b = {4, 6};     struct Box *p = &b;      p-&gt;width = p-&gt;width + 2;     (*p).height = (*p).height + p-&gt;width;      printf(&quot;%d %d&quot;, b.width, b.height);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Box {\n    int width;\n    int height;\n};\n\nint main() {\n    struct Box b = {4, 6};\n    struct Box *p = &b;\n\n    p-&gt;width = p-&gt;width + 2;\n    (*p).height = (*p).height + p-&gt;width;\n\n    printf(\"%d %d\", b.width, b.height);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{4 6}$<br>&nbsp;</li><li>$\\texttt{6 10}$<br>&nbsp;</li><li>$\\texttt{6 12}$<br>&nbsp;</li><li>Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 309"
+        },
+        {
+          "post_id": "537782",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Student {     int roll;     int marks; };  int main() {     struct Student s[3] = {         {1, 70},         {2, 80},         {3, 90}     };      s[1].marks = s[1].marks + 5;     s[2].roll = s[0].roll + s[1].roll;      printf(&quot;%d %d %d&quot;, s[1].marks, s[2].roll, s[2].marks);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Student {\n    int roll;\n    int marks;\n};\n\nint main() {\n    struct Student s[3] = {\n        {1, 70},\n        {2, 80},\n        {3, 90}\n    };\n\n    s[1].marks = s[1].marks + 5;\n    s[2].roll = s[0].roll + s[1].roll;\n\n    printf(\"%d %d %d\", s[1].marks, s[2].roll, s[2].marks);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{80 3 90}$<br>&nbsp;</li><li>$\\texttt{85 3 90}$<br>&nbsp;</li><li>$\\texttt{85 2 90}$<br>&nbsp;</li><li>$\\texttt{85 3 95}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 309"
+        },
+        {
+          "post_id": "537788",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Item {     int code;     int price; };  void update(struct Item *p) {     p-&gt;price = p-&gt;price + 20;     (*p).code = (*p).code + 1; }  int main() {     struct Item i1 = {10, 100};      update(&i1);      printf(&quot;%d %d&quot;, i1.code, i1.price);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Item {\n    int code;\n    int price;\n};\n\nvoid update(struct Item *p) {\n    p-&gt;price = p-&gt;price + 20;\n    (*p).code = (*p).code + 1;\n}\n\nint main() {\n    struct Item i1 = {10, 100};\n\n    update(&i1);\n\n    printf(\"%d %d\", i1.code, i1.price);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{10 100}$<br>&nbsp;</li><li>$\\texttt{11 120}$<br>&nbsp;</li><li>$\\texttt{10 120}$<br>&nbsp;</li><li>Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 309"
+        },
+        {
+          "post_id": "537779",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  struct Book {     char name;     float price;     int pages; };  int main() {     struct Book b1 = {'C', 150.5, 300};      b1.pages = b1.pages + 50;     b1.price = b1.price + 10.5;      printf(&quot;%c %.1f %d&quot;, b1.name, b1.price, b1.pages);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nstruct Book {\n    char name;\n    float price;\n    int pages;\n};\n\nint main() {\n    struct Book b1 = {'C', 150.5, 300};\n\n    b1.pages = b1.pages + 50;\n    b1.price = b1.price + 10.5;\n\n    printf(\"%c %.1f %d\", b1.name, b1.price, b1.pages);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{C 150.5 300}$<br>&nbsp;</li><li>$\\texttt{C 161.0 350}$<br>&nbsp;</li><li>$\\texttt{C 160.5 350}$<br>&nbsp;</li><li>Compilation error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 309"
+        }
+      ]
+    }
+  ]
+}

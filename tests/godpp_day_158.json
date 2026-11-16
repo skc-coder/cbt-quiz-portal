@@ -1,0 +1,70 @@
+{
+  "name": "Day 154 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "502358",
+          "text": "<p>A process has been allocated $\\mathbf{6}$ <strong>page frames.</strong> Assume that none of the pages of the process are available in the memory initially. The process makes the following sequence of page references (reference string):</p><p>$$<br>\\mathbf{7,0,1,2,0,3,0,4,2,3,0,3,2,1,2,0,1,7,0,1}<br>$$</p><p><br>If the <strong>Optimal page replacement policy</strong> is used, how many <strong>page faults</strong> occur for the above reference string?</p>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 154"
+        },
+        {
+          "post_id": "502356",
+          "text": "<p>A process has been allocated $\\mathbf{5}$ <strong>page frames.</strong> Assume that none of the pages of the process are available in the memory initially. The process makes the following sequence of page references (reference string):</p><p>$$<br>5,4,3,2,1,4,3,5,2,6,1,4<br>$$</p><p><br>If the <strong>Most Recently Used (MRU) page replacement policy</strong> is used, how many <strong>page faults</strong> occur for the above reference string?</p>",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 154"
+        },
+        {
+          "post_id": "502355",
+          "text": "<p>A process has been allocated $\\mathbf{4}$ <strong>page frames</strong>. Assume that none of the pages of the process are available in the memory initially. The process makes the following sequence of page references (reference string):</p><p>$$<br>1,2,3,4,1,5,2,4,3,6,1,7<br>$$</p><p><br>If the<strong> First-In, First-Out (FIFO) page replacement policy</strong> is used, how many <strong>page faults</strong> occur for the above reference string?</p>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 154"
+        },
+        {
+          "post_id": "502343",
+          "text": "<p>Consider a disk pack with $\\mathbf{8 ~surfaces, 512 ~tracks ~per ~surface}$, and $\\mathbf{512 ~sectors ~per ~track}$. Each sector stores $\\mathbf{2&nbsp;~Kbytes}$ of data. The disk rotates at $\\mathbf{6000 ~Revolutions ~Per ~Minute (RPM).}$</p><p>The <strong>total capacity</strong> of the disk pack (in $\\textbf{Mbyte}$) and the <strong>maximum instantaneous data transfer rate </strong>(in $\\textbf{Mbytes/sec}$) are respectively:<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4096 ~\\text{Mbyte}, 100 ~\\text{Mbytes/sec}$<br>&nbsp;</li><li>$1024 ~\\text{Mbyte}, 20 ~\\text{Mbytes/sec}$<br>&nbsp;</li><li>$2048 ~\\text{Mbyte}, 10 ~\\text{Mbytes/sec}$<br>&nbsp;</li><li>$2048 ~\\text{Mbyte}, 100 ~\\text{Mbytes/sec}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 154"
+        },
+        {
+          "post_id": "502340",
+          "text": "<p>Consider a disk pack with $\\mathbf{10 ~surfaces, 256 ~tracks ~per ~surface}$, and $\\mathbf{512 ~sectors ~per ~track.}$<br>$\\mathbf{1024 ~bytes}$ of data are stored in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively:<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1280 ~\\text{Mbyte}, 21 ~\\text{bits}$<br>&nbsp;</li><li>$1280 ~\\text{Mbyte}, 20 ~\\text{bits}$<br>&nbsp;</li><li>$512 ~\\text{Mbyte}, 20 ~\\text{bits}$<br>&nbsp;</li><li>$640 ~\\text{Mbyte}, 19 ~\\text{bits}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 154"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "name": "GATEBOOK-2019 CN4: Application Layer and Network Security",
+  "duration": "72",
+  "total_qs": "20",
+  "total_qs_one": 0,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 20,
+  "apti_marks": 0,
+  "technical_marks": 40,
+  "total_marks": 40,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 20,
+      "marks": 40,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "272336",
+          "text": "<p>A client sends $3$ HTTP requests to HTTP server for the same object with in $2$ or $3$ seconds then the no of objects sent by server is ____</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$0$</li>\n    <li>$3$</li>\n    <li>$1$</li>\n    <li>$2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272335",
+          "text": "<p>Which of the following is an invalid HTTP request?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>GET</li>\n    <li>SET</li>\n    <li>PUT</li>\n    <li>POST</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272334",
+          "text": "<p>Which of the following is an invalid HTTP request?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>DELETE</li>\n    <li>POST</li>\n    <li>TRACE</li>\n    <li>INSERT</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272333",
+          "text": "<p>Which of the following statements is TRUE&nbsp;about HTTP and FTP?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>HTTP/2 is a stateful&nbsp;protocol</li>\n    <li>HTTP uses two parallel connections to transfer a file</li>\n    <li>FTP is a stateless protocol</li>\n    <li>FTP uses TCP to send the data</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4,http,application-layer-protocols",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272332",
+          "text": "<p>Which of the following connection mode is used by HTTP connection?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Persistent mode only</li>\n    <li>Non-Persistent mode only</li>\n    <li>Both persistent and non-persistent mode</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272331",
+          "text": "<p>Which of the following protocols uses out-of-band signalling?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>HTTP</li>\n    <li>SMTP</li>\n    <li>FTP</li>\n    <li>All of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272330",
+          "text": "<p>Which of the following is not a command in FTP protocol?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>SEND</li>\n    <li>PASS</li>\n    <li>STOR</li>\n    <li>USER</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272329",
+          "text": "<p>Which of the following is a mail service protocol?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>IMAP</li>\n    <li>POP3</li>\n    <li>SMTP</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only I</li>\n    <li>Only I and II</li>\n    <li>Only I and III</li>\n    <li>All of I,II and III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272328",
+          "text": "<p>Which of the following protocol is used for user to create remote folders and assign messages to folders</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>IMAP</li>\n    <li>POP3</li>\n    <li>SMTP</li>\n    <li>FTP</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272327",
+          "text": "<p>Which of the following statements is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>A user requests a Web page that consists of some text and three images. For this page, the client will send one request message and receive four response messages.</li>\n    <li>Two distinct Web pages can be sent over the same persistent connection.</li>\n    <li>With non persistent connections between browser and origin server, it is possible for a single TCP segment to carry two distinct HTTP request messages.</li>\n    <li>HTTP response messages never have an empty message body.</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272326",
+          "text": "<p>Consider an HTTP client that wants to retrieve a Web document at a given URL. The IP address of the HTTP server is initially unknown. What transport and application-layer protocols besides HTTP are needed in this scenario?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>DNS</li>\n    <li>FTP and UDP</li>\n    <li>DNS, TCP, UDP</li>\n    <li>DNS, UDP</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272325",
+          "text": "<p>Which option below keeps track of users?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>TCP</li>\n    <li>Cookie</li>\n    <li>Socket</li>\n    <li>All of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272324",
+          "text": "<p>Consider the following statements about network security</p>\n\n<ul>\n    <li>$S1$: We can have Confidentiality without Message Integrity</li>\n    <li>$S2$: We can have Integrity without Confidentiality</li>\n</ul>\n\n<p>Which of the above statements is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $S1$</li>\n    <li>Only $S2$</li>\n    <li>Both $S1$ and $S2$</li>\n    <li>Neither $S1$ nor $S2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4,network-security",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272323",
+          "text": "<p>Suppose $N$ people want to communicate with each of $N – 1$ other people using symmetric key encryption. All communication between any two people, $i$ and $j$, is visible to all other people in this group of $N$, and no other person in this group should be able to decode their communication. How many keys are required in the system as a whole?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$N(N-1)/2$</li>\n    <li>$N(N-1)$</li>\n    <li>$N^2$</li>\n    <li>$2N$\n    <p>&nbsp;</p>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272322",
+          "text": "<p>$n = 10,000, \\:a = 10,023, \\: \\text{and }b = 10,004. (a • b) \\text{mod n is}$ ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2$</li>\n    <li>$92$</li>\n    <li>$12$</li>\n    <li>$0$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272321",
+          "text": "<p>Consider RSA with $p = 5$ and $q = 11$. What are $n$ and $z$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$55, 40$</li>\n    <li>$50, 44$</li>\n    <li>$55, 1$</li>\n    <li>$55, 3$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272320",
+          "text": "Alice and Bob use RSA public key encryption in order to communicate between them. Trudy finds out that Alice and Bob shared one of the primes used to determine the number n of their public key pairs. Now If Alice’s n, that is  $n_a = 484391$  and Bob’s n that is  $n_b = 518039$ then the common prime Alice and Bob have chosen is _______",
+          "type": "Numerical",
+          "answer": "701",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cn4,numerical-answers",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272319",
+          "text": "The Diffie-Hellman key exchange is being used to establish a secret key, $k$, between Alice and Bob. Alice sends Bob $(227, 5, 82)$. Bob responds with $(125)$. Alice’s secret number, $x$, is $12$, and Bob’s secret number, $y$, is $3$. The secret key value $k$ is _____",
+          "type": "Numerical",
+          "answer": "212",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-cn4,numerical-answers",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272318",
+          "text": "<p>Consider RSA with $p = 31$ and $q = 47$.</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n    <li>$n = 1457$</li>\n    <li>$z= 1200$</li>\n    <li>$7$ is acceptable choice for $e$</li>\n</ol>\n\n<p>Which of the above statements is true ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only I</li>\n    <li>Only I and II</li>\n    <li>Only I and III</li>\n    <li>All of I,II and III</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "272317",
+          "text": "<p>Let M be a confidential email that Alice wants to send to Bob,&nbsp; $K_B$ &nbsp;be Bob’s encryption public key, and ${K_{A}^{-1}}$ &nbsp;be Alice’s private key for signing. Which of the following options would be the best choice for protecting confidential emails?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{Send }E_{K_B}(M), \\text{Sign}_{K_{A}^{-1}}(K_B)$</li>\n    <li>$\\text{Send }E_{K_B}(M), \\text{Sign}_{K_{A}^{-1}}(M)$</li>\n    <li>$\\text{Send }E_{K_B}(M), \\text{Sign}_{K_{A}^{-1}}(E_{K_{B}}(M))$</li>\n    <li>$\\text{Send }E_{K_B}(M), \\text{Sign}_{K_{A}^{-1}}(K_{A}^{+}(M))$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-cn4",
+          "category": "Computer Networks"
+        }
+      ]
+    }
+  ]
+}

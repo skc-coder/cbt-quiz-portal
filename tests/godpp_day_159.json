@@ -1,0 +1,70 @@
+{
+  "name": "Day 155 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "502569",
+          "text": "<p>Consider the following $C$ code segment:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">x = y * z;\np = q + 5;\nr = y * z;\ns = x + r;\nt = p + 1;\n</pre><p><br>In a compiler, this code segment is represented internally as a directed acyclic graph (DAG) for optimization.</p><p>The number of <strong>edges</strong> in the minimum DAG representation of this code segment is $\\_\\_\\_\\_\\_$</p>",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 155"
+        },
+        {
+          "post_id": "502575",
+          "text": "<p>Consider the following $C$ code segment:<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">x = y + 1; // Line 1\ny = x - 2; // Line 2\nz = x + y; // Line 3\nx = 5;     // Line 4\ny =z * 2;  // Line 5</pre><p><br>In the context of instruction-level parallelism, a dependency exists if two statements access the same memory location, and at least one access is a write.</p><p>The total number of distinct <strong>Output (Write-After-Write, WAW)</strong> data dependencies in this code segment is $\\_\\_\\_\\_$</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 155"
+        },
+        {
+          "post_id": "502576",
+          "text": "<p>Consider the following $C$ code segment, where $S_1$ and $S_2$ are mutually exclusive basic blocks (they are within an $\\verb|if-else|$ structure):<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">// Preceding Block B0\nx = a + b;\n\n// Basic Block S1 (IF branch)\nc = a + b;\nd = x * 2;\n\n// Basic Block S2 (ELSE branch)\ne = 2 * x;\nf = 3 * a + 3 * b;</pre><p><br>When generating the overall compiler intermediate representation for optimization, these blocks are represented internally.</p><p>Assuming the constant folding optimization $3 \\times(a+b)$ is applied, the minimum number of nodes in the Directed Acyclic Graph (DAG) for the entire set of expressions $\\textbf{c, d, e, f}$ that are computed <strong>after</strong> the preceding block $\\mathbf{B0}$ is $\\_\\_\\_\\_$</p>",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 155"
+        },
+        {
+          "post_id": "502571",
+          "text": "<p>Consider the following $C$ code segment:<br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">A[i] = A[i] + 1; // Line 1\nj = i + 1;       // Line 2\nA[j] = A[i] * 2; // Line 3\nk = i;           // Line 4\nA[k] = A[k] + 1; // Line 5\n</pre><p><br>In the context of data-flow analysis for code optimization, we are interested in <strong>Write-After-Read (WAR)</strong> dependencies.</p><p>Ignoring all loops and function calls, the number of distinct <strong>Write-After-Read (WAR)</strong> data dependencies in this code segment is $\\_\\_\\_\\_$</p>",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 155"
+        },
+        {
+          "post_id": "502579",
+          "text": "<p>Consider a language that defines valid identifiers and valid integers. The tokens are defined by the following regular expressions:<br><br><br><strong>1. IDENTIFIER (ID):</strong> Must start with a lowercase letter, followed by zero or more lowercase letters or digits.</p><p>$$<br>R E_{\\mathrm{ID}}=(a|b| \\ldots \\mid z)(a|b| \\ldots|z| 0|1| \\ldots \\mid 9)^*<br>$$</p><p><br><strong>2. INTEGER (INT):</strong> A non-empty string of digits.</p><p>$$<br>R E_{\\mathrm{INT}}=(0|1| \\ldots \\mid 9)^{+}<br>$$</p><p><br>The alphabet $\\Sigma$ consists of the $26$ lowercase letters and the $10$ digits ( $\\Sigma= \\{a, b, \\ldots, z, 0,1, \\ldots, 9\\})$.<br><br>The minimum number of states in the Deterministic Finite Automaton (DFA) that recognizes the combined language $L=L(\\mathrm{ID}) \\cup L(\\mathrm{INT})$ is $\\_\\_\\_\\_$</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 155"
+        }
+      ]
+    }
+  ]
+}

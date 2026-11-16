@@ -1,0 +1,70 @@
+{
+  "name": "Day 233 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "526848",
+          "text": "<p>We use the dictionary:</p><p>\\begin{aligned}<br>M & : \\text{domain of men} \\\\<br>s & : \\text{Sharon} \\\\<br>N(x) & : x \\text{ is nice} \\\\<br>L(x,y) & : x \\text{ loves } y<br>\\end{aligned}</p><p>Which of the following formulas corresponds to the sentence:<br>All nice men love Sharon.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\exists x \\in M[N(x) \\wedge L(x, s)]$</li><li>$\\exists x \\in M[N(x) \\rightarrow L(x, s)]$</li><li>$\\forall x \\in M[N(x) \\wedge L(x, s)]$</li><li>$\\forall x \\in M[N(x) \\rightarrow L(x, s)]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 233"
+        },
+        {
+          "post_id": "526843",
+          "text": "<p>We use the dictionary:</p><p>\\begin{aligned}<br>M & : \\text{domain of men} \\\\<br>s & : \\text{Sharon} \\\\<br>N(x) & : x \\text{ is nice} \\\\<br>L(x,y) & : x \\text{ loves } y<br>\\end{aligned}</p><p>Which of the following formulas corresponds to the sentence:<br>There is a nice man who loves Sharon.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\exists x \\in M[N(x) \\wedge L(x, s)]$</li><li>$\\exists x \\in M[N(x) \\rightarrow L(x, s)]$</li><li>$\\forall x \\in M[N(x) \\wedge L(x, s)]$</li><li>$\\forall x \\in M[N(x) \\rightarrow L(x, s)]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 233"
+        },
+        {
+          "post_id": "526856",
+          "text": "<p>Consider the following two logical equivalences that express 'logical laws':<br>- $\\neg \\forall x \\in D f \\equiv \\exists x \\in D \\neg f$<br>- $\\neg(f \\leftrightarrow g) \\equiv \\neg f \\leftrightarrow \\neg g$</p><p>Which of these hold?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>both</li><li>only the first</li><li>only the second</li><li>none</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 233"
+        },
+        {
+          "post_id": "526851",
+          "text": "<p>Which of the following formulas does not express that there is exactly one element of $D$ that has property $P(x)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\exists x \\in D \\forall y \\in D[P(y) \\leftrightarrow y=x]$</li><li>$\\exists x \\in D[P(x) \\wedge \\forall y \\in D[y \\neq x \\rightarrow \\neg P(y)]]$</li><li>$\\exists x \\in D P(x) \\wedge \\forall x_1, x_2 \\in D\\left[P\\left(x_1\\right) \\wedge P\\left(x_2\\right) \\rightarrow x_1=x_2\\right]$</li><li>$\\exists x \\in D \\forall y \\in D[P(y) \\rightarrow y=x]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 233"
+        },
+        {
+          "post_id": "526854",
+          "text": "<p>Which of the following formulas does not express that there is at most one element of $D$ that has property $P(x)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\forall x_1, x_2 \\in D\\left[P\\left(x_1\\right) \\wedge P\\left(x_2\\right) \\rightarrow x_1=x_2\\right]$</li><li>$\\forall x_1, x_2 \\in D\\left[x_1 \\neq x_2 \\rightarrow \\neg P\\left(x_1\\right) \\vee \\neg P\\left(x_2\\right)\\right]$</li><li>$\\neg \\exists x_1, x_2 \\in D\\left[x_1 \\neq x_2 \\wedge P\\left(x_1\\right) \\wedge P\\left(x_2\\right)\\right]$</li><li>$\\neg \\exists x_1, x_2 \\in D\\left[P\\left(x_1\\right) \\wedge x_1 \\neq x_2 \\rightarrow \\neg P\\left(x_2\\right)\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 233"
+        }
+      ]
+    }
+  ]
+}

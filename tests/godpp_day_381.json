@@ -1,0 +1,70 @@
+{
+  "name": "Day 275 [Graph Theory]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "532218",
+          "text": "<p>Which of the following graphs has a cut vertex?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{K}_{\\mathrm{n}}$</li><li>$\\mathrm{C}_{\\mathrm{n}}$</li><li>$\\mathrm{P}_{\\mathrm{n}}$, path on n vertices</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 275"
+        },
+        {
+          "post_id": "532228",
+          "text": "<p>Let $T$ be a tree having $n$ vertices. Let $v_1, v_2 \\in V(T)$. How many distinct paths are there from $v_1$ to $v_2$ in $T$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{n}-1$</li><li>1</li><li>2</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 275"
+        },
+        {
+          "post_id": "532230",
+          "text": "<p>The number of components in $K_n$ is :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>1</li><li>0</li><li>$\\mathrm{n}-1$</li><li>n</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 275"
+        },
+        {
+          "post_id": "532222",
+          "text": "<p>Which of the following degree sequence is NOT graphic for simple graphs?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$&lt;2,2,2,1,1&gt;$</li><li>$\\langle 4,2,2,2,2\\rangle$</li><li>$\\langle 7,1,1,1,1,1,1,1\\rangle$</li><li>$\\langle 5,2,1,1,1,1\\rangle$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 275"
+        },
+        {
+          "post_id": "532224",
+          "text": "<p>Which of the following statements is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P_n$ is an induced subgraph of $C_n$.</li><li>$P_n$ is a spanning subgraph of $C_n$.</li><li>$C_n$ is a induced subgraph of $K_n$.</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Graph Theory",
+          "day": "Day 275"
+        }
+      ]
+    }
+  ]
+}

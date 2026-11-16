@@ -1,0 +1,70 @@
+{
+  "name": "Day 212 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524215",
+          "text": "<p>Let:<br>- P: Student passes the course<br>- A: Student submits all assignments<br>- F: Student passes final exam<br>- R: Student attends regularly</p><p>Statements:</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>The student passes the course if and only if she submits all assignments and passes the final exam.</li><li>She submits all assignments only if she attends regularly.</li><li>She does not attend regularly.</li></ol><p>How many truth assignments satisfy all the above statements?<br>(Answer should be a number.)</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 212"
+        },
+        {
+          "post_id": "524205",
+          "text": "Let:<br>\n- M: Meeting happens<br>\n- Q: Quorum is present<br>\n- C: Chairman is present<br>\n<br>\nStatements:<br>\n<br>\nS1: The meeting happens only if quorum is present.<br>\nS2: The meeting happens unless the chairman is absent.<br>\nS3: The meeting happens just when quorum is present and chairman is present.<br>\n<br>\nWhich of the following correctly translate any of the above statements?<br>\n(Multiple correct options possible.)<br>\n<br>\nA. $M \\rightarrow Q$<br>\nB. $\\neg C \\rightarrow \\neg M$<br>\nC. $M \\leftrightarrow(Q \\wedge C)$<br>\nD. $M \\vee C$",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 212"
+        },
+        {
+          "post_id": "524202",
+          "text": "<ul><li>s = \"Phyllis goes out for a walk\"</li><li>t = \"The moon is out\"</li><li>u = \"It is snowing\"</li></ul><p>Which of the following English sentences correctly translate t → (¬u → s)<strong>?</strong><br><em>(Select all that apply)</em></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If the moon is out, then if it is not snowing, Phyllis goes out for a walk</li><li>If the moon is out and it is not snowing, then Phyllis goes out for a walk</li><li>The moon being out implies that not snowing guarantees Phyllis walks</li><li>If the moon is out, then Phyllis walks or it is snowing</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 212"
+        },
+        {
+          "post_id": "524199",
+          "text": "<ul><li>s = \"Phyllis goes out for a walk\"</li><li>t = \"The moon is out\"</li><li>u = \"It is snowing\"</li></ul><div>Which of the following is the correct symbolic representation of<strong>:</strong> <em>\"If the moon is out and it is not snowing, then Phyllis goes out for a walk.\"</em></div><div><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>t → (¬u → s)</li><li>(t ∧ ¬u) → s</li><li>(t ∧ u) → s</li><li>t → (u ∧ s)</li></ol></div>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 212"
+        },
+        {
+          "post_id": "524219",
+          "text": "Let:<br>\n- $P$ : The server is running<br>\n- $Q$ : The database is connected<br>\n<br>\nInterpret the following English statements carefully.<br>\n<br>\nStatement 1: \"The server or the database is active.\"<br>\n<br>\nStatement 2: \"Either the server or the database is active.\"<br>\n<br>\nStatement 3: \"The server or the database is active, but not both.\"<br>\n<br>\nStatement 4: \"At least one of the server and the database is active\"<br>\n<br>\nSelect all correct options.<br>\n<br>\nA. Statement 1 is best translated as $P \\vee Q$<br>\nB. Statement 2 is best translated as $P \\oplus Q$<br>\nC. Statement 3 is best translated as $(P \\vee Q) \\wedge \\neg(P \\wedge Q)$<br>\nD. Statement 4 is best translated as $P \\oplus Q$",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 212"
+        }
+      ]
+    }
+  ]
+}

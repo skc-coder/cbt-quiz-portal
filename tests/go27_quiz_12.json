@@ -1,0 +1,134 @@
+{
+  "id": "go27_quiz_12",
+  "name": "GO Classes CS | Discrete Mathematics | Functions | Weekly Quiz 12",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "425524",
+          "text": "<p>Let $\\mathrm{X}$ be a finite set. Suppose $\\mathrm{f}: \\mathrm{X} \\rightarrow \\mathrm{X}$ is a function. Which of the following are possible?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{f}$ is injective but not surjective.<br> </li><li>$\\mathrm{f}$ is surjective but not injective.<br> </li><li>$\\mathrm{f}$ is surjective and injective.<br> </li><li>f is neither surjective nor injective.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq11,goclasses,discrete-mathematics,functions,two-marks,multiple-selects",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425530",
+          "text": "Consider the function $f: \\mathbb{N} \\rightarrow \\mathbb{N}$ given recursively by $f(0)=1$ and $f(n+1)=2 \\cdot f(n)$. Find $f(10)$.",
+          "type": "Numerical",
+          "answer": "1024",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq11,numerical-answers,goclasses,discrete-mathematics,functions,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425519",
+          "text": "<p>Let $\\mathrm{g}: \\mathrm{A} \\rightarrow \\mathrm{B}$ and $\\mathrm{f}: \\mathrm{B} \\rightarrow \\mathrm{C}$ be functions. If $\\mathrm{f} \\circ \\mathrm{g}$ is bijective, then which of the following must be true?</p><ol style=\"list-style-type:upper-alpha\"><li>$g$ is one to one.<br> </li><li>$g$ is onto.<br> </li><li>$f$ is one to one.<br> </li><li>$\\mathrm{f}$ is onto.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq11,goclasses,discrete-mathematics,functions,two-marks,multiple-selects",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425526",
+          "text": "<p>Suppose $\\mathrm{f}: \\mathrm{X} \\rightarrow \\mathrm{Y}$ is a function. Which of the following are possible?</p><ol style=\"list-style-type:upper-alpha\"><li>$f$ is injective but not surjective.<br> </li><li>$f$ is surjective but not injective.<br> </li><li>$f$ is surjective and injective.<br> </li><li>$\\mathrm{f}$ is neither surjective nor injective.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq11,goclasses,discrete-mathematics,functions,one-mark,multiple-selects",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425521",
+          "text": "<p>Let $f : X \\to Y$ and $g : Y \\to Z$. Let $h = g \\circ f : X \\to Z$. Suppose $g$ is one-to-one and onto. Which of the following is FALSE?</p><ol style=\"list-style-type:upper-alpha\"><li>If $f$ is one-to-one then $h$ is one-to-one and onto.<br> </li><li>If $f$ is not onto then $h$ is not onto.<br> </li><li>If $f$ is not one-to-one then $h$ is not one-to-one.<br> </li><li>If $f$ is one-to-one then $h$ is one-to-one.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq11,goclasses,discrete-mathematics,functions,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425532",
+          "text": "<p>The following functions all have $\\{1,2,3,4,5\\}$ as both their domain and codomain. Which of the following is both injective \\&amp; surjective?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$f=\\left(\\begin{array}{lllll}1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\\\ 3 &amp; 3 &amp; 3 &amp; 3 &amp; 3\\end{array}\\right)$.<br> </li><li>$f=\\left(\\begin{array}{lllll}1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\\\ 2 &amp; 3 &amp; 1 &amp; 5 &amp; 4\\end{array}\\right)$.<br> </li><li>$f(x)=6-x$.<br> </li><li>$f(x)=\\left\\{\\begin{array}{ll}x / 2 &amp; \\text { if } x \\text { is even } \\\\ (x+1) / 2 &amp; \\text { if } x \\text { is odd }\\end{array}\\right.$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq11,goclasses,discrete-mathematics,functions,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425523",
+          "text": "<p>The functions mapping $R$ into $R$ are defined as :<br><br>$f\\left(x \\right)=x^{3} - 4x, g\\left(x \\right)=\\frac{1}{x^{2}+1}$ and $h\\left(x \\right)=x^{4}.$<br><br>Then find the value of the following composite functions :<br><br>$h_{o}g\\left(x \\right)$ and $h_{o}g_{o}f\\left(x \\right)$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\left ( x^{2}+1 \\right )^{4}$ and $\\left [ \\left ( x^{3}-4x \\right )^{2}+1 \\right ]^{4}$<br>&nbsp;&nbsp;&nbsp;&nbsp;</li><li>$\\left ( x^{2}+1 \\right )^{4}$ and $\\left [ \\left ( x^{3}-4x \\right )^{2}+1 \\right ]^{-4}$<br> </li><li>$\\left ( x^{2}+1 \\right )^{-4}$ and $\\left [ \\left ( x^{2}-4x \\right )^{2}+1 \\right ]^{4}$<br> </li><li>$\\left ( x^{2}+1 \\right )^{-4}$ and $\\left [ \\left ( x^{3}-4x \\right )^{2}+1 \\right ]^{-4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq11,goclasses,discrete-mathematics,functions,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425528",
+          "text": "<p>If we define the functions $f$, $g$ and $h$ that map $R$ into $R$ by :<br><br>$f(x)=x^{4}, g(x)= \\sqrt{x^{2}+1}, h(x)=x^{2}+72$, then the value of the composite functions $ho(gof)$ and $(hog)of$ are given as</p><ol style=\"list-style-type:upper-alpha\"><li>$x^{8}-71$ and $x^{8}-71$<br> </li><li>$x^{8}-73$ and $x^{8}-73$<br> </li><li>$x^{8}+71$ and $x^{8}+71$<br> </li><li>$x^{8}+73$ and $x^{8}+73$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq11,goclasses,discrete-mathematics,functions,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425534",
+          "text": "<p>Let f and g be the functions from the set of integers defined by $f(x) = 2x+3$ and $g(x) =3x+2$. Then the composition of f and g and g and f is given as</p><ol style=\"list-style-type:upper-alpha\"><li>$6x+7$, $6x+11$<br> </li><li>$6x+11$, $6x+7$<br> </li><li>$5x+5$, $5x+5$<br> </li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A,B",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq11,goclasses,discrete-mathematics,functions,function-composition,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "425522",
+          "text": "<p>Define $f(n)=\\frac{n}{2}+\\frac{1-(-1)^{n}}{4}$ for all $n \\in \\mathbb{Z}$. Thus, $f: \\mathbb{Z} \\rightarrow \\mathbb{Z}, \\mathbb{Z}$ the set of all integers. Which is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>$f$ is not a function from $\\mathbb{Z} \\rightarrow \\mathbb{Z}$ because $\\frac{n}{2} \\notin \\mathbb{Z}$.<br> </li><li>$\\mathrm{f}$ is a function and is not onto but is one-to-one.<br> </li><li>$f$ is a function and is not onto and not one-to-one<br> </li><li>$f$ is a function and is onto but not one-to-one.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_cs_wq11,goclasses,discrete-mathematics,functions,two-marks",
+          "category": "Set Theory & Algebra"
+        }
+      ]
+    }
+  ]
+}

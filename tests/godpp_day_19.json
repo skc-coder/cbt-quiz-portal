@@ -1,0 +1,70 @@
+{
+  "name": "Day 18 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "473036",
+          "text": "<p>What will be the output the following:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\n#include&lt;conio.h&gt;\nvoid main()\n{\n    int *i, *j, a=12, b=2, c ;\n    c= (a=a+b, b=a/b, a=a*b, b=a-b);\n    i= &c;\n    printf (\"%d\",--(*i));\n}\n</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>93</li><li>91</li><li>92</li><li>90</li></ol><p>&nbsp;</p>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 18"
+        },
+        {
+          "post_id": "473034",
+          "text": "<p>Consider the following C code:</p><p>What will be the final values of $x$ and $y$ after the if statement is executed?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int x = 4, y = 0;\nif ((x = 0) && (y = 10)) {\n    // some code\n}\n</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$x$ is 4 and $y$ is 0</li><li>x is 0 and y is 10</li><li>x is 0 and y is 0&nbsp;</li><li>Syntax Error</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 18"
+        },
+        {
+          "post_id": "473032",
+          "text": "<p>Consider the following C program:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nvoid main()\n{\nint a, b, c;\na = 2;\nb = 2 * (a++);\nc = 2 * (++a);\nprintf(\"b = %d \\n c = %d\", b, c);\n}\n</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$b=4, c=6$</li><li>b $=3, c=8$</li><li>$b=3, c=6$</li><li>$b=4, c=8$</li></ol><p>&nbsp;</p><p>&nbsp;</p>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 18"
+        },
+        {
+          "post_id": "473030",
+          "text": "<p>What will be the output of following program?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\n#include&lt;conio.h&gt;\nvoid main()\n{\n&nbsp; &nbsp; int i, j, k;\n\n&nbsp; &nbsp; j=5;\n\n&nbsp; &nbsp; i= 2*j/2;\n\n&nbsp; &nbsp; k=2*(j/2);\n\n&nbsp; &nbsp; printf(\"i=%d \\n k=%d\", i, k);\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$i=5, k=5$</li><li>$i=5, k=4$</li><li>$i=4, k=4$</li><li>$i=4, k=5$ &nbsp;</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 18"
+        },
+        {
+          "post_id": "473028",
+          "text": "<p>Which of the following operators has the lowest precedence in C?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>++ (post-increment)</li><li>% (modulus)</li><li>II (logical OR)</li><li>() (parentheses)</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 18"
+        }
+      ]
+    }
+  ]
+}

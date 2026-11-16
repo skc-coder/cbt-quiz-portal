@@ -1,0 +1,70 @@
+{
+  "name": "Day 89 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "487769",
+          "text": "<p>A Perfectly balanced binary search tree (BST) contains 15 distinct integers.<br><br>The largest element is stored at the rightmost node of the tree.<br><br>Which of the following elements cannot be the direct parent of the largest element?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The 2nd largest element<br>&nbsp;</li><li>The 3rd largest element<br>&nbsp;</li><li>The 4th largest element<br>&nbsp;</li><li>The 5th largest element</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 89"
+        },
+        {
+          "post_id": "487771",
+          "text": "<p>You are given a sorted array of $n$ locations on a highway where charging stations are present. You need to select $k$ of these locations to install new fast chargers. The goal is to maximise the minimum distance between any two selected locations. Let $L$ be the total length of the highway segment (i.e., pos[n-1] - pos[0]).</p><p>Which algorithmic paradigm is best suited for solving this optimisation problem efficiently, and what is its time complexity?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Dynamic Programming with a state for location and number of chargers used, resulting in a complexity of $O(n \\cdot k)$.<br>&nbsp;</li><li>A greedy approach where you iteratively place chargers at the furthest possible valid locations, with a complexity of $O(n \\cdot k)$.<br>&nbsp;</li><li>Binary searching on the answer (the minimum distance), where each check is performed by a greedy scan. The total complexity is $O(n \\log L)$.<br>&nbsp;</li><li>A Divide and Conquer approach similar to the closest pair of points problem, with a complexity of $O(n \\log n)$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 89"
+        },
+        {
+          "post_id": "487763",
+          "text": "<p>The time complexity of a recursive algorithm is given by the recurrence relation:</p><p>$$<br>\\begin{aligned}<br>& T(n)=\\sqrt{n} T(\\sqrt{n})+n \\\\<br>& T(n)=1 \\text { for } n \\leq 2<br>\\end{aligned}<br>$$</p><p><br>What is the best asymptotic upper bound for $T(n)$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$O(n \\log n)$<br>&nbsp;</li><li>$O(n)$<br>&nbsp;</li><li>$O(n \\log \\log n)$<br>&nbsp;</li><li>$O\\left(n^2\\right)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 89"
+        },
+        {
+          "post_id": "487768",
+          "text": "<p>Consider a scheduling problem with $n$ tasks and $k$ distinct resources. Each task $i$ is represented by a tuple ( $s_{-} i, f_{-} i, r_{-} i$ ), where $s_{-} i$ is the start time, $f_{-} i$ is the finish time, and $r_{-} i \\in 1,2, \\ldots, k$ is the ID of the single resource it requires. The objective is to select the maximum number of tasks to execute, with the constraint that no two tasks using the same resource can overlap in time.</p><p>Which of the following greedy strategies guarantees an optimal solution for this problem?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Sort all tasks by their start times in increasing order. Iterate through the sorted tasks and schedule a task if its required resource is free during its time interval.<br>&nbsp;</li><li>Sort all tasks by their duration $\\left(f_{-} i-s_{-} i\\right)$ in increasing order. Iterate through the sorted tasks and schedule a task if its required resource is free.<br>&nbsp;</li><li>Sort all tasks by their finish times in increasing order. Iterate through the sorted tasks and schedule a task if its start time is after the finish time of the last scheduled task on that same resource.<br>&nbsp;</li><li>For each of the $k$ resources, independently find the optimal schedule for the tasks requiring that resource, and then combine the results.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 89"
+        },
+        {
+          "post_id": "487766",
+          "text": "<p>You are given a rod of length $n$ and an array prices where prices[i] is the selling price of a piece of length i . A fixed cost c is incurred for every cut made. Let $P[i]$ be the maximum profit from a rod of length $i$. Which of the following descriptions accurately represents the calculation for $P[i]$ ? (Assume $P[0]=0$ ).</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P[i]=\\max _{1 \\leq j \\leq i}(\\operatorname{prices}[j]+P[i-j]-c)$<br>&nbsp;</li><li>$P[i]=\\max \\left(\\operatorname{prices}[i], \\max _{1 \\leq j&lt;i}(P[j]+P[i-j]-c)\\right)$<br>&nbsp;</li><li>$P[i]=\\max \\left(\\operatorname{prices}[i]-c, \\max _{1 \\leq j&lt;i}(P[j]+P[i-j])\\right)$<br>&nbsp;</li><li>$P[i]=\\left(\\max _{1 \\leq j \\leq i}(\\operatorname{prices}[j]+P[i-j])\\right)-c$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 89"
+        }
+      ]
+    }
+  ]
+}

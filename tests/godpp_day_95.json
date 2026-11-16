@@ -1,0 +1,70 @@
+{
+  "name": "Day 92 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "488430",
+          "text": "<p>A DMA controller transfers data from an I/O device to main memory using cycle stealing. The CPU is running at a frequency of $50$ MHz . The I/O device transfers data at a rate of $500 \\mathrm{~KB} / \\mathrm{s}$ (Kilobytes per second). The DMA controller transfers data one word ($4$ bytes) at a time. If one memory cycle takes one CPU clock cycle, what percentage of CPU cycles are stolen by the DMA controller?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.256 \\%$<br>&nbsp;</li><li>$2.56 \\%$<br>&nbsp;</li><li>$1.28 \\%$<br>&nbsp;</li><li>$0.128 \\%$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 92"
+        },
+        {
+          "post_id": "488427",
+          "text": "<p>An instruction set architecture is implemented using two different processor designs:</p><p>&nbsp;</p><ul><li><p>P1: A single-cycle processor with a clock period of $10 \\ \\text{ns}$ .</p></li><li><p>P2: A multi-cycle processor with a clock period of $2 \\ \\text{ns}$ .</p></li></ul><p>&nbsp;</p><p>On the multi-cycle processor (P2), instructions are categorized with the following cycle counts:</p><p>&nbsp;</p><ul><li><p>ALU instructions: $4$ cycles</p></li><li><p>Load/Store instructions: $5$ cycles</p></li><li><p>Branch instructions: $3$ cycles</p></li></ul><p>&nbsp;</p><p>For a program with an instruction mix of $50 %$ ALU, $25 %$ Load/Store, and $25 %$ Branch instructions, which processor is faster and by what factor?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>P1 IS FASTER BY A FACTOR OF $1.25$.<br>&nbsp;</li><li>P2 IS FASTER BY A FACTOR OF $1.25$.<br>&nbsp;</li><li>P1 IS FASTER BY A FACTOR OF $1.5$.<br>&nbsp;</li><li>P2 IS FASTER BY A FACTOR OF $1.5$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 92"
+        },
+        {
+          "post_id": "488426",
+          "text": "<p>In a system where multiple I/O devices are connected using a daisy-chaining scheme for interrupt handling, three devices, D1, D2, and D3 are connected in that order of proximity to the CPU (D1 is closest). If all three devices request an interrupt at the same time, how is the priority resolved?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The device physically farthest from the CPU (D3) gets the highest priority.<br>&nbsp;</li><li>The CPU polls each device to determine the highest-priority request.<br>&nbsp;</li><li>The device physically closest to the CPU (D1) gets the highest priority.<br>&nbsp;</li><li>All requests are serviced in a round-robin fashion.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 92"
+        },
+        {
+          "post_id": "488423",
+          "text": "<p>A processor has a $5$-stage instruction pipeline: Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB). The clock cycle time is $1$ ns. Assume that the pipeline has no data forwarding mechanism. An instruction's result is written to the register file in the WB stage and can be read by another instruction only in the subsequent clock cycles.</p><pre>Consider the following sequence of instructions:\n\nI1: ADD R1, R2, R3 (R1 - R2 + R3)\nI2: SUB R4, R1, R5 (R4 -R1-R5)\nI3: AND R6, R1, R7 (R6 \\leftarrow R1 AND R7)\nI4: OR R8, R4, R9 (R8 - R4 ORR9)\n</pre><p><br>The total time (in nanoseconds) required to execute this sequence of instructions is $\\_\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "13",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 92"
+        },
+        {
+          "post_id": "488425",
+          "text": "<p>A processor uses 16-bit instructions and has a byte-addressable memory. It has a post-increment register indirect addressing mode, $\\mathrm{(Rx)+}$, which first fetches the operand from the memory location pointed to by $\\mathrm{R_x}$ and then increments $\\mathrm{R_x}$ by the size of the operand (in this case, $2$ bytes for a $16$ -bit word).</p><p>Before executing the instruction $\\mathrm{ADD R3, (R1)+}$, the state is as follows:</p><ul><li>Register $\\mathrm{R1= 0 \\times 1000}$<br>&nbsp;</li><li>Register $\\mathrm{R3 =0 \\times 3000}$<br>&nbsp;</li><li>$\\mathrm{Memory[0x1000]}$ $=0 \\times 20$<br>&nbsp;</li><li>Memory $[0 \\times 1001]=0 \\times 00$ (So the 16 -bit word at $0 \\times 1000$ is $8 \\times 2000$ )</li></ul><p>Which of the following statements is/are TRUE after the execution of the instruction?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The value in register R3 will be $0 \\times 5000$.<br>&nbsp;</li><li>The instruction performs the operation $\\mathrm{R} 3+\\mathrm{R} 3+\\mathrm{M}[\\mathrm{R} 1], \\mathrm{R} 1=\\mathrm{R} 1+2$.<br>&nbsp;</li><li>The value in register R1 will be $0 \\times 1002$.<br>&nbsp;</li><li>The value in register R1 will be $0 \\times 1001$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 92"
+        }
+      ]
+    }
+  ]
+}

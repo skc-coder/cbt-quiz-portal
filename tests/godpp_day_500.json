@@ -1,0 +1,70 @@
+{
+  "name": "Day 347 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543900",
+          "text": "<p data-start=\"4590\" data-end=\"4651\">A demand-paging system has $4$ physical frames $P1,P2,P3,P4$.</p><p data-start=\"4653\" data-end=\"4684\">The page-reference sequence is:</p><p data-start=\"4686\" data-end=\"4725\">$A,\\ B,\\ C,\\ D,\\ E,\\ B,\\ A,\\ D,\\ B,\\ C$</p><p data-start=\"4727\" data-end=\"4759\">Initially, all frames are empty.</p><p data-start=\"4761\" data-end=\"4801\">Two replacement policies are considered:</p><ol data-start=\"4803\" data-end=\"4818\"><li data-section-id=\"1qxtfrl\" data-start=\"4803\" data-end=\"4809\">LRU<br>&nbsp;</li><li data-section-id=\"ghxwup\" data-start=\"4810\" data-end=\"4818\">Clock</li></ol><p data-start=\"4820\" data-end=\"4948\">For Clock, on a page fault, <strong data-start=\"4848\" data-end=\"4909\">advance the clock hand first and then inspect the use bit.</strong></p><p data-start=\"4950\" data-end=\"5022\">Which option correctly gives the final contents of frames $P1,P2,P3,P4$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5024\" data-end=\"5071\">LRU: $(C,B,A,D)$<br>Clock: $(E,B,A,C)$<br>&nbsp;</li><li data-start=\"5073\" data-end=\"5120\">LRU: $(E,B,C,D)$<br>Clock: $(C,B,A,D)$<br>&nbsp;</li><li data-start=\"5122\" data-end=\"5169\">LRU: $(C,A,B,D)$<br>Clock: $(E,C,A,B)$<br>&nbsp;</li><li data-start=\"5171\" data-end=\"5218\">LRU: $(E,B,A,C)$<br>Clock: $(C,B,A,D)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 347"
+        },
+        {
+          "post_id": "543902",
+          "text": "<p data-start=\"8633\" data-end=\"8701\">A paged virtual-memory system has the following measured parameters:</p><p>\\[<br>\\begin{array}{|l|l|}<br>\\hline<br>\\textbf{Measurement} & \\textbf{Value} \\\\<br>\\hline<br>P_t = \\text{probability of a TLB miss}&nbsp;<br>& 0.1 \\\\<br>\\hline</p><p>P_p = \\text{probability of a page fault when a TLB miss occurs}&nbsp;<br>& 0.0002 \\\\<br>\\hline</p><p>T_t = \\text{time to access TLB}&nbsp;<br>& 0 \\\\<br>\\hline</p><p>T_m = \\text{time to access memory}&nbsp;<br>& 1\\ \\text{microsecond} \\\\<br>\\hline</p><p>T_d = \\text{time to transfer a page to/from disk}&nbsp;<br>& \\begin{array}{l}<br>10\\ \\text{milliseconds} = \\\\<br>10000\\ \\text{microseconds}<br>\\end{array} \\\\<br>\\hline</p><p>P_d = \\text{probability page is dirty when replaced}&nbsp;<br>& 0.5 \\\\<br>\\hline<br>\\end{array}<br>\\]</p><p data-start=\"8633\" data-end=\"8701\">Additional assumptions:</p><ul data-start=\"9172\" data-end=\"9513\"><li data-section-id=\"11ya5mu\" data-start=\"9172\" data-end=\"9220\">The TLB is refilled automatically by hardware.<br>&nbsp;</li><li data-section-id=\"7iz1r6\" data-start=\"9221\" data-end=\"9297\">On a TLB miss, one memory access is required to read the page-table entry.<br>&nbsp;</li><li data-section-id=\"1yae5t8\" data-start=\"9298\" data-end=\"9365\">If a page fault occurs, the required page must be read from disk.<br>&nbsp;</li><li data-section-id=\"eo6pxo\" data-start=\"9366\" data-end=\"9433\">If the selected victim is dirty, it must also be written to disk.<br>&nbsp;</li><li data-section-id=\"hhwht2\" data-start=\"9434\" data-end=\"9513\">Other page-replacement and page-table-update overheads are included in $T_d$.<br>&nbsp;</li></ul><p data-start=\"9515\" data-end=\"9575\">What is the <strong data-start=\"9527\" data-end=\"9557\">average memory access time</strong>, in microseconds?</p>",
+          "type": "Numerical",
+          "answer": "1.4",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 347"
+        },
+        {
+          "post_id": "543897",
+          "text": "<p data-start=\"1108\" data-end=\"1215\">Suppose a $32K \\times 8K$ matrix $A$ with $1$-byte elements is stored in row-major order in virtual memory.</p><p data-start=\"1217\" data-end=\"1224\">Assume:</p><ul data-start=\"1226\" data-end=\"1379\"><li data-section-id=\"l8ds9t\" data-start=\"1226\" data-end=\"1271\">Only this program occupies physical memory.<br>&nbsp;</li><li data-section-id=\"4vl7ht\" data-start=\"1272\" data-end=\"1319\">The matrix begins exactly at a page boundary.<br>&nbsp;</li><li data-section-id=\"ihajdt\" data-start=\"1320\" data-end=\"1354\">The matrix is initially on disk.<br>&nbsp;</li><li data-section-id=\"xl9fyi\" data-start=\"1355\" data-end=\"1379\">Demand paging is used.<br>&nbsp;</li></ul><p data-start=\"1381\" data-end=\"1412\">The following code is executed:</p><pre data-start=\"1414\" data-end=\"1521\" data-rawcode=\"for (i = 0; i &lt; 32768; i++)     for (j = 0; j &lt; 8192; j++)          A[i][j] = A[i][j] * A[i][j];\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">for (i = 0; i &lt; 32768; i++)\n    for (j = 0; j &lt; 8192; j++)\n         A[i][j] = A[i][j] * A[i][j];</pre><p data-start=\"1523\" data-end=\"1606\">If execution of this code produces exactly $8K$ page faults, what is the page size?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1608\" data-end=\"1659\">$4$ KB<br>&nbsp;</li><li data-start=\"1608\" data-end=\"1659\">$8$ KB<br>&nbsp;</li><li data-start=\"1608\" data-end=\"1659\">$16$ KB<br>&nbsp;</li><li data-start=\"1608\" data-end=\"1659\">$32$ KB</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 347"
+        },
+        {
+          "post_id": "543899",
+          "text": "<p data-start=\"2646\" data-end=\"2714\">A virtual-memory system uses the <strong data-start=\"2679\" data-end=\"2686\">LRU</strong> page-replacement algorithm.</p><p data-start=\"2716\" data-end=\"2777\">There are four physical page frames at hexadecimal addresses:</p><p data-start=\"2779\" data-end=\"2806\">$4000,\\ 5000,\\ 6000,\\ 7000$</p><p data-start=\"2808\" data-end=\"2839\">The page-reference sequence is:</p><p data-start=\"2841\" data-end=\"2984\">$1 \\rightarrow 2 \\rightarrow 3 \\rightarrow 4 \\rightarrow 2 \\rightarrow 5 \\rightarrow 3 \\rightarrow 1 \\rightarrow 6 \\rightarrow 5 \\rightarrow 4$</p><p data-start=\"2986\" data-end=\"3056\">For the initial references $1,2,3,4$, the pages are loaded as follows:</p><p data-start=\"2986\" data-end=\"3056\">\\[<br>\\begin{array}{|c|c|}<br>\\hline<br>\\text{Page} & \\text{Frame Address} \\\\<br>\\hline<br>1 & 4000 \\\\&nbsp;<br>2 & 5000 \\\\<br>3 & 6000 \\\\<br>4 & 7000 \\\\<br>\\hline<br>\\end{array}<br>\\]</p><p data-start=\"3164\" data-end=\"3244\">At which address is page $4$ loaded when it is referenced for the <strong data-start=\"3230\" data-end=\"3243\">last time</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3246\" data-end=\"3256\">$4000$<br>&nbsp;</li><li data-start=\"3258\" data-end=\"3268\">$5000$<br>&nbsp;</li><li data-start=\"3270\" data-end=\"3280\">$6000$<br>&nbsp;</li><li data-start=\"3282\" data-end=\"3292\">$7000$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 347"
+        },
+        {
+          "post_id": "543884",
+          "text": "<p data-start=\"819\" data-end=\"897\">Which of the following statements about page-replacement policies are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"899\" data-end=\"951\">LRU always produces fewer page faults than FIFO.<br>&nbsp;</li><li data-start=\"953\" data-end=\"1001\">OPT always performs at least as well as LRU.<br>&nbsp;</li><li data-start=\"1003\" data-end=\"1115\">For any replacement policy, increasing the number of available frames can never decrease the hit percentage.<br>&nbsp;</li><li data-start=\"1117\" data-end=\"1208\">With LRU, increasing the number of available frames cannot decrease the hit percentage.<br>&nbsp;</li><li data-start=\"1210\" data-end=\"1258\">Random replacement is always worse than LRU.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 347"
+        }
+      ]
+    }
+  ]
+}

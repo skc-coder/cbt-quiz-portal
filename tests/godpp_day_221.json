@@ -1,0 +1,70 @@
+{
+  "name": "Day 213 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524337",
+          "text": "<p>Let $A$ be a matrix with $\\operatorname{det}(A)=2$. Let $B$ be the matrix obtained after performing the following elementary row operations:</p><ol><li>scaling of $\\text{row-1}$ by&nbsp;$5,$<br>&nbsp;</li><li>adding $3$ times $\\text{row-3}$ to $\\text{row-1},$<br>&nbsp;</li><li>swapping of $\\text{row-2}$ and $\\text{row-3}.$<br>&nbsp;</li></ol><p>$\\operatorname{det}(B)=$ $\\_\\_\\_\\_$</p>",
+          "type": "Numerical",
+          "answer": "-10",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 213"
+        },
+        {
+          "post_id": "524335",
+          "text": "$\\text {What is the determinant of the following matrix?}$<br>\n\\begin{aligned}<br>\n&A=\\left[\\begin{array}{lll}<br>\n101 & 102 & 103 \\\\<br>\n201 & 202 & 203 \\\\<br>\n301 & 302 & 303<br>\n\\end{array}\\right]<br>\n\\end{aligned}",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 213"
+        },
+        {
+          "post_id": "524333",
+          "text": "<p>Let \\(A\\) be an \\(m\\times n\\) matrix with \\(\\operatorname{rank}(A)=r\\).</p><p>Which of the following matrices also have rank \\(r\\)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>\\(\\begin{bmatrix} A\\\\ A \\end{bmatrix}_{2m\\times&nbsp;n}\\)<br><br>&nbsp;</li><li>\\(\\begin{bmatrix} A & A \\end{bmatrix}_{m\\times 2n}\\)<br><br>&nbsp;</li><li>\\(\\begin{bmatrix} A & A\\\\ A & 0 \\end{bmatrix}_{2m\\times 2n}\\)<br><br>&nbsp;</li><li>None</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 213"
+        },
+        {
+          "post_id": "524330",
+          "text": "<p>Consider the following system of linear equations:<br><br>$x_1+2x_2-3x_3+4x_4=b_1,$<br><br>$2x_1+5x_2-2x_3+x_4=b_2,$<br><br>$5x_1+12x_2-7x_3+6x_4=b_3,$<br><br>where \\(b=\\begin{bmatrix}b_1 & b_2 & b_3\\end{bmatrix}^T\\).<br>&nbsp;</p><p>Which of the following statements is/are TRUE?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>For \\(b=\\begin{bmatrix}2&1&3\\end{bmatrix}^T\\), the system has no solution.<br>&nbsp;</li><li>If \\(b_3=b_1+2b_2\\), the system has a unique solution.<br>&nbsp;</li><li>If \\(b_3=b_1+2b_2\\), the system has infinitely many solutions.<br>&nbsp;</li><li>There exists a unique solution for \\(b_1=b_2=b_3=0\\).</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 213"
+        },
+        {
+          "post_id": "524321",
+          "text": "<p>Let \\(A\\) be a \\(4\\times 4\\) matrix such that each row of \\(A\\) is a permutation of \\(\\{1,2,3,4\\}\\).<br>Let \\(B\\) be a \\(4\\times 4\\) matrix such that each row of \\(B\\) is a permutation of \\(\\{-1,-2,-3,6\\}\\).<br>Select the right option.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Both \\(A\\) and \\(B\\) <strong>can be</strong> invertible.<br>&nbsp;</li><li>Both \\(A\\) and \\(B\\) <strong>cannot be</strong> invertible.<br>&nbsp;</li><li>\\(A\\) <strong>can be</strong> invertible but \\(B\\) <strong>cannot be</strong> invertible.<br>&nbsp;</li><li>\\(B\\) <strong>can be</strong> invertible but \\(A\\) <strong>cannot be</strong> invertible.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 213"
+        }
+      ]
+    }
+  ]
+}

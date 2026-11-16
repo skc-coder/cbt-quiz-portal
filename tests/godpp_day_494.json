@@ -1,0 +1,70 @@
+{
+  "name": "Day 341 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543414",
+          "text": "<p>The following virtual-to-physical address translations are observed for a process. All addresses are $32$ bits long.</p><p>\\[<br>\\begin{array}{c|c}<br>\\text{Virtual address} & \\text{Physical address} \\\\<br>\\hline<br>\\texttt{0x00080AF0} & \\texttt{0x00101AF0} \\\\<br>\\texttt{0x00002224} & \\texttt{0x00083224} \\\\<br>\\texttt{0x00073234} & \\texttt{0x00183234}<br>\\end{array}<br>\\]</p><p data-start=\"1336\" data-end=\"1394\">Which page size is consistent with all three translations?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1396\" data-end=\"1412\">Only $64$ KB<br>&nbsp;</li><li data-start=\"1414\" data-end=\"1429\">Only $4$ KB<br>&nbsp;</li><li data-start=\"1431\" data-end=\"1458\">Both $64$ KB and $4$ KB<br>&nbsp;</li><li data-start=\"1460\" data-end=\"1490\">Neither $64$ KB nor $4$ KB</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 341"
+        },
+        {
+          "post_id": "543015",
+          "text": "<p data-start=\"7502\" data-end=\"7595\">A processor experiences a TLB miss while translating an address using a two-level page table.</p><p data-start=\"7597\" data-end=\"7680\">What is the number of main-memory accesses required only for the page-table lookup?</p><p data-start=\"7682\" data-end=\"7751\">Do not include the final access to the requested instruction or data.</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 341"
+        },
+        {
+          "post_id": "543017",
+          "text": "<p>Which of the following statements about multi-level page tables are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>A multi-level page table may consume more pages than a linear page table for some address-space usage patterns.<br>&nbsp;</li><li>Page-table memory is generally easier to allocate because lower-level tables are divided into separate page-sized chunks.<br>&nbsp;</li><li>Without a TLB hit, a multi-level page-table lookup generally requires more lookup accesses than a linear page table.<br>&nbsp;</li><li>Systems with larger virtual-address spaces commonly use more page-table levels.<br>&nbsp;</li><li>A TLB reduces the amount of memory occupied by the multi-level page table.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 341"
+        },
+        {
+          "post_id": "543011",
+          "text": "<p data-start=\"4659\" data-end=\"4672\">A system has:</p><ul data-start=\"4674\" data-end=\"4891\"><li data-section-id=\"17cy42n\" data-start=\"4674\" data-end=\"4702\">$15$-bit virtual addresses<br>&nbsp;</li><li data-section-id=\"3i0lbv\" data-start=\"4703\" data-end=\"4726\">Page size $=32$ bytes<br>&nbsp;</li><li data-section-id=\"11lnidv\" data-start=\"4727\" data-end=\"4751\">A two-level page table<br>&nbsp;</li><li data-section-id=\"19k9fg0\" data-start=\"4752\" data-end=\"4776\">One-byte PDEs and PTEs<br>&nbsp;</li><li data-section-id=\"1f7du3l\" data-start=\"4777\" data-end=\"4850\">Entry format: one valid bit followed by a $7$-bit physical-frame number<br>&nbsp;</li><li data-section-id=\"1yp11a\" data-start=\"4851\" data-end=\"4891\">Page-directory base register $PDBR=73$<br>&nbsp;</li></ul><p data-start=\"4893\" data-end=\"4936\">The required physical-memory pages contain:</p><p data-start=\"4938\" data-end=\"5053\">Page $6:$</p><pre><code>0a 1c 01 14 0b 1a 19 0a\n0a 1a 0c 14 02 0c 1c 0c\n15 04 0e 13 17 11 08 05\n08 07 04 13 0f 1d 0f 1e</code></pre><p data-start=\"5055\" data-end=\"5171\">Page $73:$</p><pre><code>a2 d2 97 96 d9 7f 87 b4\nb7 f2 f4 82 bf 7f be 93\ne8 9d 99 9e f1 7f 7f b0\nd8 da eb b1 81 c3 c2 f6</code></pre><p data-start=\"5173\" data-end=\"5290\">Page $114:$</p><pre><code>7f 7f 7f 7f 82 7f 7f 7f\n7f 7f 7f 7f 99 7f 7f 7f\n7f 7f 7f 86 7f 7f 7f 7f\n7f 7f 8f 7f 7f 7f 7f 7f</code></pre><p data-start=\"5292\" data-end=\"5375\">What happens when the processor loads from virtual addresses $\\texttt{0x1787}$ and $\\texttt{0x2665}$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"103\" data-end=\"134\">Both addresses generate faults.<br>&nbsp;</li><li data-start=\"136\" data-end=\"221\">$\\texttt{0x1787}$ generates a fault, while $\\texttt{0x2665}$ returns $\\texttt{0x1A}$.<br>&nbsp;</li><li data-start=\"223\" data-end=\"308\">$\\texttt{0x1787}$ returns $\\texttt{0x1A}$, while $\\texttt{0x2665}$ generates a fault.<br>&nbsp;</li><li data-start=\"310\" data-end=\"395\" data-is-last-node=\"\" data-is-only-node=\"\">$\\texttt{0x1787}$ generates a fault, while $\\texttt{0x2665}$ returns $\\texttt{0x86}$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 341"
+        },
+        {
+          "post_id": "543008",
+          "text": "<p data-start=\"2879\" data-end=\"2966\">Which statement correctly describes the purpose of the valid bit in a page-table entry?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2968\" data-end=\"3081\">It indicates whether the page has been modified. An invalid-bit access causes the page to be written to disk.<br>&nbsp;</li><li data-start=\"3083\" data-end=\"3224\">It indicates whether the translation may be used by the process. Access through an invalid entry causes the MMU to generate an exception.<br>&nbsp;</li><li data-start=\"3226\" data-end=\"3343\">It indicates whether the page was recently referenced. Access through an invalid entry always produces a TLB hit.<br>&nbsp;</li><li data-start=\"3345\" data-end=\"3442\">It indicates that the page is read-only. Access through an invalid entry is silently ignored.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 341"
+        }
+      ]
+    }
+  ]
+}

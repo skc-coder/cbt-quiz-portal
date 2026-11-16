@@ -1,0 +1,70 @@
+{
+  "name": "Day 302 [Programming in C]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "536026",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  void fun(int a[], int *p) {     a[1] = a[1] + 5;     *(p + 2) = *(p + 2) + 10;      p++;     *p = *p + 1; }  int main() {     int arr[] = {1, 2, 3, 4};      fun(arr, arr);      printf(&quot;%d %d %d %d&quot;, arr[0], arr[1], arr[2], arr[3]);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nvoid fun(int a[], int *p) {\n    a[1] = a[1] + 5;\n    *(p + 2) = *(p + 2) + 10;\n\n    p++;\n    *p = *p + 1;\n}\n\nint main() {\n    int arr[] = {1, 2, 3, 4};\n\n    fun(arr, arr);\n\n    printf(\"%d %d %d %d\", arr[0], arr[1], arr[2], arr[3]);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{1 7 13 4}$<br>&nbsp;</li><li>$\\texttt{1 8 13 4}$<br>&nbsp;</li><li>$\\texttt{1 8 3 4}$<br>&nbsp;</li><li>$\\texttt{1 7 3 4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 302"
+        },
+        {
+          "post_id": "536024",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a[] = {10, 20, 30};     int *p = a;      printf(&quot;%d &quot;, *p++);     printf(&quot;%d &quot;, *p);     printf(&quot;%d&quot;, ++*p);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a[] = {10, 20, 30};\n    int *p = a;\n\n    printf(\"%d \", *p++);\n    printf(\"%d \", *p);\n    printf(\"%d\", ++*p);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{10 20 21}$<br>&nbsp;</li><li>$\\texttt{10 20 20}$<br>&nbsp;</li><li>$\\texttt{11 20 21}$<br>&nbsp;</li><li>$\\texttt{10 21 21}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 302"
+        },
+        {
+          "post_id": "536022",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a[] = {3, 5, 7, 9};      printf(&quot;%d %d %d&quot;, *(a + 1), 2[a], *(2 + a));      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a[] = {3, 5, 7, 9};\n\n    printf(\"%d %d %d\", *(a + 1), 2[a], *(2 + a));\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{5 7 7}$<br>&nbsp;</li><li>$\\texttt{5 2 7}$<br>&nbsp;</li><li>$\\texttt{7 7 5}$<br>&nbsp;</li><li>$\\texttt{Compilation error}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 302"
+        },
+        {
+          "post_id": "536020",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int a[] = {2, 4, 6, 8};     int *p = a;      p = p + 2;      printf(&quot;%d %d&quot;, *p, p[-1]);      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int a[] = {2, 4, 6, 8};\n    int *p = a;\n\n    p = p + 2;\n\n    printf(\"%d %d\", *p, p[-1]);\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{6 4}$<br>&nbsp;</li><li>$\\texttt{6 6}$<br>&nbsp;</li><li>$\\texttt{4 6}$<br>&nbsp;</li><li>$\\texttt{8 6}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 302"
+        },
+        {
+          "post_id": "536016",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int main() {     int arr[] = {10, 20, 30};     int *p = arr;      printf(&quot;%d %d&quot;, *p, *(arr + 2));      return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint main() {\n    int arr[] = {10, 20, 30};\n    int *p = arr;\n\n    printf(\"%d %d\", *p, *(arr + 2));\n\n    return 0;\n}</pre><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{10 20}$<br>&nbsp;</li><li>$\\texttt{10 30}$<br>&nbsp;</li><li>$\\texttt{20 30}$<br>&nbsp;</li><li>$\\texttt{Compilation error}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming in C",
+          "day": "Day 302"
+        }
+      ]
+    }
+  ]
+}

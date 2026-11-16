@@ -1,0 +1,134 @@
+{
+  "id": "go27_quiz_69",
+  "name": "GO Classes GATE CS | Theory of Computation |  Countability | Weekly Quiz 11",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 10,
+  "apti_marks": 0,
+  "technical_marks": 15,
+  "total_marks": 15,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "532602",
+          "text": "<p>Cantor's diagonalization argument constructs, for any given function $f: \\mathbb{N} \\rightarrow \\mathcal{P}(\\mathbb{N})$, a associated diagonal set $D_{f} \\subseteq \\mathbb{N}$ defined explicitly as:<br>$$<br>D_{f}=\\{x \\in \\mathbb{N} \\mid x \\notin f(x)\\}<br>$$<br>Let $\\mathbb{N}=\\{0,1,2,3, \\ldots\\}$ denote the set of natural numbers. Consider the following two functions from $\\mathbb{N}$ to its power set $\\mathcal{P}(\\mathbb{N})$ :<br><br>$f_{1}(x)=\\{y \\in \\mathbb{N} \\mid y$ has the same parity as $x\\} \\quad$ (i.e., both are even or both are odd)<br><br>$f_{2}(x)=\\{y \\in \\mathbb{N} \\mid y&gt;x\\}$<br><br>Which of the following statements regarding their diagonal sets $D_{f_{1}}$ and $D_{f_{2}}$ is/are true? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>The diagonal set $D_{f_{1}}$ is empty (i.e., $D_{f_{1}}=\\emptyset$ ).<br> </li><li>$1 \\in D_{f_{2}}$.<br> </li><li>The diagonal set $D_{f_{2}}$ is countably infinite.<br> </li><li>The diagonal set $D_{f_{2}}$ contains all natural numbers except 0 .</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq79,goclasses,theory-of-computation,countable-uncountable-set,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "532607",
+          "text": "<p>Let $A$ and $B$ be two non-empty sets. Consider the following three assertions expressed in first-order logic symbols, where $|A|$ and $|B|$ denote the cardinalities of sets $A$ and $B$, respectively:</p><p>$\\mathbf{I.}$ $\\exists f: A \\rightarrow B \\quad \\forall a_{1} \\in A \\quad \\forall a_{2} \\in A\\left(a_{1} \\neq a_{2} \\rightarrow f\\left(a_{1}\\right) \\neq f\\left(a_{2}\\right)\\right)$</p><p>$\\mathbf{II.}$ $\\exists f: A \\rightarrow B \\quad \\forall b \\in B \\quad \\exists a \\in A(f(a)=b)$</p><p>$\\mathbf{III.}$ $\\exists f: A \\rightarrow B \\quad \\forall b \\in B \\quad \\exists a \\in A\\left(f(a)=b \\wedge \\forall a^{\\prime} \\in A\\left(a \\neq a^{\\prime} \\rightarrow f\\left(a^{\\prime}\\right) \\neq b\\right)\\right)$</p><p><br>Which of the following describes the set cardinality relationships implied by Statements $\\mathbf{I}$, $\\mathbf{II}$, and $\\mathbf{III}$ in order?</p><p> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathbf{I:}$&nbsp;$|A| \\geq|B|, \\quad$ $\\mathbf{II:}$ $|A| \\leq|B|, \\quad$ $\\mathbf{III:}$ $|A|=|B|$<br> </li><li>$\\mathbf{I:}$ $|A| \\leq|B|, \\quad$ $\\mathbf{II:}$ $|A| \\geq|B|, \\quad$ $\\mathbf{III:}$ $|A|=|B|$<br> </li><li>$\\mathbf{I:}$&nbsp; $|A| \\leq|B|, \\quad$ $\\mathbf{II:}$ $|A| \\leq|B|, \\quad$ $\\mathbf{III:}$ $|A| \\neq|B|$<br> </li><li>$\\mathbf{I:}$ $|A|=|B|, \\quad$ $\\mathbf{II:}$ $|A| \\geq|B|, \\quad$ $\\mathbf{III:}$ $|A| \\leq|B|$</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq79,goclasses,theory-of-computation,countable-uncountable-set,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "532606",
+          "text": "<p>Let $\\mathbb{R}$ denote the set of real numbers, $\\mathbb{Z}$ denote the set of integers, and let $U=\\mathcal{P}(\\mathbb{R})$ be the power set of $\\mathbb{R}$ (meaning the elements of $U$ are subsets of $\\mathbb{R}$).</p><p>Consider the following two statements:</p><p>$\\mathbf{Statement\\ I}$: For all subsets $X$ and $Y$ in $U$, if $X$ and $Y$ have the same cardinality $(|X|=|Y|)$, then $X$ and $Y$ must be the identical set $(X=Y)$.</p><p>$\\mathbf{Statement\\ II}$: There exist two subsets $A$ and $B$ in $U$ such that both $A$ and $B$ contain the set of integers as a subset $(\\mathbb{Z}\\subseteq A \\text{ and } \\mathbb{Z}\\subseteq B)$, yet $A$ and $B$ have strictly different cardinalities $(|A|\\neq|B|)$.</p><p>Which of the following is correct ?</p><ol style=\"list-style-type:upper-alpha\"><li>Both Statement $\\mathbf{\\ I}$ and Statement&nbsp;$\\mathbf{\\ II}$&nbsp;are false.<br> </li><li>Statement $\\mathbf{\\ I}$ is true, but Statement $\\mathbf{\\ II}$&nbsp;is false.<br> </li><li>Statement $\\mathbf{\\ I}$ is false, but Statement $\\mathbf{\\ II}$ is true.<br> </li><li>Both Statement $\\mathbf{\\ I}$ and Statement $\\mathbf{\\ II}$&nbsp;are true.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq79,goclasses,theory-of-computation,countable-uncountable-set,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "532604",
+          "text": "<p>Let $\\mathbb{N}$ denote the set of all natural numbers $\\{1,2,3, \\ldots\\}$. Which of the following statements is/are true? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>If $A_{1}, A_{2}, \\ldots, A_{n}$ is a finite collection of countable sets, then their Cartesian product $A_{1} \\times A_{2} \\times \\cdots \\times A_{n}$ is also countable.<br> </li><li>If there exists an injective function $f: A \\rightarrow \\mathbb{N}$, then the set $A$ must be countable.<br> </li><li>If there exists a surjective function $f: \\mathbb{N} \\rightarrow A$, then the set $A$ must be countable.<br> </li><li>If $A_{n}$ is a countable set for every $n \\in \\mathbb{N}$, then their countable union $A=\\bigcup_{n=1}^{\\infty} A_{n}$ is also countable.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq79,goclasses,theory-of-computation,countable-uncountable-set,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "532608",
+          "text": "<p>Consider the following two mathematical assertions regarding an arbitrary set $Y$, where $|Y|$ denotes the cardinality of $Y, Y \\times Y$ denotes its Cartesian product, and $\\mathcal{P}(Y)$ denotes its power set:<br><br>$\\textbf{Statement I:}$ There exists a set $Y$ such that $|Y| \\neq|Y \\times Y|$.<br><br>$\\textbf{Statement II:}$ There exists a set $Y$ such that $|Y| \\neq|\\mathcal{P}(Y)|$.<br><br>Which of the following option is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>Both Statement $\\mathbf{I}$ and Statement $\\mathbf{II}$ are false.<br> </li><li>Statement $\\mathbf{I}$&nbsp;is true, but Statement $\\mathbf{II}$ is false.<br> </li><li>Statement $\\mathbf{I}$&nbsp;is false, but Statement $\\mathbf{II}$&nbsp;is true.<br> </li><li>Both Statement $\\mathbf{I}$&nbsp;and Statement $\\mathbf{II}$ are true.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq79,goclasses,theory-of-computation,countable-uncountable-set,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "532599",
+          "text": "<p>Let $\\mathbb{Z}^{+}$denote the set of positive integers, and let $\\aleph_{0}$ represent its cardinality (countably infinite). For any arbitrary non-empty sets $A, B$, and $C$, let $|A|$ denote the cardinality of set $A$, and let $A-B$ denote the set difference.<br><br>Which of the following is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If $A$ is an infinite set, then there exists a subset $S \\subseteq A$ such that $|S|=\\aleph_{0}$.<br> </li><li>There is no infinite set $A$ such that $|A|&lt;\\aleph_{0}$.<br> </li><li>The set cardinality relation $\\leq$ satisfies transitivity: if $|A| \\leq|B|$ and $|B| \\leq |C|$, then $|A| \\leq|C|$.<br> </li><li>If $A$ is an uncountably infinite set and $B$ is a countable set, then the set difference $A-B$ must be uncountably infinite.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq79,goclasses,theory-of-computation,countable-uncountable-set,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "532603",
+          "text": "<p>Let $A$ and $B$ be two non-empty sets, and let $|A|$ and $|B|$ denote their respective cardinalities. We wish to prove that the two sets have same cardinality, i.e., $|A|=|B|$. Which of the following conditions, considered independently, is/are sufficient to establish the claim? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>Proving that there exists a bijective function $f: A \\rightarrow B$.<br> </li><li>Proving that there exists a bijective function $f: B \\rightarrow A$.<br> </li><li>Proving that there exist two injective (one-to-one) functions $f_{1}$ : $A \\rightarrow B$ and $f_{2}: B \\rightarrow A$.<br> </li><li>Proving that there exist two surjective (onto) functions $f_{1}: A \\rightarrow B$ and $f_{2}: B \\rightarrow A$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq79,goclasses,theory-of-computation,countable-uncountable-set,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "532605",
+          "text": "<p>Let $\\mathbb{N}$ denote the set of natural numbers and $\\mathcal{P}(\\mathbb{N})$ denote its power set. Which of the following functions successfully serves as a valid example to establish the inequality $|\\mathcal{P}(\\mathbb{N})| \\leq|\\mathbb{N}|$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$g_{A}: \\mathcal{P}(\\mathbb{N}) \\rightarrow \\mathbb{N} \\quad$ where $\\quad g_{A}(x)= \\begin{cases}0 &amp; \\text { if } x=\\emptyset \\\\ 1 &amp; \\text { otherwise }\\end{cases}$<br> </li><li>$g_{B}: \\mathcal{P}(\\mathbb{N}) \\rightarrow \\mathbb{N} \\quad$ where $\\quad g_{B}(x)=20$<br> </li><li>$g_{C}: \\mathcal{P}(\\mathbb{N}) \\rightarrow \\mathbb{N} \\quad$ where $\\quad g_{C}(x)= \\begin{cases}\\min (x) &amp; \\text { if } x \\neq \\emptyset \\\\ 0 &amp; \\text { otherwise }\\end{cases}$<br> </li><li>None of the above, because no such function can exist.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_cs_wq79,goclasses,theory-of-computation,countable-uncountable-set,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "532601",
+          "text": "<p>Let $\\mathbb{N}=\\{0,1,2,3, \\ldots\\}$ denote the set of natural numbers, and let $\\mathcal{P}(\\mathbb{N})$ denote its power set. Which of the following functions successfully serves as a valid witness to establish the cardinality relationship $|\\mathbb{N}| \\leq|\\mathcal{P}(\\mathbb{N})|$ ? (Select all that apply)</p><ol style=\"list-style-type:upper-alpha\"><li>$f_{A}: \\mathbb{N} \\rightarrow \\mathcal{P}(\\mathbb{N}) \\quad$ where $\\quad f_{A}(x)=x^{2}$<br> </li><li>$f_{B}: \\mathbb{N} \\rightarrow \\mathcal{P}(\\mathbb{N})$ where $f_{B}(x)=\\left\\{x^{2}\\right\\}$<br> </li><li>$f_{C}: \\mathbb{N} \\rightarrow \\mathcal{P}(\\mathbb{N}) \\quad$ where $\\quad f_{C}(x)=\\left\\{y \\in \\mathbb{N} \\mid y \\neq x^{2}\\right\\}$<br> </li><li>$f_{D}: \\mathbb{N} \\rightarrow \\mathcal{P}(\\mathbb{N})$ where $f_{D}(x)=\\{x, x+1\\}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq79,goclasses,theory-of-computation,countable-uncountable-set,multiple-selects,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "532609",
+          "text": "<p>Let $A$ be a non-empty countable set, and let $f: B \\rightarrow A$ be a function from an arbitrary set $B$ to $A$. For each element $x \\in A$, let the preimage of $x$ under $f$ be denoted as:<br>$$<br>f^{-1}(x)=\\{b \\in B \\mid f(b)=x\\}<br>$$<br>If $f^{-1}(x)$ is a countable set for every $x \\in A$, which of the following is the correct conclusion regarding the<br>cardinality of the domain set $B$?</p><ol style=\"list-style-type:upper-alpha\"><li>$B$ must be an uncountably infinite set.<br> </li><li>$B$ must be a finite set.<br> </li><li>$B$ is guaranteed to be a countable set.<br> </li><li>The cardinality of $B$ cannot be determined.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_cs_wq79,goclasses,theory-of-computation,countable-uncountable-set,multiple-selects,one-mark",
+          "category": "Theory of Computation"
+        }
+      ]
+    }
+  ]
+}

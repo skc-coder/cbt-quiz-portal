@@ -1,0 +1,187 @@
+{
+  "name": "GATEBOOK-2019 DBMS2: Normalization",
+  "duration": "54",
+  "total_qs": "15",
+  "total_qs_one": 0,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "271100",
+          "text": "<p>$R(A,B,C,D,E)$ has the following functional dependencies.</p>\n\n<p>$A \\rightarrow BC$</p>\n\n<p>$CD\\rightarrow E$</p>\n\n<p>$B\\rightarrow D$</p>\n\n<p>$E\\rightarrow A$</p>\n\n<p>R is decomposed in to $(A,B,C)$ and $(A,D,E)$. Which of the following is true about the decomposition?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>&nbsp;It is lossless and dependency preserving</li>\n    <li>It is dependency preserving but not lossless</li>\n    <li>It is lossless but not dependency preserving</li>\n    <li>It is neither lossless nor dependency preserving</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271099",
+          "text": "<p>Consider the relation $R(A, B, C)$ with functional dependencies $A \\to B$ and $C \\to B.$ Which one of the following statements is TRUE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>R is in 2NF</li>\n    <li>It is not possible to decompose R into two relations losslessly while preserving all functional dependencies</li>\n    <li>It is not possible to decompose into three relations losslessly and with all functional dependencies preserved</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2,lossless-decomposition",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271098",
+          "text": "<p>Consider the following two sets of functional dependencies:</p>\n\n<p>$F=\\{A\\rightarrow C, \\: AC\\rightarrow D,&nbsp;E\\rightarrow AD,\\:E\\rightarrow H\\}$ and</p>\n\n<p>$G=\\{A\\rightarrow CD, \\:E\\rightarrow AH\\}$.</p>\n\n<p>Which of the following statement is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>F covers G but G does not cover F</li>\n    <li>G covers F but F does not cover G</li>\n    <li>F and G are equivalent</li>\n    <li>None of the above</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271097",
+          "text": "<p>Consider the relation $R(A,B,C,D)$ with functional dependencies $A\\rightarrow B , \\: BC\\rightarrow D$. Let $R1$ and $R2$ be decomposed relations such that&nbsp;$R1 \\cup R2&nbsp;= R.$ Which of the following is true about the decomposition?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>It is always $BCNF$</li>\n    <li>It is always $3NF$ but not necessarily $BCNF$</li>\n    <li>It is always $2NF$ but not necessarily $3NF$</li>\n    <li>It is always $1NF$ but not necessarily $2NF$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271096",
+          "text": "Consider a relation $R$ with attributes $A, B, C, D,$ and $E.$ The largest number of candidate keys that $R$ could simultaneously have is _____",
+          "type": "Numerical",
+          "answer": "10",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dbms2,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271095",
+          "text": "Let  $R_1, R_2, \\ldots, R_n$  be a decomposition of schema $U.$ Let $u(U)$ be a relation instance.<br />\nLet $r_i=\\Pi R_i(u)$<br />\n<br />\nWhich of the following statements is true?<br />\n&nbsp; &nbsp; <ol style=\"list-style-type:upper-alpha\"><li>  $u {\\subseteq } r_1 \\Join r_2 \\Join r_3 \\Join \\ldots r_n $<br />\n&nbsp; &nbsp; </li><li>  $u {\\supseteq} r_1 \\Join r_2 \\Join r_3 \\Join\\ldots r_n $<br />\n&nbsp; &nbsp; </li> <li> $u = r_1 \\Join r_2 \\Join r_3 \\Join\\ldots r_n $<br />\n&nbsp; &nbsp; </li>  <li>none of the above  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271094",
+          "text": "<p>Consider the following proof of Union rule derived from Axioms</p>\n\n<p>$A\\rightarrow BC \\text{ then } A\\rightarrow B \\text{ and } A\\rightarrow C$</p>\n\n<p>$\\text{Step 1: }&nbsp; BC \\rightarrow B \\text{and } BC \\rightarrow C$</p>\n\n<p>$\\text{Step 2: } A \\rightarrow BC \\text{and} BC \\rightarrow B \\text{then } A\\rightarrow B$</p>\n\n<p>$\\text{Step 3: } A \\rightarrow BC \\text{ and } BC\\rightarrow C \\text{ then } A\\rightarrow C$</p>\n\n<p>The Axioms used in the $\\text{step 1 , 2 , 3}$ are</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Augmentation, Transitive and Transitive</li>\n    <li>Augmentation, Transitive and Reflexive</li>\n    <li>Reflexive, Transitive and Transitive</li>\n    <li>Reflexive, Augmentation and Augmentation</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271093",
+          "text": "Maximum no of super keys a relation with $5$ attributes can have when it is already known that ABC is one of the candidate keys is _____?",
+          "type": "Numerical",
+          "answer": "25",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dbms2,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271092",
+          "text": "<p>Which one of the following statements is FALSE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$BCNF$ eliminates more redundant information than $3NF$</li>\n    <li>Some functional dependencies may become expensive to enforce in $BCNF$ as the conditions to enforce involve multiple relations</li>\n    <li>$3NF$ eliminates more redundant information than $BCNF$</li>\n    <li>Every decomposition which is in $BCNF$ is in $3NF$ also</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271091",
+          "text": "<p>$F = \\{A \\Rightarrow BC,\\: B\\Rightarrow C, \\: A\\Rightarrow B, \\: AB\\Rightarrow C\\}$ Which of the following is canonical cover of $F$?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\{A\\Rightarrow B, \\: B\\Rightarrow A\\}$</li>\n    <li>$\\{A\\Rightarrow B,\\: AB\\Rightarrow C\\}$</li>\n    <li>$A\\Rightarrow B,\\: A\\Rightarrow C\\}$</li>\n    <li>$\\{A \\Rightarrow B, \\: B\\Rightarrow C\\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2,database-normalization",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271089",
+          "text": "<table border=\"1\" cellpadding=\"1\" style=\"width:200px; border-spacing: 1px;\">\n    <tbody>\n        <tr>\n            <td>X</td>\n            <td>Y</td>\n            <td>Z</td>\n        </tr>\n        <tr>\n            <td>1</td>\n            <td>2</td>\n            <td>3</td>\n        </tr>\n        <tr>\n            <td>1</td>\n            <td>2</td>\n            <td>5</td>\n        </tr>\n        <tr>\n            <td>3</td>\n            <td>2</td>\n            <td>5</td>\n        </tr>\n        <tr>\n            <td>3</td>\n            <td>2</td>\n            <td>6</td>\n        </tr>\n    </tbody>\n</table>\n\n<p>Which one of the following functional dependencies does not hold for the relation whose instance is given in the table above?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$X\\Rightarrow Y$</li>\n    <li>$Z \\Rightarrow Y$</li>\n    <li>$XZ \\Rightarrow Y$</li>\n    <li>$YZ \\Rightarrow X$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2,functional-dependencies",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271088",
+          "text": "Consider the following functional dependencies for schema $R=(A,B,C,D,E)$\n\n$A \\rightarrow BC$\n\n$CD \\rightarrow  E$\n\n$B \\rightarrow  D$\n\n$E \\rightarrow  A$\n\nThe number of candidate keys in R is ______?",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dbms2,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271087",
+          "text": "<p>Given the database schema $R(a,b,c)$,&nbsp;and a relation $r$ on the schema $R$. To test whether the functional dependency $b \\rightarrow c$ holds on relation or not we need to write SQL query such that its result is non-empty if and only if $ b\\rightarrow c$ does not hold on $r$. Which of the following SQL query would be the right one?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nselect&nbsp;b&nbsp;from&nbsp;r&nbsp;group by&nbsp;b&nbsp;having count(c) &gt; 1</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">\nselect&nbsp;*&nbsp;from&nbsp;r&nbsp;group by&nbsp;b,c&nbsp;having count (*) &gt; 1\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nselect&nbsp;b&nbsp;from&nbsp;r&nbsp;group by&nbsp;b&nbsp;having count(distinct&nbsp;c&nbsp;) &gt; 1\n</pre>\n    </li>\n    <li>\n    <pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nselect&nbsp;b&nbsp;from&nbsp;r&nbsp;group by&nbsp;b&nbsp;having count(&nbsp;c&nbsp;) &gt; 1\n</pre>\n    </li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271085",
+          "text": "Consider a relation with schema $R(A,B,C,D)$ and FD's $AB\\to C,C\\to D,$ and $D\\to A.$ The number of super keys of $R$ which are not candidate keys is ______",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dbms2,numerical-answers",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "271083",
+          "text": "<p>Which of the following statements is TRUE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>If $AB \\rightarrow C$ and $ A \\rightarrow&nbsp; C$,&nbsp;then $B \\rightarrow C$</li>\n    <li>If $AB \\rightarrow&nbsp; C $ then $A \\rightarrow&nbsp; C$ or $B \\rightarrow&nbsp; C$</li>\n    <li>If $A\\rightarrow B$ then $B \\rightarrow&nbsp; A$</li>\n    <li>If $X$ and $Y$ are two sets of attributes then if&nbsp;$X {\\subseteq}Y$&nbsp;then&nbsp;$X^+ \\subseteq Y^+$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dbms2,functional-dependencies",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

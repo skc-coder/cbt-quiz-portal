@@ -1,0 +1,30 @@
+{
+  "name": "Day 244 [Mathematical Logic]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "528577",
+          "text": "<p>If $f: \\mathbb{Z} \\rightarrow \\mathbb{Z}$ is defined as $f(n)=11 n$ and $g: \\mathbb{Z} \\rightarrow \\mathbb{Z}$ is defined as $g(n)=(n) \\bmod 7$, then $(g \\circ f)(4)$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>4</li><li>7</li><li>44</li><li>2</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Mathematical Logic",
+          "day": "Day 244"
+        }
+      ]
+    }
+  ]
+}

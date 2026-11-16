@@ -1,0 +1,70 @@
+{
+  "name": "Day 210 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "523949",
+          "text": "<p>Let $A$ be a $3 \\times 3$ matrix such that</p><p>$$<br>A\\left[\\begin{array}{c}<br>2 \\\\<br>-1 \\\\<br>3<br>\\end{array}\\right]=\\left[\\begin{array}{l}<br>0 \\\\<br>0 \\\\<br>0<br>\\end{array}\\right] .<br>$$Then $A$ can have non-zero determinant.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>True<br>&nbsp;</li><li>False<br>&nbsp;</li></ol><p><em>NOTE$:$&nbsp;<strong>Enter \"$\\textbf0$\" if the statement is false, otherwise enter \"$\\textbf1$\".</strong></em></p>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 210"
+        },
+        {
+          "post_id": "523951",
+          "text": "<p>Consider a system of linear equations in $n$ unknowns. If the coefficient matrix of the system has rank $r$, then the number of pivot variables in the system is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$n-r$<br>&nbsp;</li><li>$r$<br>&nbsp;</li><li>$n+r$<br>&nbsp;</li><li>$n$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 210"
+        },
+        {
+          "post_id": "523954",
+          "text": "<p>Let $A$ be an $n \\times n$ real matrix. Which one of the following statements is equivalent to the condition that $A$ is invertible?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>For every $b \\in \\mathbb{R}^n$, the system $A x=b$ has at least one solution<br>&nbsp;</li><li>The homogeneous system $A x=0$ has infinitely many solutions<br>&nbsp;</li><li>If $A x=b$ is consistent for some $b \\in \\mathbb{R}^n$, then it has a unique solution<br>&nbsp;</li><li>For every $b \\in \\mathbb{R}^n$, the system $A x=b$ has exactly one solution</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 210"
+        },
+        {
+          "post_id": "523947",
+          "text": "<p>Let \\(A\\) be a \\(3 \\times 3\\) matrix such that<br>\\[<br>\\det(A)=2.<br>\\]</p><p>Which of the following statement(s) is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>\\(\\det(2A)=16\\)<br>&nbsp;</li><li>\\(\\det(3A)=54\\)<br>&nbsp;</li><li>\\(\\det(A^2)=4\\)<br>&nbsp;</li><li>\\(\\det(A^{-1})=\\dfrac{1}{2}\\)</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 210"
+        },
+        {
+          "post_id": "523944",
+          "text": "Let$$<br>\nA=\\begin{bmatrix}<br>\n1 & 1\\\\<br>\n2 & 3<br>\n\\end{bmatrix},\\quad<br>\nB=\\begin{bmatrix}<br>\n-2 & 1\\\\<br>\n4 & 3<br>\n\\end{bmatrix},\\quad<br>\nC=\\begin{bmatrix}<br>\n1 & 3\\\\<br>\n-1 & 4<br>\n\\end{bmatrix}<br>\n$$and $$<br>\nM=\\begin{bmatrix}<br>\n-1 & 8\\\\<br>\n-3 & 9<br>\n\\end{bmatrix}.<br>\n$$If $$<br>\nM=aA+bB+cC,<br>\n$$<br>\nwhere \\(a,b,c\\) are scalars, then the value of \\(a+b+c\\) is $\\_\\_\\_\\_\\_\\_\\_.$",
+          "type": "Multiple Select",
+          "answer": "1.99:2.01",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 210"
+        }
+      ]
+    }
+  ]
+}

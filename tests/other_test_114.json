@@ -1,0 +1,352 @@
+{
+  "name": "GATEBOOK-2019 Grand Test 3: Computer Networks",
+  "duration": "90",
+  "total_qs": "30",
+  "total_qs_one": 10,
+  "total_qs_two": 20,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 50,
+  "total_marks": 50,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 50,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "290857",
+          "text": "Which of the following is not part of the Ethernet frame?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Preamble<br /> </li><li>  CRC<br /> </li> <li> Source address<br /> </li>  <li> Type or Length  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290856",
+          "text": "Which of the following algorithm always guarantees that the transmitted packet is forwarded using minimum number of hops?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Link state routing<br /> </li><li>  Distance vector routing<br /> </li> <li> Flooding<br /> </li>  <li> Load shedding  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290855",
+          "text": "<p>Suppose a user turns on a computer, starts a browser, types http://www.thegatebook.in&nbsp;and hits ENTER. Which of the following protocols would probably NOT be used at any point to serve this request?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>HTTP</li>\n    <li>TCP</li>\n    <li>UDP</li>\n    <li>SMTP</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-cn,network-protocols",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290854",
+          "text": "<p>Which of the following statements is TRUE about network devices?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Ethernet switches will always send received frames out to all interfaces (except the one on which the packet was received).</li>\n    <li>Both IP routers and Ethernet hubs drop packets when there is congestion.</li>\n    <li>Ethernet switches learn the location of hosts on their network by observing the frames they process.</li>\n    <li>If an IP router doesn’t know the location of a destination IP address in a packet it receives, it will flood the packet out to all interfaces (except the one on which the packet was received).</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-cn,routers-bridge-hubs-switches",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290853",
+          "text": "Which of the following field of the IP header may not be used by destination's IP layer while doing the defragmentation?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Offset<br /> </li><li>  Identification<br /> </li> <li> More Fragment bit<br /> </li>  <li> Do not fragment  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290852",
+          "text": "Which of the following statements about datagrams sent by a node in a network using $IPv4$ protocol is (are) TRUE?<br />\n<br />\nI. Datagrams at the source must be the size of the smallest maximum transmission unit (MTU) of all the links on a path to the destination.<br />\nII. Datagrams may be fragmented during routing.<br />\nIII. Datagrams are reassembled only at the destination.<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  II only<br /> </li><li>  III only<br /> </li> <li> I and III<br /> </li>  <li> II and III  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290851",
+          "text": "Which utility would we use to test all $7$ OSI layers?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Ping<br /> </li><li>  Trace route<br /> </li> <li> Telnet<br /> </li>  <li> Show ARP  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290850",
+          "text": "Raju sends Rani a TCP packet containing a $\\text{2 byte}$ payload with sequence number $100$. If Rani receives it, with which acknowledgement number does she reply?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $99$<br /> </li><li>  $100$<br /> </li> <li> $101$<br /> </li>  <li> $102$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290849",
+          "text": "Which of the following is a stateless protocol ?<br />\nI. IP<br />\nII. HTTP<br />\nIII. TCP<br />\nIV. BGP<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Only I<br /> </li><li>  Only I and II<br /> </li> <li> Only II and IV<br /> </li>  <li> Only III and IV  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290848",
+          "text": "A server transmits one frame of a video every second, and the client starts playing the video at one frame per second as soon as the first frame arrives. Suppose the first ten frames arrive at times $0, 1.2, 1.99, 4.17, 4.01, 5.03, 8.05, 7.50, 8.90, 8.99,$ all in seconds. How many frames reach the client too late for playout?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $7$<br /> </li><li>  $3$<br /> </li> <li> $6$<br /> </li>  <li> $5$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290847",
+          "text": "Consider two links, $(A,B)$ and $(B,C)$, with propagation delays of $d1$ and $d2$, respectively. Assume that $\\text{host A}$ sends $\\text{M packets}$ to $\\text{host C}$ using a sliding window flow control protocol with a window of size $W$.<br />\nWhat is the minimum time it take to send all packets from $A$ to $C$ when the flow control protocol is implemented end-to-end between $A$ and $C$ ?<br />\nNote: Transmission delays are negligible<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $2(d1+d2) \\left \\lceil \\left ( \\dfrac{M}{W} \\right ) \\right  \\rceil$<br /> </li><li>  $(d1+d2) MW$<br /> </li> <li> $2(d1+d2)\\left \\lceil \\left ( \\dfrac{W}{M} \\right ) \\right  \\rceil$<br /> </li>  <li> $2(d1+d2)W$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290846",
+          "text": "Consider a link $(A,B)$ with bandwidth $\\text{1 Kbps}$ and propagation delay $\\text{300 msec}$ and stop and wait protocol is used from $A$ to $B$ and Acknowledgements are piggybacked. Frame size is same for $A$ and $B$ and it is $\\text{100 bits}$. Assume that $B$ always have the data to send to $A$.<br />\n<br />\nThe Throughput for $A$ in this model is ___________ $ \\text{Kbits/sec}$?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $200$<br /> </li><li>  $250$<br /> </li> <li> $333$<br /> </li>  <li> $125$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290845",
+          "text": "TCP is sending data at $\\text{1 megabyte per second}$. If the sequence number starts with $92000$, how long does it take before the sequence number goes back to zero?<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $7295.12$<br /> </li><li>  $6295.87$<br /> </li> <li> $7592.86$<br /> </li>  <li> $4294.87$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290844",
+          "text": "A computer on a $6-Mbps$ network is regulated by a token bucket. The token bucket is filled at a rate of $\\text{1 Mbps}$. It is initially filled to capacity with $\\text{8 megabits}$.<br />\nIf the system is initially idle for $\\text{2 sec}$ then how long can the computer transmit at the full $\\text{6 Mbps}$ speed?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\text{1.6 sec}$<br /> </li><li>  $\\text{2.6 sec}$<br /> </li> <li> $\\text{3.6 sec}$<br /> </li>  <li> $\\text{4 sec}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290843",
+          "text": "<img alt=\"GATEBOOK-2019 Grand Test CN-15\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAADECAYAAADnLViqAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AACAASURBVHic7J13VBTn98afXXrvvQmKiCBYMIpKjCWKPcYaeyTG2DXRWGOsiZpoLFF/tigm9t5b7BXFhiAKIr13gWXr3N8fxMmXqInKzs4C8zlnz+Gwu3OfnZ159n3vW66IiAgCAgICAhDzLUBAQEBAWxAMUUBAQOAvBEMUEBAQ+AvBEAUEBAT+QpdvAa+DiCCTyZCSkoK4uDg8e/YMGRkZKCgoQGZmZqXX6urqwt3dHcbGxnBxcYG/vz+8vLzg6OgIQ0NDnj6BwD9RqVQoLS1FWloanj59ioSEBOTm5iIrKwv5+fmVXmtsbAxra2vY2dnByckJ9evXR4MGDWBnZyd8pwKcojWGyDAMUlJScPHiRfz555/YuXNnlY5nbGyMPn364OOPP0abNm3g7u4OHR0dNakVeBtKS0vx5MkTXLlyBWfOnEFERASKi4vf+3ienp7o2LEjQkND0bJlSzg4OAjfqYBaEfE57YZhGGRlZeHw4cPYvn07IiIi3vhaPT091K1bFzo6OjA3N2ffX1paivLycjx//vxf39u4cWOEhYWhR48ecHZ2VvtnEahAKpUiNjYW+/fvx759+xAfH//G15qbm8PBwQEmJiYwMjICACiVSpSXlyMrKwt5eXn/GiskJARjxoxB+/btYW9vD5FIpNbPIlD74MUQGYZBcnIy1qxZg19++aWyIJEIdnZ2cHNzQ0BAAHr16oWAgAB4enr+6zGVSiWSk5Px9OlTHDlyBHfu3EFmZiaysrIqvc7U1BRffPEFJk6cCA8PD4jFQhpVHUgkEty6dQtr1qzByZMnIZfL2eeMjIzg4OCAOnXqIDg4GB07dkTDhg1hZ2f3ry280tJSJCUl4cGDB7hw4QLu3r2L1NRUFBYWVnqdh4cHPv/8cwwbNkzoCQhUDdIgKpWKUlJSaMKECQSAfYhEInJzc6MOHTrQlStXSKlUqiWeTCajS5cuUdeuXcnV1bVSTAsLC5o0aRKlp6erJVZtRSKR0J9//kmhoaGVzq+xsTH5+PjQlClTKDo6mhQKhVriFRQU0M6dO6lHjx5kZ2dXKaarqyvNnTuXEhMTSaVSqSWeQO1CI4bIMAyVl5fT5s2bycTEhL2AxWIx+fn50a5du0gul3OqQSKR0K5du6hu3bpkbGzManBycqJNmzZReXk5p/FrGgzD0PPnz2nEiBGVTMnc3Jz69u1Lly9fVpsJvonc3FxatmwZeXt7k4GBAauhXr16tHHjRiorK+M0vkDNg3NDfNkqbNSoUaUWobe3N509e5br8K8gk8nowoUL1KBBA1aPgYEBdevWTWgtviVSqZSOHDlCjRs3Zs+hiYkJDR48mB4+fEgMw2hUT0lJCa1bt44aNGhA+vr6rKahQ4dSfHy8xvUIVF84M0SGYUgul9PFixcrGaGLiwtt3bqV94u0qKiI1q1bR9bW1qy+OnXq0NmzZ3nXpq0wDEN5eXk0f/78Sj8mHTp04OXH7Z/k5ubSwoULycHBgdXXtGlTOn36tNrSMAI1G04MkWEYkslktHfv3kpmWLduXc67xu+CSqWiJ0+eUIcOHVidjo6OtH79esEU/wHDMJScnEyTJk1iz5WpqSnNnTtXq75TIqKrV69Sly5dSE9PjwCQu7s7/fHHH4IpCvwnnBhieXk5LVu2rFIrYtGiRVyEUgv5+fm0cOFCMjIyYgdcpkyZIpjiXzAMQ/Hx8TRq1KhKud/w8HC+pb2R3Nxcmjp1KhkaGhIAcnZ2pm3btgmmKPCvcGKIS5YsqdSKiLh1i4swaqW0tJTCt4Wzuu3s7GjFihV8y9IK4uPjKSwsjD03ISEhdOPGDb5l/SdSqZR+/uknsrS0JABkb29P27Zt41uWgBajdkO8dOkS+6tsYmJCV65cUXcIzng5WPDyxnd3d6fjx4/zLYtXMjMzac6cOWz3MyQkhK5fv863rLdGLpfT8uXLydnZmQCQp6cn7dmzh29ZAlqKWg3x+fPnZGpqWi3N8CUSiYT27NnD5j0DAgIoJSWFs3iMSkZXLh8jBwcHcrB1ox6dv6DcjDg6vfpzcrBzo759x1NKIT85upKSElq1ahX7A1fdzPAlEomEvvvuO7al2KJFC60YBBLQPtRmiEqlkoKCgggAGRoa0urVq9V1aI3CMAwVFxfTunXrCADp6upS+/btuQxISnkxnT66gdwCgun/InKJISXduR5Bw/rOpCeZpcRXKvP06dPk6+tLAKhJkyZ05MgRfoSogcLCQrbbr6+vT9OmTqOMjAy+ZQloGWozxP8dROnQoUO1HpBgGIbS0tLYG8jMzIzGjRvHaUxFSRqd/m0mdfhoGN2/d4f2zR9Lt1OKia+zeO/ePerZsyc7eX3p0qXVfvVHcnIyDRw4kACQpaUlbd68mW9JAlqGWgwxPT2drKysCAC5uLhQyYsSdRyWV1QqFUVERLAm7+/vTy9evOAwIkN5CXfpp5EtqWmnT+mPW6mk4ulHRSqV0qZNm8jExISMjIxo9OjRHH92zaBSqejAgQPUpEkTAkAdO3aka9eu8S1LQItQy84G69atYxfcT506FaZmpuo4LK+IxWL4+flhe/h2AEB8fDyGDRsG4mwvDBEsbGzg36wh8lOf43FSIcDT7i1RUVHYv38/ysrK4O/vj08//RRmZma8aFEnYrEYnTt3xgcffAAAuHnzJqKjo3lWJaBNVNkQc3JysG7dOgCAr68vxo8fX2VR2oKxsTGaf9AcgYGBkMlkiI+Pf2WnFXVBikLEPHmMs7nd8NvyKbiwbjpOPMrhJNa/IZPJ8PDhQ1y/fh0WFhZo37492rdvr3EdXGFiYoJRo0YhNDQUZWVlOHLkyL9uOydQu6iyIe7evZs1iTFjxkBXl9s9Z0klx/Ooc/C2tUenz45xGkskEqFOnTqYP38+ACArKwv/93//p/5ATDnu3byLVT/dxLzZvREc1BqTQx2wdsFcROdK1B/vX3j69ClOnz6N0tJS+Pr6olOnTtx+p0oZHlw5gUULv8fPm37H75tWYPCAnmgzZikOPCrgJKSfnx+7ndzly5dx//59TuIIVD+qbIj79u0DULEn3ZdfflllQf+FUlaOrIdXYevri8L7e8FwHM/AwACurq4AgPz8fOzevRvl5eVqOz6jKsHNa3vw2eAheJgXj9gCOZKyCxB+4hZuntiF6ZOnIUqDppiWloaHDx/CyMgIzZo1Q+vWrTmMpsDdC3sQvvsU7AP7YMqooRj6xSTMHdUbQW46yJEoOYlqaGiIAQMGoG3btpDJZMjMzKzSTt4CNYcqGWJSUhKuXbsGAGjWrBkMDAzUIuqNEIOSomycO3oH83/+Bumqx7iYq+I0pEgkgoeHB2bPng0AUCgUr2w6WxXEOmYI/nAE4lKzcPfSLrSwN4Cvf3OcvBaLYkkxTuxYiwA7Y7XF+zfKysrw9OlTPHv2DE5OTggICOD0O32RFoMzR68iT+mEdu38oAMAIh14teqOsMED0M7LnLPYjRs3hre3N1QqFf78809ERkZyFkug+lAlQzxz5gz79/Dhw6ss5r9glDLkpsThvrQzmjl6oodOBn7ZeIfzuFZWVugSGgoAKCkpwa1btziPyQc5OTnslv8eHh5o1qwZh9EISc+eIS4rE271XeFp9vcu13rGdmjk4YYGdtwVlDIxMWELVt24cQOPHj3iLJZA9aFKhvjgwQP27zZt2lRZzL9DkElKEH/rIrp/PwwmlrYI7R2I3E2bOO826+jowMS0YuQ8Ly+PTRPUNFJSUnD37l0AgK2tLby8vDiLRVAgPy8TL/IlsDK00Xi1M11dXQQHB8PX11fDkQW0mSoZYkpKCgCgXr16sLa2VougN0GMEoXZidh5KBF9g6yhb2IJ795DkWr6CDHy/36/upDJZEhISIBCodBcUA0hk8lQVlYGIyMjODs7w8rKisNoBJVCDpEc0BPpcxjnzdSvXx/u7u4AKsqkqlTcpl8EtJ8q/TCnpaUBADvowCVKqQTPbp7G/Yxy/PL99yBi8KIgF6LMAvy8LwHhg+tyGt/Y2Bh+fn6IiYkBEUGpVEJPT4/TmJpGKpXixYsXsLS0hIuLC6exRNCBnpEJGCMGEuULTmO9CQcHB/aHPD8/H8XFxZz/sAtoN1UyxKioKAAVZsEtBElpAW5di8b8E/vRv74JQITS3GR4Z1zBjtlbgME/cKrAxMQEzZo1Q0xMDB49eqSBz8wfderUgakp15PrdWBn5QALc0PkSvIgBaDpEvTGxsZsHjEvL08wRIGqT7sBwF5UXEEqJbISInHouTF61Dep+KdIBCNzS7T4rDuSTU4hoeb1YGs4Irh714O/myvSY1IQnSH96/+EvLjzWPT7bqyP0NzE9MOHD+PAgQOcTbwXqB6oxRC5zL0QEcpLcrFj1WqoRHqQSV8OoRAIIsh1TFCYUYDZm4XVBtUNU+eG6DmkN9xE6dj36x5kFZWjvCgd+3bux4nTtzWqJTc3F9OmTcOoUaNw7949MAzXQ3UC2kiVusxOTk7IzMxESUmJuvS8AqOUI+7cfjyS2cLVshSLFm3Az4vGgGGUyMiMxU+/P0Dnj5pC584WHOvUGD3qcjNvTqVSoaioCABgbm6Otm3b1riC6NnZ2YiOjoZKpapUaJ47dFC/eVfMXx2Ia8f3Y+GXA5GhMEJg69ZYPD0UDdy4m4cIVMwpVSorT/4+cOAAYmJiMH36dPTt21cDqYN/oCrD3fNncPPeYzx4HI+8/EwojNzw8YBhGNDpAzhZGGlWT22jKjtDvCzO1KhRI7XsNKHN3L9/n935JiAggGQyGd+S1M6pU6fIx8eHLC0tafbs2XzL4Zzo6Gh2i7P+/ftT7969K9UNHzZsGMXGxmp22zPJM5rabQit3niCcsoURKSi638sog9bfUjbTl4iSfXdVa9aUKUus5OTEwDg0aNHGmpR8I+Ojg6srKxq3AgzULFM0czMDEVFRXj+/DkkEs2uo9Y0CQkJSE9PBwAEBwdj+/btmDNnDntdb9++HUOGDMHhw4chlUr/7VDqw6gufjr+OyaM6go7Y10AYtRr3BjmYiOk5ctRquBqtyUBoIo5xAYNGrB/1+SZ/kTE5pRsbGzQp08fiHjamotLbG1t2U0PiouLkZmRybMi7mAYBufPn2cnogOAqakpZsyYgc2bNyMkJAR6enq4e/cu+vTpgxnTpyM9PZ3D7d/eBCE3OQmMmQkaOprCSr/mXXfaRJUMsVevXuzfK1eurLIYbaWkpAQ3btwAUJE/5H5VDj+4u7ujSZMmACrWqd++o9mBDU0ilUrZXo2lpWWl/R67du2KQ4cOYdq0abCxsQEArFq9GsOHD8fFixc1OilfUZKE8D/Oo26bT+DXKFDjK3pqG1VuIb5czfDo0SMefj25h4iQkJCACRMmAACMjIxQ39ubZ1XcYGFhAV9fXzg7OyMzMxOPHz+usaOt8fHxSE1NBQAMGjQInTp1qvS8jY0NFi9ejPXr1yMoKAi6uro4f/48Bg0ahM2bN6OoqIjz612lKMa2n5dC0iAUYYO7o75DzZ37qi1UyRB1dXURFhYGAOymojUNhmFQWloKoGJydvPmzdl1zTURR0dHNGjQAIWFhbh582aNTIWoVCps2bIFJ06cgJGREfz9/eHm5vba1/br1w8HDx5EWFgYjI2NkZ2djbFjx2LMmDGIioribMoZoyrDrp+/xyO9IHwxrB8CPbhcRinwkirPQxw5ciT798yZM6t6OK2CiJCens6mA1xdXTFr1iyeVXGLn58funXrBh0dHTx58gTnz5+vcS3/jIwM5OXlAahYlfNyEOVNuLm54ddff8XPP/+MunXrQiwWY/fu3ejVqxf27Nmj9gEXIhXOrP0R18u8MaR/TzSuI5ihxlDHUPXw4cPZqQq3I26r45BagVwup/PnzxMAEovF1LJlS1IoFHzL4pzLly9Ty5YtCQB16tSJoqOj+ZakNpRKJf3www9kY2NDOjo6tHz58nf6TmNjY6lXr16kr6/PXvOjRo2i+Ph4NVWaZCjp6h80evKPdPF2fEXVRYahpCt7acPJOxSbU/Ome2kTajHEmJiYStXpagIMw1BcXBwFBwcTAKpfvz7FxsbyLUsjFBYW0uLFiwkAWVlZ0Xfffce3JLURERFBnTp1IgDk5+f3XrWmZTIZzZ8/n+zt7dnr3tPTkw4ePEhKpbJqAhUpNKd/e7LVAXtsAKQLa5q8+iglF1fx+AL/ilqW7vn6+mLUqFEAgOjoaPz444/qOCyvlJWV4fLly7h58yaAisGU/51mVJOxsLBAmzZt0KpVKxQWFuLo0aM4dOgQ37KqzIsXL7B9+3ZcvHgRRkZGGPVFRbGpd0VfXx9z5szBvn372BILiYmJGDJkCBYuXIjs7Oz31pj/5A7upGch7x+pSTH0YWluAAMDtdyyAm9CXc6al5fH/prZ2dnRo0eP1HVojSOXy+ncuXNkYGBAYrGYPvjggxpRl/hdkMtk9Pv27WRra0s6OjrUtWtXioqK4lvWe6NQKGjJkiVkZ2dHAKhnz54UGRlZ5eMWFhbS1KlTydramgCQjo4OBQcH06VLl9SgWkDTqM0QiYjOnTtHAEgkEpGXlxdlZ2er8/AaQalU0q2bN8nKyooAkIuLC+3cuZNvWbyQnp5OU6dOJQCkr69PQ4cOpZycHL5lvRd79+6lRo0aEQCyt7enbdu2qSnnV/EDeuzYMWrWrBnbKLC2tqbVq1dTUVGRWmIIaAa1GqJKpaJFixaxptiwYUOSSqXqDMEpSqWSIm7dIltbWwJAZmZmNGbMGL5l8QbDMBQTE0ODBw8mAGRsbExjx46tdq3lffv2UUBAAAEgGxsb2rBhg9oHxxiGoYyMDOrduzdrinp6etSpUye6efOmWmMJcIdaDZGoomvSt29fdmQ2MDCwWrQUlUol3bp1i5ydndmL+eOPPya5XM63NF5RqVR0+fJlCgkJIQBkampKY8eOpYKCAr6lvRWnT5+mJk2asD9wS5cu5dTQyyXltH37dmrYsCFrjA4ODvTbb7+RRCLhLK6AelC7IRIR5efnU/fu3St1n7U5pyiVSun06dPk4uLCdg87d+5MpSUlfEvTCuRyOZ04cYICAwPZ8/Ppp59q9ai7TCaj8PBw8vHxIQBkYmJCM6ZPp4z0dM5jq1QqiomJoc6dO7OmaGZmRp9//jlFR0errasuoH44MUSGYaiwsJAGDRrEXhCGhoa0cuVKzW6l9BYUFBTQsmXLKiXFQ0JCqLCwkG9pWoVCoaCrV69Sx44dK6aB6OpS06ZN6fDhw3xLe4WsrCyaPXs2+51aW1vTvO/nUWZmpkZ1lJSU0M8//0weHh7sfeDu7k47d+6sVqmk2gQnhkhUYYovXrygKVOmsBeDjo4OdejQgZKTk7kK+9bI5XKKiIig9u3bV5rv9fLXfNy4cXxL1DpUKhXdv3+f+vXrx54rR0dHmjdvHuXm5vItj1QqFZ06dYo6duxIxsbGBIBsbW1pxYoVvA1uqFQqioiIoLZt27LnzNLSkqZMmUIJCQm8aBJ4M5wZIlGFKUqlUjpw4EAlw9HX16fJkyfz0gpjGIYyMzPpiy++YAdPdHR0yN/fn+bNm0d+fn7s1KEVK1ZoXJ+283LwYMaMGZW+Uw8PD1q5ciWVlpbyouvBgwcUFhbGtgoBUPPmzengwYNasZlvQUEBzZkzhxwcHFh9Pj4+dPDgQZJrgT6BCjg1xJeoVCpKSEhgdyd+mVt0c3OjadOmaaQro1Qq6dmzZzR27Fh24ORlbmnw4MH07NkzkkqldPz4cXZAqFGjRnT7ds1ZiqhOJBIJHT9+nIKCgioZo7e3N61atYry8/M516BUKikyMpJGjx5dyWgsLCzoyy+/pMePH2tVvk6pVNKJEyeodevWpKuryw64LFq0qNpOZ6ppaMQQXyKTyWjHjh1sovvlQ1dXl3r37k2HDx9WawvjZS7zwIED9Mknn7BzC1+OIjdr1oz27t1baSS5uLiY1qxZw7YcW7VqpZGbuzrCMAwlJSXR3Llz2QGpl486derQ5MmT6erVq1RWVqbWuBkZGbRp0yZq164dmZqaVoobEhJCx44dU3tMdZKUlERjx46tdD126dKFbt++XfWlfwJVQqOGSFRxE5WWltKSJUvY7uk/zbFr1640e/Zsun79+jtN71CpVJSTk0OXLl2iKVOmUGhoKFlYWFQ6/svucXh4+GtHkRmGoezs7EoTknv06KHOU1AjefbsGc2cOZNcXV1f+U7d3NyoT58+tGLFCrp///475fMUCgVlZmbS6dOnaebMmdSmTRuytLR8JUaLFi1o586d1WYwTC6X0+7du9nJ4vhrPfSmTZuqzWeoiYiI+NnbiYgglUpx8uRJbNu2DcePH3/t60QiEVxdXeHv7w9bW1tYWFhUep5hGBQVFaGkpATJycmIiop67XEMDQ3RqVMnDB40CN179PjXQvMMwyAuLg5hYWG4ceMGzMzMMGzYMPz666/v/4FrCSkpKTh48CB2796NqKgolJeXv/IaExMTeHl5wcvLC9bW1jAxMan0vFKpRGlpKXJzcxETE4O0tLTXxnJwcECnTp0wdOhQtGrV6pXjVAceP36MRYsW4fDhw+y5GjJkCGbNmgUfHx+IxcLaZY3CsyETUUXLLiUlhVauXEm9e/eutItIVR5GRkbUv39/Wr9+PSUlJb2zpsjISDY35erqSvv27dOqnJQ2U1ZWRrdv36ZFixbRhx9++ErX9n0fHh4e9Nlnn9Hvv/9OmZmZWjeN630oKyuj5cuXk7u7O/s5/f39ac+ePVQizIXVKLy1EN8E/dVyjI2NxcWLF/Hw4UPk5uYiMzMTDx8+fO17TE1N4e/vD3t7e9jZ2aFRo0b46KOP4OPjA0NDw/fWIpPJcObMGbZ2TP369XHw4EH4+fm99zFrIwzDoLCwEA8fPsS1a9fw9OlT5OTkID09Henp6Xjx4sUr73F0dISnpyfs7e1hb2+Ppk2bom3btvDw8PjX1n115vLly/jhhx9w5coVSKVSmJubY8SIEZg4cSK8vLxqZGEzrYNnQ34nGIahhISESq0FrikqKqJffvmFjenn56cVc+5qEmVlZZSVlUUZGRmUn59fq5dL5ufn09dff002NjbsNdeqVSs6e/YslZeX8y2vxlOtEhQikUjjORVzc3P07dsXQ4YMAVCx792UKVNqTR1qTWBsbAwHBwc4OTnB2tq6Rta8flusra2xfPlybNy4Ea1bt4aBgQFu3LiBAQMGYPny5cjKyuJbYo2mWhkiH7wc1JkzZw58fHwgkUhw+vRprFy5krMCQwICn376KXbt2oWhQ4fCwsIChYWFmDNnDr766ivcuX1bo6VQaxOCIb4l3t7e2L17NxwdHZGXl4e1a9fi1KlTNa4Ak4D24ObmhvXr12PVqlVo2rQp9PT0cOTIEXQODcXatWtRkJ/Pt8Qah2CIb4lYLIavry+2bNkCY2NjpKSk4JtvvsHTp0/5liZQg9HV1cXw4cOxZ88e9OnTByYmJigsLMSUKVPw9Tff4PHjx0JPRY0IhvgOGBgYoEWLFpg6dSp0dXURFxeHfv36obi4mG9pAjWcevXqITw8HPPmzYOrqysAIDw8HD179sSRI0deO99T4N0RDPEdsbGxQVhYGLp16wbg70EWIacjwDX6+vqYOnUqTp48iR49esDQ0BAJCQno06cP5syZg+TkZDAMw7fMao1giO+Bu7s7lixZAm9vb5SVleHEiRNYv369cDEKaIRGjRph//79mDZtGuzs7AAAK1asQI8ePXDmzBnIZDKeFVZfBEN8T+rXr489e/bA1tYWOTk5WLFiBS5dusS3LIFagr6+PhYsWIDDhw+jXbt20NPTw6NHj9C1a1csXrwYeXl5woDfeyAY4nsiFovh4+ODNWvWwMDAAMnJyZg5cyZSU1P5liZQi2jVqhVOnTqFfv36QV9fHwCwcOFCDBw4EA8fPhR6Le+IYIhVwNjYGO3atcOXX34JAHj06BGmf/stJGVlPCsTqE0YGBhgx44d2LNnD7us9Pz582jSpAl27NgBiUTCs8Lqg2CIVcTBwQGTJk1Cy5YtUV5ejnN//omly5bxLUugFvLJJ5/g1q1bGDhwILvaZ9iwYRg6dCiePHnCSxc6JycH8fHxKCkpqR6tVZ6XDr4ziYmJGl3L/Da8rF9cr149dmecdevW8S1LoJaiUCho7a9ryc3Vjb1XzM3N6cCBA2pfD52VlUW7du2iDh06kJOTE1lZWZG5uTmJxeI37kBlYWFB1tbWZGtrS1OmTKEbN25oRZkHIh42iK0q2miIRBUbfh47doysra1JJBJRkyZN6MaNG3zLEqilvNwIpUOHDqSnp8ea0bhx4yglJaVKxz537hy1bt2abG1tSUdHRy3buhkbG5ONjQ1NnDiRkpKSeNvWTeu2//ovkpKS4OnpCQDw8PBAUlISv4L+h7y8PGzcuBGzZ8+Grq4uPvroI/z+++9wdHTkW5pALaVcUo6ly5Zi/fr1yMnJAVAxyXv9+vX48MMP2YGY/yI9PR2jR49GZGQk8vLy3rg6pm3btmjVqhW8vb3h6OhYaaMOuVyOjIwMPHz4EDt37kRBQcEb47m4uGD27NkYMmQITE1NNbf1GS82XAW0tYX4kqSkJAoLCyMAZGpqSmFhYaRQKPiWJVCLUSqVdPXqVfL392fvHSsrK5o7d+5/FnhLTU2lAQMGkImJySutOl9fX1q6ZClFRkZSdnY2yWSyt95AmWEYkkgklJ6eTufOnaNp06aRmZnZKzFcXV1p1qxZlJ+fr5HNmQVDVDMMw9DDhw+pTZs2BFTUBZ4zZw7fsgQEqKCggEZ/OZoszP+uMxQUFEQRERGvFLcqKiqiQYMGsfWtXz48PT1p7dq1lJycTHK5XK0mVV5eTgkJCTRt2rRXdlh3dnamzZs3c17mVjBEDlAoFHThwgV2S/i6devS3r17+ZYlal5e4wAAIABJREFUIEByuZwOHTpE3t7e7H3k4OBAK1asoLy8PFKpVBQeHk6BgYFsqVQA1L59ezp37hyVlZVppKWWl5dHmzdvJk9Pz0oDNCEhIXT//n3Oel2CIXJEaWkpbd26lYCKSoKtW7emyMhIvmUJCBARUVpaGg0dOpTtphoZGVGrVq2oefPmlbrHTZs2pRMnTpBEIuFFZ1FREW3cuLFSyVY7OzvavHkzJ6VmBUPkkJycHJo/fz4BFeVMu3fvLpSYFNAaysvLadu2beTp6flK7s7MzIwWLlxI2dnZfMskoopc5qBBg8jIyIjVOHLkSLXXTBcMkUMYhqFnz57RkCFD2Its9OjRwiCLgFYRHh5OderUYe+rZs2a0blz50gqlfItrRJSqfSV1mLv3r0pMzNTbd14wRA5RqVS0Z07d6hZs2ZsvuaHH37gW5aAABERXbx4kRo2bMjeUwMHDqS4uDitLrd7+/ZtatSoETsHsnPnzmpryQqGqAFkMhmdPHmSnJ2dCQB5e3vT4cOH+ZYlUMu5f/8+tW3blp24/eWXX1JycjLfst6KuLg4atWqFTvwM3jwYMrLy6vycQVD1BAlJSW0adMmdpDlo48+ovj4eL5lCdRSUlJSqHv37mRgYEAAaMKECZSamsq3rHciMTGRQkJCWFMcN25clQd/BEPUIFlZWTRnzhwCQHp6etSjRw8q43helYDAP5HJZDRu3DiysKiYjzig/wB69uwZ37Lei0ePHlFAQADp6OiQubk5Xbp0qUo5emG3Gw1ib2+Pzz77DKGhoVAoFLh69SpmzZ7NtyyBWsb+/ftx6tQpFBcXo0WLFpg+Yzq8vLz4lvVe+Pv7Y968ebCyssKLFy8QFhaGFy9evPfOPoIhahCRSAQfHx/MnTsXvr6+KCoqwr59+/DLL7/wLU2glpCRkYHt27cjNTUVDg4OmDNnDho2bKi5tcIc0KtXL3z11VcwMzNDQkIC5syZA6lU+l7HEgxRw+jo6KBp06ZYunQprK2tkZWVhR07duD69et8SxOoBaxbtw6RkZFQKBQYOXIkgoKCYGBgwLesKiEWi/H111/D19cXIpEIe/fuRUF+/nu1EgVD5AEDAwO0a9cOP/30ExiGwd27dzF16lTk5ubyLU2gBpOUlISzZ88iPz8fgYGB6N+/f43ZicnKygpz586FkZER8vPzMXXatPfaKVwzhkgMVGW5eHrvAiJTSjQSUtsxNTVF586dMXnyZADArVu30KdPH6G+rgBn/Pbbb0hMTAQADBo0CO7u7hxEYXBw0xwEelrD2aUBOnXuht69e6P3J90R6OOK5u7fIi4mh4O4QIcOHeDq6gqRSISzZ89CJpO9cyuRU0MkIsgl+Ti+6juYObXGqNnrsXTfQy5DViucnZ3xxRdfoFOnTgAqarLMmjULSqWSZ2UCNQ2FQoGYmBi8ePECDRs2RMeOHWFtbc1BJDE+HTUbfTo2hX+zT7Hu/7bh0KFDOHT4OI5umANPFzsOYlZgaGiI77//HkZGRigoKMCpU6fe+V7S5UgbiAiy0jxsmNIfO576I6k4DvbVN2/LCSKRCL6+vpg7dy4ePXqEzMxMHDp0CAEBARgxYkS1TnQLaBd3795FfHw85HI5goODYWNjw2E0Xejq6eKfl69Tk1A0/CgKhqZ6r3+bGmjfvj10dStsbdasWejRo0elTWr/C25aiERgFBI8ObMCq69b4cLVNYIZvgGxWIzg4GD88ccfMDU1RXJyMtasWYPHMTFvfQxilCjOz8bDe/dw//4DxD9PgYxhUFyYh0f37uH+vQd4npDC4acQ0HbOnDmDrKwsABVdS3t7e41r0Leog3k/9oS7hxVnMRwdHdEquBV0dHRQVlamHV1mAqEsPw0TRmzF8A3/B0V+Fu7fu4+H956jVFYNKm9pGLFYjObNm2PlypXQ1dXF/fv3EfbFF+wF/F+IxDpQFKXjxPrvMGDkHFxMkMNALIKBuAz3Lu/CsMk/4p7CkuNPIaDNZGVlQSqVwsfHB/Xr14eRkZHmghODW5t/ws6biSiQcn//j/h8BAwMDJCfn4+srKx3qvbHjSEySuSl30KkqS4MY7cgMksPDX29cHXzMAQ4DOciZLXHzMwM7du3x2effQagIp84f978txxkEcHWowHaduyNBroqyA1NAYigo28AC7tABHt+gr4NzDnVL6C9qFQqxMbGoqSkBPXq1YOpqalG4j69uw0ft28B7/re6P3tGiRnF2kkbrNmzaCjowOgYrDyXfKIHBmiCsVxD6FnaIauQ2fgYz8bGBiZY+iPB6BvdYmLkDUCT09PTJw4Ed7e3pBIJDh2/BjWrl37xoI+ldA1gndTf3zU3BbPdp4FEYOsmCiUpNzCZ0v7cS9eQGvJy8uDTCYDUNGlNDQ01Ehcn2YjcO5CBOLjE3Bp20I0rGMPsQZSZ9bW1mz+/datW293//wFZzlEhawMJgZ68DF+eQZE0CcD9C4Upt38G0FBQQgPD4e9vT3S09Oxfft2nD59+i1yISJYuXjBpUVjxBZH4GlxCR4+Lse12w3RzpGzsTOBakBOTg5riE5OThozxP/Fp+dw9GrsAksD7mf6GRgYsIZ44MAByOXyt34vJ+pEYh1Y1KkPiVwFYarxuxMUFIRt27bBxMQEjx49wrKlyxD3NO4/36dnbI1G7i7wKInBis3nQLpJaLtISFEI/I2trS1vK1NUJcn4MnQlnj3O5DTOy+7y+8CNIerowqZuBzjmS3DpuQIAQGAgExVhr6Vm8hfVGT09PbRo0QJTp04FAFy5egUTJ01EXl7ef7xTFy51/RDk64WIHzYh5mgZBvqbcC9YQOB/ICghl8pBTOVeTeq9YygqloOh9zcsruHGECGGtZMvTh6fg1kfhyIqWw5paTpWDeuMrjP3cxGyxmFtbY2BAwdi4MCBAICbN29i/vz5/5kPMXOsA9eADyDy1IfB6M+FtZkCGkaFdd9/ha1HInDtwloEt/CDo6MjHB3t0aTndDzTFUFkyN08xKrCTXJJJIJYVx9ebT5H/OPBKJWUQaowxbf7omGoJ+Sz3hYfHx+MGjUKERERSExMxNGjR+Hj44Px48e/8T1iPQO42btiTIsGGPyRkwbVCmgr1tbW7OTkuLg4lJSUwNKSq2lYOhg3Pxzj5odzdPz/RiqVsjn31q1bsxO13wbuGhAiEURiMfQMDGFlZQUrKysY6esJqy/eAZFIhLZt22LNmjVwdHRESkoKfvvtN1w4f/6N7ykvykKCVILE4OEwFU61AAALCwvWEPPz899pkKE6UlLy98Ct9hiigFrQ0dFBSEgIZs6cCQCIjo7GTz//jNjY2L9fxJTj2Y1IHPrxAB7cuIdH52LxzYCGPCkW0DZMTU3h5eUFIyMjJCYmoqysjG9JnPL48WM2tRQcHCwYYk3D3NwcvXv3xuTJk6FQKHDx4kUsWLAAxcXFFS8gBjlpd7H8+wlY/lsMes+ZBjt94asV+BsXFxcYGRnh9u3bSE5OhkKh4FsSZ5w9exYKhQKWlpZo2LAhxOK3vxeEu6aa4ObmhmHDhqFjx46QyWS4ePEiVq1aVfFLqGOCVv1H45o8A/sPzIa/gzHfcgW0jMaNG8PKqmIN8cOHD//+Ma1hlJaUYsuWLZDL5TA1NYVYLH6nNJ1giNWIwMBAzJo1Cw0bNkR2dja2bduGLVu28C1LoBrQuXNnODg4AADOnTuH7OxsnhVxQ+TdSHap3qhRo955zqVgiNUIsViMli1b4vvvv4ezszMSExOxfv16nDt3jm9pAlqOpaUlmjdvDktLS1y5cgXR0dHvXXdEW2EYBqtWrYJMJoOZmRlGjBghGGJNx8jICO3bt8e4ceMAVCSQ165di6SkJH6FCWg9vXv3houLCwBg7969SE1N5VmReomLi8P58+ehVCphZWUFS0vLd57VIhhiNcTW1hYDBw7EqFGjIJfLce7cOSxYsADl71FDQqD20Lp1awQFBcHExARnz57F7du3a8yIs1KpxLT/qaOyY8cOmJi8+yotwRCrKZ6enhgzZgw6d+4MiUSCEydO4Keff+ZbloAWo6uriy+++AJ16tRBaWkpli1bhtjY2PeuYaxNHD16lN3Zpk2bNmjcuPF7rWkWDLGaIhKJ0Mi/ESZPngxvb2/k5ORg27Zt2LhxI9/SBLSYNm3a4JNPPoGNjQ2ioqKwcuVKtvBUdSUxMRELFixAQUEB7O3tsXnzZhgbv99MC8EQqzG6err48MMPMXv2bFhaWiI1NRW7du1CREQE39IEtJhJkyYhODgY+vr6OHLkCI4dO4bCwkK+Zb0XZaVlGDt2LGJjY8EwDEaOHAkPD493mnv4vwiGWM0xNjZGp06dMGbMGCiVSty8eRO//PILcnK4KfUoUP2xs7PDuLFj4enpidLSUixatAinT5+udvlEuVyOqdOm4sqVK5DL5WzjoEr7PVI1IzExkQAQAPLw8OBbjtbw7NkzGjlyJAEgY2NjCgsLI7lczrcsAS1m69at5OHhQQDIwcGBdu7cSaWlpXzLeiukUil98803ZGpqSgCobt269PTJU2IYpkrHFQyxhqBSqejmzZvUunVrAkCurq60fPlyvmUJaDFKpZJWrVpFLi4uBICsrKzot99+oxcvXvAt7V8pLi6mfv36kYGBAXut37lzhxQKRZWPLRhiDUIul9Oxo0fJ1dWVAFCDBg1oz549fMsS0GKUSiXNnTuX7OzsCACZmprStGnTKD09nW9pryUuLo46duxI+vr6rBnevXtXLWZIJBhijaO0tJS2bNlC5ubmpKOjQ507d6a4p3F8yxLQQmQyGe3du5fq1avH3lMvHx9//DHduHGDZDIZ3zKJiEihUNDuXbvJx8eHxGIxAaB69epRZGSk2syQSDDEGklGRgbNnDmTAJCuri717du32uSGBDRDVlYWjR8/nqysrAgAGRkZka+vLzk5OZGuri4BIDMzM1q0aBFlZGSQSqXiTWtSUhINGTKEjIyM2Hu/a9eulPg8Ue26BEOsocTExFDfvn3Zc9WzZ09SKpV8yxLgGaVSSZcuXSI/Pz/22rC2tqYFCxZQVlYWZWZm0sCBA8nExIR9vk6dOrRlyxYqKCjQqDGmpaXRjBkzyMzMjNViZ2dHS5Ys4SzPKRhiDUWlUtGpU6fIycmJAJCbmxutXLmS1196AX4pKSmhRYsWkaOjI3sP+fv704ULFyp1jZVKJW3dupUCAwNJT0+vUlf6xx9/pKSkJFIoFFUe0X0dUqmUHjx4QCNGjCBjY+NKsVu3bk0PHjxQaxf5nwiGWINRKBR06NAhsrS0JADUrFkzun79OicXssA/YUhakkVXDu+htbNGUp8uralR3eY0cuyPdDs2lRQqzX4HMdExFBoayo7MmpmZ0aRJkyglJeWN75FKpTR37lzy8vJiu9EvHy1atKANGzZQfHw8lZWVvfcPLcMwVFRURFFRUbRw4UJydnYmkUhUKZanpyft27ePysvL3/fjvzWCIdZwJBIJbd68mT1nvXr1orS0NL5l1QIYSrywhj7vMYn277v/13/y6ZvxQ6ndqB/oQmw+acISZTIZbdy4kdzd3dlrwMbGhvbu3UtlZWVvfYylS5eSt7f3K8b48tG+fXtavXo13bhxg5KSkignJ4eKi4qppKSESktLqbS0lAoLCyk3N5eeP39O58+fp/nz55OFhcVrj2diYkJubm50/NhxkkqlHJ+lvxEMsRaQnZ1N8+bNY8/boEGD3vpmEFAve7/8gvwDR9KmM0+I64xuUVER9e/fnx2M0NfXp+7du1N0dPR7t+j+/PNPatmyJVlaWrKjvep8WFpa0sSJEyktLY2X9I5giLWEBw8eUJcuXdgJuLNmzeI0FyPwGhgFLZg0hj6dtJyuPSviLIxKpaJz586Rr68ve6+YmprSxg0bqbi4WG1xoh5G0dixY8nT05OsrKzI0NDwle7uvz1MTU3JysqK7O3tafXq1VRcXMx7OkcoklxLCAwMxPjx43H16lUUFhbi6NGjCAwMRP/+/fmWVmt48XAXUqKz0XVATwTVMecszpdffok//vgDMpkMABAUFIRff/0VQUFB77Ul1ptoFNAIa9eurfS/pKQkREdHIzY2Fnl5eWAYptLz/v7+cHJygp9fRQF7depRC7za8XsgtBCrxu7du9m8Tdu2benWrVt8S6odFD+g8QNG0Kr1B6hYzk1XMDExkbp27Vopz7dgwQLKycnhJF5NRNjtppbRtWtXzJs3D4aGhrh27Rp++eUXZGVl8S2rZiNPxYRxm+H9UU+MCPsEZnrqv+1WrFiBkJAQnDx5EkqlEp6enjh79iymT58OW1tbtcerqQiGWMswMzNDly5dMGDAAKhUKhw5cgTz5s1DaWkp39JqJIyyEF9PWQr3tq3x2YieMNMV492qfPw7BQUFGDx4MGbPno20tDQAwKBBg3D27Fl06NAB+vr671xXpDYjGGItxMfHB8OGDUPTpk0hlUpx7NgxrF+//pV8j0DVIEaG3XMmwNqnIbp9+insDHUgEjFYO3k/Tu66B3kVTjcRYe/evfj444+xd+9etoLeqlWrsG7dOtStW/e9N0mtzQiDKrWUjz76CLNmzcLEiRORkZGBP/74A3Xr1sWnn37Kt7QaAiHv0WEci0zE7WeROBT+V/1sRoGS5EDMDZyC9224lZWV4euvv8bOnTvZln27du2wcOFCtPigBXT1hNv6fRHOXC1FLBaja9euKCwsxLRp0xAVFYU1a9bA3d0dQUFBfMurAShxc+txPL1xA8/LAST//YxR3QCo7I3eq3t27do1zJ8/H1evXoVMJoOhoSFmzpyJ0aNHs4XoBaoA36M674owyqxeMjMzacaMGQSADA0Nafjw4ZSZmcm3LIF/IJFIaPHixeTs7Mxe/z4+PnT48GGNLGmrLQgtxFqOo6MjBg8ejMTEROzZswcHDhyAubk5lixZ8t6VywTUS1RUFObNm4czZ85AIpHAxMQEw4cPx9dffw0vLy9h0ESNCIYoAD8/P4wdOxapqam4ceMGjhw5gnr16mHixIl8S6vVKBQK7NixAz/88APi4+MBAA4ODvjhhx/Qt29fmJtzN7m7tiIMQwlAJBIhODgYE8ZPgJOTE1JSUhAeHo4TJ07wLa3WkpqaiokTJ+Lrr79mzbBr1644evQohg0bJpghR2htC5GI8OLFCyQmJiIqKgrnz5+HVCpFcXEx+5rc3Fz06dMHYrEYNjY26NChA+rWrYt69eoJF8w7oqenh67duiI3Lxdz587FvXv3sHLlSri5uSEgIIBvebWKI0eOYNmyZYiMjIRcLoe9vT2mTp2K4cOHw97enm95NRoRERHfIoC/DfD8+fM4evQonj55ilsRt97rWPr6+mjSpAkCAgIQGhqKdu3awcrKSs2KayapqalYvnw5Vq1aBWNjYwwaNAiLFy9W640ok8mQn5+P3Nxc5ObmvjIpXCwWw8rKCs7OznB0dISJiYnaYmszBQUFWL16NTZu3IjMzEwAFeuQFyxYgHbt2lWt3rDA28HniA7DMPTixQsKDw+n0NDQN+6NVtWHoaEhffLJJ7R161Yq0fISi9rAgwcPqHfv3uzOODNnznzvPelkMhklPEug3377jUaOHElt2rRhK7y9zUNXV5e8vLyoR48eNG/ePLp06RIVFBTwviuKurl+/TqFhoaSoaEhASBzc3P65utv6Pnz5zXus2ozvBiiSqWi9PR0+uabb8jBweGVm0BHR4eCgoIoLCyMVq5cSZcvX6aEhAQqKCiodByGYUihUFB2djYlPEugixcu0ty5c2nkyJHUpEmT1x7Xy8uLZs6cKWyS+i+8LD/wsu5G/fr1aevWrW/9fplUSvfu3qXvvvuOmjdvXqk4kDoeLi4u1KdPH9q+fTtlZWVVa8OQSqW0detW8vLyYj+fr68v7d69m0pKSviWV+vQaJeZiFBcXIyffvoJa9eurZQP1NXVRWhoKLp06YLu3bvD3d29SrFUKhVSUlLw559/Yv/+/YiIiKgUz97eHtOmTcPnn38OGxubKsWqiUilUuzduxczZsxAZmYm23Xr0qXLG99TUFCAC+cvYMuWLbh85TLKy8srPW9iYgIvLy94eXnBzs4OPj4+8PX1hYWFBUxNTQEADMOgqKgI6enpiI+Px/Pnz5GVlYUnT54gPT39lZh16tRB3759MXjwYPj5+UFPT0+9J4JDkpOTMX/+fOzbt49NG/Tr1w+zZ8+Gv7+/9m2NVRvQlPPKZDLatm1bpQpaYrGY/Pz8aMWKFZSdnc1ZbJVKRSkpKfT9999TgwYNKnXHGjduTDt37hQq0r2G/Px8WrZsGZmZmZG+vj716dOHnjx5Uuk1DMNQbm4ubdq0iQICAl5pzXl6etLo0aNp//79lJmZ+d7nWSKRUHR0NP3yyy/UuXPnV7rdlpaWNHjwYLpx4wbJ5XJ1fHzOUCqVdPjwYWrdujVbcN3FxYVWr15NeXl5fMur1XBuiAzDUGZmJg0dOrSSEfr7+9OWLVs0WgibYRgqLCykVatWkbe3N6vHzMyMwsLCKCMjQ2NaqgvPnj2jUaNGEQAyNjamMWPGsLsul5eX07FjxygkJKSSOTk4ONCQIUPo9OnTnJUqSEpKouXLl1NQUBCbdwNA9vb2NGnSJIqNjdXKrnR+fj7Nnj27UqqodevWdOXKFa038toAp4aoUCjo4oWL5OnpyX75BgYGNGfOHF6/fIZhKCMjg7799lu2paGrq0sffPABXbp0iTdd2kpkZCR17dqVbYnNnDmTnj9/ThMnTqxkhK6urjR9+nSKi4vTmBmVlZXR4UOHqVOnTmRqaspqCQgIoN9//51KS0s1ouNtiIiIoC5durCtQisrK/r2228pMTGRb2kCf8GJITIMQzKZjPbt21dpQKNVq1Za9eXL5XK6fv06BQYGsjrd3NzowIEDfEvTKpRKJR0/fpwdZLG0tCQXFxf2nNnY2NCkSZMoISGBt1aZRCKhXbt2UXBwMNtitLKyom+nfUuZGfyuzS6XlNOvv/5aaeCkXr16tGPHDqHYl5bBiSHKZDLau3cv++Xr6+vTmDFjuAhVZRiGobS0NLZbCIAcHR1p48aNfEvTKiQSCW3cuJGt8fyyVR0SEkInTpzgWx5LdnY2zZ07l2xtbVmdw4cPp6dPn2pcC8MwlJycTD179qzUku7Xrx89ePCAl6pyAv+O2g2RYRjavn17pdbD2rVr1R1G7RQVFdGaNWvYQR8HB4dqoVtTlJaW0oYNG1ijMTc3p6+++oqysrL4lvYKKpWKjhw5QkFBQex1+Mknn1BkZKTGWrByuZz27dtXaaDJycmJ/u///k+tle8E1IvaDfHBgwfsBWBnZ0fHjx9XdwjOKCkpoa1bt7Km6OnpSRcvXuRbFu+UlpbSxo0b2Xyrra0tzZ07V+sHAR48eEADBgxgc3Y9evSgO3fucBqTYRjKycmhCRMmVFpo0LJlS7p48aJWDvQI/I1aDTE1NbVSy/DXX39V5+E1QklJCW3evJnNe7Zs2bJWjz6Xl5fT1q1b2Zahq6srrVixgm9Zb01aahqNHDmSzSv26dOHHjx4wEkspVJJ58+fp+DgYPY+sLKyosWLF2tlS1rgVdRmiAqFgkJDQ9mc4ZQpU9R1aI1TUFBAP/zwA2uKISEhtXKeokqlotOnT7PdPkdHR/rxxx/5lvXOJCQk0JAhQ0hPT48A0DfffKP2ea8lJSW0dOlScnV1Za+bOnXq0JEjR9QaR4Bb1GaI27ZtY38V27Vrp67D8kZSUhJ1796d7SIuWbKEb0kahWEYioyMpG7durHnYMGCBXzLem8ePnzIfp8WFha0YcMGtQxqMAxDjx8/ps6dO7PXv6GhIYWFhb0yiV1A+1GLIebn51ealPuiBiSNVSoV3b59m4yNjQkABQYGkkKh4FuWxsjJyaHvvvuOnZA9YfwEKpdU763qT5w4QR988AG7XvjQoUNVOp5CoaDNmzdXmuTv7OxMO3fu1OiCAwH1oZYNYjds2MD+HRYWBrMasBehWCxGgwYNsHz5cgBAfHw8Ro4cybMqzXHnzh3s3r0bANCyZUuM+HwEDI2q9/ZTnTt3Rq9evWBtbY3Y2FjcunUL+fn573Ws7OxsjB8/HpMnT2Y3cA3tHIrDhw/js88+g76+vjqlC2iKqjrq/7YOGzRooA6T1hpedhtffr5GjRqRRCLhWxbnJCQk0OjRo9mJ6itXruRbktrIysqiYcOGsRPMN2/e/M7HOHbsGDVt2rTSOuo1a9bQC2FruWpPlVuI27ZtY//+8ssvq3q410AgRoG42wfR1t4M7T+cgcLCAuRmpuJM+BK41Q3E9+GPOIhbsbW+n58fDh48CKBih+7w8HBOYmkT0dHROHnyJACgRYsWGDJkCM+K1Ie9vT169eqFxo0bo6ioCDExMcjKynqr95aVlWHJkiUYOXIk7t27BwBo06YNDh06hDFjxsDMzIxL6QKaoKqO+tFHH7EjkNzlTRgqykmkeQMa0cftv//rXwwpSvPp2tbx5OoXRFxNjGEYhu7cuVNpjWxNzg+9XOONv+Zhrl+/noMoDEVcPEiDegRTvXr12McH3QfTj/tuUGYxt/MbCwsLKSwsjJ0Ws2XLlv98z/3796lv375kYGDAXguTJ0+m5ORkYcVJDaJKLcS0tDRcunQJANCsWTNO8yYiESD+33KLIhHEBgYwr+8HlVyOVIaruCK4ublh/PjxAAClUom8vDxugmkBT548wYULFwAAgYGB6NWrFwdRRGj+YRd8Prg/Aly8MG7yWsTFPcXlXavRsPQqwj4dhI3br4GrjTotLCzQokULeHp6oqys7JV9G/8XpVKJX3/9FX379sWhQ4cgk8ng7e2NPXv24Mcff4S7uzvEYqFWW02hSt/krVt/1zzRfLeKoJRKkH3zGhzkXmjK4TVpZ2eHwYMHAwBKSkoqfe6aBMMwSEtLw+Ms6vdcAAAPJklEQVTHj+Hi4oI2bdrAycmJk1gisR4MjE1gaFzxIyoSiWFoao2u/Ubgw8YOWLf1d/xxOYWb2CIRunTpguDgYMjlcly7eg0x0TGvvC41NRUTJkzAjBkzkJCQAJVKhT59+uDgwYPo06ePUOOkBlIlG7l69Sr7d7t27aos5q0hgqy0EBd2bML8LQbYcfsPTssHisVi9uLPzMzE+vXrOYzGHzk5OYiJiYFEIoGLiwsaNWqkcQ26xrbo8bE/mogeIfPmec5aifb29mzhsWPHj+Ha9WuVnj9w4AD69u2LLVu2oKysDI6Ojli+fDk2bdok7GZdg6mSjyQmJgIAvL294eDgoBZB/wZBheLiZFy4eAFKuQSxqXmQe0iRU6pEQw1VZ1QqlcjJyYFCoahW29W/DYmJibh9+zYAwMnJCX5+fpoXIRLB1skFRk6GSEchigiwEv33294VPT09eHl5wcHBAdnZ2Wy3ubi4GMuXL8e6devYKTnt27fHrJmzEPJhiDCdpoZTJUPMyckBAM66Vf9EBB1YWHigffsOAAjt2rZB0IEf8EX73jifeAGuHNw4LzE2NkZAQACioqJARFAqlTXOEMvKylgTMDc318iP3KuIYGBsDiN9U5QqCRIAXBSQFYlEaNy4Mby9vZGdnQ0AuHHjBhYvXow///wTcrkcADBmzBhMnz4d7u7uEIk4vMAEtIIqGWJERAQAsAWCNIsIOvrGsPVvg2LVadzOYeDqwF0i0cTEBI0bN0ZUVBQKCwuxfft2GOjrQ19fH25vSKzr6urC2toaRkZGrz2mkZGRVhW4kkqlKCkpga2tLby9vaGry2Ui4s0oZOWQq6Qw1hPBhEMPcnZ2hq2tLQBg1apVUCqVyMjIAMMwaNq0KWbMmIFu3brB2NiYOxECWoVarnjeksukgrIsFyJDMZzNNTfSl5aWhq+++orTGC8r1L3OaHV0dGBkZAQDA4PXvtfAwOCNJqyrqwtDQ8PXtnbS09NRUFAACwsLWFpaVu0DvDcM8rJTIckphY+/BSw4jGRnZ8fmEZOSktj/Dxo0CDNnzkTDhg2FEeRahloMkWE4mvPyF0QMSgtTEfMwEXACAIJKIcXTiDOYNm09eo38CS1ff/9XW8rKyvDoETcTzv8LKysr3lqHpCxH1M2nyFbUR0hge2iyk+rp6YmpU6di0KBBPP4gCPBJla56V1dXpKWl4cWLF+rS8xoIKqUSyc9T0GLUfADAL7+sBCCGqZkjNuw+CQ8P7nNdKpUKhYWFAAAvLy9s2LDhtTlEpVKJ3NxcZGZmvvIcEUEmk6GkpOS1MeRyOQoKCt4Yv7S0tFJt6f89bk5ODqKjo9/lI/EMA1IpQUrV3/8iFRLuX8aZ+HwE9e+Nvh09NaYmICAAixYtQrdu3YRWYS2mSoZYr149DRiiCLp6BgjuPBjBnTkM8x8UFBTg2LFjACpyph9++GG1GXFUKBQoLS2FSqV65TmGYVBeXo6ysjJcvHgRixcv1oAiwvOY2zhy+CBuPnqKIv0/UJh1DTr6ulDpW+OT4VPQ8cMAGGlwZkv7du0RFBQkmGEtp0qG6OHhAeD/27v3mKiuPA7g32GAAWZ4iArEQdHJqNQqEORhJVIxLSpisxtQU7oa6h9t+siyTc0u1WbTTdY/KGqosakYIxvX1ugfShWLFh9xw2AogpSVx9gZsQ4vZwQR5g52Hve3f4C3ZbEPnTtzZ+j5JCTmjjnnB8N8uffcc88BjEYj7Ha73wSEu2QymWSXlM8iKChIGCv7Jd3d3QgNDYXVahXOhj1DBs3zWdj7rzrs9WAvv+bBgwfC2XpkVKRENwcZX+LWn8NFixYBGP/FamtrE6UgXxcTE4Pi4uJpeSahUCigUqlgNpvR1dUFh8MhdUkeZTKZhCk3UVFRbHEGxr1AXLv2x2vYkydPul2MrxodHUVTUxOA8fl52dnZElfkGSqVSpiGMjIyIswznY6ICC0tLdDr9VKXwvgQtwJx2bJlUKvVACAsCDDdEBH6+vpQUVEBYHyKkVarlbgqz5g3bx6WL18OABgYGEBnZ6fEFXmOw+FAd3f3tA595um5FYjBwcHYvHkzAKC5uRnfNH4jSlG+hOd5mM1mdHR0QKFQQKPRTNuxptmzZuG5xEQolUr09vb62V3rpzM0NCTcDCwsLMSaNWskrojxBW4PhP10lZudu3a625xPeTyd5dixYwDGz6B2/3P3tBw/BICg4GAkzJ+PxYsXo6enBzqdbloudcbzPM6dO4eGhgYEBQUhKysLS5Yskbosxge4/clOTU3Fyy+/DAC4dOkS2tunLqPkr1wuF7q6unDo0CHI5XKo1WokPpcodVketXDhQqxatQoA0NraiurqaokrEp/VakVjYyOMRiNUKhUiIiL8atYA4zminOr846OPhH8XFRV5/MkVbyAimEwmlJWVAQDmz5+PsrIyUT44xNvRoavB9vy12Kd78kRsqajVamRnZyM+Ph69vb1oamp64mRwf8XzPC5fvozm5mbI5XJs27YNubm5UpfF+AhRAvGFlSuxZcsWAEBbW9u0WC/QZrNBV6/DhQsXEBgYiAULFiAjI8P9hokw2m+Arvogrt1zut+eyAICApCUlIS1a9dibGwMtbW1k/bN8XdmsxmnTp1CS0sLZsyYgZSUFMTHx0tdFuMjRBsMKysrQ3R0NADg448/RkdHh1hNe53dbodOp8PWbVshk8mQlJSE48ePi9K284cR3Gy9hZoaFf4Y8PNL10tJo9HglVdewYIFC2AymVBbW4uuri6py3Kb0+nE0aNHceHCBcjlcrz22mvCcA/DACIGYkJCAj755BMA4xNeCwoKYB21itW817hcLvy3rU1YzSYmJgbbt28X5ue5g8iJu/p26C7XYVv5VpCPjiwEBAQgIyMDRUVFCA4ORkNDAyorK2Gz2aQu7ZnxPI+rV6/i7NmzMJvNiIuLQ3p6ujBtjGEAEQMRGL/jvOP9HSAi6PV6LE9bLiy06Q+ICAaDAX8uKUF3dzcUCgVWrFiBd955R4zGwVm+x43r/8H387fiuVAePY/cb9ZT4uLisHHjRmRnZ2N0dBSff/459u7d67fjw0ajEZ999hnq6+sRHh6OnTt3CsM8DCMQexs/p9NJycnJBIBkMhktWrSIHj16JHY3onO5XNTR0UErV64kABQUFETr168Xr337KF0/X01/2VRKNt5O7RfP0J+WvkB76wdF60NsLpeLzp49S1qtlgCQRqOhgwcP+t22m3fv3qVXX31VeF93vL+D+vo8tXEt489En1Anl8tx8eJFLF26FESEW7duQavV/uJWj1JzuVy4fv068vLy0NDQgMDAQKxatQqnT58WqQcefcZOXLl8Hsl/+yt+unQjz3O4YdLj75csIvUlnoCAALz00ksoKSkBANy+fRt79uzBkSNHJK7st7NYLNi1a5cwBpybm4vNWzZ7bdsLxs94ImV5nqf79+/TsmXLhE29lUol1dXVeaI7t3BWjo79+5hQp0KhoI0bN4p6Vjs23EMn9pcIfUz+kpMmNZeq2n33LNpms1FFRYVQc2RkJJWWlkpd1q/S6/VUVFQk1J2ZmUlff/211GUxPswjgUg0HooPHz4ULlUAkFwup/Xr15PNZvNUt09Vn8FgoPz8fFIoFASAQkJCqLCwkOx2u4c7949L5p+yWq20b98+4b0MCwujt99+2yfeyyc5c+YMpaenk1wuJwCUk5NDV69eJZ7npS6N8WEeC0Si8dAZGxujqqoq4YMkk8lIrVbTgQMHyOl0erL7n2W1WmnPnj0UHR0t1BUbG0uffvqp58OQSAjEPyxMpzer73i+P5FwHEdHjhyh2NhYAkDBwcGUn59POp1O6tIEIyMjVF5eTnFxccJ7W1BQQDdu3GBhyPwqjwYi0XgoOp1OunPnzqRL6MfBuHv3bnI4HJ4ug4iIRkdHqaKiQvhAY2KQffXq1aTX671SA5GDvm+qpTe1QRQSqKDnVxdStfEHL/XtPrvdTnV1dcLNJwAUHh5O7733HlksFsnqcjqdVPtVLa3JWUMhISFCXSUlJdTb2ytZXYx/8XggPsbzPHEcR1VVVRQZGTklGAsKCqi9vV30fu12O127do3y8vImnTUAILVaTUePHvXZyz5f5XK5yGAw0FtvvTXp5zlr1iz68MMPaXDQu8MAOp2OCgsLKSIiQqhFq9VSZWUlcRzn1VoY/+a1QHyM53kym81UXl4+KRgfh2NCQgJlZGTQ8ePHn+mMw+Vy0b2BATp8+DCtyFxB8fHxU25kREVFUWVlJQ0PD3vgO/z9sNlsdOLECUpNTZ30850xYwa9/vrr1NLS4rFhkaGhITpw4AClpKSQUqmcdMPn3Xffpe+++87vpgcx0pMREYl40/o3IyI8GBrCV7W1+OCDD9DT0zPl/8hkMsydOxfR0dEICwtDeHg4UlJShL1ceJ7H4OAgrly5grGxMdhsNgwPD8NkMk1pSy6XY8mSJSgtLcW6deuExwwZ9xAR7t+/jy+++AL79+/H7du3hdfCwsIwd+5c5OTkoKioCKmpqVAqlc/cV19fH86fP4/Tp0+jubkZFosFTuePz4Nv2LABpaWlSEtLk26vcMavSRaIjxERHA4HOjs7UVNTg6qqKhiNRlHaDgwMRGJiIoqLi5Gbm4vFixf/bjbCksJA/wBqztXg8OHDaGxsnPL6zJkzodFoMGfOHCQlJSEtLQ3x8fGIioqa9L4MDw/DYrHAZDKhsbERnZ2d6O/vR09PD6zWyY+DxsTEIC8vD8XFxcjIyEBo6DTboJvxKskD8f/xPI979+6ho6MD3377LVpbW9HQ0PCbQlKpVGLTpk1ISUlBcnIyEhMTMXv2bMjlXtzPkgHHcbh58ya+/PJLnDp1yiP7lmRnZ+ONN97Aiy++iDlz5kzbRXsZ7/K5QHwSIgLHceA4bsoTLzKZDCEhIQgNDUVERIREFTI/h+M4dHV1obGxEU1NTaivr4fBYHjqdlJTU7Fu3TpkZmYiLS0NsbGx7A8dIzq/CERm+nA6nRgZGcHg4CDMZjP6+/sx8nAEHMfh0Q+PoFKpEBYahpiYGMxLmIeZM2ciKiqKjQkyXsECkWEYZgIbeGEYhpnAApFhGGYCC0SGYZgJLBAZhmEmsEBkGIaZEKjT6ZCVlQUA0Ol0wgvsGDvGjrFjv7djbNoNwzDMhP8BlyRkT8H8h3YAAAAASUVORK5CYII=\"/> <br />\nFor the above network, which constraints on $x$ and $y$ guarantee traffic from $B$ to $C$ will always flow through node $A$?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>   $x &gt; 4$<br /> </li><li>   $y + x &lt; 6$<br /> </li> <li>  $y + x &lt; 4$<br /> </li>  <li>  $x &lt; 4$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290842",
+          "text": "<p>In a communication link out of $\\text{p packets}$ one packet will be lost. If stop and wait protocol is used then expected number of retransmissions for a packet?<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\dfrac{p}{p-1}$</li>\n    <li>$p$</li>\n    <li>$\\dfrac{1}{p-1}$</li>\n    <li>$\\dfrac{1}{p}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn,probability",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290841",
+          "text": "<p>An organization has a class $C$ network and wants to form subnets for four departments, with hosts as follows.<br>\n$$\\begin{array}{|c|c|}&nbsp; \\hline Department &amp; \\text{No. of hosts required} \\\\ \\hline W &amp; 72 \\\\ \\hline X &amp; 35 \\\\ \\hline Y &amp; 20 \\\\ \\hline Z &amp; 18 \\\\ \\hline &nbsp; \\end{array}$$<br>\nWhat is the possible subnet masks for the departments $W,X,Y\\:&nbsp; and \\: Z$<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$W:255.255.255.223, \\: X:255.255.255.192,\\: Y\\&amp;Z :255.255.255.128$</li>\n    <li>$W: 255.255.255.128,\\: X :255.255.255.192,\\: Y\\&amp;Z : 255.255.255.224$</li>\n    <li>$W: 255.255.255.192,\\: X :255.255.255.128,\\: Y\\&amp;Z : 255.255.255.224$</li>\n    <li>$W: 255.255.255.223,\\: X \\&amp; Y\\&amp; Z : 255.255.255.223$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn,subnetting,ip-addressing",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290840",
+          "text": "A network on the internet has a subnet mask $255.255.240.0$. the maximum no of hosts it can have is<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $1022$<br /> </li><li>  $4094$<br /> </li> <li> $2046$<br /> </li>  <li> We can not determine  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290839",
+          "text": "<p>Assume all frames have size $\\text{F bits}$, and the propagation delay on the link is $\\text{P sec}$, and the bandwidth is $\\text{B bps}$. Assume also that the receiver piggybacks acknowledgements on frames going to the sender.<br>\nWhat should be the minimum window size $n$ (in frames)&nbsp;at the sender in order to effectively use the bandwidth?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$2+\\dfrac{2PB}{F}$</li>\n    <li>$1+\\dfrac{2PB}{F}$</li>\n    <li>$\\dfrac{2PB}{F}$</li>\n    <li>$1+\\dfrac{PB}{F}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn,sliding-window",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290838",
+          "text": "The input data is the string of $\\text{4 bits D = 1100}$. Assume the generator polynomial is defined by the following bit pattern $G = 1011$. Given $D$ and $G$ as above, find the $\\text{3 bits}$ for the CRC generated by the $\\text{CRC algorithm}$?<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $100$<br /> </li><li>  $101$<br /> </li> <li> $011$<br /> </li>  <li> $010$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290837",
+          "text": "Suppose that in $\\text{RSA encryption}$, the public encryption key is the pair $(e, n)= (3, 55)$ and the private decryption key is the pair $(d,n)=55$, where $d$ is<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $13$<br /> </li><li>  $27$<br /> </li> <li> $37$<br /> </li>  <li> $39$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290836",
+          "text": "The transport layer protocols used for SNMP, file transfer, email and DNS, respectively are:<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  $\\text{TCP, UDP, UDP and TCP}$<br /> </li><li>  $\\text{UDP, TCP, TCP and UDP}$<br /> </li> <li> $\\text{UDP, TCP, UDP and TCP}$<br /> </li>  <li> $\\text{TCP, UDP, TCP and UDP}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290835",
+          "text": "Which of the following statements is false about $\\text{link state routing (LS)}$, and $\\text{distance vector routing (DV)}$<br />\n$S1:$ LS, DV both requires each router to obtain a map of the complete topology<br />\n$S2:$ DV requires ﬂooding<br />\n$S3:$ DV suﬀers from the count to inﬁnity problem<br />\n<ol style=\"list-style-type:upper-alpha\"><li>  Only $S1$<br /> </li><li>  Only $S1$ and $S3$<br /> </li> <li> $S1$ and $S2$<br /> </li>  <li> Only $S2$ and $S3$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290834",
+          "text": "<p>Consider an instance of TCP’s $\\text{Additive Increase Multiplicative Decrease (AIMD)}$ algorithm where the window size at the start of the slow start phase is $\\text{1 MSS}$ and the threshold at the start of the first transmission is $\\text{8 MSS}$. Assume that a timeout occurs during the sixth transmission and tenth transmission then what would be the window size at the $15^{th} \\hspace{0.1cm} transmission&nbsp;$?<br>\n&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\text{10 MSS}$</li>\n    <li>$\\text{6 MSS}$</li>\n    <li>$\\text{5 MSS}$</li>\n    <li>$\\text{7 MSS}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn,congestion-control",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290833",
+          "text": "Let the size of congestion window of a TCP connection be $\\text{64 KB}$ when a timeout occurs. The maximum segment size used is $\\text{4 KB}$. The time taken by the TCP connection to get back to $\\text{64 KB}$ congestion window is $\\text{7.2 sec}$. The round trip time in milliseconds is ________",
+          "type": "Numerical",
+          "answer": "654 : 655",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-cn,numerical-answers",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290832",
+          "text": "Consider sending a $\\text{3000 byte}$ datagram into a link that has an $MTU$ of $\\text{500 bytes}$. Size of IP header is $\\text{20 bytes}$. Number of fragments generated is  ____",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-gt-cn,ip-packet,numerical-answers",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290831",
+          "text": "<p>Using the $CRC$ method, the remainder obtained by dividing $x^9 + x^7 + x^3 + x^1$ &nbsp; by generator polynomial $x^3 + x + 1$ ?&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1$</li>\n    <li>$x$</li>\n    <li>$x^2$</li>\n    <li>$1+x + x^2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290830",
+          "text": "In a $\\text{RSA cryptosystem}$, a participant uses two prime numbers $7$ and $11$  to generate public and private keys. If the public key is $13$, then the private key is ____ <br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $32$<br /> </li><li> $33$<br /> </li> <li>$34$<br /> </li>  <li>$37$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290829",
+          "text": "Determine the maximum length of the cable $\\text{(in km)}$ for transmitting data at a rate of $\\text{1 Gbps}$ in an $\\text{Ethernet LAN}$ with frames of size $\\text{4000 bits}$. Assume the signal speed in the cable to be $\\text{2,00,000 km/s}$.<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\text{100 meters}$<br /> </li><li> $\\text{200 meters}$<br /> </li> <li>$\\text{400 meters}$<br /> </li>  <li>$\\text{500 meters}$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        },
+        {
+          "contents": "",
+          "post_id": "290828",
+          "text": "A network advertises the $CIDR$ network number $50.1.56.0/22$ (and no other  numbers).  Which of the following $\\text{IP addresses}$ could the network own? <br />\n<br />\n    1. $ 50.1.57.0 $<br />\n    2. $ 50.1.59.1 $<br />\n    3. $ 50.1.60.0 $<br />\n    4. $ 50.1.120.0 $<br />\n<br />\n<ol style=\"list-style-type:upper-alpha\"><li> $\\text{Only 1}$<br /> </li><li> $\\text{Only 1 and 2}$<br /> </li> <li>$\\text{Only 1,2 and 3}$<br /> </li>  <li>$\\text{All of 1,2,3 and 4 }$  </li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-gt-cn",
+          "category": "Computer Networks"
+        }
+      ]
+    }
+  ]
+}

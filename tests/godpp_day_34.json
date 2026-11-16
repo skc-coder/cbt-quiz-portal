@@ -1,0 +1,70 @@
+{
+  "name": "Day 32 [Calculus]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "474672",
+          "text": "<p>Let $R=\\{(1,2),(2,3),(3,3)\\}$ be a relation defined on the set $\\{1,2,3,4\\}$. Then the minimum number of elements, needed to be added in $R$ so that R becomes an equivalence relation, is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$9$</li><li>$8$</li><li>$7$</li><li>$10$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 32"
+        },
+        {
+          "post_id": "474670",
+          "text": "<p>The relation $R=\\{(x, y): x, y \\in \\mathbb{Z}$ and $x+y$ is even $\\}$ is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>reflexive and transitive but not symmetric<br>&nbsp;</li><li>reflexive and symmetric but not transitive<br>&nbsp;</li><li>an equivalence relation<br>&nbsp;</li><li>symmetric and transitive but not reflexive</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 32"
+        },
+        {
+          "post_id": "474668",
+          "text": "Let $\\mathrm{R}=\\{\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d}, \\mathrm{e}\\}$ and $\\mathrm{S}=\\{1,2,3,4\\}$. Total number of onto functions $f: \\mathrm{R} \\rightarrow \\mathrm{S}$ such that $f(\\mathrm{a}) \\neq 1$, is equal to______.",
+          "type": "Numerical",
+          "answer": "180",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 32"
+        },
+        {
+          "post_id": "474666",
+          "text": "Let $A=\\{(x, y): 2 x+3 y=23, x, y \\in \\mathbb{N}\\}$ and $B=\\{x:(x, y) \\in A\\}$. Then the number of one-one functions from $A$ to $B$ is equal to______.<br>\n<br>\n&nbsp;",
+          "type": "Numerical",
+          "answer": "24",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 32"
+        },
+        {
+          "post_id": "474664",
+          "text": "<p>Let $\\mathbf{A}=\\{0,1,2,3,4,5\\}$. Let $\\mathbf{R}$ be a relation on $\\mathbf{A}$ defined by $(\\mathrm{x}, \\mathrm{y}) \\in \\mathbf{R}$ if and only if $\\max \\{\\mathrm{x}, \\mathrm{y}\\} \\in\\{3,4\\}$. Then among the statements</p><p>$\\left(\\mathrm{S}_1\\right)$ : The number of elements in&nbsp; $\\mathbf{R}$ is $18$ , and<br><br>$\\left(\\mathrm{S}_2\\right)$ : The relation $\\mathbf{R}$ is symmetric but neither reflexive nor transitive</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>both are false<br>&nbsp;</li><li>only $\\left(S_1\\right)$ is true<br>&nbsp;</li><li>only ( $\\mathrm{S}_2$ ) is true<br>&nbsp;</li><li>both are true</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 32"
+        }
+      ]
+    }
+  ]
+}

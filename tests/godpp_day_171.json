@@ -1,0 +1,70 @@
+{
+  "name": "Day 167 [Compiler Design]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "507601",
+          "text": "<p>Consider the following expression:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int x = 5, y = 2;\nint z = x+++y; /* Line 2 */</pre><p><br>How does the Lexical Analyzer generate tokens for the expression $\\verb|x+++y|$ in Line $2$?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>TOKENS: [ID:x], [OP:+], [OP:+], [OP:+], [ID:y]<br>&nbsp;</li><li>TOKENS: [ID:x], [OP:++], [OP:+], [ID:y]<br>&nbsp;</li><li>TOKENS: [ID:x], [OP:+], [OP:++], [ID:y]<br>&nbsp;</li><li>LEXICAL ERROR: UNKNOWN OPERATOR '+++'</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 167"
+        },
+        {
+          "post_id": "507599",
+          "text": "<p>Which of the following is typically <strong>NOT</strong> a task performed by the compiler during the token generation phase?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>IDENTIFYING KEYWORDS AND IDENTIFIERS<br>&nbsp;</li><li>CHECKING IF AN EXPRESSION HAS BALANCED PARENTHESES<br>&nbsp;</li><li>ENTERING IDENTIFIERS INTO THE SYMBOL TABLE<br>&nbsp;</li><li>STRIPPING OUT COMMENTS AND WHITESPACE</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 167"
+        },
+        {
+          "post_id": "507593",
+          "text": "<p>Consider the following snippet of C code</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int main() { /* Line 1 */\n&nbsp; &nbsp; int x = 10, y = 5; /* Line 2 */\n&nbsp; &nbsp; int result; /* Line 3 */\n&nbsp; &nbsp; reslt = x + y; /* Line 4 */\n}</pre><p><br>Identify the compiler's primary response during the compilation process:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>NO COMPILATION ERROR<br>&nbsp;</li><li>A LEXICAL ERROR<br>&nbsp;</li><li>A SYNTACTIC ERROR<br>&nbsp;</li><li>A SEMANTIC ERROR</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 167"
+        },
+        {
+          "post_id": "507597",
+          "text": "<p>Consider the following snippet of C code</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int main() { /* Line 1 */\n&nbsp; &nbsp; int a = 5, b = 10; /* Line 2 */\n&nbsp; &nbsp; if (a &lt; b) then { /* Line 3 */\n&nbsp; &nbsp; &nbsp; &nbsp; a = a + 1; /* Line 4 */\n&nbsp; &nbsp; }\n}</pre><p><br>Identify the compiler's primary response during the compilation process:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>NO COMPILATION ERROR<br>&nbsp;</li><li>A LEXICAL ERROR<br>&nbsp;</li><li>A SYNTACTIC ERROR<br>&nbsp;</li><li>A SEMANTIC ERROR</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 167"
+        },
+        {
+          "post_id": "507606",
+          "text": "<p>Consider the following C program fragment processed by a compiler that follows the standard phases of compilation. Focus only on <strong>lexical analysis (token generation).</strong></p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int main() {\n&nbsp; &nbsp; int x = 10;\n&nbsp; &nbsp; float y = x+++--x;\n&nbsp; &nbsp; return 0;\n}</pre><p><br>Which of the following statements are <strong>TRUE</strong> regarding <strong>token generation</strong> for the expression $\\verb|x+++--x|$ ?<br><br><strong>(Select all that apply)</strong></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The lexer generates the token sequence: $\\verb|ID(x) ++ + -- ID(x)|$<br>&nbsp;</li><li>The lexer generates the token sequence: $\\verb|ID(x) + ++ -- ID(x)|$<br>&nbsp;</li><li>The lexer treats $\\verb|+++|$ as a single token.<br>&nbsp;</li><li>The lexer treats $\\verb|--|$ as a single token.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Compiler Design",
+          "day": "Day 167"
+        }
+      ]
+    }
+  ]
+}

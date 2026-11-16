@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2025 | Calculus and Optimization | Taylor Series",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 10,
+  "total_qs_two": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 20,
+  "total_marks": 20,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 20,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "433332",
+          "text": "<p>Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function such that $f(0)=0$ for some points but not for all points. Suppose that $f$ and its first derivative exist and are differentiable at all points. Suppose also that the second derivative $f^{\\prime \\prime}(x)=0$ for all $x \\in \\mathbb{R}$.<br>Which of the following statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>$f(x)$ is a polynomial of degree 2 .</li><li>$f(x)$ is a constant function.</li><li>$f(x)$ is a linear function but not constant.</li><li>$f(x)$ is a cubic function.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433324",
+          "text": "<p>Which is the Taylor series for the function $\\ln (x)$ at the point $a=1$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$(x-1)-\\frac{1}{2}(x-1)^{2}+\\frac{1}{3}(x-1)^{3}-\\frac{1}{4}(x-1)^{4}+\\cdots$</li><li>$(x-1)-(x-1)^{2}+2(x-1)^{3}-6(x-1)^{4}+\\cdots$</li><li>$\\ln (x)+\\frac{1}{x}(x-1)-\\frac{1}{x^{2}}(x-1)^{2}+\\frac{2}{x^{3}}(x-1)^{3}-\\frac{6}{x^{4}}(x-1)^{4}+\\cdots$</li><li>$\\ln (x)+\\frac{1}{x}(x-1)-\\frac{1}{2 x^{2}}(x-1)^{2}+\\frac{1}{3 x^{3}}(x-1)^{3}-\\frac{1}{4 x^{4}}(x-1)^{4}+\\cdots$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,one-mark,taylor-series",
+          "category": "Engineering Mathematics"
+        },
+        {
+          "contents": "",
+          "post_id": "433314",
+          "text": "<p>The polynomial $P_{2}(x)=1+3(x-a)-2(x-a)^{2}$ is the second degree Taylor polynomial approximating the function $f$ for $x$ near $a$. The graph of $f$ is given in the figure. Which of the points A, B, C, or D on the $x$-axis has $a$ as its $x$-coordinate?<br><img alt=\"\" width=\"622\" height=\"200\" src=\"data:image/png;base64,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\"></p><ol style=\"list-style-type:upper-alpha\"><li>A</li><li>B</li><li>C</li><li>D</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433312",
+          "text": "Given that the Taylor polynomial of degree four for $f(x)$ about $x=0$ is<br />$$<br />2-3 x+5 x^{3}+7 x^{4}<br />$$<br />what is the Taylor polynomial of degree five for $g(x)=\\frac{f\\left(x^{2}\\right)-2}{x}$ about $x=0$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $5 x^{5}-3 x$</li><li> $-3 x+5 x^{3}-3 x^{5}$</li> <li>$5 x^{5}-3 x^{2}$</li>  <li>$5 x^{5}-3 x+2 x^{2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433318",
+          "text": "<p>Let $f$ be a twice differentiable function at $x=3$. Let $P_{1}(x)$ be the local linearization of $f$ at $x=$ 3 and $P_{2}(x)=1-2(x-3)+2(x-3)^{2}$ be the second Taylor polynomial of $f$ at $x=3$.<br>Which of the following statements MUST be true?</p><ol style=\"list-style-type:upper-alpha\"><li>$P_{1}(x)=1-2(x-3)$</li><li>$f^{\\prime \\prime}(3)=2$</li><li>$f(3) &lt; P_1(3)$<p> </p></li><li>$f(3)=P_{1}(3)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,two-marks,multiple-selects",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433326",
+          "text": "Let $f(x)=\\sqrt{x}$. The second Taylor polynomial $p_{2}(x)$ of $f(x)$ at $x=1$ is given. Find $p_{2}(3)$. (Choose the nearest answer.)<br /><ol style=\"list-style-type:upper-alpha\"><li> 1.1</li><li> 1.2</li> <li>1.3</li>  <li>1.5</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433325",
+          "text": "Which of the following is NOT a Taylor series for $f(x)$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $f(x+h)=f(x)+f^{\\prime}(x) h+\\frac{f^{\\prime \\prime}(x)}{2!} h^{2}+\\frac{f^{\\prime \\prime \\prime}(x)}{3!} h^{3}+\\cdots$</li><li> $f(x)=f\\left(x_{0}\\right)+f^{\\prime}\\left(x_{0}\\right)\\left(x-x_{0}\\right)+\\frac{f^{\\prime \\prime}\\left(x_{0}\\right)}{2!}\\left(x-x_{0}\\right)^{2}+\\frac{f^{\\prime \\prime \\prime}\\left(x_{0}\\right)}{3!}\\left(x-x_{0}\\right)^{3}+\\cdots$</li> <li>$f(x)=f(0)+f^{\\prime}(0) x+\\frac{f^{\\prime \\prime}(0)}{2!} x^{2}+\\frac{f^{\\prime \\prime \\prime}(0)}{3!} x^{3}+\\cdots$</li>  <li>$f(x)=f\\left(x_{0}\\right)+f^{\\prime}\\left(x_{0}\\right) x+\\frac{f^{\\prime \\prime}\\left(x_{0}\\right)}{2!} x^{2}+\\frac{f^{\\prime \\prime \\prime}\\left(x_{0}\\right)}{3!} x^{3}+\\cdots$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433328",
+          "text": "Suppose the functions $f(x)$ and $g(x)$ have Taylor series expansions at zero, up to second-degree terms, given by<br />$$<br />\\begin{aligned}<br />& f(x)=a_{0}+a_{1} x+a_{2} x^{2}+\\ldots \\\\<br />& g(x)=b_{0}+b_{1} x+b_{2} x^{2}+\\ldots<br />\\end{aligned}<br />$$<br />Find the Taylor series for $h(x)=f(x) g(x)$ at zero, up to second-degree terms.<br /><ol style=\"list-style-type:upper-alpha\"><li> $h(x)=a_{0} b_{0}+\\left(a_{0} b_{1}+a_{1} b_{0}\\right) x+\\left(a_{0} b_{2}+a_{1} b_{1}+a_{2} b_{0}\\right) x^{2}+\\ldots$</li><li> $h(x)=a_{0} b_{0}+\\left(a_{0} b_{1}+a_{1} b_{1}\\right) x+\\left(a_{0} b_{2}+a_{2} b_{0}\\right) x^{2}+\\ldots$</li> <li>$h(x)=a_{0} b_{0}+\\left(a_{1} b_{0}+a_{0} b_{1}\\right) x+\\left(a_{1} b_{1}+a_{0} b_{2}\\right) x^{2}+\\ldots$</li>  <li>$h(x)=a_{0} b_{0}+\\left(a_{1} b_{0}+a_{0} b_{1}\\right) x+\\left(a_{1} b_{2}+a_{2} b_{0}\\right) x^{2}+\\ldots$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433330",
+          "text": "<p style=\"text-align:center\"><img alt=\"\" width=\"470\" height=\"163\" src=\"data:image/png;base64,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\"></p><p><br>Selected values of a function $f$ and its first three derivatives are indicated in the table above. What is the third-degree Taylor polynomial for $f$ about $x=1$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$2-3 x+\\frac{3}{2} x^{2}-\\frac{1}{3} x^{3}$</li><li>$2-3(x-1)+\\frac{3}{2}(x-1)^{2}-\\frac{1}{3}(x-1)^{3}$</li><li>$2-3(x-1)+\\frac{3}{2}(x-1)^{2}-\\frac{2}{3}(x-1)^{3}$</li><li>$2-3(x-1)+3(x-1)^{2}-2(x-1)^{3}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433322",
+          "text": "The function $f(x)$ is approximated near $x=0$ by the second-degree Taylor polynomial $T_{2}(x)=$ $5-7 x+8 x^{2}$. Which of the following statements is true?<br /><ol style=\"list-style-type:upper-alpha\"><li> $f(0)=5, f^{\\prime}(0)=-7, f^{\\prime \\prime}(0)=8, f^{\\prime \\prime \\prime}(0)=0$</li><li> $f(0)=5, f^{\\prime}(0)=7, f^{\\prime \\prime}(0)=-8, f^{\\prime \\prime \\prime}(0)=0$</li> <li>$f(0)=5, f^{\\prime}(0)=-7, f^{\\prime \\prime}(0)=16, f^{\\prime \\prime \\prime}(0)=0$</li>  <li>$f(0)=5, f^{\\prime}(0)=7, f^{\\prime \\prime}(0)=8, f^{\\prime \\prime \\prime}(0)=0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433334",
+          "text": "Consider the function $g(x)=2+x^{2}+\\frac{x}{\\left(4+x^{2}\\right)^{2}}$.<br />Find the degree 3 Taylor polynomial of $g(x)$ around $x=0$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $2+x^{2}-\\frac{x}{16}+\\frac{x^{3}}{32}$</li><li> $2+x^{2}+\\frac{x}{16}+\\frac{x^{3}}{32}$</li> <li>$2+x^{2}-\\frac{x}{16}-\\frac{x^{3}}{32}$</li>  <li>$2+x^{2}+\\frac{x}{16}-\\frac{x^{3}}{32}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433323",
+          "text": "Let $T_{5}(x)=3 x^{2}-5 x^{3}+7 x^{4}+3 x^{5}$ be the fifth-degree Taylor polynomial for the function $f$ about $x=0$. What is the value of $f^{\\prime \\prime \\prime}(0)$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> -30</li><li> -15</li> <li>-5</li>  <li>$-\\frac{5}{6}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433336",
+          "text": "Let $f$ be a function having derivatives of all orders for all real numbers. The third-degree Taylor polynomial for $f$ about $x=2$ is given by:<br />$$<br />T(x)=7-9(x-2)^{2}-3(x-2)^{3}<br />$$<br />Which of the following statements are correct?<br /><ol style=\"list-style-type:upper-alpha\"><li> $f(2)=0$ and $f^{\\prime \\prime}(2)=-18$</li><li> $f(2)=7$ and $f^{\\prime \\prime}(2)=-9$</li> <li>$f(2)=7$ and $f^{\\prime \\prime}(2)=-18$</li>  <li>$f(2)=0$ and $f^{\\prime \\prime}(2)=-9$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,one-mark",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433316",
+          "text": "<p>Let $f$ be a real-valued function defined on $\\mathbb{R}$. Suppose that $f$ has continuous first and second derivatives, and at some point $x=a$, the first derivative $f^{\\prime}(a)$ is zero, and the second derivative $f^{\\prime \\prime}(x)$ is positive for all $x$.<br>Which of the following statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>If $x \\neq a$, then $f(x)=f(a)$.</li><li>If $x \\neq a$, then $f(x) &lt; f(a) $</li><li>If $x \\neq a$, then $f(x)&gt;f(a)$.</li><li>If $x \\neq a$, then $f(x) \\leq f(a)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,two-marks",
+          "category": "Calculus"
+        },
+        {
+          "contents": "",
+          "post_id": "433320",
+          "text": "<p>The graph of $y=f(x)$ is given below. Assume that $f$ is infinitely differentiable everywhere. The Taylor series for $f(x)$ about $x=0$ is given by:<br>$$<br>f(x)=\\sum_{n=0}^{\\infty} c_{n} x^{n}=c_{0}+c_{1} x+c_{2} x^{2}+c_{3} x^{3}+\\cdots<br>$$<br><img alt=\"\" width=\"382\" height=\"395\" src=\"data:image/png;base64,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\"><br>Based on the graph, determine the signs of $c_{0}, c_{1}$, and $c_{2}$ respectively:</p><ol style=\"list-style-type:upper-alpha\"><li>Negative, Positive, Positive</li><li>Positive, Negative, Negative</li><li>Zero, Positive, Negative</li><li>Negative, Zero, Positive</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2025-da-calculus-3,goclasses,calculus,two-marks",
+          "category": "Calculus"
+        }
+      ]
+    }
+  ]
+}

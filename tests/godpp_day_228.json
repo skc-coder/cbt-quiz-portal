@@ -1,0 +1,70 @@
+{
+  "name": "Day 216 [Mathematical Logic]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "524657",
+          "text": "<p>Universal Gates: A universal gate is a boolean logic function that can be used to realize all possible boolean logic functions. NAND and NOR are the two universal gates with their logic as defined below:</p><p>$$<br>\\begin{aligned}<br>& \\operatorname{NAND}(P, Q)=\\neg (P \\wedge Q) \\\\<br>& \\operatorname{NOR}(P, Q)=\\neg (P \\vee Q)<br>\\end{aligned}<br>$$</p><p>Which of the following correctly realizes $P \\rightarrow Q$ using only NAND gates?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$N A N D(P, Q)$</li><li>$N A N D(P, N A N D(Q, Q))$</li><li>$N A N D(N A N D(P, P), Q)$</li><li>$N A N D(N A N D(P, P), N A N D(Q, Q))$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 216"
+        },
+        {
+          "post_id": "524655",
+          "text": "<p>S = \"You study DS\",&nbsp;</p><p>D = \"You do well in DS exam\",&nbsp;</p><p>R = \"You relax in DS classes\",&nbsp;</p><p>E = \"You enjoy your third semester\"</p><p>Which of the following correctly expresses $G$ : \"You enjoy your third semester if and only if you do not do well in the DS exam\" WITHOUT using the implication operator? (Select all that apply)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(\\neg E \\vee \\neg D) \\wedge(D \\vee E)$&nbsp;</li><li>$(\\neg E \\vee \\neg D) \\vee(D \\vee E)$&nbsp;</li><li>$(E \\wedge \\neg D) \\vee(\\neg E \\wedge D)$</li><li>$(\\neg D \\vee E) \\wedge(\\neg E \\vee D)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 216"
+        },
+        {
+          "post_id": "524654",
+          "text": "<p>S = \"You study DS\",&nbsp;</p><p>D = \"You do well in DS exam\",&nbsp;</p><p>R = \"You relax in DS classes\",&nbsp;</p><p>E = \"You enjoy your third semester\"</p><p>Which of the following correctly expresses&nbsp; S1: \"If you study DS, then you do well in the DS exam\" WITHOUT using the implication operator?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$¬S∧D$</li><li>$¬S∨D$</li><li>$ S∨¬D$</li><li>$¬S∨¬D$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 216"
+        },
+        {
+          "post_id": "524652",
+          "text": "<p>Sherlock Holmes investigates a murder from \"A Study in Scarlet.\" The known facts are:</p><p><strong>Fact 1:</strong> If the murder was not done for robbery, then it was either a political assassination or for a woman.</p><p><strong>Fact 2:</strong> In case of robbery, something is usually taken.</p><p><strong>Fact 3:</strong> Nothing was taken from the murderer's place.</p><p><strong>Fact 4:</strong> Political assassins leave the place immediately after completing their work.</p><p><strong>Fact 5:</strong> The assassin left tracks all over the murderer's place.</p><p><strong>Fact 6:</strong> Leaving tracks all over indicates the assassin was there for a long duration.</p><p>Let m = \"robbery\",&nbsp;&nbsp;<br>p = \"political assassination\",&nbsp;<br>w = \"for a woman\",&nbsp;<br>t = \"something taken\",<br>l = \"assassin left immediately\",<br>k = \"assassin left tracks\",<br>d = \"assassin was there long.\"</p><p>What logical conclusion can Sherlock Holmes deduce about the motive for the murder?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The murder was done for robbery&nbsp;</li><li>The murder was a political assassination&nbsp;</li><li>The murder was for a woman&nbsp;</li><li>The motive cannot be determined from the given facts</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 216"
+        },
+        {
+          "post_id": "524651",
+          "text": "<p>In a labyrinth, three roads lead to an unknown destination — Gold, Marble, and Stone. Each road has a guard, and all three guards are liars (every statement they make is false). Their statements are:</p><p><strong>Gold Guard:</strong> \"This road (gold) leads to the center. Moreover, if the stone road leads to the center, then so does the marble road.\"</p><p><strong>Marble Guard:</strong> \"Neither the gold nor the stone road will take you to the center.\"</p><p><strong>Stone Guard:</strong> \"Follow the gold and you will reach the center. Follow the marble and you will be lost.\"</p><p>Let g , m, s denote that the Gold, Marble and Stone roads lead to the center respectively.</p><p>Which road leads to the center of the labyrinth?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Gold road&nbsp;</li><li>Marble road</li><li>&nbsp;Stone road&nbsp;</li><li>Cannot be determined</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 216"
+        }
+      ]
+    }
+  ]
+}

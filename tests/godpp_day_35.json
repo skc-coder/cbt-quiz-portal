@@ -1,0 +1,70 @@
+{
+  "name": "Day 33 [Probability]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "474739",
+          "text": "<p>A box contains $10$ pens of which $3$ are defective. A sample of $2$ pens is drawn at random and let $X$ denote the number of defective pens. Then the variance of $X$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{11}{15}$<br>&nbsp;</li><li>$\\frac{2}{15}$<br>&nbsp;</li><li>$\\frac{3}{5}$<br>&nbsp;</li><li>$\\frac{28}{75}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 33"
+        },
+        {
+          "post_id": "474737",
+          "text": "<p>Let a random variable $X$ take values $0,1,2,3$ with $P(X=0)=P(X=1)=p, P(X=2)=P(X=3)$ and $E\\left(X^2\\right)=2 E(X)$. Then the value of $8 p-1$ is :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$2$<br>&nbsp;</li><li>$0$<br>&nbsp;</li><li>$3$<br>&nbsp;</li><li>$1$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 33"
+        },
+        {
+          "post_id": "474735",
+          "text": "<p>If $A$ and $B$ are two events such that $P(A)=0.7, P(B)=0.4$ and $P(A \\cap \\bar{B})=0.5$, where $B$ denotes the complement of $B$, then $P(B \\mid(A \\cup \\bar{B}))$ is equal to</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{1}{3}$<br>&nbsp;</li><li>$\\frac{1}{2}$<br>&nbsp;</li><li>$\\frac{1}{4}$<br>&nbsp;</li><li>$\\frac{1}{6}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 33"
+        },
+        {
+          "post_id": "474733",
+          "text": "Let a random variable $X$ follow Poisson distribution such that<br>\n<br>\n$$<br>\n\\operatorname{Prob}(X=1)=\\operatorname{Prob}(X=2) .<br>\n$$<br>\n<br>\nThe value of $\\operatorname{Prob}(X=3)$ is______________ (round off to 2 decimal places).",
+          "type": "Numerical",
+          "answer": "0.18",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 33"
+        },
+        {
+          "post_id": "474730",
+          "text": "<p>If two unbiased coins are tossed, then what is the probability of having at least one head?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.25$<br>&nbsp;</li><li>$0.5$<br>&nbsp;</li><li>$0.675$<br>&nbsp;</li><li>$0.75$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Probability",
+          "day": "Day 33"
+        }
+      ]
+    }
+  ]
+}

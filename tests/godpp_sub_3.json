@@ -1,0 +1,1020 @@
+{
+  "name": "CO & Architecture",
+  "duration": 300,
+  "total_qs": 100,
+  "total_qs_one": 100,
+  "total_qs_two": 0,
+  "total_marks": 100,
+  "apti_num_qs": 0,
+  "technical_num_qs": 100,
+  "technical_marks": 100,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 100,
+      "marks": 100,
+      "question": [
+        {
+          "post_id": "489091",
+          "text": "In a $12$ -bit computer instruction format, the size of the address field is $3$ bits. The computer uses an expanding OP code technique and has $12$ two-address instructions and 40 one-address instructions. The maximum number of zero-address instructions it can support is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "3008",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 95"
+        },
+        {
+          "post_id": "489089",
+          "text": "The baseline execution time of a program on a single-core machine is $200$ nanoseconds (ns). The code corresponding to $90\\%$ of the execution time can be fully parallelised. The overhead for using each additional core is $5$ ns when running on a multicore system. Assume that all cores in the multicore system run their share of the parallelised code for an equal amount of time.<br>\n<br>\nThe number of cores that minimise the execution time of the program is $\\_\\_\\_\\_$ .",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 95"
+        },
+        {
+          "post_id": "489088",
+          "text": "An $8$-way set-associative cache memory unit with a capacity of $64$ KB is built using a block size of $16$ words. The word length is $32$ bits. The size of the physical address space is $16$ GB . The number of bits for the TAG field is $\\_\\_\\_\\_$",
+          "type": "Numerical",
+          "answer": "21",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 95"
+        },
+        {
+          "post_id": "489085",
+          "text": "<p>A computer system has an L1 cache, an L2 cache, and a main memory unit. The block size in L2 cache is 16 words. The data bus between the L2 cache and main memory is 4 words wide. The memory access times are 2 nanoseconds, 20 nanoseconds, and 200 nanoseconds for L1 cache, L2 cache, and the main memory unit, respectively.</p><p>When there is a miss in both L1 and L2 cache, a block is transferred from main memory to L2 cache. What is the total time taken for this transfer, assuming the bus cycle time is the same as the L2 cache access time?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$80$ nanoseconds<br>&nbsp;</li><li>$200$ nanoseconds<br>&nbsp;</li><li>$220$ nanoseconds<br>&nbsp;</li><li>$280$ nanoseconds</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 95"
+        },
+        {
+          "post_id": "489084",
+          "text": "<p>Consider a $2$-way set associative cache (initially empty) with a total of 16 cache blocks. The main memory consists of 256 blocks and the requests for memory blocks are in the following order:<br>$$0,255,1,4,3,8,133,159,216,129,63,8,48,32,73,92,155$$<br>Which one of the following memory blocks WILL be in the cache if an LRU replacement policy is used?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0$<br>&nbsp;</li><li>$8$<br>&nbsp;</li><li>$129$<br>&nbsp;</li><li>$216$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 95"
+        },
+        {
+          "post_id": "488430",
+          "text": "<p>A DMA controller transfers data from an I/O device to main memory using cycle stealing. The CPU is running at a frequency of $50$ MHz . The I/O device transfers data at a rate of $500 \\mathrm{~KB} / \\mathrm{s}$ (Kilobytes per second). The DMA controller transfers data one word ($4$ bytes) at a time. If one memory cycle takes one CPU clock cycle, what percentage of CPU cycles are stolen by the DMA controller?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.256 \\%$<br>&nbsp;</li><li>$2.56 \\%$<br>&nbsp;</li><li>$1.28 \\%$<br>&nbsp;</li><li>$0.128 \\%$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 92"
+        },
+        {
+          "post_id": "488427",
+          "text": "<p>An instruction set architecture is implemented using two different processor designs:</p><p>&nbsp;</p><ul><li><p>P1: A single-cycle processor with a clock period of $10 \\ \\text{ns}$ .</p></li><li><p>P2: A multi-cycle processor with a clock period of $2 \\ \\text{ns}$ .</p></li></ul><p>&nbsp;</p><p>On the multi-cycle processor (P2), instructions are categorized with the following cycle counts:</p><p>&nbsp;</p><ul><li><p>ALU instructions: $4$ cycles</p></li><li><p>Load/Store instructions: $5$ cycles</p></li><li><p>Branch instructions: $3$ cycles</p></li></ul><p>&nbsp;</p><p>For a program with an instruction mix of $50 %$ ALU, $25 %$ Load/Store, and $25 %$ Branch instructions, which processor is faster and by what factor?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>P1 IS FASTER BY A FACTOR OF $1.25$.<br>&nbsp;</li><li>P2 IS FASTER BY A FACTOR OF $1.25$.<br>&nbsp;</li><li>P1 IS FASTER BY A FACTOR OF $1.5$.<br>&nbsp;</li><li>P2 IS FASTER BY A FACTOR OF $1.5$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 92"
+        },
+        {
+          "post_id": "488426",
+          "text": "<p>In a system where multiple I/O devices are connected using a daisy-chaining scheme for interrupt handling, three devices, D1, D2, and D3 are connected in that order of proximity to the CPU (D1 is closest). If all three devices request an interrupt at the same time, how is the priority resolved?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The device physically farthest from the CPU (D3) gets the highest priority.<br>&nbsp;</li><li>The CPU polls each device to determine the highest-priority request.<br>&nbsp;</li><li>The device physically closest to the CPU (D1) gets the highest priority.<br>&nbsp;</li><li>All requests are serviced in a round-robin fashion.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 92"
+        },
+        {
+          "post_id": "488182",
+          "text": "<p>A C program, which initializes an integer array A of $4096$ elements to zero, is run on a computer with a direct-mapped data cache. The relevant details are provided below:</p><ul><li>Array Declaration:<br>&nbsp;<pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int A[4096];</pre><br>&nbsp;</li><li>Element Size: sizeof(int) is $4$ Bytes.<br>&nbsp;</li><li>Cache Size: $44 KBytes.<br>&nbsp;</li><li>Cache Block (Line) Size: $32$ Bytes.<br>&nbsp;</li><li>The cache is initially empty.<br>&nbsp;</li><li>The base address of the array A is $\\mathrm{0x00000000}$.</li></ul><p>The program executes the following loop:</p><p><br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int sum = 0;\nfor (int i = 0; i &lt; 4096; i = i + 128) {\n&nbsp; &nbsp; sum += A[i];\n}</pre><p><br>What is the total number of data cache misses generated by this loop?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$8$<br>&nbsp;</li><li>$16$<br>&nbsp;</li><li>$32$<br>&nbsp;</li><li>$128$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 90"
+        },
+        {
+          "post_id": "487572",
+          "text": "<p>In a computer system with a $32$-bit physical address, the address is broken down for cache mapping as follows: Tag = $18$ bits, Index (Set) = $8$ bits, Offset = $6$ bits. If the total cache size is $512$ KB, what is the associativity of the cache?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$8$-WAY<br>&nbsp;</li><li>$16$-WAY<br>&nbsp;</li><li>$32$-WAY<br>&nbsp;</li><li>$64$-WAY</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 88"
+        },
+        {
+          "post_id": "488423",
+          "text": "<p>A processor has a $5$-stage instruction pipeline: Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB). The clock cycle time is $1$ ns. Assume that the pipeline has no data forwarding mechanism. An instruction's result is written to the register file in the WB stage and can be read by another instruction only in the subsequent clock cycles.</p><pre>Consider the following sequence of instructions:\n\nI1: ADD R1, R2, R3 (R1 - R2 + R3)\nI2: SUB R4, R1, R5 (R4 -R1-R5)\nI3: AND R6, R1, R7 (R6 \\leftarrow R1 AND R7)\nI4: OR R8, R4, R9 (R8 - R4 ORR9)\n</pre><p><br>The total time (in nanoseconds) required to execute this sequence of instructions is $\\_\\_\\_\\_\\_$ .</p>",
+          "type": "Numerical",
+          "answer": "13",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 92"
+        },
+        {
+          "post_id": "488177",
+          "text": "<p>Consider a $4$-way set associative cache of size $64$ KB with a block size of $128$ bytes. The system uses a $36$-bit physical address. The number of bits required for the tag and the index are, respectively,</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$22,7$<br>&nbsp;</li><li>$20,9$<br>&nbsp;</li><li>$7,22$<br>&nbsp;</li><li>$22,9$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 90"
+        },
+        {
+          "post_id": "486762",
+          "text": "<p>A five-stage instruction pipeline has the stage delays of $150, 120, 160, 140$ and $130$ nanoseconds respectively. Registers that are used between the stages have a delay of 5 nanoseconds each. What is the approximate speedup of the pipeline in the steady state under ideal conditions as compared to the non-pipelined execution?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4.0$<br>&nbsp;</li><li>$4.2$<br>&nbsp;</li><li>$4.5$<br>&nbsp;</li><li>$5.0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 84"
+        },
+        {
+          "post_id": "488183",
+          "text": "<p>A computer's main memory unit has a peak theoretical bandwidth of $12.8 \\mathrm{~GB} / \\mathrm{s}$. The memory is constructed using DDR4 SDRAM chips which have the following characteristics:</p><ul><li>The number of rows of memory cells in each chip is $2^{13}$.<br>&nbsp;</li><li>The time required to refresh a single row is $60$ nanoseconds.<br>&nbsp;</li><li>The refresh operation must be performed on all rows every $4$ milliseconds.</li></ul><p>Considering the time lost to refresh cycles, the effective data bandwidth of the memory unit in GB/s is ________ . (Round your answer to two decimal places.)</p>",
+          "type": "Numerical",
+          "answer": "11.2:11.3",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 90"
+        },
+        {
+          "post_id": "487575",
+          "text": "<p>A machine has $16$-bit instructions. An address field takes $5$ bits. The machine uses an expanding opcode scheme. If there are $12$ two-address instructions and $150$ one-address instructions, what is the maximum possible number of zero-address instructions?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1514$<br>&nbsp;</li><li>$1664$<br>&nbsp;</li><li>$48448$<br>&nbsp;</li><li>$49152$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 88"
+        },
+        {
+          "post_id": "487576",
+          "text": "<p>Processor A runs at $3$ GHz with a CPI of $1.5$. Processor B runs at $4$ GHz with a CPI of $1.2$. A program P , when compiled for Processor A , has $1 \\times 10^9$ instructions. An optimizing compiler for Processor $B$ reduces the instruction count for the same program to $0.75 \\times 10^9$ instructions. What is the speedup of Processor B over Processor A for this program?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1.85$<br>&nbsp;</li><li>$2.00$<br>&nbsp;</li><li>$2.22$<br>&nbsp;</li><li>$2.50$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 88"
+        },
+        {
+          "post_id": "487052",
+          "text": "<p>A six-stage pipeline processor has the stages: Fetch (FE), Decode (DE), Register Read (RR), Execute (EX), Memory Access (MA), and Write Back (WB). Each stage takes $1$ clock cycle. The EX stage takes $1$ cycle for SUB instructions and $4$ cycles for DIV instructions. The pipeline uses operand forwarding. Calculate the number of clock cycles needed to execute the following instruction sequence:<br><br>SUB R3, R2, R1 (R3 $\\leftarrow$R2 - R1)<br><br>DIV R5, R3, R4 (R5$\\leftarrow$ R3 / R4)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$11$<br>&nbsp;</li><li>$12$<br>&nbsp;</li><li>$13$<br>&nbsp;</li><li>$10$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 86"
+        },
+        {
+          "post_id": "488180",
+          "text": "<p>Consider a $4$-way set-associative cache memory with a total of $16$ blocks. The Least Recently Used (LRU) policy is employed for block replacement. What is the number of cache misses for the following sequence of block addresses?</p><p>$$<br>0,17,1,8,18,0,9,2,17,3,20<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$7$<br>&nbsp;</li><li>$8$<br>&nbsp;</li><li>$9$<br>&nbsp;</li><li>$10$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 90"
+        },
+        {
+          "post_id": "488425",
+          "text": "<p>A processor uses 16-bit instructions and has a byte-addressable memory. It has a post-increment register indirect addressing mode, $\\mathrm{(Rx)+}$, which first fetches the operand from the memory location pointed to by $\\mathrm{R_x}$ and then increments $\\mathrm{R_x}$ by the size of the operand (in this case, $2$ bytes for a $16$ -bit word).</p><p>Before executing the instruction $\\mathrm{ADD R3, (R1)+}$, the state is as follows:</p><ul><li>Register $\\mathrm{R1= 0 \\times 1000}$<br>&nbsp;</li><li>Register $\\mathrm{R3 =0 \\times 3000}$<br>&nbsp;</li><li>$\\mathrm{Memory[0x1000]}$ $=0 \\times 20$<br>&nbsp;</li><li>Memory $[0 \\times 1001]=0 \\times 00$ (So the 16 -bit word at $0 \\times 1000$ is $8 \\times 2000$ )</li></ul><p>Which of the following statements is/are TRUE after the execution of the instruction?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The value in register R3 will be $0 \\times 5000$.<br>&nbsp;</li><li>The instruction performs the operation $\\mathrm{R} 3+\\mathrm{R} 3+\\mathrm{M}[\\mathrm{R} 1], \\mathrm{R} 1=\\mathrm{R} 1+2$.<br>&nbsp;</li><li>The value in register R1 will be $0 \\times 1002$.<br>&nbsp;</li><li>The value in register R1 will be $0 \\times 1001$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 92"
+        },
+        {
+          "post_id": "486326",
+          "text": "<p>A computer system features a two-level cache. The L1 cache has an access time of $10$ ns and a hit rate of $90 \\%$. The L2 cache has an access time of $40$ ns and a local hit rate of $95 \\%$ (for misses from L1). The main memory has an access time of $200$ ns. What is the average memory access time (AMAT) for this system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$15$ ns<br>&nbsp;</li><li>$34$ ns<br>&nbsp;</li><li>$13.8$ ns<br>&nbsp;</li><li>$50$ ns</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 82"
+        },
+        {
+          "post_id": "486761",
+          "text": "<p>A 16-bit processor uses instructions with the following format:</p><pre>Opcode (4 bits) | Dst Register (3 bits) | Base Register (3 bits) | Offset (6 bits)</pre><p><br>The opcode $0 \\times 9$ specifies a LOAD operation that uses indexed addressing. The effective memory address is calculated as:</p><pre>Effective Address = (Contents of Base Register) + Offset</pre><p><br>Consider the instruction word $0 \\times 959 \\mathrm{~A}$. Before the instruction is executed, the system state is as follows:</p><p>&nbsp;</p><ul><li>Register R6 contains the value $80$.</li><li>Memory at address $106$ contains the value $250$ .</li></ul><p>What is the value loaded into the destination register after this instruction is executed?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$250$<br>&nbsp;</li><li>$106$<br>&nbsp;</li><li>$80$<br>&nbsp;</li><li>$26$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 84"
+        },
+        {
+          "post_id": "485675",
+          "text": "<p>A CPU has a 5-stage pipeline with the following stages: Fetch (F), Decode (D), Execute (E), Memory $(\\mathrm{M})$ and Write-back (W). Each stage takes one clock cycle to complete. Assume there are no pipeline stalls and the pipeline is initially empty. How many clock cycles are required to complete the execution of $10$ instructions?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10$<br>&nbsp;</li><li>$14$<br>&nbsp;</li><li>$15$<br>&nbsp;</li><li>$19$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 80"
+        },
+        {
+          "post_id": "484895",
+          "text": "<p>A Computer uses a memory unit with $256$ K words of $32$ bits each. A binary instruction code is stored in one word of memory. The instruction has four parts: an indirect bit, an operation code, a register code part to specify one of $64$ registers and an address part. How many bits are there in the operation code, the register code part and the address part?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$7, 7,&nbsp;18$<br>&nbsp;</li><li>$18, 7, 7$<br>&nbsp;</li><li>$7, 6, 18$<br>&nbsp;</li><li>$6, 7, 18$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 78"
+        },
+        {
+          "post_id": "486324",
+          "text": "<p>A four-way set associative cache memory unit with a capacity of $32$ KB is built using a block size of $16$ words. The word length is $32$ bits. The physical address space is $4$ GB . The number of bits in the TAG, SET fields are</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$19,7$<br>&nbsp;</li><li>$17,9$<br>&nbsp;</li><li>$21,7$<br>&nbsp;</li><li>$19,8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 82"
+        },
+        {
+          "post_id": "484894",
+          "text": "<p>Consider a system with $2$ level cache. Access times of Level $1$, Level $2$ cache, and main memory are $5 \\mathrm{~ns}, 50 \\mathrm{~ns}$ and $1000$ ns, respectively. The hit rates of Level $1$ and Level $2$ caches are $0.7$ and $0.8$, respectively. What is the average access time of the system if parallel searching is used at all levels?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$207.5$ ns<br>&nbsp;</li><li>$75.5$ ns<br>&nbsp;</li><li>$243.5$ ns<br>&nbsp;</li><li>$352.0$ ns</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 78"
+        },
+        {
+          "post_id": "484339",
+          "text": "<p>A magnetic disk has the following specifications:</p><ul><li>Number of recording surfaces $=8$</li><li>Number of tracks per surface $=20,000$</li><li>Number of sectors per track = 400</li><li>Sector size $=1 \\mathrm{~KB}$</li><li>Disk rotation speed $=6000 \\mathrm{rpm}$</li></ul><p>The disk controller uses cycle stealing DMA mode. In this mode, whenever a byte is ready, it transfers it to memory directly (or reads a byte from memory in case of a write). The memory has a cycle time of $100$ ns.</p><p>Assume continuous data transfer is possible once the head is positioned at the beginning of a track.</p><p>The maximum fraction of CPU time that can be blocked during a DMA transfer is ____________ $\\%$.</p>",
+          "type": "Numerical",
+          "answer": "100",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 76"
+        },
+        {
+          "post_id": "485666",
+          "text": "<p>Consider a $5$-segment pipeline with a clock cycle time of $20$ ns in each sub-operation. Find out the approximate speed-up ratio between a pipelined and non-pipelined system to execute $100$ instructions. (If, on average, every five cycles, a bubble due to data hazard has to be introduced in the pipeline)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5$<br>&nbsp;</li><li>$4.03$<br>&nbsp;</li><li>$4.81$<br>&nbsp;</li><li>$4.17$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 80"
+        },
+        {
+          "post_id": "487573",
+          "text": "<p>Which of the following characteristics is a primary advantage of a hardwired control unit when compared to a microprogrammed control unit?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>EASE OF MODIFICATION<br>&nbsp;</li><li>HIGHER OPERATING SPEED<br>&nbsp;</li><li>LOWER IMPLEMENTATION COST<br>&nbsp;</li><li>ABILITY TO HANDLE COMPLEX INSTRUCTIONS</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 88"
+        },
+        {
+          "post_id": "486322",
+          "text": "<p>A particular parallel program computation requires $100$ sec when executed on a single processor. If $40 \\%$ of this computation is inherently sequential (i.e., will not benefit from additional processors), then theoretically best possible elapsed times of this program running with 2 and 4 processors, respectively, are</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$20$ sec and $10$ sec<br>&nbsp;</li><li>$30$ sec and $15$ sec<br>&nbsp;</li><li>$50$ sec and $25$ sec<br>&nbsp;</li><li>$70$ sec and $55$ sec</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 82"
+        },
+        {
+          "post_id": "485676",
+          "text": "<p>Arrange the given steps required for a Direct Memory Access (DMA) transfer in the correct order.<br><br>(A) Initiate DMA transfer request<br><br>(B) Transfer data directly between peripheral and memory<br><br>(C) Processor grants DMA control over the system bus<br><br>(D) DMA controller completes data transfer and signals completion</p><p>Choose the correct answer from the options given below:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(C), (A), (B), (D)$<br>&nbsp;</li><li>$(A), (C), (B), (D)$<br>&nbsp;</li><li>$(A),(B),(C),(D)$<br>&nbsp;</li><li>$(C), (B), (A), (D)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 80"
+        },
+        {
+          "post_id": "486760",
+          "text": "<p>An instruction's execution is divided into $5$ stages with the following individual stage delays:</p><ul><li>Instruction Fetch (IF): $10$ ns</li><li>Instruction Decode (ID): $8$ ns</li><li>Execute (EX): $10$ ns</li><li>Memory Access (MEM): $12$ ns</li><li>Write Back (WB): $7$ ns</li></ul><p>This process is implemented in a pipelined processor. Assume a latch delay (buffer overhead) of $1$ ns between each pipeline stage. For a program with $1000$ instructions, $20\\%$ of the instructions are found to cause $2$ stall cycles each due to data dependencies.</p><p>What is the speedup of this pipelined processor compared to a non-pipelined processor that executes the same instructions?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3.60$<br>&nbsp;</li><li>$2.58$<br>&nbsp;</li><li>$2.79$<br>&nbsp;</li><li>$5.00$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 84"
+        },
+        {
+          "post_id": "484893",
+          "text": "A processor chip is used for applications in which $30 \\%$ of execution time is spent on floating-point addition. For the new model of the processor, the design team has come up with a redesign of the floating point adder to make it twice as fast.<br>\n<br>\nThe possible maximum speedupby this design will be ______. (upto 2 decimal places)",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 78"
+        },
+        {
+          "post_id": "488178",
+          "text": "<p>Consider two cache organizations. The first is a $128$ KB 4-way set associative cache with a $64$byte block size. The second is of the same size and block size but is direct mapped. The system uses a $40$-bit physical address in both cases.</p><p>The component latencies are as follows:</p><ul><li>A $k$-bit comparator has a latency of $\\frac{k}{20} \\mathrm{~ns}$.<br>&nbsp;</li><li>An $N$-to-1 multiplexer has a latency of $0.3 \\times \\log _2(N) \\mathrm{ns}$.</li></ul><p>The hit latency of the set associative organisation is $h_1$ and that of the direct mapped organisation is $h_2$.</p><p>The value of the difference, $h_1-h_2$, is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.70$ ns<br>&nbsp;</li><li>$1.85$ ns<br>&nbsp;</li><li>$1.15$ ns<br>&nbsp;</li><li>$0.10$ ns</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 90"
+        },
+        {
+          "post_id": "484898",
+          "text": "<p>In which addressing mode is the effective address of the operand generated by adding a constant value to the content of a register?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Absolute mode<br>&nbsp;</li><li>Indirect mode<br>&nbsp;</li><li>Immediate mode<br>&nbsp;</li><li>Index mode</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 78"
+        },
+        {
+          "post_id": "486325",
+          "text": "<p>A machine has a $32$-bit architecture with $1$-word-long instructions. It has $64$ registers, each of which is $32$ bits long. It needs to support $45$ instructions, which have an immediate operand in addition to two register operands. Assuming that the immediate operand is an unsigned integer, the maximum value of the immediate operand is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$16383$<br>&nbsp;</li><li>$32767$<br>&nbsp;</li><li>$65535$<br>&nbsp;</li><li>$131071$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 82"
+        },
+        {
+          "post_id": "487054",
+          "text": "<p>A processor uses a $32$-bit physical address. It has a $128 \\mathrm{~KB}, 4$-way set associative L1 cache with a block size of $64$ bytes. What is the number of bits in the Tag field of the address?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$15$<br>&nbsp;</li><li>$17$<br>&nbsp;</li><li>$9$<br>&nbsp;</li><li>$6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 86"
+        },
+        {
+          "post_id": "487577",
+          "text": "<p>A computer system has a two-level cache (L1 and L2). The processor issues a memory request which is first sent to the L1 cache. The system has the following characteristics:</p><ul><li>L 1 cache hit time is $2$ ns.<br>&nbsp;</li><li>L1 cache hit rate is $95 \\%$.<br>&nbsp;</li><li>$\\quad \\mathrm{L} 2$ cache hit time is $20$ ns .<br>&nbsp;</li><li>For misses in $\\mathrm{L} 1,90 \\%$ are found in the L 2 cache (this is the local hit rate for L 2 ).<br>&nbsp;</li><li>Main memory access time is $120$ ns .</li></ul><p>What is the Average Memory Access Time (AMAT) for this system?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3.2$ ns<br>&nbsp;</li><li>$3.6$ ns<br>&nbsp;</li><li>$8.4$ ns<br>&nbsp;</li><li>$15.0$ ns</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 88"
+        },
+        {
+          "post_id": "486323",
+          "text": "<p>A byte addressable computer has a memory capacity of $2^m \\mathrm{~KB}$ (kbytes) and can perform $2^n$ operations. An instruction involving 3 operands and one operator needs maximum of</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$3m$ bits<br>&nbsp;</li><li>$3 m+n$ bits<br>&nbsp;</li><li>$m+n$ bits<br>&nbsp;</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 82"
+        },
+        {
+          "post_id": "487057",
+          "text": "<p>A system with a $1$ GHz CPU uses DMA to transfer data from a device at a rate of $50 \\mathrm{MB} / \\mathrm{s}$. The data is transferred in $32$ KB blocks. The DMA setup requires $1000$ CPU cycles and the interrupt at the end of the transfer takes $500$ CPU cycles to process. What percentage of CPU time is consumed by the DMA operations for a single block transfer?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.23 \\%$<br>&nbsp;</li><li>$1.50 \\%$<br>&nbsp;</li><li>$2.50 \\%$<br>&nbsp;</li><li>$5.00 \\%$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 86"
+        },
+        {
+          "post_id": "484896",
+          "text": "<p>An instruction pipeline consists of four stages: Fetch (F), Decode (D), Execute (E), and Write-Back (W). Each stage can accommodate only one instruction per clock cycle. The pipeline must process the following five instructions:</p><p>\\[<br>\\begin{array}{|l|c|c|c|c|}<br>\\hline<br>\\text{Instruction} & \\text{Fetch} & \\text{Decode} & \\text{Execute} & \\text{Write-Back} \\\\<br>\\hline<br>A & 2 & 1 & 2 & 1 \\\\<br>B & 1 & 3 & 1 & 2 \\\\<br>C & 2 & 2 & 2 & 2 \\\\<br>D & 1 & 1 & 3 & 1 \\\\<br>E & 2 & 3 & 1 & 1 \\\\<br>\\hline<br>\\end{array}<br>\\]</p><p>Assume:</p><ul><li>Only one instruction can occupy a stage at any given clock cycle.<br>&nbsp;</li><li>Instructions must move through stages in order: $\\mathrm{F} \\rightarrow \\mathrm{D} \\rightarrow \\mathrm{E} \\rightarrow \\mathrm{W}$.<br>&nbsp;</li><li>No instruction can overtake another.</li></ul><p>What is the minimum number of clock cycles required to complete the execution of all five instructions?</p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 78"
+        },
+        {
+          "post_id": "484344",
+          "text": "<p>Which of the following addressing modes is best suited to access elements of an array of contiguous memory locations?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Indexed addressing mode<br>&nbsp;</li><li>Base Register addressing mode<br>&nbsp;</li><li>Relative address mode<br>&nbsp;</li><li>Displacement mode</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 76"
+        },
+        {
+          "post_id": "485672",
+          "text": "<p>A non-pipelined CPU has $12$ general-purpose registers $(R0, R1, R2, ..... R12)$. Following operation are supported</p><ul><li>ADD Ra, Rb, Rr&nbsp; &nbsp; &nbsp; &nbsp;Add Ra to Rb and store the result in Rr<br>&nbsp;</li><li>MUL Ra, Rb, Rr.&nbsp; &nbsp; &nbsp; Multiply Ra to Rb and store the result in Rr</li></ul><p><br>MUL operations take two clock cycles; ADD takes one clock cycle.<br><br>Calculate the minimum number of clock cycles required to compute the value of the expression $X Y+X Y Z+Y Z$. The variables $X, Y, Z$ are initially available in registers R0, R1 and R2 and the contents of these registers must not be modified.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$5$<br>&nbsp;</li><li>$6$<br>&nbsp;</li><li>$7$<br>&nbsp;</li><li>$8$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 80"
+        },
+        {
+          "post_id": "487059",
+          "text": "<p>A number is represented in IEEE 754 single-precision floating-point format as the hexadecimal value $\\text{C22F0000}$ . What is the decimal value of this number?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$-43.75$<br>&nbsp;</li><li>$-39.875$<br>&nbsp;</li><li>$-47.75$<br>&nbsp;</li><li>$-12.25$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 86"
+        },
+        {
+          "post_id": "487055",
+          "text": "<p>An instruction $\\text{MUL (R3)+, R4}$ is executed. This instruction fetches an operand from the memory location pointed to by register R3, performs the multiplication with R4, and then increments the value of R3 by the size of the operand. This is an example of which addressing mode?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>INDIRECT<br>&nbsp;</li><li>INDEXED<br>&nbsp;</li><li>AUTO-INCREMENT<br>&nbsp;</li><li>RELATIVE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 86"
+        },
+        {
+          "post_id": "485668",
+          "text": "<p>Consider a $32$-bit processor which supports $70$ instructions. Each instruction is $32$ bits long and has $4$ fields, namely opcode, two register identifiers, and an immediate operand of unsigned integer type. Maximum value of the immediate operand that can be supported by the processor is $8191$.&nbsp; How many registers does the processor have?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$32$<br>&nbsp;</li><li>$64$<br>&nbsp;</li><li>$128$<br>&nbsp;</li><li>$16$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 80"
+        },
+        {
+          "post_id": "486763",
+          "text": "<p>A direct-mapped cache memory of $1$ MB has a block size of $256$ bytes. The cache has an access time of $3$ ns and a hit rate of $94 \\%$. During a cache miss, a $256$-byte block is fetched from the main memory, which has an access time of $40$ ns. What is the effective memory access time?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$4.94$ ns<br>&nbsp;</li><li>$5.22$ ns<br>&nbsp;</li><li>$5.40$ ns<br>&nbsp;</li><li>$7.44$ ns</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 84"
+        },
+        {
+          "post_id": "486759",
+          "text": "<p>Consider a system with a $2$-level cache. The access times of Level $1$ cache, Level $2$ cache, and main memory are $2 \\mathrm{~ns}, 20 \\mathrm{~ns}$, and $450$ ns , respectively. The hit rate of the Level $1$ cache is 0.9 . If the average memory access time of the system is $6.25$ ns , what is the hit rate of the Level $2$ cache?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.90$<br>&nbsp;</li><li>$0.92$<br>&nbsp;</li><li>$0.95$<br>&nbsp;</li><li>$0.98$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 84"
+        },
+        {
+          "post_id": "484033",
+          "text": "Consider a cache of $4$ lines of $16$ bytes each. Main memory is divided into blocks of $16$ bytes each. That is, block $0$ has bytes with addresses $0$ through $15$, and so on. Now consider a program that accesses memory in the following sequence of addresses:<br>\n<br>\nOnce: $63$ through $70$<br>\n<br>\nLoop ten times: $15$ through $32$; $80$ through $95$<br>\n<br>\nSuppose the cache is organized as direct mapped. Memory blocks $0, 4,$ and so on are assigned to line $1$; blocks $1,5 ,$ and so on to line $2$; and so on.<br>\n<br>\nThe hit ratio of the cache will be_____________$\\%$ (up to one decimal place).",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 74"
+        },
+        {
+          "post_id": "484337",
+          "text": "<p>The range of representable normalized numbers in IEEE-754 floating-point binary fractional representation but with <strong>bias=128 </strong>using a $32$-bit word is $$2^a to \\left(2-2^b\\right) \\times 2^c$$</p><p>The value of $a+b+c$ is ______________ .</p>",
+          "type": "Numerical",
+          "answer": "-24",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 76"
+        },
+        {
+          "post_id": "484336",
+          "text": "<p>The decimal floating-point number $-40.1$, when represented using the IEEE-754 single-precision $(32-bit)$ format and expressed in hexadecimal notation, equals:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0 x \\mathrm{C}2206000$<br>&nbsp;</li><li>$0 x \\mathrm{C}2006666$<br>&nbsp;</li><li>$0 x \\mathrm{C}2006000$<br>&nbsp;</li><li>$0 x \\mathrm{C} 2206666$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 76"
+        },
+        {
+          "post_id": "484028",
+          "text": "A computer has a cache, main memory, and a disk used for virtual memory. If a referenced word is in the cache, $20$ ns are required to access it. If it is in main memory but not in the cache, $60$ ns are needed to load it into the cache, and then the reference is started again. If the word is not in main memory, $12$ ms are required to fetch the word from disk, followed by $60$ ns to copy it to the cache, and then the reference is started again. The cache hit ratio is $0.9$ and the main memory hit ratio is $0.6$ . The average time in nanoseconds required to access a referenced word on this system is________.",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 74"
+        },
+        {
+          "post_id": "484031",
+          "text": "Consider a computer with the following characteristics: a total of $1$Mbyte of main memory, a word size of $1$ byte, a block size of $16$ bytes, and a cache size of $64$ Kbytes. For the main memory addresses of F0010, $01234$, and CABBE, The sum of the corresponding tag, cache line address, and word offsets for a direct-mapped cache in decimal is $A, B, C$ respectively.<br>\n<br>\nThe value of $A-B+C$ is_________.",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 74"
+        },
+        {
+          "post_id": "484026",
+          "text": "Consider a standard 5-stage pipeline CPU.<br>\n<br>\nThe CPU executes the following sequence of instructions:<br>\n<br>\n1. I1: LOAD R1, 100(R2) ; R1 $\\leftarrow \\mathrm{M}[\\mathrm{R} 2+100]$<br>\n<br>\n2. I2: ADD R3, R1, R4 ; R3 $\\leftarrow \\mathrm{R} 1+\\mathrm{R} 4$<br>\n<br>\n3. I3: SUB R5, R3, R6 ; R5 $\\leftarrow \\mathrm{R} 3$ - R6<br>\n<br>\n4. I4: STORE R5, 200(R2) ; $\\mathrm{M}[\\mathrm{R} 2+200] \\leftarrow \\mathrm{R} 5$<br>\n<br>\n5. I5: ADD R7, R1, R5 ; R7 $\\leftarrow \\mathrm{R} 1+\\mathrm{R} 5$<br>\n<br>\nEach stage takes exactly one clock cycle. Assume no structural hazards are there.<br>\n<br>\nThe total number of clock cycles required to complete the above sequence of instructions, starting from the fetch of I1 is ________.",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 74"
+        },
+        {
+          "post_id": "484024",
+          "text": "<p>A uniprocessor system runs at $1$ GHz and is connected to a sensor device that produces $1$ data word every $2 \\mu \\mathrm{~s}$.</p><p>In Programmed I/O, the processor continuously polls the device. To read one word, it first reads the status register, checks if data is ready, then reads the data register, and finally stores the word in memory. Each instruction (read, check, or store) takes $1$ cycle except reading the data register, which takes $3$ cycles. Reading the status register takes $2$ cycles, and checking it takes $1$ cycle.</p><p>In Interrupt-driven I/O, the device raises an interrupt whenever data is ready. The interrupt service routine first saves the CPU context ($5$ cycles), then reads the status register, checks the status, reads the data register, and stores the word into memory, and finally restores the CPU context ($5$ cycles). Reading the data register takes $3$ cycles, checking the status takes $1$ cycle, and reading the status register takes $2$ cycles.</p><p>Assume the CPU performs useful computation only when it is not servicing I/O. Ignore memory stalls and DMA.</p><p>Which of the following statement(s) is/are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Programmed I/O consumes fewer CPU cycles per data word than Interrupt-driven I/O.<br>&nbsp;</li><li>Interrupt-driven I/O consumes fewer CPU cycles per data word than Programmed I/O.<br>&nbsp;</li><li>CPU spends more than $1 \\%$ of its time servicing interrupts if using Interrupt-driven I/O.<br>&nbsp;</li><li>CPU spends less than $1 \\%$ of its time servicing I/O if using Programmed I/O.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 74"
+        },
+        {
+          "post_id": "484342",
+          "text": "A computer system uses DMA in cycle stealing mode. The DMA controller transfers one $8$-bit character in a single memory cycle from an I/O device to main memory at fixed intervals. The processor clock cycle is $20$ ns. If every $50$ processor cycles, one cycle is stolen by the DMA for data transfer, the effective data transfer rate of the device is ___________ $\\mathrm{X} 10^6$ bytes per second.",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 76"
+        },
+        {
+          "post_id": "483711",
+          "text": "<p>A processor has the following memory system characteristics:</p><ul><li>Main memory access time $=100 \\mathrm{~ns}$<br>&nbsp;</li><li>Cache access time $=5 \\mathrm{~ns}$<br>&nbsp;</li><li>Cache is write-back, write-allocate, block size = 16 bytes<br>&nbsp;</li><li>Cache read miss rate $=4 \\%$, write miss rate $=20 \\%$<br>&nbsp;</li><li>On a write miss, the entire block is loaded from memory before updating the cache<br>&nbsp;</li><li>On a write hit, the block is updated in cache only<br>&nbsp;</li><li>$20 \\%$ of the cache blocks are dirty when they are replaced<br>&nbsp;</li><li>Assume $30 \\%$ of all memory accesses are writes</li></ul><p>The average memory access time (AMAT) for this system (in ns) is __________.</p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 72"
+        },
+        {
+          "post_id": "483709",
+          "text": "A scalar in-order processor has a base CPI of $1$ in the absence of control hazards. The instruction mix of a program is such that conditional branches are $20$ percent of all instructions and unconditional branches are $5$ percent. The branch target buffer has a hit rate of $80$ percent for both branch types. For conditional branches, when the BTB hits, a $2$-bit saturating counter predictor is used whose direction accuracy is $92$ percent. Unconditional branches are always taken. The actual taken probability of conditional branches is $60$ percent. A direction misprediction incurs a penalty of $5$ cycles. When a branch is taken but the BTB misses, there is a $2$-cycle target resolution penalty even if the direction would have been correct; when a conditional branch is not taken and the BTB misses, there is no penalty. Assume no overlap between penalties and ignore all other stalls.<br>\n<br>\nThe average CPI of this processor is _______ (up to $3$ decimal places)",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 72"
+        },
+        {
+          "post_id": "483707",
+          "text": "<p>Consider the standard pipelined execution of the following instruction sequence:</p><p>I1: MUL R1, R2, R3</p><p>I2: ADD R4, R1, R5</p><p>I3: SUB R6, R4, R7</p><ul><li>Initially, registers contain: $\\mathrm{R} 2=3, \\mathrm{R} 3=5, \\mathrm{R} 5=2, \\mathrm{R} 7=4$.<br>&nbsp;</li><li>The processor uses forwarding from the ALU output to the input of subsequent ALU operations.<br>&nbsp;</li><li>Instructions are fetched one per cycle, starting from cycle 1.</li></ul><p>Which of the following statements is/are correct?<br><br>A. There is a RAW dependency between I1 and I2.<br><br>B. After execution of the sequence, the content of the registers is $R&nbsp;1=-2, R 4=-7, R 6=-11 $</p><p>C. 8 stalls are created due to RAW hazard<br><br>D. A structural hazard will occur due to the ALU being used by multiple instructions.</p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 72"
+        },
+        {
+          "post_id": "483705",
+          "text": "<p>Assume that the following instruction sequence is executed on standard pipeline:</p><p>$$<br>\\begin{aligned}<br>& 11: R 1=R 2+R 3 \\\\<br>& 12: R 4=R 1+R 5 \\\\<br>& 13: R 1=R 6-R 7 \\\\<br>& 14: R 5=R 1+R 8 \\\\<br>& 15: R 6=R 4+R 1<br>\\end{aligned}<br>$$</p><p><br>Which of the following statements is/are not true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>There are 3 RAW dependencies in this sequence<br>&nbsp;</li><li>There are 3 WAR hazards in this sequence<br>&nbsp;</li><li>There are 1 WAW hazard in this sequence<br>&nbsp;</li><li>There is a RAW hazard between I1 and I4</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 72"
+        },
+        {
+          "post_id": "483703",
+          "text": "<p>Which of the following statement(s) is/are correct regarding the single-issue pipeline?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>True data dependency always creates stalls in the pipeline<br>&nbsp;</li><li>WAR/WAW hazards may or may not be there in the pipeline<br>&nbsp;</li><li>Out-of-order execution can eliminate some stalls caused by true data dependencies.<br>&nbsp;</li><li>Structural dependency may or may not create stalls if no additional hardware is used.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 72"
+        },
+        {
+          "post_id": "483263",
+          "text": "A PC-relative mode branch instruction is stored in memory at address $620_{10}$ The size of the instruction is $2$ bytes. The branch is made to location $530_{10}$ and the address field in the instruction is $16$ bits long.<br>\n<br>\nThe value of displacement (in decimal) in the instruction is ____________",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 70"
+        },
+        {
+          "post_id": "483265",
+          "text": "<p>A two-way set-associative cache has a line size of $16$ bytes and a total capacity of $8$ KB . The main memory is $64$ MB and byte-addressable. What is the format of a main memory address (Tag, Set Index, Block Offset)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$13$ bits Tag, $9$ bits Set, $4$ bits Offset<br>&nbsp;</li><li>$14$ bits Tag, $8$ bits Set, $4$ bits Offset<br>&nbsp;</li><li>$13$ bits Tag, $8$ bits Set, $4$ bits Offset<br>&nbsp;</li><li>$14$ bits Tag, $9$ bits Set, $4$ bits Offset</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 70"
+        },
+        {
+          "post_id": "483260",
+          "text": "<p>A computer system has a main memory of $32$ K $16$-bit words and a cache of $4$ K words, organised into four-word lines with $64$ words per line. The cache is initially empty. A processor fetches words from memory locations $0,1,2, \\ldots$, $4351$ in order, and then repeats this sequence $9$ more times. The cache is $10$ times faster than main memory. Assume an LRU block replacement policy.</p><p>What is the approximate performance improvement due to the cache?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>&nbsp;$4 x$<br>&nbsp;</li><li>$6 x$<br>&nbsp;</li><li>$7 x$<br>&nbsp;</li><li>$10 x$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 70"
+        },
+        {
+          "post_id": "483258",
+          "text": "Consider a processor that includes a base with an indexing addressing mode. Suppose an instruction is encountered that employs this addressing mode and specifies a displacement of $1970$, in decimal. Currently the base and index registers contain the decimal numbers $48022$ and $8$, respectively.<br>\n<br>\nThe address of the operand (in decimal) is ____________.",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 70"
+        },
+        {
+          "post_id": "483256",
+          "text": "<p>A program iterates over a one-dimensional array of $1024$ integers stored in memory. Each integer occupies $4$ bytes. The system has a direct-mapped L1 cache with the following characteristics:</p><ul><li>Cache size $=256$ bytes<br>&nbsp;</li><li>Block size $=16$ bytes<br>&nbsp;</li><li>Cache miss penalty $=50 \\mathrm{~ns}$<br>&nbsp;</li><li>Cache hit time $=2 \\mathrm{~ns}$</li></ul><p>Consider the following program:<br><br>For(i=0 to length(array)-1 )<br>{<br><br>&nbsp; &nbsp; &nbsp; &nbsp; Print(array[i])<br><br>}<br><br>What is the affective memory access time of the cache approximately (in $\\mu \\mathrm{s}$ ) for this loop?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$14.5$<br>&nbsp;</li><li>$19.37$<br>&nbsp;</li><li>$0.0145$<br>&nbsp;</li><li>$15$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 70"
+        },
+        {
+          "post_id": "482991",
+          "text": "<p>Consider a 16-bit processor in which the following appears in main memory, starting at location 200:</p><p>\\[<br>\\begin{array}{|l|c|}<br>\\hline<br>200 & \\text{Load to AC} \\;\\; | \\;\\; \\text{Mode} \\\\ \\hline<br>201 & 500 \\\\ \\hline<br>202 & \\text{Next Instruction} \\\\ \\hline<br>\\end{array}<br>\\]</p><p>The first part of the first word indicates that this instruction loads a value into an accumulator. The Mode field specifies an addressing mode and, if appropriate, indicates a source register; assume that when used, the source register is R1, which has a value of $400$.There is also a base register that contains the value $100$.The value of $500$ in location $201$ may be part of the address calculation. Assume that location $399$ contains the value $999$, location $400$ contains the value $1000$ , and so on.</p><p>Which of the following statement(s) is/are correct?<br><br>(EA represents effective address.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If direct addressing mode is used, then $\\mathrm{EA}=500$ and operand $=1100$<br>&nbsp;</li><li>If PC relative addressing mode is used, then $\\mathrm{EA}=900$ and operand=mem[900]<br>&nbsp;</li><li>If register indirect addressing mode is used, then $\\mathrm{EA}=400$ and operand $=1000$<br>&nbsp;</li><li>If Indirect addressing mode is used, then $\\mathrm{EA}=1100$ and operand $=1700$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 68"
+        },
+        {
+          "post_id": "482989",
+          "text": "A computer has a memory hierarchy consisting of a two-level cache (L1 and L2) and a main memory. If the processor needs to access data from memory, it first looks into L1 and L2 cache simultaneously.<br>\n<br>\nIf the data is found In L1 cache, then it stops fetching from L2 immediately. it goes to main memory only if data is not found in L2 cache. Hit rates and access times of various memory units are:<br>\n<br>\nL1 cache:<br>\n<br>\nHit rate $=90 \\%$<br>\nAccess time $=20 \\mathrm{~ns}$<br>\n<br>\nL2 cache:<br>\n<br>\nHit rate $=80 \\%$<br>\nAccess time $=30 \\mathrm{~ns}$<br>\n<br>\nMain memory:<br>\n<br>\nAccess time $=300 \\mathrm{~ns}$<br>\n<br>\nThe average memory access time in nanoseconds is _________ (rounded off to two decimal places)",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 68"
+        },
+        {
+          "post_id": "482987",
+          "text": "A PC-relative mode branch instruction is $3$ bytes long. The address of the instruction in decimal is $256028$. What will be the branch target address if the signed displacement in the instruction is -31 ?",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 68"
+        },
+        {
+          "post_id": "482985",
+          "text": "A processor uses a two-level cache hierarchy. The L1 cache has a hit time of $2$ ns and a hit rate of $88 \\%$. 10% of the blocks evicted from L1 are dirty. The L2 cache has a hit time of $10$ ns, a hit rate of $90 \\%$, and uses a write-through and no-write-allocate policy. The L2 cache is inclusive of L1, and the main memory access time is $60$ ns.<br>\n<br>\nIf the L1 cache uses write-through policy with no write allocate, then the affective memory access time for a read operation is (up to $1$ decimal place) _________",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 68"
+        },
+        {
+          "post_id": "482983",
+          "text": "A processor uses a two-level cache hierarchy. The L1 cache has a hit time of $2$ ns and a hit rate of $88 \\%$. It follows a write-back and write-allocate policy, and $10\\%$ of the blocks evicted from L1 are dirty. The L2 cache has a hit time of $10$ ns , a hit rate of $90 \\%$, and uses a write-through and no-write-allocate policy. The L2 cache is inclusive of L1, and the main memory access time is $60$ ns.<br>\n<br>\nThe average memory access time (AMAT) for a read operation in ns is (up to $1$ decimal place) ______",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 68"
+        },
+        {
+          "post_id": "482618",
+          "text": "<p>Consider a processor with byte-addressable memory. All registers, including the Program Counter (PC), Program Status Word (PSW), and Stack Pointer (SP), are $1$ word ($1$ word = $2$ bytes) wide. A stack is implemented in the main memory and grows upward (toward higher addresses).</p><p>A CALL instruction occupies $2$ words:<br><br>The first word is the opcode and the second word is the starting address of the subroutine. The semantics of CALL (as implemented) are:</p><ol><li>Compute the return address = address of the instruction following the CALL.<br>&nbsp;</li><li>Push the return address onto the stack.<br>&nbsp;</li><li>Push the PSW onto the stack.<br>&nbsp;</li><li>Load the starting address of the subroutine into PC.</li></ol><p>Push operation:<br>To push a $2$-byte word W onto the stack:</p><ul><li>$\\mathrm{SP} \\leftarrow \\mathrm{SP}+2$ (pre-increment because stack grows upward and SP points to top),<br>&nbsp;</li><li>then store the word W at memory addresses SP.</li></ul><p>Given:</p><ul><li>The current content of PC just before fetching the CALL instruction = $0x&nbsp; 1000$ (hex).</li><li>The two words of the CALL are located at addresses $0x 1000$ (opcode) and $0x&nbsp;1002$ (operand = starting address).</li><li>The operand (starting address of subroutine) contained in the CALL is $0x &nbsp;2000$.</li><li>The current content of PSW = 0xABCD.<br>&nbsp;</li><li>The current content of $\\mathrm{SP}=0x&nbsp;3006$.</li></ul><p>If the machine is Little-Endian, after execution of the CALL, the final values of PC and SP, and the bytes stored at addresses $0x 3008$ through $0&nbsp;x 300 \\mathrm{~B}$ (in increasing address order) will be:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{PC}=0 x&nbsp;2000, \\mathrm{SP}=0 x300A$, bytes $=0410 \\mathrm{CD} \\mathrm{AB}$</li><li>$\\mathrm{PC}=0 x&nbsp;2000, \\mathrm{SP}=0 x300A$, bytes $=1004 \\mathrm{AB} \\mathrm{CD}$</li><li>$\\mathrm{PC}=0 x&nbsp;1004, \\mathrm{SP}=0 x&nbsp;300A$, bytes $=0410 \\mathrm{CD} \\mathrm{AB}$</li><li>$\\mathrm{PC}=0 x&nbsp;2000, \\mathrm{SP}=0 x&nbsp;3008$, bytes $=0410 \\mathrm{CD} \\mathrm{AB}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 66"
+        },
+        {
+          "post_id": "482616",
+          "text": "<p>A computer architecture uses a 16-bit instruction format. The system designers want to implement the expand opcode technique to increase the number of instructions while supporting multiple addressing modes.</p><ul><li>The instruction format is divided as follows:</li><li>Opcode field</li><li>Addressing mode field</li><li>Register/Operand field(s)</li></ul><p>Two alternative designs are considered:<br><br><strong>Design A:</strong></p><ul><li>Opcode field = 6 bits<br>&nbsp;</li><li>Addressing mode field $=2$ bits<br>&nbsp;</li><li>Register/Operand field $=8$ bits</li></ul><p><strong>Design B (Expand Opcode Technique):</strong></p><ul><li>First 4 bits of the instruction = Primary Opcode.<br>&nbsp;</li><li>If the primary opcode indicates a \"special class\", then the next 4 bits are used as extended opcode.<br>&nbsp;</li><li>Remaining bits are used for addressing mode (2 bits) and operand (6 bits).<br>&nbsp;</li><li>There are $25 \\%$ chances that a primary opcode indicates a special class.</li></ul><p>Which of the following options is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Design A supports a greater number of instructions and a larger operand field.<br>&nbsp;</li><li>Design $B$ supports a greater number of instructions but a smaller operand field.<br>&nbsp;</li><li>Design A supports a greater number of instructions but a smaller operand field.<br>&nbsp;</li><li>Design $B$ supports both a greater number of instructions and a larger operand field.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 66"
+        },
+        {
+          "post_id": "482612",
+          "text": "<p>A computer system has a $1$ MB main memory organised as $4$-way interleaved memory using low-order interleaving.</p><ul><li>Memory is word-addressable.<br>&nbsp;</li><li>Each word $=4$ bytes.<br>&nbsp;</li><li>Each module has a cycle time of $200$ ns and can deliver $1$ word per cycle.</li></ul><p>Assume the CPU requests $8$ consecutive words starting at memory address $1020$; which sequence of modules will be accessed (in order)?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\mathrm{M} 0 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 2 \\rightarrow \\mathrm{M} 3 \\rightarrow \\mathrm{M} 0 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 2 \\rightarrow \\mathrm{M} 3$<br>&nbsp;</li><li>$\\mathrm{M} 3 \\rightarrow \\mathrm{M} 2 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 0 \\rightarrow \\mathrm{M} 3 \\rightarrow \\mathrm{M} 2 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 0$<br>&nbsp;</li><li>$\\mathrm{M} 3 \\rightarrow \\mathrm{M} 0 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 2 \\rightarrow \\mathrm{M} 3 \\rightarrow \\mathrm{M} 0 \\rightarrow \\mathrm{M} 1 \\rightarrow \\mathrm{M} 2$<br>&nbsp;</li><li>Depends on whether memory is big-endian or little-endian</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 66"
+        },
+        {
+          "post_id": "482610",
+          "text": "A machine supports RISC-style load/store architecture. Each instruction is $4$ bytes. Load and store instructions use base+offset addressing with a $16$-bit signed offset. If the machine has a $32$-bit address space, what is the maximum displacement range (in bytes) achievable from a base register using a single load/store instruction?",
+          "type": "Numerical",
+          "answer": "65536",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 66"
+        },
+        {
+          "post_id": "482608",
+          "text": "Consider the following binary data:<br>\n<br>\n\\[<br>\n\\begin{array}{|c|c|c|c|c|c|c|c|}<br>\n\\hline<br>\n0 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n\\]<br>\n<br>\nSuppose you apply logical left shift twice on this data and put it in destination d 1 where d 1 is a 8 bit register.<br>\n<br>\nLet the content of carry flag at this time is c1.<br>\n<br>\nNow you apply RCR (Rotate through carry right) operation on d1 and put it in d2 where d2 is a 8 bit register and the carry flag content at this time is c2 .<br>\n<br>\nConsider a 8-bit binary number B formed by c1 c2 a2 a1 a0 b2 b1 b0<br>\n<br>\nWhere c1 is MSB and b0 is LSB and a2 a1 a0 represents first three bits of d1 and b2 b1 b0 represents first three bit of d2 .<br>\n<br>\nThe value of $B$ in decimal is ______?",
+          "type": "Numerical",
+          "answer": "183",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 66"
+        },
+        {
+          "post_id": "482171",
+          "text": "<p>A computer system uses $2^{32}$ bytes of main memory. The memory is byte-addressable and each word consists of $8$ bytes.<br><br>The CPU generates $32$-bit addresses so the address bus size is $32$ bits.<br>If the memory were word-addressable instead of byte-addressable, then what would be the size of the data bus in bits?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$29$<br>&nbsp;</li><li>$32$<br>&nbsp;</li><li>$64$<br>&nbsp;</li><li>$8$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 64"
+        },
+        {
+          "post_id": "482169",
+          "text": "<p>The memory locations $3000$, $3002$, and $3010$ contain the values $40$, $7$, and $25$ respectively before the following program is executed:<br><br>MOVI Rs, 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; Move immediate<br><br>LOAD Rd, 3000(Rs) &nbsp;&nbsp;&nbsp;&nbsp;; Load from memory<br><br>ADDI Rd, 1000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; Add immediate<br><br>STOREI 0(Rd), 55 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; Store immediate<br><br>ADDI Rd, 1990 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; Add immediate<br><br>STOREI 5(Rd), 55 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; Store immediate<br><br>Which of the following statements is/are not TRUE after the program finishes execution?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Memory location $3000$ has value $55$<br>&nbsp;</li><li>Memory location 3002 has value $79$<br>&nbsp;</li><li>Memory location $3010$ has value $55$<br>&nbsp;</li><li>Memory location $1007$ has value $55$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A,C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 64"
+        },
+        {
+          "post_id": "482167",
+          "text": "A processor has 32 integer registers (RO ... R31) and 128 floating point registers (F0 ... F127).<br>\nIt uses a 3-byte instruction format.<br>\n<br>\nThe instruction set has four categories:<br>\n<br>\n1. Type-1: 6 instructions, each with 3 integer register operands (3 $R$ ).<br>\n<br>\n2. Type-2: 10 instructions, each with 2 floating-point register operands (2 F).<br>\n<br>\n3. Type-3: 20 instructions, each with 1 integer register and 1 floating-point register operand (1 R + 1 F).<br>\n<br>\n4. Type-4: M instructions, each with 1 floating-point register operand (1 F).<br>\n<br>\nThe maximum possible value of $M$ is _________?",
+          "type": "Numerical",
+          "answer": "127616",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 64"
+        },
+        {
+          "post_id": "482165",
+          "text": "<p>If the code shown below is executed on a big-endian machine, then the output of the following C code will be ?<br><br><strong>(Assume int takes 4 bytes and char takes 1 byte in memory.)</strong><br><br>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\nmain()\n{\n&nbsp; &nbsp; int y=100;\n&nbsp; &nbsp; printf(\"%d\", (*(char*)&y));\n}\n</pre><p>&nbsp;</p>",
+          "type": "Numerical",
+          "answer": "0",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 64"
+        },
+        {
+          "post_id": "482163",
+          "text": "We want to design a $128 \\times 16$ RAM using $16 \\times 8$ RAM chips.<br>\n<br>\nThe 7-bit system address is:<br>\n<br>\nA6 A5 A4 A3 A2 A1 A0<br>\n<br>\nWhere A0 is the least significant bit (LSB).<br>\nThe chip selection (chip number) is determined by the 3 bits (A3, A2, A1).<br>\nThe internal address within the chip is determined by the remaining 4 bits<br>\nThe system address &nbsp;$(0100100)_2$,<br>\ncorresponds to memory location A inside chip number B<br>\nThe value of $(A+B)_{10}$ is ___________ .",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 64"
+        },
+        {
+          "post_id": "478696",
+          "text": "<p>A processor has 5 stages: Fetch, Decode, Execute, Memory, and Writeback. The latencies of each stage are given below:<br>\\begin{array}{|l|l|l|}<br>\\hline Stage & Latency & \\\\<br>\\hline Fetch & 300 ps & \\\\<br>\\hline Decode & 400 ps & \\\\<br>\\hline Execute & 350 ps & \\\\<br>\\hline Memory & 550 ps & \\\\<br>\\hline Writeback & 100 ps & \\\\<br>\\hline<br>\\end{array}</p><p>In the pipelined version, assume each pipeline register adds an overhead of 20 ps .<br>What is the cycle time, latency of one instruction, and maximum throughput of the pipelined processor?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Cycle time $=550 \\mathrm{ps}$, Latency $=2750 \\mathrm{ps}$, Throughput $=1$ instruction every 550 ps<br>&nbsp;</li><li>Cycle time $=570 \\mathrm{ps}$, Latency $=2850 \\mathrm{ps}$, Throughput $=1$ instruction every 570 ps<br>&nbsp;</li><li>Cycle time $=570 \\mathrm{ps}$, Latency $=1700 \\mathrm{ps}$, Throughput $=1$ instruction every 570 ps<br>&nbsp;</li><li>Cycle time $=550 \\mathrm{ps}$, Latency $=1700 \\mathrm{ps}$, Throughput $=1$ instruction every 550 ps</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 58"
+        },
+        {
+          "post_id": "478694",
+          "text": "<p>A non-pipelined processor has the following stage latencies:<br>\\begin{array}{|l|l|}<br>\\hline Stage & Latency \\\\<br>\\hline Fetch & 300 ps \\\\<br>\\hline Decode & 400 ps \\\\<br>\\hline Execute & 350 ps \\\\<br>\\hline Memory & 550 ps \\\\<br>\\hline Writeback & 100 ps \\\\<br>\\hline<br>\\end{array}</p><p>Assume no overhead between stages in the non-pipelined design.<br>Which of the following is correct regarding the non-pipelined processor?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Cycle time $=550$ ps, Latency $=1700$ ps, Throughput $=1$ instruction every 550 ps<br>&nbsp;</li><li>Cycle time $=400 \\mathrm{ps}$, Latency $=2000 \\mathrm{ps}$, Throughput $=1$ instruction every 400 ps<br>&nbsp;</li><li>Cycle time $=1700 \\mathrm{ps}$, Latency $=1700 \\mathrm{ps}$, Throughput $=1$ instruction every 1700 ps<br>&nbsp;</li><li>Cycle time $=1700 \\mathrm{ps}$, Latency $=550 \\mathrm{ps}$, Throughput $=1$ instruction every 1700 ps</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 58"
+        },
+        {
+          "post_id": "478692",
+          "text": "<p>Consider cache memory $90 \\%$ hit ratio is required to be installed in a memory system to reduce the average memory access time from 250 ns to 34 ns . Calculate the cache memory access time required?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10$<br>&nbsp;</li><li>$12$<br>&nbsp;</li><li>$15$<br>&nbsp;</li><li>$20$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 58"
+        },
+        {
+          "post_id": "478688",
+          "text": "<p>A direct-mapped cache has 16 blocks and each block holds 8 bytes. For a 16 -bit byte-addressable address, how many bits are needed for the tag field?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$9$<br>&nbsp;</li><li>$10$<br>&nbsp;</li><li>$11$<br>&nbsp;</li><li>$12$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 58"
+        },
+        {
+          "post_id": "478690",
+          "text": "<p>A program consists of 500 instructions in total, including a loop of 100 instructions that is executed 25 times. Initially, all instructions are stored in main memory, and the cache is empty.<br>Assume:</p><ul><li>Main memory access takes 10 units of time</li><li>Cache access takes 1 unit of time</li><li>The cache is large enough to hold all loop instructions</li><li>Program execution time depends only on the time taken to fetch instructions (operand data access is ignored)</li></ul><p>What is the speedup achieved by using the cache?<br>Provide your answer as a numerical value rounded to 2 decimal places.</p>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 58"
+        },
+        {
+          "post_id": "475520",
+          "text": "<p>If the access time of a cache is 1 nS and the access time of a main memory is 15 nS, assuming that the cache hit rate is 0.9 and the total number of accesses is 100, then the average access times of the access with cache and without cache will be $-----$ and $-----$.</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>250 nS and 1500 nS<br>&nbsp;</li><li>250 mS and 150 nS<br>&nbsp;</li><li>25 nS and 1500 nS<br>&nbsp;</li><li>250 mS and 1500 mS</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 39"
+        },
+        {
+          "post_id": "475517",
+          "text": "<p>A 5-stage pipelined processor has the following stage latencies:</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px;\"><thead><tr><th scope=\"col\">Stage</th><th scope=\"col\">Latency</th></tr></thead><tbody><tr><td>Fetch</td><td>300 ps</td></tr><tr><td>Decode</td><td>400 ps</td></tr><tr><td>Execute</td><td>350 ps</td></tr><tr><td>Memory</td><td>550 ps</td></tr><tr><td>Writeback</td><td>100 ps</td></tr></tbody></table><p>Each pipeline register adds 20 ps overhead. If a stage is split into two halves, which half should be split to minimise cycle time?</p><p>What are the new cycle&nbsp;time, latency, and throughput?</p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Split Memory $\\rightarrow$ Cycle time $=420 \\mathrm{ps}$, Latency $=2520 \\mathrm{ps}$, Throughput $=1$ instruction $/ 420 \\mathrm{ps}$<br>&nbsp;</li><li>Split Decode $\\rightarrow$ Cycle time $=370$ ps, Latency $=2220$ ps, Throughput $=1 $ instruction $/ 370$ ps<br>&nbsp;</li><li>Split Execute $\\rightarrow$ Cycle time $=350$ ps, Latency $=2100$ ps, Throughput $=1 $ instruction $/ 350$ ps<br>&nbsp;</li><li>Split Fetch $\\rightarrow$ Cycle time $=300$ ps, Latency $=1800$ ps, Throughput $=1 $ instruction $/ 300$ ps</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 39"
+        },
+        {
+          "post_id": "475510",
+          "text": "<p>Which of the following instructions is NOT typically an arithmetic instruction?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>ADD<br>&nbsp;</li><li>SUB<br>&nbsp;</li><li>MOV<br>&nbsp;</li><li>MUL</li></ol>",
+          "type": "Numerical",
+          "answer": "X",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 39"
+        },
+        {
+          "post_id": "477177",
+          "text": "<p>If an instruction takes $3$ cycles for execution, then how many cycles are needed for executing4 instructions of the same type in a sequence using a $3$-stage pipeline?<br>Assume that there are no interrupts or exceptions while executing them.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$12$ cycles<br>&nbsp;</li><li>$6$ cycles<br>&nbsp;</li><li>$9$ cycles<br>&nbsp;</li><li>$4$ cycles</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 48"
+        },
+        {
+          "post_id": "475512",
+          "text": "<p>A processor has a clock rate of 1 GHz and an average CPI of 2. How many instructions can it execute per second?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>0.5 billion<br>&nbsp;</li><li>1 billion<br>&nbsp;</li><li>2 billion<br>&nbsp;</li><li>4 billion</li></ol>",
+          "type": "Numerical",
+          "answer": "X",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 39"
+        },
+        {
+          "post_id": "477186",
+          "text": "<p>A machine with a two-level cache has a base CPI of $1.5$ when all references hit the primary cache.<br>Given the following characteristics:</p><ul><li>Clock rate: $250$ MHz</li><li>Memory access time: $\\mathbf{1 0 0}$ ns</li><li>Miss rate at the primary cache: $\\mathbf{5 \\%}$</li><li>Secondary cache access time: $\\mathbf{1 0}$ ns</li><li>Miss rate at the secondary cache: $1 \\%$</li></ul><p>What is the total CPI?<br>(Answer should be a numerical value accurate to 4 decimal places.)</p>",
+          "type": "Numerical",
+          "answer": "1.6375",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 48"
+        },
+        {
+          "post_id": "475137",
+          "text": "<p>If the Most Significant Byte (MSB) is stored first while ordering byte values for storing data in memory, it is called as</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Big-endian<br>&nbsp;</li><li>Little-endian<br>&nbsp;</li><li>Big- and Little-endian<br>&nbsp;</li><li>None of them</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 35"
+        },
+        {
+          "post_id": "477175",
+          "text": "<p>How do Direct Addressing Mode instructions compare with respect to the Indirect Addressing Mode instructions?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Faster</li><li>Slower</li><li>No difference</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 48"
+        },
+        {
+          "post_id": "477182",
+          "text": "Suppose a computer has a $4$-way set associative cache with one-word blocks and a total capacity of 256 bytes (word size $=4$ bytes). Given the sequence of byte addresses $8$, $64$, $96$, $128$, $64$, $96$, $256$, $192$, $24$, how many cache misses occur? (Answer as a numerical value.)",
+          "type": "Numerical",
+          "answer": "7",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 48"
+        },
+        {
+          "post_id": "475514",
+          "text": "A machine has a base CPI of 2 clock cycles. Measurements obtained show that the instruction miss rate is $12 \\%$ and the data miss rate is $6 \\%$, and that on average, $30 \\%$ of all instructions contain one data reference. The miss penalty for the cache is 10 cycles. What is the total CPI?",
+          "type": "Numerical",
+          "answer": "3.38",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 39"
+        },
+        {
+          "post_id": "477179",
+          "text": "<p>A block-set-associative cache consists of $64$ blocks divided into $4$-block sets.<br>The main memory has $4096$ blocks, each block containing $32$ words.<br>Assuming:</p><ul><li>The machine has a $32$-bit byte-addressable address space</li><li>Word size $=4$ bytes</li></ul><p>How many bits are there in each of the Tag, Set, and Word/Byte offset fields?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Tag $=21$ bits, Set $=4$ bits, Word/Byte offset $=7$ bits<br>&nbsp;</li><li>Tag $=20$ bits, Set $=5$ bits, Word/Byte offset $=7$ bits<br>&nbsp;</li><li>Tag $=21$ bits, Set $=5$ bits, Word/Byte offset $=6$ bits<br>&nbsp;</li><li>Tag $=22$ bits, Set $=4$ bits, Word/Byte offset $=6$ bits</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 48"
+        },
+        {
+          "post_id": "475143",
+          "text": "<p>Consider the following statements about pipeline hazards in a typical 5 -stage instruction pipeline (IF, ID, EX, MEM, WB):</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Data hazards can sometimes be resolved using forwarding (bypassing)</li><li>Structural hazards occur when two instructions require the same hardware resource at the same time</li><li>Control hazards are completely eliminated by instruction pipelining</li><li>Read After Write (RAW), Write After Read (WAR), and Write After Write (WAW) are all types of data hazards</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A,B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 35"
+        },
+        {
+          "post_id": "475139",
+          "text": "Registers $R$$4$ and $R5$ contain the decimal numbers $2000$ and $3000$, respectively. If the addressing mode used is $\\mathbf{2 8 ( R 4 , ~ R 5 )}$, what is the Effective Address (EA)?",
+          "type": "Numerical",
+          "answer": "5028",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 35"
+        },
+        {
+          "post_id": "475141",
+          "text": "Registers $R4$ contains the decimal number $2000$. If the addressing mode used is $12$($R4$) (Base plus Displacement addressing mode), what is the Effective Address ($EA$)?",
+          "type": "Numerical",
+          "answer": "2012",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 35"
+        },
+        {
+          "post_id": "475135",
+          "text": "<p>Fixed instruction length is a feature of one of the following architecture.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>CISC</li><li>RISC</li><li>X $86$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "CO & Architecture",
+          "day": "Day 35"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Day 86 [CO & Architecture]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "487052",
+          "text": "<p>A six-stage pipeline processor has the stages: Fetch (FE), Decode (DE), Register Read (RR), Execute (EX), Memory Access (MA), and Write Back (WB). Each stage takes $1$ clock cycle. The EX stage takes $1$ cycle for SUB instructions and $4$ cycles for DIV instructions. The pipeline uses operand forwarding. Calculate the number of clock cycles needed to execute the following instruction sequence:<br><br>SUB R3, R2, R1 (R3 $\\leftarrow$R2 - R1)<br><br>DIV R5, R3, R4 (R5$\\leftarrow$ R3 / R4)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$11$<br>&nbsp;</li><li>$12$<br>&nbsp;</li><li>$13$<br>&nbsp;</li><li>$10$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 86"
+        },
+        {
+          "post_id": "487054",
+          "text": "<p>A processor uses a $32$-bit physical address. It has a $128 \\mathrm{~KB}, 4$-way set associative L1 cache with a block size of $64$ bytes. What is the number of bits in the Tag field of the address?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$15$<br>&nbsp;</li><li>$17$<br>&nbsp;</li><li>$9$<br>&nbsp;</li><li>$6$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 86"
+        },
+        {
+          "post_id": "487057",
+          "text": "<p>A system with a $1$ GHz CPU uses DMA to transfer data from a device at a rate of $50 \\mathrm{MB} / \\mathrm{s}$. The data is transferred in $32$ KB blocks. The DMA setup requires $1000$ CPU cycles and the interrupt at the end of the transfer takes $500$ CPU cycles to process. What percentage of CPU time is consumed by the DMA operations for a single block transfer?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$0.23 \\%$<br>&nbsp;</li><li>$1.50 \\%$<br>&nbsp;</li><li>$2.50 \\%$<br>&nbsp;</li><li>$5.00 \\%$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 86"
+        },
+        {
+          "post_id": "487059",
+          "text": "<p>A number is represented in IEEE 754 single-precision floating-point format as the hexadecimal value $\\text{C22F0000}$ . What is the decimal value of this number?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$-43.75$<br>&nbsp;</li><li>$-39.875$<br>&nbsp;</li><li>$-47.75$<br>&nbsp;</li><li>$-12.25$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 86"
+        },
+        {
+          "post_id": "487055",
+          "text": "<p>An instruction $\\text{MUL (R3)+, R4}$ is executed. This instruction fetches an operand from the memory location pointed to by register R3, performs the multiplication with R4, and then increments the value of R3 by the size of the operand. This is an example of which addressing mode?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>INDIRECT<br>&nbsp;</li><li>INDEXED<br>&nbsp;</li><li>AUTO-INCREMENT<br>&nbsp;</li><li>RELATIVE</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "CO & Architecture",
+          "day": "Day 86"
+        }
+      ]
+    }
+  ]
+}

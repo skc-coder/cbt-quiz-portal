@@ -1,0 +1,60 @@
+{
+  "name": "Day 271 [Mathematical Logic]",
+  "duration": 12,
+  "total_qs": 4,
+  "total_qs_one": 4,
+  "total_qs_two": 0,
+  "total_marks": 4,
+  "apti_num_qs": 0,
+  "technical_num_qs": 4,
+  "technical_marks": 4,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 4,
+      "marks": 4,
+      "question": [
+        {
+          "post_id": "531824",
+          "text": "<p data-start=\"102\" data-end=\"262\">Let $f:A\\to B$ and $g:B\\to C$ be functions, where $A,B,C$ are non-empty sets. Define $h=g\\circ f:A\\to C$. Consider the following statements:</p><ul><li data-start=\"264\" data-end=\"321\">$p:$&nbsp;If $g\\circ f$ is one-to-one, then $f$ is one-to-one.<br>&nbsp;</li><li data-start=\"323\" data-end=\"396\">$q:$&nbsp;If $g\\circ f$ is one-to-one and $f$ is onto, then $g$ is one-to-one.<br>&nbsp;</li><li data-start=\"398\" data-end=\"443\">$r:$&nbsp;If $g\\circ f$ is onto, then $g$ is onto.<br>&nbsp;</li><li data-start=\"445\" data-end=\"512\">$s:$&nbsp;If $g\\circ f$ is onto and $g$ is one-to-one, then $f$ is onto.</li></ul><p data-start=\"514\" data-end=\"548\">Which of the following is <strong>correct</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"550\" data-end=\"666\">Only $p$ and $r$ are true<br>&nbsp;</li><li data-start=\"550\" data-end=\"666\">Only $p,q,r$ are true<br>&nbsp;</li><li data-start=\"550\" data-end=\"666\">Only $p,r,s$ are true<br>&nbsp;</li><li data-start=\"550\" data-end=\"666\">All $p,q,r,s$ are true</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 271"
+        },
+        {
+          "post_id": "531826",
+          "text": "<p data-start=\"102\" data-end=\"245\">Let $f:A\\to B$ be defined by $f(x)=\\frac{3x-5}{2x+1}$. Which of the following choices of $A$ and $B$ makes $f$ a bijection?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"247\" data-end=\"284\">$A=\\mathbb R$ and $B=\\mathbb R$<br>&nbsp;</li><li data-start=\"286\" data-end=\"336\">$A=\\mathbb R-{-\\frac12}$ and $B=\\mathbb R$<br>&nbsp;</li><li data-start=\"338\" data-end=\"400\">$A=\\mathbb R-{-\\frac12}$ and $B=\\mathbb R-{\\frac32}$<br>&nbsp;</li><li data-start=\"402\" data-end=\"464\">$A=\\mathbb R-{\\frac32}$ and $B=\\mathbb R-{-\\frac12}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 271"
+        },
+        {
+          "post_id": "531830",
+          "text": "<p data-start=\"112\" data-end=\"248\">Let $f:\\mathbb Z^+\\to B$ be defined by $f(n)=\\frac{n^2+n}{2n^2+2n+1}$. Which of the following statements is <strong>correct</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"250\" data-end=\"294\">If $B=\\mathbb Q$, then $f$ is bijective.<br>&nbsp;</li><li data-start=\"296\" data-end=\"371\">If $B={q\\in\\mathbb Q:0&lt;q&lt;\\frac12}$, then $f$ is onto but not one-one.<br>&nbsp;</li><li data-start=\"373\" data-end=\"507\">If $B=\\mathbb Q$, then $f$ is one-one but not onto, and if $B={\\frac{m^2+m}{2m^2+2m+1}:m\\in\\mathbb Z^+}$, then $f$ is bijective.<br>&nbsp;</li><li data-start=\"509\" data-end=\"565\">If $B=\\mathbb Q-{\\frac12}$, then $f$ is bijective.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 271"
+        },
+        {
+          "post_id": "531828",
+          "text": "<p data-start=\"118\" data-end=\"312\">Let $f:A\\to B$ be a bijective function and let $I_A:A\\to A$ and $I_B:B\\to B$ denote the identity functions. Let $g:B\\to A$ be any function. Consider the following statements:</p><ul><li data-start=\"314\" data-end=\"354\">$p$: If $g\\circ f=I_A$, then $g=f^{-1}$.<br>&nbsp;</li><li data-start=\"356\" data-end=\"396\">$q$: If $f\\circ g=I_B$, then $g=f^{-1}$.<br>&nbsp;</li><li data-start=\"398\" data-end=\"437\">$r$: $f^{-1}:B\\to A$ is also bijective.<br>&nbsp;</li><li data-start=\"439\" data-end=\"488\">$s$: If $g:B\\to A$ is bijective, then $g=f^{-1}$.<br>&nbsp;</li></ul><p data-start=\"490\" data-end=\"524\">Which of the following is <strong>correct</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"526\" data-end=\"557\">Only $p$ and $r$ are true<br>&nbsp;</li><li data-start=\"559\" data-end=\"586\">Only $p,q,r$ are true<br>&nbsp;</li><li data-start=\"588\" data-end=\"615\">Only $q,r,s$ are true<br>&nbsp;</li><li data-start=\"617\" data-end=\"645\">All $p,q,r,s$ are true</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Mathematical Logic",
+          "day": "Day 271"
+        }
+      ]
+    }
+  ]
+}

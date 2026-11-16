@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes CS Test Series 2025 | Theory of Computation | Regular Expression",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "377042",
+          "text": "Let alphabet $\\Sigma=\\{0,1\\} .\\; \\Sigma^{0}=\\{\\epsilon\\}$, where $\\epsilon$ is the special empty string with length $|\\epsilon|=0$, and, for integers $k \\geq 1, \\Sigma^{k}$ is defined with\n$$\n\\Sigma^{k}=\\left\\{x y: x \\in \\Sigma^{k-1} \\text { and } y \\in \\Sigma\\right\\}\n$$\nHow many strings of length at most $5$ belong to $\\Sigma^{5}$ ?",
+          "type": "Numerical",
+          "answer": "32",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,numerical-answers,goclasses,theory-of-computation,finite-automata,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377012",
+          "text": "<p>Let us&nbsp;consider functions $f(\\text{L})= \\text{M}$, where $\\text{L}$ and $\\text{M}$ are languages over the alphabet $\\{0,1\\}$. We say the function $f$ is nice if whenever $\\text{M}$ is regular, $\\text{L}$ is regular. For example, the function $f(\\text{L})=\\text{L}^{\\text{R}}$ is nice, because if $\\text{L}^{\\text{R}}$ is regular, then $\\text{L}$ must be regular. In proof, we know that the regular languages are closed under reversal. If $\\text{L}^{\\text{R}}$ is regular, then $\\left(\\text{L}^{\\text{R}}\\right)^{\\text{R}}$, which is $\\text{L}$, is also regular. As another example, the function $f$ that replaces all $1's$ by $0{\\text {'s }}$ (and leaves the $0$ 's as they are) is not nice. For instance, let $\\text{L}=\\left\\{0^{n} 1^{n} \\mid n \\geq 1\\right\\}$. Then $f(\\text{L})$ is the language of regular expression $(00)^{\\ast}$. If $f$ were nice, then since $f(\\text{L})$ is regular we could conclude that $\\text{L}$ is regular, which it isn't.</p>\n\n<p>$\\text{Consider the following functions :}$</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>$f(\\text{L})=\\text{L} \\cup \\text{L}\\left(0^{\\ast}\\right)$; that is, $f$ adds to its argument language $\\text{L}$ all strings of $0{\\text {'s. }}$</li>\n\t<li>$f(\\text{L})$ is the language formed from $\\text{L}$ by changing every $0$ to $1$ and every $1$ to $0$ (simultaneously). For instance, if $\\text{L}=\\{001,10\\}$, then $f(\\text{L})=\\{110,01\\}$.</li>\n</ol>\n\n<p>Which of the above functions is/are nice?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Only $a$</li>\n\t<li>Only $b$</li>\n\t<li>Both</li>\n\t<li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,regular-language,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377040",
+          "text": "<p>Consider the following statements :</p><ol><li>If $\\text{L}$ is a regular language then the set of strings in $\\text{L}$ of odd length is also a regular language.</li><li>If $\\text{L}$ is a regular language then the set of strings in $\\text{L}$ of even length is also a regular language.</li></ol><p>Which of the above statements is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $1$</li><li>Only $2$</li><li>Both</li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,regular-language,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377018",
+          "text": "<p>Consider the state diagram of a finite automaton (FA) in below figure:<br>\n<strong><img alt=\"\" height=\"293\" src=\"https://lh5.googleusercontent.com/bsHk2aMpP4C1iQw6K2rOIhsNpVq_OToo3JKRvu9SiOkWRUXTxge7FuDZowhXafL9j2ataP_aIiJQCHRfhh4bKf66svJvOL9rnMCB62mbCS9rTxZRTxOLzrU_o7B8rFtKmLpjeYSDy3pnHo2puQ\" width=\"506\"></strong><br>\nWhich of the following language is accepted by the given FA?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>The set of strings, each containing exactly two $a's$ and an odd number of $b's.$</li>\n\t<li>The set of strings, each containing at least two $a's$ and an even number of $b's.$</li>\n\t<li>The set of strings, each containing at least two $a's$ and an odd number of $b's.$</li>\n\t<li>The set of strings, each containing exactly two $a's$ and an even number of $b's.$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,finite-automata,regular-language,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377020",
+          "text": "<p><strong><img alt=\"\" height=\"332\" src=\"https://lh5.googleusercontent.com/qgwr4ZnaHFmvnsbW41zHPZCEdGrCtOKg26_jI_FRjVAGBMHAjo5m__aTkRFXJJYplOmYiuHunqLQs9yFM28VYaLzkiposS9dhSGOe910p1xXuioVSVajg2BLzTw6WLwag_ndSqCpQdgoFINFFg\" width=\"438\"></strong><br>\nThe finite automaton shown above recognizes a set of strings of length $6.$ What is the total number of strings in the set ________</p>",
+          "type": "Numerical",
+          "answer": "20",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,numerical-answers,goclasses,theory-of-computation,finite-automata,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "376570",
+          "text": "<p>The regular expression $0^ \\ast \\left(10^{\\ast }\\right)^{\\ast }$ denotes the same set as</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$(1 ^\\ast 0) ^\\ast 1 ^\\ast $</li>\n\t<li>$0+(0+10)^{\\ast }$</li>\n\t<li>$(0+1)^{\\ast } 10(0+1)^{\\ast }$</li>\n\t<li>$(0+1)^{\\ast }$</li>\n</ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,regular-expression,multiple-selects,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "376548",
+          "text": "Consider the following regular expression $\\mathrm{R}$ which describes the language $\\mathrm{L}(\\mathrm{R})$ :\n$$\n(0 ^\\ast 10 ^\\ast )(10 ^\\ast 10 ^\\ast )^{\\ast }\n$$\nHow many strings of length $6$ over $\\{0,1\\}$ belong to $\\mathrm{L}(\\mathrm{R})$ ?",
+          "type": "Numerical",
+          "answer": "32",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,numerical-answers,goclasses,theory-of-computation,regular-expression,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377036",
+          "text": "<p>Consider the following languages over the alphabet $\\{a\\}$,</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>$\\{w \\mid w$ is not a palindrome $\\}$</li>\n\t<li>$\\left\\{a^{k} \\mid k\\right.$ is a multiple of 3$\\}$</li>\n\t<li>$\\left\\{a^{k} \\mid k\\right.$ is prime $\\}$</li>\n</ol>\n\n<p>Which of the above languages is/are regular ?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Only i</li>\n\t<li>Only ii</li>\n\t<li>Only ii and iii</li>\n\t<li>Only i and ii</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,regular-language,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377022",
+          "text": "<p>Consider the following statements :</p>\n\n<ol>\n\t<li>If a deterministic finite automaton $\\text{M}$ over alphabet $\\Sigma$ accepts all strings of length less than the number of states in $\\text{M}$, then it must accept all strings over $\\Sigma$.</li>\n\t<li>If a non-deterministic finite automaton $\\text{M}$ over alphabet $\\Sigma$ accepts all strings of length less than the number of states in $\\text{M}$, then it must accept all strings over $\\Sigma$.</li>\n</ol>\n\n<p>Which of the above statements is/are correct?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Only $1$</li>\n\t<li>Only $2$</li>\n\t<li>Both</li>\n\t<li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,finite-automata,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "376532",
+          "text": "<p>Consider the following program fragment.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\n1. for i:=1 to n do\n2.  M[i]:=0</pre>\n\n<p><br>\nLet $\\text{A}$ represent the initialization $(i:=1)$ in line $1;$ let $\\text{B}$ represent the \"body\" of the loop; i.e., line $2.$<br>\nLet $\\text{I}$ represent the incrementation of $i$ by $1$ implied by line $1,$ and let $\\text{T}$ represent the test for $i \\leq n$ also implied by line $1.$</p>\n\n<p>Which of the following regular expressions represents all possible sequences of steps taken during execution of the fragment, if it is assumed that $n$ is arbitrary and that no abnormal terminations of the loop can occur?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$\\mathrm{AT}(\\mathrm{BIT})^{\\ast }$</li>\n\t<li>$\\mathrm{A}(\\mathrm{TBI})^{\\ast }$</li>\n\t<li>$\\mathrm{A}(\\mathrm{ITB})^{\\ast } \\mathrm{T}$</li>\n\t<li>$(\\mathrm{ABIT})^{\\ast }$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,regular-expression,one-mark",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377014",
+          "text": "<p>Consider the following automaton:<br>\n<img alt=\"\" src=\"data:image/png;base64,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\"></p>\n\n<p>State $0$ both the starting state and the accepting state.</p>\n\n<p>Each of the following is a regular expression that denotes a subset of the language recognized by the automaton above EXCEPT</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$0^{\\ast}(11)^{\\ast} 0^{\\ast}$</li>\n\t<li>$0^{\\ast} 1\\left(10^{\\ast} 1\\right)^{\\ast} 1$</li>\n\t<li>$0^{\\ast} 1\\left(10^{\\ast} 1\\right)^{\\ast} 10^{\\ast}$</li>\n\t<li>$0^{\\ast} 1\\left(10^{\\ast} 1\\right) 0(100)^{\\ast}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,finite-automata,regular-expression,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377030",
+          "text": "Let $\\mathrm{N}$ be some $\\text{NFA}$(Non-Deterministic Finite Automata) with $8$ states.\n\nLet the cardinality of the input alphabet set be $2.$ The language accepted by $\\text{N}$ i.e. $\\text{L(N)}$ is Finite.\n\nThe maximum value of $|\\mathrm{L}(\\mathrm{N})|$ will be, where $|\\mathrm{L}(\\mathrm{N})|$ denoted the cardinality of $\\mathrm{L}(\\mathrm{N})?$",
+          "type": "Numerical",
+          "answer": "255",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,numerical-answers,goclasses,theory-of-computation,finite-automata,regular-language,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377032",
+          "text": "<p>In the following, Let $a,b, 0,1$ be the alphabet symbols. Let $p,q,r,s,$ be some regular expressions.</p>\n\n<p>Consider the pair of regular expressions given below:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>$0 ^ \\ast(10 ^ \\ast) ^ \\ast \\; \\&amp; \\;(1 ^ \\ast 0) ^ \\ast 1 ^ \\ast$</li>\n\t<li>$\\left(r ^ \\ast+s^&nbsp;\\ast\\right) \\; \\&amp; \\;(\\mathrm{r}+\\mathrm{s}) ^ \\ast$</li>\n\t<li>$(a ^ \\ast+b) ^ \\ast \\; \\&amp; \\;(a+b ^ \\ast)^ \\ast$</li>\n\t<li>$(pq) ^ \\ast p&nbsp;\\; \\&amp; \\; \\&nbsp;{p}(qp) ^{ \\ast}$</li>\n</ol>\n\n<p>Which of the above pairs represent equivalent regular expressions?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>(II) and (I) only</li>\n\t<li>(III) $\\; \\&amp; \\;$ (IV) only</li>\n\t<li>(I), (III), (IV) only</li>\n\t<li>All of these</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,regular-expression,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377026",
+          "text": "<p>Consider the following statements:</p>\n\n<ol>\n\t<li>$\\left\\{\\mathrm{w} \\in \\Sigma^{\\ast} \\mid \\mathrm{w} \\notin \\mathrm{L}\\right\\}$ is regular, where $\\mathrm{L}$ is some given language which is regular;</li>\n\t<li>$\\left\\{\\mathrm{w} \\in \\Sigma^{\\ast} \\mid \\mathrm{w} \\notin \\mathrm{L}\\right\\}$ is non-regular, where $\\mathrm{L}$ is some given language which is non-regular;</li>\n\t<li>Some infinite subset of the language $\\left\\{a^{m} b^{n} \\mid m \\leq n\\right\\}$ is regular.</li>\n</ol>\n\n<p>Which of the above statements is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>Only $1,2$</li>\n\t<li>Only $2$ and $3$</li>\n\t<li>Only $1$ and $3$</li>\n\t<li>ALL</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,regular-language,two-marks",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "377034",
+          "text": "<p>Let $k \\geq 2$. Let $\\text{L}$ be the set of strings in $\\{0,1\\}^{\\ast}$ such that $x \\in \\text{L}$ if and only if the number of $0$ 's in $x$ is divisible by $k$ and the number of $1$ 's in $x$ is odd. The minimum number of states in a deterministic finite automaton (DFA) that recognizes $\\text{L}$ is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$k+2$</li>\n\t<li>$2 k$</li>\n\t<li>$k^{2}$</li>\n\t<li>$2^{k}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_toc_tw_2,goclasses-testseries-2026,goclasses,theory-of-computation,finite-automata,minimal-state-automata,two-marks",
+          "category": "Theory of Computation"
+        }
+      ]
+    }
+  ]
+}

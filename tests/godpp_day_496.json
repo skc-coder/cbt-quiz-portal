@@ -1,0 +1,70 @@
+{
+  "name": "Day 343 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543464",
+          "text": "<p>Consider a system with:</p><ul><li>Two-level page tables</li><li>$42$-bit virtual addresses</li><li>$40$-bit physical addresses</li><li>&nbsp;$8$-byte page-table entries</li><li>&nbsp;$64$ KB pages</li><li>&nbsp;$64$ KB page tables at each level</li></ul><p>Which of the following addresses use the same first-level page-table entry as:</p><p>$$\\texttt{0x00 123 456 789}$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{0x00 123 444 444}$<br>&nbsp;</li><li>$\\texttt{0x00 0A9 876 789}$<br>&nbsp;</li><li>$\\texttt{0x00 136 345 678}$<br>&nbsp;</li><li>$\\texttt{0x00 000 006 789}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 343"
+        },
+        {
+          "post_id": "543469",
+          "text": "<p data-start=\"0\" data-end=\"127\">A byte-addressable machine implements virtual memory with a $4$ MB virtual address space using a three-level page-table system.</p><p data-start=\"129\" data-end=\"176\">All page tables live in physical address space.</p><p data-start=\"178\" data-end=\"219\">The breakdown of virtual-address bits is:</p><p data-start=\"221\" data-end=\"331\">$$\\begin{array}{|c|c|c|c|}&nbsp;<br>\\hline<br>\\text{L1} & \\text{L2} & \\text{L3} & \\text{Offset} \\\\<br>\\hline<br>5 & 5 & 5 & 7 \\\\<br>\\hline<br>\\end{array}$$</p><p data-start=\"333\" data-end=\"366\" data-is-last-node=\"\" data-is-only-node=\"\">How many PTEs can fit in a frame?</p>",
+          "type": "Numerical",
+          "answer": "32",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 343"
+        },
+        {
+          "post_id": "543467",
+          "text": "<p data-start=\"0\" data-end=\"69\">The following table shows some parameters of a virtual memory system:</p><p>$$\\begin{array}{|c|c|} \\hline<br>\\text{Parameter} & \\text{Value} \\\\<br>\\hline<br>\\text{Virtual Address} & 42\\ \\text{bits} \\\\<br>\\text{Physical Address} & 40\\ \\text{bits} \\\\<br>\\text{Physical Page Size} & 64\\ \\text{KB} \\\\<br>\\text{Page Table Entry} & 8\\ \\text{bytes} \\\\<br>\\hline<br>\\end{array}$$ In general, the virtual address space of a process is mostly empty. To reduce the size of the page table, a multilevel page table is used for address translation.</p><p data-start=\"399\" data-end=\"550\" data-is-last-node=\"\" data-is-only-node=\"\">How many levels of page tables will be needed for address translation, given that the size of a page table at any level is the size of a physical page?</p>",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 343"
+        },
+        {
+          "post_id": "543471",
+          "text": "<p data-start=\"6700\" data-end=\"6758\">Consider a virtual memory system that uses 2-level paging.</p><p data-start=\"6760\" data-end=\"6777\">The page size is: $256=2^8$ bytes</p><p data-start=\"6796\" data-end=\"6900\">Each individual page table fits exactly into one memory frame, and the size of each page-table entry is: $8$ bytes</p><p data-start=\"6913\" data-end=\"6991\">What is the maximum size, in bytes, of a virtual address space in this system?</p>",
+          "type": "Numerical",
+          "answer": "262144",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 343"
+        },
+        {
+          "post_id": "543460",
+          "text": "<section dir=\"auto\" data-turn-id=\"request-WEB:906eb100-e9f7-4485-b394-7a993c56c820-2\" data-turn-id-container=\"request-WEB:906eb100-e9f7-4485-b394-7a993c56c820-2\" data-testid=\"conversation-turn-6\" data-turn=\"assistant\"><p data-start=\"0\" data-end=\"482\" data-is-last-node=\"\">Let us assume there is a two-level page table in your system.</p><p>The virtual address is split as:</p><p>$\\texttt{&lt;vpn part1, vpn part2, page offset&gt;}$</p><p>Which of the following statements is true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{vpn part 1}$ is used to index the physical page that contains data.<br>&nbsp;</li><li>$\\texttt{vpn part 1}$ is used to get the base address of the first-level table.<br>&nbsp;</li><li>Page offset is used to index the TLB.<br>&nbsp;</li><li>$\\texttt{vpn part 2}$ is used to index the PTE in the second-level page table.</li></ol></section>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 343"
+        }
+      ]
+    }
+  ]
+}

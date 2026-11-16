@@ -1,0 +1,187 @@
+{
+  "name": "GATEBOOK-2019 DM4: Groups and Lattice",
+  "duration": "54",
+  "total_qs": "15",
+  "total_qs_one": 0,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "263946",
+          "text": "<p>Which of the following statements is false?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Every cyclic group is abelian group</li>\n    <li>Every abelian group is cyclic group</li>\n    <li>Let $G$ be a group and let $H_1$ and $H_2$ be subgroups of $G$ such that $H_1⊄H_2$ and $H_2⊄H_1$ the union $H_1\\cup H_2$ is never a subgroup</li>\n    <li>A group&nbsp;$G$&nbsp;has an element&nbsp;$g$&nbsp;such that&nbsp;$G_{23}=e$&nbsp;then there can not exist an integer&nbsp;$0&lt;x&lt;23$&nbsp;such that&nbsp;$gx=e$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263945",
+          "text": "Let $(G, \\Box)$ be a group where $\\Box$ is defined as $x \\Box y = x+y+1$. The inverse of $3$ is _________ ?",
+          "type": "Numerical",
+          "answer": "-5",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm4,numerical-answers,groups",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263944",
+          "text": "<p>Let $(G,\\Box )$ be a group defined as $x\\Box y =&nbsp;x+yxy+1;&nbsp;x\\in R,&nbsp;−1&lt;x&lt;1$. Which of the following statements is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$G$ is a semi group but not a&nbsp;monoid</li>\n    <li>$G$ is a&nbsp;monoid but not a group</li>\n    <li>$G$ is a group but not an abelian&nbsp;group</li>\n    <li>$G$ is an abelian group</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4,groups",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263943",
+          "text": "<p>Consider the following statements about Group $(G,*)$ ?<br>\n$P: a^{2}=e \\implies a=e$</p>\n\n<p>$Q:&nbsp;&nbsp;a*a=b*b \\implies a=b$</p>\n\n<p>$R:&nbsp;(a*b)^{2}=a^{2}*b^{2}$</p>\n\n<p>Which of the above&nbsp;statements is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $P$</li>\n    <li>Only $P$ and $Q$</li>\n    <li>Only $P$ and $R$</li>\n    <li>All of the $P$, $Q$ and $R$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4,groups",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263942",
+          "text": "<p>Let $G$ be a group. It is given that $abc = e$.&nbsp;Consider the following statements.</p>\n\n<p>$P: cab = e$</p>\n\n<p>$Q:&nbsp; bca = e$</p>\n\n<p>Which of the above&nbsp;statements is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $P$</li>\n    <li>Only $Q$</li>\n    <li>Both $P$ and $Q$</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4,groups",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263941",
+          "text": "<p>Let $G$ be a group.&nbsp;$a,b,c\\in G$. Which of the following statements in TRUE regarding $G?$</p>\n\n<p>$P: \\text{ If } ab=ca \\implies&nbsp;b=c,&nbsp;G \\text{&nbsp;is abelian group}$</p>\n\n<p>$Q:&nbsp;(a^{−1}ba)^{n}&nbsp;=&nbsp;a^{−1} b^{n} a$</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $P$</li>\n    <li>Only $Q$</li>\n    <li>Both $P$ and $Q$</li>\n    <li>Neither $P$ nor $Q$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4,groups,abelian-group",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263940",
+          "text": "<p>Let $G$ be a finite abelian group, say, $G=\\{e,a_{1},a_{2},\\ldots,a_{n}\\}$. Which of the following statements is TRUE?</p>\n\n<ul>\n    <li>$S1: (a_{1}a_{2} \\ldots a_{n})^{2}=e$</li>\n    <li>$S2: \\text{If there is no element }x \\neq e&nbsp;\\text{ in } G&nbsp;\\text {such that } x=x^{−1}, \\text{then }(a_{1}a_{2}\\ldots a_{n})=e.$</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $S1$</li>\n    <li>Only $S2$</li>\n    <li>Both $S1$ and $S2$</li>\n    <li>Neither $S1$ nor $S2$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263939",
+          "text": "<p>Let $G = \\langle\\{e,a,b\\}, *\\rangle $ be a group.</p>\n\n<p>$$\\begin{array}{c|ccc}\\textbf{*}&amp;\\textbf{e}&amp;\\textbf{a}&amp;\\textbf{b}\\\\ \\hline&nbsp; \\textbf{e}&amp;e&amp;a&amp;b\\\\\\textbf{a}&amp;a&amp;\\boxed{}&amp;\\boxed{}\\\\ \\textbf{b} &amp;b&nbsp;&amp;\\boxed{}<br>\n&amp;\\boxed{}\\end{array}$$</p>\n\n<p>&nbsp;</p>\n\n<p>The number of ways this Cayley table can be filled so that the resulting table represents a Group?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$1$</li>\n    <li>$2$</li>\n    <li>$16$</li>\n    <li>$8$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4,groups",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263938",
+          "text": "If $G$ is a cyclic group of order $32$ and $a^{2002}=a^{n}$ where $a\\in G$ and $0\\leq n<32$, the value of $n$ is ________",
+          "type": "Numerical",
+          "answer": "18",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "gb2019-dm4,numerical-answers,groups",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263937",
+          "text": "<p>Which of the above lattice is distributive?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n    <li><img alt=\"\" src=\"data:image/png;base64,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\"></li>\n    <li><img alt=\"\" src=\"data:image/png;base64,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\"></li>\n</ol>\n\n<p><br>\n&nbsp; &nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only a</li>\n    <li>Only b</li>\n    <li>Both a and b</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263936",
+          "text": "<p>If $(A_{1},\\leq 1)$ and $(A_{2}, \\leq 2)$ are two posets, then the&nbsp;dictionary order&nbsp;$\\leq$ on $A=A_{1} \\times&nbsp; A_{2}$&nbsp;is given by $(x1,x2)&nbsp; \\leq (y1,y2)$&nbsp;if&nbsp;$x_{1} &lt; _{1}y_{1} \\vee (x_{1}=y_{1} \\wedge x_{2} \\leq _{2}y_{2})$. Which of the following is true about the Cartesian product $A=A1 \\times A2$ of two posets&nbsp;$A1$ and $A2$ under the dictionary order $\\leq$</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>reflexive but not anti symmetric</li>\n    <li>anti symmetric but not reflexive</li>\n    <li>reflexive and anti symmetric but not symmetric</li>\n    <li>poset</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263935",
+          "text": "<p>Which of the following statements is&nbsp;FALSE&nbsp;about a poset&nbsp;$(Z, \\leq)$?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$Z$&nbsp;is a lattice</li>\n    <li>Every subset of&nbsp;$Z$&nbsp;has an upper bound</li>\n    <li>For some subsets of&nbsp;$Z$&nbsp;there is no lower bound</li>\n    <li>$Z$&nbsp;is an unbounded lattice</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263934",
+          "text": "<p>Let $(D_{n}, \\mid )$ denote the poset of all divisors of $n$, where $n$ is a positive integer. For all&nbsp;$a,b&nbsp;\\in D_{n} \\: a \\vee b$ and $ a \\wedge b$ is</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$\\text{gcd}(a,b) \\text{ and } \\text{lcm}(a,b)$</li>\n    <li>$\\text{lcm}(a,b) \\text{ and } \\text{gcd}(a,b)$</li>\n    <li>$a.b \\text{ and } a+b$</li>\n    <li>$a+b \\text{ and } a.b$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263933",
+          "text": "<p>If a boolean lattice is totally ordered then the maximum number of elements it can have is?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$1$</li>\n    <li>$2$</li>\n    <li>$3$</li>\n    <li>$100$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "263932",
+          "text": "<p>The number of partial order relations on set of $3$ elements $S = \\{1,2,3 \\}$?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$10$</li>\n    <li>$6$</li>\n    <li>$19$</li>\n    <li>$5$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-dm4",
+          "category": "Set Theory & Algebra"
+        }
+      ]
+    }
+  ]
+}

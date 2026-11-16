@@ -1,0 +1,30 @@
+{
+  "name": "Day 300 [Programming]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "535783",
+          "text": "<p>What is the output of the following code?</p><pre dir=\"ltr\" data-rawcode=\"#include &lt;stdio.h&gt;  int fun(int n) {     if (n &lt;= 0)         return 1;      if (n == 1)         return 2;      return fun(n - 1) + 2 * fun(n - 2); }  int main() {     printf(&quot;%d&quot;, fun(4));     return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint fun(int n) {\n    if (n &lt;= 0)\n        return 1;\n\n    if (n == 1)\n        return 2;\n\n    return fun(n - 1) + 2 * fun(n - 2);\n}\n\nint main() {\n    printf(\"%d\", fun(4));\n    return 0;\n}</pre>",
+          "type": "Numerical",
+          "answer": "16",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Programming",
+          "day": "Day 300"
+        }
+      ]
+    }
+  ]
+}

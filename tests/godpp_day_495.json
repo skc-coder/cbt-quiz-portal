@@ -1,0 +1,70 @@
+{
+  "name": "Day 342 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543437",
+          "text": "<p data-start=\"4387\" data-end=\"4494\">Consider a system using a <strong data-start=\"4413\" data-end=\"4437\">two-level page table</strong>. Assume the required page is present in physical memory.</p><p data-start=\"4496\" data-end=\"4591\">How many main-memory accesses are required for a virtual-address access when a TLB miss occurs?</p><p data-start=\"4593\" data-end=\"4655\">Include the final access to the requested instruction or data.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4657\" data-end=\"4686\">$4$<br>&nbsp;</li><li data-start=\"4657\" data-end=\"4686\">$3$<br>&nbsp;</li><li data-start=\"4657\" data-end=\"4686\">$2$<br>&nbsp;</li><li data-start=\"4657\" data-end=\"4686\">$1$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 342"
+        },
+        {
+          "post_id": "543433",
+          "text": "<p data-start=\"2523\" data-end=\"2712\">If an instruction takes $p$ microseconds and a page fault takes an additional $q$ microseconds, the effective instruction time if, on average, a page fault occurs every $r$ instructions is:</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2714\" data-end=\"2733\">$\\dfrac{p+q}{r}$<br>&nbsp;</li><li data-start=\"2735\" data-end=\"2754\">$p+(q\\times r)$<br>&nbsp;</li><li data-start=\"2756\" data-end=\"2775\">$p+\\dfrac{q}{r}$<br>&nbsp;</li><li data-start=\"2777\" data-end=\"2796\">$(p+q)\\times r$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 342"
+        },
+        {
+          "post_id": "543429",
+          "text": "<p data-start=\"277\" data-end=\"499\">Consider a three level paging scheme with a TLB. Assume no page fault occurs. It takes $1&nbsp;~\\text{ns}$ to search the TLB and $100&nbsp;~\\text{ns}$ to access the physical memory. If the TLB hit ratio is $90\\%$, what is the effective memory access time?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"501\" data-end=\"589\">$101 ~\\text{ns}$<br>&nbsp;</li><li data-start=\"501\" data-end=\"589\">$111&nbsp;~\\text{ns}$<br>&nbsp;</li><li data-start=\"501\" data-end=\"589\">$121&nbsp;~\\text{ns}$<br>&nbsp;</li><li data-start=\"501\" data-end=\"589\">$131&nbsp;~\\text{ns}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 342"
+        },
+        {
+          "post_id": "543431",
+          "text": "<p data-start=\"1159\" data-end=\"1247\">Which of the following statements about small $(4 ~\\text{KB})$ and large $(4 ~\\text{MB})$ pages are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"1249\" data-end=\"1307\">Large pages allow for a more efficient use of the TLB.<br>&nbsp;</li><li data-start=\"1309\" data-end=\"1408\">Accessing a large page, in the case of a TLB miss, would be slower than accessing a small page.<br>&nbsp;</li><li data-start=\"1410\" data-end=\"1461\">Large pages suffer from internal fragmentation.<br>&nbsp;</li><li data-start=\"1463\" data-end=\"1514\">Large pages suffer from external fragmentation.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 342"
+        },
+        {
+          "post_id": "543435",
+          "text": "<p data-start=\"3354\" data-end=\"3386\">What caching is done in the TLB?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3388\" data-end=\"3438\">Virtual Address $\\rightarrow$ Physical Address<br>&nbsp;</li><li data-start=\"3440\" data-end=\"3494\">Virtual Page Number $\\rightarrow$ Physical Address<br>&nbsp;</li><li data-start=\"3496\" data-end=\"3554\">Virtual Page Number $\\rightarrow$ Physical Page Number<br>&nbsp;</li><li data-start=\"3556\" data-end=\"3614\">Physical Page Number $\\rightarrow$ Virtual Page Number</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 342"
+        }
+      ]
+    }
+  ]
+}

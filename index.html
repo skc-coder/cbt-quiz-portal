@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>CBT Practice Portal - Online Exam Simulator</title>
+  <link rel="stylesheet" href="lib/katex.min.css">
+  <link rel="stylesheet" href="src/styles.css">
+  <script src="lib/katex.min.js"></script>
+  <script src="lib/auto-render.min.js"></script>
+  <script src="lib/lz-string.min.js"></script>
+</head>
+<body>
+
+  <!-- Top App Navigation Bar -->
+  <header class="app-header" id="mainAppHeader">
+    <div class="brand-section">
+      <span class="brand-title">CBT Practice Portal</span>
+    </div>
+
+    <div class="header-actions">
+      <button id="themeToggleBtn" class="btn btn-secondary btn-sm" title="Toggle Dark/Light Mode">
+        🌓 Theme
+      </button>
+      <button id="btnHeaderQuickSync" class="btn btn-secondary btn-sm" title="Quick Cloud Sync (JSONBin)">
+        🔄 Sync
+      </button>
+      <button id="btnOpenConfig" class="btn btn-primary btn-sm" title="Settings, AI Assistant & JSONBin Cloud Sync">
+        ⚙️ Config & Sync
+      </button>
+    </div>
+  </header>
+
+  <!-- Non-intrusive Top Support / Sponsor Ads Banner (Exempt during live CBT exam) -->
+  <div id="supportBanner" class="support-banner">
+    <div class="support-banner-content">
+      <span class="support-pill">Support Project</span>
+      <span>Enjoying this free CBT platform? <strong>There are zero ads during your live test</strong>. You can keep this service 100% free by simply clicking 2&ndash;3 sponsor ads each study session. Thank you for your support!</span>
+    </div>
+    <button id="closeSupportBannerBtn" class="support-banner-close" title="Dismiss Banner">&times;</button>
+  </div>
+
+  <!-- View Switcher Tabs (Hidden during active examination) -->
+  <nav class="view-tabs" id="viewTabsNav">
+    <button class="tab-btn active" data-tab="catalogView">📊 All Tests Spreadsheet</button>
+    <button class="tab-btn" data-tab="dashboardView">📈 Performance & Progress</button>
+    <button class="tab-btn" data-tab="examView" id="tabExamBtn" style="display: none;">📝 Live Examination</button>
+    <button class="tab-btn" data-tab="resultView" id="tabResultBtn" style="display: none;">📋 Test Analysis & Solution</button>
+  </nav>
+
+  <!-- Main View Container -->
+  <main class="main-content">
+
+    <!-- 1. EXCEL-STYLE SPREADSHEET TABLE CATALOG VIEW -->
+    <section id="catalogView" class="view-section active">
+      <!-- Top Adsterra Banner Slot (Non-exam view) -->
+      <div class="ad-slot-container" id="catalogTopAdSlot">
+        <span class="ad-slot-label">Sponsor Advertisement</span>
+        <!-- Paste your Adsterra 728x90 or Native banner script here (https://beta.publishers.adsterra.com/stats) -->
+        <div style="font-size: 0.82rem; color: #8b949e; padding: 12px;">
+          📢 Adsterra Banner Placement (Active outside CBT live examination)
+        </div>
+      </div>
+
+      <div class="table-toolbar">
+        <div class="search-input-group">
+          <span>🔍</span>
+          <input type="text" id="globalSearchInput" placeholder="Quick search by test title, topic, subject...">
+        </div>
+
+        <div class="filter-pills">
+          <span id="testsCountBadge" style="font-weight: 600;">Showing 0 tests</span>
+          <button id="resetFiltersBtn" class="btn btn-secondary btn-sm" style="margin-left: 8px;">Reset Filters</button>
+        </div>
+        <div class="catalog-pagination-toolbar" id="catalogPaginationToolbar" style="display: flex; align-items: center; gap: 8px; font-size: 0.82rem;">
+          <button class="btn btn-secondary btn-sm" id="btnPagePrev" title="Previous Page">◀ Prev</button>
+          <span id="catalogPageIndicator" style="font-weight: 600;">Page 1 of 1</span>
+          <button class="btn btn-secondary btn-sm" id="btnPageNext" title="Next Page">Next ▶</button>
+          <select id="catalogPageSizeSelect" class="th-filter-select" style="width: auto; padding: 2px 6px;">
+            <option value="50" selected>50 / page</option>
+            <option value="100">100 / page</option>
+            <option value="200">200 / page</option>
+            <option value="500">500 / page</option>
+            <option value="all">All tests</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid-table-container">
+        <table class="spreadsheet-table" id="spreadsheetTable">
+          <thead>
+            <tr>
+              <th style="width: 45px; text-align: center;">#</th>
+              <th style="width: 90px;">
+                <div class="th-content">
+                  <div class="th-header-title" data-sort="status">
+                    <span>Status</span> <span class="sort-icon">⇅</span>
+                  </div>
+                  <select class="th-filter-select" id="filterStatus">
+                    <option value="">All</option>
+                    <option value="Attempted">Attempted</option>
+                    <option value="Unattempted">Unattempted</option>
+                  </select>
+                </div>
+              </th>
+              <th style="width: 150px;">
+                <div class="th-content">
+                  <div class="th-header-title" data-sort="provider">
+                    <span>Provider</span> <span class="sort-icon">⇅</span>
+                  </div>
+                  <select class="th-filter-select" id="filterProvider">
+                    <option value="">All Providers</option>
+                  </select>
+                </div>
+              </th>
+              <th style="width: 80px;">
+                <div class="th-content">
+                  <div class="th-header-title" data-sort="year">
+                    <span>Year</span> <span class="sort-icon">⇅</span>
+                  </div>
+                  <select class="th-filter-select" id="filterYear">
+                    <option value="">All</option>
+                  </select>
+                </div>
+              </th>
+              <th style="width: 220px;">
+                <div class="th-content">
+                  <div class="th-header-title" data-sort="subject">
+                    <span>Subject / Stream</span> <span class="sort-icon">⇅</span>
+                  </div>
+                  <input type="text" class="th-filter-input" id="filterSubject" placeholder="Filter subject...">
+                </div>
+              </th>
+              <th style="width: 130px;">
+                <div class="th-content">
+                  <div class="th-header-title" data-sort="category">
+                    <span>Test Type</span> <span class="sort-icon">⇅</span>
+                  </div>
+                  <select class="th-filter-select" id="filterCategory">
+                    <option value="">All Types</option>
+                  </select>
+                </div>
+              </th>
+              <th style="min-width: 380px;">
+                <div class="th-content">
+                  <div class="th-header-title" data-sort="name">
+                    <span>Test Title / Description</span> <span class="sort-icon">⇅</span>
+                  </div>
+                  <input type="text" class="th-filter-input" id="filterTitle" placeholder="Filter title...">
+                </div>
+              </th>
+              <th style="width: 70px; text-align: right;">
+                <div class="th-content">
+                  <div class="th-header-title" data-sort="total_qs" style="justify-content: flex-end;">
+                    <span>Qs</span> <span class="sort-icon">⇅</span>
+                  </div>
+                </div>
+              </th>
+              <th style="width: 70px; text-align: right;">
+                <div class="th-content">
+                  <div class="th-header-title" data-sort="total_marks" style="justify-content: flex-end;">
+                    <span>Marks</span> <span class="sort-icon">⇅</span>
+                  </div>
+                </div>
+              </th>
+              <th style="width: 70px; text-align: right;">
+                <div class="th-content">
+                  <div class="th-header-title" data-sort="duration" style="justify-content: flex-end;">
+                    <span>Mins</span> <span class="sort-icon">⇅</span>
+                  </div>
+                </div>
+              </th>
+              <th style="width: 100px; text-align: right;">
+                <div class="th-content">
+                  <div class="th-header-title" data-sort="score" style="justify-content: flex-end;">
+                    <span>Last Score</span> <span class="sort-icon">⇅</span>
+                  </div>
+                </div>
+              </th>
+              <!-- Sticky Action Column: always visible on any zoom level -->
+              <th class="sticky-action-col">Action</th>
+            </tr>
+          </thead>
+          <tbody id="catalogTableBody">
+            <!-- Dynamically populated rows -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 2. DASHBOARD & PROGRESS VIEW -->
+    <section id="dashboardView" class="view-section">
+      <div class="metrics-container">
+        <div class="metric-card">
+          <span class="metric-title">Tests Completed</span>
+          <span class="metric-value" id="kpiTotalTests">0</span>
+          <span class="metric-subtitle">Across all test series</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-title">Overall Accuracy</span>
+          <span class="metric-value" id="kpiAccuracy">0%</span>
+          <span class="metric-subtitle">Total correct vs attempted</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-title">Total Marks Scored</span>
+          <span class="metric-value" id="kpiTotalMarks">0</span>
+          <span class="metric-subtitle">Cumulative positive net score</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-title">Questions Answered</span>
+          <span class="metric-value" id="kpiQuestionsCount">0</span>
+          <span class="metric-subtitle" id="kpiQuestionsBreakdown">0 Correct / 0 Incorrect</span>
+        </div>
+      </div>
+
+      <!-- Activity Across Days Heatmap -->
+      <div class="activity-section">
+        <h4 style="margin-bottom: 6px; font-weight: 700;">Daily Study Activity Heatmap</h4>
+        <div class="activity-grid" id="activityDaysGrid">
+          <!-- Populated dynamically across recent 30 days -->
+        </div>
+      </div>
+
+      <div style="padding: 0 20px 20px 20px; flex: 1; overflow: auto;">
+        <h3 style="margin-bottom: 12px; font-weight: 700;">Recent Exam Attempts & Notes</h3>
+        <table class="spreadsheet-table">
+          <thead>
+            <tr>
+              <th>Date & Time</th>
+              <th>Test Name</th>
+              <th style="text-align: right;">Score</th>
+              <th style="text-align: right;">Accuracy</th>
+              <th style="text-align: right;">Time Spent</th>
+              <th>Notes</th>
+              <th style="text-align: center;">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="recentAttemptsTableBody">
+            <!-- Populated from storage -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 3. AUTHENTIC TCS iON EXAM ENGINE (FULLSCREEN VIEW) -->
+    <section id="examView" class="view-section">
+      <div class="exam-layout">
+        <!-- Exam Top Navigation -->
+        <div class="exam-top-bar">
+          <div class="exam-test-title" id="examTestTitle">GATE Mock Test</div>
+          <div class="exam-top-tools">
+            <button class="btn btn-secondary btn-sm" id="btnTogglePalette" title="Toggle Question Palette (Sidebar)">☰ Palette</button>
+            <button class="btn btn-secondary btn-sm" id="btnToggleFullscreen">⛶ Fullscreen</button>
+            <button class="btn btn-secondary btn-sm" id="btnInstructions">📖 Instructions</button>
+            <button class="btn btn-secondary btn-sm" id="btnQuestionPaper">📄 Question Paper</button>
+            <button class="btn btn-secondary btn-sm" id="btnCalculator">🧮 Calculator</button>
+            <button class="btn btn-danger btn-sm" id="btnExitExam">Exit</button>
+          </div>
+        </div>
+
+        <div class="exam-workspace">
+          <!-- Left Question Area (75%) -->
+          <div class="exam-left-panel">
+            <div class="section-bar" id="examSectionsBar">
+              <!-- Dynamically populated sections -->
+            </div>
+
+            <div class="question-meta-bar">
+              <span id="currentQuestionNumberLabel" style="font-weight: 700;">Question No. 1</span>
+              <div class="question-marking-info">
+                <span>Type: <strong id="questionTypeLabel">MCQ</strong></span>
+                <span class="tag-green">Marks: +<span id="positiveMarksLabel">1</span></span>
+                <span class="tag-red">Negative: -<span id="negativeMarksLabel">0.33</span></span>
+              </div>
+            </div>
+
+            <!-- Centered & properly padded Question Body -->
+            <div class="question-scroll-body" id="questionBodyScroll">
+              <div class="question-text" id="questionText">
+                <!-- Question HTML with KaTeX formulas and images -->
+              </div>
+              <div class="options-container" id="optionsContainer">
+                <!-- Dynamically populated options or NAT keypad -->
+              </div>
+
+              <!-- Question Personal Notes Box -->
+              <div class="notes-panel">
+                <label style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary);">📝 Personal Doubt / Learning Note for this Question:</label>
+                <textarea id="questionPersonalNotes" class="notes-input" placeholder="Type any formula, trick, or note for later review..."></textarea>
+              </div>
+            </div>
+
+            <!-- Authentic TCS iON Bottom Hotbar -->
+            <div class="exam-hotbar">
+              <div class="hotbar-left">
+                <button class="btn btn-secondary" id="btnMarkReviewNext" style="background-color: #512da8; color: #fff;">
+                  Mark for Review & Next
+                </button>
+                <button class="btn btn-secondary" id="btnClearResponse">
+                  Clear Response
+                </button>
+              </div>
+              <div class="hotbar-right">
+                <button class="btn btn-secondary bookmark-btn" id="btnToggleBookmark" title="Bookmark / Unbookmark Question">
+                  <span id="bookmarkBtnIcon">☆</span> Bookmark
+                </button>
+                <button class="btn btn-secondary" id="btnSaveMarkReview" style="background-color: #0277bd; color: #fff;">
+                  Save & Mark for Review
+                </button>
+                <button class="btn btn-success" id="btnSaveNext">
+                  Save & Next
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Palette & Candidate Panel (25%) -->
+          <div class="exam-right-panel">
+            <div class="candidate-card">
+              <div class="candidate-avatar">👤</div>
+              <div class="candidate-info">
+                <span class="candidate-name" id="portalCandidateName">Candidate</span>
+                <span style="font-size: 0.75rem; color: var(--text-secondary);">CBT Examination Portal</span>
+              </div>
+            </div>
+
+            <div class="timer-box">
+              <span>Time Left:</span>
+              <span class="time-left" id="examTimerDisplay">00:00:00</span>
+            </div>
+
+            <!-- Color Badges Legend -->
+            <div class="palette-legend">
+              <div class="legend-item">
+                <div class="legend-badge badge-answered" id="countAnswered">0</div>
+                <span>Answered</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-badge badge-not-answered" id="countNotAnswered">0</div>
+                <span>Not Answered</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-badge badge-not-visited" id="countNotVisited">0</div>
+                <span>Not Visited</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-badge badge-review" id="countReview">0</div>
+                <span>Marked for Review</span>
+              </div>
+              <div class="legend-item" style="grid-column: span 2;">
+                <div class="legend-badge badge-ans-review" id="countAnsReview">0</div>
+                <span>Answered & Marked for Review</span>
+              </div>
+            </div>
+
+            <!-- Question Palette Number Buttons -->
+            <div class="palette-container">
+              <div class="palette-grid" id="paletteGrid">
+                <!-- Numbers 1 to N -->
+              </div>
+            </div>
+
+            <div class="palette-submit-bar">
+              <button class="btn btn-primary" id="btnSubmitExam" style="width: 100%; padding: 10px;">
+                Submit Examination
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. POST-EXAM ANALYSIS & SOLUTION REVIEW -->
+    <section id="resultView" class="view-section">
+      <!-- Post-Exam Adsterra Banner Slot -->
+      <div class="ad-slot-container" id="resultTopAdSlot">
+        <span class="ad-slot-label">Sponsor Advertisement</span>
+        <!-- Paste your Adsterra 728x90 or Native banner script here (https://beta.publishers.adsterra.com/stats) -->
+        <div style="font-size: 0.82rem; color: #8b949e; padding: 12px;">
+          📢 Adsterra Result & Solution Sponsor Slot (Shown only after test completion)
+        </div>
+      </div>
+
+      <div class="result-container">
+        <div class="result-card">
+          <h2 id="resultTestTitle">Test Result & Analytics</h2>
+          <p id="resultDate" style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 4px;"></p>
+
+          <div class="result-metrics">
+            <div class="result-metric-item">
+              <div style="font-size: 0.8rem; color: var(--text-secondary);">FINAL SCORE</div>
+              <div class="result-metric-num" id="resultScore" style="color: var(--primary);">0.00</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);" id="resultMaxMarks">out of 100</div>
+            </div>
+            <div class="result-metric-item">
+              <div style="font-size: 0.8rem; color: var(--text-secondary);">ACCURACY</div>
+              <div class="result-metric-num" id="resultAccuracy" style="color: #16a34a;">0%</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">correct / attempted</div>
+            </div>
+            <div class="result-metric-item">
+              <div style="font-size: 0.8rem; color: var(--text-secondary);">CORRECT</div>
+              <div class="result-metric-num tag-green" id="resultCorrect">0</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Questions</div>
+            </div>
+            <div class="result-metric-item">
+              <div style="font-size: 0.8rem; color: var(--text-secondary);">INCORRECT</div>
+              <div class="result-metric-num tag-red" id="resultIncorrect">0</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Negative penalty deducted</div>
+            </div>
+            <div class="result-metric-item">
+              <div style="font-size: 0.8rem; color: var(--text-secondary);">UNATTEMPTED</div>
+              <div class="result-metric-num" id="resultUnattempted" style="color: var(--text-muted);">0</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Questions</div>
+            </div>
+          </div>
+
+          <!-- Overall Test Notes in Result -->
+          <div style="margin-top: 14px;">
+            <label style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary);">Test Summary Notes & Reflections:</label>
+            <div id="printResultOverallNotesView" class="print-note-view"></div>
+            <textarea id="resultOverallNotes" class="notes-input" placeholder="Notes on overall test difficulty, mistakes made, formulas to revise..."></textarea>
+          </div>
+
+          <div style="display: flex; gap: 10px; margin-top: 16px;">
+            <button class="btn btn-primary" id="btnBackToCatalog">Back to Tests Spreadsheet</button>
+            <button class="btn btn-secondary" id="btnRetakeTest">Re-take Test</button>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 10px;">
+          <h3 style="font-weight: 700;">Detailed Solutions & Answer Key</h3>
+          <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+            <button class="btn btn-secondary btn-sm active" data-review-filter="all">All</button>
+            <button class="btn btn-secondary btn-sm" data-review-filter="correct">Correct</button>
+            <button class="btn btn-secondary btn-sm" data-review-filter="incorrect_unattempted" title="Combined Incorrect & Unattempted Questions">
+              Incorrect / Unattempted
+            </button>
+            <button class="btn btn-primary btn-sm" id="btnCopyFilteredSolutions" title="Copy currently filtered questions and your notes to clipboard">
+              📋 Copy Filtered Questions & Notes
+            </button>
+            <button class="btn btn-secondary btn-sm" id="btnPrintAnalysis" title="Print full analysis or save as PDF">
+              🖨️ Print Analysis / Save PDF
+            </button>
+          </div>
+        </div>
+
+        <div id="solutionReviewList">
+          <!-- Question by question review cards -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODALS -->
+  <!-- 1. Question Paper Modal -->
+  <div class="modal-overlay" id="questionPaperModal">
+    <div class="modal-card" style="max-width: 850px; height: 80vh;">
+      <div class="modal-header">
+        <span>Question Paper View</span>
+        <button class="btn btn-secondary btn-sm closeModalBtn">✕</button>
+      </div>
+      <div class="modal-body" id="questionPaperModalBody">
+        <!-- Rendered all questions -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary closeModalBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Floating Draggable Scientific Calculator -->
+  <div class="floating-calc-widget" id="calcModal" style="display: none;">
+    <div class="floating-calc-header" id="calcDragHandle">
+      <div style="display: flex; align-items: center; gap: 6px;">
+        <span style="cursor: move;">🧮</span>
+        <span style="font-weight: 700; font-size: 0.88rem;">Scientific Calculator</span>
+      </div>
+      <button class="btn btn-secondary btn-sm closeModalBtn" style="padding: 2px 8px; line-height: 1;">✕</button>
+    </div>
+    <div class="floating-calc-body">
+      <input type="text" id="calcScreen" readonly class="calc-screen-display" placeholder="0">
+      <div class="calc-keypad-grid" id="calcBtnGrid">
+        <!-- Row 1 -->
+        <button class="keypad-btn calc-key" data-val="C" style="color: #ef4444; font-weight: 700;">C</button>
+        <button class="keypad-btn calc-key" data-val="(">(</button>
+        <button class="keypad-btn calc-key" data-val=")">)</button>
+        <button class="keypad-btn calc-key" data-val="mod" title="Modulo (%)">mod</button>
+        <button class="keypad-btn calc-key" data-val="/" style="color: var(--primary); font-weight: 700;">÷</button>
+
+        <!-- Row 2 -->
+        <button class="keypad-btn calc-key" data-val="power" title="Power (x^y)">xʸ</button>
+        <button class="keypad-btn calc-key" data-val="7">7</button>
+        <button class="keypad-btn calc-key" data-val="8">8</button>
+        <button class="keypad-btn calc-key" data-val="9">9</button>
+        <button class="keypad-btn calc-key" data-val="*" style="color: var(--primary); font-weight: 700;">×</button>
+
+        <!-- Row 3 -->
+        <button class="keypad-btn calc-key" data-val="sqrt" title="Square Root (√x)">√</button>
+        <button class="keypad-btn calc-key" data-val="4">4</button>
+        <button class="keypad-btn calc-key" data-val="5">5</button>
+        <button class="keypad-btn calc-key" data-val="6">6</button>
+        <button class="keypad-btn calc-key" data-val="-" style="color: var(--primary); font-weight: 700;">−</button>
+
+        <!-- Row 4 -->
+        <button class="keypad-btn calc-key" data-val="log" title="Base-10 Logarithm (log10)">log</button>
+        <button class="keypad-btn calc-key" data-val="1">1</button>
+        <button class="keypad-btn calc-key" data-val="2">2</button>
+        <button class="keypad-btn calc-key" data-val="3">3</button>
+        <button class="keypad-btn calc-key" data-val="+" style="color: var(--primary); font-weight: 700;">+</button>
+
+        <!-- Row 5 -->
+        <button class="keypad-btn calc-key" data-val="ln" title="Natural Logarithm (ln)">ln</button>
+        <button class="keypad-btn calc-key" data-val="0">0</button>
+        <button class="keypad-btn calc-key" data-val=".">.</button>
+        <button class="keypad-btn calc-key" data-val="pi" title="Pi (π)">π</button>
+        <button class="keypad-btn calc-key btn-primary" data-val="=" style="font-weight: 700;">=</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Instructions Modal -->
+  <div class="modal-overlay" id="instructionsModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <span>Exam Instructions & Guidelines</span>
+        <button class="btn btn-secondary btn-sm closeModalBtn">✕</button>
+      </div>
+      <div class="modal-body" style="line-height: 1.6; font-size: 0.9rem;">
+        <h4>General Instructions:</h4>
+        <ol style="margin-left: 20px; margin-top: 8px;">
+          <li>The countdown clock in the top right corner displays the remaining time.</li>
+          <li>When the timer reaches zero, the examination ends automatically.</li>
+          <li>The question palette shows the status of each question using TCS iON color codes:
+            <ul style="margin-left: 20px; margin-top: 6px;">
+              <li><strong>Silver/Gray</strong>: Not visited yet.</li>
+              <li><strong>Red</strong>: You have not answered the question.</li>
+              <li><strong>Green</strong>: You have answered the question.</li>
+              <li><strong>Violet</strong>: You have marked the question for review without answering.</li>
+              <li><strong>Blue with green badge</strong>: Answered & marked for review (evaluated in GATE).</li>
+            </ul>
+          </li>
+          <li>For Multiple Choice Questions (MCQ), select one option. Negative marking applies.</li>
+          <li>For Multiple Select Questions (MSQ), select one or more correct options. Zero negative penalty.</li>
+          <li>For Numerical Answer Type (NAT), enter the value using the on-screen numeric keypad. Zero negative penalty.</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary closeModalBtn">I Understand</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Submit Confirmation Dialog -->
+  <div class="modal-overlay" id="submitConfirmModal">
+    <div class="modal-card" style="max-width: 500px;">
+      <div class="modal-header">
+        <span>Submit Examination Confirmation</span>
+      </div>
+      <div class="modal-body">
+        <p style="margin-bottom: 14px;">Are you sure you want to finish and submit your test? Here is your summary:</p>
+        <table class="spreadsheet-table" style="margin-bottom: 14px;">
+          <tr><td>Answered:</td><td id="summaryModalAnswered" style="font-weight: 700; color: #16a34a;">0</td></tr>
+          <tr><td>Not Answered:</td><td id="summaryModalNotAnswered" style="font-weight: 700; color: #dc2626;">0</td></tr>
+          <tr><td>Marked for Review:</td><td id="summaryModalReview" style="font-weight: 700; color: #7b1fa2;">0</td></tr>
+          <tr><td>Not Visited:</td><td id="summaryModalNotVisited" style="font-weight: 700;">0</td></tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary closeModalBtn">Cancel & Resume</button>
+        <button class="btn btn-danger" id="btnConfirmSubmitExam">Yes, Submit Final Exam</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4b. Exit Confirmation Modal (Replaces browser confirm alert) -->
+  <div class="modal-overlay" id="exitConfirmModal">
+    <div class="modal-card" style="max-width: 480px;">
+      <div class="modal-header">
+        <span>Exit Examination</span>
+        <button class="btn btn-secondary btn-sm closeModalBtn">✕</button>
+      </div>
+      <div class="modal-body" style="line-height: 1.6; font-size: 0.95rem;">
+        <p>Are you sure you want to exit this examination?</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary closeModalBtn">Stay in Exam</button>
+        <button class="btn btn-primary" id="btnConfirmExitExam">Save Progress & Exit</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Unified Config, AI & Cloud Sync Modal -->
+  <div class="modal-overlay" id="configModal">
+    <div class="modal-card" style="max-width: 680px;">
+      <div class="modal-header">
+        <span>⚙️ Configuration & Cloud Sync Settings</span>
+        <button class="btn btn-secondary btn-sm closeModalBtn">✕</button>
+      </div>
+      <div class="modal-body" style="font-size: 0.88rem; line-height: 1.5;">
+
+        <!-- Section A: AI Assistant Settings -->
+        <div class="sync-box" style="margin-top: 0;">
+          <h4 style="margin-bottom: 8px; color: var(--primary);">🤖 AI Doubt Solver Settings</h4>
+          <div style="display: flex; gap: 12px; margin-bottom: 10px;">
+            <div style="flex: 1;">
+              <label style="font-weight: 700; font-size: 0.8rem;">AI Engine Mode:</label>
+              <select id="configAiProvider" class="th-filter-select" style="margin-top: 4px; padding: 6px;">
+                <option value="google">Google AI Search (Default)</option>
+                <option value="gemini">Google Gemini</option>
+                <option value="chatgpt">ChatGPT (OpenAI)</option>
+              </select>
+            </div>
+            <div style="flex: 1;">
+              <label style="font-weight: 700; font-size: 0.8rem;">Candidate Display Name:</label>
+              <input type="text" id="configCandidateName" placeholder="Candidate" class="th-filter-input" style="margin-top: 4px; padding: 6px;">
+            </div>
+          </div>
+
+          <label style="font-weight: 700; font-size: 0.8rem;">Custom Prompt Template:</label>
+          <p style="font-size: 0.75rem; color: var(--text-muted); margin: 2px 0 6px 0;">
+            Use template variables: <code>{{question}}</code>, <code>{{answer}}</code>, <code>{{options}}</code>, <code>{{user_answer}}</code>, <code>{{test_name}}</code>
+          </p>
+          <textarea id="configAiPromptTemplate" class="sync-textarea" style="height: 110px; font-size: 0.82rem;"></textarea>
+          <div style="display: flex; justify-content: flex-end; margin-top: 6px;">
+            <button class="btn btn-secondary btn-sm" id="btnResetAiPrompt">Reset to Default Prompt</button>
+          </div>
+        </div>
+
+        <!-- Section B: Progress Backup & Portable JSON / String -->
+        <div class="sync-box">
+          <h4 style="margin-bottom: 6px; color: var(--primary);">📦 Progress Backup (JSON & Portable String)</h4>
+          <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 6px;">Your progress, test scores, notes, and activity in pure JSON:</p>
+          <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+            <button class="btn btn-secondary btn-sm" id="btnCopyJson">📋 Copy Full JSON</button>
+            <button class="btn btn-secondary btn-sm" id="btnCopySyncString">📋 Copy Compact String</button>
+            <button class="btn btn-secondary btn-sm" id="exportDataBtn">💾 Export .json File</button>
+            <label class="btn btn-secondary btn-sm" style="cursor: pointer;">
+              📂 Import .json File
+              <input type="file" id="importFileInput" accept=".json" style="display: none;">
+            </label>
+          </div>
+          <textarea id="syncJsonTextarea" class="sync-textarea" readonly style="height: 100px; font-size: 0.8rem;"></textarea>
+          <input type="hidden" id="syncStringTextarea">
+        </div>
+
+        <!-- Section C: Free Cloud Sync (JSONBin.io) -->
+        <div class="sync-box">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+            <h4 style="margin: 0; color: var(--primary);">☁️ JSONBin.io Cloud Sync</h4>
+            <button class="btn btn-secondary btn-sm" id="btnOpenJsonbinGuide" style="font-size: 0.75rem; padding: 2px 8px;">📖 Setup Guide</button>
+          </div>
+          <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 8px;">
+            Sync your progress, notes, and scores across devices safely using your free JSONBin.io account. Syncing is non-destructive and merges new test attempts safely.
+          </p>
+          <div style="display: flex; gap: 8px; margin-top: 6px;">
+            <input type="text" id="jsonbinBinId" placeholder="JSONBin Bin ID (e.g. 6737...)" class="th-filter-input" style="flex: 1;">
+            <input type="password" id="jsonbinApiKey" placeholder="X-Master-Key / Access Key" class="th-filter-input" style="flex: 1;">
+          </div>
+          <div style="display: flex; gap: 8px; margin-top: 10px;">
+            <button class="btn btn-primary btn-sm" id="btnCloudPush">☁️ Save / Push to JSONBin</button>
+            <button class="btn btn-secondary btn-sm" id="btnCloudPull">📥 Pull & Merge from JSONBin</button>
+          </div>
+          <div id="cloudStatusMsg" style="font-size: 0.8rem; margin-top: 8px; color: var(--primary);"></div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" id="btnSaveConfig">Save Settings & Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. JSONBin.io Setup Guide Modal -->
+  <div class="modal-overlay" id="jsonbinGuideModal">
+    <div class="modal-card" style="max-width: 620px;">
+      <div class="modal-header">
+        <span>📖 How to Setup Free Cloud Sync with JSONBin.io</span>
+        <button class="btn btn-secondary btn-sm closeModalBtn">&times;</button>
+      </div>
+      <div class="modal-body" style="font-size: 0.88rem; line-height: 1.6;">
+        <p style="margin-bottom: 12px; color: var(--text-primary);">
+          JSONBin.io is a 100% free cloud JSON storage service. It allows you to synchronize your exam progress, scores, bookmarks, and revision notes across any phone, laptop, or browser without running your own server.
+        </p>
+
+        <h4 style="color: var(--primary); margin-top: 12px; margin-bottom: 6px;">Step 1: Create a Free Account</h4>
+        <p style="margin-bottom: 8px;">
+          Go to <a href="https://jsonbin.io" target="_blank" rel="noopener noreferrer" style="color: #58a6ff; text-decoration: underline;">https://jsonbin.io</a> and sign up for a free account.
+        </p>
+
+        <h4 style="color: var(--primary); margin-top: 12px; margin-bottom: 6px;">Step 2: Get Your Master Key</h4>
+        <p style="margin-bottom: 8px;">
+          After logging in, go to <strong>API Keys</strong> in your JSONBin dashboard. Copy your <code>X-Master-Key</code> (or create an Access Key).
+        </p>
+
+        <h4 style="color: var(--primary); margin-top: 12px; margin-bottom: 6px;">Step 3: Create a Bin or Auto-Generate</h4>
+        <p style="margin-bottom: 8px;">
+          Create a private Bin with <code>{}</code> as the body, name it <code>cbt_progress</code>, and copy the <strong>Bin ID</strong> (the alphanumeric code in the URL or bin list). Paste both the <strong>Bin ID</strong> and <strong>Master Key</strong> in the settings box.
+        </p>
+
+        <div style="background: rgba(88, 166, 255, 0.1); border-left: 3px solid #58a6ff; padding: 10px 14px; margin-top: 14px; border-radius: 0 4px 4px 0; font-size: 0.82rem;">
+          <strong>💡 Pro-Tip for Safe Progress:</strong><br>
+          Remember to click <strong>🔄 Sync</strong> after finishing each test session! Even if your browser cache is cleared, syncing with your Bin ID will safely restore all your past tests without losing data.
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary closeModalBtn">Got it, Let's Sync!</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Interactive Conflict Resolution Modal -->
+  <div class="modal-overlay" id="conflictResolverModal">
+    <div class="modal-card" style="max-width: 650px;">
+      <div class="modal-header">
+        <span>⚠️ Test Attempt Conflict Resolution</span>
+      </div>
+      <div class="modal-body" style="font-size: 0.88rem; line-height: 1.5;">
+        <p style="margin-bottom: 8px;" id="conflictModalDescription">
+          A test attempt exists both locally on this device and in your JSONBin cloud storage with different results. Choose which session you wish to keep:
+        </p>
+        <div class="conflict-card-container">
+          <div class="conflict-card" id="conflictLocalCard">
+            <h4 style="color: #58a6ff; margin-bottom: 4px;">💻 Local Attempt</h4>
+            <div class="conflict-field-row">
+              <span class="conflict-field-label">Date:</span>
+              <span id="conflictLocalDate" style="font-weight: 600;">-</span>
+            </div>
+            <div class="conflict-field-row">
+              <span class="conflict-field-label">Score:</span>
+              <span id="conflictLocalScore" style="font-weight: 700; color: #16a34a;">-</span>
+            </div>
+            <div class="conflict-field-row">
+              <span class="conflict-field-label">Accuracy:</span>
+              <span id="conflictLocalAccuracy">-</span>
+            </div>
+            <div class="conflict-field-row">
+              <span class="conflict-field-label">Time Spent:</span>
+              <span id="conflictLocalTime">-</span>
+            </div>
+            <button class="btn btn-secondary btn-sm" id="btnSelectLocalConflict" style="margin-top: 8px;">Keep Local Attempt</button>
+          </div>
+
+          <div class="conflict-card" id="conflictCloudCard">
+            <h4 style="color: #3fb950; margin-bottom: 4px;">☁️ Cloud (JSONBin) Attempt</h4>
+            <div class="conflict-field-row">
+              <span class="conflict-field-label">Date:</span>
+              <span id="conflictCloudDate" style="font-weight: 600;">-</span>
+            </div>
+            <div class="conflict-field-row">
+              <span class="conflict-field-label">Score:</span>
+              <span id="conflictCloudScore" style="font-weight: 700; color: #16a34a;">-</span>
+            </div>
+            <div class="conflict-field-row">
+              <span class="conflict-field-label">Accuracy:</span>
+              <span id="conflictCloudAccuracy">-</span>
+            </div>
+            <div class="conflict-field-row">
+              <span class="conflict-field-label">Time Spent:</span>
+              <span id="conflictCloudTime">-</span>
+            </div>
+            <button class="btn btn-secondary btn-sm" id="btnSelectCloudConflict" style="margin-top: 8px;">Keep Cloud Attempt</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="src/app.js"></script>
+  <div id="toastContainer" class="toast-container"></div>
+</body>
+</html>

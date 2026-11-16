@@ -1,0 +1,70 @@
+{
+  "name": "Day 226 [Data Structures]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "540234",
+          "text": "<p data-start=\"5651\" data-end=\"5719\">Consider the following statements about hash tables.</p><p data-start=\"5721\" data-end=\"5816\">$\\text{S1}:$ The worst-case complexity of checking whether an object is present in a hash set is $O(1)$.</p><p data-start=\"5818\" data-end=\"5950\">$\\text{S2}:$ The worst-case complexity of finding a key in a hash table with <code data-start=\"5886\" data-end=\"5889\">n</code> entries is $O(\\lambda)$, where $\\lambda$ is the load factor.</p><p data-start=\"5952\" data-end=\"6082\">$\\text{S3}:$ For a hash table of size $5$, the function $h(x) = x \\bmod 5$ maps the values $\\{20, 6, 18, 14\\}$ to indices without collisions.</p><p data-start=\"6084\" data-end=\"6203\">$\\text{S4}:$ For hash tables with linked-list chaining, the load factor $\\lambda$ is the fraction of buckets that are non-empty.</p><p data-start=\"6205\" data-end=\"6273\">$\\text{S5}:$ Hash tables with linear probing only work when $\\lambda \\leq 1$.</p><p data-start=\"6275\" data-end=\"6349\">$\\text{S6}:$ Hash tables with linked-list chaining only work when $\\lambda \\leq 1$.</p><p data-start=\"6351\" data-end=\"6377\">Which statements are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"6379\" data-end=\"6440\">$\\text{S1, S2, S4}$<br>&nbsp;</li><li data-start=\"6379\" data-end=\"6440\">$\\text{S3, S5}$<br>&nbsp;</li><li data-start=\"6379\" data-end=\"6440\">$\\text{S2, S3, S6}$<br>&nbsp;</li><li data-start=\"6379\" data-end=\"6440\">$\\text{S1, S3, S5, S6}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 226"
+        },
+        {
+          "post_id": "540230",
+          "text": "<p data-start=\"3416\" data-end=\"3633\">A hash table has $m$ slots and stores $n$ keys. Assume <strong data-start=\"3487\" data-end=\"3513\">simple uniform hashing</strong>, so each key is equally likely to hash into any slot, independently of other keys. Collisions are resolved by chaining.</p><p data-start=\"3635\" data-end=\"3693\">What is the probability that the first slot ends up empty?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3695\" data-end=\"3840\">$\\left(\\frac{1}{m}\\right)^n$<br>&nbsp;</li><li data-start=\"3695\" data-end=\"3840\">$\\left(\\frac{m-1}{m}\\right)^n$<br>&nbsp;</li><li data-start=\"3695\" data-end=\"3840\">$1 - \\left(\\frac{1}{m}\\right)^n$<br>&nbsp;</li><li data-start=\"3695\" data-end=\"3840\">$1 - \\left(\\frac{m-1}{m}\\right)^n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 226"
+        },
+        {
+          "post_id": "540232",
+          "text": "<p data-start=\"4506\" data-end=\"4637\">A hash table has $m$ slots and stores $n$ keys. Assume simple uniform hashing. Collisions are resolved by chaining.</p><p data-start=\"4639\" data-end=\"4702\">What is the expected number of slots that end up <strong data-start=\"4688\" data-end=\"4701\">non-empty</strong>?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4704\" data-end=\"4868\">$m\\left(1 - \\left(\\frac{m-1}{m}\\right)^n\\right)$<br>&nbsp;</li><li data-start=\"4704\" data-end=\"4868\">$\\left(\\frac{m-1}{m}\\right)^n$<br>&nbsp;</li><li data-start=\"4704\" data-end=\"4868\">$m\\left(\\frac{m-1}{m}\\right)^n$<br>&nbsp;</li><li data-start=\"4704\" data-end=\"4868\">$1 - \\left(\\frac{m-1}{m}\\right)^n$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 226"
+        },
+        {
+          "post_id": "540228",
+          "text": "<p data-start=\"2268\" data-end=\"2301\">For the keys :&nbsp;$\\text{47, 61, 36, 52, 56, 33, 92}$</p><p data-start=\"2333\" data-end=\"2373\">Suppose the hash function is :</p><p data-start=\"2375\" data-end=\"2411\">$h(k) = ((10k + 4) \\bmod c) \\bmod 7$</p><p data-start=\"2413\" data-end=\"2445\">where $c$ is a positive integer.</p><p data-start=\"2447\" data-end=\"2526\">What is the smallest value of $c$ such that no collision occurs for these keys?</p>",
+          "type": "Numerical",
+          "answer": "13",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 226"
+        },
+        {
+          "post_id": "540226",
+          "text": "<p data-start=\"693\" data-end=\"732\">Insert the integer keys</p><p data-start=\"734\" data-end=\"762\">$47, 61, 36, 52, 56, 33, 92$</p><p data-start=\"764\" data-end=\"813\">in the given order into a hash table of size $7$.</p><p data-start=\"815\" data-end=\"836\">The hash function is:</p><p data-start=\"838\" data-end=\"864\">$h(k) = (10k + 4) \\bmod 7$</p><p data-start=\"866\" data-end=\"1005\">Collisions are resolved by <strong data-start=\"893\" data-end=\"914\">separate chaining</strong>. Each slot stores a linked list, and later insertions are appended at the end of the list.</p><p data-start=\"1007\" data-end=\"1054\">Which of the following is the final hash table?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li><pre data-start=\"1359\" data-end=\"1449\"><code data-start=\"1061\" data-end=\"1074\">0: 36 -&gt; 92</code>\n<code data-start=\"1077\" data-end=\"1087\">1: empty</code>\n<code data-start=\"1090\" data-end=\"1100\">2: empty</code>\n<code data-start=\"1103\" data-end=\"1113\">3: empty</code>\n<code data-start=\"1116\" data-end=\"1123\">4: 56</code>\n<code data-start=\"1126\" data-end=\"1145\">5: 47 -&gt; 61 -&gt; 33</code>\n<code data-start=\"1148\" data-end=\"1155\">6: 52</code>\n</pre></li><li><pre data-start=\"1359\" data-end=\"1449\"><code data-start=\"1162\" data-end=\"1175\">0: 36 -&gt; 52</code>\n<code data-start=\"1178\" data-end=\"1188\">1: empty</code>\n<code data-start=\"1191\" data-end=\"1198\">2: 92</code>\n<code data-start=\"1201\" data-end=\"1211\">3: empty</code>\n<code data-start=\"1214\" data-end=\"1221\">4: 56</code>\n<code data-start=\"1224\" data-end=\"1243\">5: 47 -&gt; 61 -&gt; 33</code>\n<code data-start=\"1246\" data-end=\"1256\">6: empty</code></pre></li><li><pre data-start=\"1359\" data-end=\"1449\"><code data-start=\"1263\" data-end=\"1276\">0: 92 -&gt; 36</code>\n<code data-start=\"1279\" data-end=\"1289\">1: empty</code>\n<code data-start=\"1292\" data-end=\"1302\">2: empty</code>\n<code data-start=\"1305\" data-end=\"1315\">3: empty</code>\n<code data-start=\"1318\" data-end=\"1325\">4: 56</code>\n<code data-start=\"1328\" data-end=\"1347\">5: 33 -&gt; 61 -&gt; 47</code>\n<code data-start=\"1350\" data-end=\"1357\">6: 52</code></pre></li><li><pre data-start=\"1359\" data-end=\"1449\"><code data-start=\"1364\" data-end=\"1371\">0: 36</code>\n<code data-start=\"1374\" data-end=\"1381\">1: 92</code>\n<code data-start=\"1384\" data-end=\"1394\">2: empty</code>\n<code data-start=\"1397\" data-end=\"1407\">3: empty</code>\n<code data-start=\"1410\" data-end=\"1417\">4: 56</code>\n<code data-start=\"1420\" data-end=\"1439\">5: 47 -&gt; 61 -&gt; 33</code>\n<code data-start=\"1442\" data-end=\"1449\">6: 52</code></pre></li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Data Structures",
+          "day": "Day 226"
+        }
+      ]
+    }
+  ]
+}

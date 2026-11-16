@@ -1,0 +1,926 @@
+[
+  {
+    "id": "other_test_0",
+    "name": "GATE CSE 2016 | Set 1 | Original Paper"
+  },
+  {
+    "id": "other_test_1",
+    "name": "GATE CSE 2016 | Set 2 | Original Paper"
+  },
+  {
+    "id": "other_test_2",
+    "name": "GATE CSE 2015 | Set 3 | Original Paper"
+  },
+  {
+    "id": "other_test_3",
+    "name": "GATE CSE 2015 | Set 1 | Original Paper"
+  },
+  {
+    "id": "other_test_4",
+    "name": "GATE CSE 2015 | Set 2 | Original Paper"
+  },
+  {
+    "id": "other_test_5",
+    "name": "GATE CSE 2014 | Set 1 | Original Paper"
+  },
+  {
+    "id": "other_test_6",
+    "name": "ISRO 2007"
+  },
+  {
+    "id": "other_test_7",
+    "name": "GATE CSE 2014 | Set 2 | Original Paper"
+  },
+  {
+    "id": "other_test_8",
+    "name": "ISRO 2009"
+  },
+  {
+    "id": "other_test_9",
+    "name": "ISRO 2013"
+  },
+  {
+    "id": "other_test_10",
+    "name": "GATE CSE 2014 | Set 3 | Original Paper"
+  },
+  {
+    "id": "other_test_11",
+    "name": "ISRO 2008"
+  },
+  {
+    "id": "other_test_12",
+    "name": "ISRO 2011"
+  },
+  {
+    "id": "other_test_13",
+    "name": "ISRO 2015"
+  },
+  {
+    "id": "other_test_14",
+    "name": "GATE Overflow | Mathematics | Test 1"
+  },
+  {
+    "id": "other_test_15",
+    "name": "ISRO 2014"
+  },
+  {
+    "id": "other_test_16",
+    "name": "ISRO 2016"
+  },
+  {
+    "id": "other_test_17",
+    "name": "UGC NET CSE Exam | June 2012 | Paper 2"
+  },
+  {
+    "id": "other_test_18",
+    "name": "GATE Overflow | Operating Systems | Test 1"
+  },
+  {
+    "id": "other_test_19",
+    "name": "UGC NET CSE Exam | June 2014 | Paper 2"
+  },
+  {
+    "id": "other_test_20",
+    "name": "GATE Overflow | Algorithms | Test 1"
+  },
+  {
+    "id": "other_test_21",
+    "name": "GATE Overflow | Data Structures | Test 1"
+  },
+  {
+    "id": "other_test_22",
+    "name": "GATE Overflow | General Aptitude | Test 1"
+  },
+  {
+    "id": "other_test_23",
+    "name": "GATE Overflow | Digital Logic | Test 1"
+  },
+  {
+    "id": "other_test_24",
+    "name": "GATE Overflow | Programming | Test 1"
+  },
+  {
+    "id": "other_test_25",
+    "name": "GATE CSE 2013 | Original Paper"
+  },
+  {
+    "id": "other_test_26",
+    "name": "GATE CSE 2012 | Original Paper"
+  },
+  {
+    "id": "other_test_27",
+    "name": "GATE CSE 2011 | Original Paper"
+  },
+  {
+    "id": "other_test_28",
+    "name": "GATE CSE 2009 | Original Paper"
+  },
+  {
+    "id": "other_test_29",
+    "name": "GATE CSE 2010 | Original Paper"
+  },
+  {
+    "id": "other_test_30",
+    "name": "Test by Bikram | Compiler Design | Test 1"
+  },
+  {
+    "id": "other_test_31",
+    "name": "Test by Bikram | Theory of Computation | Test 1"
+  },
+  {
+    "id": "other_test_32",
+    "name": "Test by Bikram | Computer Networks | Test 1"
+  },
+  {
+    "id": "other_test_33",
+    "name": "Test by Bikram | Databases | Test 1"
+  },
+  {
+    "id": "other_test_34",
+    "name": "Test by Bikram | Digital Logic | Test 2"
+  },
+  {
+    "id": "other_test_35",
+    "name": "Test by Bikram | Computer Organization and Architecture | Test 1"
+  },
+  {
+    "id": "other_test_36",
+    "name": "GATE CSE 2008 | Original Paper"
+  },
+  {
+    "id": "other_test_37",
+    "name": "Test by Bikram | Data Structures | Test 2"
+  },
+  {
+    "id": "other_test_38",
+    "name": "GATE CSE 2005 | Original Paper"
+  },
+  {
+    "id": "other_test_39",
+    "name": "GATE CSE 2006 | Original Paper"
+  },
+  {
+    "id": "other_test_40",
+    "name": "GATE CSE 2007 | Original Paper"
+  },
+  {
+    "id": "other_test_41",
+    "name": "GATE IT 2005 | Original Paper"
+  },
+  {
+    "id": "other_test_42",
+    "name": "GATE IT 2007 | Original Paper"
+  },
+  {
+    "id": "other_test_43",
+    "name": "GATE IT 2008 | Original Paper"
+  },
+  {
+    "id": "other_test_44",
+    "name": "GATE CSE 2004 | Original Paper"
+  },
+  {
+    "id": "other_test_45",
+    "name": "GATE IT 2004 | Original Paper"
+  },
+  {
+    "id": "other_test_46",
+    "name": "GATE CSE 2003 | Original Paper"
+  },
+  {
+    "id": "other_test_47",
+    "name": "Test by Bikram | General Aptitude | Test 2"
+  },
+  {
+    "id": "other_test_48",
+    "name": "GATE IT 2006 | Original Paper"
+  },
+  {
+    "id": "other_test_49",
+    "name": "Test by Bikram | Operating Systems | Test 2"
+  },
+  {
+    "id": "other_test_50",
+    "name": "Algorithms - Previous GATE 1"
+  },
+  {
+    "id": "other_test_51",
+    "name": "Probability - Previous GATE 1"
+  },
+  {
+    "id": "other_test_52",
+    "name": "Linear Algebra - Previous GATE 1"
+  },
+  {
+    "id": "other_test_53",
+    "name": "Verbal Ability - Previous GATE (all streams)"
+  },
+  {
+    "id": "other_test_54",
+    "name": "Numerical Ability - Previous GATE (all streams)"
+  },
+  {
+    "id": "other_test_55",
+    "name": "Test by Bikram | Mock GATE | Test 1"
+  },
+  {
+    "id": "other_test_56",
+    "name": "Graph Theory - Previous GATE 1"
+  },
+  {
+    "id": "other_test_57",
+    "name": "Test by Bikram | Mock GATE | Test 2"
+  },
+  {
+    "id": "other_test_58",
+    "name": "Test by Bikram | Mock GATE | Test 3"
+  },
+  {
+    "id": "other_test_59",
+    "name": "GATE CSE 2017 | Set 2 | Original Paper"
+  },
+  {
+    "id": "other_test_60",
+    "name": "GATE CSE 2017 | Set 1 | Original Paper"
+  },
+  {
+    "id": "other_test_61",
+    "name": "Test by Bikram | Mock GATE | Test 4"
+  },
+  {
+    "id": "other_test_62",
+    "name": "ISRO 2017"
+  },
+  {
+    "id": "other_test_63",
+    "name": "Test by Bikram | Programming | Test 2"
+  },
+  {
+    "id": "other_test_64",
+    "name": "Test by Bikram | Computer Organization and Architecture | Test 2"
+  },
+  {
+    "id": "other_test_65",
+    "name": "Test by Bikram | Algorithms | Test 2"
+  },
+  {
+    "id": "other_test_66",
+    "name": "Test by Bikram | Mathematics | Test 2"
+  },
+  {
+    "id": "other_test_67",
+    "name": "Test by Bikram | Theory of Computation | Test 2"
+  },
+  {
+    "id": "other_test_68",
+    "name": "Test by Bikram | Databases | Test 2"
+  },
+  {
+    "id": "other_test_69",
+    "name": "Set Theory & Algebra - Previous GATE 1"
+  },
+  {
+    "id": "other_test_70",
+    "name": "Theory of Computation - Previous GATE 1"
+  },
+  {
+    "id": "other_test_71",
+    "name": "GATE CSE 2018 | Original Paper"
+  },
+  {
+    "id": "other_test_72",
+    "name": "ISRO 2017-ii"
+  },
+  {
+    "id": "other_test_73",
+    "name": "GATEBOOK-2019 OS1: Introduction and CPU Scheduling"
+  },
+  {
+    "id": "other_test_74",
+    "name": "GATEBOOK-2019 DS2: Trees and Graphs"
+  },
+  {
+    "id": "other_test_75",
+    "name": "GATEBOOK-2019 DS1: C Programming, Basic DS"
+  },
+  {
+    "id": "other_test_76",
+    "name": "GATEBOOK-2019 OS2: Process Synchronization"
+  },
+  {
+    "id": "other_test_77",
+    "name": "GATEBOOK-2019 Digital1: Boolean Algebra"
+  },
+  {
+    "id": "other_test_78",
+    "name": "GATEBOOK-2019 COA1: Basics and ALU"
+  },
+  {
+    "id": "other_test_79",
+    "name": "GATEBOOK-2019 COA2: Addressing Modes"
+  },
+  {
+    "id": "other_test_80",
+    "name": "GATEBOOK-2019-Discrete Mathematics 1: Mathematical Logic"
+  },
+  {
+    "id": "other_test_81",
+    "name": "GATEBOOK-2019-TOC1 Regular Languages"
+  },
+  {
+    "id": "other_test_82",
+    "name": "GATEBOOK-2019 CN1: Flow and Error Control"
+  },
+  {
+    "id": "other_test_83",
+    "name": "GATEBOOK-2019 CN2: Network Layer"
+  },
+  {
+    "id": "other_test_84",
+    "name": "GATEBOOK-2019 Discrete Mathematics 2: Combinatorics"
+  },
+  {
+    "id": "other_test_85",
+    "name": "GATEBOOK-2019 OS3: Memory Management"
+  },
+  {
+    "id": "other_test_86",
+    "name": "GATEBOOK-2019 Algorithms1: Sorting and Searching"
+  },
+  {
+    "id": "other_test_87",
+    "name": "GATEBOOK-2019 TOC3: Turing Machines"
+  },
+  {
+    "id": "other_test_88",
+    "name": "GATEBOOK-2019 OS4: File Systems"
+  },
+  {
+    "id": "other_test_89",
+    "name": "GATEBOOK-2019 DM4: Groups and Lattice"
+  },
+  {
+    "id": "other_test_90",
+    "name": "GATEBOOK-2019 COA5: Memory and IO"
+  },
+  {
+    "id": "other_test_91",
+    "name": "GATEBOOK-2019 COA4: Pipelining"
+  },
+  {
+    "id": "other_test_92",
+    "name": "GATEBOOK-2019 COA3: Control Unit"
+  },
+  {
+    "id": "other_test_93",
+    "name": "GATEBOOK-2019 Algorithms2: Algorithm Design, Hashing"
+  },
+  {
+    "id": "other_test_94",
+    "name": "GATEBOOK-2019 DBMS2: Normalization"
+  },
+  {
+    "id": "other_test_95",
+    "name": "GATEBOOK-2019 Digital2: Combinational Circuits"
+  },
+  {
+    "id": "other_test_96",
+    "name": "GATEBOOK-2019 Digital3: Sequential Circuits"
+  },
+  {
+    "id": "other_test_97",
+    "name": "GATEBOOK-2019 DM3: Set Theory & Algebra"
+  },
+  {
+    "id": "other_test_98",
+    "name": "GATEBOOK-2019 DM5: Graph Theory"
+  },
+  {
+    "id": "other_test_99",
+    "name": "GATEBOOK-2019 DBMS1: ER Diagrams, SQL, Relational Algebra"
+  },
+  {
+    "id": "other_test_100",
+    "name": "GATEBOOK-2019 TOC2: Context Free Languages"
+  },
+  {
+    "id": "other_test_101",
+    "name": "GATEBOOK-2019 TOC4: Language Properties"
+  },
+  {
+    "id": "other_test_102",
+    "name": "GATEBOOK-2019 DBMS3: Indexing"
+  },
+  {
+    "id": "other_test_103",
+    "name": "GATEBOOK-2019 CN3: Transport Layer"
+  },
+  {
+    "id": "other_test_104",
+    "name": "GATEBOOK-2019 DBMS4: Transactions and Concurrency"
+  },
+  {
+    "id": "other_test_105",
+    "name": "GATEBOOK-2019 Probability 1"
+  },
+  {
+    "id": "other_test_106",
+    "name": "GATEBOOK-2019 Linear Algebra 1"
+  },
+  {
+    "id": "other_test_107",
+    "name": "GATEBOOK-2019 Calculus 1"
+  },
+  {
+    "id": "other_test_108",
+    "name": "GATEBOOK-2019 CN4: Application Layer and Network Security"
+  },
+  {
+    "id": "other_test_109",
+    "name": "GATE Overflow | Mock GATE | Test 1 | Test by Ruturaj"
+  },
+  {
+    "id": "other_test_110",
+    "name": "GATEBOOK-2019 Compilers1: Lexical Analysis"
+  },
+  {
+    "id": "other_test_111",
+    "name": "GATEBOOK-2019 Grand Test 1: DS&A"
+  },
+  {
+    "id": "other_test_112",
+    "name": "GATEBOOK-2019 Grand Test 2: DBMS"
+  },
+  {
+    "id": "other_test_113",
+    "name": "GATEBOOK-2019 Compilers2: Parsing"
+  },
+  {
+    "id": "other_test_114",
+    "name": "GATEBOOK-2019 Grand Test 3: Computer Networks"
+  },
+  {
+    "id": "other_test_115",
+    "name": "GATEBOOK-2019 Grand Test 4: Mathematics"
+  },
+  {
+    "id": "other_test_116",
+    "name": "GATEBOOK-2019 Grand Test 5: Digital Logic"
+  },
+  {
+    "id": "other_test_117",
+    "name": "GATEBOOK-2019 Grand Test 6: CO & Architecture"
+  },
+  {
+    "id": "other_test_118",
+    "name": "GATEBOOK-2019 Grand Test Discrete Mathematics"
+  },
+  {
+    "id": "other_test_119",
+    "name": "Applied Course | Mock GATE | Test 1"
+  },
+  {
+    "id": "other_test_120",
+    "name": "GATEBOOK-2019 Mock Test 1"
+  },
+  {
+    "id": "other_test_121",
+    "name": "GATEBOOK-2019 Mock Test 2"
+  },
+  {
+    "id": "other_test_122",
+    "name": "CO & Architecture - Previous GATE 1"
+  },
+  {
+    "id": "other_test_123",
+    "name": "GATE Overflow | General Aptitude | Test 2"
+  },
+  {
+    "id": "other_test_124",
+    "name": "GATE Overflow | Compiler Design | Test 1"
+  },
+  {
+    "id": "other_test_125",
+    "name": "GATE CSE 2019 | Original Paper"
+  },
+  {
+    "id": "other_test_126",
+    "name": "ISRO 2018"
+  },
+  {
+    "id": "other_test_127",
+    "name": "UGC NET CSE Exam | December 2014 | Paper 3"
+  },
+  {
+    "id": "other_test_128",
+    "name": "UGC NET CSE Exam | December 2014 | Paper 2"
+  },
+  {
+    "id": "other_test_129",
+    "name": "UGC NET CSE Exam | June 2014 | Paper 3"
+  },
+  {
+    "id": "other_test_130",
+    "name": "UGC NET CSE Exam | December 2013 | Paper 3"
+  },
+  {
+    "id": "other_test_131",
+    "name": "UGC NET CSE Exam | December 2013 | Paper 2"
+  },
+  {
+    "id": "other_test_132",
+    "name": "UGC NET CSE Exam | September 2013 | Paper 2"
+  },
+  {
+    "id": "other_test_133",
+    "name": "UGC NET CSE Exam | September 2013 | Paper 3"
+  },
+  {
+    "id": "other_test_134",
+    "name": "UGC NET CSE Exam | June 2013 | Paper 3"
+  },
+  {
+    "id": "other_test_135",
+    "name": "UGC NET CSE Exam | June 2013 | Paper 2"
+  },
+  {
+    "id": "other_test_136",
+    "name": "UGC NET CSE Exam | December 2012 | Paper 3"
+  },
+  {
+    "id": "other_test_137",
+    "name": "UGC NET CSE Exam | December 2012 | Paper 2"
+  },
+  {
+    "id": "other_test_138",
+    "name": "UGC NET CSE Exam | December 2015 | Paper 3"
+  },
+  {
+    "id": "other_test_139",
+    "name": "UGC NET CSE Exam | December 2015 | Paper 2"
+  },
+  {
+    "id": "other_test_140",
+    "name": "UGC NET CSE Exam | June 2012 | Paper 3"
+  },
+  {
+    "id": "other_test_141",
+    "name": "UGC NET CSE Exam | June 2015 | Paper 3"
+  },
+  {
+    "id": "other_test_142",
+    "name": "UGC NET CSE Exam | June 2015 | Paper 2"
+  },
+  {
+    "id": "other_test_143",
+    "name": "TIFR CSE 2012"
+  },
+  {
+    "id": "other_test_144",
+    "name": "TIFR CSE 2013"
+  },
+  {
+    "id": "other_test_145",
+    "name": "TIFR CSE 2015"
+  },
+  {
+    "id": "other_test_146",
+    "name": "TIFR CSE 2014"
+  },
+  {
+    "id": "other_test_147",
+    "name": "TIFR CSE 2017"
+  },
+  {
+    "id": "other_test_148",
+    "name": "TIFR CSE 2016"
+  },
+  {
+    "id": "other_test_149",
+    "name": "TIFR CSE 2018"
+  },
+  {
+    "id": "other_test_150",
+    "name": "TIFR CSE 2019"
+  },
+  {
+    "id": "other_test_151",
+    "name": "TIFR Mathematics 2015"
+  },
+  {
+    "id": "other_test_152",
+    "name": "NIELIT Scientific Assistant 2017 December Section B"
+  },
+  {
+    "id": "other_test_153",
+    "name": "TIFR Mathematics 2014"
+  },
+  {
+    "id": "other_test_154",
+    "name": "TIFR Mathematics 2016"
+  },
+  {
+    "id": "other_test_155",
+    "name": "GO Classes Weekly Quiz 5 | Mathematical Logic"
+  },
+  {
+    "id": "other_test_156",
+    "name": "GO Classes Weekly Quiz 6 | Programming in C | Pointers"
+  },
+  {
+    "id": "other_test_157",
+    "name": "GO Classes Weekly Quiz 7 | Mathematical Logic"
+  },
+  {
+    "id": "other_test_158",
+    "name": "GO Classes Weekly Quiz 8 | Programming in C"
+  },
+  {
+    "id": "other_test_159",
+    "name": "GO Classes Weekly Quiz 3 | Propositional Logic"
+  },
+  {
+    "id": "other_test_160",
+    "name": "GO Classes Weekly Quiz 4 | Programming | Recursion"
+  },
+  {
+    "id": "other_test_161",
+    "name": "GO Classes Weekly Quiz 1 | General Aptitude"
+  },
+  {
+    "id": "other_test_162",
+    "name": "GO Classes Weekly Quiz 2 | Programming in C and Propositional Logic"
+  },
+  {
+    "id": "other_test_163",
+    "name": "GO Classes Weekly Quiz 9 | Data Structures | Linked List"
+  },
+  {
+    "id": "other_test_164",
+    "name": "GO Classes Weekly Quiz 10 | Discrete Mathematics | Set Theory, Mathematical Logic, Lattice"
+  },
+  {
+    "id": "other_test_165",
+    "name": "GO Classes Weekly Quiz 11 | Data Structures | Asymptotic Notation and Loop Time Complexity"
+  },
+  {
+    "id": "other_test_166",
+    "name": "UPPCL 2018"
+  },
+  {
+    "id": "other_test_167",
+    "name": "GO Classes Weekly Quiz 12 | Discrete Mathematics | Group Theory, Functions"
+  },
+  {
+    "id": "other_test_168",
+    "name": "GO Classes Weekly Quiz 13 | Discrete Mathematics | Combinatorics"
+  },
+  {
+    "id": "other_test_169",
+    "name": "GO Classes Weekly Quiz 14 | Data Structures | Stack, Queue, Linked List"
+  },
+  {
+    "id": "other_test_170",
+    "name": "GO Classes Weekly Quiz 15 | Digital Logic | K-Map, Combinational Circuits"
+  },
+  {
+    "id": "other_test_171",
+    "name": "GO Classes Weekly Quiz 16 | Complete Data Structures"
+  },
+  {
+    "id": "other_test_172",
+    "name": "UGC NET CSE Exam | January 2017 | Paper 2"
+  },
+  {
+    "id": "other_test_173",
+    "name": "UGC NET CSE Exam | January 2017 | Paper 3"
+  },
+  {
+    "id": "other_test_174",
+    "name": "GATE Overflow Test Series | Mixed Subjects | Test 3"
+  },
+  {
+    "id": "other_test_175",
+    "name": "UGC NET CSE Exam | November 2017 | Paper 2"
+  },
+  {
+    "id": "other_test_176",
+    "name": "UGC NET CSE Exam | November 2017 | Paper 3"
+  },
+  {
+    "id": "other_test_177",
+    "name": "GATE Overflow Test Series | Computer Networks| Test 1"
+  },
+  {
+    "id": "other_test_178",
+    "name": "GATE Overflow Test Series | Operating Systems | Test 1"
+  },
+  {
+    "id": "other_test_179",
+    "name": "GATE Overflow Test Series | Linear Algebra | Test 1"
+  },
+  {
+    "id": "other_test_180",
+    "name": "GATE Overflow Test Series | Operating Systems | Test 2"
+  },
+  {
+    "id": "other_test_181",
+    "name": "GATE Overflow Test Series | Mixed Subjects | Test 4"
+  },
+  {
+    "id": "other_test_182",
+    "name": "GATE Overflow Test Series | Compiler Design | Test 1"
+  },
+  {
+    "id": "other_test_183",
+    "name": "GATE Overflow Test Series | Analytical and Spatial Aptitude | Test 1"
+  },
+  {
+    "id": "other_test_184",
+    "name": "GATE Overflow Test Series | Mock GATE 1"
+  },
+  {
+    "id": "other_test_185",
+    "name": "GATE Overflow Test Series | Mock GATE 2"
+  },
+  {
+    "id": "other_test_186",
+    "name": "GATE Overflow Test Series | Calculus | Test 1"
+  },
+  {
+    "id": "other_test_187",
+    "name": "GATE Overflow Test Series | Mock GATE 4"
+  },
+  {
+    "id": "other_test_188",
+    "name": "GATE Overflow Test Series | Mock GATE 3"
+  },
+  {
+    "id": "other_test_189",
+    "name": "GATE Overflow Test Series | Mock GATE 5"
+  },
+  {
+    "id": "other_test_190",
+    "name": "GATE Overflow Test Series | Mock GATE 6"
+  },
+  {
+    "id": "other_test_191",
+    "name": "GO Classes Weekly Quiz 1 | Fundamental Course"
+  },
+  {
+    "id": "other_test_192",
+    "name": "GO Classes Weekly Quiz 3 | Fundamental Course and Linear Algebra"
+  },
+  {
+    "id": "other_test_193",
+    "name": "GO Classes Weekly Quiz 2 | Fundamental Course"
+  },
+  {
+    "id": "other_test_194",
+    "name": "GO Classes Weekly Quiz 4 | Propositional Logic"
+  },
+  {
+    "id": "other_test_195",
+    "name": "GO Classes Weekly Quiz 5 | Propositional Logic"
+  },
+  {
+    "id": "other_test_196",
+    "name": "GO Classes Weekly Quiz 6 | Linear Algebra"
+  },
+  {
+    "id": "other_test_197",
+    "name": "Discrete Mathematics | Propositional Logic | Test 1"
+  },
+  {
+    "id": "other_test_198",
+    "name": "Discrete Mathematics | Propositional Logic | Test 2"
+  },
+  {
+    "id": "other_test_199",
+    "name": "Discrete Mathematics | Logic | Test 3"
+  },
+  {
+    "id": "other_test_200",
+    "name": "Discrete Mathematics | Logic | Test 4"
+  },
+  {
+    "id": "other_test_201",
+    "name": "GATE Overflow Test Series | Verbal Aptitude | Shallow Test 1"
+  },
+  {
+    "id": "other_test_202",
+    "name": "GATE Overflow Test Series | Quantitative Aptitude | Shallow Test 1"
+  },
+  {
+    "id": "other_test_203",
+    "name": "UGC NET CSE Exam | July 2016 | Paper 2"
+  },
+  {
+    "id": "other_test_204",
+    "name": "UGC NET CSE Exam | July 2016 | Paper 3"
+  },
+  {
+    "id": "other_test_205",
+    "name": "UGC NET CSE Exam | June 2019 | Paper 1"
+  },
+  {
+    "id": "other_test_206",
+    "name": "UGC NET CSE Exam | June 2019 | Paper 2"
+  },
+  {
+    "id": "other_test_207",
+    "name": "GO Classes GATE CS | Proof Techniques| Weekly Quiz"
+  },
+  {
+    "id": "other_test_208",
+    "name": "GO Classes GATE CS | Propositional Logic | Weekly Quiz 1"
+  },
+  {
+    "id": "other_test_209",
+    "name": "GO Classes GATE CS | Propositional Logic| Weekly Quiz 2"
+  },
+  {
+    "id": "other_test_210",
+    "name": "GO Classes GATE CS | Propositional Logic| Weekly Quiz 3"
+  },
+  {
+    "id": "other_test_211",
+    "name": "GO Classes GATE CS | First Order Logic| Weekly Quiz 1"
+  },
+  {
+    "id": "other_test_212",
+    "name": "GO Classes GATE CS | Propositional Logic| Weekly Quiz 4"
+  },
+  {
+    "id": "other_test_213",
+    "name": "GO Classes GATE CS | First Order Logic | Weekly Quiz 2"
+  },
+  {
+    "id": "other_test_214",
+    "name": "GO Classes GATE CS | Propositional Logic| Weekly Quiz 5"
+  },
+  {
+    "id": "other_test_215",
+    "name": "GO Classes GATE CS | Set Theory | Weekly Quiz 1"
+  },
+  {
+    "id": "other_test_216",
+    "name": "GO Classes GATE CS| Functions| Weekly Quiz 1"
+  },
+  {
+    "id": "other_test_217",
+    "name": "GO Classes GATE CS | Relations | Weekly Quiz 1"
+  },
+  {
+    "id": "other_test_218",
+    "name": "GO Classes GATE CS | Set Theory | Weekly Quiz 2"
+  },
+  {
+    "id": "other_test_219",
+    "name": "GO Classes GATE CS| Relation, Lattice & Poset | Weekly Quiz 2"
+  },
+  {
+    "id": "other_test_220",
+    "name": "GO Classes GATE CS | Combinatorics | Weekly Quiz 4"
+  },
+  {
+    "id": "other_test_221",
+    "name": "GO Classes CS | Digital Logic | Boolean Algebra | Weekly Quiz 1"
+  },
+  {
+    "id": "other_test_222",
+    "name": "GO Classes | Digital Logic | Boolean Algebra, Minimization, Number System | Weekly Quiz 3"
+  },
+  {
+    "id": "other_test_223",
+    "name": "GO Classes CS | Digital Logic | Boolean Algebra | Weekly Quiz 2"
+  },
+  {
+    "id": "other_test_224",
+    "name": "GO Classes CS | Digital Logic | Multiplexer | Weekly Quiz 4"
+  },
+  {
+    "id": "other_test_225",
+    "name": "GO Classes CS | Digital Logic | Combinational Circuits, Number System | Weekly Quiz 5"
+  },
+  {
+    "id": "other_test_226",
+    "name": "GO Classes CS | C-Programming | Weekly Quiz 2"
+  },
+  {
+    "id": "other_test_227",
+    "name": "GO Classes CS | C-Programming | Weekly Quiz 1"
+  },
+  {
+    "id": "other_test_228",
+    "name": "GO Classes CS | Digital Logic | Combinational Circuits | Weekly Quiz 6"
+  },
+  {
+    "id": "other_test_229",
+    "name": "GO Classes CS | C-Programming | Weekly Quiz 4"
+  },
+  {
+    "id": "other_test_230",
+    "name": "GO Classes CS | C-Programming | Weekly Quiz 3"
+  }
+]

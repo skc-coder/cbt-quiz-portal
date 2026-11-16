@@ -1,0 +1,70 @@
+{
+  "name": "Day 6 [Linear Algebra]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "471371",
+          "text": "<p>What is the inverse of the matrix $A$ given by:</p><p>$$<br>A=\\left[\\begin{array}{lll}<br>1 & 0 & 0 \\\\<br>2 & 1 & 0 \\\\<br>0 & 0 & 1<br>\\end{array}\\right]<br>$$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A^{-1}=\\left[\\begin{array}{ccc}1 & -2 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$<br>&nbsp;</li><li>$A^{-1}=\\left[\\begin{array}{ccc}1 & 0 & 0 \\\\ -2 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$<br>&nbsp;</li><li>$A^{-1}=\\left[\\begin{array}{ccc}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & -2 & 1\\end{array}\\right]$<br>&nbsp;</li><li>$A^{-1}=\\left[\\begin{array}{ccc}1 & 0 & 0 \\\\ 2 & -1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 6"
+        },
+        {
+          "post_id": "471375",
+          "text": "<p>True or false: If the columns of a matrix $A$ are linearly independent, then the rows of $A$ must also be linearly independent.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>True</li><li>&nbsp;False</li></ol><div>NOTE:-&nbsp;<b id=\"docs-internal-guid-5fc6ab84-7fff-5f08-c54d-35ab0bd0648e\">give answer as 0 if statement is false else give answer as 1</b></div>",
+          "type": "Numerical",
+          "answer": "1",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 6"
+        },
+        {
+          "post_id": "471369",
+          "text": "<p>Suppose $A$ is a $3 \\times 3$ matrix with eigenvalues 0,2 and 7 . Then</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A$ must be invertible</li><li>A must be non-invertible</li><li>Not enough information to tell</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 6"
+        },
+        {
+          "post_id": "471373",
+          "text": "<p>If $A$ is a square matrix, then for every eigenvalue of $A$,</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The geometric multiplicity is equal to the algebraic multiplicity.</li><li>The geometric multiplicity is less than or equal to the algebraic multiplicity.</li><li>The geometric multiplicity is greater than or equal to the algebraic multiplicity.</li><li>The geometric multiplicity is strictly less than the algebraic multiplicity.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 6"
+        },
+        {
+          "post_id": "471367",
+          "text": "<p>Let $A$ be a $3 \\times 3$ matrix so that $A\\left[\\begin{array}{c}1 \\\\ 1 \\\\ -1\\end{array}\\right]=\\left[\\begin{array}{l}0 \\\\ 0 \\\\ 0\\end{array}\\right]$. Then $A$ can have non-zero determinant.<br>$A$. True<br>$B$. False</p><p>NOTE:-&nbsp;<b id=\"docs-internal-guid-4138212c-7fff-a93b-4065-92e08dff4218\">&nbsp;0 if statement is false else give answer as 1</b></p>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Linear Algebra",
+          "day": "Day 6"
+        }
+      ]
+    }
+  ]
+}

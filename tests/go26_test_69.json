@@ -1,0 +1,352 @@
+{
+  "name": "GO Classes CS Test Series 2026 | Compiler Design | Subject Wise Test 2",
+  "duration": "75",
+  "total_qs": "30",
+  "total_qs_one": 15,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 30,
+  "apti_marks": 0,
+  "technical_marks": 45,
+  "total_marks": 45,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 30,
+      "marks": 45,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "503363",
+          "text": "<p>Observe the following grammar:<br>$$<br>\\begin{aligned}<br>&amp; \\text { DECL } \\rightarrow \\text { IF | a } \\\\<br>&amp; \\text { IF } \\rightarrow \\text { if ( EXP )&nbsp; DECL&nbsp; ELSE } \\\\<br>&amp; \\text { ELSE } \\rightarrow \\text { else DECL | } \\varepsilon \\\\<br>&amp; \\text { EXP } \\rightarrow 1 \\text { | } 0<br>\\end{aligned}<br>$$<br><br>Where $\\$$ is the symbol representing the end of the file, it is <em><strong>CORRECT</strong></em> to state that<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\operatorname{FIRST}(\\mathrm{DECL})=\\{\\mathrm{if}, \\mathrm{a}\\}$ and $\\operatorname{FOLLOW}(\\mathrm{DECL}=\\{\\$\\}$<br> </li><li>$\\operatorname{FOLLOW}(\\mathrm{DECL})=\\mathrm{FOLLOW}(\\mathrm{IF})=\\operatorname{FOLLOW}(\\mathrm{ELSE})=\\{\\$$, else $\\}$<br> </li><li>$\\operatorname{FIRST}(\\mathrm{DECL})=\\operatorname{FIRST}(\\mathrm{IF})=\\{\\mathrm{if}\\}$<br> </li><li>$\\operatorname{FIRST}(\\mathrm{ELSE})=\\{\\mathrm{else}\\}$ and $\\operatorname{FOLLOW}(\\mathrm{ELSE}) =$ \\{\\$\\}</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503383",
+          "text": "<p>Let there be two grammars $\\mathrm{G}_{1} \\&amp; \\mathrm{G}_{2} . \\mathrm{G}_{1}$ is left factored and free from left recursion, $\\mathrm{G}_{2}$ is not left factored and also not free from left recursion. Choose the correct option about the two grammars.<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{G}_{1}$ is an ambiguous grammar but $\\mathrm{G}_{2}$ is unambiguous.<br> </li><li>$\\mathrm{G}_{1}$ is an unambiguous grammar but $\\mathrm{G}_{2}$ is ambiguous.<br> </li><li>$\\mathrm{G}_{1}$ is an ambiguous grammar but $\\mathrm{G}_{2}$ may or may not be ambiguous.<br> </li><li>$\\mathrm{G}_{1}$ and $\\mathrm{G}_{2}$ may or may not be ambiguous grammars.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503381",
+          "text": "<p>Match the elements of list-II with the appropriate category of error given in list- I.<br>$$<br>\\begin{array}{|l|l|l|l|}<br>\\hline<br>&amp; \\textbf{LIST-I} &amp; &amp; \\textbf{LIST-II} \\\\<br>\\hline<br>(P) &amp; \\text{Lexical} &amp; (1) &amp; \\text{An arithmetic expression with unbalanced parenthesis} \\\\<br>\\hline<br>(Q) &amp; \\text{Syntactic} &amp; (2) &amp; \\text{An infinitely recursive call} \\\\<br>\\hline<br>(R) &amp; \\text{Semantic} &amp; (3) &amp; \\text{An operator applied to an incompatible operand} \\\\<br>\\hline<br>(S) &amp; \\text{Logical} &amp; (4) &amp; \\text{Input is not matching with any of the patterns defined} \\\\<br>\\hline<br>\\end{array}<br>$$<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{p}-4, \\mathrm{q}-3, \\mathrm{R}-1, \\mathrm{~s}-2$<br> </li><li>$\\mathrm{p}-2, \\mathrm{q}-1, \\mathrm{R}-3, \\mathrm{~s}-4$<br> </li><li>$\\mathrm{p}-4, \\mathrm{q}-1, \\mathrm{R}-3, \\mathrm{~s}-2$<br> </li><li>$\\mathrm{p}-2, \\mathrm{q}-3, \\mathrm{R}-1, \\mathrm{~s}-4$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503358",
+          "text": "<p>Consider the following $3$ Address Intermediate Code.</p><ol><li>$P:=0$<br> </li><li>$I:=1$<br> </li><li>$P:=P+I$<br> </li><li>$IF ~P&lt;=60$ $\\text{GOTO}$ $(7)$<br> </li><li>$P:=0$<br> </li><li>$I:=5$<br> </li><li>$T 1:=I * 2$<br> </li><li>$I:=T 1+1$<br> </li><li>$IF ~I&lt;=20$ $\\text{GOTO}$ $(3)$<br> </li><li>$K:=P * 3$</li></ol><p><br>Let $x$ be the number of Nodes in the Control Flow Graph (Excluding the two special nodes ENTER and EXIT) for the above IR and let $y$ be the number of edges in the CFG then $x+y$ is $\\_\\_\\_\\_$ ?</p>",
+          "type": "Numerical",
+          "answer": "11",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-cd-sw-2,numerical-answers,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503395",
+          "text": "<p>Given the following grammar, where $\\varepsilon$ represents the empty string and $\\$$ represents an end-of-input marker:<br>$$<br>\\begin{aligned}<br>&amp; \\mathrm{S} \\rightarrow \\mathrm{ABCD} \\\\<br>&amp; \\mathrm{A} \\rightarrow \\mathrm{a} \\mid \\varepsilon \\\\<br>&amp; \\mathrm{B} \\rightarrow \\mathrm{a} \\mid \\varepsilon \\\\<br>&amp; \\mathrm{C} \\rightarrow \\mathrm{c} \\mid \\varepsilon \\\\<br>&amp; \\mathrm{D} \\rightarrow \\mathrm{S} \\mid \\mathrm{c} \\mid \\varepsilon<br>\\end{aligned}<br>$$<br>It is incorrect to state that:<br> </p><ol style=\"list-style-type:upper-alpha\"><li>The set $\\operatorname{FIRST}(\\mathrm{A})=\\{\\mathrm{a}, \\varepsilon\\}$<br> </li><li>The set $\\operatorname{FIRST}(\\mathrm{D})$ is equal to the set $\\operatorname{FIRST}(\\mathrm{S})$<br> </li><li>The set $\\operatorname{FOLLOW}(\\mathrm{A}) = \\{ \\mathrm{a, c, \\$} \\}$<br> </li><li>The set $\\operatorname{FOLLOW}(\\mathrm{B}) = \\{\\mathrm{c}, \\$\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503393",
+          "text": "<p>Lexical analysis is usually implemented based on:</p><ol style=\"list-style-type:upper-alpha\"><li>Regular grammar<br> </li><li>Context-free grammar<br> </li><li>Context-sensitive grammar<br> </li><li>Unrestricted grammar</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503403",
+          "text": "<p>Inherited attributes are attributes at a node whose dependency is</p><ol style=\"list-style-type:upper-alpha\"><li>Restricted to siblings<br> </li><li>restricted to parent<br> </li><li>both A&nbsp;&amp; B<br> </li><li>neither A&nbsp;nor B</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503399",
+          "text": "<p><strong>A compiler detects:</strong></p><ol style=\"list-style-type:upper-alpha\"><li>errors that may occur during program execution<br> </li><li>errors in the results generated by the program<br> </li><li>syntax errors in the program<br> </li><li>arithmetic errors</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503392",
+          "text": "<p>In a programming language source text, the compiler identifies the grammatical function of words and checks the grammatical structure of commands and their meanings. The architectural components of a compiler that perform these activities are, respectively,<br> </p><ol style=\"list-style-type:upper-alpha\"><li>lexical analyzer, semantic analyzer, intermediate code optimizer.<br> </li><li>lexical analyzer, syntactic analyzer, semantic analyzer.<br> </li><li>syntactic analyzer, code generator, semantic analyzer.<br> </li><li>semantic analyzer, intermediate code generator, intermediate code optimizer.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503360",
+          "text": "<p>For the grammar below, what is the set of terminals that can appear as the first terminal after the nonterminal $\\mathrm{A}$, in some sentential form generated by the grammar below, where $\\varepsilon$ represents the empty string?<br><br>$\\mathrm{S} \\rightarrow \\mathrm{ABCDd}$<br><br>$\\mathrm{A} \\rightarrow \\mathrm{aA} \\mid \\varepsilon$<br><br>$\\mathrm{B} \\rightarrow \\mathrm{bC} \\mid \\varepsilon$<br><br>$\\mathrm{C} \\rightarrow \\mathrm{cD} \\mid \\varepsilon$<br><br>$\\mathrm{D} \\rightarrow \\mathrm{e}$<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\{\\mathrm{d}\\}$<br> </li><li>$\\{\\mathrm{b}\\}$<br> </li><li>$\\{\\mathrm{b, c, e}\\}$<br> </li><li>$\\{\\mathrm{b, c, d, e}\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503401",
+          "text": "Consider the following intermediate program segment in three address code:\n$$\n\\begin{aligned}\n& \\mathrm{u}=\\mathrm{v} ~* ~\\mathrm{w} \\\\\n& \\mathrm{w}=\\mathrm{u}~+~\\mathrm{w} \\\\\n& \\mathrm{x}=\\mathrm{u}~/~ \\mathrm{w} \\\\\n& \\mathrm{v}=\\mathrm{u}~-~\\mathrm{x}\n\\end{aligned}\n$$\nThe minimum number of total variables required to convert the above code segment to static single assignment form is ?",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-cd-sw-2,numerical-answers,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503377",
+          "text": "<p><strong>Which of the following statements regarding syntactic analysis is INCORRECT?</strong></p><ol style=\"list-style-type:upper-alpha\"><li>LL grammars can describe more languages than LR grammars.<br> </li><li>Recursive-descent parsers are simpler to implement than bottom-up (reduction-based) parsers.<br> </li><li>One of the differences among the various bottom-up parsing algorithms is the way the handle is identified on the stack.<br> </li><li>In any right-sentential form, the leftmost substring that matches the body of some production is a handle.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks,multiple-selects",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503379",
+          "text": "<p>Consider the syntax directed translation scheme given below:<br>$$<br>\\begin{array}{ll}<br>\\mathrm{S} \\rightarrow \\mathrm{~L} &amp; \\mathrm{S.val = L.val}\\\\<br>\\mathrm{~L} \\rightarrow \\mathrm{~L_1} \\mathrm{~B} &amp; \\mathrm{L.val = L_1.val *2} + \\mathrm{B.val}\\\\<br>\\mathrm{~L} \\rightarrow \\mathrm{~B} &amp; \\mathrm{L.val = B.val}\\\\<br>\\mathrm{~B} \\rightarrow 0 &amp; \\mathrm{B.val = 0}\\\\<br>\\mathrm{~B} \\rightarrow 1 &amp; &nbsp;\\mathrm{B.val = 1}<br>\\end{array}<br>$$<br>If the input string is $1101$ , then the value of attribute of starting symbol is</p><ol style=\"list-style-type:upper-alpha\"><li>$5$<br> </li><li>$13$<br> </li><li>$110$<br> </li><li>$20$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503389",
+          "text": "<p>Analyse the following statements about the analysis phase (Front-End) of a compiler.</p><ol style=\"list-style-type:upper-roman\"><li>The use of a floating-point variable to index an array causes an error that is generally detected during semantic analysis.<br> </li><li>Unbalanced parentheses are an error that is generally detected by lexical analysis, since this phase reads the source file and translates it into a sequence of lexical symbols, or tokens.<br> </li><li>For TOP-DOWN syntactic analysis using the shift-and-reduce method, it is necessary to rewrite the grammar by eliminating all left recursion.</li></ol><p><br>The analysis allows us to conclude that:</p><ol style=\"list-style-type:upper-alpha\"><li>all statements are incorrect.<br> </li><li>only statement II is incorrect.<br> </li><li>only statements I and II are incorrect.<br> </li><li>only statements II and III are incorrect.</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503366",
+          "text": "<p>The following syntax-directed translation scheme translates a language with terminals $\\mathrm{a}, \\mathrm{b}, \\mathrm{c}$, and $\\mathrm{d}$ into a language whose terminals are $1,2,3,4,5,6$. Using a bottom-up parser that executes the actions in parentheses immediately after reducing the corresponding rule, what is the result of translating \"$\\mathrm{aaadbc}$\"?<br><br>$$<br>\\begin{array}{ll}<br>\\mathrm{S} \\rightarrow \\mathrm{AS} &amp; \\{\\text{print \"1\"}\\} \\\\<br>\\mathrm{S} \\rightarrow \\mathrm{B} &amp; \\{\\text{print \"2\"}\\} \\\\<br>\\mathrm{A} \\rightarrow \\mathrm{a} &amp; \\{\\text{print \"3\"}\\} \\\\<br>\\mathrm{B} \\rightarrow \\mathrm{bC} &amp; \\{\\text{print \"4\"}\\} \\\\<br>\\mathrm{B} \\rightarrow \\mathrm{dB} &amp; \\{\\text{print \"5\"}\\} \\\\<br>\\mathrm{C} \\rightarrow \\mathrm{c} &amp; \\{\\text{print \"6\"}\\}<br>\\end{array}<br>$$</p><ol style=\"list-style-type:upper-alpha\"><li>$1313132546$<br> </li><li>$1113332546$<br> </li><li>$3336452111$<br> </li><li>$6452111333$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503391",
+          "text": "<p>What is the class of deterministic, bottom-up syntactic parsing method that processes the sequence of symbols from left to right?<br> </p><ol style=\"list-style-type:upper-alpha\"><li>LL<br> </li><li>LR<br> </li><li>Recursive Descent Parser<br> </li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503394",
+          "text": "<p>Analyze the following statements about recursive descent parsers.</p><ol style=\"list-style-type:upper-roman\"><li>They are easy <em>parsers</em> to implement for carefully designed languages, but they usually require transformations in grammars originally presented in $\\text{BNF}$.<br> </li><li>One of the main problems with this type of <em>parser</em> is the need for backtracking in alternatives, which can be solved by using a recursive predictive <em>parser</em>.<br> </li><li>To avoid the problems of the recursive descent <em>parser</em>, we can perform $\\text{TOP-DOWN}$ analysis using a non-recursive predictive<em> parser</em>, or tabular predictive <em>parser</em>. The tabular predictive <em>parser</em> uses a table based on the $\\text{FIRST}$ and $\\text{FOLLOW}$ sets to decide which production to apply the input.</li></ol><p><br>The analysis allows us to conclude that</p><ol style=\"list-style-type:upper-alpha\"><li>only statement II is correct.<br> </li><li>only statement III is correct.<br> </li><li>only statements I and II are correct.<br> </li><li>All three statements are correct.</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503375",
+          "text": "What is the value of the attribute E.val after parsing the expression \" $4 / 2 / 2$ \" using the following translation scheme?\n$$\n\\begin{aligned}\n& \\mathrm{E} \\rightarrow \\mathrm{~T} / \\mathrm{E}_{1}\\{\\text { E.val }=\\mathrm{T} . \\mathrm{val} / \\mathrm{E} 1 . \\mathrm{val}\\} \\\\\\\\\n& \\mathrm{E} \\rightarrow \\mathrm{~T}\\{\\text { E.val }=\\mathrm{T} . \\mathrm{val}\\} \\\\\\\\\n& \\mathrm{T} \\rightarrow \\text { digit }\\{\\mathrm{T} . \\mathrm{val}=\\text { val}(\\text {digit})\\}\n\\end{aligned}\n$$",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-cd-sw-2,numerical-answers,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503370",
+          "text": "<p>Consider the following grammar.<br>$$<br>\\begin{aligned}<br>&amp; \\mathrm{E} \\rightarrow \\text{num} \\\\<br>&amp; \\mathrm{E} \\rightarrow \\mathrm{E}+\\mathrm{E} \\\\<br>&amp; \\mathrm{E} \\rightarrow \\mathrm{E}-\\mathrm{E}<br>\\end{aligned}<br>$$<br>Based on this grammar, assign T (true) or F (false) to the following statements.</p><ol style=\"list-style-type:upper-roman\"><li>It is ambiguous.<br> </li><li>It is $\\operatorname{LL}(1)$.<br> </li><li>It is $\\operatorname{LR}(1)$.<br> </li><li>It is $\\operatorname{SLR}$.<br> </li><li>It has left recursion.<br> </li></ol><p>Select the option that contains, from top to bottom, the correct sequence.</p><ol style=\"list-style-type:upper-alpha\"><li>T, T, F, F, T<br> </li><li>T, F, T, T, F<br> </li><li>T, F, F, F, T<br> </li><li>F, T, T, F, F</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503362",
+          "text": "<meta><p>Consider the following grammar. (Assume <span>\\(\\$\\)</span> is the end marker.)</p><p>\\[ \\begin{aligned} A &amp;\\rightarrow a \\\\ A &amp;\\rightarrow C\\,B\\,A \\\\ B &amp;\\rightarrow \\varepsilon \\mid b \\\\ C &amp;\\rightarrow B \\mid c \\end{aligned} \\]</p><p>Regarding this grammar, select the correct alternative.</p><ol type=\"A\"><li>The <span>\\(\\mathrm{FIRST}\\)</span> set of <span>\\(B\\)</span> is <span>\\(\\{b, c\\}\\)</span>.</li><li>The <span>\\(\\mathrm{FIRST}\\)</span> set of <span>\\(C\\)</span> is <span>\\(\\{a, b\\}\\)</span>.</li><li>The <span>\\(\\mathrm{FOLLOW}\\)</span> set of <span>\\(A\\)</span> is <span>\\(\\{\\$\\}\\)</span>.</li><li>The <span>\\(\\mathrm{FOLLOW}\\)</span> set of <span>\\(C\\)</span> is empty.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503387",
+          "text": "<p>Consider the following code snippet.<br><br>$\\mathrm{a} := 0$<br><br>$\\mathrm{b} := \\mathrm{a} + 1$<br><br>$\\mathrm{c} := \\mathrm{c} + \\mathrm{b}$<br><br>$\\mathrm{a}:= \\mathrm{b} * 2$<br><br><br>Select the alternative that correctly shows the variables that will be alive at the beginning of this code snippet.<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{b}$<br> </li><li>$\\mathrm{b, c}$<br> </li><li>$\\mathrm{c}$<br> </li><li>$\\mathrm{a, b, c}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503388",
+          "text": "<p>Regarding basic blocks, consider the following statements.</p><ol style=\"list-style-type:upper-roman\"><li>The first statement can be the target of a conditional branch statement.<br> </li><li>The execution flow can start between two statements in a block.<br> </li><li>The execution flow can be interrupted in the middle of the block.<br> </li><li>They are used in the construction of the control flow graph.</li></ol><p><br>Select the correct alternative.</p><ol style=\"list-style-type:upper-alpha\"><li>Only statements I and II are correct.<br> </li><li>Only statements I and IV are correct.<br> </li><li>Only statements III and IV are correct.<br> </li><li>Only statements I, II, and III are correct.</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503364",
+          "text": "<p>In the process of generating executable code (in machine language) from a source program written in a high-level language (for example, C), the original program undergoes transformations and analyses that are carried out in several phases. In a simplified way, these can be divided into the following eight ($8$) phases, listed below in alphabetical order:</p><ol style=\"list-style-type:upper-alpha\"><li>Register Allocation<br> </li><li>Lexical Analysis<br> </li><li>Syntactic Analysis<br> </li><li>Assembly Code Generation<br> </li><li>Link Editing (Linking)<br> </li><li>Assembly<br> </li><li>Machine Independent Code Optimization<br> </li><li>Type and Symbol Checking<br> </li></ol><p>During the process of generating executable code from the source code, in what order can these phases be executed?</p><ol style=\"list-style-type:upper-alpha\"><li>B C H G A D F E<br> </li><li>C B H G A D F E<br> </li><li>B C H G A D E F<br> </li><li>B H C G A D F E</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503372",
+          "text": "<p>Consider a production belonging to a grammar G given by :<br>$$\\mathrm{L} \\rightarrow \\mathrm{LaS} \\mid \\mathrm{S}$$<br>Select the option below that, by replacing this production, eliminates left recursion, creating an equivalent grammar :<br> </p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{L} \\rightarrow \\mathrm{R} \\mathrm{S}$<br>$\\mathrm{R} \\rightarrow \\mathrm{aSR} \\mid \\varepsilon$<br> </li><li>$\\mathrm{L} \\rightarrow \\mathrm{S} \\mathrm{R}$<br>$\\mathrm{R} \\rightarrow \\mathrm{aSR} \\mid \\varepsilon$<br> </li><li>$\\mathrm{L} \\rightarrow \\mathrm{S} \\mathrm{R}$<br>$\\mathrm{R} \\rightarrow \\mathrm{SaR} \\mid \\varepsilon$<br> </li><li>$\\mathrm{L} \\rightarrow \\mathrm{SaR}$<br>$\\mathrm{R} \\rightarrow \\mathrm{SaR} \\mid \\varepsilon$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503368",
+          "text": "<p>An intermediate representation of the source program can be generated by transforming the derivation tree into a segment of code. With respect to the intermediate code generation phase of a compiler, which of the following alternatives is INCORRECT?<br>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>With a properly defined intermediate representation, a compiler for any language $i$ and any machine $j$ can then be built by combining the front end for language $i$ with the back end for machine $j$.</li><li>Syntax trees and three-address code are some of the possible forms of intermediate representation.</li><li>High level languages, such as C , can be used as a form of intermediate representation.</li><li>In intermediate code generation, tasks such as instruction selection, register allocation and assignment, and instruction scheduling are performed, which depend on knowledge of the target machine for which the object code will be generated.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503371",
+          "text": "<p>Consider the following grammar for expressions.<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow E \\$ \\\\<br>&amp; E \\rightarrow E+T \\\\<br>&amp; E \\rightarrow T \\\\<br>&amp; T \\rightarrow T * F \\\\<br>&amp; T \\rightarrow F \\\\<br>&amp; F \\rightarrow id \\\\<br>&amp; F \\rightarrow(E)<br>\\end{aligned}<br>$$<br><br>With respect to this grammar, consider the statements below.</p><ol style=\"list-style-type:upper-roman\"><li>The grammar is $\\mathrm{LL}(1)$.<br> </li><li>The operator $+$ has higher precedence than the operator $*$.<br> </li><li>It is not possible to construct a recursive-descent parser for the grammar.<br> </li><li>The terminals $+, ~*, ~), ~$ and $\\$$ belong to the $\\text{FOLLOW}$ set of $F$.</li></ol><p><br>Select the correct option.</p><ol style=\"list-style-type:upper-alpha\"><li>Only statements I and II are correct.<br> </li><li>Only statements I and IV are correct.<br> </li><li>Only statements III and IV are correct.<br> </li><li>Only statements I, II, and III are correct.</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503397",
+          "text": "<p>Consider the following statements about the grammars used for syntactic analysis:</p><ol style=\"list-style-type:upper-roman\"><li>The $\\mathrm{LL}(1)$ class does not accept grammars with productions that have direct left recursion $($e.g., $\\mathrm{L \\rightarrow L a&nbsp;})$, but it accepts grammars with indirect left recursion $($e.g., $\\mathrm{L \\rightarrow R a, R \\rightarrow L b )}$.<br> </li><li>The $\\mathrm{LR}(1)$ grammar class recognizes the same class of grammars as $\\mathrm{LALR}(1)$.<br> </li><li>The $\\operatorname{SLR}(1)$ grammar class recognizes a larger class of grammars than $\\mathrm{LR}(0)$.</li></ol><p><br>Select the correct statement:</p><ol style=\"list-style-type:upper-alpha\"><li>Statements I, II and III are true<br> </li><li>Only statements I and III are true<br> </li><li>Only statement III is true<br> </li><li>Only statements II and III are true</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503367",
+          "text": "<p>The main task of a lexical analyzer is to read the characters from the source program input, group them into lexemes, and generate a sequence of tokens that will be sent to the syntactic analyzer. Regarding the lexical analyzer, analyze the statements below:<br> </p><ol style=\"list-style-type:upper-roman\"><li>In addition to identifying lexemes, other tasks can be performed by this analyzer, such as removing comments and whitespaces and associating error messages with lines in the source program.<br> </li><li>A token is a pair consisting of a token name (or token type), which identifies the category of the lexeme (such as identifier, keyword, or number), and an attribute value, which provides additional information about the lexeme (for example, a pointer to the symbol table entry).<br> </li><li>Regular expressions are notations used to specify lexeme patterns.<br> </li><li>In lexical analysis, an intermediate tree-like representation is created. This represents the grammatical structure of the token sequence.</li></ol><p><br>Which ones are correct?</p><ol style=\"list-style-type:upper-alpha\"><li>Only III.<br> </li><li>Only I, III.<br> </li><li>Only IV.<br> </li><li>Only I, II, III.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503385",
+          "text": "<p>Consider the following basic block :<br>\\[<br>\\begin{aligned}<br>&amp;\\text{// live \\{?\\}} \\\\<br>&amp;\\text{a = b + 1} \\\\<br>&amp;\\text{c = c - a} \\\\<br>&amp;\\text{b = d + b} \\\\<br>&amp;\\text{e = e - c} \\\\<br>&amp;\\text{f = f + e} \\\\\\\\<br>&amp;\\text{// live \\{e\\}}<br>\\end{aligned}<br>\\]<br><br>At the bottom of the basic block, variable e is live. What will be the variables that will be live at the beginning of the basic block i.e. what belongs to $\\text{live \\{?\\}}$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{a}$<br> </li><li>$\\text{b}$<br> </li><li>$\\text{c}$<br> </li><li>$\\text{d}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,one-mark,multiple-selects",
+          "category": "Compiler Design"
+        },
+        {
+          "contents": "",
+          "post_id": "503373",
+          "text": "<p>With respect to the grammar G below,<br>$$<br>\\begin{aligned}<br>&amp; \\mathrm{S} \\rightarrow \\mathrm{a} ~\\mathrm{A} ~\\mathrm{a} \\\\<br>&amp; \\mathrm{S} \\rightarrow \\mathrm{b} ~\\mathrm{A} ~\\mathrm{b} \\\\<br>&amp; \\mathrm{A} \\rightarrow \\mathrm{b} \\\\<br>&amp; \\mathrm{A} \\rightarrow \\text { epsilon }<br>\\end{aligned}<br>$$<br>Consider the following statements :</p><ol style=\"list-style-type:upper-roman\"><li>G is $\\operatorname{SLR}(1)$.<br> </li><li>G is $\\mathrm{LL}(1)$.<br> </li><li>It is sensitive to context.</li></ol><p><br>It is correct to say that :</p><ol style=\"list-style-type:upper-alpha\"><li>Only I is true.<br> </li><li>Only II is true.<br> </li><li>Only III is true.<br> </li><li>Only I and III are true.</li></ol><p> </p>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026-cs-cd-sw-2,goclasses,compiler-design,two-marks",
+          "category": "Compiler Design"
+        }
+      ]
+    }
+  ]
+}

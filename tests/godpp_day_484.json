@@ -1,0 +1,70 @@
+{
+  "name": "Day 333 [Operating System]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "541987",
+          "text": "<p data-start=\"1993\" data-end=\"2057\">Consider the following alternative entry code for process $P_i$:</p><p data-start=\"2059\" data-end=\"2074\">$\\texttt{wants[i] = 1}$;</p><p data-start=\"2076\" data-end=\"2097\">$\\texttt{while(wants[1 - i]);}$</p><p data-start=\"2099\" data-end=\"2137\">The shared array $\\texttt{wants}$ is initially:</p><p data-start=\"2139\" data-end=\"2160\">$\\texttt{wants[0] = wants[1] = 0}$</p><p data-start=\"2162\" data-end=\"2241\"><br>What can happen if both processes request entry at approximately the same time?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2243\" data-end=\"2304\">Both processes enter the critical section simultaneously.<br>&nbsp;</li><li data-start=\"2306\" data-end=\"2358\">Both processes spin forever, violating progress.<br>&nbsp;</li><li data-start=\"2360\" data-end=\"2428\">The process with the smaller process number always enters first.<br>&nbsp;</li><li data-start=\"2430\" data-end=\"2494\">Both processes enter one after another with bounded waiting.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 333"
+        },
+        {
+          "post_id": "541983",
+          "text": "<p data-start=\"4545\" data-end=\"4620\">Consider the following variation of Peterson’s algorithm for process $P_i$:</p><p data-start=\"4622\" data-end=\"4639\">$\\texttt{flag[i] = TRUE;}$</p><p data-start=\"4641\" data-end=\"4652\">$\\texttt{turn = i;}$</p><p data-start=\"4654\" data-end=\"4685\">$\\texttt{while(flag[j] \\&\\& turn == j);}$</p><p data-start=\"4687\" data-end=\"4705\">$\\texttt{Critical Section}$</p><p data-start=\"4707\" data-end=\"4725\">$\\texttt{flag[i] = FALSE;}$</p><p data-start=\"4727\" data-end=\"4778\">Which critical-section requirement can be violated?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"4780\" data-end=\"4800\">Mutual exclusion<br>&nbsp;</li><li data-start=\"4802\" data-end=\"4819\">Progress only<br>&nbsp;</li><li data-start=\"4821\" data-end=\"4845\">Bounded waiting only<br>&nbsp;</li><li data-start=\"4847\" data-end=\"4875\">None of the requirements</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 333"
+        },
+        {
+          "post_id": "541979",
+          "text": "<p data-start=\"5849\" data-end=\"5895\">Which of the following statements are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5897\" data-end=\"5910\">Both strict alternation and Peterson’s solution use busy waiting.<br>&nbsp;</li><li data-start=\"5983\" data-end=\"6068\">Both strict alternation and Peterson’s solution satisfy the progress requirement.<br>&nbsp;</li><li data-start=\"6070\" data-end=\"6178\">Peterson’s solution uses intent flags to indicate whether a process wants to enter its critical section.<br>&nbsp;</li><li data-start=\"6180\" data-end=\"6310\">Under strict alternation, a process can be forced to wait even when the other process is executing only its remainder section.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 333"
+        },
+        {
+          "post_id": "541976",
+          "text": "<p data-start=\"615\" data-end=\"687\">Which of the following statements about Peterson’s solution are correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"689\" data-end=\"702\">Peterson’s solution uses atomic load and store operations.<br>&nbsp;</li><li data-start=\"768\" data-end=\"855\">Peterson’s solution directly supports any number of processes without modification.<br>&nbsp;</li><li data-start=\"857\" data-end=\"899\">Peterson’s solution uses busy waiting.<br>&nbsp;</li><li data-start=\"901\" data-end=\"1016\">For two processes, it satisfies mutual exclusion, progress, and bounded waiting under the assumed memory model.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 333"
+        },
+        {
+          "post_id": "541985",
+          "text": "<p data-start=\"3317\" data-end=\"3413\">Two threads execute Peterson’s entry code. The following statements execute in this exact order:</p><p data-start=\"3415\" data-end=\"3438\">$T_0:$ $\\texttt{flag[0] = true}$</p><p data-start=\"3440\" data-end=\"3457\">$T_0:$ $\\texttt{turn = 1}$</p><p data-start=\"3459\" data-end=\"3482\">$T_1:$ $\\texttt{flag[1] = true}$</p><p data-start=\"3484\" data-end=\"3501\">$T_1:$ $\\texttt{turn = 0}$</p><p data-start=\"3503\" data-end=\"3554\">Both threads now evaluate their $\\texttt{while}$ conditions:</p><p data-start=\"3556\" data-end=\"3566\">For $T_0$:</p><p data-start=\"3568\" data-end=\"3599\">$\\texttt{while(flag[1] \\&\\& turn == 1);}$</p><p data-start=\"3601\" data-end=\"3611\">For $T_1$:</p><p data-start=\"3613\" data-end=\"3644\">$\\texttt{while(flag[0] \\&\\& turn == 0);}$</p><p data-start=\"3646\" data-end=\"3693\"><br>Which thread enters the critical section first?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3695\" data-end=\"3709\">Only $T_0$<br>&nbsp;</li><li data-start=\"3711\" data-end=\"3725\">Only $T_1$<br>&nbsp;</li><li data-start=\"3727\" data-end=\"3751\">Both $T_0$ and $T_1$<br>&nbsp;</li><li data-start=\"3753\" data-end=\"3771\">Neither thread</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Operating System",
+          "day": "Day 333"
+        }
+      ]
+    }
+  ]
+}

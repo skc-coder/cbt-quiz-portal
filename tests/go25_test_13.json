@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes CS Test Series 2025 | Discrete Mathematics | Topic Wise Test 3",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "374599",
+          "text": "<p>Let $\\mathbf{Z}$ be the group of all integers under the operation of addition. Which of the following subsets of $\\mathbf{Z}$ is/are NOT a subgroup of $\\mathbf{Z}?$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\{0\\}$</li><li>$\\{n \\in \\mathbf{Z} : n &gt; 0\\}$</li><li>$\\{n \\in \\mathbf{Z} : n\\;\\text{is an even integer}\\}$</li><li>$\\{n \\in \\mathbf{Z} : n \\;\\text{is divisible by both 6 and 9}\\}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,multiple-selects,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374579",
+          "text": "A binary operation “$\\ast$” on a set $\\text{A}$ is a function from $\\text{A} \\times \\text{A}$ to $\\text{A},$ which maps pair $(a, b)$ to $a \\ast b.$\n\nBinary operation “$\\ast$” on a set $\\text{A}$ is commutative if $a \\ast b = b \\ast a, \\forall a, b \\in \\text{A}.$\n\nThe total number of different commutative binary operations on a set of four elements is?",
+          "type": "Numerical",
+          "answer": "1048576",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,numerical-answers,goclasses,set-theory&algebra,group-theory,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "403581",
+          "text": "<p>The multiplication table $\\left({ }^*\\right)$ for a group $\\mathrm{G}=\\{\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d})$ is given below.<br>$$<br>\\begin{array}{|c|c|c|c|c|}<br>\\hline \\ast &amp; a &amp; b &amp; c &amp; d \\\\<br>\\hline a &amp; a &amp; b &amp; c &amp; d \\\\<br>\\hline b &amp; b &amp; a &amp; &amp; \\\\<br>\\hline c &amp; c &amp; &amp; a &amp; \\\\<br>\\hline d &amp; &amp; &amp; &amp; a \\\\<br>\\hline<br>\\end{array}$$<br>Fill in the rest of the table.</p><p>Which of the following is/are false?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>$d \\ast b=d$</li><li>$b \\ast c=d$</li><li>$\\left(c\\ast d\\right) \\ast c=d$</li><li>$G$ is a cyclic group.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;D",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374566",
+          "text": "<p>Let $\\text{S}$ be the set of all functions $f : \\text{R} \\rightarrow \\text{R}.$ Consider the two binary operations $+$ and $\\ast$ on $\\text{S}$ defined as pointwise addition and composition of functions, as follows.</p><ul><li>$(f + g)(x) = f (x) + g(x)$</li><li>$(f \\ast g)(x) = f (g(x))$</li></ul><p>Which of the following statements are true?</p><ol style=\"list-style-type:upper-roman\"><li>$\\ast$ is commutative.</li><li>$+$ and $\\ast$ satisfy the left distributive law i.e. $f \\ast (g + h) = (f \\ast g) + (f \\ast h).$</li><li>$+$ and $\\ast$ satisfy the right distributive law i.e. $(g + h)\\ast f = (g \\ast f)+ (h \\ast f).$</li></ol><p> </p><ol style=\"list-style-type:upper-alpha\"><li>All</li><li>II only</li><li>Ill only</li><li>II and III only</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374604",
+          "text": "<p>Let $\\text{G}$ be a group and let $\\text{H} = \\{x^{–1} | x \\in \\text{G}\\}$ then which of the following is true?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{G} \\subseteq \\text{H}$ but $\\text{G}$ may not be same as $H$</li><li>$\\text{H} \\subseteq \\text{G}$ but $\\text{H}$ may not be same as $\\text{G}$</li><li>$\\text{H = G}$</li><li>$\\text{H}$ may not be a group.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374587",
+          "text": "<p>Let $\\text{G}_{1}$ and $\\text{G}_{2}$ be two groups as following:</p><ol><li>$G_1$ is a group such that $\\forall x, y, z \\in \\text{G}_{1}$</li></ol><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;$xy = zx$ implies $y = z$</p><ol start=\"2\"><li>$\\text{G}_{2}$ is a group such that $\\forall x, y, z \\in \\text{G}_{2}$</li></ol><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $xyz = ayc$ implies $xz = ac$</p><p>where $x, y, z, a, c \\in \\text{G}_{2}$</p><p>Then which of the following is True ?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{G}_{1}$ is abelian, $\\text{G}_{2}$ is not abelian.</li><li>Both $\\text{G}_{1}$ and $\\text{G}_{2}$ are abelian.</li><li>$\\text{G}_{2}$ is abelian, not $\\text{G}_{1}$.</li><li>Neither of $\\text{G}_{1}$ and $\\text{G}_{2}$ is abelian.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,abelian-group,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376099",
+          "text": "Let $\\text{G}$ be a cyclic group with generator ‘$a$’. Order of ‘$a$’ is $29.$ The number of subgroups $\\text{G}$ has ________",
+          "type": "Numerical",
+          "answer": "2",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,numerical-answers,goclasses,set-theory&algebra,group-theory,cyclic-group,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376101",
+          "text": "What is the order of smallest non-cyclic group?",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,numerical-answers,goclasses,set-theory&algebra,group-theory,group-isomorphism,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376097",
+          "text": "<p>In a group $\\text{G},$ every element other than the identity element has order $2$ then $\\mathrm{G}$ is?</p><ol style=\"list-style-type:upper-alpha\"><li>Abelian group</li><li>Cyclic group</li><li>Non-abelian group</li><li>Non-cyclic group</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,abelian-group,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374577",
+          "text": "<p>Consider the following statements :</p><ol><li>Suppose $\\text{G}$ is a group and $a,x \\in \\text{G}.$ If order of $x=2,$&nbsp;Then $(a x&nbsp;a^{-1})$ has order $2.$</li><li>A finite group is never the union of two of its proper subgroups.</li></ol><p>Which of the above statements is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $1$</li><li>Only $2$</li><li>Both</li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374585",
+          "text": "<p>Let $\\mathbf{Z}$ be set of integers, and “$+$” be an integer addition operation.</p><p>Let $p, q$ be distinct primes. If $\\text{J}$ is a proper subgroup of $(\\mathbf{Z}, +)$ containing exactly three of $\\{p, p + q, pq, p^q, q^p\\},$</p><p>(Note $:\\text{J}$ may contain other elements of $\\mathbf{Z}$ which are not in this set), which three elements does $\\text{J}$ include?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\{p, p + q, pq\\}$</li><li>$\\{pq, p^{q}, q^{p}\\}$</li><li>$\\{p, pq, p^{q}\\}$</li><li>$\\{p, pq, q^{p}\\}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376089",
+          "text": "<p>Let $\\text{R}$ be the set of all real numbers.</p><p>Let $\\text{S = R} \\backslash\\{-1\\}$ and define a binary operation on $\\text{S}$ by $a \\ast b=a+b+a b$.</p><p>Which of the following is true?</p><ol style=\"list-style-type:upper-alpha\"><li>$(\\mathrm{S}, \\ast)$ is a not a group.</li><li>$(\\mathrm{S}, \\ast)$ is a group but not abelian.</li><li>$(\\mathrm{S}, \\ast)$ is a cyclic group.</li><li>$(\\mathrm{S}, \\ast)$ is an abelian group but not cyclic.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,abelian-group,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376073",
+          "text": "<p>Let $G$ be a group under binary operation $\\ast.$ Let $g \\in G$.</p><p>We define $\\langle g\\rangle$ as follows :<br>$$\\langle g\\rangle=\\left\\{g^{n} \\mid n \\in \\mathbb{Z}\\right\\}$$</p><p>Which of the following is /are true about $\\langle g\\rangle$ under binary operation $\\ast ?$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\langle g\\rangle$ is also a group.</li><li>$\\langle g\\rangle$ is a cyclic subgroup of $G$.</li><li>$\\langle g\\rangle$ is abelian.</li><li>If $H \\leq G$ and $g \\in H$, then $\\langle &nbsp;g\\rangle \\leq H$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,abelian-group,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "374609",
+          "text": "What is the smallest positive integer $n$ such that there is a group of order $n$ which is not abelian?",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,numerical-answers,goclasses,set-theory&algebra,group-theory,abelian-group,one-mark",
+          "category": "Set Theory & Algebra"
+        },
+        {
+          "contents": "",
+          "post_id": "376087",
+          "text": "<p>Which of the following&nbsp;multiplication tables defined on the set $G = \\{a, b, c, d\\}$ form a group?<br> </p><p><strong><img alt=\"\" height=\"275\" width=\"707\" src=\"https://lh4.googleusercontent.com/ScXb1m0GsM41_MFV3YTLbc-VqSOUZ_QJ6R97J86rq0bVVhYH3UdsPkMCRLpnJlaSX7lfOkhRlMLjVr8PeAx1S-zzbJApr6f-5V84_loTYuTksjTwQYsg9gsHErdSf-qX26_xJ1z9CjwW9enRzQ\"></strong></p>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_2026_cs_dm_tw_3,goclasses-testseries-2026,goclasses,set-theory&algebra,group-theory,multiple-selects,two-marks",
+          "category": "Set Theory & Algebra"
+        }
+      ]
+    }
+  ]
+}

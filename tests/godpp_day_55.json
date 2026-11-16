@@ -1,0 +1,70 @@
+{
+  "name": "Day 52 [Artificial Intelligence]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "477660",
+          "text": "<p>Among the two statements<br><br>$(\\mathrm{S} 1):(p \\Rightarrow q) \\wedge(p \\wedge(\\sim q))$ is a contradiction and<br><br>$(\\mathrm{S}2) : (p \\wedge q) \\vee((\\sim p) \\wedge q) \\vee(p \\wedge(\\sim q)) \\vee((\\sim p) \\wedge(\\sim q))$ is a tautology</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>both are false.</li><li>only (S1) is true.</li><li>both are true.</li><li>only (S2) is true.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Artificial Intelligence",
+          "day": "Day 52"
+        },
+        {
+          "post_id": "477652",
+          "text": "<p>Equivalent logical expression for the Well Formed Formula $(W F F)$,</p><p>$$<br>\\sim(\\forall x) F[x]<br>$$</p><p>is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\forall x(\\sim F[x])$<br>&nbsp;</li><li>$\\sim(\\exists x) F[x]$<br>&nbsp;</li><li>$\\exists x(\\sim F[x])$<br>&nbsp;</li><li>$\\forall x F[x]$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Artificial Intelligence",
+          "day": "Day 52"
+        },
+        {
+          "post_id": "477650",
+          "text": "<p>Let $P$ and $Q$ be two propositions $\\neg(P \\leftrightarrow Q)$ is equivalent to</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$P \\leftrightarrow \\neg Q$<br>&nbsp;</li><li>$\\neg P \\leftrightarrow Q$<br>&nbsp;</li><li>$\\neg P \\leftrightarrow \\neg Q$<br>&nbsp;</li><li>$Q \\rightarrow P$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A,B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Artificial Intelligence",
+          "day": "Day 52"
+        },
+        {
+          "post_id": "477655",
+          "text": "<p>The resolvent of the set of clauses $(A \\vee B, \\sim A \\vee D, C \\vee \\sim B)$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$A \\vee B$<br>&nbsp;</li><li>$C \\vee D$<br>&nbsp;</li><li>$A \\vee C$<br>&nbsp;</li><li>$A \\vee D$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Artificial Intelligence",
+          "day": "Day 52"
+        },
+        {
+          "post_id": "477657",
+          "text": "<p>Negation of $p \\wedge(q \\wedge \\sim(p \\wedge q))$ is :</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$(\\sim(p \\wedge q)) \\wedge q$<br>&nbsp;</li><li>$(\\sim(p \\wedge q)) \\vee p$<br>&nbsp;</li><li>$p \\vee q$<br>&nbsp;</li><li>$\\sim(p \\vee q)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Artificial Intelligence",
+          "day": "Day 52"
+        }
+      ]
+    }
+  ]
+}

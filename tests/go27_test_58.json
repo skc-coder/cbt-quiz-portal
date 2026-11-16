@@ -1,0 +1,189 @@
+{
+  "id": "go27_test_58",
+  "name": "GO Classes CS/DA Test Series | Databases | Topic Wise Test 3",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "allow_resume": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "384731",
+          "text": "<p>Assume we have two relations $\\text{R(A, B)}$ and $\\text{S(B, C)}$. All three attributes $\\text{(A, B, C)}$ are integer attributes. Assume that Relation $\\text{R}$ contains the following tuples: $(1,2),(2,3)$, and $(3,4)$. Assume that relation $\\text{S}$ contains the following tuples $(2,2),(2,3)$, and $(5,1)$. Note that \" $\\times$ \" is Natural join, in the following expressions.</p><p>Which of the following relational algebra expressions are equivalent, with respect to the above information?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\pi_\\text{A}\\left(\\sigma_{\\text{B=1}}(\\text{R})\\right)$ and $\\sigma_{\\text{B=1}}\\left(\\pi_\\text{A}(\\text{R})\\right)$</li><li>$\\pi_\\text{A}\\left(\\sigma_{\\text{A=1}}(\\text{R})\\right)$ and $\\sigma_{\\text{A=1}}\\left(\\pi_\\text{A}(\\text{R})\\right)$</li><li>$\\pi_{\\text{A, B}}\\text{(R} \\times \\text{S)}$ and $(\\pi _{\\text{A, B}}\\text{(R))} \\times \\text{S}$</li><li>$\\sigma_{\\text{B=1}}(\\text{R} \\times \\text{S})$ and $\\left(\\sigma_{\\text{B=1}}(\\text{R})\\right) \\times \\text{S}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,relational-algebra,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384746",
+          "text": "<p>Consider the following relations and query.<br>$$<br>\\begin{gathered}<br>\\textsf{r(A, B, C)}\\\\<br>\\textsf{s(A, B, C)}\\\\<br>\\sigma_{\\textsf{A&gt;C}}([(\\textsf{r} \\cup \\text{s) - (r - s)] - (s - r))}<br>\\end{gathered}<br>$$<br>Which of the following is equivalent to the above query?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\sigma_{\\textsf{A&gt;C}}(\\textsf{r} \\bowtie \\textsf{s})$</li><li>$\\sigma_{\\textsf{A&gt;C}}(\\textsf{r} \\cup \\textsf{s})$</li><li>$\\sigma_{\\textsf{A&gt;C}}(\\textsf{r}) \\cap&nbsp;\\sigma_{\\textsf{A&gt;C}}&nbsp;(\\textsf{s})$</li><li>$\\sigma_{\\textsf{A&gt;C}}(\\text{r} \\cap \\textsf{s})$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,relational-algebra,multiple-selects,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384752",
+          "text": "<p>Suppose that two relations $\\text{A(X, Y)}$ and $\\text{B(X, Y)}$ have exactly the same schema. Also, there are no null values in the relations.<br>Which of the following equalities hold in relational algebra? (Where \" $\\times$ \" is Cartesian-Product Operation)</p><ol style=\"list-style-type:upper-alpha\"><li>$\\text{A} \\cap \\text{B = A - (A - B)}$</li><li>$\\text{A} \\cap \\text{B = B - (B - A)}$</li><li>$\\text{A} \\cap \\text{B = A NATURAL-JOIN B}$</li><li>$\\text{A} \\cap \\text{B = A}&nbsp;\\times \\text{B}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,relational-algebra,multiple-selects,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384748",
+          "text": "Consider the following relation schemas: $\\textsf{r(A, B), t(B, C)}$ and their instances :\n$$\n\\begin{aligned}\n&\\textsf{r(A, B)}=\\{\\langle a, b\\rangle,\\langle a, c\\rangle,\\langle c, d\\rangle,\\langle b, e\\rangle\\}\\\\\n&\\textsf{t(B, C)}=\\{\\langle b, e\\rangle,\\langle d, h\\rangle,\\langle b, f\\rangle,\\langle a, d\\rangle,\\langle a, e\\rangle\\}\n\\end{aligned}\n$$\nHow many rows are present in the result of the following relational algebra expression using left-outer-natural-join :\n$$\n\\pi_{\\textsf{A, C}}\\left(\\textsf{r} \\bowtie_{\\;\\textsf{LEFT}} \\textsf{t}\\right)\n$$",
+          "type": "Numerical",
+          "answer": "5",
+          "award": 1,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,numerical-answers,goclasses,databases,relational-algebra,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384740",
+          "text": "<p>Consider the following Student database and the relations in it :</p><p>$$\\begin{array}{l} \\textsf{Student (sid, name, marks)} \\\\&nbsp; \\textsf{Course (cid, min, max)} \\end{array}$$<br>Student relation has the following set of tuples :<br>$$\\{ ( 101, a, 50 ), (102, b, 52), (103, c, 60), (104, d, 70) \\}$$<br>Course relation has the following set of tuples :<br>$$\\{ (c1, 20, 90), (c2, 15, 95), (c3, 10, 100) \\}$$<br>Consider the following query :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT S.sid\nFROM Student S\nWHERE EXISTS ( SELECT COUNT(*)\n            FROM Course C\n            WHERE S.marks &gt; C.min AND S.marks &gt; C.max)\n</pre><p><br>How many tuples will be in the output of the above SQL Query?</p>",
+          "type": "Numerical",
+          "answer": "4",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,numerical-answers,goclasses,databases,sql,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384742",
+          "text": "<p>Consider the following schema:</p><p>$$\\begin{array} {l} \\text{Sailors}(\\; \\underline{\\textit{sid: } \\textsf{integer}}, \\textit{&nbsp;sname: } \\textsf{string}, \\textit{ rating: } \\textsf{integer}, \\textit{ age: } \\text{real}) \\\\&nbsp;\\text{Boats}(\\;&nbsp;\\underline{\\textit{bid: } \\textsf{integer}}, \\textit{&nbsp;bname: } \\textsf{string}, \\textit{ color: } \\textsf{string)} \\\\ \\text{Reserves}(\\;\\underline{\\textit{sid: } \\textsf{integer}, \\textit{ bid: } \\textsf{integer}, \\textit{ day: } \\textsf{date}}\\;)\\end{array} $$<br>The primary key fields are underlined, and the domain of each field is listed after the field name. Assume there are no NULL values in any column of any relation.</p><p>Consider the following query :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT S.sname\nFROM Sailors S, Reserves R, Boats B\nWHERE S.sid = R.sid AND R.bid = B.bid\n    AND (B.color = ‘blue’ AND B.color = ‘white’)\n</pre><p>What is the output of the above query?</p><ol style=\"list-style-type:upper-alpha\"><li>The names of sailors who have reserved a blue or a white boat.</li><li>The names of sailors who have reserved a blue AND a white boat.</li><li>The names of sailors who have reserved neither a blue nor a white boat.</li><li>Empty set.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,sql,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384733",
+          "text": "<p>Consider the following schema:<br>$$\\begin{array} {l} \\text{Sailors}(\\; \\underline{\\textit{sid: } \\textsf{integer}}, \\textit{&nbsp;sname: } \\textsf{string}, \\textit{ rating: } \\textsf{integer}, \\textit{ age: } \\text{real}) \\\\&nbsp;\\text{Boats}(\\;&nbsp;\\underline{\\textit{bid: } \\textsf{integer}}, \\textit{&nbsp;bname: } \\textsf{string}, \\textit{ color: } \\textsf{string)} \\\\ \\text{Reserves}(\\;\\underline{\\textit{sid: } \\textsf{integer}, \\textit{ bid: } \\textsf{integer}, \\textit{ day: } \\textsf{date}}\\;)\\end{array} $$<br>The primary key fields are underlined, and the domain of each field is listed after the field name. Assume there are no NULL values in any column of any relation and every relation has at least one tuple. $\\textsf{“Sid\"}$ of Reserves is foreign key to $\\textsf{Sailor.sid}.$<br>Assume that there exists a sailor who has reserved a boat with $\\textsf{bid 104}$ in the reserves table.</p><p>Consider the following query :</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">SELECT S.sid\nFROM Sailors S, Reserves R\nWHERE S.rating =10 OR R.bid =104\n</pre><p>What is the output of the above query?</p><ol style=\"list-style-type:upper-alpha\"><li>All sids of sailors who have a rating of $10$ AND have reserved boat $104.$</li><li>All sids of sailors who have a rating of $10$ OR have reserved boat $104.$</li><li>All sids of sailor table</li><li>Empty set.</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,sql,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384738",
+          "text": "<p>Let $\\mathrm{R}=(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}), \\mathrm{S}=(\\mathrm{C}, \\mathrm{D}, \\mathrm{E})$ and let $q$ and $r$ be a relation on schema $\\mathrm{R}$ and $s$ be a relation on schema $\\mathrm{S}.$</p><p>Consider the following queries :</p><ol><li>$\\{&lt;a&gt;\\mid \\exists b(&lt;a, b&gt;\\in r \\wedge b=10)\\}$</li><li><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT A FROM r WHERE B=10</pre></li><li><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT * FROM r EXCEPT SELECT DISTINCT * FROM s\n</pre></li><li><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT * FROM q WHERE (A, B, C) NOT IN (SELECT DISTINCT * FROM r)\n</pre></li></ol><p>Which of the following is/are true? (Two queries are said to be equivalent when they produce the same output, i.e., the same set of records)</p><ol style=\"list-style-type:upper-alpha\"><li>Query $1$ and $2$ are equivalent.</li><li>Query $1$ and $3$ are equivalent</li><li>Query $2$ and $4$ are equivalent</li><li>Query $3$ and $4$ are equivalent</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,sql,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384729",
+          "text": "<p>Given relations $r$ and $s$. Let Function $\\text{C}$ denote the number of results in the output. Which of the following statements \"can be\" correct? (Hint: Discard the statements which are NEVER possible)</p><p style=\"text-align:center\"><img alt=\"\" height=\"151\" width=\"295\" src=\"data:image/png;base64,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\"></p><p> </p><ol style=\"list-style-type:upper-alpha\"><li>I and II</li><li>II and III</li><li>Only III</li><li>III and IV</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,relational-algebra,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384721",
+          "text": "<p>For a RDBMS relation $\\mathrm{T}(\\mathrm{P}, \\mathrm{Q}, \\mathrm{R}, \\mathrm{S}, \\mathrm{U})$, the following set $\\mathrm{F}$ of functional dependencies holds:<br>$$<br>\\mathrm{F}=\\{\\mathrm{P} \\rightarrow \\mathrm{QR} ; \\mathrm{RS} \\rightarrow \\mathrm{U} ; \\mathrm{Q} \\rightarrow \\mathrm{S} ; \\mathrm{U} \\rightarrow \\mathrm{P}\\}<br>$$</p><ul><li>Ram decomposes $\\mathrm{T}$ into two relations $\\mathrm{X}(\\mathrm{P}, \\mathrm{Q}, \\mathrm{R}), \\mathrm{Y}(\\mathrm{R}, \\mathrm{S}, \\mathrm{U})$.</li><li>Shyam decomposes $\\mathrm{T}$ into two relations $\\mathrm{A}(\\mathrm{P}, \\mathrm{Q}, \\mathrm{R}), \\mathrm{B}(\\mathrm{P}, \\mathrm{S}, \\mathrm{U})$.</li></ul><p>Which of the following is/are necessarily true on any(every) instance $t$ of relation $\\mathrm{T}?$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\mathrm{X} \\bowtie \\mathrm{Y} = t$</li><li>$\\mathrm{X} \\bowtie \\mathrm{Y} \\neq t$</li><li>$\\text{A} \\bowtie \\text{B} = t$</li><li>$\\text{A} \\bowtie \\text{B} \\neq t$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,relational-algebra,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384725",
+          "text": "<p>Consider the following three relational schemas in a database :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">CREATE TABLE R(A INT PRIMARY KEY, B INT);\n</pre><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">CREATE TABLE S(C INT PRIMARY KEY, A INT REFERENCES R(A) ON DELETE CASCADE);\n</pre><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">CREATE TABLE T(D INT PRIMARY KEY, C INT REFERENCES S(C) ON DELETE SET NULL);\n</pre><p>Consider the following instances of relations $\\textsf{R, S, T :}$<br>$$\\textsf{R}$$$$\\begin{array}{c|c} \\text{A} &amp; {B} \\\\ \\hline a &amp; a \\\\ b &amp; b \\end{array}$$</p><p>$$\\textsf{S}$$$$\\begin{array}{c|c} \\text{C} &amp; {A} \\\\ \\hline b&nbsp;&amp; a \\\\ c&nbsp;&amp; a&nbsp;\\end{array}$$</p><p>$$\\textsf{T}$$$$\\begin{array}{c|c} \\text{D} &amp; {C} \\\\ \\hline a &amp; b&nbsp;\\\\ c&nbsp;&amp; c&nbsp;\\end{array}$$<br>Which of the following is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>After executing the command “DELETE FROM T;”, R will remain unchanged.</li><li>After executing the command “DELETE FROM S;”, R will remain unchanged.</li><li>After executing the command “DELETE FROM S;”, T will contain $2$ tuples.</li><li>After executing the command “DELETE FROM R;”, T will contain $2$ tuples.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,sql,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384735",
+          "text": "<p>Consider the following database relations :</p><ul><li>$\\textsf{Enrolled(Student, Course) :}$ It contains the courses that each student has enrolled into, and</li><li>$\\textsf{ToDo(Course) :}$ It contains the courses that are required to graduate.</li></ul><p>The instance for $\\textsf{Enrolled}$ relation is shown below:<br>$$\\begin{array}{|c|c|}<br>\\hline \\textbf{Student} &amp; &nbsp;\\textbf{Course} \\\\<br>\\hline \\text{Robert} &amp; \\text{Databases} \\\\<br>\\text{Robert} &amp; \\text{Programming Languages} \\\\<br>\\text{Susie} &amp; \\text{Databases} \\\\<br>\\text{Susie} &amp; \\text{Operating Systems} \\\\<br>\\text{Julie} &amp; \\text{Programming Languages} \\\\<br>\\text{Julie} &amp; \\text{Machine Learning} \\\\<br>\\text{Emilie} &amp; \\text{Operating Systems} \\\\<br>\\hline<br>\\end{array}$$<br>The instance for $\\textsf{ToDo}$ relation is shown below:<br>$$<br>\\begin{array}{|c|}<br>\\hline \\textbf{Course} \\\\<br>\\hline \\text{Databases} \\\\<br>\\text{Programming Languages} \\\\<br>\\hline<br>\\end{array}<br>$$<br>We run the following SQL Query of this database :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT Student\nFROM Enrolled\nWHERE Course IN (SELECT Course FROM ToDo);\n</pre><p>How many tuples will be there in the output of this SQL Query?</p>",
+          "type": "Numerical",
+          "answer": "3",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,numerical-answers,goclasses,databases,sql,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384744",
+          "text": "<p>Consider the relations $r, s$ and query :<br>$$<br>\\begin{gathered}<br>t 1 \\leftarrow \\sigma_\\theta((r \\times s) \\div r)\\\\<br>t 2 \\leftarrow \\sigma_\\theta(s)\\\\<br>t 3 \\leftarrow \\sigma_\\theta(r)\\\\<br>\\end{gathered}<br>$$</p><p>Relation&nbsp;$r$ is not empty.</p><p>Which of the following is correct?</p><ol style=\"list-style-type:upper-alpha\"><li>$t 1=t 3$</li><li>t2 $=t 3$</li><li>$t 1=t 2$</li><li>None of the above</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,relational-algebra,one-mark",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384723",
+          "text": "<p>Let $\\mathrm{R}(a, b, c, d)$ be a RDBMS relation having the following set of functional dependencies(FD set) :<br>FD Set $\\mathrm{F}=\\{b \\rightarrow c ; c \\rightarrow d ; ab \\rightarrow d ; bc \\rightarrow cd\\}$ We apply some queries on a relational instance $r$ of $\\text{R}$. Which of the following queries are guaranteed to return the same number of tuples as in relation instance $r?$</p><ol style=\"list-style-type:upper-alpha\"><li>$\\prod_a(r)$</li><li>$\\prod_{a, c}(r)$</li><li>$\\prod_{a, b}(r)$</li><li>$\\prod_{a, b, d}(r)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,goclasses,databases,relational-algebra,multiple-selects,two-marks",
+          "category": "Databases"
+        },
+        {
+          "contents": "",
+          "post_id": "384727",
+          "text": "For a simple undirected finite graph $\\text{G},$ graph degrees (degrees of vertices of graph ) are stored in a database table $\\text{Deg(G)}.$ This table has two attributes $\\text{V, D}$ where $\\mathrm{V}$ represents the vertices and $\\text{D}$ represents corresponding degree of those vertices i.e. If $v_i$ is some vertex of degree $d_i$ in graph $\\text{G}$ then there will be a row $v_i, d_i$ in $\\text{Deg(G)}.$\n\n$\\mathrm{V}$ is the primary key in this table.\n\nFor a $100$ vertices simple graph $\\text{G},$ the summation of minimum and maximum possible value of $\\left|\\pi_{\\mathrm{D}}(\\operatorname{Deg}(\\mathrm{G}))\\right|$ will be _________",
+          "type": "Numerical",
+          "answer": "100",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses_csda_dbms_tw_3,goclasses-testseries,numerical-answers,goclasses,databases,relational-algebra,two-marks",
+          "category": "Databases"
+        }
+      ]
+    }
+  ]
+}

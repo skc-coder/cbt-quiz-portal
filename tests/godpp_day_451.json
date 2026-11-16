@@ -1,0 +1,30 @@
+{
+  "name": "Day 311 [Programming and DS]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "538116",
+          "text": "<p>Consider the statement:</p><pre dir=\"ltr\" data-rawcode=\"double ans = 18.0 / squared(2 + 1);\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">double ans = 18.0 / squared(2 + 1);</pre><p>For each of the following macro definitions, find the value of $\\texttt{ans}$.</p><pre dir=\"ltr\" data-rawcode=\"#define squared(x) x*x #define squared(x) (x*x) #define squared(x) (x)*(x) #define squared(x) ((x)*(x))\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#define squared(x) x*x\n#define squared(x) (x*x)\n#define squared(x) (x)*(x)\n#define squared(x) ((x)*(x))</pre><p>Which option gives the correct values in order?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\texttt{12, 3.6, 18, 2}$<br>&nbsp;</li><li>$\\texttt{2, 2, 2, 2}$<br>&nbsp;</li><li>$\\texttt{12, 12, 18, 2}$<br>&nbsp;</li><li>$\\texttt{18, 3.6, 18, 2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Programming and DS",
+          "day": "Day 311"
+        }
+      ]
+    }
+  ]
+}

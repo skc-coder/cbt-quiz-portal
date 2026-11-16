@@ -1,0 +1,70 @@
+{
+  "name": "Day 246 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "543454",
+          "text": "<p data-start=\"6371\" data-end=\"6414\">Consider an array containing $2n$ elements:</p><p data-start=\"6416\" data-end=\"6459\">$1,\\ n+1,\\ 2,\\ n+2,\\ 3,\\ n+3,\\ldots,n,\\ 2n$</p><p data-start=\"6461\" data-end=\"6485\">For example, when $n=8$:</p><p data-start=\"6487\" data-end=\"6557\">$1,\\ 9,\\ 2,\\ 10,\\ 3,\\ 11,\\ 4,\\ 12,\\ 5,\\ 13,\\ 6,\\ 14,\\ 7,\\ 15,\\ 8,\\ 16$</p><p data-start=\"6559\" data-end=\"6631\">Approximately how many comparisons does standard selection sort perform?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"6633\" data-end=\"6656\">$\\sim\\frac{1}{4}n^2$<br>&nbsp;</li><li data-start=\"6658\" data-end=\"6681\">$\\sim\\frac{1}{2}n^2$<br>&nbsp;</li><li data-start=\"6683\" data-end=\"6696\">$\\sim n^2$<br>&nbsp;</li><li data-start=\"6698\" data-end=\"6721\">$\\sim\\frac{3}{2}n^2$<br>&nbsp;</li><li data-start=\"6723\" data-end=\"6736\">$\\sim2n^2$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "E",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Algorithms",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "543452",
+          "text": "<p data-start=\"5069\" data-end=\"5148\">You need to sort hotels on a travel website according to their <strong data-start=\"5132\" data-end=\"5147\">star rating</strong>.</p><p data-start=\"5150\" data-end=\"5204\">Which sorting algorithm would be the most appropriate?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"5206\" data-end=\"5271\">Insertion sort<br>&nbsp;</li><li data-start=\"5206\" data-end=\"5271\">Merge sort<br>&nbsp;</li><li data-start=\"5206\" data-end=\"5271\">Quicksort<br>&nbsp;</li><li data-start=\"5206\" data-end=\"5271\">Bucket sort</li></ol>",
+          "type": "Multiple Select",
+          "answer": "D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "543450",
+          "text": "<p data-start=\"3401\" data-end=\"3448\">Consider the following max-heap in level-order:</p><p data-start=\"3450\" data-end=\"3490\">$[80,75,70,10,55,65,40,5,0,20,30,60,50]$</p><p data-start=\"3492\" data-end=\"3537\">Suppose the next operation is <strong data-start=\"3522\" data-end=\"3536\">Delete-Max</strong>.</p><p data-start=\"3539\" data-end=\"3613\">Which of the following pairs of keys will be compared during the deletion?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"3615\" data-end=\"3766\">$50-30$</li><li data-start=\"3615\" data-end=\"3766\">$50-55$</li><li data-start=\"3615\" data-end=\"3766\">$50-60$</li><li data-start=\"3615\" data-end=\"3766\">$50-65$</li><li data-start=\"3615\" data-end=\"3766\">$50-70$</li><li data-start=\"3615\" data-end=\"3766\">$50-75$</li><li data-start=\"3615\" data-end=\"3766\">$50-80$</li><li data-start=\"3615\" data-end=\"3766\">$0-5$</li><li data-start=\"3615\" data-end=\"3766\">$20-30$</li><li data-start=\"3615\" data-end=\"3766\">$10-55$</li><li data-start=\"3615\" data-end=\"3766\">$70-75$</li><li data-start=\"3615\" data-end=\"3766\">$40-65$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;F;I;J;K",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "543440",
+          "text": "<p data-start=\"591\" data-end=\"669\">A quadratic sorting algorithm has completed four iterations. The array is now:</p><p data-start=\"671\" data-end=\"710\">$1,\\ 2,\\ 3,\\ 4,\\ 5,\\ 0,\\ 6,\\ 7,\\ 8,\\ 9$</p><p data-start=\"712\" data-end=\"773\">Assume that selection sort places the largest elements first.</p><p data-start=\"775\" data-end=\"802\">Which statement is correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"804\" data-end=\"1033\">It could be either selection sort or insertion sort.<br>&nbsp;</li><li data-start=\"804\" data-end=\"1033\">It could be selection sort, but not insertion sort.<br>&nbsp;</li><li data-start=\"804\" data-end=\"1033\">It could be insertion sort, but not selection sort.<br>&nbsp;</li><li data-start=\"804\" data-end=\"1033\">It could be neither selection sort nor insertion sort.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 246"
+        },
+        {
+          "post_id": "543442",
+          "text": "<p data-start=\"2027\" data-end=\"2082\">Mergesort recursively sorts the two halves of an array.</p><p data-start=\"2084\" data-end=\"2191\">After both recursive calls have finished, but <strong data-start=\"2130\" data-end=\"2160\">before the merge operation</strong>, which statement must be true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li data-start=\"2193\" data-end=\"2392\">The complete array forms a heap.<br>&nbsp;</li><li data-start=\"2193\" data-end=\"2392\">Each half of the array is sorted independently.<br>&nbsp;</li><li data-start=\"2193\" data-end=\"2392\">Every element in the first half is smaller than every element in the second half.<br>&nbsp;</li><li data-start=\"2193\" data-end=\"2392\">None of the above.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 246"
+        }
+      ]
+    }
+  ]
+}

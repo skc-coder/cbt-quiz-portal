@@ -1,0 +1,30 @@
+{
+  "name": "Day 27 [Calculus]",
+  "duration": 3,
+  "total_qs": 1,
+  "total_qs_one": 1,
+  "total_qs_two": 0,
+  "total_marks": 1,
+  "apti_num_qs": 0,
+  "technical_num_qs": 1,
+  "technical_marks": 1,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 1,
+      "marks": 1,
+      "question": [
+        {
+          "post_id": "473916",
+          "text": "<p>The value of $\\lim _{x \\rightarrow \\infty}\\left(x-\\sqrt{x^2+x}\\right)$ is equal to</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$-1$<br>&nbsp;</li><li>$-0.5$<br>&nbsp;</li><li>&nbsp;$-2$<br>&nbsp;</li><li>$0$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.3333",
+          "subject": "Calculus",
+          "day": "Day 27"
+        }
+      ]
+    }
+  ]
+}

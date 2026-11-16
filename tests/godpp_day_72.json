@@ -1,0 +1,70 @@
+{
+  "name": "Day 69 [Algorithms]",
+  "duration": 15,
+  "total_qs": 5,
+  "total_qs_one": 5,
+  "total_qs_two": 0,
+  "total_marks": 5,
+  "apti_num_qs": 0,
+  "technical_num_qs": 5,
+  "technical_marks": 5,
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 5,
+      "marks": 5,
+      "question": [
+        {
+          "post_id": "483129",
+          "text": "<p>You are given an $n \\times n$ matrix where each row and each column is sorted in ascending order. You need to search for a target element \"x\" in the matrix.</p><p>What is the best possible asymptotic bound in the worst case to solve this problem?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\Theta(\\log n)$<br>&nbsp;</li><li>$\\Theta(n)$<br>&nbsp;</li><li>$\\Theta\\left(n^2\\right)$<br>&nbsp;</li><li>$\\Theta(1)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 69"
+        },
+        {
+          "post_id": "483124",
+          "text": "<p>A monkey is given $n$ piles of bananas, where the 'ith' pile has nums[i] bananas (nums is an array of size n ). An integer h represents the total time in hours to eat all bananas.</p><p>Each hour, the monkey chooses a non-empty pile of bananas and eats $k$ bananas. If the pile contains fewer than $k$ bananas, the monkey eats all the bananas in that pile and does not consume any more bananas in that hour.</p><p>What is the best possible worst case time complexity (in terms of $n, m$ where $m$ is the max value in the array) to determine the minimum number of bananas the monkey must eat per hour to finish all the bananas within $h$ hours?<br><br>(Here $O$ represents big-oh)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$O(n.logn)$<br>&nbsp;</li><li>$O(n.m)$<br>&nbsp;</li><li>$O(n.logm)$<br>&nbsp;</li><li>$O(m.logm)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "C",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 69"
+        },
+        {
+          "post_id": "483122",
+          "text": "<p>Alice has two sorted arrays $\\mathrm{A}[1, \\ldots, \\mathrm{n}], \\mathrm{B}[1, \\ldots, \\mathrm{n}+1]$. She knows that A is composed of distinct positive numbers, and B is derived from inserting a zero into $A$. She would like to know the index of this zero. She wonders if you can design and analyse a fast algorithm for her to find the index of the zero in $B$.</p><p>She has provided the following example to ensure that the problem statement is clear.</p><p>A: $[ 1,3,4,6,7,8,9,20]$<br><br>B: $[1,3,0,4,6,7,8,9,20]$.<br><br>Your algorithm should return 2 in this case, which is the index of the zero in B.<br><br>What is the tightest upper bound of the best algorithm to do this task in terms of $n$ ?<br>(Here O represents big-oh)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$O(n)$<br>&nbsp;</li><li>$O(logn)$<br>&nbsp;</li><li>$O(1)$<br>&nbsp;</li><li>$O(loglogn)$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "B",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 69"
+        },
+        {
+          "post_id": "483120",
+          "text": "A machine needs a maximum of $200$ seconds to sort $1000$ elements by Quick sort. The maximum time needed (in seconds) to sort $200$ elements will be approximately ________.",
+          "type": "Numerical",
+          "answer": "8",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 69"
+        },
+        {
+          "post_id": "483118",
+          "text": "<p>Which of the following statements is/are not correct?<br>(Here $o, \\omega$ represents small-oh and small-omega, respectively.)</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>The average-case time complexity of quicksort $=\\omega$ (the average case time complexity of mergesort)<br>&nbsp;</li><li>The best-case time complexity of quicksort = o(the best-case time complexity of mergesort)<br>&nbsp;</li><li>The best-case behaviour occurs for quicksort when the partition splits the array of size $n$ into $n / 2:(n / 2)-1$<br>&nbsp;</li><li>Quicksort is a stable algorithm</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;B;D",
+          "award": 1,
+          "penalty": "0.0000",
+          "subject": "Algorithms",
+          "day": "Day 69"
+        }
+      ]
+    }
+  ]
+}

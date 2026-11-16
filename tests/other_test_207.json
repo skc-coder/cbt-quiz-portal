@@ -1,0 +1,132 @@
+{
+  "name": "GO Classes GATE CS | Proof Techniques| Weekly Quiz",
+  "duration": "30",
+  "total_qs": "10",
+  "total_qs_one": 5,
+  "total_qs_two": 5,
+  "apti_num_qs": 10,
+  "technical_num_qs": 0,
+  "apti_marks": 15,
+  "technical_marks": 0,
+  "total_marks": 15,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Aptitude",
+      "num_qs": 10,
+      "marks": 15,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "399911",
+          "text": "<p>Two integers have the same parity if they are both even or they are both odd. Otherwise, they have opposite parity. Which of the following statements is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If two integers have the same parity, their sum is odd.</li><li>If two integers have opposite parity, then their sum is odd.</li><li>If $n$ is an odd integer, then $8 \\mid n^2-1$.</li><li>Suppose $a, b \\in \\mathbb{Z}$. If $a b$ is odd, then $a^2+b^2$ is even.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq1,goclasses,quantitative-aptitude,algebra,multiple-selects,two-marks",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "399928",
+          "text": "<p>Consider the following statements:</p><ul><li>$\\text{S1}:$ Suppose $a, b, c \\in \\mathbb{Z}$. If $a^2 \\mid b$ and $b^3 \\mid c,$ then $a^6 \\mid c$.</li><li>$\\text{S2}:$ Suppose $a \\in \\mathbb{Z}$. If $a^3$ is not divisible by $8,$ then $a$ is odd.</li></ul><p>Which of the above statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\text{S1}$.</li><li>Only $\\text{S2}$.</li><li>Both $\\text{S1}&nbsp;\\;\\&amp; \\;\\text{S2}$.</li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq1,goclasses,quantitative-aptitude,algebra,one-mark",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "399922",
+          "text": "<p>Consider the following statements:</p><ul><li>$\\text{S1}:$ If an integer ' $a$ ' is even then $\\left(a^ 2\\right)+2 a+9$ is odd.</li><li>$\\text{S2}:$ For an integer ' $a$ ', if $\\left(a^ 2\\right)+2 a+9$ is odd then ' $a$ ' is even.</li></ul><p>Which of the above statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\text{S1}$</li><li>Only $\\text{S2}$</li><li>Both $\\text{S1}\\;&nbsp;\\&amp;\\; \\text{S2}$</li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq1,goclasses,quantitative-aptitude,algebra,one-mark",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "399917",
+          "text": "<p>Consider the following right-angled triangle, in which the angle between the side $\\text{AC}$ and $\\text{CB}$ is a right angle. Let $a,b,c$ be the length of the sides $\\text{BC, AC, AB}$ respectively. Assume $a,b,c$ are integers.</p><p style=\"text-align:center\"><img alt=\"\" src=\"data:image/png;base64,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\" style=\"height:191px; width:215px\"></p><p>Which of the following is/are correct statements?</p><ol style=\"list-style-type:upper-alpha\"><li>$(abc)$ is even.</li><li>$(bc)$ is even.</li><li>$(ab)$ or $(ac)$ is even.</li><li>Both $a,b$ are even.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "A;C",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq1,goclasses,quantitative-aptitude,geometry,triangles,multiple-selects,two-marks",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "399920",
+          "text": "<p>Consider the following statements:</p><ul><li>$\\text{S1}:$ Given any $x \\in \\mathbb{R}$, there exists an element $y \\in \\mathbb{R}$ for which $x y=1$.</li><li>$\\text{S2}:$ There exists two irrational numbers $x$ and $y$ such that $x+y$ is rational.</li></ul><p>Which of the above statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\text{S1}$</li><li>Only $\\text{S2}$</li><li>Both $\\text{S1}\\; \\&amp;\\; \\text{S2}$</li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq1,goclasses,quantitative-aptitude,algebra,one-mark",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "399915",
+          "text": "<p>Let $n$ be a positive integer.</p><p>Which of the following statements is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>If $m, a$ are positive integers and $m \\mid a^ n$, then $m^ n \\mid a^ n$.</li><li>If $p$ is a prime and $a$ is a positive integer and $p \\mid a^n$, then $p^n \\mid a^n$.</li><li>If $t$ is odd, then $t^ n$ is also odd, for all $n$.</li><li>If $t$ is even, then $t^ n$ is also even, for all $n$.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq1,goclasses,quantitative-aptitude,algebra,multiple-selects,two-marks",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "399919",
+          "text": "<p>Which of the following statements is/are True?</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>If $x$ and $y$ are two integers whose product is odd, then both must be odd.</li><li>If $a$ and $b$ are real numbers such that the product ab is an irrational number, then either $a$ or&nbsp;$b$ must be an irrational number.</li><li>For any integer $m,$ if $m^{2}$ is even, then $m$ is even.</li><li>The sum of a rational number and an irrational number is irrational.</li></ol>",
+          "type": "Multiple Select",
+          "answer": "a;b;c;d",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_cs_wq1,goclasses,quantitative-aptitude,algebra,multiple-selects,two-marks",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "399924",
+          "text": "<p>Consider the following statements:</p><ul><li>$\\text{S1}:$ Suppose $a, b \\in \\mathbb{Z}$. If $\\left(a^ 2\\right)\\left(b^ 2-2 b\\right)$ is odd, then both $a$ and $b$ are odd.</li><li>$\\text{S2}:$ Suppose $a, b \\in \\mathbb{Z}$. If $25 \\nmid a b$, then $5 \\nmid a$ or $5 \\nmid b$.</li></ul><p>Which of the above statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\text{S1}$</li><li>Only $\\text{S2}$</li><li>Both $\\text{S1}\\;&nbsp;\\&amp;\\; \\text{S2}$</li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq1,goclasses,quantitative-aptitude,algebra,one-mark",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "399926",
+          "text": "<p>Consider the following statements:</p><ul><li>$\\text{S1}:$ If $a, b \\in Z$ and $a+b$ is even, then $a^ 2+b^ 2$ is even.</li><li>$\\text{S2}:$ If $a, b \\in Z$ and $a+b$ is odd, then $a^ 2+b^ 2$ is odd.</li></ul><p>Which of the above statements is true?</p><ol style=\"list-style-type:upper-alpha\"><li>Only $\\text{S1}$</li><li>Only $\\text{S2}$</li><li>Both $\\text{S1}\\;&nbsp;\\&amp;\\; \\text{S2}$</li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_cs_wq1,goclasses,quantitative-aptitude,algebra,one-mark",
+          "category": "Quantitative Aptitude"
+        },
+        {
+          "contents": "",
+          "post_id": "399913",
+          "text": "<p>Consider the following statements:</p><ol><li>If $n \\in \\mathbb{Z}$, then $5 n^2+3 n+7$ is odd.</li><li>If $n \\in \\mathbb{Z}$, then $n^2+3 n+4$ is even.</li></ol><p>Which of the above statements is true?<br>(Hint: $n$ can be either even or odd)</p><ol style=\"list-style-type:upper-alpha\"><li>Only $1$</li><li>Only $2$</li><li>Both $1 \\;\\&amp;\\; 2$</li><li>None</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_cs_wq1,goclasses,quantitative-aptitude,algebra,two-marks",
+          "category": "Quantitative Aptitude"
+        }
+      ]
+    }
+  ]
+}

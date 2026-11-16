@@ -1,0 +1,187 @@
+{
+  "name": "GO Classes DA Test Series 2026 | Probability and Statistics | Topic Wise Test 3",
+  "duration": "45",
+  "total_qs": "15",
+  "total_qs_one": 5,
+  "total_qs_two": 10,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 25,
+  "total_marks": 25,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 25,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "427492",
+          "text": "<p>Imagine that you do not understand anything in this class. You would have to randomly guess the answer for some given 5 problems (MCQ type with 4 options and only one option is correct). What is the probability that you can get at least two out of five right?</p><ol style=\"list-style-type:upper-alpha\"><li>$\\sum_{k=2}^{5}\\left(\\frac{1}{4}\\right)^{k}$</li><li>$\\sum_{k=2}^{5}\\binom{5}{k}\\left(\\frac{1}{4}\\right)^{k}\\left(\\frac{3}{4}\\right)^{5-k}$</li><li>$\\left(\\frac{1}{4}\\right)^{2}\\left(\\frac{3}{4}\\right)^{3}$</li><li>$\\sum_{k=2}^{5} \\frac{5!}{k!}\\left(\\frac{1}{4}\\right)^{k}\\left(\\frac{3}{4}\\right)^{5-k}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427480",
+          "text": "Suppose the discrete random variable $X$ has the probability mass function $f(x)=\\frac{11-2 x}{24}, \\quad x=1,2,3,4$.<br />Find $E\\left[X^{2}\\right]$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\frac{110}{24}$</li><li> $\\frac{120}{24}$</li> <li>$\\frac{130}{24}$</li>  <li>$\\frac{140}{24}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427478",
+          "text": "Let $X$ and $Y$ be independent discrete random variables with probability mass functions $P(X=$ $k)$ and $P(Y=k)$.<br />What is $P(\\min \\{X, Y\\} \\leq x)$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $P(\\min \\{X, Y\\} \\leq x)=1-P(X>x) P(Y>x)$</li><li> $P(\\min \\{X, Y\\} \\leq x)=P(X \\leq x) P(Y \\leq x)$</li> <li>$P(\\min \\{X, Y\\} \\leq x)=P(X \\leq x)+P(Y \\leq x)-P(X \\leq x) P(Y \\leq x)$</li>  <li>$P(\\min \\{X, Y\\} \\leq x)=P(X>x)+P(Y>x)-P(X>x) P(Y>x)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427486",
+          "text": "Let $X$ be a random variable that takes values from 0 to 9 with equal probability $\\frac{1}{10}$. Define the random variable $Y=X \\bmod 3$.<br />Calculate $P(Y=0)+P(Y=1)$.<br /><br />A. $\\frac{3}{10}$<br />B. $\\frac{4}{10}$<br />C $\\frac{5}{10}$<br />D. $\\frac{7}{10}$",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427497",
+          "text": "Suppose that $n$ people have their hats returned at random. Let $X_{i}$ be 1 if the $i$-th person gets his or her own hat back and 0 otherwise. Find the expected value $E\\left(X_{i} \\cdot X_{j}\\right)$ for $i \\neq j$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\frac{1}{n(n-1)}$</li><li> $\\frac{2}{n(n-1)}$</li> <li>$\\frac{1}{n^{2}}$</li>  <li>$\\frac{1}{n}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427495",
+          "text": "<p>The following is the probability distribution for a random variable, $X$,<br><img alt=\"\" width=\"224\" height=\"179\" src=\"data:image/png;base64,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\"><br>What is the variance of $X$ ?</p><ol style=\"list-style-type:upper-alpha\"><li>0.800</li><li>0.447</li><li>0.894</li><li>1.225</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427499",
+          "text": "Consider the following discrete random variable problem:<br />A number $X$ is chosen at random from the set $\\{1,2,3,4,5\\}$. Subsequently, a second number $Y$ is chosen at random from the subset $\\{1, \\ldots, X\\}$.<br />Given this setup, which of the following statements is/are true?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\mathbb{P}(X=5 \\mid Y=5)=\\frac{1}{2}$</li><li> $\\mathbb{P}(X=5, Y=5)=\\frac{1}{25}$</li> <li>$\\mathbb{P}(X=5 \\mid Y=5)=1$</li>  <li>$\\mathbb{P}(X=5, Y=5):=\\frac{1}{20}$</li></ol>",
+          "type": "Multiple Select",
+          "answer": "b;c",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,two-marks,multiple-selects",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427488",
+          "text": "Let the joint p.m.f. of $X$ and $Y$ be defined by<br />$$<br />f(i, j)=\\frac{i+j}{32}<br />$$<br />where $i=1,2$ and $j=1,2,3,4$. Find $P(X \\leq 3-Y)$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\frac{5}{32}$</li><li> $\\frac{8}{32}$</li> <li>$\\frac{9}{32}$</li>  <li>$\\frac{10}{32}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427493",
+          "text": "James Bond is playing a game that involves repeatedly rolling a fair standard 6-sided die. What is the expected number of rolls until he gets a 5 ?",
+          "type": "Numerical",
+          "answer": "6",
+          "award": 2,
+          "penalty": "0.0000",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,numerical-answers,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427482",
+          "text": "Suppose $X$ is the number of dust storms that occur on Mars next year. Assume that $X$ is a discrete uniform random variable that takes one of the 101 values in the range $\\{0,1,2, \\ldots, 100\\}$ . Let $Y=|X-E(X)|$. Find $E(Y)$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\frac{1275}{101}$</li><li> $\\frac{50}{101}$</li> <li>$\\frac{100}{101}$</li>  <li>$\\frac{2550}{101}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427503",
+          "text": "Consider the random variables $(X, Y)$ with the joint probability distribution given by:<br />$$<br />(X, Y)= \\begin{cases}(1,4) & \\text { with probability } \\frac{1}{3} \\\\ (2,2) & \\text { with probability } \\frac{1}{3} \\\\ (4,1) & \\text { with probability } \\frac{1}{3}\\end{cases}<br />$$<br />Determine the value of the cumulative distribution function $F_{X, Y}$ at the point $(3.5,4.5)$, i.e., $F_{X, Y}(3.5,4.5)$.<br /><br /><ol style=\"list-style-type:upper-alpha\"><li> $\\frac{1}{3}$</li><li> $\\frac{2}{3}$</li> <li>$\\frac{5}{6}$</li>  <li>$\\frac{1}{2}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427484",
+          "text": "Suppose you are applying to graduate school and want to improve your GRE writing score. Your score on any given day can be either 4 , 5 , or 6 , each with equal probability. You plan to take the test twice and will report the highest score out of the two tests. Let $X 1$ and $X 2$ be your scores on the two tests, which are independent of each other, and your final score $X=\\max \\{X 1, X 2\\}$.<br />What is the probability that your final score $X$ is 5 , i.e., $P(X=5)$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\frac{1}{3}$</li><li> $\\frac{4}{9}$</li> <li>$\\frac{5}{9}$</li>  <li>$\\frac{2}{9}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427490",
+          "text": "Let $X_{1}$ and $X_{2}$ be two Bernoulli random variables with the probability of success $p$. These variables are independent, where $X_{i}=0$ with probability $1-p$ and $X_{i}=1$ with probability $p$ for $i=1,2$. Define a random variable $Y=\\frac{X_{1}+X_{2}}{2}$.<br />What are the correct joint probabilities for $P\\left(Y=1, X_{1}=1\\right)$ and $P\\left(Y=0, X_{1}=0\\right)$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $P\\left(Y=1, X_{1}=1\\right)=p^{2}, \\quad P\\left(Y=0, X_{1}=0\\right)=1-p^{2}$</li><li> $P\\left(Y=1, X_{1}=1\\right)=p^{2}, \\quad P\\left(Y=0, X_{1}=0\\right)=(1-p)^{2}$</li> <li>$P\\left(Y=1, X_{1}=1\\right)=p(1-p), \\quad P\\left(Y=0, X_{1}=0\\right)=(1-p)^{2}$</li>  <li>$P\\left(Y=1, X_{1}=1\\right)=1-p^{2}, \\quad P\\left(Y=0, X_{1}=0\\right)=p(1-p)$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427505",
+          "text": "Given the probability mass function $p(X=x)$ defined as:<br />$$<br />p(X=x)= \\begin{cases}c\\left(\\frac{2}{3}\\right)^{x} & \\text { if } x=1,2,3, \\ldots, \\infty \\\\ 0 & \\text { otherwise }\\end{cases}<br />$$<br />find the constant $c$ so that $p(X=x)$ is a valid pmf for the random variable $X$.<br /><ol style=\"list-style-type:upper-alpha\"><li> $c=\\frac{1}{3}$</li><li> $c=\\frac{3}{2}$</li> <li>$c=\\frac{1}{2}$</li>  <li>$c=\\frac{2}{3}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 1,
+          "penalty": "0.3333",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,one-mark",
+          "category": "Probability"
+        },
+        {
+          "contents": "",
+          "post_id": "427501",
+          "text": "Consider a discrete random variable $X$ with the following probability mass function (pmf):<br />$$<br />P(X=x)= \\begin{cases}\\frac{1}{4} & \\text { if } x=2 \\\\ \\frac{1}{2} & \\text { if } x=4 \\\\ \\frac{1}{4} & \\text { if } x=6\\end{cases}<br />$$<br />What is the value of $P\\left(X^{2}-12 X+35>0\\right)$ ?<br /><ol style=\"list-style-type:upper-alpha\"><li> $\\frac{1}{4}$</li><li> $\\frac{3}{8}$</li> <li>$\\frac{1}{2}$</li>  <li>$\\frac{3}{4}$</li></ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "goclasses2026_da_probability_tw_3,goclasses-testseries-2026,goclasses,probability,two-marks",
+          "category": "Probability"
+        }
+      ]
+    }
+  ]
+}

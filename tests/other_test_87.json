@@ -1,0 +1,187 @@
+{
+  "name": "GATEBOOK-2019 TOC3: Turing Machines",
+  "duration": "54",
+  "total_qs": "15",
+  "total_qs_one": 0,
+  "total_qs_two": 15,
+  "apti_num_qs": 0,
+  "technical_num_qs": 15,
+  "apti_marks": 0,
+  "technical_marks": 30,
+  "total_marks": 30,
+  "num_options": "4",
+  "section": [
+    {
+      "name": "Technical",
+      "num_qs": 15,
+      "marks": 30,
+      "question": [
+        {
+          "contents": "",
+          "post_id": "270720",
+          "text": "<p>Which of the following languages is not Turing-recognizable?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$\\{\\langle M\\rangle \\mid &nbsp;M &nbsp;\\text{ is a deterministic Turing machine and } M \\text{&nbsp;accepts }010 \\}$</li>\n    <li>$\\{\\langle M\\rangle \\mid &nbsp;M \\text{ is a non deterministic Turing machine and } M&nbsp;\\text{ accepts }010 \\}$</li>\n    <li>$\\{\\langle M\\rangle \\mid &nbsp;M \\text{ is a deterministic Turing machine and } L(M) \\neq \\{\\} \\}$</li>\n    <li>$\\{\\langle M\\rangle \\mid &nbsp;M \\text{ is a deterministic Turing machine and } L(M) =&nbsp;\\Sigma^*&nbsp;\\}$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,recursive-and-recursively-enumerable-languages",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270719",
+          "text": "<p>Which one of the following statements is FALSE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>All regular languages are Turing decidable</li>\n    <li>If&nbsp;$L$&nbsp;and $\\bar L$&nbsp;are Turing recognizable then $L$ is Turing decidable</li>\n    <li>If&nbsp;$L_1$&nbsp;is regular and&nbsp;$L_2$&nbsp;is Turing decidable then&nbsp;$L_1\\cap L_2$&nbsp;is Turing decidable</li>\n    <li>The language&nbsp;$\\{\\langle M\\rangle \\mid&nbsp;M$&nbsp;is finite or infinite&nbsp;$\\}$&nbsp;is undecidable</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,recursive-and-recursively-enumerable-languages",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270718",
+          "text": "<p>Consider the Turing Machine $M$ over the input alphabet&nbsp;$\\Sigma&nbsp;= \\{0, 1\\}$ and&nbsp;$Γ&nbsp;= \\{0, 1, x, y,⊔\\},$ described by the following diagram. The $\\text{REJECT}$ state&nbsp;$q_{rej}$&nbsp;is not shown, and all \"missing\" transitions are assumed to go to the $\\text{REJECT}$ state.<br>\n<img alt=\"GATEBOOK-2019-TOC3-3\" src=\"data:image/png;base64,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\"></p>\n\n<p>Which of the following statements is FALSE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$0111\\text{ is not accepted}$</li>\n    <li>$000111&nbsp;\\text{ is accepted}$</li>\n    <li>$L(M) = \\{0^n1^n&nbsp;\\mid&nbsp;n\\geq 0\\}$</li>\n    <li>$\\delta (q_2, x) = (q_0, x, R)$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,turing-machine",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270717",
+          "text": "<p>Consider the following statements:</p>\n\n<ul>\n    <li>S1: For any $k &gt; 1,$ there is no language that is decided by a TM with $k$ tapes, but is undecidable by any TM having $k − 1$ or less tapes.</li>\n    <li>S2: If a language&nbsp;$L$&nbsp;is context-free then&nbsp;$\\bar L$&nbsp;is TM decidable.</li>\n</ul>\n\n<p>&nbsp; &nbsp; Which of the above statements is TRUE?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Only S1</li>\n    <li>Only S2</li>\n    <li>Both S1 and S2</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,recursive-and-recursively-enumerable-languages",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270716",
+          "text": "<p>$L&nbsp;=&nbsp;\\{x_1 \\#&nbsp;x_2 \\# \\ldots \\#x_n&nbsp;\\mid&nbsp;x_i \\in \\{a,b\\}^*&nbsp;\\}$&nbsp;for each&nbsp;$i$&nbsp;and, for some&nbsp;$i,$&nbsp;$x_i$&nbsp;is a palindrome$\\}.$ $L$ is</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Recursive but not context-free</li>\n    <li>Context free but not regular</li>\n    <li>Recursively enumerable but not recursive</li>\n    <li>Not Recursively enumerable</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,identify-class-language",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270715",
+          "text": "<ul>\n    <li>$L=\\{\\langle G,D \\rangle \\mid G$&nbsp;is a CFG and&nbsp;$D$&nbsp;is a DFA&nbsp;and&nbsp;$L(G)\\subseteq L(D)\\}$</li>\n</ul>\n\n<p>Which of the following statements about $L$ is TRUE?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$L$ is context-free&nbsp;but not regular</li>\n    <li>$L$ is regular</li>\n    <li>$L$ is recursive but not context-free</li>\n    <li>$L$ is Recursively enumerable but not recursive</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,recursive-and-recursively-enumerable-languages",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270714",
+          "text": "<ul>\n    <li>$L_1=\\{\\langle M\\rangle \\mid M&nbsp;\\text{&nbsp;is a TM and if we start }M$&nbsp;with a blank input tape, it will finally write some non-blank symbol on its tape&nbsp;$\\}$</li>\n    <li>$L_2=\\{\\langle M\\rangle \\mid M$&nbsp;is a TM and accepts a string of odd length&nbsp;$\\}$</li>\n</ul>\n\n<p>Which of the following statements is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$L_1$&nbsp;is decidable but&nbsp;$L_2$&nbsp;is undecidable</li>\n    <li>$L_1$&nbsp;is undecidable but&nbsp;$L_2$&nbsp;is decidable</li>\n    <li>$L_1$&nbsp;is decidable and&nbsp;$L_2$&nbsp;is decidable&nbsp; &nbsp;</li>\n    <li>$L_1$&nbsp;is undecidable and&nbsp;$L_2$&nbsp;is undecidable</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,recursive-and-recursively-enumerable-languages",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270713",
+          "text": "<p>Let&nbsp;$L=\\{\\langle M\\rangle \\mid M$&nbsp;is a TM and&nbsp;$L(M)$&nbsp;has at least $23456$ strings&nbsp;$\\}$</p>\n\n<p>Which one of the following statements is False?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>$L$&nbsp;is undecidable</li>\n    <li>$L$&nbsp;is recursively enumerable</li>\n    <li>$\\bar L$&nbsp;is recursively enumerable</li>\n    <li>Strings in $L$ can be enumerated by some Turing Machine</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270712",
+          "text": "<p>If a language&nbsp;$L$&nbsp;is decidable then which of the statements below is/are true?</p>\n\n<p>P:&nbsp;$L$&nbsp;and&nbsp;$\\bar L$&nbsp;are recursively enumerable</p>\n\n<p>Q:&nbsp;$L$&nbsp;is recursive</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only P</li>\n    <li>Only Q</li>\n    <li>Both P and Q</li>\n    <li>None</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270711",
+          "text": "<p>Consider the following language.</p>\n\n<ul>\n    <li>$L_c=\\{⟨M,\\omega⟩\\mid&nbsp;M$&nbsp;does not accept&nbsp;$\\omega\\}$</li>\n</ul>\n\n<p>$M\\;-$ encoding of Turing machine using&nbsp;the alphabet set $\\Sigma, $<br>\n$\\omega\\;-$ a string of $\\Sigma^*$</p>\n\n<p>$L_c$ is</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n    <li>Recursive</li>\n    <li>Recursively enumerable</li>\n    <li>Not recursively enumerable</li>\n    <li>Can not be decided</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,recursive-and-recursively-enumerable-languages",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270710",
+          "text": "<p>Consider the following Turing Machine:&nbsp;$M=\\left(\\{q_0,q_1,q_2,q_{acc},q_{rej}\\},\\{0,1\\},\\{0,1,t\\},\\delta ,q_0,q_{acc},_{qrej}\\right),$ where</p>\n\n<ul>\n    <li>$\\delta(q_0,0)=(q_1,1,R)$</li>\n    <li>$\\delta(q_1,1)=(q_2,1,L)$</li>\n    <li>$\\delta(q_2,1)=(q_1,1,R)$</li>\n    <li>$\\delta(q_1,t)=(q_{acc},t,R)$</li>\n</ul>\n\n<p>Assume for cases not mentioned above,&nbsp;$δ(q,a)=(q_{rej},t,R)$</p>\n\n<p>Which of the following is TRUE about Turing machine $M$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$M$ halts on all inputs.</li>\n    <li>$M$ never halts on some inputs.</li>\n    <li>$M$ does not halt on any input.</li>\n    <li>Suppose the current configuration is&nbsp;$1q00.$&nbsp;The next configuration is&nbsp;$q111⊔$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "b",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,turing-machine",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270709",
+          "text": "<p>Suppose&nbsp;$M_1$&nbsp;and&nbsp;$M_2$&nbsp;are two Turing machines such that&nbsp;$L(M_1)\\subseteq L(M_2).$&nbsp;Then</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>On every input on which&nbsp;$M_1$&nbsp;does not halt,&nbsp;$M_2$&nbsp;does not halt</li>\n    <li>On every input on which&nbsp;$M_1$&nbsp;halts,&nbsp;$M_2$&nbsp;halts too</li>\n    <li>On every input which&nbsp;$M_1$&nbsp;accepts,&nbsp;$M_2$&nbsp;halts</li>\n    <li>On every input which&nbsp;$M_2$&nbsp;accepts,&nbsp;$M_1$&nbsp;halts</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,turing-machine",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270708",
+          "text": "<p>Suppose&nbsp;$A$&nbsp;and&nbsp;$B$&nbsp;are recursively enumerable languages such that&nbsp;$A\\cup B=\\Sigma^*.$ Further, suppose $(A\\cap \\bar B)\\cup (\\bar A\\cap B)$&nbsp;is decidable. Which of the following is true?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>It is possible that either $A$ or $B$ is decidable but not both</li>\n    <li>None of them can be decidable</li>\n    <li>Both of them are regular</li>\n    <li>Both of them are decidable</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "d",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,recursive-and-recursively-enumerable-languages,decidability",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270707",
+          "text": "<p>Which of the following is a property of recursively enumerable languages?</p>\n\n<ul>\n    <li>$P: \\{M \\mid M \\text{ accepts 312929&nbsp;strings} \\}$</li>\n    <li>$Q:&nbsp;\\{M \\mid M \\text{&nbsp;has 312929&nbsp;states} \\}$</li>\n    <li>$R:&nbsp;\\{M \\mid M \\text{&nbsp;has 312929 symbols in tape alphabet} \\}$</li>\n</ul>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>Only $P$</li>\n    <li>Only $P$ and $Q$</li>\n    <li>Only $P$ and $R$</li>\n    <li>All of $P$, $Q$ and $R$</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "a",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,recursive-and-recursively-enumerable-languages",
+          "category": "Theory of Computation"
+        },
+        {
+          "contents": "",
+          "post_id": "270706",
+          "text": "<p>Consider the following language:</p>\n\n<ul>\n    <li>$L=&nbsp;\\{M\\mid&nbsp;M \\text{ is a TM and } \\mid L(M)\\mid \\; \\leq 3&nbsp;\\}$</li>\n</ul>\n\n<p>Which of the following statements is true about $L$?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n    <li>$L$ is recursive but not context free</li>\n    <li>$L$ is recursively enumerable but not recursive&nbsp; &nbsp;</li>\n    <li>$L$ is not recursively enumerable</li>\n    <li>$L$ is regular</li>\n</ol>",
+          "type": "Multiple Choice",
+          "answer": "c",
+          "award": 2,
+          "penalty": "0.6666",
+          "tags": "gb2019-toc3,recursive-and-recursively-enumerable-languages",
+          "category": "Theory of Computation"
+        }
+      ]
+    }
+  ]
+}
