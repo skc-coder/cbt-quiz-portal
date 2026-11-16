@@ -1470,8 +1470,24 @@ body {
     padding: 2px 4px;
   }
 
+  /* When viewport width decreases on mobile/tablets, Action column moves to the first column */
   .sticky-action-col {
+    position: sticky;
+    left: 0;
+    right: auto;
+    z-index: 6;
     min-width: 90px;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.25);
+    background-color: var(--bg-surface);
+  }
+
+  .spreadsheet-table thead th.sticky-action-col {
+    position: sticky;
+    left: 0;
+    right: auto;
+    z-index: 16;
+    background-color: var(--bg-surface-elevated);
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.25);
   }
 
   .sticky-action-col .btn {

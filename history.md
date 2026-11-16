@@ -1,5 +1,16 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: Mobile Action Column Position Switch (Update 10)
+- **GitHub Issue**: skc-coder/cbt-quiz-portal#8
+- **User Request**:
+  - When viewport width decreases (mobile view), move the Action / Start test column to the first column (pinned left) while keeping it in its original place on desktop wide screens.
+- **Implementations**:
+  - Configured media queries for `.sticky-action-col` under 768px:
+    - Set `position: sticky; left: 0; right: auto;` with elevated `z-index` and a subtle right cast shadow (`box-shadow: 2px 0 6px rgba(0, 0, 0, 0.25)`).
+    - Preserved desktop default (`position: sticky; right: 0; left: auto;`).
+  - Synchronized `src/styles.css` with root `style.css`.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: Working Device Banner Dismissal, Expanded Notice & Mobile Width Optimization (Update 9)
 - **GitHub Issue**: skc-coder/cbt-quiz-portal#7
 - **User Request**:
