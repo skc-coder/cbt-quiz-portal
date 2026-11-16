@@ -55,14 +55,6 @@
 
     <!-- 1. EXCEL-STYLE SPREADSHEET TABLE CATALOG VIEW -->
     <section id="catalogView" class="view-section active">
-      <!-- Top Adsterra Banner Slot (Non-exam view) -->
-      <div class="ad-slot-container" id="catalogTopAdSlot" style="min-height: 90px;">
-        <span class="ad-slot-label">Sponsor Advertisement</span>
-        <!-- Native Banner & Standard 728x90 Banner -->
-        <div id="container-69f22be2e9a4ef5c2425bc1031cd316d"></div>
-        <script async="async" data-cfasync="false" src="https://bauval.org/21/69f22be2e9a4ef5c2425bc1031cd316d"></script>
-      </div>
-
       <div class="table-toolbar">
         <div class="search-input-group">
           <span>🔍</span>
@@ -186,12 +178,6 @@
             <!-- Dynamically populated rows -->
           </tbody>
         </table>
-      </div>
-
-      <!-- Bottom of Tests Catalog Adsterra Banner Slot -->
-      <div class="ad-slot-container" style="margin: 16px 20px; min-height: 90px;">
-        <span class="ad-slot-label">Sponsor Advertisement</span>
-        <iframe srcdoc="<style>body{margin:0;display:flex;justify-content:center;align-items:center;background:transparent;}</style><script>atOptions={'key':'c2a4f2978bc4afb80ba299dffd691549','format':'iframe','height':90,'width':728,'params':{}};</script><script src='https://bauval.org/22/c2a4f2978bc4afb80ba299dffd691549'></script>" width="728" height="90" frameborder="0" scrolling="no"></iframe>
       </div>
     </section>
 
@@ -686,47 +672,70 @@
 
   <!-- 6. JSONBin.io Setup Guide Modal -->
   <div class="modal-overlay" id="jsonbinGuideModal">
-    <div class="modal-card" style="max-width: 620px;">
+    <div class="modal-card" style="max-width: 650px;">
       <div class="modal-header">
-        <span>📖 Quick Setup: Free Cloud Sync (JSONBin.io)</span>
+        <span>📖 Complete Setup Guide: Free JSONBin.io Cloud Sync</span>
         <button class="btn btn-secondary btn-sm closeModalBtn">&times;</button>
       </div>
       <div class="modal-body" style="font-size: 0.88rem; line-height: 1.6;">
         <p style="margin-bottom: 12px; color: var(--text-primary);">
-          Synchronize your exam progress, scores, bookmarks, and revision notes across any phone, laptop, or browser without losing your data.
+          <strong>Why use JSONBin.io?</strong> It gives you 100% free cloud storage so all your mock test scores, detailed question notes, bookmarks, and activity heatmaps are permanently saved and seamlessly synced across your phone, laptop, and college PCs without losing a single attempt.
         </p>
 
-        <h4 style="color: var(--primary); margin-top: 12px; margin-bottom: 6px;">Step 1: Create a Free Account & API Key</h4>
-        <p style="margin-bottom: 8px;">
-          1. Go to <a href="https://jsonbin.io" target="_blank" rel="noopener noreferrer" style="color: #58a6ff; text-decoration: underline;">https://jsonbin.io</a> and sign up for a free account.<br>
-          2. Under <strong>API Keys</strong> in your JSONBin dashboard, copy your <code>X-Master-Key</code>.
-        </p>
+        <h4 style="color: var(--primary); margin-top: 14px; margin-bottom: 6px;">Step 1: Create a Free JSONBin Account</h4>
+        <ol style="margin-left: 20px; margin-bottom: 8px;">
+          <li>Visit <a href="https://jsonbin.io" target="_blank" rel="noopener noreferrer" style="color: #58a6ff; text-decoration: underline; font-weight: 600;">https://jsonbin.io</a>.</li>
+          <li>Click <strong>Sign Up</strong> (you can sign up instantly with Google or GitHub).</li>
+        </ol>
 
-        <h4 style="color: var(--primary); margin-top: 12px; margin-bottom: 6px;">Step 2: Create a Bin or Paste Existing</h4>
-        <p style="margin-bottom: 8px;">
-          Create a private Bin with <code>{}</code>, and copy the <strong>Bin ID</strong> (from the URL or bin list).
-        </p>
+        <h4 style="color: var(--primary); margin-top: 14px; margin-bottom: 6px;">Step 2: Copy Your Master Key (`X-Master-Key`)</h4>
+        <ol style="margin-left: 20px; margin-bottom: 8px;">
+          <li>Once logged in, look at the left sidebar and click on <strong>API Keys</strong>.</li>
+          <li>Find the row labeled <strong>Master Key</strong> (or click <em>Create Access Key</em> with full read/write permissions).</li>
+          <li>Click the copy icon to copy your secret key (it looks like <code>$2a$10$...</code> or <code>$2b$...</code>).</li>
+        </ol>
+
+        <h4 style="color: var(--primary); margin-top: 14px; margin-bottom: 6px;">Step 3: Create Your Private Bin & Copy Bin ID</h4>
+        <ol style="margin-left: 20px; margin-bottom: 8px;">
+          <li>Click on <strong>Bins</strong> in the left sidebar, then click <strong>Create Bin</strong> (or <strong>+ New Bin</strong>).</li>
+          <li>In the JSON editor window, enter an empty JSON object: <code>{}</code></li>
+          <li>Ensure the privacy dropdown is set to <strong>Private</strong>.</li>
+          <li>Give your Bin a name (e.g. <code>cbt_progress</code>) and click <strong>Create</strong> or <strong>Save</strong>.</li>
+          <li>After saving, copy the <strong>Bin ID</strong> shown in the URL or bin details (a 24-character alphanumeric string like <code>6737f1a9ad19ca34f8...</code>).</li>
+        </ol>
 
         <!-- Direct Inputs in Guide Modal -->
-        <div style="background: var(--bg-surface-elevated); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; margin: 12px 0;">
-          <h5 style="color: #58a6ff; margin-bottom: 8px; font-size: 0.84rem;">Enter Credentials Directly:</h5>
+        <div style="background: var(--bg-surface-elevated); border: 1px solid var(--border-color); border-radius: 6px; padding: 14px; margin: 16px 0;">
+          <h4 style="color: #58a6ff; margin-bottom: 8px; font-size: 0.9rem;">Quick Connect: Paste Your Credentials Here</h4>
+          <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 10px;">
+            You can paste your Bin ID and Master Key right here to connect and start syncing immediately:
+          </p>
           <div style="display: flex; flex-direction: column; gap: 8px;">
-            <input type="text" id="guideJsonbinBinId" placeholder="JSONBin Bin ID (e.g. 6737...)" class="th-filter-input">
-            <input type="password" id="guideJsonbinApiKey" placeholder="X-Master-Key / Access Key" class="th-filter-input">
-            <button class="btn btn-primary btn-sm" id="btnSaveGuideCredentials" style="align-self: flex-start; margin-top: 4px;">
-              💾 Save & Sync Now
-            </button>
-            <div id="guideStatusMsg" style="font-size: 0.78rem; color: var(--primary);"></div>
+            <div>
+              <label style="font-size: 0.78rem; font-weight: 600; color: var(--text-secondary);">Bin ID:</label>
+              <input type="text" id="guideJsonbinBinId" placeholder="e.g. 6737f1a9ad19ca34f8123456" class="th-filter-input" style="width: 100%; margin-top: 2px;">
+            </div>
+            <div>
+              <label style="font-size: 0.78rem; font-weight: 600; color: var(--text-secondary);">Master Key (X-Master-Key):</label>
+              <input type="password" id="guideJsonbinApiKey" placeholder="e.g. $2a$10$abc123xyz..." class="th-filter-input" style="width: 100%; margin-top: 2px;">
+            </div>
+            <div style="display: flex; gap: 8px; align-items: center; margin-top: 6px;">
+              <button class="btn btn-primary btn-sm" id="btnSaveGuideCredentials">
+                💾 Save Credentials & Sync Now
+              </button>
+            </div>
+            <div id="guideStatusMsg" style="font-size: 0.82rem; color: var(--primary); margin-top: 4px;"></div>
           </div>
         </div>
 
         <div style="background: rgba(88, 166, 255, 0.1); border-left: 3px solid #58a6ff; padding: 10px 14px; margin-top: 10px; border-radius: 0 4px 4px 0; font-size: 0.82rem;">
-          <strong>💡 Pro-Tip for Safe Progress:</strong><br>
-          Remember to click <strong>🔄 Sync</strong> after finishing each test session! Even if your browser cache is cleared, syncing will safely merge and restore all your past test attempts without data loss.
+          <strong>💡 When to Sync:</strong><br>
+          • <strong>Automatic Sync:</strong> The portal automatically uploads your score to JSONBin when you finish and submit a test.<br>
+          • <strong>Manual Sync:</strong> Click the <strong>🔄 Sync</strong> button in the top navigation bar anytime you switch devices or browsers to merge new tests non-destructively!
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-secondary closeModalBtn">Close</button>
+        <button class="btn btn-secondary closeModalBtn">Close Guide</button>
       </div>
     </div>
   </div>

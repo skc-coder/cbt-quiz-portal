@@ -1,5 +1,15 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: UI Refinement & Comprehensive Setup Guide Details (Update 3)
+- **User Request**:
+  - Remove the intrusive ad container below the tabs/buttons and the ad slot at the very bottom of the catalog.
+  - Expand the JSONBin setup guide modal with thorough, detailed step-by-step instructions.
+- **Implementations**:
+  - Removed top ad slot `#catalogTopAdSlot` from above the catalog toolbar.
+  - Removed the bottom ad container from underneath the spreadsheet catalog table.
+  - Expanded `#jsonbinGuideModal` with comprehensive, numbered step-by-step instructions (creating account, copying Master Key, creating a private Bin with `{}`, copying the 24-character Bin ID, and explaining when automatic/manual sync occurs) alongside the direct input fields.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: Adsterra Monetization Tags & Direct Setup Guide Inputs (Update 2)
 - **User Request**:
   - Add input fields for JSONBin Bin ID and Master Key directly inside the setup guide modal.
