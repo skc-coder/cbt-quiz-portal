@@ -1,5 +1,15 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: Remove Popunder Script Completely (Update 12)
+- **GitHub Issue**: skc-coder/cbt-quiz-portal#12
+- **User Request**:
+  - Remove the popunder for now because it disables/freezes the whole website before anything is clicked.
+- **Implementations**:
+  - Removed the Adsterra popunder script tag (`https://abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70`) from `index.html`.
+  - Website buttons, inputs, tabs, and start actions now work instantly on the very first click without being swallowed by full-screen transparent overlays.
+  - Retained clean non-intrusive ad banners across catalog, performance list, and post-exam review, as well as the support sponsor link.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: Mobile First Column Realignment & Strict CBT Ad Removal (Update 11)
 - **GitHub Issues**: skc-coder/cbt-quiz-portal#9, skc-coder/cbt-quiz-portal#10
 - **User Request**:
