@@ -1,5 +1,21 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: Working Device Banner Dismissal, Expanded Notice & Mobile Width Optimization (Update 9)
+- **GitHub Issue**: skc-coder/cbt-quiz-portal#7
+- **User Request**:
+  - The cross button for the desktop banner doesn't work; fix it.
+  - Expand the banner message to highlight the scientific calculator and side palette benefits, keeping it concise.
+  - Fix mobile layout overflowing/breaking beyond screen width constraints.
+- **Implementations**:
+  - Added click handler for `#closeDeviceNoticeBtn` with `localStorage` persistence (`hide_device_notice_v1`) in `setupNavigation()`.
+  - Updated banner copy to concisely highlight the full-screen TCS iON GATE exam environment, side question palette, full scientific calculator, and high-speed keypad shortcuts.
+  - Resolved mobile horizontal blowout issues across screen widths down to 320px:
+    - Added CSS rules preventing fixed iframe ad containers from overflowing viewport (`max-width: 100%`, scaled down `transform: scale(0.72)` inside narrow containers).
+    - Added responsive image rules (`max-width: 100%`, `height: auto`) and touch-scrollable MathJax/KaTeX formula containers (`katex-display`).
+    - Enforced `max-width: 100vw; overflow-x: hidden;` on body and view containers.
+  - Synchronized `app.js` and `style.css` in root.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: High-Density Mobile Responsiveness & Typography Scaling (Update 8)
 - **GitHub Issue**: skc-coder/cbt-quiz-portal#5
 - **User Request**:

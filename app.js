@@ -377,6 +377,16 @@ Please provide:
 
   // --- NAVIGATION & FULLSCREEN CONTROL ---
   function setupNavigation() {
+    // Device Notice Banner Dismissal
+    const noticeBar = document.getElementById('deviceNoticeBar');
+    if (localStorage.getItem('hide_device_notice_v1') === 'true' && noticeBar) {
+      noticeBar.style.display = 'none';
+    }
+    document.getElementById('closeDeviceNoticeBtn')?.addEventListener('click', () => {
+      if (noticeBar) noticeBar.style.display = 'none';
+      localStorage.setItem('hide_device_notice_v1', 'true');
+    });
+
     const tabs = document.querySelectorAll('.tab-btn');
     tabs.forEach((tab) => {
       tab.addEventListener('click', () => {
@@ -455,15 +465,20 @@ Please provide:
     const supportBanner = document.getElementById('supportBanner');
 
     // While in examination view: hide main header, tabs, and support banner for pure distraction-free focus
+    const noticeBar = document.getElementById('deviceNoticeBar');
     if (viewId === 'examView') {
       if (header) header.style.display = 'none';
       if (tabsNav) tabsNav.style.display = 'none';
       if (supportBanner) supportBanner.style.display = 'none';
+      if (noticeBar) noticeBar.style.display = 'none';
       document.body.classList.add('in-cbt-exam');
     } else {
       if (header) header.style.display = 'flex';
       if (tabsNav) tabsNav.style.display = 'flex';
       if (supportBanner) supportBanner.style.display = 'flex';
+      if (noticeBar && localStorage.getItem('hide_device_notice_v1') !== 'true') {
+        noticeBar.style.display = 'flex';
+      }
       document.body.classList.remove('in-cbt-exam');
     }
 
