@@ -1,0 +1,81 @@
+native banner
+<script async="async" data-cfasync="false" src="https://bauval.org/21/69f22be2e9a4ef5c2425bc1031cd316d"></script>
+<div id="container-69f22be2e9a4ef5c2425bc1031cd316d"></div>
+
+smart link
+https://araplhn.org/4/5b9ffdceaece6bd353e7079b536e74fa (this link will be presented to user to press to supprot website at top...make it a button..write there to click to support)
+
+social bar
+<script data-cfasync="false" src="https://bauval.org/14/3a33496a1c21bccf192883f2ecbb2dda"></script>
+
+banner <script>
+  atOptions = {
+    'key' : '1cc721ea8b1f327d5d78c2be69284c8e',
+    'format' : 'iframe',
+    'height' : 60,
+    'width' : 468,
+    'params' : {}
+  };
+</script>
+<script src="https://bauval.org/22/1cc721ea8b1f327d5d78c2be69284c8e"></script>
+
+<script>
+  atOptions = {
+    'key' : '14deefe45b0cc365fc4a2d8672e85d0e',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script src="https://bauval.org/22/14deefe45b0cc365fc4a2d8672e85d0e"></script>
+
+
+<script>
+  atOptions = {
+    'key' : '3a42e995341b0d98b189a5c03b63c01b',
+    'format' : 'iframe',
+    'height' : 300,
+    'width' : 160,
+    'params' : {}
+  };
+</script>
+<script src="https://bauval.org/22/3a42e995341b0d98b189a5c03b63c01b"></script>
+
+
+<script>
+  atOptions = {
+    'key' : 'b2ca6d8be814e55d26718f2845b1d4fa',
+    'format' : 'iframe',
+    'height' : 600,
+    'width' : 160,
+    'params' : {}
+  };
+</script>
+<script src="https://bauval.org/22/b2ca6d8be814e55d26718f2845b1d4fa"></script>
+
+
+<script>
+  atOptions = {
+    'key' : 'c2a4f2978bc4afb80ba299dffd691549',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://bauval.org/22/c2a4f2978bc4afb80ba299dffd691549"></script>
+
+
+<script>
+  atOptions = {
+    'key' : '49fc68c8725eaeb4e5685395985ead1d',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://bauval.org/22/49fc68c8725eaeb4e5685395985ead1d"></script>
+
+popunder <script data-cfasync="false" src="https://abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70"></script>

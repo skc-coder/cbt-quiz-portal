@@ -808,6 +808,21 @@ Please provide:
       `;
 
       fragment.appendChild(tr);
+
+      // Insert an elegant sponsor ad banner row after every 5 test rows
+      if ((pageLocalIndex + 1) % 5 === 0 && pageLocalIndex + 1 < pageItems.length) {
+        const adTr = document.createElement('tr');
+        adTr.className = 'table-ad-row';
+        adTr.innerHTML = `
+          <td colspan="12" style="background: rgba(22, 27, 34, 0.85); padding: 8px 12px; text-align: center; border-top: 1px dashed #30363d; border-bottom: 1px dashed #30363d;">
+            <div style="font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.5px; color: #8b949e; margin-bottom: 4px;">Sponsor Advertisement</div>
+            <div style="display: flex; justify-content: center; overflow: hidden;">
+              <iframe srcdoc="<style>body{margin:0;display:flex;justify-content:center;align-items:center;background:transparent;}</style><script>atOptions={'key':'1cc721ea8b1f327d5d78c2be69284c8e','format':'iframe','height':60,'width':468,'params':{}};</script><script src='https://bauval.org/22/1cc721ea8b1f327d5d78c2be69284c8e'></script>" width="468" height="60" frameborder="0" scrolling="no"></iframe>
+            </div>
+          </td>
+        `;
+        fragment.appendChild(adTr);
+      }
     });
 
     tbody.appendChild(fragment);
@@ -1767,7 +1782,7 @@ Please provide:
       return;
     }
 
-    filtered.forEach((item) => {
+    filtered.forEach((item, fIndex) => {
       const q = (testDef && testDef.flattenedQuestions && testDef.flattenedQuestions[item.idx]) ? testDef.flattenedQuestions[item.idx] : (item.q || {});
       const card = document.createElement('div');
       
@@ -1847,6 +1862,19 @@ Please provide:
       `;
 
       container.appendChild(card);
+
+      // Insert sponsor ad banner between questions (every 3 questions in solution review)
+      if ((fIndex + 1) % 3 === 0 && fIndex + 1 < filtered.length) {
+        const adCard = document.createElement('div');
+        adCard.className = 'ad-slot-container';
+        adCard.style.margin = '16px 0';
+        adCard.style.minHeight = '75px';
+        adCard.innerHTML = `
+          <span class="ad-slot-label">Sponsor Advertisement</span>
+          <iframe srcdoc="<style>body{margin:0;display:flex;justify-content:center;align-items:center;background:transparent;}</style><script>atOptions={'key':'1cc721ea8b1f327d5d78c2be69284c8e','format':'iframe','height':60,'width':468,'params':{}};</script><script src='https://bauval.org/22/1cc721ea8b1f327d5d78c2be69284c8e'></script>" width="468" height="60" frameborder="0" scrolling="no"></iframe>
+        `;
+        container.appendChild(adCard);
+      }
     });
 
     // Bind Note autosave listeners
@@ -2031,6 +2059,10 @@ Please provide:
     // Setup Guide Modal Elements
     const guideModal = document.getElementById('jsonbinGuideModal');
     const openGuideBtn = document.getElementById('btnOpenJsonbinGuide');
+    const guideBinIdInput = document.getElementById('guideJsonbinBinId');
+    const guideApiKeyInput = document.getElementById('guideJsonbinApiKey');
+    const btnSaveGuideCredentials = document.getElementById('btnSaveGuideCredentials');
+    const guideStatusMsg = document.getElementById('guideStatusMsg');
 
     // Conflict Resolver Modal Elements
     const conflictModal = document.getElementById('conflictResolverModal');
@@ -2048,7 +2080,37 @@ Please provide:
     const copyJsonBtn = document.getElementById('btnCopyJson');
 
     openGuideBtn?.addEventListener('click', () => {
+      if (guideBinIdInput) guideBinIdInput.value = state.userData.settings.jsonbinBinId || '';
+      if (guideApiKeyInput) guideApiKeyInput.value = state.userData.settings.jsonbinApiKey || '';
+      if (guideStatusMsg) guideStatusMsg.textContent = '';
       guideModal.classList.add('active');
+    });
+
+    btnSaveGuideCredentials?.addEventListener('click', async () => {
+      const bId = guideBinIdInput ? guideBinIdInput.value.trim() : '';
+      const key = guideApiKeyInput ? guideApiKeyInput.value.trim() : '';
+
+      if (!bId || !key) {
+        if (guideStatusMsg) guideStatusMsg.textContent = '⚠️ Please enter both Bin ID and API Key.';
+        return;
+      }
+
+      state.userData.settings.jsonbinBinId = bId;
+      state.userData.settings.jsonbinApiKey = key;
+      if (binIdInput) binIdInput.value = bId;
+      if (apiKeyInput) apiKeyInput.value = key;
+      saveUserData();
+
+      if (guideStatusMsg) guideStatusMsg.textContent = '🔄 Verifying credentials and syncing...';
+      const success = await pullAndMergeJSONBin(true);
+      if (success) {
+        if (guideStatusMsg) guideStatusMsg.textContent = '✅ Connected and synced successfully!';
+        setTimeout(() => {
+          guideModal.classList.remove('active');
+        }, 1200);
+      } else {
+        if (guideStatusMsg) guideStatusMsg.textContent = '❌ Sync failed. Please verify Bin ID & Key.';
+      }
     });
 
     function populateConfigFields() {
@@ -2209,6 +2271,9 @@ Please provide:
       const apiKey = (apiKeyInput ? apiKeyInput.value.trim() : '') || state.userData.settings.jsonbinApiKey;
 
       if (!binId || !apiKey) {
+        if (guideBinIdInput) guideBinIdInput.value = state.userData.settings.jsonbinBinId || '';
+        if (guideApiKeyInput) guideApiKeyInput.value = state.userData.settings.jsonbinApiKey || '';
+        if (guideStatusMsg) guideStatusMsg.textContent = '';
         if (guideModal) guideModal.classList.add('active');
         showToast('JSONBin credentials not set. Follow the quick setup guide!', 'info');
         return false;
@@ -2297,6 +2362,9 @@ Please provide:
       const apiKey = state.userData.settings.jsonbinApiKey;
 
       if (!binId || !apiKey) {
+        if (guideBinIdInput) guideBinIdInput.value = state.userData.settings.jsonbinBinId || '';
+        if (guideApiKeyInput) guideApiKeyInput.value = state.userData.settings.jsonbinApiKey || '';
+        if (guideStatusMsg) guideStatusMsg.textContent = '';
         guideModal.classList.add('active');
         showToast('Please configure your JSONBin Bin ID and Master Key to sync!', 'info');
         return;

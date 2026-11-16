@@ -1,5 +1,21 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: Adsterra Monetization Tags & Direct Setup Guide Inputs (Update 2)
+- **User Request**:
+  - Add input fields for JSONBin Bin ID and Master Key directly inside the setup guide modal.
+  - Integrate provided Adsterra ad codes and smart link (`https://araplhn.org/4/5b9ffdceaece6bd353e7079b536e74fa`).
+  - Add clickable support button in top banner pointing to the smart link.
+  - Insert ad banners across the tests catalog list (every 5 tests), at the bottom of the tests catalog, on the performance/attempts list, and between questions in post-exam solution review (every 3 questions).
+- **Implementations**:
+  - Enhanced `#jsonbinGuideModal` with direct Bin ID & API Key inputs and instant verification/sync button (`#btnSaveGuideCredentials`).
+  - Added smart link button in the top banner: `❤️ Click to Support (Sponsor Ad)`.
+  - Added native banner container `#container-69f22be2e9a4ef5c2425bc1031cd316d` and script at top of test catalog.
+  - Added social bar script (`bauval.org/14/3a33496a1c21bccf192883f2ecbb2dda`) and popunder (`abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70`).
+  - Inserted iframe-isolated banner ad rows after every 5 test rows in the catalog spreadsheet table.
+  - Inserted 728x90 banner at the bottom of the catalog and 468x60 banner above the performance attempts table.
+  - Inserted sponsor ad slots between review cards in `#solutionReviewList` every 3 questions.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: Public Release & Vercel Migration (Issue #1)
 - **User Request**:
   - Make a public web version hosted on Vercel separate from `gate-quiz-addon`.

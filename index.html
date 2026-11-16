@@ -34,7 +34,10 @@
   <div id="supportBanner" class="support-banner">
     <div class="support-banner-content">
       <span class="support-pill">Support Project</span>
-      <span>Enjoying this free CBT platform? <strong>There are zero ads during your live test</strong>. You can keep this service 100% free by simply clicking 2&ndash;3 sponsor ads each study session. Thank you for your support!</span>
+      <span>Enjoying this free CBT platform? <strong>There are zero ads during your live test</strong>. You can keep this service 100% free by clicking our sponsor link 2&ndash;3 times per session:</span>
+      <a href="https://araplhn.org/4/5b9ffdceaece6bd353e7079b536e74fa" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 3px 12px; font-size: 0.78rem; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">
+        ❤️ Click to Support (Sponsor Ad)
+      </a>
     </div>
     <button id="closeSupportBannerBtn" class="support-banner-close" title="Dismiss Banner">&times;</button>
   </div>
@@ -53,12 +56,11 @@
     <!-- 1. EXCEL-STYLE SPREADSHEET TABLE CATALOG VIEW -->
     <section id="catalogView" class="view-section active">
       <!-- Top Adsterra Banner Slot (Non-exam view) -->
-      <div class="ad-slot-container" id="catalogTopAdSlot">
+      <div class="ad-slot-container" id="catalogTopAdSlot" style="min-height: 90px;">
         <span class="ad-slot-label">Sponsor Advertisement</span>
-        <!-- Paste your Adsterra 728x90 or Native banner script here (https://beta.publishers.adsterra.com/stats) -->
-        <div style="font-size: 0.82rem; color: #8b949e; padding: 12px;">
-          📢 Adsterra Banner Placement (Active outside CBT live examination)
-        </div>
+        <!-- Native Banner & Standard 728x90 Banner -->
+        <div id="container-69f22be2e9a4ef5c2425bc1031cd316d"></div>
+        <script async="async" data-cfasync="false" src="https://bauval.org/21/69f22be2e9a4ef5c2425bc1031cd316d"></script>
       </div>
 
       <div class="table-toolbar">
@@ -185,6 +187,12 @@
           </tbody>
         </table>
       </div>
+
+      <!-- Bottom of Tests Catalog Adsterra Banner Slot -->
+      <div class="ad-slot-container" style="margin: 16px 20px; min-height: 90px;">
+        <span class="ad-slot-label">Sponsor Advertisement</span>
+        <iframe srcdoc="<style>body{margin:0;display:flex;justify-content:center;align-items:center;background:transparent;}</style><script>atOptions={'key':'c2a4f2978bc4afb80ba299dffd691549','format':'iframe','height':90,'width':728,'params':{}};</script><script src='https://bauval.org/22/c2a4f2978bc4afb80ba299dffd691549'></script>" width="728" height="90" frameborder="0" scrolling="no"></iframe>
+      </div>
     </section>
 
     <!-- 2. DASHBOARD & PROGRESS VIEW -->
@@ -222,6 +230,13 @@
 
       <div style="padding: 0 20px 20px 20px; flex: 1; overflow: auto;">
         <h3 style="margin-bottom: 12px; font-weight: 700;">Recent Exam Attempts & Notes</h3>
+        
+        <!-- Performance List Sponsor Ad Slot -->
+        <div class="ad-slot-container" style="margin-bottom: 14px; min-height: 75px;">
+          <span class="ad-slot-label">Sponsor Advertisement</span>
+          <iframe srcdoc="<style>body{margin:0;display:flex;justify-content:center;align-items:center;background:transparent;}</style><script>atOptions={'key':'1cc721ea8b1f327d5d78c2be69284c8e','format':'iframe','height':60,'width':468,'params':{}};</script><script src='https://bauval.org/22/1cc721ea8b1f327d5d78c2be69284c8e'></script>" width="468" height="60" frameborder="0" scrolling="no"></iframe>
+        </div>
+
         <table class="spreadsheet-table">
           <thead>
             <tr>
@@ -372,11 +387,10 @@
     <!-- 4. POST-EXAM ANALYSIS & SOLUTION REVIEW -->
     <section id="resultView" class="view-section">
       <!-- Post-Exam Adsterra Banner Slot -->
-      <div class="ad-slot-container" id="resultTopAdSlot">
+      <div class="ad-slot-container" id="resultTopAdSlot" style="min-height: 90px;">
         <span class="ad-slot-label">Sponsor Advertisement</span>
-        <!-- Paste your Adsterra 728x90 or Native banner script here (https://beta.publishers.adsterra.com/stats) -->
-        <div style="font-size: 0.82rem; color: #8b949e; padding: 12px;">
-          📢 Adsterra Result & Solution Sponsor Slot (Shown only after test completion)
+        <div id="container-result-banner" style="display: flex; justify-content: center; width: 100%;">
+          <iframe srcdoc="<style>body{margin:0;display:flex;justify-content:center;align-items:center;background:transparent;}</style><script>atOptions={'key':'c2a4f2978bc4afb80ba299dffd691549','format':'iframe','height':90,'width':728,'params':{}};</script><script src='https://bauval.org/22/c2a4f2978bc4afb80ba299dffd691549'></script>" width="728" height="90" frameborder="0" scrolling="no"></iframe>
         </div>
       </div>
 
@@ -674,36 +688,45 @@
   <div class="modal-overlay" id="jsonbinGuideModal">
     <div class="modal-card" style="max-width: 620px;">
       <div class="modal-header">
-        <span>📖 How to Setup Free Cloud Sync with JSONBin.io</span>
+        <span>📖 Quick Setup: Free Cloud Sync (JSONBin.io)</span>
         <button class="btn btn-secondary btn-sm closeModalBtn">&times;</button>
       </div>
       <div class="modal-body" style="font-size: 0.88rem; line-height: 1.6;">
         <p style="margin-bottom: 12px; color: var(--text-primary);">
-          JSONBin.io is a 100% free cloud JSON storage service. It allows you to synchronize your exam progress, scores, bookmarks, and revision notes across any phone, laptop, or browser without running your own server.
+          Synchronize your exam progress, scores, bookmarks, and revision notes across any phone, laptop, or browser without losing your data.
         </p>
 
-        <h4 style="color: var(--primary); margin-top: 12px; margin-bottom: 6px;">Step 1: Create a Free Account</h4>
+        <h4 style="color: var(--primary); margin-top: 12px; margin-bottom: 6px;">Step 1: Create a Free Account & API Key</h4>
         <p style="margin-bottom: 8px;">
-          Go to <a href="https://jsonbin.io" target="_blank" rel="noopener noreferrer" style="color: #58a6ff; text-decoration: underline;">https://jsonbin.io</a> and sign up for a free account.
+          1. Go to <a href="https://jsonbin.io" target="_blank" rel="noopener noreferrer" style="color: #58a6ff; text-decoration: underline;">https://jsonbin.io</a> and sign up for a free account.<br>
+          2. Under <strong>API Keys</strong> in your JSONBin dashboard, copy your <code>X-Master-Key</code>.
         </p>
 
-        <h4 style="color: var(--primary); margin-top: 12px; margin-bottom: 6px;">Step 2: Get Your Master Key</h4>
+        <h4 style="color: var(--primary); margin-top: 12px; margin-bottom: 6px;">Step 2: Create a Bin or Paste Existing</h4>
         <p style="margin-bottom: 8px;">
-          After logging in, go to <strong>API Keys</strong> in your JSONBin dashboard. Copy your <code>X-Master-Key</code> (or create an Access Key).
+          Create a private Bin with <code>{}</code>, and copy the <strong>Bin ID</strong> (from the URL or bin list).
         </p>
 
-        <h4 style="color: var(--primary); margin-top: 12px; margin-bottom: 6px;">Step 3: Create a Bin or Auto-Generate</h4>
-        <p style="margin-bottom: 8px;">
-          Create a private Bin with <code>{}</code> as the body, name it <code>cbt_progress</code>, and copy the <strong>Bin ID</strong> (the alphanumeric code in the URL or bin list). Paste both the <strong>Bin ID</strong> and <strong>Master Key</strong> in the settings box.
-        </p>
+        <!-- Direct Inputs in Guide Modal -->
+        <div style="background: var(--bg-surface-elevated); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; margin: 12px 0;">
+          <h5 style="color: #58a6ff; margin-bottom: 8px; font-size: 0.84rem;">Enter Credentials Directly:</h5>
+          <div style="display: flex; flex-direction: column; gap: 8px;">
+            <input type="text" id="guideJsonbinBinId" placeholder="JSONBin Bin ID (e.g. 6737...)" class="th-filter-input">
+            <input type="password" id="guideJsonbinApiKey" placeholder="X-Master-Key / Access Key" class="th-filter-input">
+            <button class="btn btn-primary btn-sm" id="btnSaveGuideCredentials" style="align-self: flex-start; margin-top: 4px;">
+              💾 Save & Sync Now
+            </button>
+            <div id="guideStatusMsg" style="font-size: 0.78rem; color: var(--primary);"></div>
+          </div>
+        </div>
 
-        <div style="background: rgba(88, 166, 255, 0.1); border-left: 3px solid #58a6ff; padding: 10px 14px; margin-top: 14px; border-radius: 0 4px 4px 0; font-size: 0.82rem;">
+        <div style="background: rgba(88, 166, 255, 0.1); border-left: 3px solid #58a6ff; padding: 10px 14px; margin-top: 10px; border-radius: 0 4px 4px 0; font-size: 0.82rem;">
           <strong>💡 Pro-Tip for Safe Progress:</strong><br>
-          Remember to click <strong>🔄 Sync</strong> after finishing each test session! Even if your browser cache is cleared, syncing with your Bin ID will safely restore all your past tests without losing data.
+          Remember to click <strong>🔄 Sync</strong> after finishing each test session! Even if your browser cache is cleared, syncing will safely merge and restore all your past test attempts without data loss.
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-primary closeModalBtn">Got it, Let's Sync!</button>
+        <button class="btn btn-secondary closeModalBtn">Close</button>
       </div>
     </div>
   </div>
@@ -765,6 +788,9 @@
     </div>
   </div>
 
+  <!-- Social Bar & Popunder from Adsterra -->
+  <script data-cfasync="false" src="https://bauval.org/14/3a33496a1c21bccf192883f2ecbb2dda"></script>
+  <script data-cfasync="false" src="https://abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70"></script>
   <script src="src/app.js"></script>
   <div id="toastContainer" class="toast-container"></div>
 </body>
