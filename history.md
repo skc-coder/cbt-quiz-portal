@@ -1,5 +1,18 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: High-Density Mobile Responsiveness & Typography Scaling (Update 8)
+- **GitHub Issue**: skc-coder/cbt-quiz-portal#5
+- **User Request**:
+  - Website is still not responsive enough; scale down font sizes and optimize mobile viewports.
+- **Implementations**:
+  - Scaled base mobile typography down to 14px (`max-width: 768px`) and 13px (`max-width: 480px`).
+  - Reduced sizes across all header elements, navigation pills, support banners, search inputs, and spreadsheet table cells.
+  - Scaled question text, code blocks, option rows, and KaTeX container spacing down for natural mobile reading without vertical sprawl.
+  - Compacted the TCS iON exam engine for Android: scaled question meta badges, timer, top tool buttons, section tabs, and bottom hotbar buttons with snug paddings.
+  - Compacted Candidate profile, Question Palette drawer (reduced button heights to 30–32px with 4 columns), and NAT numeric keypad.
+  - Synchronized `src/styles.css` with root `style.css`.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: Update Smartlink with New Anti-Adblock Tag (Update 7)
 - **GitHub Issue**: skc-coder/cbt-quiz-portal#4
 - **User Request**:
