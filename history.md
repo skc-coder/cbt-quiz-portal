@@ -1,5 +1,15 @@
 # Project History & Task Tracker: CBT Practice Portal
 
+## 2026-11-16: Update Smartlink with New Anti-Adblock Tag (Update 7)
+- **GitHub Issue**: skc-coder/cbt-quiz-portal#4
+- **User Request**:
+  - Integrate new Smartlink tag `https://asiafilm.org/4/8e7a72df55209eb75d77dbd9698ccf19` for anti-adblock optimization.
+- **Implementations**:
+  - Updated the top sponsor support button in `index.html` to point to `https://asiafilm.org/4/8e7a72df55209eb75d77dbd9698ccf19`.
+  - Updated `ad links.txt` with the new anti-adblock Smartlink tag.
+  - Confirmed the popunder script tag (`https://abscloud.org/1/69ea3fa0d64709dae2f4378ed6be0a70`) is directly active and in sync.
+- **Status**: Tested, verified, and committed.
+
 ## 2026-11-16: Revert Popunder Throttling to Original Direct Script Tag (Update 6)
 - **GitHub Issue**: skc-coder/cbt-quiz-portal#3
 - **User Request**:

@@ -3,7 +3,8 @@ native banner
 <div id="container-69f22be2e9a4ef5c2425bc1031cd316d"></div>
 
 smart link
-https://araplhn.org/4/5b9ffdceaece6bd353e7079b536e74fa (this link will be presented to user to press to supprot website at top...make it a button..write there to click to support)
+https://asiafilm.org/4/8e7a72df55209eb75d77dbd9698ccf19
+(previous: https://araplhn.org/4/5b9ffdceaece6bd353e7079b536e74fa)
 
 social bar
 <script data-cfasync="false" src="https://bauval.org/14/3a33496a1c21bccf192883f2ecbb2dda"></script>
